@@ -3,9 +3,15 @@
   <file t3:id="1877653884" source-language="en" datatype="plaintext" original="messages" date="2019-04-27T03:38:32Z" product-name="form" target-language="de">
     <header/>
     <body>
-            
-            
-            
-        </body>
+      <trans-unit id="formEditor.error.headline" xml:space="preserve">
+                <source>Oops! Something went wrong.</source>
+            <target state="translated">Hoppla! Etwas ist schief gelaufen.</target></trans-unit>
+      <trans-unit id="formEditor.error.message" xml:space="preserve">
+                <source>Please contact your administrator.</source>
+            <target state="translated">Bitte kontaktieren Sie Ihren Administrator.</target></trans-unit>
+      <trans-unit id="formEditor.error.technicalReason" xml:space="preserve">
+                <source>Technical Reason:</source>
+            <target state="translated">Technischer Grund:</target></trans-unit>
+    </body>
   </file>
 </xliff>
