@@ -5,11 +5,11 @@
     <body>
       <trans-unit id="func_0.alttitle">
         <source>Basic Settings</source>
-        <target state="needs-translation">Basic Settings</target>
+        <target state="translated">Grundeinstellungen</target>
       </trans-unit>
       <trans-unit id="func_0.description">
         <source>Displays a selection of fields from page records which are regarded as foundational settings for pages. That includes aliases, start- and stop times, access restriction information etc.</source>
-        <target state="needs-translation">Displays a selection of fields from page records which are regarded as foundational settings for pages. That includes aliases, start- and stop times, access restriction information etc.</target>
+        <target state="translated">Zeigt eine Auswahl von Feldern aus Seiteneinträgen an, die als grundlegende Einstellungen für Seiten angesehen werden. Dazu gehören Alias, Start- und Stop-Zeiten, Zugriffsbeschränkungen usw.</target>
       </trans-unit>
       <trans-unit id="func_0.details" xml:space="preserve">
 				<source>The Basic Settings view resembles the Cache and Age view quite a lot. They are different only by the selection of fields they show.
@@ -17,17 +17,17 @@
 &lt;b&gt;Batch editing page fields&lt;/b&gt;
 You will find multiple edit-icons around the interface. All edit icons in head lines will bring you to an editing dialog where you can change exactly that field for all listed tables! Very useful for batch-editing of say all "Start" times.
 If you click the edit icon at the ID numbers of pages you will get straight to the regular editing of a whole page record.</source>
-			<target state="needs-translation">The Basic Settings view resembles the Cache and Age view quite a lot. They are different only by the selection of fields they show.
+			<target state="translated">Die Grundeinstellungen-Ansicht ähnelt der Cache- und Altersansicht ziemlich viel. Sie sind nur durch die Auswahl der Felder, die sie anzeigen.
 
-&lt;b&gt;Batch editing page fields&lt;/b&gt;
-You will find multiple edit-icons around the interface. All edit icons in head lines will bring you to an editing dialog where you can change exactly that field for all listed tables! Very useful for batch-editing of say all "Start" times.
-If you click the edit icon at the ID numbers of pages you will get straight to the regular editing of a whole page record.</target></trans-unit>
+&lt;b&gt;Batch-Editierseiten&lt;/b&gt;
+Sie finden mehrere Bearbeitungssymbole rund um die Schnittstelle. Alle Editiersymbole in Kopfzeilen bringen Sie zu einem Bearbeitungsdialog, in dem Sie genau dieses Feld für alle gelisteten Tabellen ändern können! Sehr nützlich für die Batch-Bearbeitung von sagen allen "Start"-Zeiten.
+Wenn Sie auf das Bearbeiten-Symbol in den ID-Nummern der Seiten klicken, werden Sie direkt zur regulären Bearbeitung eines ganzen Seitenbuchs gelangen.</target></trans-unit>
       <trans-unit id="_func_0.seeAlso" xml:space="preserve">
 				<source>xMOD_csh_corebe:list_module,
 _MOD_web_info:func_2,
 _MOD_web_info:pagetree_overview</source>
 				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-			<target state="needs-translation">xMOD_csh_corebe:list_module,
+			<target state="translated">xMOD_csh_corebe:list_module,
 _MOD_web_info:func_2,
 _MOD_web_info:pagetree_overview</target></trans-unit>
       <trans-unit id="_func_0.image" xml:space="preserve">
@@ -35,73 +35,73 @@ _MOD_web_info:pagetree_overview</target></trans-unit>
 EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_8.png,
 EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_9.png</source>
 				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-			<target state="needs-translation">EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_4.png,
+			<target state="translated">EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_4.png,
 EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_8.png,
 EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_9.png</target></trans-unit>
       <trans-unit id="func_0.image_descr" xml:space="preserve">
 				<source>The Basic Settings view offers a very convenient overview of page aliases, start times and access restriction settings in the tree branch.
 If you click an edit-icon in the header you will be able to edit that field for all listed pages.</source>
-			<target state="needs-translation">The Basic Settings view offers a very convenient overview of page aliases, start times and access restriction settings in the tree branch.
-If you click an edit-icon in the header you will be able to edit that field for all listed pages.</target></trans-unit>
+			<target state="translated">Die Basic Settings View bietet eine sehr bequeme Übersicht über Seitenaliase, Startzeiten und Zugriffsbeschränkungen im Baumzweig.
+Wenn Sie auf ein Bearbeitungssymbol im Header klicken, können Sie dieses Feld für alle aufgelisteten Seiten bearbeiten.</target></trans-unit>
       <trans-unit id="func_1.alttitle">
         <source>Record Overview</source>
-        <target state="needs-translation">Record Overview</target>
+        <target state="translated">Datensatz Übersicht</target>
       </trans-unit>
       <trans-unit id="func_1.description">
         <source>Record overview gives you an indispensable overview of the distribution of records in the page tree. Each database table in the system is represented with a column and for each page you can see the number of records from that table located on the page.</source>
-        <target state="needs-translation">Record overview gives you an indispensable overview of the distribution of records in the page tree. Each database table in the system is represented with a column and for each page you can see the number of records from that table located on the page.</target>
+        <target state="translated">Die Übersicht der Datensätze gibt Ihnen einen unverzichtbaren Überblick über die Verteilung der Datensätze im Seitenbaum. Jede Datenbanktabelle im System wird mit einer Spalte dargestellt und für jede Seite können Sie die Anzahl der Datensätze aus dieser Tabelle auf der Seite sehen.</target>
       </trans-unit>
       <trans-unit id="func_1.details" xml:space="preserve">
 				<source>&lt;b&gt;Notice:&lt;/b&gt; Be careful with the level-setting. A high level-setting may cause the module to respond very slowly if there are many pages and many records in the database as well!
 
 &lt;b&gt;Tree stop?&lt;/b&gt;
 Notice the red "+" next to a page in the page tree? This is due to a setting for that page record which means that the page tree will not expand for this page. Typically this is set for protection when there are a large amount of subpages underneath (hundreds of pages typically). If you click the icon/title the overview will jump to make this page the new root of the overview.</source>
-			<target state="needs-translation">&lt;b&gt;Notice:&lt;/b&gt; Be careful with the level-setting. A high level-setting may cause the module to respond very slowly if there are many pages and many records in the database as well!
+			<target state="translated">&lt;b&gt;Hinweis:&lt;/b&gt; Achten Sie auf die Level-Einstellung. Eine hohe Level-Einstellung kann das Modul sehr langsam reagieren, wenn es viele Seiten und viele Datensätze in der Datenbank gibt!
 
-&lt;b&gt;Tree stop?&lt;/b&gt;
-Notice the red "+" next to a page in the page tree? This is due to a setting for that page record which means that the page tree will not expand for this page. Typically this is set for protection when there are a large amount of subpages underneath (hundreds of pages typically). If you click the icon/title the overview will jump to make this page the new root of the overview.</target></trans-unit>
+&lt;b&gt;Baumstopp?&lt;/b&gt;
+Beachten Sie das rote "+" neben einer Seite im Seitenbaum? Dies ist auf eine Einstellung für diesen Seiteneintrag zurückzuführen, was bedeutet, dass der Seitenbaum nicht für diese Seite erweitert wird. Normalerweise wird dies für den Schutz bestimmt, wenn es eine große Anzahl von Unterseiten unter der Oberseite gibt (Hunderte von Seiten typischerweise). Wenn Sie auf das Symbol/den Titel klicken, springt die Übersicht, um diese Seite zum neuen Root der Übersicht zu machen.</target></trans-unit>
       <trans-unit id="_func_1.seeAlso" xml:space="preserve">
 				<source>_MOD_web_info:pagetree_overview,
 pages:php_tree_stop</source>
 				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-			<target state="needs-translation">_MOD_web_info:pagetree_overview,
-pages:php_tree_stop</target></trans-unit>
+			<target state="translated">_MOD_web_info:pagetree_overview,
+Seiten:php_tree_stop</target></trans-unit>
       <trans-unit id="_func_1.image">
         <source>EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_6.png</source>
         <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-        <target state="needs-translation">EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_6.png</target>
+        <target state="translated">EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_6.png</target>
       </trans-unit>
       <trans-unit id="func_1.image_descr">
         <source>You can easily see the distribution of Content Elements on a page. You can also see where Template Records - and basically any record! - are located in the page tree!</source>
-        <target state="needs-translation">You can easily see the distribution of Content Elements on a page. You can also see where Template Records - and basically any record! - are located in the page tree!</target>
+        <target state="translated">Sie können die Verteilung von Inhaltselementen auf einer Seite leicht sehen. Sie können auch sehen, wo Vorlagendokumente - und im Grunde alle Datensätze! - im Seitenbaum liegen!</target>
       </trans-unit>
       <trans-unit id="func_2.alttitle">
         <source>Cache and Age</source>
-        <target state="needs-translation">Cache and Age</target>
+        <target state="translated">Cache und Alter</target>
       </trans-unit>
       <trans-unit id="func_2.description">
         <source>Displays a selection of fields from page records related to page caching and time settings.</source>
-        <target state="needs-translation">Displays a selection of fields from page records related to page caching and time settings.</target>
+        <target state="translated">Zeigt eine Auswahl von Feldern aus Seitendatensätzen, die mit dem Caching und den Zeiteinstellungen der Seite zusammenhängen.</target>
       </trans-unit>
       <trans-unit id="_func_2.seeAlso" xml:space="preserve">
 				<source>_MOD_web_info:func_0,
 _MOD_web_info:pagetree_overview,
 pages:TSconfig</source>
 				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-			<target state="needs-translation">_MOD_web_info:func_0,
+			<target state="translated">_MOD_web_info:func_0,
 _MOD_web_info:pagetree_overview,
-pages:TSconfig</target></trans-unit>
+Seiten:TSconfig</target></trans-unit>
       <trans-unit id="_func_2.image" xml:space="preserve">
 				<source>EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_5.png,
 EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_7.png</source>
 				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-			<target state="needs-translation">EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_5.png,
+			<target state="translated">EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_5.png,
 EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_7.png</target></trans-unit>
       <trans-unit id="func_2.image_descr" xml:space="preserve">
 				<source>The "Cache and Age" view.
 Here you see the "TSconfig" column. The overview exposes that these two pages include some Page TSconfig code!</source>
-			<target state="needs-translation">The "Cache and Age" view.
-Here you see the "TSconfig" column. The overview exposes that these two pages include some Page TSconfig code!</target></trans-unit>
+			<target state="translated">Die "Cache- und Altersansicht" Ansicht.
+Hier sehen Sie die "TSconfig"-Spalte. Die Übersicht zeigt, dass diese beiden Seiten einige Seiten TSconfig-Code enthalten!</target></trans-unit>
       <trans-unit id="lang.details" xml:space="preserve">
 				<source>The overview uses colors to signal the availability and fall back situation for a given page. Here is a description for each color code:
 &lt;b&gt;Green background:&lt;/b&gt; Page is translated and viewable in this language. For translations it means that an active page overlay record is present.
@@ -139,20 +139,20 @@ Finally, the number found in each column tells you how many content elements are
 				<source>EXT:frontend/Resources/Public/Images/cshimages/localizationoverview.png,
 EXT:frontend/Resources/Public/Images/cshimages/localizationoverview1.png</source>
 				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-			<target state="needs-translation">EXT:frontend/Resources/Public/Images/cshimages/localizationoverview.png,
+			<target state="translated">EXT:frontend/Resources/Public/Images/cshimages/localizationoverview.png,
 EXT:frontend/Resources/Public/Images/cshimages/localizationoverview1.png</target></trans-unit>
       <trans-unit id="lang.image_descr" xml:space="preserve">
 				<source>Localization overview in the Web&gt;Info module. Use the buttons to edit, view and create new page translation headers. Use the regular page module to put localized content on the pages.
 The "Localization settings" that affect availability of pages in the various languages.</source>
-			<target state="needs-translation">Localization overview in the Web&gt;Info module. Use the buttons to edit, view and create new page translation headers. Use the regular page module to put localized content on the pages.
-The "Localization settings" that affect availability of pages in the various languages.</target></trans-unit>
+			<target state="translated">Lokalisierungsübersicht im Web&gt;Info Modul. Verwenden Sie die Schaltflächen, um neue Seitenübersetzungskategorien zu bearbeiten, zu sehen und zu erstellen. Verwenden Sie das reguläre Seitenmodul, um lokalisierte Inhalte auf den Seiten zu setzen.
+Die "Lokalisierungseinstellungen", die die Verfügbarkeit von Seiten in den verschiedenen Sprachen beeinflussen.</target></trans-unit>
       <trans-unit id="lang.alttitle">
         <source>Localization overview</source>
-        <target state="needs-translation">Localization overview</target>
+        <target state="translated">Übersichtsübersicht der Lokalisierung</target>
       </trans-unit>
       <trans-unit id="lang.description">
         <source>Gives an overview of which pages in the page tree are translated to the system languages installed.</source>
-        <target state="needs-translation">Gives an overview of which pages in the page tree are translated to the system languages installed.</target>
+        <target state="translated">Gibt eine Übersicht über die Seiten im Seitenbaum in die installierten Systemsprachen.</target>
       </trans-unit>
     </body>
   </file>
