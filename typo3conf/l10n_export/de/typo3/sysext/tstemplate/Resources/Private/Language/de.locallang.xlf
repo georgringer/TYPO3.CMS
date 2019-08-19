@@ -3,33 +3,114 @@
   <file t3:id="1415815007" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="tstemplate" target-language="de">
     <header/>
     <body>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id="moduleTitle">
+        <source>Template tools</source>
+        <target state="translated">Template-Tools</target>
+      </trans-unit>
+      <trans-unit id="templateAnalyzer">
+        <source>Template Analyzer</source>
+        <target state="translated">Template-Analyse</target>
+      </trans-unit>
+      <trans-unit id="constantEditor">
+        <source>Constant Editor</source>
+        <target state="translated">Konstante Editor</target>
+      </trans-unit>
+      <trans-unit id="infoModify">
+        <source>Info/Modify</source>
+        <target state="translated">Info/Änderung</target>
+      </trans-unit>
+      <trans-unit id="objectBrowser">
+        <source>TypoScript Object Browser</source>
+        <target state="translated">TypoScript Object Browser</target>
+      </trans-unit>
+      <trans-unit id="viewTemplates">
+        <source>Viewing templates of</source>
+        <target state="translated">Vorlagen anzeigen von</target>
+      </trans-unit>
+      <trans-unit id="pageName">
+        <source>Page name</source>
+        <target state="translated">Seitenname</target>
+      </trans-unit>
+      <trans-unit id="templates">
+        <source>Templates</source>
+        <target state="translated">Vorlagen</target>
+      </trans-unit>
+      <trans-unit id="isRoot">
+        <source>Is Root?</source>
+        <target state="translated">Ist Root?</target>
+      </trans-unit>
+      <trans-unit id="isExt">
+        <source>Is Ext?</source>
+        <target state="translated">Ist außen?</target>
+      </trans-unit>
+      <trans-unit id="overview">
+        <source>This is an overview of the pages in the database containing one or more template records. Click a page title to go to the page.</source>
+        <target state="translated">Dies ist eine Übersicht der Seiten in der Datenbank, die eine oder mehrere Vorlagendateien enthalten. Klicken Sie auf einen Seitentitel, um auf die Seite zu gehen.</target>
+      </trans-unit>
+      <trans-unit id="areYouSure">
+        <source>Are you sure you want to do this?</source>
+        <target state="translated">Sind Sie sicher, dass Sie dies tun möchten?</target>
+      </trans-unit>
+      <trans-unit id="noTemplate">
+        <source>No template</source>
+        <target state="translated">Keine Vorlage</target>
+      </trans-unit>
+      <trans-unit id="noTemplateDescription">
+        <source>There was no template on this page!</source>
+        <target state="translated">Es gab keine Vorlage auf dieser Seite!</target>
+      </trans-unit>
+      <trans-unit id="createTemplate">
+        <source>Create a template record first in order to edit constants!</source>
+        <target state="translated">Erstellen Sie zuerst einen Vorlageneintrag, um Konstanten zu bearbeiten!</target>
+      </trans-unit>
+      <trans-unit id="createTemplateToEditConfiguration">
+        <source>You need to create a template record below in order to edit your configuration.</source>
+        <target state="translated">Sie müssen einen Vorlageneintrag erstellen, um Ihre Konfiguration zu bearbeiten.</target>
+      </trans-unit>
+      <trans-unit id="newWebsite">
+        <source>Create new website</source>
+        <target state="translated">Neue Webseite erstellen</target>
+      </trans-unit>
+      <trans-unit id="newWebsiteDescription">
+        <source>If you want this page to be the root of a new website, optionally based on one of the standard templates, then press the button below</source>
+        <target state="translated">Wenn Sie möchten, dass diese Seite das Wurzelverzeichnis einer neuen Website ist, optional auf einer der Standardvorlagen basiert, dann drücken Sie die Schaltfläche unten</target>
+      </trans-unit>
+      <trans-unit id="newWebsiteAction">
+        <source>Create template for a new site</source>
+        <target state="translated">Vorlage für eine neue Website erstellen</target>
+      </trans-unit>
+      <trans-unit id="extTemplate">
+        <source>Create extension template</source>
+        <target state="translated">Erweiterungsvorlage erstellen</target>
+      </trans-unit>
+      <trans-unit id="extTemplateDescription">
+        <source>An extension template allows you to enter TypoScript values that will affect only this page and subpages.</source>
+        <target state="translated">Eine Erweiterungsvorlage erlaubt es Ihnen TypoScript-Werte einzugeben, die nur diese Seite und Unterseiten betreffen.</target>
+      </trans-unit>
+      <trans-unit id="extTemplateAction">
+        <source>Click here to create an extension template.</source>
+        <target state="translated">Klicken Sie hier, um eine Erweiterungsvorlage zu erstellen.</target>
+      </trans-unit>
+      <trans-unit id="goToClosest">
+        <source>Go to closest page with template</source>
+        <target state="translated">Gehe zur nächsten Seite mit Vorlage</target>
+      </trans-unit>
+      <trans-unit id="goToClosestDescription">
+        <source>Closest template is on page '%s' (uid %s).</source>
+        <target state="translated">Closest Template ist auf der Seite '%s' (uid %s).</target>
+      </trans-unit>
+      <trans-unit id="goToClosestAction">
+        <source>Click here to go.</source>
+        <target state="translated">Klicken Sie hier, um zu gehen.</target>
+      </trans-unit>
+      <trans-unit id="titleNewSiteStandard">
+        <source>NEW SITE, based on standard</source>
+        <target state="translated">NEUE SITE, basierend auf Standard</target>
+      </trans-unit>
+      <trans-unit id="titleNewSite">
+        <source>NEW SITE</source>
+        <target state="translated">NEUE SITE</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
