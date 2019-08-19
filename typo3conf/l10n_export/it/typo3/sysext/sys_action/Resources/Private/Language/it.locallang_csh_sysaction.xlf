@@ -5,82 +5,82 @@
     <body>
       <trans-unit id=".description">
         <source>An 'Action' is a configuration of a specific task which may be performed by assigned usergroups via the Task Center.</source>
-        <target state="needs-translation">An 'Action' is a configuration of a specific task which may be performed by assigned usergroups via the Task Center.</target>
+        <target state="translated">Un'azione è una configurazione di un'attività specifica che può essere eseguita da gruppi di utenti assegnati tramite il Centro Task.</target>
       </trans-unit>
       <trans-unit id=".details" xml:space="preserve">
 				<source>Currently an Action may be configured to create additional backend usergroups without being and admin-user and by selecting from a limited set of options. Another option is to let an action initiate a SQL SELECT-query in the database and return the result as a CSV file.
 Actions can be assigned to a Backend usergroup and they are activated by a single click in the Task Center.</source>
-			<target state="needs-translation">Currently an Action may be configured to create additional backend usergroups without being and admin-user and by selecting from a limited set of options. Another option is to let an action initiate a SQL SELECT-query in the database and return the result as a CSV file.
-Actions can be assigned to a Backend usergroup and they are activated by a single click in the Task Center.</target></trans-unit>
+			<target state="translated">Attualmente un'azione può essere configurata per creare ulteriori gruppi di utenti di backend senza essere e utente admin e selezionando da un set limitato di opzioni. Un'altra opzione è quella di consentire l'avvio di un'azione SQL SELECT-query nel database e restituire il risultato come file CSV.
+Le azioni possono essere assegnate a un gruppo di utenti Backend e sono attivate con un solo clic nel centro attività.</target></trans-unit>
       <trans-unit id="title.description">
         <source>Enter the title of the action. This is shown in the list of available actions in the Task Center.</source>
-        <target state="needs-translation">Enter the title of the action. This is shown in the list of available actions in the Task Center.</target>
+        <target state="translated">Inserisci il titolo dell'azione. Questo è mostrato nella lista delle azioni disponibili nel Centro Attività.</target>
       </trans-unit>
       <trans-unit id="description.description">
         <source>Describe what the action does or allows to do.</source>
-        <target state="needs-translation">Describe what the action does or allows to do.</target>
+        <target state="translated">Descrivi cosa fa o permette l'azione.</target>
       </trans-unit>
       <trans-unit id="hidden.description">
         <source>Check this option if you wish to disable the availability of the action or non-admin users.</source>
-        <target state="needs-translation">Check this option if you wish to disable the availability of the action or non-admin users.</target>
+        <target state="translated">Seleziona questa opzione se vuoi disabilitare la disponibilità dell'azione o degli utenti non-admin.</target>
       </trans-unit>
       <trans-unit id="hidden.details">
         <source>This option is a great way to disable an action during changes made to it because it still allows you as an 'Admin'-user to activate it for test purposes.</source>
-        <target state="needs-translation">This option is a great way to disable an action during changes made to it because it still allows you as an 'Admin'-user to activate it for test purposes.</target>
+        <target state="translated">Questa opzione è un ottimo modo per disabilitare un'azione durante le modifiche apportate perché ti permette ancora di attivarla come 'Admin'-user' per scopi di prova.</target>
       </trans-unit>
       <trans-unit id="type.description">
         <source>Select the action type.</source>
-        <target state="needs-translation">Select the action type.</target>
+        <target state="translated">Seleziona il tipo di azione.</target>
       </trans-unit>
       <trans-unit id="type.details" xml:space="preserve">
 				<source>&lt;strong&gt;"Create Backend User"&lt;/strong&gt; allows to create backend users with a limited set of options. This action type is meant for semi-administrators among your users which is in charge of daily user administration - still without being full fledged 'Admin'-users with 'a License to Kill everything'.
 When you select this option, you get to enter a 'template' user, enter a prefix which the new users will automatically have and whether or not a user home-dir is created in the process. Finally you can select a limited number of usergroups which the can be selected among.
 
 &lt;strong&gt;"SQL-query"&lt;/strong&gt; allows to make a fixed SQL SELECT-query in the database returned as CSV lists. When you have created an action of this type, you need to go to the System &gt; DB check (prior to v7 this can be found on Tools &gt; DB check) module and enter the Advanced Search feature. Here you can design your SQL-query. When you have designed it to select what you want correctly, you can select this action (by it's name) and save the query to the action there. From that point it will be effective from the Task Center. (Notice that the form of output selected in the Advanced Search function is also stored, so make sure to select CSV output there!)</source>
-			<target state="needs-translation">&lt;strong&gt;"Create Backend User"&lt;/strong&gt; allows to create backend users with a limited set of options. This action type is meant for semi-administrators among your users which is in charge of daily user administration - still without being full fledged 'Admin'-users with 'a License to Kill everything'.
-When you select this option, you get to enter a 'template' user, enter a prefix which the new users will automatically have and whether or not a user home-dir is created in the process. Finally you can select a limited number of usergroups which the can be selected among.
+			<target state="translated">&lt;strong&gt;"Crea Utente Backend"&lt;/strong&gt; permette di creare utenti backend con un insieme limitato di opzioni. Questo tipo di azione è inteso per i semiamministratori tra i tuoi utenti che sono incaricati dell'amministrazione quotidiana degli utenti - ancora senza essere a pieno titolo 'Admin'-users' con 'Licenza per uccidere tutto'.
+Quando selezioni questa opzione, si arriva a inserire un utente 'template', inserire un prefisso che i nuovi utenti avranno automaticamente e se una cartella home-dir utente viene creata nel processo. Infine, è possibile selezionare un numero limitato di gruppi di utenti tra cui quello selezionato.
 
-&lt;strong&gt;"SQL-query"&lt;/strong&gt; allows to make a fixed SQL SELECT-query in the database returned as CSV lists. When you have created an action of this type, you need to go to the System &gt; DB check (prior to v7 this can be found on Tools &gt; DB check) module and enter the Advanced Search feature. Here you can design your SQL-query. When you have designed it to select what you want correctly, you can select this action (by it's name) and save the query to the action there. From that point it will be effective from the Task Center. (Notice that the form of output selected in the Advanced Search function is also stored, so make sure to select CSV output there!)</target></trans-unit>
+&lt;strong&gt;"SQL-query"&lt;/strong&gt; permette di fare una query SQL SELECT fissa nel database restituita come liste CSV. Quando hai creato un'azione di questo tipo, devi andare al controllo DB di sistema &gt; (prima della v7 questo può essere trovato sul modulo di controllo degli Strumenti &gt; DB) e inserire la funzione di ricerca avanzata. Qui puoi progettare la tua query SQL. Quando lo hai progettato per selezionare ciò che vuoi correttamente, è possibile selezionare questa azione (con il nome) e salvare la query all'azione. Da questo punto di vista sarà efficace dal Centro Task. (Nota che anche la forma di uscita selezionata nella funzione Ricerca Avanzata è memorizzata, quindi assicurati di selezionare l'output CSV qui!)</target></trans-unit>
       <trans-unit id="assign_to_groups.description">
         <source>Select the backend users groups allowed to activate the action in the Task Center.</source>
-        <target state="needs-translation">Select the backend users groups allowed to activate the action in the Task Center.</target>
+        <target state="translated">Seleziona i gruppi di utenti backend autorizzati ad attivare l'azione nel centro attività.</target>
       </trans-unit>
       <trans-unit id="t1_userprefix.description">
         <source>Enter a prefix which is forcibly prepended to new usernames (eg. "news_")</source>
-        <target state="needs-translation">Enter a prefix which is forcibly prepended to new usernames (eg. "news_")</target>
+        <target state="translated">Inserisci un prefisso che è prepesso forzatamente a nuovi nomi utente (es. "news_")</target>
       </trans-unit>
       <trans-unit id="t1_allowed_groups.description">
         <source>Enter the Backend user groups which the user performing the action is able to choose among (if any).</source>
-        <target state="needs-translation">Enter the Backend user groups which the user performing the action is able to choose among (if any).</target>
+        <target state="translated">Inserisci i gruppi di utenti Backend che l'utente che esegue l'azione è in grado di scegliere tra (se presente).</target>
       </trans-unit>
       <trans-unit id="t1_create_user_dir.description">
         <source>If checked, a private home-directory is also created during user creation. </source>
-        <target state="needs-translation">If checked, a private home-directory is also created during user creation. </target>
+        <target state="translated">Se selezionato, viene creata anche una cartella privata durante la creazione dell'utente. </target>
       </trans-unit>
       <trans-unit id="t1_create_user_dir.details">
         <source>&lt;strong&gt;Notice:&lt;/strong&gt; $TYPO3_CONF_VARS["BE"]["userHomePath"] must be configured correctly along with $TYPO3_CONF_VARS["BE"]["lockRootPath"] and writable!</source>
-        <target state="needs-translation">&lt;strong&gt;Notice:&lt;/strong&gt; $TYPO3_CONF_VARS["BE"]["userHomePath"] must be configured correctly along with $TYPO3_CONF_VARS["BE"]["lockRootPath"] and writable!</target>
+        <target state="translated">&lt;strong&gt;Nota:&lt;/strong&gt; $TYPO3_CONF_VARS["BE"]["userHomePath"] deve essere configurato correttamente insieme a $TYPO3_CONF_VARS["BE"]["lockRootPath"] e scrivibile!</target>
       </trans-unit>
       <trans-unit id="t1_copy_of_user.description">
         <source>Insert a current Backend user which will be used as a template for the new users created. </source>
-        <target state="needs-translation">Insert a current Backend user which will be used as a template for the new users created. </target>
+        <target state="translated">Inserisci un utente Backend corrente che verrà utilizzato come modello per i nuovi utenti creati. </target>
       </trans-unit>
       <trans-unit id="t1_copy_of_user.details" xml:space="preserve">
 				<source>All values are copied to the new user, except username, password, name and email is of course overridden.
 If the template user is a member of a group which is not defined among the "Groups which may be assigned through the action" that group is still set for the user and cannot be removed by the user carrying out the action.</source>
-			<target state="needs-translation">All values are copied to the new user, except username, password, name and email is of course overridden.
-If the template user is a member of a group which is not defined among the "Groups which may be assigned through the action" that group is still set for the user and cannot be removed by the user carrying out the action.</target></trans-unit>
+			<target state="translated">Tutti i valori sono copiati nel nuovo utente, tranne username, password, nome e email sono ovviamente sovrascritti.
+Se l'utente del template è membro di un gruppo che non è definito tra i "Gruppi che possono essere assegnati attraverso l'azione" il gruppo è ancora impostato per l'utente e non può essere rimosso dall'utente che esegue l'azione.</target></trans-unit>
       <trans-unit id="t4_recordsToEdit.description">
         <source>[FILL IN] sys_action-&gt;t4_recordsToEdit</source>
-        <target state="needs-translation">[FILL IN] sys_action-&gt;t4_recordsToEdit</target>
+        <target state="translated">[FILL IN] sys_action-&gt;t4_recordsToEdit</target>
       </trans-unit>
       <trans-unit id="t3_listPid.description">
         <source>[FILL IN] sys_action-&gt;t3_listPid</source>
-        <target state="needs-translation">[FILL IN] sys_action-&gt;t3_listPid</target>
+        <target state="translated">[FILL IN] sys_action-&gt;t3_listPid</target>
       </trans-unit>
       <trans-unit id="t3_tables.description">
         <source>[FILL IN] sys_action-&gt;t3_tables</source>
-        <target state="needs-translation">[FILL IN] sys_action-&gt;t3_tables</target>
+        <target state="translated">[FILL IN] sys_action-&gt;t3_tables</target>
       </trans-unit>
     </body>
   </file>
