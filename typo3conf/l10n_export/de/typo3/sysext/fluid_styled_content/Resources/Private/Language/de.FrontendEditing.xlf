@@ -3,17 +3,50 @@
   <file t3:id="1428662501" source-language="en" datatype="plaintext" original="messages" date="2014-02-07T20:22:32Z" product-name="fluid_styled_content" target-language="de">
     <header/>
     <body>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id="editIcon.bullets">
+        <source>Edit bullet list</source>
+        <target state="translated">Kugel-Liste bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="editIcon.header">
+        <source>Edit header</source>
+        <target state="translated">Kopfzeile bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="editIcon.html">
+        <source>Edit pure HTML content</source>
+        <target state="translated">Purer HTML-Inhalt bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="editIcon.list">
+        <source>Change/configure plugin</source>
+        <target state="translated">Plugin ändern/konfigurieren</target>
+      </trans-unit>
+      <trans-unit id="editIcon.menu">
+        <source>Edit menu/sitemap</source>
+        <target state="translated">Menü/Sitemap bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="editIcon.shortcut">
+        <source>Edit record list</source>
+        <target state="translated">Datensatzliste bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="editIcon.table">
+        <source>Edit table</source>
+        <target state="translated">Tabelle bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="editIcon.image">
+        <source>Edit image</source>
+        <target state="translated">Bild bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="editIcon.textmedia">
+        <source>Edit text &amp; media</source>
+        <target state="translated">Text &amp; Medien bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="editIcon.textpic">
+        <source>Edit text &amp; images</source>
+        <target state="translated">Text &amp; Bilder bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="editIcon.uploads">
+        <source>Edit file list</source>
+        <target state="translated">Dateiliste bearbeiten</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
