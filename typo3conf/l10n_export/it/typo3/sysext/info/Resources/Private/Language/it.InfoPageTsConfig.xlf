@@ -3,27 +3,90 @@
   <file t3:id="1415814840" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="info_pagetsconfig" target-language="it">
     <header/>
     <body>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id="tsconf_title">
+        <source>Page TSconfig</source>
+        <target state="translated">TSconfig pagina</target>
+      </trans-unit>
+      <trans-unit id="tsconf_parts_0">
+        <source>All</source>
+        <target state="translated">Tutti</target>
+      </trans-unit>
+      <trans-unit id="tsconf_parts_1">
+        <source>Module key ('mod') with overruling user settings</source>
+        <target state="translated">Chiave del modulo ('mod') con impostazioni utente sovradominanti</target>
+      </trans-unit>
+      <trans-unit id="tsconf_parts_1a">
+        <source>Module: Web&gt;Page</source>
+        <target state="translated">Modulo: Pagina&gt;Web</target>
+      </trans-unit>
+      <trans-unit id="tsconf_parts_1b">
+        <source>Module: Web&gt;View</source>
+        <target state="translated">Modulo: Web&gt;Vista</target>
+      </trans-unit>
+      <trans-unit id="tsconf_parts_1c">
+        <source>Module: Web&gt;Modules</source>
+        <target state="translated">Modulo: Moduli&gt;Web</target>
+      </trans-unit>
+      <trans-unit id="tsconf_parts_1d">
+        <source>Module: Web&gt;List</source>
+        <target state="translated">Modulo: Lista&gt;Web</target>
+      </trans-unit>
+      <trans-unit id="tsconf_parts_1e">
+        <source>Module: Web&gt;Info</source>
+        <target state="translated">Modulo: Web&gt;Info</target>
+      </trans-unit>
+      <trans-unit id="tsconf_parts_1f">
+        <source>Module: Web&gt;Func</source>
+        <target state="translated">Modulo: Web&gt;Func</target>
+      </trans-unit>
+      <trans-unit id="tsconf_parts_1g">
+        <source>Module: Web&gt;Template</source>
+        <target state="translated">Modulo: Web&gt;Template</target>
+      </trans-unit>
+      <trans-unit id="tsconf_configFields">
+        <source>View TSconfig fields content</source>
+        <target state="translated">Visualizza i campi TSconfig</target>
+      </trans-unit>
+      <trans-unit id="editThisColumn">
+        <source>Edit the field '%s' for all listed pages</source>
+        <target state="translated">Modifica il campo '%s' per tutte le pagine elencate</target>
+      </trans-unit>
+      <trans-unit id="editTSconfig">
+        <source>Edit TSconfig for this page</source>
+        <target state="translated">Modifica TSconfig per questa pagina</target>
+      </trans-unit>
+      <trans-unit id="editTSconfig_all">
+        <source>Edit TSconfig for all shown pages</source>
+        <target state="translated">Modifica TSconfig per tutte le pagine mostrate</target>
+      </trans-unit>
+      <trans-unit id="editTSconfig_default">
+        <source>Default Configuration from TYPO3_CONF_VARS</source>
+        <target state="translated">Configurazione predefinita da TYPO3_CONF_VARS</target>
+      </trans-unit>
+      <trans-unit id="mod_pagetsconfig">
+        <source>Page TSconfig</source>
+        <target state="translated">TSconfig pagina</target>
+      </trans-unit>
+      <trans-unit id="sort_alphabetic">
+        <source>Sort alphabetically</source>
+        <target state="translated">Ordina alfabeticamente</target>
+      </trans-unit>
+      <trans-unit id="pagetitle">
+        <source>Pagetitle:</source>
+        <target state="translated">Titolo Pagete:</target>
+      </trans-unit>
+      <trans-unit id="included_tsconfig_files">
+        <source>Included Files:</source>
+        <target state="translated">File inclusi:</target>
+      </trans-unit>
+      <trans-unit id="written_tsconfig_lines">
+        <source>Lines:</source>
+        <target state="translated">Linee:</target>
+      </trans-unit>
+      <trans-unit id="tsconf_noPageTSconfig">
+        <source>There are no pages containing custom Page TSconfig settings in the page configuration.</source>
+        <target state="translated">Non ci sono pagine contenenti impostazioni personalizzate di Pagina TSconfig nella configurazione della pagina.</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
