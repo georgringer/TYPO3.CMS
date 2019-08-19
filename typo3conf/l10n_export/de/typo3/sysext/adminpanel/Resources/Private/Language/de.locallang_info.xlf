@@ -3,73 +3,85 @@
   <file t3:id="1520862805" source-language="en" datatype="plaintext" original="messages" date="2018-03-12T13:52:01Z" product-name="adminpanel" target-language="de">
     <header/>
     <body>
-      <trans-unit id="module.shortinfo" approved="yes">
+      <trans-unit id="module.label">
+        <source>Info</source>
+        <target state="translated">Info</target>
+      </trans-unit>
+      <trans-unit id="module.shortinfo">
         <source>(Load Time: %s ms)</source>
         <target state="translated">(Ladezeit: %s ms)</target>
       </trans-unit>
-      <trans-unit id="imagesOnPage" approved="yes">
+      <trans-unit id="imagesOnPage">
         <source>Images on this page</source>
         <target state="translated">Bilder auf dieser Seite</target>
       </trans-unit>
-      <trans-unit id="imagesSize" approved="yes">
+      <trans-unit id="imagesSize">
         <source>Total image file sizes</source>
-        <target state="translated">Ingesamte Bilddateigröße</target>
+        <target state="translated">Gesamte Bilddatei-Größe</target>
       </trans-unit>
-      <trans-unit id="DocumentSize" approved="yes">
+      <trans-unit id="DocumentSize">
         <source>Document size</source>
         <target state="translated">Dokumentgröße</target>
       </trans-unit>
-      <trans-unit id="pageUid" approved="yes">
+      <trans-unit id="pageUid">
         <source>Page Uid</source>
-        <target state="translated">Seiten-UID</target>
+        <target state="translated">Seite Uid</target>
       </trans-unit>
-      <trans-unit id="pageType" approved="yes">
+      <trans-unit id="pageType">
         <source>Page type</source>
         <target state="translated">Seitentyp</target>
       </trans-unit>
-      <trans-unit id="groupList" approved="yes">
+      <trans-unit id="groupList">
         <source>Frontenduser group combination</source>
-        <target state="translated">Kombination von Frontend-Benutzergruppen</target>
+        <target state="translated">Frontenduser-Gruppenkombination</target>
       </trans-unit>
-      <trans-unit id="noCache" approved="yes">
+      <trans-unit id="noCache">
         <source>Page cached</source>
-        <target state="translated">Seite gecacht</target>
+        <target state="translated">Seite zwischengespeichert</target>
       </trans-unit>
-      <trans-unit id="noCache_yes" approved="yes">
+      <trans-unit id="noCache_yes">
         <source>Yes</source>
         <target state="translated">Ja</target>
       </trans-unit>
-      <trans-unit id="noCache_no" approved="yes">
+      <trans-unit id="noCache_no">
         <source>No</source>
         <target state="translated">Nein</target>
       </trans-unit>
-      <trans-unit id="countUserInt" approved="yes">
+      <trans-unit id="countUserInt">
         <source>Count of USER_INT objects</source>
-        <target state="translated">Anzahl von USER_INT-Objekten</target>
+        <target state="translated">Anzahl der USER_INT Objekte</target>
       </trans-unit>
-      <trans-unit id="feuserName" approved="yes">
+      <trans-unit id="feuserName">
         <source>Name of logged in FE-User</source>
-        <target state="translated">Name des angemeldeten FE-Benutzers</target>
+        <target state="translated">Name des eingeloggten FE-Benutzers</target>
       </trans-unit>
-      <trans-unit id="feuserId" approved="yes">
+      <trans-unit id="feuserId">
         <source>Id of logged in FE-User</source>
-        <target state="translated">ID des angemeldeten FE-Benutzers</target>
+        <target state="translated">Id des eingeloggten FE-Benutzers</target>
       </trans-unit>
-      <trans-unit id="totalParsetime" approved="yes">
+      <trans-unit id="totalParsetime">
         <source>Total parsetime</source>
-        <target state="translated">Insgesamte Parsezeit</target>
+        <target state="translated">Gesamt-Parsetime</target>
       </trans-unit>
-      <trans-unit id="key" approved="yes">
+      <trans-unit id="key">
         <source>Key</source>
         <target state="translated">Schlüssel</target>
       </trans-unit>
-      <trans-unit id="value" approved="yes">
+      <trans-unit id="value">
         <source>Value</source>
         <target state="translated">Wert</target>
       </trans-unit>
-      <trans-unit id="sub.general.label" approved="yes">
+      <trans-unit id="sub.general.label">
         <source>General</source>
         <target state="translated">Allgemein</target>
+      </trans-unit>
+      <trans-unit id="sub.php.label">
+        <source>PHP</source>
+        <target state="translated">PHP</target>
+      </trans-unit>
+      <trans-unit id="sub.request.label">
+        <source>REQUEST</source>
+        <target state="translated">BESCHÄNKT</target>
       </trans-unit>
     </body>
   </file>
