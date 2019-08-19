@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415815019" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="workspaces" target-language="fr">
+    <header/>
+    <body>
+      <trans-unit id="sys_workspace">
+        <source>Workspace</source>
+        <target state="needs-translation">Workspace</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.custom_stages">
+        <source>Custom stages</source>
+        <target state="needs-translation">Custom stages</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace_stage.responsible_persons">
+        <source>Responsible persons</source>
+        <target state="needs-translation">Responsible persons</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace_stage.default_mailcomment">
+        <source>Default mail comment</source>
+        <target state="needs-translation">Default mail comment</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace_stage.parentid">
+        <source>UID of parent record</source>
+        <target state="needs-translation">UID of parent record</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace_stage.parenttable">
+        <source>Parent table</source>
+        <target state="needs-translation">Parent table</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace_stage">
+        <source>Workspace Stage</source>
+        <target state="needs-translation">Workspace Stage</target>
+      </trans-unit>
+      <trans-unit id="tabs.notification_settings">
+        <source>Notification settings</source>
+        <target state="needs-translation">Notification settings</target>
+      </trans-unit>
+      <trans-unit id="tabs.general">
+        <source>General</source>
+        <target state="needs-translation">General</target>
+      </trans-unit>
+      <trans-unit id="tabs.internal_stages">
+        <source>Internal Stages</source>
+        <target state="needs-translation">Internal Stages</target>
+      </trans-unit>
+      <trans-unit id="tabs.custom_stages">
+        <source>Custom Stages</source>
+        <target state="needs-translation">Custom Stages</target>
+      </trans-unit>
+      <trans-unit id="tabs.publish_access">
+        <source>Publishing / Access</source>
+        <target state="needs-translation">Publishing / Access</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace_stage.notification_defaults">
+        <source>Default notification recipients</source>
+        <target state="needs-translation">Default notification recipients</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace_stage.allow_notificaton_settings">
+        <source>Allow notification settings during stage change</source>
+        <target state="needs-translation">Allow notification settings during stage change</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.palette.stage.edit">
+        <source>Stage "editing"</source>
+        <target state="needs-translation">Stage "editing"</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.palette.stage.publish">
+        <source>Stage "ready to publish"</source>
+        <target state="needs-translation">Stage "ready to publish"</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.palette.stage.execute">
+        <source>Stage "publishing execute"</source>
+        <target state="needs-translation">Stage "publishing execute"</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.settingsDialog">
+        <source>Notification dialog settings</source>
+        <target state="needs-translation">Notification dialog settings</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.settingsDialog.showDialog">
+        <source>Show Dialog</source>
+        <target state="needs-translation">Show Dialog</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.settingsDialog.changeablePreselection">
+        <source>Allow to change pre-selection of recipients</source>
+        <target state="needs-translation">Allow to change pre-selection of recipients</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.preselection">
+        <source>Pre-select recipients</source>
+        <target state="needs-translation">Pre-select recipients</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.preselection.owners">
+        <source>Owners</source>
+        <target state="needs-translation">Owners</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.preselection.members">
+        <source>Members</source>
+        <target state="needs-translation">Members</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.preselection.editors">
+        <source>Editors</source>
+        <target state="needs-translation">Editors</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.preselection.responsiblePersons">
+        <source>Responsible Persons</source>
+        <target state="needs-translation">Responsible Persons</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.adminusers">
+        <source>Owners</source>
+        <target state="needs-translation">Owners</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.members">
+        <source>Members</source>
+        <target state="needs-translation">Members</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.reviewers">
+        <source>Reviewers</source>
+        <target state="needs-translation">Reviewers</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.publish_time">
+        <source>Auto-publish changes on (requires scheduler task)</source>
+        <target state="needs-translation">Auto-publish changes on (requires scheduler task)</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.unpublish_time">
+        <source>Un-Publish changes on (requires scheduler task)</source>
+        <target state="needs-translation">Un-Publish changes on (requires scheduler task)</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.freeze">
+        <source>Freeze Editing</source>
+        <target state="needs-translation">Freeze Editing</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.live_edit">
+        <source>Allow "live" editing of records from tables without versioning</source>
+        <target state="needs-translation">Allow "live" editing of records from tables without versioning</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.swap_modes">
+        <source>Swap modes</source>
+        <target state="needs-translation">Swap modes</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.swap_modes.0">
+        <source>Enable Swap-Into-Workspace</source>
+        <target state="needs-translation">Enable Swap-Into-Workspace</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.swap_modes.1">
+        <source>Swap-Into-Workspace on Auto-publish</source>
+        <target state="needs-translation">Swap-Into-Workspace on Auto-publish</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.swap_modes.2">
+        <source>Disable Swap-Into-Workspace</source>
+        <target state="needs-translation">Disable Swap-Into-Workspace</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.publish_access">
+        <source>Publish access</source>
+        <target state="needs-translation">Publish access</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.publish_access.1">
+        <source>Publish only content in publish stage</source>
+        <target state="needs-translation">Publish only content in publish stage</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.publish_access.2">
+        <source>Restrict publishing to workspace owners</source>
+        <target state="needs-translation">Restrict publishing to workspace owners</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.stagechg_notification">
+        <source>Notification settings during state change</source>
+        <target state="needs-translation">Notification settings during state change</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.stagechg_notification.0">
+        <source>Disable notifications</source>
+        <target state="needs-translation">Disable notifications</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.stagechg_notification.1">
+        <source>Notify users of next stage only</source>
+        <target state="needs-translation">Notify users of next stage only</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.stagechg_notification.10">
+        <source>Notify all users on any change</source>
+        <target state="needs-translation">Notify all users on any change</target>
+      </trans-unit>
+      <trans-unit id="tabs.users">
+        <source>Users</source>
+        <target state="needs-translation">Users</target>
+      </trans-unit>
+      <trans-unit id="tabs.mountpoints">
+        <source>Mountpoints</source>
+        <target state="needs-translation">Mountpoints</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
