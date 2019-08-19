@@ -3,165 +3,642 @@
   <file t3:id="1415814984" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="scheduler" target-language="de">
     <header/>
     <body>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id="action.add">
+        <source>Add task</source>
+        <target state="translated">Aufgabe hinzufügen</target>
+      </trans-unit>
+      <trans-unit id="action.edit">
+        <source>Edit task</source>
+        <target state="translated">Aufgabe bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="button.cancel">
+        <source>Cancel</source>
+        <target state="translated">Abbrechen</target>
+      </trans-unit>
+      <trans-unit id="function.scheduler">
+        <source>Scheduled tasks</source>
+        <target state="translated">Geplante Aufgaben</target>
+      </trans-unit>
+      <trans-unit id="function.check">
+        <source>Setup check</source>
+        <target state="translated">Setup-Überprüfung</target>
+      </trans-unit>
+      <trans-unit id="function.info">
+        <source>Information</source>
+        <target state="translated">Informationen</target>
+      </trans-unit>
+      <trans-unit id="hdg.cliScript">
+        <source>CLI script</source>
+        <target state="translated">CLI-Skript</target>
+      </trans-unit>
+      <trans-unit id="hdg.lastRun">
+        <source>Last run</source>
+        <target state="translated">Letzte Ausführung</target>
+      </trans-unit>
+      <trans-unit id="label.automatically">
+        <source>automatically</source>
+        <target state="translated">automatisch</target>
+      </trans-unit>
+      <trans-unit id="label.cachingFrameworkGarbageCollection.selectBackends">
+        <source>Backend types</source>
+        <target state="translated">Backend-Typen</target>
+      </trans-unit>
+      <trans-unit id="label.recyclerGarbageCollection.numberOfDays">
+        <source>Number of days until removing files</source>
+        <target state="translated">Anzahl der Tage bis zum Löschen von Dateien</target>
+      </trans-unit>
+      <trans-unit id="label.checkAll">
+        <source>Check/uncheck all</source>
+        <target state="translated">Alle markieren/deaktivieren</target>
+      </trans-unit>
+      <trans-unit id="label.class">
+        <source>Class</source>
+        <target state="translated">Klasse</target>
+      </trans-unit>
+      <trans-unit id="label.cron">
+        <source>Cron</source>
+        <target state="translated">Cron</target>
+      </trans-unit>
+      <trans-unit id="label.defType">
+        <source>Definition type</source>
+        <target state="translated">Definition Typ</target>
+      </trans-unit>
+      <trans-unit id="label.defType.interval">
+        <source>Interval</source>
+        <target state="translated">Intervall</target>
+      </trans-unit>
+      <trans-unit id="label.defType.cron">
+        <source>Cron command</source>
+        <target state="translated">Cron-Befehl</target>
+      </trans-unit>
+      <trans-unit id="label.description">
+        <source>Description</source>
+        <target state="translated">Beschreibung</target>
+      </trans-unit>
+      <trans-unit id="label.email">
+        <source>Email</source>
+        <target state="translated">E-Mail</target>
+      </trans-unit>
+      <trans-unit id="label.end">
+        <source>End (HH:MM DD-MM-YYYY)</source>
+        <target state="translated">Ende (HH:MM DD-MM-JJJJ)</target>
+      </trans-unit>
+      <trans-unit id="label.executeSelected">
+        <source>Execute selected tasks</source>
+        <target state="translated">Ausgewählte Aufgaben ausführen</target>
+      </trans-unit>
+      <trans-unit id="label.cronjobSelected">
+        <source>Execute selected tasks on next cron job</source>
+        <target state="translated">Ausgewählte Aufgaben beim nächsten Cron-Job ausführen</target>
+      </trans-unit>
+      <trans-unit id="label.extension">
+        <source>Extension</source>
+        <target state="translated">Erweiterung</target>
+      </trans-unit>
+      <trans-unit id="label.frequency">
+        <source>Frequency</source>
+        <target state="translated">Frequenz</target>
+      </trans-unit>
+      <trans-unit id="label.frequency.long">
+        <source>Frequency (seconds or cron command)</source>
+        <target state="translated">Frequenz (Sekunden oder Cron-Befehl)</target>
+      </trans-unit>
+      <trans-unit id="label.id">
+        <source>ID</source>
+        <target state="translated">ID</target>
+      </trans-unit>
+      <trans-unit id="label.lastExecution">
+        <source>Last Execution</source>
+        <target state="translated">Letzte Ausführung</target>
+      </trans-unit>
+      <trans-unit id="label.manual">
+        <source>Manual</source>
+        <target state="translated">Manuell</target>
+      </trans-unit>
+      <trans-unit id="label.manually">
+        <source>manually</source>
+        <target state="translated">manuell</target>
+      </trans-unit>
+      <trans-unit id="label.name">
+        <source>Name</source>
+        <target state="translated">Name</target>
+      </trans-unit>
+      <trans-unit id="label.nextExecution">
+        <source>Next Execution</source>
+        <target state="translated">Nächste Ausführung</target>
+      </trans-unit>
+      <trans-unit id="label.parallel">
+        <source>Parallel Execution</source>
+        <target state="translated">Parallele Ausführung</target>
+      </trans-unit>
+      <trans-unit id="label.parallel.long">
+        <source>Allow Parallel Execution</source>
+        <target state="translated">Parallele Ausführung erlauben</target>
+      </trans-unit>
+      <trans-unit id="label.serverTime">
+        <source>Server time</source>
+        <target state="translated">Server-Zeit</target>
+      </trans-unit>
+      <trans-unit id="label.sleepTime">
+        <source>Sleep time</source>
+        <target state="translated">Schlafzeit</target>
+      </trans-unit>
+      <trans-unit id="label.start">
+        <source>Start (HH:MM DD-MM-YYYY)</source>
+        <target state="translated">Start (HH:MM DD-MM-YYYY)</target>
+      </trans-unit>
+      <trans-unit id="label.fileStorageIndexing.storage">
+        <source>Storage to index</source>
+        <target state="translated">Speichert auf Index</target>
+      </trans-unit>
+      <trans-unit id="label.fileStorageExtraction.fileCount">
+        <source>Number of files per run</source>
+        <target state="translated">Anzahl der Dateien pro Run</target>
+      </trans-unit>
+      <trans-unit id="label.fileStorageExtraction.registeredExtractors">
+        <source>Registered extractors</source>
+        <target state="translated">Registrierte Extraktoren</target>
+      </trans-unit>
+      <trans-unit id="label.fileStorageExtraction.registeredExtractors.extractor">
+        <source>%1$s with priority %2$d</source>
+        <target state="translated">%1$s mit Priorität %2$d</target>
+      </trans-unit>
+      <trans-unit id="label.fileStorageExtraction.registeredExtractors.with_extractors">
+        <source>Following extractors have been registered and will be used when running this task</source>
+        <target state="translated">Folgende Extraktoren wurden registriert und werden bei der Ausführung dieser Aufgabe verwendet</target>
+      </trans-unit>
+      <trans-unit id="label.fileStorageExtraction.registeredExtractors.without_extractors">
+        <source>There currently is no extractor registered. This task will have no effect!</source>
+        <target state="translated">Derzeit ist kein Extraktor registriert. Diese Aufgabe hat keinen Effekt!</target>
+      </trans-unit>
+      <trans-unit id="label.tableGarbageCollection.allTables">
+        <source>Clean all available tables</source>
+        <target state="translated">Alle verfügbaren Tabellen bereinigen</target>
+      </trans-unit>
+      <trans-unit id="label.tableGarbageCollection.table">
+        <source>Table to clean up</source>
+        <target state="translated">Tabelle zum Aufräumen</target>
+      </trans-unit>
+      <trans-unit id="label.tableGarbageCollection.additionalInformationTable">
+        <source>Table: %s</source>
+        <target state="translated">Tabelle: %s</target>
+      </trans-unit>
+      <trans-unit id="label.tableGarbageCollection.additionalInformationAllTables">
+        <source>All tables</source>
+        <target state="translated">Alle Tabellen</target>
+      </trans-unit>
+      <trans-unit id="label.tableGarbageCollection.numberOfDays">
+        <source>Delete entries older than given number of days</source>
+        <target state="translated">Einträge älter als die angegebene Anzahl von Tagen löschen</target>
+      </trans-unit>
+      <trans-unit id="label.optimizeDatabaseTables.selectTables">
+        <source>Database tables</source>
+        <target state="translated">Datenbanktabellen</target>
+      </trans-unit>
+      <trans-unit id="label.type">
+        <source>Type</source>
+        <target state="translated">Typ</target>
+      </trans-unit>
+      <trans-unit id="label.type.recurring">
+        <source>Recurring</source>
+        <target state="translated">Wiederkehrende</target>
+      </trans-unit>
+      <trans-unit id="label.type.single">
+        <source>Single</source>
+        <target state="translated">Einzel</target>
+      </trans-unit>
+      <trans-unit id="label.group">
+        <source>Task group</source>
+        <target state="translated">Aufgabengruppe</target>
+      </trans-unit>
+      <trans-unit id="label.group.taskCount">
+        <source>Amount of tasks in this scheduler task group</source>
+        <target state="translated">Anzahl der Aufgaben in dieser Zeitplaner-Aufgabengruppe</target>
+      </trans-unit>
+      <trans-unit id="label.noGroup">
+        <source>(no task group defined)</source>
+        <target state="translated">(keine Aufgabengruppe definiert)</target>
+      </trans-unit>
+      <trans-unit id="label.noGroup.taskCount">
+        <source>Amount of tasks that are not assigned to any scheduler task group</source>
+        <target state="translated">Anzahl der Aufgaben, die keiner Scheduler-Taskgruppe zugewiesen sind</target>
+      </trans-unit>
+      <trans-unit id="label.noClass">
+        <source>Tasks without registered classes</source>
+        <target state="translated">Aufgaben ohne registrierte Klassen</target>
+      </trans-unit>
+      <trans-unit id="label.noClass.taskCount">
+        <source>Amount of tasks without found class</source>
+        <target state="translated">Anzahl der Aufgaben ohne gefundene Klasse</target>
+      </trans-unit>
+      <trans-unit id="label.schedulableCommandName">
+        <source><![CDATA[Schedulable Command. <em>Save and reopen to define command arguments</em>]]></source>
+        <target state="translated"><![CDATA[Schedulable Befehl. <em>Speichern und neu öffnen, um Befehlsarten zu definieren</em>]]></target>
+      </trans-unit>
+      <trans-unit id="label.saveAndCreateNewTask">
+        <source>Save and create new task</source>
+        <target state="translated">Speichern und neue Aufgabe erstellen</target>
+      </trans-unit>
+      <trans-unit id="msg.addError">
+        <source>The task could not be added.</source>
+        <target state="translated">Die Aufgabe konnte nicht hinzugefügt werden.</target>
+      </trans-unit>
+      <trans-unit id="msg.addSuccess">
+        <source>The task was added successfully.</source>
+        <target state="translated">Die Aufgabe wurde erfolgreich hinzugefügt.</target>
+      </trans-unit>
+      <trans-unit id="msg.cliScript">
+        <source>The script to execute the Scheduler from the command line is: &lt;strong&gt;"%s scheduler:run"&lt;/strong&gt;.</source>
+        <target state="translated">Das Skript, das den Scheduler aus der Kommandozeile ausführt, lautet: &lt;strong&gt;"%s scheduler:run"&lt;/strong&gt;.</target>
+      </trans-unit>
+      <trans-unit id="msg.cliScriptExecutable">
+        <source>The webserver user is allowed execute this script.</source>
+        <target state="translated">Der Webserver-Benutzer ist erlaubt, dieses Skript auszuführen.</target>
+      </trans-unit>
+      <trans-unit id="msg.cliScriptNotExecutable">
+        <source>The webserver user is not allowed to execute this script.</source>
+        <target state="translated">Der Webserver-Benutzer darf dieses Skript nicht ausführen.</target>
+      </trans-unit>
+      <trans-unit id="msg.delete">
+        <source>Are you sure you want to delete this task?</source>
+        <target state="translated">Sind Sie sicher, dass Sie diese Aufgabe löschen möchten?</target>
+      </trans-unit>
+      <trans-unit id="msg.deleteError">
+        <source>The task could not be deleted.</source>
+        <target state="translated">Die Aufgabe konnte nicht gelöscht werden.</target>
+      </trans-unit>
+      <trans-unit id="msg.deleteSuccess">
+        <source>The task was successfully deleted.</source>
+        <target state="translated">Die Aufgabe wurde erfolgreich gelöscht.</target>
+      </trans-unit>
+      <trans-unit id="msg.endDateSmallerThanStartDate">
+        <source>The end date is before the start date.</source>
+        <target state="translated">Das Enddatum ist vor dem Startdatum.</target>
+      </trans-unit>
+      <trans-unit id="msg.executed">
+        <source>Executed: %s</source>
+        <target state="translated">Ausführen: %s</target>
+      </trans-unit>
+      <trans-unit id="msg.frequencyError">
+        <source>Invalid frequency. Please enter either a number of seconds or a valid cron command. The cron parser said: %1$s [code: %2$d].</source>
+        <target state="translated">Ungültige Frequenz. Bitte geben Sie entweder eine Anzahl von Sekunden oder einen gültigen Cron-Befehl ein. Der Cron-Parser sagte: %1$s [code: %2$d].</target>
+      </trans-unit>
+      <trans-unit id="msg.incompleteLastRun">
+        <source>The information about the last execution of the Scheduler is incomplete.</source>
+        <target state="translated">Die Informationen über die letzte Ausführung des Schedulers sind unvollständig.</target>
+      </trans-unit>
+      <trans-unit id="msg.infoScreenIntro">
+        <source>This is the list of all available tasks in this TYPO3 installation. Click on the icon at the far right to directly create a new scheduled task of the chosen type.</source>
+        <target state="translated">Dies ist die Liste aller verfügbaren Aufgaben in dieser TYPO3-Installation. Klicken Sie auf das Symbol rechts, um direkt eine neue geplante Aufgabe des gewählten Typs zu erstellen.</target>
+      </trans-unit>
+      <trans-unit id="msg.invalidFrequency">
+        <source>Invalid frequency. Please enter either a number of seconds or a valid cron command.</source>
+        <target state="translated">Ungültige Frequenz. Bitte geben Sie entweder eine Anzahl von Sekunden oder einen gültigen Cron-Befehl ein.</target>
+      </trans-unit>
+      <trans-unit id="msg.invalidSleepTime">
+        <source>Please enter a sleep time greater or equal to 0 (zero).</source>
+        <target state="translated">Bitte geben Sie eine Schlafzeit größer oder gleich 0 (Null).</target>
+      </trans-unit>
+      <trans-unit id="msg.lastRun">
+        <source>The Scheduler was last started (%1$s) on %2$s at %3$s and ended on %4$s at %5$s.</source>
+        <target state="translated">Der Scheduler wurde zuletzt am%1$sam %2$s um %3$s gestartet und endete am %4$s am %5$s.</target>
+      </trans-unit>
+      <trans-unit id="msg.maynotDeleteRunningTask">
+        <source>A running task may not be deleted.</source>
+        <target state="translated">Eine laufende Aufgabe kann nicht gelöscht werden.</target>
+      </trans-unit>
+      <trans-unit id="msg.maynotEditRunningTask">
+        <source>A running task may not be edited.</source>
+        <target state="translated">Eine laufende Aufgabe kann nicht bearbeitet werden.</target>
+      </trans-unit>
+      <trans-unit id="msg.maynotStopNonRunningTask">
+        <source>The task is not running. There are no executions to unmark.</source>
+        <target state="translated">Die Aufgabe läuft nicht. Es gibt keine Hinrichtungen, die man nicht abschliessen kann.</target>
+      </trans-unit>
+      <trans-unit id="msg.noEmail">
+        <source>Please enter an email address.</source>
+        <target state="translated">Bitte geben Sie eine E-Mail-Adresse ein.</target>
+      </trans-unit>
+      <trans-unit id="msg.noFrequency">
+        <source>No frequency was defined, either as an interval or as a cron command.</source>
+        <target state="translated">Es wurde keine Frequenz definiert, entweder als Intervall oder als Cron-Befehl.</target>
+      </trans-unit>
+      <trans-unit id="msg.noLastRun">
+        <source>The Scheduler has never yet run or the information about the last run has been lost.</source>
+        <target state="translated">Der Scheduler hat noch nie ausgeführt oder die Informationen über den letzten Run verloren.</target>
+      </trans-unit>
+      <trans-unit id="msg.noTasksDefined">
+        <source>There are currently no task classes available at all. To be able to create new tasks, you must either enable the samples provided by the Scheduler or install some other extension that relies on the Scheduler.</source>
+        <target state="translated">Derzeit sind keine Task-Klassen verfügbar. Um neue Aufgaben erstellen zu können, müssen Sie entweder die vom Scheduler bereitgestellten Muster aktivieren oder eine andere Erweiterung installieren, die auf den Scheduler angewiesen ist.</target>
+      </trans-unit>
+      <trans-unit id="msg.noTaskClassFound">
+        <source>The selected task class could not be found. You should probably contact the task's developers.</source>
+        <target state="translated">Die ausgewählte Aufgabenklasse konnte nicht gefunden werden. Sie sollten wahrscheinlich die Entwickler der Aufgabe kontaktieren.</target>
+      </trans-unit>
+      <trans-unit id="msg.noTasks">
+        <source>No tasks defined yet.</source>
+        <target state="translated">Noch keine Aufgaben definiert.</target>
+      </trans-unit>
+      <trans-unit id="msg.notExecuted">
+        <source>Not executed: %s</source>
+        <target state="translated">Nicht ausgeführt: %s</target>
+      </trans-unit>
+      <trans-unit id="msg.executionFailed">
+        <source>Execution of task "%1$s" failed with the following message: %2$s</source>
+        <target state="translated">Aufgabe "%1$s" wurde mit der folgenden Nachricht fehlgeschlagen: %2$s</target>
+      </trans-unit>
+      <trans-unit id="msg.executionFailureDefault">
+        <source>The execution failed, but the error message could not be retrieved (it was probably too large). Sorry.</source>
+        <target state="translated">Die Ausführung ist fehlgeschlagen, aber die Fehlermeldung konnte nicht abgerufen werden (wahrscheinlich war es zu groß). Sorry.</target>
+      </trans-unit>
+      <trans-unit id="msg.executionFailureReport">
+        <source>Execution failed: %1$d, %2$s</source>
+        <target state="translated">Ausführung fehlgeschlagen: %1$d, %2$s</target>
+      </trans-unit>
+      <trans-unit id="msg.noStartDate">
+        <source>Please define a start date.</source>
+        <target state="translated">Bitte definieren Sie ein Startdatum.</target>
+      </trans-unit>
+      <trans-unit id="msg.invalidStartDate">
+        <source>Start date is invalid.</source>
+        <target state="translated">Startdatum ist ungültig.</target>
+      </trans-unit>
+      <trans-unit id="msg.invalidEndDate">
+        <source>End date is invalid.</source>
+        <target state="translated">Enddatum ist ungültig.</target>
+      </trans-unit>
+      <trans-unit id="msg.invalidNumberOfDays">
+        <source>Number of days is invalid.</source>
+        <target state="translated">Anzahl der Tage ist ungültig.</target>
+      </trans-unit>
+      <trans-unit id="msg.selectionOfNonExistingCacheBackends">
+        <source>Some of the selected cache backends do not exist. Please select valid backends only.</source>
+        <target state="translated">Einige der ausgewählten Cache-Backends sind nicht vorhanden. Bitte wählen Sie nur gültige Backends.</target>
+      </trans-unit>
+      <trans-unit id="msg.noCacheBackendSelected">
+        <source>Please select at least one cache backend.</source>
+        <target state="translated">Bitte wählen Sie mindestens ein Cache-Backend aus.</target>
+      </trans-unit>
+      <trans-unit id="msg.invalidTaskClass">
+        <source><![CDATA[<strong>The following tasks can not be executed. No related class could be found for none of the following listed tasks.</strong> You should consider reinstalling the extension that provided them or simply deleting the tasks. Please check also if any of the listed tasks have to be recreated manually (which can be necessary after an extension update due to breaking changes or missing migration scripts).]]></source>
+        <target state="translated"><![CDATA[<strong>Die folgenden Aufgaben können nicht ausgeführt werden. Für keine der folgenden aufgelisteten Aufgaben konnte keine zugehörige Klasse gefunden werden.</strong> sollten Sie erwägen, die Erweiterung neu zu installieren, die sie bereitgestellt hat oder einfach die Aufgaben löschen. Bitte überprüfen Sie auch, ob eine der aufgelisteten Aufgaben manuell neu erstellt werden muss (was nach einer Erweiterung aufgrund von Änderungen oder fehlenden Migrationsskripten notwendig sein kann).]]></target>
+      </trans-unit>
+      <trans-unit id="msg.invalidTaskClassEdit">
+        <source>The current class (%s) could not be found. Change it below or consider deleting this task altogether.</source>
+        <target state="translated">Die aktuelle Klasse (%s) konnte nicht gefunden werden. Ändern Sie sie unten oder erwägen Sie, diese Aufgabe ganz zu löschen.</target>
+      </trans-unit>
+      <trans-unit id="msg.invalidTaskClass.infobox.title">
+        <source>%s registered scheduler tasks can not be executed</source>
+        <target state="translated">%s registrierte Scheduler-Aufgaben können nicht ausgeführt werden</target>
+      </trans-unit>
+      <trans-unit id="msg.invalidTaskClass.infobox.message">
+        <source><![CDATA[<a href="#recordlist-task-group-missing">Please check the erroneous tasks!</a>]]></source>
+        <target state="translated"><![CDATA[<a href="#recordlist-task-group-missing">Bitte überprüfen Sie die fehlerhaften Aufgaben!</a>]]></target>
+      </trans-unit>
+      <trans-unit id="msg.schedulerSetupCheck">
+        <source>This screen checks if the requisites for running the Scheduler as a cron job are fulfilled. It also displays information about the last run of the Scheduler.</source>
+        <target state="translated">Dieser Bildschirm überprüft, ob die Voraussetzungen für die Ausführung des Schedulers als Cron-Job erfüllt sind. Er zeigt auch Informationen über den letzten Ablauf des Schedulers an.</target>
+      </trans-unit>
+      <trans-unit id="msg.serverTime">
+        <source>Current server time is %s.</source>
+        <target state="translated">Aktuelle Serverzeit ist %s.</target>
+      </trans-unit>
+      <trans-unit id="msg.serverTimeHelp">
+        <source>All dates and times in the Scheduler are measured according to the server's time, as the Scheduler is run purely on the server-side.</source>
+        <target state="translated">Alle Termine und Uhrzeiten des Schedulers werden nach der Zeit des Servers gemessen, da der Scheduler ausschließlich auf der Server-Seite ausgeführt wird.</target>
+      </trans-unit>
+      <trans-unit id="msg.stop">
+        <source>Are you sure you want to mark this task as not running? Note that this will not stop the actual script (if unsure please refer to the manual).</source>
+        <target state="translated">Sind Sie sicher, dass Sie diese Aufgabe als nicht ausgeführt markieren möchten? Beachten Sie, dass dies das eigentliche Skript nicht stoppen wird (falls Sie sich sicher sind, verweisen Sie bitte auf das Handbuch).</target>
+      </trans-unit>
+      <trans-unit id="msg.stopError">
+        <source>The task could not be marked as non-running.</source>
+        <target state="translated">Die Aufgabe konnte nicht als nicht ausgeführt markiert werden.</target>
+      </trans-unit>
+      <trans-unit id="msg.stopSuccess">
+        <source>The task was successfully marked as non-running.</source>
+        <target state="translated">Die Aufgabe wurde erfolgreich als nicht ausgeführt markiert.</target>
+      </trans-unit>
+      <trans-unit id="msg.taskNotFound">
+        <source>The requested task (UID: %d) was not found.</source>
+        <target state="translated">Die angeforderte Aufgabe (UID: %d) wurde nicht gefunden.</target>
+      </trans-unit>
+      <trans-unit id="msg.updateSuccess">
+        <source>The task was updated successfully.</source>
+        <target state="translated">Die Aufgabe wurde erfolgreich aktualisiert.</target>
+      </trans-unit>
+      <trans-unit id="msg.updateError">
+        <source>The task could not be updated.</source>
+        <target state="translated">Die Aufgabe konnte nicht aktualisiert werden.</target>
+      </trans-unit>
+      <trans-unit id="msg.selectionOfNonExistingDatabaseTables">
+        <source>Some of the selected database tables do not exist. Please select only valid tables.</source>
+        <target state="translated">Einige der ausgewählten Datenbanktabellen sind nicht vorhanden. Bitte wählen Sie nur gültige Tabellen.</target>
+      </trans-unit>
+      <trans-unit id="msg.noDatabaseTablesSelected">
+        <source>Please select at least one database table.</source>
+        <target state="translated">Bitte wählen Sie mindestens eine Datenbanktabelle aus.</target>
+      </trans-unit>
+      <trans-unit id="msg.unregisteredCommand">
+        <source>Command with identifier "%s" has not been registered.</source>
+        <target state="translated">Befehl mit Kennung "%s" wurde nicht registriert.</target>
+      </trans-unit>
+      <trans-unit id="msg.mandatoryArgumentMissing">
+        <source>Argument "%s" is mandatory</source>
+        <target state="translated">Argument "%s" ist obligatorisch</target>
+      </trans-unit>
+      <trans-unit id="none">
+        <source>None</source>
+        <target state="translated">Keine</target>
+      </trans-unit>
+      <trans-unit id="status">
+        <source>Status</source>
+        <target state="translated">Status</target>
+      </trans-unit>
+      <trans-unit id="status.progress">
+        <source>Progress</source>
+        <target state="translated">Fortschritt</target>
+      </trans-unit>
+      <trans-unit id="status.disabled">
+        <source>disabled</source>
+        <target state="translated">deaktiviert</target>
+      </trans-unit>
+      <trans-unit id="status.failure">
+        <source>failure</source>
+        <target state="translated">fehlschlagen</target>
+      </trans-unit>
+      <trans-unit id="status.late">
+        <source>late</source>
+        <target state="translated">verspätet</target>
+      </trans-unit>
+      <trans-unit id="status.running">
+        <source>running</source>
+        <target state="translated">läuft</target>
+      </trans-unit>
+      <trans-unit id="status.scheduled">
+        <source>scheduled</source>
+        <target state="translated">geplant</target>
+      </trans-unit>
+      <trans-unit id="task">
+        <source>Task</source>
+        <target state="translated">Aufgabe</target>
+      </trans-unit>
+      <trans-unit id="title">
+        <source>TYPO3 Scheduler administration module</source>
+        <target state="translated">TYPO3 Scheduler Administrationsmodul</target>
+      </trans-unit>
+      <trans-unit id="action.run_task">
+        <source>Run task</source>
+        <target state="translated">Aufgabe ausführen</target>
+      </trans-unit>
+      <trans-unit id="action.run_task_cron">
+        <source>Run task on next cron job</source>
+        <target state="translated">Aufgabe beim nächsten Cron-Job ausführen</target>
+      </trans-unit>
+      <trans-unit id="testTask.name">
+        <source>Scheduler test task</source>
+        <target state="translated">Scheduler Test Aufgabe</target>
+      </trans-unit>
+      <trans-unit id="testTask.description">
+        <source>The Scheduler test task just sends a mail to a given email address. It is designed to be used for testing purposes.</source>
+        <target state="translated">Die Scheduler-Testaufgabe sendet nur eine E-Mail an eine angegebene E-Mail-Adresse. Es ist für Testzwecke gedacht.</target>
+      </trans-unit>
+      <trans-unit id="sleepTask.name">
+        <source>Scheduler sleep task</source>
+        <target state="translated">Zeitplaner-Schlafaufgabe</target>
+      </trans-unit>
+      <trans-unit id="sleepTask.description">
+        <source>This task does nothing but put PHP to sleep for a number of seconds. It is designed to test multiple executions.</source>
+        <target state="translated">Diese Aufgabe macht nichts anderes als PHP für einige Sekunden zu schlafen. Es ist so konzipiert, mehrere Exekutionen zu testen.</target>
+      </trans-unit>
+      <trans-unit id="cachingFrameworkGarbageCollection.name">
+        <source>Caching framework garbage collection</source>
+        <target state="translated">Caching Framework Garbage Sammlung</target>
+      </trans-unit>
+      <trans-unit id="cachingFrameworkGarbageCollection.description">
+        <source>This task calls the garbage collection of configured caching framework caches which use one of the selected backends. This will free some space in cache backends which do not have an internal garbage collection. In case of the default database backend it is advisable to run this task once a day when the database is mostly idle.</source>
+        <target state="translated">Diese Aufgabe ruft die Müllsammlung konfigurierter Caching-Frame-Caches auf, die eine der ausgewählten Backends verwenden. Dies wird ein wenig Platz in Cache-Backends freischalten, die keine interne Garbage-Sammlung haben. Falls die Standarddatenbank-Backend-Backend ist es ratsam, diese Aufgabe einmal am Tag auszuführen, wenn die Datenbank meist ungenutzt ist.</target>
+      </trans-unit>
+      <trans-unit id="fileIndexing.name">
+        <source>[OBSOLETE] File Abstraction Layer: Indexing job</source>
+        <target state="translated">[OBSOLETE] Datei Abstraktion Layer: Indexierung Job</target>
+      </trans-unit>
+      <trans-unit id="fileIndexing.description">
+        <source>Runs indexing tasks based on an indexing configuration and a storage/folder information.</source>
+        <target state="translated">Führt Indizierungsprogramme durch eine Indexierungskonfiguration und eine Speicher- und Ordnerfrage aus.</target>
+      </trans-unit>
+      <trans-unit id="fileStorageIndexing.name">
+        <source>File Abstraction Layer: Update storage index</source>
+        <target state="translated">Dateiabstraction Layer: Speicherindex aktualisieren</target>
+      </trans-unit>
+      <trans-unit id="fileStorageIndexing.description">
+        <source>Updates the Index/Cache Data of a Storage; only needed if changes to the storage are possible outside the backend (FTP, RemoteStorages).</source>
+        <target state="translated">Aktualisiert die Index/Cache-Daten eines Speichers; nur benötigt, wenn Änderungen am Speicher außerhalb des Backends möglich sind (FTP, RemoteStorages).</target>
+      </trans-unit>
+      <trans-unit id="fileStorageExtraction.name">
+        <source>File Abstraction Layer: Extract metadata in storage</source>
+        <target state="translated">Datei Abstraktion Layer: Metadaten im Speicher extrahieren</target>
+      </trans-unit>
+      <trans-unit id="fileStorageExtraction.description">
+        <source>Extracts metadata for all files in storage which have been changed since last run.</source>
+        <target state="translated">Extrahiert Metadaten für alle Dateien in Speicher, die seit dem letzten Betrieb geändert wurden.</target>
+      </trans-unit>
+      <trans-unit id="tableGarbageCollection.name">
+        <source>Table garbage collection</source>
+        <target state="translated">Tischgarbage Sammlung</target>
+      </trans-unit>
+      <trans-unit id="tableGarbageCollection.description">
+        <source>Task to delete old entries from specific tables like sys_log. Use $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['scheduler']['tasks']['tx_scheduler_TableGarbageCollection']['options']['tables'] to configure tables. Refer to the manual for more details.</source>
+        <target state="translated">Aufgabe, alte Einträge aus bestimmten Tabellen wie sys_log zu löschen. Verwenden Sie $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['scheduler']['tasks']['tx_scheduler_TableGarbageCollection']['options']['tables'] , um Tabellen zu konfigurieren. Bitte lesen Sie das Handbuch für weitere Details.</target>
+      </trans-unit>
+      <trans-unit id="recyclerGarbageCollection.name">
+        <source>Fileadmin garbage collection</source>
+        <target state="translated">Fileadmin-Müll-Sammlung</target>
+      </trans-unit>
+      <trans-unit id="recyclerGarbageCollection.description">
+        <source>This task empties all "_recycler_" folders below fileadmin. This helps free some space in the file system.</source>
+        <target state="translated">Diese Aufgabe Leerzeichen alle Ordner "_recycler_" unterhalb des Dateiadmins. Dies hilft, einen gewissen Platz im Dateisystem zu frei zu machen.</target>
+      </trans-unit>
+      <trans-unit id="executeSchedulableCommandTask.name">
+        <source>Execute console commands</source>
+        <target state="translated">Konsolenaufgaben ausführen</target>
+      </trans-unit>
+      <trans-unit id="executeSchedulableCommandTask.description">
+        <source>Allows regular console commands to be configured and executed through the scheduler framework.</source>
+        <target state="translated">Erlaubt es, normale Konsolenkommissionen über den Zeitplan-Framework zu konfigurieren und auszuführen.</target>
+      </trans-unit>
+      <trans-unit id="optimizeDatabaseTable.name">
+        <source>Optimize MySQL database tables</source>
+        <target state="translated">MySQL-Datenbanktabellen optimieren</target>
+      </trans-unit>
+      <trans-unit id="optimizeDatabaseTable.description">
+        <source>This task executes "OPTIMIZE TABLE" statements on the selected database tables. This helps to reduce storage space and improve I/O efficiency. Warning! Tables will be locked during the optimization process.</source>
+        <target state="translated">Diese Aufgabe führt "OPTIMIZE TABLE" Anweisungen auf den ausgewählten Datenbanktabellen aus. Dies hilft, Speicherplatz zu reduzieren und die I/O Effizienz zu verbessern. Warnung! Tabellen werden während des Optimierungsprozesses gesperrt.</target>
+      </trans-unit>
+      <trans-unit id="ipAnonymization.name">
+        <source>Anonymize IP addresses in database tables</source>
+        <target state="translated">IP-Adressen in Datenbanktabellen anonymisieren</target>
+      </trans-unit>
+      <trans-unit id="ipAnonymization.description">
+        <source>This task anonymizes the IP addresses to enforce the privacy of the persisted data.</source>
+        <target state="translated">Diese Aufgabe anonymisiert die IP-Adressen, um die Privatsphäre der fortlaufenden Daten durchzusetzen.</target>
+      </trans-unit>
+      <trans-unit id="label.ipAnonymization.table">
+        <source>Table to anoymize</source>
+        <target state="translated">Tabelle zum anoymisieren</target>
+      </trans-unit>
+      <trans-unit id="label.ipAnonymization.additionalInformationTable">
+        <source>Table: %s after %s days</source>
+        <target state="translated">Tabelle: %s nach %s Tagen</target>
+      </trans-unit>
+      <trans-unit id="label.ipAnonymization.additionalInformationAllTables">
+        <source>All tables</source>
+        <target state="translated">Alle Tabellen</target>
+      </trans-unit>
+      <trans-unit id="label.ipAnonymization.numberOfDays">
+        <source>Handle entries older than given number of days</source>
+        <target state="translated">Einträge älter als die angegebene Anzahl von Tagen behandeln</target>
+      </trans-unit>
+      <trans-unit id="label.ipAnonymization.mask">
+        <source>Mask level</source>
+        <target state="translated">Masken-Ebene</target>
+      </trans-unit>
+      <trans-unit id="label.ipAnonymization.mask.1">
+        <source>Last byte for IPv4 / Interface ID for IPv6</source>
+        <target state="translated">Letztes Byte für IPv4 / Interface-ID für IPv6</target>
+      </trans-unit>
+      <trans-unit id="label.ipAnonymization.mask.2">
+        <source>Last 2 bytes for IPv4 / Interface &amp; SLA ID for IPv6</source>
+        <target state="translated">Letzte 2 Bytes für IPv4 / Interface &amp; SLA ID für IPv6</target>
+      </trans-unit>
+      <trans-unit id="command.example1">
+        <source>Every day-of-week from Monday through Friday. at 09:00 and 15:00</source>
+        <target state="translated">Jeden Tag der Woche von Montag bis Freitag um 09:00 und 15:00 Uhr</target>
+      </trans-unit>
+      <trans-unit id="command.example2">
+        <source>Every 2 hours</source>
+        <target state="translated">Alle 2 Stunden</target>
+      </trans-unit>
+      <trans-unit id="command.example3">
+        <source>Every 20 minutes</source>
+        <target state="translated">Alle 20 Minuten</target>
+      </trans-unit>
+      <trans-unit id="command.example4">
+        <source>Every Tuesday at 07:00</source>
+        <target state="translated">Jeden Dienstag um 07:00 Uhr</target>
+      </trans-unit>
+      <trans-unit id="systemmessage.noLastRun">
+        <source><![CDATA[It seems the Scheduler has never yet run. Please check your <a href="%1$s">configuration</a>.]]></source>
+        <target state="translated"><![CDATA[Es scheint, dass der Scheduler noch nie läuft. Bitte überprüfen Sie Ihre <a href="%1$s">Konfiguration</a>.]]></target>
+      </trans-unit>
+      <trans-unit id="systeminformation.lastRunLabel">
+        <source>Last Scheduler run</source>
+        <target state="translated">Letzte Scheduler-Ausführung</target>
+      </trans-unit>
+      <trans-unit id="systeminformation.lastRunValue">
+        <source>%1$s at %2$s, Duration %3$s, (started %4$s)</source>
+        <target state="translated">%1$s bei %2$s, Dauer %3$s, (gestartet %4$s)</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
