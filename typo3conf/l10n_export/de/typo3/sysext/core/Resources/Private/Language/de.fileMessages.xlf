@@ -3,81 +3,306 @@
   <file t3:id="1447138381" source-language="en" datatype="plaintext" original="messages" date="2015-11-10T06:53:10Z" product-name="core" target-language="de">
     <header/>
     <body>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id="FileUtility.CannotCopyFolderIntoTargetFolderBecauseTheTargetFolderIsAlreadyWithinTheFolderToBeCopied">
+        <source>Cannot copy folder "%s" into target folder "%s", because the target folder is already within the folder to be copied!</source>
+        <target state="translated">Ordner "%s" kann nicht in den Zielordner "%s" kopiert werden, da der Zielordner bereits im Ordner ist, der kopiert werden soll!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.CannotMoveFolderIntoTargetFolderBecauseTheTargetFolderIsAlreadyWithinTheFolderToBeMoved">
+        <source>Cannot move folder "%s" into target folder "%s", because the target folder is already within the folder to be moved!</source>
+        <target state="translated">Ordner "%s" kann nicht in den Zielordner "%s" verschoben werden, da der Zielordner bereits im Ordner liegt, der verschoben werden soll!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.CouldNotAccessAllNecessaryResources">
+        <source>Could not access all necessary resources. Source file or destination maybe was not within your mountpoints? T="%s", D="%s"</source>
+        <target state="translated">Konnte nicht auf alle notwendigen Ressourcen zugreifen. Quelldatei oder Ziel war vielleicht nicht innerhalb Ihrer mountpoints? T="%s", D="%s"</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.CouldNotDeleteDirectory">
+        <source>Could not delete directory! Is directory "%s" empty? (You are not allowed to delete directories recursively).</source>
+        <target state="translated">Verzeichnis konnte nicht gelöscht werden! Ist Verzeichnis "%s" leer? (Sie dürfen keine Verzeichnisse rekursiv löschen).</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.CouldNotDeleteDirectory1">
+        <source>Could not delete directory "%s"! There might be a problem with write permissions.</source>
+        <target state="translated">Verzeichnis "%s"! Es könnte ein Problem mit Schreibberechtigungen geben.</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.CouldNotDeleteFile">
+        <source>Could not delete file "%s". There might be a problem with write permissions.</source>
+        <target state="translated">Datei "%s". Es könnte ein Problem mit Schreibberechtigungen geben.</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.DestinationExistedAlready">
+        <source>Destination "%s" already exists!</source>
+        <target state="translated">Ziel "%s" existiert bereits!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.DestinationPathWasNotWithinYourMountpoints">
+        <source>Destination path "%s" was not within your mountpoints!</source>
+        <target state="translated">Zielpfad "%s" war nicht innerhalb deiner Reittiere!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.DestinationWasNotADirectory">
+        <source>Destination "%s" was not a directory.</source>
+        <target state="translated">Ziel "%s" war kein Verzeichnis.</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.DirectoryCopiedTo">
+        <source>Directory "%s" copied to "%s".</source>
+        <target state="translated">Verzeichnis "%s" kopiert nach "%s".</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.DirectoryCreatedIn">
+        <source>Directory "%s" created in "%s".</source>
+        <target state="translated">Verzeichnis "%s" erstellt in "%s".</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.DirectoryMovedTo">
+        <source>Directory "%s" moved to "%s".</source>
+        <target state="translated">Verzeichnis "%s" verschoben in "%s".</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.DirectoryNotCreated">
+        <source>Directory "%s" not created. There might be a problem with write permissions in "%s"?</source>
+        <target state="translated">Verzeichnis "%s" nicht erstellt. Es könnte ein Problem mit Schreibberechtigungen in "%s " geben?</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.DirectoryRenamedFromTo">
+        <source>Directory renamed from "%s" to "%s".</source>
+        <target state="translated">Verzeichnis umbenannt von "%s" in "%s".</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.DirectoryRenamedFromToCharReplaced">
+        <source>Directory renamed from "%s" to "%s". Characters in the new directory name have been replaced.</source>
+        <target state="translated">Verzeichnis umbenannt aus "%s" in "%s". Zeichen im neuen Verzeichnisnamen wurden ersetzt.</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.DirectoryRenamedSameName">
+        <source>Directory "%s" was not renamed. (Same name as before)</source>
+        <target state="translated">Verzeichnis "%s" wurde nicht umbenannt. (Gleicher Name wie zuvor)</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.DirectoryWasNotCopiedTo">
+        <source>Directory "%s" WAS NOT copied to "%s"! There might be a problem with write permissions</source>
+        <target state="translated">Verzeichnis "%s" WAS NICHT kopiert zu "%s"! Es könnte ein Problem mit Schreibberechtigungen geben</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.DirectoryWasNotMovedTo">
+        <source>Directory "%s" WAS NOT moved to "%s"! There might be a problem with write permissions</source>
+        <target state="translated">Verzeichnis "%s" WAS NICHT in "%s"! Es könnte ein Problem mit Schreibberechtigungen geben</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.DirectoryWasNotRenamed">
+        <source>Directory "%s" was not renamed! There might be a problem with write permissions in "%s"?</source>
+        <target state="translated">Verzeichnis "%s" wurde nicht umbenannt! Es könnte ein Problem mit Schreibberechtigungen in "%s " geben?</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.ExtensionOfFileNameIsNotAllowedIn">
+        <source>Extension of file name "%s" is not allowed in "%s"!</source>
+        <target state="translated">Dateiname "%s" ist nicht erlaubt in "%s"!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.ExtensionOfFileNameOrWasNotAllowed">
+        <source>Extension of file name "%s" or "%s" was not allowed!</source>
+        <target state="translated">Dateiname "%s" oder "%s" wurde nicht erlaubt!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.ExtensionOfFileWasNotAllowed">
+        <source>Extension of file "%s" was not allowed!</source>
+        <target state="translated">Dateierweiterung "%s" wurde nicht erlaubt!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.FileAlreadyExistsInFolder">
+        <source>File "%s" already exists in folder "%s"!</source>
+        <target state="translated">Datei "%s" existiert bereits im Ordner "%s"!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.FileCopiedTo">
+        <source>File "%s" copied to "%s".</source>
+        <target state="translated">Datei "%s" kopiert nach "%s".</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.FileCreated">
+        <source>File created: "%s".</source>
+        <target state="translated">Datei erstellt: "%s".</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.FileNameSanitized">
+        <source>The file name "%s" is invalid, the file was automatically renamed to "%s".</source>
+        <target state="translated">Der Dateiname "%s" ist ungültig, die Datei wurde automatisch in "%s" umbenannt.</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.FileExistedAlreadyIn">
+        <source>File existed already in "%s"!</source>
+        <target state="translated">Datei existiert bereits in "%s"!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.FileExtensionIsNotATextfileFormat">
+        <source>File extension "%s" is not a textfile format! (%s).</source>
+        <target state="translated">Dateierweiterung "%s" ist kein Textdatei-Format! (%s).</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.FileExtensionIsNotzip">
+        <source>File extension is not "zip".</source>
+        <target state="translated">Dateierweiterung ist nicht "zip".</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.FileMovedTo">
+        <source>File "%s" moved to "%s".</source>
+        <target state="translated">Datei "%s" verschoben in "%s".</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.FileNameWasNotAllowed">
+        <source>File name "%s" was not allowed!</source>
+        <target state="translated">Dateiname "%s" wurde nicht erlaubt!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.FileOrDestinationWasNotWithinYourMountpoints">
+        <source>File "%s" or destination "%s" was not within your mountpoints!</source>
+        <target state="translated">Datei "%s" oder Ziel "%s" war nicht innerhalb Ihrer Reittiere!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.FileOrDirectoryExistedAlready">
+        <source>File or directory "%s" already exists!</source>
+        <target state="translated">Datei oder Verzeichnis "%s" existiert bereits!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.FileRenamedFromTo">
+        <source>File renamed from "%s" to "%s".</source>
+        <target state="translated">Datei umbenannt von "%s" in "%s".</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.FileRenamedSameName">
+        <source>File "%s" was not renamed. (Same name as before)</source>
+        <target state="translated">Datei "%s" wurde nicht umbenannt. (Gleicher Name wie zuvor)</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.FileSavedToBytesMd5">
+        <source>File saved to "%s", bytes: %s, MD5: %s.</source>
+        <target state="translated">Datei gespeichert in "%s", Bytes: %s, MD5: %s.</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.FileWasNotCopiedTo">
+        <source>File "%s" WAS NOT copied to "%s"! There might be a problem with write permissions.</source>
+        <target state="translated">Datei "%s" WAS NICHT in "%s"! Es könnte ein Problem mit Schreibberechtigungen geben.</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.FileWasNotCreated">
+        <source>File "%s" was not created! There might be a problem with write permissions in "%s"?</source>
+        <target state="translated">Datei "%s" wurde nicht erstellt! Es könnte ein Problem mit Schreibberechtigungen in "%s " geben?</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.FileWasNotRenamed">
+        <source>File "%s" was not renamed! There might be a problem with write permissions in "%s"?</source>
+        <target state="translated">Datei "%s" wurde nicht umbenannt! Es könnte ein Problem mit Schreibberechtigungen in "%s " geben?</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.FileWasNotSaved">
+        <source>File "%s" was not saved! There might be a problem with write permissions.</source>
+        <target state="translated">Datei "%s" wurde nicht gespeichert! Es könnte ein Problem mit Schreibberechtigungen geben.</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.FileWasNotSaved2">
+        <source>File "%s" was not saved! File extension rejected!</source>
+        <target state="translated">Datei "%s" wurde nicht gespeichert! Dateierweiterung abgelehnt!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.NoFileWasUploaded">
+        <source>No file was uploaded!</source>
+        <target state="translated">Keine Datei hochgeladen!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.NoFileWasUploadedForReplacing">
+        <source>No file was uploaded for replacing!</source>
+        <target state="translated">Keine Datei zum Ersetzen hochgeladen!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.NoNameForNewFolderGiven">
+        <source>No name for new folder given!</source>
+        <target state="translated">Kein Name für den neuen Ordner angegeben!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.NoUniqueFilenameAvailableIn">
+        <source>No unique filename available in "%s"!</source>
+        <target state="translated">Kein eindeutiger Dateiname in "%s"!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.ReplacingFileTo">
+        <source>Replacing file "%s" to "%s".</source>
+        <target state="translated">Datei "%s" auf "%s " ersetzen.</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.TargetAlreadyExists">
+        <source>Target "%s" already exists!</source>
+        <target state="translated">Ziel "%s" existiert bereits!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.TargetWasNotAFile">
+        <source>Target "%s" was not a file!</source>
+        <target state="translated">Ziel "%s" war keine Datei!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.TargetWasNotWithinYourMountpoints">
+        <source>Target was not within your mountpoints! T="%s".</source>
+        <target state="translated">Ziel war nicht innerhalb deiner Mountpoints! T="%s".</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.TheFileDidNotExist">
+        <source>The file "%s" did not exist!</source>
+        <target state="translated">Die Datei "%s" existiert nicht!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.TheFunctionToCopyAFileBetweenStoragesIsNotYetImplemented">
+        <source>The function to copy a file between storages is not yet implemented.</source>
+        <target state="translated">Die Funktion, eine Datei zwischen den Speichermedien zu kopieren, ist noch nicht implementiert.</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.TheFunctionToCopyAFolderBetweenStoragesIsNotYetImplemented">
+        <source>The function to copy a folder between storages is not yet implemented.</source>
+        <target state="translated">Die Funktion, einen Ordner zwischen den Speichermedien zu kopieren, ist noch nicht implementiert.</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.TheFunctionToMoveAFileBetweenStoragesIsNotYetImplemented">
+        <source>The function to move a file between storages is not yet implemented.</source>
+        <target state="translated">Die Funktion, eine Datei zwischen den Speichermedien zu verschieben, ist noch nicht implementiert.</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.TheFunctionToMoveAFolderBetweenStoragesIsNotYetImplemented">
+        <source>The function to move a folder between storages is not yet implemented.</source>
+        <target state="translated">Die Funktion, einen Ordner zwischen den Speichermedien zu verschieben, ist noch nicht implementiert.</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.TheUploadHasFailedNoUploadedFileFound">
+        <source>The upload has failed, no uploaded file found!</source>
+        <target state="translated">Der Upload ist fehlgeschlagen, keine hochgeladene Datei gefunden!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.TheUploadedFileExceedsTheSize-limit">
+        <source>The uploaded file "%s" exceeds the size-limit</source>
+        <target state="translated">Die hochgeladene Datei "%s" überschreitet das Größenlimit</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.UnzippingFileIn">
+        <source>Unzipping file "%s" in "%s".</source>
+        <target state="translated">Datei "%s" in "%s " entpacken.</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.UploadedFileCouldNotBeMoved">
+        <source>Uploaded file could not be moved! There might be a problem with write permissions in "%s"?</source>
+        <target state="translated">Die hochgeladene Datei konnte nicht verschoben werden! Es könnte ein Problem mit Schreibberechtigungen in "%s " geben?</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.UploadingFileTo">
+        <source>Uploading file "%s" to "%s".</source>
+        <target state="translated">Datei "%s" wird auf "%s " hochgeladen.</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.YouAreNotAllowedToAccessTheDirectory">
+        <source>You are not allowed to access the directory.</source>
+        <target state="translated">Sie sind nicht berechtigt, auf das Verzeichnis zuzugreifen.</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.YouAreNotAllowedToAccessTheFile">
+        <source>You are not allowed to access the file.</source>
+        <target state="translated">Sie sind nicht berechtigt, auf die Datei zuzugreifen.</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.YouAreNotAllowedToCopyDirectories">
+        <source>You are not allowed to copy directories.</source>
+        <target state="translated">Sie sind nicht berechtigt, Verzeichnisse zu kopieren.</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.YouAreNotAllowedToCopyFiles">
+        <source>You are not allowed to copy files.</source>
+        <target state="translated">Sie sind nicht berechtigt, Dateien zu kopieren.</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.InvalidFolderName">
+        <source>Invalid folder name "%s"!</source>
+        <target state="translated">Ungültiger Ordnername "%s"!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.YouAreNotAllowedToCreateDirectories">
+        <source>You are not allowed to create directories!</source>
+        <target state="translated">Sie sind nicht berechtigt, Verzeichnisse zu erstellen!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.YouAreNotAllowedToCreateFiles">
+        <source>You are not allowed to create files!</source>
+        <target state="translated">Sie sind nicht berechtigt, Dateien zu erstellen!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.YouAreNotAllowedToEditFiles">
+        <source>You are not allowed to edit files!</source>
+        <target state="translated">Sie sind nicht berechtigt, Dateien zu bearbeiten!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.YouAreNotAllowedToMoveDirectories">
+        <source>You are not allowed to move directories.</source>
+        <target state="translated">Sie dürfen keine Verzeichnisse verschieben.</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.YouAreNotAllowedToMoveFiles">
+        <source>You are not allowed to move files.</source>
+        <target state="translated">Sie dürfen keine Dateien verschieben.</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.YouAreNotAllowedToOverride">
+        <source>You are not allowed to override "%s"!</source>
+        <target state="translated">Sie dürfen "%s" nicht überschreiben!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.YouAreNotAllowedToRenameDirectories">
+        <source>You are not allowed to rename directories!</source>
+        <target state="translated">Sie dürfen keine Verzeichnisse umbenennen!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.YouAreNotAllowedToRenameFiles">
+        <source>You are not allowed to rename files!</source>
+        <target state="translated">Sie dürfen keine Dateien umbenennen!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.YouAreNotAllowedToUnzipFiles">
+        <source>You are not allowed to unzip files.</source>
+        <target state="translated">Sie dürfen keine Dateien entpacken.</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.YouAreNotAllowedToUploadFiles">
+        <source>You are not allowed to upload files!</source>
+        <target state="translated">Sie sind nicht berechtigt, Dateien hochzuladen!</target>
+      </trans-unit>
+      <trans-unit id="FileUtility.YouDontHaveFullAccessToTheDestinationDirectory">
+        <source>You don't have full access to the destination directory "%s"!</source>
+        <target state="translated">Sie haben keinen vollen Zugriff auf das Zielverzeichnis "%s"!</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
