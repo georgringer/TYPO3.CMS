@@ -3,6 +3,22 @@
   <file t3:id="1415814838" source-language="en" datatype="plaintext" original="messages" date="2011-12-18T10:19:20Z" product-name="indexed_search" target-language="fr">
     <header/>
     <body>
+      <trans-unit id="localizedOperandAnd">
+        <source>AND</source>
+        <target state="translated">ET</target>
+      </trans-unit>
+      <trans-unit id="localizedOperandOr">
+        <source>OR</source>
+        <target state="translated">OU</target>
+      </trans-unit>
+      <trans-unit id="localizedOperandNot">
+        <source>NOT</source>
+        <target state="translated">NON</target>
+      </trans-unit>
+      <trans-unit id="rules.headline">
+        <source>Rules</source>
+        <target state="translated">Règles</target>
+      </trans-unit>
       <trans-unit id="rules.text" xml:space="preserve">
 				<source><![CDATA[Only words with 2 or more characters are accepted<br />
 Max 200 chars total<br />
@@ -11,8 +27,593 @@ AND, OR and NOT are prefix words, overruling the default operator<br />
 +/|/- equals AND, OR and NOT as operators.<br />
 All search words are converted to lowercase.
 ]]></source>
-			<target state="needs-translation"><![CDATA[
+			<target state="translated"><![CDATA[Seuls les mots avec 2 caractères ou plus sont acceptés<br />
+Max 200 caractères total<br />
+L'espace est utilisé pour diviser des mots, "" peut être utilisé pour rechercher une chaîne entière (non indexée alors)<br />
+ET, OU PAS sont des mots préfixes, en écrasant l'opérateur par défaut<br />
++/|/- égales ET, OU NON comme opérateurs.<br />
+Tous les mots de recherche sont convertis en minuscules.
 ]]></target></trans-unit>
+      <trans-unit id="form.legend">
+        <source>Search form</source>
+        <target state="translated">Formulaire de recherche</target>
+      </trans-unit>
+      <trans-unit id="form.searchFor">
+        <source>Search for</source>
+        <target state="translated">Rechercher</target>
+      </trans-unit>
+      <trans-unit id="form.extResume">
+        <source>Extended resume</source>
+        <target state="translated">Résumé étendu</target>
+      </trans-unit>
+      <trans-unit id="form.atATime">
+        <source>at a time</source>
+        <target state="translated">à la fois</target>
+      </trans-unit>
+      <trans-unit id="form.orderBy">
+        <source>Order by</source>
+        <target state="translated">Commander par</target>
+      </trans-unit>
+      <trans-unit id="form.fromSection">
+        <source>From section</source>
+        <target state="translated">De la section</target>
+      </trans-unit>
+      <trans-unit id="form.freeIndexUid">
+        <source>Category</source>
+        <target state="translated">Catégorie</target>
+      </trans-unit>
+      <trans-unit id="form.searchIn">
+        <source>Search in</source>
+        <target state="translated">Recherche dans</target>
+      </trans-unit>
+      <trans-unit id="form.match">
+        <source>Match</source>
+        <target state="translated">Match</target>
+      </trans-unit>
+      <trans-unit id="form.style">
+        <source>Style</source>
+        <target state="translated">Style</target>
+      </trans-unit>
+      <trans-unit id="form.submit">
+        <source>Search</source>
+        <target state="translated">Recherche</target>
+      </trans-unit>
+      <trans-unit id="form.addToSearch">
+        <source>Add to current search words</source>
+        <target state="translated">Ajouter aux mots de recherche actuels</target>
+      </trans-unit>
+      <trans-unit id="form.linkToRegularSearch">
+        <source>Regular search</source>
+        <target state="translated">Recherche régulière</target>
+      </trans-unit>
+      <trans-unit id="form.linkToAdvancedSearch">
+        <source>Advanced search</source>
+        <target state="translated">Recherche avancée</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.0">
+        <source>Distinct word</source>
+        <target state="translated">Mot distinctif</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.1">
+        <source>Part of word</source>
+        <target state="translated">Partie du mot</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.2">
+        <source>First part of word</source>
+        <target state="translated">Première partie du mot</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.3">
+        <source>Last part of word</source>
+        <target state="translated">Dernière partie du mot</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.10">
+        <source>Sounds like</source>
+        <target state="translated">Sons comme</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.20">
+        <source>Sentence</source>
+        <target state="translated">Envoyé</target>
+      </trans-unit>
+      <trans-unit id="defaultOperands.0">
+        <source>All words (AND)</source>
+        <target state="translated">Tous les mots (ET)</target>
+      </trans-unit>
+      <trans-unit id="defaultOperands.1">
+        <source>Any words (OR)</source>
+        <target state="translated">Tous les mots (OU)</target>
+      </trans-unit>
+      <trans-unit id="languageUids.-1">
+        <source>All languages</source>
+        <target state="translated">Toutes les langues</target>
+      </trans-unit>
+      <trans-unit id="languageUids.0">
+        <source>Default</source>
+        <target state="translated">Par défaut</target>
+      </trans-unit>
+      <trans-unit id="sections.0">
+        <source>Whole site</source>
+        <target state="translated">Site entier</target>
+      </trans-unit>
+      <trans-unit id="sections.-1">
+        <source>Only this page</source>
+        <target state="translated">Seulement cette page</target>
+      </trans-unit>
+      <trans-unit id="sections.-2">
+        <source>Top + level 1</source>
+        <target state="translated">Top + niveau 1</target>
+      </trans-unit>
+      <trans-unit id="sections.-3">
+        <source>Level 2 and out</source>
+        <target state="translated">Niveau 2 et hors</target>
+      </trans-unit>
+      <trans-unit id="sections.rootLevel1">
+        <source>Level 1</source>
+        <target state="translated">Niveau 1</target>
+      </trans-unit>
+      <trans-unit id="sections.rootLevel1All">
+        <source>All pages on level 1</source>
+        <target state="translated">Toutes les pages au niveau 1</target>
+      </trans-unit>
+      <trans-unit id="sections.rootLevel2">
+        <source>- Level 2</source>
+        <target state="translated">- Niveau 2</target>
+      </trans-unit>
+      <trans-unit id="sections.rootLevel2All">
+        <source>- All pages on level 2</source>
+        <target state="translated">- Toutes les pages au niveau 2</target>
+      </trans-unit>
+      <trans-unit id="mediaTypes.0">
+        <source>Internal pages</source>
+        <target state="translated">Pages internes</target>
+      </trans-unit>
+      <trans-unit id="mediaTypes.-1">
+        <source>All media</source>
+        <target state="translated">Tous les médias</target>
+      </trans-unit>
+      <trans-unit id="mediaTypes.-2">
+        <source>All External</source>
+        <target state="translated">Tous les externes</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurations.-1">
+        <source>All, mixed</source>
+        <target state="translated">Tout, mixte</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurations.-2">
+        <source>All, categorized</source>
+        <target state="translated">Tout, catégorisé</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurations.0">
+        <source>Pages</source>
+        <target state="translated">Pages</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurationHeader.-1">
+        <source>Mixed categories</source>
+        <target state="translated">Catégories mixtes</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurationHeader.0">
+        <source>Website Pages</source>
+        <target state="translated">Pages du site</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_flag">
+        <source>Weight/Frequency</source>
+        <target state="translated">Poids/Fréquence</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_freq">
+        <source>Frequency</source>
+        <target state="translated">Fréquence</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_first">
+        <source>Close to top</source>
+        <target state="translated">Fermer le haut</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_count">
+        <source>Number of words</source>
+        <target state="translated">Nombre de mots</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.mtime">
+        <source>Date Modified</source>
+        <target state="translated">Date de modification</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.title">
+        <source>Document title</source>
+        <target state="translated">Titre du document</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.crdate">
+        <source>Creation date</source>
+        <target state="translated">Date de création</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.descending">
+        <source>Highest first</source>
+        <target state="translated">Plus haut en premier</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.ascending">
+        <source>Lowest first</source>
+        <target state="translated">Plus bas en premier</target>
+      </trans-unit>
+      <trans-unit id="groupBy.sections">
+        <source>Section hierarchy</source>
+        <target state="translated">hiérarchie de la section</target>
+      </trans-unit>
+      <trans-unit id="groupBy.flat">
+        <source>Flat list</source>
+        <target state="translated">Liste des draps</target>
+      </trans-unit>
+      <trans-unit id="result.page">
+        <source>page</source>
+        <target state="translated">page</target>
+      </trans-unit>
+      <trans-unit id="result.pages">
+        <source>pages</source>
+        <target state="translated">pages</target>
+      </trans-unit>
+      <trans-unit id="result.unnamedSection">
+        <source>Other</source>
+        <target state="translated">Autre</target>
+      </trans-unit>
+      <trans-unit id="result.otherMatching">
+        <source>Other matching pages in the same document</source>
+        <target state="translated">Autres pages correspondantes dans le même document</target>
+      </trans-unit>
+      <trans-unit id="result.otherPageAsWell">
+        <source>INFO: There was another page indexed as well. Probably indexed with another or no usergroup.</source>
+        <target state="translated">INFO : Il y avait aussi une autre page indexée. Probablement indexée avec un autre ou aucun roup d'utilisation.</target>
+      </trans-unit>
+      <trans-unit id="result.path">
+        <source>Path</source>
+        <target state="translated">Chemin</target>
+      </trans-unit>
+      <trans-unit id="result.modified">
+        <source>Modified</source>
+        <target state="translated">Modifié</target>
+      </trans-unit>
+      <trans-unit id="result.created">
+        <source>Created</source>
+        <target state="translated">Créé</target>
+      </trans-unit>
+      <trans-unit id="result.size">
+        <source>Size</source>
+        <target state="translated">Taille</target>
+      </trans-unit>
+      <trans-unit id="result.noResume">
+        <source>Note: This search hit may not accurately match the content on this page. The page resume cannot be shown.</source>
+        <target state="translated">Note : Ce bouton de recherche ne correspond pas exactement au contenu de cette page. Le CV de la page ne peut pas être affiché.</target>
+      </trans-unit>
+      <trans-unit id="result.memberGroups">
+        <source>Require membership of group numbers %s</source>
+        <target state="translated">Nécessite l'adhésion aux numéros de groupe %s</target>
+      </trans-unit>
+      <trans-unit id="result.ratingMatches">
+        <source>matches</source>
+        <target state="translated">matchs</target>
+      </trans-unit>
+      <trans-unit id="result.noResult">
+        <source>No results found.</source>
+        <target state="translated">Aucun résultat trouvé.</target>
+      </trans-unit>
+      <trans-unit id="result.inSection">
+        <source>in the section</source>
+        <target state="translated">dans la section</target>
+      </trans-unit>
+      <trans-unit id="result.inNsection">
+        <source>in %s section</source>
+        <target state="translated">dans la section %s</target>
+      </trans-unit>
+      <trans-unit id="result.inNsections">
+        <source>in %s sections</source>
+        <target state="translated">dans %s sections</target>
+      </trans-unit>
+      <trans-unit id="searchFor">
+        <source>Search for</source>
+        <target state="translated">Rechercher</target>
+      </trans-unit>
+      <trans-unit id="searchFor.or">
+        <source>or</source>
+        <target state="translated">ou</target>
+      </trans-unit>
+      <trans-unit id="searchFor.and">
+        <source>and</source>
+        <target state="translated">et</target>
+      </trans-unit>
+      <trans-unit id="searchFor.andnot">
+        <source>but not</source>
+        <target state="translated">mais pas</target>
+      </trans-unit>
+      <trans-unit id="displayResults.previous">
+        <source>&lt; Previous</source>
+        <target state="translated">&lt; Précédent</target>
+      </trans-unit>
+      <trans-unit id="displayResults.page">
+        <source>Page</source>
+        <target state="translated">Page</target>
+      </trans-unit>
+      <trans-unit id="displayResults.next">
+        <source>Next &gt;</source>
+        <target state="translated">Suivant &gt;</target>
+      </trans-unit>
+      <trans-unit id="displayResults">
+        <source><![CDATA[Displaying results <strong>%1$s to %2$s</strong> out of <strong>%3$s</strong>]]></source>
+        <target state="translated"><![CDATA[Affichage des résultats <strong>%1$s à %2$s</strong> sur <strong>%3$s</strong>]]></target>
+      </trans-unit>
+      <trans-unit id="administration.menu.general">
+        <source>General statistics</source>
+        <target state="translated">Statistiques générales</target>
+      </trans-unit>
+      <trans-unit id="administration.menu.pages">
+        <source>List: Pages</source>
+        <target state="translated">Liste : Pages</target>
+      </trans-unit>
+      <trans-unit id="administration.menu.externalDocuments">
+        <source>List: External documents</source>
+        <target state="translated">Liste : Documents externes</target>
+      </trans-unit>
+      <trans-unit id="administration.menu.searchStatistic">
+        <source>Search statistics</source>
+        <target state="translated">Statistiques de recherche</target>
+      </trans-unit>
+      <trans-unit id="administration.menu.statistic">
+        <source>Detailed statistics</source>
+        <target state="translated">Statistiques détaillées</target>
+      </trans-unit>
+      <trans-unit id="administration.index.description">
+        <source>General statistics</source>
+        <target state="translated">Statistiques générales</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics">
+        <source>Indexing Engine Statistics</source>
+        <target state="translated">Statistiques des moteurs d'indexation</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.header">
+        <source>Row count by database table</source>
+        <target state="translated">Nombre de lignes par table de base de données</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.name">
+        <source>Name</source>
+        <target state="translated">Nom</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.count">
+        <source>Count</source>
+        <target state="translated">Nombre</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.headerTypes">
+        <source>Hash Header Types</source>
+        <target state="translated">Types d'en-tête Hash</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.headerTypes.count">
+        <source>Count / Unique count</source>
+        <target state="translated">Nombre / nombre unique</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.word">
+        <source>Word</source>
+        <target state="translated">Mot</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.mostSearched.title">
+        <source>List of most searched words</source>
+        <target state="translated">Liste des mots les plus recherchés</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.mostSearched.description">
+        <source>Statistics for all pages. Select a page with indexed search form to see several statistics.</source>
+        <target state="translated">Statistiques pour toutes les pages. Sélectionnez une page avec un formulaire de recherche indexé pour voir plusieurs statistiques.</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.mostSearched.all">
+        <source>All</source>
+        <target state="translated">Tous</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.mostSearched.last30days">
+        <source>Last 30 days</source>
+        <target state="translated">30 derniers jours</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.mostSearched.last24hours">
+        <source>Last 24 hours</source>
+        <target state="translated">Derniers 24 heures</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.noResult">
+        <source>No result found</source>
+        <target state="translated">Aucun résultat trouvé</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.noResultForPage">
+        <source>No result for the selected page found.</source>
+        <target state="translated">Aucun résultat pour la page sélectionnée trouvée.</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.selectPage">
+        <source>Please select a page in the page tree.</source>
+        <target state="translated">Veuillez sélectionner une page dans l'arborescence de la page.</target>
+      </trans-unit>
+      <trans-unit id="administration.external.title">
+        <source>External documents</source>
+        <target state="translated">Documents externes</target>
+      </trans-unit>
+      <trans-unit id="field.fileName">
+        <source>Filename</source>
+        <target state="translated">Nom du fichier</target>
+      </trans-unit>
+      <trans-unit id="field.fileSize">
+        <source>Filesize</source>
+        <target state="translated">Filesize</target>
+      </trans-unit>
+      <trans-unit id="field.wordCount">
+        <source>Word count</source>
+        <target state="translated">Nombre de mots</target>
+      </trans-unit>
+      <trans-unit id="field.words">
+        <source>Words</source>
+        <target state="translated">Mots</target>
+      </trans-unit>
+      <trans-unit id="field.mtime">
+        <source>Modification time</source>
+        <target state="translated">Heure de modification</target>
+      </trans-unit>
+      <trans-unit id="field.indexed">
+        <source>Indexed</source>
+        <target state="translated">Indexer</target>
+      </trans-unit>
+      <trans-unit id="field.updated">
+        <source>Updated</source>
+        <target state="translated">Mis à jour</target>
+      </trans-unit>
+      <trans-unit id="field.parseTime">
+        <source>Parsetime [ms]</source>
+        <target state="translated">Paroleur [ms]</target>
+      </trans-unit>
+      <trans-unit id="field.groups">
+        <source>#sec/gr/full</source>
+        <target state="translated">#sec/gr/full</target>
+      </trans-unit>
+      <trans-unit id="field.sub">
+        <source>Sub</source>
+        <target state="translated">Sous</target>
+      </trans-unit>
+      <trans-unit id="field.staticPageArguments">
+        <source>Static Page Arguments</source>
+        <target state="translated">Arguments de la page statique</target>
+      </trans-unit>
+      <trans-unit id="field.count">
+        <source>Count</source>
+        <target state="translated">Nombre</target>
+      </trans-unit>
+      <trans-unit id="field.first">
+        <source>First</source>
+        <target state="translated">Premier</target>
+      </trans-unit>
+      <trans-unit id="field.pHash">
+        <source>PageHash</source>
+        <target state="translated">Hash PageHash</target>
+      </trans-unit>
+      <trans-unit id="field.path">
+        <source>Path</source>
+        <target state="translated">Chemin</target>
+      </trans-unit>
+      <trans-unit id="field.id">
+        <source>Page Id</source>
+        <target state="translated">Id de page</target>
+      </trans-unit>
+      <trans-unit id="field.uniqueId">
+        <source>Unique Id</source>
+        <target state="translated">Id unique</target>
+      </trans-unit>
+      <trans-unit id="field.type">
+        <source>Type</source>
+        <target state="translated">Type</target>
+      </trans-unit>
+      <trans-unit id="field.title">
+        <source>Title</source>
+        <target state="translated">Titre</target>
+      </trans-unit>
+      <trans-unit id="field.language">
+        <source>Language</source>
+        <target state="translated">Langue</target>
+      </trans-unit>
+      <trans-unit id="field.frequency">
+        <source>Frequency</source>
+        <target state="translated">Fréquence</target>
+      </trans-unit>
+      <trans-unit id="field.flag">
+        <source>Flag</source>
+        <target state="translated">Drapeau</target>
+      </trans-unit>
+      <trans-unit id="field.metaphone">
+        <source>Metaphone</source>
+        <target state="translated">Métal</target>
+      </trans-unit>
+      <trans-unit id="field.content">
+        <source>Content</source>
+        <target state="translated">Contenu</target>
+      </trans-unit>
+      <trans-unit id="administration.notIndexed">
+        <source>Not indexed?</source>
+        <target state="translated">Non indexé ?</target>
+      </trans-unit>
+      <trans-unit id="administration.document.description">
+        <source>Details for a single result row</source>
+        <target state="translated">Détails pour une ligne de résultats</target>
+      </trans-unit>
+      <trans-unit id="administration.document.words">
+        <source>All words found on page</source>
+        <target state="translated">Tous les mots trouvés sur la page</target>
+      </trans-unit>
+      <trans-unit id="administration.document.topCount">
+        <source>Words by top count</source>
+        <target state="translated">Mots par compte supérieur</target>
+      </trans-unit>
+      <trans-unit id="administration.document.topFrequency">
+        <source>Words by frequency</source>
+        <target state="translated">Mots par fréquence</target>
+      </trans-unit>
+      <trans-unit id="administration.stopWords">
+        <source>Stopwords</source>
+        <target state="translated">Mots d'arrêt</target>
+      </trans-unit>
+      <trans-unit id="administration.stopWords.save">
+        <source>Save stopwords</source>
+        <target state="translated">Enregistrer les mots-clés</target>
+      </trans-unit>
+      <trans-unit id="administration.keywords">
+        <source>Page keywords</source>
+        <target state="translated">Mots-clés de la page</target>
+      </trans-unit>
+      <trans-unit id="administration.keywords.current">
+        <source>Current page keywords</source>
+        <target state="translated">Mots-clés de la page actuelle</target>
+      </trans-unit>
+      <trans-unit id="administration.stopWordsKeywords.save">
+        <source>Save keywords and stop words</source>
+        <target state="translated">Enregistrer les mots clés et arrêter les mots</target>
+      </trans-unit>
+      <trans-unit id="administration.word.description">
+        <source>Detail view of a single word</source>
+        <target state="translated">Vue détaillée d'un mot</target>
+      </trans-unit>
+      <trans-unit id="administration.linkBack">
+        <source>Back</source>
+        <target state="translated">Retour</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.sectionRecords">
+        <source>Section records for this phash</source>
+        <target state="translated">Enregistrements de section pour cette phase</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.debug">
+        <source>Debug</source>
+        <target state="translated">Débogage</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.lexer">
+        <source>Lexer</source>
+        <target state="translated">Lexer</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.metaphone">
+        <source>Metaphone</source>
+        <target state="translated">Métal</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.view.overview">
+        <source>Overview</source>
+        <target state="translated">Aperçu</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.view.content">
+        <source>Words and content</source>
+        <target state="translated">Mots et contenu</target>
+      </trans-unit>
+      <trans-unit id="administration.phash.tableHeader">
+        <source>Phash row content</source>
+        <target state="translated">Contenu de la ligne de phase</target>
+      </trans-unit>
+      <trans-unit id="administration.removeEntry">
+        <source>Remove entry</source>
+        <target state="translated">Supprimer l'entrée</target>
+      </trans-unit>
+      <trans-unit id="administration.removeAllEntries">
+        <source>Remove all listed entries</source>
+        <target state="translated">Supprimer toutes les entrées listées</target>
+      </trans-unit>
+      <trans-unit id="administration.back">
+        <source>Back</source>
+        <target state="translated">Retour</target>
+      </trans-unit>
+      <trans-unit id="administration.noPageSelected">
+        <source>Please select a page from the page tree.</source>
+        <target state="translated">Veuillez sélectionner une page dans l'arborescence de la page.</target>
+      </trans-unit>
+      <trans-unit id="error.noTypoScript">
+        <source>Error: Please check that TypoScript for the Indexed Search plugin is included.</source>
+        <target state="translated">Erreur : Veuillez vérifier que TypoScript pour le plugin de recherche indexée est inclus.</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
