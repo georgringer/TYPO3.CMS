@@ -3,19 +3,150 @@
   <file t3:id="1440157535" source-language="en" datatype="plaintext" original="messages" date="2015-08-21T11:45:35Z" product-name="filelist" target-language="de">
     <header/>
     <body>
+      <trans-unit id="search">
+        <source>Search</source>
+        <target state="translated">Suche</target>
+      </trans-unit>
+      <trans-unit id="flashmessage.no_results">
+        <source>No results found</source>
+        <target state="translated">Keine Ergebnisse gefunden</target>
+      </trans-unit>
+      <trans-unit id="file_upload.php.pagetitle">
+        <source>Upload files</source>
+        <target state="translated">Dateien hochladen</target>
+      </trans-unit>
+      <trans-unit id="file_upload.php.submit">
+        <source>Upload files</source>
+        <target state="translated">Dateien hochladen</target>
+      </trans-unit>
+      <trans-unit id="file_upload.php.files">
+        <source>files</source>
+        <target state="translated">Dateien</target>
+      </trans-unit>
+      <trans-unit id="file_rename.exists.title">
+        <source>File exists already</source>
+        <target state="translated">Datei existiert bereits</target>
+      </trans-unit>
       <trans-unit id="file_rename.exists.description">
         <source>You want to rename the file "{0}" to "{1}", but such a file already exists. How do you want to
 					proceed?
 				</source>
-        <target state="needs-translation">
+        <target state="translated">Sie möchten die Datei "{0}" in "{1}" umbenennen, aber eine solche Datei existiert bereits. Wie wollen Sie
+					fortfahren?
 				</target>
+      </trans-unit>
+      <trans-unit id="file_rename.actions.cancel">
+        <source>Cancel</source>
+        <target state="translated">Abbrechen</target>
+      </trans-unit>
+      <trans-unit id="file_rename.actions.rename">
+        <source>Rename with unique name</source>
+        <target state="translated">Mit eindeutigem Namen umbenennen</target>
+      </trans-unit>
+      <trans-unit id="file_rename.actions.override">
+        <source>Overwrite</source>
+        <target state="translated">Überschreiben</target>
+      </trans-unit>
+      <trans-unit id="file_rename.php.pagetitle">
+        <source>Rename</source>
+        <target state="translated">Umbenennen</target>
+      </trans-unit>
+      <trans-unit id="file_rename.php.submit">
+        <source>Rename</source>
+        <note from="developer">This label is not used since TYPO3 v9.</note>
+        <target state="translated">Umbenennen</target>
+      </trans-unit>
+      <trans-unit id="file_rename.php.label.target.file">
+        <source>New file name</source>
+        <target state="translated">Neuer Dateiname</target>
+      </trans-unit>
+      <trans-unit id="file_rename.php.label.target.folder">
+        <source>New folder name</source>
+        <target state="translated">Neuer Ordnername</target>
+      </trans-unit>
+      <trans-unit id="file_replace.php.pagetitle">
+        <source>Replace</source>
+        <target state="translated">Ersetzen</target>
+      </trans-unit>
+      <trans-unit id="file_replace.php.selectfile">
+        <source>Select new file</source>
+        <target state="translated">Neue Datei auswählen</target>
+      </trans-unit>
+      <trans-unit id="file_replace.php.keepfiletitle">
+        <source>Keep the current filename?</source>
+        <target state="translated">Aktuellen Dateinamen beibehalten?</target>
+      </trans-unit>
+      <trans-unit id="file_replace.php.browse">
+        <source>Browse</source>
+        <target state="translated">Durchsuchen</target>
+      </trans-unit>
+      <trans-unit id="file_replace.php.submit">
+        <source>Replace</source>
+        <target state="translated">Ersetzen</target>
+      </trans-unit>
+      <trans-unit id="file_edit.php.pagetitle">
+        <source>Edit</source>
+        <target state="translated">Bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="file_edit.php.submit">
+        <source>Save</source>
+        <target state="translated">Speichern</target>
+      </trans-unit>
+      <trans-unit id="file_edit.php.saveAndClose">
+        <source>Save and Close</source>
+        <target state="translated">Speichern und schließen</target>
       </trans-unit>
       <trans-unit id="file_edit.php.coundNot">
         <source>This filetype cannot be edited.&lt;br /&gt;The file must have an extension like:&lt;br /&gt;&lt;br
 					/&gt; &lt;b&gt;%s&lt;/b&gt;
 				</source>
-        <target state="needs-translation">
+        <target state="translated">Dieser Dateityp kann nicht bearbeitet werden.&lt;br /&gt;Die Datei muss eine Erweiterung wie:&lt;br /&gt;&lt;br
+					/&gt; &lt;b&gt;%s&lt;/b&gt; haben
 				</target>
+      </trans-unit>
+      <trans-unit id="file_newfolder.php.pagetitle">
+        <source>New file or folder</source>
+        <target state="translated">Neue Datei oder Ordner</target>
+      </trans-unit>
+      <trans-unit id="file_newfolder.php.newfolders">
+        <source>Create new folders</source>
+        <target state="translated">Neue Ordner erstellen</target>
+      </trans-unit>
+      <trans-unit id="file_newfolder.php.label_newfolder">
+        <source>Folder</source>
+        <target state="translated">Ordner</target>
+      </trans-unit>
+      <trans-unit id="file_newfolder.php.submit">
+        <source>Create folders</source>
+        <target state="translated">Ordner erstellen</target>
+      </trans-unit>
+      <trans-unit id="create_folder.title">
+        <source>Create new folder</source>
+        <target state="translated">Neuen Ordner erstellen</target>
+      </trans-unit>
+      <trans-unit id="create_folder.submit">
+        <source>Create folder</source>
+        <target state="translated">Ordner erstellen</target>
+      </trans-unit>
+      <trans-unit id="file_newfolder.php.folders">
+        <source>folders</source>
+        <target state="translated">Ordner</target>
+      </trans-unit>
+      <trans-unit id="file_newfolder.php.newfile_submit">
+        <source>Create file</source>
+        <target state="translated">Datei erstellen</target>
+      </trans-unit>
+      <trans-unit id="file_newfolder.php.newfile">
+        <source>Create new textfile</source>
+        <target state="translated">Neue Textdatei erstellen</target>
+      </trans-unit>
+      <trans-unit id="file_newfolder.php.label_newfile">
+        <source>File name</source>
+        <target state="translated">Dateiname</target>
+      </trans-unit>
+      <trans-unit id="file_newfolder.php.number_of_folders">
+        <source>Number of folders</source>
+        <target state="translated">Anzahl der Ordner</target>
       </trans-unit>
     </body>
   </file>
