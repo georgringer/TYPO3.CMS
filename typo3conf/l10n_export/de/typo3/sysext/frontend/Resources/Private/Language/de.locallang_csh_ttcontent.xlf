@@ -3,104 +3,739 @@
   <file t3:id="1415814794" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="context_help" target-language="de">
     <header/>
     <body>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id=".description">
+        <source>All visible content on webpages is typically made by "Page Content" records, often referred to as "Content Elements". Content Elements are managed by the "Page" Module which organizes Content Elements in multiple columns and languages.</source>
+        <target state="translated">Alle sichtbaren Inhalte auf Webseiten werden typischerweise von "Seiteninhalten" Datensätzen erstellt, die oft als "Inhaltselemente" bezeichnet werden. Inhaltselemente werden vom "Page" Modul verwaltet, das Inhaltselemente in mehreren Spalten und Sprachen organisiert.</target>
+      </trans-unit>
+      <trans-unit id=".details">
+        <source>"Page Content" records are sortable and can be rearranged. The "Language" and "Column" selectors of the "Page Content" records determines when and where they appear. If you do not change the value of the "Language" and "Column" selectors the Content Element will appear in the default configuration.</source>
+        <target state="translated">"Seiteninhalt" Einträge sind sortierbar und können neu sortiert werden. Die "Sprache" und "Spalten" Auswahlmöglichkeiten der "Seiteninhalte" Einträge bestimmen, wann und wo sie erscheinen. Wenn Sie den Wert der "Sprache" und "Spalten" selektieren, wird das Inhaltselement in der Standardkonfiguration angezeigt.</target>
+      </trans-unit>
+      <trans-unit id="_.seeAlso" xml:space="preserve">
+				<source>Page Content Principles | https://docs.typo3.org/typo3cms/GettingStartedTutorial/GeneralPrinciples/PageContent/,
+_MOD_web_layout</source>
+			<target state="translated">Seiten-Content-Prinzipien | https://docs.typo3.org/typo3cms/GettingStartedTutorial/GeneralPrinciples/PageContent/,
+_MOD_web_layout</target></trans-unit>
+      <trans-unit id="_.image" xml:space="preserve">
+				<source>EXT:frontend/Resources/Public/Images/cshimages/ttcontent_1.png,
+EXT:frontend/Resources/Public/Images/cshimages/ttcontent_2.png,
+EXT:frontend/Resources/Public/Images/cshimages/ttcontent_3.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:frontend/Resources/Public/Images/cshimages/ttcontent_1.png,
+EXT:frontend/Resources/Public/Images/cshimages/ttcontent_2.png,
+EXT:frontend/Resources/Public/Images/cshimages/ttcontent_3.png</target></trans-unit>
+      <trans-unit id=".image_descr" xml:space="preserve">
+				<source>The Page Module is used to manage Content Elements arranged in columns and languages.
+A Content Element has an editing form with many options. The "Type" determines which options are visible.
+In the Frontend, a Content Element like the above could look like this.</source>
+			<target state="translated">Das Seitenmodul wird verwendet, um Inhaltselemente zu verwalten, die in Spalten und Sprachen geordnet sind.
+Ein Inhaltselement hat ein Editierformular mit vielen Optionen. Der "Typ" bestimmt, welche Optionen sichtbar sind.
+Im Frontend könnte ein Inhaltselement wie oben aussehen.</target></trans-unit>
+      <trans-unit id="CType.description">
+        <source>Select the kind of Page Content this element represents. New options will appear when you save the record.</source>
+        <target state="translated">Wählen Sie die Art von Seiteninhalt, die dieses Element darstellt. Neue Optionen werden angezeigt, wenn Sie den Eintrag speichern.</target>
+      </trans-unit>
+      <trans-unit id="CType.details" xml:space="preserve">
+				<source>The 'Type' of content you select determines which options are available in the editing form so be sure to save the record before making other changes.
+
+This is a description of the various types:
+
+&lt;strong&gt;Header&lt;/strong&gt;
+This type allows you to insert a standard Content Element header and nothing more.
+Almost all the other types described below also include the Header and its options. The Header type provides a way to insert a header without any other content.
+
+&lt;strong&gt;Text&lt;/strong&gt;
+The Text type allows you to insert regular page content. It is generally used for text only content.
+
+&lt;strong&gt;Text &amp; Images&lt;/strong&gt;
+This is the same as the Text type (regular page content) but with the option of attaching images.
+
+&lt;strong&gt;Image&lt;/strong&gt;
+The Image type allows you to insert image only page content.
+
+&lt;strong&gt;Bullet List&lt;/strong&gt;
+Lets you create a bullet list. Each line in the text field will appear as a single bullet.
+
+&lt;strong&gt;Table&lt;/strong&gt;
+Lets you create &lt;em&gt;simple&lt;/em&gt; tables. Each line represents a row in the table and vertical bars ('|') separate each column. A popup wizard is also available.
+
+&lt;strong&gt;File Links&lt;/strong&gt;
+Allows you to present a list of files for download. Thumbnails can be attached to the list and you can also display the file size.
+
+&lt;strong&gt;Form&lt;/strong&gt;
+Lets you create mail forms using a special syntax or a popup wizard.
+
+&lt;strong&gt;Search&lt;/strong&gt;
+This inserts a search box and also shows the search results when a search is performed on the page.
+
+&lt;strong&gt;Login&lt;/strong&gt;
+Displays a login box for website users. This is only useful if you have already created website users and usergroups.
+
+&lt;strong&gt;Menu/Sitemap&lt;/strong&gt;
+Offers a selection of menus and a sitemap you can insert on a page.
+
+&lt;strong&gt;Insert records&lt;/strong&gt;
+This acts as placeholder for other records. With this Content Element, you can resuse multiple content elements from other pages.
+
+&lt;strong&gt;Insert plugin&lt;/strong&gt;
+This will allows you to insert news, forums, guestbooks, lists of addresses, and other functionality. Plugins are typically provided by TYPO3 extensions. The available fields and required configuration depend on the extension.
+
+&lt;strong&gt;Divider&lt;/strong&gt;
+This inserts a simple horizontal rule on a page.
+
+&lt;strong&gt;HTML&lt;/strong&gt;
+This is plain HTML content. Anything added in the HTML Code of this Content Element will be displayed directly on the page without any preprocessing.</source>
+			<target state="translated">Die 'Art' des Inhalts, die Sie auswählen, bestimmt, welche Optionen im Editierformular verfügbar sind, so sollten Sie den Eintrag vor anderen Änderungen speichern.
+
+Dies ist eine Beschreibung der verschiedenen Typen:
+
+&lt;strong&gt;Header&lt;/strong&gt;
+Dieser Typ erlaubt es Ihnen, einen Standard-Content-Element-Header und nichts mehr einzufügen.
+Fast alle anderen unten beschriebenen Typen enthalten auch den Header und seine Optionen. Der Header-Typ bietet eine Möglichkeit, einen Header ohne andere Inhalte einzufügen.
+
+&lt;strong&gt;Text&lt;/strong&gt;
+Der Texttyp erlaubt es Ihnen, reguläre Seiteninhalte einzufügen. Es wird im Allgemeinen nur für Text verwendet.
+
+&lt;strong&gt;Text &amp; Bilder&lt;/strong&gt;
+Dies ist der Text-Typ (regulärer Seiteninhalt), aber mit der Option, Bilder anzuhängen.
+
+&lt;strong&gt;Bild&lt;/strong&gt;
+Der Bildtyp erlaubt es Ihnen, nur Seiteninhalte einzufügen.
+
+&lt;strong&gt;Bullet List&lt;/strong&gt;
+Möchtest du eine Bullet-Liste erstellen. Jede Zeile im Textfeld erscheint als eine einzige Kugel.
+
+&lt;strong&gt;Tabelle&lt;/strong&gt;
+Möchtest du &lt;em&gt;einfache&lt;/em&gt; Tabellen erstellen. Jede Zeile repräsentiert eine Zeile in der Tabelle und vertikale Balken ('|') trennen jede Spalte. Ein Popup-Assistent ist ebenfalls verfügbar.
+
+&lt;strong&gt;Dateilinks&lt;/strong&gt;
+erlaubt es Ihnen, eine Liste der Dateien zum Download zu präsentieren. Die Miniaturansichten können an die Liste angehängt werden und Sie können auch die Dateigröße anzeigen.
+
+&lt;strong&gt;Formular&lt;/strong&gt;
+Ermöglicht es, E-Mails mit Hilfe eines speziellen Syntax oder eines Popup-Assistenten zu erstellen.
+
+&lt;strong&gt;Suche&lt;/strong&gt;
+Dies fügt ein Suchfeld ein und zeigt auch die Suchergebnisse, wenn eine Suche auf der Seite durchgeführt wird.
+
+&lt;strong&gt;Login&lt;/strong&gt;
+Zeigt ein Login-Feld für Benutzer der Website an. Dies ist nur nützlich, wenn Sie bereits Benutzer und Benutzergruppen erstellt haben.
+
+&lt;strong&gt;Menü/Sitemap&lt;/strong&gt;
+bietet eine Auswahl an Menüs und eine Sitemap, die Sie auf einer Seite einfügen können.
+
+&lt;strong&gt;Einträge einfügen&lt;/strong&gt;
+Dies dient als Platzhalter für andere Datensätze. Mit diesem Inhaltselement können Sie mehrere Inhaltselemente von anderen Seiten wiederaufleben.
+
+&lt;strong&gt;Plugin einfügen&lt;/strong&gt;
+Dies erlaubt Ihnen, Nachrichten, Foren, Gästebücher, Adresslisten und andere Funktionen einzufügen. Plugins werden normalerweise von TYPO3-Erweiterungen bereitgestellt. Die verfügbaren Felder und die erforderliche Konfiguration hängen von der Erweiterung ab.
+
+&lt;strong&gt;Divider&lt;/strong&gt;
+Dies fügt eine einfache horizontale Regel auf einer Seite ein.
+
+&lt;strong&gt;HTML&lt;/strong&gt;
+Dies ist reiner HTML-Inhalt. Alles, was im HTML-Code dieses Inhaltselements hinzugefügt wird, wird direkt auf der Seite angezeigt, ohne dass eine Vorarbeite erfolgt.</target></trans-unit>
+      <trans-unit id="_CType.seeAlso" xml:space="preserve">
+				<source>tt_content:colPos,
+tt_content:sys_language_uid,
+About Content Elements | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/EditPageContent/</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:colPos,
+tt_content:sys_language_uid,
+Über Inhaltselemente | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/EditPageContent/</target></trans-unit>
+      <trans-unit id="_CType.image">
+        <source>EXT:frontend/Resources/Public/Images/cshimages/ttcontent_4.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:frontend/Resources/Public/Images/cshimages/ttcontent_4.png</target>
+      </trans-unit>
+      <trans-unit id="hidden.description">
+        <source>Check this box if you wish to disable the Content Element and keep it from being displayed on the website.</source>
+        <target state="translated">Aktivieren Sie dieses Feld, wenn Sie das Inhaltselement deaktivieren möchten und behalten Sie es daran, auf der Website angezeigt zu werden.</target>
+      </trans-unit>
+      <trans-unit id="_hidden.seeAlso" xml:space="preserve">
+				<source>tt_content:starttime,
+tt_content:endtime,
+tt_content:fe_group,
+tt_content:colPos,
+tt_content:sys_language_uid</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:starttime,
+tt_content:endtime,
+tt_content:fe_group,
+tt_content:colPos,
+tt_content:sys_language_uid</target></trans-unit>
+      <trans-unit id="starttime.description">
+        <source>Enter the date when the Content Element should be published and displayed on the website.</source>
+        <target state="translated">Geben Sie das Datum ein, an dem das Inhaltselement veröffentlicht und auf der Website angezeigt werden soll.</target>
+      </trans-unit>
+      <trans-unit id="_starttime.seeAlso" xml:space="preserve">
+				<source>pages:starttime,
+tt_content:endtime,
+tt_content:hidden,
+tt_content:fe_group</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">Seiten:starttime,
+tt_content:endtime,
+tt_content:hidden,
+tt_content:fe_group</target></trans-unit>
+      <trans-unit id="endtime.description">
+        <source>Enter the date when the Content Element should expire and disappear from the website.</source>
+        <target state="translated">Geben Sie das Datum ein, an dem das Inhaltselement ablaufen und von der Website verschwinden soll.</target>
+      </trans-unit>
+      <trans-unit id="_endtime.seeAlso" xml:space="preserve">
+				<source>pages:endtime,
+tt_content:starttime,
+tt_content:hidden,
+tt_content:fe_group</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">Seiten:endtime,
+tt_content:starttime,
+tt_content:hidden,
+tt_content:fe_group</target></trans-unit>
+      <trans-unit id="fe_group.description">
+        <source>If Usergroup Access Rights are set to a usergroup name, only website users who are logged in and members of the selected usergroup will be able to view the Content Element. The special option 'Hide at Login' means the Content Element will &lt;em&gt;not&lt;/em&gt; be visible for any website users that are logged in. Likewise "Show at Any Login" will make the Content Element visible for any logged in website user.</source>
+        <target state="translated">Wenn die Zugriffsrechte der Benutzergruppe auf einen Benutzernamen gesetzt werden, können nur Benutzer der Website, die angemeldet sind und Mitglieder der ausgewählten Benutzergruppe das Inhaltselement ansehen. Die spezielle Option 'Verstecken bei Login' bedeutet, dass das Inhaltselement &lt;em&gt;nicht&lt;/em&gt; für alle eingeloggten Benutzer der Website sichtbar sein wird. Ebenso wird "Bei jedem Login anzeigen" das Inhaltselement für alle eingeloggten Benutzer sichtbar.</target>
+      </trans-unit>
+      <trans-unit id="fe_group.details">
+        <source>The 'Hide at Login' option is is useful if you want to present information like "How to Login" that becomes irrelevant when a website user is actually logged in.</source>
+        <target state="translated">Die Option 'Bei Login ausblenden' ist nützlich, wenn Sie Informationen wie "Wie Sie sich anmelden" präsentieren möchten, die irrelevant sind, wenn ein Benutzer der Website tatsächlich eingeloggt ist.</target>
+      </trans-unit>
+      <trans-unit id="_fe_group.seeAlso" xml:space="preserve">
+				<source>tt_content:hidden,
+tt_content:starttime,
+tt_content:endtime,
+pages:fe_group,
+fe_users,
+fe_groups</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:hidden,
+tt_content:starttime,
+tt_content:endtime,
+Seiten:fe_group,
+fe_users,
+fe_groups</target></trans-unit>
+      <trans-unit id="sys_language_uid.description">
+        <source>Select the system language of this Content Element. &lt;strong&gt;Notice:&lt;/strong&gt; This will affect the Content Element visibility by limiting it to a certain language.</source>
+        <target state="translated">Wählen Sie die Systemsprache dieses Inhaltselements. &lt;strong&gt;Hinweis:&lt;/strong&gt; Dies beeinflusst die Sichtbarkeit des Inhaltselements, indem Sie es auf eine bestimmte Sprache beschränken.</target>
+      </trans-unit>
+      <trans-unit id="sys_language_uid.details" xml:space="preserve">
+				<source>This allows you to assign a specific language to the Content Element. If you select anything but the default value, the element will &lt;em&gt;not&lt;/em&gt; be visible unless the language assigned is also configured by the TypoScript template.
+The available system languages are created by the administrator.</source>
+			<target state="needs-translation">This allows you to assign a specific language to the Content Element. If you select anything but the default value, the element will &lt;em&gt;not&lt;/em&gt; be visible unless the language assigned is also configured by the TypoScript template.
+The available system languages are created by the administrator.</target></trans-unit>
+      <trans-unit id="_sys_language_uid.seeAlso" xml:space="preserve">
+				<source>tt_content:colPos,
+sys_language,
+Localization concepts [Technical] | http://typo3.org/documentation/tips-tricks/multi-language-sites-in-typo3/,
+_MOD_web_layout:language_list</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:colPos,
+sys_language,
+Lokalisierungskonzepte [Technical] | http://typo3.org/documentation/tips-tricks/multi-language-sites-in-typo3/,
+_MOD_web_layout:language_list</target></trans-unit>
+      <trans-unit id="layout.description">
+        <source>Select a Layout.</source>
+        <target state="translated">Wählen Sie ein Layout.</target>
+      </trans-unit>
+      <trans-unit id="layout.details" xml:space="preserve">
+				<source>This option does not work by default for all Content Elements but your website may display Content Elements differently depending on the layout.
+
+The File Links Content Element does make use of the Layout field by default:
+"Normal" will provide a list of file links with no thumbnail.
+"Layout 1" adds a file icon to the left of the link
+"Layout 2" adds a thumbnail for image files and an icon for other files. A black border is wrapped around the icon.
+"Layout 3" is similar to Layout 2, but without the black border.</source>
+			<target state="translated">Diese Option funktioniert nicht standardmäßig für alle Inhaltselemente, aber Ihre Website kann Inhalte Elemente anders anzeigen, je nach Layout.
+
+Das Inhaltselement Datei Links verwendet standardmäßig das Layout-Feld:
+"Normal" wird eine Liste von Dateilinks ohne Vorschaubild angeben.
+"Layout 1" fügt links ein Dateisymbol hinzu,
+"Layout 2" fügt ein Miniaturbild für Bilddateien und ein Symbol für andere Dateien hinzu. Ein schwarzer Rand wird um das Symbol umhüllt.
+"Layout 3" ist ähnlich wie Layout 2, aber ohne die schwarze Grenze.</target></trans-unit>
+      <trans-unit id="colPos.description">
+        <source>Select the column position of this element. &lt;strong&gt;Notice:&lt;/strong&gt; This may affect whether the Content Element is visible depending on your website template.</source>
+        <target state="translated">Wählen Sie die Spaltenposition dieses Elements aus. &lt;strong&gt;Hinweis:&lt;/strong&gt; Dies kann beeinflussen, ob das Inhaltselement je nach Vorlage Ihrer Website sichtbar ist.</target>
+      </trans-unit>
+      <trans-unit id="colPos.details" xml:space="preserve">
+				<source>Many websites only use one column of content. Some templates, however, let you put content in multiple columns using the Column option.
+
+&lt;strong&gt;Notice:&lt;/strong&gt; Selecting a column other than "Normal" may cause the Content Element to disappear if the website template does not use that column. If your Content Element mysteriously disappears make sure the Column and Language selectors are set correctly.</source>
+			<target state="translated">Viele Websites verwenden nur eine Spalte von Inhalten. Einige Vorlagen lassen jedoch Inhalte in mehreren Spalten mit der Spalten-Option platzieren.
+
+&lt;strong&gt;Hinweis:&lt;/strong&gt; Auswahl einer anderen Spalte als "Normal" kann dazu führen, dass das Inhaltselement verschwindet, wenn die Website-Vorlage diese Spalte nicht verwendet. Wenn Ihr Inhaltselement geheimnismäßig verschwindet, stellen Sie sicher, dass die Spalten und Sprachauswahl korrekt eingestellt werden.</target></trans-unit>
+      <trans-unit id="_colPos.seeAlso" xml:space="preserve">
+				<source>tt_content:sys_language_uid,
+_MOD_web_layout:columns_multi,
+_MOD_web_layout:columns_single</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:sys_language_uid,
+_MOD_web_layout:columns_multi,
+_MOD_web_layout:columns_single</target></trans-unit>
+      <trans-unit id="date.description">
+        <source>Enter a date to be displayed above the header.</source>
+        <target state="translated">Geben Sie ein Datum ein, das über dem Header angezeigt werden soll.</target>
+      </trans-unit>
+      <trans-unit id="header.description">
+        <source>Enter header text for the Content Element.</source>
+        <target state="translated">Geben Sie den Header-Text für das Inhaltselement ein.</target>
+      </trans-unit>
+      <trans-unit id="header.details" xml:space="preserve">
+				<source>Almost all Content Elements will display this header above the content. If you don't want the header displayed, set the header Layout to "Hidden". You can also choose not to enter any content in this field.
+
+Some content element types do not display the header by default. In those cases the Header field is typically labeled "Name" instead. One example is the HTML Content Element.</source>
+			<target state="translated">Fast alle Inhaltselemente werden diesen Header über dem Inhalt anzeigen. Wenn Sie den Header nicht anzeigen möchten, setzen Sie das Header-Layout auf "Versteckt". Sie können auch nicht wählen, dass in diesem Feld Inhalte eingegeben werden.
+
+Einige Inhaltselementetypen zeigen den Header nicht standardmäßig an. In diesen Fällen wird das Header-Feld stattdessen als "Name" bezeichnet. Ein Beispiel ist das HTML-Inhaltselement.</target></trans-unit>
+      <trans-unit id="_header.seeAlso" xml:space="preserve">
+				<source>tt_content:header_position,
+tt_content:header_link,
+tt_content:header_layout,
+tt_content:date,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:header_position,
+tt_content:header_link,
+tt_content:header_layout,
+tt_content:date,</target></trans-unit>
+      <trans-unit id="_header.image">
+        <source>EXT:frontend/Resources/Public/Images/cshimages/ttcontent_6.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:frontend/Resources/Public/Images/cshimages/ttcontent_6.png</target>
+      </trans-unit>
+      <trans-unit id="header_position.description">
+        <source>Aligns the header to the left, center, or right.</source>
+        <target state="translated">Aligns den Header nach links, Mitte oder rechts.</target>
+      </trans-unit>
+      <trans-unit id="_header_position.seeAlso">
+        <source>tt_content:header</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">tt_content:header</target>
+      </trans-unit>
+      <trans-unit id="header_link.description">
+        <source>Creates a link from the header to a Page ID, email address, or URL.</source>
+        <target state="translated">Erstellt einen Link vom Header zu einer SeitenID, E-Mail-Adresse oder URL.</target>
+      </trans-unit>
+      <trans-unit id="header_link.syntax" xml:space="preserve">
+				<source>If you insert a Page ID (ex. 51), the link will point to the page with id=51 &lt;em&gt;inside&lt;/em&gt; TYPO3.
+If you insert an email address (ex. name@my-domain.test), the link will point to that email address.
+If you insert an URL or domain, (ex. www.typo3.org or http://www.my-domain.org), the link will point to that website.</source>
+			<target state="translated">Wenn Sie eine Seitennummer (z.B. 51) einfügen, wird der Link auf die Seite mit id=51 &lt;em&gt;innerhalb&lt;/em&gt; TYPO3 verweisen.
+Wenn Sie eine E-Mail-Adresse einfügen (z.B. Name@my-domain.test), wird der Link auf diese E-Mail-Adresse verweisen.
+Wenn Sie eine URL oder Domain einfügen, (z.B. www.typo3.org oder http://www.my-domain.org), wird der Link auf diese Website verweisen.</target></trans-unit>
+      <trans-unit id="_header_link.seeAlso">
+        <source>tt_content:header</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">tt_content:header</target>
+      </trans-unit>
+      <trans-unit id="header_layout.description">
+        <source>Select a visual design for the header.</source>
+        <target state="translated">Wählen Sie ein visuelles Design für den Header.</target>
+      </trans-unit>
+      <trans-unit id="header_layout.details" xml:space="preserve">
+				<source>If you select "Default" the standard design (which is one of the layouts 1-5) will be used.
+Alternatively you can select from Layout 1 through 5 which are configured in the website template with individual visual designs.
+If you select "Hidden" the header will simply not appear. This is useful when you don't need a header to display on the website but still want to identify the Content Element in the Backend.</source>
+			<target state="translated">Wenn Sie "Standard" wählen, wird das Standarddesign (das eine der Layouts 1-5) verwendet.
+Alternativ können Sie aus Layout 1 bis 5 auswählen, die in der Website-Vorlage mit einzelnen visuellen Designs konfiguriert sind.
+Wenn Sie "Versteckt" auswählen, erscheint der Header einfach nicht. Dies ist nützlich, wenn Sie keinen Header benötigen, um auf der Website anzuzeigen, aber trotzdem das Content Element im Backend identifizieren möchten.</target></trans-unit>
+      <trans-unit id="_header_layout.seeAlso">
+        <source>tt_content:header</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">tt_content:header</target>
+      </trans-unit>
+      <trans-unit id="subheader.description">
+        <source>Enter a subheader to be displayed below the main header. If the Content Element is a "Form" this field is instead used as the Recipient Email.</source>
+        <target state="translated">Geben Sie einen Unterkopf ein, der unterhalb des Hauptkopfes angezeigt werden soll. Wenn das Inhaltselement ein "Formular" ist, wird dieses Feld stattdessen als Empfänger-E-Mail verwendet.</target>
+      </trans-unit>
+      <trans-unit id="subheader.details">
+        <source>A subheader is displayed only with "Header" Content Elements and with "Form" Content Elements (as the Recipient Email).</source>
+        <target state="translated">Ein Unterkopf wird nur mit "Header" Inhaltselementen und mit "Formular" Inhaltselementen (als Empfänger-E-Mail) angezeigt.</target>
+      </trans-unit>
+      <trans-unit id="_subheader.seeAlso" xml:space="preserve">
+				<source>tt_content:header
+tt_content:bodytext</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:header
+tt_content:bodytext</target></trans-unit>
+      <trans-unit id="bodytext.description">
+        <source>Enter the main text.</source>
+        <target state="translated">Haupttext eingeben.</target>
+      </trans-unit>
+      <trans-unit id="bodytext.details" xml:space="preserve">
+				<source>The main text of the Content Element is entered here and can be formatted with HTML or a Rich Text Editor.
+The field is reused in other Content Element types so changing the type will cause any text to be reused in that new Content Element type.
+
+When you're using this field with the "Text" and "Text &amp; Images" types, the content is normal body text. Each linebreak signifies a new paragraph, you can use the special TYPO3 tag, &amp;lt;LINK&amp;gt;, for making links. You can use many HTML tags but there are limitations depending on your website configuration.
+A Rich Text Editor is commonly used to add a visual editing interface for 'Text' and 'Text &amp; Images' Content Elements.
+
+&lt;b&gt;Bullet Lists:&lt;/b&gt;
+If the type is "Bullet List" each line in this field is a bullet item.
+
+&lt;b&gt;Tables:&lt;/b&gt;
+If the type is "Table" each line represents a table row. Within each line, columns are divided by a vertical bar ('|'). A table row with 3 columns could look like "This is column 1 | Column 2 here | Third column!". The table wizard can also be used for creating tables and is much easier than hand coding them.</source>
+			<target state="translated">Der Haupttext des Inhaltselements ist hier eingegeben und kann mit HTML oder einem Rich Text Editor formatiert werden.
+Das Feld wird in anderen Inhaltselement-Typen wiederverwendet, so dass eine Änderung des Typs dazu führt, dass jeder Text in diesem neuen Inhaltselement-Typ wiederverwendet wird.
+
+Wenn Sie dieses Feld mit den "Text" und "Text &amp; " Typen verwenden, ist der Inhalt normaler Text. Jede Linie bedeutet einen neuen Absatz, Sie können den speziellen TYPO3 Tag, &amp;lt;LINK&amp;gt;, verwenden, um Links zu erstellen. Sie können viele HTML-Tags verwenden, aber je nach Website-Konfiguration gibt es Einschränkungen.
+Ein Rich Text Editor wird häufig verwendet, um eine visuelle Editieroberfläche für 'Text' und 'Text &amp; ' Inhaltselemente hinzuzufügen.
+
+&lt;b&gt;Bullet Lists:&lt;/b&gt;
+Wenn der Typ "Bullet List" ist, ist jede Zeile in diesem Feld ein Kugelstein.
+
+&lt;b&gt;Tabellen:&lt;/b&gt;
+Wenn der Typ "Tabelle" ist, repräsentiert jede Zeile eine Tabellenzeile. Innerhalb jeder Zeile werden Spalten durch eine vertikale Balken ('|') geteilt. Eine Tabellenzeile mit 3 Spalten könnte wie "This is column 1 | Spalte 2 here | Third column!" aussehen. Der Tabellenassistent kann auch zur Erstellung von Tabellen verwendet werden und ist viel einfacher als die Handschrift.</target></trans-unit>
+      <trans-unit id="_bodytext.seeAlso" xml:space="preserve">
+				<source>tt_content:CType,
+tt_content:subheader,
+xMOD_csh_corebe:wizard_table_wiz</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:CType,
+tt_content:subheader,
+xMOD_csh_corebe:wizard_table_wiz</target></trans-unit>
+      <trans-unit id="image.description">
+        <source>Insert one or more images.</source>
+        <target state="translated">Fügen Sie ein oder mehrere Bilder ein.</target>
+      </trans-unit>
+      <trans-unit id="image.details" xml:space="preserve">
+				<source>You can attach multiple images to the Content Element.
+Depending on the configuration of TYPO3, you can attach images in many formats without worrying about size and compression. TYPO3's graphics processing handles these details for you.
+
+When you use the "Text &amp; Images" type, it's important to select a proper position for images. For this purpose, use the Position and Aligment selector. See link to "Page Content / Position" below.
+You can also display images in multiple columns and even enable an option that opens full size images when thumbnails are clicked.</source>
+			<target state="translated">Sie können mehrere Bilder dem Inhaltselement anhängen.
+Abhängig von der Konfiguration von TYPO3 können Sie Bilder in vielen Formaten anhängen, ohne sich über Größe und Komprimierung Sorgen zu machen. TYPO3's Grafikbearbeitung behandelt diese Details für Sie.
+
+Wenn Sie den Typ "Text &amp; Bilder" verwenden, ist es wichtig, eine richtige Position für Bilder auszuwählen. Dazu verwenden Sie die Position und den Aligment-Selektor. Siehe Link zu "Seiteninhalt / Position" unten.
+Sie können auch Bilder in mehreren Spalten anzeigen und sogar eine Option aktivieren, die Vollbildbilder öffnet, wenn Thumbnails angeklickt werden.</target></trans-unit>
+      <trans-unit id="_image.seeAlso" xml:space="preserve">
+				<source>tt_content:imagewidth,
+tt_content:imageheight,
+tt_content:imageorient,
+tt_content:imageborder,
+tt_content:image_link,
+tt_content:image_zoom,
+tt_content:imagecols,
+tt_content:imagecaption,
+tt_content:image_frames,
+Using images ("Getting Started") | https://docs.typo3.org/typo3cms/GettingStartedTutorial/TheFileModuleOrImageArchives/ManagingFilesInTypo3/
+Using images (Animation) | FILE:EXT:welcome/modsub/ani_10.gif</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="needs-translation">tt_content:imagewidth,
+tt_content:imageheight,
+tt_content:imageorient,
+tt_content:imageborder,
+tt_content:image_link,
+tt_content:image_zoom,
+tt_content:imagecols,
+tt_content:imagecaption,
+tt_content:image_frames,
+Using images ("Getting Started") | https://docs.typo3.org/typo3cms/GettingStartedTutorial/TheFileModuleOrImageArchives/ManagingFilesInTypo3/
+Using images (Animation) | FILE:EXT:welcome/modsub/ani_10.gif</target></trans-unit>
+      <trans-unit id="_image.image">
+        <source>EXT:frontend/Resources/Public/Images/cshimages/ttcontent_5.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:frontend/Resources/Public/Images/cshimages/ttcontent_5.png</target>
+      </trans-unit>
+      <trans-unit id="image.image_descr">
+        <source>This shows all the options related to inserting images in Content Elements. Depending on user permissions, you may not be able to use all of them.</source>
+        <target state="translated">Dies zeigt alle Optionen, die mit dem Einfügen von Bildern in Inhaltselementen zusammenhängen. Je nach Benutzerberechtigungen können Sie möglicherweise nicht alle verwenden.</target>
+      </trans-unit>
+      <trans-unit id="imagewidth.description">
+        <source>Enter the width (in pixels) for displaying the image in the Frontend of your website.</source>
+        <target state="translated">Geben Sie die Breite (in Pixeln) ein, um das Bild im Frontend Ihrer Website anzuzeigen.</target>
+      </trans-unit>
+      <trans-unit id="imagewidth.details">
+        <source>The TypoScript template is normally configured with maximum image width so you shouldn't need to specify a width. In unique cases, this provides additional flexibility though.</source>
+        <target state="translated">Die TypoScript-Vorlage ist normalerweise mit einer maximalen Bildbreite konfiguriert, so dass Sie keine Breite angeben müssen. In Einzelfällen bietet dies allerdings zusätzliche Flexibilität.</target>
+      </trans-unit>
+      <trans-unit id="_imagewidth.seeAlso" xml:space="preserve">
+				<source>tt_content:imageheight,
+tt_content:image</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:imagehacht,
+tt_content:image</target></trans-unit>
+      <trans-unit id="imageheight.description">
+        <source>Enter the height (in pixels) for displaying the images in the Frontend of your website.</source>
+        <target state="translated">Geben Sie die Höhe (in Pixeln) ein, um die Bilder im Frontend Ihrer Website anzuzeigen.</target>
+      </trans-unit>
+      <trans-unit id="_imageheight.seeAlso" xml:space="preserve">
+				<source>tt_content:imagewidth,
+tt_content:image</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:imagewidth,
+tt_content:image</target></trans-unit>
+      <trans-unit id="imageorient.description">
+        <source>Select the position and alignment of the images relative to the body text.</source>
+        <target state="translated">Wählen Sie die Position und Ausrichtung der Bilder im Verhältnis zum Text des Körpers.</target>
+      </trans-unit>
+      <trans-unit id="imageorient.details" xml:space="preserve">
+				<source>The positions above and below the body text are pretty straight forward.
+The options for "In text" mean that images are displayed with text wrapped around them. When you select this option the template will probably force the images into smaller dimensions to accommodate the width of the template and the width of the text. The bodytext will float &lt;em&gt;under&lt;/em&gt; the image block when it reaches the end of the image block. In other words, the body text &lt;em&gt;wraps around&lt;/em&gt; the image block. If you select "In text" below the "No wrap" divider, the body text will not float under the image block, but simply continue in its column.
+Apart from the visual difference there is a technical aspect as well. If you choose to allow the content to wrap the image block you will experience a strange phenomenon when you do not have enough bodytext to make it float around the image: subsequent content elements on the page will appear to be layered on top of the image block. However it's easily solved by changing the "In text" position to the equal value but below the "No wrap" divider.</source>
+			<target state="needs-translation">The positions above and below the body text are pretty straight forward.
+The options for "In text" mean that images are displayed with text wrapped around them. When you select this option the template will probably force the images into smaller dimensions to accommodate the width of the template and the width of the text. The bodytext will float &lt;em&gt;under&lt;/em&gt; the image block when it reaches the end of the image block. In other words, the body text &lt;em&gt;wraps around&lt;/em&gt; the image block. If you select "In text" below the "No wrap" divider, the body text will not float under the image block, but simply continue in its column.
+Apart from the visual difference there is a technical aspect as well. If you choose to allow the content to wrap the image block you will experience a strange phenomenon when you do not have enough bodytext to make it float around the image: subsequent content elements on the page will appear to be layered on top of the image block. However it's easily solved by changing the "In text" position to the equal value but below the "No wrap" divider.</target></trans-unit>
+      <trans-unit id="imageborder.description">
+        <source>Displays a colored border around the images.</source>
+        <target state="translated">Zeigt eine farbige Grenze um die Bilder.</target>
+      </trans-unit>
+      <trans-unit id="_imageborder.seeAlso" xml:space="preserve">
+				<source>tt_content:imagecols,
+tt_content:image</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:imagecols,
+tt_content:image</target></trans-unit>
+      <trans-unit id="image_link.description">
+        <source>Enter a link for the image. For multiple images, separate the links with commas.</source>
+        <target state="translated">Geben Sie einen Link für das Bild ein. Für mehrere Bilder trennen Sie die Links mit Kommas.</target>
+      </trans-unit>
+      <trans-unit id="image_link.details" xml:space="preserve">
+				<source>By default all images share the same link. Your TypoScript template may be configured to allow a separate link for each image. If this is the case, you simply separate the links with a comma.
+
+See Page Content&gt;Link below for details on syntax.</source>
+			<target state="translated">Standardmäßig teilen alle Bilder den gleichen Link. Ihre TypoScript-Vorlage kann so konfiguriert werden, dass für jedes Bild ein separater Link erlaubt wird. Wenn dies der Fall ist, trennen Sie einfach die Links mit einem Komma.
+
+Siehe Seiteninhalt&gt;Link unten für Details zur Syntax.</target></trans-unit>
+      <trans-unit id="_image_link.seeAlso" xml:space="preserve">
+				<source>tt_content:header_link,
+tt_content:image_zoom,
+tt_content:image</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:header_link,
+tt_content:image_zoom,
+tt_content:image</target></trans-unit>
+      <trans-unit id="image_zoom.description">
+        <source>When enabled, clicking an image will open a larger version in a popup window.</source>
+        <target state="translated">Wenn aktiviert, öffnet sich ein Klick auf ein Bild eine größere Version in einem Popup-Fenster.</target>
+      </trans-unit>
+      <trans-unit id="image_zoom.details">
+        <source>This option overrides the value in the Links field.</source>
+        <target state="translated">Diese Option überschreibt den Wert im Feld Links.</target>
+      </trans-unit>
+      <trans-unit id="_image_zoom.seeAlso" xml:space="preserve">
+				<source>tt_content:image_link,
+tt_content:image</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:image_link,
+tt_content:image</target></trans-unit>
+      <trans-unit id="image_frames.description">
+        <source>Select special image framing options.</source>
+        <target state="translated">Wählen Sie spezielle Bilderbild-Optionen.</target>
+      </trans-unit>
+      <trans-unit id="_image_frames.seeAlso" xml:space="preserve">
+				<source>tt_content:image</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:image</target></trans-unit>
+      <trans-unit id="imagecols.description">
+        <source>Set the number of columns when the images are displayed in the Frontend of the website.</source>
+        <target state="translated">Legen Sie die Anzahl der Spalten fest, wenn die Bilder im Frontend der Website angezeigt werden.</target>
+      </trans-unit>
+      <trans-unit id="_imagecols.seeAlso" xml:space="preserve">
+				<source>tt_content:image</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:image</target></trans-unit>
+      <trans-unit id="imagecaption.description">
+        <source>Enter captions for the images. For multiple images, enter one caption per line.</source>
+        <target state="translated">Geben Sie die Bildunterschriften ein. Geben Sie für mehrere Bilder eine Überschrift pro Zeile ein.</target>
+      </trans-unit>
+      <trans-unit id="imagecaption.details" xml:space="preserve">
+				<source>By default, the caption is positioned below the images. However, your TypoScript template may be configured to allow individual image captions by setting "styles.content.imgtext.captionSplit=1" in your template constants.
+In this case, each line in this field will be the image caption of the corresponding image in the list.
+
+The caption text field is also used by the Content Element type "File Links" where each line represents a description of a file in the list.</source>
+			<target state="translated">Standardmäßig wird die Überschrift unter den Bildern platziert. Allerdings kann Ihre TypoScript-Vorlage so konfiguriert werden, dass einzelne Bildunterschriften durch Einstellung von "styles.content.imgtext.captionSplit=1" in Ihren Vorlageneinstellungen erlaubt werden.
+In diesem Fall wird jede Zeile in diesem Feld die Bildunterschrift des entsprechenden Bildes in der Liste sein.
+
+Das Feld der Caption-Textdatei wird auch vom Inhaltselement-Typ "File Links" verwendet, in dem jede Zeile eine Beschreibung einer Datei in der Liste darstellt.</target></trans-unit>
+      <trans-unit id="cols.description">
+        <source>Select a fixed number of table columns</source>
+        <target state="translated">Wähle eine feste Anzahl von Tabellen Spalten</target>
+      </trans-unit>
+      <trans-unit id="pages.description">
+        <source>Select a target page or multiple target pages.</source>
+        <target state="translated">Wählen Sie eine Zielseite oder mehrere Zielseiten.</target>
+      </trans-unit>
+      <trans-unit id="pages.details" xml:space="preserve">
+				<source>This field is used by many of the Content Element types to create a relation to either a single target page or multiple target pages. If no target page is specified, the current page will generally be used.
+
+Using the "Search" Content Element, the target page is where search results will appear. You must make sure that this page has a similar "Search" Content Element to display the results.
+
+The "Login" Content Element (not to be confused with the Login plugin available when the felogin extension is installed) also uses this field to redirect the login to a certain page. That page does not need to contain a "Login" Content Element in order to perform the authentication since any TYPO3 page can handle a login request.
+If you specify a second page in this list, the ID will be passed to the login system as the page inside TYPO3 where website users are found. You should use this only if your template is not already configured to pass this value on.
+In order for the login procedure to work you must make sure that you have created website users and website usergroups, have specified where these website users can be found (typically a SysFolder), a page ID in the page list, and ensured that cookies are enabled for the site.
+
+The "Menu/Sitemap" Content Elements also use this field. In this case the page will determine the starting point for the menu or the actual pages shown in the menu. This behavior depends on the menu type you have selected.
+
+Finally the "Form" element uses this field as the target page to which the form is submitted. A common use is the "Thank you" page after the form is completed.</source>
+			<target state="translated">Dieses Feld wird von vielen Inhaltselement-Typen verwendet, um eine Beziehung zu einer einzelnen Zielseite oder mehreren Zielseiten zu erstellen. Wenn keine Zielseite angegeben ist, wird die aktuelle Seite generell verwendet.
+
+Mit dem "Suche" Inhaltselement, die Zielseite ist, wo Suchergebnisse angezeigt werden. Sie müssen sicherstellen, dass diese Seite ein ähnliches "Suche" Inhaltselement hat, um die Ergebnisse anzuzeigen.
+
+Das "Login" Inhaltselement (um nicht mit dem Login-Plugin zu verwechseln, das bei der Installation der felogin-Erweiterung verfügbar ist) verwendet auch dieses Feld, um den Login auf eine bestimmte Seite zu übertragen. Diese Seite muss kein "Login"-Inhaltselement enthalten, um die Authentifizierung durchzuführen, da jede TYPO3-Seite eine Login-Anfrage bearbeiten kann.
+Wenn Sie eine zweite Seite in dieser Liste angeben, wird die ID als Seite innerhalb von TYPO3, auf der Benutzer der Website gefunden werden, an das Anmeldesystem übergeben. Sie sollten dies nur verwenden, wenn Ihre Vorlage nicht bereits konfiguriert ist, um diesen Wert weiterzugeben.
+Um das Anmeldeverfahren zu funktionieren, müssen Sie sicherstellen, dass Sie Benutzer und Benutzergruppen der Website erstellt haben, haben angegeben, wo diese Website-Benutzer gefunden werden können (typischerweise ein SysFolder), eine Seitenkennung in der Seitenliste, und sicherstellen, dass Cookies für die Website aktiviert sind.
+
+Die Inhaltselemente "Menü/Sitemap" verwenden dieses Feld ebenfalls. In diesem Fall wird die Seite den Ausgangspunkt für das Menü oder die aktuellen Seiten im Menü bestimmen. Dieses Verhalten hängt vom gewählten Menütyp ab.
+
+Endlich verwendet das "Formular" Element dieses Feld als Zielseite, auf die das Formular eingereicht wird. Eine gemeinsame Verwendung ist die "Thank you" Seite nach dem Formular ist abgeschlossen.</target></trans-unit>
+      <trans-unit id="_pages.seeAlso" xml:space="preserve">
+				<source>tt_content:CType,
+tt_content:recursive</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:CType,
+tt_content:rekursiv</target></trans-unit>
+      <trans-unit id="recursive.description">
+        <source>The number of subpage levels that should also be included for each page in the list.</source>
+        <target state="translated">Die Anzahl der Unterseiten, die auch für jede Seite in der Liste enthalten sein sollten.</target>
+      </trans-unit>
+      <trans-unit id="recursive.details" xml:space="preserve">
+				<source>This feature depends on the TypoScript template configuration and Content Element type. If enabled, each page listed in the "Pages" field will also have its subpages included to the specified depth.
+
+&lt;strong&gt;Warning:&lt;/strong&gt; If there are many subpages, be aware that this option may return a large number of results</source>
+			<target state="translated">Diese Funktion hängt von der TypoScript-Template-Konfiguration und dem Inhaltselement-Typ ab. Wenn aktiviert, wird jede Seite, die im Feld "Seiten" aufgeführt ist, auch die Unterseiten in die angegebene Tiefe enthalten.
+
+&lt;strong&gt;Warnung:&lt;/strong&gt; Wenn es viele Unterseiten gibt, ist bewusst, dass diese Option eine große Anzahl von Ergebnissen zurückgeben kann</target></trans-unit>
+      <trans-unit id="_recursive.seeAlso">
+        <source>tt_content:pages</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">tt_content:pages</target>
+      </trans-unit>
+      <trans-unit id="menu_type.description">
+        <source>Select the type of menu you wish to create.</source>
+        <target state="translated">Wählen Sie den Typ des Menüs aus, den Sie erstellen möchten.</target>
+      </trans-unit>
+      <trans-unit id="menu_type.details" xml:space="preserve">
+				<source>This is a short description of each type:
+
+&lt;strong&gt;Menu of selected pages&lt;/strong&gt;
+This will create a menu with links to the pages in the Selected Pages list.
+
+&lt;strong&gt;Menu of subpages of selected pages&lt;/strong&gt;
+This will create in a menu with links to the subpages of the pages in the Selected Pages list. If you do not specify any pages, the subpages to the current page will be used.
+
+&lt;strong&gt;Menu of subpages of selected pages (with abstract)&lt;/strong&gt;
+Like the previous option, but also displays the content of the Abstract field (or the Description field) for each page in the menu. The Abstract field is given priority over the Description field if both are complete.
+
+&lt;strong&gt;Menu of subpages of selected pages + sections&lt;/strong&gt;
+Like the previous option, but includes links to all Content Elements on the page that are marked to Show In Section Menus.
+
+&lt;strong&gt;Sitemap&lt;/strong&gt;
+Generates a classic tree sitemap. Notice that the sitemap will begin from the current page unless you select another page instead.
+
+&lt;strong&gt;Section index (page content marked for section menus)&lt;/strong&gt;
+This makes a menu of Content Elements on the selected pages for all Content Elements marked to Show In Section Menu. This is a great way to make an index at the top of the page.
+If you don't want certain Content Elements to appear in the list, just uncheck the Show in Section Menus checkbox for those elements.
+
+&lt;strong&gt;Recently updated pages&lt;/strong&gt;
+This displays the 10 most recently updated pages.
+&lt;strong&gt;Notice:&lt;/strong&gt; If you update a page and the updated page is not included in this list, clearing the Page Cache will resolve the issue.
+
+&lt;strong&gt;Related pages (based on keywords)&lt;/strong&gt;
+Displays other related pages based on the keywords of the selected pages matched against the keywords of other pages.</source>
+			<target state="translated">Dies ist eine kurze Beschreibung jedes Typs:
+
+&lt;strong&gt;Menü der ausgewählten Seiten&lt;/strong&gt;
+Dies erzeugt ein Menü mit Links zu den Seiten in der Liste der ausgewählten Seiten.
+
+&lt;strong&gt;Menü der Unterseiten der ausgewählten Seiten&lt;/strong&gt;
+Dies wird in einem Menü mit Links zu den Unterseiten der Seiten in der Liste der ausgewählten Seiten erstellt. Wenn Sie keine Seiten angeben, werden die Unterseiten der aktuellen Seite verwendet.
+
+&lt;strong&gt;Menü der Unterseiten der ausgewählten Seiten (mit Abstrakt)&lt;/strong&gt;
+Wie die vorherige Option, aber auch den Inhalt des Abstract-Feldes (oder das Beschreibungsfeld) für jede Seite im Menü anzeigen. Das Abstract-Feld wird im Beschreibungsfeld Vorrang erhalten, wenn beide vollständig sind.
+
+&lt;strong&gt;Menü der Unterseiten der ausgewählten Seiten + Abschnitte&lt;/strong&gt;
+Wie die vorherige Option, enthält aber Links zu allen Inhaltselementen auf der Seite, die für die Anzeige in Abschnitt Menüs markiert sind.
+
+&lt;strong&gt;Sitemap&lt;/strong&gt;
+Erzeugt eine klassische Baumsitemap. Beachten Sie, dass die Sitemap von der aktuellen Seite beginnen wird, wenn Sie keine andere Seite wählen.
+
+&lt;strong&gt;Abschnitt Index (Seiteninhalt für Sektionsmenüs markiert)&lt;/strong&gt;
+Dies macht ein Menü von Inhaltselementen auf den ausgewählten Seiten für alle Inhaltselemente, die in Abschnitt Menü anzeigen markiert sind. Dies ist eine großartige Möglichkeit, einen Index am oberen Rand der Seite zu erstellen.
+Wenn Sie nicht wollen, dass bestimmte Inhaltselemente in der Liste erscheinen, deaktivieren Sie einfach die Kontrollkästchen Anzeigen in Abschnitt Menüs für diese Elemente.
+
+&lt;strong&gt;Kürzlich aktualisierte Seiten&lt;/strong&gt;
+Dies zeigt die 10 zuletzt aktualisierten Seiten.
+&lt;strong&gt;Hinweis:&lt;/strong&gt; Wenn Sie eine Seite aktualisieren und die aktualisierte Seite nicht in dieser Liste enthalten ist, wird das Löschen des Seitencache das Problem beheben.
+
+&lt;strong&gt;verknüpfte Seiten (basierend auf Keywords)&lt;/strong&gt;
+Zeigt andere verwandte Seiten basierend auf den Stichwörtern der ausgewählten Seiten, die mit den Keywords anderer Seiten übereinstimmen.</target></trans-unit>
+      <trans-unit id="_menu_type.seeAlso" xml:space="preserve">
+				<source>tt_content:pages,
+tt_content:sectionIndex</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:pages,
+tt_content:sectionIndex</target></trans-unit>
+      <trans-unit id="list_type.description">
+        <source>Select a plugin to insert.</source>
+        <target state="translated">Wählen Sie ein Plugin zum Einfügen.</target>
+      </trans-unit>
+      <trans-unit id="list_type.details">
+        <source>The list of plugins you can insert on a page. The available plugins depend on which extensions are installed.</source>
+        <target state="translated">Die Liste der Plugins, die Sie auf einer Seite einfügen können. Die verfügbaren Plugins hängen davon ab, welche Erweiterungen installiert sind.</target>
+      </trans-unit>
+      <trans-unit id="_list_type.seeAlso">
+        <source>_MOD_tools_em</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">_MOD_tools_em</target>
+      </trans-unit>
+      <trans-unit id="_list_type.image">
+        <source>EXT:frontend/Resources/Public/Images/cshimages/ttcontent_7.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:frontend/Resources/Public/Images/cshimages/ttcontent_7.png</target>
+      </trans-unit>
+      <trans-unit id="media.description">
+        <source>Files can be added to the list here.</source>
+        <target state="translated">Dateien können hier in die Liste aufgenommen werden.</target>
+      </trans-unit>
+      <trans-unit id="multimedia.description">
+        <source>Insert a multimedia element here (ex. Flash movie)</source>
+        <target state="translated">Füge hier ein Multimedia-Element ein (z. B. Flash-Film)</target>
+      </trans-unit>
+      <trans-unit id="filelink_size.description">
+        <source>Enable the display of file sizes.</source>
+        <target state="translated">Aktivieren Sie die Anzeige von Dateigrößen.</target>
+      </trans-unit>
+      <trans-unit id="records.description">
+        <source>Insert records to be displayed on this page.</source>
+        <target state="translated">Fügen Sie Datensätze ein, die auf dieser Seite angezeigt werden.</target>
+      </trans-unit>
+      <trans-unit id="sectionIndex.description">
+        <source>If set, the Content Element will appear in Section Menus.</source>
+        <target state="translated">Wenn gesetzt, erscheint das Inhaltselement in Abschnitt Menüs.</target>
+      </trans-unit>
+      <trans-unit id="sectionIndex.details">
+        <source>See more details about Section Menus by clicking below.</source>
+        <target state="translated">Weitere Details zu den Menüs finden Sie unter dem Klick unten.</target>
+      </trans-unit>
+      <trans-unit id="_sectionIndex.seeAlso">
+        <source>tt_content:menu_type</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">tt_content:menu_type</target>
+      </trans-unit>
+      <trans-unit id="linkToTop.description">
+        <source>If checked, a small  "To Top" link will be added after the Content Element, linking back to the top of the page.</source>
+        <target state="translated">Wenn aktiviert, wird nach dem Inhaltselement ein kleiner "To Top" Link hinzugefügt, der auf die Seite oben verweist.</target>
+      </trans-unit>
+      <trans-unit id="rte_enabled.description">
+        <source>If checked, the Rich Text Editor will be disabled for the "Text" and "Text &amp; Image" types (&lt;em&gt;in this Content Element only&lt;/em&gt;).</source>
+        <target state="translated">Wenn aktiviert, wird der Rich Text Editor für die "Text" und "Text &amp; Bild" Typen deaktiviert (&lt;em&gt;in diesem Inhaltselement nur&lt;/em&gt;).</target>
+      </trans-unit>
+      <trans-unit id="_rte_enabled.seeAlso">
+        <source>tt_content:bodytext</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">tt_content:bodytext</target>
+      </trans-unit>
+      <trans-unit id="pi_flexform.description">
+        <source>Plugin Configuration</source>
+        <target state="translated">Plugin-Konfiguration</target>
+      </trans-unit>
+      <trans-unit id="pi_flexform.details">
+        <source>Some plugins may provide configuration options, but the actual options vary based on the plugin. Behind the scenes, these are based on FlexForms and stored as XML.</source>
+        <target state="translated">Einige Plugins können Konfigurationsoptionen bereitstellen, aber die aktuellen Optionen variieren auf der Basis des Plugins. Hinter den Szenen basieren diese auf FlexForms und werden als XML gespeichert.</target>
+      </trans-unit>
+      <trans-unit id="_pi_flexform.seeAlso">
+        <source>tt_content:list_type</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">tt_content:list_type</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
