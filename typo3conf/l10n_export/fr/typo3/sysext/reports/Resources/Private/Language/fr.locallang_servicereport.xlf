@@ -3,24 +3,78 @@
   <file t3:id="1415814992" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="sv" target-language="fr">
     <header/>
     <body>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id="report_title">
+        <source>Installed Services</source>
+        <target state="translated">Services installés</target>
+      </trans-unit>
+      <trans-unit id="report_description">
+        <source>List of all installed services with information and status for each of them.</source>
+        <target state="translated">Liste de tous les services installés avec information et statut pour chacun d'entre eux.</target>
+      </trans-unit>
+      <trans-unit id="report_explanation">
+        <source>This report displays a list of installed services, with detailed information about each of them. The services are ordered by type, priority and quality. Unavailable services are highlighted with an error status.</source>
+        <target state="translated">Ce rapport affiche une liste des services installés, avec des informations détaillées sur chacun d'entre eux. Les services sont commandés par type, priorité et qualité. Les services non disponibles sont mis en évidence avec un état d'erreur.</target>
+      </trans-unit>
+      <trans-unit id="externals_explanation">
+        <source>The "Externals" column shows which external programs a given service relies on. If such program is missing or not executable, the service will be unavailable. Search paths for executables are listed at the bottom of this report.</source>
+        <target state="translated">La colonne "Externals" montre quels programmes externes un service donné dépend. Si ce programme est manquant ou non exécutable, le service sera indisponible. Les chemins de recherche pour les exécutables sont listés en bas de ce rapport.</target>
+      </trans-unit>
+      <trans-unit id="service_type">
+        <source>Service type: %s</source>
+        <target state="translated">Type de service : %s</target>
+      </trans-unit>
+      <trans-unit id="service">
+        <source>Service</source>
+        <target state="translated">Service</target>
+      </trans-unit>
+      <trans-unit id="description">
+        <source>Description</source>
+        <target state="translated">Description</target>
+      </trans-unit>
+      <trans-unit id="priority">
+        <source>Priority</source>
+        <target state="translated">Priorité</target>
+      </trans-unit>
+      <trans-unit id="quality">
+        <source>Quality</source>
+        <target state="translated">Qualité</target>
+      </trans-unit>
+      <trans-unit id="subtypes">
+        <source>Subtypes</source>
+        <target state="translated">Sous-types</target>
+      </trans-unit>
+      <trans-unit id="os">
+        <source>OS</source>
+        <target state="translated">OS</target>
+      </trans-unit>
+      <trans-unit id="externals">
+        <source>Externals</source>
+        <target state="translated">Externes</target>
+      </trans-unit>
+      <trans-unit id="available">
+        <source>Available</source>
+        <target state="translated">Disponible</target>
+      </trans-unit>
+      <trans-unit id="any">
+        <source>Any</source>
+        <target state="translated">Tout</target>
+      </trans-unit>
+      <trans-unit id="search_paths">
+        <source>Configured search paths for external programs</source>
+        <target state="translated">Chemins de recherche configurés pour les programmes externes</target>
+      </trans-unit>
+      <trans-unit id="path">
+        <source>Path</source>
+        <target state="translated">Chemin</target>
+      </trans-unit>
+      <trans-unit id="valid">
+        <source>Valid</source>
+        <target state="translated">Valide</target>
+      </trans-unit>
+      <trans-unit id="no_search_paths">
+        <source>No search paths configured.</source>
+        <target state="translated">Aucun chemin de recherche configuré.</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
