@@ -3,46 +3,192 @@
   <file t3:id="1415814821" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="felogin" target-language="it">
     <header/>
     <body>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id="welcome_header">
+        <source>User login</source>
+        <target state="translated">Login utente</target>
+      </trans-unit>
+      <trans-unit id="welcome_message">
+        <source>Enter your username and password here in order to log in on the website</source>
+        <target state="translated">Inserisci il tuo nome utente e la password qui per accedere al sito web</target>
+      </trans-unit>
+      <trans-unit id="logout_header">
+        <source>You have logged out.</source>
+        <target state="translated">Sei uscito.</target>
+      </trans-unit>
+      <trans-unit id="logout_message">
+        <source>You just logged out from your user session on this website. You can login again or as another user by the form below.</source>
+        <target state="translated">Ti sei appena disconnesso dalla sessione utente su questo sito. Puoi effettuare nuovamente il login o come altro utente dal modulo sottostante.</target>
+      </trans-unit>
+      <trans-unit id="error_header">
+        <source>Login failure</source>
+        <target state="translated">Errore di accesso</target>
+      </trans-unit>
+      <trans-unit id="error_message" xml:space="preserve">
+				<source>An error occurred during login. Most likely you didn't enter the username or password correctly.
+Be certain that you enter them precisely as they are, including upper/lower case.
+Another possibility is that cookies might be disabled in your web browser.</source>
+			<target state="translated">Si è verificato un errore durante il login. Molto probabilmente non hai inserito il nome utente o la password correttamente.
+Assicurati di inserirli esattamente come sono, incluso il caso superiore/inferiore.
+Un'altra possibilità è che i cookie potrebbero essere disabilitati nel tuo browser web.</target></trans-unit>
+      <trans-unit id="success_header">
+        <source>Login successful</source>
+        <target state="translated">Accesso riuscito</target>
+      </trans-unit>
+      <trans-unit id="success_message">
+        <source>You are now logged in as '###USER###'</source>
+        <target state="translated">Ora sei loggato come '###USER###'</target>
+      </trans-unit>
+      <trans-unit id="status_header">
+        <source>Current status</source>
+        <target state="translated">Stato attuale</target>
+      </trans-unit>
+      <trans-unit id="status_message">
+        <source>This is your current status</source>
+        <target state="translated">Questo è il tuo stato attuale</target>
+      </trans-unit>
+      <trans-unit id="cookie_warning">
+        <source>Warning: There is a possibility that cookies are not enabled in your web browser! If your login disappears on your next click that is the case and you should enable cookies (or accept cookies from this website) immediately!</source>
+        <target state="translated">Attenzione: C'è la possibilità che i cookie non siano abilitati nel tuo browser web! Se il tuo login scompare sul tuo prossimo clic è così e dovresti abilitare immediatamente i cookie (o accettare i cookie da questo sito web)</target>
+      </trans-unit>
+      <trans-unit id="username">
+        <source>Username</source>
+        <target state="translated">Nome utente</target>
+      </trans-unit>
+      <trans-unit id="password">
+        <source>Password</source>
+        <target state="translated">Password</target>
+      </trans-unit>
+      <trans-unit id="login">
+        <source>Login</source>
+        <target state="translated">Login</target>
+      </trans-unit>
+      <trans-unit id="permalogin">
+        <source>Stay logged in</source>
+        <target state="translated">Rimani connesso</target>
+      </trans-unit>
+      <trans-unit id="logout">
+        <source>Logout</source>
+        <target state="translated">Esci</target>
+      </trans-unit>
+      <trans-unit id="send_password">
+        <source>Send password</source>
+        <target state="translated">Invia password</target>
+      </trans-unit>
+      <trans-unit id="reset_password">
+        <source>Reset Password</source>
+        <target state="translated">Reimposta password</target>
+      </trans-unit>
+      <trans-unit id="change_password_header">
+        <source>Change your password</source>
+        <target state="translated">Cambia la tua password</target>
+      </trans-unit>
+      <trans-unit id="change_password_message">
+        <source>Please enter your new password twice. Password needs a minimum length of %s chars.</source>
+        <target state="translated">Inserisci la tua nuova password due volte. La password ha bisogno di una lunghezza minima di %s caratteri.</target>
+      </trans-unit>
+      <trans-unit id="change_password_nolinkprefix_message">
+        <source>Error: there is no prefix for the link. Please set one of the following in your typoscript template: plugin.tx_felogin_pi1.feloginBaseURL = http://yourdomain/, config.baseURL = http://yourdomain/, config.absRefPrefix = /</source>
+        <target state="translated">Errore: non c'è alcun prefisso per il link. Si prega di impostare uno dei seguenti nel tuo modello di typoscript: plugin.tx_felogin_pi1.feloginBaseURL = http://yourdomain/, config.baseURL = http://yourdomain/, config.absRefPrefix = /</target>
+      </trans-unit>
+      <trans-unit id="change_password_notvalid_message">
+        <source>The link you clicked is not valid. Please repeat the forgot password procedure.</source>
+        <target state="translated">Il link che hai cliccato non è valido. Si prega di ripetere la procedura password dimenticata.</target>
+      </trans-unit>
+      <trans-unit id="change_password_notequal_message">
+        <source>The passwords are not equal, please enter your new password twice. Password needs a minimum length of %s chars.</source>
+        <target state="translated">Le password non sono uguali, inserisci la tua nuova password due volte. La password ha bisogno di una lunghezza minima di %s caratteri.</target>
+      </trans-unit>
+      <trans-unit id="change_password_tooshort_message">
+        <source>The password length is too short. Please enter your new password twice. Password needs a minimum length of %s chars.</source>
+        <target state="translated">La lunghezza della password è troppo corta. Inserisci la tua nuova password due volte. La password ha bisogno di una lunghezza minima di %s caratteri.</target>
+      </trans-unit>
+      <trans-unit id="change_password_done_message">
+        <source>Your password has been saved. You can now login with your new password.</source>
+        <target state="translated">La tua password è stata salvata. Ora puoi accedere con la tua nuova password.</target>
+      </trans-unit>
+      <trans-unit id="change_password">
+        <source>Change your password</source>
+        <target state="translated">Cambia la tua password</target>
+      </trans-unit>
+      <trans-unit id="newpassword_label1">
+        <source>Enter new password</source>
+        <target state="translated">Inserisci nuova password</target>
+      </trans-unit>
+      <trans-unit id="newpassword_label2">
+        <source>Repeat new password</source>
+        <target state="translated">Ripeti nuova password</target>
+      </trans-unit>
+      <trans-unit id="your_email">
+        <source>Your email</source>
+        <target state="translated">La tua email</target>
+      </trans-unit>
+      <trans-unit id="forgot_header">
+        <source>Forgot your password?</source>
+        <target state="translated">Hai dimenticato la password?</target>
+      </trans-unit>
+      <trans-unit id="forgot_email_password" xml:space="preserve">
+				<source>Your password
+Hi %s
+
+Your username is "%s"
+Your password is "%s"</source>
+			<target state="translated">La tua password
+Ciao %s
+
+Il tuo nome utente è "%s"
+La tua password è "%s"</target></trans-unit>
+      <trans-unit id="forgot_email_nopassword" xml:space="preserve">
+				<source>Your password
+Hi %s
+
+We couldn't find a username for this email address and so cannot send the password to you. Probably you misspelled the email address (upper/lower case makes a difference) or maybe you even didn't register yet?</source>
+			<target state="translated">La tua password
+Ciao %s
+
+Non è stato possibile trovare un nome utente per questo indirizzo email e quindi non è possibile inviarti la password. Probabilmente hai sbagliato a scrivere l'indirizzo email (il caso superiore/inferiore fa la differenza) o forse non hai ancora registrato?</target></trans-unit>
+      <trans-unit id="forgot_validate_reset_password" xml:space="preserve">
+				<source>Your new password
+Dear %s,
+
+This email was sent in response to your request to reset your password. Please click on the link below.
+%s
+
+For security reasons, this link is only active until %s. If you do not visit the link before then, you will need to repeat the password reset steps.</source>
+			<target state="translated">La tua nuova password
+Caro %s,
+
+Questa email è stata inviata in risposta alla tua richiesta di reimpostare la password. Clicca sul link qui sotto.
+%s
+
+per motivi di sicurezza, questo link è attivo solo fino a %s. Se non visiti il link prima di allora, dovrai ripetere i passi per reimpostare la password.</target></trans-unit>
+      <trans-unit id="forgot_message">
+        <source>Please enter the email address by which you registered your user account. Then press "Send password" and your password will immediately be emailed to you. Make sure to spell your email address correctly.</source>
+        <target state="translated">Inserisci l'indirizzo email con cui hai registrato il tuo account utente. Quindi premi "Invia password" e la tua password sarà immediatamente inviata a te. Assicurati di scrivere correttamente il tuo indirizzo email.</target>
+      </trans-unit>
+      <trans-unit id="forgot_message_emailSent">
+        <source>Your password has now been sent to the email address %s</source>
+        <target state="translated">La tua password è stata inviata all'indirizzo email %s</target>
+      </trans-unit>
+      <trans-unit id="forgot_reset_message">
+        <source>Please enter your username or email address. Instructions for resetting the password will be immediately emailed to you.</source>
+        <target state="translated">Inserisci il tuo nome utente o indirizzo email. Le istruzioni per reimpostare la password saranno immediatamente inviate a te.</target>
+      </trans-unit>
+      <trans-unit id="forgot_reset_message_emailSent">
+        <source>An email has been sent to the address stored in your account and contains a link to reset your password. If you do not receive an email, your account or email address was not found.</source>
+        <target state="translated">Un'email è stata inviata all'indirizzo memorizzato nel tuo account e contiene un link per reimpostare la password. Se non ricevi una email, il tuo account o indirizzo email non sono stati trovati.</target>
+      </trans-unit>
+      <trans-unit id="forgot_reset_message_error">
+        <source>Your account or email address does not exist.</source>
+        <target state="translated">Il tuo account o indirizzo email non esiste.</target>
+      </trans-unit>
+      <trans-unit id="forgot_header_backToLogin">
+        <source>Return to login form</source>
+        <target state="translated">Ritorna al modulo di login</target>
+      </trans-unit>
+      <trans-unit id="enter_your_data">
+        <source>Username or email address</source>
+        <target state="translated">Nome utente o indirizzo email</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
