@@ -3,47 +3,170 @@
   <file t3:id="1415814907" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:35Z" product-name="recycler" target-language="it">
     <header/>
     <body>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id="title">
+        <source>Recycler</source>
+        <target state="translated">Riciclatore</target>
+      </trans-unit>
+      <trans-unit id="description">
+        <source>The recycler allows you to select any deleted data and undelete it. You can undelete recursive if the parent of the element is deleted too.</source>
+        <target state="translated">Il riciclatore ti permette di selezionare tutti i dati cancellati e di eliminarli. Puoi annullare l'uso ricorsivo se anche il genitore dell'elemento viene eliminato.</target>
+      </trans-unit>
+      <trans-unit id="label_allrecordtypes">
+        <source>All Record Types</source>
+        <target state="translated">Tutti i tipi di record</target>
+      </trans-unit>
+      <trans-unit id="button.cancel">
+        <source>Cancel</source>
+        <target state="translated">Annulla</target>
+      </trans-unit>
+      <trans-unit id="button.delete">
+        <source>Delete</source>
+        <target state="translated">Elimina</target>
+      </trans-unit>
+      <trans-unit id="button.deleteselected">
+        <source>Delete {0} records</source>
+        <target state="translated">Elimina {0} record</target>
+      </trans-unit>
+      <trans-unit id="button.undo">
+        <source>Recover</source>
+        <target state="translated">Recupera</target>
+      </trans-unit>
+      <trans-unit id="button.expand">
+        <source>Expand record</source>
+        <target state="translated">Espandi record</target>
+      </trans-unit>
+      <trans-unit id="button.undoselected">
+        <source>Recover {0} records</source>
+        <target state="translated">Recupera {0} record</target>
+      </trans-unit>
+      <trans-unit id="button.reload">
+        <source>Reload</source>
+        <target state="translated">Ricarica</target>
+      </trans-unit>
+      <trans-unit id="modal.delete.header">
+        <source>Confirm deletion</source>
+        <target state="translated">Conferma cancellazione</target>
+      </trans-unit>
+      <trans-unit id="modal.undo.header">
+        <source>Recover records</source>
+        <target state="translated">Recupera record</target>
+      </trans-unit>
+      <trans-unit id="modal.undo.recursive">
+        <source>Recover content and subpages recursively</source>
+        <target state="translated">Recupera contenuti e sottopagine ricorsivamente</target>
+      </trans-unit>
+      <trans-unit id="modal.deletecontent.text">
+        <source>Do you really want to delete the record "{0}" {1} permanently? You cannot revert this action!</source>
+        <target state="translated">Vuoi davvero eliminare il record "{0} {1} permanente? Non puoi ripristinare questa azione!</target>
+      </trans-unit>
+      <trans-unit id="modal.massdelete.text">
+        <source>Do you really want to delete all selected records and potential subpages? You cannot revert this action!</source>
+        <target state="translated">Vuoi davvero eliminare tutti i record selezionati e le sottocartelle potenziali? Non puoi ripristinare questa azione!</target>
+      </trans-unit>
+      <trans-unit id="modal.deletepage.text">
+        <source>Do you really want to delete the page "{0}" {1} and all of its contents (records and pages) permanently? You cannot revert this action!</source>
+        <target state="translated">Vuoi davvero eliminare definitivamente la pagina "{0}" {1} e tutti i suoi contenuti (record e pagine) ? Non puoi ripristinare questa azione!</target>
+      </trans-unit>
+      <trans-unit id="modal.undocontent.text">
+        <source>Do you really want to recover the record "{0}" {1}?</source>
+        <target state="translated">Vuoi davvero recuperare il record "{0}" {1}?</target>
+      </trans-unit>
+      <trans-unit id="modal.undopage.text">
+        <source>Do you really want to recover the page "{0}" {1}, its contents and optionally all of its subpages?</source>
+        <target state="translated">Vuoi davvero recuperare la pagina "{0}" {1}, il suo contenuto e, facoltativamente, tutte le sue sottopagine?</target>
+      </trans-unit>
+      <trans-unit id="modal.undo.parentpages">
+        <source>All parent pages have been restored to ensure a valid rootline!</source>
+        <target state="translated">Tutte le pagine padre sono state ripristinate per garantire un rootline valido!</target>
+      </trans-unit>
+      <trans-unit id="modal.massundo.text">
+        <source>Do you really want to recover all selected records and optionally potential subpages?</source>
+        <target state="translated">Vuoi davvero recuperare tutti i record selezionati e le sottocartelle possibili opzionalmente?</target>
+      </trans-unit>
+      <trans-unit id="flashmessage.delete.norecordsselected">
+        <source>No records set to delete.</source>
+        <target state="translated">Nessun record da eliminare.</target>
+      </trans-unit>
+      <trans-unit id="flashmessage.delete.success.singular">
+        <source>One record was deleted.</source>
+        <target state="translated">Un record è stato eliminato.</target>
+      </trans-unit>
+      <trans-unit id="flashmessage.delete.success.plural">
+        <source>%d records were deleted.</source>
+        <target state="translated">%d record cancellati.</target>
+      </trans-unit>
+      <trans-unit id="flashmessage.delete.failure.singular">
+        <source>Could not delete one record.</source>
+        <target state="translated">Impossibile eliminare un record.</target>
+      </trans-unit>
+      <trans-unit id="flashmessage.delete.failure.plural">
+        <source>Could not delete %d records.</source>
+        <target state="translated">Impossibile eliminare %d record.</target>
+      </trans-unit>
+      <trans-unit id="flashmessage.undo.norecordsselected">
+        <source>No records set to recover.</source>
+        <target state="translated">Nessun record impostato per recuperare.</target>
+      </trans-unit>
+      <trans-unit id="flashmessage.undo.success.singular">
+        <source>One record was recovered.</source>
+        <target state="translated">Un record è stato recuperato.</target>
+      </trans-unit>
+      <trans-unit id="flashmessage.undo.success.plural">
+        <source>%d records were recovered.</source>
+        <target state="translated">%d record sono stati recuperati.</target>
+      </trans-unit>
+      <trans-unit id="flashmessage.undo.failure.singular">
+        <source>Could not recover one record.</source>
+        <target state="translated">Impossibile recuperare un record.</target>
+      </trans-unit>
+      <trans-unit id="flashmessage.undo.failure.plural">
+        <source>Could not recover %d records.</source>
+        <target state="translated">Impossibile recuperare %d record.</target>
+      </trans-unit>
+      <trans-unit id="table.header.uid">
+        <source>UID</source>
+        <target state="translated">UID</target>
+      </trans-unit>
+      <trans-unit id="table.header.pid">
+        <source>PID</source>
+        <target state="translated">PI</target>
+      </trans-unit>
+      <trans-unit id="table.header.record">
+        <source>Record</source>
+        <target state="translated">Registra</target>
+      </trans-unit>
+      <trans-unit id="table.header.actions">
+        <source>Actions</source>
+        <target state="translated">Azioni</target>
+      </trans-unit>
+      <trans-unit id="table.header.recordtype">
+        <source>Record Type</source>
+        <target state="translated">Tipo di record</target>
+      </trans-unit>
+      <trans-unit id="table.header.tstamp">
+        <source>Last edit</source>
+        <target state="translated">Ultima modifica</target>
+      </trans-unit>
+      <trans-unit id="table.header.crdate">
+        <source>Created on</source>
+        <target state="translated">Creato il</target>
+      </trans-unit>
+      <trans-unit id="table.header.owner">
+        <source>Owner</source>
+        <target state="translated">Proprietario</target>
+      </trans-unit>
+      <trans-unit id="table.header.deletedBy">
+        <source>Deleted by</source>
+        <target state="translated">Cancellato da</target>
+      </trans-unit>
+      <trans-unit id="table.header.path">
+        <source>Path</source>
+        <target state="translated">Percorso</target>
+      </trans-unit>
+      <trans-unit id="record.deleted">
+        <source>deleted</source>
+        <target state="translated">eliminato</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
