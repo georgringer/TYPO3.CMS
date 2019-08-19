@@ -3,246 +3,66 @@
   <file t3:id="1415814786" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="cms" target-language="fr">
     <header/>
     <body>
-      <trans-unit id="sel1">
-        <source>Please select the type of page content you wish to create</source>
-        <target state="translated">Veuillez sélectionner le type de contenu de page que vous souhaitez créer</target>
-      </trans-unit>
-      <trans-unit id="sel2">
-        <source>Now, click the position where you wish to place the element on the page</source>
-        <target state="translated">Maintenant, cliquez sur la position où vous souhaitez placer l'élément sur la page</target>
-      </trans-unit>
-      <trans-unit id="common">
-        <source>Typical page content</source>
-        <target state="translated">Contenu de page typique</target>
-      </trans-unit>
-      <trans-unit id="common_headerOnly_title">
-        <source>Header Only</source>
-        <target state="translated">En-tête seulement</target>
-      </trans-unit>
-      <trans-unit id="common_headerOnly_description">
-        <source>Adds a header only.</source>
-        <target state="translated">Ajoute un en-tête seulement.</target>
-      </trans-unit>
-      <trans-unit id="common_regularText_title">
-        <source>Regular Text Element</source>
-        <target state="translated">Élément de texte ordinaire</target>
-      </trans-unit>
-      <trans-unit id="common_regularText_description">
-        <source>A regular text element with header and bodytext fields.</source>
-        <target state="translated">Un élément texte régulier avec les champs d'en-tête et bodytext.</target>
-      </trans-unit>
-      <trans-unit id="common_textImage_title">
-        <source>Text &amp; Images</source>
-        <target state="translated">Texte &amp; Images</target>
-      </trans-unit>
-      <trans-unit id="common_textImage_description">
-        <source>Any number of images wrapped right around a regular text element.</source>
-        <target state="translated">Un nombre d'images enveloppées autour d'un élément texte régulier.</target>
-      </trans-unit>
-      <trans-unit id="common_textMedia_title">
-        <source>Text &amp; Media</source>
-        <target state="translated">Texte &amp; Média</target>
-      </trans-unit>
-      <trans-unit id="common_textMedia_description">
-        <source>Any number of media wrapped right around a regular text element.</source>
-        <target state="translated">Un nombre de médias enveloppés autour d'un élément texte régulier.</target>
-      </trans-unit>
-      <trans-unit id="common_imagesOnly_title">
-        <source>Images Only</source>
-        <target state="translated">Images seulement</target>
-      </trans-unit>
-      <trans-unit id="common_imagesOnly_description">
-        <source>Any number of images aligned in columns and rows with a caption.</source>
-        <target state="translated">Nombre d'images alignées dans les colonnes et les lignes avec une légende.</target>
-      </trans-unit>
-      <trans-unit id="common_bulletList_title">
-        <source>Bullet List</source>
-        <target state="translated">Liste des balles</target>
-      </trans-unit>
-      <trans-unit id="common_bulletList_description">
-        <source>A single bullet list.</source>
-        <target state="translated">Une seule liste de balles.</target>
-      </trans-unit>
-      <trans-unit id="common_table_title">
-        <source>Table</source>
-        <target state="translated">Table</target>
-      </trans-unit>
-      <trans-unit id="common_table_description">
-        <source>A simple table.</source>
-        <target state="translated">Une table simple.</target>
-      </trans-unit>
-      <trans-unit id="menu">
-        <source>Menu</source>
-        <target state="translated">Menu</target>
-      </trans-unit>
-      <trans-unit id="menu_abstract.title">
-        <source>Abstracts</source>
-        <target state="translated">Résumés</target>
-      </trans-unit>
-      <trans-unit id="menu_abstract.description">
-        <source>Menu of subpages of selected pages including abstracts</source>
-        <target state="translated">Menu des sous-pages des pages sélectionnées incluant les résumés</target>
-      </trans-unit>
-      <trans-unit id="menu_categorized_content.title">
-        <source>Categorized content</source>
-        <target state="translated">Contenu catégorisé</target>
-      </trans-unit>
-      <trans-unit id="menu_categorized_content.description">
-        <source>Content elements for selected categories</source>
-        <target state="translated">Éléments de contenu pour les catégories sélectionnées</target>
-      </trans-unit>
-      <trans-unit id="menu_categorized_pages.title">
-        <source>Categorized pages</source>
-        <target state="translated">Pages catégories</target>
-      </trans-unit>
-      <trans-unit id="menu_pages.title">
-        <source>Pages</source>
-        <target state="translated">Pages</target>
-      </trans-unit>
-      <trans-unit id="menu_pages.description">
-        <source>Menu of selected pages</source>
-        <target state="translated">Menu des pages sélectionnées</target>
-      </trans-unit>
-      <trans-unit id="menu_subpages.title">
-        <source>Subpages</source>
-        <target state="translated">Sous-pages</target>
-      </trans-unit>
-      <trans-unit id="menu_subpages.description">
-        <source>Menu of subpages of selected pages</source>
-        <target state="translated">Menu des sous-pages des pages sélectionnées</target>
-      </trans-unit>
-      <trans-unit id="menu_categorized_pages.description">
-        <source>Pages for selected categories</source>
-        <target state="translated">Pages pour les catégories sélectionnées</target>
-      </trans-unit>
-      <trans-unit id="menu_recently_updated.title">
-        <source>Recently updated pages</source>
-        <target state="translated">Pages récemment mises à jour</target>
-      </trans-unit>
-      <trans-unit id="menu_recently_updated.description">
-        <source>Menu of recently updated pages</source>
-        <target state="translated">Menu des pages récemment mises à jour</target>
-      </trans-unit>
-      <trans-unit id="menu_related_pages.title">
-        <source>Related pages</source>
-        <target state="translated">Pages associées</target>
-      </trans-unit>
-      <trans-unit id="menu_related_pages.description">
-        <source>Menu of related pages based on keywords</source>
-        <target state="translated">Menu des pages associées en fonction des mots clés</target>
-      </trans-unit>
-      <trans-unit id="menu_section.title">
-        <source>Section index</source>
-        <target state="translated">Index de la section</target>
-      </trans-unit>
-      <trans-unit id="menu_section.description">
-        <source>Page content marked for section menus</source>
-        <target state="translated">Contenu de la page marqué pour les menus de la section</target>
-      </trans-unit>
-      <trans-unit id="menu_section_pages.title">
-        <source>Section index of subpages from selected pages</source>
-        <target state="translated">Index de la section des sous-pages des pages sélectionnées</target>
-      </trans-unit>
-      <trans-unit id="menu_section_pages.description">
-        <source>Menu of subpages of selected pages including sections</source>
-        <target state="translated">Menu des sous-pages des pages sélectionnées incluant les sections</target>
-      </trans-unit>
-      <trans-unit id="menu_sitemap.title">
-        <source>Sitemap</source>
-        <target state="translated">Plan</target>
-      </trans-unit>
-      <trans-unit id="menu_sitemap.description">
-        <source>Expanded menu of all subpages of the current site</source>
-        <target state="translated">Menu étendu de toutes les sous-pages du site actuel</target>
-      </trans-unit>
-      <trans-unit id="menu_sitemap_pages.title">
-        <source>Sitemaps of selected pages</source>
-        <target state="translated">Plan d'accueil des pages sélectionnées</target>
-      </trans-unit>
-      <trans-unit id="menu_sitemap_pages.description">
-        <source>Expanded menu of all subpages for selected pages</source>
-        <target state="translated">Menu étendu de toutes les sous-pages pour les pages sélectionnées</target>
-      </trans-unit>
-      <trans-unit id="special">
-        <source>Special elements</source>
-        <target state="translated">Éléments spéciaux</target>
-      </trans-unit>
-      <trans-unit id="special_filelinks_title">
-        <source>File Links</source>
-        <target state="translated">Liens de fichier</target>
-      </trans-unit>
-      <trans-unit id="special_filelinks_description">
-        <source>Makes a list of files for download.</source>
-        <target state="translated">Crée une liste de fichiers à télécharger.</target>
-      </trans-unit>
-      <trans-unit id="special_sitemap_title">
-        <source>Sitemap</source>
-        <target state="translated">Plan</target>
-      </trans-unit>
-      <trans-unit id="special_menus_title">
-        <source>Special Menus</source>
-        <target state="translated">Menus spéciaux</target>
-      </trans-unit>
-      <trans-unit id="special_menus_description">
-        <source>Creates a menu of pages, sitemap or other special menus.</source>
-        <target state="translated">Crée un menu de pages, de sitemap ou d'autres menus spéciaux.</target>
-      </trans-unit>
-      <trans-unit id="special_plainHTML_title">
-        <source>Plain HTML</source>
-        <target state="translated">HTML brut</target>
-      </trans-unit>
-      <trans-unit id="special_plainHTML_description">
-        <source>With this element you can insert raw HTML code on the page.</source>
-        <target state="translated">Avec cet élément, vous pouvez insérer le code HTML brut sur la page.</target>
-      </trans-unit>
-      <trans-unit id="special_divider_title">
-        <source>Divider</source>
-        <target state="translated">Diviseur</target>
-      </trans-unit>
-      <trans-unit id="special_divider_description">
-        <source>This element inserts a visual divider, which is by default a horizontal line.</source>
-        <target state="translated">Cet élément insère un séparateur visuel, qui est par défaut une ligne horizontale.</target>
-      </trans-unit>
-      <trans-unit id="special_shortcut_title">
-        <source>Insert records</source>
-        <target state="translated">Insérer des enregistrements</target>
-      </trans-unit>
-      <trans-unit id="special_shortcut_description">
-        <source>With this element you can embed other content elements.</source>
-        <target state="translated">Avec cet élément, vous pouvez intégrer d'autres éléments de contenu.</target>
-      </trans-unit>
-      <trans-unit id="forms">
-        <source>Form elements</source>
-        <target state="translated">Éléments de formulaire</target>
-      </trans-unit>
-      <trans-unit id="forms_mail_title">
-        <source>Mail Form</source>
-        <target state="translated">Formulaire de courrier</target>
-      </trans-unit>
-      <trans-unit id="forms_mail_description">
-        <source>A mail form allowing website users to submit responses.</source>
-        <target state="translated">Un formulaire de courriel permettant aux utilisateurs du site web de soumettre des réponses.</target>
-      </trans-unit>
-      <trans-unit id="forms_login_title">
-        <source>Login Form</source>
-        <target state="translated">Formulaire de connexion</target>
-      </trans-unit>
-      <trans-unit id="forms_login_description">
-        <source>Login/logout form used to password protect pages allowing only authorised website users and groups access.</source>
-        <target state="translated">Formulaire de connexion/déconnexion utilisé pour protéger les pages de mot de passe permettant uniquement aux utilisateurs et aux groupes autorisés d'accéder au site.</target>
-      </trans-unit>
-      <trans-unit id="plugins">
-        <source>Plugins</source>
-        <target state="translated">Plugins</target>
-      </trans-unit>
-      <trans-unit id="plugins_general_title">
-        <source>General Plugin</source>
-        <target state="translated">Plugin général</target>
-      </trans-unit>
-      <trans-unit id="plugins_general_description">
-        <source>Select this element type to insert a plugin which cannot be found amongst the options below.</source>
-        <target state="translated">Sélectionnez ce type d'élément pour insérer un plugin qui ne peut pas être trouvé parmi les options ci-dessous.</target>
-      </trans-unit>
-    </body>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</body>
   </file>
 </xliff>
