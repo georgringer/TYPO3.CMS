@@ -3,9 +3,18 @@
   <file t3:id="1415814986" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="scheduler" target-language="fr">
     <header/>
     <body>
-			
-			
-			
-		</body>
+      <trans-unit id="scheduler.config.maxLifetime">
+        <source>Maximum lifetime: Enter the maximum lifetime (in minutes) of a scheduler task. If a task is still running after that time, it will be dropped from the execution list (but not stopped).</source>
+        <target state="translated">Durée maximale de vie : Entrez la durée maximale (en minutes) d'une tâche de planificateur. Si une tâche est toujours en cours après cette période, elle sera supprimée de la liste d'exécution (mais pas arrêtée).</target>
+      </trans-unit>
+      <trans-unit id="scheduler.config.showSampleTasks">
+        <source>Enable sample tasks: When turned on, you can use the sample, test tasks provided by the scheduler. Before turning this off, make sure you don't have any of those sample tasks currently scheduled. You will also need to clear the configuration cache.</source>
+        <target state="translated">Activer les tâches d'exemple : lorsque vous êtes activé, vous pouvez utiliser l'échantillon, les tâches de test fournies par le planificateur. Avant de désactiver cela, assurez-vous que vous n'avez pas ces tâches d'échantillons actuellement planifiées. Vous devrez également effacer le cache de configuration.</target>
+      </trans-unit>
+      <trans-unit id="scheduler.config.listShowTaskDescriptionAsHover">
+        <source>Show description of tasks as hover: If disabled descriptions of tasks will be shown below the job-name in the scheduler-list.</source>
+        <target state="translated">Afficher la description des tâches comme hover : Si les descriptions désactivées des tâches seront affichées sous le nom du poste dans la liste des planificateurs.</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
