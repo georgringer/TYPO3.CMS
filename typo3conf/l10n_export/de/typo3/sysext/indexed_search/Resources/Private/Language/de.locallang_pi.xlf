@@ -3,89 +3,347 @@
   <file t3:id="1415814837" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="indexed_search" target-language="de">
     <header/>
     <body>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id="default_search_word_entry">
+        <source>Search for</source>
+        <target state="translated">Suche nach</target>
+      </trans-unit>
+      <trans-unit id="submit_button_label">
+        <source>Search</source>
+        <target state="translated">Suche</target>
+      </trans-unit>
+      <trans-unit id="opt_type_0">
+        <source>Distinct word</source>
+        <target state="translated">Stichwort entfernen</target>
+      </trans-unit>
+      <trans-unit id="opt_type_1">
+        <source>Part of word</source>
+        <target state="translated">Teil des Wortes</target>
+      </trans-unit>
+      <trans-unit id="opt_type_2">
+        <source>First part of word</source>
+        <target state="translated">Erster Teil des Wortes</target>
+      </trans-unit>
+      <trans-unit id="opt_type_3">
+        <source>Last part of word</source>
+        <target state="translated">Letzter Teil des Wortes</target>
+      </trans-unit>
+      <trans-unit id="opt_type_10">
+        <source>Sounds like</source>
+        <target state="translated">Sounds wie</target>
+      </trans-unit>
+      <trans-unit id="opt_type_20">
+        <source>Sentence</source>
+        <target state="translated">Satz</target>
+      </trans-unit>
+      <trans-unit id="opt_defOp_0">
+        <source>All words (AND)</source>
+        <target state="translated">Alle Wörter (AND)</target>
+      </trans-unit>
+      <trans-unit id="opt_defOp_1">
+        <source>Any words (OR)</source>
+        <target state="translated">Alle Wörter (ODER)</target>
+      </trans-unit>
+      <trans-unit id="opt_sections_0">
+        <source>Whole site</source>
+        <target state="translated">Ganze Seite</target>
+      </trans-unit>
+      <trans-unit id="opt_sections_-1">
+        <source>Only this page</source>
+        <target state="translated">Nur diese Seite</target>
+      </trans-unit>
+      <trans-unit id="opt_sections_-2">
+        <source>Top + level 1</source>
+        <target state="translated">Top + Stufe 1</target>
+      </trans-unit>
+      <trans-unit id="opt_sections_-3">
+        <source>Level 2 and out</source>
+        <target state="translated">Level 2 und out</target>
+      </trans-unit>
+      <trans-unit id="opt_freeIndexUid_-1">
+        <source>All, mixed</source>
+        <target state="translated">Alle, gemischt</target>
+      </trans-unit>
+      <trans-unit id="opt_freeIndexUid_-2">
+        <source>All, categorized</source>
+        <target state="translated">Alle, kategorisiert</target>
+      </trans-unit>
+      <trans-unit id="opt_freeIndexUid_0">
+        <source>Pages</source>
+        <target state="translated">Seiten</target>
+      </trans-unit>
+      <trans-unit id="opt_freeIndexUid_header_-1">
+        <source>Mixed categories</source>
+        <target state="translated">Gemischte Kategorien</target>
+      </trans-unit>
+      <trans-unit id="opt_freeIndexUid_header_0">
+        <source>Website Pages</source>
+        <target state="translated">Webseiten-Seiten</target>
+      </trans-unit>
+      <trans-unit id="opt_media_-1">
+        <source>All media</source>
+        <target state="translated">Alle Medien</target>
+      </trans-unit>
+      <trans-unit id="opt_media_0">
+        <source>Internal pages</source>
+        <target state="translated">Interne Seiten</target>
+      </trans-unit>
+      <trans-unit id="opt_media_-2">
+        <source>All External</source>
+        <target state="translated">Alle Externen</target>
+      </trans-unit>
+      <trans-unit id="opt_order_rank_flag">
+        <source>Weight/Frequency</source>
+        <target state="translated">Gewicht/Frequenz</target>
+      </trans-unit>
+      <trans-unit id="opt_order_rank_freq">
+        <source>Frequency</source>
+        <target state="translated">Frequenz</target>
+      </trans-unit>
+      <trans-unit id="opt_order_rank_first">
+        <source>Close to top</source>
+        <target state="translated">Nahe oben</target>
+      </trans-unit>
+      <trans-unit id="opt_order_rank_count">
+        <source>Number of words</source>
+        <target state="translated">Anzahl der Wörter</target>
+      </trans-unit>
+      <trans-unit id="opt_order_mtime">
+        <source>Date Modified</source>
+        <target state="translated">Änderungsdatum</target>
+      </trans-unit>
+      <trans-unit id="opt_order_title">
+        <source>Document title</source>
+        <target state="translated">Dokumenttitel</target>
+      </trans-unit>
+      <trans-unit id="opt_order_crdate">
+        <source>Creation date</source>
+        <target state="translated">Erstellungsdatum</target>
+      </trans-unit>
+      <trans-unit id="opt_group_sections">
+        <source>Section hierarchy</source>
+        <target state="translated">Abschnitt Hierarchie</target>
+      </trans-unit>
+      <trans-unit id="opt_group_flat">
+        <source>Flat list</source>
+        <target state="translated">Flat-Liste</target>
+      </trans-unit>
+      <trans-unit id="opt_lang_-1">
+        <source>All languages</source>
+        <target state="translated">Alle Sprachen</target>
+      </trans-unit>
+      <trans-unit id="opt_lang_0">
+        <source>Default</source>
+        <target state="translated">Standard</target>
+      </trans-unit>
+      <trans-unit id="opt_desc_0">
+        <source>Highest first</source>
+        <target state="translated">Höchste zuerst</target>
+      </trans-unit>
+      <trans-unit id="opt_desc_1">
+        <source>Lowest first</source>
+        <target state="translated">Niedrigste zuerst</target>
+      </trans-unit>
+      <trans-unit id="opt_RL1">
+        <source>Level 1</source>
+        <target state="translated">Stufe 1</target>
+      </trans-unit>
+      <trans-unit id="opt_RL1ALL">
+        <source>All pages on level 1</source>
+        <target state="translated">Alle Seiten auf Level 1</target>
+      </trans-unit>
+      <trans-unit id="opt_RL2">
+        <source>- Level 2</source>
+        <target state="translated">- Stufe 2</target>
+      </trans-unit>
+      <trans-unit id="opt_RL2ALL">
+        <source>- All pages on level 2</source>
+        <target state="translated">- Alle Seiten auf Level 2</target>
+      </trans-unit>
+      <trans-unit id="form_legend">
+        <source>Search form</source>
+        <target state="translated">Suchformular</target>
+      </trans-unit>
+      <trans-unit id="form_searchFor">
+        <source>Search for</source>
+        <target state="translated">Suche nach</target>
+      </trans-unit>
+      <trans-unit id="form_extResume">
+        <source>Extended resume</source>
+        <target state="translated">Erweiterter Lebenslauf</target>
+      </trans-unit>
+      <trans-unit id="form_atATime">
+        <source>at a time</source>
+        <target state="translated">zu einer Zeit</target>
+      </trans-unit>
+      <trans-unit id="form_orderBy">
+        <source>Order by</source>
+        <target state="translated">Bestellen von</target>
+      </trans-unit>
+      <trans-unit id="form_fromSection">
+        <source>From section</source>
+        <target state="translated">Von Abschnitt</target>
+      </trans-unit>
+      <trans-unit id="form_freeIndexUid">
+        <source>Category</source>
+        <target state="translated">Kategorie</target>
+      </trans-unit>
+      <trans-unit id="form_searchIn">
+        <source>Search in</source>
+        <target state="translated">Suche in</target>
+      </trans-unit>
+      <trans-unit id="form_match">
+        <source>Match</source>
+        <target state="translated">Passen</target>
+      </trans-unit>
+      <trans-unit id="form_style">
+        <source>Style</source>
+        <target state="translated">Stil</target>
+      </trans-unit>
+      <trans-unit id="rules_header">
+        <source>Rules</source>
+        <target state="translated">Regeln</target>
+      </trans-unit>
+      <trans-unit id="rules_text" xml:space="preserve">
+				<source>Only words with 2 or more characters are accepted
+Max 200 chars total
+Space is used to split words, "" can be used to search for a whole string (not indexed search then)
+AND, OR and NOT are prefix words, overruling the default operator
++/|/- equals AND, OR and NOT as operators.
+All search words are converted to lowercase.</source>
+			<target state="translated">Nur Wörter mit 2 oder mehr Zeichen werden akzeptiert
+Max 200 Zeichen insgesamt
+Leerzeichen werden verwendet, um Wörter zu teilen, "" kann benutzt werden, um eine ganze Zeichenkette (nicht indiziert danach) zu suchen
+UND, oder oder NICHT sind Präfix Wörter, die den Standardbetreiber
++/|/- gleich und OD NICHT als Betreiber überschreiben.
+Alle Suchbegriffe werden in Kleinbuchstaben umgewandelt.</target></trans-unit>
+      <trans-unit id="searchFor">
+        <source>Search for</source>
+        <target state="translated">Suche nach</target>
+      </trans-unit>
+      <trans-unit id="searchFor_or">
+        <source>or</source>
+        <target state="translated">oder</target>
+      </trans-unit>
+      <trans-unit id="searchFor_and">
+        <source>and</source>
+        <target state="translated">und</target>
+      </trans-unit>
+      <trans-unit id="searchFor_butNot">
+        <source>but not</source>
+        <target state="translated">aber nicht</target>
+      </trans-unit>
+      <trans-unit id="noResults">
+        <source>NO results found.</source>
+        <target state="translated">Keine Ergebnisse gefunden.</target>
+      </trans-unit>
+      <trans-unit id="inSection">
+        <source>in the section</source>
+        <target state="translated">im Abschnitt</target>
+      </trans-unit>
+      <trans-unit id="inNsection">
+        <source>in %s section</source>
+        <target state="translated">in der Sektion %s</target>
+      </trans-unit>
+      <trans-unit id="inNsections">
+        <source>in %s sections</source>
+        <target state="translated">in %s Abschnitten</target>
+      </trans-unit>
+      <trans-unit id="word_page">
+        <source>page</source>
+        <target state="translated">seite</target>
+      </trans-unit>
+      <trans-unit id="word_pages">
+        <source>pages</source>
+        <target state="translated">Seiten</target>
+      </trans-unit>
+      <trans-unit id="unnamedSection">
+        <source>Other</source>
+        <target state="translated">Andere</target>
+      </trans-unit>
+      <trans-unit id="link_regularSearch">
+        <source>Regular search</source>
+        <target state="translated">Regelmäßige Suche</target>
+      </trans-unit>
+      <trans-unit id="link_advancedSearch">
+        <source>Advanced search</source>
+        <target state="translated">Erweiterte Suche</target>
+      </trans-unit>
+      <trans-unit id="res_path">
+        <source>Path</source>
+        <target state="translated">Pfad</target>
+      </trans-unit>
+      <trans-unit id="res_modified">
+        <source>Modified</source>
+        <target state="translated">Geändert</target>
+      </trans-unit>
+      <trans-unit id="res_created">
+        <source>Created</source>
+        <target state="translated">Erstellt</target>
+      </trans-unit>
+      <trans-unit id="res_size">
+        <source>Size</source>
+        <target state="translated">Größe</target>
+      </trans-unit>
+      <trans-unit id="res_noResume">
+        <source>Note: This search hit may not accurately match the content on this page. The page resume cannot be shown.</source>
+        <target state="translated">Hinweis: Dieser Suchtreffer passt möglicherweise nicht genau zum Inhalt dieser Seite. Der Seitenlauf kann nicht angezeigt werden.</target>
+      </trans-unit>
+      <trans-unit id="res_otherMatching">
+        <source>Other matching pages in the same document</source>
+        <target state="translated">Andere übereinstimmende Seiten im selben Dokument</target>
+      </trans-unit>
+      <trans-unit id="res_otherPageAsWell">
+        <source>INFO: There was another page indexed as well... Probably indexed with another or no usergroup.</source>
+        <target state="translated">INFO: Es gab auch eine andere Seite indiziert... Wahrscheinlich mit einer anderen oder keinen Benutzergrup indiziert.</target>
+      </trans-unit>
+      <trans-unit id="res_memberGroups">
+        <source>Require membership of group numbers %s</source>
+        <target state="translated">Benötige Mitgliedschaft in Gruppen-Nummern %s</target>
+      </trans-unit>
+      <trans-unit id="pi_list_browseresults_prev">
+        <source>&lt; Previous</source>
+        <target state="translated">&lt; Vorherige</target>
+      </trans-unit>
+      <trans-unit id="pi_list_browseresults_page">
+        <source>Page</source>
+        <target state="translated">Seite</target>
+      </trans-unit>
+      <trans-unit id="pi_list_browseresults_next">
+        <source>Next &gt;</source>
+        <target state="translated">Nächste &gt;</target>
+      </trans-unit>
+      <trans-unit id="pi_list_browseresults_display">
+        <source>Displaying results ###TAG_BEGIN###%1$s to %2$s###TAG_END### out of ###TAG_BEGIN###%3$s###TAG_END###</source>
+        <target state="translated">Zeige Ergebnisse ###TAG_BEGIN###%1$s bis %2$s##TAG_END### aus ###TAG_BEGIN###%3$s###TAG_END###</target>
+      </trans-unit>
+      <trans-unit id="local_operator_AND">
+        <source>AND</source>
+        <target state="translated">UND</target>
+      </trans-unit>
+      <trans-unit id="local_operator_OR">
+        <source>OR</source>
+        <target state="translated">OD</target>
+      </trans-unit>
+      <trans-unit id="local_operator_NOT">
+        <source>NOT</source>
+        <target state="translated">NICHT</target>
+      </trans-unit>
+      <trans-unit id="makerating_addToCurrentSearch">
+        <source>Add to current search words</source>
+        <target state="translated">Zu aktuellen Suchbegriffen hinzufügen</target>
+      </trans-unit>
+      <trans-unit id="maketitle_matches">
+        <source>matches</source>
+        <target state="translated">entspricht</target>
+      </trans-unit>
+      <trans-unit id="pi_wizard_title">
+        <source>Indexed Search</source>
+        <target state="translated">Indizierte Suche</target>
+      </trans-unit>
+      <trans-unit id="pi_wizard_description">
+        <source>Search based on a database stored index.</source>
+        <target state="translated">Suche basierend auf einem Datenbank-gespeicherten Index.</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
