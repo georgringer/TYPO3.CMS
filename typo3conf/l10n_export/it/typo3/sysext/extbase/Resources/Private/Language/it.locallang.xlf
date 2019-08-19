@@ -5,95 +5,95 @@
     <body>
       <trans-unit id="property.error">
         <source>Validation errors for property "%s"</source>
-        <target state="needs-translation">Validation errors for property "%s"</target>
+        <target state="translated">Errori di validazione per la proprietà "%s"</target>
       </trans-unit>
       <trans-unit id="validator.emailaddress.notvalid">
         <source>The given subject was not a valid email address.</source>
-        <target state="needs-translation">The given subject was not a valid email address.</target>
+        <target state="translated">L'oggetto specificato non è un indirizzo email valido.</target>
       </trans-unit>
       <trans-unit id="validator.stringlength.between">
         <source>The length of the given string was not between %s and %s characters.</source>
-        <target state="needs-translation">The length of the given string was not between %s and %s characters.</target>
+        <target state="translated">La lunghezza della stringa specificata non è compresa tra %s e %s caratteri.</target>
       </trans-unit>
       <trans-unit id="validator.stringlength.less">
         <source>The length of the given string is less than %s characters.</source>
-        <target state="needs-translation">The length of the given string is less than %s characters.</target>
+        <target state="translated">La lunghezza della stringa specificata è inferiore a %s caratteri.</target>
       </trans-unit>
       <trans-unit id="validator.string.notvalid">
         <source>A valid string is expected.</source>
-        <target state="needs-translation">A valid string is expected.</target>
+        <target state="translated">È prevista una stringa valida.</target>
       </trans-unit>
       <trans-unit id="validator.stringlength.exceed">
         <source>The length of the given string exceeded %s characters.</source>
-        <target state="needs-translation">The length of the given string exceeded %s characters.</target>
+        <target state="translated">La lunghezza della stringa specificata ha superato %s caratteri.</target>
       </trans-unit>
       <trans-unit id="validator.alphanumeric.notvalid">
         <source>The given subject was not a valid alphanumeric string.</source>
-        <target state="needs-translation">The given subject was not a valid alphanumeric string.</target>
+        <target state="translated">L'oggetto specificato non è una stringa alfanumerica valida.</target>
       </trans-unit>
       <trans-unit id="validator.datetime.notvalid">
         <source>The given subject was not a valid DateTime. Got: '%s'</source>
-        <target state="needs-translation">The given subject was not a valid DateTime. Got: '%s'</target>
+        <target state="translated">L'oggetto specificato non è un DateTime valido. Ricevuto: »%s'</target>
       </trans-unit>
       <trans-unit id="validator.genericobject.noobject">
         <source>Value is no object.</source>
-        <target state="needs-translation">Value is no object.</target>
+        <target state="translated">Il valore non è un oggetto.</target>
       </trans-unit>
       <trans-unit id="validator.float.notvalid">
         <source>The given subject was not a valid float.</source>
-        <target state="needs-translation">The given subject was not a valid float.</target>
+        <target state="translated">L'oggetto specificato non è un float valido.</target>
       </trans-unit>
       <trans-unit id="validator.text.notvalid">
         <source>The given subject was not a valid text (e.g. contained XML tags).</source>
-        <target state="needs-translation">The given subject was not a valid text (e.g. contained XML tags).</target>
+        <target state="translated">L'oggetto specificato non è un testo valido (ad esempio contiene tag XML).</target>
       </trans-unit>
       <trans-unit id="validator.regularexpression.empty">
         <source>The regular expression was empty.</source>
-        <target state="needs-translation">The regular expression was empty.</target>
+        <target state="translated">L'espressione regolare è stata vuota.</target>
       </trans-unit>
       <trans-unit id="validator.regularexpression.nomatch">
         <source>The given subject did not match the pattern.</source>
-        <target state="needs-translation">The given subject did not match the pattern.</target>
+        <target state="translated">L'oggetto specificato non corrisponde al modello.</target>
       </trans-unit>
       <trans-unit id="validator.regularexpression.error">
         <source>The regular expression '%s' contained an error.</source>
-        <target state="needs-translation">The regular expression '%s' contained an error.</target>
+        <target state="translated">L'espressione regolare '%s' contiene un errore.</target>
       </trans-unit>
       <trans-unit id="validator.numberrange.notvalid">
         <source>The given subject was not a valid number.</source>
-        <target state="needs-translation">The given subject was not a valid number.</target>
+        <target state="translated">L'oggetto specificato non è un numero valido.</target>
       </trans-unit>
       <trans-unit id="validator.numberrange.range">
         <source>The given subject was not in the valid range (%s - %s).</source>
-        <target state="needs-translation">The given subject was not in the valid range (%s - %s).</target>
+        <target state="translated">L'oggetto specificato non era nell'intervallo valido (%s - %s).</target>
       </trans-unit>
       <trans-unit id="validator.notempty.null">
         <source>The given subject was NULL.</source>
-        <target state="needs-translation">The given subject was NULL.</target>
+        <target state="translated">L'oggetto specificato è stato NULL.</target>
       </trans-unit>
       <trans-unit id="validator.notempty.empty">
         <source>The given subject was empty.</source>
-        <target state="needs-translation">The given subject was empty.</target>
+        <target state="translated">L'oggetto specificato è stato vuoto.</target>
       </trans-unit>
       <trans-unit id="validator.number.notvalid">
         <source>The given subject was not a valid number.</source>
-        <target state="needs-translation">The given subject was not a valid number.</target>
+        <target state="translated">L'oggetto specificato non è un numero valido.</target>
       </trans-unit>
       <trans-unit id="validator.integer.notvalid">
         <source>The given subject was not a valid integer.</source>
-        <target state="needs-translation">The given subject was not a valid integer.</target>
+        <target state="translated">L'oggetto specificato non è un intero valido.</target>
       </trans-unit>
       <trans-unit id="validator.boolean.nottrue">
         <source>The given subject was not true.</source>
-        <target state="needs-translation">The given subject was not true.</target>
+        <target state="translated">L'argomento non è stato vero.</target>
       </trans-unit>
       <trans-unit id="validator.boolean.notfalse">
         <source>The given subject was not false.</source>
-        <target state="needs-translation">The given subject was not false.</target>
+        <target state="translated">L'argomento non è stato falso.</target>
       </trans-unit>
       <trans-unit id="validator.url.notvalid">
         <source>The given subject is no valid URL.</source>
-        <target state="needs-translation">The given subject is no valid URL.</target>
+        <target state="translated">L'oggetto specificato non è un URL valido.</target>
       </trans-unit>
     </body>
   </file>
