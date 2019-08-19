@@ -5,131 +5,131 @@
     <body>
       <trans-unit id="mod_indexed_search">
         <source>Indexed search</source>
-        <target state="needs-translation">Indexed search</target>
+        <target state="translated">Recherche indexée</target>
       </trans-unit>
       <trans-unit id="mod2_indexed_search">
         <source>Indexed search statistics</source>
-        <target state="needs-translation">Indexed search statistics</target>
+        <target state="translated">Statistiques de recherche indexées</target>
       </trans-unit>
       <trans-unit id="ignoreExtensions">
         <source>Extension %s was set to be ignored.</source>
-        <target state="needs-translation">Extension %s was set to be ignored.</target>
+        <target state="translated">L'extension %s a été configurée pour être ignorée.</target>
       </trans-unit>
       <trans-unit id="pdfToolsNotFound">
         <source>PDF tools was not found in paths '%1$spdftotext' and/or '%1$spdfinfo'"</source>
-        <target state="needs-translation">PDF tools was not found in paths '%1$spdftotext' and/or '%1$spdfinfo'"</target>
+        <target state="translated">Les outils PDF n'ont pas été trouvés dans les chemins '%1$spdftotext' et/ou '%1$spdfinfo'"</target>
       </trans-unit>
       <trans-unit id="pdfToolsDisabled">
         <source>PDF tools disabled</source>
-        <target state="needs-translation">PDF tools disabled</target>
+        <target state="translated">Outils PDF désactivés</target>
       </trans-unit>
       <trans-unit id="pdfToolsFailed">
         <source>PDFtoText Failed on this document: '%s'. Maybe the PDF file is locked for printing or encrypted.</source>
-        <target state="needs-translation">PDFtoText Failed on this document: '%s'. Maybe the PDF file is locked for printing or encrypted.</target>
+        <target state="translated">PDFtoText a échoué sur ce document : '%s'. Peut-être le fichier PDF est-il verrouillé pour l'impression ou le chiffrement.</target>
       </trans-unit>
       <trans-unit id="catdocNotFound">
         <source>'catdoc' tool for reading Word-files was not found in path '%scatdoc'</source>
-        <target state="needs-translation">'catdoc' tool for reading Word-files was not found in path '%scatdoc'</target>
+        <target state="translated">L'outil 'catdoc' pour lire les fichiers Word n'a pas été trouvé dans le chemin '%scatdoc'</target>
       </trans-unit>
       <trans-unit id="catdocDisabled">
         <source>catdoc tools (Word-files) disabled</source>
-        <target state="needs-translation">catdoc tools (Word-files) disabled</target>
+        <target state="translated">outils catdoc (Word-files) désactivés</target>
       </trans-unit>
       <trans-unit id="ppthtmlNotFound">
         <source>'ppthtml' tool for reading Powerpoint-files was not found in path '%sppthtml'</source>
-        <target state="needs-translation">'ppthtml' tool for reading Powerpoint-files was not found in path '%sppthtml'</target>
+        <target state="translated">L'outil 'ppthtml' pour la lecture des fichiers Powerpoint n'a pas été trouvé dans le chemin '%sppthtml'</target>
       </trans-unit>
       <trans-unit id="ppthtmlDisabled">
         <source>ppthtml tools (Powerpoint-files) disabled</source>
-        <target state="needs-translation">ppthtml tools (Powerpoint-files) disabled</target>
+        <target state="translated">ppthtml tools (Powerpoint-files) désactivé</target>
       </trans-unit>
       <trans-unit id="xlhtmlNotFound">
         <source>'xlhtml' tool for reading Excel-files was not found in path '%sxlhtml'</source>
-        <target state="needs-translation">'xlhtml' tool for reading Excel-files was not found in path '%sxlhtml'</target>
+        <target state="translated">L'outil 'xlhtml' pour lire les fichiers Excel n'a pas été trouvé dans le chemin '%sxlhtml'</target>
       </trans-unit>
       <trans-unit id="xlhtmlDisabled">
         <source>xlhtml tools (Excel-files) disabled</source>
-        <target state="needs-translation">xlhtml tools (Excel-files) disabled</target>
+        <target state="translated">Outils xlhtml (Excel-files) désactivés</target>
       </trans-unit>
       <trans-unit id="unzipNotFound">
         <source>'unzip' tool for reading OpenOffice.org-files was not found in path '%sunzip'</source>
-        <target state="needs-translation">'unzip' tool for reading OpenOffice.org-files was not found in path '%sunzip'</target>
+        <target state="translated">L'outil 'unzip' pour lire les fichiers OpenOffice.org n'a pas été trouvé dans le chemin '%sdécompresser'</target>
       </trans-unit>
       <trans-unit id="unzipDisabled">
         <source>unzip tool (OpenOffice.org-files) disabled</source>
-        <target state="needs-translation">unzip tool (OpenOffice.org-files) disabled</target>
+        <target state="translated">unzip outil (OpenOffice.org-files) désactivé</target>
       </trans-unit>
       <trans-unit id="unrtfNotFound">
         <source>'unrtf' tool for reading RTF-files was not found in path '%sunrtf'</source>
-        <target state="needs-translation">'unrtf' tool for reading RTF-files was not found in path '%sunrtf'</target>
+        <target state="translated">L'outil 'unrtf' pour lire les fichiers RTF n'a pas été trouvé dans le chemin '%snon-rtf'</target>
       </trans-unit>
       <trans-unit id="unrtfDisabled">
         <source>unrtf tool (RTF-files) disabled</source>
-        <target state="needs-translation">unrtf tool (RTF-files) disabled</target>
+        <target state="translated">unrtf outil (RTF-files) désactivé</target>
       </trans-unit>
       <trans-unit id="extension.PDF">
         <source>PDF (*.%s)</source>
-        <target state="needs-translation">PDF (*.%s)</target>
+        <target state="translated">PDF (*.%s)</target>
       </trans-unit>
       <trans-unit id="extension.DOC">
         <source>MS Word (*.%s)</source>
-        <target state="needs-translation">MS Word (*.%s)</target>
+        <target state="translated">MS Word (*.%s)</target>
       </trans-unit>
       <trans-unit id="extension.PP">
         <source>MS Powerpoint (*.%s)</source>
-        <target state="needs-translation">MS Powerpoint (*.%s)</target>
+        <target state="translated">MS Powerpoint (*.%s)</target>
       </trans-unit>
       <trans-unit id="extension.XLS">
         <source>MS Excel (*.%s)</source>
-        <target state="needs-translation">MS Excel (*.%s)</target>
+        <target state="translated">MS Excel (*.%s)</target>
       </trans-unit>
       <trans-unit id="extension.SXC">
         <source>OpenOffice.org Calc (*.%s)</source>
-        <target state="needs-translation">OpenOffice.org Calc (*.%s)</target>
+        <target state="translated">Calque OpenOffice.org (*.%s)</target>
       </trans-unit>
       <trans-unit id="extension.SXI">
         <source>OpenOffice.org Impress (*.%s)</source>
-        <target state="needs-translation">OpenOffice.org Impress (*.%s)</target>
+        <target state="translated">Impression OpenOffice.org (*.%s)</target>
       </trans-unit>
       <trans-unit id="extension.SXW">
         <source>OpenOffice.org Writer (*.%s)</source>
-        <target state="needs-translation">OpenOffice.org Writer (*.%s)</target>
+        <target state="translated">Writer OpenOffice.org (*.%s)</target>
       </trans-unit>
       <trans-unit id="extension.ODS">
         <source>ODF Spreadsheet (*.%s)</source>
-        <target state="needs-translation">ODF Spreadsheet (*.%s)</target>
+        <target state="translated">Feuille d'écran ODF (*.%s)</target>
       </trans-unit>
       <trans-unit id="extension.ODP">
         <source>ODF Presentation (*.%s)</source>
-        <target state="needs-translation">ODF Presentation (*.%s)</target>
+        <target state="translated">Présentation ODF (*.%s)</target>
       </trans-unit>
       <trans-unit id="extension.ODT">
         <source>ODF Text (*.%s)</source>
-        <target state="needs-translation">ODF Text (*.%s)</target>
+        <target state="translated">Texte ODF (*.%s)</target>
       </trans-unit>
       <trans-unit id="extension.RTF">
         <source>Rich Text Format (*.%s)</source>
-        <target state="needs-translation">Rich Text Format (*.%s)</target>
+        <target state="translated">Format de texte riche (*.%s)</target>
       </trans-unit>
       <trans-unit id="extension.images">
         <source>Images (*.%s)</source>
-        <target state="needs-translation">Images (*.%s)</target>
+        <target state="translated">Images (*.%s)</target>
       </trans-unit>
       <trans-unit id="extension.HTML">
         <source>Webpages (*.%s)</source>
-        <target state="needs-translation">Webpages (*.%s)</target>
+        <target state="translated">Pages web (*.%s)</target>
       </trans-unit>
       <trans-unit id="extension.TXT">
         <source>Textfiles (*.%s)</source>
-        <target state="needs-translation">Textfiles (*.%s)</target>
+        <target state="translated">Fichiers de texte (*.%s)</target>
       </trans-unit>
       <trans-unit id="extension.CSV">
         <source>Comma-Separated Values (*.%s)</source>
-        <target state="needs-translation">Comma-Separated Values (*.%s)</target>
+        <target state="translated">Valeurs séparées par des virgules (*.%s)</target>
       </trans-unit>
       <trans-unit id="extension.XML">
         <source>Extensible Markup Language (*.%s)</source>
-        <target state="needs-translation">Extensible Markup Language (*.%s)</target>
+        <target state="translated">Langue de Markup Extensible (*.%s)</target>
       </trans-unit>
     </body>
   </file>
