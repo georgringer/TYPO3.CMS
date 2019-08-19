@@ -3,20 +3,62 @@
   <file t3:id="1415815011" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="viewpage" target-language="fr">
     <header/>
     <body>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id="width">
+        <source>Width</source>
+        <target state="translated">Largeur</target>
+      </trans-unit>
+      <trans-unit id="tablet">
+        <source>Tablet</source>
+        <target state="translated">Tablette</target>
+      </trans-unit>
+      <trans-unit id="mobile">
+        <source>Mobile</source>
+        <target state="translated">Mobile</target>
+      </trans-unit>
+      <trans-unit id="computer">
+        <source>Computer</source>
+        <target state="translated">Ordinateur</target>
+      </trans-unit>
+      <trans-unit id="desktop">
+        <source>Desktop</source>
+        <target state="translated">Bureau</target>
+      </trans-unit>
+      <trans-unit id="customWidth">
+        <source>Custom Size</source>
+        <target state="translated">Taille personnalisée</target>
+      </trans-unit>
+      <trans-unit id="autoSize">
+        <source>Auto Size</source>
+        <target state="translated">Taille auto</target>
+      </trans-unit>
+      <trans-unit id="refreshPage">
+        <source>Refresh page</source>
+        <target state="translated">Actualiser la page</target>
+      </trans-unit>
+      <trans-unit id="language">
+        <source>Language</source>
+        <target state="translated">Langue</target>
+      </trans-unit>
+      <trans-unit id="automatic">
+        <source>Automatic</source>
+        <target state="translated">Automatique</target>
+      </trans-unit>
+      <trans-unit id="maximized">
+        <source>Maximized</source>
+        <target state="translated">Maximisé</target>
+      </trans-unit>
+      <trans-unit id="custom">
+        <source>Custom</source>
+        <target state="translated">Personnalisé</target>
+      </trans-unit>
+      <trans-unit id="unidentified">
+        <source>Unidentified</source>
+        <target state="translated">Non identifié</target>
+      </trans-unit>
+      <trans-unit id="noValidPageSelected">
+        <source>Please select a page with a valid page type in the page tree on the left to preview the selected page in different screen resolutions.</source>
+        <target state="translated">Veuillez sélectionner une page avec un type de page valide dans l'arborescence de page à gauche pour prévisualiser la page sélectionnée dans différentes résolutions d'écran.</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
