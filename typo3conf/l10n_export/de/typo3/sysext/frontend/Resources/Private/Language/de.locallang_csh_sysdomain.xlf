@@ -5,38 +5,38 @@
     <body>
       <trans-unit id=".description">
         <source>Determines the entrypoint of a certain host name.</source>
-        <target state="needs-translation">Determines the entrypoint of a certain host name.</target>
+        <target state="translated">Bestimmt den Entrypoint eines bestimmten Hostnamens.</target>
       </trans-unit>
       <trans-unit id=".details" xml:space="preserve">
 				<source>When a TYPO3 database contains more than a single website, you'll typically have to assign a domain name to each new websites "root-page". In practice you point all the domains to the same TYPO3 database on the server, but then you insert these Domain records at the positions in the page tree where you want to direct requests to the domain. And thus pages 'outside' that point will not be accessible from that domain.
 This is like "Virtual hosts" in Apache servers.
 
 (Should probably be available for admin only.)</source>
-			<target state="needs-translation">When a TYPO3 database contains more than a single website, you'll typically have to assign a domain name to each new websites "root-page". In practice you point all the domains to the same TYPO3 database on the server, but then you insert these Domain records at the positions in the page tree where you want to direct requests to the domain. And thus pages 'outside' that point will not be accessible from that domain.
-This is like "Virtual hosts" in Apache servers.
+			<target state="translated">Wenn eine TYPO3-Datenbank mehr als eine einzige Website enthält, müssen Sie normalerweise jedem neuen Websites "root-page" einen Domain-Namen zuweisen. In der Praxis weisen Sie alle Domains auf die gleiche TYPO3-Datenbank auf dem Server hin, dann fügen Sie diese Domain-Einträge in die Positionen in den Seitenbaum ein, wo Sie Anfragen an die Domain direkt stellen möchten. Und so werden Seiten 'außerhalb' dieser Domain nicht zugänglich sein.
+Dies ist wie "Virtuelle Hosts" auf den Apache-Servern.
 
-(Should probably be available for admin only.)</target></trans-unit>
+(Sollte wahrscheinlich nur für den Admin verfügbar sein.)</target></trans-unit>
       <trans-unit id="_.seeAlso" xml:space="preserve">
 				<source>sys_language
 sys_template</source>
-			<target state="needs-translation">sys_language
+			<target state="translated">sys_language
 sys_template</target></trans-unit>
       <trans-unit id="domainName.description">
         <source>Enter the host name, eg. "www.my-domain.com".</source>
-        <target state="needs-translation">Enter the host name, eg. "www.my-domain.com".</target>
+        <target state="translated">Geben Sie den Hostnamen ein, z.B. "www.my-domain.com".</target>
       </trans-unit>
       <trans-unit id="domainName.details" xml:space="preserve">
 				<source>Before a domain record will have any effect you must make sure that the domains A-record is pointed towards the server and that your server is setup to direct requests to this TYPO3 database. So basically before entering anything here, make sure a request to the domain you wish to enter arrives at the root of the current page tree.
 When you create a domain record and the host name in it (be it a real domain name or an IP address) matches the hostname of the URL, the TypoScript based front end will limit the available page to only those in the page tree from this point and outwards. In effect you will 'arrive' at the page where this record is and furthermore users cannot see pages with ids outside this branch.
 
 &lt;strong&gt;Notice, &lt;/strong&gt;if you run TYPO3 from a subdirectory of the domain name, you must include the subdirectory as well, eg. "www.my-domain.org/typo3_subdir/"</source>
-			<target state="needs-translation">Before a domain record will have any effect you must make sure that the domains A-record is pointed towards the server and that your server is setup to direct requests to this TYPO3 database. So basically before entering anything here, make sure a request to the domain you wish to enter arrives at the root of the current page tree.
-When you create a domain record and the host name in it (be it a real domain name or an IP address) matches the hostname of the URL, the TypoScript based front end will limit the available page to only those in the page tree from this point and outwards. In effect you will 'arrive' at the page where this record is and furthermore users cannot see pages with ids outside this branch.
+			<target state="translated">Bevor ein Domain-Eintrag irgendwelche Auswirkungen hat, müssen Sie sicherstellen, dass die Domains A-record auf den Server aufgezeigt wird und dass Ihr Server auf direkte Anfragen an diese TYPO3-Datenbank eingerichtet ist. Stellen Sie also vor der Eingabe von etwas hier eine Anfrage an die Domain, die Sie eingeben möchten, im Stammverzeichnis des aktuellen Seitenbaums.
+Wenn Sie einen Domain-Eintrag und den Hostnamen in ihm erstellen (ob es sich um einen echten Domain-Namen oder eine IP-Adresse handelt) entspricht der Hostname der URL, wird das TypoScript-basierte Frontend die verfügbare Seite nur auf diejenigen im Seitenbaum von diesem Punkt an und nach außen beschränken. In der Tat werden Sie 'ankommen' auf der Seite, auf der dieser Eintrag ist und außerdem können Benutzer nicht Seiten mit ids außerhalb dieses Zweiges sehen.
 
-&lt;strong&gt;Notice, &lt;/strong&gt;if you run TYPO3 from a subdirectory of the domain name, you must include the subdirectory as well, eg. "www.my-domain.org/typo3_subdir/"</target></trans-unit>
+&lt;strong&gt;Hinweis, &lt;/strong&gt;, wenn Sie TYPO3 aus einem Unterverzeichnis des Domain-Namens ausführen, müssen Sie auch das Unterverzeichnis, z.B. enthalten. "www.my-domain.org/typo3_subdir/"</target></trans-unit>
       <trans-unit id="redirectTo.description">
         <source>All requests to the domain will be redirected to this URL, if any value is entered.</source>
-        <target state="needs-translation">All requests to the domain will be redirected to this URL, if any value is entered.</target>
+        <target state="translated">Alle Anfragen an die Domain werden auf diese URL weitergeleitet, wenn ein Wert eingegeben wird.</target>
       </trans-unit>
       <trans-unit id="redirectTo.details" xml:space="preserve">
 				<source>Make sure to prepend "http://" or equally to the value! Basically a "Location: " header is just issued to this value!
@@ -57,31 +57,31 @@ This will go into an eternal loop because the domain name has in fact not change
 
 Virtual directories:
 If you're using TYPO3 on a unix computer you can make 'virtual subdirectories' to a website, still within the same database. See document list for more information. In that case you should enter the hostname with the subdirectory appended, like this: "my-domain.org/subdir/". If the combination of host name and current subdirectory matches the value, the domain record will be correctly detected and limit page access to the page tree below the Domain record.</source>
-			<target state="needs-translation">Make sure to prepend "http://" or equally to the value! Basically a "Location: " header is just issued to this value!
-&lt;strong&gt;Warning:&lt;/strong&gt; You cannot use this to 'redirect' to a specific page id within the same domain as the record has! If you do that it'll just go into an endless loop because the redirect is redirecting to itself!
+			<target state="translated">Stellen Sie sicher, dass "http://" oder gleich dem Wert vorangestellt wird! Grundsätzlich wird ein "Standort: " Header gerade diesem Wert zugeordnet!
+&lt;strong&gt;Warnung:&lt;/strong&gt; Sie können dies nicht verwenden, um eine bestimmte Seitennummer innerhalb der gleichen Domain zu "weiterleiten" wie der Datensatz! Wenn du das tust, dann geht es einfach in eine endlose Schleife, weil die Umleitung zu sich selbst umleitet!
 
-Good Example:
+Gutes Beispiel:
 Domain: "my-domain.org"
 Redirect: "www.my-domain.org"
 
-This redirects requests to what is infact another domain name, namely "www.my-domain.org"
+Diese leitet Anfragen an einen anderen Domain-Namen, nämlich "www.my-domain.org"
 
 Bad Example:
 Domain: "www.my-domain.org"
 Redirect: "www.my-domain.org/?id=10"
 
-This will go into an eternal loop because the domain name has in fact not changed!
+Dies wird in eine ewige Schleife gehen, da der Domain-Name in der Tat nicht geändert hat!
 
 
-Virtual directories:
-If you're using TYPO3 on a unix computer you can make 'virtual subdirectories' to a website, still within the same database. See document list for more information. In that case you should enter the hostname with the subdirectory appended, like this: "my-domain.org/subdir/". If the combination of host name and current subdirectory matches the value, the domain record will be correctly detected and limit page access to the page tree below the Domain record.</target></trans-unit>
+Virtuelle Verzeichnisse:
+Wenn Sie TYPO3 auf einem unix-Computer verwenden, können Sie 'virtuelle Unterverzeichnisse' auf eine Webseite erstellen, noch in derselben Datenbank. Weitere Informationen finden Sie in der Dokumentenliste. In diesem Fall sollten Sie den Hostnamen mit dem Unterverzeichnis eingeben, wie dies: "my-domain.org/subdir/". Wenn die Kombination von Hostnamen und aktuellem Unterverzeichnis dem Wert entspricht, wird der Domain-Eintrag korrekt erkannt und der Seitenzugriff auf den Seitenbaum unterhalb des Domain-Datensatzes begrenzt.</target></trans-unit>
       <trans-unit id="hidden.description">
         <source>Use this option to temporarily disable the Domain record.</source>
-        <target state="needs-translation">Use this option to temporarily disable the Domain record.</target>
+        <target state="translated">Verwenden Sie diese Option, um den Domain-Eintrag vorübergehend zu deaktivieren.</target>
       </trans-unit>
       <trans-unit id="prepend_params.description">
         <source>If set, any GET parameters in the calling URL will be transferred to the redirect URL.</source>
-        <target state="needs-translation">If set, any GET parameters in the calling URL will be transferred to the redirect URL.</target>
+        <target state="translated">Wenn gesetzt, werden alle GET-Parameter in der Calling-URL auf die Umleitung-URL übertragen.</target>
       </trans-unit>
     </body>
   </file>
