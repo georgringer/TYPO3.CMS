@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814847" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="lang" target-language="fr">
+    <header/>
+    <body>
+      <trans-unit id="deleteItem">
+        <source>Delete</source>
+        <target state="translated">Supprimer</target>
+      </trans-unit>
+      <trans-unit id="deleteWarning">
+        <source>Are you sure you want to delete this record?</source>
+        <target state="translated">Êtes-vous sûr de vouloir supprimer cet enregistrement ?</target>
+      </trans-unit>
+      <trans-unit id="undoLastChange">
+        <source>Undo/Redo last change (%s ago)</source>
+        <target state="translated">Annuler/Redo dernière modification ( il y a%s)</target>
+      </trans-unit>
+      <trans-unit id="recordHistory">
+        <source>View record change history</source>
+        <target state="translated">Voir l'historique des changements d'enregistrement</target>
+      </trans-unit>
+      <trans-unit id="editWholeRecord">
+        <source>Edit whole record</source>
+        <target state="translated">Modifier tout l'enregistrement</target>
+      </trans-unit>
+      <trans-unit id="openDocs">
+        <source>OPEN DOCUMENTS</source>
+        <target state="translated">DOCUMENTS OPEN</target>
+      </trans-unit>
+      <trans-unit id="noDocuments">
+        <source>No open documents</source>
+        <target state="translated">Aucun document ouvert</target>
+      </trans-unit>
+      <trans-unit id="noDocuments_msg">
+        <source>There are no open documents available to edit.</source>
+        <target state="translated">Il n'y a pas de documents ouverts à éditer.</target>
+      </trans-unit>
+      <trans-unit id="noDocuments_msg2">
+        <source>You can go to %s to find the page or the record you wish to edit.</source>
+        <target state="translated">Vous pouvez aller à %s pour trouver la page ou l'enregistrement que vous souhaitez modifier.</target>
+      </trans-unit>
+      <trans-unit id="noDocuments_msg3">
+        <source>You can select one of your most recently edited records from this list</source>
+        <target state="translated">Vous pouvez sélectionner l'un de vos enregistrements les plus récents de cette liste</target>
+      </trans-unit>
+      <trans-unit id="noDocuments_pagemodule">
+        <source>the Web&gt;Page module</source>
+        <target state="translated">le module de page Web&gt;</target>
+      </trans-unit>
+      <trans-unit id="noDocuments_OR">
+        <source>or</source>
+        <target state="translated">ou</target>
+      </trans-unit>
+      <trans-unit id="noDocuments_listmodule">
+        <source>the Web&gt;List module</source>
+        <target state="translated">le module de liste Web&gt;</target>
+      </trans-unit>
+      <trans-unit id="buttons.confirm.duplicate_record_changed.cancel">
+        <source>Cancel</source>
+        <target state="translated">Annuler</target>
+      </trans-unit>
+      <trans-unit id="button.confirm.duplicate_record_changed.no">
+        <source>No, just duplicate the original</source>
+        <target state="translated">Non, il suffit de dupliquer l'original</target>
+      </trans-unit>
+      <trans-unit id="buttons.confirm.duplicate_record_changed.yes">
+        <source>Yes, save and duplicate this record</source>
+        <target state="translated">Oui, enregistrer et dupliquer cet enregistrement</target>
+      </trans-unit>
+      <trans-unit id="buttons.confirm.close_without_save.yes">
+        <source>Yes, discard my changes</source>
+        <target state="translated">Oui, rejetez mes modifications</target>
+      </trans-unit>
+      <trans-unit id="buttons.confirm.close_without_save.no">
+        <source>No, I will continue editing</source>
+        <target state="translated">Non, je continuerai à modifier</target>
+      </trans-unit>
+      <trans-unit id="buttons.confirm.save_and_close">
+        <source>Save and close</source>
+        <target state="translated">Enregistrer et fermer</target>
+      </trans-unit>
+      <trans-unit id="label.confirm.duplicate_record_changed.title">
+        <source>Do you want to save before duplicating this record?</source>
+        <target state="translated">Voulez-vous enregistrer avant de dupliquer cet enregistrement ?</target>
+      </trans-unit>
+      <trans-unit id="label.confirm.duplicate_record_changed.content">
+        <source>You currently have unsaved changes. Do you want to save your changes before duplicating this record?</source>
+        <target state="translated">Vous avez actuellement des modifications non enregistrées. Voulez-vous enregistrer vos modifications avant de dupliquer cet enregistrement ?</target>
+      </trans-unit>
+      <trans-unit id="label.confirm.new_record_changed.title">
+        <source>Do you want to save before adding?</source>
+        <target state="translated">Voulez-vous enregistrer avant d'ajouter ?</target>
+      </trans-unit>
+      <trans-unit id="label.confirm.new_record_changed.content">
+        <source>You need to save your changes before creating a new record. Do you want to save and create now?</source>
+        <target state="translated">Vous devez enregistrer vos modifications avant de créer un nouvel enregistrement. Voulez-vous sauvegarder et créer maintenant ?</target>
+      </trans-unit>
+      <trans-unit id="buttons.confirm.new_record_changed.cancel">
+        <source>Cancel</source>
+        <target state="translated">Annuler</target>
+      </trans-unit>
+      <trans-unit id="buttons.confirm.new_record_changed.no">
+        <source>No, just add</source>
+        <target state="translated">Non, ajouter</target>
+      </trans-unit>
+      <trans-unit id="buttons.confirm.new_record_changed.yes">
+        <source>Yes, save and create now</source>
+        <target state="translated">Oui, sauvegardez et créez maintenant</target>
+      </trans-unit>
+      <trans-unit id="label.confirm.view_record_changed.title">
+        <source>Do you want to save before viewing?</source>
+        <target state="translated">Voulez-vous enregistrer avant de visionner ?</target>
+      </trans-unit>
+      <trans-unit id="label.confirm.view_record_changed.content">
+        <source>You currently have unsaved changes. You can either discard these changes or save and view them.</source>
+        <target state="translated">Vous avez actuellement des modifications non enregistrées. Vous pouvez soit supprimer ces modifications, soit les enregistrer et les afficher.</target>
+      </trans-unit>
+      <trans-unit id="label.confirm.view_record_changed.content.is-new-page">
+        <source>You need to save your changes before viewing the page. Do you want to save and view them now?</source>
+        <target state="translated">Vous devez enregistrer vos modifications avant de visualiser la page. Voulez-vous les enregistrer et les afficher maintenant ?</target>
+      </trans-unit>
+      <trans-unit id="buttons.confirm.view_record_changed.cancel">
+        <source>Cancel</source>
+        <target state="translated">Annuler</target>
+      </trans-unit>
+      <trans-unit id="buttons.confirm.view_record_changed.no-save">
+        <source>View without changes</source>
+        <target state="translated">Voir sans changement</target>
+      </trans-unit>
+      <trans-unit id="buttons.confirm.view_record_changed.save">
+        <source>Save changes and view</source>
+        <target state="translated">Enregistrer les changements et afficher</target>
+      </trans-unit>
+      <trans-unit id="label.confirm.close_without_save.title">
+        <source>Do you want to close without saving?</source>
+        <target state="translated">Voulez-vous fermer sans enregistrer ?</target>
+      </trans-unit>
+      <trans-unit id="label.confirm.close_without_save.content">
+        <source>You currently have unsaved changes. Are you sure you want to discard these changes?</source>
+        <target state="translated">Vous avez actuellement des modifications non enregistrées. Êtes-vous sûr de vouloir supprimer ces modifications ?</target>
+      </trans-unit>
+      <trans-unit id="buttons.confirm.delete_file.no">
+        <source>Cancel</source>
+        <target state="translated">Annuler</target>
+      </trans-unit>
+      <trans-unit id="buttons.confirm.delete_file.yes">
+        <source>Yes, delete this file</source>
+        <target state="translated">Oui, supprimer ce fichier</target>
+      </trans-unit>
+      <trans-unit id="buttons.confirm.delete_folder.yes">
+        <source>Yes, delete this folder</source>
+        <target state="translated">Oui, supprimer ce dossier</target>
+      </trans-unit>
+      <trans-unit id="buttons.confirm.delete_record.no">
+        <source>Cancel</source>
+        <target state="translated">Annuler</target>
+      </trans-unit>
+      <trans-unit id="buttons.confirm.delete_record.yes">
+        <source>Yes, delete this record</source>
+        <target state="translated">Oui, supprimer cet enregistrement</target>
+      </trans-unit>
+      <trans-unit id="label.confirm.delete_record.title">
+        <source>Delete this record?</source>
+        <target state="translated">Supprimer cet enregistrement ?</target>
+      </trans-unit>
+      <trans-unit id="label.confirm.delete_record.content">
+        <source>Are you sure you want to delete this record?</source>
+        <target state="translated">Êtes-vous sûr de vouloir supprimer cet enregistrement ?</target>
+      </trans-unit>
+      <trans-unit id="buttons.confirm.delete_elements.no">
+        <source>Cancel</source>
+        <target state="translated">Annuler</target>
+      </trans-unit>
+      <trans-unit id="buttons.confirm.delete_elements.yes">
+        <source>Yes, delete these elements</source>
+        <target state="translated">Oui, supprimer ces éléments</target>
+      </trans-unit>
+      <trans-unit id="buttons.reviewFailedValidationFields">
+        <source>Review fields with failed validations</source>
+        <target state="translated">Vérifier les champs avec les validations échouées</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
