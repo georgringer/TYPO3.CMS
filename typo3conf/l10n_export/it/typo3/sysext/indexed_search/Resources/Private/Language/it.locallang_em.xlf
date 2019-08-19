@@ -3,26 +3,86 @@
   <file t3:id="1415814839" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="indexed_search" target-language="it">
     <header/>
     <body>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id="indexedsearch.config.pdftools">
+        <source>Path to PDF parsers: The indexer uses the applications 'pdftotext' and 'pdfinfo' for extracting content from PDF files. These applications must be installed in this path. Otherwise leave the field empty.</source>
+        <target state="translated">Percorso per i parser PDF: L'indicizzatore utilizza le applicazioni 'pdftotext' e 'pdfinfo' per l'estrazione di contenuti dai file PDF. Queste applicazioni devono essere installate in questo percorso. Altrimenti lasciare il campo vuoto.</target>
+      </trans-unit>
+      <trans-unit id="indexedsearch.config.pdf_mode">
+        <source>PDF parsing mode: Zero=whole file is indexed in one. Positive value indicates number of pages at a time, eg. "5" would mean 1-5,6-10,.... Negative integer would indicate (abs value) number of groups. Eg "3" groups of 10 pages would be 1-4,5-8,9-10. Range is -100 to 100.</source>
+        <target state="translated">Modalità di analisi PDF: Zero=entire file è indicizzato in uno. Il valore positivo indica il numero di pagine alla volta, es. "5" significherebbe 1-5,6-10,.... Un intero negativo indica (valore contorno) il numero di gruppi. Es "3" gruppi di 10 pagine sarebbe 1-4,5-8,9-10. Il raggio è -100-100.</target>
+      </trans-unit>
+      <trans-unit id="indexedsearch.config.unzip">
+        <source>Path to unzip: The indexer uses "unzip" to extract the contents from OpenOffice.org/Oasis OpenDocument files. The application must be installed in this path. Otherwise leave the field empty.</source>
+        <target state="translated">Percorso per decomprimere: L'indexer usa "unzip" per estrarre il contenuto da OpenOffice.org/Oasis OpenDocument file. L'applicazione deve essere installata in questo percorso. Altrimenti lasciare il campo vuoto.</target>
+      </trans-unit>
+      <trans-unit id="indexedsearch.config.catdoc">
+        <source>Path to WORD parser: The indexer uses the application 'catdoc' for extracting content from WORD files. The application must be installed in this path. Otherwise leave the field empty.</source>
+        <target state="translated">Percorso del parser WORD: L'indicizzatore utilizza l'applicazione 'catdoc' per l'estrazione di contenuti dai file WORD. L'applicazione deve essere installata in questo percorso. Altrimenti lascia vuoto il campo.</target>
+      </trans-unit>
+      <trans-unit id="indexedsearch.config.xlhtml">
+        <source>Path to EXCEL parser: The indexer uses the application 'xlhtml' for extracting content from EXCEL files. The application must be installed in this path. Otherwise leave the field empty.</source>
+        <target state="translated">Percorso del parser EXCEL: L'indexer utilizza l'applicazione 'xlhtml' per estrarre contenuti dai file EXCEL. L'applicazione deve essere installata in questo percorso. Altrimenti lascia il campo vuoto.</target>
+      </trans-unit>
+      <trans-unit id="indexedsearch.config.ppthtml">
+        <source>Path to POWERPOINT parser: The indexer uses the application 'ppthtml' for extracting content from POWERPOINT files. The application must be installed in this path. Otherwise leave the field empty.</source>
+        <target state="translated">Percorso del parser POWERPOINT: L'indexer utilizza l'applicazione 'ppthtml' per l'estrazione di contenuti da file POWERPOINT. L'applicazione deve essere installata in questo percorso. Altrimenti lascia vuoto il campo.</target>
+      </trans-unit>
+      <trans-unit id="indexedsearch.config.unrtf">
+        <source>Path to RTF parser: The indexer uses the application 'unrtf' for extracting content from RTF files. The application must be installed in this path. Otherwise leave the field empty.</source>
+        <target state="translated">Percorso del parser RTF: L'indexer utilizza l'applicazione 'unrtf' per l'estrazione di contenuti dai file RTF. L'applicazione deve essere installata in questo percorso. Altrimenti lascia il campo vuoto.</target>
+      </trans-unit>
+      <trans-unit id="indexedsearch.config.debugMode">
+        <source>Debug mode: If set, debugging information is collected during indexing and can be shown in the backend. Only for debugging since it slows down the system and fills the database with crap.</source>
+        <target state="translated">Modalità debug: se impostato, le informazioni di debug vengono raccolte durante l'indicizzazione e possono essere mostrate nel backend. Solo per il debug, poiché rallenta il sistema e riempi il database con la crap.</target>
+      </trans-unit>
+      <trans-unit id="indexedsearch.config.fullTextDataLength">
+        <source>Full Text Data Length: If set, the full text data stored will be limited to this byte length. It means you can save some database space but to the degree you cut the length down you also limit possibilities to search for sentences and the search result resume will be limited.</source>
+        <target state="translated">Lunghezza completa dei dati di testo: se impostato, i dati di testo completi memorizzati saranno limitati a questa lunghezza del byte. Significa che è possibile salvare qualche spazio di database ma nella misura in cui si taglia la lunghezza in basso si limita anche la possibilità di cercare frasi e il risultato di ricerca verrà ripristinato.</target>
+      </trans-unit>
+      <trans-unit id="indexedsearch.config.disableFrontendIndexing">
+        <source>Disable Indexing in Frontend: By default pages are indexed during viewing of pages in the frontend. You can disable this features so indexing of pages is only initiated through the backend page crawler.</source>
+        <target state="translated">Disabilita l'indicizzazione nel Frontend: per le pagine predefinite sono indicizzate durante la visualizzazione delle pagine nel frontend. Puoi disabilitare queste funzionalità così l'indicizzazione delle pagine è avviata solo attraverso il crawler di pagina backend.</target>
+      </trans-unit>
+      <trans-unit id="indexedsearch.config.enableMetaphoneSearch">
+        <source>Enable metaphone search (sounds like): 0=disabled, 1=use internal metaphone parser, 2=use advanced doubleMetaphone parser.</source>
+        <target state="translated">Abilita ricerca metatelefono (suoni come): 0=disabilitato, 1=utilizzare parser metafono interno, 2=utilizzare il parser di doppioMetaphone avanzato.</target>
+      </trans-unit>
+      <trans-unit id="indexedsearch.config.minAge">
+        <source>Min TTL (hours) for indexed page: The time in hours that must pass before an indexed page can be indexed again regardless of changes on the page.</source>
+        <target state="translated">Min TTL (ore) per la pagina indicizzata: l'ora in ore che deve passare prima che una pagina indicizzata possa essere nuovamente indicizzata indipendentemente dalle modifiche della pagina.</target>
+      </trans-unit>
+      <trans-unit id="indexedsearch.config.maxAge">
+        <source>Deprecated! Max TTL (hours) for indexed page: The time in hours that is the maximum age of an indexed page before it will get indexed again. Usually the index is kept consistent, therefore you won't need this feature.</source>
+        <target state="translated">Deprecato! Il TTL massimo (ore) per la pagina indicizzata: l'orario in ore è l'età massima di una pagina indicizzata prima che venga nuovamente indicizzato. Di solito l'indice è tenuto coerente, quindi non avrai bisogno di questa funzione.</target>
+      </trans-unit>
+      <trans-unit id="indexedsearch.config.maxExternalFiles">
+        <source>Max external files to index: When external files are found on a page this number indicates how many may be indexed at that point. This prevents pages with links to many external documents to take the server down - but it may also prevent documents from being indexed.</source>
+        <target state="translated">Massimo numero di file esterni da indicizzare: quando i file esterni vengono trovati in una pagina questo numero indica quanti possono essere indicizzati a quel punto. Questo impedisce alle pagine con link a molti documenti esterni di scaricare il server - ma potrebbe anche impedire che i documenti siano indicizzati.</target>
+      </trans-unit>
+      <trans-unit id="indexedsearch.config.useCrawlerForExternalFiles">
+        <source>Use "crawler" extension to index external files: When external files are found on a page they are added to the "crawler" extensions queue and indexed via the cronscript running the crawler. This eliminates problems with for example many PDF files on a page. Requires a proper configuration of the "crawler" extension.</source>
+        <target state="translated">Usa l'estensione "crawler" per indicizzare i file esterni: quando i file esterni vengono trovati su una pagina vengono aggiunti alla coda delle estensioni "crawler" e indicizzati tramite il cronscript che esegue il crawler. Questo elimina problemi con ad esempio molti file PDF su una pagina. Richiede una configurazione corretta dell'estensione "crawler".</target>
+      </trans-unit>
+      <trans-unit id="indexedsearch.config.flagBitMask">
+        <source>Bitmask for Flags (Advanced): By this value (0-255) you can filter the importance of &lt;title&gt; (128), &lt;keywords&gt; (64) and &lt;description&gt; (32) content from HTML documents. By setting this to 0, none of these fields will have any importance over the other. The default value 192 means that title-tag content and meta-keywords will be flagged (and rated higher in search results)</source>
+        <target state="translated">Bitmask per le bandiere (Avanzate): Con questo valore (0-255) puoi filtrare l'importanza di &lt;title&gt; (128), &lt;keywords&gt; (64) e &lt;description&gt; (32) contenuti dei documenti HTML. Impostando questo a 0, nessuno di questi campi avrà importanza sull'altro. Il valore predefinito 192 significa che il contenuto del titolo-tag e le meta-parole chiave saranno contrassegnati (e classificati più in alto nei risultati di ricerca)</target>
+      </trans-unit>
+      <trans-unit id="indexedsearch.config.ignoreExtensions">
+        <source>Ignore Extensions: List of file extensions that the external parser will ignore (despite having support for them). Comma list.</source>
+        <target state="translated">Ignora le estensioni: Lista delle estensioni di file che il parser esterno ignorerà (nonostante abbia supporto per loro). Lista di virgole.</target>
+      </trans-unit>
+      <trans-unit id="indexedsearch.config.indexExternalURLs">
+        <source>Index External HTML URLs: If set, links to external URLs will be indexed if they are of type "text/html".</source>
+        <target state="translated">Indice URL HTML esterno: se impostato, i link agli URL esterni saranno indicizzati se sono di tipo "text/html".</target>
+      </trans-unit>
+      <trans-unit id="indexedsearch.config.useMysqlFulltext">
+        <source>Use MySQL specific fulltext search - Update database schema in install tool after toggling this flag</source>
+        <target state="translated">Usa la ricerca completa specifica di MySQL - Aggiorna lo schema del database nello strumento di installazione dopo aver attivato questa bandiera</target>
+      </trans-unit>
+      <trans-unit id="indexedsearch.config.trackIpInStatistic">
+        <source>Define the privacy level of the logged IP: 0 for no mask which means no privacy, 1 for masking the host and 2 for masking host and subnet (full privacy)</source>
+        <target state="translated">Definisci il livello di privacy dell'IP registrato: 0 per nessuna maschera che non significa privacy, 1 per mascherare l'host e 2 per mascherare host e sottorete (privacy completa)</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
