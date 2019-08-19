@@ -3,8 +3,56 @@
   <file t3:id="1415814999" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="t3editor" target-language="fr">
     <header/>
     <body>
+      <trans-unit id="deactivate">
+        <source>Deactivate t3editor</source>
+        <target state="translated">Désactiver t3editor</target>
+      </trans-unit>
+      <trans-unit id="template">
+        <source>Template</source>
+        <target state="translated">Modèle</target>
+      </trans-unit>
+      <trans-unit id="file">
+        <source>File</source>
+        <target state="translated">Fichier</target>
+      </trans-unit>
       <trans-unit id="delimiter">
         <source/>
+      </trans-unit>
+      <trans-unit id="constants">
+        <source>Constants</source>
+        <target state="translated">Constantes</target>
+      </trans-unit>
+      <trans-unit id="setup">
+        <source>Setup</source>
+        <target state="translated">Configuration</target>
+      </trans-unit>
+      <trans-unit id="unknownContentType">
+        <source>Unknown content type</source>
+        <target state="translated">Type de contenu inconnu</target>
+      </trans-unit>
+      <trans-unit id="pageIDInteger">
+        <source>Syntax error: Parameter pageID must be a valid integer.</source>
+        <target state="translated">Erreur de syntaxe : Le paramètre pageID doit être un entier valide.</target>
+      </trans-unit>
+      <trans-unit id="noPermission">
+        <source>Access denied: No permission to template records.</source>
+        <target state="translated">Accès refusé : Aucune autorisation pour les enregistrements de modèle.</target>
+      </trans-unit>
+      <trans-unit id="typeIDMissing">
+        <source>Syntax error: At least parameter typeID has to be supplied.</source>
+        <target state="translated">Erreur de syntaxe : au moins le paramètre typeID doit être fourni.</target>
+      </trans-unit>
+      <trans-unit id="js.label_lines">
+        <source>lines</source>
+        <target state="translated">lignes</target>
+      </trans-unit>
+      <trans-unit id="js.label_documentModified">
+        <source>document has been modified</source>
+        <target state="translated">document a été modifié</target>
+      </trans-unit>
+      <trans-unit id="js.label_errorWhileSaving">
+        <source>An error occurred while saving the data.</source>
+        <target state="translated">Une erreur s'est produite lors de la sauvegarde des données.</target>
       </trans-unit>
     </body>
   </file>
