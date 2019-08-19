@@ -3,29 +3,98 @@
   <file t3:id="1435679883" source-language="en" datatype="plaintext" original="messages" date="2015-06-30T15:55:11Z" product-name="" target-language="fr">
     <header/>
     <body>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id="tx_extensionmanager_domain_model_extension">
+        <source>Extension</source>
+        <target state="translated">Extension</target>
+      </trans-unit>
+      <trans-unit id="tx_extensionmanager_domain_model_extension.extensionkey">
+        <source>Extension Key</source>
+        <target state="translated">Clé d'extension</target>
+      </trans-unit>
+      <trans-unit id="tx_extensionmanager_domain_model_extension.version">
+        <source>Version</source>
+        <target state="translated">Version</target>
+      </trans-unit>
+      <trans-unit id="tx_extensionmanager_domain_model_extension.title">
+        <source>Title</source>
+        <target state="translated">Titre</target>
+      </trans-unit>
+      <trans-unit id="tx_extensionmanager_domain_model_extension.description">
+        <source>Description</source>
+        <target state="translated">Description</target>
+      </trans-unit>
+      <trans-unit id="tx_extensionmanager_domain_model_extension.state">
+        <source>State</source>
+        <target state="translated">Etat</target>
+      </trans-unit>
+      <trans-unit id="tx_extensionmanager_domain_model_extension.category">
+        <source>Category</source>
+        <target state="translated">Catégorie</target>
+      </trans-unit>
+      <trans-unit id="tx_extensionmanager_domain_model_extension.lastupdated">
+        <source>Last Updated</source>
+        <target state="translated">Dernière mise à jour</target>
+      </trans-unit>
+      <trans-unit id="tx_extensionmanager_domain_model_extension.updatecomment">
+        <source>Update Comment</source>
+        <target state="translated">Mise à jour du commentaire</target>
+      </trans-unit>
+      <trans-unit id="tx_extensionmanager_domain_model_extension.authorname">
+        <source>Author Name</source>
+        <target state="translated">Nom de l'auteur</target>
+      </trans-unit>
+      <trans-unit id="tx_extensionmanager_domain_model_extension.authoremail">
+        <source>Author Email</source>
+        <target state="translated">Email de l'auteur</target>
+      </trans-unit>
+      <trans-unit id="tx_extensionmanager_domain_model_extension.md5hash">
+        <source>Md5 hash</source>
+        <target state="translated">hash Md5</target>
+      </trans-unit>
+      <trans-unit id="tx_extensionmanager_domain_model_extension.reviewstate">
+        <source>Review State</source>
+        <target state="translated">État de révision</target>
+      </trans-unit>
+      <trans-unit id="tx_extensionmanager_domain_model_extension.integerversion">
+        <source>Integer Version</source>
+        <target state="translated">Version entière</target>
+      </trans-unit>
+      <trans-unit id="tx_extensionmanager_domain_model_extension.currentversion">
+        <source>Current Version</source>
+        <target state="translated">Version actuelle</target>
+      </trans-unit>
+      <trans-unit id="tx_extensionmanager_domain_model_extension.serializedDependencies">
+        <source>Serialized dependencies</source>
+        <target state="translated">Dépendances sérialisées</target>
+      </trans-unit>
+      <trans-unit id="tx_extensionmanager_domain_model_repository">
+        <source>Repository</source>
+        <target state="translated">Dépôt</target>
+      </trans-unit>
+      <trans-unit id="tx_extensionmanager_domain_model_repository.title">
+        <source>Title</source>
+        <target state="translated">Titre</target>
+      </trans-unit>
+      <trans-unit id="tx_extensionmanager_domain_model_repository.description">
+        <source>Description</source>
+        <target state="translated">Description</target>
+      </trans-unit>
+      <trans-unit id="tx_extensionmanager_domain_model_repository.wsdlUrl">
+        <source>WSDL URL</source>
+        <target state="translated">URL WSDL</target>
+      </trans-unit>
+      <trans-unit id="tx_extensionmanager_domain_model_repository.mirrorListUrl">
+        <source>Mirror list URL</source>
+        <target state="translated">URL de liste miroir</target>
+      </trans-unit>
+      <trans-unit id="tx_extensionmanager_domain_model_repository.lastUpdate">
+        <source>Last update</source>
+        <target state="translated">Dernière mise à jour</target>
+      </trans-unit>
+      <trans-unit id="tx_extensionmanager_domain_model_repository.extensionCount">
+        <source>Extension count</source>
+        <target state="translated">Nombre d'extensions</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
