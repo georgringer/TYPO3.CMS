@@ -3,14 +3,38 @@
   <file t3:id="1415814823" source-language="en" datatype="plaintext" original="messages" date="2012-03-30T23:43:57Z" product-name="fluid" target-language="it">
     <header/>
     <body>
-			
-			
-			
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id="widget.pagination.previous">
+        <source>previous</source>
+        <target state="translated">precedente</target>
+      </trans-unit>
+      <trans-unit id="widget.pagination.next">
+        <source>next</source>
+        <target state="translated">prossimo</target>
+      </trans-unit>
+      <trans-unit id="widget.pagination.first">
+        <source>first</source>
+        <target state="translated">prima</target>
+      </trans-unit>
+      <trans-unit id="widget.pagination.last">
+        <source>last</source>
+        <target state="translated">ultimo</target>
+      </trans-unit>
+      <trans-unit id="widget.pagination.records">
+        <source>Records</source>
+        <target state="translated">Record</target>
+      </trans-unit>
+      <trans-unit id="widget.pagination.page">
+        <source>Page</source>
+        <target state="translated">Pagina</target>
+      </trans-unit>
+      <trans-unit id="widget.pagination.refresh">
+        <source>Refresh</source>
+        <target state="translated">Aggiorna</target>
+      </trans-unit>
+      <trans-unit id="viewhelper.format.bytes.units">
+        <source>B,KB,MB,GB,TB,PB,EB,ZB,YB</source>
+        <target state="translated">B,KB,MB,GB,TB,PB,EB,ZB,YB</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
