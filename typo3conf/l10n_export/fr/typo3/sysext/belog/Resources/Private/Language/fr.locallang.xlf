@@ -3,9 +3,517 @@
   <file t3:id="1415814781" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="belog" target-language="fr">
     <header/>
     <body>
+      <trans-unit id="adminLog">
+        <source>Administration log</source>
+        <target state="translated">Journal d'administration</target>
+      </trans-unit>
+      <trans-unit id="allUsers">
+        <source>[All users]</source>
+        <target state="translated">[Tous les utilisateurs]</target>
+      </trans-unit>
+      <trans-unit id="any">
+        <source>[Any]</source>
+        <target state="translated">[Any]</target>
+      </trans-unit>
+      <trans-unit id="viaUser">
+        <source>via</source>
+        <target state="translated">via</target>
+      </trans-unit>
+      <trans-unit id="live">
+        <source>LIVE</source>
+        <target state="translated">LIVE</target>
+      </trans-unit>
+      <trans-unit id="draft">
+        <source>Draft</source>
+        <target state="translated">Brouillon</target>
+      </trans-unit>
+      <trans-unit id="self">
+        <source>Self</source>
+        <target state="translated">Auto</target>
+      </trans-unit>
+      <trans-unit id="userGroup">
+        <source>Group</source>
+        <target state="translated">Groupe</target>
+      </trans-unit>
+      <trans-unit id="thisWeek">
+        <source>This week</source>
+        <target state="translated">Cette semaine</target>
+      </trans-unit>
+      <trans-unit id="lastWeek">
+        <source>Last week</source>
+        <target state="translated">La semaine dernière</target>
+      </trans-unit>
+      <trans-unit id="last7Days">
+        <source>Last 7 days</source>
+        <target state="translated">7 derniers jours</target>
+      </trans-unit>
+      <trans-unit id="thisMonth">
+        <source>This month</source>
+        <target state="translated">Ce mois-ci</target>
+      </trans-unit>
+      <trans-unit id="lastMonth">
+        <source>Last month</source>
+        <target state="translated">Le mois dernier</target>
+      </trans-unit>
+      <trans-unit id="last31Days">
+        <source>Last 31 days</source>
+        <target state="translated">31 derniers jours</target>
+      </trans-unit>
+      <trans-unit id="noLimit">
+        <source>No limit</source>
+        <target state="translated">Pas de limite</target>
+      </trans-unit>
+      <trans-unit id="userDefined">
+        <source>User defined</source>
+        <target state="translated">Utilisateur défini</target>
+      </trans-unit>
+      <trans-unit id="set">
+        <source>Set</source>
+        <target state="translated">Définir</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>20</source>
+        <target state="translated">20</target>
+      </trans-unit>
+      <trans-unit id="50">
+        <source>50</source>
+        <target state="translated">50</target>
+      </trans-unit>
+      <trans-unit id="100">
+        <source>100</source>
+        <target state="translated">100</target>
+      </trans-unit>
+      <trans-unit id="200">
+        <source>200</source>
+        <target state="translated">200</target>
+      </trans-unit>
+      <trans-unit id="500">
+        <source>500</source>
+        <target state="translated">500</target>
+      </trans-unit>
+      <trans-unit id="1000">
+        <source>1000</source>
+        <target state="translated">1000</target>
+      </trans-unit>
+      <trans-unit id="actionAll">
+        <source>All</source>
+        <target state="translated">Tous</target>
+      </trans-unit>
+      <trans-unit id="actionDatabase">
+        <source>Database</source>
+        <target state="translated">Base de données</target>
+      </trans-unit>
+      <trans-unit id="actionFile">
+        <source>File</source>
+        <target state="translated">Fichier</target>
+      </trans-unit>
+      <trans-unit id="actionCache">
+        <source>Cache</source>
+        <target state="translated">Cache</target>
+      </trans-unit>
+      <trans-unit id="actionSettings">
+        <source>Settings</source>
+        <target state="translated">Paramètres</target>
+      </trans-unit>
+      <trans-unit id="actionLogin">
+        <source>Login</source>
+        <target state="translated">Connexion</target>
+      </trans-unit>
+      <trans-unit id="actionErrors">
+        <source>Errors</source>
+        <target state="translated">Erreurs</target>
+      </trans-unit>
+      <trans-unit id="group">
+        <source>Group</source>
+        <target state="translated">Groupe</target>
+      </trans-unit>
+      <trans-unit id="user">
+        <source>User</source>
+        <target state="translated">Utilisateur</target>
+      </trans-unit>
+      <trans-unit id="users">
+        <source>Users</source>
+        <target state="translated">Utilisateurs</target>
+      </trans-unit>
+      <trans-unit id="time">
+        <source>Time</source>
+        <target state="translated">Heure</target>
+      </trans-unit>
+      <trans-unit id="max">
+        <source>Max</source>
+        <target state="translated">Max</target>
+      </trans-unit>
+      <trans-unit id="changesInFields">
+        <source>Changes in fields: %s.</source>
+        <target state="translated">Modifications dans les champs : %s.</target>
+      </trans-unit>
+      <trans-unit id="showHistory">
+        <source>Show History</source>
+        <target state="translated">Afficher l'historique</target>
+      </trans-unit>
+      <trans-unit id="action">
+        <source>Action</source>
+        <target state="translated">Action</target>
+      </trans-unit>
+      <trans-unit id="workspace">
+        <source>Workspace</source>
+        <target state="translated">Espace de travail</target>
+      </trans-unit>
+      <trans-unit id="groupByPage">
+        <source>Group by page</source>
+        <target state="translated">Grouper par page</target>
+      </trans-unit>
+      <trans-unit id="pagenameWithUID">
+        <source>%s" [UID: %s]</source>
+        <target state="translated">%s" [UID : %s]</target>
+      </trans-unit>
+      <trans-unit id="overview">
+        <source>Overview</source>
+        <target state="translated">Aperçu</target>
+      </trans-unit>
+      <trans-unit id="timeInfo">
+        <source>These pages have log messages from %s to %s</source>
+        <target state="translated">Ces pages ont des messages de log de %s à %s</target>
+      </trans-unit>
+      <trans-unit id="forNonPageRelatedActions">
+        <source>for NON-PAGE related actions</source>
+        <target state="translated">pour les actions liées au NON-PAGE</target>
+      </trans-unit>
+      <trans-unit id="forRootLevel">
+        <source>for ROOT LEVEL</source>
+        <target state="translated">pour ROOT LEVEL</target>
+      </trans-unit>
+      <trans-unit id="forPage">
+        <source>for PAGE "%s" (UID: %s)</source>
+        <target state="translated">pour PAGE "%s" (UID : %s)</target>
+      </trans-unit>
+      <trans-unit id="logForNonPageRelatedActionsOrRootLevelOrPage">
+        <source>Log %s from %s to %s</source>
+        <target state="translated">Log %s de %s à %s</target>
+      </trans-unit>
+      <trans-unit id="type_1">
+        <source>DB</source>
+        <target state="translated">DB</target>
+      </trans-unit>
+      <trans-unit id="action_1_1">
+        <source>Insert</source>
+        <target state="translated">Insérer</target>
+      </trans-unit>
+      <trans-unit id="action_1_2">
+        <source>Update</source>
+        <target state="translated">Mise à jour</target>
+      </trans-unit>
+      <trans-unit id="action_1_3">
+        <source>Delete</source>
+        <target state="translated">Supprimer</target>
+      </trans-unit>
+      <trans-unit id="action_1_4">
+        <source>Move</source>
+        <target state="translated">Déplacer</target>
+      </trans-unit>
+      <trans-unit id="action_1_5">
+        <source>Check</source>
+        <target state="translated">Vérifier</target>
+      </trans-unit>
+      <trans-unit id="msg_1_0_1">
+        <source>Referer host '%s' and server host '%s' did not match!</source>
+        <target state="translated">L'hôte de référencement '%s' et l'hôte du serveur '%s' ne correspondent pas!</target>
+      </trans-unit>
+      <trans-unit id="msg_1_1_11">
+        <source>Attempt to insert record on page '%s' (%s) where this table, %s, is not allowed</source>
+        <target state="translated">Tentative d'insertion d'enregistrement sur la page '%s' (%s) où cette table, %s, n'est pas autorisée</target>
+      </trans-unit>
+      <trans-unit id="msg_1_1_12">
+        <source>Attempt to insert a record on page '%s' (%s) from table '%s' without permissions. Or non-existing page.</source>
+        <target state="translated">Tentative d'insérer un enregistrement sur la page '%s' (%s) de la table '%s' sans permissions. Ou page non existante.</target>
+      </trans-unit>
+      <trans-unit id="msg_1_2_1">
+        <source>Attempt to modify table '%s' without permission</source>
+        <target state="translated">Tentative de modification de la table '%s' sans permission</target>
+      </trans-unit>
+      <trans-unit id="msg_1_2_2">
+        <source>Attempt to modify record '%s' (%s) without permission. Or non-existing page.</source>
+        <target state="translated">Tentative de modification de l'enregistrement '%s' (%s) sans autorisation. Ou page non existante.</target>
+      </trans-unit>
+      <trans-unit id="msg_1_2_10">
+        <source>Record '%s' (%s) was updated.</source>
+        <target state="translated">L'enregistrement '%s' (%s) a été mis à jour.</target>
+      </trans-unit>
+      <trans-unit id="msg_1_2_12">
+        <source>MySQL error: '%s' (%s)</source>
+        <target state="translated">Erreur MySQL : '%s' (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_1">
+        <source>Attempt to move record '%s' (%s) to after a non-existing record (uid=%s)</source>
+        <target state="translated">Tentative de déplacer l'enregistrement '%s' (%s) après un enregistrement non existant (uid=%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_2">
+        <source>Moved record '%s' (%s) to page '%s' (%s)</source>
+        <target state="translated">Enregistrement déplacé '%s' (%s) à la page '%s' (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_3">
+        <source>Moved record '%s' (%s) from page '%s' (%s)</source>
+        <target state="translated">Enregistrement déplacé '%s' (%s) de la page '%s' (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_4">
+        <source>Moved record '%s' (%s) on page '%s' (%s)</source>
+        <target state="translated">Enregistrement déplacé '%s' (%s) sur la page '%s' (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_10">
+        <source>Attempt to move page '%s' (%s) to inside of its own rootline (at page '%s' (%s))</source>
+        <target state="translated">Tentative de déplacer la page '%s' (%s) à l'intérieur de sa propre ligne rootline (à la page '%s' (%s))</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_11">
+        <source>Attempt to insert record on page '%s' (%s) where this table, %s, is not allowed</source>
+        <target state="translated">Tentative d'insertion d'enregistrement sur la page '%s' (%s) où cette table, %s, n'est pas autorisée</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_12">
+        <source>Attempt to insert a record on page '%s' (%s) from table '%s' without permissions. Or non-existing page.</source>
+        <target state="translated">Tentative d'insérer un enregistrement sur la page '%s' (%s) de la table '%s' sans permissions. Ou page non existante.</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_13">
+        <source>Attempt to move record '%s' (%s) to after another record, although the table has no sorting row.</source>
+        <target state="translated">Tentative de déplacer l'enregistrement '%s' (%s) à la suite d'un autre enregistrement, bien que la table n'ait pas de ligne de tri.</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_14">
+        <source>Attempt to move record '%s' (%s) without having permissions to do so</source>
+        <target state="translated">Tentative de déplacer l'enregistrement '%s' (%s) sans avoir les permissions pour le faire</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_1">
+        <source>You cannot change the 'doktype' of page '%s' to the desired value.</source>
+        <target state="translated">Vous ne pouvez pas modifier le 'doktype' de la page '%s' à la valeur désirée.</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_2">
+        <source>'doktype' of page '%s' could not be changed because the page contains records from disallowed tables; %s</source>
+        <target state="translated">'doktype' de la page '%s' n'a pas pu être modifié car la page contient des enregistrements provenant de tables non autorisées; %s</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_3">
+        <source>Too few items in the list of values. (%s)</source>
+        <target state="translated">Trop peu d'éléments dans la liste des valeurs. (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_10">
+        <source>Could not delete file '%s' (does not exist). (%s)</source>
+        <target state="translated">Impossible de supprimer le fichier '%s' (n'existe pas). (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_11">
+        <source>Copying file '%s' failed!: No destination file (%s) possible!. (%s)</source>
+        <target state="translated">La copie du fichier '%s' a échoué !: aucun fichier de destination (%s) n'est possible !. (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_12">
+        <source>File extension '%s' is not allowed. (%s)</source>
+        <target state="translated">L'extension de fichier '%s' n'est pas autorisée. (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_13">
+        <source>File size (%s) of file '%s' exceeds limit (%s). (%s)</source>
+        <target state="translated">Taille du fichier (%s) du fichier '%s' dépasse la limite (%s). (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_14">
+        <source>The destination (%s) or the source file (%s) does not exist. (%s)</source>
+        <target state="translated">La destination (%s) ou le fichier source (%s) n'existe pas. (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_15">
+        <source>Copying to file '%s' failed! (%s)</source>
+        <target state="translated">Echec de la copie au fichier '%s' de '%s'</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_16">
+        <source>Copying file '%s' failed!: The destination path (%s) may be write protected. Please make it write enabled!. (%s)</source>
+        <target state="translated">La copie du fichier '%s' a échoué !: le chemin de destination (%s) peut être protégé. Veuillez le faire activer !(%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_4">
+        <source>The value of the field "%s" has been changed from "%s" to "%s" as it is required to be unique.</source>
+        <target state="translated">La valeur du champ "%s" a été changée de "%s" à "%s" car il est nécessaire d'être unique.</target>
+      </trans-unit>
+      <trans-unit id="type_2">
+        <source>FILE</source>
+        <target state="translated">FIL</target>
+      </trans-unit>
+      <trans-unit id="action_2_1">
+        <source>Upload</source>
+        <target state="translated">Envoyer</target>
+      </trans-unit>
+      <trans-unit id="action_2_2">
+        <source>Copy</source>
+        <target state="translated">Copier</target>
+      </trans-unit>
+      <trans-unit id="action_2_3">
+        <source>Move</source>
+        <target state="translated">Déplacer</target>
+      </trans-unit>
+      <trans-unit id="action_2_4">
+        <source>Delete</source>
+        <target state="translated">Supprimer</target>
+      </trans-unit>
+      <trans-unit id="action_2_5">
+        <source>Rename</source>
+        <target state="translated">Renommer</target>
+      </trans-unit>
+      <trans-unit id="action_2_6">
+        <source>New</source>
+        <target state="translated">Nouveau</target>
+      </trans-unit>
+      <trans-unit id="action_2_7">
+        <source>Unzip</source>
+        <target state="translated">Décompresser</target>
+      </trans-unit>
+      <trans-unit id="action_2_8">
+        <source>New file</source>
+        <target state="translated">Nouveau fichier</target>
+      </trans-unit>
+      <trans-unit id="action_2_9">
+        <source>Edit</source>
+        <target state="translated">Editer</target>
+      </trans-unit>
       <trans-unit id="msg_2_9_1">
         <source>File saved to '%s', bytes: %s, MD5: %s </source>
-        <target state="needs-translation"> </target>
+        <target state="translated">Fichier sauvegardé dans '%s', octets : %s, MD5 : %s </target>
+      </trans-unit>
+      <trans-unit id="type_3">
+        <source>CACHE</source>
+        <target state="translated">CACHE</target>
+      </trans-unit>
+      <trans-unit id="action_3_1">
+        <source>Clear Cache</source>
+        <target state="translated">Vider le cache</target>
+      </trans-unit>
+      <trans-unit id="type_4">
+        <source>EXTENSION</source>
+        <target state="translated">EXTENSION</target>
+      </trans-unit>
+      <trans-unit id="type_5">
+        <source>ERROR</source>
+        <target state="translated">ERREUR</target>
+      </trans-unit>
+      <trans-unit id="action_5_0">
+        <source>Error handler</source>
+        <target state="translated">Gestionnaire d'erreurs</target>
+      </trans-unit>
+      <trans-unit id="type_254">
+        <source>SETTING</source>
+        <target state="translated">PARAMÈTRES</target>
+      </trans-unit>
+      <trans-unit id="action_254_1">
+        <source>Change</source>
+        <target state="translated">Changer</target>
+      </trans-unit>
+      <trans-unit id="type_255">
+        <source>LOGIN</source>
+        <target state="translated">LOGIN</target>
+      </trans-unit>
+      <trans-unit id="action_255_1">
+        <source>LOGIN</source>
+        <target state="translated">LOGIN</target>
+      </trans-unit>
+      <trans-unit id="action_255_2">
+        <source>LOGOUT</source>
+        <target state="translated">LOGOUT</target>
+      </trans-unit>
+      <trans-unit id="action_255_3">
+        <source>ATTEMPT</source>
+        <target state="translated">ATTEMPT</target>
+      </trans-unit>
+      <trans-unit id="chLog_title">
+        <source>Admin Changelog</source>
+        <target state="translated">Changelog Admin</target>
+      </trans-unit>
+      <trans-unit id="chLog_users_0">
+        <source>All users</source>
+        <target state="translated">Tous les utilisateurs</target>
+      </trans-unit>
+      <trans-unit id="chLog_users_-1">
+        <source>Self</source>
+        <target state="translated">Auto</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_0">
+        <source>This week</source>
+        <target state="translated">Cette semaine</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_1">
+        <source>Last week</source>
+        <target state="translated">La semaine dernière</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_2">
+        <source>Last 7 days</source>
+        <target state="translated">7 derniers jours</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_10">
+        <source>This month</source>
+        <target state="translated">Ce mois-ci</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_11">
+        <source>Last month</source>
+        <target state="translated">Le mois dernier</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_12">
+        <source>Last 31 days</source>
+        <target state="translated">31 derniers jours</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_20">
+        <source>No limit</source>
+        <target state="translated">Pas de limite</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_time">
+        <source>Time</source>
+        <target state="translated">Heure</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_user">
+        <source>User</source>
+        <target state="translated">Utilisateur</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_error">
+        <source>E</source>
+        <target state="translated">F</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_action">
+        <source>Action</source>
+        <target state="translated">Action</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_types">
+        <source>Type</source>
+        <target state="translated">Type</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_table">
+        <source>Table</source>
+        <target state="translated">Table</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_details">
+        <source>Details</source>
+        <target state="translated">Détails</target>
+      </trans-unit>
+      <trans-unit id="chLog_menuUsers">
+        <source>Users</source>
+        <target state="translated">Utilisateurs</target>
+      </trans-unit>
+      <trans-unit id="chLog_menuDepth">
+        <source>Depth</source>
+        <target state="translated">Profondeur</target>
+      </trans-unit>
+      <trans-unit id="chLog_menuTime">
+        <source>Time</source>
+        <target state="translated">Heure</target>
+      </trans-unit>
+      <trans-unit id="systemmessage.errorsInPeriod">
+        <source><![CDATA[We have found %1$d errors. Please check your <a href="%2$s">system log</a>.]]></source>
+        <target state="translated"><![CDATA[Nous avons trouvé %1$d erreurs. Veuillez vérifier votre journal système <a href="%2$s"></a>.]]></target>
+      </trans-unit>
+      <trans-unit id="actions">
+        <source>Actions</source>
+        <target state="translated">Actions</target>
+      </trans-unit>
+      <trans-unit id="actions.delete">
+        <source>Delete similar errors</source>
+        <target state="translated">Supprimer des erreurs similaires</target>
+      </trans-unit>
+      <trans-unit id="actions.deleteWarnings">
+        <source>Delete similar warnings</source>
+        <target state="translated">Supprimer les avertissements similaires</target>
+      </trans-unit>
+      <trans-unit id="actions.delete.message">
+        <source>Total entries deleted: %1$d</source>
+        <target state="translated">Total des entrées supprimées : %1$d</target>
+      </trans-unit>
+      <trans-unit id="actions.delete.noRowFound">
+        <source>Log entry could not be found.</source>
+        <target state="translated">L'entrée du journal n'a pas pu être trouvée.</target>
       </trans-unit>
     </body>
   </file>
