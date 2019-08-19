@@ -5,27 +5,27 @@
     <body>
       <trans-unit id="hook_empty_directory">
         <source>RSA temporary directory is empty. This is a security risk. Please, go to the Extension Manager, select the "RSA authentication" extension and set the directory according to instructions there.</source>
-        <target state="needs-translation">RSA temporary directory is empty. This is a security risk. Please, go to the Extension Manager, select the "RSA authentication" extension and set the directory according to instructions there.</target>
+        <target state="translated">RSA temporäres Verzeichnis ist leer. Dies ist ein Sicherheitsrisiko. Bitte gehen Sie zum Extension Manager, wählen Sie die "RSA Authentifizierung" Erweiterung und setzen Sie das Verzeichnis entsprechend den Anweisungen dort.</target>
       </trans-unit>
       <trans-unit id="hook_directory_not_absolute">
         <source>RSA temporary directory path is not absolute. This may cause RSA authentication errors and it is a security risk. Please, go to the Extension Manager, select the "RSA authentication" extension and set the directory according to instructions there.</source>
-        <target state="needs-translation">RSA temporary directory path is not absolute. This may cause RSA authentication errors and it is a security risk. Please, go to the Extension Manager, select the "RSA authentication" extension and set the directory according to instructions there.</target>
+        <target state="translated">RSA temporärer Verzeichnispfad ist nicht absolut. Dies kann RSA-Authentifizierungsfehler verursachen und ist ein Sicherheitsrisiko. Bitte gehen Sie zum Extension Manager, wählen Sie die "RSA-Authentifizierung" Erweiterung und setzen Sie das Verzeichnis entsprechend den Anweisungen dort.</target>
       </trans-unit>
       <trans-unit id="hook_directory_not_exist">
         <source>RSA temporary directory does not exist. This is a security risk because an insecure directory will be used for RSA operations. Please, go to the Extension Manager, select the "RSA authentication" extension and set the directory according to instructions there.</source>
-        <target state="needs-translation">RSA temporary directory does not exist. This is a security risk because an insecure directory will be used for RSA operations. Please, go to the Extension Manager, select the "RSA authentication" extension and set the directory according to instructions there.</target>
+        <target state="translated">RSA temporäres Verzeichnis existiert nicht. Dies ist ein Sicherheitsrisiko, da ein unsicheres Verzeichnis für RSA-Operationen verwendet wird. Bitte gehen Sie zum Extension Manager, wählen Sie die "RSA-Authentifizierung" Erweiterung und setzen Sie das Verzeichnis entsprechend den Anweisungen dort.</target>
       </trans-unit>
       <trans-unit id="hook_directory_not_writable">
         <source>RSA temporary directory is not writable. This may cause RSA authentication errors and it is a security risk. Please, go to the Extension Manager, select the "RSA authentication" extension and set the directory according to instructions there.</source>
-        <target state="needs-translation">RSA temporary directory is not writable. This may cause RSA authentication errors and it is a security risk. Please, go to the Extension Manager, select the "RSA authentication" extension and set the directory according to instructions there.</target>
+        <target state="translated">RSA temporäres Verzeichnis ist nicht beschreibbar. Dies kann RSA-Authentifizierungsfehler verursachen und ist ein Sicherheitsrisiko. Bitte gehen Sie zum Extension Manager, wählen Sie die "RSA-Authentifizierung" Erweiterung und setzen Sie das Verzeichnis entsprechend den Anweisungen dort.</target>
       </trans-unit>
       <trans-unit id="hook_directory_inside_siteroot">
         <source>RSA temporary directory is inside the web site root directory. This is a security risk. Please, go to the Extension Manager, select the "RSA authentication" extension and set the directory according to instructions there.</source>
-        <target state="needs-translation">RSA temporary directory is inside the web site root directory. This is a security risk. Please, go to the Extension Manager, select the "RSA authentication" extension and set the directory according to instructions there.</target>
+        <target state="translated">RSA temporäres Verzeichnis befindet sich im Verzeichnis der Website-Root. Dies ist ein Sicherheitsrisiko. Bitte gehen Sie zum Extension Manager, wählen Sie die "RSA Authentifizierung" Erweiterung und setzen Sie das Verzeichnis entsprechend den Anweisungen dort.</target>
       </trans-unit>
       <trans-unit id="hook_using_cmdline">
         <source>RSA authentication could not detect the openssl PHP extension. Currently RSA authentication uses a command line openssl utility. This is slower and less secure. Please, consider installing openssl PHP extension.</source>
-        <target state="needs-translation">RSA authentication could not detect the openssl PHP extension. Currently RSA authentication uses a command line openssl utility. This is slower and less secure. Please, consider installing openssl PHP extension.</target>
+        <target state="translated">RSA-Authentifizierung konnte die Openssl-PHP-Erweiterung nicht erkennen. Derzeit verwendet RSA-Authentifizierung ein Kommandozeilen-Openssl-Hilfsprogramm. Dies ist langsamer und weniger sicher. Bitte erwägen Sie die Installation von openssl PHP-Erweiterung.</target>
       </trans-unit>
     </body>
   </file>
