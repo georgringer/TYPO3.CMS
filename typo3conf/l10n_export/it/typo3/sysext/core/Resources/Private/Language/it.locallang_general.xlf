@@ -3,250 +3,67 @@
   <file t3:id="1415814863" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="it">
     <header/>
     <body>
-      <trans-unit id="LGL.endtime">
-        <source>Stop</source>
-        <target state="needs-translation">Stop</target>
-      </trans-unit>
-      <trans-unit id="LGL.hidden">
-        <source>Hide</source>
-        <target state="needs-translation">Hide</target>
-      </trans-unit>
-      <trans-unit id="LGL.timestamp">
-        <source>Last Modified</source>
-        <target state="needs-translation">Last Modified</target>
-      </trans-unit>
-      <trans-unit id="LGL.creationDate">
-        <source>Created At</source>
-        <target state="needs-translation">Created At</target>
-      </trans-unit>
-      <trans-unit id="LGL.creationUserId">
-        <source>Created By</source>
-        <target state="needs-translation">Created By</target>
-      </trans-unit>
-      <trans-unit id="LGL.starttime">
-        <source>Start</source>
-        <target state="needs-translation">Start</target>
-      </trans-unit>
-      <trans-unit id="LGL.fe_group">
-        <source>Access</source>
-        <target state="needs-translation">Access</target>
-      </trans-unit>
-      <trans-unit id="LGL.hide_at_login">
-        <source>Hide at login</source>
-        <target state="needs-translation">Hide at login</target>
-      </trans-unit>
-      <trans-unit id="LGL.any_login">
-        <source>Show at any login</source>
-        <target state="needs-translation">Show at any login</target>
-      </trans-unit>
-      <trans-unit id="LGL.usergroups">
-        <source>__Usergroups:__</source>
-        <target state="needs-translation">__Usergroups:__</target>
-      </trans-unit>
-      <trans-unit id="LGL.type">
-        <source>Type</source>
-        <target state="needs-translation">Type</target>
-      </trans-unit>
-      <trans-unit id="LGL.description">
-        <source>Description</source>
-        <target state="needs-translation">Description</target>
-      </trans-unit>
-      <trans-unit id="LGL.prependAtCopy">
-        <source>(copy %s)</source>
-        <target state="needs-translation">(copy %s)</target>
-      </trans-unit>
-      <trans-unit id="LGL.layout">
-        <source>Layout</source>
-        <target state="needs-translation">Layout</target>
-      </trans-unit>
-      <trans-unit id="LGL.default_value">
-        <source>Default</source>
-        <target state="needs-translation">Default</target>
-      </trans-unit>
-      <trans-unit id="LGL.normal">
-        <source>Normal</source>
-        <target state="needs-translation">Normal</target>
-      </trans-unit>
-      <trans-unit id="LGL.images">
-        <source>Images</source>
-        <target state="needs-translation">Images</target>
-      </trans-unit>
-      <trans-unit id="LGL.image">
-        <source>Image</source>
-        <target state="needs-translation">Image</target>
-      </trans-unit>
-      <trans-unit id="LGL.width">
-        <source>Width</source>
-        <target state="needs-translation">Width</target>
-      </trans-unit>
-      <trans-unit id="LGL.height">
-        <source>Height</source>
-        <target state="needs-translation">Height</target>
-      </trans-unit>
-      <trans-unit id="LGL.caption">
-        <source>Caption</source>
-        <target state="needs-translation">Caption</target>
-      </trans-unit>
-      <trans-unit id="LGL.subheader">
-        <source>Subheader</source>
-        <target state="needs-translation">Subheader</target>
-      </trans-unit>
-      <trans-unit id="LGL.text">
-        <source>Text</source>
-        <target state="needs-translation">Text</target>
-      </trans-unit>
-      <trans-unit id="LGL.name">
-        <source>Name</source>
-        <target state="needs-translation">Name</target>
-      </trans-unit>
-      <trans-unit id="LGL.first_name">
-        <source>First name</source>
-        <target state="needs-translation">First name</target>
-      </trans-unit>
-      <trans-unit id="LGL.middle_name">
-        <source>Middle name</source>
-        <target state="needs-translation">Middle name</target>
-      </trans-unit>
-      <trans-unit id="LGL.last_name">
-        <source>Last name</source>
-        <target state="needs-translation">Last name</target>
-      </trans-unit>
-      <trans-unit id="LGL.title">
-        <source>Title</source>
-        <target state="needs-translation">Title</target>
-      </trans-unit>
-      <trans-unit id="LGL.title_person">
-        <source>Title</source>
-        <target state="needs-translation">Title</target>
-      </trans-unit>
-      <trans-unit id="LGL.address">
-        <source>Address</source>
-        <target state="needs-translation">Address</target>
-      </trans-unit>
-      <trans-unit id="LGL.phone">
-        <source>Phone</source>
-        <target state="needs-translation">Phone</target>
-      </trans-unit>
-      <trans-unit id="LGL.fax">
-        <source>Fax</source>
-        <target state="needs-translation">Fax</target>
-      </trans-unit>
-      <trans-unit id="LGL.author">
-        <source>Author</source>
-        <target state="needs-translation">Author</target>
-      </trans-unit>
-      <trans-unit id="LGL.email">
-        <source>Email</source>
-        <target state="needs-translation">Email</target>
-      </trans-unit>
-      <trans-unit id="LGL.company">
-        <source>Company</source>
-        <target state="needs-translation">Company</target>
-      </trans-unit>
-      <trans-unit id="LGL.city">
-        <source>City</source>
-        <target state="needs-translation">City</target>
-      </trans-unit>
-      <trans-unit id="LGL.zip">
-        <source>Zipcode</source>
-        <target state="needs-translation">Zipcode</target>
-      </trans-unit>
-      <trans-unit id="LGL.country">
-        <source>Country</source>
-        <target state="needs-translation">Country</target>
-      </trans-unit>
-      <trans-unit id="LGL.www">
-        <source>www</source>
-        <target state="needs-translation">www</target>
-      </trans-unit>
-      <trans-unit id="LGL.lastlogin">
-        <source>Last login</source>
-        <target state="needs-translation">Last login</target>
-      </trans-unit>
-      <trans-unit id="LGL.note">
-        <source>Note</source>
-        <target state="needs-translation">Note</target>
-      </trans-unit>
-      <trans-unit id="LGL.parameters">
-        <source>Parameters</source>
-        <target state="needs-translation">Parameters</target>
-      </trans-unit>
-      <trans-unit id="LGL.code">
-        <source>CODE</source>
-        <target state="needs-translation">CODE</target>
-      </trans-unit>
-      <trans-unit id="LGL.links">
-        <source>Links</source>
-        <target state="needs-translation">Links</target>
-      </trans-unit>
-      <trans-unit id="LGL.language">
-        <source>Language</source>
-        <target state="needs-translation">Language</target>
-      </trans-unit>
-      <trans-unit id="LGL.category">
-        <source>Category</source>
-        <target state="needs-translation">Category</target>
-      </trans-unit>
-      <trans-unit id="LGL.shortcut_page">
-        <source>Shortcut to page</source>
-        <target state="needs-translation">Shortcut to page</target>
-      </trans-unit>
-      <trans-unit id="LGL.keywords">
-        <source>Keywords (,)</source>
-        <target state="needs-translation">Keywords (,)</target>
-      </trans-unit>
-      <trans-unit id="LGL.disable">
-        <source>Disable</source>
-        <target state="needs-translation">Disable</target>
-      </trans-unit>
-      <trans-unit id="LGL.baseStorage">
-        <source>Storage</source>
-        <target state="needs-translation">Storage</target>
-      </trans-unit>
-      <trans-unit id="LGL.folder">
-        <source>Folder</source>
-        <target state="needs-translation">Folder</target>
-      </trans-unit>
-      <trans-unit id="LGL.startingpoint">
-        <source>Startingpoint</source>
-        <target state="needs-translation">Startingpoint</target>
-      </trans-unit>
-      <trans-unit id="LGL.disableRTE">
-        <source>Disable Rich Text Editor</source>
-        <target state="needs-translation">Disable Rich Text Editor</target>
-      </trans-unit>
-      <trans-unit id="LGL.external">
-        <source>External URL</source>
-        <target state="needs-translation">External URL</target>
-      </trans-unit>
-      <trans-unit id="LGL.recursive">
-        <source>Recursive</source>
-        <target state="needs-translation">Recursive</target>
-      </trans-unit>
-      <trans-unit id="LGL.l18n_parent">
-        <source>Transl.Orig</source>
-        <target state="needs-translation">Transl.Orig</target>
-      </trans-unit>
-      <trans-unit id="LGL.allLanguages">
-        <source>[All]</source>
-        <target state="needs-translation">[All]</target>
-      </trans-unit>
-      <trans-unit id="LGL.error">
-        <source>Error!</source>
-        <target state="needs-translation">Error!</target>
-      </trans-unit>
-      <trans-unit id="LGL.visible">
-        <source>Visible</source>
-        <target state="needs-translation">Visible</target>
-      </trans-unit>
-      <trans-unit id="LGL.enabled">
-        <source>Enabled</source>
-        <target state="needs-translation">Enabled</target>
-      </trans-unit>
-      <trans-unit id="LGL.disabled">
-        <source>Disabled</source>
-        <target state="needs-translation">Disabled</target>
-      </trans-unit>
-    </body>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</body>
   </file>
 </xliff>
