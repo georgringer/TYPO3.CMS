@@ -5,69 +5,69 @@
     <body>
       <trans-unit id="site.rootPageId">
         <source>You must create a page with a site root flag.</source>
-        <target state="needs-translation">You must create a page with a site root flag.</target>
+        <target state="translated">Devi creare una pagina con un flag root del sito.</target>
       </trans-unit>
       <trans-unit id="site.identifier">
         <source>This name will be used to create the configuration directory. Mind the recommendations for directory names (only a-z,0-9,_,-) and make it unique.</source>
-        <target state="needs-translation">This name will be used to create the configuration directory. Mind the recommendations for directory names (only a-z,0-9,_,-) and make it unique.</target>
+        <target state="translated">Questo nome verrà utilizzato per creare la directory di configurazione. Mina le raccomandazioni per i nomi delle directory (solo a-z,0-9,_,-) e rendila unica.</target>
       </trans-unit>
       <trans-unit id="site.base">
         <source>Main URL to call the frontend in default language. Can be https://www.example.com/ or just /, if it is just a / you cannot rely on TYPO3 creating
 					full URLs</source>
-        <target state="needs-translation">Main URL to call the frontend in default language. Can be https://www.example.com/ or just /, if it is just a / you cannot rely on TYPO3 creating
-					full URLs</target>
+        <target state="translated">URL principale per chiamare il frontend nella lingua predefinita. Può essere https://www.example.com/ o solo /, se è solo un / non puoi fare affidamento su TYPO3 che crea
+					URL completi</target>
       </trans-unit>
       <trans-unit id="site.baseVariants">
         <source>This allows you to specify variants of the site's base. Can be used, for example, if you have a different domain for your staging environment.</source>
-        <target state="needs-translation">This allows you to specify variants of the site's base. Can be used, for example, if you have a different domain for your staging environment.</target>
+        <target state="translated">Questo ti permette di specificare varianti della base del sito. Può essere utilizzato, ad esempio, se hai un dominio diverso per il tuo ambiente di staging.</target>
       </trans-unit>
       <trans-unit id="site_language.base">
         <source>Use a full qualified domain "https://www.mydomain.fr/" or "/fr/". Use "/" to keep the main URL for the default language. Add language specific suffixes to use those, or configure complete URLs for independent domains.</source>
-        <target state="needs-translation">Use a full qualified domain "https://www.mydomain.fr/" or "/fr/". Use "/" to keep the main URL for the default language. Add language specific suffixes to use those, or configure complete URLs for independent domains.</target>
+        <target state="translated">Usa un dominio completo "https://www.mydomain.fr/" o "/fr/". Usa "/" per mantenere l'URL principale per la lingua predefinita. Aggiungi un suffisso specifico per utilizzarli o configura URL completi per domini indipendenti.</target>
       </trans-unit>
       <trans-unit id="site_language.locale">
         <source>Used for localized date and currency formats. E.g. "de_DE" or "en_US.UTF-8".</source>
-        <target state="needs-translation">Used for localized date and currency formats. E.g. "de_DE" or "en_US.UTF-8".</target>
+        <target state="translated">Usato per i formati di data e valuta localizzati. Ad esempio "de_DE" o "it_US.UTF-8".</target>
       </trans-unit>
       <trans-unit id="site_language.iso-639-1">
         <source>ISO 639-1 code of the Language</source>
-        <target state="needs-translation">ISO 639-1 code of the Language</target>
+        <target state="translated">Codice ISO 639-1 della lingua</target>
       </trans-unit>
       <trans-unit id="site_language.hreflang">
         <source>Used within for "lang" and "hreflang" attributes</source>
-        <target state="needs-translation">Used within for "lang" and "hreflang" attributes</target>
+        <target state="translated">Utilizzato all'interno di "lang" e "hreflang" attributi</target>
       </trans-unit>
       <trans-unit id="site_language.navigationTitle">
         <source>Used within language-related menus</source>
-        <target state="needs-translation">Used within language-related menus</target>
+        <target state="translated">Usato all'interno di menu relativi alla lingua</target>
       </trans-unit>
       <trans-unit id="site_language.direction">
         <source>Language direction for "dir" attribute</source>
-        <target state="needs-translation">Language direction for "dir" attribute</target>
+        <target state="translated">Direzione lingua per attributo "dir"</target>
       </trans-unit>
       <trans-unit id="site_language.typo3Language">
         <source>Select the language to be used from translation files. Keep default if no translation files are available.</source>
-        <target state="needs-translation">Select the language to be used from translation files. Keep default if no translation files are available.</target>
+        <target state="translated">Seleziona la lingua da utilizzare dai file di traduzione. Mantieni predefinito se non sono disponibili file di traduzione.</target>
       </trans-unit>
       <trans-unit id="site_errorhandling.errorCode">
         <source>Make sure to have at least 0 (not defined otherwise) configured in order to serve helpful error messages to your visitors.</source>
-        <target state="needs-translation">Make sure to have at least 0 (not defined otherwise) configured in order to serve helpful error messages to your visitors.</target>
+        <target state="translated">Assicurati di avere almeno 0 (non definito altrimenti) configurato per servire messaggi di errore utili ai tuoi visitatori.</target>
       </trans-unit>
       <trans-unit id="site_errorhandling.errorFluidTemplate">
         <source>Path to the fluid template file given by absolute, relative path (from site root) or by referring the template file inside an extension with "EXT:" prefix.</source>
-        <target state="needs-translation">Path to the fluid template file given by absolute, relative path (from site root) or by referring the template file inside an extension with "EXT:" prefix.</target>
+        <target state="translated">Percorso del file del template fluido dato da un percorso assoluto, relativo (dal root del sito) o facendo riferimento al file di modello all'interno di un'estensione con il prefisso "EXT:".</target>
       </trans-unit>
       <trans-unit id="site_errorhandling.errorPhpClassFQCN">
         <source>Fully qualified class name to a class that implements the PageErrorHandlerInterface.</source>
-        <target state="needs-translation">Fully qualified class name to a class that implements the PageErrorHandlerInterface.</target>
+        <target state="translated">Nome di classe completamente qualificato a una classe che implementa la PageErrorHandlerInterface.</target>
       </trans-unit>
       <trans-unit id="site_base_variant.base">
         <source>For example "https://staging.domain.tld" or "http://www.domain.local"</source>
-        <target state="needs-translation">For example "https://staging.domain.tld" or "http://www.domain.local"</target>
+        <target state="translated">Per esempio "https://staging.domain.tld" o "http://www.domain.local"</target>
       </trans-unit>
       <trans-unit id="site_base_variant.condition">
         <source>Expression to match this base variant.</source>
-        <target state="needs-translation">Expression to match this base variant.</target>
+        <target state="translated">Espressione per abbinare questa variante di base.</target>
       </trans-unit>
     </body>
   </file>
