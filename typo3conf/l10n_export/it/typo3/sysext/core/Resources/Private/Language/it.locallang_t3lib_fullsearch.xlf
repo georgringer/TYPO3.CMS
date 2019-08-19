@@ -3,13 +3,34 @@
   <file t3:id="1415814884" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="it">
     <header/>
     <body>
-			
-			
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id="query_loaded">
+        <source>Query "%s" loaded!</source>
+        <target state="translated">Query "%s" caricata!</target>
+      </trans-unit>
+      <trans-unit id="query_from_action_loaded">
+        <source>Query from action "%s" loaded!</source>
+        <target state="translated">Query dall'azione "%s" caricata!</target>
+      </trans-unit>
+      <trans-unit id="query_saved">
+        <source>Query saved!</source>
+        <target state="translated">Query salvata!</target>
+      </trans-unit>
+      <trans-unit id="query_notsaved">
+        <source>No query saved!</source>
+        <target state="translated">Nessuna query salvata!</target>
+      </trans-unit>
+      <trans-unit id="query_removed">
+        <source>"%s" query entry removed!</source>
+        <target state="translated">"%s" query entry rimossa!</target>
+      </trans-unit>
+      <trans-unit id="undelete_only">
+        <source>undelete only</source>
+        <target state="translated">solo non-letale</target>
+      </trans-unit>
+      <trans-unit id="undelete_and_edit">
+        <source>undelete and edit</source>
+        <target state="translated">cancella e modifica</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
