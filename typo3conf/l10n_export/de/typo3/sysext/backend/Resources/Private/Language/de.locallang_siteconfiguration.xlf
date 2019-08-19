@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1522780424" source-language="en" datatype="plaintext" original="messages" date="2018-02-27T22:22:32Z" product-name="backend" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="overview.title">
+        <source>Site Configuration</source>
+        <target state="needs-translation">Site Configuration</target>
+      </trans-unit>
+      <trans-unit id="overview.site">
+        <source>Site</source>
+        <target state="needs-translation">Site</target>
+      </trans-unit>
+      <trans-unit id="overview.configuration">
+        <source>Configuration Folder</source>
+        <target state="needs-translation">Configuration Folder</target>
+      </trans-unit>
+      <trans-unit id="overview.noPages.title">
+        <source>No pages found!</source>
+        <target state="needs-translation">No pages found!</target>
+      </trans-unit>
+      <trans-unit id="overview.noPages.message">
+        <source>Please add at least one page through the Page module.</source>
+        <target state="needs-translation">Please add at least one page through the Page module.</target>
+      </trans-unit>
+      <trans-unit id="overview.noSiteConfiguration">
+        <source>This site does not have a configuration, yet.</source>
+        <target state="needs-translation">This site does not have a configuration, yet.</target>
+      </trans-unit>
+      <trans-unit id="overview.addSiteConfiguration">
+        <source>Add new site configuration for this site</source>
+        <target state="needs-translation">Add new site configuration for this site</target>
+      </trans-unit>
+      <trans-unit id="overview.deleteSiteConfiguration">
+        <source>Delete site configuration</source>
+        <target state="needs-translation">Delete site configuration</target>
+      </trans-unit>
+      <trans-unit id="overview.fullUrlPrefix">
+        <source>Full URL prefix</source>
+        <target state="needs-translation">Full URL prefix</target>
+      </trans-unit>
+      <trans-unit id="overview.baseUrl">
+        <source>Base URLs</source>
+        <target state="needs-translation">Base URLs</target>
+      </trans-unit>
+      <trans-unit id="overview.unassignedSites.title">
+        <source>Unassigned site configurations</source>
+        <target state="needs-translation">Unassigned site configurations</target>
+      </trans-unit>
+      <trans-unit id="overview.unassignedSites.description">
+        <source>The following sites don't belong to any page anymore and can be removed.</source>
+        <target state="needs-translation">The following sites don't belong to any page anymore and can be removed.</target>
+      </trans-unit>
+      <trans-unit id="validation.identifierRenamed.title">
+        <source>Renamed identifier</source>
+        <target state="needs-translation">Renamed identifier</target>
+      </trans-unit>
+      <trans-unit id="validation.identifierRenamed.message">
+        <source>Given site identifier "%1s" already exists. It has been renamed to "%2s". Maybe you want to edit the site again and give it a better name.</source>
+        <target state="needs-translation">Given site identifier "%1s" already exists. It has been renamed to "%2s". Maybe you want to edit the site again and give it a better name.</target>
+      </trans-unit>
+      <trans-unit id="validation.identifierExists.title">
+        <source>Identifier not changed</source>
+        <target state="needs-translation">Identifier not changed</target>
+      </trans-unit>
+      <trans-unit id="validation.identifierExists.message">
+        <source>Given site identifier "%1s" already exists and points to a different site. The existing identifier "%2s" for this site is kept.';</source>
+        <target state="needs-translation">Given site identifier "%1s" already exists and points to a different site. The existing identifier "%2s" for this site is kept.';</target>
+      </trans-unit>
+      <trans-unit id="validation.required.title">
+        <source>Site configuration not saved</source>
+        <target state="needs-translation">Site configuration not saved</target>
+      </trans-unit>
+      <trans-unit id="validation.required.message">
+        <source>Field "%1s" is a required field, but no value has been provided.</source>
+        <target state="needs-translation">Field "%1s" is a required field, but no value has been provided.</target>
+      </trans-unit>
+      <trans-unit id="validation.duplicateErrorCode.title">
+        <source>Duplicate error code removed</source>
+        <target state="needs-translation">Duplicate error code removed</target>
+      </trans-unit>
+      <trans-unit id="validation.duplicateErrorCode.message">
+        <source>Two error handler configurations for error code "%1s" found. This would be an invalid configuration, the dangling one has been removed.</source>
+        <target state="needs-translation">Two error handler configurations for error code "%1s" found. This would be an invalid configuration, the dangling one has been removed.</target>
+      </trans-unit>
+      <trans-unit id="validation.duplicateLanguageId.title">
+        <source>Duplicate language configuration removed</source>
+        <target state="needs-translation">Duplicate language configuration removed</target>
+      </trans-unit>
+      <trans-unit id="validation.duplicateLanguageId.message">
+        <source>Two language configurations for language "%1s" found. This would be an invalid configuration, the dangling one has been removed.</source>
+        <target state="needs-translation">Two language configurations for language "%1s" found. This would be an invalid configuration, the dangling one has been removed.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
