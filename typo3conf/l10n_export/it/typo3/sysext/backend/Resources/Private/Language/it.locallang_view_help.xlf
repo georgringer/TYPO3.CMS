@@ -3,28 +3,94 @@
   <file t3:id="1415814889" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="it">
     <header/>
     <body>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id="details">
+        <source>Details</source>
+        <target state="translated">Dettagli</target>
+      </trans-unit>
+      <trans-unit id="syntax">
+        <source>Syntax</source>
+        <target state="translated">Sintassi</target>
+      </trans-unit>
+      <trans-unit id="seeAlso">
+        <source>See also</source>
+        <target state="translated">Vedi anche</target>
+      </trans-unit>
+      <trans-unit id="goBack">
+        <source>Go back</source>
+        <target state="translated">Torna indietro</target>
+      </trans-unit>
+      <trans-unit id="fullDescription">
+        <source>See full description of table</source>
+        <target state="translated">Vedi la descrizione completa della tabella</target>
+      </trans-unit>
+      <trans-unit id="fullDescription_module">
+        <source>See full description of module</source>
+        <target state="translated">Vedi la descrizione completa del modulo</target>
+      </trans-unit>
+      <trans-unit id="goToToc">
+        <source>&lt;&lt; go to Manual Index</source>
+        <target state="translated">&lt;&lt; vai all'indice manuale</target>
+      </trans-unit>
+      <trans-unit id="to_top">
+        <source>To top</source>
+        <target state="translated">In alto</target>
+      </trans-unit>
+      <trans-unit id="TOC">
+        <source>Table Of Contents</source>
+        <target state="translated">Tabella dei Contenuti</target>
+      </trans-unit>
+      <trans-unit id="TOC_core">
+        <source>TYPO3 Core Features</source>
+        <target state="translated">Funzioni Core TYPO3</target>
+      </trans-unit>
+      <trans-unit id="TOC_modules">
+        <source>Backend Modules</source>
+        <target state="translated">Moduli Backend</target>
+      </trans-unit>
+      <trans-unit id="TOC_tables">
+        <source>Database Tables</source>
+        <target state="translated">Tabelle database</target>
+      </trans-unit>
+      <trans-unit id="TOC_extensions">
+        <source>Extensions</source>
+        <target state="translated">Estensioni</target>
+      </trans-unit>
+      <trans-unit id="TOC_glossary">
+        <source>Glossary</source>
+        <target state="translated">Glossario</target>
+      </trans-unit>
+      <trans-unit id="TOC_other">
+        <source>Other</source>
+        <target state="translated">Altro</target>
+      </trans-unit>
+      <trans-unit id="close">
+        <source>Close</source>
+        <target state="translated">Chiudi</target>
+      </trans-unit>
+      <trans-unit id="title">
+        <source>TYPO3 Inline Help</source>
+        <target state="translated">Aiuto in linea TYPO3</target>
+      </trans-unit>
+      <trans-unit id="manual_title">
+        <source>TYPO3 Inline User Manual</source>
+        <target state="translated">Manuale utente TYPO3 in linea</target>
+      </trans-unit>
+      <trans-unit id="introduction">
+        <source>Introduction</source>
+        <target state="translated">Introduzione</target>
+      </trans-unit>
+      <trans-unit id="description">
+        <source>The TYPO3 Inline User Manual is composed from the available help in this TYPO3 Installation (Context Sensitive Help). Here you will find a general description of the TYPO3 Core modules, installation specific Backend Modules and Database Tables that are available based on your login credentials.</source>
+        <target state="translated">Il manuale utente TYPO3 in linea è composto dall'aiuto disponibile in questa installazione TYPO3 (Context Sensitive Help). Qui troverai una descrizione generale dei moduli del core TYPO3, installazione di moduli specifici Backend e Tabelle di database disponibili sulla base delle credenziali di accesso.</target>
+      </trans-unit>
+      <trans-unit id="full_manual">
+        <source>Full Manual (in one page)</source>
+        <target state="translated">Manuale completo (in una pagina)</target>
+      </trans-unit>
+      <trans-unit id="full_manual_chapters">
+        <source>Manual Chapters</source>
+        <target state="translated">Capitoli manuali</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
