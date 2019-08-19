@@ -3,144 +3,558 @@
   <file t3:id="1415814828" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="impexp" target-language="de">
     <header/>
     <body>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id="import">
+        <source>Import</source>
+        <target state="translated">Import</target>
+      </trans-unit>
+      <trans-unit id="export">
+        <source>Export</source>
+        <target state="translated">Export</target>
+      </trans-unit>
+      <trans-unit id="title">
+        <source>Import / Export</source>
+        <target state="translated">Import / Export</target>
+      </trans-unit>
+      <trans-unit id="title_import">
+        <source>Import</source>
+        <target state="translated">Import</target>
+      </trans-unit>
+      <trans-unit id="title_export">
+        <source>Export</source>
+        <target state="translated">Export</target>
+      </trans-unit>
+      <trans-unit id="tableselec_configuration">
+        <source>Configuration</source>
+        <target state="translated">Konfiguration</target>
+      </trans-unit>
+      <trans-unit id="exportdata_savedFile">
+        <source>SAVED FILE</source>
+        <target state="translated">AUFÜR FEHLER</target>
+      </trans-unit>
+      <trans-unit id="exportdata_savedInSBytes">
+        <source>Saved in "%s", bytes %s</source>
+        <target state="translated">Gespeichert in "%s", Bytes %s</target>
+      </trans-unit>
+      <trans-unit id="exportdata_problemsSavingFile">
+        <source>Problems saving file</source>
+        <target state="translated">Probleme beim Speichern der Datei</target>
+      </trans-unit>
+      <trans-unit id="exportdata_badPathS">
+        <source>Bad path: "%s"</source>
+        <target state="translated">Falscher Pfad: "%s"</target>
+      </trans-unit>
+      <trans-unit id="exportdata_filePreset">
+        <source>File &amp; Preset</source>
+        <target state="translated">Datei &amp; Preset</target>
+      </trans-unit>
+      <trans-unit id="exportdata_advancedOptions">
+        <source>Advanced Options</source>
+        <target state="translated">Erweiterte Optionen</target>
+      </trans-unit>
+      <trans-unit id="exportdata_messages">
+        <source>Messages</source>
+        <target state="translated">Nachrichten</target>
+      </trans-unit>
+      <trans-unit id="execlistqu_structureToBeExported">
+        <source>Structure to be exported</source>
+        <target state="translated">Struktur zu exportieren</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_toggle_all_disabled_records">
+        <source>Toggle disabled records</source>
+        <target state="translated">Deaktivierte Einträge umschalten</target>
+      </trans-unit>
+      <trans-unit id="makeconfig_exportPagetreeConfiguration">
+        <source>Export pagetree configuration</source>
+        <target state="translated">Pagetree-Konfiguration exportieren</target>
+      </trans-unit>
+      <trans-unit id="makeconfig_pageId">
+        <source>Page ID</source>
+        <target state="translated">Seiten-ID</target>
+      </trans-unit>
+      <trans-unit id="makeconfig_tree">
+        <source>Tree</source>
+        <target state="translated">Baum</target>
+      </trans-unit>
+      <trans-unit id="makeconfig_noTreeExportedOnly">
+        <source>No tree exported - only tables on the page.</source>
+        <target state="translated">Kein Baum exportiert - nur Tabellen auf der Seite.</target>
+      </trans-unit>
+      <trans-unit id="makeconfig_tablesOnThisPage">
+        <source>Tables on this page</source>
+        <target state="translated">Tabellen auf dieser Seite</target>
+      </trans-unit>
+      <trans-unit id="makeconfig_expandedTree">
+        <source>Expanded tree</source>
+        <target state="translated">Erweiterter Baum</target>
+      </trans-unit>
+      <trans-unit id="makeconfig_levels">
+        <source>Levels</source>
+        <target state="translated">Levels</target>
+      </trans-unit>
+      <trans-unit id="makeconfig_includeTables">
+        <source>Include tables</source>
+        <target state="translated">Tabellen einschließen</target>
+      </trans-unit>
+      <trans-unit id="makeconfig_exportSingleRecord">
+        <source>Export single record</source>
+        <target state="translated">Einzelne Aufnahme exportieren</target>
+      </trans-unit>
+      <trans-unit id="makeconfig_record">
+        <source>Record</source>
+        <target state="translated">Aufnahme</target>
+      </trans-unit>
+      <trans-unit id="makeconfig_exportTablesFromPages">
+        <source>Export tables from pages</source>
+        <target state="translated">Tabellen von Seiten exportieren</target>
+      </trans-unit>
+      <trans-unit id="makeconfig_tablePids">
+        <source>Table/Pids</source>
+        <target state="translated">Tabelle/Pids</target>
+      </trans-unit>
+      <trans-unit id="makeconfig_tableListEntry">
+        <source>Table "%s" from %s</source>
+        <target state="translated">Tabelle "%s" von %s</target>
+      </trans-unit>
+      <trans-unit id="makeconfig_relationsAndExclusions">
+        <source>Relations and Exclusions</source>
+        <target state="translated">Beziehungen und Ausschlüsse</target>
+      </trans-unit>
+      <trans-unit id="makeconfig_includeRelationsToTables">
+        <source>Include relations to tables</source>
+        <target state="translated">Beziehungen zu Tabellen einschließen</target>
+      </trans-unit>
+      <trans-unit id="makeconfig_useStaticRelationsFor">
+        <source>Use static relations for tables</source>
+        <target state="translated">Statische Beziehungen für Tabellen verwenden</target>
+      </trans-unit>
+      <trans-unit id="makeconfig_showStaticRelations">
+        <source>Show static relations</source>
+        <target state="translated">Zeige statische Beziehungen</target>
+      </trans-unit>
+      <trans-unit id="makeconfig_excludeElements">
+        <source>Exclude elements</source>
+        <target state="translated">Elemente ausschließen</target>
+      </trans-unit>
+      <trans-unit id="makeconfig_clearAllManualExclusions">
+        <source>Clear all manual exclusions</source>
+        <target state="translated">Alle manuellen Ausnahmen löschen</target>
+      </trans-unit>
+      <trans-unit id="makeconfig_noManuallyExcludedElementsYet">
+        <source>No manually excluded elements yet. Exclude by setting checkboxes below in the element display.</source>
+        <target state="translated">Noch keine manuell ausgeschlossenen Elemente. Ausschließlich durch Einstellung der Kontrollkästchen unten im Elementdisplay.</target>
+      </trans-unit>
+      <trans-unit id="makeconfig_excludeDisabledElements">
+        <source>Exclude disabled elements</source>
+        <target state="translated">Deaktivierte Elemente ausschließen</target>
+      </trans-unit>
+      <trans-unit id="makeadvanc_update">
+        <source>Update</source>
+        <target state="translated">Update</target>
+      </trans-unit>
+      <trans-unit id="makeadvanc_softReferences">
+        <source>Soft References</source>
+        <target state="translated">Soft References</target>
+      </trans-unit>
+      <trans-unit id="makeadvanc_excludeHtmlCssFile">
+        <source>Exclude HTML/CSS file resources</source>
+        <target state="translated">HTML/CSS-Dateiressourcen ausschließen</target>
+      </trans-unit>
+      <trans-unit id="makeadvanc_files">
+        <source>Files</source>
+        <target state="translated">Dateien</target>
+      </trans-unit>
+      <trans-unit id="makeadvanc_saveFilesOutsideExportFile">
+        <source>Save files in extra folder beside the export file</source>
+        <target state="translated">Dateien in einem zusätzlichen Ordner neben der Exportdatei speichern</target>
+      </trans-unit>
+      <trans-unit id="makeadvanc_saveFilesOutsideExportFile_limit">
+        <source>(supported for "Save to filename" only)</source>
+        <target state="translated">(nur für "Speichern in Dateiname" unterstützt)</target>
+      </trans-unit>
+      <trans-unit id="makeadvanc_extensionDependencies">
+        <source>Extension dependencies</source>
+        <target state="translated">Erweiterungs-Abhängigkeiten</target>
+      </trans-unit>
+      <trans-unit id="makeadvanc_selectExtensionsThatThe">
+        <source>Select extensions that the exported content depends on</source>
+        <target state="translated">Wählen Sie Erweiterungen, von denen der exportierte Inhalt abhängt</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_update">
+        <source>Update</source>
+        <target state="translated">Update</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_presets">
+        <source>Presets</source>
+        <target state="translated">Presets</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_selectPreset">
+        <source>Select preset</source>
+        <target state="translated">Voreinstellung auswählen</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_load">
+        <source>Load</source>
+        <target state="translated">Laden</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_save">
+        <source>Save</source>
+        <target state="translated">Speichern</target>
+      </trans-unit>
+      <trans-unit id="pleaseConfirm">
+        <source>Please confirm</source>
+        <target state="translated">Bitte bestätigen</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_areYouSure">
+        <source>Are you sure?</source>
+        <target state="translated">Sind Sie sicher?</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_delete">
+        <source>Delete</source>
+        <target state="translated">Löschen</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_merge">
+        <source>Merge</source>
+        <target state="translated">Zusammenführen</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_titleOfNewPreset">
+        <source>Title of new preset</source>
+        <target state="translated">Titel der neuen Vorlage</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_public">
+        <source>Public</source>
+        <target state="translated">Öffentlich</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_outputOptions">
+        <source>Output options</source>
+        <target state="translated">Ausgabeoptionen</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_metaData">
+        <source>Meta data</source>
+        <target state="translated">Metadaten</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_title">
+        <source>Title</source>
+        <target state="translated">Titel</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_description">
+        <source>Description</source>
+        <target state="translated">Beschreibung</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_notes">
+        <source>Notes</source>
+        <target state="translated">Notizen</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_t3dFileCompressed">
+        <source>T3D file / compressed</source>
+        <target state="translated">T3D-Datei / komprimiert</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_t3dFile">
+        <source>T3D file</source>
+        <target state="translated">T3D-Datei</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_xml">
+        <source>XML</source>
+        <target state="translated">XML</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_fileFormat">
+        <source>File format</source>
+        <target state="translated">Dateiformat</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_filenameSavedInS">
+        <source>Filename (saved in "%s")</source>
+        <target state="translated">Dateiname (gespeichert in "%s")</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_downloadExport">
+        <source>Download export</source>
+        <target state="translated">Export herunterladen</target>
+      </trans-unit>
+      <trans-unit id="importdata_saveToFilename">
+        <source>Save to filename</source>
+        <target state="translated">In Dateiname speichern</target>
+      </trans-unit>
+      <trans-unit id="importdata_selectFileToImport">
+        <source>Select file to import</source>
+        <target state="translated">Datei zum Importieren auswählen</target>
+      </trans-unit>
+      <trans-unit id="importdata_file">
+        <source>File</source>
+        <target state="translated">Datei</target>
+      </trans-unit>
+      <trans-unit id="importdata_fromPathS">
+        <source>(From path: %s)</source>
+        <target state="translated">(Von Pfad: %s)</target>
+      </trans-unit>
+      <trans-unit id="importdata_noteNoDecompressorAvailable">
+        <source>NOTE: No decompressor available for compressed files!</source>
+        <target state="translated">HINWEIS: Kein Decompressor für komprimierte Dateien verfügbar!</target>
+      </trans-unit>
+      <trans-unit id="importdata_importOptions">
+        <source>Import Options</source>
+        <target state="translated">Import-Optionen</target>
+      </trans-unit>
+      <trans-unit id="importdata_update">
+        <source>Update</source>
+        <target state="translated">Update</target>
+      </trans-unit>
+      <trans-unit id="importdata_updateRecords">
+        <source>Update records</source>
+        <target state="translated">Datensätze aktualisieren</target>
+      </trans-unit>
+      <trans-unit id="importdata_thisOptionRequiresThat">
+        <source>This option requires that the structure you import already exists on this server and only needs to be updated with new content!</source>
+        <target state="translated">Diese Option erfordert, dass die Struktur, die Sie importieren, bereits auf diesem Server existiert und nur mit neuen Inhalten aktualisiert werden muss!</target>
+      </trans-unit>
+      <trans-unit id="importdata_ignorePidDifferencesGlobally">
+        <source>Ignore PID differences globally</source>
+        <target state="translated">PID-Unterschiede weltweit ignorieren</target>
+      </trans-unit>
+      <trans-unit id="importdata_ifYouSetThis">
+        <source>If you set this option, the position of updated elements will not be updated to match the structure of the input file.</source>
+        <target state="translated">Wenn Sie diese Option setzen, wird die Position der aktualisierten Elemente nicht aktualisiert, um die Struktur der Eingabedatei zu entsprechen.</target>
+      </trans-unit>
+      <trans-unit id="importdata_force_all_UIDS">
+        <source>Force ALL UIDs values</source>
+        <target state="translated">ALLE UIDs Werte erzwingen</target>
+      </trans-unit>
+      <trans-unit id="importdata_force_all_UIDS_descr">
+        <source>With this option the original UID value of all imported records are forced to be the same. BE VERY CAREFUL WITH THIS! (Admin Only).</source>
+        <target state="translated">Mit dieser Option ist der ursprüngliche UID-Wert aller importierten Datensätze zu gleichen. BEWENN VERKAUFT MIT DIESE! (Nur Admin).</target>
+      </trans-unit>
+      <trans-unit id="importdata_options">
+        <source>Options</source>
+        <target state="translated">Optionen</target>
+      </trans-unit>
+      <trans-unit id="importdata_doNotShowDifferences">
+        <source>Do not show differences in records</source>
+        <target state="translated">Unterschiede in Datensätzen nicht anzeigen</target>
+      </trans-unit>
+      <trans-unit id="importdata_greenValuesAreFrom">
+        <source>Green values are from the import file, red values from the current database record and black values are similar in both versions.</source>
+        <target state="translated">Grüne Werte stammen aus der Importdatei, rote Werte aus dem aktuellen Datenbankdatensatz und schwarze Werte sind in beiden Versionen ähnlich.</target>
+      </trans-unit>
+      <trans-unit id="importdata_allowToWriteBanned">
+        <source>Allow to write banned file extensions (eg. PHP scripts), if any</source>
+        <target state="translated">Erlaube, verbotene Dateierweiterungen (z. B. PHP-Skripte) zu schreiben, falls vorhanden</target>
+      </trans-unit>
+      <trans-unit id="importdata_action">
+        <source>Action</source>
+        <target state="translated">Aktion</target>
+      </trans-unit>
+      <trans-unit id="importdata_preview">
+        <source>Preview</source>
+        <target state="translated">Vorschau</target>
+      </trans-unit>
+      <trans-unit id="importdata_update_299e">
+        <source>Update</source>
+        <target state="translated">Update</target>
+      </trans-unit>
+      <trans-unit id="importdata_import">
+        <source>Import</source>
+        <target state="translated">Import</target>
+      </trans-unit>
+      <trans-unit id="importdata_areYouSure">
+        <source>Are you sure?</source>
+        <target state="translated">Sind Sie sicher?</target>
+      </trans-unit>
+      <trans-unit id="importdata_newImport">
+        <source>New import</source>
+        <target state="translated">Neuer Import</target>
+      </trans-unit>
+      <trans-unit id="importdata_enableLogging">
+        <source>Enable logging</source>
+        <target state="translated">Logging aktivieren</target>
+      </trans-unit>
+      <trans-unit id="importdata_writeIndividualDbActions">
+        <source>Write individual DB actions during import to the log</source>
+        <target state="translated">Einzelne DB-Aktionen während des Imports in das Log schreiben</target>
+      </trans-unit>
+      <trans-unit id="importdata_thisIsDisabledBy">
+        <source>This is disabled by default since there may be hundred of entries generated.</source>
+        <target state="translated">Dies ist standardmäßig deaktiviert, da es möglicherweise hundert Einträge geben kann.</target>
+      </trans-unit>
+      <trans-unit id="importdata_uploadFileFromLocal">
+        <source>Upload file from local computer</source>
+        <target state="translated">Datei vom lokalen Computer hochladen</target>
+      </trans-unit>
+      <trans-unit id="importdata_browse">
+        <source>Browse</source>
+        <target state="translated">Durchsuchen</target>
+      </trans-unit>
+      <trans-unit id="importdata_uploadStatus">
+        <source>Upload status</source>
+        <target state="translated">Upload-Status</target>
+      </trans-unit>
+      <trans-unit id="importdata_success">
+        <source>Success</source>
+        <target state="translated">Erfolg</target>
+      </trans-unit>
+      <trans-unit id="importdata_failureNoFileUploaded">
+        <source>Failure: No file uploaded - was it too big? Check system log.</source>
+        <target state="translated">Fehler: Keine Datei hochgeladen - war es zu groß? Prüfe Systemprotokoll.</target>
+      </trans-unit>
+      <trans-unit id="importdata_upload">
+        <source>Upload</source>
+        <target state="translated">Hochladen</target>
+      </trans-unit>
+      <trans-unit id="importdata_upload_error">
+        <source>Upload error</source>
+        <target state="translated">Upload-Fehler</target>
+      </trans-unit>
+      <trans-unit id="importdata_upload_nodata">
+        <source>The import module hasn't received any data. This may occur due to a file upload with a large file. Please check the file size of your uploaded file with the server's post_max_size and upload_max_filesize configuration.</source>
+        <target state="translated">Das Importmodul hat keine Daten erhalten. Dies kann aufgrund eines Dateihochladens mit einer großen Datei auftreten. Bitte überprüfen Sie die Dateigröße Ihrer hochgeladenen Datei mit der Konfiguration post_max_size und upload_max_filesize.</target>
+      </trans-unit>
+      <trans-unit id="importdata_metaData">
+        <source>Meta data</source>
+        <target state="translated">Metadaten</target>
+      </trans-unit>
+      <trans-unit id="importdata_title">
+        <source>Title</source>
+        <target state="translated">Titel</target>
+      </trans-unit>
+      <trans-unit id="importdata_description">
+        <source>Description</source>
+        <target state="translated">Beschreibung</target>
+      </trans-unit>
+      <trans-unit id="importdata_notes">
+        <source>Notes</source>
+        <target state="translated">Notizen</target>
+      </trans-unit>
+      <trans-unit id="importdata_packager">
+        <source>Packager</source>
+        <target state="translated">Paket</target>
+      </trans-unit>
+      <trans-unit id="importdata_email">
+        <source>Email</source>
+        <target state="translated">E-Mail</target>
+      </trans-unit>
+      <trans-unit id="importdata_icon">
+        <source>Icon</source>
+        <target state="translated">Symbol</target>
+      </trans-unit>
+      <trans-unit id="importdata_metaData_1387">
+        <source>Meta data</source>
+        <target state="translated">Metadaten</target>
+      </trans-unit>
+      <trans-unit id="importdata_messages">
+        <source>Messages</source>
+        <target state="translated">Nachrichten</target>
+      </trans-unit>
+      <trans-unit id="importdata_structureHasBeenImported">
+        <source>Structure has been imported, here is the result</source>
+        <target state="translated">Struktur wurde importiert, hier ist das Ergebnis</target>
+      </trans-unit>
+      <trans-unit id="importdata_no_accessible_file_mount">
+        <source>No accessible filemount</source>
+        <target state="translated">Keine zugängliche Dateimount</target>
+      </trans-unit>
+      <trans-unit id="importdata_no_default_upload_folder">
+        <source>No default upload folder</source>
+        <target state="translated">Kein Standard-Upload-Ordner</target>
+      </trans-unit>
+      <trans-unit id="filterpage_structureToBeImported">
+        <source>Structure to be imported</source>
+        <target state="translated">Struktur zu importiert</target>
+      </trans-unit>
+      <trans-unit id="ALL_tables">
+        <source>ALL tables</source>
+        <target state="translated">ALLE Tabellen</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_displaycon_controls">
+        <source>Controls</source>
+        <target state="translated">Steuerelemente</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_displaycon_title">
+        <source>Title</source>
+        <target state="translated">Titel</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_displaycon_message">
+        <source>Message</source>
+        <target state="translated">Nachricht</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_displaycon_updateMode">
+        <source>Update Mode</source>
+        <target state="translated">Update-Modus</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_displaycon_currentPath">
+        <source>Current Path</source>
+        <target state="translated">Aktueller Pfad</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_displaycon_result">
+        <source>Result</source>
+        <target state="translated">Ergebnis</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_displaycon_insidePagetree">
+        <source>Inside pagetree</source>
+        <target state="translated">Innerer Seitenheft</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_singlereco_outsidePagetree">
+        <source>Outside pagetree</source>
+        <target state="translated">Externe Seitenleiste</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_singlereco_softReferencesFiles">
+        <source>Soft References Files</source>
+        <target state="translated">Soft References Dateien</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_singlereco_update">
+        <source>Update</source>
+        <target state="translated">Update</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_singlereco_insert">
+        <source>Insert</source>
+        <target state="translated">Einfügen</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_singlereco_importAsNew">
+        <source>Import as new</source>
+        <target state="translated">Als neu importieren</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_singlereco_ignorePid">
+        <source>Ignore PID</source>
+        <target state="translated">PID ignorieren</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_singlereco_respectPid">
+        <source>Respect PID</source>
+        <target state="translated">PID beachten</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_singlereco_forceUidSAdmin">
+        <source>Force UID [%s] (Admin)</source>
+        <target state="translated">UID [%s] erzwingen (Admin)</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_singlereco_exclude">
+        <source>Exclude</source>
+        <target state="translated">Ausschließen</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_singlereco_title">
+        <source>Title</source>
+        <target state="translated">Titel</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_singlereco_descr">
+        <source>Descr</source>
+        <target state="translated">Descr</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_singlereco_filename">
+        <source>Filename</source>
+        <target state="translated">Dateiname</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_singlereco_value">
+        <source>Value</source>
+        <target state="translated">Wert</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_softrefsel_record">
+        <source>Record</source>
+        <target state="translated">Aufnahme</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_softrefsel_editable">
+        <source>Editable</source>
+        <target state="translated">Editierbar</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_softrefsel_exclude">
+        <source>Exclude</source>
+        <target state="translated">Ausschließen</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_printerror_description">
+        <source>Description</source>
+        <target state="translated">Beschreibung</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
