@@ -3,15 +3,42 @@
   <file t3:id="1415814997" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="sys_note" target-language="de">
     <header/>
     <body>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id=".description">
+        <source>Internal reminder note attached to a page.</source>
+        <target state="translated">Interne Erinnerung an eine Seite angehängt.</target>
+      </trans-unit>
+      <trans-unit id=".details">
+        <source>This provides a simple way to attach informative notes to a page regarding backend-related issues. Use it as you like for reminders, instructions, etc.</source>
+        <target state="translated">Dies ermöglicht es, Informationen zu einer Seite über Backend-relevante Probleme zu verknüpfen. Verwenden Sie es wie Sie möchten, um Erinnerungen, Anweisungen usw.</target>
+      </trans-unit>
+      <trans-unit id="_.seeAlso">
+        <source>pages</source>
+        <target state="translated">Seiten</target>
+      </trans-unit>
+      <trans-unit id="category.description">
+        <source>Select a category which describes the character of the note.</source>
+        <target state="translated">Wählen Sie eine Kategorie, die den Charakter der Notiz beschreibt.</target>
+      </trans-unit>
+      <trans-unit id="subject.description">
+        <source>Enter a title for the note.</source>
+        <target state="translated">Geben Sie einen Titel für die Notiz ein.</target>
+      </trans-unit>
+      <trans-unit id="message.description">
+        <source>This is the note itself.</source>
+        <target state="translated">Das ist die Notiz selbst.</target>
+      </trans-unit>
+      <trans-unit id="author.description">
+        <source>Enter your name.</source>
+        <target state="translated">Geben Sie Ihren Namen ein.</target>
+      </trans-unit>
+      <trans-unit id="email.description">
+        <source>Enter your email address.</source>
+        <target state="translated">Geben Sie Ihre E-Mail-Adresse ein.</target>
+      </trans-unit>
+      <trans-unit id="personal.description">
+        <source>Check this if you don't want other users to see this note.</source>
+        <target state="translated">Überprüfen Sie dies, wenn Sie nicht möchten, dass andere Benutzer diese Notiz sehen.</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
