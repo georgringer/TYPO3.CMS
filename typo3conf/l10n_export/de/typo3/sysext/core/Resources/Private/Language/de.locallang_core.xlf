@@ -1,0 +1,1797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814851" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="lang" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="labels.openInNewWindow">
+        <source>Open in new window</source>
+        <target state="needs-translation">Open in new window</target>
+      </trans-unit>
+      <trans-unit id="labels.goBack">
+        <source>Go back</source>
+        <target state="needs-translation">Go back</target>
+      </trans-unit>
+      <trans-unit id="labels.makeShortcut">
+        <source>Create a shortcut to this page?</source>
+        <target state="needs-translation">Create a shortcut to this page?</target>
+      </trans-unit>
+      <trans-unit id="labels.makeBookmark">
+        <source>Create a bookmark to this page</source>
+        <target state="needs-translation">Create a bookmark to this page</target>
+      </trans-unit>
+      <trans-unit id="labels.lockedRecord">
+        <source>The user '%s' began to edit this record %s ago.</source>
+        <target state="needs-translation">The user '%s' began to edit this record %s ago.</target>
+      </trans-unit>
+      <trans-unit id="labels.lockedRecord_content">
+        <source>The user '%s' began to edit content on this page %s ago.</source>
+        <target state="needs-translation">The user '%s' began to edit content on this page %s ago.</target>
+      </trans-unit>
+      <trans-unit id="labels.lockedRecordUser">
+        <source>The %s '%s' began to edit this record %s ago.</source>
+        <target state="needs-translation">The %s '%s' began to edit this record %s ago.</target>
+      </trans-unit>
+      <trans-unit id="labels.lockedRecordUser_content">
+        <source>The %s '%s' began to edit content on this page %s ago.</source>
+        <target state="needs-translation">The %s '%s' began to edit content on this page %s ago.</target>
+      </trans-unit>
+      <trans-unit id="labels.user">
+        <source>User</source>
+        <target state="needs-translation">User</target>
+      </trans-unit>
+      <trans-unit id="labels.beUser">
+        <source>BE-User</source>
+        <target state="needs-translation">BE-User</target>
+      </trans-unit>
+      <trans-unit id="labels.feUser">
+        <source>FE-User</source>
+        <target state="needs-translation">FE-User</target>
+      </trans-unit>
+      <trans-unit id="labels.unknownUser">
+        <source>-Unknown-</source>
+        <target state="needs-translation">-Unknown-</target>
+      </trans-unit>
+      <trans-unit id="labels.showRecords">
+        <source>Show records</source>
+        <target state="needs-translation">Show records</target>
+      </trans-unit>
+      <trans-unit id="labels.path">
+        <source>Path</source>
+        <target state="needs-translation">Path</target>
+      </trans-unit>
+      <trans-unit id="labels.resetFilter">
+        <source>Reset Filter</source>
+        <target state="needs-translation">Reset Filter</target>
+      </trans-unit>
+      <trans-unit id="labels.table">
+        <source>Table</source>
+        <target state="needs-translation">Table</target>
+      </trans-unit>
+      <trans-unit id="labels.upOneLevel">
+        <source>Up one level</source>
+        <target state="needs-translation">Up one level</target>
+      </trans-unit>
+      <trans-unit id="labels.expandTable">
+        <source>Expand table</source>
+        <target state="needs-translation">Expand table</target>
+      </trans-unit>
+      <trans-unit id="labels.collapseTable">
+        <source>Collapse table</source>
+        <target state="needs-translation">Collapse table</target>
+      </trans-unit>
+      <trans-unit id="labels.enterSearchString">
+        <source>Enter search term</source>
+        <target state="needs-translation">Enter search term</target>
+      </trans-unit>
+      <trans-unit id="labels.enterSearchLevels">
+        <source>This page|1 level down|2 levels down|3 levels down|4 levels down</source>
+        <target state="needs-translation">This page|1 level down|2 levels down|3 levels down|4 levels down</target>
+      </trans-unit>
+      <trans-unit id="labels.searchLevel.0">
+        <source>This page</source>
+        <target state="needs-translation">This page</target>
+      </trans-unit>
+      <trans-unit id="labels.searchLevel.1">
+        <source>1 level down</source>
+        <target state="needs-translation">1 level down</target>
+      </trans-unit>
+      <trans-unit id="labels.searchLevel.2">
+        <source>2 levels down</source>
+        <target state="needs-translation">2 levels down</target>
+      </trans-unit>
+      <trans-unit id="labels.searchLevel.3">
+        <source>3 levels down</source>
+        <target state="needs-translation">3 levels down</target>
+      </trans-unit>
+      <trans-unit id="labels.searchLevel.4">
+        <source>4 levels down</source>
+        <target state="needs-translation">4 levels down</target>
+      </trans-unit>
+      <trans-unit id="labels.searchLevel.infinite">
+        <source>Infinite levels</source>
+        <target state="needs-translation">Infinite levels</target>
+      </trans-unit>
+      <trans-unit id="labels.noEditPermission">
+        <source>Sorry, you didn't have proper permissions to perform this change.</source>
+        <target state="needs-translation">Sorry, you didn't have proper permissions to perform this change.</target>
+      </trans-unit>
+      <trans-unit id="labels.fieldsMissing">
+        <source>The fields marked with an exclamation mark are not yet correctly filled in. Please complete them properly.</source>
+        <target state="needs-translation">The fields marked with an exclamation mark are not yet correctly filled in. Please complete them properly.</target>
+      </trans-unit>
+      <trans-unit id="labels.fieldsChanged" xml:space="preserve">
+				<source>There are unsaved changes in the form!
+Do you want to continue WITHOUT saving?</source>
+			<target state="needs-translation">There are unsaved changes in the form!
+Do you want to continue WITHOUT saving?</target></trans-unit>
+      <trans-unit id="labels.remainingCharacters">
+        <source>Remaining characters: {0}</source>
+        <target state="needs-translation">Remaining characters: {0}</target>
+      </trans-unit>
+      <trans-unit id="labels.maxItemsAllowed">
+        <source>A maximum of {0} child records are allowed.</source>
+        <target state="needs-translation">A maximum of {0} child records are allowed.</target>
+      </trans-unit>
+      <trans-unit id="labels.noRTEfound">
+        <source>Notice: This field can only be edited with a Rich Text Editor. No editor is currently available or enabled.</source>
+        <target state="needs-translation">Notice: This field can only be edited with a Rich Text Editor. No editor is currently available or enabled.</target>
+      </trans-unit>
+      <trans-unit id="labels.recordInformation">
+        <source>Record information</source>
+        <target state="needs-translation">Record information</target>
+      </trans-unit>
+      <trans-unit id="labels.disableRTE">
+        <source>Disable Rich Text Editor (RTE)</source>
+        <target state="needs-translation">Disable Rich Text Editor (RTE)</target>
+      </trans-unit>
+      <trans-unit id="labels._CONTROL_">
+        <source>Control</source>
+        <target state="needs-translation">Control</target>
+      </trans-unit>
+      <trans-unit id="labels._PATH_">
+        <source>Path</source>
+        <target state="needs-translation">Path</target>
+      </trans-unit>
+      <trans-unit id="labels._LOCALIZATION_">
+        <source>Localization</source>
+        <target state="needs-translation">Localization</target>
+      </trans-unit>
+      <trans-unit id="labels.setFields">
+        <source>Set fields</source>
+        <target state="needs-translation">Set fields</target>
+      </trans-unit>
+      <trans-unit id="labels.search">
+        <source>Search</source>
+        <target state="needs-translation">Search</target>
+      </trans-unit>
+      <trans-unit id="labels.author">
+        <source>Author</source>
+        <target state="needs-translation">Author</target>
+      </trans-unit>
+      <trans-unit id="labels.note">
+        <source>Note</source>
+        <target state="needs-translation">Note</target>
+      </trans-unit>
+      <trans-unit id="labels.category">
+        <source>Category</source>
+        <target state="needs-translation">Category</target>
+      </trans-unit>
+      <trans-unit id="labels.reload">
+        <source>Reload</source>
+        <target state="needs-translation">Reload</target>
+      </trans-unit>
+      <trans-unit id="labels.csv">
+        <source>Download CSV file</source>
+        <target state="needs-translation">Download CSV file</target>
+      </trans-unit>
+      <trans-unit id="labels.clear_cache">
+        <source>Clear cache for this page</source>
+        <target state="needs-translation">Clear cache for this page</target>
+      </trans-unit>
+      <trans-unit id="labels.no_title">
+        <source>No title</source>
+        <target state="needs-translation">No title</target>
+      </trans-unit>
+      <trans-unit id="labels.cancel">
+        <source>Cancel</source>
+        <target state="needs-translation">Cancel</target>
+      </trans-unit>
+      <trans-unit id="labels.hidden">
+        <source>Hidden</source>
+        <target state="needs-translation">Hidden</target>
+      </trans-unit>
+      <trans-unit id="labels.starttime">
+        <source>Start</source>
+        <target state="needs-translation">Start</target>
+      </trans-unit>
+      <trans-unit id="labels.endtime">
+        <source>End</source>
+        <target state="needs-translation">End</target>
+      </trans-unit>
+      <trans-unit id="labels.minutesHoursDaysYears">
+        <source>min|hrs|days|yrs|min|hour|day|year</source>
+        <target state="needs-translation">min|hrs|days|yrs|min|hour|day|year</target>
+      </trans-unit>
+      <trans-unit id="labels.menu">
+        <source>Menu</source>
+        <target state="needs-translation">Menu</target>
+      </trans-unit>
+      <trans-unit id="labels.showPage">
+        <source>View webpage</source>
+        <target state="needs-translation">View webpage</target>
+      </trans-unit>
+      <trans-unit id="labels.showList">
+        <source>Show record list</source>
+        <target state="needs-translation">Show record list</target>
+      </trans-unit>
+      <trans-unit id="labels.days">
+        <source>days</source>
+        <target state="needs-translation">days</target>
+      </trans-unit>
+      <trans-unit id="labels.depth_0">
+        <source>This page</source>
+        <target state="needs-translation">This page</target>
+      </trans-unit>
+      <trans-unit id="labels.depth_1">
+        <source>1 level</source>
+        <target state="needs-translation">1 level</target>
+      </trans-unit>
+      <trans-unit id="labels.depth_2">
+        <source>2 levels</source>
+        <target state="needs-translation">2 levels</target>
+      </trans-unit>
+      <trans-unit id="labels.depth_3">
+        <source>3 levels</source>
+        <target state="needs-translation">3 levels</target>
+      </trans-unit>
+      <trans-unit id="labels.depth_4">
+        <source>4 levels</source>
+        <target state="needs-translation">4 levels</target>
+      </trans-unit>
+      <trans-unit id="labels.depth_infi">
+        <source>Infinite</source>
+        <target state="needs-translation">Infinite</target>
+      </trans-unit>
+      <trans-unit id="labels.allow">
+        <source>Allow</source>
+        <target state="needs-translation">Allow</target>
+      </trans-unit>
+      <trans-unit id="labels.deny">
+        <source>Deny</source>
+        <target state="needs-translation">Deny</target>
+      </trans-unit>
+      <trans-unit id="labels.automatic">
+        <source>Auto</source>
+        <target state="needs-translation">Auto</target>
+      </trans-unit>
+      <trans-unit id="labels.enabled">
+        <source>Enabled</source>
+        <target state="needs-translation">Enabled</target>
+      </trans-unit>
+      <trans-unit id="labels.show">
+        <source>Show</source>
+        <target state="needs-translation">Show</target>
+      </trans-unit>
+      <trans-unit id="labels.generalTab">
+        <source>General</source>
+        <target state="needs-translation">General</target>
+      </trans-unit>
+      <trans-unit id="labels.refresh">
+        <source>Reload the tree from server</source>
+        <target state="needs-translation">Reload the tree from server</target>
+      </trans-unit>
+      <trans-unit id="labels.temporaryDBmount">
+        <source>Cancel temporary DB mount</source>
+        <target state="needs-translation">Cancel temporary DB mount</target>
+      </trans-unit>
+      <trans-unit id="labels.refreshList">
+        <source>Reload list from server</source>
+        <target state="needs-translation">Reload list from server</target>
+      </trans-unit>
+      <trans-unit id="labels.close">
+        <source>Close</source>
+        <target state="needs-translation">Close</target>
+      </trans-unit>
+      <trans-unit id="labels.tableWizard"><source>Table Wizard</source>
+			·<target state="needs-translation">Table Wizard</target></trans-unit>
+      <trans-unit id="labels.new">
+        <source>NEW</source>
+        <target state="needs-translation">NEW</target>
+      </trans-unit>
+      <trans-unit id="labels.list">
+        <source>List</source>
+        <target state="needs-translation">List</target>
+      </trans-unit>
+      <trans-unit id="labels.link">
+        <source>Link</source>
+        <target state="needs-translation">Link</target>
+      </trans-unit>
+      <trans-unit id="labels.edit">
+        <source>Edit</source>
+        <target state="needs-translation">Edit</target>
+      </trans-unit>
+      <trans-unit id="labels.createNew">
+        <source>Create new</source>
+        <target state="needs-translation">Create new</target>
+      </trans-unit>
+      <trans-unit id="labels.createNewPage">
+        <source>Create new %s</source>
+        <target state="needs-translation">Create new %s</target>
+      </trans-unit>
+      <trans-unit id="labels.createNewRecord">
+        <source>Create new %s on page "%s"</source>
+        <target state="needs-translation">Create new %s on page "%s"</target>
+      </trans-unit>
+      <trans-unit id="labels.createNewRecordRootLevel">
+        <source>Create new %s on root level</source>
+        <target state="needs-translation">Create new %s on root level</target>
+      </trans-unit>
+      <trans-unit id="labels.editPage">
+        <source>Edit %s "%s"</source>
+        <target state="needs-translation">Edit %s "%s"</target>
+      </trans-unit>
+      <trans-unit id="labels.editRecord">
+        <source>Edit %s "%s" on page "%s"</source>
+        <target state="needs-translation">Edit %s "%s" on page "%s"</target>
+      </trans-unit>
+      <trans-unit id="labels.editRecordNoTitle">
+        <source>Edit %s on page "%s"</source>
+        <target state="needs-translation">Edit %s on page "%s"</target>
+      </trans-unit>
+      <trans-unit id="labels.editRecordRootLevel">
+        <source>Edit %s "%s" on root level</source>
+        <target state="needs-translation">Edit %s "%s" on root level</target>
+      </trans-unit>
+      <trans-unit id="labels.rootLevel">
+        <source>root level</source>
+        <target state="needs-translation">root level</target>
+      </trans-unit>
+      <trans-unit id="labels.addnew">
+        <source>Add new</source>
+        <target state="needs-translation">Add new</target>
+      </trans-unit>
+      <trans-unit id="labels.toggleall">
+        <source>Toggle all</source>
+        <target state="needs-translation">Toggle all</target>
+      </trans-unit>
+      <trans-unit id="labels.selected">
+        <source>Selected Items</source>
+        <target state="needs-translation">Selected Items</target>
+      </trans-unit>
+      <trans-unit id="labels.items">
+        <source>Available Items</source>
+        <target state="needs-translation">Available Items</target>
+      </trans-unit>
+      <trans-unit id="labels.remove_selected">
+        <source>Remove selected items</source>
+        <target state="needs-translation">Remove selected items</target>
+      </trans-unit>
+      <trans-unit id="labels.move_to_top">
+        <source>Move selected items to top</source>
+        <target state="needs-translation">Move selected items to top</target>
+      </trans-unit>
+      <trans-unit id="labels.move_up">
+        <source>Move selected items upwards</source>
+        <target state="needs-translation">Move selected items upwards</target>
+      </trans-unit>
+      <trans-unit id="labels.move_down">
+        <source>Move selected items downwards</source>
+        <target state="needs-translation">Move selected items downwards</target>
+      </trans-unit>
+      <trans-unit id="labels.move_to_bottom">
+        <source>Move selected items to bottom</source>
+        <target state="needs-translation">Move selected items to bottom</target>
+      </trans-unit>
+      <trans-unit id="labels.move">
+        <source>Move this item</source>
+        <target state="needs-translation">Move this item</target>
+      </trans-unit>
+      <trans-unit id="labels.browse_file">
+        <source>Browse for files</source>
+        <target state="needs-translation">Browse for files</target>
+      </trans-unit>
+      <trans-unit id="labels.browse_db">
+        <source>Browse for records</source>
+        <target state="needs-translation">Browse for records</target>
+      </trans-unit>
+      <trans-unit id="labels.clipInsert_file">
+        <source>Insert %s file(s) from the clipboard</source>
+        <target state="needs-translation">Insert %s file(s) from the clipboard</target>
+      </trans-unit>
+      <trans-unit id="labels.clipInsert_db">
+        <source>Insert %s record(s) from the clipboard</source>
+        <target state="needs-translation">Insert %s record(s) from the clipboard</target>
+      </trans-unit>
+      <trans-unit id="labels.generalOptions">
+        <source>General options</source>
+        <target state="needs-translation">General options</target>
+      </trans-unit>
+      <trans-unit id="labels.generalOptions_more">
+        <source>General options (continued)</source>
+        <target state="needs-translation">General options (continued)</target>
+      </trans-unit>
+      <trans-unit id="labels.allTables">
+        <source>[All tables]</source>
+        <target state="needs-translation">[All tables]</target>
+      </trans-unit>
+      <trans-unit id="labels.noMatchingValue">
+        <source>INVALID VALUE ("%s")</source>
+        <target state="needs-translation">INVALID VALUE ("%s")</target>
+      </trans-unit>
+      <trans-unit id="labels.thumbmode_clip">
+        <source>Show Thumbnails on ClipBoard</source>
+        <target state="needs-translation">Show Thumbnails on ClipBoard</target>
+      </trans-unit>
+      <trans-unit id="labels.copymode">
+        <source>Copy items instead of moving them</source>
+        <target state="needs-translation">Copy items instead of moving them</target>
+      </trans-unit>
+      <trans-unit id="labels.normal">
+        <source>Normal (single record mode)</source>
+        <target state="needs-translation">Normal (single record mode)</target>
+      </trans-unit>
+      <trans-unit id="labels.normal-description">
+        <source>"Normal" clipboard allows to copy/move one record at time.</source>
+        <target state="needs-translation">"Normal" clipboard allows to copy/move one record at time.</target>
+      </trans-unit>
+      <trans-unit id="labels.cliptabs">
+        <source>Clipboard #</source>
+        <target state="needs-translation">Clipboard #</target>
+      </trans-unit>
+      <trans-unit id="labels.cliptabs-name">
+        <source>Clipboard #%s (multi-selection mode)</source>
+        <target state="needs-translation">Clipboard #%s (multi-selection mode)</target>
+      </trans-unit>
+      <trans-unit id="labels.cliptabs-description">
+        <source>This clipboard allows to select and edit/copy/move multiple records at once. Choose it to show a checkbox by each record.</source>
+        <target state="needs-translation">This clipboard allows to select and edit/copy/move multiple records at once. Choose it to show a checkbox by each record.</target>
+      </trans-unit>
+      <trans-unit id="labels.clipboard.delete_elements">
+        <source>Delete elements</source>
+        <target state="needs-translation">Delete elements</target>
+      </trans-unit>
+      <trans-unit id="labels.clipboard.clear_clipboard">
+        <source>Clear clipboard</source>
+        <target state="needs-translation">Clear clipboard</target>
+      </trans-unit>
+      <trans-unit id="labels.removeItem">
+        <source>Remove item</source>
+        <target state="needs-translation">Remove item</target>
+      </trans-unit>
+      <trans-unit id="labels.holdDownCTRL">
+        <source>Important: Hold down the CTRL key while toggling elements in this list!</source>
+        <target state="needs-translation">Important: Hold down the CTRL key while toggling elements in this list!</target>
+      </trans-unit>
+      <trans-unit id="labels.revertSelection">
+        <source>Revert selection</source>
+        <target state="needs-translation">Revert selection</target>
+      </trans-unit>
+      <trans-unit id="labels.setAllCheckboxes">
+        <source>Select All Checkboxes</source>
+        <target state="needs-translation">Select All Checkboxes</target>
+      </trans-unit>
+      <trans-unit id="labels.checkAll">
+        <source>Check all</source>
+        <target state="needs-translation">Check all</target>
+      </trans-unit>
+      <trans-unit id="labels.uncheckAll">
+        <source>Uncheck all</source>
+        <target state="needs-translation">Uncheck all</target>
+      </trans-unit>
+      <trans-unit id="labels.placeholder.override">
+        <source>Set element specific value (Default: "%s")</source>
+        <target state="needs-translation">Set element specific value (Default: "%s")</target>
+      </trans-unit>
+      <trans-unit id="labels.placeholder.override_not_available">
+        <source>Set element specific value (No default)</source>
+        <target state="needs-translation">Set element specific value (No default)</target>
+      </trans-unit>
+      <trans-unit id="labels.nullCheckbox">
+        <source>Set value</source>
+        <target state="needs-translation">Set value</target>
+      </trans-unit>
+      <trans-unit id="labels.changeInOrig">
+        <source>Changed in original translation</source>
+        <target state="needs-translation">Changed in original translation</target>
+      </trans-unit>
+      <trans-unit id="labels.expandAll">
+        <source>Expand all</source>
+        <target state="needs-translation">Expand all</target>
+      </trans-unit>
+      <trans-unit id="labels.new_section">
+        <source>Create new</source>
+        <target state="needs-translation">Create new</target>
+      </trans-unit>
+      <trans-unit id="labels.count">
+        <source>Quantity</source>
+        <target state="needs-translation">Quantity</target>
+      </trans-unit>
+      <trans-unit id="labels.findRecord">
+        <source>Find records</source>
+        <target state="needs-translation">Find records</target>
+      </trans-unit>
+      <trans-unit id="labels.noRecordFound">
+        <source>No record found</source>
+        <target state="needs-translation">No record found</target>
+      </trans-unit>
+      <trans-unit id="labels.title.searchIcon">
+        <source>Toggle search toolbar</source>
+        <target state="needs-translation">Toggle search toolbar</target>
+      </trans-unit>
+      <trans-unit id="labels.title.searchString">
+        <source>Search term</source>
+        <target state="needs-translation">Search term</target>
+      </trans-unit>
+      <trans-unit id="labels.title.limit">
+        <source>Limit</source>
+        <target state="needs-translation">Limit</target>
+      </trans-unit>
+      <trans-unit id="labels.title.search">
+        <source>Search</source>
+        <target state="needs-translation">Search</target>
+      </trans-unit>
+      <trans-unit id="labels.title.search_levels">
+        <source>Search levels</source>
+        <target state="needs-translation">Search levels</target>
+      </trans-unit>
+      <trans-unit id="labels.label.searchString">
+        <source>Search term</source>
+        <target state="needs-translation">Search term</target>
+      </trans-unit>
+      <trans-unit id="labels.label.limit">
+        <source>Limit</source>
+        <target state="needs-translation">Limit</target>
+      </trans-unit>
+      <trans-unit id="labels.label.search_levels">
+        <source>Search levels</source>
+        <target state="needs-translation">Search levels</target>
+      </trans-unit>
+      <trans-unit id="labels.recordReadonly">
+        <source>The table is defined as readonly and can't be edited.</source>
+        <target state="needs-translation">The table is defined as readonly and can't be edited.</target>
+      </trans-unit>
+      <trans-unit id="alttext.suggestSearching">
+        <source>Searching...</source>
+        <target state="needs-translation">Searching...</target>
+      </trans-unit>
+      <trans-unit id="ver.online">
+        <source>ONLINE</source>
+        <target state="needs-translation">ONLINE</target>
+      </trans-unit>
+      <trans-unit id="ver.mgm">
+        <source>Version Management</source>
+        <target state="needs-translation">Version Management</target>
+      </trans-unit>
+      <trans-unit id="ver.selVer">
+        <source>Select version</source>
+        <target state="needs-translation">Select version</target>
+      </trans-unit>
+      <trans-unit id="ver.swap">
+        <source>Swap/Publish</source>
+        <target state="needs-translation">Swap/Publish</target>
+      </trans-unit>
+      <trans-unit id="ver.swapPage">
+        <source>Publish this version of the page including content</source>
+        <target state="needs-translation">Publish this version of the page including content</target>
+      </trans-unit>
+      <trans-unit id="TYPO3_Element_Browser">
+        <source>TYPO3 Element Browser</source>
+        <target state="needs-translation">TYPO3 Element Browser</target>
+      </trans-unit>
+      <trans-unit id="labels.referencesToRecord">
+        <source>(There are %s reference(s) to this record!)</source>
+        <target state="needs-translation">(There are %s reference(s) to this record!)</target>
+      </trans-unit>
+      <trans-unit id="labels.referencesToFolder">
+        <source>(There are %s reference(s) to this folder!)</source>
+        <target state="needs-translation">(There are %s reference(s) to this folder!)</target>
+      </trans-unit>
+      <trans-unit id="labels.referencesToFile">
+        <source>(There are %s reference(s) to this file!)</source>
+        <target state="needs-translation">(There are %s reference(s) to this file!)</target>
+      </trans-unit>
+      <trans-unit id="labels.translationsOfRecord">
+        <source>(This record has %s translation(s) which will be deleted, too!)</source>
+        <target state="needs-translation">(This record has %s translation(s) which will be deleted, too!)</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.viewItem">
+        <source>View Item</source>
+        <target state="needs-translation">View Item</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.referencesToThisItem">
+        <source>References to this item</source>
+        <target state="needs-translation">References to this item</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.referencesFromThisItem">
+        <source>References from this item</source>
+        <target state="needs-translation">References from this item</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.file">
+        <source>File</source>
+        <target state="needs-translation">File</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.dimensions">
+        <source>Dimensions</source>
+        <target state="needs-translation">Dimensions</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.filesize">
+        <source>Size</source>
+        <target state="needs-translation">Size</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.pixels">
+        <source>Pixels</source>
+        <target state="needs-translation">Pixels</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.files">
+        <source>files</source>
+        <target state="needs-translation">files</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.cannotDisplayArchive">
+        <source>Sorry, TYPO3_CONF_VARS[BE][disable_exec_function] was set, so cannot display content of archive file.</source>
+        <target state="needs-translation">Sorry, TYPO3_CONF_VARS[BE][disable_exec_function] was set, so cannot display content of archive file.</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.table">
+        <source>Table</source>
+        <target state="needs-translation">Table</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.uid">
+        <source>Uid</source>
+        <target state="needs-translation">Uid</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.title">
+        <source>Title</source>
+        <target state="needs-translation">Title</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.field">
+        <source>Field</source>
+        <target state="needs-translation">Field</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.flexpointer">
+        <source>Flexpointer</source>
+        <target state="needs-translation">Flexpointer</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.softrefKey">
+        <source>Softref Key</source>
+        <target state="needs-translation">Softref Key</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.sorting">
+        <source>Sorting</source>
+        <target state="needs-translation">Sorting</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.refTable">
+        <source>Ref Table</source>
+        <target state="needs-translation">Ref Table</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.refUid">
+        <source>Ref Uid</source>
+        <target state="needs-translation">Ref Uid</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.refString">
+        <source>Ref String</source>
+        <target state="needs-translation">Ref String</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.ftp_area">
+        <source>FTP AREA</source>
+        <target state="needs-translation">FTP AREA</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.missing_record">
+        <source>Missing</source>
+        <target state="needs-translation">Missing</target>
+      </trans-unit>
+      <trans-unit id="db_new.php.pagetitle">
+        <source>New record</source>
+        <target state="needs-translation">New record</target>
+      </trans-unit>
+      <trans-unit id="db_new.php.after">
+        <source>after</source>
+        <target state="needs-translation">after</target>
+      </trans-unit>
+      <trans-unit id="db_new.php.inside">
+        <source>inside</source>
+        <target state="needs-translation">inside</target>
+      </trans-unit>
+      <trans-unit id="file_upload.php.pagetitle">
+        <source>Upload files</source>
+        <target state="needs-translation">Upload files</target>
+      </trans-unit>
+      <trans-unit id="file_upload.php.submit">
+        <source>Upload files</source>
+        <target state="needs-translation">Upload files</target>
+      </trans-unit>
+      <trans-unit id="file_upload.php.files">
+        <source>files</source>
+        <target state="needs-translation">files</target>
+      </trans-unit>
+      <trans-unit id="file_upload.dropzonehint.title">
+        <source>Drag &amp; drop to upload files</source>
+        <target state="needs-translation">Drag &amp; drop to upload files</target>
+      </trans-unit>
+      <trans-unit id="file_upload.dropzonehint.message">
+        <source>Drop your files here, or &lt;u&gt;click, browse &amp; choose files&lt;/u&gt;</source>
+        <target state="needs-translation">Drop your files here, or &lt;u&gt;click, browse &amp; choose files&lt;/u&gt;</target>
+      </trans-unit>
+      <trans-unit id="file_upload.select-and-submit">
+        <source>Select &amp; upload files</source>
+        <target state="needs-translation">Select &amp; upload files</target>
+      </trans-unit>
+      <trans-unit id="file_upload.maxFileSizeExceeded">
+        <source>File "{0}" exceeds maximum file size of {1}!</source>
+        <target state="needs-translation">File "{0}" exceeds maximum file size of {1}!</target>
+      </trans-unit>
+      <trans-unit id="file_upload.fileNotAllowed">
+        <source>Filename "{0}" is not allowed!</source>
+        <target state="needs-translation">Filename "{0}" is not allowed!</target>
+      </trans-unit>
+      <trans-unit id="file_upload.fileExtensionExpected">
+        <source>Upload failed! A file with "{0}" extension is expected!</source>
+        <target state="needs-translation">Upload failed! A file with "{0}" extension is expected!</target>
+      </trans-unit>
+      <trans-unit id="file_upload.uploadFailed">
+        <source>Upload of file "{0}" failed!</source>
+        <target state="needs-translation">Upload of file "{0}" failed!</target>
+      </trans-unit>
+      <trans-unit id="file_upload.upload-in-progress">
+        <source>File upload in progress...</source>
+        <target state="needs-translation">File upload in progress...</target>
+      </trans-unit>
+      <trans-unit id="file_upload.upload-progress-info">
+        <source>Uploading file {0} out of {1} files.</source>
+        <target state="needs-translation">Uploading file {0} out of {1} files.</target>
+      </trans-unit>
+      <trans-unit id="file_upload.upload-finished">
+        <source>Upload complete! Filelist reloading...</source>
+        <target state="needs-translation">Upload complete! Filelist reloading...</target>
+      </trans-unit>
+      <trans-unit id="file_upload.overwriteExistingFiles">
+        <source>Shall existing files be overwritten?</source>
+        <target state="needs-translation">Shall existing files be overwritten?</target>
+      </trans-unit>
+      <trans-unit id="file_upload.header.originalFile">
+        <source>Original file</source>
+        <target state="needs-translation">Original file</target>
+      </trans-unit>
+      <trans-unit id="file_upload.header.uploadedFile">
+        <source>Uploaded file</source>
+        <target state="needs-translation">Uploaded file</target>
+      </trans-unit>
+      <trans-unit id="file_upload.header.action">
+        <source>Action</source>
+        <target state="needs-translation">Action</target>
+      </trans-unit>
+      <trans-unit id="file_upload.existingfiles.title">
+        <source>Some files exist already</source>
+        <target state="needs-translation">Some files exist already</target>
+      </trans-unit>
+      <trans-unit id="file_upload.existingfiles.description">
+        <source>Some files you wanted to upload exist already on the system. Please select what you want to do with each file.</source>
+        <target state="needs-translation">Some files you wanted to upload exist already on the system. Please select what you want to do with each file.</target>
+      </trans-unit>
+      <trans-unit id="file_upload.actions.skip">
+        <source>Skip the file</source>
+        <target state="needs-translation">Skip the file</target>
+      </trans-unit>
+      <trans-unit id="file_upload.actions.rename">
+        <source>Rename</source>
+        <target state="needs-translation">Rename</target>
+      </trans-unit>
+      <trans-unit id="file_upload.actions.override">
+        <source>Overwrite</source>
+        <target state="needs-translation">Overwrite</target>
+      </trans-unit>
+      <trans-unit id="file_upload.actions.use_existing">
+        <source>Use existing file</source>
+        <target state="needs-translation">Use existing file</target>
+      </trans-unit>
+      <trans-unit id="file_upload.actions.all.label">
+        <source>Alternatively, choose a mass action</source>
+        <target state="needs-translation">Alternatively, choose a mass action</target>
+      </trans-unit>
+      <trans-unit id="file_upload.actions.all.empty">
+        <source>Please choose</source>
+        <target state="needs-translation">Please choose</target>
+      </trans-unit>
+      <trans-unit id="file_upload.actions.all.skip">
+        <source>Skip all files</source>
+        <target state="needs-translation">Skip all files</target>
+      </trans-unit>
+      <trans-unit id="file_upload.actions.all.rename">
+        <source>Rename all files</source>
+        <target state="needs-translation">Rename all files</target>
+      </trans-unit>
+      <trans-unit id="file_upload.actions.all.override">
+        <source>Overwrite all files</source>
+        <target state="needs-translation">Overwrite all files</target>
+      </trans-unit>
+      <trans-unit id="file_upload.actions.all.use_existing">
+        <source>Use existing files</source>
+        <target state="needs-translation">Use existing files</target>
+      </trans-unit>
+      <trans-unit id="file_upload.button.cancel">
+        <source>Cancel</source>
+        <target state="needs-translation">Cancel</target>
+      </trans-unit>
+      <trans-unit id="file_upload.button.continue">
+        <source>Continue with selected actions</source>
+        <target state="needs-translation">Continue with selected actions</target>
+      </trans-unit>
+      <trans-unit id="file_upload.php.number_of_files">
+        <source>Number of files</source>
+        <target state="needs-translation">Number of files</target>
+      </trans-unit>
+      <trans-unit id="file_rename.exists.title">
+        <source>File exists already</source>
+        <target state="needs-translation">File exists already</target>
+      </trans-unit>
+      <trans-unit id="file_rename.exists.description">
+        <source>You want to rename the file "{0}" to "{1}", but such a file already exists. How do you want to proceed?</source>
+        <target state="needs-translation">You want to rename the file "{0}" to "{1}", but such a file already exists. How do you want to proceed?</target>
+      </trans-unit>
+      <trans-unit id="file_rename.actions.cancel">
+        <source>Cancel</source>
+        <target state="needs-translation">Cancel</target>
+      </trans-unit>
+      <trans-unit id="file_rename.actions.rename">
+        <source>Rename with unique name</source>
+        <target state="needs-translation">Rename with unique name</target>
+      </trans-unit>
+      <trans-unit id="file_rename.actions.override">
+        <source>Overwrite</source>
+        <target state="needs-translation">Overwrite</target>
+      </trans-unit>
+      <trans-unit id="file_rename.php.pagetitle">
+        <source>Rename</source>
+        <target state="needs-translation">Rename</target>
+      </trans-unit>
+      <trans-unit id="file_rename.php.submit">
+        <source>Rename</source>
+        <note from="developer">This label is not used since TYPO3 v9.</note>
+        <target state="needs-translation">Rename</target>
+      </trans-unit>
+      <trans-unit id="file_rename.php.label.target.file">
+        <source>New file name</source>
+        <target state="needs-translation">New file name</target>
+      </trans-unit>
+      <trans-unit id="file_rename.php.label.target.folder">
+        <source>New folder name</source>
+        <target state="needs-translation">New folder name</target>
+      </trans-unit>
+      <trans-unit id="file_replace.php.pagetitle">
+        <source>Replace</source>
+        <target state="needs-translation">Replace</target>
+      </trans-unit>
+      <trans-unit id="file_replace.php.selectfile">
+        <source>Select new file</source>
+        <target state="needs-translation">Select new file</target>
+      </trans-unit>
+      <trans-unit id="file_replace.php.keepfiletitle">
+        <source>Keep the current filename?</source>
+        <target state="needs-translation">Keep the current filename?</target>
+      </trans-unit>
+      <trans-unit id="file_replace.php.browse">
+        <source>Browse</source>
+        <target state="needs-translation">Browse</target>
+      </trans-unit>
+      <trans-unit id="file_replace.php.submit">
+        <source>Replace</source>
+        <target state="needs-translation">Replace</target>
+      </trans-unit>
+      <trans-unit id="file_edit.php.pagetitle">
+        <source>Edit</source>
+        <target state="needs-translation">Edit</target>
+      </trans-unit>
+      <trans-unit id="file_edit.php.submit">
+        <source>Save</source>
+        <target state="needs-translation">Save</target>
+      </trans-unit>
+      <trans-unit id="file_edit.php.saveAndClose">
+        <source>Save and Close</source>
+        <target state="needs-translation">Save and Close</target>
+      </trans-unit>
+      <trans-unit id="file_edit.php.coundNot">
+        <source>This filetype cannot be edited.&lt;br /&gt;The file must have an extension like:&lt;br /&gt;&lt;br /&gt; &lt;b&gt;%s&lt;/b&gt;</source>
+        <target state="needs-translation">This filetype cannot be edited.&lt;br /&gt;The file must have an extension like:&lt;br /&gt;&lt;br /&gt; &lt;b&gt;%s&lt;/b&gt;</target>
+      </trans-unit>
+      <trans-unit id="file_newfolder.php.pagetitle">
+        <source>New file or folder</source>
+        <target state="needs-translation">New file or folder</target>
+      </trans-unit>
+      <trans-unit id="file_newfolder.php.newfolders">
+        <source>Create new folders</source>
+        <target state="needs-translation">Create new folders</target>
+      </trans-unit>
+      <trans-unit id="file_newfolder.php.label_newfolder">
+        <source>Folder</source>
+        <target state="needs-translation">Folder</target>
+      </trans-unit>
+      <trans-unit id="file_newfolder.php.submit">
+        <source>Create folders</source>
+        <target state="needs-translation">Create folders</target>
+      </trans-unit>
+      <trans-unit id="create_folder.title">
+        <source>Create new folder</source>
+        <target state="needs-translation">Create new folder</target>
+      </trans-unit>
+      <trans-unit id="create_folder.submit">
+        <source>Create folder</source>
+        <target state="needs-translation">Create folder</target>
+      </trans-unit>
+      <trans-unit id="file_newfolder.php.folders">
+        <source>folders</source>
+        <target state="needs-translation">folders</target>
+      </trans-unit>
+      <trans-unit id="file_newfolder.php.newfile_submit">
+        <source>Create file</source>
+        <target state="needs-translation">Create file</target>
+      </trans-unit>
+      <trans-unit id="file_newfolder.php.newfile">
+        <source>Create new textfile</source>
+        <target state="needs-translation">Create new textfile</target>
+      </trans-unit>
+      <trans-unit id="file_newfolder.php.label_newfile">
+        <source>File name</source>
+        <target state="needs-translation">File name</target>
+      </trans-unit>
+      <trans-unit id="file_newfolder.php.number_of_folders">
+        <source>Number of folders</source>
+        <target state="needs-translation">Number of folders</target>
+      </trans-unit>
+      <trans-unit id="online_media.new_media">
+        <source>Add new media asset</source>
+        <target state="needs-translation">Add new media asset</target>
+      </trans-unit>
+      <trans-unit id="online_media.new_media.label">
+        <source>Url of remote source</source>
+        <target state="needs-translation">Url of remote source</target>
+      </trans-unit>
+      <trans-unit id="online_media.new_media.allowedProviders">
+        <source>Allowed media providers</source>
+        <target state="needs-translation">Allowed media providers</target>
+      </trans-unit>
+      <trans-unit id="online_media.new_media.button">
+        <source>Add media by URL</source>
+        <target state="needs-translation">Add media by URL</target>
+      </trans-unit>
+      <trans-unit id="online_media.new_media.submit">
+        <source>Add media</source>
+        <target state="needs-translation">Add media</target>
+      </trans-unit>
+      <trans-unit id="online_media.new_media.added">
+        <source>Added media</source>
+        <target state="needs-translation">Added media</target>
+      </trans-unit>
+      <trans-unit id="online_media.new_media.placeholder">
+        <source>Paste media url here...</source>
+        <target state="needs-translation">Paste media url here...</target>
+      </trans-unit>
+      <trans-unit id="online_media.error.new_media.failed">
+        <source>Adding media failed</source>
+        <target state="needs-translation">Adding media failed</target>
+      </trans-unit>
+      <trans-unit id="online_media.error.invalid_url">
+        <source>Unknown/not allowed URL</source>
+        <target state="needs-translation">Unknown/not allowed URL</target>
+      </trans-unit>
+      <trans-unit id="file_clipupload.php.warning_head">
+        <source>Upload path error</source>
+        <target state="needs-translation">Upload path error</target>
+      </trans-unit>
+      <trans-unit id="file_clipupload.php.warning">
+        <source>No upload-folder is found. You should create a TEMP-folder ("_temp_") in the root of one of your mounts first!</source>
+        <target state="needs-translation">No upload-folder is found. You should create a TEMP-folder ("_temp_") in the root of one of your mounts first!</target>
+      </trans-unit>
+      <trans-unit id="mess.redraw">
+        <source>Redrawing the page will discard the current data. Do you want to continue?</source>
+        <target state="needs-translation">Redrawing the page will discard the current data. Do you want to continue?</target>
+      </trans-unit>
+      <trans-unit id="mess.delete">
+        <source>Are you sure you want to delete '%s'?</source>
+        <target state="needs-translation">Are you sure you want to delete '%s'?</target>
+      </trans-unit>
+      <trans-unit id="mess.deleteClip">
+        <source>Are you sure you want to delete ALL referenced elements (%s) on the clipboard?</source>
+        <target state="needs-translation">Are you sure you want to delete ALL referenced elements (%s) on the clipboard?</target>
+      </trans-unit>
+      <trans-unit id="mess.refresh_login" xml:space="preserve">
+				<source>Your login has probably expired.
+Do you want to refresh it now?</source>
+			<target state="needs-translation">Your login has probably expired.
+Do you want to refresh it now?</target></trans-unit>
+      <trans-unit id="mess.refresh_login_refresh_button">
+        <source>Stay logged in!</source>
+        <target state="needs-translation">Stay logged in!</target>
+      </trans-unit>
+      <trans-unit id="mess.refresh_direct_logout_button">
+        <source>No, log out.</source>
+        <target state="needs-translation">No, log out.</target>
+      </trans-unit>
+      <trans-unit id="mess.refresh_login_logging_in">
+        <source>Logging in...</source>
+        <target state="needs-translation">Logging in...</target>
+      </trans-unit>
+      <trans-unit id="mess.refresh_login_failed">
+        <source>Login failed</source>
+        <target state="needs-translation">Login failed</target>
+      </trans-unit>
+      <trans-unit id="mess.refresh_login_failed_message">
+        <source>Password not correct.</source>
+        <target state="needs-translation">Password not correct.</target>
+      </trans-unit>
+      <trans-unit id="mess.refresh_login_title">
+        <source>Refresh Login to TYPO3 (User: %s)</source>
+        <target state="needs-translation">Refresh Login to TYPO3 (User: %s)</target>
+      </trans-unit>
+      <trans-unit id="mess.refresh_login_username">
+        <source>Username</source>
+        <target state="needs-translation">Username</target>
+      </trans-unit>
+      <trans-unit id="mess.refresh_login_password">
+        <source>Password</source>
+        <target state="needs-translation">Password</target>
+      </trans-unit>
+      <trans-unit id="mess.refresh_login_button">
+        <source>Login</source>
+        <target state="needs-translation">Login</target>
+      </trans-unit>
+      <trans-unit id="mess.refresh_exit_button">
+        <source>Exit</source>
+        <target state="needs-translation">Exit</target>
+      </trans-unit>
+      <trans-unit id="mess.refresh_login_emptyPassword">
+        <source>Empty password is not allowed!</source>
+        <target state="needs-translation">Empty password is not allowed!</target>
+      </trans-unit>
+      <trans-unit id="mess.please_wait">
+        <source>Please wait ...</source>
+        <target state="needs-translation">Please wait ...</target>
+      </trans-unit>
+      <trans-unit id="mess.be_locked">
+        <source>The TYPO3 backend is currently locked for maintenance. Leave this browser window open and the backend will automatically become available again once maintenance is complete.</source>
+        <target state="needs-translation">The TYPO3 backend is currently locked for maintenance. Leave this browser window open and the backend will automatically become available again once maintenance is complete.</target>
+      </trans-unit>
+      <trans-unit id="mess.login_about_to_expire">
+        <source>Your TYPO3 login is about to expire. Please confirm that you want to stay logged in.</source>
+        <target state="needs-translation">Your TYPO3 login is about to expire. Please confirm that you want to stay logged in.</target>
+      </trans-unit>
+      <trans-unit id="mess.refresh_login_logout_button">
+        <source>Log me out</source>
+        <target state="needs-translation">Log me out</target>
+      </trans-unit>
+      <trans-unit id="mess.login_refresh_about_to_expire">
+        <source>Your TYPO3 login is about to expire. Please confirm that you want to be logged out.</source>
+        <target state="needs-translation">Your TYPO3 login is about to expire. Please confirm that you want to be logged out.</target>
+      </trans-unit>
+      <trans-unit id="mess.login_about_to_expire_title">
+        <source>TYPO3 login expiration notice</source>
+        <target state="needs-translation">TYPO3 login expiration notice</target>
+      </trans-unit>
+      <trans-unit id="mess.login_expired">
+        <source>Your TYPO3 login has expired. You need to login again if you want to continue. Otherwise you can close the current browser window.</source>
+        <target state="needs-translation">Your TYPO3 login has expired. You need to login again if you want to continue. Otherwise you can close the current browser window.</target>
+      </trans-unit>
+      <trans-unit id="mess.noSelItemForEdit">
+        <source>Please select one or more items in the list before you can edit.</source>
+        <target state="needs-translation">Please select one or more items in the list before you can edit.</target>
+      </trans-unit>
+      <trans-unit id="mess.refreshRequired.title">
+        <source>Refresh required</source>
+        <target state="needs-translation">Refresh required</target>
+      </trans-unit>
+      <trans-unit id="mess.refreshRequired.content">
+        <source>This change will affect which fields are available in the form. Would you like to save now in order to refresh the display?</source>
+        <target state="needs-translation">This change will affect which fields are available in the form. Would you like to save now in order to refresh the display?</target>
+      </trans-unit>
+      <trans-unit id="mess.move_into">
+        <source>Move "%s" into "%s"?</source>
+        <target state="needs-translation">Move "%s" into "%s"?</target>
+      </trans-unit>
+      <trans-unit id="mess.move_into_colPos">
+        <source>Move "%1$s" into column "%3$s" on page "%2$s"?</source>
+        <target state="needs-translation">Move "%1$s" into column "%3$s" on page "%2$s"?</target>
+      </trans-unit>
+      <trans-unit id="mess.move_after">
+        <source>Move "%s" to after "%s"?</source>
+        <target state="needs-translation">Move "%s" to after "%s"?</target>
+      </trans-unit>
+      <trans-unit id="mess.copy_into">
+        <source>Copy "%s" into "%s"?</source>
+        <target state="needs-translation">Copy "%s" into "%s"?</target>
+      </trans-unit>
+      <trans-unit id="mess.copy_into_colPos">
+        <source>Copy "%1$s" into column "%3$s" on page "%2$s"?</source>
+        <target state="needs-translation">Copy "%1$s" into column "%3$s" on page "%2$s"?</target>
+      </trans-unit>
+      <trans-unit id="mess.copy_after">
+        <source>Copy "%s" to after "%s"?</source>
+        <target state="needs-translation">Copy "%s" to after "%s"?</target>
+      </trans-unit>
+      <trans-unit id="mess.copycb_into">
+        <source>Copy all elements (%s) from the clipboard into "%s"?</source>
+        <target state="needs-translation">Copy all elements (%s) from the clipboard into "%s"?</target>
+      </trans-unit>
+      <trans-unit id="mess.copycb_after">
+        <source>Copy all elements (%s) from the clipboard to the position after "%s"?</source>
+        <target state="needs-translation">Copy all elements (%s) from the clipboard to the position after "%s"?</target>
+      </trans-unit>
+      <trans-unit id="mess.movecb_into">
+        <source>Move all elements (%s) from the clipboard into "%s"?</source>
+        <target state="needs-translation">Move all elements (%s) from the clipboard into "%s"?</target>
+      </trans-unit>
+      <trans-unit id="mess.movecb_after">
+        <source>Move all elements (%s) from the clipboard to the position after "%s"?</source>
+        <target state="needs-translation">Move all elements (%s) from the clipboard to the position after "%s"?</target>
+      </trans-unit>
+      <trans-unit id="rm.menu">
+        <source>[menu]</source>
+        <target state="needs-translation">[menu]</target>
+      </trans-unit>
+      <trans-unit id="rm.saveDoc">
+        <source>Save</source>
+        <target state="needs-translation">Save</target>
+      </trans-unit>
+      <trans-unit id="rm.viewDoc">
+        <source>View</source>
+        <target state="needs-translation">View</target>
+      </trans-unit>
+      <trans-unit id="rm.saveDocShow">
+        <source>Save and view page</source>
+        <target state="needs-translation">Save and view page</target>
+      </trans-unit>
+      <trans-unit id="rm.saveCloseDoc">
+        <source>Save and close</source>
+        <target state="needs-translation">Save and close</target>
+      </trans-unit>
+      <trans-unit id="rm.saveCloseAllDocs">
+        <source>Save and close all</source>
+        <target state="needs-translation">Save and close all</target>
+      </trans-unit>
+      <trans-unit id="rm.saveNewDoc">
+        <source>Save and create a new one</source>
+        <target state="needs-translation">Save and create a new one</target>
+      </trans-unit>
+      <trans-unit id="rm.newDoc">
+        <source>New</source>
+        <target state="needs-translation">New</target>
+      </trans-unit>
+      <trans-unit id="rm.duplicateDoc">
+        <source>Duplicate</source>
+        <target state="needs-translation">Duplicate</target>
+      </trans-unit>
+      <trans-unit id="labels.recordDuplicated">
+        <source>The record has been duplicated.</source>
+        <target state="needs-translation">The record has been duplicated.</target>
+      </trans-unit>
+      <trans-unit id="rm.closeDoc">
+        <source>Close</source>
+        <target state="needs-translation">Close</target>
+      </trans-unit>
+      <trans-unit id="rm.closeAllDocs">
+        <source>Close all</source>
+        <target state="needs-translation">Close all</target>
+      </trans-unit>
+      <trans-unit id="rm.clearCache_clearCache">
+        <source>Clear cache</source>
+        <target state="needs-translation">Clear cache</target>
+      </trans-unit>
+      <trans-unit id="rm.clearCache_thisPage">
+        <source>This page</source>
+        <target state="needs-translation">This page</target>
+      </trans-unit>
+      <trans-unit id="rm.clearCache_all">
+        <source>Clear FE cache</source>
+        <target state="needs-translation">Clear FE cache</target>
+      </trans-unit>
+      <trans-unit id="rm.clearCache_pages">
+        <source>Clear Page Cache</source>
+        <target state="needs-translation">Clear Page Cache</target>
+      </trans-unit>
+      <trans-unit id="rm.clearCache_allTypo3Conf">
+        <source>Clear cache in typo3conf/</source>
+        <target state="needs-translation">Clear cache in typo3conf/</target>
+      </trans-unit>
+      <trans-unit id="rm.clearCacheMenu_all">
+        <source>Clear all caches</source>
+        <target state="needs-translation">Clear all caches</target>
+      </trans-unit>
+      <trans-unit id="rm.clearCacheMenu_pages">
+        <source>Clear page content cache</source>
+        <target state="needs-translation">Clear page content cache</target>
+      </trans-unit>
+      <trans-unit id="rm.clearCacheMenu_allTypo3Conf">
+        <source>Clear configuration cache</source>
+        <target state="needs-translation">Clear configuration cache</target>
+      </trans-unit>
+      <trans-unit id="flushPageCachesTitle">
+        <source>Flush frontend caches</source>
+        <target state="needs-translation">Flush frontend caches</target>
+      </trans-unit>
+      <trans-unit id="flushPageCachesDescription">
+        <source>Clear frontend and page-related caches.</source>
+        <target state="needs-translation">Clear frontend and page-related caches.</target>
+      </trans-unit>
+      <trans-unit id="flushAllCachesTitle2">
+        <source>Flush all caches</source>
+        <target state="needs-translation">Flush all caches</target>
+      </trans-unit>
+      <trans-unit id="flushAllCachesDescription2">
+        <source>Clear all system-related caches, including localization, extension configuration, file caches and opcode caches. Rebuilding this cache may take some time.</source>
+        <target state="needs-translation">Clear all system-related caches, including localization, extension configuration, file caches and opcode caches. Rebuilding this cache may take some time.</target>
+      </trans-unit>
+      <trans-unit id="rm.adminFunctions">
+        <source>Admin functions</source>
+        <target state="needs-translation">Admin functions</target>
+      </trans-unit>
+      <trans-unit id="rm.edit">
+        <source>Edit</source>
+        <target state="needs-translation">Edit</target>
+      </trans-unit>
+      <trans-unit id="rm.export">
+        <source>Export</source>
+        <target state="needs-translation">Export</target>
+      </trans-unit>
+      <trans-unit id="rm.delete">
+        <source>Delete</source>
+        <target state="needs-translation">Delete</target>
+      </trans-unit>
+      <trans-unit id="message.header.fileNotDeletedHasReferences">
+        <source>File not deleted</source>
+        <target state="needs-translation">File not deleted</target>
+      </trans-unit>
+      <trans-unit id="message.description.fileNotDeletedHasReferences">
+        <source>The file cannot be deleted since it is still used at the following places</source>
+        <target state="needs-translation">The file cannot be deleted since it is still used at the following places</target>
+      </trans-unit>
+      <trans-unit id="message.header.folderNotDeletedHasFilesWithReferences">
+        <source>Folder not deleted</source>
+        <target state="needs-translation">Folder not deleted</target>
+      </trans-unit>
+      <trans-unit id="message.description.folderNotDeletedHasFilesWithReferences">
+        <source>The folder cannot be deleted since it still contains files in use.</source>
+        <target state="needs-translation">The folder cannot be deleted since it still contains files in use.</target>
+      </trans-unit>
+      <trans-unit id="message.header.fileHasBrokenReferences">
+        <source>File has broken references</source>
+        <target state="needs-translation">File has broken references</target>
+      </trans-unit>
+      <trans-unit id="message.description.fileHasBrokenReferences">
+        <source>The file has %s broken reference(s) but it will be deleted regardless.</source>
+        <target state="needs-translation">The file has %s broken reference(s) but it will be deleted regardless.</target>
+      </trans-unit>
+      <trans-unit id="message.header.fileNotFound">
+        <source>File not found</source>
+        <target state="needs-translation">File not found</target>
+      </trans-unit>
+      <trans-unit id="message.description.fileNotFound">
+        <source>The file %s is not found, possible already removed.</source>
+        <target state="needs-translation">The file %s is not found, possible already removed.</target>
+      </trans-unit>
+      <trans-unit id="message.header.fileDeleted">
+        <source>File deleted</source>
+        <target state="needs-translation">File deleted</target>
+      </trans-unit>
+      <trans-unit id="message.description.fileDeleted">
+        <source>The file "%s" was successfully deleted.</source>
+        <target state="needs-translation">The file "%s" was successfully deleted.</target>
+      </trans-unit>
+      <trans-unit id="message.header.folderDeleted">
+        <source>Folder deleted</source>
+        <target state="needs-translation">Folder deleted</target>
+      </trans-unit>
+      <trans-unit id="message.description.folderDeleted">
+        <source>The folder "%s" was successfully deleted.</source>
+        <target state="needs-translation">The folder "%s" was successfully deleted.</target>
+      </trans-unit>
+      <trans-unit id="message.header.folderNotDeletedHasFiles">
+        <source>Folder not deleted</source>
+        <target state="needs-translation">Folder not deleted</target>
+      </trans-unit>
+      <trans-unit id="message.description.folderNotDeletedHasFiles">
+        <source>The folder cannot be deleted since it still contains files.</source>
+        <target state="needs-translation">The folder cannot be deleted since it still contains files.</target>
+      </trans-unit>
+      <trans-unit id="buttons.logout">
+        <source>Logout</source>
+        <target state="needs-translation">Logout</target>
+      </trans-unit>
+      <trans-unit id="buttons.exit">
+        <source>Exit</source>
+        <target state="needs-translation">Exit</target>
+      </trans-unit>
+      <trans-unit id="buttons.selMenu_modules">
+        <source>MODULES</source>
+        <target state="needs-translation">MODULES</target>
+      </trans-unit>
+      <trans-unit id="buttons.clear">
+        <source>Clear</source>
+        <target state="needs-translation">Clear</target>
+      </trans-unit>
+      <trans-unit id="buttons.clipboard">
+        <source>Clipboard</source>
+        <target state="needs-translation">Clipboard</target>
+      </trans-unit>
+      <trans-unit id="buttons.toggleLinkExplanation">
+        <source>Toggle link explanation</source>
+        <target state="needs-translation">Toggle link explanation</target>
+      </trans-unit>
+      <trans-unit id="buttons.toggleSlugExplanation">
+        <source>Toggle manual URL segment</source>
+        <target state="needs-translation">Toggle manual URL segment</target>
+      </trans-unit>
+      <trans-unit id="buttons.recreateSlugExplanation">
+        <source>Recalculate URL segment from page title</source>
+        <target state="needs-translation">Recalculate URL segment from page title</target>
+      </trans-unit>
+      <trans-unit id="cm.copy">
+        <source>Copy</source>
+        <target state="needs-translation">Copy</target>
+      </trans-unit>
+      <trans-unit id="cm.cut">
+        <source>Cut</source>
+        <target state="needs-translation">Cut</target>
+      </trans-unit>
+      <trans-unit id="cm.cutrelease">
+        <source>Cut release</source>
+        <target state="needs-translation">Cut release</target>
+      </trans-unit>
+      <trans-unit id="cm.view">
+        <source>Show</source>
+        <target state="needs-translation">Show</target>
+      </trans-unit>
+      <trans-unit id="cm.edit">
+        <source>Edit</source>
+        <target state="needs-translation">Edit</target>
+      </trans-unit>
+      <trans-unit id="cm.editcontent">
+        <source>Edit content</source>
+        <target state="needs-translation">Edit content</target>
+      </trans-unit>
+      <trans-unit id="cm.editMetadata">
+        <source>Edit Metadata of this file</source>
+        <target state="needs-translation">Edit Metadata of this file</target>
+      </trans-unit>
+      <trans-unit id="cm.new">
+        <source>New</source>
+        <target state="needs-translation">New</target>
+      </trans-unit>
+      <trans-unit id="cm.pasteinto">
+        <source>Paste into</source>
+        <target state="needs-translation">Paste into</target>
+      </trans-unit>
+      <trans-unit id="cm.pasteafter">
+        <source>Paste after</source>
+        <target state="needs-translation">Paste after</target>
+      </trans-unit>
+      <trans-unit id="cm.select">
+        <source>Select</source>
+        <target state="needs-translation">Select</target>
+      </trans-unit>
+      <trans-unit id="cm.deselect">
+        <source>Deselect</source>
+        <target state="needs-translation">Deselect</target>
+      </trans-unit>
+      <trans-unit id="cm.selectto">
+        <source>Select to</source>
+        <target state="needs-translation">Select to</target>
+      </trans-unit>
+      <trans-unit id="cm.deselectto">
+        <source>Deselect to</source>
+        <target state="needs-translation">Deselect to</target>
+      </trans-unit>
+      <trans-unit id="cm.delete">
+        <source>Delete</source>
+        <target state="needs-translation">Delete</target>
+      </trans-unit>
+      <trans-unit id="cm.hide">
+        <source>Hide</source>
+        <target state="needs-translation">Hide</target>
+      </trans-unit>
+      <trans-unit id="cm.unhide">
+        <source>Unhide</source>
+        <target state="needs-translation">Unhide</target>
+      </trans-unit>
+      <trans-unit id="cm.online">
+        <source>Turn online</source>
+        <target state="needs-translation">Turn online</target>
+      </trans-unit>
+      <trans-unit id="cm.offline">
+        <source>Turn offline</source>
+        <target state="needs-translation">Turn offline</target>
+      </trans-unit>
+      <trans-unit id="cm.upload">
+        <source>Upload Files</source>
+        <target state="needs-translation">Upload Files</target>
+      </trans-unit>
+      <trans-unit id="cm.rename">
+        <source>Rename</source>
+        <target state="needs-translation">Rename</target>
+      </trans-unit>
+      <trans-unit id="cm.replace">
+        <source>Replace</source>
+        <target state="needs-translation">Replace</target>
+      </trans-unit>
+      <trans-unit id="cm.open">
+        <source>Open</source>
+        <target state="needs-translation">Open</target>
+      </trans-unit>
+      <trans-unit id="cm.save">
+        <source>Save</source>
+        <target state="needs-translation">Save</target>
+      </trans-unit>
+      <trans-unit id="cm.unzip">
+        <source>Unzip</source>
+        <target state="needs-translation">Unzip</target>
+      </trans-unit>
+      <trans-unit id="cm.info">
+        <source>Info</source>
+        <target state="needs-translation">Info</target>
+      </trans-unit>
+      <trans-unit id="cm.createnew">
+        <source>Create new</source>
+        <target state="needs-translation">Create new</target>
+      </trans-unit>
+      <trans-unit id="cm.createnew.link">
+        <source>Create new %s</source>
+        <target state="needs-translation">Create new %s</target>
+      </trans-unit>
+      <trans-unit id="cm.tempMountPoint">
+        <source>Mount as treeroot</source>
+        <target state="needs-translation">Mount as treeroot</target>
+      </trans-unit>
+      <trans-unit id="cm.copyPage_into">
+        <source>Copy page into</source>
+        <target state="needs-translation">Copy page into</target>
+      </trans-unit>
+      <trans-unit id="cm.copyPage_after">
+        <source>Copy page after</source>
+        <target state="needs-translation">Copy page after</target>
+      </trans-unit>
+      <trans-unit id="cm.movePage_into">
+        <source>Move page into</source>
+        <target state="needs-translation">Move page into</target>
+      </trans-unit>
+      <trans-unit id="cm.movePage_after">
+        <source>Move page after</source>
+        <target state="needs-translation">Move page after</target>
+      </trans-unit>
+      <trans-unit id="cm.copyFolder_into">
+        <source>Copy folder into</source>
+        <target state="needs-translation">Copy folder into</target>
+      </trans-unit>
+      <trans-unit id="cm.moveFolder_into">
+        <source>Move folder into</source>
+        <target state="needs-translation">Move folder into</target>
+      </trans-unit>
+      <trans-unit id="cm.createNewRelation">
+        <source>Create new relation</source>
+        <target state="needs-translation">Create new relation</target>
+      </trans-unit>
+      <trans-unit id="cm.branchActions">
+        <source>Branch Actions</source>
+        <target state="needs-translation">Branch Actions</target>
+      </trans-unit>
+      <trans-unit id="cm.copyPasteActions">
+        <source>Page Actions</source>
+        <target state="needs-translation">Page Actions</target>
+      </trans-unit>
+      <trans-unit id="cm.collapseBranch">
+        <source>Collapse Branch</source>
+        <target state="needs-translation">Collapse Branch</target>
+      </trans-unit>
+      <trans-unit id="cm.expandBranch">
+        <source>Expand Branch</source>
+        <target state="needs-translation">Expand Branch</target>
+      </trans-unit>
+      <trans-unit id="cm.more">
+        <source>More options...</source>
+        <target state="needs-translation">More options...</target>
+      </trans-unit>
+      <trans-unit id="cm.allowedFileExtensions">
+        <source>Allowed file extensions</source>
+        <target state="needs-translation">Allowed file extensions</target>
+      </trans-unit>
+      <trans-unit id="cm.allowedEditableTextFileExtensions">
+        <source>Allowed editable text file extensions</source>
+        <target state="needs-translation">Allowed editable text file extensions</target>
+      </trans-unit>
+      <trans-unit id="cm.allowEmbedSources">
+        <source>Allowed media sources</source>
+        <target state="needs-translation">Allowed media sources</target>
+      </trans-unit>
+      <trans-unit id="cm.allowedRelations">
+        <source>Allowed relations</source>
+        <target state="needs-translation">Allowed relations</target>
+      </trans-unit>
+      <trans-unit id="sortable.dragmove">
+        <source>Drag to move</source>
+        <target state="needs-translation">Drag to move</target>
+      </trans-unit>
+      <trans-unit id="tree.defaultPageTitle">
+        <source>[Default Title]</source>
+        <target state="needs-translation">[Default Title]</target>
+      </trans-unit>
+      <trans-unit id="tree.activeFilterMode">
+        <source>Active Filtering Mode</source>
+        <target state="needs-translation">Active Filtering Mode</target>
+      </trans-unit>
+      <trans-unit id="tree.buttonNewNode">
+        <source>Create new pages</source>
+        <target state="needs-translation">Create new pages</target>
+      </trans-unit>
+      <trans-unit id="tree.buttonFilter">
+        <source>Filter tree</source>
+        <target state="needs-translation">Filter tree</target>
+      </trans-unit>
+      <trans-unit id="tree.searchTermInfo">
+        <source>Enter search term</source>
+        <target state="needs-translation">Enter search term</target>
+      </trans-unit>
+      <trans-unit id="warning.install_password">
+        <source>The Install Tool is still using the default password "joh316". Update this within the %sAbout section%s of the Install Tool.</source>
+        <target state="needs-translation">The Install Tool is still using the default password "joh316". Update this within the %sAbout section%s of the Install Tool.</target>
+      </trans-unit>
+      <trans-unit id="warning.installtool_default_password">
+        <source>The Install Tool is still using the default password "joh316". Update this within the %sImportant actions section%s of the Install Tool.</source>
+        <target state="needs-translation">The Install Tool is still using the default password "joh316". Update this within the %sImportant actions section%s of the Install Tool.</target>
+      </trans-unit>
+      <trans-unit id="warning.backend_admin">
+        <source>The default backend user "admin" with password "password" is still present. %sEdit this account%s, either deleting it completely or changing the username and password.</source>
+        <target state="needs-translation">The default backend user "admin" with password "password" is still present. %sEdit this account%s, either deleting it completely or changing the username and password.</target>
+      </trans-unit>
+      <trans-unit id="warning.file_deny_pattern">
+        <source>The value of fileDenyPattern is not set to its default:%s If TYPO3 is running on Apache, a customized value might enable backend or frontend users to execute malicious php scripts.</source>
+        <target state="needs-translation">The value of fileDenyPattern is not set to its default:%s If TYPO3 is running on Apache, a customized value might enable backend or frontend users to execute malicious php scripts.</target>
+      </trans-unit>
+      <trans-unit id="warning.file_deny_pattern_partsNotPresent">
+        <source>Security Risk! The new value of fileDenyPattern misses parts of its default:%s If TYPO3 is running on Apache, a customized value might enable backend or frontend users to execute malicious php scripts.</source>
+        <target state="needs-translation">Security Risk! The new value of fileDenyPattern misses parts of its default:%s If TYPO3 is running on Apache, a customized value might enable backend or frontend users to execute malicious php scripts.</target>
+      </trans-unit>
+      <trans-unit id="warning.file_deny_htaccess">
+        <source>The current value of fileDenyPattern allows to upload/create files with the name ".htaccess". If TYPO3 is running on Apache, this enables backend or frontend users to create and execute php scripts. Please reset the value of fileDenyPattern to its default.</source>
+        <target state="needs-translation">The current value of fileDenyPattern allows to upload/create files with the name ".htaccess". If TYPO3 is running on Apache, this enables backend or frontend users to create and execute php scripts. Please reset the value of fileDenyPattern to its default.</target>
+      </trans-unit>
+      <trans-unit id="warning.install_enabled">
+        <source>The Install Tool is permanently enabled. Delete the file "%s" when you have finished setting up TYPO3.</source>
+        <target state="needs-translation">The Install Tool is permanently enabled. Delete the file "%s" when you have finished setting up TYPO3.</target>
+      </trans-unit>
+      <trans-unit id="warning.install_enabled_cmd">
+        <source>Click to remove the file now!</source>
+        <target state="needs-translation">Click to remove the file now!</target>
+      </trans-unit>
+      <trans-unit id="warning.install_trustedhosts">
+        <source>The trusted hosts pattern check is disabled. Please define the allowed hosts in the [SYS][trustedHostsPattern] section of the Install Tool.</source>
+        <target state="needs-translation">The trusted hosts pattern check is disabled. Please define the allowed hosts in the [SYS][trustedHostsPattern] section of the Install Tool.</target>
+      </trans-unit>
+      <trans-unit id="warning.install_update">
+        <source>This installation is not configured for the TYPO3 version it is running. If you did so intentionally, this message can be safely ignored. If you are unsure, visit the Update Wizard section of the %sInstall Tool%s to see how TYPO3 would change.</source>
+        <target state="needs-translation">This installation is not configured for the TYPO3 version it is running. If you did so intentionally, this message can be safely ignored. If you are unsure, visit the Update Wizard section of the %sInstall Tool%s to see how TYPO3 would change.</target>
+      </trans-unit>
+      <trans-unit id="warning.header">
+        <source>Important Notice!</source>
+        <target state="needs-translation">Important Notice!</target>
+      </trans-unit>
+      <trans-unit id="warning.backend_reference">
+        <source>The Reference Index table is empty which is likely the result of a recent TYPO3 upgrade. Please go to %sTools&gt;DB Check%s and update the reference index.</source>
+        <target state="needs-translation">The Reference Index table is empty which is likely the result of a recent TYPO3 upgrade. Please go to %sTools&gt;DB Check%s and update the reference index.</target>
+      </trans-unit>
+      <trans-unit id="warning.backend_reference_index">
+        <source>The Reference Index table is empty which is likely the result of a recent TYPO3 upgrade. The Reference Index was last updated on %3$s. Please go to %sTools&gt;DB Check%s and update the reference index.</source>
+        <target state="needs-translation">The Reference Index table is empty which is likely the result of a recent TYPO3 upgrade. The Reference Index was last updated on %3$s. Please go to %sTools&gt;DB Check%s and update the reference index.</target>
+      </trans-unit>
+      <trans-unit id="warning.memcache_not_usable">
+        <source>Memcache is configured, but connection to memcached failed with these configuration(s)</source>
+        <target state="needs-translation">Memcache is configured, but connection to memcached failed with these configuration(s)</target>
+      </trans-unit>
+      <trans-unit id="warning.file_missing">
+        <source>File is missing!</source>
+        <target state="needs-translation">File is missing!</target>
+      </trans-unit>
+      <trans-unit id="warning.file_missing_text">
+        <source>This file is marked as missing</source>
+        <target state="needs-translation">This file is marked as missing</target>
+      </trans-unit>
+      <trans-unit id="warning.header.storage_is_no_public">
+        <source>Storage is not public</source>
+        <target state="needs-translation">Storage is not public</target>
+      </trans-unit>
+      <trans-unit id="warning.message.storage_is_no_public">
+        <source>The storage has been marked to be "publicly available" but is not detected as such by the driver. The setting has been reverted.</source>
+        <target state="needs-translation">The storage has been marked to be "publicly available" but is not detected as such by the driver. The setting has been reverted.</target>
+      </trans-unit>
+      <trans-unit id="warning.inline_use_combination">
+        <source>This record will be modified globally.</source>
+        <target state="needs-translation">This record will be modified globally.</target>
+      </trans-unit>
+      <trans-unit id="error.formProtection.tokenInvalid">
+        <source>Validating the security token of this form has failed. Please reload the form and submit it again.</source>
+        <target state="needs-translation">Validating the security token of this form has failed. Please reload the form and submit it again.</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.shortcuts">
+        <source>Shortcuts</source>
+        <target state="needs-translation">Shortcuts</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.shortcut">
+        <source>Shortcut</source>
+        <target state="needs-translation">Shortcut</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.shortcutsGroup">
+        <source>Shortcut Group</source>
+        <target state="needs-translation">Shortcut Group</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.shortcutsEdit">
+        <source>Edit Shortcut</source>
+        <target state="needs-translation">Edit Shortcut</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.shortcutsDelete">
+        <source>Delete Shortcut</source>
+        <target state="needs-translation">Delete Shortcut</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.bookmarks">
+        <source>Bookmarks</source>
+        <target state="needs-translation">Bookmarks</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.bookmark">
+        <source>Bookmark</source>
+        <target state="needs-translation">Bookmark</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.bookmarksGroup">
+        <source>Bookmark group</source>
+        <target state="needs-translation">Bookmark group</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.bookmarksEdit">
+        <source>Edit bookmark</source>
+        <target state="needs-translation">Edit bookmark</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.bookmarksDelete">
+        <source>Delete bookmark</source>
+        <target state="needs-translation">Delete bookmark</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.collapsePageTree">
+        <source>Collapse page tree</source>
+        <target state="needs-translation">Collapse page tree</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.confirmBookmarksDelete">
+        <source>Do you really want to remove this bookmark?</source>
+        <target state="needs-translation">Do you really want to remove this bookmark?</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.createBookmark">
+        <source>Create bookmark</source>
+        <target state="needs-translation">Create bookmark</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.bookmarkSavedTitle">
+        <source>Bookmark saved</source>
+        <target state="needs-translation">Bookmark saved</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.bookmarkSavedMessage">
+        <source>The bookmark was saved.</source>
+        <target state="needs-translation">The bookmark was saved.</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.help">
+        <source>Help</source>
+        <target state="needs-translation">Help</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.minMaxModuleMenu">
+        <source>Minimize/maximize module menu</source>
+        <target state="needs-translation">Minimize/maximize module menu</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.search">
+        <source>Search</source>
+        <target state="needs-translation">Search</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.workspace">
+        <source>Workspace</source>
+        <target state="needs-translation">Workspace</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo">
+        <source>System Information</source>
+        <target state="needs-translation">System Information</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.phpversion">
+        <source>PHP Version</source>
+        <target state="needs-translation">PHP Version</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.database">
+        <source>Database</source>
+        <target state="needs-translation">Database</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.applicationcontext">
+        <source>Application Context</source>
+        <target state="needs-translation">Application Context</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.composerMode">
+        <source>Composer mode</source>
+        <target state="needs-translation">Composer mode</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.gitrevision">
+        <source>GIT Revision</source>
+        <target state="needs-translation">GIT Revision</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.operatingsystem">
+        <source>Operating System</source>
+        <target state="needs-translation">Operating System</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.webserver">
+        <source>Webserver</source>
+        <target state="needs-translation">Webserver</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.typo3-version">
+        <source>TYPO3 Version</source>
+        <target state="needs-translation">TYPO3 Version</target>
+      </trans-unit>
+      <trans-unit id="extension.not.installed">
+        <source>Extension "%s" is not installed.</source>
+        <target state="needs-translation">Extension "%s" is not installed.</target>
+      </trans-unit>
+      <trans-unit id="link.to.filefile.correctly">
+        <source>Please, do not link to this page.</source>
+        <target state="needs-translation">Please, do not link to this page.</target>
+      </trans-unit>
+      <trans-unit id="csh_tooltip_loading">
+        <source>Loading help...</source>
+        <target state="needs-translation">Loading help...</target>
+      </trans-unit>
+      <trans-unit id="error.database_schema_mismatch">
+        <source>A SQL error occurred. This may indicate a schema mismatch between TCA and the database. Try running database compare in the Install Tool.</source>
+        <target state="needs-translation">A SQL error occurred. This may indicate a schema mismatch between TCA and the database. Try running database compare in the Install Tool.</target>
+      </trans-unit>
+      <trans-unit id="error.database_schema_mismatch_title">
+        <source>Database Error</source>
+        <target state="needs-translation">Database Error</target>
+      </trans-unit>
+      <trans-unit id="error.items_proc_func_error">
+        <source>An error occurred trying to process items for field "%1$s" (%2$s).</source>
+        <target state="needs-translation">An error occurred trying to process items for field "%1$s" (%2$s).</target>
+      </trans-unit>
+      <trans-unit id="error.invalidEmail">
+        <source>"%s" is not a valid e-mail address.</source>
+        <target state="needs-translation">"%s" is not a valid e-mail address.</target>
+      </trans-unit>
+      <trans-unit id="error.adminCanNotChangeSystemMaintainer">
+        <source>Only system maintainers can change the admin flag and password of other system maintainers. The value has not been updated.</source>
+        <target state="needs-translation">Only system maintainers can change the admin flag and password of other system maintainers. The value has not been updated.</target>
+      </trans-unit>
+      <trans-unit id="formEngine.beUser.admin.information.userIsSystemMaintainer">
+        <source>This user is a system maintainer</source>
+        <target state="needs-translation">This user is a system maintainer</target>
+      </trans-unit>
+      <trans-unit id="formEngine.beUser.admin.information.userWillBecomeSystemMaintainer">
+        <source>This user is in the list of allowed system maintainers and will gain system level access if enabling admin access.</source>
+        <target state="needs-translation">This user is in the list of allowed system maintainers and will gain system level access if enabling admin access.</target>
+      </trans-unit>
+      <trans-unit id="formEngine.beUser.admin.information.userAdminAndPasswordChangeNotAllowed">
+        <source>This user is a system maintainer. Changing the admin flag and changing password is denied.</source>
+        <target state="needs-translation">This user is a system maintainer. Changing the admin flag and changing password is denied.</target>
+      </trans-unit>
+      <trans-unit id="error.backendUserGroupListTypeError.header">
+        <source>Possible misconfiguration detected</source>
+        <target state="needs-translation">Possible misconfiguration detected</target>
+      </trans-unit>
+      <trans-unit id="error.backendUserGroupListTypeError.message">
+        <source>Editing of at least one plugin was enabled but editing the page content type "Insert Plugin" is still disallowed. Group members won't be able to edit plugins unless you activate editing for the content type.</source>
+        <target state="needs-translation">Editing of at least one plugin was enabled but editing the page content type "Insert Plugin" is still disallowed. Group members won't be able to edit plugins unless you activate editing for the content type.</target>
+      </trans-unit>
+      <trans-unit id="error.missingLanguageIsocode">
+        <source>Missing ISO code for language "%s" (UID %d), please edit the language record and set it.</source>
+        <target state="needs-translation">Missing ISO code for language "%s" (UID %d), please edit the language record and set it.</target>
+      </trans-unit>
+      <trans-unit id="labels.deleteTitle">
+        <source>Revert to default Constant</source>
+        <target state="needs-translation">Revert to default Constant</target>
+      </trans-unit>
+      <trans-unit id="labels.editTitle">
+        <source>Edit this Constant</source>
+        <target state="needs-translation">Edit this Constant</target>
+      </trans-unit>
+      <trans-unit id="pageTranslation">
+        <source>Page Translation</source>
+        <target state="needs-translation">Page Translation</target>
+      </trans-unit>
+      <trans-unit id="filestorage.invalidpathexception.title">
+        <source>Error in Path</source>
+        <target state="needs-translation">Error in Path</target>
+      </trans-unit>
+      <trans-unit id="filestorage.invalidpathexception.message">
+        <source>You entered an invalid path for this File Storage. Note that "../" and "//" are not allowed when using an absolute path.</source>
+        <target state="needs-translation">You entered an invalid path for this File Storage. Note that "../" and "//" are not allowed when using an absolute path.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
