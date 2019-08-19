@@ -3,31 +3,81 @@
   <file t3:id="1477653834" source-language="en" datatype="plaintext" original="messages" date="2016-10-09T03:38:32Z" product-name="form" target-language="it">
     <header/>
     <body>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-        </body>
+      <trans-unit id="formManager.form_name" xml:space="preserve">
+                <source>Form name</source>
+            <target state="translated">Nome modulo</target></trans-unit>
+      <trans-unit id="formManager.new_form_name" xml:space="preserve">
+                <source>New form name</source>
+            <target state="translated">Nome nuovo modulo</target></trans-unit>
+      <trans-unit id="formManager.form_save_path" xml:space="preserve">
+                <source>Form storage</source>
+            <target state="translated">Archivio modulo</target></trans-unit>
+      <trans-unit id="formManager.form_prototype" xml:space="preserve">
+                <source>Form prototype</source>
+            <target state="translated">prototipo del modulo</target></trans-unit>
+      <trans-unit id="formManager.form_template" xml:space="preserve">
+                <source>Start template</source>
+            <target state="translated">Avvia modello</target></trans-unit>
+      <trans-unit id="formManager.cancel" xml:space="preserve">
+                <source>Cancel</source>
+            <target state="translated">Annulla</target></trans-unit>
+      <trans-unit id="formManager.remove_form" xml:space="preserve">
+                <source>Remove</source>
+            <target state="translated">Rimuovi</target></trans-unit>
+      <trans-unit id="formManager.remove_form_title" xml:space="preserve">
+                <source>Remove form</source>
+            <target state="translated">Rimuovi modulo</target></trans-unit>
+      <trans-unit id="formManager.remove_form_message" xml:space="preserve">
+                <source>Are you sure that you want to remove this form?</source>
+            <target state="translated">Sei sicuro di voler rimuovere questo modulo?</target></trans-unit>
+      <trans-unit id="formManager.newFormWizard.step1.title" xml:space="preserve">
+                <source>Create new form</source>
+            <target state="translated">Crea nuovo modulo</target></trans-unit>
+      <trans-unit id="formManager.newFormWizard.step1.noStorages" xml:space="preserve">
+                <source>No accessible form storage folders</source>
+            <target state="translated">Nessuna cartella di archiviazione del modulo accessibile</target></trans-unit>
+      <trans-unit id="formManager.newFormWizard.step1.advanced" xml:space="preserve">
+                <source>Advanced settings</source>
+            <target state="translated">Impostazioni avanzate</target></trans-unit>
+      <trans-unit id="formManager.newFormWizard.step2.title" xml:space="preserve">
+                <source>Advanced settings</source>
+            <target state="translated">Impostazioni avanzate</target></trans-unit>
+      <trans-unit id="formManager.newFormWizard.step3.title" xml:space="preserve">
+                <source>Ready</source>
+            <target state="translated">Pronto</target></trans-unit>
+      <trans-unit id="formManager.newFormWizard.step3.message" xml:space="preserve">
+                <source>Now you are ready to create your new form.</source>
+            <target state="translated">Ora sei pronto a creare il tuo nuovo modulo.</target></trans-unit>
+      <trans-unit id="formManager.newFormWizard.step4.errorTitle" xml:space="preserve">
+                <source>Create</source>
+            <target state="translated">Crea</target></trans-unit>
+      <trans-unit id="formManager.newFormWizard.step4.errorMessage" xml:space="preserve">
+                <source>The form could not be saved</source>
+            <target state="translated">Il modulo non può essere salvato</target></trans-unit>
+      <trans-unit id="formManager.duplicateFormWizard.step1.title" xml:space="preserve">
+                <source>Duplicate form "{0}"</source>
+            <target state="translated">Duplica il modulo "{0}"</target></trans-unit>
+      <trans-unit id="formManager.duplicateFormWizard.step2.errorTitle" xml:space="preserve">
+                <source>Duplicate</source>
+            <target state="translated">Duplica</target></trans-unit>
+      <trans-unit id="formManager.duplicateFormWizard.step2.errorMessage" xml:space="preserve">
+                <source>The form could not be saved</source>
+            <target state="translated">Il modulo non può essere salvato</target></trans-unit>
+      <trans-unit id="formManager.no_references" xml:space="preserve">
+                <source>There are no references yet</source>
+            <target state="translated">Non ci sono ancora riferimenti</target></trans-unit>
+      <trans-unit id="formManager.page" xml:space="preserve">
+                <source>Page</source>
+            <target state="translated">Pagina</target></trans-unit>
+      <trans-unit id="formManager.record" xml:space="preserve">
+                <source>Record</source>
+            <target state="translated">Registra</target></trans-unit>
+      <trans-unit id="formManager.references.title" xml:space="preserve">
+                <source>References</source>
+            <target state="translated">Riferimenti</target></trans-unit>
+      <trans-unit id="formManager.references.headline" xml:space="preserve">
+                <source>References for "{0}"</source>
+            <target state="translated">Riferimenti per "{0}"</target></trans-unit>
+    </body>
   </file>
 </xliff>
