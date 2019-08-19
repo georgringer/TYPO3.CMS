@@ -5,11 +5,11 @@
     <body>
       <trans-unit id="pages_sort.alttitle">
         <source>Sort Pages</source>
-        <target state="needs-translation">Sort Pages</target>
+        <target state="translated">Ordina Pagine</target>
       </trans-unit>
       <trans-unit id="pages_sort.description">
         <source>Enables you to sort pages alphabetically by title, sub-title or by creation time etc. You can also reverse the order of pages in the page tree.</source>
-        <target state="needs-translation">Enables you to sort pages alphabetically by title, sub-title or by creation time etc. You can also reverse the order of pages in the page tree.</target>
+        <target state="translated">Consente di ordinare le pagine alfabeticamente per titolo, sottotitolo o per tempo di creazione, ecc. Puoi anche invertire l'ordine delle pagine nell'albero della pagina.</target>
       </trans-unit>
       <trans-unit id="pages_sort.details" xml:space="preserve">
 				<source>Pages in the page tree are always ordered manually. It is possible to move pages up and down etc. But this wizard gives you a quick way to change the manual order of sub-pages.
@@ -30,27 +30,27 @@ Will sort pages by their creation date.
 
 &lt;b&gt;Reverse current order&lt;/b&gt;
 Click this to reverse the current order. For example, if you want to sort pages alphabetically but in descending order you simply sort by title first and then reverse the order by clicking this.</source>
-			<target state="needs-translation">Pages in the page tree are always ordered manually. It is possible to move pages up and down etc. But this wizard gives you a quick way to change the manual order of sub-pages.
+			<target state="translated">Le pagine nell'albero della pagina sono sempre ordinate manualmente. È possibile spostare le pagine in alto e giù, ecc. Ma questa procedura guidata ti dà un modo rapido di cambiare l'ordine manuale delle sottopagine.
 
-Simply click one of the links in the bottom of the wizard screen:
+Basta cliccare uno dei link nella parte inferiore della schermata guidata:
 
-&lt;b&gt;Page title&lt;/b&gt;
-Will sort pages by their page title.
+&lt;b&gt;Titolo pagina&lt;/b&gt;
+Ordina le pagine per titolo della loro pagina.
 
-&lt;b&gt;Subtitle&lt;/b&gt;
-Will sort page by their Subtitle field.
+&lt;b&gt;Sottotitolo&lt;/b&gt;
+Ordinerà la pagina per il loro campo sottotitoli.
 
-&lt;b&gt;Change-time&lt;/b&gt;
-Will sort pages by the date they were last changed.
+&lt;b&gt;Cambia-time&lt;/b&gt;
+Ordinerà le pagine per la data in cui sono state modificate.
 
-&lt;b&gt;Create-time&lt;/b&gt;
-Will sort pages by their creation date.
+&lt;b&gt;Crea-time&lt;/b&gt;
+Ordinerà le pagine per data di creazione.
 
-&lt;b&gt;Reverse current order&lt;/b&gt;
-Click this to reverse the current order. For example, if you want to sort pages alphabetically but in descending order you simply sort by title first and then reverse the order by clicking this.</target></trans-unit>
+&lt;b&gt;Inverti l'ordine attuale&lt;/b&gt;
+Clicca qui per invertire l'ordine corrente. Per esempio, se vuoi ordinare le pagine in ordine alfabetico ma in ordine discendente, prima ordina semplicemente per titolo e poi inverti l'ordine cliccando su questo.</target></trans-unit>
       <trans-unit id="_pages_sort.image">
         <source>EXT:backend/Resources/Public/Images/Csh/PagesSort.png</source>
-        <target state="needs-translation">EXT:backend/Resources/Public/Images/Csh/PagesSort.png</target>
+        <target state="translated">EXT:backend/Resources/Pubblico/Immagini/Csh/PagesOrdine.png</target>
       </trans-unit>
     </body>
   </file>
