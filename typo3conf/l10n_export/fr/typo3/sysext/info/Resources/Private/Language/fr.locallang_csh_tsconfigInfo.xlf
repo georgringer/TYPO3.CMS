@@ -3,18 +3,75 @@
   <file t3:id="1415814841" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="info_pagetsconfig" target-language="fr">
     <header/>
     <body>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id="tsconfig_hierarchy.alttitle">
+        <source>Page TSconfig hierarchy viewer</source>
+        <target state="translated">Affichage hiérarchique de la page TSconfig</target>
+      </trans-unit>
+      <trans-unit id="tsconfig_hierarchy.description">
+        <source>Allows the user to view the compiled Page TSconfig structure for a branch of the pagetree.</source>
+        <target state="translated">Permet à l'utilisateur de visualiser la structure TSconfig de la page compilée pour une branche de la page.</target>
+      </trans-unit>
+      <trans-unit id="tsconfig_hierarchy.details" xml:space="preserve">
+				<source>This viewer is indispensable for getting an overview of Page TSconfig settings as they apply to various branches in the page tree. You can see the configuration structure of any page where all inherited Page TSconfig is parsed and the result shown. This helps you to evaluate that the settings you have applied are actually found at the correct position in the configuration tree.
+You can also see the Page TSconfig TypoScript code for each page in the root line with the viewer.
+
+See the links for more information about what Page TSconfig is.</source>
+			<target state="translated">Ce visualiseur est indispensable pour obtenir un aperçu des paramètres de Page TSconfig tel qu'il s'applique à diverses branches de l'arborescence de la page. Vous pouvez voir la structure de configuration de toute page où toutes les pages héritées TSconfig sont analysées et le résultat affiché. Ceci vous aide à évaluer que les paramètres que vous avez appliqués sont réellement trouvés à la bonne position dans l'arborescence de configuration.
+Vous pouvez également voir le code de Page TSconfig TypoScript pour chaque page de la ligne racine avec le visionneur.
+
+Voir les liens pour plus d'informations sur la page TSconfig.</target></trans-unit>
+      <trans-unit id="_tsconfig_hierarchy.seeAlso" xml:space="preserve">
+				<source>_MOD_web_info:tsconfig_edit,
+pages:TSconfig,
+Page TSconfig objects | https://docs.typo3.org/typo3cms/TSconfigReference/PageTsconfig/Index.html</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="translated">_MOD_web_info:tsconfig_edit,
+pages:TSconfig,
+Les objets TSconfig de la page | https://docs.typo3.org/typo3cms/TSconfigReference/PageTsconfig/Index.html</target></trans-unit>
+      <trans-unit id="_tsconfig_hierarchy.image" xml:space="preserve">
+				<source>EXT:info_pagetsconfig/Resources/Public/Images/cshimages/img_1.png,
+EXT:info_pagetsconfig/Resources/Public/Images/cshimages/img_2.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:info_pagetsconfig/Ressources/Public/Images/cshimages/img_1.png,
+EXT:info_pagetsconfig/Ressources/Public/Images/cshimages/img_2.png,</target></trans-unit>
+      <trans-unit id="tsconfig_hierarchy.image_descr" xml:space="preserve">
+				<source>This is how the parsed Page TSconfig tree can look. It contains the "sum" of all the configuration code from the root line and any default settings. This shows the whole tree but you can also select other top level objects (TLO) in the selector box in the top if you want to limit the view to a single branch
+One of the branches in Page TSconfig has the special property that it is overridden with any User TSconfig in the same object path given for the current backend user. When you view only the "mod" TLO any user settings for the current backend user are applied as well. Here it is evident that some additional settings must apply for the user since only "mod.SHARED.colPos_list" was actually found in Page TSconfig (according to the "All" view in the first image).</source>
+			<target state="translated">C'est ainsi que l'arbre TSconfig de la page analysée peut être regardé. Il contient la "somme" de tous les codes de configuration de la ligne racine et de tous les paramètres par défaut. Ceci montre l'arbre entier mais vous pouvez également sélectionner d'autres objets de haut niveau (TLO) dans la boîte de sélection en haut si vous voulez limiter la vue à une seule branche
+Une des branches de Page TSconfig a la propriété spéciale qu'il est surchargé avec n'importe quel utilisateur TSconfig dans le même chemin d'objet donné pour l'utilisateur actuel. Lorsque vous voyez seulement le "mod" TLO, tous les paramètres d'utilisateur pour l'utilisateur actuel sont également appliqués. Ici, il est évident que certains paramètres supplémentaires doivent s'appliquer à l'utilisateur car seuls "mod.SHARED.colPos_list" a été trouvé dans Page TSconfig (selon la vue "All" dans la première image).</target></trans-unit>
+      <trans-unit id="tsconfig_edit.alttitle">
+        <source>Page TSconfig content viewer</source>
+        <target state="translated">Visionneur de contenu TSconfig de page</target>
+      </trans-unit>
+      <trans-unit id="tsconfig_edit.description">
+        <source>Displays the raw TSconfig code of all pages in the current root line including any default code.</source>
+        <target state="translated">Affiche le code TSconfig brut de toutes les pages de la ligne racine courante, y compris tout code par défaut.</target>
+      </trans-unit>
+      <trans-unit id="tsconfig_edit.details" xml:space="preserve">
+				<source>The parsed Page TSconfig tree you see in the default view is actually compiled from this TSconfig code in the order it appears here. This view lets you see how the parsed version came to be.
+You can also click the edit-icons of the various pages to go directly to the TSconfig fields of the pages.</source>
+			<target state="translated">L'arbre TSconfig de la page analysée que vous voyez dans la vue par défaut est en fait compilé à partir de ce code TSconfig dans l'ordre qu'il apparaît ici. Cette vue vous permet de voir comment la version analysée est venue.
+Vous pouvez aussi cliquer sur les icônes d'édition des différentes pages pour aller directement dans les champs TSconfig des pages.</target></trans-unit>
+      <trans-unit id="_tsconfig_edit.seeAlso">
+        <source>_MOD_web_info:tsconfig_hierarchy</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">_MOD_web_info:tsconfig_hierarchy</target>
+      </trans-unit>
+      <trans-unit id="_tsconfig_edit.image" xml:space="preserve">
+				<source>EXT:info_pagetsconfig/Resources/Public/Images/cshimages/img_3.png,
+EXT:info_pagetsconfig/Resources/Public/Images/cshimages/img_4.png,
+EXT:info_pagetsconfig/Resources/Public/Images/cshimages/img_5.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:info_pagetsconfig/Ressources/Public/Images/cshimages/img_3.png,
+EXT:info_pagetsconfig/Resources/Public/Images/cshimages/img_4.png,
+EXT:info_pagetsconfig/Resources/Public/Images/cshimages/img_5.png</target></trans-unit>
+      <trans-unit id="tsconfig_edit.image_descr" xml:space="preserve">
+				<source>Shows the raw Page TSconfig code. First you see the default content from TYPO3_CONF_VARS (probably added by extensions), then the content from the "TSconfig" field of the first page in the root line ("Intro") and then for each root line page up to the current page (not shown in screenshot).
+In the bottom of the page you will see a link which will open editing forms for all of the TSconfig fields shown in the list!
+Here you see specifically the TSconfig fields of the first and second page in the rootline being edited. Notice the "TS" icon next to the first field - this will bring up a wizard that helps you to select among available Page TSconfig properties.</source>
+			<target state="translated">Affiche le code TSconfig de la page brute. Vous voyez d'abord le contenu par défaut de TYPO3_CONF_VARS (probablement ajouté par extensions), puis le contenu du champ "TSconfig" de la première page de la ligne racine ("Intro") puis pour chaque page racine jusqu'à la page courante (non affichée dans la capture d'écran).
+En bas de la page vous verrez un lien qui ouvrira les formulaires d'édition pour tous les champs TSconfig affichés dans la liste!
+Ici vous voyez spécifiquement les champs TSconfig de la première et la deuxième page dans la ligne rootline en cours d'édition. Notez l'icône "TS" à côté du premier champ - cela va faire apparaître un assistant qui vous aidera à sélectionner parmi les propriétés de Page TSconfig disponibles.</target></trans-unit>
+    </body>
   </file>
 </xliff>
