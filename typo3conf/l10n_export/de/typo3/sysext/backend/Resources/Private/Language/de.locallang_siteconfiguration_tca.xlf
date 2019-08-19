@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1522785604" source-language="en" datatype="plaintext" original="messages" date="2018-02-27T22:22:32Z" product-name="backend" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="site.ctrl.title">
+        <source>Site Configuration</source>
+        <target state="needs-translation">Site Configuration</target>
+      </trans-unit>
+      <trans-unit id="site.identifier">
+        <source>Site Identifier</source>
+        <target state="needs-translation">Site Identifier</target>
+      </trans-unit>
+      <trans-unit id="site.rootPageId">
+        <source>Root Page ID</source>
+        <target state="needs-translation">Root Page ID</target>
+      </trans-unit>
+      <trans-unit id="site.base">
+        <source>Entry Point</source>
+        <target state="needs-translation">Entry Point</target>
+      </trans-unit>
+      <trans-unit id="site.baseVariants">
+        <source>Variants for the Entry Point</source>
+        <target state="needs-translation">Variants for the Entry Point</target>
+      </trans-unit>
+      <trans-unit id="site.languages">
+        <source>Available Languages for this Site</source>
+        <target state="needs-translation">Available Languages for this Site</target>
+      </trans-unit>
+      <trans-unit id="site.errorHandling">
+        <source>Error Handling</source>
+        <target state="needs-translation">Error Handling</target>
+      </trans-unit>
+      <trans-unit id="site.routes">
+        <source>Routes</source>
+        <target state="needs-translation">Routes</target>
+      </trans-unit>
+      <trans-unit id="site.routes.irreHeader.redirectsTo">
+        <source>redirects to</source>
+        <target state="needs-translation">redirects to</target>
+      </trans-unit>
+      <trans-unit id="site.tab.languages">
+        <source>Languages</source>
+        <target state="needs-translation">Languages</target>
+      </trans-unit>
+      <trans-unit id="site.tab.errorHandling">
+        <source>Error Handling</source>
+        <target state="needs-translation">Error Handling</target>
+      </trans-unit>
+      <trans-unit id="site.tab.routes">
+        <source>Static Routes</source>
+        <target state="needs-translation">Static Routes</target>
+      </trans-unit>
+      <trans-unit id="site_language.palette.locales">
+        <source>Locales</source>
+        <target state="needs-translation">Locales</target>
+      </trans-unit>
+      <trans-unit id="site_language.palette.frontend">
+        <source>Frontend related</source>
+        <target state="needs-translation">Frontend related</target>
+      </trans-unit>
+      <trans-unit id="site_language.ctrl.title">
+        <source>Language Configuration for a Site</source>
+        <target state="needs-translation">Language Configuration for a Site</target>
+      </trans-unit>
+      <trans-unit id="site_language.languageId">
+        <source>Language ID</source>
+        <target state="needs-translation">Language ID</target>
+      </trans-unit>
+      <trans-unit id="site_language.title">
+        <source>Title</source>
+        <target state="needs-translation">Title</target>
+      </trans-unit>
+      <trans-unit id="site_language.navigationTitle">
+        <source>Navigation Title</source>
+        <target state="needs-translation">Navigation Title</target>
+      </trans-unit>
+      <trans-unit id="site_language.base">
+        <source>Entry Point</source>
+        <target state="needs-translation">Entry Point</target>
+      </trans-unit>
+      <trans-unit id="site_language.locale">
+        <source>Locale</source>
+        <target state="needs-translation">Locale</target>
+      </trans-unit>
+      <trans-unit id="site_language.iso-639-1">
+        <source>Two Letter ISO Code</source>
+        <target state="needs-translation">Two Letter ISO Code</target>
+      </trans-unit>
+      <trans-unit id="site_language.hreflang">
+        <source>Language Tag defined by RFC 1766 / 3066</source>
+        <target state="needs-translation">Language Tag defined by RFC 1766 / 3066</target>
+      </trans-unit>
+      <trans-unit id="site_language.enabled">
+        <source>Visible in Frontend</source>
+        <target state="needs-translation">Visible in Frontend</target>
+      </trans-unit>
+      <trans-unit id="site_language.direction">
+        <source>Direction</source>
+        <target state="needs-translation">Direction</target>
+      </trans-unit>
+      <trans-unit id="site_language.typo3Language">
+        <source>Language Key for XLF Files</source>
+        <target state="needs-translation">Language Key for XLF Files</target>
+      </trans-unit>
+      <trans-unit id="site_language.flag">
+        <source>Flag icon</source>
+        <target state="needs-translation">Flag icon</target>
+      </trans-unit>
+      <trans-unit id="site_language.fallbackType">
+        <source>Fallback Type</source>
+        <target state="needs-translation">Fallback Type</target>
+      </trans-unit>
+      <trans-unit id="site_language.fallbacks">
+        <source>Fallback to other Language(s) - order is important!</source>
+        <target state="needs-translation">Fallback to other Language(s) - order is important!</target>
+      </trans-unit>
+      <trans-unit id="site_base_variant.ctrl.title">
+        <source>Base</source>
+        <target state="needs-translation">Base</target>
+      </trans-unit>
+      <trans-unit id="site_base_variant.base">
+        <source>Base</source>
+        <target state="needs-translation">Base</target>
+      </trans-unit>
+      <trans-unit id="site_base_variant.base.placeholder">
+        <source>www.domain.local</source>
+        <target state="needs-translation">www.domain.local</target>
+      </trans-unit>
+      <trans-unit id="site_base_variant.condition">
+        <source>Condition</source>
+        <target state="needs-translation">Condition</target>
+      </trans-unit>
+      <trans-unit id="site_base_variant.condition.placeholder">
+        <source>applicationContext == "Production"</source>
+        <target state="needs-translation">applicationContext == "Production"</target>
+      </trans-unit>
+      <trans-unit id="site_base_variant.condition.applicationContext">
+        <source>Application Context</source>
+        <target state="needs-translation">Application Context</target>
+      </trans-unit>
+      <trans-unit id="site_base_variant.condition.environmentVariable">
+        <source>Environment Variable</source>
+        <target state="needs-translation">Environment Variable</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.ctrl.title">
+        <source>Error Handling</source>
+        <target state="needs-translation">Error Handling</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.tab.rootpaths">
+        <source>Root Paths (optional)</source>
+        <target state="needs-translation">Root Paths (optional)</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorCode">
+        <source>HTTP Error Status Code</source>
+        <target state="needs-translation">HTTP Error Status Code</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorCode.404">
+        <source>404 (Page not found)</source>
+        <target state="needs-translation">404 (Page not found)</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorCode.403">
+        <source>403 (Forbidden)</source>
+        <target state="needs-translation">403 (Forbidden)</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorCode.500">
+        <source>500 (Internal Server Error)</source>
+        <target state="needs-translation">500 (Internal Server Error)</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorCode.503">
+        <source>503 (Service Unavailable)</source>
+        <target state="needs-translation">503 (Service Unavailable)</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorCode.0">
+        <source>any error not defined otherwise</source>
+        <target state="needs-translation">any error not defined otherwise</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorHandler">
+        <source>How to handle Errors</source>
+        <target state="needs-translation">How to handle Errors</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorHandler.fluid">
+        <source>Fluid Template</source>
+        <target state="needs-translation">Fluid Template</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorHandler.page">
+        <source>Show Content from Page</source>
+        <target state="needs-translation">Show Content from Page</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorHandler.php">
+        <source>PHP Class (must implement the PageErrorHandlerInterface)</source>
+        <target state="needs-translation">PHP Class (must implement the PageErrorHandlerInterface)</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorFluidTemplate">
+        <source>Fluid Template File</source>
+        <target state="needs-translation">Fluid Template File</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorFluidTemplate.placeholder">
+        <source>EXT:my_sitepackage/Resources/Private/Templates/Sites/Error.html</source>
+        <target state="needs-translation">EXT:my_sitepackage/Resources/Private/Templates/Sites/Error.html</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorFluidTemplatesRootPath">
+        <source>Fluid Templates Root Path</source>
+        <target state="needs-translation">Fluid Templates Root Path</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorFluidLayoutsRootPath">
+        <source>Fluid Layouts Root Path</source>
+        <target state="needs-translation">Fluid Layouts Root Path</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorFluidPartialsRootPath">
+        <source>Fluid Partials Root Path</source>
+        <target state="needs-translation">Fluid Partials Root Path</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorContentSource">
+        <source>Show Content from Page</source>
+        <target state="needs-translation">Show Content from Page</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorPhpClassFQCN">
+        <source>ErrorHandler Class Target (FQCN)</source>
+        <target state="needs-translation">ErrorHandler Class Target (FQCN)</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorPhpClassFQCN.placeholder">
+        <source>Vendor\ExtensionName\ErrorHandlers\GenericErrorhandler</source>
+        <target state="needs-translation">Vendor\ExtensionName\ErrorHandlers\GenericErrorhandler</target>
+      </trans-unit>
+      <trans-unit id="site_route.ctrl.title">
+        <source>Routes</source>
+        <target state="needs-translation">Routes</target>
+      </trans-unit>
+      <trans-unit id="site_route.type">
+        <source>Route Type</source>
+        <target state="needs-translation">Route Type</target>
+      </trans-unit>
+      <trans-unit id="site_route.staticText">
+        <source>Static Text</source>
+        <target state="needs-translation">Static Text</target>
+      </trans-unit>
+      <trans-unit id="site_route.staticText.example1">
+        <source>robots.txt Example Content</source>
+        <target state="needs-translation">robots.txt Example Content</target>
+      </trans-unit>
+      <trans-unit id="site_route.source">
+        <source>Page, File or URL</source>
+        <target state="needs-translation">Page, File or URL</target>
+      </trans-unit>
+      <trans-unit id="site_route.route">
+        <source>Static Route Name</source>
+        <target state="needs-translation">Static Route Name</target>
+      </trans-unit>
+      <trans-unit id="site_route.route.placeholder">
+        <source>my-custom_route</source>
+        <target state="needs-translation">my-custom_route</target>
+      </trans-unit>
+      <trans-unit id="site_route.route.example1">
+        <source>robots.txt</source>
+        <target state="needs-translation">robots.txt</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
