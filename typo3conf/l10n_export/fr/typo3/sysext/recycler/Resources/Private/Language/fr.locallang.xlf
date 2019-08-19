@@ -5,167 +5,167 @@
     <body>
       <trans-unit id="title">
         <source>Recycler</source>
-        <target state="needs-translation">Recycler</target>
+        <target state="translated">Recycler</target>
       </trans-unit>
       <trans-unit id="description">
         <source>The recycler allows you to select any deleted data and undelete it. You can undelete recursive if the parent of the element is deleted too.</source>
-        <target state="needs-translation">The recycler allows you to select any deleted data and undelete it. You can undelete recursive if the parent of the element is deleted too.</target>
+        <target state="translated">Le recycleur vous permet de sélectionner les données supprimées et de les supprimer. Vous pouvez supprimer les données récursives si le parent de l'élément est également supprimé.</target>
       </trans-unit>
       <trans-unit id="label_allrecordtypes">
         <source>All Record Types</source>
-        <target state="needs-translation">All Record Types</target>
+        <target state="translated">Tous les types d'enregistrement</target>
       </trans-unit>
       <trans-unit id="button.cancel">
         <source>Cancel</source>
-        <target state="needs-translation">Cancel</target>
+        <target state="translated">Annuler</target>
       </trans-unit>
       <trans-unit id="button.delete">
         <source>Delete</source>
-        <target state="needs-translation">Delete</target>
+        <target state="translated">Supprimer</target>
       </trans-unit>
       <trans-unit id="button.deleteselected">
         <source>Delete {0} records</source>
-        <target state="needs-translation">Delete {0} records</target>
+        <target state="translated">Supprimer les enregistrements {0}</target>
       </trans-unit>
       <trans-unit id="button.undo">
         <source>Recover</source>
-        <target state="needs-translation">Recover</target>
+        <target state="translated">Récupérer</target>
       </trans-unit>
       <trans-unit id="button.expand">
         <source>Expand record</source>
-        <target state="needs-translation">Expand record</target>
+        <target state="translated">Expliquer l'enregistrement</target>
       </trans-unit>
       <trans-unit id="button.undoselected">
         <source>Recover {0} records</source>
-        <target state="needs-translation">Recover {0} records</target>
+        <target state="translated">Récupérer {0} enregistrements</target>
       </trans-unit>
       <trans-unit id="button.reload">
         <source>Reload</source>
-        <target state="needs-translation">Reload</target>
+        <target state="translated">Recharger</target>
       </trans-unit>
       <trans-unit id="modal.delete.header">
         <source>Confirm deletion</source>
-        <target state="needs-translation">Confirm deletion</target>
+        <target state="translated">Confirmer la suppression</target>
       </trans-unit>
       <trans-unit id="modal.undo.header">
         <source>Recover records</source>
-        <target state="needs-translation">Recover records</target>
+        <target state="translated">Récupérer les enregistrements</target>
       </trans-unit>
       <trans-unit id="modal.undo.recursive">
         <source>Recover content and subpages recursively</source>
-        <target state="needs-translation">Recover content and subpages recursively</target>
+        <target state="translated">Récupérer le contenu et les sous-pages récursivement</target>
       </trans-unit>
       <trans-unit id="modal.deletecontent.text">
         <source>Do you really want to delete the record "{0}" {1} permanently? You cannot revert this action!</source>
-        <target state="needs-translation">Do you really want to delete the record "{0}" {1} permanently? You cannot revert this action!</target>
+        <target state="translated">Voulez-vous vraiment supprimer l'enregistrement "{0}" {1} de manière permanente ? Vous ne pouvez pas revenir à cette action !</target>
       </trans-unit>
       <trans-unit id="modal.massdelete.text">
         <source>Do you really want to delete all selected records and potential subpages? You cannot revert this action!</source>
-        <target state="needs-translation">Do you really want to delete all selected records and potential subpages? You cannot revert this action!</target>
+        <target state="translated">Voulez-vous vraiment supprimer tous les enregistrements sélectionnés et les sous-pages potentielles ? Vous ne pouvez pas revenir à cette action !</target>
       </trans-unit>
       <trans-unit id="modal.deletepage.text">
         <source>Do you really want to delete the page "{0}" {1} and all of its contents (records and pages) permanently? You cannot revert this action!</source>
-        <target state="needs-translation">Do you really want to delete the page "{0}" {1} and all of its contents (records and pages) permanently? You cannot revert this action!</target>
+        <target state="translated">Voulez-vous vraiment supprimer la page "{0}" {1} et tous ses contenus (enregistrements et pages) de manière permanente ? Vous ne pouvez pas revenir à cette action !</target>
       </trans-unit>
       <trans-unit id="modal.undocontent.text">
         <source>Do you really want to recover the record "{0}" {1}?</source>
-        <target state="needs-translation">Do you really want to recover the record "{0}" {1}?</target>
+        <target state="translated">Voulez-vous vraiment récupérer l'enregistrement "{0}" {1}?</target>
       </trans-unit>
       <trans-unit id="modal.undopage.text">
         <source>Do you really want to recover the page "{0}" {1}, its contents and optionally all of its subpages?</source>
-        <target state="needs-translation">Do you really want to recover the page "{0}" {1}, its contents and optionally all of its subpages?</target>
+        <target state="translated">Voulez-vous vraiment récupérer la page "{0}" {1}, son contenu et éventuellement toutes ses sous-pages ?</target>
       </trans-unit>
       <trans-unit id="modal.undo.parentpages">
         <source>All parent pages have been restored to ensure a valid rootline!</source>
-        <target state="needs-translation">All parent pages have been restored to ensure a valid rootline!</target>
+        <target state="translated">Toutes les pages parentes ont été restaurées pour assurer une rootline valide !</target>
       </trans-unit>
       <trans-unit id="modal.massundo.text">
         <source>Do you really want to recover all selected records and optionally potential subpages?</source>
-        <target state="needs-translation">Do you really want to recover all selected records and optionally potential subpages?</target>
+        <target state="translated">Voulez-vous vraiment récupérer tous les enregistrements sélectionnés et les sous-pages potentiellement potentiels ?</target>
       </trans-unit>
       <trans-unit id="flashmessage.delete.norecordsselected">
         <source>No records set to delete.</source>
-        <target state="needs-translation">No records set to delete.</target>
+        <target state="translated">Aucun enregistrement à supprimer.</target>
       </trans-unit>
       <trans-unit id="flashmessage.delete.success.singular">
         <source>One record was deleted.</source>
-        <target state="needs-translation">One record was deleted.</target>
+        <target state="translated">Un enregistrement a été supprimé.</target>
       </trans-unit>
       <trans-unit id="flashmessage.delete.success.plural">
         <source>%d records were deleted.</source>
-        <target state="needs-translation">%d records were deleted.</target>
+        <target state="translated">%d enregistrements ont été supprimés.</target>
       </trans-unit>
       <trans-unit id="flashmessage.delete.failure.singular">
         <source>Could not delete one record.</source>
-        <target state="needs-translation">Could not delete one record.</target>
+        <target state="translated">Impossible de supprimer un enregistrement.</target>
       </trans-unit>
       <trans-unit id="flashmessage.delete.failure.plural">
         <source>Could not delete %d records.</source>
-        <target state="needs-translation">Could not delete %d records.</target>
+        <target state="translated">Impossible de supprimer %d enregistrements.</target>
       </trans-unit>
       <trans-unit id="flashmessage.undo.norecordsselected">
         <source>No records set to recover.</source>
-        <target state="needs-translation">No records set to recover.</target>
+        <target state="translated">Aucun enregistrement à récupérer.</target>
       </trans-unit>
       <trans-unit id="flashmessage.undo.success.singular">
         <source>One record was recovered.</source>
-        <target state="needs-translation">One record was recovered.</target>
+        <target state="translated">Un enregistrement a été récupéré.</target>
       </trans-unit>
       <trans-unit id="flashmessage.undo.success.plural">
         <source>%d records were recovered.</source>
-        <target state="needs-translation">%d records were recovered.</target>
+        <target state="translated">%d enregistrements ont été récupérés.</target>
       </trans-unit>
       <trans-unit id="flashmessage.undo.failure.singular">
         <source>Could not recover one record.</source>
-        <target state="needs-translation">Could not recover one record.</target>
+        <target state="translated">Impossible de récupérer un enregistrement.</target>
       </trans-unit>
       <trans-unit id="flashmessage.undo.failure.plural">
         <source>Could not recover %d records.</source>
-        <target state="needs-translation">Could not recover %d records.</target>
+        <target state="translated">Impossible de récupérer %d enregistrements.</target>
       </trans-unit>
       <trans-unit id="table.header.uid">
         <source>UID</source>
-        <target state="needs-translation">UID</target>
+        <target state="translated">UID</target>
       </trans-unit>
       <trans-unit id="table.header.pid">
         <source>PID</source>
-        <target state="needs-translation">PID</target>
+        <target state="translated">PID</target>
       </trans-unit>
       <trans-unit id="table.header.record">
         <source>Record</source>
-        <target state="needs-translation">Record</target>
+        <target state="translated">Enregistrer</target>
       </trans-unit>
       <trans-unit id="table.header.actions">
         <source>Actions</source>
-        <target state="needs-translation">Actions</target>
+        <target state="translated">Actions</target>
       </trans-unit>
       <trans-unit id="table.header.recordtype">
         <source>Record Type</source>
-        <target state="needs-translation">Record Type</target>
+        <target state="translated">Type d'enregistrement</target>
       </trans-unit>
       <trans-unit id="table.header.tstamp">
         <source>Last edit</source>
-        <target state="needs-translation">Last edit</target>
+        <target state="translated">Dernière modification</target>
       </trans-unit>
       <trans-unit id="table.header.crdate">
         <source>Created on</source>
-        <target state="needs-translation">Created on</target>
+        <target state="translated">Créé le</target>
       </trans-unit>
       <trans-unit id="table.header.owner">
         <source>Owner</source>
-        <target state="needs-translation">Owner</target>
+        <target state="translated">Propriétaire</target>
       </trans-unit>
       <trans-unit id="table.header.deletedBy">
         <source>Deleted by</source>
-        <target state="needs-translation">Deleted by</target>
+        <target state="translated">Supprimé par</target>
       </trans-unit>
       <trans-unit id="table.header.path">
         <source>Path</source>
-        <target state="needs-translation">Path</target>
+        <target state="translated">Chemin</target>
       </trans-unit>
       <trans-unit id="record.deleted">
         <source>deleted</source>
-        <target state="needs-translation">deleted</target>
+        <target state="translated">supprimé</target>
       </trans-unit>
     </body>
   </file>
