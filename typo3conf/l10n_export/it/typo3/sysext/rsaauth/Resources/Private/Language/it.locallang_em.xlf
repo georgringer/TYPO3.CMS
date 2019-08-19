@@ -5,7 +5,7 @@
     <body>
       <trans-unit id="rsaauth.config.temporaryDirectory">
         <source>Path to the temporary directory:This directory will contain temporary files for encryption/decrytion. It should be located outside of the web site root and it should not be /tmp. Directory permissions should be 0700 and the owner should be the web server user. If left empty, typo3conf/ will be used and it is INSECURE! Make sure that the directory is included into open_basedir if you use this setting.</source>
-        <target state="needs-translation">Path to the temporary directory:This directory will contain temporary files for encryption/decrytion. It should be located outside of the web site root and it should not be /tmp. Directory permissions should be 0700 and the owner should be the web server user. If left empty, typo3conf/ will be used and it is INSECURE! Make sure that the directory is included into open_basedir if you use this setting.</target>
+        <target state="translated">Percorso della directory temporanea:Questa directory conterrà file temporanei per crittografia/decrytion. Dovrebbe essere situata al di fuori della root del sito web e non dovrebbe essere /tmp. I permessi della directory dovrebbero essere 0700 e il proprietario dovrebbe essere l'utente del server web. Se lasciato vuoto, digitapo3conf/ verrà utilizzato e è INSECURE! Assicurati che la directory sia inclusa in open_basedir se si utilizza questa impostazione.</target>
       </trans-unit>
     </body>
   </file>
