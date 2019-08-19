@@ -3,11 +3,26 @@
   <file t3:id="1415814862" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="lang" target-language="fr">
     <header/>
     <body>
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id=".alttitle">
+        <source>Web &gt; Info module</source>
+        <target state="translated">Module d'information &gt; Web</target>
+      </trans-unit>
+      <trans-unit id=".description">
+        <source>The idea of the Web&gt;Info module is to be a host module for backend applications that wish to present information / analysis of pages or branches of the page tree. This could be website statistics, caching status information etc.</source>
+        <target state="translated">L'idée du module d'information Web&gt;est d'être un module hôte pour les applications de backend qui souhaitent présenter des informations / analyses de pages ou de branches de l'arborescence de page. Cela pourrait être des statistiques du site, des informations sur le statut de cache etc.</target>
+      </trans-unit>
+      <trans-unit id=".details">
+        <source>The Web&gt;Info module shows information rather than offering functionality. It is up to extension programmers to decide in which of these two modules they want to insert functionality.</source>
+        <target state="translated">Le module d'information Web&gt;affiche des informations plutôt que d'offrir des fonctionnalités. Il appartient aux programmeurs d'extension de décider dans quels de ces deux modules ils veulent insérer des fonctionnalités.</target>
+      </trans-unit>
+      <trans-unit id="_.image">
+        <source>EXT:info/Resources/Public/Images/cshimages/pagetree_overview_10.png</source>
+        <target state="translated">EXT:info/Ressources/Public/Images/cshimages/pagetree_overview_10.png</target>
+      </trans-unit>
+      <trans-unit id=".image_descr">
+        <source>The Web&gt;Info module as provided by the core is an empty shell. It provides an API that extensions can use to attach function menu items to the Info module. Here you see the "Page TSconfig" overview from the extension "info_pagetsconfig".</source>
+        <target state="translated">Le module d'information Web&gt;tel que fourni par le noyau est un shell vide. Il fournit une API que les extensions peuvent utiliser pour attacher des éléments de menu de fonction au module Info. Ici vous voyez le aperçu "Page TSconfig" de l'extension "info_pagetsconfig".</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
