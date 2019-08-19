@@ -3,15 +3,42 @@
   <file t3:id="1424776442" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:35Z" product-name="recycler" target-language="de">
     <header/>
     <body>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id="cleanerTaskTitle">
+        <source>Remove deleted records</source>
+        <target state="translated">Löschte Datensätze entfernen</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskDescription">
+        <source>Deletes rows from the database which are flagged "deleted"</source>
+        <target state="translated">Löscht Zeilen aus der Datenbank, die "gelöscht" markiert sind</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskPeriod">
+        <source>Delete entries older than (in days)</source>
+        <target state="translated">Einträge älter als (in Tagen)</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskTCA">
+        <source>Tables</source>
+        <target state="translated">Tabellen</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskDescriptionTables">
+        <source>Tables: %s</source>
+        <target state="translated">Tabellen: %s</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskDescriptionDays">
+        <source>Older than %d days(s)</source>
+        <target state="translated">Ältere als %d Tage(e)</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskErrorPeriod">
+        <source>The period has to be an integer and greater than zero.</source>
+        <target state="translated">Die Zeit muss eine Ganzzahl und größer als Null sein.</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskErrorTCAempty">
+        <source>You have to select at least one table.</source>
+        <target state="translated">Sie müssen mindestens eine Tabelle auswählen.</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskErrorTCANotSet">
+        <source>The table "%s" is not in the TCA.</source>
+        <target state="translated">Die Tabelle "%s" ist nicht im TCA.</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
