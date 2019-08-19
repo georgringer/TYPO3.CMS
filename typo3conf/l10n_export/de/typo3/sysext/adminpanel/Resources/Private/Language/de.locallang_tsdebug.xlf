@@ -3,35 +3,39 @@
   <file t3:id="1521103145" source-language="en" datatype="plaintext" original="messages" date="2018-03-15T09:39:00Z" product-name="adminpanel" target-language="de">
     <header/>
     <body>
-      <trans-unit id="module.shortinfo" approved="yes">
-        <source>(%s Messages)</source>
-        <target state="translated">(%s Meldungen)</target>
+      <trans-unit id="module.label">
+        <source>TypoScript</source>
+        <target state="translated">TypoScript</target>
       </trans-unit>
-      <trans-unit id="treeDisplay" approved="yes">
+      <trans-unit id="module.shortinfo">
+        <source>(%s Messages)</source>
+        <target state="translated">(%s Nachrichten)</target>
+      </trans-unit>
+      <trans-unit id="treeDisplay">
         <source>Tree display</source>
         <target state="translated">Baumanzeige</target>
       </trans-unit>
-      <trans-unit id="displayTimes" approved="yes">
+      <trans-unit id="displayTimes">
         <source>Display all times</source>
         <target state="translated">Alle Zeiten anzeigen</target>
       </trans-unit>
-      <trans-unit id="displayMessages" approved="yes">
+      <trans-unit id="displayMessages">
         <source>Display messages</source>
-        <target state="translated">Meldungen anzeigen</target>
+        <target state="translated">Nachrichten anzeigen</target>
       </trans-unit>
-      <trans-unit id="displayContent" approved="yes">
+      <trans-unit id="displayContent">
         <source>Display content</source>
         <target state="translated">Inhalt anzeigen</target>
       </trans-unit>
-      <trans-unit id="trackContentRendering" approved="yes">
+      <trans-unit id="trackContentRendering">
         <source>Track content rendering</source>
-        <target state="translated">Inhaltsdarstellung verfolgen</target>
+        <target state="translated">Track-Content-Rendering</target>
       </trans-unit>
-      <trans-unit id="forceTemplateParsing" approved="yes">
+      <trans-unit id="forceTemplateParsing">
         <source>Force TS Rendering</source>
-        <target state="translated">TS-Rendering erzwingen</target>
+        <target state="translated">TS Rendering erzwingen</target>
       </trans-unit>
-      <trans-unit id="sub.waterfall.label" approved="yes">
+      <trans-unit id="sub.waterfall.label">
         <source>TS Tree</source>
         <target state="translated">TS-Baum</target>
       </trans-unit>
