@@ -3,27 +3,103 @@
   <file t3:id="1415814795" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="context_help" target-language="fr">
     <header/>
     <body>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id="hidden.description">
+        <source>This option disables the user group.</source>
+        <target state="translated">Cette option désactive le groupe d'utilisateurs.</target>
+      </trans-unit>
+      <trans-unit id="hidden.details" xml:space="preserve">
+				<source>If you disable a user group all users which are members of the group will in effect not inherit any properties this group may have given them.
+For instance if a page or content element was assigned access only by this group and you disable the group, no one would gain access to that page or content element.</source>
+			<target state="translated">Si vous désactivez un groupe d'utilisateurs tous les utilisateurs qui sont membres du groupe ne hériteront en effet aucune propriété que ce groupe pourrait avoir donnée.
+Par exemple si un élément de page ou de contenu n'a été assigné qu'à ce groupe et que vous désactivez le groupe, personne n'aurait accès à cette page ou à cet élément de contenu.</target></trans-unit>
+      <trans-unit id="_hidden.seeAlso">
+        <source>fe_users:disable</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_users:disable</target>
+      </trans-unit>
+      <trans-unit id="title.description">
+        <source>Name of the group.</source>
+        <target state="translated">Nom du groupe.</target>
+      </trans-unit>
+      <trans-unit id="title.details">
+        <source>This title will appear as the group name in the 'Access'-list in other records.</source>
+        <target state="translated">Ce titre apparaîtra comme nom de groupe dans la liste 'Accès'dansd'autres enregistrements.</target>
+      </trans-unit>
+      <trans-unit id="lockToDomain.description">
+        <source>Enter the host name from which the group will be available only. NOTICE: this is not a security feature and can be circumvented by faking HTTP_HOST.</source>
+        <target state="translated">Entrez le nom d'hôte à partir duquel le groupe sera disponible uniquement. AVIS : il ne s'agit pas d'une fonctionnalité de sécurité et peut être contourné par un faux HTTP_HOST.</target>
+      </trans-unit>
+      <trans-unit id="lockToDomain.details" xml:space="preserve">
+				<source>This options may be important if you have multiple websites in the same TYPO3 database but still only one main storage page for all Website users. Thus the users may log in on any of the website URLs. This may be considered a feature (having a global login as a user) or a problem (in which case you should have multiple user storages anyway). However you may wish to limit the use of a Website usergroup to a specific website and thus you don't want the group to be enabled for the user when he logs in at another URL (still from the same database of course). By entering the host name of the website here, you restrict the group to be used only from within this domain.
+
+&lt;b&gt;Notice:&lt;/b&gt; The use for this option is not critical if you have multiple Website user storages, namely one for each site.</source>
+			<target state="translated">Ces options peuvent être importantes si vous avez plusieurs sites Web dans la même base de données TYPO3, mais encore une seule page de stockage pour tous les utilisateurs du site. Ainsi, les utilisateurs peuvent se connecter à l'une des URL du site Web. Cela peut être considéré comme une fonctionnalité (ayant une connexion globale en tant qu'utilisateur) ou un problème (dans ce cas, vous devriez avoir de toute façon plusieurs historique utilisateur). Cependant, vous pouvez limiter l'utilisation d'un site Web d'un site Web à un site web spécifique et donc vous ne voulez pas que le groupe soit activé pour l'utilisateur lorsqu'il se connecte à une autre URL (toujours à partir de la même base de données bien sûr). En entrant le nom d'hôte du site, vous limitez le groupe à être utilisé uniquement dans ce domaine.
+
+&lt;b&gt;Avis :&lt;/b&gt; L'utilisation de cette option n'est pas critique si vous avez plusieurs entrepôts d'utilisateurs du site, à savoir un pour chaque site.</target></trans-unit>
+      <trans-unit id="_lockToDomain.seeAlso">
+        <source>fe_users:lockToDomain</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_users:lockToDomain</target>
+      </trans-unit>
+      <trans-unit id="subgroup.description">
+        <source>Member of other groups.</source>
+        <target state="translated">Membre d'autres groupes.</target>
+      </trans-unit>
+      <trans-unit id="subgroup.details">
+        <source>List of other groups that this group is a member of.</source>
+        <target state="translated">Liste des autres groupes dont ce groupe est membre.</target>
+      </trans-unit>
+      <trans-unit id="description.description">
+        <source>Enter a description of the group.</source>
+        <target state="translated">Entrez une description du groupe.</target>
+      </trans-unit>
+      <trans-unit id="description.details" xml:space="preserve">
+				<source>This is for internal use and is just a way to put a note on what the group is for, why you created it and who should be members.
+Use it as you like.</source>
+			<target state="translated">Ceci est pour l'utilisation interne et n'est qu'un moyen de mettre une note sur ce que le groupe est pour, pourquoi vous l'avez créé et qui devrait être membre.
+Utilisez-le comme vous le souhaitez.</target></trans-unit>
+      <trans-unit id="TSconfig.description">
+        <source>TSconfig for the group (advanced).</source>
+        <target state="translated">TSconfig pour le groupe (avancé).</target>
+      </trans-unit>
+      <trans-unit id="TSconfig.details" xml:space="preserve">
+				<source>This is the user TSconfig for the group. The values are inherited by any Website user who is a member of this group.
+The configuration is subject to being overridden in other groups and by the TSconfig of the user himself.</source>
+			<target state="translated">Ceci est l'utilisateur TSconfig pour le groupe. Les valeurs sont héritées par n'importe quel utilisateur du site web qui est membre de ce groupe.
+La configuration est sujette à être écrasée dans d'autres groupes et par la TSconfig de l'utilisateur lui-même.</target></trans-unit>
+      <trans-unit id="TSconfig.syntax">
+        <source>TypoScript syntax, without conditions and constants.</source>
+        <target state="translated">Syntaxe TypoScript, sans conditions et constantes.</target>
+      </trans-unit>
+      <trans-unit id="_TSconfig.seeAlso">
+        <source>fe_users:TSconfig</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_users:TSconfig</target>
+      </trans-unit>
+      <trans-unit id=".description">
+        <source>Usergroups for Website users.</source>
+        <target state="translated">Les utilisateurs du site web sont des roups d'utilisateurs.</target>
+      </trans-unit>
+      <trans-unit id=".details">
+        <source>The access restriction in TYPO3 is assigned to these usergroups. When a page or other element is access restricted to a group, only Website users which are members or that group will be able to view the element on the website.</source>
+        <target state="translated">La restriction d'accès dans TYPO3 est assignée à ces roups d'utilisateurs. Lorsqu'une page ou un autre élément est accès limité à un groupe, seuls les utilisateurs du site Web qui sont membres ou ce groupe pourront voir l'élément sur le site Web.</target>
+      </trans-unit>
+      <trans-unit id="_.seeAlso" xml:space="preserve">
+				<source>fe_users,
+About access restricting pages | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/PasswordProtectedPages/</source>
+			<target state="translated">fe_users,
+A propos des pages de restriction d'accès | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/PasswordProtectedPages/</target></trans-unit>
+      <trans-unit id="_.image" xml:space="preserve">
+				<source>EXT:frontend/Resources/Public/Images/cshimages/fegroups_3.png,
+EXT:frontend/Resources/Public/Images/cshimages/fegroups_4.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:frontend/Ressources/Public/Images/cshimages/fegroups_3.png,
+EXT:frontend/Resources/Public/Images/cshimages/fegroups_4.png</target></trans-unit>
+      <trans-unit id=".image_descr" xml:space="preserve">
+				<source>The form for editing frontend users groups.
+Pages, Content Elements and other records for frontend display often have a selector box where you can define access restriction by selecting access for a certain group only.</source>
+			<target state="translated">Le formulaire pour éditer les groupes d'utilisateurs frontend.
+Pages, éléments de contenu et autres enregistrements pour l'affichage frontend ont souvent une boîte de sélection où vous pouvez définir la restriction d'accès en sélectionnant l'accès pour un certain groupe seulement.</target></trans-unit>
+    </body>
   </file>
 </xliff>
