@@ -5,15 +5,15 @@
     <body>
       <trans-unit id="layout.description">
         <source>The Frontend Layout can change the way a page design appears.</source>
-        <target state="needs-translation">The Frontend Layout can change the way a page design appears.</target>
+        <target state="translated">Das Frontend Layout kann die Art und Weise ändern, wie ein Seitendesign erscheint.</target>
       </trans-unit>
       <trans-unit id="layout.details">
         <source>This option may not have any impact on the Frontend page design since it depends on whether the Frontend template uses it. Most templates do not use it.</source>
-        <target state="needs-translation">This option may not have any impact on the Frontend page design since it depends on whether the Frontend template uses it. Most templates do not use it.</target>
+        <target state="translated">Diese Option hat möglicherweise keine Auswirkungen auf das Frontend-Seitendesign, da es davon abhängt, ob die Frontend-Vorlage sie verwendet. Die meisten Vorlagen verwenden es nicht.</target>
       </trans-unit>
       <trans-unit id="doktype.description">
         <source>Page Type determines whether the page is normal webpage, a shortcut to another webpage, or used in other internal ways.</source>
-        <target state="needs-translation">Page Type determines whether the page is normal webpage, a shortcut to another webpage, or used in other internal ways.</target>
+        <target state="translated">Der Seitentyp bestimmt, ob die Seite normal ist, eine Verknüpfung zu einer anderen Webseite oder auf andere interne Weise verwendet wird.</target>
       </trans-unit>
       <trans-unit id="doktype.details" xml:space="preserve">
 				<source>'Standard' is the most common Page Type and is used for normal webpages.
@@ -30,83 +30,83 @@
 'Menu Separator' is only useful if your Frontend memus are programmed to use it. It does not represent a page with content but is intended to be an unclickable placeholder in the menu.
 
 &lt;b&gt;Notice&lt;/b&gt; Each Page Type is represented by a unique icon. The available page types can be restricted for users so all of the options described above may not be visible. Finally, particuilar record typoes may only be allowed on certain page types, but any record can be placed in a 'Folder.'</source>
-			<target state="needs-translation">'Standard' is the most common Page Type and is used for normal webpages.
-'Backend User Section' is an option which creates pages that are only visible in the Frontend for Backend users who are logged in.
+			<target state="translated">'Standard' ist der häufigste Seitentyp und wird für normale Webseiten verwendet.
+'Backend User Section' ist eine Option, die Seiten erstellt, die nur im Frontend für Backend-Benutzer sichtbar sind, die angemeldet sind.
 
 &lt;b&gt;Link&lt;/b&gt;
-'Shortcut' pages jump to another page in the Pagetree.
-'Mount Point' pages bring content from another branch of the Pagetree into the current branch.
-'Link to External URL' is similar to 'Shortcut' but points to external URLs instead of TYPO3 pages.
+'Verknüpfungen' Seiten springen auf eine andere Seite im Pagetree.
+'Mount Point' Seiten bringen Inhalte aus einem anderen Zweig des Pagetree in den aktuellen Zweig.
+'Link zu externer URL' ist ähnlich wie 'Shortcut', aber verweist auf externe URLs anstatt auf TYPO3 Seiten.
 
-&lt;b&gt;Special&lt;/b&gt;
-'Folder' is a page type which is not shown as a webpage but is instead stores records of your choice.
-'Recycler' is a garbage can. Pages and records in the Recycler are not visible in the Frontend.
-'Menu Separator' is only useful if your Frontend memus are programmed to use it. It does not represent a page with content but is intended to be an unclickable placeholder in the menu.
+&lt;b&gt;Speziell&lt;/b&gt;
+'Ordner' ist ein Seitentyp, der nicht als Webseite angezeigt wird, sondern stattdessen Datensätze Ihrer Wahl speichert.
+'Recycler' ist ein Müll kann. Seiten und Datensätze im Papierkorb sind im Frontend nicht sichtbar.
+'Menü Separator' ist nur nützlich, wenn Ihre Frontend-Memos programmiert werden, um es zu verwenden. Es repräsentiert keine Seite mit Inhalten, sondern ist als nicht geklickter Platzhalter im Menü gedacht.
 
-&lt;b&gt;Notice&lt;/b&gt; Each Page Type is represented by a unique icon. The available page types can be restricted for users so all of the options described above may not be visible. Finally, particuilar record typoes may only be allowed on certain page types, but any record can be placed in a 'Folder.'</target></trans-unit>
+&lt;b&gt;Hinweis&lt;/b&gt; Jeder Seitentyp wird durch ein einzigartiges Symbol dargestellt. Die verfügbaren Seitentypen können für Benutzer eingeschränkt werden, so dass alle oben beschriebenen Optionen nicht sichtbar sein können. Schließlich dürfen einzelne Datensatztypen nur auf bestimmten Seitentypen erlaubt werden, aber jeder Eintrag kann in einem 'Ordner' platziert werden.</target></trans-unit>
       <trans-unit id="_doktype.seeAlso" xml:space="preserve">
 				<source>pages:shortcut,
 pages:url</source>
 				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-			<target state="needs-translation">pages:shortcut,
-pages:url</target></trans-unit>
+			<target state="translated">Seiten:Verknüpfung,
+Seiten:url</target></trans-unit>
       <trans-unit id="hidden.description">
         <source>If this is checked, the page will be disabled on the website.</source>
-        <target state="needs-translation">If this is checked, the page will be disabled on the website.</target>
+        <target state="translated">Wenn diese Option aktiviert ist, wird die Seite auf der Website deaktiviert.</target>
       </trans-unit>
       <trans-unit id="hidden.details" xml:space="preserve">
 				<source>The 'Disable,' 'Start,' 'Stop,' and 'Access' options are all about limiting access to pages and are thus related in functionality. When a page is not visible due to one of these options, the page will not show up in the site navigation.
 Notice, these options are related &lt;em&gt;only&lt;/em&gt; to the page for which they are set. If you want their effect to cover the subpages as well, you must enable the 'Extend to Subpages' option.
 When you're logged in as a Backend user you can preview disabled pages if you have read access to them.</source>
-			<target state="needs-translation">The 'Disable,' 'Start,' 'Stop,' and 'Access' options are all about limiting access to pages and are thus related in functionality. When a page is not visible due to one of these options, the page will not show up in the site navigation.
-Notice, these options are related &lt;em&gt;only&lt;/em&gt; to the page for which they are set. If you want their effect to cover the subpages as well, you must enable the 'Extend to Subpages' option.
-When you're logged in as a Backend user you can preview disabled pages if you have read access to them.</target></trans-unit>
+			<target state="translated">Die Optionen "Deaktivieren", "Start", "Stop", "Access" und "Access" sind alles, um den Zugriff auf Seiten zu beschränken und sind damit in Funktionalität verwandt. Wenn eine Seite aufgrund einer dieser Optionen nicht sichtbar ist, wird die Seite nicht in der Seitennavigation angezeigt.
+Hinweis, diese Optionen sind mit der Seite verknüpft &lt;em&gt;nur&lt;/em&gt; für die sie gesetzt sind. Wenn Sie wollen, dass ihr Effekt auch die Unterseiten abdeckt, müssen Sie die Option 'Auf Subpages erweitern' aktivieren.
+Wenn Sie als Backend-Benutzer angemeldet sind, können Sie deaktiviert Seiten anzeigen, wenn Sie Zugriff auf diese gelesen haben.</target></trans-unit>
       <trans-unit id="_hidden.seeAlso">
         <source>pages:starttime,pages:endtime,pages:fe_group,pages:extendToSubpages</source>
         <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-        <target state="needs-translation">pages:starttime,pages:endtime,pages:fe_group,pages:extendToSubpages</target>
+        <target state="translated">Seiten:starttime,pages:endtime,pages:fe_group,pages:extendToSubpages</target>
       </trans-unit>
       <trans-unit id="_hidden.image" xml:space="preserve">
 				<source>EXT:core/Resources/Public/Images/cshimages/hidden_page.gif,
 EXT:core/Resources/Public/Images/cshimages/pages_1.png</source>
 				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-			<target state="needs-translation">EXT:core/Resources/Public/Images/cshimages/hidden_page.gif,
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/hidden_page.gif,
 EXT:core/Resources/Public/Images/cshimages/pages_1.png</target></trans-unit>
       <trans-unit id="hidden.image_descr" xml:space="preserve">
 				<source>The page icon of a disabled page is dimmed and a red X is added.
 If you view a page that is hidden and you are logged in into the Backend you will still be able to see the page. The red "Preview" box will tell you that this page is visible to you because of this special circumstance.</source>
-			<target state="needs-translation">The page icon of a disabled page is dimmed and a red X is added.
-If you view a page that is hidden and you are logged in into the Backend you will still be able to see the page. The red "Preview" box will tell you that this page is visible to you because of this special circumstance.</target></trans-unit>
+			<target state="translated">Das Seitensymbol einer deaktiviert-Seite ist dimmed und ein rotes X hinzugefügt.
+Wenn Sie eine Seite sehen, die versteckt ist und Sie im Backend angemeldet sind, können Sie die Seite trotzdem sehen. Das rote "Vorschau"-Feld zeigt Ihnen, dass diese Seite aufgrund dieser besonderen Umstände für Sie sichtbar ist.</target></trans-unit>
       <trans-unit id="starttime.description">
         <source>The Publish Date determines when the page will be visible online. If the Publish Date is not set, the page will be available immediately.</source>
-        <target state="needs-translation">The Publish Date determines when the page will be visible online. If the Publish Date is not set, the page will be available immediately.</target>
+        <target state="translated">Das Veröffentlichungsdatum bestimmt, wann die Seite online sichtbar sein wird. Wenn das Veröffentlichungsdatum nicht gesetzt ist, wird die Seite sofort verfügbar sein.</target>
       </trans-unit>
       <trans-unit id="starttime.syntax" xml:space="preserve">
 				<source>The Publish Date Format is either DD-MM-YYYY or MM-DD-YYYY depending on how TYPO3 is configured. There are also several shortcuts you can use when entering the date.
 If you insert a 'd' the current date will be inserted. You can also append any value in the field with a number such as '+10' which will add 10 days to the current value. For example, entering 'd+10' would result in a date 10 days from now.</source>
-			<target state="needs-translation">The Publish Date Format is either DD-MM-YYYY or MM-DD-YYYY depending on how TYPO3 is configured. There are also several shortcuts you can use when entering the date.
-If you insert a 'd' the current date will be inserted. You can also append any value in the field with a number such as '+10' which will add 10 days to the current value. For example, entering 'd+10' would result in a date 10 days from now.</target></trans-unit>
+			<target state="translated">Das Publish Date Format ist entweder DD-MM-YYY oder MM-DD-YYY abhängig davon, wie TYPO3 konfiguriert ist. Es gibt auch mehrere Verknüpfungen, die Sie beim Eintreten des Datums verwenden können.
+Wenn Sie ein 'd' eingefügt haben, wird das aktuelle Datum eingefügt. Sie können auch einen Wert in das Feld mit einer Zahl wie '+10' anhängen, die 10 Tage zum aktuellen Wert hinzufügen wird. Zum Beispiel, wenn Sie 'd+10' eingeben, würde das Datum von jetzt an 10 Tagen anhängen.</target></trans-unit>
       <trans-unit id="_starttime.seeAlso">
         <source>pages:endtime,pages:hidden</source>
         <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-        <target state="needs-translation">pages:endtime,pages:hidden</target>
+        <target state="translated">Seiten:endtime,pages:verborgen</target>
       </trans-unit>
       <trans-unit id="_.seeAlso">
         <source>tt_content</source>
-        <target state="needs-translation">tt_content</target>
+        <target state="translated">tt_Inhalt</target>
       </trans-unit>
       <trans-unit id="endtime.description">
         <source>The Expiration Date specifies when the page will no longer be visible online.</source>
-        <target state="needs-translation">The Expiration Date specifies when the page will no longer be visible online.</target>
+        <target state="translated">Das Ablaufdatum legt fest, wann die Seite nicht mehr online sichtbar ist.</target>
       </trans-unit>
       <trans-unit id="endtime.syntax">
         <source>See Page / Publication Date (click below)</source>
-        <target state="needs-translation">See Page / Publication Date (click below)</target>
+        <target state="translated">Seite / Veröffentlichungsdatum anzeigen (unten klicken)</target>
       </trans-unit>
       <trans-unit id="_endtime.seeAlso">
         <source>pages:starttime</source>
         <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-        <target state="needs-translation">pages:starttime</target>
+        <target state="translated">Seiten:starttime</target>
       </trans-unit>
       <trans-unit id="fe_group.description">
         <source>If Usergroup Access Rights is set to a usergroup name, only website users who are members of the selected usergroup will be able to view the page. The special option 'Hide at Login' means the page will &lt;em&gt;not&lt;/em&gt; be visible for any website users that are logged in. Likewise "Show at Any Login" will make the page visible for any logged in Frontend user.</source>
@@ -114,60 +114,60 @@ If you insert a 'd' the current date will be inserted. You can also append any v
       </trans-unit>
       <trans-unit id="_fe_group.seeAlso">
         <source>fe_groups</source>
-        <target state="needs-translation">fe_groups</target>
+        <target state="translated">fe_Gruppen</target>
       </trans-unit>
       <trans-unit id="_fe_group.image">
         <source>EXT:frontend/Resources/Public/Images/cshimages/fegroups_4.png</source>
         <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-        <target state="needs-translation">EXT:frontend/Resources/Public/Images/cshimages/fegroups_4.png</target>
+        <target state="translated">EXT:frontend/Resources/Public/Images/cshimages/fegroups_4.png</target>
       </trans-unit>
       <trans-unit id="extendToSubpages.description">
         <source>By default the Publication Date, Expiration Date, Usergroup Access Rights, and Page Visibility options &lt;em&gt;only&lt;/em&gt; affect the page where they are set. If the option 'Extend to Subpages' is checked for the page, then all subpages are affected as well.</source>
-        <target state="needs-translation">By default the Publication Date, Expiration Date, Usergroup Access Rights, and Page Visibility options &lt;em&gt;only&lt;/em&gt; affect the page where they are set. If the option 'Extend to Subpages' is checked for the page, then all subpages are affected as well.</target>
+        <target state="translated">Standardmäßig beeinflussen das Veröffentlichungsdatum, Ablaufdatum, Zugriffsrechte der Benutzergruppe und die Optionen der Seitenansicht &lt;em&gt;nur&lt;/em&gt; die Seite, auf der sie gesetzt sind. Wenn die Option 'Auf Subpages erweitern' für die Seite überprüft wird, werden alle Unterseiten ebenfalls betroffen.</target>
       </trans-unit>
       <trans-unit id="extendToSubpages.details" xml:space="preserve">
 				<source>Consider a scenario where you want to create a section of subpages that are only visible for logged in users. Setting the Usergroup Access Rights for the top page in the section would remove the page from menus if no user was logged in.
 However, the subpage could still be accessed by guessing the ID number of the page and entering it manually in the URL. Setting the 'Extend to Subpages' option would extend the Usergroup Access Rights from the top page through all subpages as well.</source>
-			<target state="needs-translation">Consider a scenario where you want to create a section of subpages that are only visible for logged in users. Setting the Usergroup Access Rights for the top page in the section would remove the page from menus if no user was logged in.
-However, the subpage could still be accessed by guessing the ID number of the page and entering it manually in the URL. Setting the 'Extend to Subpages' option would extend the Usergroup Access Rights from the top page through all subpages as well.</target></trans-unit>
+			<target state="translated">Betrachten Sie ein Szenario, in dem Sie einen Abschnitt von nur eingeloggten Unterseiten erstellen möchten. Wenn Sie die Zugriffsrechte der Benutzergruppe für die oberste Seite im Abschnitt festlegen, würden Sie die Seite von Menüs entfernen, wenn kein Benutzer angemeldet wurde.
+Allerdings könnte die Unterseite trotzdem durch die Vermutung der ID-Nummer der Seite und manuell in die URL zugegriffen werden. Wenn Sie die Option 'Erweitert auf Subpages' einstellen, würde die Zugriffsrechte der Benutzergruppe von der oberen Seite auch durch alle Unterseiten erweitert.</target></trans-unit>
       <trans-unit id="_extendToSubpages.seeAlso" xml:space="preserve">
 				<source>pages:hidden,
 pages:starttime,
 pages:endtime,
 pages:fe_group</source>
 				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-			<target state="needs-translation">pages:hidden,
-pages:starttime,
-pages:endtime,
-pages:fe_group</target></trans-unit>
+			<target state="translated">Seiten:verborgen,
+Seiten:starttime,
+Seiten:endtime,
+Seiten:fe_group</target></trans-unit>
       <trans-unit id="_extendToSubpages.image">
         <source>EXT:core/Resources/Public/Images/cshimages/pages_2.png</source>
         <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-        <target state="needs-translation">EXT:core/Resources/Public/Images/cshimages/pages_2.png</target>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/pages_2.png</target>
       </trans-unit>
       <trans-unit id="extendToSubpages.image_descr">
         <source>This page has access restricted to a certain group and has "Extend to Subpages" set as well. This is reflected in the way the page icon has changed.</source>
-        <target state="needs-translation">This page has access restricted to a certain group and has "Extend to Subpages" set as well. This is reflected in the way the page icon has changed.</target>
+        <target state="translated">Diese Seite hat Zugriff auf eine bestimmte Gruppe und hat auch "Erweitert auf Unterseiten" gesetzt. Dies spiegelt sich in der Art und Weise wider, wie sich das Seitensymbol geändert hat.</target>
       </trans-unit>
       <trans-unit id="alias.description">
         <source>A URL Alias is a unique identification string for a page. You can use this string instead of the ID number to refer to the page.</source>
-        <target state="needs-translation">A URL Alias is a unique identification string for a page. You can use this string instead of the ID number to refer to the page.</target>
+        <target state="translated">Eine URL Alias ist ein einzigartiger Identifikationszeichenzeichenzeichenname für eine Seite. Sie können diesen String anstelle der ID-Nummer verwenden, um auf die Seite zu verweisen.</target>
       </trans-unit>
       <trans-unit id="alias.details" xml:space="preserve">
 				<source>Ultimately a page is identified by its ID number. For example, you may access a page in TYPO3 at '.../?id=123'. If the page with ID '123' has the URL Alias 'one_two_three', then the URL '.../?id=one_two_three' would display exactly the same page, because 'one_two_three' is a URL Alias for the ID '123'.
 URL Aliases are normally assigned to only the most frequently used pages rather than all pages. In most TYPO3 configurations you would be able to use the syntax '.. &amp;lt;link one_two_three&amp;gt;go to the page&amp;lt;/link&amp;gt; ..' to create a link to the page. This is easier to remember.
 Another use is if you need to change which page a commonly used link points to. In this case you can delete the URL Alias for the original page and re-add it on the new page. All links using the URL Alias would now refer to the new page and its ID number.</source>
-			<target state="needs-translation">Ultimately a page is identified by its ID number. For example, you may access a page in TYPO3 at '.../?id=123'. If the page with ID '123' has the URL Alias 'one_two_three', then the URL '.../?id=one_two_three' would display exactly the same page, because 'one_two_three' is a URL Alias for the ID '123'.
-URL Aliases are normally assigned to only the most frequently used pages rather than all pages. In most TYPO3 configurations you would be able to use the syntax '.. &amp;lt;link one_two_three&amp;gt;go to the page&amp;lt;/link&amp;gt; ..' to create a link to the page. This is easier to remember.
-Another use is if you need to change which page a commonly used link points to. In this case you can delete the URL Alias for the original page and re-add it on the new page. All links using the URL Alias would now refer to the new page and its ID number.</target></trans-unit>
+			<target state="translated">Letztendlich wird eine Seite durch ihre ID-Nummer identifiziert. Zum Beispiel können Sie auf eine Seite in TYPO3 unter '.../?id=123 zugreifen. Wenn die Seite mit ID '123' die URL Alias 'one_two_three', dann die URL '.../?id=one_two_three' genau die gleiche Seite anzeigen würde, da 'one_two_three' eine URL Alias für die ID '123' ist.
+URL Aliases werden normalerweise nur den am häufigsten verwendeten Seiten zugeordnet und nicht allen Seiten. In den meisten TYPO3-Konfigurationen können Sie die Syntax '.. &amp;lt;link one_two_three&amp;gt;gehen Sie zur Seite&amp;lt;/link&amp;gt; ..' um einen Link zur Seite zu erstellen. Das ist leichter zu erinnern.
+Eine weitere Verwendung ist, wenn Sie die Seite ändern müssen, auf der ein häufig verwendeter Link-Punkt verwendet wird. In diesem Fall können Sie die URL Alias für die ursprüngliche Seite löschen und sie auf der neuen Seite neu hinzufügen. Alle Links mit der URL Alias verweisen nun auf die neue Seite und ihre ID-Nummer.</target></trans-unit>
       <trans-unit id="alias.syntax" xml:space="preserve">
 				<source>A URL Alias can contain only lowercase alphanumeric characters and must be unique.
 Please note: If the URL Alias already exists in the site, it will have a number added to the end of it.</source>
-			<target state="needs-translation">A URL Alias can contain only lowercase alphanumeric characters and must be unique.
-Please note: If the URL Alias already exists in the site, it will have a number added to the end of it.</target></trans-unit>
+			<target state="translated">Eine URL Alias kann nur Kleinbuchstaben-Zeichen enthalten und muss eindeutig sein.
+Bitte beachten: Wenn die URL Alias bereits auf der Website vorhanden ist, wird sie eine Zahl zum Ende hinzufügen.</target></trans-unit>
       <trans-unit id="target.description">
         <source>This sets the default Link Target for menu items linking to this page. Can also used to open the page as a popup window.</source>
-        <target state="needs-translation">This sets the default Link Target for menu items linking to this page. Can also used to open the page as a popup window.</target>
+        <target state="translated">Dies setzt das Standard Link Target für Menüpunkte, die mit dieser Seite verbunden sind. Kann auch verwendet werden, um die Seite als Popup-Fenster zu öffnen.</target>
       </trans-unit>
       <trans-unit id="target.details" xml:space="preserve">
 				<source>The Link Target overrides the default Link Target behavior, which should already be configured correctly for most pages in the website TypoScript template.
@@ -183,66 +183,66 @@ The following syntax is used to open the page in a popup window:
 Combined:
 100 600x350 - Opens the page in a 600x350 popup with type=100
 2 _blank - Opens the page with target "_blank" and type=2</source>
-			<target state="needs-translation">The Link Target overrides the default Link Target behavior, which should already be configured correctly for most pages in the website TypoScript template.
-There are additional options available by using the Link Target field
+			<target state="translated">Das Link Target überschreibt das Standard Link Target Verhalten, das bereits für die meisten Seiten der Website TypoScript Vorlage korrekt konfiguriert werden sollte.
+Es gibt zusätzliche Optionen, indem Sie das Link Target Feld benutzen
 
-Setting an integer value at the beginning of the field sets it as the default type for the page.
-For example, if an RSS feed is configured in TypoScript as typeNum=100, setting the Link Target to 100 could be used to add an RSS link in the menu.
+Setzen Sie einen Integerwert am Anfang des Feldes als Standardtyp für die Seite.
+Zum Beispiel, wenn ein RSS-Feed in TypoScript als typeNum=100 konfiguriert ist, könnte die Einstellung des Link-Targets auf 100 verwendet werden, um einen RSS-Link im Menü hinzuzufügen.
 
-The following syntax is used to open the page in a popup window:
-400x200 - Opens the page in a 400x200 popup window.
-230x450:resizable=0,location=1 - Opens the page in a 230x450 popup window that is not resizable and has an address bar.
+Die folgende Syntax wird verwendet, um die Seite in einem Popup-Fenster zu öffnen:
+400x200 - Öffnet die Seite in einem 400x200 Popup-Fenster.
+230x450:resizable=0,location=1 - Öffnet die Seite in einem 230x450 Popup-Fenster, das nicht anpassungsfähig ist und eine Adressleiste hat.
 
-Combined:
-100 600x350 - Opens the page in a 600x350 popup with type=100
-2 _blank - Opens the page with target "_blank" and type=2</target></trans-unit>
+Kombiniert:
+100 600x350 - Öffnet die Seite in einem 600x350 Popup mit Typ=100
+2 _leer - Öffnet die Seite mit Ziel "_blank" und Typ=2</target></trans-unit>
       <trans-unit id="cache_timeout.description">
         <source>Sets the Cache Lifetime for the page.</source>
-        <target state="needs-translation">Sets the Cache Lifetime for the page.</target>
+        <target state="translated">Legt die Cache-Lebensdauer für die Seite fest.</target>
       </trans-unit>
       <trans-unit id="cache_timeout.details" xml:space="preserve">
 				<source>By default, pages are cached for 24 hours. After 24 hours, the page is constructed again and rewritten to the cache. Depending on your configuration, the cache may be cleared at midnight.
 When specific pages need a longer or shorter cache lifetime than the default, this option can be used.</source>
-			<target state="needs-translation">By default, pages are cached for 24 hours. After 24 hours, the page is constructed again and rewritten to the cache. Depending on your configuration, the cache may be cleared at midnight.
-When specific pages need a longer or shorter cache lifetime than the default, this option can be used.</target></trans-unit>
+			<target state="translated">Standardmäßig werden Seiten 24 Stunden gecachet. Nach 24 Stunden wird die Seite wieder aufgebaut und in den Cache umgeschrieben. Je nach Konfiguration kann der Cache um Mitternacht gelöscht werden.
+Wenn bestimmte Seiten eine längere oder kürzere Cache-Lebenszeit benötigen als die Standardeinstellung, kann diese Option verwendet werden.</target></trans-unit>
       <trans-unit id="no_search.description">
         <source>If enabled, this option excludes the page from searching operations on the website.</source>
-        <target state="needs-translation">If enabled, this option excludes the page from searching operations on the website.</target>
+        <target state="translated">Wenn aktiviert, schließt diese Option die Seite von der Suche auf der Website aus.</target>
       </trans-unit>
       <trans-unit id="php_tree_stop.description">
         <source>If enabled, this option excludes the subtree from rendering in the backend.</source>
-        <target state="needs-translation">If enabled, this option excludes the subtree from rendering in the backend.</target>
+        <target state="translated">Wenn aktiviert, schließt diese Option das Rendering des Untertitels im Backend aus.</target>
       </trans-unit>
       <trans-unit id="author.description">
         <source>Enter the page author's name.</source>
-        <target state="needs-translation">Enter the page author's name.</target>
+        <target state="translated">Geben Sie den Namen des Seitenautors ein.</target>
       </trans-unit>
       <trans-unit id="author.details" xml:space="preserve">
 				<source>Whether the author name is used or not depends on the setup of your TypoScript template.
 
 - You may use it in a meta-tag.
 - If you're using TYPO3 pages as 'articles' then you could use this field to display the name of the page (article) author.</source>
-			<target state="needs-translation">Whether the author name is used or not depends on the setup of your TypoScript template.
+			<target state="translated">Ob der Autor verwendet wird oder nicht von der Einrichtung Ihrer TypoScript-Vorlage abhängt.
 
-- You may use it in a meta-tag.
-- If you're using TYPO3 pages as 'articles' then you could use this field to display the name of the page (article) author.</target></trans-unit>
+- Sie können ihn in einem Meta-Tag verwenden.
+- Wenn Sie TYPO3-Seiten als "Artikel" verwenden, können Sie dieses Feld verwenden, um den Namen des Seitenautors (Artikel) anzuzeigen.</target></trans-unit>
       <trans-unit id="_author.seeAlso">
         <source>pages:author_email</source>
         <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-        <target state="needs-translation">pages:author_email</target>
+        <target state="translated">Seiten:author_email</target>
       </trans-unit>
       <trans-unit id="author_email.description">
         <source>Enter the page author's email address.</source>
-        <target state="needs-translation">Enter the page author's email address.</target>
+        <target state="translated">Geben Sie die E-Mail-Adresse des Seitenautors ein.</target>
       </trans-unit>
       <trans-unit id="_author_email.seeAlso">
         <source>pages:author</source>
         <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-        <target state="needs-translation">pages:author</target>
+        <target state="translated">Seiten:Autor</target>
       </trans-unit>
       <trans-unit id="module.description">
         <source>Define the page as containing a Frontend plugin.</source>
-        <target state="needs-translation">Define the page as containing a Frontend plugin.</target>
+        <target state="translated">Definieren Sie die Seite als ein Frontend-Plugin.</target>
       </trans-unit>
       <trans-unit id="module.details" xml:space="preserve">
 				<source>Setting this option lets the Backend knows this page contains specific content or has a specific purpose, such as containing a forum or acting as the root page of a shop section on the website. Based on this setting the Backend is able to display a shortcut list as well as relevant functionality in the 'Web&gt;Modules' module. The Frontend display is largely not affected.
@@ -251,69 +251,69 @@ Marking a page as containing a 'Shop' plugin simply means it'll show up in the s
 For additional details on this option, refer to the administration documentation.
 
 It's recommended that only admin-users have access to this field!</source>
-			<target state="needs-translation">Setting this option lets the Backend knows this page contains specific content or has a specific purpose, such as containing a forum or acting as the root page of a shop section on the website. Based on this setting the Backend is able to display a shortcut list as well as relevant functionality in the 'Web&gt;Modules' module. The Frontend display is largely not affected.
-Marking a page as containing a 'Shop' plugin simply means it'll show up in the shortcut list of modules in the backend.
+			<target state="translated">Mit dieser Option kann der Backend wissen, dass diese Seite bestimmte Inhalte enthält oder einen bestimmten Zweck hat, wie beispielsweise das Forum oder die Root-Seite eines Shops-Abschnitts auf der Website. Auf dieser Einstellung kann das Backend eine Verknüpfungsliste sowie relevante Funktionalität im Modul 'Web&gt;Module' anzeigen. Die Frontend-Anzeige ist größtenteils nicht betroffen.
+Wenn Sie eine Seite als ein "Shop" Plugin markieren, bedeutet dies einfach, dass sie in der Verknüpfungsliste der Module im Backend angezeigt wird.
 
-For additional details on this option, refer to the administration documentation.
+Weitere Details zu dieser Option finden Sie in der Administrationsdokumentation.
 
-It's recommended that only admin-users have access to this field!</target></trans-unit>
+Es wird empfohlen, dass nur Administratoren Zugriff auf dieses Feld haben!</target></trans-unit>
       <trans-unit id="media.description">
         <source>Attach media files related to the page.</source>
-        <target state="needs-translation">Attach media files related to the page.</target>
+        <target state="translated">Fügen Sie Mediendateien in Verbindung mit der Seite hinzu.</target>
       </trans-unit>
       <trans-unit id="media.details" xml:space="preserve">
 				<source>This field allows you to attach various files to the page, but how these files are used depends on your template.
 As an example the template could be use this field to allow a logo to be attached to the page or it might expect the first file to be an image used as a link in the navigation menu. Remember, this totally depends on how the template is programmed.</source>
-			<target state="needs-translation">This field allows you to attach various files to the page, but how these files are used depends on your template.
-As an example the template could be use this field to allow a logo to be attached to the page or it might expect the first file to be an image used as a link in the navigation menu. Remember, this totally depends on how the template is programmed.</target></trans-unit>
+			<target state="translated">Dieses Feld erlaubt es Ihnen, verschiedene Dateien an die Seite anzuhängen, aber wie diese Dateien verwendet werden, hängt von Ihrer Vorlage ab.
+Als Beispiel könnte die Vorlage dieses Feld verwenden, um ein Logo an die Seite anzuhängen oder es könnte erwarten, dass die erste Datei ein Bild ist, das als Link im Navigationsmenü verwendet wird. Denken Sie daran, dass dies ganz davon abhängt, wie die Vorlage programmiert wird.</target></trans-unit>
       <trans-unit id="subtitle.description">
         <source>Enter a subtitle if needed.</source>
-        <target state="needs-translation">Enter a subtitle if needed.</target>
+        <target state="translated">Geben Sie bei Bedarf einen Untertitel ein.</target>
       </trans-unit>
       <trans-unit id="subtitle.details">
         <source>Whether this field is used or not depends on the template. In most cases it's not used.</source>
-        <target state="needs-translation">Whether this field is used or not depends on the template. In most cases it's not used.</target>
+        <target state="translated">Ob dieses Feld verwendet wird oder nicht, hängt von der Vorlage ab. In den meisten Fällen wird es nicht verwendet.</target>
       </trans-unit>
       <trans-unit id="url.description">
         <source>Enter the URL this page redirects to.</source>
-        <target state="needs-translation">Enter the URL this page redirects to.</target>
+        <target state="translated">Geben Sie die URL dieser Seite zu.</target>
       </trans-unit>
       <trans-unit id="url.details" xml:space="preserve">
 				<source>For example, 'http://www.typo3.org'.
 
 This option is used only if the page 'Type' is set to 'Link to External URL.'</source>
-			<target state="needs-translation">For example, 'http://www.typo3.org'.
+			<target state="translated">Zum Beispiel, 'http://www.typo3.org'.
 
-This option is used only if the page 'Type' is set to 'Link to External URL.'</target></trans-unit>
+Diese Option wird nur verwendet, wenn die Seite 'Typ' auf 'Link zu externer URL' gesetzt ist.</target></trans-unit>
       <trans-unit id="shortcut.description">
         <source>Select a page to act as the Shortcut Target. When the current page is requested in the Frontend, it will be redirected to the Shortcut Target.</source>
-        <target state="needs-translation">Select a page to act as the Shortcut Target. When the current page is requested in the Frontend, it will be redirected to the Shortcut Target.</target>
+        <target state="translated">Wählen Sie eine Seite, die als Verknüpfungsziel fungiert. Wenn die aktuelle Seite im Frontend angefordert wird, wird sie zu dem Verknüpfungsziel weitergeleitet.</target>
       </trans-unit>
       <trans-unit id="shortcut.details" xml:space="preserve">
 				<source>Click the 'Browse for Records' icon and a new window will appear in which you can easily select a page to act as the Shortcut Target.
 
 This option is used only if the page 'Type' is set to 'Shortcut.'</source>
-			<target state="needs-translation">Click the 'Browse for Records' icon and a new window will appear in which you can easily select a page to act as the Shortcut Target.
+			<target state="translated">Klicken Sie auf das Symbol 'Suche nach Aufzeichnungen' und ein neues Fenster erscheint, in dem Sie einfach eine Seite auswählen können, um als Verknüpfungsziel zu fungieren.
 
-This option is used only if the page 'Type' is set to 'Shortcut.'</target></trans-unit>
+Diese Option wird nur verwendet, wenn die Seite 'Typ' auf 'Verknüpfung' gesetzt ist.</target></trans-unit>
       <trans-unit id="_shortcut.seeAlso" xml:space="preserve">
 				<source>pages:doktype,
 pages:shortcut_mode</source>
 				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-			<target state="needs-translation">pages:doktype,
-pages:shortcut_mode</target></trans-unit>
+			<target state="translated">Seiten:doktype,
+Seiten:shortcut_mode</target></trans-unit>
       <trans-unit id="_shortcut.image">
         <source>EXT:core/Resources/Public/Images/cshimages/page_shortcut.gif</source>
         <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-        <target state="needs-translation">EXT:core/Resources/Public/Images/cshimages/page_shortcut.gif</target>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/page_shortcut.gif</target>
       </trans-unit>
       <trans-unit id="shortcut.image_descr">
         <source>Select a Shortcut Target page with the Element Browser.</source>
-        <target state="needs-translation">Select a Shortcut Target page with the Element Browser.</target>
+        <target state="translated">Wählen Sie eine Verknüpfungsseite mit dem Element Browser.</target>
       </trans-unit>
       <trans-unit id="keywords.description">
         <source>Enter keywords for the page separated by commas. You may also use short phrases.</source>
-        <target state="needs-translation">Enter keywords for the page separated by commas. You may also use short phrases.</target>
+        <target state="translated">Geben Sie Stichwörter für die durch Kommas getrennte Seite ein. Sie können auch kurze Phrasen verwenden.</target>
       </trans-unit>
       <trans-unit id="keywords.details" xml:space="preserve">
 				<source>Most TYPO3 websites use these keywords in a meta-tag on the page, but you may have to setup the appropriate TypoScript template yourself.
@@ -323,21 +323,21 @@ To optimize your page for search engines like Google you should not use more tha
 Note that search engine extensions for TYPO3 such as Indexed Search can also be configured to make use of the keywords.
 
 The keywords can also be used to create a menu of related pages. Create a Content Element of type 'Sitemap' and then choose the menu type &lt;i&gt;Related pages (based on keywords)&lt;/i&gt;.</source>
-			<target state="needs-translation">Most TYPO3 websites use these keywords in a meta-tag on the page, but you may have to setup the appropriate TypoScript template yourself.
+			<target state="translated">Die meisten TYPO3-Websites verwenden diese Schlüsselwörter in einem Meta-Tag auf der Seite, aber Sie müssen möglicherweise die entsprechende TypoScript-Vorlage selbst einrichten.
 
-To optimize your page for search engines like Google you should not use more than 3 to 6 keywords. You should also make sure that the keywords are found in the content of the page.
+Um Ihre Seite für Suchmaschinen wie Google zu optimieren, sollten Sie nicht mehr als 3 bis 6 Stichwörter verwenden. Sie sollten auch sicherstellen, dass die Schlüsselwörter im Inhalt der Seite gefunden werden.
 
-Note that search engine extensions for TYPO3 such as Indexed Search can also be configured to make use of the keywords.
+Beachten Sie, dass Suchmaschinen-Erweiterungen für TYPO3 wie Indexed Search auch so konfiguriert werden können, dass sie die Keywords nutzen.
 
-The keywords can also be used to create a menu of related pages. Create a Content Element of type 'Sitemap' and then choose the menu type &lt;i&gt;Related pages (based on keywords)&lt;/i&gt;.</target></trans-unit>
+Die Schlüsselwörter können auch verwendet werden, um ein Menü mit verwandten Seiten zu erstellen. Erstellen Sie ein Inhaltselement des Typs 'Sitemap' und wählen Sie dann den Menütyp &lt;i&gt;verknüpfte Seiten (basierend auf Keywords)&lt;/i&gt;.</target></trans-unit>
       <trans-unit id="_keywords.seeAlso">
         <source>pages:description</source>
         <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-        <target state="needs-translation">pages:description</target>
+        <target state="translated">Seiten:description</target>
       </trans-unit>
       <trans-unit id="description.description">
         <source>Enter a short description of the page. It will be displayed in the result lists of most search engines.</source>
-        <target state="needs-translation">Enter a short description of the page. It will be displayed in the result lists of most search engines.</target>
+        <target state="translated">Geben Sie eine kurze Beschreibung der Seite ein. Sie wird in den Ergebnislisten der meisten Suchmaschinen angezeigt.</target>
       </trans-unit>
       <trans-unit id="description.details" xml:space="preserve">
 				<source>Most websites insert this description in a meta-tag on the page, but you may have to configure this yourself in your TypoScript template.
@@ -347,21 +347,21 @@ Most search engines will display the description in their result list. Thus, the
 In addition, the description will be displayed if you create a Content Element of type 'Sitemap' and then choose the menu type &lt;i&gt;Menu of subpages to these pages (with abstract)&lt;/i&gt;. If an abstract exists for the page, it will be used instead of the description.
 
 &lt;b&gt;Note:&lt;/b&gt; Some search engines only use the description if the text is not found elsewhere in the content. So do not just repeat yourself.</source>
-			<target state="needs-translation">Most websites insert this description in a meta-tag on the page, but you may have to configure this yourself in your TypoScript template.
+			<target state="translated">Die meisten Websites fügen diese Beschreibung in ein Meta-Tag auf der Seite ein, aber Sie müssen dies möglicherweise selbst in Ihrer TypoScript-Vorlage konfigurieren.
 
-Most search engines will display the description in their result list. Thus, the text should be short (about 160 characters maximum), and its wording should make sense when it shows up in the result list.
+Die meisten Suchmaschinen werden die Beschreibung in ihrer Ergebnisliste anzeigen. Der Text sollte also kurz sein (maximal 160 Zeichen), und seine Formulierung sollte sinnvoll sein, wenn er in der Ergebnisliste angezeigt wird.
 
-In addition, the description will be displayed if you create a Content Element of type 'Sitemap' and then choose the menu type &lt;i&gt;Menu of subpages to these pages (with abstract)&lt;/i&gt;. If an abstract exists for the page, it will be used instead of the description.
+Zusätzlich wird die Beschreibung angezeigt, wenn Sie ein Inhaltselement des Typs 'Sitemap' erstellen und dann den Menütyp &lt;i&gt;Menü der Unterseiten zu diesen Seiten (mit Abstrakt)&lt;/i&gt;wählen. Wenn für die Seite ein Abstrakt existiert, wird er anstelle der Beschreibung verwendet.
 
-&lt;b&gt;Note:&lt;/b&gt; Some search engines only use the description if the text is not found elsewhere in the content. So do not just repeat yourself.</target></trans-unit>
+&lt;b&gt;Hinweis:&lt;/b&gt; Einige Suchmaschinen verwenden nur die Beschreibung, wenn der Text nicht anderswo im Inhalt gefunden wird. Also wiederholen Sie sich nicht nur.</target></trans-unit>
       <trans-unit id="_description.seeAlso" xml:space="preserve">
 				<source>pages:keywords
 pages:abstract</source>
-			<target state="needs-translation">pages:keywords
-pages:abstract</target></trans-unit>
+			<target state="translated">Seiten:keywords
+Seiten:abstrakt</target></trans-unit>
       <trans-unit id="abstract.description">
         <source>Enter an abstract of the contents. It may be displayed in an overview of articles.</source>
-        <target state="needs-translation">Enter an abstract of the contents. It may be displayed in an overview of articles.</target>
+        <target state="translated">Geben Sie einen Abstrakt des Inhalts ein. Er kann in einer Übersicht der Artikel angezeigt werden.</target>
       </trans-unit>
       <trans-unit id="abstract.details" xml:space="preserve">
 				<source>An abstract is a short description of the page content that might be a little longer than the one in the &lt;i&gt;Description&lt;/i&gt; field.
@@ -373,99 +373,99 @@ If you create a Content Element of type &lt;i&gt;Sitemap&lt;/i&gt; and then choo
 &lt;b&gt;Note:&lt;/b&gt; You do not have to enter the text of the description into the &lt;i&gt;Abstract field&lt;/i&gt; again.
 
 Admins can also make custom use of this field via their TypoScript templates.</source>
-			<target state="needs-translation">An abstract is a short description of the page content that might be a little longer than the one in the &lt;i&gt;Description&lt;/i&gt; field.
+			<target state="translated">Eine abstrakte Beschreibung ist eine kurze Beschreibung des Seiteninhalts, der etwas länger sein könnte als der im &lt;i&gt;Beschreibung&lt;/i&gt; Feld.
 
-Unlike the description, the abstract is not meant for display in search engine result lists, but is instead intended for you own use.
+Anders als die Beschreibung, ist der Abstrakt nicht für die Anzeige in Suchmaschinen-Ergebnislisten gedacht, sondern ist stattdessen für Sie bestimmt.
 
-If you create a Content Element of type &lt;i&gt;Sitemap&lt;/i&gt; and then choose &lt;i&gt;Menu of subpages to these pages (with abstract)&lt;/i&gt; an overview of pages will be created. If an abstract is available for a page it will be used instead of the description.
+Wenn Sie ein Inhaltselement des Typs &lt;i&gt;Sitemap&lt;/i&gt; erstellen und dann wählen Sie &lt;i&gt;Menü der Unterseiten zu diesen Seiten (mit Abstrakt)&lt;/i&gt; eine Übersicht über Seiten wird erstellt. Wenn für eine Seite ein Abstrakt verfügbar ist, wird er anstelle der Beschreibung verwendet.
 
-&lt;b&gt;Note:&lt;/b&gt; You do not have to enter the text of the description into the &lt;i&gt;Abstract field&lt;/i&gt; again.
+&lt;b&gt;Hinweis:&lt;/b&gt; Sie müssen den Text der Beschreibung nicht in das &lt;i&gt;Abstract Feld&lt;/i&gt; erneut eingeben.
 
-Admins can also make custom use of this field via their TypoScript templates.</target></trans-unit>
+Admins können dieses Feld auch über ihre TypoScript-Vorlagen benutzerdefinierte Verwendung finden.</target></trans-unit>
       <trans-unit id="_abstract.seeAlso">
         <source>pages:description</source>
         <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-        <target state="needs-translation">pages:description</target>
+        <target state="translated">Seiten:description</target>
       </trans-unit>
       <trans-unit id="newUntil.description">
         <source>Enter the date at which this page is no longer considered new.</source>
-        <target state="needs-translation">Enter the date at which this page is no longer considered new.</target>
+        <target state="translated">Geben Sie das Datum ein, an dem diese Seite nicht mehr als neu angesehen wird.</target>
       </trans-unit>
       <trans-unit id="newUntil.details" xml:space="preserve">
 				<source>The 'New Until' date of the page has no effect on the display of the webpage. This value is instead for internal use as a reminder of the date when the content of this page should be revised. If the content of the page will become outdated on a certain day, you could set this value to that approximate date.
 To get an overview of when pages will be outdated, use the 'Pagetree overview' in the 'Web&gt;Info' Module.</source>
-			<target state="needs-translation">The 'New Until' date of the page has no effect on the display of the webpage. This value is instead for internal use as a reminder of the date when the content of this page should be revised. If the content of the page will become outdated on a certain day, you could set this value to that approximate date.
-To get an overview of when pages will be outdated, use the 'Pagetree overview' in the 'Web&gt;Info' Module.</target></trans-unit>
+			<target state="translated">Das Datum der "Neuen Bis" der Seite hat keinen Einfluss auf die Anzeige der Webseite. Dieser Wert ist stattdessen für interne Nutzung als Erinnerung an das Datum, an dem der Inhalt dieser Seite geändert werden sollte. Wenn der Inhalt der Seite an einem bestimmten Tag veraltet wird, könnten Sie diesen Wert auf das ungefähre Datum setzen.
+Um einen Überblick über die veralteten Seiten zu erhalten, verwenden Sie die "Pagetree-Übersicht" im 'Web&gt;Info' Modul.</target></trans-unit>
       <trans-unit id="newUntil.syntax">
         <source>See Page / Publication Date (click below)</source>
-        <target state="needs-translation">See Page / Publication Date (click below)</target>
+        <target state="translated">Seite / Veröffentlichungsdatum anzeigen (unten klicken)</target>
       </trans-unit>
       <trans-unit id="_newUntil.seeAlso">
         <source>pages:starttime</source>
         <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-        <target state="needs-translation">pages:starttime</target>
+        <target state="translated">Seiten:starttime</target>
       </trans-unit>
       <trans-unit id="lastUpdated.description">
         <source>Enter the date and time of the most recent update to this page.</source>
-        <target state="needs-translation">Enter the date and time of the most recent update to this page.</target>
+        <target state="translated">Geben Sie das Datum und die Uhrzeit des aktuellsten Updates auf dieser Seite ein.</target>
       </trans-unit>
       <trans-unit id="lastUpdated.details" xml:space="preserve">
 				<source>How the value of this field is used is determined by the TypoScript template of the website. 'Last Update' content needs to be inserted on the pages and the TypoScript template must be configured to use this value.
 The most common use is to display the date from the automatically updated 'tstamp' field &lt;em&gt;unless&lt;/em&gt; the 'Last Update' field is set. In this case, the date in 'Last Update' is used.</source>
-			<target state="needs-translation">How the value of this field is used is determined by the TypoScript template of the website. 'Last Update' content needs to be inserted on the pages and the TypoScript template must be configured to use this value.
-The most common use is to display the date from the automatically updated 'tstamp' field &lt;em&gt;unless&lt;/em&gt; the 'Last Update' field is set. In this case, the date in 'Last Update' is used.</target></trans-unit>
+			<target state="translated">Wie der Wert dieses Feldes verwendet wird, wird von der TypoScript-Vorlage der Website bestimmt. 'Letztes Update'-Inhalt muss auf den Seiten eingefügt werden und die TypoScript-Vorlage muss konfiguriert werden, um diesen Wert zu verwenden.
+Die häufigste Verwendung ist, das Datum aus dem automatisch aktualisierten 'tstamp' Feld anzuzeigen &lt;em&gt;, es sei denn&lt;/em&gt; das Feld 'Letzte Aktualisierung' ist gesetzt. In diesem Fall wird das Datum 'Last Update' verwendet.</target></trans-unit>
       <trans-unit id="lastUpdated.syntax" xml:space="preserve">
 				<source>The format is HH:MM DD-MM-YYYY or HH:MM MM-DD-YYYY depending on your TYPO3 configuration.
 If you insert a 'd' the current time and date is inserted. You can also append any value in the field with a number lie '+10' which will add 10 days to the current value.</source>
-			<target state="needs-translation">The format is HH:MM DD-MM-YYYY or HH:MM MM-DD-YYYY depending on your TYPO3 configuration.
-If you insert a 'd' the current time and date is inserted. You can also append any value in the field with a number lie '+10' which will add 10 days to the current value.</target></trans-unit>
+			<target state="translated">Das Format ist HH:MM DD-MM-YYY oder HH:MM-DD-YYYY abhängig von Ihrer TYPO3 Konfiguration.
+Wenn Sie eine 'd' einfügen, wird die aktuelle Zeit und das Datum eingefügt. Sie können auch einen beliebigen Wert im Feld mit einer Nummer Lüge '+10' anhängen, die 10 Tage zum aktuellen Wert hinzufügt.</target></trans-unit>
       <trans-unit id="nav_hide.description">
         <source>With this option the page will be not appear in menus in the Frontend. The page can still be viewed if linked by going directly to its URL.</source>
-        <target state="needs-translation">With this option the page will be not appear in menus in the Frontend. The page can still be viewed if linked by going directly to its URL.</target>
+        <target state="translated">Mit dieser Option wird die Seite nicht in Menüs im Frontend angezeigt. Die Seite kann trotzdem angezeigt werden, wenn sie direkt mit ihrer URL verbunden ist.</target>
       </trans-unit>
       <trans-unit id="_nav_hide.seeAlso">
         <source>pages:nav_title</source>
         <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-        <target state="needs-translation">pages:nav_title</target>
+        <target state="translated">Seiten:nav_title</target>
       </trans-unit>
       <trans-unit id="nav_title.description">
         <source>Alternative Navigation Title for menu items in the Frontend. When set, this value is used instead of the Page Title.</source>
-        <target state="needs-translation">Alternative Navigation Title for menu items in the Frontend. When set, this value is used instead of the Page Title.</target>
+        <target state="translated">Alternativer Navigationstitel für Menüeinträge im Frontend. Wenn gesetzt, wird dieser Wert anstelle des Seitentitels verwendet.</target>
       </trans-unit>
       <trans-unit id="content_from_pid.description" xml:space="preserve">
 				<source>If set, this is an alternative page to select Content Elements from.
 Whether this field is used depends on the website's TypoScript template.</source>
-			<target state="needs-translation">If set, this is an alternative page to select Content Elements from.
-Whether this field is used depends on the website's TypoScript template.</target></trans-unit>
+			<target state="translated">Wenn gesetzt, ist dies eine alternative Seite, aus der Inhaltselemente ausgewählt werden.
+Ob dieses Feld verwendet wird, hängt von der TypoScript-Vorlage der Website ab.</target></trans-unit>
       <trans-unit id="shortcut_mode.description">
         <source>Select a Shortcut Mode. By default the shortcut page must have a Shortcut Target to jump to. Other options are to go to the first subpage, to a random subpage, or back up to the parent page.</source>
-        <target state="needs-translation">Select a Shortcut Mode. By default the shortcut page must have a Shortcut Target to jump to. Other options are to go to the first subpage, to a random subpage, or back up to the parent page.</target>
+        <target state="translated">Wählen Sie einen Shortcut Modus. Standardmäßig muss die Verknüpfungsseite ein Verknüpfungsziel haben, um zu springen. Andere Optionen sollen zur ersten Unterseite, zu einer zufälligen Unterseite oder zur übergeordneten Seite gehen.</target>
       </trans-unit>
       <trans-unit id="mount_pid.description">
         <source>Mount this page. If set, subpages of this page come from the Mounted Page instead.</source>
-        <target state="needs-translation">Mount this page. If set, subpages of this page come from the Mounted Page instead.</target>
+        <target state="translated">Diese Seite einbinden. Wenn gesetzt, kommen die Unterseiten dieser Seite stattdessen von der Mausseite.</target>
       </trans-unit>
       <trans-unit id="mount_pid.details">
         <source>In the Frontend this is done by adding a new variable, &amp;MP, to the URL. This links the mounted branch to the main branch by pairing page ids.</source>
-        <target state="needs-translation">In the Frontend this is done by adding a new variable, &amp;MP, to the URL. This links the mounted branch to the main branch by pairing page ids.</target>
+        <target state="translated">In der Frontend wird dies durch Hinzufügen einer neuen Variable, &amp;MP, zur URL getan. Dies verbindet den angezeigten Zweig mit dem Hauptzweig, indem Seitenids gekoppelt werden.</target>
       </trans-unit>
       <trans-unit id="_mount_pid.seeAlso">
         <source>pages:mount_pid_ol</source>
         <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-        <target state="needs-translation">pages:mount_pid_ol</target>
+        <target state="translated">pages:mount_pid_ol</target>
       </trans-unit>
       <trans-unit id="mount_pid_ol.description">
         <source>Show content for the current page or replace it completely with the Mounted Page.</source>
-        <target state="needs-translation">Show content for the current page or replace it completely with the Mounted Page.</target>
+        <target state="translated">Inhalt der aktuellen Seite anzeigen oder durch die Mausseite vollständig ersetzen.</target>
       </trans-unit>
       <trans-unit id="_mount_pid_ol.seeAlso">
         <source>pages:mount_pid</source>
         <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-        <target state="needs-translation">pages:mount_pid</target>
+        <target state="translated">Seiten:mount_pid</target>
       </trans-unit>
       <trans-unit id="title.description.+">
         <source>This is normally shown in the website navigation.</source>
-        <target state="needs-translation">This is normally shown in the website navigation.</target>
+        <target state="translated">Dies wird normalerweise in der Navigation der Website angezeigt.</target>
       </trans-unit>
       <trans-unit id="TSconfig.details.+" xml:space="preserve">
 				<source>&lt;strong&gt;Example:&lt;/strong&gt;
@@ -475,16 +475,16 @@ If you enter this string in the 'TSConfig' field, the 'Web&gt;Page' Module will 
 &lt;em&gt;mod.web_layout.tt_content.colPos_list = 0,3&lt;/em&gt;
 
 (Must be entered in a single line!)</source>
-			<target state="needs-translation">&lt;strong&gt;Example:&lt;/strong&gt;
-The 'Web&gt;Page' module lets you create content in four columns, Left, Normal, Right, Border if the template has been configured to use this option. (However, most websites use only one or two columns so some of these content columns are just taking up space and confusing users.)
-If you enter this string in the 'TSConfig' field, the 'Web&gt;Page' Module will only show the 'Normal' and 'Border' column!
+			<target state="translated">&lt;strong&gt;Beispiel:&lt;/strong&gt;
+Das Modul 'Web&gt;Seite' erlaubt es Ihnen, Inhalte in vier Spalten, links, Normal, Rechts, Rand zu erstellen, wenn die Vorlage konfiguriert wurde, um diese Option zu verwenden. (Die meisten Websites verwenden jedoch nur ein oder zwei Spalten, so dass einige dieser Inhaltsspalten nur Platz und verwirrende Benutzer einnehmen.)
+Wenn Sie diesen String im Feld 'TSConfig' eingeben, wird das Modul 'Web&gt;Seite' nur die Spalte 'Normal' und 'Border' anzeigen!
 
 &lt;em&gt;mod.web_layout.tt_content.colPos_list = 0,3&lt;/em&gt;
 
-(Must be entered in a single line!)</target></trans-unit>
+(Muss in einer einzigen Zeile eingegeben werden!)</target></trans-unit>
       <trans-unit id="l18n_cfg.description">
         <source>Affect availability of pages in the various languages.</source>
-        <target state="needs-translation">Affect availability of pages in the various languages.</target>
+        <target state="translated">Beeinflusst die Verfügbarkeit von Seiten in den verschiedenen Sprachen.</target>
       </trans-unit>
       <trans-unit id="l18n_cfg.details" xml:space="preserve">
 				<source>&lt;b&gt;Hide default translation of page&lt;/b&gt;
@@ -492,11 +492,11 @@ If set, the page is only available in translated versions and not in the default
 
 &lt;b&gt;Hide page if no translation for current language exists&lt;/b&gt;
 If set, any attempt to access the page in a translation that does not exist will result in an error message. By default, accessing an untranslated page will just show the default language instead.</source>
-			<target state="needs-translation">&lt;b&gt;Hide default translation of page&lt;/b&gt;
-If set, the page is only available in translated versions and not in the default language. Any attempt to access the page in the default language will result in an error message.
+			<target state="translated">&lt;b&gt;Standardübersetzung der Seite&lt;/b&gt;
+Wenn gesetzt, ist die Seite nur in übersetzten Versionen verfügbar und nicht in der Standardsprache. Jeder Versuch, auf die Seite in der Standardsprache zuzugreifen, führt zu einer Fehlermeldung.
 
-&lt;b&gt;Hide page if no translation for current language exists&lt;/b&gt;
-If set, any attempt to access the page in a translation that does not exist will result in an error message. By default, accessing an untranslated page will just show the default language instead.</target></trans-unit>
+&lt;b&gt;Seite ausblenden, wenn keine Übersetzung für die aktuelle Sprache existiert&lt;/b&gt;
+Wenn gesetzt, wird jeder Versuch, auf die Seite in einer Übersetzung zuzugreifen, die nicht existiert, zu einer Fehlermeldung führen. Standardmäßig wird der Zugriff auf eine nicht übersetzte Seite nur die Standardsprache anzeigen.</target></trans-unit>
     </body>
   </file>
 </xliff>
