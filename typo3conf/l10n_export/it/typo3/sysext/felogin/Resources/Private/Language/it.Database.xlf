@@ -3,57 +3,210 @@
   <file t3:id="1415814820" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="felogin" target-language="it">
     <header/>
     <body>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id="tt_content.CType_pi1">
+        <source>Website User Login</source>
+        <target state="translated">Login Utente Sito Web</target>
+      </trans-unit>
+      <trans-unit id="felogin_redirectPid">
+        <source>Redirect at Login to Page (felogin)</source>
+        <target state="translated">Reindirizza al Login alla Pagina (felogin)</target>
+      </trans-unit>
+      <trans-unit id="felogin_forgotHash">
+        <source>Forgot hash</source>
+        <target state="translated">Hash dimenticato</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.general_header">
+        <source>General Header</source>
+        <target state="translated">Intestazione generale</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.general_message">
+        <source>General Message</source>
+        <target state="translated">Messaggio generale</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.redirect_header">
+        <source>Redirect Header</source>
+        <target state="translated">Reindirizza intestazione</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.redirect_message">
+        <source>Redirect Message</source>
+        <target state="translated">Reindirizza messaggio</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.welcome_header">
+        <source>Welcome Header</source>
+        <target state="translated">Intestazione Benvenuto</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.welcome_message">
+        <source>Welcome Message</source>
+        <target state="translated">Messaggio di benvenuto</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.success_header">
+        <source>Login Success Header</source>
+        <target state="translated">Intestazione di successo login</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.success_message">
+        <source>Login Success Message</source>
+        <target state="translated">Messaggio di successo accesso</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.error_header">
+        <source>Login Error Header</source>
+        <target state="translated">Errore di login Header</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.error_message">
+        <source>Login Error Message</source>
+        <target state="translated">Messaggio di errore di login</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.status_header">
+        <source>Status Display Header</source>
+        <target state="translated">Intestazione di visualizzazione stato</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.status_message">
+        <source>Status Display Message</source>
+        <target state="translated">Messaggio di visualizzazione stato</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.logout_header">
+        <source>Logout Header</source>
+        <target state="translated">Esci dall'intestazione</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.logout_message">
+        <source>Logout Message</source>
+        <target state="translated">Messaggio di logout</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.forgot_header">
+        <source>Forgot Password Header</source>
+        <target state="translated">Intestazione Password dimenticata</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.forgot_message">
+        <source>Forgot Password Message</source>
+        <target state="translated">Messaggio password dimenticato</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.sheet_general">
+        <source>General</source>
+        <target state="translated">Generale</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.sheet_redirect">
+        <source>Redirects</source>
+        <target state="translated">Redirect</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.sheet_messages">
+        <source>Messages</source>
+        <target state="translated">Messaggi</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.show_forgot_password">
+        <source>Display Password Recovery Link</source>
+        <target state="translated">Mostra link di recupero password</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.show_permalogin">
+        <source>Display Remember Login Option</source>
+        <target state="translated">Mostra opzioni di accesso</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.show_logoutFormAfterLogin">
+        <source>Disable redirect after successful login, but display logout-form</source>
+        <target state="translated">Disattiva il redirect dopo il login, ma mostra il logout-form</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.groupSelectmode">
+        <source>FE group select mode:</source>
+        <target state="translated">Modalità selezione gruppo FE:</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.groupSelectmode_showAll">
+        <source>Show all</source>
+        <target state="translated">Mostra tutto</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.groupSelectmode_showSelected">
+        <source>Show selected</source>
+        <target state="translated">Mostra selezionati</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.groupSelectmode_DontShowSelected">
+        <source>Don't show selected</source>
+        <target state="translated">Non mostrare selezionato</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.groupSelectmode_FromTS">
+        <source>(from Typoscript)</source>
+        <target state="translated">(da Typoscript)</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.groupSelection">
+        <source>FE group selection:</source>
+        <target state="translated">Selezione gruppo FE:</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.groupSelection_noGroup">
+        <source>no group</source>
+        <target state="translated">nessun gruppo</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.field_manualOrder">
+        <source>Using fieldlists below:</source>
+        <target state="translated">Usa campi qui sotto:</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.field_orderList">
+        <source>User Fields/list:</source>
+        <target state="translated">Campi/lista utente:</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.field_orderDetails">
+        <source>User Fields/details:</source>
+        <target state="translated">Campi utente/dettagli:</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.redirectMode">
+        <source>Redirect Mode</source>
+        <target state="translated">Modalità Redirect</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.redirectMode.I.0">
+        <source>Defined by Usergroup Record</source>
+        <target state="translated">Definito da Record Usergroup</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.redirectMode.I.1">
+        <source>Defined by User Record</source>
+        <target state="translated">Definito da record utente</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.redirectMode.I.2">
+        <source>After Login (TS or Flexform)</source>
+        <target state="translated">Dopo l'accesso (TS o Flexform)</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.redirectMode.I.3">
+        <source>After Logout (TS or Flexform)</source>
+        <target state="translated">Dopo Logout (TS o Flexform)</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.redirectMode.I.4">
+        <source>After Login Error (TS or Flexform)</source>
+        <target state="translated">Dopo l'errore di accesso (TS o Flexform)</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.redirectMode.I.5">
+        <source>Defined by GET/POST Parameters</source>
+        <target state="translated">Definito da Parametri GET/POST</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.redirectMode.I.6">
+        <source>Defined by Referrer</source>
+        <target state="translated">Definito dal Referente</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.redirectMode.I.7">
+        <source>Defined by Domain Entries</source>
+        <target state="translated">Definito da Voci di Dominio</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.redirectFirstMethod">
+        <source>Use First Supported Mode from Selection</source>
+        <target state="translated">Usa la prima modalità supportata dalla selezione</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.redirectDisable">
+        <source>Disable Redirect</source>
+        <target state="translated">Disabilita Redirect</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.redirectPageLogin">
+        <source>After Successful Login Redirect to Page</source>
+        <target state="translated">Dopo il Redirect di Login alla Pagina riuscito</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.redirectPageLoginError">
+        <source>After Failed Login Redirect to Page</source>
+        <target state="translated">Dopo il Redirect di Login fallito alla pagina</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.redirectPageLogout">
+        <source>After Logout Redirect to Page</source>
+        <target state="translated">Dopo il Redirect di Logout alla Pagina</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.template_file">
+        <source>Template File</source>
+        <target state="translated">File modello</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.user_storage">
+        <source>User Storage Page</source>
+        <target state="translated">Pagina Archiviazione utente</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
