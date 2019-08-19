@@ -5,39 +5,39 @@
     <body>
       <trans-unit id="cleanerTaskTitle">
         <source>Remove deleted records</source>
-        <target state="needs-translation">Remove deleted records</target>
+        <target state="translated">Rimuovi i record cancellati</target>
       </trans-unit>
       <trans-unit id="cleanerTaskDescription">
         <source>Deletes rows from the database which are flagged "deleted"</source>
-        <target state="needs-translation">Deletes rows from the database which are flagged "deleted"</target>
+        <target state="translated">Elimina le righe dal database che sono contrassegnate "eliminate"</target>
       </trans-unit>
       <trans-unit id="cleanerTaskPeriod">
         <source>Delete entries older than (in days)</source>
-        <target state="needs-translation">Delete entries older than (in days)</target>
+        <target state="translated">Elimina le voci più vecchie di (in giorni)</target>
       </trans-unit>
       <trans-unit id="cleanerTaskTCA">
         <source>Tables</source>
-        <target state="needs-translation">Tables</target>
+        <target state="translated">Tabelle</target>
       </trans-unit>
       <trans-unit id="cleanerTaskDescriptionTables">
         <source>Tables: %s</source>
-        <target state="needs-translation">Tables: %s</target>
+        <target state="translated">Tabelle: %s</target>
       </trans-unit>
       <trans-unit id="cleanerTaskDescriptionDays">
         <source>Older than %d days(s)</source>
-        <target state="needs-translation">Older than %d days(s)</target>
+        <target state="translated">Più vecchi di %d giorni(i)</target>
       </trans-unit>
       <trans-unit id="cleanerTaskErrorPeriod">
         <source>The period has to be an integer and greater than zero.</source>
-        <target state="needs-translation">The period has to be an integer and greater than zero.</target>
+        <target state="translated">Il periodo deve essere un intero e maggiore di zero.</target>
       </trans-unit>
       <trans-unit id="cleanerTaskErrorTCAempty">
         <source>You have to select at least one table.</source>
-        <target state="needs-translation">You have to select at least one table.</target>
+        <target state="translated">Devi selezionare almeno una tabella.</target>
       </trans-unit>
       <trans-unit id="cleanerTaskErrorTCANotSet">
         <source>The table "%s" is not in the TCA.</source>
-        <target state="needs-translation">The table "%s" is not in the TCA.</target>
+        <target state="translated">La tabella "%s" non è nel TCA.</target>
       </trans-unit>
     </body>
   </file>
