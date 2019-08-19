@@ -3,17 +3,25 @@
   <file t3:id="1520838123" source-language="en" datatype="plaintext" original="messages" date="2018-03-31T08:08:00Z" product-name="adminpanel" target-language="de">
     <header/>
     <body>
-      <trans-unit id="deprecatedModuleLabel" approved="yes">
+      <trans-unit id="deprecatedModuleLabel">
         <source>General</source>
         <target state="translated">Allgemein</target>
       </trans-unit>
-      <trans-unit id="settings.label" approved="yes">
+      <trans-unit id="settings.label">
         <source>Settings</source>
         <target state="translated">Einstellungen</target>
       </trans-unit>
-      <trans-unit id="settings.updateButtonLabel" approved="yes">
+      <trans-unit id="settings.updateButtonLabel">
         <source>Update Settings</source>
-        <target state="translated">Einstellungen aktualisieren</target>
+        <target state="translated">Update-Einstellungen</target>
+      </trans-unit>
+      <trans-unit id="button.close">
+        <source>Close</source>
+        <target state="translated">Schließen</target>
+      </trans-unit>
+      <trans-unit id="button.view">
+        <source>View</source>
+        <target state="translated">Ansicht</target>
       </trans-unit>
     </body>
   </file>
