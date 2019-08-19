@@ -3,10 +3,22 @@
   <file t3:id="1455466284" source-language="en" datatype="plaintext" original="messages" date="2016-02-14T16:11:24Z" product-name="core" target-language="it">
     <header/>
     <body>
-			
-			
-			
-			
-		</body>
+      <trans-unit id="wizard.button.next">
+        <source>Next</source>
+        <target state="translated">Prossimo</target>
+      </trans-unit>
+      <trans-unit id="wizard.button.cancel">
+        <source>Cancel</source>
+        <target state="translated">Annulla</target>
+      </trans-unit>
+      <trans-unit id="wizard.progress">
+        <source>Step {0} of {1}</source>
+        <target state="translated">Passo {0} di {1}</target>
+      </trans-unit>
+      <trans-unit id="wizard.processing.title">
+        <source>Processing...</source>
+        <target state="translated">Elaborazione...</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
