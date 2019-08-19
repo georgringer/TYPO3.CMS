@@ -3,209 +3,1255 @@
   <file t3:id="1415814854" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="lang" target-language="fr">
     <header/>
     <body>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id=".alttitle">
+        <source>TYPO3 Core</source>
+        <target state="translated">Noyau TYPO3</target>
+      </trans-unit>
+      <trans-unit id=".description">
+        <source>TYPO3 is a Content Management Framework which consists of a central program core with only limited functionality. To extend this core system there are hundreds of extensions which in combination will provide a very capable system.</source>
+        <target state="translated">TYPO3 est un cadre de gestion de contenu qui consiste en un noyau central de programme avec une fonctionnalité limitée. Pour étendre ce système de base il y a des centaines d'extensions qui en combinaison fournira un système très capable.</target>
+      </trans-unit>
+      <trans-unit id=".details">
+        <source>For most people TYPO3 is equivalent to a CMS providing a backend for management of the content and a frontend engine for website display. However TYPO3s core is natively designed to be a general purpose framework for management of database content. The core of TYPO3 delivers a set of principles for storage of this content, user access management, editing of the content, uploading and managing files etc. Many of these principles are expressed as an API (Application Programmers Interface) for use in the &lt;em&gt;extensions&lt;/em&gt; which ultimately adds most of the real functionality.</source>
+        <target state="translated">Pour la plupart des personnes, TYPO3 est équivalent à un CMS fournissant un backend pour la gestion du contenu et un moteur de pointe pour l'affichage du site web. Cependant, le noyau TYPO3s est conçu nativement pour être un cadre général de gestion du contenu de la base de données. Le noyau de TYPO3 fournit un ensemble de principes pour le stockage de ce contenu, la gestion de l'accès à l'utilisateur, l'édition du contenu, le téléchargement et la gestion des fichiers etc. Beaucoup de ces principes sont exprimés comme une API (Application Programmers Interface) pour l'utilisation dans les extensions &lt;em&gt;&lt;/em&gt; qui ajoute finalement la plupart des fonctionnalités réelles.</target>
+      </trans-unit>
+      <trans-unit id="_.seeAlso">
+        <source>Inside TYPO3 | https://docs.typo3.org/typo3cms/InsideTypo3Reference/</source>
+        <target state="translated">Dans TYPO3 | https://docs.typo3.org/typo3cms/InsideTypo3Reference/</target>
+      </trans-unit>
+      <trans-unit id="_.image">
+        <source>EXT:core/Resources/Public/Images/cshimages/login.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Ressources/Public/Images/cshimages/login.png</target>
+      </trans-unit>
+      <trans-unit id=".image_descr">
+        <source>TYPO3 backend login screen.</source>
+        <target state="translated">Écran de connexion TYPO3.</target>
+      </trans-unit>
+      <trans-unit id="menu_modules.alttitle">
+        <source>Backend modules</source>
+        <target state="translated">Modules de base</target>
+      </trans-unit>
+      <trans-unit id="menu_modules.description">
+        <source>The Backend menu reflects the hierarchy of main- and sub-modules in TYPO3. Click a menu item to access the corresponding module.</source>
+        <target state="translated">Le menu Backend reflète la hiérarchie des sous-modules principaux et sous-modules dans TYPO3. Cliquez sur un élément de menu pour accéder au module correspondant.</target>
+      </trans-unit>
+      <trans-unit id="menu_modules.details" xml:space="preserve">
+				<source>Backend Users might see different menu items depending on their access permissions. The "Admin" user on a system will always see all modules available.
+
+You can configure the backend to display the menu in two alternative versions (useful on smaller screens); As a selector box or list of icons in the top frame of the backend.
+
+When you click the little "+" or "-" icons next to the main modules, you can collapse (-) or expand (+) all the sub modules. By selecting the "Expand all" check box, all items are expanded. When the checkbox is unselected again, the menu changes back to the previous folding state. If you click "Expand all" and collapse a main module afterwards, the previous folding state is discarded and "Expand all" is unselected again.</source>
+			<target state="translated">Les utilisateurs de Backend peuvent voir différents éléments de menu en fonction de leurs permissions d'accès. L'utilisateur "Admin" d'un système verra toujours tous les modules disponibles.
+
+Vous pouvez configurer le backend pour afficher le menu dans deux versions alternatives (utiles sur des écrans plus petits); en tant que boîte de sélection ou liste d'icônes dans le cadre supérieur du backend.
+
+Lorsque vous cliquez sur les petites icônes "+" ou "-" à côté des modules principaux, vous pouvez décompresser (-) ou étendre (+) tous les sous-modules. En sélectionnant la case "Expire tout", tous les éléments sont agrandis. Lorsque la case est à nouveau désactivée, le menu change à l'état de pliage précédent. Si vous cliquez sur "Expire tout" et que vous écroulez un module principal par la suite, l'état de pliage précédent est rejeté et "Expire tout" est à nouveau non sélectionné.</target></trans-unit>
+      <trans-unit id="_menu_modules.seeAlso" xml:space="preserve">
+				<source>be_groups:groupMods,
+be_users:userMods,
+More about Modules | https://docs.typo3.org/typo3cms/GettingStartedTutorial/GeneralPrinciples/Index.html</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:groupMods,
+be_users:userMods,
+Plus sur Modules | https://docs.typo3.org/typo3cms/GettingStartedTutorial/GeneralPrinciples/Index.html</target></trans-unit>
+      <trans-unit id="_menu_modules.image" xml:space="preserve">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_2.png,
+EXT:core/Resources/Public/Images/cshimages/core_3.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_2.png,
+EXT:core/Resources/Public/Images/cshimages/core_3.png</target></trans-unit>
+      <trans-unit id="menu_modules.image_descr" xml:space="preserve">
+				<source>This is the range of menu options for a typical backend user.
+For another backend user it might be different. This screenshot shows how another user has different permissions set and therefore access to other modules only. Also the backend language has been set different for this user.</source>
+			<target state="translated">Ceci est la gamme des options de menu pour un utilisateur de backend typique.
+Pour un autre utilisateur de backend, il peut être différent. Cette capture d'écran montre comment un autre utilisateur a des permissions différentes et donc accès à d'autres modules seulement. La langue de fond a également été définie différemment pour cet utilisateur.</target></trans-unit>
+      <trans-unit id="menu_adminFunction.alttitle">
+        <source>Admin Functions</source>
+        <target state="translated">Fonctions Admin</target>
+      </trans-unit>
+      <trans-unit id="menu_adminFunction.description">
+        <source>The Admin Functions allow administrators to clear caches etc.</source>
+        <target state="translated">Les fonctions Admin permettent aux administrateurs de vider les caches etc.</target>
+      </trans-unit>
+      <trans-unit id="menu_adminFunction.details" xml:space="preserve">
+				<source>TYPO3 has multiple caching systems:
+
+&lt;b&gt;Database Cache&lt;/b&gt;
+A very central cache is the database cache table, "cache_hash", which needs to be flushed after certain major changes in the system. You "clear all cache" by clicking the link with the blue icon. After this operation any website content should be re-generated from the sources rather than be delivered from caches. This operation clears &lt;i&gt;all&lt;/i&gt; database tables registered as flushable cache tables.
+
+&lt;b&gt;Cached PHP configuration files from Extensions&lt;/b&gt;
+TYPO3 also caches small configuration scripts from extensions, "ext_localconf.php" and "ext_tables.php". These files are simply read from all installed extensions and concatenated into temporary PHP scripts found in the typo3temp/Cache/Code/cache_core/ folder. Sometimes you need to remove these files so TYPO3 re-writes them from the originals. This is done by the "Clear temp_CACHED" link.
+
+&lt;b&gt;Notice:&lt;/b&gt; You should not clear these caches without a second thought. Clearing caches may affect performance on your server negatively for a while. Obviously the cached content has to be regenerated which takes time and under heavy load it might make your server un-available for a while.</source>
+			<target state="translated">TYPO3 a plusieurs systèmes de cache :
+
+&lt;b&gt;Cache de base de données&lt;/b&gt;
+Un cache très central est la table de cache de base de données, "cache_hash", qui doit être vidée après certains changements majeurs dans le système. Vous "effacer tous les cache" en cliquant sur le lien avec l'icône bleue. Après cette opération, tout contenu du site web devrait être ré-généré à partir des sources plutôt que d'être livré à partir de caches. Cette opération efface &lt;i&gt;toutes les&lt;/i&gt; tables de base de données enregistrées comme des tables de cache flussables.
+
+&lt;b&gt;Les fichiers de configuration PHP mis en cache à partir des extensions&lt;/b&gt;
+TYPO3 cache également de petits scripts de configuration à partir d'extensions, "ext_localconf.php" et "ext_tables.php". Ces fichiers sont simplement lus à partir de toutes les extensions installées et concaténés dans les scripts PHP temporaires trouvés dans le dossier typo3temp/Cache/Code/cache_core/ . Parfois, vous devez supprimer ces fichiers afin que TYPO3 les réécrite des originaux. Ceci est fait par le lien "Effacer temp_CACHED".
+
+&lt;b&gt;Avis :&lt;/b&gt; Vous ne devriez pas effacer ces caches sans une seconde pensée. Le nettoyage des caches peut affecter les performances sur votre serveur pendant un certain temps. Il est évident que le contenu mis en cache doit être régénéré qui prend du temps et sous charge lourde, il pourrait rendre votre serveur inutilisable pendant un certain temps.</target></trans-unit>
+      <trans-unit id="_menu_adminFunction.seeAlso">
+        <source>be_users:admin</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">be_users:admin</target>
+      </trans-unit>
+      <trans-unit id="_menu_adminFunction.image">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_1.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Ressources/Public/Images/cshimages/core_1.png</target>
+      </trans-unit>
+      <trans-unit id="pagetree.alttitle">
+        <source>The Page Tree</source>
+        <target state="translated">L'Arbre de Page</target>
+      </trans-unit>
+      <trans-unit id="pagetree.description">
+        <source>This is the hierarchical organization of pages in TYPO3. Typically websites are build so they reflect the page structure in the page tree directly in the website navigation.</source>
+        <target state="translated">C'est l'organisation hiérarchique des pages dans TYPO3. Généralement les sites web sont construits afin qu'ils reflètent la structure de la page dans l'arborescence de page directement dans la navigation du site.</target>
+      </trans-unit>
+      <trans-unit id="pagetree.details" xml:space="preserve">
+				<source>The page tree works like a file system. Each page is like a directory where you can store files. In TYPO3 you store database records inside of each page. Some of these records, typically called "Content Elements", contains the website content of pages. Other records can be from plugins like a glossary or a guestbook and they are only displayed indirectly by a plugin inserted as a Content Element.
+Some backend users will see only a part of the page tree for a website. This feature allows the administrator to configure backend users with different responsibilities for maintaining branches of the page tree.
+
+&lt;b&gt;Navigating the tree&lt;/b&gt;
+Simply click the +/- buttons to expand and contract the branches of the tree.
+If you click the page icons you should see a context menu pop up. It will contain options specifically for that page.
+Clicking the title of a page is another option. It will load the right frame of the Web main module with the selected sub-module. The content shown in the right frame will be related to the page clicked.</source>
+			<target state="translated">L'arborescence de page fonctionne comme un système de fichiers. Chaque page est comme un répertoire où vous pouvez stocker des fichiers. Dans TYPO3 vous stockez des enregistrements de base de données à l'intérieur de chaque page. Certains de ces enregistrements, généralement appelés "Éléments de contenu", contiennent le contenu du site Web des pages. D'autres enregistrements peuvent être issus de plugins comme un glossaire ou un livre d'or et ils ne sont affichés que indirectement par un plugin inséré comme un élément de contenu.
+Certains utilisateurs de backend ne verront qu'une partie de l'arborescence de page pour un site web. Cette fonctionnalité permet à l'administrateur de configurer les utilisateurs de backend avec des responsabilités différentes pour maintenir des branches de l'arborescence de page.
+
+&lt;b&gt;Naviguer sur l'arbre&lt;/b&gt;
+Il suffit de cliquer sur les boutons +/- pour étendre et contracter les branches de l'arbre.
+Si vous cliquez sur les icônes de la page, vous devriez voir un menu contextuel apparaître. Il contiendra des options spécifiques pour cette page.
+Cliquer sur le titre d'une page est une autre option. Il chargera le cadre droit du module principal Web avec le sous-module sélectionné. Le contenu affiché dans le cadre droit sera lié à la page cliquée.</target></trans-unit>
+      <trans-unit id="_pagetree.seeAlso" xml:space="preserve">
+				<source>xMOD_csh_corebe:list_module,
+More about the Page Tree | https://docs.typo3.org/typo3cms/GettingStartedTutorial/GeneralPrinciples/PageTree/
+Using the page tree (Animation) | FILE:EXT:welcome/modsub/ani_01.gif
+Clicking Icons or Titles? (Animation) | FILE:EXT:welcome/modsub/ani_06.gif
+Creating pages (Animation) | FILE:EXT:welcome/modsub/ani_07.gif
+Moving pages (Animation) | FILE:EXT:welcome/modsub/ani_08.gif</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:list_module,
+Plus sur l'arbre de page | https://docs.typo3.org/typo3cms/GettingStartedTutorial/GeneralPrinciples/PageTree/
+Utilisation de l'arborescence de page (Animation) | FILE:EXT:welcome/modsub/ani_01.gif
+Cliquer sur les icônes ou les titres? (Animation) | FILE:EXT:welcome/modsub/ani_06.gif
+pages de création (Animation) | FILE:EXT:welcome/modsub/ani_07.gif
+pages de déplacement (Animation) | FILE:EXT:welcome/modsub/ani_08.gif</target></trans-unit>
+      <trans-unit id="_pagetree.image" xml:space="preserve">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_4.png,
+EXT:core/Resources/Public/Images/cshimages/core_5.png,
+EXT:core/Resources/Public/Images/cshimages/core_6.png,
+EXT:core/Resources/Public/Images/cshimages/core_7.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_4.png,
+EXT:core/Resources/Public/Images/cshimages/core_5.png,
+EXT:core/Resources/Public/Images/cshimages/core_6.png,
+EXT:core/Resources/Public/Images/cshimages/core_7.png</target></trans-unit>
+      <trans-unit id="pagetree.image_descr" xml:space="preserve">
+				<source>An example of a Page Tree in TYPO3. The page tree is available under any of the Web sub-modules in the menu.
+Clicking the icon of a page displays a context sensitive menu with options for that particular page.
+Clicking the title of a page in the page tree will load the right frame with the current submodule. The page id is passed to the module so it displays content related to the page you clicked.
+Holding the mouse pointer over a page icon for a few seconds will display tool-tip information telling you details about the state of the page. Here a page is access restricted and you will be told which group the access is set for by the tool-tip.</source>
+			<target state="translated">Un exemple d'un arbre de page dans TYPO3. L'arborescence de page est disponible sous n'importe quel sous-module Web dans le menu.
+Cliquer sur l'icône d'une page affiche un menu sensible au contexte avec des options pour cette page particulière.
+En cliquant sur le titre d'une page dans l'arborescence de page, le sous-module actuel chargera le cadre droit. L'identifiant de la page est passé au module pour qu'il affiche le contenu lié à la page que vous avez cliqué.
+En maintenant le pointeur de la souris sur une icône de page pendant quelques secondes, vous verrez les informations de pointe d'outils vous indiquant l'état de la page. Ici, une page est restreinte et on vous informera de quel groupe l'accès est défini par le bouton-outil.</target></trans-unit>
+      <trans-unit id="filetree.alttitle">
+        <source>The Folder Tree</source>
+        <target state="translated">L'Arbre de Dossier</target>
+      </trans-unit>
+      <trans-unit id="filetree.description">
+        <source>Shows the directory structure of a mounted path on the webserver. You can browse the folder tree like you are used to browse the file system on your own computer.</source>
+        <target state="translated">Affiche la structure du répertoire d'un chemin monté sur le serveur web. Vous pouvez parcourir l'arborescence de dossier comme vous l'utilisez pour naviguer sur le système de fichiers sur votre propre ordinateur.</target>
+      </trans-unit>
+      <trans-unit id="filetree.details" xml:space="preserve">
+				<source>The Folder Tree is available for any sub-module of the File main module in TYPO3. The File module is like a little web-based FTP-client inside of TYPO3 which allows you to upload, rename, copy, move, delete and edit files inside TYPO3.
+Most users of TYPO3 doesn't need access to the File module and sub-modules in order to upload images on web-pages. They can do this directly when editing Content Elements. But the File module is useful for maintaining collections of files on the server, for example an image archive or files for download.
+
+&lt;b&gt;Navigating the Folder Tree&lt;/b&gt;
+You can expand and contract the folder tree by the +/- icons.
+Clicking a folder icon will display a pop-up menu with options related to that particular folder. Options include copy/cut/paste, rename, upload etc.
+Clicking the folder title will load the currently active sub-module in the right frame of the backend. The sub-module will typically show files and folders inside the folder you clicked.
+
+&lt;b&gt;Granting access to the Folder Tree&lt;/b&gt;
+The administrator needs to allow backend users to access the File modules and in addition make a file mount available to them before they can use the Folder Tree.</source>
+			<target state="translated">L'arbre de dossier est disponible pour tout sous-module du module principal de fichier dans TYPO3. Le module File est comme un petit client FTP basé sur le web dans TYPO3 qui vous permet de télécharger, renommer, copier, déplacer, supprimer et éditer des fichiers dans TYPO3.
+La plupart des utilisateurs de TYPO3 n'ont pas besoin d'accéder au module de fichiers et aux sous-modules pour télécharger des images sur les pages web. Ils peuvent le faire directement lors de l'édition des éléments de contenu. Mais le module Fichier est utile pour maintenir des collections de fichiers sur le serveur, par exemple une archive d'image ou des fichiers à télécharger.
+
+&lt;b&gt;Naviguer sur l'Arbre de Dossier&lt;/b&gt;
+Vous pouvez étendre et contracter l'arborescence de dossier par les icônes +/.
+En cliquant sur une icône de dossier, un menu pop-up avec des options liées à ce dossier particulier sera affiché. Les options incluent copier/couper/coller, renommer, télécharger etc.
+En cliquant sur le titre du dossier, le sous-module actuellement actif sera chargé dans le cadre droit du backend. Le sous-module affichera généralement des fichiers et des dossiers dans le dossier que vous avez cliqué.
+
+&lt;b&gt;Accorder l'accès à l'arbre de dossier&lt;/b&gt;
+L'administrateur doit permettre aux utilisateurs de backend d'accéder aux modules de fichier et en outre rendre une monture de fichier disponible pour eux avant qu'ils puissent utiliser l'arbre de dossier.</target></trans-unit>
+      <trans-unit id="_filetree.seeAlso" xml:space="preserve">
+				<source>be_groups:groupMods,
+be_groups:file_mountpoints,
+be_users:file_mountpoints,
+Managing files in TYPO3 | https://docs.typo3.org/typo3cms/GettingStartedTutorial/TheFileModuleOrImageArchives/ManagingFilesInTypo3/
+Uploading Files | https://docs.typo3.org/typo3cms/GettingStartedTutorial/TheFileModuleOrImageArchives/UploadingImagesToTheArchive/,
+Details about file mounts | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/AccessControl/MoreAboutFileMounts/,
+sys_filemounts,
+xMOD_csh_corebe:filelist_module</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="needs-translation">be_groups:groupMods,
+be_groups:file_mountpoints,
+be_users:file_mountpoints,
+Managing files in TYPO3 | https://docs.typo3.org/typo3cms/GettingStartedTutorial/TheFileModuleOrImageArchives/ManagingFilesInTypo3/
+Uploading Files | https://docs.typo3.org/typo3cms/GettingStartedTutorial/TheFileModuleOrImageArchives/UploadingImagesToTheArchive/,
+Details about file mounts | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/AccessControl/MoreAboutFileMounts/,
+sys_filemounts,
+xMOD_csh_corebe:filelist_module</target></trans-unit>
+      <trans-unit id="_filetree.image" xml:space="preserve">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_8.png,
+EXT:core/Resources/Public/Images/cshimages/core_9.png,
+EXT:core/Resources/Public/Images/cshimages/core_10.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_8.png,
+EXT:core/Resources/Public/Images/cshimages/core_9.png,
+EXT:core/Resources/Public/Images/cshimages/core_10.png</target></trans-unit>
+      <trans-unit id="filetree.image_descr" xml:space="preserve">
+				<source>The Folder Tree of the "fileadmin/" folder. This is mounted by default for "Admin"-users. Other users will have to have a file mount configured for them first.
+Clicking the icon of a folder displays the context menu of the folder.
+If you click the folder title in the Folder Tree you will see the sub-module loaded in the right frame. Here it is the File &gt; Filelist module that will display files and folders inside. Clicking the icon of a file will display a context menu for the file.</source>
+			<target state="translated">L'Arbre de dossier du dossier "fileadmin/". Ceci est monté par défaut pour les "Admin"-utilisateurs. Les autres utilisateurs devront avoir une monture de fichier configurée pour eux d'abord.
+Cliquer sur l'icône d'un dossier affiche le menu contextuel du dossier.
+Si vous cliquez sur le titre du dossier dans l'Arbre de dossier, vous verrez le sous-module chargé dans le cadre droit. Voici le module de liste de fichiers &gt; qui affichera les fichiers et dossiers à l'intérieur. Cliquez sur l'icône d'un fichier affichera un menu contextuel pour le fichier.</target></trans-unit>
+      <trans-unit id="tcatree.collapseAll">
+        <source>Collapse All</source>
+        <target state="translated">Réduire tout</target>
+      </trans-unit>
+      <trans-unit id="tcatree.expandAll">
+        <source>Expand All</source>
+        <target state="translated">Tout agrandir</target>
+      </trans-unit>
+      <trans-unit id="tcatree.toggleHideUnchecked">
+        <source>hide/show unchecked items</source>
+        <target state="translated">masquer/afficher les éléments non cochés</target>
+      </trans-unit>
+      <trans-unit id="tcatree.findItem">
+        <source>Find Item</source>
+        <target state="translated">Trouver un élément</target>
+      </trans-unit>
+      <trans-unit id="list_module.alttitle">
+        <source>The Web&gt;List module</source>
+        <target state="translated">Le module de liste Web&gt;</target>
+      </trans-unit>
+      <trans-unit id="list_module.description">
+        <source>Listing records located on a page. From here you can copy/cut/paste records around in the system. You can edit records, access the change history of elements etc.</source>
+        <target state="translated">Liste des enregistrements situés sur une page. Vous pouvez copier/découper/coller des enregistrements autour du système. Vous pouvez éditer des enregistrements, accéder à l'historique des changements d'éléments, etc.</target>
+      </trans-unit>
+      <trans-unit id="list_module.details" xml:space="preserve">
+				<source>The list module is like the file manager in an Operating System; it provides basic access to all "elements" available in the system. In TYPO3 almost all information is stored in the database and managed after the same principles internally. For instance Content Elements representing page content are database records just like backend users are. The Web&gt;List module allows us to create, modify and delete both kinds of records after the same principles.
+
+The Web&gt;List module might not be the best "view" of the content on a page for any situation. For instance if you want to manage website content on a page (Content Elements) you should rather use the "Web&gt;Page" module which is designed to display content elements more optimized. But the List module will always give you access to whatever is on the page in a basic way if no better module is available for management.
+
+&lt;b&gt;Single-table mode&lt;/b&gt;
+If you click the tabel title in the listing you will enter single-table mode. In this mode you can select additional fields from the table to show in the listing. Also you will get additional editing facilities, for instance you will be able to edit multiple records at a time and even only certain fields from those records. See the screenshot for more details.</source>
+			<target state="translated">Le module de liste est comme le gestionnaire de fichiers dans un système d'exploitation; il fournit un accès de base à tous les "éléments" disponibles dans le système. Dans TYPO3, presque toutes les informations sont stockées dans la base de données et gérées après les mêmes principes internes. Par exemple, les éléments de contenu représentant le contenu de la page sont des enregistrements de base de données comme les utilisateurs de backend. Le module Liste Web&gt;nous permet de créer, modifier et supprimer les deux types d'enregistrements après les mêmes principes.
+
+Le module de liste Web&gt;ne peut être la meilleure "vue" du contenu sur une page pour toute situation. Par exemple, si vous voulez gérer le contenu du site sur une page (Éléments de contenu), vous devriez plutôt utiliser le module "Web&gt;Page" qui est conçu pour afficher les éléments de contenu plus optimisés. Mais le module Liste vous donnera toujours accès à ce qui se trouve sur la page de manière basique si aucun meilleur module n'est disponible pour la gestion.
+
+&lt;b&gt;Mode de table unique&lt;/b&gt;
+Si vous cliquez sur le titre de tabel dans la liste, vous allez entrer en mode table unique. Dans ce mode, vous pouvez sélectionner des champs supplémentaires dans la table à afficher dans la liste. Vous obtiendrez également des installations d'édition supplémentaires, par exemple, vous pourrez éditer plusieurs enregistrements à la fois et même seulement certains champs de ces enregistrements. Voir la capture d'écran pour plus de détails.</target></trans-unit>
+      <trans-unit id="_list_module.seeAlso" xml:space="preserve">
+				<source>xMOD_csh_corebe:pagetree,
+xMOD_csh_corebe:list_module_root,
+xMOD_csh_corebe:filelist_module,
+xMOD_csh_corebe:TCEforms
+Selective Editing | https://docs.typo3.org/typo3cms/GettingStartedTutorial/TheListModuleAndClipboard/SelectiveEditing/
+The List module ("Inside TYPO3") | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/CoreModules/ListModule/,</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="needs-translation">xMOD_csh_corebe:pagetree,
+xMOD_csh_corebe:list_module_root,
+xMOD_csh_corebe:filelist_module,
+xMOD_csh_corebe:TCEforms
+Selective Editing | https://docs.typo3.org/typo3cms/GettingStartedTutorial/TheListModuleAndClipboard/SelectiveEditing/
+The List module ("Inside TYPO3") | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/CoreModules/ListModule/,</target></trans-unit>
+      <trans-unit id="_list_module.image" xml:space="preserve">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_11.png,
+EXT:core/Resources/Public/Images/cshimages/core_12.png,
+EXT:core/Resources/Public/Images/cshimages/core_34.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_11.png,
+EXT:core/Resources/Public/Images/cshimages/core_12.png,
+EXT:core/Resources/Public/Images/cshimages/core_34.png,</target></trans-unit>
+      <trans-unit id="list_module.image_descr" xml:space="preserve">
+				<source>Here the page "Cameras" has been clicked in the page tree and in the right frame the Web&gt;List module shows the contents of the page. Here a single content element (Shop Plugin) is inserted in order to display the other items on the page which are three product records in this case.
+If you enable "Extended mode" and the "Clipboard" you will get additional buttons in the interface to operate on the records shown here. Also notice how you can click any record icon to get a "Clickmenu" for the element.
+Here you see the single-table mode active for the "Page content" table (Content Elements). In the fieldbox the "Hide" field is selected to be included in the listing. If you click any of the edit icons (marked with red border) you will be able to edit [from left to right] a) all listed fields (here "Header" and "Hide"), b) full record or c) a single field (eg. "Hide") for &lt;u&gt;only&lt;/u&gt; the selected records (defined by the checkboxes seen).</source>
+			<target state="translated">Ici, la page "Caméras" a été cliquée dans l'arborescence de la page et dans le cadre droit le module de liste Web&gt;affiche le contenu de la page. Ici un élément de contenu unique (Plugin Shop) est inséré afin d'afficher les autres éléments de la page qui sont trois enregistrements de produits dans ce cas.
+Si vous activez "Mode Étendu" et "Presse-papiers", vous obtiendrez des boutons supplémentaires dans l'interface pour fonctionner sur les enregistrements affichés ici. Notez également comment vous pouvez cliquer sur une icône d'enregistrement pour obtenir un "Clickmenu" pour l'élément.
+Ici vous voyez le mode de table unique actif pour la table "Contenu de la page" (Éléments de contenu). Dans la zone de champs, le champ "Cacher" est sélectionné pour être inclus dans la liste. Si vous cliquez sur l'une des icônes d'édition (marquées par la bordure rouge), vous pourrez modifier [de gauche à droite] a) tous les champs listés (ici "En-tête" et "Cacher"), b) l'enregistrement complet ou c) un seul champ (par exemple. "Masquer") pour &lt;u&gt;&lt;/u&gt; seulement les enregistrements sélectionnés (définis par les cases à cocher vues).</target></trans-unit>
+      <trans-unit id="list_module_noId.alttitle">
+        <source>Web&gt;List module with no ID given</source>
+        <target state="translated">Module de liste&gt;Web sans ID donné</target>
+      </trans-unit>
+      <trans-unit id="list_module_noId.description">
+        <source>The Web&gt;List module must have a page ID passed to it before it can display any content. Please click a page title in the Page Tree.</source>
+        <target state="translated">Le module de liste Web&gt;doit avoir un ID de page lui a été transmis avant qu'il puisse afficher n'importe quel contenu. Veuillez cliquer sur un titre de page dans l'arborescence de la page.</target>
+      </trans-unit>
+      <trans-unit id="_list_module_noId.seeAlso">
+        <source>xMOD_csh_corebe:list_module</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">xMOD_csh_corebe:list_module</target>
+      </trans-unit>
+      <trans-unit id="list_module_root.alttitle">
+        <source>Root of the Page Tree</source>
+        <target state="translated">Racine de l'Arbre de Page</target>
+      </trans-unit>
+      <trans-unit id="list_module_root.description">
+        <source>The root of the Page Tree is having id 0 (zero = no page) and the special circumstance is that records in the page tree root can be accessed and edited &lt;i&gt;only&lt;/i&gt; by "Admin" users.</source>
+        <target state="translated">La racine de l'arbre de page a l'id 0 (zéro = aucune page) et la circonstance spéciale est que les enregistrements dans la racine de l'arborescence de la page peuvent être consultés et modifiés &lt;i&gt;seulement&lt;/i&gt; par les utilisateurs "Admin".</target>
+      </trans-unit>
+      <trans-unit id="list_module_root.details" xml:space="preserve">
+				<source>Only records from certain database tables are allowed to be created in the page tree root. This includes Backend Users, Backend Groups, File Mount records, Language records etc., and you cannot create Content Elements or Frontend Users in the root of the Page Tree. It also works the other way around; For example you cannot create Backend Users anywhere in the page tree.
+Usually records that are located in the page tree root are somehow "global" for the whole TYPO3 installation and doesn't make sense inside a specific branch of the page tree.</source>
+			<target state="translated">Seuls les enregistrements de certaines tables de base de données sont autorisés à être créés dans la racine de l'arborescence de page. Cela inclut les utilisateurs de Backend, les groupes de Backend, les enregistrements de fichiers, les enregistrements de langue, etc., et vous ne pouvez pas créer des éléments de contenu ou des utilisateurs Frontend à la racine de l'arborescence de la page. Cela fonctionne également de l'autre manière ; par exemple, vous ne pouvez pas créer d'utilisateurs de Backend n'importe où dans l'arborescence de la page.
+Les enregistrements généralement situés dans la racine de l'arborescence de la page sont en quelque sorte "global" pour toute l'installation de TYPO3 et ne sont pas significatifs dans une branche spécifique de l'arborescence de la page.</target></trans-unit>
+      <trans-unit id="_list_module_root.seeAlso" xml:space="preserve">
+				<source>xMOD_csh_corebe:list_module
+The List module ("Inside TYPO3") | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/CoreModules/ListModule/</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:list_module
+Le module Liste ("Inside TYPO3") | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/CoreModules/ListModule/</target></trans-unit>
+      <trans-unit id="_list_module_root.image" xml:space="preserve">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_13.png,
+EXT:core/Resources/Public/Images/cshimages/core_14.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_13.png,
+EXT:core/Resources/Public/Images/cshimages/core_14.png,</target></trans-unit>
+      <trans-unit id="list_module_root.image_descr" xml:space="preserve">
+				<source>Example of records in the page tree root; Backend users, groups, filemounts and website languages.
+When "Admin"-users wants to create a new record in the page tree root they will see a limited number of record types to create. This reflects which tables are configured to be created in the page tree root.</source>
+			<target state="translated">Exemple d'enregistrements dans l'arborescence de la page ; utilisateurs de Backend, groupes, montages de fichiers et langues du site web.
+Lorsque "Admin"-utilisateurs veut créer un nouvel enregistrement dans la racine de l'arborescence de la page, ils verront un nombre limité de types d'enregistrements à créer. Ceci reflète les tables qui sont configurées pour être créées dans la racine de l'arborescence de page.</target></trans-unit>
+      <trans-unit id="list_clipboard.alttitle">
+        <source>TYPO3 Clipboard</source>
+        <target state="translated">Presse-papiers TYPO3</target>
+      </trans-unit>
+      <trans-unit id="list_clipboard.description">
+        <source>The clipboard is an internal registry where records and files can be "stored" temporarily. Usually the clipboard is used for copy/cut/paste operations internally of one or more elements.</source>
+        <target state="translated">Le presse-papiers est un registre interne où les enregistrements et les fichiers peuvent être "stockés" temporairement. Habituellement, le presse-papiers est utilisé pour les opérations de copier/découper/coller en interne d'un ou plusieurs éléments.</target>
+      </trans-unit>
+      <trans-unit id="_list_clipboard.seeAlso" xml:space="preserve">
+				<source>xMOD_csh_corebe:list_module,
+xMOD_csh_corebe:filelist_clipboard,
+Using the clipboard | https://docs.typo3.org/typo3cms/GettingStartedTutorial/TheListModuleAndClipboard/UsingTheListModuleEffectively/
+Numeric Clipboard pads | https://docs.typo3.org/typo3cms/GettingStartedTutorial/TheListModuleAndClipboard/TheNumericClipboardPads-ManagingManyElements/
+Clipboard details [Technical] | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/GeneralInterfaceFeatures/Clipboard/,
+Accessing clipboard in scripts [Technical] | https://docs.typo3.org/typo3cms/CoreApiReference/ApiOverview/Examples/Clipboard/</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="needs-translation">xMOD_csh_corebe:list_module,
+xMOD_csh_corebe:filelist_clipboard,
+Using the clipboard | https://docs.typo3.org/typo3cms/GettingStartedTutorial/TheListModuleAndClipboard/UsingTheListModuleEffectively/
+Numeric Clipboard pads | https://docs.typo3.org/typo3cms/GettingStartedTutorial/TheListModuleAndClipboard/TheNumericClipboardPads-ManagingManyElements/
+Clipboard details [Technical] | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/GeneralInterfaceFeatures/Clipboard/,
+Accessing clipboard in scripts [Technical] | https://docs.typo3.org/typo3cms/CoreApiReference/ApiOverview/Examples/Clipboard/</target></trans-unit>
+      <trans-unit id="_list_clipboard.image" xml:space="preserve">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_16.png,
+EXT:core/Resources/Public/Images/cshimages/core_17.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_16.png,
+EXT:core/Resources/Public/Images/cshimages/core_17.png,</target></trans-unit>
+      <trans-unit id="list_clipboard.image_descr" xml:space="preserve">
+				<source>Whenever you use the copy/cut/paste functions in the clickmenus you will actually use the clipboard to store the element internally in TYPO3.
+If you select one of the numeric clipboard pads you will be able to store more than a single element on the clipboard at a time. In the record listings you will then see checkboxes next to the elements by which you can select/deselect elements for the clipboard.</source>
+			<target state="translated">Lorsque vous utilisez les fonctions copier/découper/coller dans le clickmenus, vous utiliserez le presse-papiers pour stocker l'élément en interne dans TYPO3.
+Si vous sélectionnez l'un des tampons numériques, vous pourrez stocker plus d'un seul élément dans le presse-papiers à la fois. Dans les listes d'enregistrement vous verrez alors les cases à cocher à côté des éléments par lesquels vous pouvez sélectionner/désélectionner les éléments pour le presse-papiers.</target></trans-unit>
+      <trans-unit id="list_searchbox.alttitle">
+        <source>Search Box</source>
+        <target state="translated">Recherche</target>
+      </trans-unit>
+      <trans-unit id="list_searchbox.description">
+        <source>By this search box you can do a free text search in all the listed records. You can also search recursively in sub-pages by selecting a number of levels to search in the selector box to the right of the search field.</source>
+        <target state="translated">Vous pouvez effectuer une recherche de texte gratuite dans tous les enregistrements listés. Vous pouvez également rechercher récursivement dans les sous-pages en sélectionnant un certain nombre de niveaux à rechercher dans la case sélecteur à droite du champ de recherche.</target>
+      </trans-unit>
+      <trans-unit id="_list_searchbox.seeAlso">
+        <source>xMOD_csh_corebe:list_module</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">xMOD_csh_corebe:list_module</target>
+      </trans-unit>
+      <trans-unit id="_list_searchbox.image">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_15.png,</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/core_15.png,</target>
+      </trans-unit>
+      <trans-unit id="list_options.alttitle">
+        <source>List module options</source>
+        <target state="translated">Options du module de liste</target>
+      </trans-unit>
+      <trans-unit id="list_options.description">
+        <source>Enable additional options like the "Extended view" mode to see additional control buttons for each record in the listing or the "Clipboard" to see the clipboard and its content.</source>
+        <target state="translated">Activez des options supplémentaires comme le mode "Affichage étendu" pour voir des boutons de contrôle supplémentaires pour chaque enregistrement dans la liste ou le "Presse-papiers" pour voir le presse-papiers et son contenu.</target>
+      </trans-unit>
+      <trans-unit id="_list_options.seeAlso" xml:space="preserve">
+				<source>xMOD_csh_corebe:list_module,
+xMOD_csh_corebe:list_clipboard,
+xMOD_csh_corebe:filelist_options</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:list_module,
+xMOD_csh_corebe:list_clipboard,
+xMOD_csh_corebe:filelist_options</target></trans-unit>
+      <trans-unit id="_list_options.image" xml:space="preserve">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_18.png,
+EXT:core/Resources/Public/Images/cshimages/core_19.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_18.png,
+EXT:core/Resources/Public/Images/cshimages/core_19.png,</target></trans-unit>
+      <trans-unit id="list_options.image_descr" xml:space="preserve">
+				<source>The options checkboxes.
+Selecting "Extended view" will enable the control buttons in the record lists.</source>
+			<target state="translated">Les options sont cochées.
+La sélection "Vue étendue" permettra les boutons de contrôle dans les listes d'enregistrement.</target></trans-unit>
+      <trans-unit id="pagetree_overview.alttitle">
+        <source>Pagetree Overview</source>
+        <target state="translated">Aperçu du Pagetree</target>
+      </trans-unit>
+      <trans-unit id="pagetree_overview.description">
+        <source>The Pagetree Overview shows information related to pages for a branch of the page tree. This includes start- and stop-times, cache settings etc.</source>
+        <target state="translated">La vue d'ensemble de Pagetree montre les informations relatives aux pages pour une branche de l'arborescence de la page. Cela inclut les heures de début et d'arrêt, les paramètres de cache, etc.</target>
+      </trans-unit>
+      <trans-unit id="_pagetree_overview.seeAlso" xml:space="preserve">
+				<source>_MOD_web_info:func_0,
+_MOD_web_info:func_1,
+_MOD_web_info:func_2,
+_MOD_web_info:stat</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">_MOD_web_info:func_0,
+_MOD_web_info:func_1,
+_MOD_web_info:func_2,
+_MOD_web_info:stat</target></trans-unit>
+      <trans-unit id="_pagetree_overview.image">
+        <source>EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_1.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:frontend/Ressources/Public/Images/cshimages/pagetree_overview_1.png</target>
+      </trans-unit>
+      <trans-unit id="pagetree_overview.image_descr">
+        <source>One of the features of the Pagetree Overview module is that you can see what types of records are found on pages in a branch. Here record counts are shown for a page tree branch 2 levels down.</source>
+        <target state="translated">L'une des fonctionnalités du module d'aperçu de Pagetree est que vous pouvez voir quels types d'enregistrements sont trouvés sur les pages d'une branche. Ici, les comptes d'enregistrement sont affichés pour une branche de page arborescente 2 niveaux.</target>
+      </trans-unit>
+      <trans-unit id="new_regular.alttitle">
+        <source>Create new record</source>
+        <target state="translated">Créer un nouvel enregistrement</target>
+      </trans-unit>
+      <trans-unit id="new_regular.description">
+        <source>This list shows the types of records (database tables) you can create on the page. Click a table name to select the type.</source>
+        <target state="translated">Cette liste affiche les types d'enregistrements (tables de base de données) que vous pouvez créer sur la page. Cliquez sur un nom de table pour sélectionner le type.</target>
+      </trans-unit>
+      <trans-unit id="_new_regular.seeAlso" xml:space="preserve">
+				<source>xMOD_csh_corebe:new_ce,
+xMOD_csh_corebe:new_pages</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:new_ce,
+xMOD_csh_corebe:new_pages</target></trans-unit>
+      <trans-unit id="_new_regular.image">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_70.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Ressources/Public/Images/cshimages/core_70.png</target>
+      </trans-unit>
+      <trans-unit id="new_regular.image_descr">
+        <source>The selection of records a user can create on this particular page. The selection depends on the user's permissions and the page type. For example a Folder page type can contain any kind of record while regular pages can contain only some types (like Content Elements).</source>
+        <target state="translated">La sélection des enregistrements qu'un utilisateur peut créer sur cette page particulière. La sélection dépend des permissions de l'utilisateur et du type de page. Par exemple, un type de page de dossier peut contenir n'importe quel type d'enregistrement alors que les pages régulières ne peuvent contenir que certains types (comme les éléments de contenu).</target>
+      </trans-unit>
+      <trans-unit id="new_pages.alttitle">
+        <source>Create new page wizard</source>
+        <target state="translated">Créer un nouvel assistant de page</target>
+      </trans-unit>
+      <trans-unit id="new_pages.description">
+        <source>Creating a new page means you have to find a position for it in the page tree. This wizard helps you find this position easily by clicking the flashing arrow pointing to the position you want.</source>
+        <target state="translated">Créer une nouvelle page signifie que vous devez trouver une position dans l'arborescence de page. Cet assistant vous aide à trouver cette position facilement en cliquant sur la flèche clignotante pointant vers la position que vous voulez.</target>
+      </trans-unit>
+      <trans-unit id="_new_pages.seeAlso" xml:space="preserve">
+				<source>xMOD_csh_corebe:new_regular,
+xMOD_csh_corebe:new_ce,
+How to create a new page | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/NewPage/</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:new_regular,
+xMOD_csh_corebe:new_ce,
+Comment créer une nouvelle page | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/NewPage/</target></trans-unit>
+      <trans-unit id="_new_pages.image" xml:space="preserve">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_20.png,
+EXT:core/Resources/Public/Images/cshimages/core_21.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_20.png,
+EXT:core/Resources/Public/Images/cshimages/core_21.png,</target></trans-unit>
+      <trans-unit id="new_pages.image_descr" xml:space="preserve">
+				<source>Between each page in the tree you find small icons that point out a place for a new page. Select a position by clicking one of these icons.
+To access the "Create new page wizard" in the first place, just click the link in the Create new record dialog.</source>
+			<target state="translated">Entre chaque page de l'arbre, vous trouvez de petites icônes qui pointent un endroit pour une nouvelle page. Sélectionnez une position en cliquant sur l'une de ces icônes.
+Pour accéder à l'assistant "Créer une nouvelle page" en premier lieu, cliquez simplement sur le lien dans la boîte de dialogue Créer un nouvel enregistrement.</target></trans-unit>
+      <trans-unit id="new_ce.alttitle">
+        <source>Create new Content Element Wizard</source>
+        <target state="translated">Créer un nouvel Assistant de contenu</target>
+      </trans-unit>
+      <trans-unit id="new_ce.description">
+        <source>Content Elements come in many flavors and inserting new content on a page means you have to select the right element type. This wizard helps you to pick a main type of element before you actually begin to enter content.</source>
+        <target state="translated">Les éléments de contenu sont dans de nombreux goûts et l'insertion de nouveaux contenus sur une page signifie que vous devez sélectionner le type d'élément approprié. Cet assistant vous aide à choisir un type d'élément principal avant de commencer à entrer le contenu.</target>
+      </trans-unit>
+      <trans-unit id="new_ce.details">
+        <source>Selecting an element type here will just preset the content element with certain values. You can always change the values later and if you cannot find exactly the type you need you can just pick the one that comes closest to your need, then adjust the details later.</source>
+        <target state="translated">Sélectionnez un type d'élément ici ne préservera que l'élément de contenu avec certaines valeurs. Vous pouvez toujours modifier les valeurs plus tard et si vous ne trouvez pas exactement le type dont vous avez besoin, vous pouvez choisir celui qui est le plus proche de vos besoins, puis ajuster les détails plus tard.</target>
+      </trans-unit>
+      <trans-unit id="_new_ce.seeAlso" xml:space="preserve">
+				<source>xMOD_csh_corebe:new_pages,
+xMOD_csh_corebe:new_regular,
+How to create new page content | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/NewPage/
+More about Content Element types | https://docs.typo3.org/typo3cms/GettingStartedTutorial/GeneralPrinciples/PageContent/
+Adding Custom elements [Technical] | https://docs.typo3.org/typo3cms/CoreApiReference/ApiOverview/Examples/ContentElementWizard/</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="needs-translation">xMOD_csh_corebe:new_pages,
+xMOD_csh_corebe:new_regular,
+How to create new page content | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/NewPage/
+More about Content Element types | https://docs.typo3.org/typo3cms/GettingStartedTutorial/GeneralPrinciples/PageContent/
+Adding Custom elements [Technical] | https://docs.typo3.org/typo3cms/CoreApiReference/ApiOverview/Examples/ContentElementWizard/</target></trans-unit>
+      <trans-unit id="_new_ce.image" xml:space="preserve">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_22.png,
+EXT:core/Resources/Public/Images/cshimages/core_23.png,
+EXT:core/Resources/Public/Images/cshimages/core_24.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_22.png,
+EXT:core/Resources/Public/Images/cshimages/core_23.png,
+EXT:core/Resources/Public/Images/cshimages/core_24.png,</target></trans-unit>
+      <trans-unit id="new_ce.image_descr" xml:space="preserve">
+				<source>The Content Element wizard presents a set of preset types. Just select one by clicking its title.
+After selecting the type you will (often) have to select a position of the element among the other existing Content Elements on the page.
+You can access the Content Element wizard from the Create new record dialog.</source>
+			<target state="translated">L'assistant Content Element présente un ensemble de types prédéfinis. Sélectionnez un en cliquant sur son titre.
+Après avoir sélectionné le type que vous aurez (souvent) à sélectionner une position de l'élément parmi les autres éléments de contenu existants sur la page.
+Vous pouvez accéder à l'assistant Content Element de la boîte de dialogue Créer un nouvel enregistrement.</target></trans-unit>
+      <trans-unit id="move_el_pages.alttitle">
+        <source>Move page wizard</source>
+        <target state="translated">Assistant de page</target>
+      </trans-unit>
+      <trans-unit id="move_el_pages.description">
+        <source>By this wizard you can visually re-position (or copy) a page inside TYPO3. The element you move is shown in the top.</source>
+        <target state="translated">Par cet assistant, vous pouvez afficher une page dans TYPO3 en haut de la page (ou copier) visuellement.</target>
+      </trans-unit>
+      <trans-unit id="move_el_pages.details">
+        <source>As an alternative to using the regular Copy/Cut/Paste functions in the clickmenus of records you can also use the move-page wizard. It lets you re-position a page by a visual view of the page tree rather than using the concept of "Paste into" and "Paste after".</source>
+        <target state="translated">En tant qu'alternative à l'utilisation des fonctions de Copie/Coup/Colle dans le clickmenus des enregistrements, vous pouvez également utiliser l'assistant de déplacement. Cela vous permet de réinstaller une page par une vue visuelle de l'arborescence de la page plutôt que d'utiliser le concept de "Coller dans" et "Coller après".</target>
+      </trans-unit>
+      <trans-unit id="_move_el_pages.seeAlso" xml:space="preserve">
+				<source>xMOD_csh_corebe:move_el_cs,
+xMOD_csh_corebe:new_pages,
+Moving pages | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/NewPage/</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:move_el_cs,
+xMOD_csh_corebe:new_pages,
+pages mobiles | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/NewPage/</target></trans-unit>
+      <trans-unit id="_move_el_pages.image" xml:space="preserve">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_27.png,
+EXT:core/Resources/Public/Images/cshimages/core_28.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_27.png,
+EXT:core/Resources/Public/Images/cshimages/core_28.png,</target></trans-unit>
+      <trans-unit id="move_el_pages.image_descr" xml:space="preserve">
+				<source>The wizard works like when you create new pages with the wizard; You position the element by the grey arrows.
+To access the "Move page wizard" you open the clickmenu of the page, select "More options..." and then "Move page". Alternatively you can click the "Move page" icon in the "Extended view" of the Web&gt;List module.</source>
+			<target state="translated">L'assistant fonctionne comme lorsque vous créez de nouvelles pages avec l'assistant; vous positionnez l'élément par les flèches grises.
+Pour accéder à l'assistant "Déplacer la page" vous ouvrez le clickmenu de la page, sélectionnez "Plus d'options..." puis "Déplacer la page". Vous pouvez également cliquer sur l'icône "Déplacer la page" dans la "Vue étendue" du module Liste Web&gt;.</target></trans-unit>
+      <trans-unit id="move_el_cs.alttitle">
+        <source>Move Content Element Wizard</source>
+        <target state="translated">Assistant de l'élément de contenu</target>
+      </trans-unit>
+      <trans-unit id="move_el_cs.description">
+        <source>By this wizard you can visually re-position (or copy) a Content Element inside TYPO3. The element you move is shown in the top.</source>
+        <target state="translated">Par cet assistant, vous pouvez afficher un élément de contenu dans TYPO3 en haut de la page.</target>
+      </trans-unit>
+      <trans-unit id="move_el_cs.details">
+        <source>By the grey icons in the content element list you can point out the new position of the content element. If you need to move the element to another page, simply browse the page tree in the bottom of the wizard.</source>
+        <target state="translated">Par les icônes grises de la liste des éléments de contenu, vous pouvez pointer la nouvelle position de l'élément de contenu. Si vous devez déplacer l'élément vers une autre page, il vous suffit de parcourir l'arborescence de page en bas de l'assistant.</target>
+      </trans-unit>
+      <trans-unit id="_move_el_cs.seeAlso" xml:space="preserve">
+				<source>xMOD_csh_corebe:move_el_pages,
+xMOD_csh_corebe:new_regular</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:move_el_pages,
+xMOD_csh_corebe:new_regular</target></trans-unit>
+      <trans-unit id="_move_el_cs.image" xml:space="preserve">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_25.png,
+EXT:core/Resources/Public/Images/cshimages/core_26.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_25.png,
+EXT:core/Resources/Public/Images/cshimages/core_26.png,</target></trans-unit>
+      <trans-unit id="move_el_cs.image_descr" xml:space="preserve">
+				<source>The wizard works like when you create new Content Elements with the wizard; You position the element by the grey arrows.
+To access the "Move Content Element Wizard" you click the "Move element" icon in the "Extended view" of the Web&gt;List module.</source>
+			<target state="translated">L'assistant fonctionne comme lorsque vous créez de nouveaux éléments de contenu avec l'assistant; vous positionnez l'élément par les flèches grises.
+Pour accéder à l'assistant "Déplacer l'élément de contenu" vous cliquez sur l'icône "Déplacer l'élément" dans la "Vue étendue" du module Liste Web&gt;.</target></trans-unit>
+      <trans-unit id="history_log.alttitle">
+        <source>History log</source>
+        <target state="translated">Historique</target>
+      </trans-unit>
+      <trans-unit id="history_log.description">
+        <source>The History log gives you a visual overview of the changes that has happened to the element over the last editing operations. You can roll back changes to any state by using the icons in the interface.</source>
+        <target state="translated">Le journal d'historique vous donne un aperçu visuel des changements qui ont été survenus à l'élément au cours des dernières opérations d'édition. Vous pouvez revenir à des changements vers n'importe quel état en utilisant les icônes de l'interface.</target>
+      </trans-unit>
+      <trans-unit id="history_log.details" xml:space="preserve">
+				<source>By default 20 states of history data is preserved in TYPO3 and after a week it expires. The history is very useful for tracking changes to a record since you can see which user did what at which point in time - and roll back any changes you didn't like.
+If you click the roll-back pencil you will revert the element to the state it had at that particular time.
+If you click the Info icon you will see in detail what the difference is from current time to this state of the element.
+
+&lt;b&gt;Configuring levels and expire times [for admins]&lt;/b&gt;
+If you want to extend the number of history states to above the default 20 you can easily do so using Page TSconfig - meaning that it can even depend on the branch of the page tree where the record is stored! See link below.
+
+&lt;b&gt;Notice:&lt;/b&gt; If you do not see red/green difference values, the server TYPO3 runs on does not support making difference views or it has been incorrectly configured to provide this feature.</source>
+			<target state="translated">Par défaut, 20 états d'historique sont conservés dans TYPO3 et après une semaine, ils expirent. L'historique est très utile pour suivre les changements d'un enregistrement car vous pouvez voir quel utilisateur a fait ce à quel moment - et revenir à tout changement que vous n'avez pas aimé.
+Si vous cliquez sur le crayon de retour, vous retournerez l'élément à l'état qu'il avait à ce moment précis.
+Si vous cliquez sur l'icône Info, vous verrez en détail quelle différence est la date actuelle à cet état de l'élément.
+
+&lt;b&gt;Régler les niveaux et expirer les temps [pour les admins]&lt;/b&gt;
+Si vous voulez étendre le nombre d'états d'histoire au-dessus de la 20 par défaut, vous pouvez facilement le faire en utilisant Page TSconfig - ce qui signifie qu'il peut même dépendre de la branche de l'arbre de page où l'enregistrement est stocké! Voir le lien ci-dessous.
+
+&lt;b&gt;Avis :&lt;/b&gt; Si vous ne voyez pas les valeurs de différence rouge/verte, le serveur TYPO3 fonctionne sur ne pas supporter de vues de différence ou il a été configuré incorrectement pour fournir cette fonctionnalité.</target></trans-unit>
+      <trans-unit id="_history_log.seeAlso" xml:space="preserve">
+				<source>xMOD_csh_corebe:history_sum,
+Configuring History using Page TSconfig | https://docs.typo3.org/typo3cms/TSconfigReference/PageTsconfig/Mod/
+Undo/History article | http://typo3.org/documentation/tips-tricks/the-undohistory-feature/</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:history_sum,
+Configuring History using Page TSconfig | https://docs.typo3.org/typo3cms/TSconfigReference/PageTsconfig/Mod/
+Undo/History article | http://typo3.org/documentation/astuces/the-undohistory-feature/</target></trans-unit>
+      <trans-unit id="_history_log.image" xml:space="preserve">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_37.png,
+EXT:core/Resources/Public/Images/cshimages/core_38.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_37.png,
+EXT:core/Resources/Public/Images/cshimages/core_38.png</target></trans-unit>
+      <trans-unit id="history_log.image_descr" xml:space="preserve">
+				<source>You can access the History/Undo log from the Web&gt;List module when in "Extended view" mode. Alternatively you can access it under "More options..." in the clickmenu of an element.
+The History log shows visually the changes between each step of editing.</source>
+			<target state="translated">Vous pouvez accéder au journal Historique/Annuler depuis le module Liste Web&gt;lorsque vous utilisez le mode "Vue étendue". Vous pouvez également l'accéder sous "Plus d'options..." dans le clickmenu d'un élément.
+Le journal d'historique affiche visuellement les changements entre chaque étape de modification.</target></trans-unit>
+      <trans-unit id="history_sum.alttitle">
+        <source>History Summary</source>
+        <target state="translated">Résumé de l'historique</target>
+      </trans-unit>
+      <trans-unit id="history_sum.description">
+        <source>This shows the total difference between the selected state in history to the current state of this element.</source>
+        <target state="translated">Ceci montre la différence totale entre l'état sélectionné dans l'historique à l'état actuel de cet élément.</target>
+      </trans-unit>
+      <trans-unit id="history_sum.details" xml:space="preserve">
+				<source>You can browse forth and back in the history using the arrow buttons in the upper left corner. You can also save a state in history by the little "disk-icon".
+Finally you can revert either the whole record to this state in history by the revert icon in the top &lt;em&gt;or&lt;/em&gt; you can revert only a single field if you like to by clicking the revert icon displayed for each field.
+
+&lt;b&gt;Notice:&lt;/b&gt; If you do not see red/green difference values, the server TYPO3 runs on does not support making difference views or it has been incorrectly configured to provide this feature.</source>
+			<target state="translated">Vous pouvez naviguer en arrière et en arrière dans l'histoire en utilisant les boutons fléchés dans le coin supérieur gauche. Vous pouvez également enregistrer un état dans l'histoire par la petite "icône disque".
+Enfin, vous pouvez revenir soit tout l'enregistrement dans cet état dans l'histoire par l'icône de réverbération dans le haut &lt;em&gt;ou&lt;/em&gt; vous pouvez revenir seulement un seul champ si vous voulez en cliquant sur l'icône de réverbération affichée pour chaque champ.
+
+&lt;b&gt;Avis :&lt;/b&gt; Si vous ne voyez pas les valeurs de différence rouge/verte, le serveur TYPO3 fonctionne sur ne pas supporter de vues de différence ou il a été configuré incorrectement pour fournir cette fonctionnalité.</target></trans-unit>
+      <trans-unit id="_history_sum.seeAlso" xml:space="preserve">
+				<source>xMOD_csh_corebe:history_entry,
+Undo/History article | http://typo3.org/documentation/tips-tricks/the-undohistory-feature/</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:history_entry,
+Article Annuler/Historique | http://typo3.org/documentation/astuces/the-undohistory-feature/</target></trans-unit>
+      <trans-unit id="_history_sum.image">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_39.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Ressources/Public/Images/cshimages/core_39.png</target>
+      </trans-unit>
+      <trans-unit id="history_sum.image_descr">
+        <source>The Info view of a state in history shows the "sum" of changes from current time to that point in history for the element.</source>
+        <target state="translated">La vue Info d'un état dans l'histoire montre la "somme" des changements de l'heure actuelle à ce point dans l'histoire pour l'élément.</target>
+      </trans-unit>
+      <trans-unit id="history_entry.alttitle">
+        <source>Log entry history</source>
+        <target state="translated">Historique de l'entrée du journal</target>
+      </trans-unit>
+      <trans-unit id="history_entry.description">
+        <source>This view displays the changes made to the content element for the log entry you clicked. The red and green values in the text shows the previous/new values of the record.</source>
+        <target state="translated">Cette vue affiche les modifications apportées à l'élément de contenu pour l'entrée de log que vous avez cliqué. Les valeurs rouges et vertes du texte montrent les valeurs précédentes/nouvelles de l'enregistrement.</target>
+      </trans-unit>
+      <trans-unit id="history_entry.details">
+        <source>&lt;b&gt;Notice:&lt;/b&gt; If you do not see red/green difference values, the server TYPO3 runs on does not support making difference views or it has been incorrectly configured to provide this feature.</source>
+        <target state="translated">&lt;b&gt;Avis :&lt;/b&gt; Si vous ne voyez pas les valeurs de différence rouge/verte, le serveur TYPO3 fonctionne sur ne supporte pas la visualisation de la différence ou il a été configuré de manière incorrecte pour fournir cette fonctionnalité.</target>
+      </trans-unit>
+      <trans-unit id="_history_entry.image">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_40.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Ressources/Public/Images/cshimages/core_40.png</target>
+      </trans-unit>
+      <trans-unit id="TCEforms.alttitle">
+        <source>TYPO3 Editing Forms</source>
+        <target state="translated">TYPO3 Editer les formulaires</target>
+      </trans-unit>
+      <trans-unit id="TCEforms.description">
+        <source>All records in TYPO3 is edited through a standardized form interface like the one you see here. No matter if you edit pages, content elements, guestbook items or user records you will use the same familiar interface.</source>
+        <target state="translated">Tous les enregistrements de TYPO3 sont édités par une interface de formulaire standardisée comme celle que vous voyez ici. Peu importe si vous modifiez des pages, des éléments de contenu, des éléments de livre d'or ou des enregistrements d'utilisateurs, vous utiliserez la même interface familière.</target>
+      </trans-unit>
+      <trans-unit id="TCEforms.details" xml:space="preserve">
+				<source>&lt;b&gt;Saving content&lt;/b&gt;
+Just press one of the save-buttons in the top of bottom of the form. There are some variants allowing you to "Save and close document" or "Save document and View page". The latter will save the document and open a new window where the affected page is shown (be sure to disable pop-up blockers for this function!)
+
+&lt;b&gt;Editing multiple records at a time&lt;/b&gt;
+From the Web&gt;List module you can activate editing of multiple records at a time. This is done when you list a single table and enable multiple columns for display (see Web&gt;List module for details) - then icons will link you to a form with multiple records displayed, possibly with only certain fields available for editing.
+
+&lt;b&gt;Frontend Editing&lt;/b&gt;
+Another way of editing records in TYPO3 is using the website frontend. Depending on your user credentials you will see small pencil icons in the frontend. When you click these you will be guided to a form where you can also change the content.
+
+&lt;b&gt;Customize the forms [for Admins]&lt;/b&gt;
+You can customize the TCEforms in many ways using User TSconfig and Page TSconfig. See links below.</source>
+			<target state="translated">&lt;b&gt;Sauvegarde du contenu&lt;/b&gt;
+Appuyez simplement sur l'un des boutons d'enregistrement en haut du bas du formulaire. Il existe certaines variantes qui vous permettent de "enregistrer et fermer le document" ou "Enregistrer le document et la page d'affichage". Ce dernier sauvera le document et ouvrira une nouvelle fenêtre où la page affectée est affichée (assurez-vous de désactiver les bloqueurs pop-up pour cette fonction !).
+
+&lt;b&gt;Modification de plusieurs enregistrements à la fois&lt;/b&gt;
+À partir du module Web&gt;Liste vous pouvez activer l'édition de plusieurs enregistrements à la fois. Ceci est fait lorsque vous listez une seule table et activez plusieurs colonnes pour afficher (voir le module de liste Web&gt;pour plus de détails) - alors les icônes vous lieront à un formulaire avec plusieurs enregistrements affichés, probablement avec seulement certains champs disponibles pour l'édition.
+
+&lt;b&gt;Frontend Editing&lt;/b&gt;
+Un autre moyen d'éditer des enregistrements dans TYPO3 utilise le frontend du site. Selon vos identifiants utilisateur, vous verrez de petites icônes de crayon dans le frontend. Lorsque vous cliquez sur ces éléments, vous serez guidé par un formulaire où vous pouvez également modifier le contenu.
+
+&lt;b&gt;Personnalisez les formulaires [pour les Admins]&lt;/b&gt;
+Vous pouvez personnaliser les formulaires TCEforms de plusieurs façons en utilisant User TSconfig et Page TSconfig. Voir les liens ci-dessous.</target></trans-unit>
+      <trans-unit id="_TCEforms.seeAlso" xml:space="preserve">
+				<source>Editing pages | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/EditPageContent/
+Frontend Editing | http://typo3.org/documentation/document-library/doc_tut_quickstart/Frontend_editing/,
+xMOD_csh_corebe:list_module
+User TSconfig related to forms | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/Options/
+Page TSconfig related to forms | https://docs.typo3.org/typo3cms/CoreApiReference/Rte/Transformations/Tsconfig/
+Linking to the edit forms [Technical] | https://docs.typo3.org/typo3cms/CoreApiReference/ApiOverview/Examples/EditLinks/</source>
+			<target state="needs-translation">Editing pages | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/EditPageContent/
+Frontend Editing | http://typo3.org/documentation/document-library/doc_tut_quickstart/Frontend_editing/,
+xMOD_csh_corebe:list_module
+User TSconfig related to forms | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/Options/
+Page TSconfig related to forms | https://docs.typo3.org/typo3cms/CoreApiReference/Rte/Transformations/Tsconfig/
+Linking to the edit forms [Technical] | https://docs.typo3.org/typo3cms/CoreApiReference/ApiOverview/Examples/EditLinks/</target></trans-unit>
+      <trans-unit id="_TCEforms.image" xml:space="preserve">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_30.png,
+EXT:core/Resources/Public/Images/cshimages/core_29.png,
+EXT:core/Resources/Public/Images/cshimages/core_32.png,
+EXT:core/Resources/Public/Images/cshimages/core_33.png,
+EXT:core/Resources/Public/Images/cshimages/core_31.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_30.png,
+EXT:core/Resources/Public/Images/cshimages/core_29.png,
+EXT:core/Resources/Public/Images/cshimages/core_32.png,
+EXT:core/Resources/Public/Images/cshimages/core_33.png,
+EXT:core/Resources/Public/Images/cshimages/core_31.png,</target></trans-unit>
+      <trans-unit id="TCEforms.image_descr" xml:space="preserve">
+				<source>This is how a typical record is edited in TYPO3. The form display is standardized for all types of records. You will always see the same buttons in the top for saving or closing. In the blue bar you will see the type of record (table name) and the ID number that each record has (uid). Here the record is a page with ID "2" and the title "Content Elements".
+The "additional fields" from the example above is located in a so called "palette". This is an example of three content elements being edited at the same time. You can edit multiple records by using the links from the Web&gt;List module in single-table mode. Notice that not only are three records shown at the same time - it is also a limited number of fields shown for editing, here "Header" and "Hide". You can combine this almost any way you like. This is of course very useful if you need to edit only the header of multiple records.</source>
+			<target state="translated">C'est ainsi qu'un enregistrement typique est édité dans TYPO3. L'affichage du formulaire est standardisé pour tous les types d'enregistrements. Vous verrez toujours les mêmes boutons en haut pour enregistrer ou fermer. Dans la barre bleue, vous verrez le type d'enregistrement (nom de table) et le numéro d'identification que chaque enregistrement a (uid). Ici, l'enregistrement est une page avec ID "2" et le titre "Éléments de contenu".
+Les "champs supplémentaires" de l'exemple ci-dessus se trouvent dans une "palette". Il s'agit d'un exemple de trois éléments de contenu en même temps. Vous pouvez modifier plusieurs enregistrements en utilisant les liens du module de liste Web&gt;en mode monotable. Notez que non seulement trois enregistrements sont affichés en même temps - il s'agit également d'un nombre limité de champs affichés pour l'édition, ici "En-tête" et "Cacher". Vous pouvez combiner cela presque tout comme vous le souhaitez. Ceci est bien sûr très utile si vous devez modifier seulement l'en-tête de plusieurs enregistrements.</target></trans-unit>
+      <trans-unit id="TCEforms_cacheSelector.alttitle">
+        <source>Forms Menu</source>
+        <target state="translated">Menu des formulaires</target>
+      </trans-unit>
+      <trans-unit id="TCEforms_cacheSelector.description">
+        <source>This is alternative ways to select "Save"/"Close" operations for records. You can also select "clear-cache" operations if you are allowed access to them.</source>
+        <target state="translated">Il s'agit de méthodes alternatives pour sélectionner les opérations "Enregistrer"/"Fermer" pour les enregistrements. Vous pouvez également sélectionner les opérations "Vider le cache" si vous êtes autorisé à y accéder.</target>
+      </trans-unit>
+      <trans-unit id="TCEforms_cacheSelector.details" xml:space="preserve">
+				<source>Clearing the cache for pages and clearing all cache can be done from this menu as well. If you wonder why content on the frontend webpage seems to be different from what is in the database you might need to clear the page cache by using one of these options.
+If cache options are not available for you, you should ask your administrator to enable it for you. (Admins: See link below to TSconfig.)</source>
+			<target state="translated">Nettoyer le cache des pages et effacer tout le cache peut également être fait depuis ce menu. Si vous vous demandez pourquoi le contenu de la page web du front-end semble être différent de ce qui se trouve dans la base de données, vous pourriez avoir besoin de supprimer le cache de la page en utilisant l'une de ces options.
+Si les options de cache ne sont pas disponibles pour vous, vous devriez demander à votre administrateur de l'activer pour vous. (Admins : Voir le lien ci-dessous à TSconfig.)</target></trans-unit>
+      <trans-unit id="_TCEforms_cacheSelector.seeAlso">
+        <source>User TSconfig (See "clearCache.pages/.all") | https://docs.typo3.org/typo3cms/TSconfigReference/PageTsconfig/Options/</source>
+        <target state="translated">Utilisateur TSconfig (Voir "clearCache.pages/.all") | https://docs.typo3.org/typo3cms/TSconfigReference/PageTsconfig/Options/</target>
+      </trans-unit>
+      <trans-unit id="_TCEforms_cacheSelector.image">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_36.png,</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/core_36.png,</target>
+      </trans-unit>
+      <trans-unit id="perm_module.alttitle">
+        <source>Viewing page permissions</source>
+        <target state="translated">Voir les permissions de page</target>
+      </trans-unit>
+      <trans-unit id="perm_module.description">
+        <source>This view will tell you about the page permissions in the page tree.</source>
+        <target state="translated">Cette vue vous informera des permissions de la page dans l'arborescence de la page.</target>
+      </trans-unit>
+      <trans-unit id="perm_module.details" xml:space="preserve">
+				<source>There are two modes you can select:
+
+&lt;b&gt;User overview:&lt;/b&gt;
+This will show you the permissions for &lt;em&gt;your&lt;/em&gt; login. So the green/red indicators will reflect the combined user/group/everyone permissions that apply to your login!
+If there is a grey background behind the indicators it tells you that you are the owner of the page.
+
+&lt;b&gt;Permissions&lt;/b&gt;
+Shows the permissions settings for owner / group / everybody. You will be able to edit these settings by clicking the edit icon next to the page title. Only an owner of a page (or the "Admin"-user) can change permissions for the page.</source>
+			<target state="translated">Il y a deux modes que vous pouvez sélectionner :
+
+&lt;b&gt;Aperçu de l'utilisateur :&lt;/b&gt;
+Ceci vous montrera les permissions pour &lt;em&gt;&lt;/em&gt; connexion. Les indicateurs verts/rouges refléteront donc les permissions combinées utilisateur/groupe/tout le monde qui s'appliquent à votre connexion !
+S'il y a un fond gris derrière les indicateurs, il vous dit que vous êtes le propriétaire de la page.
+
+&lt;b&gt;Permissions&lt;/b&gt;
+Affiche les paramètres de permissions pour le propriétaire / groupe / tout le monde. Vous pourrez modifier ces paramètres en cliquant sur l'icône d'édition à côté du titre de la page. Seul un propriétaire d'une page (ou l'utilisateur "Admin" peut changer les permissions pour la page.</target></trans-unit>
+      <trans-unit id="_perm_module.seeAlso" xml:space="preserve">
+				<source>xMOD_csh_corebe:perm_module_setting,
+User Management How-to | https://docs.typo3.org/typo3cms/GettingStartedTutorial/UserManagement/SettingUpUserPermissions/
+Permission system in TYPO3 [Technical] | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/AccessControl/AccessControlOptions/,
+_MOD_user_setup:option_helpText</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="needs-translation">xMOD_csh_corebe:perm_module_setting,
+User Management How-to | https://docs.typo3.org/typo3cms/GettingStartedTutorial/UserManagement/SettingUpUserPermissions/
+Permission system in TYPO3 [Technical] | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/AccessControl/AccessControlOptions/,
+_MOD_user_setup:option_helpText</target></trans-unit>
+      <trans-unit id="_perm_module.image" xml:space="preserve">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_43.png,
+EXT:core/Resources/Public/Images/cshimages/core_41.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_43.png,
+EXT:core/Resources/Public/Images/cshimages/core_41.png,</target></trans-unit>
+      <trans-unit id="perm_module_setting.alttitle">
+        <source>Setting permissions for a page</source>
+        <target state="translated">Réglage des permissions pour une page</target>
+      </trans-unit>
+      <trans-unit id="perm_module_setting.description">
+        <source>Select the owner user and group plus the permissions for each in the matrix. Only an owner of a page (or the "Admin"-user) can change permissions for the page.</source>
+        <target state="translated">Sélectionnez l'utilisateur propriétaire et le groupe ainsi que les permissions pour chacune de la matrice. Seul un propriétaire d'une page (ou l'administrateur) peut changer les permissions pour la page.</target>
+      </trans-unit>
+      <trans-unit id="perm_module_setting.details" xml:space="preserve">
+				<source>Setting permissions is done in five categories for owner / group / everybody so it works much like permissions for files and folders in many operating systems.
+
+&lt;b&gt;Show page&lt;/b&gt;
+If set, a user can see the page and its content in the backend. The user can also copy the content but not move, delete or edit.
+
+&lt;b&gt;Edit content&lt;/b&gt;
+Allows users to add, delete, change and move records (other than page records) on this page. This permission must be given if users should be allowed to create Content Elements etc. on the page.
+
+&lt;b&gt;Edit page&lt;/b&gt;
+Allows a user to edit the page record itself. This could be changing the page title or moving the page to another location.
+
+&lt;b&gt;Delete page&lt;/b&gt;
+If set, a user is allowed to delete the page and the content on the page.
+
+&lt;b&gt;New pages&lt;/b&gt;
+Allows users to create sub-pages to this page.</source>
+			<target state="translated">Le paramétrage des permissions est effectué dans cinq catégories pour le propriétaire / groupe / tout le monde, de sorte qu'il fonctionne comme des permissions pour les fichiers et les dossiers dans de nombreux systèmes d'exploitation.
+
+&lt;b&gt;Afficher la page&lt;/b&gt;
+Si définie, un utilisateur peut voir la page et son contenu dans le backend. L'utilisateur peut également copier le contenu mais pas déplacer, supprimer ou modifier.
+
+&lt;b&gt;Modification du contenu&lt;/b&gt;
+Permet aux utilisateurs d'ajouter, supprimer, modifier et déplacer des enregistrements (autres que les enregistrements de page) sur cette page. Cette permission doit être donnée si les utilisateurs doivent être autorisés à créer des éléments de contenu, etc. sur la page.
+
+&lt;b&gt;Modifier la page&lt;/b&gt;
+Permet à un utilisateur de modifier l'enregistrement de page lui-même. Cela pourrait changer le titre de la page ou déplacer la page vers un autre endroit.
+
+&lt;b&gt;Supprimer la page&lt;/b&gt;
+Si définie, un utilisateur est autorisé à supprimer la page et le contenu de la page.
+
+&lt;b&gt;Nouvelles pages&lt;/b&gt;
+Permet aux utilisateurs de créer des sous-pages à cette page.</target></trans-unit>
+      <trans-unit id="_perm_module_setting.seeAlso" xml:space="preserve">
+				<source>xMOD_csh_corebe:perm_module,
+User Management Howto | https://docs.typo3.org/typo3cms/GettingStartedTutorial/UserManagement/SettingUpUserPermissions/</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:perm_module,
+User Management Howto | https://docs.typo3.org/typo3cms/GettingStartedTutorial/UserManagement/SettingUpUserPermissions/</target></trans-unit>
+      <trans-unit id="_perm_module_setting.image">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_42.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Ressources/Public/Images/cshimages/core_42.png</target>
+      </trans-unit>
+      <trans-unit id="perm_module_setting.image_descr">
+        <source>In this matrix you can set permissions for owner, group and everybody in the five categories available.</source>
+        <target state="translated">Dans cette matrice, vous pouvez définir les permissions pour le propriétaire, le groupe et tout le monde dans les cinq catégories disponibles.</target>
+      </trans-unit>
+      <trans-unit id="filelist_module.alttitle">
+        <source>File &gt; Filelist module</source>
+        <target state="translated">Module de fichier &gt; Liste de fichiers</target>
+      </trans-unit>
+      <trans-unit id="filelist_module.description">
+        <source>Shows the files and folders from the folder title you have clicked in the folder tree. Click the icons of the files and folders to perform various actions on the elements.</source>
+        <target state="translated">Affiche les fichiers et dossiers du titre du dossier que vous avez cliqué dans l'arborescence du dossier. Cliquez sur les icônes des fichiers et dossiers pour effectuer diverses actions sur les éléments.</target>
+      </trans-unit>
+      <trans-unit id="filelist_module.details" xml:space="preserve">
+				<source>The File &gt; Filelist module provides the main interface to the web-based "FTP-features" in TYPO3. Clicking a folder in the navigation frame will display the files in that folder in the list frame to the right.
+
+If you click the icon of a file you will see a menu pop up with menu items related to the file or folder. This enables you to edit, rename and copy files to name a few.
+
+&lt;b&gt;The "TEMP" folder&lt;/b&gt;
+There is a special folder, the "TEMP" folder. This is meant to be used for temporary uploads of files that are going to be attached to TYPO3 records later. Content in the TEMP folder should be possible to flush once in a while when the folder becomes too crowded with files. So don't store persistent data in there!
+The actual folder name is actually "_temp_". The interface will just interprete this with "TEMP" in bold.
+The same applies to folders named "_recycler_" - they will be trash cans in the folder tree.</source>
+			<target state="translated">Le module File &gt; Filelist fournit l'interface principale à l'interface web "FTP-features" dans TYPO3. Cliquer sur un dossier dans le cadre de navigation affichera les fichiers dans ce dossier dans le cadre de la liste à droite.
+
+Si vous cliquez sur l'icône d'un fichier, vous verrez un menu apparaître avec des éléments de menu liés au fichier ou au dossier. Cela vous permet de modifier, renommer et copier des fichiers pour en nommer quelques-uns.
+
+&lt;b&gt;Le dossier "TEMP"&lt;/b&gt;
+Il y a un dossier spécial, le dossier "TEMP". Ceci est destiné à être utilisé pour les envois temporaires de fichiers qui seront joints aux enregistrements TYPO3 plus tard. Le contenu du dossier TEMP devrait être possible pour se vider une fois dans un certain temps lorsque le dossier devient trop encombré par des fichiers. Ne stockez donc pas de données persistantes là-bas !
+Le nom du dossier est en fait "_temp_". L'interface interprétera simplement ceci avec "TEMP" en gras.
+La même chose s'applique aux dossiers nommés "_recycler_" - ils seront des boîtes de corbeille dans l'arbre de dossier.</target></trans-unit>
+      <trans-unit id="_filelist_module.seeAlso" xml:space="preserve">
+				<source>xMOD_csh_corebe:list_module,
+xMOD_csh_corebe:filetree,
+be_groups:file_mountpoints,
+sys_filemounts</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:list_module,
+xMOD_csh_corebe:filetree,
+be_groups:file_mountpoints,
+sys_filemounts</target></trans-unit>
+      <trans-unit id="_filelist_module.image" xml:space="preserve">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_47.png,
+EXT:core/Resources/Public/Images/cshimages/core_49.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_47.png,
+EXT:core/Resources/Public/Images/cshimages/core_49.png</target></trans-unit>
+      <trans-unit id="filelist_module.image_descr" xml:space="preserve">
+				<source>Here the content of the TEMP folder is shown in the list frame. You can see the filetype, the modification time, size of the file. If you click the filename you will open the file in the browser (if the path is in the web-root).
+When you click a file icon you see a context menu appear over it. Here you can perform file operations on the item.</source>
+			<target state="translated">Ici, le contenu du dossier TEMP est affiché dans le cadre de la liste. Vous pouvez voir le type de fichier, l'heure de modification, la taille du fichier. Si vous cliquez sur le nom de fichier, vous allez ouvrir le fichier dans le navigateur (si le chemin est dans la racine web).
+Lorsque vous cliquez sur une icône de fichier, vous voyez un menu contextuel apparaître dessus. Ici vous pouvez effectuer des opérations de fichier sur l'élément.</target></trans-unit>
+      <trans-unit id="filelist_clipboard.alttitle">
+        <source>Filelist Clipboard</source>
+        <target state="translated">Presse-papiers de la liste de fichiers</target>
+      </trans-unit>
+      <trans-unit id="filelist_clipboard.description">
+        <source>The TYPO3 clipboard works for files as well as for database records (see the Web&gt;List module). You only need to enable the clipboard if you want to use the numeric clipboard pads.</source>
+        <target state="translated">Le presse-papiers TYPO3 fonctionne pour les fichiers ainsi que pour les enregistrements de base de données (voir le module de liste Web&gt;). Vous n'avez besoin d'activer le presse-papiers que si vous voulez utiliser les tampons numériques du presse-papiers.</target>
+      </trans-unit>
+      <trans-unit id="_filelist_clipboard.seeAlso" xml:space="preserve">
+				<source>xMOD_csh_corebe:list_clipboard,
+About the Clipboard [Technical] | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/GeneralInterfaceFeatures/Clipboard/</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:list_clipboard,
+À propos du presse-papiers [Technical] | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/GeneralInterfaceFeatures/Clipboard/</target></trans-unit>
+      <trans-unit id="_filelist_clipboard.image" xml:space="preserve">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_44.png,
+EXT:core/Resources/Public/Images/cshimages/core_46.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_44.png,
+EXT:core/Resources/Public/Images/cshimages/core_46.png</target></trans-unit>
+      <trans-unit id="filelist_clipboard.image_descr" xml:space="preserve">
+				<source>This shows the "Normal" pad on the clipboard. Here an image is now stored. The "Thumbnails" button of the clipboard is enabled so you will see the image icon.
+When the numeric clipboard pads are enabled you will be able to place multiple items on the clipboard at one time. If the items selected are found in the current folder you can also see the selection reflected in the checkboxes of the items. To paste the contents into a file folder you use the paste icons available in the Filelist module.</source>
+			<target state="translated">Ceci montre le pavé "Normal" du presse-papiers. Ici une image est maintenant stockée. Le bouton "miniatures" du presse-papiers est activé pour que vous puissiez voir l'icône de l'image.
+Lorsque les tampons numériques sont activés, vous pourrez placer plusieurs éléments sur le presse-papiers à la fois. Si les éléments sélectionnés sont trouvés dans le dossier actuel, vous pouvez également voir la sélection reflétée dans les cases à cocher des éléments. Pour coller le contenu dans un dossier de fichier, vous utilisez les icônes de pasteur disponibles dans le module de la liste de fichiers.</target></trans-unit>
+      <trans-unit id="filelist_options.alttitle">
+        <source>File &gt; Filelist options</source>
+        <target state="translated">Options du fichier &gt;</target>
+      </trans-unit>
+      <trans-unit id="filelist_options.description">
+        <source>You can enable the display of image thumbnails and show the clipboard if you need to copy/cut/paste multiple files or folders at a time.</source>
+        <target state="translated">Vous pouvez activer l'affichage des miniatures d'image et afficher le presse-papiers si vous devez copier/couper/coller plusieurs fichiers ou dossiers à la fois.</target>
+      </trans-unit>
+      <trans-unit id="_filelist_options.seeAlso" xml:space="preserve">
+				<source>xMOD_csh_corebe:list_options,
+_MOD_user_setup:option_showThumbs,
+xMOD_csh_corebe:filelist_clipboard</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:list_options,
+_MOD_user_setup:option_showThumbs,
+xMOD_csh_corebe:filelist_clipboard</target></trans-unit>
+      <trans-unit id="_filelist_options.image">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_48.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Ressources/Public/Images/cshimages/core_48.png</target>
+      </trans-unit>
+      <trans-unit id="filelist_options.image_descr">
+        <source>Enabling thumbnails means that all image file types will be displayed with their thumbnails. This makes it easy to browse an archive of files.</source>
+        <target state="translated">Activer les miniatures signifie que tous les types de fichiers d'image seront affichés avec leurs miniatures. Cela permet de naviguer facilement dans une archive de fichiers.</target>
+      </trans-unit>
+      <trans-unit id="file_edit.alttitle">
+        <source>Editing a file</source>
+        <target state="translated">Modification d'un fichier</target>
+      </trans-unit>
+      <trans-unit id="file_edit.description">
+        <source>You can edit the contents of a text file with this dialog.</source>
+        <target state="translated">Vous pouvez modifier le contenu d'un fichier texte avec cette boîte de dialogue.</target>
+      </trans-unit>
+      <trans-unit id="_file_edit.seeAlso">
+        <source>xMOD_csh_corebe:filelist_module</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">xMOD_csh_corebe:filelist_module</target>
+      </trans-unit>
+      <trans-unit id="_file_edit.image">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_50.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Ressources/Public/Images/cshimages/core_50.png</target>
+      </trans-unit>
+      <trans-unit id="file_edit.image_descr">
+        <source>The editing form for a file is this simple textarea field. It's nothing fancy and experienced coders will miss such as TAB-functionality, but it can edit a stylesheet if badly needed...</source>
+        <target state="translated">Le formulaire d'édition d'un fichier est ce champ de texte simple. Il n'y a rien de fantaisie et les codeurs expérimentés manqueront comme TAB-fonctionnalité, mais il peut éditer une feuille de style si nécessaire...</target>
+      </trans-unit>
+      <trans-unit id="file_new.alttitle">
+        <source>Creating a new file or folder</source>
+        <target state="translated">Création d'un nouveau fichier ou dossier</target>
+      </trans-unit>
+      <trans-unit id="file_new.description">
+        <source>Create new files and folder inside the folder you have selected.</source>
+        <target state="translated">Créez de nouveaux fichiers et de nouveaux dossiers dans le dossier que vous avez sélectionné.</target>
+      </trans-unit>
+      <trans-unit id="file_newfolder.alttitle">
+        <source>Creating a new folder</source>
+        <target state="translated">Création d'un nouveau dossier</target>
+      </trans-unit>
+      <trans-unit id="file_newfolder.description">
+        <source>Enter a name for a new file folder in the tree here. If you want to create multiple folders, please select the number of new folders before entering folder names.</source>
+        <target state="translated">Entrez un nom pour un nouveau dossier de fichier dans l'arborescence. Si vous voulez créer plusieurs dossiers, veuillez sélectionner le nombre de nouveaux dossiers avant de saisir les noms de dossiers.</target>
+      </trans-unit>
+      <trans-unit id="_file_newfolder.seeAlso" xml:space="preserve">
+				<source>xMOD_csh_corebe:filelist_module,
+xMOD_csh_corebe:file_newfile,
+xMOD_csh_corebe:file_rename</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:filelist_module,
+xMOD_csh_corebe:file_newfile,
+xMOD_csh_corebe:file_rename</target></trans-unit>
+      <trans-unit id="_file_newfolder.image" xml:space="preserve">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_51.png,
+EXT:core/Resources/Public/Images/cshimages/core_52.png,
+EXT:core/Resources/Public/Images/cshimages/core_53.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_51.png,
+EXT:core/Resources/Public/Images/cshimages/core_52.png,
+EXT:core/Resources/Public/Images/cshimages/core_53.png,</target></trans-unit>
+      <trans-unit id="file_newfolder.image_descr" xml:space="preserve">
+				<source>To create a new folder you first click the parent folder icon in the folder tree.
+As the next step you select the number of folders to create and then you enter the new folder names.
+After pressing the "Create folders" button the folders will appear in the folder tree when you reload it.</source>
+			<target state="translated">Pour créer un nouveau dossier, vous cliquez d'abord sur l'icône du dossier parent dans l'arborescence du dossier.
+Comme étape suivante, vous sélectionnez le nombre de dossiers à créer et ensuite vous entrez les nouveaux noms de dossier.
+Après avoir appuyé sur le bouton "Créer des dossiers" les dossiers apparaîtront dans l'arborescence du dossier lorsque vous le rechargerez.</target></trans-unit>
+      <trans-unit id="file_newfile.alttitle">
+        <source>Creating a new file</source>
+        <target state="translated">Création d'un nouveau fichier</target>
+      </trans-unit>
+      <trans-unit id="file_newfile.description">
+        <source>Enter a filename here if you want to create a new text-based file. Notice that it must have one of the endings in the list of text-endings shown below (except "php" endings).</source>
+        <target state="translated">Entrez un nom de fichier ici si vous voulez créer un nouveau fichier basé sur le texte. Notez qu'il doit avoir une des fins dans la liste des entrées de texte affichées ci-dessous (sauf les endings "php").</target>
+      </trans-unit>
+      <trans-unit id="file_newfile.details">
+        <source>Newly created files will have the size of 0 (zero). After creating a new file it would be natural that you wanted to edit the file to put content into it. This is done simply by clicking the icon of the file and select "Edit" from the clickmenu.</source>
+        <target state="translated">Les fichiers nouvellement créés auront la taille de 0 (zéro). Après avoir créé un nouveau fichier, il serait naturel que vous vouliez modifier le fichier pour y mettre du contenu. Cela se fait simplement en cliquant sur l'icône du fichier et sélectionnez "Modifier" à partir du clickmenu.</target>
+      </trans-unit>
+      <trans-unit id="_file_newfile.seeAlso" xml:space="preserve">
+				<source>xMOD_csh_corebe:file_edit,
+xMOD_csh_corebe:filelist_module,
+xMOD_csh_corebe:file_newfolder,
+xMOD_csh_corebe:file_rename</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:file_edit,
+xMOD_csh_corebe:filelist_module,
+xMOD_csh_corebe:file_newfolder,
+xMOD_csh_corebe:file_rename</target></trans-unit>
+      <trans-unit id="_file_newfile.image" xml:space="preserve">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_51.png,
+EXT:core/Resources/Public/Images/cshimages/core_54.png,
+EXT:core/Resources/Public/Images/cshimages/core_55.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_51.png,
+EXT:core/Resources/Public/Images/cshimages/core_54.png,
+EXT:core/Resources/Public/Images/cshimages/core_55.png,</target></trans-unit>
+      <trans-unit id="file_newfile.image_descr" xml:space="preserve">
+				<source>To create a new file, first click the folder icon where you want to create the file. Select "New".
+Then enter the filename in the dialog in the right frame.
+After pressing "Create file" you will see a new, empty file in the folder you selected.</source>
+			<target state="translated">Pour créer un nouveau fichier, cliquez d'abord sur l'icône du dossier où vous voulez créer le fichier. Sélectionnez "Nouveau".
+Ensuite entrez le nom de fichier dans la boîte de dialogue dans le cadre de droite.
+Après avoir appuyé sur "Créer un fichier" vous verrez un nouveau fichier vide dans le dossier que vous avez sélectionné.</target></trans-unit>
+      <trans-unit id="file_newMedia.alttitle">
+        <source>Adding a new media asset</source>
+        <target state="translated">Ajout d'un nouvel atout média</target>
+      </trans-unit>
+      <trans-unit id="file_newMedia.description">
+        <source>Enter an URL to a media asset here. Notice that it must be from one of the allowed providers listed below.</source>
+        <target state="translated">Entrez une URL à un actif média ici. Notez qu'elle doit être de l'un des fournisseurs autorisés listés ci-dessous.</target>
+      </trans-unit>
+      <trans-unit id="file_rename.alttitle">
+        <source>Rename a file or folder</source>
+        <target state="translated">Renommer un fichier ou un dossier</target>
+      </trans-unit>
+      <trans-unit id="file_rename.description">
+        <source>You can rename files or folders in TYPO3 quite easily. Just notice that certain characters are not allowed. So use a-z, numbers, underscores and don't make the names too long. If you enter invalid characters it will be automatically corrected.</source>
+        <target state="translated">Vous pouvez renommer facilement les fichiers ou dossiers dans TYPO3. Il suffit de noter que certains caractères ne sont pas autorisés. Utilisez donc a-z, les chiffres, les soulignements et ne pas rendre les noms trop longs. Si vous entrez des caractères invalides, il sera automatiquement corrigé.</target>
+      </trans-unit>
+      <trans-unit id="_file_rename.seeAlso">
+        <source>xMOD_csh_corebe:filelist_module</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">xMOD_csh_corebe:filelist_module</target>
+      </trans-unit>
+      <trans-unit id="_file_rename.image" xml:space="preserve">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_56.png,
+EXT:core/Resources/Public/Images/cshimages/core_57.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_56.png,
+EXT:core/Resources/Public/Images/cshimages/core_57.png,</target></trans-unit>
+      <trans-unit id="file_rename.image_descr" xml:space="preserve">
+				<source>To rename a file (or folder for that sake) just click the icon of it, select "Rename" and enter the new name.
+Notice that restrictions may apply on filenaming, for instance ".php" is usually not a valid extension of a filename for security reasons.</source>
+			<target state="translated">Pour renommer un fichier (ou un dossier pour ce saké) cliquez simplement sur l'icône de celui-ci, sélectionnez "Renommer" et entrez le nouveau nom.
+Notez que les restrictions peuvent s'appliquer sur le nom de fichier, par exemple ".php" n'est généralement pas une extension valide d'un nom de fichier pour des raisons de sécurité.</target></trans-unit>
+      <trans-unit id="file_upload.alttitle">
+        <source>Uploading files.</source>
+        <target state="translated">Envoi de fichiers.</target>
+      </trans-unit>
+      <trans-unit id="file_upload.description">
+        <source>Here you can upload one or more files to the server. Start by selecting the number of files to upload, then you begin to select files from your local computer to upload.</source>
+        <target state="translated">Ici vous pouvez télécharger un ou plusieurs fichiers sur le serveur. Commencez par sélectionner le nombre de fichiers à télécharger, puis vous commencez à sélectionner des fichiers depuis votre ordinateur local à télécharger.</target>
+      </trans-unit>
+      <trans-unit id="file_upload.details" xml:space="preserve">
+				<source>If the filenames you upload exist already they will be renamed with a numeric suffix, eg. "file_01.jpg". However you can avoid this behaviour if you select "Overwrite existing files" before pressing the "Upload" button.
+
+Normally there is a limit to the size of files you can upload. By default PHP will allow you to upload around 2MB. TYPO3 is configured to allow 10MB internally by default. These settings can be changed by your server administrator if you need them changed.
+
+Notice that file uploads may take a significant amount of time, even if you have fast internet access via DSL etc. If you have large amount of files you want to upload - or if the files are very large - you should consider using an FTP client instead. It depends not on TYPO3 but on the webserver whether this is an options for you.</source>
+			<target state="translated">Si les noms de fichiers que vous téléchargez existent déjà, ils seront renommés avec un suffixe numérique, par exemple. "file_01.jpg". Cependant, vous pouvez éviter ce comportement si vous sélectionnez "Écraser les fichiers existants" avant d'appuyer sur le bouton "Télécharger".
+
+Normalement, il y a une limite à la taille des fichiers que vous pouvez télécharger. Par défaut, PHP vous permettra de télécharger environ 2 Mo. TYPO3 est configuré pour permettre à 10Mo en interne par défaut. Ces paramètres peuvent être modifiés par l'administrateur de votre serveur si vous en avez besoin.
+
+Notez que les fichiers téléchargés peuvent prendre un temps important, même si vous avez un accès Internet rapide via DSL, etc. Si vous avez une grande quantité de fichiers que vous souhaitez télécharger - ou si les fichiers sont très volumineux - vous devriez envisager d'utiliser un client FTP à la place. Cela dépend non pas de TYPO3 mais du serveur web si c'est une option pour vous.</target></trans-unit>
+      <trans-unit id="_file_upload.seeAlso" xml:space="preserve">
+				<source>xMOD_csh_corebe:filelist_module,
+How-to upload files | https://docs.typo3.org/typo3cms/GettingStartedTutorial/TheFileModuleOrImageArchives/UploadingImagesToTheArchive/</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:filelist_module,
+Comment télécharger des fichiers | https://docs.typo3.org/typo3cms/GettingStartedTutorial/TheFileModuleOrImageArchives/UploadingImagesToTheArchive/</target></trans-unit>
+      <trans-unit id="_file_upload.image" xml:space="preserve">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_58.png,
+EXT:core/Resources/Public/Images/cshimages/core_59.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_58.png,
+EXT:core/Resources/Public/Images/cshimages/core_59.png,</target></trans-unit>
+      <trans-unit id="file_upload.image_descr" xml:space="preserve">
+				<source>To upload files, first click the folder icon where you want to upload to. From the clickmenu you select "Upload files".
+In the next screen you select the number of files and click the "Browse..." buttons to select files from your computer. Finally you click the "Upload files" button to start the upload process (which might take some minutes with large files!)</source>
+			<target state="translated">Pour télécharger des fichiers, cliquez d'abord sur l'icône du dossier où vous voulez télécharger. Depuis le clickmenu vous sélectionnez "Télécharger des fichiers".
+Dans l'écran suivant, vous sélectionnez le nombre de fichiers et cliquez sur les boutons "Parcourir..." pour sélectionner des fichiers depuis votre ordinateur. Enfin, vous cliquez sur le bouton "Télécharger des fichiers" pour démarrer le processus d'upload (qui peut prendre quelques minutes avec de grands fichiers!)</target></trans-unit>
+      <trans-unit id="wizard_table_wiz.alttitle">
+        <source>Table wizard</source>
+        <target state="translated">Assistant de table</target>
+      </trans-unit>
+      <trans-unit id="wizard_table_wiz.description">
+        <source>The table wizard helps you create tables that are normally stored in the database by XML or a syntax where each line represents a row and each cell is divided by a vertical line sign, "|". This wizard makes it transparent for you.</source>
+        <target state="translated">L'assistant de table vous aide à créer des tables qui sont normalement stockées dans la base de données par XML ou une syntaxe où chaque ligne représente une ligne et chaque cellule est divisée par un signe vertical, "|". Cet assistant le rend transparent pour vous.</target>
+      </trans-unit>
+      <trans-unit id="wizard_table_wiz.details" xml:space="preserve">
+				<source>The wizard is quite simple. By the buttons to the left and in the bottom you can add, delete and move columns and rows in the table.
+You can also disable the setting "Small fields" below the wizard if you want larger textarea fields for the editing.</source>
+			<target state="translated">L'assistant est assez simple. Par les boutons à gauche et en bas, vous pouvez ajouter, supprimer et déplacer des colonnes et des lignes dans la table.
+Vous pouvez également désactiver le paramètre "Small fields" en dessous de l'assistant si vous voulez des champs de texte plus larges pour l'édition.</target></trans-unit>
+      <trans-unit id="_wizard_table_wiz.seeAlso" xml:space="preserve">
+				<source>xMOD_csh_corebe:wizard_forms_wiz,
+Table Wizard details [Technical]| https://docs.typo3.org/typo3cms/TCAReference/AdditionalFeatures/CoreWizardScripts/</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:wizard_forms_wiz,
+Détails de l'assistant de table [Technical]| https://docs.typo3.org/typo3cms/TCAReference/AdditionalFeatures/CoreWizardScripts/</target></trans-unit>
+      <trans-unit id="_wizard_table_wiz.image">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_63.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Ressources/Public/Images/cshimages/core_63.png</target>
+      </trans-unit>
+      <trans-unit id="wizard_table_wiz_buttons.alttitle">
+        <source>Table wizard buttons</source>
+        <target state="translated">Boutons de l'assistant de table</target>
+      </trans-unit>
+      <trans-unit id="wizard_table_wiz_buttons.description">
+        <source>Use the refresh button to update the form without saving it. When you are done you should click one of the real save buttons to save and return to the form from which you entered the wizard. The information from this wizard should then be saved into the field the wizard was associated with.</source>
+        <target state="translated">Utilisez le bouton actualiser pour mettre à jour le formulaire sans l'enregistrer. Lorsque vous êtes terminé, vous devriez cliquer sur l'un des boutons de sauvegarde réels pour enregistrer et retourner au formulaire à partir duquel vous avez entré l'assistant. Les informations de cet assistant devraient alors être enregistrées dans le champ auquel l'assistant a été associé.</target>
+      </trans-unit>
+      <trans-unit id="_wizard_table_wiz_buttons.image">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_62.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Ressources/Public/Images/cshimages/core_62.png</target>
+      </trans-unit>
+      <trans-unit id="shortcuts.alttitle">
+        <source>Backend Shortcuts</source>
+        <target state="translated">Raccourcis de fond</target>
+      </trans-unit>
+      <trans-unit id="shortcuts.description">
+        <source>You can create shortcuts to modules in TYPO3 quite easily. The treat is that you can jump between screens in TYPO3 in &lt;em&gt;one&lt;/em&gt; click rather than multiple clicks through backend modules etc. The frame also contains a field for entering a page or record id to edit or just search records.</source>
+        <target state="translated">Vous pouvez créer des raccourcis vers les modules dans TYPO3 assez facilement. Le traitement est que vous pouvez sauter entre les écrans dans TYPO3 dans &lt;em&gt;&lt;/em&gt; cliquer plutôt que plusieurs clics à travers les modules de backend etc. Le cadre contient également un champ pour entrer une page ou un identifiant d'enregistrement pour éditer ou simplement rechercher des enregistrements.</target>
+      </trans-unit>
+      <trans-unit id="shortcuts.details" xml:space="preserve">
+				<source>In order to create a shortcut it must be supported by the module you want to create the shortcut to. Whether shortcuts are supported can be seen in the bottom of a module. If there is a small "shortcut" icon you can click it to create the shortcut.
+
+In the shortcut frame you can also enter a page id to edit in the "Edit Page ID" box. This will load the current page module with the id provided in the box.
+
+Only "Admin"-users can access the shortcut frame in TYPO3 by default. Other users must have it enabled by the User TSconfig option, "options.shortcutFrame = 1". See link below for details (Admins).
+
+Editing pages from an id is easy with the shortcut frame. Simply enter an integer number and that page will be loaded for editing. If you enter "[table]:[id]" then it will try to edit a record from the [table] table, for example "tt_content:123" will look for content element 123 (for admins only). Finally, if you enter a string that doesn't match a page or other record the Web&gt;List module will be invoked doing a search in the first database mount you have.</source>
+			<target state="translated">Pour créer un raccourci, il doit être supporté par le module auquel vous souhaitez créer le raccourci. Si les raccourcis sont supportés, vous pouvez voir le bas d'un module. S'il y a une petite icône de raccourci, vous pouvez cliquer dessus pour créer le raccourci.
+
+Dans le cadre de raccourci, vous pouvez également saisir un identifiant de page pour modifier dans la case "Modifier l'ID de la page". Cela chargera le module de page actuel avec l'identifiant fourni dans la boîte.
+
+Seuls les utilisateurs "Admin" peuvent accéder à l'image de raccourci dans TYPO3 par défaut. Les autres utilisateurs doivent l'activer par l'option User TSconfig, "options.shortcutFrame = 1". Voir le lien ci-dessous pour plus de détails (Admins).
+
+L'édition des pages d'un id est facile avec le cadre de raccourci. Entrez simplement un nombre entier et cette page sera chargée pour l'édition. Si vous entrez "[table]:[id]" alors il essaiera de modifier un enregistrement à partir de la table [table] , par exemple "tt_content:123" cherchera l'élément de contenu 123 (pour les admins seulement). Enfin, si vous entrez une chaîne qui ne correspond pas à une page ou à un autre enregistrement, le module de liste Web&gt;sera appelé à effectuer une recherche dans la première monture de base de données que vous avez.</target></trans-unit>
+      <trans-unit id="_shortcuts.seeAlso">
+        <source>User TSconfig -&gt;SETUP | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/Options/</source>
+        <target state="translated">Utilisateur TSconfig -&gt;SETUP | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/Options/</target>
+      </trans-unit>
+      <trans-unit id="_shortcuts.image" xml:space="preserve">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_64.png,
+EXT:core/Resources/Public/Images/cshimages/core_65.png,
+EXT:core/Resources/Public/Images/cshimages/core_67.png,
+EXT:core/Resources/Public/Images/cshimages/core_68.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_64.png,
+EXT:core/Resources/Public/Images/cshimages/core_65.png,
+EXT:core/Resources/Public/Images/cshimages/core_67.png,
+EXT:core/Resources/Public/Images/cshimages/core_68.png,</target></trans-unit>
+      <trans-unit id="shortcuts.image_descr" xml:space="preserve">
+				<source>To create a shortcut to a page, just click the short cut icon usually found in the bottom of pages.
+You will have to confirm the creation of the shortcut. It is nothing dangerous - only annoying to clean up if you happen to create shortcuts against your own will. Just answer "OK" here.
+When you answer "OK" you should immediately see the shortcut frame reload and a new icon (the module icon) appear. If you click this icon you will now jump to the page you created the shortcut from!
+You can name shortcuts, you can even group them and share them. If you want to edit or delete a shortcut you select the "Edit" checkbox and then click the shortcut icon. This will reload the shortcut frame so you get a field for entering a title. You can also delete all shortcuts in a "group" - here, just click the "0" (zero) to the left of the icons and you will remove all shortcuts in the group.</source>
+			<target state="translated">Pour créer un raccourci vers une page, cliquez simplement sur l'icône de raccourci généralement trouvée en bas des pages.
+Vous devrez confirmer la création du raccourci. Ce n'est rien de dangereux - ce n'est que gênant de nettoyer si vous créez des raccourcis contre votre propre volonté. Répondez simplement à "OK" ici.
+Lorsque vous répondez "OK", vous devriez immédiatement voir le rechargement du cadre de raccourci et une nouvelle icône (l'icône du module) apparaît. Si vous cliquez sur cette icône, vous allez maintenant sauter à la page de laquelle vous avez créé le raccourci de !
+Vous pouvez nommer des raccourcis, vous pouvez même les regrouper et les partager. Si vous souhaitez modifier ou supprimer un raccourci, vous sélectionnez la case "Modifier" et cliquez sur l'icône de raccourci. Cela rechargera le cadre de raccourci pour que vous puissiez entrer un titre. Vous pouvez également supprimer tous les raccourcis dans un "groupe" - ici, cliquez simplement sur "0" (zéro) à gauche des icônes et vous supprimerez tous les raccourcis dans le groupe.</target></trans-unit>
+      <trans-unit id="bookmarks.alttitle">
+        <source>Backend Bookmarks</source>
+        <target state="translated">Signets de Backend</target>
+      </trans-unit>
+      <trans-unit id="bookmarks.description">
+        <source>You can create bookmarks to modules in TYPO3 quite easily. The treat is that you can jump between screens in TYPO3 in &lt;em&gt;one&lt;/em&gt; click rather than multiple clicks through backend modules etc. The frame also contains a field for entering a page or record id to edit or just search records.</source>
+        <target state="translated">Vous pouvez créer des signets vers des modules dans TYPO3 assez facilement. Le traitement est que vous pouvez sauter entre les écrans dans TYPO3 dans &lt;em&gt;&lt;/em&gt; cliquer plutôt que plusieurs clics à travers les modules de backend etc. Le cadre contient également un champ pour entrer une page ou un identifiant d'enregistrement pour éditer ou simplement rechercher des enregistrements.</target>
+      </trans-unit>
+      <trans-unit id="bookmarks.details">
+        <source>In order to create a bookmark it must be supported by the module you want to create the bookmark to. Whether bookmarks are supported can be seen in the top of a module. If there is a small star icon you can click it to create the bookmark.</source>
+        <target state="translated">Pour créer un signet, il doit être pris en charge par le module auquel vous souhaitez créer le signet. Si les signets sont pris en charge peuvent être vus en haut d'un module. S'il y a une petite icône étoile, vous pouvez le cliquer pour créer le signet.</target>
+      </trans-unit>
+      <trans-unit id="_bookmarks.seeAlso">
+        <source>User TSconfig -&gt;SETUP | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/Options/</source>
+        <target state="translated">Utilisateur TSconfig -&gt;SETUP | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/Options/</target>
+      </trans-unit>
+      <trans-unit id="_bookmarks.image" xml:space="preserve">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_64.png,
+EXT:core/Resources/Public/Images/cshimages/core_65.png,
+EXT:core/Resources/Public/Images/cshimages/core_67.png,
+EXT:core/Resources/Public/Images/cshimages/core_68.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_64.png,
+EXT:core/Resources/Public/Images/cshimages/core_65.png,
+EXT:core/Resources/Public/Images/cshimages/core_67.png,
+EXT:core/Resources/Public/Images/cshimages/core_68.png,</target></trans-unit>
+      <trans-unit id="bookmarks.image_descr" xml:space="preserve">
+				<source>To create a bookmark to a page, just click the star icon usually found in the top of pages.
+You will have to confirm the creation of the bookmark. It is nothing dangerous - only annoying to clean up if you happen to create bookmarks against your own will. Just answer "OK" here.
+When you answer "OK" you should immediately see the bookmark icon in the toolbar reloading and, after opening the menu, the new entry appear. If you click this entry, you will now jump to the page you created the bookmark from!
+You can name bookmarks, you can even group them and share them. If you want to edit or delete a bookmark you select the "Edit" checkbox and then click the bookmark icon.</source>
+			<target state="translated">Pour créer un signet sur une page, cliquez simplement sur l'icône étoile généralement trouvée en haut des pages.
+Vous devrez confirmer la création du signet. Ce n'est rien de dangereux - ce n'est que gênant de nettoyer si vous créez des signets contre votre propre volonté. Répondez simplement à "OK" ici.
+Lorsque vous répondez "OK", vous devriez immédiatement voir l'icône du signet dans la barre d'outils recharger et, après avoir ouvert le menu, la nouvelle entrée apparaît. Si vous cliquez sur cette entrée, vous allez maintenant sauter à la page de laquelle vous avez créé le signet de !
+Vous pouvez nommer les signets, vous pouvez même les regrouper et les partager. Si vous voulez modifier ou supprimer un signet, vous sélectionnez la case "Modifier" et cliquez sur l'icône du signet.</target></trans-unit>
+      <trans-unit id="workspaceSelector.alttitle">
+        <source>Workspace Selector</source>
+        <target state="translated">Sélecteur de l'espace de travail</target>
+      </trans-unit>
+      <trans-unit id="workspaceSelector.description">
+        <source>By this selectorbox you can switch between the workspaces available to you. When you switch workspace the whole backend will reload.</source>
+        <target state="translated">Par cette zone de sélection, vous pouvez changer d'espace de travail disponible. Lorsque vous basculez sur l'espace de travail, le fond d'écran sera rechargé.</target>
+      </trans-unit>
+      <trans-unit id="workspaceSelector.details" xml:space="preserve">
+				<source>There are two basic workspace types in TYPO3: The "Live" workspace and a number of "Draft" workspaces.
+When working in the Live workspace all changes you make will take immediate effect. This is the default and traditional state of operation in TYPO3.
+When working in a customly created workspaces changes are not applied to the live website but rather made through new versions of any element editable. Since versioning doesn't apply to all elements in TYPO3 there are limitations to what can be done in draft workspaces; Only elements with versioning support can be edited and everything else is read-only. Draft workspaces allow preview in the frontend. When changes are final in a draft workspace they can be published into the live workspace.</source>
+			<target state="translated">Il y a deux types de contexte de base dans le TYPO3 : l'espace de travail "Live" et un certain nombre de espaces de travail "Draft".
+Lorsque vous travaillez dans l'espace de travail en direct, toutes les modifications que vous apportez prendront effet immédiatement. C'est l'état d'opération par défaut et traditionnel dans TYPO3.
+Lorsque vous travaillez dans un espace de travail créé de façon personnalisée, les changements ne sont pas appliqués au site web en direct mais plutôt réalisés à travers de nouvelles versions de n'importe quel élément modifiable. Comme le versioning ne s'applique pas à tous les éléments de TYPO3, il y a des limitations à ce qui peut être fait dans les brouillons de travail; Seuls les éléments avec support de versioning peuvent être édités et tout le reste est en lecture seule. Les espaces de travail brouillon permettent l'aperçu dans le frontend. Lorsque les changements sont finaux dans un espace de travail brouillon, ils peuvent être publiés dans l'espace de travail en direct.</target></trans-unit>
+    </body>
   </file>
 </xliff>
