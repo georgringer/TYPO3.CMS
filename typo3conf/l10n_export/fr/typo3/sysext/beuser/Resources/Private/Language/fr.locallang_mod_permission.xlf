@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814882" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="fr">
+    <header/>
+    <body>
+      <trans-unit id="permissions">
+        <source>Permissions</source>
+        <target state="needs-translation">Permissions</target>
+      </trans-unit>
+      <trans-unit id="ch_permissions">
+        <source>Change permissions</source>
+        <target state="needs-translation">Change permissions</target>
+      </trans-unit>
+      <trans-unit id="Legend">
+        <source>Legend</source>
+        <target state="needs-translation">Legend</target>
+      </trans-unit>
+      <trans-unit id="Owner">
+        <source>Owner</source>
+        <target state="needs-translation">Owner</target>
+      </trans-unit>
+      <trans-unit id="Group">
+        <source>Group</source>
+        <target state="needs-translation">Group</target>
+      </trans-unit>
+      <trans-unit id="Everybody">
+        <source>Everybody</source>
+        <target state="needs-translation">Everybody</target>
+      </trans-unit>
+      <trans-unit id="EditLock">
+        <source>Lock</source>
+        <target state="needs-translation">Lock</target>
+      </trans-unit>
+      <trans-unit id="EditLock_descr">
+        <source>Disable the »Admin-only« edit lock for this page. Currently this page and all content is locked for editing by all non-Admin users.</source>
+        <target state="needs-translation">Disable the »Admin-only« edit lock for this page. Currently this page and all content is locked for editing by all non-Admin users.</target>
+      </trans-unit>
+      <trans-unit id="EditLock_descr2">
+        <source>Enable the »Admin-only« edit lock for this page</source>
+        <target state="needs-translation">Enable the »Admin-only« edit lock for this page</target>
+      </trans-unit>
+      <trans-unit id="Save">
+        <source>Save</source>
+        <target state="needs-translation">Save</target>
+      </trans-unit>
+      <trans-unit id="Abort">
+        <source>Abort</source>
+        <target state="needs-translation">Abort</target>
+      </trans-unit>
+      <trans-unit id="Edit">
+        <source>EDIT</source>
+        <target state="needs-translation">EDIT</target>
+      </trans-unit>
+      <trans-unit id="recursive">
+        <source>Set recursively</source>
+        <target state="needs-translation">Set recursively</target>
+      </trans-unit>
+      <trans-unit id="page_affected">
+        <source>page affected</source>
+        <target state="needs-translation">page affected</target>
+      </trans-unit>
+      <trans-unit id="pages_affected">
+        <source>pages affected</source>
+        <target state="needs-translation">pages affected</target>
+      </trans-unit>
+      <trans-unit id="user_overview">
+        <source>User overview</source>
+        <target state="needs-translation">User overview</target>
+      </trans-unit>
+      <trans-unit id="Mode">
+        <source>Mode</source>
+        <target state="needs-translation">Mode</target>
+      </trans-unit>
+      <trans-unit id="Depth">
+        <source>Depth</source>
+        <target state="needs-translation">Depth</target>
+      </trans-unit>
+      <trans-unit id="level">
+        <source>level</source>
+        <target state="needs-translation">level</target>
+      </trans-unit>
+      <trans-unit id="levels">
+        <source>levels</source>
+        <target state="needs-translation">levels</target>
+      </trans-unit>
+      <trans-unit id="User">
+        <source>User</source>
+        <target state="needs-translation">User</target>
+      </trans-unit>
+      <trans-unit id="def">
+        <source>Definition: 'content' is records from all tables on a page - except from records from the table 'pages' (Pages).</source>
+        <target state="needs-translation">Definition: 'content' is records from all tables on a page - except from records from the table 'pages' (Pages).</target>
+      </trans-unit>
+      <trans-unit id="A_Granted">
+        <source>Access Granted</source>
+        <target state="needs-translation">Access Granted</target>
+      </trans-unit>
+      <trans-unit id="A_Denied">
+        <source>Access Denied</source>
+        <target state="needs-translation">Access Denied</target>
+      </trans-unit>
+      <trans-unit id="1">
+        <source>Show page</source>
+        <target state="needs-translation">Show page</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>Edit content</source>
+        <target state="needs-translation">Edit content</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>Edit page</source>
+        <target state="needs-translation">Edit page</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>Delete page</source>
+        <target state="needs-translation">Delete page</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>New pages</source>
+        <target state="needs-translation">New pages</target>
+      </trans-unit>
+      <trans-unit id="1_t">
+        <source>Show/Copy page and content.</source>
+        <target state="needs-translation">Show/Copy page and content.</target>
+      </trans-unit>
+      <trans-unit id="16_t">
+        <source>Change/Add/Delete/Move content.</source>
+        <target state="needs-translation">Change/Add/Delete/Move content.</target>
+      </trans-unit>
+      <trans-unit id="2_t">
+        <source>Change page eg. change pagetitle etc.</source>
+        <target state="needs-translation">Change page eg. change pagetitle etc.</target>
+      </trans-unit>
+      <trans-unit id="4_t">
+        <source>Delete/Move page and content.</source>
+        <target state="needs-translation">Delete/Move page and content.</target>
+      </trans-unit>
+      <trans-unit id="8_t">
+        <source>Create new pages under this page.</source>
+        <target state="needs-translation">Create new pages under this page.</target>
+      </trans-unit>
+      <trans-unit id="mlang_labels_tablabel">
+        <source>Page editing permissions</source>
+        <target state="needs-translation">Page editing permissions</target>
+      </trans-unit>
+      <trans-unit id="mlang_labels_tabdescr">
+        <source>Setting of page permissions is vital for controlling backend user access to pages. You can assign a user and a group as owners of a page and set access permissions for each.</source>
+        <target state="needs-translation">Setting of page permissions is vital for controlling backend user access to pages. You can assign a user and a group as owners of a page and set access permissions for each.</target>
+      </trans-unit>
+      <trans-unit id="mlang_tabs_tab">
+        <source>Access</source>
+        <target state="needs-translation">Access</target>
+      </trans-unit>
+      <trans-unit id="WorkspaceWarning">
+        <source>Workspace Warning</source>
+        <target state="needs-translation">Workspace Warning</target>
+      </trans-unit>
+      <trans-unit id="WorkspaceWarningText">
+        <source>Permissions you set in the workspace are effective on the elements only after they are published! If you need to set permissions which are effective right now, you must do so in the Live workspace. (Permissions are always evaluated on the Live workspace record/placeholder of a draft version)</source>
+        <target state="needs-translation">Permissions you set in the workspace are effective on the elements only after they are published! If you need to set permissions which are effective right now, you must do so in the Live workspace. (Permissions are always evaluated on the Live workspace record/placeholder of a draft version)</target>
+      </trans-unit>
+      <trans-unit id="notSet">
+        <source>not set</source>
+        <target state="needs-translation">not set</target>
+      </trans-unit>
+      <trans-unit id="deleted">
+        <source>deleted</source>
+        <target state="needs-translation">deleted</target>
+      </trans-unit>
+      <trans-unit id="noGroups">
+        <source>No user groups exist.</source>
+        <target state="needs-translation">No user groups exist.</target>
+      </trans-unit>
+      <trans-unit id="selectNone">
+        <source>   - none -   </source>
+        <target state="needs-translation">   - none -   </target>
+      </trans-unit>
+      <trans-unit id="selectUnchanged">
+        <source>   - leave unchanged -   </source>
+        <target state="needs-translation">   - leave unchanged -   </target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
