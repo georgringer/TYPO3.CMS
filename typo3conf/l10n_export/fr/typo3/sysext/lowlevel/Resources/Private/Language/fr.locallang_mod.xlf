@@ -5,15 +5,15 @@
     <body>
       <trans-unit id="mlang_labels_tablabel">
         <source>Database integrity check</source>
-        <target state="needs-translation">Database integrity check</target>
+        <target state="translated">Vérification de l'intégrité de la base de données</target>
       </trans-unit>
       <trans-unit id="mlang_labels_tabdescr">
         <source>Here you can check the integrity of the database tables configured by the $TCA. For instance all records must belong to a page record. In addition the existence of uploaded files attached to records (normally residing in uploads/* folders) are verified as well. You can also get a view of the total pagetree including deleted pages. Finally you've got access to a global database search facility.&lt;br /&gt;&lt;em&gt;Access for 'admin' users only!&lt;/em&gt;</source>
-        <target state="needs-translation">Here you can check the integrity of the database tables configured by the $TCA. For instance all records must belong to a page record. In addition the existence of uploaded files attached to records (normally residing in uploads/* folders) are verified as well. You can also get a view of the total pagetree including deleted pages. Finally you've got access to a global database search facility.&lt;br /&gt;&lt;em&gt;Access for 'admin' users only!&lt;/em&gt;</target>
+        <target state="translated">Ici vous pouvez vérifier l'intégrité des tables de base de données configurées par le $TCA. Par exemple, tous les enregistrements doivent appartenir à un enregistrement de page. En plus de l'existence de fichiers téléchargés attachés aux enregistrements (résidant normalement dans les dossiers uploads/* sont également vérifiés. Vous pouvez également obtenir une vue sur le pagetree total incluant les pages supprimées. Enfin, vous avez accès à une installation de recherche globale de base de données.&lt;br /&gt;&lt;em&gt;Accès aux utilisateurs 'admin' uniquement !&lt;/em&gt;</target>
       </trans-unit>
       <trans-unit id="mlang_tabs_tab">
         <source>DB check</source>
-        <target state="needs-translation">DB check</target>
+        <target state="translated">Contrôle DB</target>
       </trans-unit>
     </body>
   </file>
