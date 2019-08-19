@@ -5,91 +5,91 @@
     <body>
       <trans-unit id="overview.title">
         <source>Site Configuration</source>
-        <target state="needs-translation">Site Configuration</target>
+        <target state="translated">Configuration du site</target>
       </trans-unit>
       <trans-unit id="overview.site">
         <source>Site</source>
-        <target state="needs-translation">Site</target>
+        <target state="translated">Site</target>
       </trans-unit>
       <trans-unit id="overview.configuration">
         <source>Configuration Folder</source>
-        <target state="needs-translation">Configuration Folder</target>
+        <target state="translated">Dossier de configuration</target>
       </trans-unit>
       <trans-unit id="overview.noPages.title">
         <source>No pages found!</source>
-        <target state="needs-translation">No pages found!</target>
+        <target state="translated">Aucune page trouvée !</target>
       </trans-unit>
       <trans-unit id="overview.noPages.message">
         <source>Please add at least one page through the Page module.</source>
-        <target state="needs-translation">Please add at least one page through the Page module.</target>
+        <target state="translated">Veuillez ajouter au moins une page à travers le module Page.</target>
       </trans-unit>
       <trans-unit id="overview.noSiteConfiguration">
         <source>This site does not have a configuration, yet.</source>
-        <target state="needs-translation">This site does not have a configuration, yet.</target>
+        <target state="translated">Ce site n'a pas encore de configuration.</target>
       </trans-unit>
       <trans-unit id="overview.addSiteConfiguration">
         <source>Add new site configuration for this site</source>
-        <target state="needs-translation">Add new site configuration for this site</target>
+        <target state="translated">Ajouter une nouvelle configuration du site pour ce site</target>
       </trans-unit>
       <trans-unit id="overview.deleteSiteConfiguration">
         <source>Delete site configuration</source>
-        <target state="needs-translation">Delete site configuration</target>
+        <target state="translated">Supprimer la configuration du site</target>
       </trans-unit>
       <trans-unit id="overview.fullUrlPrefix">
         <source>Full URL prefix</source>
-        <target state="needs-translation">Full URL prefix</target>
+        <target state="translated">Préfixe URL complet</target>
       </trans-unit>
       <trans-unit id="overview.baseUrl">
         <source>Base URLs</source>
-        <target state="needs-translation">Base URLs</target>
+        <target state="translated">URL de base</target>
       </trans-unit>
       <trans-unit id="overview.unassignedSites.title">
         <source>Unassigned site configurations</source>
-        <target state="needs-translation">Unassigned site configurations</target>
+        <target state="translated">Configuration du site non assignée</target>
       </trans-unit>
       <trans-unit id="overview.unassignedSites.description">
         <source>The following sites don't belong to any page anymore and can be removed.</source>
-        <target state="needs-translation">The following sites don't belong to any page anymore and can be removed.</target>
+        <target state="translated">Les sites suivants n'appartiennent plus à aucune page et peuvent être supprimés.</target>
       </trans-unit>
       <trans-unit id="validation.identifierRenamed.title">
         <source>Renamed identifier</source>
-        <target state="needs-translation">Renamed identifier</target>
+        <target state="translated">Identifiant Renommandé</target>
       </trans-unit>
       <trans-unit id="validation.identifierRenamed.message">
         <source>Given site identifier "%1s" already exists. It has been renamed to "%2s". Maybe you want to edit the site again and give it a better name.</source>
-        <target state="needs-translation">Given site identifier "%1s" already exists. It has been renamed to "%2s". Maybe you want to edit the site again and give it a better name.</target>
+        <target state="translated">L'identifiant du site "%1s" existe déjà. Il a été renommé pour "%2s". Peut-être voulez-vous modifier le site à nouveau et lui donner un meilleur nom.</target>
       </trans-unit>
       <trans-unit id="validation.identifierExists.title">
         <source>Identifier not changed</source>
-        <target state="needs-translation">Identifier not changed</target>
+        <target state="translated">Identifiant non modifié</target>
       </trans-unit>
       <trans-unit id="validation.identifierExists.message">
         <source>Given site identifier "%1s" already exists and points to a different site. The existing identifier "%2s" for this site is kept.';</source>
-        <target state="needs-translation">Given site identifier "%1s" already exists and points to a different site. The existing identifier "%2s" for this site is kept.';</target>
+        <target state="translated">L'identifiant de site "%1s" existe déjà et indique un autre site. L'identifiant existant "%2s" pour ce site est conservé."</target>
       </trans-unit>
       <trans-unit id="validation.required.title">
         <source>Site configuration not saved</source>
-        <target state="needs-translation">Site configuration not saved</target>
+        <target state="translated">Configuration du site non enregistrée</target>
       </trans-unit>
       <trans-unit id="validation.required.message">
         <source>Field "%1s" is a required field, but no value has been provided.</source>
-        <target state="needs-translation">Field "%1s" is a required field, but no value has been provided.</target>
+        <target state="translated">Le champ "%1s" est un champ requis, mais aucune valeur n'a été fournie.</target>
       </trans-unit>
       <trans-unit id="validation.duplicateErrorCode.title">
         <source>Duplicate error code removed</source>
-        <target state="needs-translation">Duplicate error code removed</target>
+        <target state="translated">Code d'erreur en double supprimé</target>
       </trans-unit>
       <trans-unit id="validation.duplicateErrorCode.message">
         <source>Two error handler configurations for error code "%1s" found. This would be an invalid configuration, the dangling one has been removed.</source>
-        <target state="needs-translation">Two error handler configurations for error code "%1s" found. This would be an invalid configuration, the dangling one has been removed.</target>
+        <target state="translated">Deux configurations de gestionnaire d'erreur pour le code d'erreur "%1s" trouvées. Ce serait une configuration invalide, celle de dangling a été supprimée.</target>
       </trans-unit>
       <trans-unit id="validation.duplicateLanguageId.title">
         <source>Duplicate language configuration removed</source>
-        <target state="needs-translation">Duplicate language configuration removed</target>
+        <target state="translated">Configuration de la langue en double supprimée</target>
       </trans-unit>
       <trans-unit id="validation.duplicateLanguageId.message">
         <source>Two language configurations for language "%1s" found. This would be an invalid configuration, the dangling one has been removed.</source>
-        <target state="needs-translation">Two language configurations for language "%1s" found. This would be an invalid configuration, the dangling one has been removed.</target>
+        <target state="translated">Deux configurations de langue pour la langue "%1s" trouvées. Ce serait une configuration invalide, celle de la dangling a été supprimée.</target>
       </trans-unit>
     </body>
   </file>
