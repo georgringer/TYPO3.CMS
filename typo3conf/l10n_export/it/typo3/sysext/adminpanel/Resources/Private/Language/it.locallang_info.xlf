@@ -3,26 +3,86 @@
   <file t3:id="1520862805" source-language="en" datatype="plaintext" original="messages" date="2018-03-12T13:52:01Z" product-name="adminpanel" target-language="it">
     <header/>
     <body>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-        </body>
+      <trans-unit id="module.label">
+        <source>Info</source>
+        <target state="translated">Info</target>
+      </trans-unit>
+      <trans-unit id="module.shortinfo">
+        <source>(Load Time: %s ms)</source>
+        <target state="translated">(Tempo di carico: %s ms)</target>
+      </trans-unit>
+      <trans-unit id="imagesOnPage">
+        <source>Images on this page</source>
+        <target state="translated">Immagini su questa pagina</target>
+      </trans-unit>
+      <trans-unit id="imagesSize">
+        <source>Total image file sizes</source>
+        <target state="translated">Dimensioni totali file immagine</target>
+      </trans-unit>
+      <trans-unit id="DocumentSize">
+        <source>Document size</source>
+        <target state="translated">Dimensione documento</target>
+      </trans-unit>
+      <trans-unit id="pageUid">
+        <source>Page Uid</source>
+        <target state="translated">Uid pagina</target>
+      </trans-unit>
+      <trans-unit id="pageType">
+        <source>Page type</source>
+        <target state="translated">Tipo di pagina</target>
+      </trans-unit>
+      <trans-unit id="groupList">
+        <source>Frontenduser group combination</source>
+        <target state="translated">Combinazione gruppo Frontenduser</target>
+      </trans-unit>
+      <trans-unit id="noCache">
+        <source>Page cached</source>
+        <target state="translated">Pagina nella cache</target>
+      </trans-unit>
+      <trans-unit id="noCache_yes">
+        <source>Yes</source>
+        <target state="translated">Sì</target>
+      </trans-unit>
+      <trans-unit id="noCache_no">
+        <source>No</source>
+        <target state="translated">No</target>
+      </trans-unit>
+      <trans-unit id="countUserInt">
+        <source>Count of USER_INT objects</source>
+        <target state="translated">Numero di oggetti USER_INT</target>
+      </trans-unit>
+      <trans-unit id="feuserName">
+        <source>Name of logged in FE-User</source>
+        <target state="translated">Nome dell'utente connesso</target>
+      </trans-unit>
+      <trans-unit id="feuserId">
+        <source>Id of logged in FE-User</source>
+        <target state="translated">Id di accesso FE-Utente</target>
+      </trans-unit>
+      <trans-unit id="totalParsetime">
+        <source>Total parsetime</source>
+        <target state="translated">Analisi totale</target>
+      </trans-unit>
+      <trans-unit id="key">
+        <source>Key</source>
+        <target state="translated">Chiave</target>
+      </trans-unit>
+      <trans-unit id="value">
+        <source>Value</source>
+        <target state="translated">Valore</target>
+      </trans-unit>
+      <trans-unit id="sub.general.label">
+        <source>General</source>
+        <target state="translated">Generale</target>
+      </trans-unit>
+      <trans-unit id="sub.php.label">
+        <source>PHP</source>
+        <target state="translated">PHP</target>
+      </trans-unit>
+      <trans-unit id="sub.request.label">
+        <source>REQUEST</source>
+        <target state="translated">RICHIESTA</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
