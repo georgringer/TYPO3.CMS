@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415815006" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="tstemplate" target-language="fr">
+    <header/>
+    <body>
+      <trans-unit id="constants">
+        <source>Constants</source>
+        <target state="needs-translation">Constants</target>
+      </trans-unit>
+      <trans-unit id="setup">
+        <source>Setup</source>
+        <target state="needs-translation">Setup</target>
+      </trans-unit>
+      <trans-unit id="all">
+        <source>All</source>
+        <target state="needs-translation">All</target>
+      </trans-unit>
+      <trans-unit id="plainSubstitution">
+        <source>Plain substitution (default)</source>
+        <target state="needs-translation">Plain substitution (default)</target>
+      </trans-unit>
+      <trans-unit id="substitutedGreen">
+        <source>Substituted constants in green</source>
+        <target state="needs-translation">Substituted constants in green</target>
+      </trans-unit>
+      <trans-unit id="unsubstitutedGreen">
+        <source>UN-substituted constants in green</source>
+        <target state="needs-translation">UN-substituted constants in green</target>
+      </trans-unit>
+      <trans-unit id="currentTemplate">
+        <source>Current template</source>
+        <target state="needs-translation">Current template</target>
+      </trans-unit>
+      <trans-unit id="badProperty">
+        <source>Bad property!</source>
+        <target state="needs-translation">Bad property!</target>
+      </trans-unit>
+      <trans-unit id="noSpaces">
+        <source>You must enter a property with characters a-z, A-Z and 0-9, no spaces!</source>
+        <target state="needs-translation">You must enter a property with characters a-z, A-Z and 0-9, no spaces!</target>
+      </trans-unit>
+      <trans-unit id="nothingUpdated">
+        <source>Nothing was updated!</source>
+        <target state="needs-translation">Nothing was updated!</target>
+      </trans-unit>
+      <trans-unit id="propertyAdded">
+        <source>Property added</source>
+        <target state="needs-translation">Property added</target>
+      </trans-unit>
+      <trans-unit id="valueUpdated">
+        <source>Value updated</source>
+        <target state="needs-translation">Value updated</target>
+      </trans-unit>
+      <trans-unit id="objectCleared">
+        <source>Object cleared</source>
+        <target state="needs-translation">Object cleared</target>
+      </trans-unit>
+      <trans-unit id="updateButton">
+        <source>Update</source>
+        <target state="needs-translation">Update</target>
+      </trans-unit>
+      <trans-unit id="editProperty">
+        <source>Edit object/property value</source>
+        <target state="needs-translation">Edit object/property value</target>
+      </trans-unit>
+      <trans-unit id="addButton">
+        <source>Add</source>
+        <target state="needs-translation">Add</target>
+      </trans-unit>
+      <trans-unit id="addProperty">
+        <source>Add object property</source>
+        <target state="needs-translation">Add object property</target>
+      </trans-unit>
+      <trans-unit id="clear">
+        <source>Clear?</source>
+        <target state="needs-translation">Clear?</target>
+      </trans-unit>
+      <trans-unit id="clearButton">
+        <source>Clear</source>
+        <target state="needs-translation">Clear</target>
+      </trans-unit>
+      <trans-unit id="clearObject">
+        <source>Clear object</source>
+        <target state="needs-translation">Clear object</target>
+      </trans-unit>
+      <trans-unit id="edit">
+        <source>Edit</source>
+        <target state="needs-translation">Edit</target>
+      </trans-unit>
+      <trans-unit id="noCurrentTemplate">
+        <source>You cannot edit properties and values, if there's no current template.</source>
+        <target state="needs-translation">You cannot edit properties and values, if there's no current template.</target>
+      </trans-unit>
+      <trans-unit id="addKey">
+        <source>Add key "%s" to Object List</source>
+        <target state="needs-translation">Add key "%s" to Object List</target>
+      </trans-unit>
+      <trans-unit id="back">
+        <source>Back</source>
+        <target state="needs-translation">Back</target>
+      </trans-unit>
+      <trans-unit id="browse">
+        <source>Browse</source>
+        <target state="needs-translation">Browse</target>
+      </trans-unit>
+      <trans-unit id="objectList">
+        <source>Object List</source>
+        <target state="needs-translation">Object List</target>
+      </trans-unit>
+      <trans-unit id="search">
+        <source>Search</source>
+        <target state="needs-translation">Search</target>
+      </trans-unit>
+      <trans-unit id="regExp">
+        <source>Regular expressions</source>
+        <target state="needs-translation">Regular expressions</target>
+      </trans-unit>
+      <trans-unit id="errorsWarnings">
+        <source>Errors and warnings</source>
+        <target state="needs-translation">Errors and warnings</target>
+      </trans-unit>
+      <trans-unit id="errorShowDetails">
+        <source>Show details</source>
+        <target state="needs-translation">Show details</target>
+      </trans-unit>
+      <trans-unit id="removeKey">
+        <source>Remove key from OL</source>
+        <target state="needs-translation">Remove key from OL</target>
+      </trans-unit>
+      <trans-unit id="setupRoot">
+        <source>setup root</source>
+        <target state="needs-translation">setup root</target>
+      </trans-unit>
+      <trans-unit id="constantRoot">
+        <source>constants root</source>
+        <target state="needs-translation">constants root</target>
+      </trans-unit>
+      <trans-unit id="displayComments">
+        <source>Display comments</source>
+        <target state="needs-translation">Display comments</target>
+      </trans-unit>
+      <trans-unit id="sortAlphabetically">
+        <source>Sort alphabetically</source>
+        <target state="needs-translation">Sort alphabetically</target>
+      </trans-unit>
+      <trans-unit id="cropLines">
+        <source>Crop lines</source>
+        <target state="needs-translation">Crop lines</target>
+      </trans-unit>
+      <trans-unit id="displayConstants">
+        <source>Display constants</source>
+        <target state="needs-translation">Display constants</target>
+      </trans-unit>
+      <trans-unit id="displayOptions">
+        <source>Display options</source>
+        <target state="needs-translation">Display options</target>
+      </trans-unit>
+      <trans-unit id="conditions">
+        <source>Conditions</source>
+        <target state="needs-translation">Conditions</target>
+      </trans-unit>
+      <trans-unit id="setConditions">
+        <source>Set conditions</source>
+        <target state="needs-translation">Set conditions</target>
+      </trans-unit>
+      <trans-unit id="severity.1">
+        <source>Info</source>
+        <target state="needs-translation">Info</target>
+      </trans-unit>
+      <trans-unit id="severity.2">
+        <source>Warning</source>
+        <target state="needs-translation">Warning</target>
+      </trans-unit>
+      <trans-unit id="severity.3">
+        <source>Error</source>
+        <target state="needs-translation">Error</target>
+      </trans-unit>
+      <trans-unit id="error.1446559458">
+        <source>Error evaluating regular expression "%s".</source>
+        <target state="needs-translation">Error evaluating regular expression "%s".</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
