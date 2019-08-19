@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1515791927" source-language="en" datatype="plaintext" original="messages" date="2017-12-29T20:22:14Z" product-name="redirects" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="sys_redirect">
+        <source>Redirect</source>
+        <target state="needs-translation">Redirect</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.source_host">
+        <source>Source Domain</source>
+        <target state="needs-translation">Source Domain</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.source_path">
+        <source>Source Path</source>
+        <target state="needs-translation">Source Path</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.force_https">
+        <source>SSL Redirect</source>
+        <target state="needs-translation">SSL Redirect</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.force_https.0">
+        <source>Force SSL Redirect</source>
+        <target state="needs-translation">Force SSL Redirect</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.keep_query_parameters">
+        <source>GET Parameters</source>
+        <target state="needs-translation">GET Parameters</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.keep_query_parameters.0">
+        <source>Keep GET Parameters</source>
+        <target state="needs-translation">Keep GET Parameters</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.respect_query_parameters">
+        <source>GET Parameters (source)</source>
+        <target state="needs-translation">GET Parameters (source)</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.respect_query_parameters.0">
+        <source>Respect GET Parameters</source>
+        <target state="needs-translation">Respect GET Parameters</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.target">
+        <source>Target</source>
+        <target state="needs-translation">Target</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.target_statuscode">
+        <source>Status Code HTTP Header</source>
+        <target state="needs-translation">Status Code HTTP Header</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.target_statuscode.301">
+        <source>301 Moved Permanently</source>
+        <target state="needs-translation">301 Moved Permanently</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.target_statuscode.302">
+        <source>302 Found</source>
+        <target state="needs-translation">302 Found</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.target_statuscode.303">
+        <source>303 See Other</source>
+        <target state="needs-translation">303 See Other</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.target_statuscode.307">
+        <source>307 Temporary Redirect</source>
+        <target state="needs-translation">307 Temporary Redirect</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.hitcount">
+        <source>Count</source>
+        <target state="needs-translation">Count</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.lasthiton">
+        <source>Last Hit On</source>
+        <target state="needs-translation">Last Hit On</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.hitcountState">
+        <source>Hit Counter</source>
+        <target state="needs-translation">Hit Counter</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.disable_hitcount">
+        <source>Disable Hit Counter</source>
+        <target state="needs-translation">Disable Hit Counter</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.disable_hitcount.0">
+        <source>Disable</source>
+        <target state="needs-translation">Disable</target>
+      </trans-unit>
+      <trans-unit id="tabs.redirectCount">
+        <source>Statistics</source>
+        <target state="needs-translation">Statistics</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.is_regexp">
+        <source>Is regular expression?</source>
+        <target state="needs-translation">Is regular expression?</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.is_regexp.0">
+        <source>Yes</source>
+        <target state="needs-translation">Yes</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.disabled">
+        <source>Disable</source>
+        <target state="needs-translation">Disable</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.disabled.0">
+        <source>Deactivate redirect</source>
+        <target state="needs-translation">Deactivate redirect</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
