@@ -5,7 +5,7 @@
     <body>
       <trans-unit id=".description">
         <source>An 'Action' is a configuration of a specific task which may be performed by assigned usergroups via the Task Center.</source>
-        <target state="needs-translation">An 'Action' is a configuration of a specific task which may be performed by assigned usergroups via the Task Center.</target>
+        <target state="translated">Eine 'Aktion' ist eine Konfiguration einer spezifischen Aufgabe, die durch zugewiesene Benutzergruppen über das Task Center ausgeführt werden kann.</target>
       </trans-unit>
       <trans-unit id=".details" xml:space="preserve">
 				<source>Currently an Action may be configured to create additional backend usergroups without being and admin-user and by selecting from a limited set of options. Another option is to let an action initiate a SQL SELECT-query in the database and return the result as a CSV file.
