@@ -3,40 +3,142 @@
   <file t3:id="1415814869" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="fr">
     <header/>
     <body>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id="bigControlPanel">
+        <source>Extended view</source>
+        <target state="translated">Vue étendue</target>
+      </trans-unit>
+      <trans-unit id="clipBoard">
+        <source>Show clipboard</source>
+        <target state="translated">Afficher le presse-papiers</target>
+      </trans-unit>
+      <trans-unit id="clip_paste">
+        <source>Paste in clipboard content</source>
+        <target state="translated">Coller dans le presse-papiers</target>
+      </trans-unit>
+      <trans-unit id="clip_pasteInto">
+        <source>Paste into: Clipboard content is inserted into this folder</source>
+        <target state="translated">Coller dans : Le contenu du presse-papiers est inséré dans ce dossier</target>
+      </trans-unit>
+      <trans-unit id="clip_markRecords">
+        <source>Mark All/Mark none</source>
+        <target state="translated">Marquer tous/Marquer aucun</target>
+      </trans-unit>
+      <trans-unit id="clip_selectMarked">
+        <source>Transfer the selection of files to clipboard</source>
+        <target state="translated">Transférer la sélection des fichiers dans le presse-papiers</target>
+      </trans-unit>
+      <trans-unit id="clip_deleteMarked">
+        <source>Delete marked</source>
+        <target state="translated">Supprimer marqué</target>
+      </trans-unit>
+      <trans-unit id="clip_deleteMarkedWarning">
+        <source>Are you sure you want to delete all marked files from this folder?</source>
+        <target state="translated">Êtes-vous sûr de vouloir supprimer tous les fichiers marqués de ce dossier ?</target>
+      </trans-unit>
+      <trans-unit id="displayThumbs">
+        <source>Display thumbnails</source>
+        <target state="translated">Afficher les miniatures</target>
+      </trans-unit>
+      <trans-unit id="c_file">
+        <source>File Name</source>
+        <target state="translated">Nom du fichier</target>
+      </trans-unit>
+      <trans-unit id="c_filepath">
+        <source>File Path</source>
+        <target state="translated">Chemin du fichier</target>
+      </trans-unit>
+      <trans-unit id="c_size">
+        <source>Size</source>
+        <target state="translated">Taille</target>
+      </trans-unit>
+      <trans-unit id="c_fileext">
+        <source>Type</source>
+        <target state="translated">Type</target>
+      </trans-unit>
+      <trans-unit id="c_tstamp">
+        <source>Last Modified</source>
+        <target state="translated">Dernière modification</target>
+      </trans-unit>
+      <trans-unit id="c_rw">
+        <source>RW</source>
+        <target state="translated">RW</target>
+      </trans-unit>
+      <trans-unit id="files">
+        <source>files</source>
+        <target state="translated">fichiers</target>
+      </trans-unit>
+      <trans-unit id="temp">
+        <source>Temporary files</source>
+        <target state="translated">Fichiers temporaires</target>
+      </trans-unit>
+      <trans-unit id="read">
+        <source>R</source>
+        <target state="translated">R</target>
+      </trans-unit>
+      <trans-unit id="recycler">
+        <source>Recycler</source>
+        <target state="translated">Recycler</target>
+      </trans-unit>
+      <trans-unit id="mlang_labels_tablabel">
+        <source>Listing of files in the directory</source>
+        <target state="translated">Liste des fichiers dans le répertoire</target>
+      </trans-unit>
+      <trans-unit id="mlang_labels_tabdescr">
+        <source>This is the file administration system in TYPO3. It allows you to access the file mounts of your login. Through this module you can upload, copy, move an delete files on the server.</source>
+        <target state="translated">Ceci est le système d'administration de fichiers dans TYPO3. Il vous permet d'accéder aux montages de fichiers de votre connexion. Grâce à ce module, vous pouvez télécharger, copier, déplacer un fichier de suppression sur le serveur.</target>
+      </trans-unit>
+      <trans-unit id="mlang_tabs_tab">
+        <source>Filelist</source>
+        <target state="translated">Liste de fichiers</target>
+      </trans-unit>
+      <trans-unit id="write">
+        <source>W</source>
+        <target state="translated">W</target>
+      </trans-unit>
+      <trans-unit id="storageNotBrowsableTitle">
+        <source>Access denied.</source>
+        <target state="translated">Accès refusé.</target>
+      </trans-unit>
+      <trans-unit id="storageNotBrowsableMessage">
+        <source>You are trying to access a folder in a storage that is not browsable.</source>
+        <target state="translated">Vous essayez d'accéder à un dossier dans un stockage qui n'est pas disponible.</target>
+      </trans-unit>
+      <trans-unit id="missingFolderPermissionsTitle">
+        <source>Missing folder permissions</source>
+        <target state="translated">Permissions de dossier manquantes</target>
+      </trans-unit>
+      <trans-unit id="missingFolderPermissionsMessage">
+        <source>You have no access to the folder "%s".</source>
+        <target state="translated">Vous n'avez pas accès au dossier "%s".</target>
+      </trans-unit>
+      <trans-unit id="folderNotFoundTitle">
+        <source>Folder not found.</source>
+        <target state="translated">Dossier introuvable.</target>
+      </trans-unit>
+      <trans-unit id="folderNotFoundMessage">
+        <source>The folder "%s" cannot be accessed. Trying to use parent folder(s).</source>
+        <target state="translated">Le dossier "%s" ne peut être consulté. Essayer d'utiliser le ou les dossiers parents.</target>
+      </trans-unit>
+      <trans-unit id="translateMetadata">
+        <source>Translate metadata</source>
+        <target state="translated">Traduire les métadonnées</target>
+      </trans-unit>
+      <trans-unit id="createMetadataForLanguage">
+        <source>Create metadata of this file for %s</source>
+        <target state="translated">Créer des métadonnées de ce fichier pour %s</target>
+      </trans-unit>
+      <trans-unit id="editMetadataForLanguage">
+        <source>Edit metadata of this file for %s</source>
+        <target state="translated">Modifier les métadonnées de ce fichier pour %s</target>
+      </trans-unit>
+      <trans-unit id="paramError">
+        <source>Parameter Error</source>
+        <target state="translated">Erreur du paramètre</target>
+      </trans-unit>
+      <trans-unit id="targetNoDir">
+        <source>Target was not a directory!</source>
+        <target state="translated">La cible n'était pas un répertoire !</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
