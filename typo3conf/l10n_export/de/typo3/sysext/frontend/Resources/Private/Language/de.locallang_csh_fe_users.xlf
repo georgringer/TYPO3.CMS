@@ -5,116 +5,116 @@
     <body>
       <trans-unit id="username.description">
         <source>Enter the username of the website user. This is needed to login.</source>
-        <target state="needs-translation">Enter the username of the website user. This is needed to login.</target>
+        <target state="translated">Geben Sie den Benutzernamen des Webseitebenutzers ein. Dies ist erforderlich, um sich anzumelden.</target>
       </trans-unit>
       <trans-unit id="username.syntax">
         <source>A username is required and must be in lowercase without spaces in it. The username must be unique among other usernames in the page where it's saved. If it is not unique a number will be prepended automatically.</source>
-        <target state="needs-translation">A username is required and must be in lowercase without spaces in it. The username must be unique among other usernames in the page where it's saved. If it is not unique a number will be prepended automatically.</target>
+        <target state="translated">Ein Benutzername ist erforderlich und muss in Kleinbuchstaben ohne Leerzeichen sein. Der Benutzername muss unter anderen Benutzernamen in der Seite, auf der er gespeichert wird, einzigartig sein. Wenn er nicht eindeutig ist, wird automatisch eine Zahl vorangestellt.</target>
       </trans-unit>
       <trans-unit id="_username.seeAlso">
         <source>Creating Frontend Users and Groups | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/CreateUsersGroups/</source>
-        <target state="needs-translation">Creating Frontend Users and Groups | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/CreateUsersGroups/</target>
+        <target state="translated">Erstelle Frontend-Benutzer und Gruppen | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/CreateUsersGroups/</target>
       </trans-unit>
       <trans-unit id="password.description">
         <source>Enter the password for the username above. This is needed to login.</source>
-        <target state="needs-translation">Enter the password for the username above. This is needed to login.</target>
+        <target state="translated">Geben Sie das Passwort für den obigen Benutzernamen ein. Dies ist erforderlich, um sich anzumelden.</target>
       </trans-unit>
       <trans-unit id="password.syntax">
         <source>A password is required and must be in lowercase without spaces in it.</source>
-        <target state="needs-translation">A password is required and must be in lowercase without spaces in it.</target>
+        <target state="translated">Ein Passwort ist erforderlich und muss in Kleinbuchstaben ohne Leerzeichen sein.</target>
       </trans-unit>
       <trans-unit id="usergroup.description">
         <source>Select a user group for the username.</source>
-        <target state="needs-translation">Select a user group for the username.</target>
+        <target state="translated">Wählen Sie eine Benutzergruppe für den Benutzernamen.</target>
       </trans-unit>
       <trans-unit id="usergroup.details">
         <source>When a user logs in he is able to view all content which is access restricted to the user &lt;em&gt;group(s)&lt;/em&gt; the user is a member of. Therefore the user login primarily makes sense with regard to the member groups.</source>
-        <target state="needs-translation">When a user logs in he is able to view all content which is access restricted to the user &lt;em&gt;group(s)&lt;/em&gt; the user is a member of. Therefore the user login primarily makes sense with regard to the member groups.</target>
+        <target state="translated">Wenn ein Benutzer sich einloggt, kann er alle Inhalte anzeigen, die auf den Benutzer beschränkt sind &lt;em&gt;Gruppen(n)&lt;/em&gt; ist der Benutzer Mitglied. Daher ist der Benutzer-Login in erster Linie sinnvoll in Bezug auf die Mitgliedsgruppen.</target>
       </trans-unit>
       <trans-unit id="lockToDomain.description">
         <source>Enter the host name from which the user is forced to login. NOTICE: this is not a security feature and can be circumvented by faking HTTP_HOST.</source>
-        <target state="needs-translation">Enter the host name from which the user is forced to login. NOTICE: this is not a security feature and can be circumvented by faking HTTP_HOST.</target>
+        <target state="translated">Geben Sie den Hostnamen ein, von dem der Benutzer zum Login gezwungen ist. HINWEIS: Dies ist keine Sicherheitsfunktion und kann durch faking HTTP_HOST umgangen werden.</target>
       </trans-unit>
       <trans-unit id="lockToDomain.details">
         <source>A TYPO3 system may have multiple domains pointing to it. Therefore this option secures that users can login only from a certain host name.</source>
-        <target state="needs-translation">A TYPO3 system may have multiple domains pointing to it. Therefore this option secures that users can login only from a certain host name.</target>
+        <target state="translated">Ein TYPO3-System kann mehrere Domains haben, die darauf verweisen. Daher sichert diese Option, dass Benutzer nur von einem bestimmten Hostnamen einloggen können.</target>
       </trans-unit>
       <trans-unit id="lockToDomain.syntax">
         <source>Either a domain name, "www.typo3.org" or an IP address, "10.34.222.83"</source>
-        <target state="needs-translation">Either a domain name, "www.typo3.org" or an IP address, "10.34.222.83"</target>
+        <target state="translated">Entweder ein Domain-Name, "www.typo3.org" oder eine IP-Adresse, "10.34.222.83"</target>
       </trans-unit>
       <trans-unit id="_lockToDomain.seeAlso">
         <source>fe_groups:lockToDomain</source>
         <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-        <target state="needs-translation">fe_groups:lockToDomain</target>
+        <target state="translated">fe_groups:lockToDomain</target>
       </trans-unit>
       <trans-unit id="name.description">
         <source>Enter the regular name of the user, both first- and surname.</source>
-        <target state="needs-translation">Enter the regular name of the user, both first- and surname.</target>
+        <target state="translated">Geben Sie den regulären Namen des Benutzers ein, sowohl als auch einen Nachnamen.</target>
       </trans-unit>
       <trans-unit id="address.description">
         <source>Enter the street address of the user.</source>
-        <target state="needs-translation">Enter the street address of the user.</target>
+        <target state="translated">Geben Sie die Straßenadresse des Benutzers ein.</target>
       </trans-unit>
       <trans-unit id="www.description">
         <source>Enter the homepage URL</source>
-        <target state="needs-translation">Enter the homepage URL</target>
+        <target state="translated">URL der Startseite eingeben</target>
       </trans-unit>
       <trans-unit id="title.description">
         <source>Enter the job title, eg. 'Director' or 'Accountant'.</source>
-        <target state="needs-translation">Enter the job title, eg. 'Director' or 'Accountant'.</target>
+        <target state="translated">Geben Sie den Job Titel ein, z.B. 'Director' oder 'Accountant'.</target>
       </trans-unit>
       <trans-unit id="company.description">
         <source>Enter the name of the company in which the user is employed.</source>
-        <target state="needs-translation">Enter the name of the company in which the user is employed.</target>
+        <target state="translated">Geben Sie den Namen des Unternehmens ein, in dem der Benutzer beschäftigt ist.</target>
       </trans-unit>
       <trans-unit id="image.description">
         <source>Insert a photo of the user.</source>
-        <target state="needs-translation">Insert a photo of the user.</target>
+        <target state="translated">Fügen Sie ein Foto des Benutzers ein.</target>
       </trans-unit>
       <trans-unit id="disable.description">
         <source>This option will temporarily disable the user from logging in.</source>
-        <target state="needs-translation">This option will temporarily disable the user from logging in.</target>
+        <target state="translated">Diese Option deaktiviert den Benutzer vorübergehend vom Einloggen.</target>
       </trans-unit>
       <trans-unit id="_disable.seeAlso">
         <source>fe_users:starttime,fe_users:endtime</source>
         <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-        <target state="needs-translation">fe_users:starttime,fe_users:endtime</target>
+        <target state="translated">fe_users:starttime,fe_users:endtime</target>
       </trans-unit>
       <trans-unit id="starttime.description">
         <source>Enter the date from which the account is active.</source>
-        <target state="needs-translation">Enter the date from which the account is active.</target>
+        <target state="translated">Geben Sie das Datum ein, von dem das Konto aktiv ist.</target>
       </trans-unit>
       <trans-unit id="starttime.syntax" xml:space="preserve">
 				<source>The syntax is dd-mm-yy, but you can just enter a "d" in the field to insert todays date. Or "d+10" to insert the date 10 days from now etc.
 The field will re-format any input to fit the format it understands so you can just experiment and you will be able to clearly see how dates should be entered.</source>
-			<target state="needs-translation">The syntax is dd-mm-yy, but you can just enter a "d" in the field to insert todays date. Or "d+10" to insert the date 10 days from now etc.
-The field will re-format any input to fit the format it understands so you can just experiment and you will be able to clearly see how dates should be entered.</target></trans-unit>
+			<target state="translated">Die Syntax ist dd-mm-yy, aber Sie können nur ein "d" in das Feld eingeben, um das heutige Datum einzufügen. Oder "d+10" um das Datum von jetzt an 10 Tage einzufügen usw.
+Das Feld wird jede Eingabe neu formatieren, um das Format zu passen, das es versteht, damit Sie nur experimentieren können und Sie können klar sehen, wie Daten eingegeben werden.</target></trans-unit>
       <trans-unit id="_starttime.seeAlso">
         <source>fe_users:disable,fe_users:endtime</source>
         <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-        <target state="needs-translation">fe_users:disable,fe_users:endtime</target>
+        <target state="translated">fe_users:deaktivieren,fe_users:endtime</target>
       </trans-unit>
       <trans-unit id="endtime.description">
         <source>Enter the date from which the account is disabled.</source>
-        <target state="needs-translation">Enter the date from which the account is disabled.</target>
+        <target state="translated">Geben Sie das Datum ein, von dem das Konto deaktiviert ist.</target>
       </trans-unit>
       <trans-unit id="endtime.syntax">
         <source>See "Start"</source>
-        <target state="needs-translation">See "Start"</target>
+        <target state="translated">Siehe "Start"</target>
       </trans-unit>
       <trans-unit id="_endtime.seeAlso">
         <source>fe_users:disable,fe_users:starttime</source>
         <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-        <target state="needs-translation">fe_users:disable,fe_users:starttime</target>
+        <target state="translated">fe_users:deaktivieren,fe_users:starttime</target>
       </trans-unit>
       <trans-unit id="lastlogin.description">
         <source>This field shows the user's last log in date.</source>
-        <target state="needs-translation">This field shows the user's last log in date.</target>
+        <target state="translated">Dieses Feld zeigt das letzte Anmeldedatum des Benutzers an.</target>
       </trans-unit>
       <trans-unit id="TSconfig.description">
         <source>Enter additional TSconfig for the user (advanced).</source>
-        <target state="needs-translation">Enter additional TSconfig for the user (advanced).</target>
+        <target state="translated">Geben Sie zusätzliche TSconfig für den Benutzer ein (fortgeschritten).</target>
       </trans-unit>
       <trans-unit id="TSconfig.details" xml:space="preserve">
 				<source>This field allows you to enter TypoScript style configuration values for the user. Currently there are no system defined keys. If there ever will be, they will be described in detail in the administrative documentation.
@@ -169,7 +169,7 @@ return $GLOBALS["TSFE"]-&gt;fe_user-&gt;user["name"];
 }</target></trans-unit>
       <trans-unit id="TSconfig.syntax">
         <source>TypoScript syntax, without conditions and constants.</source>
-        <target state="needs-translation">TypoScript syntax, without conditions and constants.</target>
+        <target state="translated">TypoScript Syntax, ohne Bedingungen und Konstanten.</target>
       </trans-unit>
       <trans-unit id="_TSconfig.seeAlso" xml:space="preserve">
 				<source>TSconfig for TSFE | https://docs.typo3.org/typo3cms/TSconfigReference/PageTsconfig/TCEmain/
@@ -177,35 +177,35 @@ pages:TSconfig,
 fe_groups:TSconfig,
 be_users:TSconfig,
 be_groups:TSconfig</source>
-			<target state="needs-translation">TSconfig for TSFE | https://docs.typo3.org/typo3cms/TSconfigReference/PageTsconfig/TCEmain/
-pages:TSconfig,
+			<target state="translated">TSconfig für TSFE | https://docs.typo3.org/typo3cms/TSconfigReference/PageTsconfig/TCEmain/
+Seiten:TSconfig,
 fe_groups:TSconfig,
-be_users:TSconfig,
+sind_users:TSconfig,
 be_groups:TSconfig</target></trans-unit>
       <trans-unit id=".description">
         <source>A website login user.</source>
-        <target state="needs-translation">A website login user.</target>
+        <target state="translated">Ein Benutzer der Website-Anmeldung.</target>
       </trans-unit>
       <trans-unit id=".details">
         <source>These are users with a username and password who are allowed specific access to otherwise restricted areas on your website.</source>
-        <target state="needs-translation">These are users with a username and password who are allowed specific access to otherwise restricted areas on your website.</target>
+        <target state="translated">Dies sind Benutzer mit einem Benutzernamen und Passwort, die einen spezifischen Zugriff auf anderweitig eingeschränkte Bereiche auf Ihrer Website erlauben.</target>
       </trans-unit>
       <trans-unit id="_.seeAlso" xml:space="preserve">
 				<source>fe_groups
 be_users</source>
-			<target state="needs-translation">fe_groups
-be_users</target></trans-unit>
+			<target state="translated">fe_groups
+sind_Benutzer</target></trans-unit>
       <trans-unit id="_.image" xml:space="preserve">
 				<source>EXT:frontend/Resources/Public/Images/cshimages/feusers_1.png,
 EXT:frontend/Resources/Public/Images/cshimages/feusers_2.png,</source>
 				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-			<target state="needs-translation">EXT:frontend/Resources/Public/Images/cshimages/feusers_1.png,
+			<target state="translated">EXT:frontend/Resources/Public/Images/cshimages/feusers_1.png,
 EXT:frontend/Resources/Public/Images/cshimages/feusers_2.png,</target></trans-unit>
       <trans-unit id=".image_descr" xml:space="preserve">
 				<source>Part of the form for editing a frontend user.
 A typical login box (standard) on the website where frontend users can login.</source>
-			<target state="needs-translation">Part of the form for editing a frontend user.
-A typical login box (standard) on the website where frontend users can login.</target></trans-unit>
+			<target state="translated">Teil des Formulars zur Bearbeitung eines Frontend-Benutzers.
+Ein typisches Login-Feld (Standard) auf der Website, auf der sich Frontend-Benutzer einloggen können.</target></trans-unit>
     </body>
   </file>
 </xliff>
