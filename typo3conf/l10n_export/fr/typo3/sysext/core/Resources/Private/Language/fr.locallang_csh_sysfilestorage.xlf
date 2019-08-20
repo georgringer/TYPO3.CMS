@@ -3,64 +3,8 @@
   <file t3:id="1415814801" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="context_help" target-language="fr">
     <header/>
     <body>
-      <trans-unit id=".description">
-        <source>File storage, which acts as an entry root point to a file-based structure. See it like a drive or a hard drive volume in your local machine.</source>
-        <target state="translated">Le stockage de fichiers, qui sert de point racine d'entrée à une structure basée sur un fichier. Voir un disque ou un volume de disque dur dans votre machine locale.</target>
-      </trans-unit>
       <trans-unit id=".details">
         <source/>
-      </trans-unit>
-      <trans-unit id="hidden.description">
-        <source>Disabling the storage will result in removing it from any listings in the backend. Existing file relations will still exist.</source>
-        <target state="translated">Désactiver le stockage entraînera la suppression de toutes les listes dans le backend. Les relations de fichiers existantes existeront toujours.</target>
-      </trans-unit>
-      <trans-unit id="hidden.details">
-        <source>If you set up a file storage, it will show up on any folder lists, thus allowing to basically browse through the files in this file repository. If you set this checkbox, this storage will be excluded from any listings in the backend. Any existing file references will still exist further.</source>
-        <target state="translated">Si vous configurez un stockage de fichiers, il apparaîtra sur n'importe quelle liste de dossiers, permettant ainsi de parcourir fondamentalement les fichiers dans ce dépôt de fichiers. Si vous définissez cette case, ce stockage sera exclu de toute liste dans le backend. Toute référence de fichier existante existera encore plus loin.</target>
-      </trans-unit>
-      <trans-unit id="name.description">
-        <source>The visible identifier for this file storage.</source>
-        <target state="translated">L'identifiant visible pour ce stockage de fichier.</target>
-      </trans-unit>
-      <trans-unit id="name.details">
-        <source>The label entered here will be shown as the name for the entry point in the TYPO3 Backend. Be sure to make it descriptive and logical for your editors.</source>
-        <target state="translated">L'étiquette saisie ici sera affichée comme nom pour le point d'entrée dans le Backend TYPO3. Assurez-vous de le faire descriptif et logique pour vos éditeurs.</target>
-      </trans-unit>
-      <trans-unit id="description.description">
-        <source>A description of this storage.</source>
-        <target state="translated">Une description de ce stockage.</target>
-      </trans-unit>
-      <trans-unit id="description.details">
-        <source>This description field is used to explain e.g. the location of the storage, also what this storage is meant for or what it contains.</source>
-        <target state="translated">Ce champ de description est utilisé pour expliquer par exemple l'emplacement du stockage, aussi ce que ce stockage est destiné ou ce qu'il contient.</target>
-      </trans-unit>
-      <trans-unit id="driver.description">
-        <source>Choose the driver as the technical backbone of the storage. Once you've chosen a driver, and saved it, additional configuration will show up.</source>
-        <target state="translated">Choisissez le pilote comme colonne vertébrale technique du stockage. Une fois que vous avez choisi un pilote, et que vous l'avez sauvegardé, une configuration supplémentaire s'affichera.</target>
-      </trans-unit>
-      <trans-unit id="driver.details">
-        <source>The driver is the technical background of a storage, and thus also defines whether the location of the storage is local (= on the same machine as this TYPO3 installation) or remote like a WebDAV server connection. Search for extensions in the TYPO3 Extension Repository that extend this driver list.</source>
-        <target state="translated">Le pilote est le fond technique d'un stockage, et définit donc aussi si l'emplacement du stockage est local (= sur la même machine que cette installation TYPO3) ou distant comme une connexion du serveur WebDAV. Recherchez des extensions dans le référentiel d'extension TYPO3 qui prolonge cette liste de pilotes.</target>
-      </trans-unit>
-      <trans-unit id="processingfolder.description">
-        <source>Defines the directory on this storage to be used to save temporary files like resized images.</source>
-        <target state="translated">Définit le répertoire de ce stockage à utiliser pour enregistrer des fichiers temporaires comme des images redimensionnées.</target>
-      </trans-unit>
-      <trans-unit id="is_browsable.description">
-        <source>If set, backend users can browse through this storage. Otherwise it will show up as a unselectable item in the list.</source>
-        <target state="translated">Si défini, les utilisateurs de backend peuvent naviguer dans ce stockage. Sinon, il s'affichera comme un élément non lectable dans la liste.</target>
-      </trans-unit>
-      <trans-unit id="is_public.description">
-        <source>If set, then the files in this storage can be linked directly from the outside world. If this is not set, make sure to provide additional possibilities to access the files in this storage.</source>
-        <target state="translated">Si défini, les fichiers de ce stockage peuvent être liés directement depuis le monde extérieur. Si ce n'est pas défini, assurez-vous de fournir des possibilités supplémentaires d'accès aux fichiers dans ce stockage.</target>
-      </trans-unit>
-      <trans-unit id="is_writable.description">
-        <source>If set, then users are allowed to modify, add, delete files/folders on this storage.</source>
-        <target state="translated">Si défini, les utilisateurs sont autorisés à modifier, ajouter, supprimer des fichiers/dossiers sur ce stockage.</target>
-      </trans-unit>
-      <trans-unit id="is_online.description">
-        <source>This flag is usually set. If TYPO3 cannot connect to this storage (because it maybe temporary down), then the flag will be checked, and the storage will behave like it is non-browsable in the TYPO3 backend. The admin needs to manually activate it again if it was offline.</source>
-        <target state="translated">Ce drapeau est généralement défini. Si TYPO3 ne peut pas se connecter à ce stockage (parce qu'il est peut-être temporaire), alors le drapeau sera coché, et le stockage se comportera comme il n'est pas navigable dans le backend TYPO3. L'administrateur doit l'activer manuellement si il était hors ligne.</target>
       </trans-unit>
     </body>
   </file>
