@@ -3,142 +3,40 @@
   <file t3:id="1415814869" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="de">
     <header/>
     <body>
-      <trans-unit id="bigControlPanel">
-        <source>Extended view</source>
-        <target state="translated">Erweiterte Ansicht</target>
-      </trans-unit>
-      <trans-unit id="clipBoard">
-        <source>Show clipboard</source>
-        <target state="translated">Zwischenablage anzeigen</target>
-      </trans-unit>
-      <trans-unit id="clip_paste">
-        <source>Paste in clipboard content</source>
-        <target state="translated">In Zwischenablage-Inhalt einfügen</target>
-      </trans-unit>
-      <trans-unit id="clip_pasteInto">
-        <source>Paste into: Clipboard content is inserted into this folder</source>
-        <target state="translated">Einfügen in: Zwischenablage-Inhalt wird in diesen Ordner eingefügt</target>
-      </trans-unit>
-      <trans-unit id="clip_markRecords">
-        <source>Mark All/Mark none</source>
-        <target state="translated">Alle/Markieren</target>
-      </trans-unit>
-      <trans-unit id="clip_selectMarked">
-        <source>Transfer the selection of files to clipboard</source>
-        <target state="translated">Die Auswahl der Dateien in die Zwischenablage übertragen</target>
-      </trans-unit>
-      <trans-unit id="clip_deleteMarked">
-        <source>Delete marked</source>
-        <target state="translated">Markiert löschen</target>
-      </trans-unit>
-      <trans-unit id="clip_deleteMarkedWarning">
-        <source>Are you sure you want to delete all marked files from this folder?</source>
-        <target state="translated">Sind Sie sicher, dass Sie alle markierten Dateien aus diesem Ordner löschen möchten?</target>
-      </trans-unit>
-      <trans-unit id="displayThumbs">
-        <source>Display thumbnails</source>
-        <target state="translated">Vorschaubilder anzeigen</target>
-      </trans-unit>
-      <trans-unit id="c_file">
-        <source>File Name</source>
-        <target state="translated">Dateiname</target>
-      </trans-unit>
-      <trans-unit id="c_filepath">
-        <source>File Path</source>
-        <target state="translated">Dateipfad</target>
-      </trans-unit>
-      <trans-unit id="c_size">
-        <source>Size</source>
-        <target state="translated">Größe</target>
-      </trans-unit>
-      <trans-unit id="c_fileext">
-        <source>Type</source>
-        <target state="translated">Typ</target>
-      </trans-unit>
-      <trans-unit id="c_tstamp">
-        <source>Last Modified</source>
-        <target state="translated">Zuletzt geändert</target>
-      </trans-unit>
-      <trans-unit id="c_rw">
-        <source>RW</source>
-        <target state="translated">RW</target>
-      </trans-unit>
-      <trans-unit id="files">
-        <source>files</source>
-        <target state="translated">Dateien</target>
-      </trans-unit>
-      <trans-unit id="temp">
-        <source>Temporary files</source>
-        <target state="translated">Temporäre Dateien</target>
-      </trans-unit>
-      <trans-unit id="read">
-        <source>R</source>
-        <target state="translated">R</target>
-      </trans-unit>
-      <trans-unit id="recycler">
-        <source>Recycler</source>
-        <target state="translated">Recycler</target>
-      </trans-unit>
-      <trans-unit id="mlang_labels_tablabel">
-        <source>Listing of files in the directory</source>
-        <target state="translated">Liste der Dateien im Verzeichnis</target>
-      </trans-unit>
-      <trans-unit id="mlang_labels_tabdescr">
-        <source>This is the file administration system in TYPO3. It allows you to access the file mounts of your login. Through this module you can upload, copy, move an delete files on the server.</source>
-        <target state="translated">Dies ist das Dateiverwaltungssystem in TYPO3. Es ermöglicht Ihnen, auf die Dateimounts Ihres Benutzers zuzugreifen. Durch dieses Modul können Sie Dateien hochladen, kopieren, löschen auf dem Server verschieben.</target>
-      </trans-unit>
-      <trans-unit id="mlang_tabs_tab">
-        <source>Filelist</source>
-        <target state="translated">Filelist</target>
-      </trans-unit>
-      <trans-unit id="write">
-        <source>W</source>
-        <target state="translated">W</target>
-      </trans-unit>
-      <trans-unit id="storageNotBrowsableTitle">
-        <source>Access denied.</source>
-        <target state="translated">Zugriff verweigert.</target>
-      </trans-unit>
-      <trans-unit id="storageNotBrowsableMessage">
-        <source>You are trying to access a folder in a storage that is not browsable.</source>
-        <target state="translated">Sie versuchen, auf einen Ordner in einem Speicher zuzugreifen, der nicht durchsuchbar ist.</target>
-      </trans-unit>
-      <trans-unit id="missingFolderPermissionsTitle">
-        <source>Missing folder permissions</source>
-        <target state="translated">Fehlende Ordnerberechtigungen</target>
-      </trans-unit>
-      <trans-unit id="missingFolderPermissionsMessage">
-        <source>You have no access to the folder "%s".</source>
-        <target state="translated">Sie haben keinen Zugriff auf den Ordner "%s".</target>
-      </trans-unit>
-      <trans-unit id="folderNotFoundTitle">
-        <source>Folder not found.</source>
-        <target state="translated">Ordner nicht gefunden.</target>
-      </trans-unit>
-      <trans-unit id="folderNotFoundMessage">
-        <source>The folder "%s" cannot be accessed. Trying to use parent folder(s).</source>
-        <target state="translated">Der Ordner "%s" kann nicht aufgerufen werden. Versucht, den übergeordneten Ordner(n) zu verwenden.</target>
-      </trans-unit>
-      <trans-unit id="translateMetadata">
-        <source>Translate metadata</source>
-        <target state="translated">Metadaten übersetzen</target>
-      </trans-unit>
-      <trans-unit id="createMetadataForLanguage">
-        <source>Create metadata of this file for %s</source>
-        <target state="translated">Metadaten dieser Datei für %s erstellen</target>
-      </trans-unit>
-      <trans-unit id="editMetadataForLanguage">
-        <source>Edit metadata of this file for %s</source>
-        <target state="translated">Metadaten dieser Datei für %s bearbeiten</target>
-      </trans-unit>
-      <trans-unit id="paramError">
-        <source>Parameter Error</source>
-        <target state="translated">Parameter Fehler</target>
-      </trans-unit>
-      <trans-unit id="targetNoDir">
-        <source>Target was not a directory!</source>
-        <target state="translated">Ziel war kein Verzeichnis!</target>
-      </trans-unit>
-    </body>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</body>
   </file>
 </xliff>
