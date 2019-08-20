@@ -3,272 +3,70 @@
   <file t3:id="1415814989" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="setup" target-language="it">
     <header/>
     <body>
-      <trans-unit id=".alttitle">
-        <source>User &gt; Setup module</source>
-        <target state="translated">Utente &gt; Imposta modulo</target>
-      </trans-unit>
-      <trans-unit id=".description">
-        <source>The Setup module allows the backend user to customize TYPO3 for his own login sessions. This includes the backend language and various other interface features.</source>
-        <target state="translated">Il modulo di installazione consente all'utente backend di personalizzare TYPO3 per le sue sessioni di login. Questo include la lingua backend e varie altre funzionalità dell'interfaccia.</target>
-      </trans-unit>
-      <trans-unit id=".details">
-        <source>&lt;b&gt;Notice [For Admins]:&lt;/b&gt; These settings can all be overridden or have their default values changed by "User TSconfig". To read more about this concept, see the link below!</source>
-        <target state="translated">&lt;b&gt;Nota [Per gli amministratori]:&lt;/b&gt; Queste impostazioni possono essere sovrascritte o hanno i loro valori predefiniti modificati da "User TSconfig". Per saperne di più su questo concetto, vedi il link qui sotto!</target>
-      </trans-unit>
-      <trans-unit id="_.seeAlso">
-        <source>User TSconfig SETUP | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/Setup/Index.html</source>
-        <target state="translated">User TSconfig SETUP | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/Setup/Index.html</target>
-      </trans-unit>
-      <trans-unit id="_.image" xml:space="preserve">
-				<source>EXT:setup/Resources/Public/Images/cshimages/setup8.png,
-EXT:setup/Resources/Public/Images/cshimages/setup7.png</source>
-				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-			<target state="translated">EXT:setup/Resources/Public/Images/cshimages/setup8.png,
-EXT:setup/Resources/Public/Images/cshimages/setup7.png</target></trans-unit>
-      <trans-unit id=".image_descr" xml:space="preserve">
-				<source>The Setup module is selected in the left menu.
-This is how the Setup module interface looks like - a list of options to configure.</source>
-			<target state="translated">Il modulo di installazione è selezionato nel menu sinistro.
-Questo è come sembra l'interfaccia del modulo di installazione - una lista di opzioni da configurare.</target></trans-unit>
-      <trans-unit id="language.alttitle">
-        <source>Backend Language selection</source>
-        <target state="translated">Selezione lingua Backend</target>
-      </trans-unit>
-      <trans-unit id="language.description">
-        <source>Select the backend language you prefer. Most parts of TYPO3s backend (for regular users) are translated into other languages.</source>
-        <target state="translated">Seleziona la lingua backend che preferisci. La maggior parte delle parti del backend TYPO3s (per gli utenti regolari) sono tradotte in altre lingue.</target>
-      </trans-unit>
-      <trans-unit id="language.details" xml:space="preserve">
-				<source>&lt;b&gt;Warning [technical]:&lt;/b&gt; If TYPO3 is not configured to use a single character set (through $TYPO3_CONF_VARS[BE][forceCharset]) then all data entered in the backend is submitted in the character set of the selected backend language. This leads to inconsistent data storage if some users are using the backend in Russian and others in English which uses different character sets.
-The solution clearly is to set the configuration option mentioned above to a value like "utf-8". This must be done by the developers responsible for the whole system configuration.</source>
-			<target state="translated">&lt;b&gt;Attenzione [technical]:&lt;/b&gt; Se TYPO3 non è configurato per utilizzare un unico set di caratteri (attraverso $TYPO3_CONF_VARS[BE][forceCharset]) allora tutti i dati inseriti nel backend vengono inviati nel set di caratteri del backend selezionato. Questo porta a una memorizzazione dei dati incoerente se alcuni utenti usano il backend in russo e altri in inglese che utilizzano diversi set di caratteri.
-La soluzione è chiaramente quella di impostare l'opzione di configurazione sopra a un valore come "utf-8". Questo deve essere fatto dagli sviluppatori responsabili dell'intera configurazione del sistema.</target></trans-unit>
-      <trans-unit id="_language.image">
-        <source>EXT:setup/Resources/Public/Images/cshimages/lang.png</source>
-        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/lang.png</target>
-      </trans-unit>
-      <trans-unit id="language.image_descr">
-        <source>TYPO3 is translated into around 40 languages. English is the default language and all labels must be available in English first and foremost. This screenshot shows translations for Hebrew, Arabic, Russian and Chinese.</source>
-        <target state="translated">TYPO3 è tradotto in circa 40 lingue. L'inglese è la lingua predefinita e tutte le etichette devono essere disponibili in inglese prima di tutto. Questo screenshot mostra traduzioni per Ebraico, Arabo, russo e cinese.</target>
-      </trans-unit>
-      <trans-unit id="option_startModule.alttitle">
-        <source>Start module</source>
-        <target state="translated">Modulo di avvio</target>
-      </trans-unit>
-      <trans-unit id="option_startModule.description" xml:space="preserve">
-				<source>Let you select the module that is called when you login in the Backend
-The default module is "About Modules".</source>
-			<target state="translated">Lascia che tu selezioni il modulo chiamato quando accedi nel Backend
-Il modulo predefinito è "Informazioni Moduli".</target></trans-unit>
-      <trans-unit id="option_showThumbs.alttitle">
-        <source>Show Thumbnails by default</source>
-        <target state="translated">Mostra miniature di default</target>
-      </trans-unit>
-      <trans-unit id="option_showThumbs.description">
-        <source>In modules like the "Web &gt; List" and "File &gt; Filelist" you can enable the display of thumbnails of files (images/fonts) and records (if images are attached) with a checkbox. Setting this option will enable the display by default.</source>
-        <target state="translated">Nei moduli come "Web &gt; List" e "File &gt; Filelist" è possibile abilitare la visualizzazione delle miniature dei file (immagini/fonts) e dei record (se le immagini sono allegate) con una casella di controllo. Impostando questa opzione si abilita il display predefinito.</target>
-      </trans-unit>
-      <trans-unit id="_option_showThumbs.image">
-        <source>EXT:setup/Resources/Public/Images/cshimages/setup5.png</source>
-        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/setup5.png</target>
-      </trans-unit>
-      <trans-unit id="option_showThumbs.image_descr">
-        <source>When thumbnails display is enabled, files attached to records will be shown in the "Web &gt; List" module like this.</source>
-        <target state="translated">Quando il display delle miniature è abilitato, i file allegati ai record saranno mostrati nel modulo "Web &gt; List" come questo.</target>
-      </trans-unit>
-      <trans-unit id="option_helpText.alttitle">
-        <source>Show help text when applicable</source>
-        <target state="translated">Mostra testo aiuto quando applicabile</target>
-      </trans-unit>
-      <trans-unit id="option_helpText.description">
-        <source>If set, some help texts will appear by default. Applies to the "Legend" text in the Web&gt;Access module for instance.</source>
-        <target state="translated">Se impostato, alcuni testi di aiuto appariranno di default. Si applica al testo "Legend" nel modulo di accesso&gt;, per esempio.</target>
-      </trans-unit>
-      <trans-unit id="option_maxTitleLen.alttitle">
-        <source>Maximum title length</source>
-        <target state="translated">Lunghezza massima titolo</target>
-      </trans-unit>
-      <trans-unit id="option_maxTitleLen.description">
-        <source>TYPO3 will often crop long titles of records etc. so only the first X characters are shown. Often the number of shown characters depends on this variable. For instance the length of page titles in the page tree is determined by this value.</source>
-        <target state="translated">TYPO3 ritarderà spesso titoli lunghi di record ecc. Così vengono mostrati solo i primi caratteri X. Spesso il numero di caratteri mostrati dipende da questa variabile. Per esempio, la lunghezza dei titoli della pagina nell'albero della pagina è determinata da questo valore.</target>
-      </trans-unit>
-      <trans-unit id="_option_maxTitleLen.image">
-        <source>EXT:setup/Resources/Public/Images/cshimages/setup6.png</source>
-        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/setup6.png</target>
-      </trans-unit>
-      <trans-unit id="option_maxTitleLen.image_descr">
-        <source>In this case the Maximum Title length is set to 10 - and the result is that titles in the page tree - as well as other places in the backend - will be cropped after 10 characters, then suffixed by "...". The default value is "30".</source>
-        <target state="translated">In questo caso la lunghezza massima del titolo è impostata a 10 - e il risultato è che i titoli nell'albero della pagina - così come altri luoghi nel backend - saranno tagliati dopo 10 caratteri, quindi suffissati da "...". Il valore predefinito è "30".</target>
-      </trans-unit>
-      <trans-unit id="option_copyLevels.alttitle">
-        <source>Recursive Copy</source>
-        <target state="translated">Copia ricorsiva</target>
-      </trans-unit>
-      <trans-unit id="option_copyLevels.description">
-        <source>When you copy a page, subpages can also be copied along if you set this option. The number you set here defines the number of levels under a page to include in a copy operation.</source>
-        <target state="translated">Quando si copia una pagina, le sottopagine possono essere copiate anche lungo se si imposta questa opzione. Il numero che si è impostato qui definisce il numero di livelli sotto una pagina per includere in un'operazione di copia.</target>
-      </trans-unit>
-      <trans-unit id="option_recursiveDelete.alttitle">
-        <source>Recursive Delete</source>
-        <target state="translated">Elimina ricorsivo</target>
-      </trans-unit>
-      <trans-unit id="option_recursiveDelete.description">
-        <source>You cannot delete a page with subpages unless this flag is set. Be careful - setting this option means that TYPO3 will allow a whole tree of pages to be deleted in one go!</source>
-        <target state="translated">Non puoi eliminare una pagina con sottopagine a meno che non sia impostato questo flag. Fai attenzione - impostare questa opzione significa che TYPO3 permetterà di eliminare un intero albero di pagine in una sola volta!</target>
-      </trans-unit>
-      <trans-unit id="option_recursiveDelete.details">
-        <source>You should also consider the performance issues involved when deleting a large page tree. It might take a considerable amount of time to do that and if PHP times out before the operation is finished the results might be unpredictable.</source>
-        <target state="translated">Dovresti anche considerare i problemi di prestazioni coinvolti durante la cancellazione di un albero di pagina grande. Potrebbe richiedere molto tempo per farlo e se PHP si esaurisce prima che l'operazione sia terminata, i risultati potrebbero essere imprevedibili.</target>
-      </trans-unit>
-      <trans-unit id="option_edit_RTE.alttitle">
-        <source>Enable Rich Text Editor</source>
-        <target state="translated">Abilita Editor di Testo Rich</target>
-      </trans-unit>
-      <trans-unit id="option_edit_RTE.description">
-        <source>If set, the Rich Text Editor in TYPO3 will be enabled for you. Normally you wouldn't want to disable this option.</source>
-        <target state="translated">Se impostato, l'Editor di Testo Rich in TYPO3 sarà abilitato per te. Normalmente non vuoi disabilitare questa opzione.</target>
-      </trans-unit>
-      <trans-unit id="option_edit_RTE.details">
-        <source>A Rich Text Editor (RTE) means that a text editing field has buttons for making selected text bold, italic etc. Whether a RTE is available also depends on factors like the browser you are using and which extensions are installed. Finally RTEs are applied to only a few record fields. The most well known example would be the Text field of a Content Element.</source>
-        <target state="translated">Un Editor di Testo Rich (RTE) significa che un campo di modifica del testo ha dei pulsanti per rendere il testo selezionato grassetto, corsivo ecc. Se un RTE è disponibile dipende anche da fattori come il browser che stai usando e quali estensioni sono installate. Infine RTEs sono applicate solo a pochi campi record. L'esempio più noto sarebbe il campo di testo di un Elemento Contenuto.</target>
-      </trans-unit>
-      <trans-unit id="_option_edit_RTE.image">
-        <source>EXT:setup/Resources/Public/Images/cshimages/rte.png</source>
-        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/rte.png</target>
-      </trans-unit>
-      <trans-unit id="option_edit_docModuleUpload.alttitle">
-        <source>Enable File Uploads in editing forms</source>
-        <target state="translated">Abilita File Uploads nei moduli di modifica</target>
-      </trans-unit>
-      <trans-unit id="option_edit_docModuleUpload.description">
-        <source>This option will enable an "Upload" box for each field in TYPO3 records where you can attach a file or image. Most likely you don't want to disable this since it is usually just a nice thing to have.</source>
-        <target state="translated">Questa opzione abilita una casella "Carica" per ogni campo nei record TYPO3 dove puoi allegare un file o un'immagine. Molto probabilmente non vuoi disabilitare questo dato che solitamente è solo una bella cosa da avere.</target>
-      </trans-unit>
-      <trans-unit id="option_edit_docModuleUpload.details">
-        <source>If you disable the Upload box there is still the TYPO3 Element Browser left for attaching files and images.</source>
-        <target state="translated">Se si disattiva la casella di upload, rimane il browser di Elemento TYPO3 per l'allegamento di file e immagini.</target>
-      </trans-unit>
-      <trans-unit id="_option_edit_docModuleUpload.image">
-        <source>EXT:setup/Resources/Public/Images/cshimages/setup12.png</source>
-        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/setup12.png</target>
-      </trans-unit>
-      <trans-unit id="option_resizeTextareas.alttitle">
-        <source>Make Textareas Resizable</source>
-        <target state="translated">Rendi i Textareas in modo da poter rientrare</target>
-      </trans-unit>
-      <trans-unit id="option_resizeTextareas.description">
-        <source>This option will make textareas resizable. You will see the resize mouse cursor if you move mouse to the outer border of textarea.</source>
-        <target state="translated">Questa opzione renderà le aree di testo ridimensionabili. Vedrai il cursore del mouse di ridimensionamento se si sposta il mouse al bordo esterno del testo.</target>
-      </trans-unit>
-      <trans-unit id="option_resizeTextareas_MaxHeight.alttitle">
-        <source>Maximal Height of Textarea</source>
-        <target state="translated">Altezza massima di Textarea</target>
-      </trans-unit>
-      <trans-unit id="option_flexibleTextareas_MaxHeight.alttitle">
-        <source>Maximal Height of flexible textareas</source>
-        <target state="translated">Altezza massima delle textareas flessibili</target>
-      </trans-unit>
-      <trans-unit id="option_resizeTextareas_MaxHeight.description">
-        <source>Define the maximal height of textarea (in Pixel).</source>
-        <target state="translated">Definisci l'altezza massima della textarea (in Pixel).</target>
-      </trans-unit>
-      <trans-unit id="option_flexibleTextareas_MaxHeight.description">
-        <source>Define the maximal height of flexible textareas (in Pixel).</source>
-        <target state="translated">Definisci l'altezza massima delle textareas flessibili (in Pixel).</target>
-      </trans-unit>
-      <trans-unit id="option_resizeTextareas_Flexible.alttitle">
-        <source>Make Textareas Flexible</source>
-        <target state="translated">Rendi i Textareas flessibili</target>
-      </trans-unit>
-      <trans-unit id="option_resizeTextareas_Flexible.description">
-        <source>This option will make textareas flexible. The height will grow automatically while typing. Limit is the maximal height set (default 600).</source>
-        <target state="translated">Questa opzione renderà flessibili le aree di testo. L'altezza crescerà automaticamente durante la digitazione. Il limite è il set massimo di altezza (predefinito 600).</target>
-      </trans-unit>
-      <trans-unit id="option_showHiddenFilesAndFolders.description">
-        <source>Defines whether you want to list all the hidden files and folders (beginning with a .) in the filelist and element browser.</source>
-        <target state="translated">Definisce se si desidera elencare tutti i file e le cartelle nascoste (iniziando con un .) nella lista dei file e nel browser degli elementi.</target>
-      </trans-unit>
-      <trans-unit id="option_showHiddenFilesAndFolders.details">
-        <source>By default all hidden files are not displayed in filelists and element browsers and link pickers. This option enables to additionally show the hidden files.</source>
-        <target state="translated">Per impostazione predefinita tutti i file nascosti non sono visualizzati nelle liste dei file e nei browser degli elementi e nei selettori di link. Questa opzione permette di visualizzare i file nascosti.</target>
-      </trans-unit>
-      <trans-unit id="option_beUser_realName.alttitle">
-        <source>Your real name</source>
-        <target state="translated">Il tuo vero nome</target>
-      </trans-unit>
-      <trans-unit id="option_beUser_realName.description">
-        <source>Enter your real name here.</source>
-        <target state="translated">Inserisci qui il tuo nome reale.</target>
-      </trans-unit>
-      <trans-unit id="option_beUser_email.alttitle">
-        <source>Your email address</source>
-        <target state="translated">Il tuo indirizzo email</target>
-      </trans-unit>
-      <trans-unit id="option_beUser_email.description">
-        <source>Make sure this is a valid email address for you. This is the contact address that the backend administrator will use if he needs to contact you. Also, the TYPO3 system might need to send you messages at various times and this will be the recipient address.</source>
-        <target state="translated">Assicurati che questo sia un indirizzo email valido per te. Questo è l'indirizzo di contatto che l'amministratore del backend utilizzerà se ha bisogno di contattarti. Inoltre, il sistema TYPO3 potrebbe aver bisogno di inviarti messaggi in varie volte e questo sarà l'indirizzo del destinatario.</target>
-      </trans-unit>
-      <trans-unit id="option_emailMeAtLogin.alttitle">
-        <source>Notify by login</source>
-        <target state="translated">Notifica per login</target>
-      </trans-unit>
-      <trans-unit id="option_emailMeAtLogin.description">
-        <source>If you set this option you will receive an email from TYPO3 each time you (or "someone") logs in using your username. You might like to receive such a "warning" as a security measure so you will know if someone else picks up your password and uses your account.</source>
-        <target state="translated">Se si imposta questa opzione riceverai una email da TYPO3 ogni volta che si registra (o "qualcuno") utilizzando il tuo nome utente. Potresti ricevere un simile "avviso" come misura di sicurezza, così si sa se qualcun altro raccoglie la password e utilizza il tuo account.</target>
-      </trans-unit>
-      <trans-unit id="option_newPassword.alttitle">
-        <source>Change password</source>
-        <target state="translated">Cambia password</target>
-      </trans-unit>
-      <trans-unit id="option_newPassword.description">
-        <source>Enter a new password for your backend account</source>
-        <target state="translated">Inserisci una nuova password per il tuo account backend</target>
-      </trans-unit>
-      <trans-unit id="option_newPassword.details">
-        <source>The passwords are encrypted to an MD5 hash when you leave the field so no plain text password is sent over the wire.</source>
-        <target state="translated">Le password sono crittografate su un hash MD5 quando lasci il campo, quindi nessuna password di testo semplice viene inviata sopra il filo.</target>
-      </trans-unit>
-      <trans-unit id="option_newPasswordAgain.alttitle">
-        <source>Change password, confirm</source>
-        <target state="translated">Cambia password, conferma</target>
-      </trans-unit>
-      <trans-unit id="option_newPasswordAgain.description">
-        <source>Confirm the new password by entering it again, exactly like above. If the two new passwords do not match, the password will not be changed.</source>
-        <target state="translated">Conferma la nuova password inserendola di nuovo, esattamente come sopra. Se le due nuove password non corrispondono, la password non sarà cambiata.</target>
-      </trans-unit>
-      <trans-unit id="reset.alttitle">
-        <source>Reset all Values to default</source>
-        <target state="translated">Ripristina tutti i valori predefiniti</target>
-      </trans-unit>
-      <trans-unit id="reset.description">
-        <source>If you select this option all settings in this module will be reset to the default settings of the system.</source>
-        <target state="translated">Se selezioni questa opzione tutte le impostazioni in questo modulo verranno ripristinate alle impostazioni predefinite del sistema.</target>
-      </trans-unit>
-      <trans-unit id="reset.details">
-        <source>This does not apply to user name, email and password settings of course.</source>
-        <target state="translated">Questo non si applica al nome utente, alle impostazioni email e password.</target>
-      </trans-unit>
-      <trans-unit id="simuser.alttitle">
-        <source>Simulate backend user</source>
-        <target state="translated">Simula utente backend</target>
-      </trans-unit>
-      <trans-unit id="simuser.description">
-        <source>This option allows "admin"-users to change settings for another backend user in the system.</source>
-        <target state="translated">Questa opzione permette a "admin"-users di cambiare le impostazioni per un altro utente backend nel sistema.</target>
-      </trans-unit>
-      <trans-unit id="option_enableInstallTool.alttitle">
-        <source>Admin control for re-enabling Install Tool access</source>
-        <target state="translated">Controllo Admin per riattivare l'accesso a Installa Tool</target>
-      </trans-unit>
-      <trans-unit id="option_enableInstallTool.description">
-        <source>By clicking this button, a file typo3conf/ENABLE_INSTALL_TOOL is created (or removed if it already exists). It unlocks the access to the Install Tool (password is still needed!) and will be removed automatically after 1 hour.</source>
-        <target state="translated">Cliccando su questo pulsante, viene creato un file typo3conf/ENABLE_INSTALL_TOOL (o rimosso se già esiste). Sblocca l'accesso allo strumento di installazione (la password è ancora necessaria!) e verrà rimosso automaticamente dopo 1 ora.</target>
-      </trans-unit>
-    </body>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</body>
   </file>
 </xliff>
