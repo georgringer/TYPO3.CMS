@@ -3,422 +3,110 @@
   <file t3:id="1415814900" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lowlevel" target-language="de">
     <header/>
     <body>
-      <trans-unit id="configuration">
-        <source>Configuration</source>
-        <target state="translated">Konfiguration</target>
-      </trans-unit>
-      <trans-unit id="typo3ConfVars">
-        <source>$GLOBALS['TYPO3_CONF_VARS'] (Global Configuration)</source>
-        <target state="translated">$GLOBALS['TYPO3_CONF_VARS'] (Globale Konfiguration)</target>
-      </trans-unit>
-      <trans-unit id="tca">
-        <source>$GLOBALS['TCA'] (Table configuration array)</source>
-        <target state="translated">$GLOBALS['TCA'] (Tabellen-Konfigurations-Array)</target>
-      </trans-unit>
-      <trans-unit id="tcaDescr">
-        <source>$GLOBALS['TCA_DESCR'] (Table Help Description)</source>
-        <target state="translated">$GLOBALS['TCA_DESCR'] (Tabellenhilfe Beschreibung)</target>
-      </trans-unit>
-      <trans-unit id="tbeStyles">
-        <source>$GLOBALS['TBE_STYLES'] (Skinning Styles)</source>
-        <target state="translated">$GLOBALS['TBE_STYLES'] (Skinning Styles)</target>
-      </trans-unit>
-      <trans-unit id="beUserTsConfig">
-        <source>$GLOBALS['BE_USER']-&gt;getTSConfig() (User TSconfig)</source>
-        <target state="translated">$GLOBALS['BE_USER']-&gt;getTSConfig() (Benutzer TSconfig)</target>
-      </trans-unit>
-      <trans-unit id="beUser">
-        <source>$GLOBALS['BE_USER']-&gt;uc (User Settings)</source>
-        <target state="translated">$GLOBALS['BE_USER']-&gt;uc (Benutzereinstellungen)</target>
-      </trans-unit>
-      <trans-unit id="usersettings">
-        <source>$GLOBALS['TYPO3_USER_SETTINGS'] (User Settings Configuration)</source>
-        <target state="translated">$GLOBALS['TYPO3_USER_SETTINGS'] (Benutzereinstellungen-Konfiguration)</target>
-      </trans-unit>
-      <trans-unit id="routes">
-        <source>Backend Routes</source>
-        <target state="translated">Backend Routen</target>
-      </trans-unit>
-      <trans-unit id="httpMiddlewareStacks">
-        <source>HTTP Middlewares (PSR-15)</source>
-        <target state="translated">HTTP Middlewares (PSR-15)</target>
-      </trans-unit>
-      <trans-unit id="siteConfiguration">
-        <source>Site Configuration</source>
-        <target state="translated">Site-Konfiguration</target>
-      </trans-unit>
-      <trans-unit id="eventListeners">
-        <source>Event Listeners (PSR-14)</source>
-        <target state="translated">Ereignislisten (PSR-14)</target>
-      </trans-unit>
-      <trans-unit id="t3services">
-        <source>$GLOBALS['T3_SERVICES'] (Registered Services)</source>
-        <target state="translated">$GLOBALS['T3_SERVICES'] (registrierte Dienste)</target>
-      </trans-unit>
-      <trans-unit id="tbemodulesext">
-        <source>$GLOBALS['TBE_MODULES_EXT'] (BE Modules Extensions)</source>
-        <target state="translated">$GLOBALS['TBE_MODULES_EXT'] (BE Modules Erweiterungen)</target>
-      </trans-unit>
-      <trans-unit id="tbemodules">
-        <source>$GLOBALS['TBE_MODULES'] (BE Modules)</source>
-        <target state="translated">$GLOBALS['TBE_MODULES'] (BE-Module)</target>
-      </trans-unit>
-      <trans-unit id="pagesTypes">
-        <source>$GLOBALS['PAGES_TYPES'] (Table permissions by page type)</source>
-        <target state="translated">$GLOBALS['PAGES_TYPES'] (Tabellenberechtigungen nach Seitentyp)</target>
-      </trans-unit>
-      <trans-unit id="cropLines">
-        <source>Crop lines</source>
-        <target state="translated">Querzeilen</target>
-      </trans-unit>
-      <trans-unit id="variable">
-        <source>Variable</source>
-        <target state="translated">Variable</target>
-      </trans-unit>
-      <trans-unit id="copyPaste">
-        <source>(Now, copy/paste this value into the configuration file where you can set it. This is all you can do from here...)</source>
-        <target state="translated">(Jetzt kopieren/einfügen Sie diesen Wert in die Konfigurationsdatei, in der Sie ihn einstellen können. Das ist alles, was Sie von hier aus tun können...)</target>
-      </trans-unit>
-      <trans-unit id="enterSearchPhrase">
-        <source>Enter search phrase</source>
-        <target state="translated">Suchbegriff eingeben</target>
-      </trans-unit>
-      <trans-unit id="search">
-        <source>Search</source>
-        <target state="translated">Suche</target>
-      </trans-unit>
-      <trans-unit id="useRegExp">
-        <source>Use regular expression (phrase is surrounded by slashes automatically)</source>
-        <target state="translated">Normaler Ausdruck verwenden (Phrase wird automatisch von Schrägstrichen umgeben)</target>
-      </trans-unit>
-      <trans-unit id="writeValue">
-        <source>Write value to configuration file</source>
-        <target state="translated">Wert in Konfigurationsdatei schreiben</target>
-      </trans-unit>
-      <trans-unit id="writeMessage">
-        <source>Following line was added to configuration file (%s): %s%s</source>
-        <target state="translated">Folgende Zeile wurde zur Konfigurationsdatei hinzugefügt (%s): %s%s</target>
-      </trans-unit>
-      <trans-unit id="writeMessageFailed">
-        <source>Write to configuration file failed (%s)!</source>
-        <target state="translated">Schreiben in Konfigurationsdatei fehlgeschlagen (%s)!</target>
-      </trans-unit>
-      <trans-unit id="menuTitle">
-        <source>Overview</source>
-        <target state="translated">Übersicht</target>
-      </trans-unit>
-      <trans-unit id="recordStatistics">
-        <source>Record Statistics</source>
-        <target state="translated">Datenstatistiken</target>
-      </trans-unit>
-      <trans-unit id="totalPageTree">
-        <source>Total Page Tree</source>
-        <target state="translated">Gesamter Seitenbaum</target>
-      </trans-unit>
-      <trans-unit id="databaseRelations">
-        <source>Database Relations</source>
-        <target state="translated">Datenbankbeziehungen</target>
-      </trans-unit>
-      <trans-unit id="fullSearch">
-        <source>Full search</source>
-        <target state="translated">Vollsuche</target>
-      </trans-unit>
-      <trans-unit id="findFilename">
-        <source>Find filename</source>
-        <target state="translated">Dateiname finden</target>
-      </trans-unit>
-      <trans-unit id="manageRefIndex">
-        <source>Manage Reference Index</source>
-        <target state="translated">Referenzindex verwalten</target>
-      </trans-unit>
-      <trans-unit id="rawSearch">
-        <source>Raw search in all fields</source>
-        <target state="translated">Rohe Suche in allen Feldern</target>
-      </trans-unit>
-      <trans-unit id="advancedQuery">
-        <source>Advanced query</source>
-        <target state="translated">Erweiterte Abfrage</target>
-      </trans-unit>
-      <trans-unit id="selectRecords">
-        <source>Select records</source>
-        <target state="translated">Datensätze auswählen</target>
-      </trans-unit>
-      <trans-unit id="countResults">
-        <source>Count results</source>
-        <target state="translated">Zähler Ergebnisse</target>
-      </trans-unit>
-      <trans-unit id="explainQuery">
-        <source>Explain query</source>
-        <target state="translated">Abfrage erklären</target>
-      </trans-unit>
-      <trans-unit id="csvExport">
-        <source>CSV Export</source>
-        <target state="translated">CSV-Export</target>
-      </trans-unit>
-      <trans-unit id="xmlExport">
-        <source>XML Export</source>
-        <target state="translated">XML-Export</target>
-      </trans-unit>
-      <trans-unit id="clickToUpdateRefIndex">
-        <source>Click here to update reference index</source>
-        <target state="translated">Klicken Sie hier, um den Referenzindex zu aktualisieren</target>
-      </trans-unit>
-      <trans-unit id="updateNow">
-        <source>Update now!</source>
-        <target state="translated">Jetzt aktualisieren!</target>
-      </trans-unit>
-      <trans-unit id="clickToTestRefIndex">
-        <source>Click here to test reference index</source>
-        <target state="translated">Klicken Sie hier, um Referenzindex zu testen</target>
-      </trans-unit>
-      <trans-unit id="referenceIndex_description">
-        <source>TYPO3's reference index keeps track of the relations between records. As it can happen that the reference index contains outdated values, you can check and update it here.</source>
-        <target state="translated">Der Referenzindex von TYPO3 hält die Beziehungen zwischen Datensätzen auf. Da der Referenzindex veraltete Werte enthält, können Sie ihn hier überprüfen und aktualisieren.</target>
-      </trans-unit>
-      <trans-unit id="referenceIndex_buttonUpdate">
-        <source>Update reference index</source>
-        <target state="translated">Referenzindex aktualisieren</target>
-      </trans-unit>
-      <trans-unit id="referenceIndex_buttonCheck">
-        <source>Check reference index</source>
-        <target state="translated">Referenzindex überprüfen</target>
-      </trans-unit>
-      <trans-unit id="checkNow">
-        <source>Check now!</source>
-        <target state="translated">Jetzt überprüfen!</target>
-      </trans-unit>
-      <trans-unit id="checkScript_headline">
-        <source>Using the command line interface</source>
-        <target state="translated">Kommandozeilen-Schnittstelle verwenden</target>
-      </trans-unit>
-      <trans-unit id="checkScript">
-        <source>You can also run the check as a shell script using CLI if the processing takes longer than the PHP max_execution_time allows.</source>
-        <target state="translated">Sie können die Überprüfung auch als Shell-Skript mit CLI ausführen, wenn die Verarbeitung länger dauert als die PHP max_execution_time erlaubt.</target>
-      </trans-unit>
-      <trans-unit id="checkScript_check_description">
-        <source>To check the reference index use</source>
-        <target state="translated">Um den Referenzindex zu überprüfen</target>
-      </trans-unit>
-      <trans-unit id="checkScript_update_description">
-        <source>To update the reference index use</source>
-        <target state="translated">Um den Referenzindex zu aktualisieren</target>
-      </trans-unit>
-      <trans-unit id="checkScript_moreDetails">
-        <source>For more details see</source>
-        <target state="translated">Weitere Details finden Sie</target>
-      </trans-unit>
-      <trans-unit id="updateRefIndex">
-        <source>Update reference index</source>
-        <target state="translated">Referenzindex aktualisieren</target>
-      </trans-unit>
-      <trans-unit id="showSQL">
-        <source>Show SQL parts</source>
-        <target state="translated">SQL-Teile anzeigen</target>
-      </trans-unit>
-      <trans-unit id="useFormattedStrings">
-        <source>Use formatted strings, labels and dates instead of original values for results</source>
-        <target state="translated">Formatierte Zeichenketten, Etiketten und Daten anstelle von Originalwerten für Ergebnisse verwenden</target>
-      </trans-unit>
-      <trans-unit id="dontUseOrigValues">
-        <source>Don't use original values in brackets as prefix for labelled results</source>
-        <target state="translated">Verwende keine Originalwerte in Klammern als Präfix für markierte Ergebnisse</target>
-      </trans-unit>
-      <trans-unit id="sortOptions">
-        <source>Sort selectbox-options for relations by label and not by value</source>
-        <target state="translated">Sortiere Auswahlbox-Optionen für Beziehungen nach Label und nicht nach Wert</target>
-      </trans-unit>
-      <trans-unit id="showDeleted">
-        <source>Show even deleted entries (with undelete buttons)</source>
-        <target state="translated">Zeige sogar gelöschte Einträge (mit undeleten Buttons)</target>
-      </trans-unit>
-      <trans-unit id="searchOptions">
-        <source>Search options</source>
-        <target state="translated">Suchoptionen</target>
-      </trans-unit>
-      <trans-unit id="result">
-        <source>Result</source>
-        <target state="translated">Ergebnis</target>
-      </trans-unit>
-      <trans-unit id="tables">
-        <source>Tables</source>
-        <target state="translated">Tabellen</target>
-      </trans-unit>
-      <trans-unit id="references">
-        <source>references</source>
-        <target state="translated">referenzen</target>
-      </trans-unit>
-      <trans-unit id="isMissing">
-        <source>is missing!</source>
-        <target state="translated">fehlt!</target>
-      </trans-unit>
-      <trans-unit id="referencedFrom">
-        <source>Referenced from</source>
-        <target state="translated">Referenziert von</target>
-      </trans-unit>
-      <trans-unit id="enterRegexPattern">
-        <source>Enter regex pattern</source>
-        <target state="translated">regex-Muster eingeben</target>
-      </trans-unit>
-      <trans-unit id="searchButton">
-        <source>Search</source>
-        <target state="translated">Suche</target>
-      </trans-unit>
-      <trans-unit id="pattern">
-        <source>Pattern</source>
-        <target state="translated">Muster</target>
-      </trans-unit>
-      <trans-unit id="beingChecked">
-        <source>being checked...</source>
-        <target state="translated">wird überprüft...</target>
-      </trans-unit>
-      <trans-unit id="directories">
-        <source>Dirs</source>
-        <target state="translated">Dirs</target>
-      </trans-unit>
-      <trans-unit id="directoriesTooDeep">
-        <source>ERROR: Directories deeper than the following number of levels</source>
-        <target state="translated">FEHLER: Verzeichnisse tiefer als die folgende Anzahl von Ebenen</target>
-      </trans-unit>
-      <trans-unit id="files">
-        <source>Files</source>
-        <target state="translated">Dateien</target>
-      </trans-unit>
-      <trans-unit id="matchingFiles">
-        <source>Matching files</source>
-        <target state="translated">Passende Dateien</target>
-      </trans-unit>
-      <trans-unit id="notChecked">
-        <source>not checked.</source>
-        <target state="translated">nicht überprüft.</target>
-      </trans-unit>
-      <trans-unit id="searchingForFilenames">
-        <source>Searching for filenames</source>
-        <target state="translated">Suche nach Dateinamen</target>
-      </trans-unit>
-      <trans-unit id="fixLostRecord">
-        <source>Click to move this lost record to rootlevel (pid=0)</source>
-        <target state="translated">Klicken, um diesen verlorenen Eintrag zu rootlevel zu verschieben (pid=0)</target>
-      </trans-unit>
-      <trans-unit id="doktype">
-        <source>Document types</source>
-        <target state="translated">Dokumenttypen</target>
-      </trans-unit>
-      <trans-unit id="doktype_value">
-        <source>Document types (value)</source>
-        <target state="translated">Dokumenttypen (Wert)</target>
-      </trans-unit>
-      <trans-unit id="pages">
-        <source>Pages</source>
-        <target state="translated">Seiten</target>
-      </trans-unit>
-      <trans-unit id="total_pages">
-        <source>Total number of default language pages</source>
-        <target state="translated">Gesamtzahl der Standardsprachen</target>
-      </trans-unit>
-      <trans-unit id="translated_pages">
-        <source>Total number of translated pages</source>
-        <target state="translated">Gesamtzahl der übersetzten Seiten</target>
-      </trans-unit>
-      <trans-unit id="deleted_pages">
-        <source>Marked-deleted pages</source>
-        <target state="translated">Markierte Seiten gelöscht</target>
-      </trans-unit>
-      <trans-unit id="hidden_pages">
-        <source>Hidden pages</source>
-        <target state="translated">Versteckte Seiten</target>
-      </trans-unit>
-      <trans-unit id="count">
-        <source>Count</source>
-        <target state="translated">Anzahl</target>
-      </trans-unit>
-      <trans-unit id="label">
-        <source>Label</source>
-        <target state="translated">Label</target>
-      </trans-unit>
-      <trans-unit id="tablename">
-        <source>Table name</source>
-        <target state="translated">Tabellenname</target>
-      </trans-unit>
-      <trans-unit id="total_lost">
-        <source>Records total / lost</source>
-        <target state="translated">Gesamt / verloren</target>
-      </trans-unit>
-      <trans-unit id="relations">
-        <source>Relations</source>
-        <target state="translated">Beziehungen</target>
-      </trans-unit>
-      <trans-unit id="relations_description">
-        <source>This will analyze the content of the tables and check if there are 'empty' relations between records or if files are missing from their expected position.</source>
-        <target state="translated">Dies analysiert den Inhalt der Tabellen und überprüft, ob es "leere" Beziehungen zwischen Datensätzen gibt oder ob Dateien aus ihrer erwarteten Position fehlen.</target>
-      </trans-unit>
-      <trans-unit id="files_many_ref">
-        <source>Files referenced from more than one record</source>
-        <target state="translated">Dateien, die von mehr als einem Datensatz referenziert wurden</target>
-      </trans-unit>
-      <trans-unit id="no_files_found">
-        <source>No files found.</source>
-        <target state="translated">Keine Dateien gefunden.</target>
-      </trans-unit>
-      <trans-unit id="files_no_ref">
-        <source>Files with no references at all (delete them!)</source>
-        <target state="translated">Dateien ohne Referenzen (löschen!)</target>
-      </trans-unit>
-      <trans-unit id="files_no_file">
-        <source>Missing files</source>
-        <target state="translated">Fehlende Dateien</target>
-      </trans-unit>
-      <trans-unit id="select_db">
-        <source>Select fields</source>
-        <target state="translated">Felder auswählen</target>
-      </trans-unit>
-      <trans-unit id="group_db">
-        <source>Group fields</source>
-        <target state="translated">Gruppenfelder</target>
-      </trans-unit>
-      <trans-unit id="tree">
-        <source>The Page Tree</source>
-        <target state="translated">Der Seitenbaum</target>
-      </trans-unit>
-      <trans-unit id="tree_description">
-        <source>This shows all pages in the system in one large tree. Beware that this will probably result in a very long document which will also take some time for the server to compute!</source>
-        <target state="translated">Dies zeigt alle Seiten im System in einem großen Baum. Bitte beachten Sie, dass dies wahrscheinlich zu einem sehr langen Dokument führen wird, das auch einige Zeit für den Server benötigt, um zu berechnen!</target>
-      </trans-unit>
-      <trans-unit id="records">
-        <source>Records Statistics</source>
-        <target state="translated">Datenstatistiken</target>
-      </trans-unit>
-      <trans-unit id="records_description">
-        <source>This shows some statistics for the records in the database. This runs through the entire page-tree and therefore it will also load the server heavily!</source>
-        <target state="translated">Dies zeigt einige Statistiken für die Datensätze in der Datenbank. Dies läuft über den gesamten Seitenbaum und wird daher auch den Server stark laden!</target>
-      </trans-unit>
-      <trans-unit id="search_whole_database">
-        <source>Search whole Database</source>
-        <target state="translated">Suche ganze Datenbank</target>
-      </trans-unit>
-      <trans-unit id="search_description">
-        <source>This searches through all database tables and records for a text string.</source>
-        <target state="translated">Dies durchsucht alle Datenbanktabellen und Datensätze für einen Textstring.</target>
-      </trans-unit>
-      <trans-unit id="filesearch">
-        <source>Search all filenames for pattern</source>
-        <target state="translated">Alle Dateinamen nach Muster suchen</target>
-      </trans-unit>
-      <trans-unit id="filesearch_description">
-        <source>Will search recursively for filenames inside sub directories of the public web folder (PublicPath) matching a certain regex pattern.</source>
-        <target state="translated">Sucht rekursiv nach Dateinamen innerhalb der Unterverzeichnisse des öffentlichen Web-Ordners (PublicPath) die einem bestimmten regex-Muster entsprechen.</target>
-      </trans-unit>
-      <trans-unit id="refindex">
-        <source>Check and update global reference index</source>
-        <target state="translated">Globalen Referenzindex überprüfen und aktualisieren</target>
-      </trans-unit>
-      <trans-unit id="refindex_description">
-        <source>Allows you to maintain the reference index kept by TYPO3.</source>
-        <target state="translated">Ermöglicht Ihnen, den Referenzindex von TYPO3 zu erhalten.</target>
-      </trans-unit>
-      <trans-unit id="title">
-        <source>Database integrity check</source>
-        <target state="translated">Datenbankintegrität-Überprüfung</target>
-      </trans-unit>
-    </body>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</body>
   </file>
 </xliff>
