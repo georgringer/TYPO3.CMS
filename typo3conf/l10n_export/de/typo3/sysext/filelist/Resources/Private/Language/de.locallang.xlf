@@ -3,6 +3,14 @@
   <file t3:id="1440157535" source-language="en" datatype="plaintext" original="messages" date="2015-08-21T11:45:35Z" product-name="filelist" target-language="de">
     <header/>
     <body>
+      <trans-unit id="search" approved="yes">
+        <source>Search</source>
+        <target state="translated">Suche</target>
+      </trans-unit>
+      <trans-unit id="flashmessage.no_results" approved="yes">
+        <source>No results found</source>
+        <target state="translated">Keine Ergebnisse gefunden</target>
+      </trans-unit>
       <trans-unit id="file_rename.exists.description">
         <source>You want to rename the file "{0}" to "{1}", but such a file already exists. How do you want to
 					proceed?
@@ -10,12 +18,36 @@
         <target state="needs-translation">
 				</target>
       </trans-unit>
+      <trans-unit id="file_rename.actions.cancel" approved="yes">
+        <source>Cancel</source>
+        <target state="translated">Abbrechen</target>
+      </trans-unit>
       <trans-unit id="file_edit.php.coundNot">
         <source>This filetype cannot be edited.&lt;br /&gt;The file must have an extension like:&lt;br /&gt;&lt;br
 					/&gt; &lt;b&gt;%s&lt;/b&gt;
 				</source>
         <target state="needs-translation">
 				</target>
+      </trans-unit>
+      <trans-unit id="file_newfolder.php.pagetitle" approved="yes">
+        <source>New file or folder</source>
+        <target state="translated">Neuer Ordner bzw. neue Datei</target>
+      </trans-unit>
+      <trans-unit id="file_newfolder.php.newfolders" approved="yes">
+        <source>Create new folders</source>
+        <target state="translated">Neue Ordner anlegen</target>
+      </trans-unit>
+      <trans-unit id="file_newfolder.php.submit" approved="yes">
+        <source>Create folders</source>
+        <target state="translated">Ordner anlegen</target>
+      </trans-unit>
+      <trans-unit id="create_folder.submit" approved="yes">
+        <source>Create folder</source>
+        <target state="translated">Ordner erstellen</target>
+      </trans-unit>
+      <trans-unit id="file_newfolder.php.number_of_folders" approved="yes">
+        <source>Number of folders</source>
+        <target state="translated">Anzahl Ordner</target>
       </trans-unit>
     </body>
   </file>
