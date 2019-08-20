@@ -3,182 +3,50 @@
   <file t3:id="1415815006" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="tstemplate" target-language="fr">
     <header/>
     <body>
-      <trans-unit id="constants">
-        <source>Constants</source>
-        <target state="translated">Constantes</target>
-      </trans-unit>
-      <trans-unit id="setup">
-        <source>Setup</source>
-        <target state="translated">Configuration</target>
-      </trans-unit>
-      <trans-unit id="all">
-        <source>All</source>
-        <target state="translated">Tous</target>
-      </trans-unit>
-      <trans-unit id="plainSubstitution">
-        <source>Plain substitution (default)</source>
-        <target state="translated">substitution simple (par défaut)</target>
-      </trans-unit>
-      <trans-unit id="substitutedGreen">
-        <source>Substituted constants in green</source>
-        <target state="translated">constantes sous-titrées en vert</target>
-      </trans-unit>
-      <trans-unit id="unsubstitutedGreen">
-        <source>UN-substituted constants in green</source>
-        <target state="translated">constantes remplacées par l'ONU en vert</target>
-      </trans-unit>
-      <trans-unit id="currentTemplate">
-        <source>Current template</source>
-        <target state="translated">Modèle actuel</target>
-      </trans-unit>
-      <trans-unit id="badProperty">
-        <source>Bad property!</source>
-        <target state="translated">Mauvaise propriété !</target>
-      </trans-unit>
-      <trans-unit id="noSpaces">
-        <source>You must enter a property with characters a-z, A-Z and 0-9, no spaces!</source>
-        <target state="translated">Vous devez entrer une propriété avec des caractères a-z, A-Z et 0-9, pas d'espace!</target>
-      </trans-unit>
-      <trans-unit id="nothingUpdated">
-        <source>Nothing was updated!</source>
-        <target state="translated">Rien n'a été mis à jour !</target>
-      </trans-unit>
-      <trans-unit id="propertyAdded">
-        <source>Property added</source>
-        <target state="translated">Propriété ajoutée</target>
-      </trans-unit>
-      <trans-unit id="valueUpdated">
-        <source>Value updated</source>
-        <target state="translated">Valeur mise à jour</target>
-      </trans-unit>
-      <trans-unit id="objectCleared">
-        <source>Object cleared</source>
-        <target state="translated">Objet effacé</target>
-      </trans-unit>
-      <trans-unit id="updateButton">
-        <source>Update</source>
-        <target state="translated">Mise à jour</target>
-      </trans-unit>
-      <trans-unit id="editProperty">
-        <source>Edit object/property value</source>
-        <target state="translated">Modifier la valeur objet/propriété</target>
-      </trans-unit>
-      <trans-unit id="addButton">
-        <source>Add</source>
-        <target state="translated">Ajouter</target>
-      </trans-unit>
-      <trans-unit id="addProperty">
-        <source>Add object property</source>
-        <target state="translated">Ajouter une propriété objet</target>
-      </trans-unit>
-      <trans-unit id="clear">
-        <source>Clear?</source>
-        <target state="translated">Effacer ?</target>
-      </trans-unit>
-      <trans-unit id="clearButton">
-        <source>Clear</source>
-        <target state="translated">Effacer</target>
-      </trans-unit>
-      <trans-unit id="clearObject">
-        <source>Clear object</source>
-        <target state="translated">Effacer l'objet</target>
-      </trans-unit>
-      <trans-unit id="edit">
-        <source>Edit</source>
-        <target state="translated">Editer</target>
-      </trans-unit>
-      <trans-unit id="noCurrentTemplate">
-        <source>You cannot edit properties and values, if there's no current template.</source>
-        <target state="translated">Vous ne pouvez pas modifier les propriétés et les valeurs, s'il n'y a pas de modèle actuel.</target>
-      </trans-unit>
-      <trans-unit id="addKey">
-        <source>Add key "%s" to Object List</source>
-        <target state="translated">Ajouter la clé "%s" à la liste des objets</target>
-      </trans-unit>
-      <trans-unit id="back">
-        <source>Back</source>
-        <target state="translated">Retour</target>
-      </trans-unit>
-      <trans-unit id="browse">
-        <source>Browse</source>
-        <target state="translated">Parcourir</target>
-      </trans-unit>
-      <trans-unit id="objectList">
-        <source>Object List</source>
-        <target state="translated">Liste des objets</target>
-      </trans-unit>
-      <trans-unit id="search">
-        <source>Search</source>
-        <target state="translated">Recherche</target>
-      </trans-unit>
-      <trans-unit id="regExp">
-        <source>Regular expressions</source>
-        <target state="translated">Expressions régulières</target>
-      </trans-unit>
-      <trans-unit id="errorsWarnings">
-        <source>Errors and warnings</source>
-        <target state="translated">Erreurs et avertissements</target>
-      </trans-unit>
-      <trans-unit id="errorShowDetails">
-        <source>Show details</source>
-        <target state="translated">Afficher les détails</target>
-      </trans-unit>
-      <trans-unit id="removeKey">
-        <source>Remove key from OL</source>
-        <target state="translated">Supprimer la clé de OL</target>
-      </trans-unit>
-      <trans-unit id="setupRoot">
-        <source>setup root</source>
-        <target state="translated">configuration root</target>
-      </trans-unit>
-      <trans-unit id="constantRoot">
-        <source>constants root</source>
-        <target state="translated">racine des constantes</target>
-      </trans-unit>
-      <trans-unit id="displayComments">
-        <source>Display comments</source>
-        <target state="translated">Afficher les commentaires</target>
-      </trans-unit>
-      <trans-unit id="sortAlphabetically">
-        <source>Sort alphabetically</source>
-        <target state="translated">Trier alphabétiquement</target>
-      </trans-unit>
-      <trans-unit id="cropLines">
-        <source>Crop lines</source>
-        <target state="translated">Lignes de crop</target>
-      </trans-unit>
-      <trans-unit id="displayConstants">
-        <source>Display constants</source>
-        <target state="translated">Afficher les constantes</target>
-      </trans-unit>
-      <trans-unit id="displayOptions">
-        <source>Display options</source>
-        <target state="translated">Options d'affichage</target>
-      </trans-unit>
-      <trans-unit id="conditions">
-        <source>Conditions</source>
-        <target state="translated">Conditions</target>
-      </trans-unit>
-      <trans-unit id="setConditions">
-        <source>Set conditions</source>
-        <target state="translated">Définir les conditions</target>
-      </trans-unit>
-      <trans-unit id="severity.1">
-        <source>Info</source>
-        <target state="translated">Info</target>
-      </trans-unit>
-      <trans-unit id="severity.2">
-        <source>Warning</source>
-        <target state="translated">Avertissement</target>
-      </trans-unit>
-      <trans-unit id="severity.3">
-        <source>Error</source>
-        <target state="translated">Erreur</target>
-      </trans-unit>
-      <trans-unit id="error.1446559458">
-        <source>Error evaluating regular expression "%s".</source>
-        <target state="translated">Erreur lors de l'évaluation de l'expression régulière "%s".</target>
-      </trans-unit>
-    </body>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</body>
   </file>
 </xliff>
