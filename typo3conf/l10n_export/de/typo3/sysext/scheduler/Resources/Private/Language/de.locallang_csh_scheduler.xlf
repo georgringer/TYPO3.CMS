@@ -3,185 +3,46 @@
   <file t3:id="1415814985" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="scheduler" target-language="de">
     <header/>
     <body>
-      <trans-unit id=".alttitle">
-        <source>Scheduler</source>
-        <target state="translated">Zeitplan</target>
-      </trans-unit>
-      <trans-unit id=".description">
-        <source>The Scheduler provides an interface to register and manage recurring or one-time tasks.</source>
-        <target state="translated">Der Scheduler bietet eine Schnittstelle, um wiederkehrende oder einmalige Aufgaben zu registrieren und zu verwalten.</target>
-      </trans-unit>
-      <trans-unit id=".syntax">
-        <source>The Scheduler uses a single cron job to handle all registered tasks. It is thus very convenient as only one cron job needs to be set up and all task frequencies can be managed from the BE module.</source>
-        <target state="translated">Der Scheduler verwendet einen einzigen Cron-Job, um alle registrierten Aufgaben zu bewältigen. Es ist daher sehr bequem, da nur ein Cron-Job eingerichtet werden muss und alle Task-Frequenzen vom BE-Modul verwaltet werden können.</target>
-      </trans-unit>
-      <trans-unit id="task_class.alttitle">
-        <source>Class of the task</source>
-        <target state="translated">Klasse der Aufgabe</target>
-      </trans-unit>
-      <trans-unit id="task_class.description">
-        <source>Choose a class from the list of available tasks</source>
-        <target state="translated">Wählen Sie eine Klasse aus der Liste der verfügbaren Aufgaben</target>
-      </trans-unit>
-      <trans-unit id="task_class.details">
-        <source>Some tasks are provided by the TYPO3 Core itself. Others come from extensions. See the manual to learn how to create your own tasks and register them with the Scheduler.</source>
-        <target state="translated">Einige Aufgaben werden vom TYPO3 Core selbst bereitgestellt. Andere kommen aus Erweiterungen. Siehe das Handbuch, um zu erfahren, wie Sie Ihre eigenen Aufgaben erstellen und mit dem Scheduler registrieren können.</target>
-      </trans-unit>
-      <trans-unit id="task_disable.alttitle">
-        <source>Disable task</source>
-        <target state="translated">Aufgabe deaktivieren</target>
-      </trans-unit>
-      <trans-unit id="task_disable.description">
-        <source>Check this box to disable the automatic, scheduled execution of this task. It can still be launched manually from the BE module.</source>
-        <target state="translated">Aktivieren Sie dieses Feld, um die automatische, geplante Ausführung dieser Aufgabe zu deaktivieren. Es kann trotzdem manuell aus dem BE-Modul gestartet werden.</target>
-      </trans-unit>
-      <trans-unit id="task_type.alttitle">
-        <source>Type of task</source>
-        <target state="translated">Art der Aufgabe</target>
-      </trans-unit>
-      <trans-unit id="task_type.description">
-        <source>Choose whether the task must happen a single time or will be repeated</source>
-        <target state="translated">Wählen Sie, ob die Aufgabe eine einzelne Zeit passieren muss oder wiederholt wird</target>
-      </trans-unit>
-      <trans-unit id="task_start.alttitle">
-        <source>Start of task</source>
-        <target state="translated">Start der Aufgabe</target>
-      </trans-unit>
-      <trans-unit id="task_start.description">
-        <source>Enter a start date and time for the task</source>
-        <target state="translated">Startdatum und Zeit für die Aufgabe eingeben</target>
-      </trans-unit>
-      <trans-unit id="task_start.details" xml:space="preserve">
-				<source>Date must be entered in a standard format like HH:mm dd-mm-YYYY or YYYY-mm-dd HH:mm. Natural keywords can also be used, like "now" or "tomorrow".
-Date and time must correspond to the server's time zone.</source>
-			<target state="translated">Das Datum muss in ein Standardformat wie HH:mm dd-mm-YYYY oder YYYY-mm-dd HH:mm eingegeben werden. Natürliche Stichwörter können auch verwendet werden, wie "jetzt" oder "morgen".
-Datum und Zeit müssen der Zeitzone des Servers entsprechen.</target></trans-unit>
-      <trans-unit id="task_end.alttitle">
-        <source>End of task</source>
-        <target state="translated">Ende der Aufgabe</target>
-      </trans-unit>
-      <trans-unit id="task_end.description">
-        <source>Enter an end date and time for the task, can be blank</source>
-        <target state="translated">Geben Sie ein Enddatum und die Zeit für die Aufgabe ein, kann leer sein</target>
-      </trans-unit>
-      <trans-unit id="task_end.details" xml:space="preserve">
-				<source>Date must be entered in a standard format like HH:mm dd-mm-YYYY or YYYY-mm-dd HH:mm. Natural keywords can also be used, like "now" or "tomorrow".
-Date and time must correspond to the server's time zone.
-
-Can be left blank, if task is not supposed to end at any point.</source>
-			<target state="translated">Das Datum muss in ein Standardformat wie HH:mm dd-mm-YYYY oder YYYY-mm-dd HH:mm eingegeben werden. Natürliche Schlüsselwörter können auch verwendet werden, wie "jetzt" oder "morgen".
-Datum und Zeit müssen der Zeitzone des Servers entsprechen.
-
-Kann leer gelassen werden, wenn die Aufgabe nicht irgendwann beendet werden soll.</target></trans-unit>
-      <trans-unit id="task_frequency.alttitle">
-        <source>Frequency of task</source>
-        <target state="translated">Häufigkeit der Aufgabe</target>
-      </trans-unit>
-      <trans-unit id="task_frequency.description">
-        <source>Enter a frequency, either in seconds or using a cron-like syntax (minutes, hours, day of month, months and day of week)</source>
-        <target state="translated">Geben Sie eine Frequenz ein, entweder in Sekunden oder mit einer cron-ähnlichen Syntax (Minuten, Stunden, Tag des Monats, Monate und Tag der Woche)</target>
-      </trans-unit>
-      <trans-unit id="task_frequency.details" xml:space="preserve">
-				<source>The frequency of the task can be simply entered as a number of seconds.
-
-Alternatively it is possible to use the same syntax as for cron jobs. This is simply a list of five numbers or the wildcard "*", separated by blanks. The five numbers are (in order) minutes, hours, day of month, months and day of week. Examples:
-
-*/5 * * * * means every 5 minutes
-30 22 * * * means every day at 22:30
-
-The Scheduler supports the full cron syntax.</source>
-			<target state="translated">Die Häufigkeit der Aufgabe kann einfach als Anzahl von Sekunden eingegeben werden.
-
-Alternativ ist es möglich, die gleiche Syntax wie für Cron-Jobs zu verwenden. Dies ist einfach eine Liste von fünf Zahlen oder der Wildcard "*", getrennt durch Leerzeichen. Die fünf Zahlen sind (in Ordnung) Minuten, Stunden, Tag des Monats, Monate und Tag der Woche. Beispiele:
-
-*/5 * * * * bedeutet alle 5 Minuten
-30 22 * * bedeutet jeden Tag um 22:30
-
-Der Scheduler unterstützt die vollständige Cron-Syntax.</target></trans-unit>
-      <trans-unit id="task_frequency.seeAlso">
-        <source>Wikipedia reference|http://en.wikipedia.org/wiki/Cron</source>
-        <target state="translated">Wikipedia-Referenz|http://de.wikipedia.org/wiki/Cron</target>
-      </trans-unit>
-      <trans-unit id="task_multiple.alttitle">
-        <source>Multiple executions</source>
-        <target state="translated">Mehrere Exekutionen</target>
-      </trans-unit>
-      <trans-unit id="task_multiple.description">
-        <source>Choose whether a task can be running several times simultaneously or not</source>
-        <target state="translated">Wählen Sie, ob eine Aufgabe mehrere Male gleichzeitig ausgeführt werden kann oder nicht</target>
-      </trans-unit>
-      <trans-unit id="task_email.alttitle">
-        <source>Email address</source>
-        <target state="translated">E-Mail-Adresse</target>
-      </trans-unit>
-      <trans-unit id="task_email.description">
-        <source>Enter a recipient for the mails sent by the test task</source>
-        <target state="translated">Geben Sie einen Empfänger für die von der Testaufgabe gesendeten Mails ein</target>
-      </trans-unit>
-      <trans-unit id="task_description.alttitle">
-        <source>Task description</source>
-        <target state="translated">Aufgabenbeschreibung</target>
-      </trans-unit>
-      <trans-unit id="task_description.description">
-        <source>Enter a description for this task</source>
-        <target state="translated">Beschreibung für diese Aufgabe eingeben</target>
-      </trans-unit>
-      <trans-unit id="task_group.alttitle">
-        <source>Task group</source>
-        <target state="translated">Aufgabengruppe</target>
-      </trans-unit>
-      <trans-unit id="task_group.description">
-        <source>In case of a high number of different tasks, it may be useful to visually group similar tasks.</source>
-        <target state="translated">Bei einer Vielzahl unterschiedlicher Aufgaben kann es nützlich sein, ähnliche Aufgaben visuell zu gruppieren.</target>
-      </trans-unit>
-      <trans-unit id="task_sleepTime.alttitle">
-        <source>Sleep time</source>
-        <target state="translated">Schlafzeit</target>
-      </trans-unit>
-      <trans-unit id="task_sleepTime.description">
-        <source>Enter a number of seconds during which the task will just sleep.</source>
-        <target state="translated">Geben Sie eine Anzahl von Sekunden ein, in denen die Aufgabe nur schlafen wird.</target>
-      </trans-unit>
-      <trans-unit id="task_cachingFrameworkGarbageCollection_selectedBackends.alttitle">
-        <source>Select backends</source>
-        <target state="translated">Backends auswählen</target>
-      </trans-unit>
-      <trans-unit id="task_cachingFrameworkGarbageCollection_selectedBackends.description">
-        <source>If a cache uses one of the selected backends, the garbage collection will be called for this cache.</source>
-        <target state="translated">Wenn ein Cache eines der ausgewählten Backends verwendet, wird die Müll-Sammlung für diesen Cache aufgerufen.</target>
-      </trans-unit>
-      <trans-unit id="task_tableGarbageCollection_numberOfDays.alttitle">
-        <source>Number of days</source>
-        <target state="translated">Anzahl der Tage</target>
-      </trans-unit>
-      <trans-unit id="task_tableGarbageCollection_numberOfDays.description">
-        <source>Delete rows from selected table that are older than given number of days.</source>
-        <target state="translated">Zeilen aus der ausgewählten Tabelle löschen, die älter sind als die angegebene Anzahl von Tagen.</target>
-      </trans-unit>
-      <trans-unit id="task_tableGarbageCollection_table.alttitle">
-        <source>Select table</source>
-        <target state="translated">Tabelle auswählen</target>
-      </trans-unit>
-      <trans-unit id="task_tableGarbageCollection_table.description">
-        <source>Select one of the registered tables to be cleaned up with this task.</source>
-        <target state="translated">Wählen Sie eine der registrierten Tabellen aus, die mit dieser Aufgabe gereinigt werden sollen.</target>
-      </trans-unit>
-      <trans-unit id="task_tableGarbageCollection_allTables.alttitle">
-        <source>Clean up all tables</source>
-        <target state="translated">Alle Tabellen bereinigen</target>
-      </trans-unit>
-      <trans-unit id="task_tableGarbageCollection_allTables.description">
-        <source>If selected, all configured tables are cleaned. The selection below is ignored.</source>
-        <target state="translated">Wenn ausgewählt, werden alle konfigurierten Tabellen gereinigt. Die unten stehende Auswahl wird ignoriert.</target>
-      </trans-unit>
-      <trans-unit id="task_recyclerGarbageCollection_numberOfDays.alttitle">
-        <source>Number of days</source>
-        <target state="translated">Anzahl der Tage</target>
-      </trans-unit>
-      <trans-unit id="task_recyclerGarbageCollection_numberOfDays.description">
-        <source>Delete files in _recycler_ folders that are older than the given number of days.</source>
-        <target state="translated">Löschen Sie Dateien in _recycler_ Ordnern, die älter sind als die angegebene Anzahl von Tagen.</target>
-      </trans-unit>
-    </body>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</body>
   </file>
 </xliff>
