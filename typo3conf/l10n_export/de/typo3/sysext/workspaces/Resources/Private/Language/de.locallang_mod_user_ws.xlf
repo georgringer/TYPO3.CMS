@@ -3,598 +3,154 @@
   <file t3:id="1415814876" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="de">
     <header/>
     <body>
-      <trans-unit id="mlang_labels_tablabel">
-        <source>Workspace overview</source>
-        <target state="translated">Arbeitsbereich Übersicht</target>
-      </trans-unit>
-      <trans-unit id="mlang_labels_tabdescr">
-        <source>Workspace overview showing the changes you have made in the workspace. Here you can also publish the changes to the website if you are allowed to do that.</source>
-        <target state="translated">Die Übersicht über den Arbeitsbereich zeigt die Änderungen, die Sie im Arbeitsbereich vorgenommen haben. Hier können Sie auch die Änderungen der Website veröffentlichen, wenn Sie dies zulassen.</target>
-      </trans-unit>
-      <trans-unit id="mlang_tabs_tab">
-        <source>Workspace</source>
-        <target state="translated">Arbeitsbereich</target>
-      </trans-unit>
-      <trans-unit id="title">
-        <source>Workspace Manager</source>
-        <target state="translated">Arbeitsbereich-Manager</target>
-      </trans-unit>
-      <trans-unit id="menuitem_review">
-        <source>Review and Publish</source>
-        <target state="translated">Bewertung und Veröffentlichung</target>
-      </trans-unit>
-      <trans-unit id="menuitem_workspaces">
-        <source>Workspace List</source>
-        <target state="translated">Arbeitsbereich-Liste</target>
-      </trans-unit>
-      <trans-unit id="filter_drafts">
-        <source>Drafts</source>
-        <target state="translated">Entwürfe</target>
-      </trans-unit>
-      <trans-unit id="filter_archive">
-        <source>Archive</source>
-        <target state="translated">Archiv</target>
-      </trans-unit>
-      <trans-unit id="filter_all">
-        <source>All</source>
-        <target state="translated">Alle</target>
-      </trans-unit>
-      <trans-unit id="diff_no_diff">
-        <source>Do not show differences</source>
-        <target state="translated">Unterschiede nicht anzeigen</target>
-      </trans-unit>
-      <trans-unit id="diff_show_inline">
-        <source>Show differences inline</source>
-        <target state="translated">Unterschiede Inline anzeigen</target>
-      </trans-unit>
-      <trans-unit id="diff_show_popup">
-        <source>Show diff. popups (branches)</source>
-        <target state="translated">Diff. Popups anzeigen (Branches)</target>
-      </trans-unit>
-      <trans-unit id="label_errors">
-        <source>Errors</source>
-        <target state="translated">Fehler</target>
-      </trans-unit>
-      <trans-unit id="workspace_description_live">
-        <source>The LIVE workspace allows changes to take effect immediately on the website. However versioning can be applied inside the live workspace and this overview shows you draft and archive versions from the various workspaces, including the LIVE workspace.</source>
-        <target state="translated">Der LIVE-Arbeitsbereich ermöglicht Änderungen sofort auf der Website zu wirken, aber das Versionieren kann innerhalb des Live-Arbeitsbereichs angewendet werden und diese Übersicht zeigt Ihnen Entwürfe und Archivierungen aus den verschiedenen Arbeitsbereichen, einschließlich des LIVE-Arbeitsbereichs.</target>
-      </trans-unit>
-      <trans-unit id="workspace_description_draft">
-        <source>In the Draft workspace all changes will be made as new versions of the live content. Changes can be previewed, reviewed and eventually published live.</source>
-        <target state="translated">Im Arbeitsbereich Entwurf werden alle Änderungen als neue Versionen des Live-Inhalts vorgenommen. Änderungen können angezeigt, überprüft und am Ende live veröffentlicht werden.</target>
-      </trans-unit>
-      <trans-unit id="workspace_description_no_access">
-        <source>You have no access to any workspace which might be an error. Please contact you administrator!</source>
-        <target state="translated">Sie haben keinen Zugriff auf einen Arbeitsbereich, der möglicherweise ein Fehler ist. Bitte kontaktieren Sie Ihren Administrator!</target>
-      </trans-unit>
-      <trans-unit id="edit_workspace_no_permission">
-        <source>You have no permission to edit this workspace. Only admin users or owners of the workspace can modify its parameters.</source>
-        <target state="translated">Sie haben keine Berechtigung, diesen Arbeitsbereich zu bearbeiten. Nur Administratoren oder Eigentümer des Arbeitsbereichs können seine Parameter ändern.</target>
-      </trans-unit>
-      <trans-unit id="create_workspace_no_permission">
-        <source>You have no permission to create workspaces. Only admin users can create workspaces.</source>
-        <target state="translated">Sie haben keine Berechtigung, Arbeitsbereiche zu erstellen. Nur Administratoren können Arbeitsbereiche erstellen.</target>
-      </trans-unit>
-      <trans-unit id="submit_publish_workspace">
-        <source>Publish workspace</source>
-        <target state="translated">Arbeitsbereich veröffentlichen</target>
-      </trans-unit>
-      <trans-unit id="submit_publish_workspace_confirmation_1">
-        <source>Are you sure you want to publish all content in "Publish" stage from the workspace?</source>
-        <target state="translated">Sind Sie sicher, dass Sie alle Inhalte in der "Publish"-Phase aus dem Arbeitsbereich veröffentlichen möchten?</target>
-      </trans-unit>
-      <trans-unit id="submit_publish_workspace_confirmation_2">
-        <source>Are you sure you want to publish all content from the workspace?</source>
-        <target state="translated">Sind Sie sicher, dass Sie alle Inhalte aus dem Arbeitsbereich veröffentlichen möchten?</target>
-      </trans-unit>
-      <trans-unit id="submit_swap_workspace">
-        <source>Swap workspace</source>
-        <target state="translated">Arbeitsbereich tauschen</target>
-      </trans-unit>
-      <trans-unit id="submit_swap_workspace_confirmation_1">
-        <source>Are you sure you want to publish (swap) all content in "Publish" stage from the workspace?</source>
-        <target state="translated">Sind Sie sicher, dass Sie alle Inhalte in der "Publish"-Phase aus dem Arbeitsbereich veröffentlichen möchten?</target>
-      </trans-unit>
-      <trans-unit id="submit_swap_workspace_confirmation_2">
-        <source>Are you sure you want to publish (swap) all content from the workspace?</source>
-        <target state="translated">Sind Sie sicher, dass Sie alle Inhalte aus dem Arbeitsbereich veröffentlichen möchten (Swap).</target>
-      </trans-unit>
-      <trans-unit id="submit_apply_action_on_selected_elements">
-        <source>Sure you want to perform this action with selected elements?</source>
-        <target state="translated">Sicher, dass Sie diese Aktion mit ausgewählten Elementen ausführen möchten?</target>
-      </trans-unit>
-      <trans-unit id="no_publish_permission">
-        <source>You are not permitted to publish from this workspace</source>
-        <target state="translated">Sie dürfen nicht aus diesem Arbeitsbereich veröffentlichen</target>
-      </trans-unit>
-      <trans-unit id="label_workspace">
-        <source>Workspace</source>
-        <target state="translated">Arbeitsbereich</target>
-      </trans-unit>
-      <trans-unit id="label_description">
-        <source>Description</source>
-        <target state="translated">Beschreibung</target>
-      </trans-unit>
-      <trans-unit id="label_options">
-        <source>Options</source>
-        <target state="translated">Optionen</target>
-      </trans-unit>
-      <trans-unit id="label_status">
-        <source>Status</source>
-        <target state="translated">Status</target>
-      </trans-unit>
-      <trans-unit id="label_pagetree">
-        <source>Pagetree</source>
-        <target state="translated">Pagetree</target>
-      </trans-unit>
-      <trans-unit id="label_live_version">
-        <source>Live Version</source>
-        <target state="translated">Live-Version</target>
-      </trans-unit>
-      <trans-unit id="label_draft_versions">
-        <source>Workspace Versions</source>
-        <target state="translated">Arbeitsbereich-Versionen</target>
-      </trans-unit>
-      <trans-unit id="label_stage">
-        <source>Stage</source>
-        <target state="translated">Stufe</target>
-      </trans-unit>
-      <trans-unit id="label_publish">
-        <source>Publish</source>
-        <target state="translated">Veröffentlichen</target>
-      </trans-unit>
-      <trans-unit id="label_lifecycle">
-        <source>Lifecycle</source>
-        <target state="translated">Lebenszyklus</target>
-      </trans-unit>
-      <trans-unit id="label_access_level">
-        <source>Access level</source>
-        <target state="translated">Zugriffsstufe</target>
-      </trans-unit>
-      <trans-unit id="img_title_publish">
-        <source>Publish</source>
-        <target state="translated">Veröffentlichen</target>
-      </trans-unit>
-      <trans-unit id="img_title_swap">
-        <source>Swap</source>
-        <target state="translated">Swap</target>
-      </trans-unit>
-      <trans-unit id="remove_from_ws_confirmation">
-        <source>Remove from workspace?</source>
-        <target state="translated">Aus Arbeitsbereich entfernen?</target>
-      </trans-unit>
-      <trans-unit id="img_title_remove_from_ws">
-        <source>Remove from workspace?</source>
-        <target state="translated">Aus Arbeitsbereich entfernen?</target>
-      </trans-unit>
-      <trans-unit id="img_title_edit_page">
-        <source>Edit page</source>
-        <target state="translated">Seite bearbeiten</target>
-      </trans-unit>
-      <trans-unit id="img_title_edit_element">
-        <source>Edit element</source>
-        <target state="translated">Element bearbeiten</target>
-      </trans-unit>
-      <trans-unit id="img_title_show_log">
-        <source>Show Log</source>
-        <target state="translated">Log anzeigen</target>
-      </trans-unit>
-      <trans-unit id="diffview_label_field_name">
-        <source>Fieldname</source>
-        <target state="translated">Feldname</target>
-      </trans-unit>
-      <trans-unit id="diffview_label_colored_diff_view">
-        <source>Colored diff-view</source>
-        <target state="translated">Farbige Diff-Ansicht</target>
-      </trans-unit>
-      <trans-unit id="diffview_complete_match">
-        <source>Complete match on editable fields.</source>
-        <target state="translated">Schließe das Spiel auf bearbeitbare Felder ab.</target>
-      </trans-unit>
-      <trans-unit id="diffview_cannot_find_records">
-        <source>ERROR: Records could strangely not be found!</source>
-        <target state="translated">FEHLER: Die Aufnahmen konnten seltsam nicht gefunden werden!</target>
-      </trans-unit>
-      <trans-unit id="img_title_show_more">
-        <source>Show more</source>
-        <target state="translated">Mehr anzeigen</target>
-      </trans-unit>
-      <trans-unit id="img_title_current_workspace">
-        <source>This is a current workspace!</source>
-        <target state="translated">Dies ist ein aktueller Arbeitsbereich!</target>
-      </trans-unit>
-      <trans-unit id="img_title_create_new_workspace">
-        <source>Create new workspace</source>
-        <target state="translated">Neuen Arbeitsbereich erstellen</target>
-      </trans-unit>
-      <trans-unit id="link_text_create_new_workspace">
-        <source>Create new workspace</source>
-        <target state="translated">Neuen Arbeitsbereich erstellen</target>
-      </trans-unit>
-      <trans-unit id="edit_workspace_go_back">
-        <source>Go back</source>
-        <target state="translated">Zurück</target>
-      </trans-unit>
-      <trans-unit id="edit_workspace_title_edit">
-        <source>Edit workspace</source>
-        <target state="translated">Arbeitsbereich bearbeiten</target>
-      </trans-unit>
-      <trans-unit id="edit_workspace_title_new">
-        <source>Create new workspace</source>
-        <target state="translated">Neuen Arbeitsbereich erstellen</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_label_current_workspace">
-        <source>Current</source>
-        <target state="translated">Aktuelle</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_label_workspace_title">
-        <source>Title</source>
-        <target state="translated">Titel</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_label_workspace_description">
-        <source>Description</source>
-        <target state="translated">Beschreibung</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_label_owners">
-        <source>Owners</source>
-        <target state="translated">Besitzer</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_label_members">
-        <source>Members</source>
-        <target state="translated">Mitglieder</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_label_reviewers">
-        <source>Reviewers</source>
-        <target state="translated">Reviewer</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_access_admins_only">
-        <source>Admins only</source>
-        <target state="translated">Nur Admins</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_access_anyone">
-        <source>no restrictions</source>
-        <target state="translated">keine Einschränkungen</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_label_file_mountpoints">
-        <source>File mountpoints</source>
-        <target state="translated">Dateimountpoints</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_label_db_mountpoints">
-        <source>Database mountpoints</source>
-        <target state="translated">Datenbankmountpoints</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_label_frozen">
-        <source>Frozen</source>
-        <target state="translated">Gefroren</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_label_publish_date">
-        <source>Publish date</source>
-        <target state="translated">Veröffentlichungsdatum</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_label_unpublish_date">
-        <source>Unpublish date</source>
-        <target state="translated">Datum entfernen</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_label_your_access">
-        <source>Your access</source>
-        <target state="translated">Ihr Zugriff</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_label_workspace_users">
-        <source>Workspace users</source>
-        <target state="translated">Arbeitsbereich Benutzer</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_label_frozen_yes">
-        <source>Yes</source>
-        <target state="translated">Ja</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_label_frozen_no">
-        <source>No</source>
-        <target state="translated">Nein</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_icon_title_edit_workspace">
-        <source>Edit workspace</source>
-        <target state="translated">Arbeitsbereich bearbeiten</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_icon_title_switch_workspace">
-        <source>Switch workspace</source>
-        <target state="translated">Arbeitsbereich wechseln</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_access_admin">
-        <source>Admin</source>
-        <target state="translated">Admin</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_access_online">
-        <source>Online</source>
-        <target state="translated">Online</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_access_offline">
-        <source>Offline</source>
-        <target state="translated">Offline</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_access_owner">
-        <source>Owner</source>
-        <target state="translated">Besitzer</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_access_member">
-        <source>Member</source>
-        <target state="translated">Mitglied</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_access_reviewer">
-        <source>Reviewer</source>
-        <target state="translated">Reviewer</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_publishing_count_draft">
-        <source>Draft</source>
-        <target state="translated">Entwurf</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_publishing_count_archive">
-        <source>Archive</source>
-        <target state="translated">Archiv</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_publishing_count">
-        <source>Published %d times</source>
-        <target state="translated">Veröffentlicht %d mal</target>
-      </trans-unit>
-      <trans-unit id="stage_sent_to_review">
-        <source>"%s" sent element to "Review"</source>
-        <target state="translated">"%s" hat Element an "Überprüfung" gesendet</target>
-      </trans-unit>
-      <trans-unit id="stage_approved_for_publish">
-        <source>"%s" approved for "Publish"</source>
-        <target state="translated">"%s" genehmigt für "Veröffentlichen"</target>
-      </trans-unit>
-      <trans-unit id="stage_rejected">
-        <source>"%s" rejected element!</source>
-        <target state="translated">"%s" lehnte das Element ab!</target>
-      </trans-unit>
-      <trans-unit id="stage_reset_to_editing">
-        <source>"%s" reset to "Editing"</source>
-        <target state="translated">"%s" Zurücksetzen auf "Bearbeiten"</target>
-      </trans-unit>
-      <trans-unit id="stage_undefined">
-        <source>[undefined]</source>
-        <target state="translated">[undefined]</target>
-      </trans-unit>
-      <trans-unit id="stage_label_user_comment">
-        <source>User Comment</source>
-        <target state="translated">Benutzerkommentar</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_mount_point_inaccessible">
-        <source>This mount point is defined for workspace but not accessible to you. If you need access to this mount point, ask your system administrator to give you access to it.</source>
-        <target state="translated">Dieser Mount-Punkt ist für den Arbeitsbereich definiert, aber nicht für Sie zugänglich. Wenn Sie Zugriff auf diesen Mount-Punkt benötigen, bitten Sie Ihren Systemadministrator, Ihnen Zugang zu ihm zu geben.</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_file_mount_point_live">
-        <source>Mount points from user profile are used.</source>
-        <target state="translated">Die Mount-Punkte aus dem Benutzerprofil werden verwendet.</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_file_mount_point_draft">
-        <source>File mount points are not available in draft workspace.</source>
-        <target state="translated">Dateimount-Punkte sind im Arbeitsbereich nicht verfügbar.</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_file_mount_point_custom">
-        <source>File mount points are not defined for this workspace. Therefore no file mount points available in the workspace.</source>
-        <target state="translated">Dateimount-Punkte sind für diesen Arbeitsbereich nicht definiert. Daher sind keine Dateimount-Punkte im Arbeitsbereich verfügbar.</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_db_mount_point_live">
-        <source>Mount points from user profile are used.</source>
-        <target state="translated">Die Mount-Punkte aus dem Benutzerprofil werden verwendet.</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_db_mount_point_draft">
-        <source>Mount points from user profile are used.</source>
-        <target state="translated">Die Mount-Punkte aus dem Benutzerprofil werden verwendet.</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_db_mount_point_custom">
-        <source>Mount points from user profile are used.</source>
-        <target state="translated">Die Mount-Punkte aus dem Benutzerprofil werden verwendet.</target>
-      </trans-unit>
-      <trans-unit id="publish_title">
-        <source>Publish workspace</source>
-        <target state="translated">Arbeitsbereich veröffentlichen</target>
-      </trans-unit>
-      <trans-unit id="swap_title">
-        <source>Swap workspace</source>
-        <target state="translated">Arbeitsbereich tauschen</target>
-      </trans-unit>
-      <trans-unit id="publish_status">
-        <source>Published records &lt;strong&gt;%d&lt;/strong&gt; to &lt;strong&gt;%d&lt;/strong&gt; of &lt;strong&gt;%d&lt;/strong&gt;.</source>
-        <target state="translated">Veröffentlichte Datensätze &lt;strong&gt;%d&lt;/strong&gt; &lt;strong&gt;%d&lt;/strong&gt; von &lt;strong&gt;%d&lt;/strong&gt;.</target>
-      </trans-unit>
-      <trans-unit id="swap_status">
-        <source>Swapped records &lt;strong&gt;%d&lt;/strong&gt; to &lt;strong&gt;%d&lt;/strong&gt; of &lt;strong&gt;%d&lt;/strong&gt;.</source>
-        <target state="translated">Tauschte Datensätze &lt;strong&gt;%d&lt;/strong&gt; zu &lt;strong&gt;%d&lt;/strong&gt; von &lt;strong&gt;%d&lt;/strong&gt;.</target>
-      </trans-unit>
-      <trans-unit id="publish_prepare">
-        <source>TYPO3 is preparing to publish records.</source>
-        <target state="translated">TYPO3 bereitet sich auf die Veröffentlichung von Datensätzen vor.</target>
-      </trans-unit>
-      <trans-unit id="swap_prepare">
-        <source>TYPO3 is preparing to swap records.</source>
-        <target state="translated">TYPO3 bereitet sich auf den Austausch von Datensätzen vor.</target>
-      </trans-unit>
-      <trans-unit id="please_wait">
-        <source>Please, wait...</source>
-        <target state="translated">Bitte warten...</target>
-      </trans-unit>
-      <trans-unit id="return_to_index">
-        <source>Return to Workspace module</source>
-        <target state="translated">Zurück zum Workspace-Modul</target>
-      </trans-unit>
-      <trans-unit id="do_not_interrupt_publishing_1">
-        <source>Do not interrupt publishing process or</source>
-        <target state="translated">Veröffentlichungsprozess nicht unterbrechen oder</target>
-      </trans-unit>
-      <trans-unit id="do_not_interrupt_publishing_2">
-        <source>workspace may be left in half-published state!</source>
-        <target state="translated">Arbeitsbereich kann im halbveröffentlichten Zustand verbleiben!</target>
-      </trans-unit>
-      <trans-unit id="workspace_published">
-        <source>Workspace has been published.</source>
-        <target state="translated">Arbeitsbereich wurde veröffentlicht.</target>
-      </trans-unit>
-      <trans-unit id="workspace_swapped">
-        <source>Workspace has been swapped.</source>
-        <target state="translated">Arbeitsbereich wurde vertauscht.</target>
-      </trans-unit>
-      <trans-unit id="label_reject">
-        <source>Reject</source>
-        <target state="translated">Zurückweisen</target>
-      </trans-unit>
-      <trans-unit id="label_review">
-        <source>Review</source>
-        <target state="translated">Bewertung</target>
-      </trans-unit>
-      <trans-unit id="label_sendtoreview">
-        <source>Send to review</source>
-        <target state="translated">Zur Überprüfung senden</target>
-      </trans-unit>
-      <trans-unit id="label_approveforpublishing">
-        <source>Approve for publishing</source>
-        <target state="translated">Veröffentlichung genehmigen</target>
-      </trans-unit>
-      <trans-unit id="stage_editing">
-        <source>Editing</source>
-        <target state="translated">Bearbeiten</target>
-      </trans-unit>
-      <trans-unit id="stage_review">
-        <source>Review</source>
-        <target state="translated">Bewertung</target>
-      </trans-unit>
-      <trans-unit id="stage_publish">
-        <source>Publish</source>
-        <target state="translated">Veröffentlichen</target>
-      </trans-unit>
-      <trans-unit id="label_subelements">
-        <source>Sub elements</source>
-        <target state="translated">Unterelemente</target>
-      </trans-unit>
-      <trans-unit id="label_subelementsdetails">
-        <source>Sub elements, click for details</source>
-        <target state="translated">Unterelemente, klicken Sie für Details</target>
-      </trans-unit>
-      <trans-unit id="label_commentforreviewer">
-        <source>Comment for Reviewer</source>
-        <target state="translated">Kommentar für Reviewer</target>
-      </trans-unit>
-      <trans-unit id="label_commentforpublisher">
-        <source>Comment for Publisher</source>
-        <target state="translated">Kommentar für Publisher</target>
-      </trans-unit>
-      <trans-unit id="label_resetstage">
-        <source>Reset stage</source>
-        <target state="translated">Phase zurücksetzen</target>
-      </trans-unit>
-      <trans-unit id="label_undefined">
-        <source>Undefined</source>
-        <target state="translated">Unbedefiniert</target>
-      </trans-unit>
-      <trans-unit id="explain_reject">
-        <source>Please explain why you reject</source>
-        <target state="translated">Bitte erklären Sie, warum Sie ablehnen</target>
-      </trans-unit>
-      <trans-unit id="label_element">
-        <source>Element</source>
-        <target state="translated">Element</target>
-      </trans-unit>
-      <trans-unit id="label_page">
-        <source>Page</source>
-        <target state="translated">Seite</target>
-      </trans-unit>
-      <trans-unit id="label_branch">
-        <source>Branch</source>
-        <target state="translated">Zweig</target>
-      </trans-unit>
-      <trans-unit id="label_newrecord">
-        <source>New element</source>
-        <target state="translated">Neues Element</target>
-      </trans-unit>
-      <trans-unit id="label_deletedrecord">
-        <source>Deleted element</source>
-        <target state="translated">Gelöschtes Element</target>
-      </trans-unit>
-      <trans-unit id="label_otherversions">
-        <source>Other version(s) in workspace(s)</source>
-        <target state="translated">Andere Version(en) im Arbeitsbereich(en)</target>
-      </trans-unit>
-      <trans-unit id="label_multipleversions">
-        <source>Multiple versions in same workspace!</source>
-        <target state="translated">Mehrere Versionen in demselben Arbeitsbereich!</target>
-      </trans-unit>
-      <trans-unit id="label_nestedversions">
-        <source>Version inside version!</source>
-        <target state="translated">Version in Version!</target>
-      </trans-unit>
-      <trans-unit id="label_rejected">
-        <source>Rejected</source>
-        <target state="translated">Abgelehnt</target>
-      </trans-unit>
-      <trans-unit id="label_showsubelements">
-        <source>Show sub elements</source>
-        <target state="translated">Unterelemente anzeigen</target>
-      </trans-unit>
-      <trans-unit id="label_onlymychanges">
-        <source>Show only my changes</source>
-        <target state="translated">Nur meine Änderungen anzeigen</target>
-      </trans-unit>
-      <trans-unit id="label_allWSes">
-        <source>All workspaces</source>
-        <target state="translated">Alle Arbeitsbereiche</target>
-      </trans-unit>
-      <trans-unit id="label_notapplicable">
-        <source>n/a</source>
-        <target state="translated">n/a</target>
-      </trans-unit>
-      <trans-unit id="label_percentchange">
-        <source>%%% change</source>
-        <target state="translated">%%% Änderung</target>
-      </trans-unit>
-      <trans-unit id="label_percentChange">
-        <source>%d%% change</source>
-        <target state="translated">%d%% ändern</target>
-      </trans-unit>
-      <trans-unit id="label_doaction_default">
-        <source>Do</source>
-        <target state="translated">Tun</target>
-      </trans-unit>
-      <trans-unit id="label_doaction_publish">
-        <source>Publish</source>
-        <target state="translated">Veröffentlichen</target>
-      </trans-unit>
-      <trans-unit id="label_doaction_swap">
-        <source>Swap</source>
-        <target state="translated">Swap</target>
-      </trans-unit>
-      <trans-unit id="label_doaction_release">
-        <source>Remove this version</source>
-        <target state="translated">Diese Version entfernen</target>
-      </trans-unit>
-      <trans-unit id="label_doaction_stage_reject">
-        <source>Reject changes</source>
-        <target state="translated">Änderungen ablehnen</target>
-      </trans-unit>
-      <trans-unit id="label_doaction_stage_editing">
-        <source>Send to stage: Editing</source>
-        <target state="translated">An Stufe senden: Bearbeiten</target>
-      </trans-unit>
-      <trans-unit id="label_doaction_stage_review">
-        <source>Send to stage: Review</source>
-        <target state="translated">An Stufe senden: Überprüfung</target>
-      </trans-unit>
-      <trans-unit id="label_doaction_stage_publish">
-        <source>Send to stage: Publish</source>
-        <target state="translated">An die Bühne senden: Veröffentlichen</target>
-      </trans-unit>
-      <trans-unit id="label_doaction_flush">
-        <source>Flush ALL changes/versions</source>
-        <target state="translated">Alle Änderungen/Versionen löschen</target>
-      </trans-unit>
-      <trans-unit id="label_moveto_placeholder">
-        <source>Move-to placeholder (destination)</source>
-        <target state="translated">Verschieben zum Platzhalter (Ziel)</target>
-      </trans-unit>
-      <trans-unit id="label_moveto_pointer">
-        <source>Move-to pointer (source)</source>
-        <target state="translated">Bewege den Zeiger (Quelle)</target>
-      </trans-unit>
-    </body>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</body>
   </file>
 </xliff>
