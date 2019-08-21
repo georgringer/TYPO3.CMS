@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814838" source-language="en" datatype="plaintext" original="messages" date="2011-12-18T10:19:20Z" product-name="indexed_search" target-language="it">
+    <header/>
+    <body>
+      <trans-unit id="rules.headline" approved="yes">
+        <source>Rules</source>
+        <target state="translated">Regole</target>
+      </trans-unit>
+      <trans-unit id="rules.text" xml:space="preserve" approved="yes">
+				<source><![CDATA[Only words with 2 or more characters are accepted<br />
+Max 200 chars total<br />
+Space is used to split words, "" can be used to search for a whole string (not indexed search then)<br />
+AND, OR and NOT are prefix words, overruling the default operator<br />
++/|/- equals AND, OR and NOT as operators.<br />
+All search words are converted to lowercase.
+]]></source>
+			<target state="translated"><![CDATA[Sono accettate solo parole con 2 o più caratteri&lt;br /&gt;
+Max 200 caratteri totali&lt;br /&gt;
+Lo spazio è utilizzato per dividere le parole, "" può essere usato per cercare un'intera stringa (ricerca non indicizzata)&lt;br /&gt;
+AND, OR e NOT sono prefissi che prevalgono sull'operatore predefinito&lt;br /&gt;
++/|/- sono equivalenti agli operatori AND, OR e NOT.&lt;br /&gt;
+Tutte le parole cercate saranno convertite in minuscolo.
+]]></target></trans-unit>
+      <trans-unit id="form.legend" approved="yes">
+        <source>Search form</source>
+        <target state="translated">Modulo di ricerca</target>
+      </trans-unit>
+      <trans-unit id="form.searchFor" approved="yes">
+        <source>Search for</source>
+        <target state="translated">Cerca</target>
+      </trans-unit>
+      <trans-unit id="form.orderBy" approved="yes">
+        <source>Order by</source>
+        <target state="translated">Ordina per</target>
+      </trans-unit>
+      <trans-unit id="form.freeIndexUid" approved="yes">
+        <source>Category</source>
+        <target state="translated">Categoria</target>
+      </trans-unit>
+      <trans-unit id="form.searchIn" approved="yes">
+        <source>Search in</source>
+        <target state="translated">Cerca in</target>
+      </trans-unit>
+      <trans-unit id="form.style" approved="yes">
+        <source>Style</source>
+        <target state="translated">Stile</target>
+      </trans-unit>
+      <trans-unit id="form.submit" approved="yes">
+        <source>Search</source>
+        <target state="translated">Cerca</target>
+      </trans-unit>
+      <trans-unit id="form.addToSearch" approved="yes">
+        <source>Add to current search words</source>
+        <target state="translated">Aggiungi alle chiavi di ricerca correnti</target>
+      </trans-unit>
+      <trans-unit id="form.linkToRegularSearch" approved="yes">
+        <source>Regular search</source>
+        <target state="translated">Ricerca regolare</target>
+      </trans-unit>
+      <trans-unit id="form.linkToAdvancedSearch" approved="yes">
+        <source>Advanced search</source>
+        <target state="translated">Ricerca avanzata</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.0" approved="yes">
+        <source>Distinct word</source>
+        <target state="translated">Parola distinta</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.1" approved="yes">
+        <source>Part of word</source>
+        <target state="translated">Parte di una parola</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.2" approved="yes">
+        <source>First part of word</source>
+        <target state="translated">Prima parte di una parola</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.3" approved="yes">
+        <source>Last part of word</source>
+        <target state="translated">Ultima parte di una parola</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.10" approved="yes">
+        <source>Sounds like</source>
+        <target state="translated">Suona come</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.20" approved="yes">
+        <source>Sentence</source>
+        <target state="translated">Frase</target>
+      </trans-unit>
+      <trans-unit id="defaultOperands.0" approved="yes">
+        <source>All words (AND)</source>
+        <target state="translated">Tutte le parole (AND)</target>
+      </trans-unit>
+      <trans-unit id="defaultOperands.1" approved="yes">
+        <source>Any words (OR)</source>
+        <target state="translated">Qualsiasi parola (OR)</target>
+      </trans-unit>
+      <trans-unit id="languageUids.-1" approved="yes">
+        <source>All languages</source>
+        <target state="translated">Tutte le lingue</target>
+      </trans-unit>
+      <trans-unit id="sections.0" approved="yes">
+        <source>Whole site</source>
+        <target state="translated">Sito intero</target>
+      </trans-unit>
+      <trans-unit id="sections.-1" approved="yes">
+        <source>Only this page</source>
+        <target state="translated">Solo questa pagina</target>
+      </trans-unit>
+      <trans-unit id="sections.-2" approved="yes">
+        <source>Top + level 1</source>
+        <target state="translated">Top + livello 1</target>
+      </trans-unit>
+      <trans-unit id="sections.rootLevel1All" approved="yes">
+        <source>All pages on level 1</source>
+        <target state="translated">Tutte le pagine al livello 1</target>
+      </trans-unit>
+      <trans-unit id="sections.rootLevel2All" approved="yes">
+        <source>- All pages on level 2</source>
+        <target state="translated">- Tutte le pagine al livello 2</target>
+      </trans-unit>
+      <trans-unit id="mediaTypes.0" approved="yes">
+        <source>Internal pages</source>
+        <target state="translated">Pagine interne</target>
+      </trans-unit>
+      <trans-unit id="mediaTypes.-1" approved="yes">
+        <source>All media</source>
+        <target state="translated">tutti i file multimediali</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_flag" approved="yes">
+        <source>Weight/Frequency</source>
+        <target state="translated">Peso/Frequenza</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_freq" approved="yes">
+        <source>Frequency</source>
+        <target state="translated">Frequenza</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_count" approved="yes">
+        <source>Number of words</source>
+        <target state="translated">Numero di parole</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.mtime" approved="yes">
+        <source>Date Modified</source>
+        <target state="translated">Data di modifica</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.title" approved="yes">
+        <source>Document title</source>
+        <target state="translated">Titolo del documento</target>
+      </trans-unit>
+      <trans-unit id="groupBy.flat" approved="yes">
+        <source>Flat list</source>
+        <target state="translated">Lista piatta</target>
+      </trans-unit>
+      <trans-unit id="result.page" approved="yes">
+        <source>page</source>
+        <target state="translated">pagina</target>
+      </trans-unit>
+      <trans-unit id="result.pages" approved="yes">
+        <source>pages</source>
+        <target state="translated">pagine</target>
+      </trans-unit>
+      <trans-unit id="result.noResult" approved="yes">
+        <source>No results found.</source>
+        <target state="translated">Nessun risultato trovato.</target>
+      </trans-unit>
+      <trans-unit id="result.inSection" approved="yes">
+        <source>in the section</source>
+        <target state="translated">nella sezione</target>
+      </trans-unit>
+      <trans-unit id="searchFor" approved="yes">
+        <source>Search for</source>
+        <target state="translated">Cerca</target>
+      </trans-unit>
+      <trans-unit id="searchFor.or" approved="yes">
+        <source>or</source>
+        <target state="translated">o</target>
+      </trans-unit>
+      <trans-unit id="searchFor.and" approved="yes">
+        <source>and</source>
+        <target state="translated">e</target>
+      </trans-unit>
+      <trans-unit id="searchFor.andnot" approved="yes">
+        <source>but not</source>
+        <target state="translated">ma non</target>
+      </trans-unit>
+      <trans-unit id="displayResults.previous" approved="yes">
+        <source>&lt; Previous</source>
+        <target state="translated">&lt; Precedente</target>
+      </trans-unit>
+      <trans-unit id="displayResults.page" approved="yes">
+        <source>Page</source>
+        <target state="translated">Pagina</target>
+      </trans-unit>
+      <trans-unit id="displayResults.next" approved="yes">
+        <source>Next &gt;</source>
+        <target state="translated">Successiva &gt;</target>
+      </trans-unit>
+      <trans-unit id="displayResults" approved="yes">
+        <source><![CDATA[Displaying results <strong>%1$s to %2$s</strong> out of <strong>%3$s</strong>]]></source>
+        <target state="translated"><![CDATA[Mostra risultati &lt;strong&gt;da %1$s a %2$s&lt;/strong&gt; di &lt;strong&gt;%3$s&lt;/strong&gt;]]></target>
+      </trans-unit>
+      <trans-unit id="administration.menu.general" approved="yes">
+        <source>General statistics</source>
+        <target state="translated">Statistiche generali</target>
+      </trans-unit>
+      <trans-unit id="administration.menu.statistic" approved="yes">
+        <source>Detailed statistics</source>
+        <target state="translated">Statistiche dettagliate</target>
+      </trans-unit>
+      <trans-unit id="administration.index.description" approved="yes">
+        <source>General statistics</source>
+        <target state="translated">Statistiche generali</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics" approved="yes">
+        <source>Indexing Engine Statistics</source>
+        <target state="translated">Statistiche del Motore di Indicizzazione</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.name" approved="yes">
+        <source>Name</source>
+        <target state="translated">Nome</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.word" approved="yes">
+        <source>Word</source>
+        <target state="translated">Parola</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.mostSearched.title" approved="yes">
+        <source>List of most searched words</source>
+        <target state="translated">Lista della parole più cercate</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.mostSearched.last30days" approved="yes">
+        <source>Last 30 days</source>
+        <target state="translated">Ultimi 30 giorni</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.mostSearched.last24hours" approved="yes">
+        <source>Last 24 hours</source>
+        <target state="translated">Ultime 24 ore</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.noResult" approved="yes">
+        <source>No result found</source>
+        <target state="translated">Nessun risultato trovato</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.selectPage" approved="yes">
+        <source>Please select a page in the page tree.</source>
+        <target state="translated">Seleziona una pagina dall'albero delle pagine.</target>
+      </trans-unit>
+      <trans-unit id="administration.external.title" approved="yes">
+        <source>External documents</source>
+        <target state="translated">Documenti esterni</target>
+      </trans-unit>
+      <trans-unit id="field.fileName" approved="yes">
+        <source>Filename</source>
+        <target state="translated">Nome del file</target>
+      </trans-unit>
+      <trans-unit id="field.fileSize" approved="yes">
+        <source>Filesize</source>
+        <target state="translated">Dimensione del file</target>
+      </trans-unit>
+      <trans-unit id="field.words" approved="yes">
+        <source>Words</source>
+        <target state="translated">Parole</target>
+      </trans-unit>
+      <trans-unit id="field.path" approved="yes">
+        <source>Path</source>
+        <target state="translated">Percorso</target>
+      </trans-unit>
+      <trans-unit id="field.id" approved="yes">
+        <source>Page Id</source>
+        <target state="translated">ID pagina</target>
+      </trans-unit>
+      <trans-unit id="field.uniqueId" approved="yes">
+        <source>Unique Id</source>
+        <target state="translated">ID univoco</target>
+      </trans-unit>
+      <trans-unit id="field.type" approved="yes">
+        <source>Type</source>
+        <target state="translated">Tipo</target>
+      </trans-unit>
+      <trans-unit id="field.title" approved="yes">
+        <source>Title</source>
+        <target state="translated">Titolo</target>
+      </trans-unit>
+      <trans-unit id="field.language" approved="yes">
+        <source>Language</source>
+        <target state="translated">Lingua</target>
+      </trans-unit>
+      <trans-unit id="field.frequency" approved="yes">
+        <source>Frequency</source>
+        <target state="translated">Frequenza</target>
+      </trans-unit>
+      <trans-unit id="field.content" approved="yes">
+        <source>Content</source>
+        <target state="translated">Contenuto</target>
+      </trans-unit>
+      <trans-unit id="administration.notIndexed" approved="yes">
+        <source>Not indexed?</source>
+        <target state="translated">Non indicizzato?</target>
+      </trans-unit>
+      <trans-unit id="administration.document.words" approved="yes">
+        <source>All words found on page</source>
+        <target state="translated">Tutte le parole trovate nella pagina</target>
+      </trans-unit>
+      <trans-unit id="administration.document.topFrequency" approved="yes">
+        <source>Words by frequency</source>
+        <target state="translated">Parole per frequenza</target>
+      </trans-unit>
+      <trans-unit id="administration.linkBack" approved="yes">
+        <source>Back</source>
+        <target state="translated">Indietro</target>
+      </trans-unit>
+      <trans-unit id="administration.removeEntry" approved="yes">
+        <source>Remove entry</source>
+        <target state="translated">Rimuovi voce</target>
+      </trans-unit>
+      <trans-unit id="administration.removeAllEntries" approved="yes">
+        <source>Remove all listed entries</source>
+        <target state="translated">Rimuovi tutti gli elementi elencati</target>
+      </trans-unit>
+      <trans-unit id="administration.back" approved="yes">
+        <source>Back</source>
+        <target state="translated">Indietro</target>
+      </trans-unit>
+      <trans-unit id="administration.noPageSelected" approved="yes">
+        <source>Please select a page from the page tree.</source>
+        <target state="translated">Per favore seleziona una pagina nell'albero delle pagine.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
