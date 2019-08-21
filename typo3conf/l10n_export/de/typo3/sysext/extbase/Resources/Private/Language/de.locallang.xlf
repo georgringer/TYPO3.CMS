@@ -1,99 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415814816" source-language="en" datatype="plaintext" original="messages" date="2012-10-17T19:30:32Z" product-name="extbase" target-language="de">
+  <file t3:id="1415814816" source-language="en" datatype="plaintext" original="messages" date="2012-10-17T19:30:32Z" product-name="extbase" target-language="de-AT">
     <header/>
     <body>
-      <trans-unit id="property.error" approved="yes">
+      <trans-unit id="property.error">
         <source>Validation errors for property "%s"</source>
-        <target state="translated">Validierungsfehler für die Eigenschaft "%s"</target>
+        <target>crwdns37682:0%scrwdne37682:0</target>
       </trans-unit>
-      <trans-unit id="validator.emailaddress.notvalid" approved="yes">
+      <trans-unit id="validator.emailaddress.notvalid">
         <source>The given subject was not a valid email address.</source>
-        <target state="translated">Der eingegebene Wert ist keine gültige E-Mail-Adresse</target>
+        <target>crwdns37684:0crwdne37684:0</target>
       </trans-unit>
-      <trans-unit id="validator.stringlength.between" approved="yes">
+      <trans-unit id="validator.stringlength.between">
         <source>The length of the given string was not between %s and %s characters.</source>
-        <target state="translated">Die Länge der angegebenen Zeichenkette liegt nicht zwischen %s und %s Zeichen.</target>
+        <target>crwdns37686:0%scrwdnd37686:0%scrwdne37686:0</target>
       </trans-unit>
-      <trans-unit id="validator.stringlength.less" approved="yes">
+      <trans-unit id="validator.stringlength.less">
         <source>The length of the given string is less than %s characters.</source>
-        <target state="translated">Die Länge der angegebenen Zeichenkette ist kürzer als %s Zeichen.</target>
+        <target>crwdns37688:0%scrwdne37688:0</target>
       </trans-unit>
-      <trans-unit id="validator.string.notvalid" approved="yes">
+      <trans-unit id="validator.string.notvalid">
         <source>A valid string is expected.</source>
-        <target state="translated">Es wird eine gültige Zeichenkette erwartet.</target>
+        <target>crwdns37690:0crwdne37690:0</target>
       </trans-unit>
-      <trans-unit id="validator.stringlength.exceed" approved="yes">
+      <trans-unit id="validator.stringlength.exceed">
         <source>The length of the given string exceeded %s characters.</source>
-        <target state="translated">Die Länge der angegebenen Zeichenkette übersteigt %s Zeichen.</target>
+        <target>crwdns37692:0%scrwdne37692:0</target>
       </trans-unit>
-      <trans-unit id="validator.alphanumeric.notvalid" approved="yes">
+      <trans-unit id="validator.alphanumeric.notvalid">
         <source>The given subject was not a valid alphanumeric string.</source>
-        <target state="translated">Der angegebene Wert ist keine gültige alphanumerische Zeichenkette.</target>
+        <target>crwdns37694:0crwdne37694:0</target>
       </trans-unit>
-      <trans-unit id="validator.datetime.notvalid" approved="yes">
+      <trans-unit id="validator.datetime.notvalid">
         <source>The given subject was not a valid DateTime. Got: '%s'</source>
-        <target state="translated">Der angegebene Wert ist kein gültiges DateTime - Objekt: '%s'</target>
+        <target>crwdns37696:0%scrwdne37696:0</target>
       </trans-unit>
-      <trans-unit id="validator.genericobject.noobject" approved="yes">
+      <trans-unit id="validator.genericobject.noobject">
         <source>Value is no object.</source>
-        <target state="translated">Der Wert ist kein Objekt.</target>
+        <target>crwdns37698:0crwdne37698:0</target>
       </trans-unit>
-      <trans-unit id="validator.float.notvalid" approved="yes">
+      <trans-unit id="validator.float.notvalid">
         <source>The given subject was not a valid float.</source>
-        <target state="translated">Der angegebene Wert ist keine gültige Gleitkommazahl.</target>
+        <target>crwdns37700:0crwdne37700:0</target>
       </trans-unit>
-      <trans-unit id="validator.text.notvalid" approved="yes">
+      <trans-unit id="validator.text.notvalid">
         <source>The given subject was not a valid text (e.g. contained XML tags).</source>
-        <target state="translated">Der angegebene Wert ist kein gültiges Text-Objekt (enthält z.B. XML-Tags).</target>
+        <target>crwdns37702:0crwdne37702:0</target>
       </trans-unit>
-      <trans-unit id="validator.regularexpression.empty" approved="yes">
+      <trans-unit id="validator.regularexpression.empty">
         <source>The regular expression was empty.</source>
-        <target state="translated">Der reguläre Ausdruck ist leer.</target>
+        <target>crwdns37704:0crwdne37704:0</target>
       </trans-unit>
-      <trans-unit id="validator.regularexpression.nomatch" approved="yes">
+      <trans-unit id="validator.regularexpression.nomatch">
         <source>The given subject did not match the pattern.</source>
-        <target state="translated">Der angegebene Wert stimmt nicht mit dem Muster überein.</target>
+        <target>crwdns37706:0crwdne37706:0</target>
       </trans-unit>
-      <trans-unit id="validator.regularexpression.error" approved="yes">
+      <trans-unit id="validator.regularexpression.error">
         <source>The regular expression '%s' contained an error.</source>
-        <target state="translated">Der reguläre Ausdruck '%s' enthält einen Fehler.</target>
+        <target>crwdns37708:0%scrwdne37708:0</target>
       </trans-unit>
-      <trans-unit id="validator.numberrange.notvalid" approved="yes">
+      <trans-unit id="validator.numberrange.notvalid">
         <source>The given subject was not a valid number.</source>
-        <target state="translated">Der angegebene Wert ist keine gültige Zahl.</target>
+        <target>crwdns37710:0crwdne37710:0</target>
       </trans-unit>
-      <trans-unit id="validator.numberrange.range" approved="yes">
+      <trans-unit id="validator.numberrange.range">
         <source>The given subject was not in the valid range (%s - %s).</source>
-        <target state="translated">Der angegebene Wert ist nicht im Bereich von %s bis %s.</target>
+        <target>crwdns37712:0%scrwdnd37712:0%scrwdne37712:0</target>
       </trans-unit>
-      <trans-unit id="validator.notempty.null" approved="yes">
+      <trans-unit id="validator.notempty.null">
         <source>The given subject was NULL.</source>
-        <target state="translated">Der angegebene Wert ist NULL.</target>
+        <target>crwdns37714:0crwdne37714:0</target>
       </trans-unit>
-      <trans-unit id="validator.notempty.empty" approved="yes">
+      <trans-unit id="validator.notempty.empty">
         <source>The given subject was empty.</source>
-        <target state="translated">Der angegebene Wert ist leer.</target>
+        <target>crwdns37716:0crwdne37716:0</target>
       </trans-unit>
-      <trans-unit id="validator.number.notvalid" approved="yes">
+      <trans-unit id="validator.number.notvalid">
         <source>The given subject was not a valid number.</source>
-        <target state="translated">Der angegebene Wert ist keine gültige Zahl.</target>
+        <target>crwdns37718:0crwdne37718:0</target>
       </trans-unit>
-      <trans-unit id="validator.integer.notvalid" approved="yes">
+      <trans-unit id="validator.integer.notvalid">
         <source>The given subject was not a valid integer.</source>
-        <target state="translated">Der angegebene Wert ist kein gültiger Integer.</target>
+        <target>crwdns37720:0crwdne37720:0</target>
       </trans-unit>
-      <trans-unit id="validator.boolean.nottrue" approved="yes">
+      <trans-unit id="validator.boolean.nottrue">
         <source>The given subject was not true.</source>
-        <target state="translated">Der angegebene Wert ist nicht TRUE.</target>
+        <target>crwdns37722:0crwdne37722:0</target>
       </trans-unit>
-      <trans-unit id="validator.boolean.notfalse" approved="yes">
+      <trans-unit id="validator.boolean.notfalse">
         <source>The given subject was not false.</source>
-        <target state="translated">Der angegebene Wert ist nicht FALSE.</target>
+        <target>crwdns37724:0crwdne37724:0</target>
       </trans-unit>
-      <trans-unit id="validator.url.notvalid" approved="yes">
+      <trans-unit id="validator.url.notvalid">
         <source>The given subject is no valid URL.</source>
-        <target state="translated">Der angegebene Wert ist keine gültige URL.</target>
+        <target>crwdns37726:0crwdne37726:0</target>
       </trans-unit>
     </body>
   </file>
