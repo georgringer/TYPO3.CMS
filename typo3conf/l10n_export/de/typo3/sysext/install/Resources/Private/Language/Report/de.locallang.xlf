@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415814843" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="install" target-language="de">
+  <file t3:id="1415814843" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="install" target-language="de-AT">
     <header/>
     <body>
-      <trans-unit id="environment.status.title" approved="yes">
+      <trans-unit id="environment.status.title">
         <source>System environment check</source>
-        <target state="translated">Systemumgebungsüberprüfung</target>
+        <target>crwdns31940:0crwdne31940:0</target>
       </trans-unit>
-      <trans-unit id="environment.status.message.error" approved="yes">
+      <trans-unit id="environment.status.value">
+        <source>%1$s Test(s)</source>
+        <target>crwdns31942:0%1$scrwdne31942:0</target>
+      </trans-unit>
+      <trans-unit id="environment.status.message.error">
         <source>The system environment check returned errors. Those errors will affect the functionality and stability of your TYPO3 CMS instance. Please check the install tool "System environment" for all details.</source>
-        <target state="translated">Die Systemumgebungsüberprüfung ergab Fehler. Diese Fehler werden die Funktionalität und Stabilität Ihrer TYPO3-Installation beeinträchtigen. Bitte überprüfen Sie die Seite "System environment" im Install Tool für mehr Details.</target>
+        <target>crwdns31944:0crwdne31944:0</target>
       </trans-unit>
-      <trans-unit id="environment.status.message.warning" approved="yes">
+      <trans-unit id="environment.status.message.warning">
         <source>The system environment check returned warnings. Those warnings might have a negative effect on the functionality and stability of your TYPO3 CMS instance. Please check the install tool "System environment" for all details.</source>
-        <target state="translated">Die Systemumgebungsüberprüfung ergab Warnungen. Diese Warnungen könnten einen negativen Einfluss auf die Funktionalität und Stabilität Ihrer TYPO3-CMS-Installation haben. Bitte überprüfen Sie die Seite "System environment" im Install Tool für mehr Details.</target>
+        <target>crwdns31946:0crwdne31946:0</target>
       </trans-unit>
-      <trans-unit id="environment.status.message.notice" approved="yes">
+      <trans-unit id="environment.status.message.notice">
         <source>The system environment check returned notices. Those should not affect the functionality and stability of your TYPO3 CMS instance. Please check the install tool "System environment" for all details.</source>
-        <target state="translated">Die Systemumgebungsüberprüfung ergab Hinweise. Diese Hinweise sollten die Funktionalität und Stabilität Ihrer TYPO3-CMS-Installation nicht beeinträchtigen. Bitte überprüfen Sie die Seite "System environment" im Install Tool für mehr Details.</target>
+        <target>crwdns31948:0crwdne31948:0</target>
       </trans-unit>
       <trans-unit id="environment.status.message.ok" xml:space="preserve">
 				<source/>
@@ -25,105 +29,105 @@
       <trans-unit id="environment.status.message.info" xml:space="preserve">
 				<source/>
 			</trans-unit>
-      <trans-unit id="status_fileSystem" approved="yes">
+      <trans-unit id="status_fileSystem">
         <source>File System</source>
-        <target state="translated">Dateisystem</target>
+        <target>crwdns31950:0crwdne31950:0</target>
       </trans-unit>
-      <trans-unit id="status_writable" approved="yes">
+      <trans-unit id="status_writable">
         <source>Writable</source>
-        <target state="translated">Beschreibbar</target>
+        <target>crwdns31952:0crwdne31952:0</target>
       </trans-unit>
-      <trans-unit id="status_missingDirectory" approved="yes">
+      <trans-unit id="status_missingDirectory">
         <source>Required directory missing</source>
-        <target state="translated">Benötigtes Verzeichnis fehlt</target>
+        <target>crwdns31954:0crwdne31954:0</target>
       </trans-unit>
-      <trans-unit id="status_nonExistingDirectory" approved="yes">
+      <trans-unit id="status_nonExistingDirectory">
         <source>Directory not existing</source>
-        <target state="translated">Verzeichnis fehlt</target>
+        <target>crwdns31956:0crwdne31956:0</target>
       </trans-unit>
-      <trans-unit id="status_recommendedWritableDirectory" approved="yes">
+      <trans-unit id="status_recommendedWritableDirectory">
         <source>Directory should be writable</source>
-        <target state="translated">Verzeichnis sollte beschreibbar sein</target>
+        <target>crwdns31958:0crwdne31958:0</target>
       </trans-unit>
-      <trans-unit id="status_requiredWritableDirectory" approved="yes">
+      <trans-unit id="status_requiredWritableDirectory">
         <source>Directory not writable</source>
-        <target state="translated">Verzeichnis nicht beschreibbar</target>
+        <target>crwdns31960:0crwdne31960:0</target>
       </trans-unit>
-      <trans-unit id="status_directoryDoesNotExist" approved="yes">
+      <trans-unit id="status_directoryDoesNotExist">
         <source>%s does not exist.</source>
-        <target state="translated">%s existiert nicht.</target>
+        <target>crwdns31962:0%scrwdne31962:0</target>
       </trans-unit>
-      <trans-unit id="status_directoryDoesNotExistCouldNotCreate" approved="yes">
+      <trans-unit id="status_directoryDoesNotExistCouldNotCreate">
         <source>%s does not exist and could not be created.</source>
-        <target state="translated">%s existiert nicht und konnte nicht erstellt werden.</target>
+        <target>crwdns31964:0%scrwdne31964:0</target>
       </trans-unit>
-      <trans-unit id="status_directoryShouldAlsoBeWritable" approved="yes">
+      <trans-unit id="status_directoryShouldAlsoBeWritable">
         <source>Also note that it should be writable, if it did exist.</source>
-        <target state="translated">Beachten Sie auch, dass das Verzeichnis beschreibbar sein sollte, wenn es existieren würde.</target>
+        <target>crwdns31966:0crwdne31966:0</target>
       </trans-unit>
-      <trans-unit id="status_directoryShouldBeWritable" approved="yes">
+      <trans-unit id="status_directoryShouldBeWritable">
         <source>%s should be writable.</source>
-        <target state="translated">%s sollte beschreibbar sein.</target>
+        <target>crwdns31968:0%scrwdne31968:0</target>
       </trans-unit>
-      <trans-unit id="status_directoryMustBeWritable" approved="yes">
+      <trans-unit id="status_directoryMustBeWritable">
         <source>%s must be writable.</source>
-        <target state="translated">%s muss beschreibbar sein.</target>
+        <target>crwdns31970:0%scrwdne31970:0</target>
       </trans-unit>
-      <trans-unit id="status_remainingUpdates" approved="yes">
+      <trans-unit id="status_remainingUpdates">
         <source>Remaining updates</source>
-        <target state="translated">Verbleibende Aktualisierungen</target>
+        <target>crwdns31972:0crwdne31972:0</target>
       </trans-unit>
-      <trans-unit id="status_remoteFetchException" approved="yes">
+      <trans-unit id="status_remoteFetchException">
         <source>Could not fetch version matrix of TYPO3. Maybe this instance is blocked by a firewall?</source>
-        <target state="translated">Matrix der verfügbaren TYPO3-Versionen konnte nicht heruntergeladen werden. Wird der Zugriff möglicherweise von einer Firewall blockiert?</target>
+        <target>crwdns31974:0crwdne31974:0</target>
       </trans-unit>
-      <trans-unit id="status_isDevelopmentVersion" approved="yes">
+      <trans-unit id="status_isDevelopmentVersion">
         <source>This version of TYPO3 seems to be a development version. Thus no update information exists.</source>
-        <target state="translated">Diese Version von TYPO3 scheint eine Entwicklungsversion zu sein. Daher stehen keine Informationen zu Aktualisierungen bereit.</target>
+        <target>crwdns31976:0crwdne31976:0</target>
       </trans-unit>
-      <trans-unit id="status_patchLevelNotFoundInReleaseMatrix" approved="yes">
+      <trans-unit id="status_patchLevelNotFoundInReleaseMatrix">
         <source>It seems that this TYPO3 version has never been released. Thus no update information exists.</source>
-        <target state="translated">Offenbar ist diese TYPO3-Version nie veröffentlicht worden. Daher stehen keine Informationen zu Aktualisierungen bereit.</target>
+        <target>crwdns31978:0crwdne31978:0</target>
       </trans-unit>
-      <trans-unit id="status_newVersionSecurityRelevant" approved="yes">
+      <trans-unit id="status_newVersionSecurityRelevant">
         <source>There is a new version of TYPO3 available, updating is security relevant. Please update to version %s</source>
-        <target state="translated">Eine neue Version von TYPO3 ist verfügbar. Diese Aktualisierung ist sicherheitsrelevant. Aktualisieren Sie auf Version %s</target>
+        <target>crwdns31980:0%scrwdne31980:0</target>
       </trans-unit>
-      <trans-unit id="status_newVersion" approved="yes">
+      <trans-unit id="status_newVersion">
         <source>There is a new version of TYPO3 available. You can update to version %s</source>
-        <target state="translated">Eine neue Version von TYPO3 ist verfügbar. Aktualisieren Sie auf Version %s</target>
+        <target>crwdns31982:0%scrwdne31982:0</target>
       </trans-unit>
-      <trans-unit id="status_versionOutdated" approved="yes">
+      <trans-unit id="status_versionOutdated">
         <source>The TYPO3 version you're using is not supported anymore. You should update to a supported version.</source>
-        <target state="translated">Die TYPO3-Version, die Sie verwenden, wird nicht mehr unterstützt. Sie sollten auf eine unterstützte Version aktualisieren.</target>
+        <target>crwdns31984:0crwdne31984:0</target>
       </trans-unit>
-      <trans-unit id="status_noAutomaticCheck" approved="yes">
+      <trans-unit id="status_noAutomaticCheck">
         <source>Automatic update checking failed, please check for updates manually.</source>
-        <target state="translated">Die automatische Überprüfung auf Aktualisierungen ist fehlgeschlagen. Bitte prüfen Sie manuell, ob Aktualisierung verfügbar sind.</target>
+        <target>crwdns31986:0crwdne31986:0</target>
       </trans-unit>
-      <trans-unit id="status_uptodate" approved="yes">
+      <trans-unit id="status_uptodate">
         <source>Your TYPO3 version is up-to-date.</source>
-        <target state="translated">Ihre TYPO3-Version ist aktuell.</target>
+        <target>crwdns31988:0crwdne31988:0</target>
       </trans-unit>
-      <trans-unit id="status_installToolPassword" approved="yes">
+      <trans-unit id="status_installToolPassword">
         <source>Install Tool Password</source>
-        <target state="translated">Passwort für das Installations-Tool</target>
+        <target>crwdns31990:0crwdne31990:0</target>
       </trans-unit>
-      <trans-unit id="status_installTool" approved="yes">
+      <trans-unit id="status_installTool">
         <source>Install Tool</source>
-        <target state="translated">Install-Tool</target>
+        <target>crwdns31992:0crwdne31992:0</target>
       </trans-unit>
-      <trans-unit id="status_enabledPermanently" approved="yes">
+      <trans-unit id="status_enabledPermanently">
         <source>Enabled permanently</source>
-        <target state="translated">Dauerhaft aktiviert</target>
+        <target>crwdns31994:0crwdne31994:0</target>
       </trans-unit>
-      <trans-unit id="status_enabledTemporarily" approved="yes">
+      <trans-unit id="status_enabledTemporarily">
         <source>Enabled temporarily</source>
-        <target state="translated">Temporär aktiviert</target>
+        <target>crwdns31996:0crwdne31996:0</target>
       </trans-unit>
-      <trans-unit id="status_installEnabledTemporarily" approved="yes">
+      <trans-unit id="status_installEnabledTemporarily">
         <source>The Install Tool is temporarily enabled. Delete the file "%s" when you have finished setting up TYPO3. If not used the Install Tool will be disabled automatically in %s minutes.</source>
-        <target state="translated">Das Installations-Tool ist temporär aktiviert. Löschen Sie die Datei "%s", wenn Sie die Installation von TYPO3 abgeschlossen haben. Wenn Sie das Installations-Tool nicht benutzen, wird es in %s Minuten automatisch deaktiviert.</target>
+        <target>crwdns31998:0%scrwdnd31998:0%scrwdne31998:0</target>
       </trans-unit>
     </body>
   </file>
