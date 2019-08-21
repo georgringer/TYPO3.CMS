@@ -1,567 +1,543 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415814828" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="impexp" target-language="de-AT">
+  <file t3:id="1415814828" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="impexp" target-language="de">
     <header/>
     <body>
-      <trans-unit id="import">
+      <trans-unit id="import" approved="yes">
         <source>Import</source>
-        <target>crwdns40872:0crwdne40872:0</target>
+        <target state="translated">Importieren</target>
       </trans-unit>
-      <trans-unit id="export">
+      <trans-unit id="export" approved="yes">
         <source>Export</source>
-        <target>crwdns40874:0crwdne40874:0</target>
+        <target state="translated">Exportieren</target>
       </trans-unit>
-      <trans-unit id="title">
+      <trans-unit id="title" approved="yes">
         <source>Import / Export</source>
-        <target>crwdns40876:0crwdne40876:0</target>
+        <target state="translated">Import/Export</target>
       </trans-unit>
-      <trans-unit id="title_import">
-        <source>Import</source>
-        <target>crwdns40878:0crwdne40878:0</target>
-      </trans-unit>
-      <trans-unit id="title_export">
-        <source>Export</source>
-        <target>crwdns40880:0crwdne40880:0</target>
-      </trans-unit>
-      <trans-unit id="tableselec_configuration">
+      <trans-unit id="tableselec_configuration" approved="yes">
         <source>Configuration</source>
-        <target>crwdns40882:0crwdne40882:0</target>
+        <target state="translated">Konfiguration</target>
       </trans-unit>
-      <trans-unit id="exportdata_savedFile">
+      <trans-unit id="exportdata_savedFile" approved="yes">
         <source>SAVED FILE</source>
-        <target>crwdns40884:0crwdne40884:0</target>
+        <target state="translated">DATEI GESPEICHERT</target>
       </trans-unit>
-      <trans-unit id="exportdata_savedInSBytes">
+      <trans-unit id="exportdata_savedInSBytes" approved="yes">
         <source>Saved in "%s", bytes %s</source>
-        <target>crwdns40886:0%scrwdnd40886:0%scrwdne40886:0</target>
+        <target state="translated">Gespeichert in "%s" (%s Bytes)</target>
       </trans-unit>
-      <trans-unit id="exportdata_problemsSavingFile">
+      <trans-unit id="exportdata_problemsSavingFile" approved="yes">
         <source>Problems saving file</source>
-        <target>crwdns40888:0crwdne40888:0</target>
+        <target state="translated">Fehler beim Speichern</target>
       </trans-unit>
-      <trans-unit id="exportdata_badPathS">
+      <trans-unit id="exportdata_badPathS" approved="yes">
         <source>Bad path: "%s"</source>
-        <target>crwdns40890:0%scrwdne40890:0</target>
+        <target state="translated">Fehlerhafter Pfad: "%s"</target>
       </trans-unit>
-      <trans-unit id="exportdata_filePreset">
+      <trans-unit id="exportdata_filePreset" approved="yes">
         <source>File &amp; Preset</source>
-        <target>crwdns40892:0crwdne40892:0</target>
+        <target state="translated">Datei &amp; Voreinstellungen</target>
       </trans-unit>
-      <trans-unit id="exportdata_advancedOptions">
+      <trans-unit id="exportdata_advancedOptions" approved="yes">
         <source>Advanced Options</source>
-        <target>crwdns40894:0crwdne40894:0</target>
+        <target state="translated">Erweiterte Einstellungen</target>
       </trans-unit>
-      <trans-unit id="exportdata_messages">
+      <trans-unit id="exportdata_messages" approved="yes">
         <source>Messages</source>
-        <target>crwdns40896:0crwdne40896:0</target>
+        <target state="translated">Meldungen</target>
       </trans-unit>
-      <trans-unit id="execlistqu_structureToBeExported">
+      <trans-unit id="execlistqu_structureToBeExported" approved="yes">
         <source>Structure to be exported</source>
-        <target>crwdns40898:0crwdne40898:0</target>
+        <target state="translated">Zu exportierende Struktur</target>
       </trans-unit>
-      <trans-unit id="impexpcore_toggle_all_disabled_records">
+      <trans-unit id="impexpcore_toggle_all_disabled_records" approved="yes">
         <source>Toggle disabled records</source>
-        <target>crwdns40900:0crwdne40900:0</target>
+        <target state="translated">Deaktivierte Datensätze umschalten</target>
       </trans-unit>
-      <trans-unit id="execlistqu_maxNumberLimit">
-        <source>Max number limit!</source>
-        <target>crwdns40902:0crwdne40902:0</target>
-      </trans-unit>
-      <trans-unit id="makeconfig_anSqlQueryReturned">
-        <source>An SQL query returned exactly the amount of records specified by the limit value (%s) - that could indicate an incomplete selection of records! Make sure this is on purpose.</source>
-        <target>crwdns40904:0%scrwdne40904:0</target>
-      </trans-unit>
-      <trans-unit id="makeconfig_exportPagetreeConfiguration">
+      <trans-unit id="makeconfig_exportPagetreeConfiguration" approved="yes">
         <source>Export pagetree configuration</source>
-        <target>crwdns40906:0crwdne40906:0</target>
+        <target state="translated">Exporteinstellungen für Seitenbaum</target>
       </trans-unit>
-      <trans-unit id="makeconfig_pageId">
+      <trans-unit id="makeconfig_pageId" approved="yes">
         <source>Page ID</source>
-        <target>crwdns40908:0crwdne40908:0</target>
+        <target state="translated">Seiten-ID</target>
       </trans-unit>
-      <trans-unit id="makeconfig_tree">
+      <trans-unit id="makeconfig_tree" approved="yes">
         <source>Tree</source>
-        <target>crwdns40910:0crwdne40910:0</target>
+        <target state="translated">Baum</target>
       </trans-unit>
-      <trans-unit id="makeconfig_noTreeExportedOnly">
+      <trans-unit id="makeconfig_noTreeExportedOnly" approved="yes">
         <source>No tree exported - only tables on the page.</source>
-        <target>crwdns40912:0crwdne40912:0</target>
+        <target state="translated">Kein Baum exportiert - nur Tabellen auf dieser Seite.</target>
       </trans-unit>
-      <trans-unit id="makeconfig_tablesOnThisPage">
+      <trans-unit id="makeconfig_tablesOnThisPage" approved="yes">
         <source>Tables on this page</source>
-        <target>crwdns40914:0crwdne40914:0</target>
+        <target state="translated">Tabellen auf dieser Seite</target>
       </trans-unit>
-      <trans-unit id="makeconfig_expandedTree">
+      <trans-unit id="makeconfig_expandedTree" approved="yes">
         <source>Expanded tree</source>
-        <target>crwdns40916:0crwdne40916:0</target>
+        <target state="translated">Erweiterter Baum</target>
       </trans-unit>
-      <trans-unit id="makeconfig_levels">
+      <trans-unit id="makeconfig_levels" approved="yes">
         <source>Levels</source>
-        <target>crwdns40918:0crwdne40918:0</target>
+        <target state="translated">Ebenen</target>
       </trans-unit>
-      <trans-unit id="makeconfig_includeTables">
+      <trans-unit id="makeconfig_includeTables" approved="yes">
         <source>Include tables</source>
-        <target>crwdns40920:0crwdne40920:0</target>
+        <target state="translated">Einzuschließende Tabellen</target>
       </trans-unit>
-      <trans-unit id="makeconfig_exportSingleRecord">
+      <trans-unit id="makeconfig_exportSingleRecord" approved="yes">
         <source>Export single record</source>
-        <target>crwdns40922:0crwdne40922:0</target>
+        <target state="translated">Einzelnen Datensatz exportieren</target>
       </trans-unit>
-      <trans-unit id="makeconfig_record">
+      <trans-unit id="makeconfig_record" approved="yes">
         <source>Record</source>
-        <target>crwdns40924:0crwdne40924:0</target>
+        <target state="translated">Datensatz</target>
       </trans-unit>
-      <trans-unit id="makeconfig_exportTablesFromPages">
+      <trans-unit id="makeconfig_exportTablesFromPages" approved="yes">
         <source>Export tables from pages</source>
-        <target>crwdns40926:0crwdne40926:0</target>
+        <target state="translated">Tabellen von Seiten exportieren</target>
       </trans-unit>
-      <trans-unit id="makeconfig_tablePids">
+      <trans-unit id="makeconfig_tablePids" approved="yes">
         <source>Table/Pids</source>
-        <target>crwdns40928:0crwdne40928:0</target>
+        <target state="translated">Tabellen/PIDs</target>
       </trans-unit>
-      <trans-unit id="makeconfig_tableListEntry">
+      <trans-unit id="makeconfig_tableListEntry" approved="yes">
         <source>Table "%s" from %s</source>
-        <target>crwdns40930:0%scrwdnd40930:0%scrwdne40930:0</target>
+        <target state="translated">Tabelle "%s" von %s</target>
       </trans-unit>
-      <trans-unit id="makeconfig_relationsAndExclusions">
+      <trans-unit id="makeconfig_relationsAndExclusions" approved="yes">
         <source>Relations and Exclusions</source>
-        <target>crwdns40932:0crwdne40932:0</target>
+        <target state="translated">Relationen und Ausschlüsse</target>
       </trans-unit>
-      <trans-unit id="makeconfig_includeRelationsToTables">
+      <trans-unit id="makeconfig_includeRelationsToTables" approved="yes">
         <source>Include relations to tables</source>
-        <target>crwdns40934:0crwdne40934:0</target>
+        <target state="translated">Relationen zu Tabellen einschließen</target>
       </trans-unit>
-      <trans-unit id="makeconfig_useStaticRelationsFor">
+      <trans-unit id="makeconfig_useStaticRelationsFor" approved="yes">
         <source>Use static relations for tables</source>
-        <target>crwdns40936:0crwdne40936:0</target>
+        <target state="translated">Statische Relationen von Tabellen verwenden</target>
       </trans-unit>
-      <trans-unit id="makeconfig_showStaticRelations">
+      <trans-unit id="makeconfig_showStaticRelations" approved="yes">
         <source>Show static relations</source>
-        <target>crwdns40938:0crwdne40938:0</target>
+        <target state="translated">Statische Relationen anzeigen</target>
       </trans-unit>
-      <trans-unit id="makeconfig_excludeElements">
+      <trans-unit id="makeconfig_excludeElements" approved="yes">
         <source>Exclude elements</source>
-        <target>crwdns40940:0crwdne40940:0</target>
+        <target state="translated">Elemente ausschließen</target>
       </trans-unit>
-      <trans-unit id="makeconfig_clearAllManualExclusions">
+      <trans-unit id="makeconfig_clearAllManualExclusions" approved="yes">
         <source>Clear all manual exclusions</source>
-        <target>crwdns40942:0crwdne40942:0</target>
+        <target state="translated">Alle manuellen Ausschlüsse zurücksetzen</target>
       </trans-unit>
-      <trans-unit id="makeconfig_noManuallyExcludedElementsYet">
+      <trans-unit id="makeconfig_noManuallyExcludedElementsYet" approved="yes">
         <source>No manually excluded elements yet. Exclude by setting checkboxes below in the element display.</source>
-        <target>crwdns40944:0crwdne40944:0</target>
+        <target state="translated">Es existieren noch keine manuell ausgeschlossenen Elemente. Schließen Sie Element aus, indem Sie die Checkboxen in der Anzeige der Elemente verwenden.</target>
       </trans-unit>
-      <trans-unit id="makeconfig_excludeDisabledElements">
+      <trans-unit id="makeconfig_excludeDisabledElements" approved="yes">
         <source>Exclude disabled elements</source>
-        <target>crwdns40946:0crwdne40946:0</target>
+        <target state="translated">Deaktivierte Elemente ausschließen</target>
       </trans-unit>
-      <trans-unit id="makeadvanc_update">
+      <trans-unit id="makeadvanc_update" approved="yes">
         <source>Update</source>
-        <target>crwdns40948:0crwdne40948:0</target>
+        <target state="translated">Aktualisieren</target>
       </trans-unit>
-      <trans-unit id="makeadvanc_softReferences">
+      <trans-unit id="makeadvanc_softReferences" approved="yes">
         <source>Soft References</source>
-        <target>crwdns40950:0crwdne40950:0</target>
+        <target state="translated">Soft-References</target>
       </trans-unit>
-      <trans-unit id="makeadvanc_excludeHtmlCssFile">
+      <trans-unit id="makeadvanc_excludeHtmlCssFile" approved="yes">
         <source>Exclude HTML/CSS file resources</source>
-        <target>crwdns40952:0crwdne40952:0</target>
+        <target state="translated">HTML/CSS-Dateien ausschließen</target>
       </trans-unit>
-      <trans-unit id="makeadvanc_files">
+      <trans-unit id="makeadvanc_files" approved="yes">
         <source>Files</source>
-        <target>crwdns40954:0crwdne40954:0</target>
+        <target state="translated">Dateien</target>
       </trans-unit>
-      <trans-unit id="makeadvanc_saveFilesOutsideExportFile">
+      <trans-unit id="makeadvanc_saveFilesOutsideExportFile" approved="yes">
         <source>Save files in extra folder beside the export file</source>
-        <target>crwdns40956:0crwdne40956:0</target>
+        <target state="translated">Dateien in gesondertem Ordner neben der Exportdatei speichern</target>
       </trans-unit>
-      <trans-unit id="makeadvanc_saveFilesOutsideExportFile_limit">
+      <trans-unit id="makeadvanc_saveFilesOutsideExportFile_limit" approved="yes">
         <source>(supported for "Save to filename" only)</source>
-        <target>crwdns40958:0crwdne40958:0</target>
+        <target state="translated">(nur unterstützt für "Datei speichern unter")</target>
       </trans-unit>
-      <trans-unit id="makeadvanc_extensionDependencies">
+      <trans-unit id="makeadvanc_extensionDependencies" approved="yes">
         <source>Extension dependencies</source>
-        <target>crwdns40960:0crwdne40960:0</target>
+        <target state="translated">Abhängigkeiten von Erweiterungen</target>
       </trans-unit>
-      <trans-unit id="makeadvanc_selectExtensionsThatThe">
+      <trans-unit id="makeadvanc_selectExtensionsThatThe" approved="yes">
         <source>Select extensions that the exported content depends on</source>
-        <target>crwdns40962:0crwdne40962:0</target>
+        <target state="translated">Erweiterungen auswählen, von denen der exportierte Inhalt abhängig ist</target>
       </trans-unit>
-      <trans-unit id="makesavefo_update">
+      <trans-unit id="makesavefo_update" approved="yes">
         <source>Update</source>
-        <target>crwdns40964:0crwdne40964:0</target>
+        <target state="translated">Aktualisieren</target>
       </trans-unit>
-      <trans-unit id="makesavefo_presets">
+      <trans-unit id="makesavefo_presets" approved="yes">
         <source>Presets</source>
-        <target>crwdns40966:0crwdne40966:0</target>
+        <target state="translated">Voreinstellungen</target>
       </trans-unit>
-      <trans-unit id="makesavefo_selectPreset">
+      <trans-unit id="makesavefo_selectPreset" approved="yes">
         <source>Select preset</source>
-        <target>crwdns40968:0crwdne40968:0</target>
+        <target state="translated">Voreinstellung laden</target>
       </trans-unit>
-      <trans-unit id="makesavefo_load">
+      <trans-unit id="makesavefo_load" approved="yes">
         <source>Load</source>
-        <target>crwdns40970:0crwdne40970:0</target>
+        <target state="translated">Laden</target>
       </trans-unit>
-      <trans-unit id="makesavefo_save">
+      <trans-unit id="makesavefo_save" approved="yes">
         <source>Save</source>
-        <target>crwdns40972:0crwdne40972:0</target>
+        <target state="translated">Speichern</target>
       </trans-unit>
-      <trans-unit id="pleaseConfirm">
+      <trans-unit id="pleaseConfirm" approved="yes">
         <source>Please confirm</source>
-        <target>crwdns40974:0crwdne40974:0</target>
+        <target state="translated">Bitte bestätigen</target>
       </trans-unit>
-      <trans-unit id="makesavefo_areYouSure">
+      <trans-unit id="makesavefo_areYouSure" approved="yes">
         <source>Are you sure?</source>
-        <target>crwdns40976:0crwdne40976:0</target>
+        <target state="translated">Vorgang tatsächlich fortführen?</target>
       </trans-unit>
-      <trans-unit id="makesavefo_delete">
+      <trans-unit id="makesavefo_delete" approved="yes">
         <source>Delete</source>
-        <target>crwdns40978:0crwdne40978:0</target>
+        <target state="translated">Löschen</target>
       </trans-unit>
-      <trans-unit id="makesavefo_merge">
+      <trans-unit id="makesavefo_merge" approved="yes">
         <source>Merge</source>
-        <target>crwdns40980:0crwdne40980:0</target>
+        <target state="translated">Zusammenführen</target>
       </trans-unit>
-      <trans-unit id="makesavefo_titleOfNewPreset">
+      <trans-unit id="makesavefo_titleOfNewPreset" approved="yes">
         <source>Title of new preset</source>
-        <target>crwdns40982:0crwdne40982:0</target>
+        <target state="translated">Name der neuen Voreinstellung</target>
       </trans-unit>
-      <trans-unit id="makesavefo_public">
+      <trans-unit id="makesavefo_public" approved="yes">
         <source>Public</source>
-        <target>crwdns40984:0crwdne40984:0</target>
+        <target state="translated">Öffentlich</target>
       </trans-unit>
-      <trans-unit id="makesavefo_outputOptions">
+      <trans-unit id="makesavefo_outputOptions" approved="yes">
         <source>Output options</source>
-        <target>crwdns40986:0crwdne40986:0</target>
+        <target state="translated">Ausgabeoptionen</target>
       </trans-unit>
-      <trans-unit id="makesavefo_metaData">
+      <trans-unit id="makesavefo_metaData" approved="yes">
         <source>Meta data</source>
-        <target>crwdns40988:0crwdne40988:0</target>
+        <target state="translated">Metadaten</target>
       </trans-unit>
-      <trans-unit id="makesavefo_title">
+      <trans-unit id="makesavefo_title" approved="yes">
         <source>Title</source>
-        <target>crwdns40990:0crwdne40990:0</target>
+        <target state="translated">Titel</target>
       </trans-unit>
-      <trans-unit id="makesavefo_description">
+      <trans-unit id="makesavefo_description" approved="yes">
         <source>Description</source>
-        <target>crwdns40992:0crwdne40992:0</target>
+        <target state="translated">Beschreibung</target>
       </trans-unit>
-      <trans-unit id="makesavefo_notes">
+      <trans-unit id="makesavefo_notes" approved="yes">
         <source>Notes</source>
-        <target>crwdns40994:0crwdne40994:0</target>
+        <target state="translated">Anmerkungen</target>
       </trans-unit>
-      <trans-unit id="makesavefo_t3dFileCompressed">
+      <trans-unit id="makesavefo_t3dFileCompressed" approved="yes">
         <source>T3D file / compressed</source>
-        <target>crwdns40996:0crwdne40996:0</target>
+        <target state="translated">T3D-Datei/komprimiert</target>
       </trans-unit>
-      <trans-unit id="makesavefo_t3dFile">
+      <trans-unit id="makesavefo_t3dFile" approved="yes">
         <source>T3D file</source>
-        <target>crwdns40998:0crwdne40998:0</target>
+        <target state="translated">T3D-Datei</target>
       </trans-unit>
-      <trans-unit id="makesavefo_xml">
-        <source>XML</source>
-        <target>crwdns41000:0crwdne41000:0</target>
-      </trans-unit>
-      <trans-unit id="makesavefo_fileFormat">
+      <trans-unit id="makesavefo_fileFormat" approved="yes">
         <source>File format</source>
-        <target>crwdns41002:0crwdne41002:0</target>
+        <target state="translated">Dateiformat</target>
       </trans-unit>
-      <trans-unit id="makesavefo_filenameSavedInS">
+      <trans-unit id="makesavefo_filenameSavedInS" approved="yes">
         <source>Filename (saved in "%s")</source>
-        <target>crwdns41004:0%scrwdne41004:0</target>
+        <target state="translated">Dateiname (gespeichert in "%s")</target>
       </trans-unit>
-      <trans-unit id="makesavefo_downloadExport">
+      <trans-unit id="makesavefo_downloadExport" approved="yes">
         <source>Download export</source>
-        <target>crwdns41006:0crwdne41006:0</target>
+        <target state="translated">Exportdatei herunterladen</target>
       </trans-unit>
-      <trans-unit id="importdata_saveToFilename">
+      <trans-unit id="importdata_saveToFilename" approved="yes">
         <source>Save to filename</source>
-        <target>crwdns41008:0crwdne41008:0</target>
+        <target state="translated">Speichern unter</target>
       </trans-unit>
-      <trans-unit id="importdata_selectFileToImport">
+      <trans-unit id="importdata_selectFileToImport" approved="yes">
         <source>Select file to import</source>
-        <target>crwdns41010:0crwdne41010:0</target>
+        <target state="translated">Importdatei auswählen</target>
       </trans-unit>
-      <trans-unit id="importdata_file">
+      <trans-unit id="importdata_file" approved="yes">
         <source>File</source>
-        <target>crwdns41012:0crwdne41012:0</target>
+        <target state="translated">Datei</target>
       </trans-unit>
-      <trans-unit id="importdata_fromPathS">
+      <trans-unit id="importdata_fromPathS" approved="yes">
         <source>(From path: %s)</source>
-        <target>crwdns41014:0%scrwdne41014:0</target>
+        <target state="translated">(Aus Pfad: %s)</target>
       </trans-unit>
-      <trans-unit id="importdata_noteNoDecompressorAvailable">
+      <trans-unit id="importdata_noteNoDecompressorAvailable" approved="yes">
         <source>NOTE: No decompressor available for compressed files!</source>
-        <target>crwdns41016:0crwdne41016:0</target>
+        <target state="translated">ACHTUNG: Kein Entpackprogramm für komprimierte Dateien vorhanden!</target>
       </trans-unit>
-      <trans-unit id="importdata_importOptions">
+      <trans-unit id="importdata_importOptions" approved="yes">
         <source>Import Options</source>
-        <target>crwdns41018:0crwdne41018:0</target>
+        <target state="translated">Importeinstellungen</target>
       </trans-unit>
-      <trans-unit id="importdata_update">
+      <trans-unit id="importdata_update" approved="yes">
         <source>Update</source>
-        <target>crwdns41020:0crwdne41020:0</target>
+        <target state="translated">Aktualisierung</target>
       </trans-unit>
-      <trans-unit id="importdata_updateRecords">
+      <trans-unit id="importdata_updateRecords" approved="yes">
         <source>Update records</source>
-        <target>crwdns41022:0crwdne41022:0</target>
+        <target state="translated">Datensätze aktualisieren</target>
       </trans-unit>
-      <trans-unit id="importdata_thisOptionRequiresThat">
+      <trans-unit id="importdata_thisOptionRequiresThat" approved="yes">
         <source>This option requires that the structure you import already exists on this server and only needs to be updated with new content!</source>
-        <target>crwdns41024:0crwdne41024:0</target>
+        <target state="translated">Diese Option verlangt, dass die zu importierende Struktur bereits auf dem Server existiert und nur mit dem neuen Inhalt aktualisiert werden soll!</target>
       </trans-unit>
-      <trans-unit id="importdata_ignorePidDifferencesGlobally">
+      <trans-unit id="importdata_ignorePidDifferencesGlobally" approved="yes">
         <source>Ignore PID differences globally</source>
-        <target>crwdns41026:0crwdne41026:0</target>
+        <target state="translated">PID-Unterschiede generell ignorieren</target>
       </trans-unit>
-      <trans-unit id="importdata_ifYouSetThis">
+      <trans-unit id="importdata_ifYouSetThis" approved="yes">
         <source>If you set this option, the position of updated elements will not be updated to match the structure of the input file.</source>
-        <target>crwdns41028:0crwdne41028:0</target>
+        <target state="translated">Mit dieser Option wird die Position aktualisierter Inhalte nicht mit der Struktur aus der Importdatei überschrieben.</target>
       </trans-unit>
-      <trans-unit id="importdata_force_all_UIDS">
+      <trans-unit id="importdata_force_all_UIDS" approved="yes">
         <source>Force ALL UIDs values</source>
-        <target>crwdns41030:0crwdne41030:0</target>
+        <target state="translated">ALLE UID-Werte erzwingen</target>
       </trans-unit>
-      <trans-unit id="importdata_force_all_UIDS_descr">
+      <trans-unit id="importdata_force_all_UIDS_descr" approved="yes">
         <source>With this option the original UID value of all imported records are forced to be the same. BE VERY CAREFUL WITH THIS! (Admin Only).</source>
-        <target>crwdns41032:0crwdne41032:0</target>
+        <target state="translated">Mit dieser Option werden alle ursprünglichen UID-Werte der importierten Datensätze beim Import erzwungen. VERWENDEN SIE DIESE OPTION MIT VORSICHT! (Nur für Admins)</target>
       </trans-unit>
-      <trans-unit id="importdata_options">
+      <trans-unit id="importdata_options" approved="yes">
         <source>Options</source>
-        <target>crwdns41034:0crwdne41034:0</target>
+        <target state="translated">Optionen</target>
       </trans-unit>
-      <trans-unit id="importdata_doNotShowDifferences">
+      <trans-unit id="importdata_doNotShowDifferences" approved="yes">
         <source>Do not show differences in records</source>
-        <target>crwdns41036:0crwdne41036:0</target>
+        <target state="translated">Unterschiede in Datensätzen nicht anzeigen</target>
       </trans-unit>
-      <trans-unit id="importdata_greenValuesAreFrom">
+      <trans-unit id="importdata_greenValuesAreFrom" approved="yes">
         <source>Green values are from the import file, red values from the current database record and black values are similar in both versions.</source>
-        <target>crwdns41038:0crwdne41038:0</target>
+        <target state="translated">Grüne Werte stammen aus der Importdatei, rote Werte aus dem aktuellen Datensatz und schwarze Werte sind in beiden gleich.</target>
       </trans-unit>
-      <trans-unit id="importdata_allowToWriteBanned">
+      <trans-unit id="importdata_allowToWriteBanned" approved="yes">
         <source>Allow to write banned file extensions (eg. PHP scripts), if any</source>
-        <target>crwdns41040:0crwdne41040:0</target>
+        <target state="translated">Verbotene Dateierweiterungen dennoch erlauben (z.B. PHP-Skripte)</target>
       </trans-unit>
-      <trans-unit id="importdata_action">
+      <trans-unit id="importdata_action" approved="yes">
         <source>Action</source>
-        <target>crwdns41042:0crwdne41042:0</target>
+        <target state="translated">Aktion</target>
       </trans-unit>
-      <trans-unit id="importdata_preview">
+      <trans-unit id="importdata_preview" approved="yes">
         <source>Preview</source>
-        <target>crwdns41044:0crwdne41044:0</target>
+        <target state="translated">Vorschau</target>
       </trans-unit>
-      <trans-unit id="importdata_update_299e">
+      <trans-unit id="importdata_update_299e" approved="yes">
         <source>Update</source>
-        <target>crwdns41046:0crwdne41046:0</target>
+        <target state="translated">Aktualisierung</target>
       </trans-unit>
-      <trans-unit id="importdata_import">
-        <source>Import</source>
-        <target>crwdns41048:0crwdne41048:0</target>
-      </trans-unit>
-      <trans-unit id="importdata_areYouSure">
+      <trans-unit id="importdata_areYouSure" approved="yes">
         <source>Are you sure?</source>
-        <target>crwdns41050:0crwdne41050:0</target>
+        <target state="translated">Vorgang tatsächlich fortführen?</target>
       </trans-unit>
-      <trans-unit id="importdata_newImport">
+      <trans-unit id="importdata_newImport" approved="yes">
         <source>New import</source>
-        <target>crwdns41052:0crwdne41052:0</target>
+        <target state="translated">Neuer Import</target>
       </trans-unit>
-      <trans-unit id="importdata_enableLogging">
+      <trans-unit id="importdata_enableLogging" approved="yes">
         <source>Enable logging</source>
-        <target>crwdns41054:0crwdne41054:0</target>
+        <target state="translated">Protokollierung einschalten</target>
       </trans-unit>
-      <trans-unit id="importdata_writeIndividualDbActions">
+      <trans-unit id="importdata_writeIndividualDbActions" approved="yes">
         <source>Write individual DB actions during import to the log</source>
-        <target>crwdns41056:0crwdne41056:0</target>
+        <target state="translated">Alle während des Importvorgangs auftretenden Datenbankaktionen aufzeichnen</target>
       </trans-unit>
-      <trans-unit id="importdata_thisIsDisabledBy">
+      <trans-unit id="importdata_thisIsDisabledBy" approved="yes">
         <source>This is disabled by default since there may be hundred of entries generated.</source>
-        <target>crwdns41058:0crwdne41058:0</target>
+        <target state="translated">Diese Option ist standardmäßig deaktiviert, weil unter Umständen hunderte Einträge erzeugt werden.</target>
       </trans-unit>
-      <trans-unit id="importdata_uploadFileFromLocal">
+      <trans-unit id="importdata_uploadFileFromLocal" approved="yes">
         <source>Upload file from local computer</source>
-        <target>crwdns41060:0crwdne41060:0</target>
+        <target state="translated">Importdatei übertragen</target>
       </trans-unit>
-      <trans-unit id="importdata_browse">
+      <trans-unit id="importdata_browse" approved="yes">
         <source>Browse</source>
-        <target>crwdns41062:0crwdne41062:0</target>
+        <target state="translated">Durchsuchen</target>
       </trans-unit>
-      <trans-unit id="importdata_uploadStatus">
+      <trans-unit id="importdata_uploadStatus" approved="yes">
         <source>Upload status</source>
-        <target>crwdns41064:0crwdne41064:0</target>
+        <target state="translated">Status des Hochladens</target>
       </trans-unit>
-      <trans-unit id="importdata_success">
+      <trans-unit id="importdata_success" approved="yes">
         <source>Success</source>
-        <target>crwdns41066:0crwdne41066:0</target>
+        <target state="translated">Erfolg</target>
       </trans-unit>
-      <trans-unit id="importdata_failureNoFileUploaded">
+      <trans-unit id="importdata_failureNoFileUploaded" approved="yes">
         <source>Failure: No file uploaded - was it too big? Check system log.</source>
-        <target>crwdns41068:0crwdne41068:0</target>
+        <target state="translated">Fehler: Es wurde keine Datei übertragen! (Datei zu groß?) Weitere Angaben in Systemprotokoll.</target>
       </trans-unit>
-      <trans-unit id="importdata_upload">
+      <trans-unit id="importdata_upload" approved="yes">
         <source>Upload</source>
-        <target>crwdns41070:0crwdne41070:0</target>
+        <target state="translated">Hochladen</target>
       </trans-unit>
-      <trans-unit id="importdata_upload_error">
+      <trans-unit id="importdata_upload_error" approved="yes">
         <source>Upload error</source>
-        <target>crwdns41072:0crwdne41072:0</target>
+        <target state="translated">Hochladefehler</target>
       </trans-unit>
-      <trans-unit id="importdata_upload_nodata">
+      <trans-unit id="importdata_upload_nodata" approved="yes">
         <source>The import module hasn't received any data. This may occur due to a file upload with a large file. Please check the file size of your uploaded file with the server's post_max_size and upload_max_filesize configuration.</source>
-        <target>crwdns41074:0crwdne41074:0</target>
+        <target state="translated">Das Import-Modul hat keine Daten erhalten. Grund dafür kann das Hochladen einer Datei mit einer großen Dateigröße sein. Bitte überprüfen Sie die Dateigröße Ihrer hochgeladenen Datei sowie die Einstellungen post_max_size und upload_max_filesize in der Konfiguration Ihres Servers.</target>
       </trans-unit>
-      <trans-unit id="importdata_metaData">
+      <trans-unit id="importdata_metaData" approved="yes">
         <source>Meta data</source>
-        <target>crwdns41076:0crwdne41076:0</target>
+        <target state="translated">Metadaten</target>
       </trans-unit>
-      <trans-unit id="importdata_title">
+      <trans-unit id="importdata_title" approved="yes">
         <source>Title</source>
-        <target>crwdns41078:0crwdne41078:0</target>
+        <target state="translated">Titel</target>
       </trans-unit>
-      <trans-unit id="importdata_description">
+      <trans-unit id="importdata_description" approved="yes">
         <source>Description</source>
-        <target>crwdns41080:0crwdne41080:0</target>
+        <target state="translated">Beschreibung</target>
       </trans-unit>
-      <trans-unit id="importdata_notes">
+      <trans-unit id="importdata_notes" approved="yes">
         <source>Notes</source>
-        <target>crwdns41082:0crwdne41082:0</target>
+        <target state="translated">Anmerkungen</target>
       </trans-unit>
-      <trans-unit id="importdata_packager">
+      <trans-unit id="importdata_packager" approved="yes">
         <source>Packager</source>
-        <target>crwdns41084:0crwdne41084:0</target>
+        <target state="translated">Packprogramm</target>
       </trans-unit>
-      <trans-unit id="importdata_email">
+      <trans-unit id="importdata_email" approved="yes">
         <source>Email</source>
-        <target>crwdns41086:0crwdne41086:0</target>
+        <target state="translated">E-Mail</target>
       </trans-unit>
-      <trans-unit id="importdata_icon">
+      <trans-unit id="importdata_icon" approved="yes">
         <source>Icon</source>
-        <target>crwdns41088:0crwdne41088:0</target>
+        <target state="translated">Symbol</target>
       </trans-unit>
-      <trans-unit id="importdata_metaData_1387">
+      <trans-unit id="importdata_metaData_1387" approved="yes">
         <source>Meta data</source>
-        <target>crwdns41090:0crwdne41090:0</target>
+        <target state="translated">Metadaten</target>
       </trans-unit>
-      <trans-unit id="importdata_messages">
+      <trans-unit id="importdata_messages" approved="yes">
         <source>Messages</source>
-        <target>crwdns41092:0crwdne41092:0</target>
+        <target state="translated">Meldungen</target>
       </trans-unit>
-      <trans-unit id="importdata_structureHasBeenImported">
+      <trans-unit id="importdata_structureHasBeenImported" approved="yes">
         <source>Structure has been imported, here is the result</source>
-        <target>crwdns41094:0crwdne41094:0</target>
+        <target state="translated">Folgende Struktur wurde importiert, hier ist das Ergebnis</target>
       </trans-unit>
-      <trans-unit id="importdata_no_accessible_file_mount">
+      <trans-unit id="importdata_no_accessible_file_mount" approved="yes">
         <source>No accessible filemount</source>
-        <target>crwdns41096:0crwdne41096:0</target>
+        <target state="translated">Keine zugängliche Dateifreigabe</target>
       </trans-unit>
-      <trans-unit id="importdata_no_default_upload_folder">
+      <trans-unit id="importdata_no_default_upload_folder" approved="yes">
         <source>No default upload folder</source>
-        <target>crwdns41098:0crwdne41098:0</target>
+        <target state="translated">Kein Standardhochladeordner</target>
       </trans-unit>
-      <trans-unit id="filterpage_structureToBeImported">
+      <trans-unit id="filterpage_structureToBeImported" approved="yes">
         <source>Structure to be imported</source>
-        <target>crwdns41100:0crwdne41100:0</target>
+        <target state="translated">Zu importierende Struktur</target>
       </trans-unit>
-      <trans-unit id="ALL_tables">
+      <trans-unit id="ALL_tables" approved="yes">
         <source>ALL tables</source>
-        <target>crwdns41102:0crwdne41102:0</target>
+        <target state="translated">ALLE Tabellen</target>
       </trans-unit>
-      <trans-unit id="impexpcore_displaycon_controls">
+      <trans-unit id="impexpcore_displaycon_controls" approved="yes">
         <source>Controls</source>
-        <target>crwdns41104:0crwdne41104:0</target>
+        <target state="translated">Steuerung</target>
       </trans-unit>
-      <trans-unit id="impexpcore_displaycon_title">
+      <trans-unit id="impexpcore_displaycon_title" approved="yes">
         <source>Title</source>
-        <target>crwdns41106:0crwdne41106:0</target>
+        <target state="translated">Titel</target>
       </trans-unit>
-      <trans-unit id="impexpcore_displaycon_message">
+      <trans-unit id="impexpcore_displaycon_message" approved="yes">
         <source>Message</source>
-        <target>crwdns41108:0crwdne41108:0</target>
+        <target state="translated">Meldungen</target>
       </trans-unit>
-      <trans-unit id="impexpcore_displaycon_updateMode">
+      <trans-unit id="impexpcore_displaycon_updateMode" approved="yes">
         <source>Update Mode</source>
-        <target>crwdns41110:0crwdne41110:0</target>
+        <target state="translated">Aktualisierungsmodus</target>
       </trans-unit>
-      <trans-unit id="impexpcore_displaycon_currentPath">
+      <trans-unit id="impexpcore_displaycon_currentPath" approved="yes">
         <source>Current Path</source>
-        <target>crwdns41112:0crwdne41112:0</target>
+        <target state="translated">Derzeitiger Pfad</target>
       </trans-unit>
-      <trans-unit id="impexpcore_displaycon_result">
+      <trans-unit id="impexpcore_displaycon_result" approved="yes">
         <source>Result</source>
-        <target>crwdns41114:0crwdne41114:0</target>
+        <target state="translated">Ergebnis</target>
       </trans-unit>
-      <trans-unit id="impexpcore_displaycon_insidePagetree">
+      <trans-unit id="impexpcore_displaycon_insidePagetree" approved="yes">
         <source>Inside pagetree</source>
-        <target>crwdns41116:0crwdne41116:0</target>
+        <target state="translated">Innerhalb des Seitenbaumes</target>
       </trans-unit>
-      <trans-unit id="impexpcore_singlereco_outsidePagetree">
+      <trans-unit id="impexpcore_singlereco_outsidePagetree" approved="yes">
         <source>Outside pagetree</source>
-        <target>crwdns41118:0crwdne41118:0</target>
+        <target state="translated">Außerhalb des Seitenbaumes</target>
       </trans-unit>
-      <trans-unit id="impexpcore_singlereco_softReferencesFiles">
+      <trans-unit id="impexpcore_singlereco_softReferencesFiles" approved="yes">
         <source>Soft References Files</source>
-        <target>crwdns41120:0crwdne41120:0</target>
+        <target state="translated">Soft-References - Dateien</target>
       </trans-unit>
-      <trans-unit id="impexpcore_singlereco_update">
+      <trans-unit id="impexpcore_singlereco_update" approved="yes">
         <source>Update</source>
-        <target>crwdns41122:0crwdne41122:0</target>
+        <target state="translated">Aktualisieren</target>
       </trans-unit>
-      <trans-unit id="impexpcore_singlereco_insert">
+      <trans-unit id="impexpcore_singlereco_insert" approved="yes">
         <source>Insert</source>
-        <target>crwdns41124:0crwdne41124:0</target>
+        <target state="translated">Einfügen</target>
       </trans-unit>
-      <trans-unit id="impexpcore_singlereco_importAsNew">
+      <trans-unit id="impexpcore_singlereco_importAsNew" approved="yes">
         <source>Import as new</source>
-        <target>crwdns41126:0crwdne41126:0</target>
+        <target state="translated">Als neu importieren</target>
       </trans-unit>
-      <trans-unit id="impexpcore_singlereco_ignorePid">
+      <trans-unit id="impexpcore_singlereco_ignorePid" approved="yes">
         <source>Ignore PID</source>
-        <target>crwdns41128:0crwdne41128:0</target>
+        <target state="translated">PID ignorieren</target>
       </trans-unit>
-      <trans-unit id="impexpcore_singlereco_respectPid">
+      <trans-unit id="impexpcore_singlereco_respectPid" approved="yes">
         <source>Respect PID</source>
-        <target>crwdns41130:0crwdne41130:0</target>
+        <target state="translated">PID beachten</target>
       </trans-unit>
-      <trans-unit id="impexpcore_singlereco_forceUidSAdmin">
+      <trans-unit id="impexpcore_singlereco_forceUidSAdmin" approved="yes">
         <source>Force UID [%s] (Admin)</source>
-        <target>crwdns41132:0[%s]crwdne41132:0</target>
+        <target state="translated">UID [%s] erzwingen (Admin)</target>
       </trans-unit>
-      <trans-unit id="impexpcore_singlereco_exclude">
+      <trans-unit id="impexpcore_singlereco_exclude" approved="yes">
         <source>Exclude</source>
-        <target>crwdns41134:0crwdne41134:0</target>
+        <target state="translated">Ausschließen</target>
       </trans-unit>
-      <trans-unit id="impexpcore_singlereco_title">
+      <trans-unit id="impexpcore_singlereco_title" approved="yes">
         <source>Title</source>
-        <target>crwdns41136:0crwdne41136:0</target>
+        <target state="translated">Titel</target>
       </trans-unit>
-      <trans-unit id="impexpcore_singlereco_descr">
+      <trans-unit id="impexpcore_singlereco_descr" approved="yes">
         <source>Descr</source>
-        <target>crwdns41138:0crwdne41138:0</target>
+        <target state="translated">Beschreibung</target>
       </trans-unit>
-      <trans-unit id="impexpcore_singlereco_filename">
+      <trans-unit id="impexpcore_singlereco_filename" approved="yes">
         <source>Filename</source>
-        <target>crwdns41140:0crwdne41140:0</target>
+        <target state="translated">Dateiname</target>
       </trans-unit>
-      <trans-unit id="impexpcore_singlereco_value">
+      <trans-unit id="impexpcore_singlereco_value" approved="yes">
         <source>Value</source>
-        <target>crwdns41142:0crwdne41142:0</target>
+        <target state="translated">Wert</target>
       </trans-unit>
-      <trans-unit id="impexpcore_softrefsel_record">
+      <trans-unit id="impexpcore_softrefsel_record" approved="yes">
         <source>Record</source>
-        <target>crwdns41144:0crwdne41144:0</target>
+        <target state="translated">Datensatz</target>
       </trans-unit>
-      <trans-unit id="impexpcore_softrefsel_editable">
+      <trans-unit id="impexpcore_softrefsel_editable" approved="yes">
         <source>Editable</source>
-        <target>crwdns41146:0crwdne41146:0</target>
+        <target state="translated">Editierbar</target>
       </trans-unit>
-      <trans-unit id="impexpcore_softrefsel_exclude">
+      <trans-unit id="impexpcore_softrefsel_exclude" approved="yes">
         <source>Exclude</source>
-        <target>crwdns41148:0crwdne41148:0</target>
+        <target state="translated">Ausschließen</target>
       </trans-unit>
-      <trans-unit id="impexpcore_printerror_description">
+      <trans-unit id="impexpcore_printerror_description" approved="yes">
         <source>Description</source>
-        <target>crwdns41150:0crwdne41150:0</target>
+        <target state="translated">Beschreibung</target>
       </trans-unit>
     </body>
   </file>
