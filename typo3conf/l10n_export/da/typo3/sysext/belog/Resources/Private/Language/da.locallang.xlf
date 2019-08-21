@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814781" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="belog" target-language="da">
+    <header/>
+    <body>
+      <trans-unit id="adminLog" approved="yes">
+        <source>Administration log</source>
+        <target state="translated">Administrationslog</target>
+      </trans-unit>
+      <trans-unit id="allUsers" approved="yes">
+        <source>[All users]</source>
+        <target state="translated">[Alle brugere]</target>
+      </trans-unit>
+      <trans-unit id="any" approved="yes">
+        <source>[Any]</source>
+        <target state="translated">[Enhver]</target>
+      </trans-unit>
+      <trans-unit id="draft" approved="yes">
+        <source>Draft</source>
+        <target state="translated">Kladde</target>
+      </trans-unit>
+      <trans-unit id="self" approved="yes">
+        <source>Self</source>
+        <target state="translated">Egen</target>
+      </trans-unit>
+      <trans-unit id="userGroup" approved="yes">
+        <source>Group</source>
+        <target state="translated">Gruppe</target>
+      </trans-unit>
+      <trans-unit id="thisWeek" approved="yes">
+        <source>This week</source>
+        <target state="translated">Denne uge</target>
+      </trans-unit>
+      <trans-unit id="lastWeek" approved="yes">
+        <source>Last week</source>
+        <target state="translated">Sidste uge</target>
+      </trans-unit>
+      <trans-unit id="last7Days" approved="yes">
+        <source>Last 7 days</source>
+        <target state="translated">Sidste 7 dage</target>
+      </trans-unit>
+      <trans-unit id="thisMonth" approved="yes">
+        <source>This month</source>
+        <target state="translated">Denne måned</target>
+      </trans-unit>
+      <trans-unit id="lastMonth" approved="yes">
+        <source>Last month</source>
+        <target state="translated">Sidste måned</target>
+      </trans-unit>
+      <trans-unit id="last31Days" approved="yes">
+        <source>Last 31 days</source>
+        <target state="translated">Sidste 31 dage</target>
+      </trans-unit>
+      <trans-unit id="noLimit" approved="yes">
+        <source>No limit</source>
+        <target state="translated">Ingen grænse</target>
+      </trans-unit>
+      <trans-unit id="userDefined" approved="yes">
+        <source>User defined</source>
+        <target state="translated">Brugerdefineret</target>
+      </trans-unit>
+      <trans-unit id="set" approved="yes">
+        <source>Set</source>
+        <target state="translated">Angiv</target>
+      </trans-unit>
+      <trans-unit id="actionAll" approved="yes">
+        <source>All</source>
+        <target state="translated">Alle</target>
+      </trans-unit>
+      <trans-unit id="actionFile" approved="yes">
+        <source>File</source>
+        <target state="translated">Fil</target>
+      </trans-unit>
+      <trans-unit id="actionSettings" approved="yes">
+        <source>Settings</source>
+        <target state="translated">Indstillinger</target>
+      </trans-unit>
+      <trans-unit id="actionLogin" approved="yes">
+        <source>Login</source>
+        <target state="translated">Log ind</target>
+      </trans-unit>
+      <trans-unit id="actionErrors" approved="yes">
+        <source>Errors</source>
+        <target state="translated">Fejl</target>
+      </trans-unit>
+      <trans-unit id="group" approved="yes">
+        <source>Group</source>
+        <target state="translated">Gruppe</target>
+      </trans-unit>
+      <trans-unit id="user" approved="yes">
+        <source>User</source>
+        <target state="translated">Bruger</target>
+      </trans-unit>
+      <trans-unit id="users" approved="yes">
+        <source>Users</source>
+        <target state="translated">Brugere</target>
+      </trans-unit>
+      <trans-unit id="time" approved="yes">
+        <source>Time</source>
+        <target state="translated">Tid</target>
+      </trans-unit>
+      <trans-unit id="max" approved="yes">
+        <source>Max</source>
+        <target state="translated">Maks</target>
+      </trans-unit>
+      <trans-unit id="changesInFields" approved="yes">
+        <source>Changes in fields: %s.</source>
+        <target state="translated">Ændringer i felter: %s.</target>
+      </trans-unit>
+      <trans-unit id="showHistory" approved="yes">
+        <source>Show History</source>
+        <target state="translated">Vis historik</target>
+      </trans-unit>
+      <trans-unit id="action" approved="yes">
+        <source>Action</source>
+        <target state="translated">Aktion</target>
+      </trans-unit>
+      <trans-unit id="workspace" approved="yes">
+        <source>Workspace</source>
+        <target state="translated">Arbejdsrum</target>
+      </trans-unit>
+      <trans-unit id="groupByPage" approved="yes">
+        <source>Group by page</source>
+        <target state="translated">Gruppér pr. side</target>
+      </trans-unit>
+      <trans-unit id="overview" approved="yes">
+        <source>Overview</source>
+        <target state="translated">Overblik</target>
+      </trans-unit>
+      <trans-unit id="timeInfo" approved="yes">
+        <source>These pages have log messages from %s to %s</source>
+        <target state="translated">Disse sider har log-beskeder fra %s til %s</target>
+      </trans-unit>
+      <trans-unit id="forNonPageRelatedActions" approved="yes">
+        <source>for NON-PAGE related actions</source>
+        <target state="translated">for INGEN-SIDE relaterede aktioner</target>
+      </trans-unit>
+      <trans-unit id="forRootLevel" approved="yes">
+        <source>for ROOT LEVEL</source>
+        <target state="translated">for RODNIVEAU</target>
+      </trans-unit>
+      <trans-unit id="forPage" approved="yes">
+        <source>for PAGE "%s" (UID: %s)</source>
+        <target state="translated">for SIDE "%s" (UID: %s)</target>
+      </trans-unit>
+      <trans-unit id="logForNonPageRelatedActionsOrRootLevelOrPage" approved="yes">
+        <source>Log %s from %s to %s</source>
+        <target state="translated">Log %s fra %s til %s</target>
+      </trans-unit>
+      <trans-unit id="action_1_1" approved="yes">
+        <source>Insert</source>
+        <target state="translated">Indsæt</target>
+      </trans-unit>
+      <trans-unit id="action_1_2" approved="yes">
+        <source>Update</source>
+        <target state="translated">Opdatér</target>
+      </trans-unit>
+      <trans-unit id="action_1_3" approved="yes">
+        <source>Delete</source>
+        <target state="translated">Slet</target>
+      </trans-unit>
+      <trans-unit id="action_1_4" approved="yes">
+        <source>Move</source>
+        <target state="translated">Tjek</target>
+      </trans-unit>
+      <trans-unit id="action_1_5" approved="yes">
+        <source>Check</source>
+        <target state="translated">Tjek</target>
+      </trans-unit>
+      <trans-unit id="msg_1_0_1" approved="yes">
+        <source>Referer host '%s' and server host '%s' did not match!</source>
+        <target state="translated">Referer host '%s' og server host '%s' matcher ikke!</target>
+      </trans-unit>
+      <trans-unit id="msg_1_1_11" approved="yes">
+        <source>Attempt to insert record on page '%s' (%s) where this table, %s, is not allowed</source>
+        <target state="translated">Forsøg på at indsætte emne på side '%s' (%s) hvor denne tabel, %s ikke er tilladt</target>
+      </trans-unit>
+      <trans-unit id="msg_1_1_12" approved="yes">
+        <source>Attempt to insert a record on page '%s' (%s) from table '%s' without permissions. Or non-existing page.</source>
+        <target state="translated">Forsøg på at indsætte emne på side '%s' (%s) fra tabel '%s' uden tilladelser. Eller ikke-eksisterende side.</target>
+      </trans-unit>
+      <trans-unit id="msg_1_2_1" approved="yes">
+        <source>Attempt to modify table '%s' without permission</source>
+        <target state="translated">Forsøg på at modificere tabel '%s' uden tilladelse</target>
+      </trans-unit>
+      <trans-unit id="msg_1_2_2" approved="yes">
+        <source>Attempt to modify record '%s' (%s) without permission. Or non-existing page.</source>
+        <target state="translated">Forsøg på at modificere emne '%s' (%s) uden tilladelse. Eller ikke-eksisterende side.</target>
+      </trans-unit>
+      <trans-unit id="msg_1_2_10" approved="yes">
+        <source>Record '%s' (%s) was updated.</source>
+        <target state="translated">Emne '%s' (%s) blev opdateret.</target>
+      </trans-unit>
+      <trans-unit id="msg_1_2_12" approved="yes">
+        <source>MySQL error: '%s' (%s)</source>
+        <target state="translated">MySQL fejl: '%s' (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_1" approved="yes">
+        <source>Attempt to move record '%s' (%s) to after a non-existing record (uid=%s)</source>
+        <target state="translated">Forsøg på at flytte emne '%s' (%s) til efter et ikke-eksisterende emne (uid=%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_2" approved="yes">
+        <source>Moved record '%s' (%s) to page '%s' (%s)</source>
+        <target state="translated">Flyttede element '%s' (%s) til side '%s' (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_3" approved="yes">
+        <source>Moved record '%s' (%s) from page '%s' (%s)</source>
+        <target state="translated">Flyttede element '%s' (%s) fra side '%s' (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_4" approved="yes">
+        <source>Moved record '%s' (%s) on page '%s' (%s)</source>
+        <target state="translated">Flyttede element '%s' (%s) på side '%s' (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_10" approved="yes">
+        <source>Attempt to move page '%s' (%s) to inside of its own rootline (at page '%s' (%s))</source>
+        <target state="translated">Forsøg på at flytte side '%s' (%s) til et sted indenfor dens rootlinje (på side '%s' (%s))</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_11" approved="yes">
+        <source>Attempt to insert record on page '%s' (%s) where this table, %s, is not allowed</source>
+        <target state="translated">Forsøg på at indsætte element på side '%s' (%s) hvor denne tabel, %s ikke er tilladt</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_12" approved="yes">
+        <source>Attempt to insert a record on page '%s' (%s) from table '%s' without permissions. Or non-existing page.</source>
+        <target state="translated">Forsøg på at indsætte et element på side '%s' (%s) fra tabel '%s' uden tilladelser. Eller ikke-eksisterende side.</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_13" approved="yes">
+        <source>Attempt to move record '%s' (%s) to after another record, although the table has no sorting row.</source>
+        <target state="translated">Forsøg på at flytte element '%s' (%s) til efter et andet element, selvom tabellen ikke kan sortere rækker.</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_14" approved="yes">
+        <source>Attempt to move record '%s' (%s) without having permissions to do so</source>
+        <target state="translated">Forsøg på at flytte element '%s' (%s) uden tilladelse til at gøre dette</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_1" approved="yes">
+        <source>You cannot change the 'doktype' of page '%s' to the desired value.</source>
+        <target state="translated">Du kan ikke ændre 'doktype' på siden '%s' til den ønskede værdi.</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_2" approved="yes">
+        <source>'doktype' of page '%s' could not be changed because the page contains records from disallowed tables; %s</source>
+        <target state="translated">'doktype' for siden '%s' kan ikke ændres fordi siden indeholder elementer fra ikke-tilladte tabeller; %s</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_3" approved="yes">
+        <source>Too few items in the list of values. (%s)</source>
+        <target state="translated">For få elementer i listen af værdier. (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_10" approved="yes">
+        <source>Could not delete file '%s' (does not exist). (%s)</source>
+        <target state="translated">Kunne ikke slette filen '%s' (eksisterer ikke). (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_11" approved="yes">
+        <source>Copying file '%s' failed!: No destination file (%s) possible!. (%s)</source>
+        <target state="translated">Kopiering af filen 's%' fejlede!: Ingen destinationsfil (%s) mulig!. (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_12" approved="yes">
+        <source>File extension '%s' is not allowed. (%s)</source>
+        <target state="translated">Fil-endelse '%s' er ikke tilladt. (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_13" approved="yes">
+        <source>File size (%s) of file '%s' exceeds limit (%s). (%s)</source>
+        <target state="translated">Filstørrelsen (%s) af filen '%s' overskrider grænsen (%s). (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_14" approved="yes">
+        <source>The destination (%s) or the source file (%s) does not exist. (%s)</source>
+        <target state="translated">Destinationen (%s) eller kildefilen (%s) eksisterer ikke. (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_15" approved="yes">
+        <source>Copying to file '%s' failed! (%s)</source>
+        <target state="translated">Kopiering til filen '%s' fejlede! (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_16" approved="yes">
+        <source>Copying file '%s' failed!: The destination path (%s) may be write protected. Please make it write enabled!. (%s)</source>
+        <target state="translated">Kopiering af filen '%s' fejlede!: Desitinationsstien (%s) er måske skrivebeskyttet. Fjern venligst skrivebeskyttelsen!. (%s)</target>
+      </trans-unit>
+      <trans-unit id="type_2" approved="yes">
+        <source>FILE</source>
+        <target state="translated">FIL</target>
+      </trans-unit>
+      <trans-unit id="action_2_2" approved="yes">
+        <source>Copy</source>
+        <target state="translated">Kopiér</target>
+      </trans-unit>
+      <trans-unit id="action_2_3" approved="yes">
+        <source>Move</source>
+        <target state="translated">Flyt</target>
+      </trans-unit>
+      <trans-unit id="action_2_4" approved="yes">
+        <source>Delete</source>
+        <target state="translated">Slet</target>
+      </trans-unit>
+      <trans-unit id="action_2_5" approved="yes">
+        <source>Rename</source>
+        <target state="translated">Omdøb</target>
+      </trans-unit>
+      <trans-unit id="action_2_6" approved="yes">
+        <source>New</source>
+        <target state="translated">Ny</target>
+      </trans-unit>
+      <trans-unit id="action_2_7" approved="yes">
+        <source>Unzip</source>
+        <target state="translated">Dekomprimér</target>
+      </trans-unit>
+      <trans-unit id="action_2_8" approved="yes">
+        <source>New file</source>
+        <target state="translated">Ny fil</target>
+      </trans-unit>
+      <trans-unit id="action_2_9" approved="yes">
+        <source>Edit</source>
+        <target state="translated">Redigér</target>
+      </trans-unit>
+      <trans-unit id="msg_2_9_1" approved="yes">
+        <source>File saved to '%s', bytes: %s, MD5: %s </source>
+        <target state="translated">Fil gemt til '%s', bytes: %s, MD5: %s </target>
+      </trans-unit>
+      <trans-unit id="action_3_1" approved="yes">
+        <source>Clear Cache</source>
+        <target state="translated">Ryd Cache</target>
+      </trans-unit>
+      <trans-unit id="type_4" approved="yes">
+        <source>EXTENSION</source>
+        <target state="translated">UDVIDELSE</target>
+      </trans-unit>
+      <trans-unit id="type_5" approved="yes">
+        <source>ERROR</source>
+        <target state="translated">FEJL</target>
+      </trans-unit>
+      <trans-unit id="action_5_0" approved="yes">
+        <source>Error handler</source>
+        <target state="translated">Fejlhåndtering</target>
+      </trans-unit>
+      <trans-unit id="type_254" approved="yes">
+        <source>SETTING</source>
+        <target state="translated">INDSTILLINGER</target>
+      </trans-unit>
+      <trans-unit id="action_254_1" approved="yes">
+        <source>Change</source>
+        <target state="translated">Ændre</target>
+      </trans-unit>
+      <trans-unit id="type_255" approved="yes">
+        <source>LOGIN</source>
+        <target state="translated">LOG IND</target>
+      </trans-unit>
+      <trans-unit id="action_255_1" approved="yes">
+        <source>LOGIN</source>
+        <target state="translated">LOG IND</target>
+      </trans-unit>
+      <trans-unit id="action_255_2" approved="yes">
+        <source>LOGOUT</source>
+        <target state="translated">LOG UD</target>
+      </trans-unit>
+      <trans-unit id="action_255_3" approved="yes">
+        <source>ATTEMPT</source>
+        <target state="translated">FORSØG</target>
+      </trans-unit>
+      <trans-unit id="chLog_title" approved="yes">
+        <source>Admin Changelog</source>
+        <target state="translated">Admin Ændringslog</target>
+      </trans-unit>
+      <trans-unit id="chLog_users_0" approved="yes">
+        <source>All users</source>
+        <target state="translated">Alle brugere</target>
+      </trans-unit>
+      <trans-unit id="chLog_users_-1" approved="yes">
+        <source>Self</source>
+        <target state="translated">Selv</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_0" approved="yes">
+        <source>This week</source>
+        <target state="translated">Denne uge</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_1" approved="yes">
+        <source>Last week</source>
+        <target state="translated">Sidste uge</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_2" approved="yes">
+        <source>Last 7 days</source>
+        <target state="translated">Sidste 7 dage</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_10" approved="yes">
+        <source>This month</source>
+        <target state="translated">Denne måned</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_11" approved="yes">
+        <source>Last month</source>
+        <target state="translated">Sidste måned</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_12" approved="yes">
+        <source>Last 31 days</source>
+        <target state="translated">Sidste 31 dage</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_20" approved="yes">
+        <source>No limit</source>
+        <target state="translated">Ingen grænse</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_time" approved="yes">
+        <source>Time</source>
+        <target state="translated">Tid</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_user" approved="yes">
+        <source>User</source>
+        <target state="translated">Bruger</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_error" approved="yes">
+        <source>E</source>
+        <target state="translated">F</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_action" approved="yes">
+        <source>Action</source>
+        <target state="translated">Aktion</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_table" approved="yes">
+        <source>Table</source>
+        <target state="translated">Tabel</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_details" approved="yes">
+        <source>Details</source>
+        <target state="translated">Detaljer</target>
+      </trans-unit>
+      <trans-unit id="chLog_menuUsers" approved="yes">
+        <source>Users</source>
+        <target state="translated">Brugere</target>
+      </trans-unit>
+      <trans-unit id="chLog_menuDepth" approved="yes">
+        <source>Depth</source>
+        <target state="translated">Dybde</target>
+      </trans-unit>
+      <trans-unit id="chLog_menuTime" approved="yes">
+        <source>Time</source>
+        <target state="translated">Tid</target>
+      </trans-unit>
+      <trans-unit id="systemmessage.errorsInPeriod" approved="yes">
+        <source><![CDATA[We have found %1$d errors. Please check your <a href="%2$s">system log</a>.]]></source>
+        <target state="translated"><![CDATA[Vi har fundet %1$d fejl. Tjek din &lt;a href="%2$s"&gt;system log&lt;/a&gt;.]]></target>
+      </trans-unit>
+      <trans-unit id="actions" approved="yes">
+        <source>Actions</source>
+        <target state="translated">Handlinger</target>
+      </trans-unit>
+      <trans-unit id="actions.delete" approved="yes">
+        <source>Delete similar errors</source>
+        <target state="translated">Slet lignende fejl</target>
+      </trans-unit>
+      <trans-unit id="actions.deleteWarnings" approved="yes">
+        <source>Delete similar warnings</source>
+        <target state="translated">Slet lignende advarsler</target>
+      </trans-unit>
+      <trans-unit id="actions.delete.message" approved="yes">
+        <source>Total entries deleted: %1$d</source>
+        <target state="translated">Antal slettede i alt: %1$d</target>
+      </trans-unit>
+      <trans-unit id="actions.delete.noRowFound" approved="yes">
+        <source>Log entry could not be found.</source>
+        <target state="translated">Log-optegnelse kunne ikke findes.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
