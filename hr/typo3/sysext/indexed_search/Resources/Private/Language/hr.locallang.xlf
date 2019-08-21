@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814838" source-language="en" datatype="plaintext" original="messages" date="2011-12-18T10:19:20Z" product-name="indexed_search" target-language="hr">
+    <header/>
+    <body>
+      <trans-unit id="localizedOperandAnd" approved="yes">
+        <source>AND</source>
+        <target state="translated">I</target>
+      </trans-unit>
+      <trans-unit id="localizedOperandOr" approved="yes">
+        <source>OR</source>
+        <target state="translated">ILI</target>
+      </trans-unit>
+      <trans-unit id="localizedOperandNot" approved="yes">
+        <source>NOT</source>
+        <target state="translated">NE</target>
+      </trans-unit>
+      <trans-unit id="rules.headline" approved="yes">
+        <source>Rules</source>
+        <target state="translated">Pravila</target>
+      </trans-unit>
+      <trans-unit id="rules.text" xml:space="preserve" approved="yes">
+				<source><![CDATA[Only words with 2 or more characters are accepted<br />
+Max 200 chars total<br />
+Space is used to split words, "" can be used to search for a whole string (not indexed search then)<br />
+AND, OR and NOT are prefix words, overruling the default operator<br />
++/|/- equals AND, OR and NOT as operators.<br />
+All search words are converted to lowercase.
+]]></source>
+			<target state="translated"><![CDATA[Prihaćaju se jedino riječi s 2 ili više znakova&lt;br /&gt;
+Najviše 200 znakova ukupno&lt;br /&gt;
+Razmaci razdvajaju riječi, "" se mogu koristiti za traženje kompletnog izraza (u tom slučaju pretraga nije po indeksu)&lt;br /&gt;
+I, ILI i NE su prefiksi koji imaju pravo prvenstva u odnosu na zadani operator&lt;br /&gt;
++/|/- je isto što I, ILI i NE kao operatori.&lt;br /&gt;
+Svi izrazi koji se traže konvertiraju se prethodno u mala slova.
+]]></target></trans-unit>
+      <trans-unit id="form.legend" approved="yes">
+        <source>Search form</source>
+        <target state="translated">Obrazac za pretraživanje</target>
+      </trans-unit>
+      <trans-unit id="form.searchFor" approved="yes">
+        <source>Search for</source>
+        <target state="translated">Traži</target>
+      </trans-unit>
+      <trans-unit id="form.extResume" approved="yes">
+        <source>Extended resume</source>
+        <target state="translated">Prošireni rezime</target>
+      </trans-unit>
+      <trans-unit id="form.atATime" approved="yes">
+        <source>at a time</source>
+        <target state="translated">u vrijeme</target>
+      </trans-unit>
+      <trans-unit id="form.orderBy" approved="yes">
+        <source>Order by</source>
+        <target state="translated">Poredaj po</target>
+      </trans-unit>
+      <trans-unit id="form.fromSection" approved="yes">
+        <source>From section</source>
+        <target state="translated">Od odjeljka</target>
+      </trans-unit>
+      <trans-unit id="form.freeIndexUid" approved="yes">
+        <source>Category</source>
+        <target state="translated">Kategorija</target>
+      </trans-unit>
+      <trans-unit id="form.searchIn" approved="yes">
+        <source>Search in</source>
+        <target state="translated">Traži u</target>
+      </trans-unit>
+      <trans-unit id="form.match" approved="yes">
+        <source>Match</source>
+        <target state="translated">Podudaranje</target>
+      </trans-unit>
+      <trans-unit id="form.style" approved="yes">
+        <source>Style</source>
+        <target state="translated">Stil</target>
+      </trans-unit>
+      <trans-unit id="form.submit" approved="yes">
+        <source>Search</source>
+        <target state="translated">Traži</target>
+      </trans-unit>
+      <trans-unit id="form.addToSearch" approved="yes">
+        <source>Add to current search words</source>
+        <target state="translated">Dodaj trenutnim riječima za traženje</target>
+      </trans-unit>
+      <trans-unit id="form.linkToRegularSearch" approved="yes">
+        <source>Regular search</source>
+        <target state="translated">Obična pretraga</target>
+      </trans-unit>
+      <trans-unit id="form.linkToAdvancedSearch" approved="yes">
+        <source>Advanced search</source>
+        <target state="translated">Napredna pretraga</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.0" approved="yes">
+        <source>Distinct word</source>
+        <target state="translated">Zasebna riječ</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.1" approved="yes">
+        <source>Part of word</source>
+        <target state="translated">Dio riječi</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.2" approved="yes">
+        <source>First part of word</source>
+        <target state="translated">Prvi dio riječi</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.3" approved="yes">
+        <source>Last part of word</source>
+        <target state="translated">Posljednji dio riječi</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.10" approved="yes">
+        <source>Sounds like</source>
+        <target state="translated">Zvuči kao</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.20" approved="yes">
+        <source>Sentence</source>
+        <target state="translated">Rečenica</target>
+      </trans-unit>
+      <trans-unit id="defaultOperands.0" approved="yes">
+        <source>All words (AND)</source>
+        <target state="translated">Sve riječi (I operator)</target>
+      </trans-unit>
+      <trans-unit id="defaultOperands.1" approved="yes">
+        <source>Any words (OR)</source>
+        <target state="translated">Bilo koje riječi (ILI operator)</target>
+      </trans-unit>
+      <trans-unit id="languageUids.-1" approved="yes">
+        <source>All languages</source>
+        <target state="translated">Svi jezici</target>
+      </trans-unit>
+      <trans-unit id="languageUids.0" approved="yes">
+        <source>Default</source>
+        <target state="translated">Zadano</target>
+      </trans-unit>
+      <trans-unit id="sections.0" approved="yes">
+        <source>Whole site</source>
+        <target state="translated">Čitava web lokacija</target>
+      </trans-unit>
+      <trans-unit id="sections.-1" approved="yes">
+        <source>Only this page</source>
+        <target state="translated">Samo ova stranica</target>
+      </trans-unit>
+      <trans-unit id="sections.-2" approved="yes">
+        <source>Top + level 1</source>
+        <target state="translated">Vrh + razina 1</target>
+      </trans-unit>
+      <trans-unit id="sections.-3" approved="yes">
+        <source>Level 2 and out</source>
+        <target state="translated">Razina 2 i dalje prema van</target>
+      </trans-unit>
+      <trans-unit id="sections.rootLevel1All" approved="yes">
+        <source>All pages on level 1</source>
+        <target state="translated">Sve stranice na razini 1</target>
+      </trans-unit>
+      <trans-unit id="sections.rootLevel2All" approved="yes">
+        <source>- All pages on level 2</source>
+        <target state="translated">- Sve stranice na razini 2</target>
+      </trans-unit>
+      <trans-unit id="mediaTypes.0" approved="yes">
+        <source>Internal pages</source>
+        <target state="translated">Nutarnje stranice</target>
+      </trans-unit>
+      <trans-unit id="mediaTypes.-1" approved="yes">
+        <source>All media</source>
+        <target state="translated">Sva multimedija</target>
+      </trans-unit>
+      <trans-unit id="mediaTypes.-2" approved="yes">
+        <source>All External</source>
+        <target state="translated">Sve vanjsko</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurations.-1" approved="yes">
+        <source>All, mixed</source>
+        <target state="translated">Sve, miješano</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurations.-2" approved="yes">
+        <source>All, categorized</source>
+        <target state="translated">Sve, kategorizirano</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurations.0" approved="yes">
+        <source>Pages</source>
+        <target state="translated">Stranice</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurationHeader.-1" approved="yes">
+        <source>Mixed categories</source>
+        <target state="translated">Miješane kategorije</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurationHeader.0" approved="yes">
+        <source>Website Pages</source>
+        <target state="translated">Stranice mrežne lokacije</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_flag" approved="yes">
+        <source>Weight/Frequency</source>
+        <target state="translated">Težina/frekvencija</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_freq" approved="yes">
+        <source>Frequency</source>
+        <target state="translated">Učestalost</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_first" approved="yes">
+        <source>Close to top</source>
+        <target state="translated">Blizu vrha</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_count" approved="yes">
+        <source>Number of words</source>
+        <target state="translated">Broj riječi</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.mtime" approved="yes">
+        <source>Date Modified</source>
+        <target state="translated">Datum izmjene</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.title" approved="yes">
+        <source>Document title</source>
+        <target state="translated">Naslov dokumenta</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.crdate" approved="yes">
+        <source>Creation date</source>
+        <target state="translated">Datum stvaranja</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.descending" approved="yes">
+        <source>Highest first</source>
+        <target state="translated">Prvo najveći</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.ascending" approved="yes">
+        <source>Lowest first</source>
+        <target state="translated">Prvo najmanji</target>
+      </trans-unit>
+      <trans-unit id="groupBy.sections" approved="yes">
+        <source>Section hierarchy</source>
+        <target state="translated">Hijerarhija odjeljaka</target>
+      </trans-unit>
+      <trans-unit id="groupBy.flat" approved="yes">
+        <source>Flat list</source>
+        <target state="translated">Običan popis</target>
+      </trans-unit>
+      <trans-unit id="result.page" approved="yes">
+        <source>page</source>
+        <target state="translated">stranica</target>
+      </trans-unit>
+      <trans-unit id="result.pages" approved="yes">
+        <source>pages</source>
+        <target state="translated">stranice</target>
+      </trans-unit>
+      <trans-unit id="result.unnamedSection" approved="yes">
+        <source>Other</source>
+        <target state="translated">Drugo</target>
+      </trans-unit>
+      <trans-unit id="result.otherPageAsWell" approved="yes">
+        <source>INFO: There was another page indexed as well. Probably indexed with another or no usergroup.</source>
+        <target state="translated">INFO: indeksirana je još jedna stranica. Vjerojatno je indeksirana drugom korisničkom grupom ili bez korisničke grupe.</target>
+      </trans-unit>
+      <trans-unit id="result.noResume" approved="yes">
+        <source>Note: This search hit may not accurately match the content on this page. The page resume cannot be shown.</source>
+        <target state="translated">Napomena: ovaj rezultat pretraživanja možda se ne podudara točno sa sadržajem ove stranice. Sažetak stranice nije moguće prikazati.</target>
+      </trans-unit>
+      <trans-unit id="result.memberGroups" approved="yes">
+        <source>Require membership of group numbers %s</source>
+        <target state="translated">Zahtijeva članstvo u grupama broj %s</target>
+      </trans-unit>
+      <trans-unit id="result.ratingMatches" approved="yes">
+        <source>matches</source>
+        <target state="translated">podudaranja</target>
+      </trans-unit>
+      <trans-unit id="result.noResult" approved="yes">
+        <source>No results found.</source>
+        <target state="translated">Nema pronađenih rezultata.</target>
+      </trans-unit>
+      <trans-unit id="result.inSection" approved="yes">
+        <source>in the section</source>
+        <target state="translated">u odjeljku</target>
+      </trans-unit>
+      <trans-unit id="searchFor" approved="yes">
+        <source>Search for</source>
+        <target state="translated">Traži</target>
+      </trans-unit>
+      <trans-unit id="searchFor.or" approved="yes">
+        <source>or</source>
+        <target state="translated">ili</target>
+      </trans-unit>
+      <trans-unit id="searchFor.and" approved="yes">
+        <source>and</source>
+        <target state="translated">i</target>
+      </trans-unit>
+      <trans-unit id="searchFor.andnot" approved="yes">
+        <source>but not</source>
+        <target state="translated">ali ne</target>
+      </trans-unit>
+      <trans-unit id="displayResults.previous" approved="yes">
+        <source>&lt; Previous</source>
+        <target state="translated">&lt; Prethodno</target>
+      </trans-unit>
+      <trans-unit id="displayResults.page" approved="yes">
+        <source>Page</source>
+        <target state="translated">Stranica</target>
+      </trans-unit>
+      <trans-unit id="displayResults.next" approved="yes">
+        <source>Next &gt;</source>
+        <target state="translated">Sljedeće &gt;</target>
+      </trans-unit>
+      <trans-unit id="displayResults" approved="yes">
+        <source><![CDATA[Displaying results <strong>%1$s to %2$s</strong> out of <strong>%3$s</strong>]]></source>
+        <target state="translated"><![CDATA[Prikazujem rezultate &lt;strong&gt;%1$s do %2$s&lt;/strong&gt; od &lt;strong&gt;%3$s&lt;/strong&gt;]]></target>
+      </trans-unit>
+      <trans-unit id="administration.menu.general" approved="yes">
+        <source>General statistics</source>
+        <target state="translated">Općenita statistika</target>
+      </trans-unit>
+      <trans-unit id="administration.menu.pages" approved="yes">
+        <source>List: Pages</source>
+        <target state="translated">Popis: Stranice</target>
+      </trans-unit>
+      <trans-unit id="administration.menu.externalDocuments" approved="yes">
+        <source>List: External documents</source>
+        <target state="translated">Popis: Vanjski dokumenti</target>
+      </trans-unit>
+      <trans-unit id="administration.menu.searchStatistic" approved="yes">
+        <source>Search statistics</source>
+        <target state="translated">Statistike pretraživanja</target>
+      </trans-unit>
+      <trans-unit id="administration.menu.statistic" approved="yes">
+        <source>Detailed statistics</source>
+        <target state="translated">Detaljne statistike</target>
+      </trans-unit>
+      <trans-unit id="administration.index.description" approved="yes">
+        <source>General statistics</source>
+        <target state="translated">Općenita statistika</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics" approved="yes">
+        <source>Indexing Engine Statistics</source>
+        <target state="translated">Statistika aparata za indeksiranje</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.header" approved="yes">
+        <source>Row count by database table</source>
+        <target state="translated">Broj redaka po tablicama baze podataka</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.name" approved="yes">
+        <source>Name</source>
+        <target state="translated">Naziv</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.count" approved="yes">
+        <source>Count</source>
+        <target state="translated">Brojač</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.headerTypes" approved="yes">
+        <source>Hash Header Types</source>
+        <target state="translated">Hash vrste zaglavlja</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.headerTypes.count" approved="yes">
+        <source>Count / Unique count</source>
+        <target state="translated">Broj / Broj jedinstvenih</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.word" approved="yes">
+        <source>Word</source>
+        <target state="translated">Riječ</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.mostSearched.title" approved="yes">
+        <source>List of most searched words</source>
+        <target state="translated">Popis najtraženijih riječi</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.mostSearched.description" approved="yes">
+        <source>Statistics for all pages. Select a page with indexed search form to see several statistics.</source>
+        <target state="translated">Statistika za sve stranice. Odaberite stranicu sa obrascem indeksiranog pretraživanja kako bi vidjeli nekoliko različitih statističkih izvješća.</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.mostSearched.all" approved="yes">
+        <source>All</source>
+        <target state="translated">Sve</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.mostSearched.last30days" approved="yes">
+        <source>Last 30 days</source>
+        <target state="translated">Posljednjih 30 dana</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.mostSearched.last24hours" approved="yes">
+        <source>Last 24 hours</source>
+        <target state="translated">Posljednja 24 sata</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.noResult" approved="yes">
+        <source>No result found</source>
+        <target state="translated">Nema pronađenih rezultata</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.noResultForPage" approved="yes">
+        <source>No result for the selected page found.</source>
+        <target state="translated">Nema pronađenih rezultata za odabranu stranicu.</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.selectPage" approved="yes">
+        <source>Please select a page in the page tree.</source>
+        <target state="translated">Molim Vas da odaberete stranicu u stablu stranica.</target>
+      </trans-unit>
+      <trans-unit id="administration.external.title" approved="yes">
+        <source>External documents</source>
+        <target state="translated">Vanjski dokumenti</target>
+      </trans-unit>
+      <trans-unit id="field.fileName" approved="yes">
+        <source>Filename</source>
+        <target state="translated">Naziv datoteke</target>
+      </trans-unit>
+      <trans-unit id="field.fileSize" approved="yes">
+        <source>Filesize</source>
+        <target state="translated">Veličina datoteke</target>
+      </trans-unit>
+      <trans-unit id="field.wordCount" approved="yes">
+        <source>Word count</source>
+        <target state="translated">Broj riječi</target>
+      </trans-unit>
+      <trans-unit id="field.words" approved="yes">
+        <source>Words</source>
+        <target state="translated">Riječi</target>
+      </trans-unit>
+      <trans-unit id="field.mtime" approved="yes">
+        <source>Modification time</source>
+        <target state="translated">Vrijeme izmjene</target>
+      </trans-unit>
+      <trans-unit id="field.indexed" approved="yes">
+        <source>Indexed</source>
+        <target state="translated">Indeksirano</target>
+      </trans-unit>
+      <trans-unit id="field.updated" approved="yes">
+        <source>Updated</source>
+        <target state="translated">Ažurirano</target>
+      </trans-unit>
+      <trans-unit id="field.parseTime" approved="yes">
+        <source>Parsetime [ms]</source>
+        <target state="translated">Trajanje procesiranja [ms]</target>
+      </trans-unit>
+      <trans-unit id="field.sub" approved="yes">
+        <source>Sub</source>
+        <target state="translated">Pod</target>
+      </trans-unit>
+      <trans-unit id="field.count" approved="yes">
+        <source>Count</source>
+        <target state="translated">Ukupan broj</target>
+      </trans-unit>
+      <trans-unit id="field.first" approved="yes">
+        <source>First</source>
+        <target state="translated">Prvi</target>
+      </trans-unit>
+      <trans-unit id="field.pHash" approved="yes">
+        <source>PageHash</source>
+        <target state="translated">HashStranice</target>
+      </trans-unit>
+      <trans-unit id="field.path" approved="yes">
+        <source>Path</source>
+        <target state="translated">Putanja</target>
+      </trans-unit>
+      <trans-unit id="field.id" approved="yes">
+        <source>Page Id</source>
+        <target state="translated">ID broj stranice</target>
+      </trans-unit>
+      <trans-unit id="field.uniqueId" approved="yes">
+        <source>Unique Id</source>
+        <target state="translated">Jedinstveni Id broj</target>
+      </trans-unit>
+      <trans-unit id="field.type" approved="yes">
+        <source>Type</source>
+        <target state="translated">Vrsta</target>
+      </trans-unit>
+      <trans-unit id="field.title" approved="yes">
+        <source>Title</source>
+        <target state="translated">Naslov</target>
+      </trans-unit>
+      <trans-unit id="field.language" approved="yes">
+        <source>Language</source>
+        <target state="translated">Jezik</target>
+      </trans-unit>
+      <trans-unit id="field.frequency" approved="yes">
+        <source>Frequency</source>
+        <target state="translated">Učestalost</target>
+      </trans-unit>
+      <trans-unit id="field.flag" approved="yes">
+        <source>Flag</source>
+        <target state="translated">Zastavica</target>
+      </trans-unit>
+      <trans-unit id="field.content" approved="yes">
+        <source>Content</source>
+        <target state="translated">Sadržaj</target>
+      </trans-unit>
+      <trans-unit id="administration.notIndexed" approved="yes">
+        <source>Not indexed?</source>
+        <target state="translated">Nije indeksirano?</target>
+      </trans-unit>
+      <trans-unit id="administration.document.description" approved="yes">
+        <source>Details for a single result row</source>
+        <target state="translated">Detalji jednog retka rezultata</target>
+      </trans-unit>
+      <trans-unit id="administration.document.words" approved="yes">
+        <source>All words found on page</source>
+        <target state="translated">Sve riječi pronađene na stranici</target>
+      </trans-unit>
+      <trans-unit id="administration.document.topCount" approved="yes">
+        <source>Words by top count</source>
+        <target state="translated">Riječi prema broju ponavljanja</target>
+      </trans-unit>
+      <trans-unit id="administration.document.topFrequency" approved="yes">
+        <source>Words by frequency</source>
+        <target state="translated">Riječi prema frekvenciji</target>
+      </trans-unit>
+      <trans-unit id="administration.stopWords" approved="yes">
+        <source>Stopwords</source>
+        <target state="translated">Zaustavne riječi</target>
+      </trans-unit>
+      <trans-unit id="administration.stopWords.save" approved="yes">
+        <source>Save stopwords</source>
+        <target state="translated">Spremi zaustavne riječi</target>
+      </trans-unit>
+      <trans-unit id="administration.keywords" approved="yes">
+        <source>Page keywords</source>
+        <target state="translated">Ključne riječi stranice</target>
+      </trans-unit>
+      <trans-unit id="administration.keywords.current" approved="yes">
+        <source>Current page keywords</source>
+        <target state="translated">Ključne riječi trenutne stranice</target>
+      </trans-unit>
+      <trans-unit id="administration.stopWordsKeywords.save" approved="yes">
+        <source>Save keywords and stop words</source>
+        <target state="translated">Sprijemi ključne i zaustavne riječi</target>
+      </trans-unit>
+      <trans-unit id="administration.word.description" approved="yes">
+        <source>Detail view of a single word</source>
+        <target state="translated">Detaljni pregled pojedinačne riječi</target>
+      </trans-unit>
+      <trans-unit id="administration.linkBack" approved="yes">
+        <source>Back</source>
+        <target state="translated">Natrag</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.sectionRecords" approved="yes">
+        <source>Section records for this phash</source>
+        <target state="translated">Zapisi sekcija za dani phash</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.debug" approved="yes">
+        <source>Debug</source>
+        <target state="translated">Pronalaženje grešaka</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.lexer" approved="yes">
+        <source>Lexer</source>
+        <target state="translated">Lekser</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.view.overview" approved="yes">
+        <source>Overview</source>
+        <target state="translated">Pregled</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.view.content" approved="yes">
+        <source>Words and content</source>
+        <target state="translated">Riječi i sadržaj</target>
+      </trans-unit>
+      <trans-unit id="administration.phash.tableHeader" approved="yes">
+        <source>Phash row content</source>
+        <target state="translated">Phash sadržaj retka</target>
+      </trans-unit>
+      <trans-unit id="administration.removeEntry" approved="yes">
+        <source>Remove entry</source>
+        <target state="translated">Ukloni stavku</target>
+      </trans-unit>
+      <trans-unit id="administration.removeAllEntries" approved="yes">
+        <source>Remove all listed entries</source>
+        <target state="translated">Ukloni sve popisane stavke</target>
+      </trans-unit>
+      <trans-unit id="administration.back" approved="yes">
+        <source>Back</source>
+        <target state="translated">Natrag</target>
+      </trans-unit>
+      <trans-unit id="administration.noPageSelected" approved="yes">
+        <source>Please select a page from the page tree.</source>
+        <target state="translated">Molimo Vas da odaberete stranicu iz stabla stranica.</target>
+      </trans-unit>
+      <trans-unit id="error.noTypoScript" approved="yes">
+        <source>Error: Please check that TypoScript for the Indexed Search plugin is included.</source>
+        <target state="translated">Greška: molimo Vas da provjerite je li uključen TypoScript za Indeksirano pretraživanje.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
