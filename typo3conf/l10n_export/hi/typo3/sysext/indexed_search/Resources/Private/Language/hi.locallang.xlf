@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814838" source-language="en" datatype="plaintext" original="messages" date="2011-12-18T10:19:20Z" product-name="indexed_search" target-language="hi">
+    <header/>
+    <body>
+      <trans-unit id="rules.headline" approved="yes">
+        <source>Rules</source>
+        <target state="translated">नियम</target>
+      </trans-unit>
+      <trans-unit id="rules.text" xml:space="preserve" approved="yes">
+				<source><![CDATA[Only words with 2 or more characters are accepted<br />
+Max 200 chars total<br />
+Space is used to split words, "" can be used to search for a whole string (not indexed search then)<br />
+AND, OR and NOT are prefix words, overruling the default operator<br />
++/|/- equals AND, OR and NOT as operators.<br />
+All search words are converted to lowercase.
+]]></source>
+			<target state="translated"><![CDATA[केवल 2 या उससे अधिक अक्षर वाले शब्दों ही स्वीकारे गए है&lt;br/&gt;
+कुल 200 अक्षर अधितम&lt;/br&gt;
+स्पेस का उपयोग शब्दों को अलग करने के लिए होता है, "" को एक पूरी string को सर्च करने के लिए उपयोग किया जा सकता है (तब इंडेक्स्ड सर्च नहीं)&lt;br/&gt;
+AND, OR और NOT प्रीफिक्स शब्द, ओवर-रूलिंग डिफ़ॉल्ट ऑपरेटर हैं&lt;br/&gt;
++/|/ - ऑपरेटर के रूप में AND, OR, और NOT के बराबर है।&lt;br/&gt;
+सभी सर्च शब्द लोअर-केस में परिवर्तित किये जायेगे गए है।
+]]></target></trans-unit>
+      <trans-unit id="form.legend" approved="yes">
+        <source>Search form</source>
+        <target state="translated">सर्च फॉर्म</target>
+      </trans-unit>
+      <trans-unit id="form.searchFor" approved="yes">
+        <source>Search for</source>
+        <target state="translated">के लिए सर्च</target>
+      </trans-unit>
+      <trans-unit id="form.extResume" approved="yes">
+        <source>Extended resume</source>
+        <target state="translated">एक्सटेंडेड फिर से शुरू</target>
+      </trans-unit>
+      <trans-unit id="form.atATime" approved="yes">
+        <source>at a time</source>
+        <target state="translated">समय पर</target>
+      </trans-unit>
+      <trans-unit id="form.orderBy" approved="yes">
+        <source>Order by</source>
+        <target state="translated">ऐसे जमाएँ</target>
+      </trans-unit>
+      <trans-unit id="form.fromSection" approved="yes">
+        <source>From section</source>
+        <target state="translated">सेक्शन से:</target>
+      </trans-unit>
+      <trans-unit id="form.freeIndexUid" approved="yes">
+        <source>Category</source>
+        <target state="translated">केटेगरी</target>
+      </trans-unit>
+      <trans-unit id="form.searchIn" approved="yes">
+        <source>Search in</source>
+        <target state="translated">में खोजें</target>
+      </trans-unit>
+      <trans-unit id="form.match" approved="yes">
+        <source>Match</source>
+        <target state="translated">मेल</target>
+      </trans-unit>
+      <trans-unit id="form.style" approved="yes">
+        <source>Style</source>
+        <target state="translated">शैली, स्टाइल</target>
+      </trans-unit>
+      <trans-unit id="form.submit" approved="yes">
+        <source>Search</source>
+        <target state="translated">सर्च</target>
+      </trans-unit>
+      <trans-unit id="form.addToSearch" approved="yes">
+        <source>Add to current search words</source>
+        <target state="translated">वर्तमान सर्च शब्दों से जोड़े</target>
+      </trans-unit>
+      <trans-unit id="form.linkToRegularSearch" approved="yes">
+        <source>Regular search</source>
+        <target state="translated">नियमित रूप से सर्च</target>
+      </trans-unit>
+      <trans-unit id="form.linkToAdvancedSearch" approved="yes">
+        <source>Advanced search</source>
+        <target state="translated">एडवांस्ड सर्च</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.0" approved="yes">
+        <source>Distinct word</source>
+        <target state="translated">अलग शब्द</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.1" approved="yes">
+        <source>Part of word</source>
+        <target state="translated">शब्द के भाग</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.2" approved="yes">
+        <source>First part of word</source>
+        <target state="translated">शब्द का पहला भाग</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.3" approved="yes">
+        <source>Last part of word</source>
+        <target state="translated">शब्द का आखरी भाग</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.20" approved="yes">
+        <source>Sentence</source>
+        <target state="translated">वाक्य</target>
+      </trans-unit>
+      <trans-unit id="defaultOperands.0" approved="yes">
+        <source>All words (AND)</source>
+        <target state="translated">सभी शब्दों (AND)</target>
+      </trans-unit>
+      <trans-unit id="defaultOperands.1" approved="yes">
+        <source>Any words (OR)</source>
+        <target state="translated">कोई भी शब्द (OR)</target>
+      </trans-unit>
+      <trans-unit id="languageUids.-1" approved="yes">
+        <source>All languages</source>
+        <target state="translated">सभी भाषाएँ</target>
+      </trans-unit>
+      <trans-unit id="languageUids.0" approved="yes">
+        <source>Default</source>
+        <target state="translated">डिफ़ॉल्ट</target>
+      </trans-unit>
+      <trans-unit id="sections.0" approved="yes">
+        <source>Whole site</source>
+        <target state="translated">पूरी साइट</target>
+      </trans-unit>
+      <trans-unit id="sections.-1" approved="yes">
+        <source>Only this page</source>
+        <target state="translated">केवल यह पेज</target>
+      </trans-unit>
+      <trans-unit id="sections.-2" approved="yes">
+        <source>Top + level 1</source>
+        <target state="translated">शीर्ष + स्तर 1</target>
+      </trans-unit>
+      <trans-unit id="sections.-3" approved="yes">
+        <source>Level 2 and out</source>
+        <target state="translated">स्तर 2 और बाहर</target>
+      </trans-unit>
+      <trans-unit id="sections.rootLevel1All" approved="yes">
+        <source>All pages on level 1</source>
+        <target state="translated">स्तर 1 पर सभी पेज</target>
+      </trans-unit>
+      <trans-unit id="sections.rootLevel2All" approved="yes">
+        <source>- All pages on level 2</source>
+        <target state="translated">-स्तर 2 पर सभी पेज</target>
+      </trans-unit>
+      <trans-unit id="mediaTypes.0" approved="yes">
+        <source>Internal pages</source>
+        <target state="translated">आंतरिक पेज</target>
+      </trans-unit>
+      <trans-unit id="mediaTypes.-1" approved="yes">
+        <source>All media</source>
+        <target state="translated">सभी मीडिया</target>
+      </trans-unit>
+      <trans-unit id="mediaTypes.-2" approved="yes">
+        <source>All External</source>
+        <target state="translated">सभी बाहरी</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurations.-1" approved="yes">
+        <source>All, mixed</source>
+        <target state="translated">सभी, मिले हुए</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurations.-2" approved="yes">
+        <source>All, categorized</source>
+        <target state="translated">सभी, वर्गीकृत</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurations.0" approved="yes">
+        <source>Pages</source>
+        <target state="translated">पेज</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurationHeader.-1" approved="yes">
+        <source>Mixed categories</source>
+        <target state="translated">मिली हुई कैटेगरीज</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurationHeader.0" approved="yes">
+        <source>Website Pages</source>
+        <target state="translated">वेबसाइट पेज</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_flag" approved="yes">
+        <source>Weight/Frequency</source>
+        <target state="translated">भार/आवृत्ति</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_freq" approved="yes">
+        <source>Frequency</source>
+        <target state="translated">आवृत्ति</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_first" approved="yes">
+        <source>Close to top</source>
+        <target state="translated">शीर्ष के करीब</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_count" approved="yes">
+        <source>Number of words</source>
+        <target state="translated">शब्दों की संख्या</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.mtime" approved="yes">
+        <source>Date Modified</source>
+        <target state="translated">तारीख परिवर्तित</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.title" approved="yes">
+        <source>Document title</source>
+        <target state="translated">डॉक्यूमेंट का टाइटल</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.crdate" approved="yes">
+        <source>Creation date</source>
+        <target state="translated">निर्माण तारीख</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.descending" approved="yes">
+        <source>Highest first</source>
+        <target state="translated">उच्चतम पहले</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.ascending" approved="yes">
+        <source>Lowest first</source>
+        <target state="translated">सबसे कम सबसे पहले</target>
+      </trans-unit>
+      <trans-unit id="groupBy.sections" approved="yes">
+        <source>Section hierarchy</source>
+        <target state="translated">सेक्शन हायरार्की</target>
+      </trans-unit>
+      <trans-unit id="groupBy.flat" approved="yes">
+        <source>Flat list</source>
+        <target state="translated">फ्लैट सूची</target>
+      </trans-unit>
+      <trans-unit id="result.page" approved="yes">
+        <source>page</source>
+        <target state="translated">पेज</target>
+      </trans-unit>
+      <trans-unit id="result.pages" approved="yes">
+        <source>pages</source>
+        <target state="translated">पन्ने</target>
+      </trans-unit>
+      <trans-unit id="result.unnamedSection" approved="yes">
+        <source>Other</source>
+        <target state="translated">अन्य</target>
+      </trans-unit>
+      <trans-unit id="result.otherPageAsWell" approved="yes">
+        <source>INFO: There was another page indexed as well. Probably indexed with another or no usergroup.</source>
+        <target state="translated">जानकारी : वहा पे एक अन्य पेज इंडेक्स्ड भी है । शायद किसी और के साथ इंडेक्स्ड या कोई भी उपयोगकर्ता-समूह के साथ इंडेक्स्ड नहीं।</target>
+      </trans-unit>
+      <trans-unit id="result.noResume" approved="yes">
+        <source>Note: This search hit may not accurately match the content on this page. The page resume cannot be shown.</source>
+        <target state="translated">नोट: यह सर्च हिट इस पेज के कंटेंट से सही तरह से मेल हो ऐसा नहीं भी हो सकता। पेज- (फिर से शुरू) को नहीं दिखाया जा सकता।</target>
+      </trans-unit>
+      <trans-unit id="result.memberGroups" approved="yes">
+        <source>Require membership of group numbers %s</source>
+        <target state="translated">समूह संख्या %s की सदस्यता आवश्यक</target>
+      </trans-unit>
+      <trans-unit id="result.ratingMatches" approved="yes">
+        <source>matches</source>
+        <target state="translated">मेल खाता है</target>
+      </trans-unit>
+      <trans-unit id="result.noResult" approved="yes">
+        <source>No results found.</source>
+        <target state="translated">कोई परिणाम नहीं मिला।</target>
+      </trans-unit>
+      <trans-unit id="result.inSection" approved="yes">
+        <source>in the section</source>
+        <target state="translated">सेक्शन में</target>
+      </trans-unit>
+      <trans-unit id="searchFor" approved="yes">
+        <source>Search for</source>
+        <target state="translated">के लिए सर्च</target>
+      </trans-unit>
+      <trans-unit id="searchFor.andnot" approved="yes">
+        <source>but not</source>
+        <target state="translated">लेकिन नहीं</target>
+      </trans-unit>
+      <trans-unit id="displayResults.previous" approved="yes">
+        <source>&lt; Previous</source>
+        <target state="translated">&lt; पिछला</target>
+      </trans-unit>
+      <trans-unit id="displayResults.page" approved="yes">
+        <source>Page</source>
+        <target state="translated">पेज</target>
+      </trans-unit>
+      <trans-unit id="displayResults.next" approved="yes">
+        <source>Next &gt;</source>
+        <target state="translated">अगला &gt;</target>
+      </trans-unit>
+      <trans-unit id="displayResults" approved="yes">
+        <source><![CDATA[Displaying results <strong>%1$s to %2$s</strong> out of <strong>%3$s</strong>]]></source>
+        <target state="translated"><![CDATA[परिणाम दिखता है &lt;strong&gt;%1$s to %2$s&lt;/strong&gt; में से &lt;strong&gt;%3$s&lt;/strong&gt;]]></target>
+      </trans-unit>
+      <trans-unit id="administration.menu.general" approved="yes">
+        <source>General statistics</source>
+        <target state="translated">सामान्य आँकड़े</target>
+      </trans-unit>
+      <trans-unit id="administration.menu.pages" approved="yes">
+        <source>List: Pages</source>
+        <target state="translated">सूची: पन्ने</target>
+      </trans-unit>
+      <trans-unit id="administration.menu.externalDocuments" approved="yes">
+        <source>List: External documents</source>
+        <target state="translated">सूची: बाहरी डाक्यूमेंट्स</target>
+      </trans-unit>
+      <trans-unit id="administration.menu.searchStatistic" approved="yes">
+        <source>Search statistics</source>
+        <target state="translated">सर्च के आंकड़े</target>
+      </trans-unit>
+      <trans-unit id="administration.menu.statistic" approved="yes">
+        <source>Detailed statistics</source>
+        <target state="translated">विस्तृत आँकड़े</target>
+      </trans-unit>
+      <trans-unit id="administration.index.description" approved="yes">
+        <source>General statistics</source>
+        <target state="translated">सामान्य आँकड़े</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics" approved="yes">
+        <source>Indexing Engine Statistics</source>
+        <target state="translated">इंडेक्सिंग इंजन की सांख्यिकीय माहिती</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.header" approved="yes">
+        <source>Row count by database table</source>
+        <target state="translated">डेटाबेस टेबल से रॉ की गिनती</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.name" approved="yes">
+        <source>Name</source>
+        <target state="translated">नाम</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.count" approved="yes">
+        <source>Count</source>
+        <target state="translated">गिनती</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.headerTypes" approved="yes">
+        <source>Hash Header Types</source>
+        <target state="translated">हैश हैडर प्रकार</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.headerTypes.count" approved="yes">
+        <source>Count / Unique count</source>
+        <target state="translated">गिनती/यूनिक गिनती</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.word" approved="yes">
+        <source>Word</source>
+        <target state="translated">शब्द</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.mostSearched.title" approved="yes">
+        <source>List of most searched words</source>
+        <target state="translated">सबसे ज्यादा सर्च किए गए शब्दों की सूची</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.mostSearched.description" approved="yes">
+        <source>Statistics for all pages. Select a page with indexed search form to see several statistics.</source>
+        <target state="translated">सभी पेज के लिए सांख्यकीय आंकड़े। विविध सांख्यकीय आंकड़े देखने के लिए सर्च इंडेक्स फॉर्म के साथ पेज को चुनें।</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.mostSearched.all" approved="yes">
+        <source>All</source>
+        <target state="translated">सब</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.mostSearched.last30days" approved="yes">
+        <source>Last 30 days</source>
+        <target state="translated">आखरी 30 दिन</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.mostSearched.last24hours" approved="yes">
+        <source>Last 24 hours</source>
+        <target state="translated">आखरी 24 घंटे</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.noResult" approved="yes">
+        <source>No result found</source>
+        <target state="translated">कोई परिणाम नहीं मिला</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.noResultForPage" approved="yes">
+        <source>No result for the selected page found.</source>
+        <target state="translated">चुने गए पेज के लिए कोई परिणाम पाया नहीं गया।</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.selectPage" approved="yes">
+        <source>Please select a page in the page tree.</source>
+        <target state="translated">कृपया पेज ट्री में पेज को चुनें।</target>
+      </trans-unit>
+      <trans-unit id="administration.external.title" approved="yes">
+        <source>External documents</source>
+        <target state="translated">बाहरी डाक्यूमेंट्स</target>
+      </trans-unit>
+      <trans-unit id="field.fileName" approved="yes">
+        <source>Filename</source>
+        <target state="translated">फ़ाइल का नाम</target>
+      </trans-unit>
+      <trans-unit id="field.fileSize" approved="yes">
+        <source>Filesize</source>
+        <target state="translated">फाइल-आकार, फाइल की साइज</target>
+      </trans-unit>
+      <trans-unit id="field.wordCount" approved="yes">
+        <source>Word count</source>
+        <target state="translated">शब्दों की गिनती</target>
+      </trans-unit>
+      <trans-unit id="field.words" approved="yes">
+        <source>Words</source>
+        <target state="translated">शब्द</target>
+      </trans-unit>
+      <trans-unit id="field.mtime" approved="yes">
+        <source>Modification time</source>
+        <target state="translated">तबदीली का समय</target>
+      </trans-unit>
+      <trans-unit id="field.indexed" approved="yes">
+        <source>Indexed</source>
+        <target state="translated">इंडैक्स्ड</target>
+      </trans-unit>
+      <trans-unit id="field.updated" approved="yes">
+        <source>Updated</source>
+        <target state="translated">अपडेटेड</target>
+      </trans-unit>
+      <trans-unit id="field.parseTime" approved="yes">
+        <source>Parsetime [ms]</source>
+        <target state="translated">पार्स समय [ms]</target>
+      </trans-unit>
+      <trans-unit id="field.sub" approved="yes">
+        <source>Sub</source>
+        <target state="translated">उप</target>
+      </trans-unit>
+      <trans-unit id="field.count" approved="yes">
+        <source>Count</source>
+        <target state="translated">गिनती</target>
+      </trans-unit>
+      <trans-unit id="field.first" approved="yes">
+        <source>First</source>
+        <target state="translated">प्रथम, पहला</target>
+      </trans-unit>
+      <trans-unit id="field.pHash" approved="yes">
+        <source>PageHash</source>
+        <target state="translated">पेज-हैश</target>
+      </trans-unit>
+      <trans-unit id="field.path" approved="yes">
+        <source>Path</source>
+        <target state="translated">पथ, पाथ, रास्ता,मार्ग</target>
+      </trans-unit>
+      <trans-unit id="field.id" approved="yes">
+        <source>Page Id</source>
+        <target state="translated">पेज Id</target>
+      </trans-unit>
+      <trans-unit id="field.uniqueId" approved="yes">
+        <source>Unique Id</source>
+        <target state="translated">विशिष्ट Id, यूनिक Id</target>
+      </trans-unit>
+      <trans-unit id="field.type" approved="yes">
+        <source>Type</source>
+        <target state="translated">प्रकार, टाइप</target>
+      </trans-unit>
+      <trans-unit id="field.title" approved="yes">
+        <source>Title</source>
+        <target state="translated">शीर्षक</target>
+      </trans-unit>
+      <trans-unit id="field.language" approved="yes">
+        <source>Language</source>
+        <target state="translated">भाषा</target>
+      </trans-unit>
+      <trans-unit id="field.frequency" approved="yes">
+        <source>Frequency</source>
+        <target state="translated">आवृत्ति</target>
+      </trans-unit>
+      <trans-unit id="field.flag" approved="yes">
+        <source>Flag</source>
+        <target state="translated">ध्वज</target>
+      </trans-unit>
+      <trans-unit id="field.metaphone" approved="yes">
+        <source>Metaphone</source>
+        <target state="translated">मेटा-फोन</target>
+      </trans-unit>
+      <trans-unit id="field.content" approved="yes">
+        <source>Content</source>
+        <target state="translated">कंटेंट</target>
+      </trans-unit>
+      <trans-unit id="administration.notIndexed" approved="yes">
+        <source>Not indexed?</source>
+        <target state="translated">इंडैक्स्ड नहीं?</target>
+      </trans-unit>
+      <trans-unit id="administration.document.description" approved="yes">
+        <source>Details for a single result row</source>
+        <target state="translated">एक ही परिणाम रॉ के लिए वर्णन</target>
+      </trans-unit>
+      <trans-unit id="administration.document.words" approved="yes">
+        <source>All words found on page</source>
+        <target state="translated">सभी शब्द पेज पर मिले</target>
+      </trans-unit>
+      <trans-unit id="administration.document.topCount" approved="yes">
+        <source>Words by top count</source>
+        <target state="translated">शीर्ष गिनती के आधार पे शब्द</target>
+      </trans-unit>
+      <trans-unit id="administration.document.topFrequency" approved="yes">
+        <source>Words by frequency</source>
+        <target state="translated">आवृत्ति के आधार पे शब्द</target>
+      </trans-unit>
+      <trans-unit id="administration.stopWords" approved="yes">
+        <source>Stopwords</source>
+        <target state="translated">शब्द रोक</target>
+      </trans-unit>
+      <trans-unit id="administration.stopWords.save" approved="yes">
+        <source>Save stopwords</source>
+        <target state="translated">स्टॉप-वर्ड्स सेव करे</target>
+      </trans-unit>
+      <trans-unit id="administration.keywords" approved="yes">
+        <source>Page keywords</source>
+        <target state="translated">पेज कीवर्ड्स</target>
+      </trans-unit>
+      <trans-unit id="administration.keywords.current" approved="yes">
+        <source>Current page keywords</source>
+        <target state="translated">वर्तमान पेज कीवर्ड्स</target>
+      </trans-unit>
+      <trans-unit id="administration.stopWordsKeywords.save" approved="yes">
+        <source>Save keywords and stop words</source>
+        <target state="translated">कीवर्ड सेव करे और शब्द रोके</target>
+      </trans-unit>
+      <trans-unit id="administration.word.description" approved="yes">
+        <source>Detail view of a single word</source>
+        <target state="translated">एक एक शब्द को विस्तार से देखें</target>
+      </trans-unit>
+      <trans-unit id="administration.linkBack" approved="yes">
+        <source>Back</source>
+        <target state="translated">पीछे, वापस</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.sectionRecords" approved="yes">
+        <source>Section records for this phash</source>
+        <target state="translated">इस phash के सेक्शन रिकॉर्ड</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.debug" approved="yes">
+        <source>Debug</source>
+        <target state="translated">डिबग</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.lexer" approved="yes">
+        <source>Lexer</source>
+        <target state="translated">लेक्सेर</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.metaphone" approved="yes">
+        <source>Metaphone</source>
+        <target state="translated">मेटा-फोन</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.view.overview" approved="yes">
+        <source>Overview</source>
+        <target state="translated">ओवरव्यू</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.view.content" approved="yes">
+        <source>Words and content</source>
+        <target state="translated">शब्दों और कंटेंट</target>
+      </trans-unit>
+      <trans-unit id="administration.phash.tableHeader" approved="yes">
+        <source>Phash row content</source>
+        <target state="translated">फेज रो कंटेंट</target>
+      </trans-unit>
+      <trans-unit id="administration.removeEntry" approved="yes">
+        <source>Remove entry</source>
+        <target state="translated">एंट्री को निकालें</target>
+      </trans-unit>
+      <trans-unit id="administration.removeAllEntries" approved="yes">
+        <source>Remove all listed entries</source>
+        <target state="translated">सभी सूचीबद्ध एंट्रीज़ को निकालें</target>
+      </trans-unit>
+      <trans-unit id="administration.back" approved="yes">
+        <source>Back</source>
+        <target state="translated">पीछे, वापस</target>
+      </trans-unit>
+      <trans-unit id="administration.noPageSelected" approved="yes">
+        <source>Please select a page from the page tree.</source>
+        <target state="translated">कृपया पेज ट्री में से पेज को चुनें।</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
