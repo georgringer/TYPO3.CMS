@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814821" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="felogin" target-language="fr">
+    <header/>
+    <body>
+      <trans-unit id="ll_welcome_header" approved="yes">
+        <source>User login</source>
+        <target state="translated">Identification de l'utilisateur</target>
+      </trans-unit>
+      <trans-unit id="ll_logout_header" approved="yes">
+        <source>You have logged out.</source>
+        <target state="translated">Vous êtes déconnecté</target>
+      </trans-unit>
+      <trans-unit id="ll_error_header" approved="yes">
+        <source>Login failure</source>
+        <target state="translated">Identification incorrecte</target>
+      </trans-unit>
+      <trans-unit id="ll_success_header" approved="yes">
+        <source>Login successful</source>
+        <target state="translated">Identification correcte</target>
+      </trans-unit>
+      <trans-unit id="ll_success_message" approved="yes">
+        <source>You are now logged in as '###USER###'</source>
+        <target state="translated">Vous êtes maintenant connecté en tant que '###USER###'</target>
+      </trans-unit>
+      <trans-unit id="ll_status_header" approved="yes">
+        <source>Current status</source>
+        <target state="translated">Etat actuel</target>
+      </trans-unit>
+      <trans-unit id="cookie_warning" approved="yes">
+        <source>Warning: There is a possibility that cookies are not enabled in your web browser! If your login disappears on your next click that is the case and you should enable cookies (or accept cookies from this website) immediately!</source>
+        <target state="translated">Attention: Il est possible que les cookies ne soient pas activés dans votre navigateur! C'est le cas si votre connexion se perd lorsque vous naviguez sur le site. Dans ce cas, vous devriez immédiatement accepter les cookies, au moins pour ce site web!</target>
+      </trans-unit>
+      <trans-unit id="login" approved="yes">
+        <source>Login</source>
+        <target state="translated">Identification</target>
+      </trans-unit>
+      <trans-unit id="logout" approved="yes">
+        <source>Logout</source>
+        <target state="translated">Déconnexion</target>
+      </trans-unit>
+      <trans-unit id="send_password" approved="yes">
+        <source>Send password</source>
+        <target state="translated">Envoyer le mot de passe</target>
+      </trans-unit>
+      <trans-unit id="reset_password" approved="yes">
+        <source>Reset Password</source>
+        <target state="translated">Réinitialiser le mot de passe</target>
+      </trans-unit>
+      <trans-unit id="ll_change_password_header" approved="yes">
+        <source>Change your password</source>
+        <target state="translated">Modifier votre mot de passe</target>
+      </trans-unit>
+      <trans-unit id="change_password" approved="yes">
+        <source>Change your password</source>
+        <target state="translated">Changez votre mot de passe</target>
+      </trans-unit>
+      <trans-unit id="newpassword_label1" approved="yes">
+        <source>Enter new password</source>
+        <target state="translated">Saisissez le nouveau mot de passe</target>
+      </trans-unit>
+      <trans-unit id="newpassword_label2" approved="yes">
+        <source>Repeat new password</source>
+        <target state="translated">Saisissez une seconde fois le nouveau mot de passe</target>
+      </trans-unit>
+      <trans-unit id="ll_forgot_header" approved="yes">
+        <source>Forgot your password?</source>
+        <target state="translated">Mot de passe oublié ?</target>
+      </trans-unit>
+      <trans-unit id="ll_forgot_email_password" xml:space="preserve" approved="yes">
+				<source>Your password
+Hi %s
+
+Your username is "%s"
+Your password is "%s"</source>
+			<target state="translated">Votre mot de passe
+Bonjour %s
+
+Votre nom d'utilisateur est "%s"
+Votre mot de passe est "%s"</target></trans-unit>
+      <trans-unit id="ll_forgot_message_emailSent" approved="yes">
+        <source>Your password has now been sent to the email address %s</source>
+        <target state="translated">Votre mot de passe a été envoyé à l'adresse %s</target>
+      </trans-unit>
+      <trans-unit id="ll_forgot_reset_message_error" approved="yes">
+        <source>Your account or email address does not exist.</source>
+        <target state="translated">Votre compte ou votre adresse e-mail n'existe pas.</target>
+      </trans-unit>
+      <trans-unit id="ll_forgot_header_backToLogin" approved="yes">
+        <source>Return to login form</source>
+        <target state="translated">Retourner au formulaire d'identification</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
