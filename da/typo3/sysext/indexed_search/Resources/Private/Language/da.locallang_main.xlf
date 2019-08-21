@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814831" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="indexed_search" target-language="da">
+    <header/>
+    <body>
+      <trans-unit id="mod_indexed_search" approved="yes">
+        <source>Indexed search</source>
+        <target state="translated">Indekseret søgning</target>
+      </trans-unit>
+      <trans-unit id="mod2_indexed_search" approved="yes">
+        <source>Indexed search statistics</source>
+        <target state="translated">Indekseret søgning statistik</target>
+      </trans-unit>
+      <trans-unit id="ignoreExtensions" approved="yes">
+        <source>Extension %s was set to be ignored.</source>
+        <target state="translated">Ekstension %s var sat til at blive ignoreret.</target>
+      </trans-unit>
+      <trans-unit id="pdfToolsNotFound" approved="yes">
+        <source>PDF tools was not found in paths '%1$spdftotext' and/or '%1$spdfinfo'"</source>
+        <target state="translated">PDF-værktøjer blev ikke fundet på stien '%1$spdftotext' and/or '%1$spdfinfo'"</target>
+      </trans-unit>
+      <trans-unit id="pdfToolsDisabled" approved="yes">
+        <source>PDF tools disabled</source>
+        <target state="translated">PDF-værktøjer deaktiveret</target>
+      </trans-unit>
+      <trans-unit id="pdfToolsFailed" approved="yes">
+        <source>PDFtoText Failed on this document: '%s'. Maybe the PDF file is locked for printing or encrypted.</source>
+        <target state="translated">PDFtoText mislykkedes for dette dokument: '%s'. Muligvis er PDF-filen låst for udskrift eller krypteret.</target>
+      </trans-unit>
+      <trans-unit id="catdocNotFound" approved="yes">
+        <source>'catdoc' tool for reading Word-files was not found in path '%scatdoc'</source>
+        <target state="translated">Værktøjet 'catdoc' til læsning af Word-filer blev ikke fundet på stien '%scatdoc'</target>
+      </trans-unit>
+      <trans-unit id="catdocDisabled" approved="yes">
+        <source>catdoc tools (Word-files) disabled</source>
+        <target state="translated">catdoc-værktøjer (Word-filer) deaktiveret</target>
+      </trans-unit>
+      <trans-unit id="ppthtmlNotFound" approved="yes">
+        <source>'ppthtml' tool for reading Powerpoint-files was not found in path '%sppthtml'</source>
+        <target state="translated">'ppthtml'-værktøj til læsning af Powerpoint-filer blev ikke fundet på stien '%sppthtml'</target>
+      </trans-unit>
+      <trans-unit id="ppthtmlDisabled" approved="yes">
+        <source>ppthtml tools (Powerpoint-files) disabled</source>
+        <target state="translated">ppthtml-værktøjer (Powerpoint-filer) deaktiveret</target>
+      </trans-unit>
+      <trans-unit id="xlhtmlNotFound" approved="yes">
+        <source>'xlhtml' tool for reading Excel-files was not found in path '%sxlhtml'</source>
+        <target state="translated">'xlhtml'-værktøj til at læse Excel-filer blev ikke fundet på stien '%sxlhtml'</target>
+      </trans-unit>
+      <trans-unit id="xlhtmlDisabled" approved="yes">
+        <source>xlhtml tools (Excel-files) disabled</source>
+        <target state="translated">xlhtml-værktøjer (Excel-filer) deaktiveret</target>
+      </trans-unit>
+      <trans-unit id="unzipNotFound" approved="yes">
+        <source>'unzip' tool for reading OpenOffice.org-files was not found in path '%sunzip'</source>
+        <target state="translated">'unzip'-værktøj til at læse Openoffice.org-filer blev ikke fundet på stien '%sunzip'</target>
+      </trans-unit>
+      <trans-unit id="unzipDisabled" approved="yes">
+        <source>unzip tool (OpenOffice.org-files) disabled</source>
+        <target state="translated">unzip-værktøj (Openoffice.org-filer) deaktiveret</target>
+      </trans-unit>
+      <trans-unit id="unrtfNotFound" approved="yes">
+        <source>'unrtf' tool for reading RTF-files was not found in path '%sunrtf'</source>
+        <target state="translated">'unrft'-værktøj til at læse RTF-filer blev ikke fundet på stien '%sunrtf'</target>
+      </trans-unit>
+      <trans-unit id="unrtfDisabled" approved="yes">
+        <source>unrtf tool (RTF-files) disabled</source>
+        <target state="translated">unrtf-værktøj (RTF-filer) deaktiveret</target>
+      </trans-unit>
+      <trans-unit id="extension.ODS" approved="yes">
+        <source>ODF Spreadsheet (*.%s)</source>
+        <target state="translated">ODF Regneark (*.%s)</target>
+      </trans-unit>
+      <trans-unit id="extension.ODP" approved="yes">
+        <source>ODF Presentation (*.%s)</source>
+        <target state="translated">ODF Præsentation (*.%s)</target>
+      </trans-unit>
+      <trans-unit id="extension.ODT" approved="yes">
+        <source>ODF Text (*.%s)</source>
+        <target state="translated">ODF Tekst (*.%s)</target>
+      </trans-unit>
+      <trans-unit id="extension.RTF" approved="yes">
+        <source>Rich Text Format (*.%s)</source>
+        <target state="translated">Formatteret tekst (*.%s)</target>
+      </trans-unit>
+      <trans-unit id="extension.images" approved="yes">
+        <source>Images (*.%s)</source>
+        <target state="translated">Billeder (*.%s)</target>
+      </trans-unit>
+      <trans-unit id="extension.HTML" approved="yes">
+        <source>Webpages (*.%s)</source>
+        <target state="translated">Websider (*.%s)</target>
+      </trans-unit>
+      <trans-unit id="extension.TXT" approved="yes">
+        <source>Textfiles (*.%s)</source>
+        <target state="translated">Tekstfiler (*.%s)</target>
+      </trans-unit>
+      <trans-unit id="extension.CSV" approved="yes">
+        <source>Comma-Separated Values (*.%s)</source>
+        <target state="translated">Komma-separerede værdier (*.%s)</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
