@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1445000814" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="context_help" target-language="it">
+    <header/>
+    <body>
+      <trans-unit id="alternative.description" approved="yes">
+        <source>Sets the alternative text of this asset.</source>
+        <target state="translated">Configura testo alternativo per il seguente asset</target>
+      </trans-unit>
+      <trans-unit id="alternative.details" approved="yes">
+        <source>When using the img element, specify a short text alternative with the alt attribute. Note. The value of this attribute is referred to as "alt text".
+When an image contains words that are important to understanding the content, the alt text should include those words. This will allow the alt text to play the same function on the page as the image. Note that it does not necessarily describe the visual characteristics of the image itself but must convey the same meaning as the image.</source>
+        <target state="translated">Quando viene utilizzato l'elemento img, specifica un breve testo alternativo nell'attributo alt. Nota. Il valore di questo attributo viene chiamato "alt text". Qualora un'immagine contenga delle parole che sono importanti al fine di comprenderne il contenuto, allora l' alt text dovrebbe includere queste parole. Questo consentirà all'alt text di rappresentare la stessa funzione fornita dall'immagine nella pagina. Nota che questo attributo non descrive necessariamente le caratteristiche dell'immagine stessa, ma deve veicolare lo stesso significato dell'immagine.</target>
+      </trans-unit>
+      <trans-unit id="link.description" approved="yes">
+        <source>Sets a link on this asset.</source>
+        <target state="translated">Configura un link per questa risorsa.</target>
+      </trans-unit>
+      <trans-unit id="link.details" approved="yes">
+        <source>Use the wizard next to the field to specify a link that a user can follow by clicking the image.</source>
+        <target state="translated">Utilizza il wizard a fianco del campo per specificare un collegamento che l'utente può seguire cliccando sull'immagine.</target>
+      </trans-unit>
+      <trans-unit id="title.details" approved="yes">
+        <source>The title attribute is used to provide additional information to help clarify or further describe the purpose of a link.
+If the supplementary information provided through the title attribute is something the user should know before following the link, such as a warning, then it should be provided in the link text rather than in the title attribute.</source>
+        <target state="translated">L'attributo title viene utilizzato per fornire informazioni aggiuntive che aiutino a chiarire o descrivere ulteriormente lo scopo di un collegamento. Se le informazioni aggiuntive fornite attraverso l'attributo title riguardano qualcosa che l'utente dovrebbe conoscere prima di seguire il collegamento, come per esempio un avvertimento, allora questo tipo di informazione dovrebbe essere fornita nel testo del collegamento, anziché nell'attributo.</target>
+      </trans-unit>
+      <trans-unit id="description.details" approved="yes">
+        <source>This text will be displayed underneath your asset and can be used to supply additional context to the image.
+Depending on local laws you might have to use this to supply proper copyright information on your assets.</source>
+        <target state="translated">Questo testo verrà mostrato sotto la risorsa e può essere utilizzato per fornire un ulteriore contesto all'immagine. A seconda della legislazione locale, è possible che questo debba essere utilizzato per inserire le opportune informazioni di copyright riguardanti le risorse.</target>
+      </trans-unit>
+      <trans-unit id="crop.description" approved="yes">
+        <source>Click "Open Editor" to start up the image editor.</source>
+        <target state="translated">Clicca "Apri Editor" per far attivare l'editor delle immagini</target>
+      </trans-unit>
+      <trans-unit id="autoplay.description" approved="yes">
+        <source>Check to let embedded media play once loaded.</source>
+        <target state="translated">Seleziona per riprodurre il file multimediale una volta caricato.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
