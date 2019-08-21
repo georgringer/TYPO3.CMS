@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814985" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="scheduler" target-language="da">
+    <header/>
+    <body>
+      <trans-unit id=".description" approved="yes">
+        <source>The Scheduler provides an interface to register and manage recurring or one-time tasks.</source>
+        <target state="translated">Scheduler tilbyder en grænsefalde til at oprette og vedligeholde gentagende eller engangs-opgaver.</target>
+      </trans-unit>
+      <trans-unit id=".syntax" approved="yes">
+        <source>The Scheduler uses a single cron job to handle all registered tasks. It is thus very convenient as only one cron job needs to be set up and all task frequencies can be managed from the BE module.</source>
+        <target state="translated">Scheduler bruger et enkelt cronjob til at håndtere alle registrerede opgaver. Det er meget belejligt eftersom det kun et nødvendigt at indstille et cronjob, og alle opgavers frekvenser kan håndteres i Backend modulet.</target>
+      </trans-unit>
+      <trans-unit id="task_class.alttitle" approved="yes">
+        <source>Class of the task</source>
+        <target state="translated">Opgavens klasse</target>
+      </trans-unit>
+      <trans-unit id="task_class.description" approved="yes">
+        <source>Choose a class from the list of available tasks</source>
+        <target state="translated">Vælg en klasse fra listen over tilgængelige opgaver.</target>
+      </trans-unit>
+      <trans-unit id="task_class.details" approved="yes">
+        <source>Some tasks are provided by the TYPO3 Core itself. Others come from extensions. See the manual to learn how to create your own tasks and register them with the Scheduler.</source>
+        <target state="translated">Nogle opgaver er leveret af TYPO3s egen kerne. Andre kommer fra udvidelser. Se manualen for at lære hvordan du opretter dine egne opgaver og registrerer dem med Scheduler.</target>
+      </trans-unit>
+      <trans-unit id="task_disable.alttitle" approved="yes">
+        <source>Disable task</source>
+        <target state="translated">Deaktivér opgave</target>
+      </trans-unit>
+      <trans-unit id="task_disable.description" approved="yes">
+        <source>Check this box to disable the automatic, scheduled execution of this task. It can still be launched manually from the BE module.</source>
+        <target state="translated">Vælg denne boks for at deaktivere den automatiske og planlagte kørsel af denne opgave. Det kan stadig køres manuelt fra BE modulet.</target>
+      </trans-unit>
+      <trans-unit id="task_type.alttitle" approved="yes">
+        <source>Type of task</source>
+        <target state="translated">Typen af opgave</target>
+      </trans-unit>
+      <trans-unit id="task_type.description" approved="yes">
+        <source>Choose whether the task must happen a single time or will be repeated</source>
+        <target state="translated">Vælg hvorvidt opgaven skal køre en enkelt gang, eller gentagende</target>
+      </trans-unit>
+      <trans-unit id="task_start.alttitle" approved="yes">
+        <source>Start of task</source>
+        <target state="translated">Start på opgaven</target>
+      </trans-unit>
+      <trans-unit id="task_start.description" approved="yes">
+        <source>Enter a start date and time for the task</source>
+        <target state="translated">Indtast startdatoen og tidspunkt for opgaven</target>
+      </trans-unit>
+      <trans-unit id="task_start.details" xml:space="preserve" approved="yes">
+				<source>Date must be entered in a standard format like HH:mm dd-mm-YYYY or YYYY-mm-dd HH:mm. Natural keywords can also be used, like "now" or "tomorrow".
+Date and time must correspond to the server's time zone.</source>
+			<target state="translated">Dato skal indtastes med et standardformat i stil med HH:mm dd-mm-YYYY eller YYYY-mm-dd HH:m. Naturlige nøgleord kan også bruges, som "now" eller "tomorrow".
+Dato og tid skal være i overensstemmelse med serverens tidszone.</target></trans-unit>
+      <trans-unit id="task_end.alttitle" approved="yes">
+        <source>End of task</source>
+        <target state="translated">Slut på opgaven</target>
+      </trans-unit>
+      <trans-unit id="task_end.description" approved="yes">
+        <source>Enter an end date and time for the task, can be blank</source>
+        <target state="translated">Indtast en slutdato og tidspunkt for, hvornår opgaven skal stoppe, kan være blank</target>
+      </trans-unit>
+      <trans-unit id="task_end.details" xml:space="preserve" approved="yes">
+				<source>Date must be entered in a standard format like HH:mm dd-mm-YYYY or YYYY-mm-dd HH:mm. Natural keywords can also be used, like "now" or "tomorrow".
+Date and time must correspond to the server's time zone.
+
+Can be left blank, if task is not supposed to end at any point.</source>
+			<target state="translated">Dato skal indtastes med et standardformat i stil med HH:mm dd-mm-YYYY eller YYYY-mm-dd HH:m. Naturlige nøgleord kan også bruges, som "now" eller "tomorrow".
+Dato og tid skal være i overensstemmelse med serverens tidszone.
+
+Kan efterlades tom, hvis opgaven ikke skal stoppe på noget tidspunkt.</target></trans-unit>
+      <trans-unit id="task_frequency.alttitle" approved="yes">
+        <source>Frequency of task</source>
+        <target state="translated">Opgavens frekvens</target>
+      </trans-unit>
+      <trans-unit id="task_frequency.description" approved="yes">
+        <source>Enter a frequency, either in seconds or using a cron-like syntax (minutes, hours, day of month, months and day of week)</source>
+        <target state="translated">Indtast en frekvens, enten i sekunder eller ved hjælp af en cron syntax (muniter, timer, dag, måned, måneder eller dag i ugen)</target>
+      </trans-unit>
+      <trans-unit id="task_frequency.details" xml:space="preserve" approved="yes">
+				<source>The frequency of the task can be simply entered as a number of seconds.
+
+Alternatively it is possible to use the same syntax as for cron jobs. This is simply a list of five numbers or the wildcard "*", separated by blanks. The five numbers are (in order) minutes, hours, day of month, months and day of week. Examples:
+
+*/5 * * * * means every 5 minutes
+30 22 * * * means every day at 22:30
+
+The Scheduler supports the full cron syntax.</source>
+			<target state="translated">Frekvensen for en opgave kan indtastes som et antal sekunder.
+
+Alternativt er det muligt at bruge den samme syntaks som for cronjobs. Det er en enkelt liste af fem tal eller wildcard "*", adskildt af mellemrum. De fem tal er (i rækkefølge) minutter, timer, day i måneden, måneder og dag i ugen. Eksempler:
+
+*/5 * * * * betyder hvert femte minut
+30 22 * * * betyder hver dag klokken 22:30
+
+Scheduler understøtter fuldt ud cron-syntaks.</target></trans-unit>
+      <trans-unit id="task_multiple.alttitle" approved="yes">
+        <source>Multiple executions</source>
+        <target state="translated">Flere parallelle kørsler</target>
+      </trans-unit>
+      <trans-unit id="task_multiple.description" approved="yes">
+        <source>Choose whether a task can be running several times simultaneously or not</source>
+        <target state="translated">Vælg om en opgave skal køre flere gange parallelt eller ej</target>
+      </trans-unit>
+      <trans-unit id="task_email.alttitle" approved="yes">
+        <source>Email address</source>
+        <target state="translated">E-mail adresse</target>
+      </trans-unit>
+      <trans-unit id="task_email.description" approved="yes">
+        <source>Enter a recipient for the mails sent by the test task</source>
+        <target state="translated">Indtast en modtager af e-mails, sendt fra testopgaven</target>
+      </trans-unit>
+      <trans-unit id="task_sleepTime.alttitle" approved="yes">
+        <source>Sleep time</source>
+        <target state="translated">Pause</target>
+      </trans-unit>
+      <trans-unit id="task_sleepTime.description" approved="yes">
+        <source>Enter a number of seconds during which the task will just sleep.</source>
+        <target state="translated">Indtast et antal sekunder hvorunder opgaven skal holde pause.</target>
+      </trans-unit>
+      <trans-unit id="task_cachingFrameworkGarbageCollection_selectedBackends.alttitle" approved="yes">
+        <source>Select backends</source>
+        <target state="translated">Vælg backends</target>
+      </trans-unit>
+      <trans-unit id="task_cachingFrameworkGarbageCollection_selectedBackends.description" approved="yes">
+        <source>If a cache uses one of the selected backends, the garbage collection will be called for this cache.</source>
+        <target state="translated">Hvis en cache bruger en af de valgte backends, vil garbage collections blive brugt til denne cache.</target>
+      </trans-unit>
+      <trans-unit id="task_tableGarbageCollection_numberOfDays.alttitle" approved="yes">
+        <source>Number of days</source>
+        <target state="translated">Antal dage</target>
+      </trans-unit>
+      <trans-unit id="task_tableGarbageCollection_numberOfDays.description" approved="yes">
+        <source>Delete rows from selected table that are older than given number of days.</source>
+        <target state="translated">Slet rækker fra valgte tabel som er ældre end det angivne antal dage.</target>
+      </trans-unit>
+      <trans-unit id="task_tableGarbageCollection_table.alttitle" approved="yes">
+        <source>Select table</source>
+        <target state="translated">Vælg tabel</target>
+      </trans-unit>
+      <trans-unit id="task_tableGarbageCollection_table.description" approved="yes">
+        <source>Select one of the registered tables to be cleaned up with this task.</source>
+        <target state="translated">Vælg en af de registrerede tabeller, der skal ryddes op, med denne opgave.</target>
+      </trans-unit>
+      <trans-unit id="task_tableGarbageCollection_allTables.alttitle" approved="yes">
+        <source>Clean up all tables</source>
+        <target state="translated">Ryd op i alle tabeller</target>
+      </trans-unit>
+      <trans-unit id="task_tableGarbageCollection_allTables.description" approved="yes">
+        <source>If selected, all configured tables are cleaned. The selection below is ignored.</source>
+        <target state="translated">Hvis valgt, vil opgaven rydde op i alle konfigurerede tabeller. Valget herunder vil blive ignoreret.</target>
+      </trans-unit>
+      <trans-unit id="task_recyclerGarbageCollection_numberOfDays.alttitle" approved="yes">
+        <source>Number of days</source>
+        <target state="translated">Antal dage</target>
+      </trans-unit>
+      <trans-unit id="task_recyclerGarbageCollection_numberOfDays.description" approved="yes">
+        <source>Delete files in _recycler_ folders that are older than the given number of days.</source>
+        <target state="translated">Slet filer i _recycler_ mapper som er ældre end den angivne antal dage.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
