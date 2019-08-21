@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814821" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="felogin" target-language="hi">
+    <header/>
+    <body>
+      <trans-unit id="ll_welcome_header" approved="yes">
+        <source>User login</source>
+        <target state="translated">उपयोगकर्ता लॉग-इनः</target>
+      </trans-unit>
+      <trans-unit id="ll_logout_header" approved="yes">
+        <source>You have logged out.</source>
+        <target state="translated">आपने लॉग-आउट कर लिया।</target>
+      </trans-unit>
+      <trans-unit id="ll_error_header" approved="yes">
+        <source>Login failure</source>
+        <target state="translated">लॉगइन असफलता</target>
+      </trans-unit>
+      <trans-unit id="ll_success_header" approved="yes">
+        <source>Login successful</source>
+        <target state="translated">सफलतापूर्वक लॉग-इन</target>
+      </trans-unit>
+      <trans-unit id="ll_success_message" approved="yes">
+        <source>You are now logged in as '###USER###'</source>
+        <target state="translated">अब आपने '###उपयोगकर्ता###' के रूप में लॉग-इन किया है</target>
+      </trans-unit>
+      <trans-unit id="ll_status_header" approved="yes">
+        <source>Current status</source>
+        <target state="translated">वर्तमान स्टेटस</target>
+      </trans-unit>
+      <trans-unit id="cookie_warning" approved="yes">
+        <source>Warning: There is a possibility that cookies are not enabled in your web browser! If your login disappears on your next click that is the case and you should enable cookies (or accept cookies from this website) immediately!</source>
+        <target state="translated">चेतावनी: वहाँ एक संभावना है कि आपके वेब ब्राउज़र में कुकीज़ सक्षम नहीं है! यदि आपका लॉग-इन आपकी अगली क्लिक पर गायब हो जाता है यह मामला है जिसमे आपको तुरंत कुकीज़ को सक्षम करना चाहिए (या इस वेबसाइट से कुकीज़ को स्वीकार ना चाहिए)!</target>
+      </trans-unit>
+      <trans-unit id="login" approved="yes">
+        <source>Login</source>
+        <target state="translated">लॉगइन</target>
+      </trans-unit>
+      <trans-unit id="logout" approved="yes">
+        <source>Logout</source>
+        <target state="translated">लॉगआउट</target>
+      </trans-unit>
+      <trans-unit id="send_password" approved="yes">
+        <source>Send password</source>
+        <target state="translated">पासवर्ड भेज</target>
+      </trans-unit>
+      <trans-unit id="reset_password" approved="yes">
+        <source>Reset Password</source>
+        <target state="translated">पासवर्ड फिर सेट करें</target>
+      </trans-unit>
+      <trans-unit id="ll_change_password_header" approved="yes">
+        <source>Change your password</source>
+        <target state="translated">अपना पासवर्ड बदलें</target>
+      </trans-unit>
+      <trans-unit id="change_password" approved="yes">
+        <source>Change your password</source>
+        <target state="translated">अपना पासवर्ड बदलें</target>
+      </trans-unit>
+      <trans-unit id="newpassword_label1" approved="yes">
+        <source>Enter new password</source>
+        <target state="translated">नया पासवर्ड दाखिल करें</target>
+      </trans-unit>
+      <trans-unit id="newpassword_label2" approved="yes">
+        <source>Repeat new password</source>
+        <target state="translated">नया पासवर्ड दोहराएँ</target>
+      </trans-unit>
+      <trans-unit id="ll_forgot_header" approved="yes">
+        <source>Forgot your password?</source>
+        <target state="translated">क्या आप अपना पासवर्ड भूल गए?</target>
+      </trans-unit>
+      <trans-unit id="ll_forgot_email_password" xml:space="preserve" approved="yes">
+				<source>Your password
+Hi %s
+
+Your username is "%s"
+Your password is "%s"</source>
+			<target state="translated">आपका पासवर्ड 
+नमस्ते %s
+
+आपका उपयोगकर्ता नाम "%s" है 
+आपका पासवर्ड "%s" है</target></trans-unit>
+      <trans-unit id="ll_forgot_message_emailSent" approved="yes">
+        <source>Your password has now been sent to the email address %s</source>
+        <target state="translated">आपका पासवर्ड अभी-अभी ईमेल एड्रेस %s पर भेज दिया गया है</target>
+      </trans-unit>
+      <trans-unit id="ll_forgot_reset_message_error" approved="yes">
+        <source>Your account or email address does not exist.</source>
+        <target state="translated">आपका खाता या ईमेल एड्रेस मौजूद नहीं है।</target>
+      </trans-unit>
+      <trans-unit id="ll_forgot_header_backToLogin" approved="yes">
+        <source>Return to login form</source>
+        <target state="translated">लॉग-इन फॉर्म पर वापस जाये</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
