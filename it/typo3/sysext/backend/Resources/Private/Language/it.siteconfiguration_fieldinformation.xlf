@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1522923345" source-language="en" datatype="plaintext" original="messages" date="2015-01-02T11:16:11Z" product-name="backend" target-language="it">
+    <header/>
+    <body>
+      <trans-unit id="site.identifier" approved="yes">
+        <source>This name will be used to create the configuration directory. Mind the recommendations for directory names (only a-z,0-9,_,-) and make it unique.</source>
+        <target state="translated">Questo nome sarà utilizzato per creare la directory di configurazione. E' necessario tenere in considerazione i suggerimenti per i nomi delle directory (utilizzare solo i caratteri a-z,0-9,_.-) e scegliere un nome univoco.</target>
+      </trans-unit>
+      <trans-unit id="site.base" approved="yes">
+        <source>Main URL to call the frontend in default language. Can be https://www.example.com/ or just /, if it is just a / you cannot rely on TYPO3 creating
+					full URLs</source>
+        <target state="translated">URL principale per richiamare il frontend nella lingua predefinita.</target>
+      </trans-unit>
+      <trans-unit id="site_language.base" approved="yes">
+        <source>Use a full qualified domain "https://www.mydomain.fr/" or "/fr/". Use "/" to keep the main URL for the default language. Add language specific suffixes to use those, or configure complete URLs for independent domains.</source>
+        <target state="translated">utilizzare / per mantenere la URL principale come configurata nel campo Punto di Ingresso. Aggiungere suffissi specifici per la lingua per utilizzarli o configurare delle URL complete per ottenere domini indipendenti.</target>
+      </trans-unit>
+      <trans-unit id="site_language.locale" approved="yes">
+        <source>Used for localized date and currency formats. E.g. "de_DE" or "en_US.UTF-8".</source>
+        <target state="translated">dovrebbe essere ad esempio qualcosa di simile a it_IT oppure en_US.UTF-8</target>
+      </trans-unit>
+      <trans-unit id="site_language.typo3Language" approved="yes">
+        <source>Select the language to be used from translation files. Keep default if no translation files are available.</source>
+        <target state="translated">Selezionare la lingua da utilizzare per i file di traduzione. Lascia "predefinito" se non sono disponibili file di traduzione.</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorCode" approved="yes">
+        <source>Make sure to have at least 0 (not defined otherwise) configured in order to serve helpful error messages to your visitors.</source>
+        <target state="translated">Assicurarsi che il valore configurato sia almeno 0 (non definito altrove) per poter erogare messaggi di errore utili per i visitatori.</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorFluidTemplate" approved="yes">
+        <source>Path to the fluid template file given by absolute, relative path (from site root) or by referring the template file inside an extension with "EXT:" prefix.</source>
+        <target state="translated">percorso assoluto o relativo (dalla radice del sito) al file di template fluid</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorPhpClassFQCN" approved="yes">
+        <source>Fully qualified class name to a class that implements the PageErrorHandlerInterface.</source>
+        <target state="translated">Nome completo qualificato della classe PHP che eroga la pagina di errore.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
