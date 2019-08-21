@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814900" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lowlevel" target-language="da">
+    <header/>
+    <body>
+      <trans-unit id="configuration" approved="yes">
+        <source>Configuration</source>
+        <target state="translated">Konfiguration</target>
+      </trans-unit>
+      <trans-unit id="typo3ConfVars" approved="yes">
+        <source>$GLOBALS['TYPO3_CONF_VARS'] (Global Configuration)</source>
+        <target state="translated">$GLOBALS['TYPO3_CONF_VARS'] (Global Konfiguration)</target>
+      </trans-unit>
+      <trans-unit id="tca" approved="yes">
+        <source>$GLOBALS['TCA'] (Table configuration array)</source>
+        <target state="translated">$GLOBALS['TCA'] (Array for tabelkonfiguration)</target>
+      </trans-unit>
+      <trans-unit id="tcaDescr" approved="yes">
+        <source>$GLOBALS['TCA_DESCR'] (Table Help Description)</source>
+        <target state="translated">$GLOBALS['TCA_DESCR'] (Hjælpebeskrivelse for tabel)</target>
+      </trans-unit>
+      <trans-unit id="tbeStyles" approved="yes">
+        <source>$GLOBALS['TBE_STYLES'] (Skinning Styles)</source>
+        <target state="translated">$GLOBALS['TBE_STYLES'] (Skinnings-stile)</target>
+      </trans-unit>
+      <trans-unit id="beUser" approved="yes">
+        <source>$GLOBALS['BE_USER']-&gt;uc (User Settings)</source>
+        <target state="translated">$GLOBALS['BE_USER']-&gt;uc (Brugerindstillinger)</target>
+      </trans-unit>
+      <trans-unit id="usersettings" approved="yes">
+        <source>$GLOBALS['TYPO3_USER_SETTINGS'] (User Settings Configuration)</source>
+        <target state="translated">$GLOBALS['TYPO3_USER_SETTINGS'] (Brugerindstillings-konfiguration)</target>
+      </trans-unit>
+      <trans-unit id="t3services" approved="yes">
+        <source>$GLOBALS['T3_SERVICES'] (Registered Services)</source>
+        <target state="translated">$GLOBALS['T3_SERVICES'] (Registerede services)</target>
+      </trans-unit>
+      <trans-unit id="tbemodulesext" approved="yes">
+        <source>$GLOBALS['TBE_MODULES_EXT'] (BE Modules Extensions)</source>
+        <target state="translated">$GLOBALS['TBE_MODULES_EXT'] (BE moduludvidelser)</target>
+      </trans-unit>
+      <trans-unit id="tbemodules" approved="yes">
+        <source>$GLOBALS['TBE_MODULES'] (BE Modules)</source>
+        <target state="translated">$GLOBALS['TBE_MODULES'] (BE moduler)</target>
+      </trans-unit>
+      <trans-unit id="cropLines" approved="yes">
+        <source>Crop lines</source>
+        <target state="translated">Beskær linjer</target>
+      </trans-unit>
+      <trans-unit id="variable" approved="yes">
+        <source>Variable</source>
+        <target state="translated">Variabel:</target>
+      </trans-unit>
+      <trans-unit id="copyPaste" approved="yes">
+        <source>(Now, copy/paste this value into the configuration file where you can set it. This is all you can do from here...)</source>
+        <target state="translated">(Kopiér/indsæt denne værdi i konfigurationsfilen, hvor den kan angives. Det er alt hvad du kan gøre herfra...)</target>
+      </trans-unit>
+      <trans-unit id="enterSearchPhrase" approved="yes">
+        <source>Enter search phrase</source>
+        <target state="translated">Indtast søgeudtryk her:</target>
+      </trans-unit>
+      <trans-unit id="search" approved="yes">
+        <source>Search</source>
+        <target state="translated">Søg</target>
+      </trans-unit>
+      <trans-unit id="useRegExp" approved="yes">
+        <source>Use regular expression (phrase is surrounded by slashes automatically)</source>
+        <target state="translated">Benyt regulært udtryk</target>
+      </trans-unit>
+      <trans-unit id="writeValue" approved="yes">
+        <source>Write value to configuration file</source>
+        <target state="translated">Skriv værdi i konfigurationsfil</target>
+      </trans-unit>
+      <trans-unit id="writeMessage" approved="yes">
+        <source>Following line was added to configuration file (%s): %s%s</source>
+        <target state="translated">Følgende linje blev tilføjet til konfigurationsfilen (%s): %s%s</target>
+      </trans-unit>
+      <trans-unit id="writeMessageFailed" approved="yes">
+        <source>Write to configuration file failed (%s)!</source>
+        <target state="translated">Skrivning til konfigurationsfil gik galt (%s)!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
