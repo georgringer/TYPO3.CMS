@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814838" source-language="en" datatype="plaintext" original="messages" date="2011-12-18T10:19:20Z" product-name="indexed_search" target-language="cs">
+    <header/>
+    <body>
+      <trans-unit id="rules.headline" approved="yes">
+        <source>Rules</source>
+        <target state="translated">Pravidla</target>
+      </trans-unit>
+      <trans-unit id="rules.text" xml:space="preserve" approved="yes">
+				<source><![CDATA[Only words with 2 or more characters are accepted<br />
+Max 200 chars total<br />
+Space is used to split words, "" can be used to search for a whole string (not indexed search then)<br />
+AND, OR and NOT are prefix words, overruling the default operator<br />
++/|/- equals AND, OR and NOT as operators.<br />
+All search words are converted to lowercase.
+]]></source>
+			<target state="translated"><![CDATA[Přijata jsou jen slova s 2 nebo více znaky.&lt;br /&gt;
+Maximálně celkem 200.&lt;br /&gt;
+Mezera odděluje slova, "" mohou být použity k hledání celého řetězce (bez indexovaného vyhledávání). AND, OR a NOT jsou prefixy, které mají vyšší prioritu než implicitní operátor.&lt;br /&gt;
+Operátory +/|/- se rovnají AND, OR a NOT.&lt;br /&gt;
+Všechna hledaná slova jsou změněna na malá písmena.
+]]></target></trans-unit>
+      <trans-unit id="form.legend" approved="yes">
+        <source>Search form</source>
+        <target state="translated">Formulář pro vyhledávání</target>
+      </trans-unit>
+      <trans-unit id="form.searchFor" approved="yes">
+        <source>Search for</source>
+        <target state="translated">Hledat</target>
+      </trans-unit>
+      <trans-unit id="form.extResume" approved="yes">
+        <source>Extended resume</source>
+        <target state="translated">Rozšířené resumé</target>
+      </trans-unit>
+      <trans-unit id="form.atATime" approved="yes">
+        <source>at a time</source>
+        <target state="translated">v čase</target>
+      </trans-unit>
+      <trans-unit id="form.orderBy" approved="yes">
+        <source>Order by</source>
+        <target state="translated">Seřadit podle</target>
+      </trans-unit>
+      <trans-unit id="form.fromSection" approved="yes">
+        <source>From section</source>
+        <target state="translated">Ze sekce</target>
+      </trans-unit>
+      <trans-unit id="form.freeIndexUid" approved="yes">
+        <source>Category</source>
+        <target state="translated">Kategorie</target>
+      </trans-unit>
+      <trans-unit id="form.searchIn" approved="yes">
+        <source>Search in</source>
+        <target state="translated">Hledat v</target>
+      </trans-unit>
+      <trans-unit id="form.match" approved="yes">
+        <source>Match</source>
+        <target state="translated">Shoda</target>
+      </trans-unit>
+      <trans-unit id="form.style" approved="yes">
+        <source>Style</source>
+        <target state="translated">Styl</target>
+      </trans-unit>
+      <trans-unit id="form.submit" approved="yes">
+        <source>Search</source>
+        <target state="translated">Hledat</target>
+      </trans-unit>
+      <trans-unit id="form.addToSearch" approved="yes">
+        <source>Add to current search words</source>
+        <target state="translated">Přidat do vyhledávaných výrazů</target>
+      </trans-unit>
+      <trans-unit id="form.linkToRegularSearch" approved="yes">
+        <source>Regular search</source>
+        <target state="translated">Základní vyhledávání</target>
+      </trans-unit>
+      <trans-unit id="form.linkToAdvancedSearch" approved="yes">
+        <source>Advanced search</source>
+        <target state="translated">Rozšířené vyhledávání</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.0" approved="yes">
+        <source>Distinct word</source>
+        <target state="translated">Celé slovo</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.1" approved="yes">
+        <source>Part of word</source>
+        <target state="translated">Část slova</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.2" approved="yes">
+        <source>First part of word</source>
+        <target state="translated">Začátek slova</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.3" approved="yes">
+        <source>Last part of word</source>
+        <target state="translated">Konec slova</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.10" approved="yes">
+        <source>Sounds like</source>
+        <target state="translated">Zní jako</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.20" approved="yes">
+        <source>Sentence</source>
+        <target state="translated">Věta</target>
+      </trans-unit>
+      <trans-unit id="defaultOperands.0" approved="yes">
+        <source>All words (AND)</source>
+        <target state="translated">Všechny slova (AND)</target>
+      </trans-unit>
+      <trans-unit id="defaultOperands.1" approved="yes">
+        <source>Any words (OR)</source>
+        <target state="translated">Nějaké slovo (OR)</target>
+      </trans-unit>
+      <trans-unit id="languageUids.-1" approved="yes">
+        <source>All languages</source>
+        <target state="translated">Všechny jazyky</target>
+      </trans-unit>
+      <trans-unit id="languageUids.0" approved="yes">
+        <source>Default</source>
+        <target state="translated">Výchozí</target>
+      </trans-unit>
+      <trans-unit id="sections.0" approved="yes">
+        <source>Whole site</source>
+        <target state="translated">Celý web</target>
+      </trans-unit>
+      <trans-unit id="sections.-1" approved="yes">
+        <source>Only this page</source>
+        <target state="translated">Jen tuto stranu</target>
+      </trans-unit>
+      <trans-unit id="sections.-2" approved="yes">
+        <source>Top + level 1</source>
+        <target state="translated">Kořen + úroveň 1</target>
+      </trans-unit>
+      <trans-unit id="sections.-3" approved="yes">
+        <source>Level 2 and out</source>
+        <target state="translated">Úroveň 2 a dále</target>
+      </trans-unit>
+      <trans-unit id="sections.rootLevel1" approved="yes">
+        <source>Level 1</source>
+        <target state="translated">Úroveň 1:</target>
+      </trans-unit>
+      <trans-unit id="sections.rootLevel1All" approved="yes">
+        <source>All pages on level 1</source>
+        <target state="translated">Všechny stránky na úrovni 1</target>
+      </trans-unit>
+      <trans-unit id="sections.rootLevel2" approved="yes">
+        <source>- Level 2</source>
+        <target state="translated">- Úroveň 2</target>
+      </trans-unit>
+      <trans-unit id="sections.rootLevel2All" approved="yes">
+        <source>- All pages on level 2</source>
+        <target state="translated">- Všechny stránky na úrovni 2</target>
+      </trans-unit>
+      <trans-unit id="mediaTypes.0" approved="yes">
+        <source>Internal pages</source>
+        <target state="translated">Interní stránky</target>
+      </trans-unit>
+      <trans-unit id="mediaTypes.-1" approved="yes">
+        <source>All media</source>
+        <target state="translated">Všechna média</target>
+      </trans-unit>
+      <trans-unit id="mediaTypes.-2" approved="yes">
+        <source>All External</source>
+        <target state="translated">Všechny externí</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurations.-1" approved="yes">
+        <source>All, mixed</source>
+        <target state="translated">Vše, smíšené</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurations.-2" approved="yes">
+        <source>All, categorized</source>
+        <target state="translated">Vše, podle kategorií</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurations.0" approved="yes">
+        <source>Pages</source>
+        <target state="translated">Stránky</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurationHeader.-1" approved="yes">
+        <source>Mixed categories</source>
+        <target state="translated">Smíšené kategorie</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurationHeader.0" approved="yes">
+        <source>Website Pages</source>
+        <target state="translated">Stránky webu</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_flag" approved="yes">
+        <source>Weight/Frequency</source>
+        <target state="translated">Váha/Frekvence</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_freq" approved="yes">
+        <source>Frequency</source>
+        <target state="translated">Frekvence</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_first" approved="yes">
+        <source>Close to top</source>
+        <target state="translated">Vzdálenost od kořene</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_count" approved="yes">
+        <source>Number of words</source>
+        <target state="translated">Počet slov</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.mtime" approved="yes">
+        <source>Date Modified</source>
+        <target state="translated">Datum modifikace</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.title" approved="yes">
+        <source>Document title</source>
+        <target state="translated">Název dokumentu</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.crdate" approved="yes">
+        <source>Creation date</source>
+        <target state="translated">Datum vytvoření</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.descending" approved="yes">
+        <source>Highest first</source>
+        <target state="translated">Nejvyšší první</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.ascending" approved="yes">
+        <source>Lowest first</source>
+        <target state="translated">Nejnižší první</target>
+      </trans-unit>
+      <trans-unit id="groupBy.sections" approved="yes">
+        <source>Section hierarchy</source>
+        <target state="translated">Hierarchie sekce</target>
+      </trans-unit>
+      <trans-unit id="groupBy.flat" approved="yes">
+        <source>Flat list</source>
+        <target state="translated">Nesetříděný seznam</target>
+      </trans-unit>
+      <trans-unit id="result.page" approved="yes">
+        <source>page</source>
+        <target state="translated">strana</target>
+      </trans-unit>
+      <trans-unit id="result.pages" approved="yes">
+        <source>pages</source>
+        <target state="translated">stran</target>
+      </trans-unit>
+      <trans-unit id="result.unnamedSection" approved="yes">
+        <source>Other</source>
+        <target state="translated">Jiné</target>
+      </trans-unit>
+      <trans-unit id="result.otherMatching" approved="yes">
+        <source>Other matching pages in the same document</source>
+        <target state="translated">Další odpovídající stránky ve stejném dokumentu:</target>
+      </trans-unit>
+      <trans-unit id="result.otherPageAsWell" approved="yes">
+        <source>INFO: There was another page indexed as well. Probably indexed with another or no usergroup.</source>
+        <target state="translated">INFO: Byly také indexovány jiné stránky. Pravděpodobně s jinou nebo žádnou uživatelskou skupinou.</target>
+      </trans-unit>
+      <trans-unit id="result.path" approved="yes">
+        <source>Path</source>
+        <target state="translated">Cesta</target>
+      </trans-unit>
+      <trans-unit id="result.modified" approved="yes">
+        <source>Modified</source>
+        <target state="translated">Změněno</target>
+      </trans-unit>
+      <trans-unit id="result.created" approved="yes">
+        <source>Created</source>
+        <target state="translated">Vytvořeno</target>
+      </trans-unit>
+      <trans-unit id="result.size" approved="yes">
+        <source>Size</source>
+        <target state="translated">Velikost</target>
+      </trans-unit>
+      <trans-unit id="result.noResume" approved="yes">
+        <source>Note: This search hit may not accurately match the content on this page. The page resume cannot be shown.</source>
+        <target state="translated">Pozn: Tyto výsledky hledání nemusí přesně odpovídat obsahu této stránky. Resumé stránky nelze zobrazit.</target>
+      </trans-unit>
+      <trans-unit id="result.memberGroups" approved="yes">
+        <source>Require membership of group numbers %s</source>
+        <target state="translated">Je nutné být členem skupin %s</target>
+      </trans-unit>
+      <trans-unit id="result.ratingMatches" approved="yes">
+        <source>matches</source>
+        <target state="translated">shody</target>
+      </trans-unit>
+      <trans-unit id="result.noResult" approved="yes">
+        <source>No results found.</source>
+        <target state="translated">Nenalezeny žádné výsledky.</target>
+      </trans-unit>
+      <trans-unit id="result.inSection" approved="yes">
+        <source>in the section</source>
+        <target state="translated">v sekci</target>
+      </trans-unit>
+      <trans-unit id="result.inNsection" approved="yes">
+        <source>in %s section</source>
+        <target state="translated">v %s sekci</target>
+      </trans-unit>
+      <trans-unit id="result.inNsections" approved="yes">
+        <source>in %s sections</source>
+        <target state="translated">v %s sekcích</target>
+      </trans-unit>
+      <trans-unit id="searchFor" approved="yes">
+        <source>Search for</source>
+        <target state="translated">Hledat</target>
+      </trans-unit>
+      <trans-unit id="searchFor.or" approved="yes">
+        <source>or</source>
+        <target state="translated">nebo</target>
+      </trans-unit>
+      <trans-unit id="searchFor.and" approved="yes">
+        <source>and</source>
+        <target state="translated">a</target>
+      </trans-unit>
+      <trans-unit id="searchFor.andnot" approved="yes">
+        <source>but not</source>
+        <target state="translated">ale ne</target>
+      </trans-unit>
+      <trans-unit id="displayResults.previous" approved="yes">
+        <source>&lt; Previous</source>
+        <target state="translated">&lt; Předchozí</target>
+      </trans-unit>
+      <trans-unit id="displayResults.page" approved="yes">
+        <source>Page</source>
+        <target state="translated">Stránka</target>
+      </trans-unit>
+      <trans-unit id="displayResults.next" approved="yes">
+        <source>Next &gt;</source>
+        <target state="translated">Další &gt;</target>
+      </trans-unit>
+      <trans-unit id="displayResults" approved="yes">
+        <source><![CDATA[Displaying results <strong>%1$s to %2$s</strong> out of <strong>%3$s</strong>]]></source>
+        <target state="translated"><![CDATA[Zobrazeny výsledky &lt;strong&gt;%1$s do %2$s&lt;/strong&gt; z celkem &lt;strong&gt;%3$s&lt;/strong&gt;]]></target>
+      </trans-unit>
+      <trans-unit id="administration.menu.general" approved="yes">
+        <source>General statistics</source>
+        <target state="translated">Hlavní statistiky</target>
+      </trans-unit>
+      <trans-unit id="administration.menu.pages" approved="yes">
+        <source>List: Pages</source>
+        <target state="translated">Seznam: Stránky</target>
+      </trans-unit>
+      <trans-unit id="administration.menu.externalDocuments" approved="yes">
+        <source>List: External documents</source>
+        <target state="translated">Seznam: Externí dokumenty</target>
+      </trans-unit>
+      <trans-unit id="administration.menu.searchStatistic" approved="yes">
+        <source>Search statistics</source>
+        <target state="translated">Statistiky vyhledávání</target>
+      </trans-unit>
+      <trans-unit id="administration.menu.statistic" approved="yes">
+        <source>Detailed statistics</source>
+        <target state="translated">Detailní statistiky</target>
+      </trans-unit>
+      <trans-unit id="administration.index.description" approved="yes">
+        <source>General statistics</source>
+        <target state="translated">Hlavní statistiky</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.count" approved="yes">
+        <source>Count</source>
+        <target state="translated">Počet</target>
+      </trans-unit>
+      <trans-unit id="administration.external.title" approved="yes">
+        <source>External documents</source>
+        <target state="translated">Externí dokumenty</target>
+      </trans-unit>
+      <trans-unit id="field.count" approved="yes">
+        <source>Count</source>
+        <target state="translated">Počet</target>
+      </trans-unit>
+      <trans-unit id="field.path" approved="yes">
+        <source>Path</source>
+        <target state="translated">Cesta</target>
+      </trans-unit>
+      <trans-unit id="field.frequency" approved="yes">
+        <source>Frequency</source>
+        <target state="translated">Frekvence</target>
+      </trans-unit>
+      <trans-unit id="administration.notIndexed" approved="yes">
+        <source>Not indexed?</source>
+        <target state="translated">Není indexováno?</target>
+      </trans-unit>
+      <trans-unit id="administration.document.description" approved="yes">
+        <source>Details for a single result row</source>
+        <target state="translated">Detaily jednoho řádku výsledků</target>
+      </trans-unit>
+      <trans-unit id="administration.document.words" approved="yes">
+        <source>All words found on page</source>
+        <target state="translated">Všechna slova nalezená na stránce</target>
+      </trans-unit>
+      <trans-unit id="administration.document.topCount" approved="yes">
+        <source>Words by top count</source>
+        <target state="translated">Slova podle četnosti</target>
+      </trans-unit>
+      <trans-unit id="administration.document.topFrequency" approved="yes">
+        <source>Words by frequency</source>
+        <target state="translated">Slova podle frekvence</target>
+      </trans-unit>
+      <trans-unit id="administration.keywords" approved="yes">
+        <source>Page keywords</source>
+        <target state="translated">Klíčová slova</target>
+      </trans-unit>
+      <trans-unit id="administration.keywords.current" approved="yes">
+        <source>Current page keywords</source>
+        <target state="translated">Klíčová slova současné stránky</target>
+      </trans-unit>
+      <trans-unit id="administration.linkBack" approved="yes">
+        <source>Back</source>
+        <target state="translated">Zpět</target>
+      </trans-unit>
+      <trans-unit id="administration.back" approved="yes">
+        <source>Back</source>
+        <target state="translated">Zpět</target>
+      </trans-unit>
+      <trans-unit id="administration.noPageSelected" approved="yes">
+        <source>Please select a page from the page tree.</source>
+        <target state="translated">Prosím vyberte stránku ze stromu stránek.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
