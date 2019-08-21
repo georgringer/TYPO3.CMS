@@ -1,151 +1,179 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415814869" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="de">
+  <file t3:id="1415814869" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="de-AT">
     <header/>
     <body>
-      <trans-unit id="bigControlPanel" approved="yes">
+      <trans-unit id="bigControlPanel">
         <source>Extended view</source>
-        <target state="translated">Erweiterte Ansicht</target>
+        <target>crwdns38320:0crwdne38320:0</target>
       </trans-unit>
-      <trans-unit id="clipBoard" approved="yes">
+      <trans-unit id="clipBoard">
         <source>Show clipboard</source>
-        <target state="translated">Zwischenablage anzeigen</target>
+        <target>crwdns38322:0crwdne38322:0</target>
       </trans-unit>
-      <trans-unit id="clip_paste" approved="yes">
+      <trans-unit id="clip_paste">
         <source>Paste in clipboard content</source>
-        <target state="translated">Inhalt der Zwischenablage einfügen</target>
+        <target>crwdns38324:0crwdne38324:0</target>
       </trans-unit>
-      <trans-unit id="clip_pasteInto" approved="yes">
+      <trans-unit id="clip_pasteInto">
         <source>Paste into: Clipboard content is inserted into this folder</source>
-        <target state="translated">Einfügen in: Inhalt der Zwischenablage wird in diesen Ordner eingefügt</target>
+        <target>crwdns38326:0crwdne38326:0</target>
       </trans-unit>
-      <trans-unit id="clip_markRecords" approved="yes">
+      <trans-unit id="clip_markRecords">
         <source>Mark All/Mark none</source>
-        <target state="translated">Alles/nichts markieren</target>
+        <target>crwdns38328:0crwdne38328:0</target>
       </trans-unit>
-      <trans-unit id="clip_selectMarked" approved="yes">
+      <trans-unit id="clip_selectMarked">
         <source>Transfer the selection of files to clipboard</source>
-        <target state="translated">Auswahl der Dateien in die Zwischenablage übertragen</target>
+        <target>crwdns38330:0crwdne38330:0</target>
       </trans-unit>
-      <trans-unit id="clip_deleteMarked" approved="yes">
+      <trans-unit id="clip_deleteMarked">
         <source>Delete marked</source>
-        <target state="translated">Markierte löschen</target>
+        <target>crwdns38332:0crwdne38332:0</target>
       </trans-unit>
-      <trans-unit id="clip_deleteMarkedWarning" approved="yes">
+      <trans-unit id="clip_deleteMarkedWarning">
         <source>Are you sure you want to delete all marked files from this folder?</source>
-        <target state="translated">Alle markierten Dateien aus diesem Ordner tatsächlich löschen?</target>
+        <target>crwdns38334:0crwdne38334:0</target>
       </trans-unit>
-      <trans-unit id="displayThumbs" approved="yes">
+      <trans-unit id="displayThumbs">
         <source>Display thumbnails</source>
-        <target state="translated">Vorschaubilder anzeigen</target>
+        <target>crwdns38336:0crwdne38336:0</target>
       </trans-unit>
-      <trans-unit id="c_file" approved="yes">
+      <trans-unit id="c_file">
         <source>File Name</source>
-        <target state="translated">Dateiname</target>
+        <target>crwdns38338:0crwdne38338:0</target>
       </trans-unit>
-      <trans-unit id="c_filepath" approved="yes">
+      <trans-unit id="c_filepath">
         <source>File Path</source>
-        <target state="translated">Dateipfad</target>
+        <target>crwdns38340:0crwdne38340:0</target>
       </trans-unit>
-      <trans-unit id="c_size" approved="yes">
+      <trans-unit id="c_size">
         <source>Size</source>
-        <target state="translated">Größe</target>
+        <target>crwdns38342:0crwdne38342:0</target>
       </trans-unit>
-      <trans-unit id="c_fileext" approved="yes">
+      <trans-unit id="c_fileext">
         <source>Type</source>
-        <target state="translated">Typ</target>
+        <target>crwdns38344:0crwdne38344:0</target>
       </trans-unit>
-      <trans-unit id="c_tstamp" approved="yes">
+      <trans-unit id="c_tstamp">
         <source>Last Modified</source>
-        <target state="translated">Datum</target>
+        <target>crwdns38346:0crwdne38346:0</target>
       </trans-unit>
-      <trans-unit id="c_rw" approved="yes">
+      <trans-unit id="c_rw">
         <source>RW</source>
-        <target state="translated">LS</target>
+        <target>crwdns38348:0crwdne38348:0</target>
       </trans-unit>
-      <trans-unit id="files" approved="yes">
+      <trans-unit id="c__REF_">
+        <source>Ref</source>
+        <target>crwdns38350:0crwdne38350:0</target>
+      </trans-unit>
+      <trans-unit id="files">
         <source>files</source>
-        <target state="translated">Dateien</target>
+        <target>crwdns38352:0crwdne38352:0</target>
       </trans-unit>
-      <trans-unit id="temp" approved="yes">
+      <trans-unit id="temp">
         <source>Temporary files</source>
-        <target state="translated">Temporäre Dateien</target>
+        <target>crwdns38354:0crwdne38354:0</target>
       </trans-unit>
-      <trans-unit id="role_folder_temporary" approved="yes">
+      <trans-unit id="role_folder_temporary">
         <source>Temporary files</source>
-        <target state="translated">Temporäre Dateien</target>
+        <target>crwdns38356:0crwdne38356:0</target>
       </trans-unit>
-      <trans-unit id="role_folder_recycler" approved="yes">
+      <trans-unit id="role_folder_recycler">
         <source>Recycler</source>
-        <target state="translated">Papierkorb</target>
+        <target>crwdns38358:0crwdne38358:0</target>
       </trans-unit>
-      <trans-unit id="read" approved="yes">
+      <trans-unit id="read">
         <source>R</source>
-        <target state="translated">L</target>
+        <target>crwdns38360:0crwdne38360:0</target>
       </trans-unit>
-      <trans-unit id="recycler" approved="yes">
+      <trans-unit id="recycler">
         <source>Recycler</source>
-        <target state="translated">Papierkorb</target>
+        <target>crwdns38362:0crwdne38362:0</target>
       </trans-unit>
-      <trans-unit id="mlang_labels_tablabel" approved="yes">
+      <trans-unit id="mlang_labels_tablabel">
         <source>Listing of files in the directory</source>
-        <target state="translated">Anzeige von Dateien und Ordnern</target>
+        <target>crwdns38364:0crwdne38364:0</target>
       </trans-unit>
-      <trans-unit id="mlang_labels_tabdescr" approved="yes">
+      <trans-unit id="mlang_labels_tabdescr">
         <source>This is the file administration system in TYPO3. It allows you to access the file mounts of your login. Through this module you can upload, copy, move an delete files on the server.</source>
-        <target state="translated">Dies ist das Dateiverwaltungssystem von TYPO3. Es erlaubt den Zugriff auf die für Ihren Benutzer gültigen Verzeichnisfreigaben. Mit diesem Modul können Sie Dateien hochladen, sie auf dem Server kopieren, verschieben und löschen.</target>
+        <target>crwdns38366:0crwdne38366:0</target>
       </trans-unit>
-      <trans-unit id="mlang_tabs_tab" approved="yes">
+      <trans-unit id="mlang_tabs_tab">
         <source>Filelist</source>
-        <target state="translated">Dateiliste</target>
+        <target>crwdns38368:0crwdne38368:0</target>
       </trans-unit>
-      <trans-unit id="write" approved="yes">
+      <trans-unit id="write">
         <source>W</source>
-        <target state="translated">S</target>
+        <target>crwdns38370:0crwdne38370:0</target>
       </trans-unit>
-      <trans-unit id="paramError" approved="yes">
+      <trans-unit id="paramError">
         <source>Parameter Error</source>
-        <target state="translated">Parameterfehler</target>
+        <target>crwdns38372:0crwdne38372:0</target>
       </trans-unit>
-      <trans-unit id="targetNoDir" approved="yes">
+      <trans-unit id="targetNoDir">
         <source>Target was not a directory!</source>
-        <target state="translated">Ziel war kein Verzeichnis!</target>
+        <target>crwdns38374:0crwdne38374:0</target>
       </trans-unit>
-      <trans-unit id="storageNotBrowsableTitle" approved="yes">
+      <trans-unit id="localDriverFlexform_basePath">
+        <source>Base path</source>
+        <target>crwdns38376:0crwdne38376:0</target>
+      </trans-unit>
+      <trans-unit id="localDriverFlexform_basePath_placeholder">
+        <source>Add storage path here. For example: myPath/folder/</source>
+        <target>crwdns38378:0crwdne38378:0</target>
+      </trans-unit>
+      <trans-unit id="localDriverFlexform_pathType">
+        <source>Path type</source>
+        <target>crwdns38380:0crwdne38380:0</target>
+      </trans-unit>
+      <trans-unit id="localDriverFlexform_pathType_relative">
+        <source>relative</source>
+        <target>crwdns38382:0crwdne38382:0</target>
+      </trans-unit>
+      <trans-unit id="localDriverFlexform_pathType_absolute">
+        <source>absolute</source>
+        <target>crwdns38384:0crwdne38384:0</target>
+      </trans-unit>
+      <trans-unit id="localDriverFlexform_caseSensitive">
+        <source>Uses case sensitive identifiers</source>
+        <target>crwdns38386:0crwdne38386:0</target>
+      </trans-unit>
+      <trans-unit id="storageNotBrowsableTitle">
         <source>Access denied.</source>
-        <target state="translated">Zugriff verweigert.</target>
+        <target>crwdns38388:0crwdne38388:0</target>
       </trans-unit>
-      <trans-unit id="storageNotBrowsableMessage" approved="yes">
+      <trans-unit id="storageNotBrowsableMessage">
         <source>You are trying to access a folder in a storage that is not browsable.</source>
-        <target state="translated">Sie versuchen, auf einen Ordner in einem Speicher zuzugreifen, der nicht durchsucht werden kann.</target>
+        <target>crwdns38390:0crwdne38390:0</target>
       </trans-unit>
-      <trans-unit id="missingFolderPermissionsTitle" approved="yes">
+      <trans-unit id="missingFolderPermissionsTitle">
         <source>Missing folder permissions</source>
-        <target state="translated">Fehlende Ordnerberechtigungen</target>
+        <target>crwdns38392:0crwdne38392:0</target>
       </trans-unit>
-      <trans-unit id="missingFolderPermissionsMessage" approved="yes">
+      <trans-unit id="missingFolderPermissionsMessage">
         <source>You have no access to the folder "%s".</source>
-        <target state="translated">Sie haben keinen Zugriff auf den Ordner "%s".</target>
+        <target>crwdns38394:0%scrwdne38394:0</target>
       </trans-unit>
-      <trans-unit id="folderNotFoundTitle" approved="yes">
+      <trans-unit id="folderNotFoundTitle">
         <source>Folder not found.</source>
-        <target state="translated">Ordner nicht gefunden.</target>
+        <target>crwdns38396:0crwdne38396:0</target>
       </trans-unit>
-      <trans-unit id="folderNotFoundMessage" approved="yes">
+      <trans-unit id="folderNotFoundMessage">
         <source>The folder "%s" cannot be accessed. Trying to use parent folder(s).</source>
-        <target state="translated">Auf den Ordner "%s" kann nicht zugegriffen werden. Versuchen Sie es mit einem übergeordneten Ordner.</target>
+        <target>crwdns38398:0%scrwdne38398:0</target>
       </trans-unit>
-      <trans-unit id="translateMetadata" approved="yes">
+      <trans-unit id="translateMetadata">
         <source>Translate metadata</source>
-        <target state="translated">Metadaten übersetzen</target>
+        <target>crwdns38400:0crwdne38400:0</target>
       </trans-unit>
-      <trans-unit id="createMetadataForLanguage" approved="yes">
+      <trans-unit id="createMetadataForLanguage">
         <source>Create metadata of this file for %s</source>
-        <target state="translated">Metadaten dieser Datei erstellen für %s</target>
+        <target>crwdns38402:0%scrwdne38402:0</target>
       </trans-unit>
-      <trans-unit id="editMetadataForLanguage" approved="yes">
+      <trans-unit id="editMetadataForLanguage">
         <source>Edit metadata of this file for %s</source>
-        <target state="translated">Metadaten dieser Datei bearbeiten für %s</target>
+        <target>crwdns38404:0%scrwdne38404:0</target>
       </trans-unit>
     </body>
   </file>
