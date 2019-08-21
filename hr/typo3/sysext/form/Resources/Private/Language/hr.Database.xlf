@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1471786343" source-language="en" datatype="plaintext" original="messages" date="2016-08-21T20:15:32Z" product-name="form" target-language="hr">
+    <header/>
+    <body>
+      <trans-unit id="module.shortcut_name" xml:space="preserve" approved="yes">
+                <source>Form manager</source>
+            <target state="translated">Upravitelj obrazaca</target></trans-unit>
+      <trans-unit id="default" xml:space="preserve" approved="yes">
+                <source>Default</source>
+            <target state="translated">Zadano</target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.formframework.persistenceIdentifier" xml:space="preserve" approved="yes">
+                <source>Form definition</source>
+            <target state="translated">Definicija obrasca</target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.formframework.sheet_general" xml:space="preserve" approved="yes">
+                <source>General</source>
+            <target state="translated">Općenito</target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.formframework.selectPersistenceIdentifier" xml:space="preserve" approved="yes">
+                <source>Please select a form definition</source>
+            <target state="translated">Molimo Vas da odaberete definiciju obrasca</target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.formframework.overrideFinishers" xml:space="preserve" approved="yes">
+                <source>Override finisher settings</source>
+            <target state="translated">Premosti postavke za završetak</target></trans-unit>
+      <trans-unit id="tt_content.finishersDefinition.EmailToSender.subject.label" xml:space="preserve" approved="yes">
+                <source>Subject of the email</source>
+            <target state="translated">Naslov e-maila</target></trans-unit>
+      <trans-unit id="tt_content.finishersDefinition.EmailToSender.senderAddress.label" xml:space="preserve" approved="yes">
+                <source>Email address of the sender</source>
+            <target state="translated">E-mail adresa pošiljatelja</target></trans-unit>
+      <trans-unit id="tt_content.finishersDefinition.EmailToSender.senderName.label" xml:space="preserve" approved="yes">
+                <source>Human-readable name of the sender</source>
+            <target state="translated">Ljudski čitljivo ime pošiljatelja</target></trans-unit>
+      <trans-unit id="tt_content.finishersDefinition.EmailToReceiver.subject.label" xml:space="preserve" approved="yes">
+                <source>Subject of the email</source>
+            <target state="translated">Naslov e-maila</target></trans-unit>
+      <trans-unit id="tt_content.finishersDefinition.EmailToReceiver.senderAddress.label" xml:space="preserve" approved="yes">
+                <source>Email address of the sender</source>
+            <target state="translated">E-mail adresa pošiljatelja</target></trans-unit>
+      <trans-unit id="tt_content.finishersDefinition.EmailToReceiver.senderName.label" xml:space="preserve" approved="yes">
+                <source>Human-readable name of the sender</source>
+            <target state="translated">Ljudski čitljivo ima pošiljatelja</target></trans-unit>
+      <trans-unit id="tt_content.finishersDefinition.EmailToReceiver.language.label" xml:space="preserve" approved="yes">
+                <source>Translation language</source>
+            <target state="translated">Jezik prijevoda</target></trans-unit>
+      <trans-unit id="tt_content.finishersDefinition.EmailToReceiver.language.1" xml:space="preserve" approved="yes">
+                <source>Default</source>
+            <target state="translated">Zadano</target></trans-unit>
+      <trans-unit id="tt_content.finishersDefinition.Redirect.label" xml:space="preserve" approved="yes">
+                <source>Redirect</source>
+            <target state="translated">Preusmjeri</target></trans-unit>
+      <trans-unit id="tt_content.finishersDefinition.Redirect.pageUid.label" xml:space="preserve" approved="yes">
+                <source>Page</source>
+            <target state="translated">Stranica</target></trans-unit>
+      <trans-unit id="tt_content.finishersDefinition.Redirect.additionalParameters.label" xml:space="preserve" approved="yes">
+                <source>Additional link parameter</source>
+            <target state="translated">Dodatni parametri poveznice</target></trans-unit>
+      <trans-unit id="formManagerController.deleteAction.error.title" xml:space="preserve" approved="yes">
+                <source>Delete error</source>
+            <target state="translated">Greška brisanja</target></trans-unit>
+      <trans-unit id="formManagerController.deleteAction.error.body" xml:space="preserve" approved="yes">
+                <source>The form "%s" could not be deleted.</source>
+            <target state="translated">Obrazac "%s" nije bilo moguće izbrisati.</target></trans-unit>
+      <trans-unit id="formManager.edit_existing_forms" xml:space="preserve" approved="yes">
+                <source>Edit existing forms</source>
+            <target state="translated">Uredi postojeće obrasce</target></trans-unit>
+      <trans-unit id="formManager.form_name" xml:space="preserve" approved="yes">
+                <source>Form name</source>
+            <target state="translated">Naziv obrasca</target></trans-unit>
+      <trans-unit id="formManager.location" xml:space="preserve" approved="yes">
+                <source>Location</source>
+            <target state="translated">Lokacija</target></trans-unit>
+      <trans-unit id="formManager.references" xml:space="preserve" approved="yes">
+                <source>References</source>
+            <target state="translated">Reference</target></trans-unit>
+      <trans-unit id="formManager.options" xml:space="preserve" approved="yes">
+                <source>Options</source>
+            <target state="translated">Opcije</target></trans-unit>
+      <trans-unit id="formManager.show_references" xml:space="preserve" approved="yes">
+                <source>Show references for this form</source>
+            <target state="translated">Prikaži reference za ovaj obrazac</target></trans-unit>
+      <trans-unit id="formManager.edit_form" xml:space="preserve" approved="yes">
+                <source>Edit this form</source>
+            <target state="translated">Uredi ovaj obrazac</target></trans-unit>
+      <trans-unit id="formManager.duplicate_this_form" xml:space="preserve" approved="yes">
+                <source>Duplicate this form</source>
+            <target state="translated">Udvostruči ovaj obrazac</target></trans-unit>
+      <trans-unit id="formManager.delete_form" xml:space="preserve" approved="yes">
+                <source>Remove this form</source>
+            <target state="translated">Ukloni ovaj obrazac</target></trans-unit>
+      <trans-unit id="formManager.edit_form_not_allowed" xml:space="preserve" approved="yes">
+                <source>Edit this form is not allowed.</source>
+            <target state="translated">Uređivanje ovog obrasca nije dopušteno.</target></trans-unit>
+      <trans-unit id="formManager.delete_form_not_allowed" xml:space="preserve" approved="yes">
+                <source>Delete this form is not allowed.</source>
+            <target state="translated">Brisanje ovog obrasca nije dopušteno.</target></trans-unit>
+      <trans-unit id="formManager.duplicate_identifier" xml:space="preserve" approved="yes">
+                <source>Duplicate identifier!</source>
+            <target state="translated">Dvostruki identifikator!</target></trans-unit>
+      <trans-unit id="formManager.selectablePrototypesConfiguration.standard.label" xml:space="preserve" approved="yes">
+                <source>Standard</source>
+            <target state="translated">Standardno</target></trans-unit>
+      <trans-unit id="formManager.selectablePrototypesConfiguration.standard.newFormTemplates.blankForm.label" xml:space="preserve" approved="yes">
+                <source>Blank form</source>
+            <target state="translated">Prazan obrazac</target></trans-unit>
+      <trans-unit id="formManager.selectablePrototypesConfiguration.standard.newFormTemplates.simpleContactForm.label" xml:space="preserve" approved="yes">
+                <source>Simple contact form (ext:form example)</source>
+            <target state="translated">Jednostavni kontakt obrazac (ext:form example)</target></trans-unit>
+      <trans-unit id="formEditor.loading" xml:space="preserve" approved="yes">
+                <source>Loading...</source>
+            <target state="translated">Učitavam...</target></trans-unit>
+      <trans-unit id="formEditor.spinner" xml:space="preserve" approved="yes">
+                <source>Loading...</source>
+            <target state="translated">Učitavam...</target></trans-unit>
+      <trans-unit id="formEditor.save_button" xml:space="preserve" approved="yes">
+                <source>Save</source>
+            <target state="translated">Spremi</target></trans-unit>
+      <trans-unit id="formEditor.undo_button" xml:space="preserve" approved="yes">
+                <source>Undo</source>
+            <target state="translated">Vrati</target></trans-unit>
+      <trans-unit id="formEditor.redo_button" xml:space="preserve" approved="yes">
+                <source>Redo</source>
+            <target state="translated">Ponovi</target></trans-unit>
+      <trans-unit id="formEditor.structure" xml:space="preserve" approved="yes">
+                <source>Structure</source>
+            <target state="translated">Struktura</target></trans-unit>
+      <trans-unit id="formEditor.insert_elements" xml:space="preserve" approved="yes">
+                <source>Insert elements</source>
+            <target state="translated">Umetni elemente</target></trans-unit>
+      <trans-unit id="formEditor.formElementPropertyValidatorsDefinition.NotEmpty.label" xml:space="preserve" approved="yes">
+                <source>Required</source>
+            <target state="translated">Zahtijevano</target></trans-unit>
+      <trans-unit id="formEditor.formElementPropertyValidatorsDefinition.Integer.label" xml:space="preserve" approved="yes">
+                <source>Not a number</source>
+            <target state="translated">Nije broj</target></trans-unit>
+      <trans-unit id="formEditor.formElementPropertyValidatorsDefinition.NaiveEmail.label" xml:space="preserve" approved="yes">
+                <source>Invalid email address</source>
+            <target state="translated">Neispravna adresa e-pošte</target></trans-unit>
+      <trans-unit id="formEditor.formElementPropertyValidatorsDefinition.FormElementIdentifierWithinCurlyBraces.label" xml:space="preserve" approved="yes">
+                <source>Invalid form element</source>
+            <target state="translated">Neispravan element obrasca</target></trans-unit>
+      <trans-unit id="formEditor.formElementGroups.input.label" xml:space="preserve" approved="yes">
+                <source>Basic elements</source>
+            <target state="translated">Osnovni elementi</target></trans-unit>
+      <trans-unit id="formEditor.formElementGroups.select.label" xml:space="preserve" approved="yes">
+                <source>Select elements</source>
+            <target state="translated">Odaberi elemente</target></trans-unit>
+      <trans-unit id="formEditor.formElementGroups.custom.label" xml:space="preserve" approved="yes">
+                <source>Advanced elements</source>
+            <target state="translated">Napredni elementi</target></trans-unit>
+      <trans-unit id="formEditor.formElementGroups.container.label" xml:space="preserve" approved="yes">
+                <source>Container elements</source>
+            <target state="translated">Elementi spremnici</target></trans-unit>
+      <trans-unit id="formEditor.elements.BaseFormElementMixin.editor.label.label" xml:space="preserve" approved="yes">
+                <source>Form name</source>
+            <target state="translated">Naziv obrasca</target></trans-unit>
+      <trans-unit id="formEditor.elements.Form.saveSuccessFlashMessageTitle" xml:space="preserve" approved="yes">
+                <source>Save</source>
+            <target state="translated">Spremi</target></trans-unit>
+      <trans-unit id="formEditor.elements.Form.saveSuccessFlashMessageMessage" xml:space="preserve" approved="yes">
+                <source>The form has been successfully saved.</source>
+            <target state="translated">Obrazac je uspješno spremljen.</target></trans-unit>
+      <trans-unit id="formEditor.elements.Form.saveErrorFlashMessageTitle" xml:space="preserve" approved="yes">
+                <source>Save</source>
+            <target state="translated">Spremi</target></trans-unit>
+      <trans-unit id="formEditor.modals.validationErrors.dialogTitle" xml:space="preserve" approved="yes">
+                <source>Alert</source>
+            <target state="translated">Upozorenje</target></trans-unit>
+      <trans-unit id="formEditor.modals.validationErrors.dialogMessage" xml:space="preserve" approved="yes">
+                <source>Some elements are not configured properly. Please check the following elements:</source>
+            <target state="translated">Neki elementi su neispravno podešeni. Molimo Vas da provjerite sljedeće elemente:</target></trans-unit>
+      <trans-unit id="formEditor.modals.validationErrors.confirmButton" xml:space="preserve" approved="yes">
+                <source>OK</source>
+            <target state="translated">U redu</target></trans-unit>
+      <trans-unit id="formEditor.modals.insertElements.dialogTitle" xml:space="preserve" approved="yes">
+                <source>New element</source>
+            <target state="translated">Novi element</target></trans-unit>
+      <trans-unit id="formEditor.modals.removeElement.dialogTitle" xml:space="preserve" approved="yes">
+                <source>Remove element?</source>
+            <target state="translated">Ukloniti element?</target></trans-unit>
+      <trans-unit id="formEditor.modals.removeElement.dialogMessage" xml:space="preserve" approved="yes">
+                <source>Are you sure that you want to remove this element?</source>
+            <target state="translated">Zaista želite ukloniti ovaj element?</target></trans-unit>
+      <trans-unit id="formEditor.modals.removeElement.confirmButton" xml:space="preserve" approved="yes">
+                <source>Remove</source>
+            <target state="translated">Ukloni</target></trans-unit>
+      <trans-unit id="formEditor.modals.removeElement.cancleButton" xml:space="preserve" approved="yes">
+                <source>Cancel</source>
+            <target state="translated">Otkaži</target></trans-unit>
+      <trans-unit id="formEditor.modals.removeElement.lastAvailablePageFlashMessageTitle" xml:space="preserve" approved="yes">
+                <source>Error</source>
+            <target state="translated">Greška</target></trans-unit>
+      <trans-unit id="formEditor.modals.close.dialogMessage" xml:space="preserve" approved="yes">
+                <source>You have currently unsaved changes. Are you sure that you want to discard all changes?</source>
+            <target state="translated">Postoje izmjene koje nisu spremljene. Zaista želite odbaciti sve izmjene?</target></trans-unit>
+      <trans-unit id="formEditor.modals.close.dialogTitle" xml:space="preserve" approved="yes">
+                <source>Do you want to quit without saving?</source>
+            <target state="translated">Želite li odustati bez spremanja izmjena?</target></trans-unit>
+      <trans-unit id="formEditor.modals.close.confirmButton" xml:space="preserve" approved="yes">
+                <source>Yes, discard my changes</source>
+            <target state="translated">Da, odbaci moje izmjene</target></trans-unit>
+      <trans-unit id="formEditor.modals.close.cancleButton" xml:space="preserve" approved="yes">
+                <source>No, I will continue editing</source>
+            <target state="translated">No, nastavit ću s uređivanjem</target></trans-unit>
+      <trans-unit id="formEditor.elements.MinimumMaximumEditorsMixin.editor.maximum.label" xml:space="preserve" approved="yes">
+                <source>Maximum</source>
+            <target state="translated">Maksimum</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.editor.placeholder.label" xml:space="preserve" approved="yes">
+                <source>Placeholder</source>
+            <target state="translated">Rezervirano mjesto</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.editor.defaultValue.label" xml:space="preserve" approved="yes">
+                <source>Default value</source>
+            <target state="translated">Zadana vrijednost</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.editor.validators.label" xml:space="preserve" approved="yes">
+                <source>Validators</source>
+            <target state="translated">Validatori</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.editor.validators.EmptyValue.label" xml:space="preserve" approved="yes">
+                <source>Add validator</source>
+            <target state="translated">Dodaj validator</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.editor.validators.Alphanumeric.label" xml:space="preserve" approved="yes">
+                <source>Alphanumeric</source>
+            <target state="translated">Alfanumerički</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.editor.validators.Text.label" xml:space="preserve" approved="yes">
+                <source>Non-XML text</source>
+            <target state="translated">Ne-XML tekst</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.editor.validators.StringLength.label" xml:space="preserve" approved="yes">
+                <source>String length</source>
+            <target state="translated">Duljina stringa</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.editor.validators.EmailAddress.label" xml:space="preserve" approved="yes">
+                <source>Email</source>
+            <target state="translated">E-mail</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.editor.validators.Integer.label" xml:space="preserve" approved="yes">
+                <source>Integer number</source>
+            <target state="translated">Cijeli broj</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.editor.validators.Float.label" xml:space="preserve" approved="yes">
+                <source>Floating-point number</source>
+            <target state="translated">Broj s pomičnim zarezom</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.editor.validators.NumberRange.label" xml:space="preserve" approved="yes">
+                <source>Number range</source>
+            <target state="translated">Raspon brojeva</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.editor.validators.RegularExpression.label" xml:space="preserve" approved="yes">
+                <source>Regular expression</source>
+            <target state="translated">Regularni izraz</target></trans-unit>
+      <trans-unit id="formEditor.elements.MultiSelectionMixin.editor.validators.Count.label" xml:space="preserve" approved="yes">
+                <source>Number of submitted values</source>
+            <target state="translated">Broj podnesenih vrijednosti</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.validators.Alphanumeric.editor.header.label" xml:space="preserve" approved="yes">
+                <source>Alphanumeric</source>
+            <target state="translated">Alfanumerički</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.validators.Text.editor.header.label" xml:space="preserve" approved="yes">
+                <source>Non-XML text</source>
+            <target state="translated">Ne-XML tekst</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.validators.StringLength.editor.header.label" xml:space="preserve" approved="yes">
+                <source>String length</source>
+            <target state="translated">Duljina stringa</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.validators.EmailAddress.editor.header.label" xml:space="preserve" approved="yes">
+                <source>Email</source>
+            <target state="translated">E-mail</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.validators.Integer.editor.header.label" xml:space="preserve" approved="yes">
+                <source>Integer number</source>
+            <target state="translated">Cijeli broj</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.validators.Float.editor.header.label" xml:space="preserve" approved="yes">
+                <source>Floating-point number</source>
+            <target state="translated">Broj s pomičnim zarezom</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.validators.NumberRange.editor.header.label" xml:space="preserve" approved="yes">
+                <source>Number range</source>
+            <target state="translated">Raspon brojeva</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.validators.RegularExpression.editor.header.label" xml:space="preserve" approved="yes">
+                <source>Regular expression</source>
+            <target state="translated">Regularni izraz</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.validators.RegularExpression.editor.regex.label" xml:space="preserve" approved="yes">
+                <source>Regular expression</source>
+            <target state="translated">Regularni izraz</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.validators.RegularExpression.editor.regex.fieldExplanationText" xml:space="preserve" approved="yes">
+                <source>Enter a valid PHP PCRE regular expression here.</source>
+            <target state="translated">Unesite ispravan PHP PCRE regularni izraz u ovo polje.</target></trans-unit>
+      <trans-unit id="formEditor.elements.MultiSelectionMixin.validators.Count.editor.header.label" xml:space="preserve" approved="yes">
+                <source>Number of submitted values</source>
+            <target state="translated">Broj podnesenih vrijednosti</target></trans-unit>
+      <trans-unit id="formEditor.elements.SelectionMixin.editor.options.label" xml:space="preserve" approved="yes">
+                <source>Choices</source>
+            <target state="translated">Izbori</target></trans-unit>
+      <trans-unit id="formEditor.elements.SelectionMixin.editor.options.removeLastAvailableRowFlashMessageTitle" xml:space="preserve" approved="yes">
+                <source>Error</source>
+            <target state="translated">Greška</target></trans-unit>
+      <trans-unit id="formEditor.elements.MultiSelectionMixin.editor.validators.label" xml:space="preserve" approved="yes">
+                <source>Validators</source>
+            <target state="translated">Validatori</target></trans-unit>
+      <trans-unit id="formEditor.elements.MultiSelectionMixin.editor.validators.EmptyValue.label" xml:space="preserve" approved="yes">
+                <source>Add validator</source>
+            <target state="translated">Dodaj validator</target></trans-unit>
+      <trans-unit id="formEditor.elements.FileUploadMixin.editor.saveToFileMount.label" xml:space="preserve" approved="yes">
+                <source>Uploads save path</source>
+            <target state="translated">Putanja za spremanje poslanih datoteka</target></trans-unit>
+      <trans-unit id="formEditor.elements.FileUploadMixin.editor.validators.label" xml:space="preserve" approved="yes">
+                <source>Validators</source>
+            <target state="translated">Validatori</target></trans-unit>
+      <trans-unit id="formEditor.elements.FileUploadMixin.editor.validators.EmptyValue.label" xml:space="preserve" approved="yes">
+                <source>Add validator</source>
+            <target state="translated">Dodaj validator</target></trans-unit>
+      <trans-unit id="formEditor.elements.Form.editor.submitButtonLabel.label" xml:space="preserve" approved="yes">
+                <source>Submit label</source>
+            <target state="translated">Oznaka za slanje</target></trans-unit>
+      <trans-unit id="formEditor.elements.Form.editor.finishers.label" xml:space="preserve" approved="yes">
+                <source>Finishers</source>
+            <target state="translated">Završeci</target></trans-unit>
+      <trans-unit id="formEditor.elements.Form.editor.finishers.EmptyValue.label" xml:space="preserve" approved="yes">
+                <source>Add finisher</source>
+            <target state="translated">Dodaj završetak</target></trans-unit>
+      <trans-unit id="formEditor.elements.Form.editor.finishers.Redirect.label" xml:space="preserve" approved="yes">
+                <source>Redirect to a page</source>
+            <target state="translated">Preusmjeri na stranicu</target></trans-unit>
+      <trans-unit id="formEditor.elements.Form.editor.finishers.DeleteUploads.label" xml:space="preserve" approved="yes">
+                <source>Delete uploads</source>
+            <target state="translated">Obriši poslane datoteke</target></trans-unit>
+      <trans-unit id="formEditor.elements.Form.finisher.EmailToReceiver.editor.language.label" xml:space="preserve" approved="yes">
+                <source>Translation language</source>
+            <target state="translated">Jezik prijevoda</target></trans-unit>
+      <trans-unit id="formEditor.elements.Form.finisher.Redirect.editor.header.label" xml:space="preserve" approved="yes">
+                <source>Redirect to a page</source>
+            <target state="translated">Preusmjeri na stranicu</target></trans-unit>
+      <trans-unit id="formEditor.elements.Form.finisher.Redirect.editor.pageUid.label" xml:space="preserve" approved="yes">
+                <source>Page</source>
+            <target state="translated">Stranica</target></trans-unit>
+      <trans-unit id="formEditor.elements.Form.finisher.DeleteUploads.editor.header.label" xml:space="preserve" approved="yes">
+                <source>Delete uploads</source>
+            <target state="translated">Obriši poslane datoteke</target></trans-unit>
+      <trans-unit id="formEditor.elements.DatePicker.editor.validators.label" xml:space="preserve" approved="yes">
+                <source>Validators</source>
+            <target state="translated">Validatori</target></trans-unit>
+      <trans-unit id="formEditor.elements.DatePicker.editor.validators.EmptyValue.label" xml:space="preserve" approved="yes">
+                <source>Add validator</source>
+            <target state="translated">Dodaj validator</target></trans-unit>
+      <trans-unit id="formEditor.stage.toolbar.remove" xml:space="preserve" approved="yes">
+                <source>Remove</source>
+            <target state="translated">Ukloni</target></trans-unit>
+    </body>
+  </file>
+</xliff>
