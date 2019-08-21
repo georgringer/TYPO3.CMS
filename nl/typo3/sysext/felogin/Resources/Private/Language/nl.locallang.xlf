@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814821" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="felogin" target-language="nl">
+    <header/>
+    <body>
+      <trans-unit id="ll_welcome_header" approved="yes">
+        <source>User login</source>
+        <target state="translated">Inloggen</target>
+      </trans-unit>
+      <trans-unit id="ll_logout_header" approved="yes">
+        <source>You have logged out.</source>
+        <target state="translated">U bent uitgelogd.</target>
+      </trans-unit>
+      <trans-unit id="ll_error_header" approved="yes">
+        <source>Login failure</source>
+        <target state="translated">Loginfout</target>
+      </trans-unit>
+      <trans-unit id="ll_success_header" approved="yes">
+        <source>Login successful</source>
+        <target state="translated">Login succesvol</target>
+      </trans-unit>
+      <trans-unit id="ll_success_message" approved="yes">
+        <source>You are now logged in as '###USER###'</source>
+        <target state="translated">U bent nu ingelogd als '###USER###'</target>
+      </trans-unit>
+      <trans-unit id="ll_status_header" approved="yes">
+        <source>Current status</source>
+        <target state="translated">Huidige status</target>
+      </trans-unit>
+      <trans-unit id="ll_status_message" approved="yes">
+        <source>This is your current status</source>
+        <target state="translated">Dit is uw huidige status</target>
+      </trans-unit>
+      <trans-unit id="cookie_warning" approved="yes">
+        <source>Warning: There is a possibility that cookies are not enabled in your web browser! If your login disappears on your next click that is the case and you should enable cookies (or accept cookies from this website) immediately!</source>
+        <target state="translated">Waarschuwing: Het is mogelijk dat uw browser geen "cookies" accepteert. Als uw aanmelding na doorklikken weer is verdwenen, zal dit vrijwel zeker het geval zijn. Om dit te herstellen moet u de mogelijkheid tot het gebruiken van cookies in uw browser activeren of voor deze site accepteren!</target>
+      </trans-unit>
+      <trans-unit id="username" approved="yes">
+        <source>Username</source>
+        <target state="translated">Gebruikersnaam</target>
+      </trans-unit>
+      <trans-unit id="password" approved="yes">
+        <source>Password</source>
+        <target state="translated">Wachtwoord</target>
+      </trans-unit>
+      <trans-unit id="login" approved="yes">
+        <source>Login</source>
+        <target state="translated">Inloggen</target>
+      </trans-unit>
+      <trans-unit id="permalogin" approved="yes">
+        <source>Stay logged in</source>
+        <target state="translated">Ingelogd blijven</target>
+      </trans-unit>
+      <trans-unit id="logout" approved="yes">
+        <source>Logout</source>
+        <target state="translated">Uitloggen</target>
+      </trans-unit>
+      <trans-unit id="send_password" approved="yes">
+        <source>Send password</source>
+        <target state="translated">Wachtwoord verzenden</target>
+      </trans-unit>
+      <trans-unit id="reset_password" approved="yes">
+        <source>Reset Password</source>
+        <target state="translated">Wachtwoord resetten</target>
+      </trans-unit>
+      <trans-unit id="ll_change_password_header" approved="yes">
+        <source>Change your password</source>
+        <target state="translated">Wachtwoord veranderen</target>
+      </trans-unit>
+      <trans-unit id="change_password" approved="yes">
+        <source>Change your password</source>
+        <target state="translated">Verander uw wachtwoord</target>
+      </trans-unit>
+      <trans-unit id="newpassword_label1" approved="yes">
+        <source>Enter new password</source>
+        <target state="translated">Voer nieuw wachtwoord in</target>
+      </trans-unit>
+      <trans-unit id="newpassword_label2" approved="yes">
+        <source>Repeat new password</source>
+        <target state="translated">Herhaal nieuw wachtwoord</target>
+      </trans-unit>
+      <trans-unit id="your_email" approved="yes">
+        <source>Your email</source>
+        <target state="translated">Uw e-mail</target>
+      </trans-unit>
+      <trans-unit id="ll_forgot_header" approved="yes">
+        <source>Forgot your password?</source>
+        <target state="translated">Wachtwoord vergeten?</target>
+      </trans-unit>
+      <trans-unit id="ll_forgot_email_password" xml:space="preserve" approved="yes">
+				<source>Your password
+Hi %s
+
+Your username is "%s"
+Your password is "%s"</source>
+			<target state="translated">Uw wachtwoord
+Hallo %s
+
+Uw gebruikersnaam is "%s"
+Uw wachtwoord is "%s"</target></trans-unit>
+      <trans-unit id="ll_forgot_message_emailSent" approved="yes">
+        <source>Your password has now been sent to the email address %s</source>
+        <target state="translated">Uw wachtwoord is verstuurd naar het e-mailadres %s</target>
+      </trans-unit>
+      <trans-unit id="ll_forgot_reset_message_error" approved="yes">
+        <source>Your account or email address does not exist.</source>
+        <target state="translated">Dit account of e-mailadres bestaat niet.</target>
+      </trans-unit>
+      <trans-unit id="ll_forgot_header_backToLogin" approved="yes">
+        <source>Return to login form</source>
+        <target state="translated">Terug naar het inlogformulier</target>
+      </trans-unit>
+      <trans-unit id="ll_enter_your_data" approved="yes">
+        <source>Username or email address</source>
+        <target state="translated">Gebruikersnaam of e-mailadres</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
