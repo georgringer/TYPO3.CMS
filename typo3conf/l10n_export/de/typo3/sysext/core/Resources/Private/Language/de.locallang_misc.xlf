@@ -1,559 +1,571 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415814865" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="de">
+  <file t3:id="1415814865" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="de-AT">
     <header/>
     <body>
-      <trans-unit id="shortcutDescription" approved="yes">
+      <trans-unit id="shortcutDescription">
         <source>This is the shortcuts menu. You do not have any shortcuts added yet, you can do so by clicking the shortcut icon %icon%, which you can find on each page in the backend.</source>
-        <target state="translated">Dieses Menü zeigt von Ihnen angelegte Verweise an. Sie haben noch keine Verweise hinzugefügt, können das aber mit einem Mausklick auf das Verweissymbol %icon% tun, das auf jeder Seite des Backends vorhanden ist.</target>
+        <target>crwdns23418:0%icon%crwdne23418:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_edit" approved="yes">
+      <trans-unit id="shortcut_edit">
         <source>Edit</source>
-        <target state="translated">Bearbeiten</target>
+        <target>crwdns23420:0crwdne23420:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_create" approved="yes">
+      <trans-unit id="shortcut_create">
         <source>Create</source>
-        <target state="translated">Erstellen</target>
+        <target>crwdns23422:0crwdne23422:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_editID" approved="yes">
+      <trans-unit id="shortcut_editID">
         <source>Edit/Search</source>
-        <target state="translated">Bearbeiten/Suchen</target>
+        <target>crwdns23424:0crwdne23424:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_save" approved="yes">
+      <trans-unit id="shortcut_save">
         <source>Update shortcut title</source>
-        <target state="translated">Verweistitel aktualisieren</target>
+        <target>crwdns23426:0crwdne23426:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_saveClose" approved="yes">
+      <trans-unit id="shortcut_saveClose">
         <source>Update and close editor</source>
-        <target state="translated">Aktualisieren und Editor schließen</target>
+        <target>crwdns23428:0crwdne23428:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_close" approved="yes">
+      <trans-unit id="shortcut_close">
         <source>Close shortcut editor</source>
-        <target state="translated">Verweiseditor schließen</target>
+        <target>crwdns23430:0crwdne23430:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_delete" approved="yes">
+      <trans-unit id="shortcut_delete">
         <source>Remove shortcut</source>
-        <target state="translated">Verweis entfernen</target>
+        <target>crwdns23432:0crwdne23432:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_loadEdit" approved="yes">
+      <trans-unit id="shortcut_loadEdit">
         <source>Loading page</source>
-        <target state="translated">Seite wird geladen</target>
+        <target>crwdns23434:0crwdne23434:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_searchFor" approved="yes">
+      <trans-unit id="shortcut_searchFor">
         <source>Search for</source>
-        <target state="translated">Suchen nach</target>
+        <target>crwdns23436:0crwdne23436:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_notEditable" approved="yes">
+      <trans-unit id="shortcut_notEditable">
         <source>No editable page found!</source>
-        <target state="translated">Keine Seite zur Bearbeitung gefunden!</target>
+        <target>crwdns23438:0crwdne23438:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_group" approved="yes">
+      <trans-unit id="shortcut_group">
         <source>Group</source>
-        <target state="translated">Gruppe</target>
+        <target>crwdns23440:0crwdne23440:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_group_1" approved="yes">
+      <trans-unit id="shortcut_group_1">
         <source>Pages</source>
-        <target state="translated">Seiten</target>
+        <target>crwdns23442:0crwdne23442:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_group_2" approved="yes">
+      <trans-unit id="shortcut_group_2">
         <source>Records</source>
-        <target state="translated">Datensätze</target>
+        <target>crwdns23444:0crwdne23444:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_group_3" approved="yes">
+      <trans-unit id="shortcut_group_3">
         <source>Files</source>
-        <target state="translated">Dateien</target>
+        <target>crwdns23446:0crwdne23446:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_group_4" approved="yes">
+      <trans-unit id="shortcut_group_4">
         <source>Tools</source>
-        <target state="translated">Werkzeuge</target>
+        <target>crwdns23448:0crwdne23448:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_group_5" approved="yes">
+      <trans-unit id="shortcut_group_5">
         <source>Miscellaneous</source>
-        <target state="translated">Verschiedenes</target>
+        <target>crwdns23450:0crwdne23450:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_all" approved="yes">
+      <trans-unit id="shortcut_global">
+        <source>Global</source>
+        <target>crwdns23452:0crwdne23452:0</target>
+      </trans-unit>
+      <trans-unit id="shortcut_all">
         <source>All</source>
-        <target state="translated">Alle</target>
+        <target>crwdns23454:0crwdne23454:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_onlyAdmin" approved="yes">
+      <trans-unit id="shortcut_onlyAdmin">
         <source>You cannot edit a shared shortcut!</source>
-        <target state="translated">Sie können keine gemeinsamen Verweise bearbeiten!</target>
+        <target>crwdns23456:0crwdne23456:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_selSC" approved="yes">
+      <trans-unit id="shortcut_selSC">
         <source>Select shortcut</source>
-        <target state="translated">Verweis auswählen</target>
+        <target>crwdns23458:0crwdne23458:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_delAllInCat" approved="yes">
+      <trans-unit id="shortcut_delAllInCat">
         <source>Delete all shortcuts in this group?</source>
-        <target state="translated">Alle Verweise in dieser Gruppe löschen?</target>
+        <target>crwdns23460:0crwdne23460:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_onlineWS" approved="yes">
+      <trans-unit id="shortcut_onlineWS">
         <source>LIVE workspace</source>
-        <target state="translated">LIVE-Arbeitsumgebung</target>
+        <target>crwdns23462:0crwdne23462:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_active" approved="yes">
+      <trans-unit id="shortcut_active">
         <source>active</source>
-        <target state="translated">aktiv</target>
+        <target>crwdns23464:0crwdne23464:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_inactive" approved="yes">
+      <trans-unit id="shortcut_inactive">
         <source>inactive</source>
-        <target state="translated">inaktiv</target>
+        <target>crwdns23466:0crwdne23466:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_noWSfound" approved="yes">
+      <trans-unit id="shortcut_noWSfound">
         <source>ERROR: No workspaces found!</source>
-        <target state="translated">FEHLER: Keine Arbeitsumgebungen gefunden!</target>
+        <target>crwdns23468:0crwdne23468:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_FEPreview" approved="yes">
+      <trans-unit id="shortcut_FEPreview">
         <source>Enable Frontend Preview</source>
-        <target state="translated">Vorschau im Frontend aktivieren</target>
+        <target>crwdns23470:0crwdne23470:0</target>
       </trans-unit>
-      <trans-unit id="shortcut_workspace" approved="yes">
+      <trans-unit id="shortcut_workspace">
         <source>Go to Workspace Module</source>
-        <target state="translated">Modul Arbeitsumgebungen aufrufen</target>
+        <target>crwdns23472:0crwdne23472:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_description" approved="yes">
+      <trans-unit id="bookmark_description">
         <source>This is the bookmarks menu. You do not have any bookmarks added yet, you can do so by clicking the bookmark icon %s, which you can find on each page in the backend.</source>
-        <target state="translated">Dieses Menü zeigt von Ihnen angelegte Lesezeichen an. Sie haben noch keine Lesezeichen hinzugefügt, können das aber mit einem Mausklick auf das Lesezeichensymbol %s tun, das auf jeder Seite des Backends vorhanden ist.</target>
+        <target>crwdns23474:0%scrwdne23474:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_edit" approved="yes">
+      <trans-unit id="bookmark_edit">
         <source>Edit</source>
-        <target state="translated">Bearbeiten</target>
+        <target>crwdns23476:0crwdne23476:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_create" approved="yes">
+      <trans-unit id="bookmark_create">
         <source>Create</source>
-        <target state="translated">Erstellen</target>
+        <target>crwdns23478:0crwdne23478:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_editID" approved="yes">
+      <trans-unit id="bookmark_editID">
         <source>Edit/Search</source>
-        <target state="translated">Bearbeiten/Suchen</target>
+        <target>crwdns23480:0crwdne23480:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_save" approved="yes">
+      <trans-unit id="bookmark_save">
         <source>Update bookmark title</source>
-        <target state="translated">Lesezeichentitel aktualisieren</target>
+        <target>crwdns23482:0crwdne23482:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_saveClose" approved="yes">
+      <trans-unit id="bookmark_saveClose">
         <source>Update and close editor</source>
-        <target state="translated">Aktualisieren und Editor schließen</target>
+        <target>crwdns23484:0crwdne23484:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_close" approved="yes">
+      <trans-unit id="bookmark_close">
         <source>Close bookmark editor</source>
-        <target state="translated">Lesezeicheneditor schließen</target>
+        <target>crwdns23486:0crwdne23486:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_delete" approved="yes">
+      <trans-unit id="bookmark_delete">
         <source>Remove bookmark</source>
-        <target state="translated">Lesezeichen entfernen</target>
+        <target>crwdns23488:0crwdne23488:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_loadEdit" approved="yes">
+      <trans-unit id="bookmark_loadEdit">
         <source>Loading page</source>
-        <target state="translated">Seite wird geladen</target>
+        <target>crwdns23490:0crwdne23490:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_searchFor" approved="yes">
+      <trans-unit id="bookmark_searchFor">
         <source>Search for</source>
-        <target state="translated">Suchen nach</target>
+        <target>crwdns23492:0crwdne23492:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_notEditable" approved="yes">
+      <trans-unit id="bookmark_notEditable">
         <source>No editable page found!</source>
-        <target state="translated">Keine Seite zur Bearbeitung gefunden!</target>
+        <target>crwdns23494:0crwdne23494:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_group" approved="yes">
+      <trans-unit id="bookmark_group">
         <source>Group</source>
-        <target state="translated">Gruppe</target>
+        <target>crwdns23496:0crwdne23496:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_group_1" approved="yes">
+      <trans-unit id="bookmark_group_1">
         <source>Pages</source>
-        <target state="translated">Seiten</target>
+        <target>crwdns23498:0crwdne23498:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_group_2" approved="yes">
+      <trans-unit id="bookmark_group_2">
         <source>Records</source>
-        <target state="translated">Datensätze</target>
+        <target>crwdns23500:0crwdne23500:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_group_3" approved="yes">
+      <trans-unit id="bookmark_group_3">
         <source>Files</source>
-        <target state="translated">Dateien</target>
+        <target>crwdns23502:0crwdne23502:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_group_4" approved="yes">
+      <trans-unit id="bookmark_group_4">
         <source>Tools</source>
-        <target state="translated">Werkzeuge</target>
+        <target>crwdns23504:0crwdne23504:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_group_5" approved="yes">
+      <trans-unit id="bookmark_group_5">
         <source>Miscellaneous</source>
-        <target state="translated">Verschiedenes</target>
+        <target>crwdns23506:0crwdne23506:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_all" approved="yes">
+      <trans-unit id="bookmark_global">
+        <source>Global</source>
+        <target>crwdns23508:0crwdne23508:0</target>
+      </trans-unit>
+      <trans-unit id="bookmark_all">
         <source>All</source>
-        <target state="translated">Alle</target>
+        <target>crwdns23510:0crwdne23510:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_onlyAdmin" approved="yes">
+      <trans-unit id="bookmark_onlyAdmin">
         <source>You cannot edit a shared bookmark!</source>
-        <target state="translated">Sie können keine gemeinsamen Lesezeichen bearbeiten!</target>
+        <target>crwdns23512:0crwdne23512:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_selSC" approved="yes">
+      <trans-unit id="bookmark_selSC">
         <source>Select bookmark</source>
-        <target state="translated">Lesezeichen auswählen</target>
+        <target>crwdns23514:0crwdne23514:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_delAllInCat" approved="yes">
+      <trans-unit id="bookmark_delAllInCat">
         <source>Delete all bookmarks in this group</source>
-        <target state="translated">Alle Lesezeichen in dieser Gruppe löschen</target>
+        <target>crwdns23516:0crwdne23516:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_onlineWS" approved="yes">
+      <trans-unit id="bookmark_onlineWS">
         <source>LIVE workspace</source>
-        <target state="translated">LIVE-Arbeitsumgebung</target>
+        <target>crwdns23518:0crwdne23518:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_active" approved="yes">
+      <trans-unit id="bookmark_active">
         <source>active</source>
-        <target state="translated">aktiv</target>
+        <target>crwdns23520:0crwdne23520:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_inactive" approved="yes">
+      <trans-unit id="bookmark_inactive">
         <source>inactive</source>
-        <target state="translated">inaktiv</target>
+        <target>crwdns23522:0crwdne23522:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_noWSfound" approved="yes">
+      <trans-unit id="bookmark_noWSfound">
         <source>ERROR: No workspaces found!</source>
-        <target state="translated">FEHLER: Keine Arbeitsumgebungen gefunden!</target>
+        <target>crwdns23524:0crwdne23524:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_FEPreview" approved="yes">
+      <trans-unit id="bookmark_FEPreview">
         <source>Enable Frontend Preview</source>
-        <target state="translated">Vorschau im Frontend aktivieren</target>
+        <target>crwdns23526:0crwdne23526:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_workspaceComparisonView" approved="yes">
+      <trans-unit id="bookmark_workspaceComparisonView">
         <source>Enable comparison view</source>
-        <target state="translated">Vergleichsansicht aktivieren</target>
+        <target>crwdns23528:0crwdne23528:0</target>
       </trans-unit>
-      <trans-unit id="bookmark_workspace" approved="yes">
+      <trans-unit id="bookmark_workspace">
         <source>Go to Workspace Module</source>
-        <target state="translated">Modul Arbeitsumgebungen aufrufen</target>
+        <target>crwdns23530:0crwdne23530:0</target>
       </trans-unit>
-      <trans-unit id="overwriteExistingFiles" approved="yes">
+      <trans-unit id="overwriteExistingFiles">
         <source>Overwrite existing files</source>
-        <target state="translated">Vorhandene Dateien überschreiben</target>
+        <target>crwdns23532:0crwdne23532:0</target>
       </trans-unit>
-      <trans-unit id="uploadMultipleFilesInfo" approved="yes">
+      <trans-unit id="uploadMultipleFilesInfo">
         <source>Upload multiple files by holding the Shift or CTRL-file pressed while selecting your files (works on modern browsers only).</source>
-        <target state="translated">Um mehrere Dateien hochzuladen kann die Hochstell- oder Strg-Taste gedrückt gehalten werden, während die Dateien ausgesucht werden (funktioniert nur in aktuellen Browsern).</target>
+        <target>crwdns23534:0crwdne23534:0</target>
       </trans-unit>
-      <trans-unit id="fileMetaDataLocation" approved="yes">
+      <trans-unit id="fileMetaDataLocation">
         <source>Location</source>
-        <target state="translated">Ort</target>
+        <target>crwdns23536:0crwdne23536:0</target>
       </trans-unit>
-      <trans-unit id="fileMetaErrorInvalidRecord" approved="yes">
+      <trans-unit id="fileMetaErrorInvalidRecord">
         <source>File meta data not found</source>
-        <target state="translated">Meta-Daten der Datei nicht gefunden</target>
+        <target>crwdns23538:0crwdne23538:0</target>
       </trans-unit>
-      <trans-unit id="selectPosition" approved="yes">
+      <trans-unit id="selectPosition">
         <source>Select a position for the new page</source>
-        <target state="translated">Position für neue Seite auswählen</target>
+        <target>crwdns23540:0crwdne23540:0</target>
       </trans-unit>
-      <trans-unit id="pageSelectPosition" approved="yes">
+      <trans-unit id="pageSelectPosition">
         <source>Page (select position)</source>
-        <target state="translated">Seite (Position auswählen)</target>
+        <target>crwdns23542:0crwdne23542:0</target>
       </trans-unit>
-      <trans-unit id="goBack" approved="yes">
+      <trans-unit id="goBack">
         <source>Go back</source>
-        <target state="translated">Zurück</target>
+        <target>crwdns23544:0crwdne23544:0</target>
       </trans-unit>
-      <trans-unit id="createNewPage" approved="yes">
+      <trans-unit id="createNewPage">
         <source>Create a new page</source>
-        <target state="translated">Neue Seite erstellen</target>
+        <target>crwdns23546:0crwdne23546:0</target>
       </trans-unit>
-      <trans-unit id="createNewContent" approved="yes">
+      <trans-unit id="createNewContent">
         <source>Create a new content element</source>
-        <target state="translated">Neues Inhaltselement erstellen</target>
+        <target>crwdns23548:0crwdne23548:0</target>
       </trans-unit>
-      <trans-unit id="clickForWizard" approved="yes">
+      <trans-unit id="clickForWizard">
         <source>Click here for wizard!</source>
-        <target state="translated">Zum Aufrufen des Assistenten hier klicken!</target>
+        <target>crwdns23550:0crwdne23550:0</target>
       </trans-unit>
-      <trans-unit id="insertNewPageHere" approved="yes">
+      <trans-unit id="insertNewPageHere">
         <source>Insert the new page here</source>
-        <target state="translated">Neue Seite hier einfügen</target>
+        <target>crwdns23552:0crwdne23552:0</target>
       </trans-unit>
-      <trans-unit id="insertNewRecordHere" approved="yes">
+      <trans-unit id="insertNewRecordHere">
         <source>Insert new record here</source>
-        <target state="translated">Neuen Datensatz hier einfügen</target>
+        <target>crwdns23554:0crwdne23554:0</target>
       </trans-unit>
-      <trans-unit id="movePageToHere" approved="yes">
+      <trans-unit id="movePageToHere">
         <source>Move page to this position</source>
-        <target state="translated">Seite an diese Position verschieben</target>
+        <target>crwdns23556:0crwdne23556:0</target>
       </trans-unit>
-      <trans-unit id="moveElement" approved="yes">
+      <trans-unit id="moveElement">
         <source>Move element</source>
-        <target state="translated">Element verschieben</target>
+        <target>crwdns23558:0crwdne23558:0</target>
       </trans-unit>
-      <trans-unit id="moveElements" approved="yes">
+      <trans-unit id="moveElements">
         <source>Move elements</source>
-        <target state="translated">Elemente verschieben</target>
+        <target>crwdns23560:0crwdne23560:0</target>
       </trans-unit>
-      <trans-unit id="copyElements" approved="yes">
+      <trans-unit id="copyElements">
         <source>Copy elements</source>
-        <target state="translated">Elemente kopieren</target>
+        <target>crwdns23562:0crwdne23562:0</target>
       </trans-unit>
-      <trans-unit id="selectPositionOfElement" approved="yes">
+      <trans-unit id="selectPositionOfElement">
         <source>Select position of the element</source>
-        <target state="translated">Position für das Element auswählen</target>
+        <target>crwdns23564:0crwdne23564:0</target>
       </trans-unit>
-      <trans-unit id="movingElement" approved="yes">
+      <trans-unit id="movingElement">
         <source>Move element</source>
-        <target state="translated">Element verschieben</target>
+        <target>crwdns23566:0crwdne23566:0</target>
       </trans-unit>
-      <trans-unit id="makeCopy" approved="yes">
+      <trans-unit id="makeCopy">
         <source>Make copy instead of moving element</source>
-        <target state="translated">Kopieren statt Verschieben</target>
+        <target>crwdns23568:0crwdne23568:0</target>
       </trans-unit>
-      <trans-unit id="newContentElement" approved="yes">
+      <trans-unit id="newContentElement">
         <source>New content element</source>
-        <target state="translated">Neues Inhaltselement</target>
+        <target>crwdns23570:0crwdne23570:0</target>
       </trans-unit>
-      <trans-unit id="system_records" approved="yes">
+      <trans-unit id="system_records">
         <source>System Records</source>
-        <target state="translated">Systemdatensätze</target>
+        <target>crwdns23572:0crwdne23572:0</target>
       </trans-unit>
-      <trans-unit id="1_selectType" approved="yes">
+      <trans-unit id="1_selectType">
         <source>First select the type of the new content element</source>
-        <target state="translated">1: Typ des Inhaltselements auswählen</target>
+        <target>crwdns23574:0crwdne23574:0</target>
       </trans-unit>
-      <trans-unit id="2_selectPosition" approved="yes">
+      <trans-unit id="2_selectPosition">
         <source>Now click on the position of the new content element</source>
-        <target state="translated">2: Position auswählen</target>
+        <target>crwdns23576:0crwdne23576:0</target>
       </trans-unit>
-      <trans-unit id="CM_history" approved="yes">
+      <trans-unit id="CM_history">
         <source>History/Undo</source>
-        <target state="translated">Verlauf/Rückgängig</target>
+        <target>crwdns23578:0crwdne23578:0</target>
       </trans-unit>
-      <trans-unit id="CM_perms" approved="yes">
+      <trans-unit id="CM_perms">
         <source>Access</source>
-        <target state="translated">Zugriff</target>
+        <target>crwdns23580:0crwdne23580:0</target>
       </trans-unit>
-      <trans-unit id="CM_moveWizard" approved="yes">
+      <trans-unit id="CM_moveWizard">
         <source>Move element</source>
-        <target state="translated">Element verschieben</target>
+        <target>crwdns23582:0crwdne23582:0</target>
       </trans-unit>
-      <trans-unit id="CM_moveWizard_page" approved="yes">
+      <trans-unit id="CM_moveWizard_page">
         <source>Move page</source>
-        <target state="translated">Seite verschieben</target>
+        <target>crwdns23584:0crwdne23584:0</target>
       </trans-unit>
-      <trans-unit id="CM_newWizard" approved="yes">
+      <trans-unit id="CM_newWizard">
         <source>'Create New' wizard</source>
-        <target state="translated">"Neu erstellen"-Assistent</target>
+        <target>crwdns23586:0crwdne23586:0</target>
       </trans-unit>
-      <trans-unit id="CM_editPageProperties" approved="yes">
+      <trans-unit id="CM_editPageProperties">
         <source>Edit page properties</source>
-        <target state="translated">Seiteneigenschaften bearbeiten</target>
+        <target>crwdns23588:0crwdne23588:0</target>
       </trans-unit>
-      <trans-unit id="CM_db_list" approved="yes">
+      <trans-unit id="CM_db_list">
         <source>Web&gt;List module</source>
-        <target state="translated">Web &gt; Liste</target>
+        <target>crwdns23590:0crwdne23590:0</target>
       </trans-unit>
-      <trans-unit id="noEditPage" approved="yes">
+      <trans-unit id="noEditPage">
         <source>You asked to edit page "%s" but you cannot edit this page. Now loading backend as usual.</source>
-        <target state="translated">Sie möchten die Seite "%s" bearbeiten, dies ist jedoch nicht möglich. Das Backend wird wie gewöhnlich geladen.</target>
+        <target>crwdns23592:0%scrwdne23592:0</target>
       </trans-unit>
-      <trans-unit id="localize" approved="yes">
+      <trans-unit id="localize">
         <source>Localize</source>
-        <target state="translated">Lokalisieren</target>
+        <target>crwdns23594:0crwdne23594:0</target>
       </trans-unit>
-      <trans-unit id="localize.isLocalizable" approved="yes">
+      <trans-unit id="localize.isLocalizable">
         <source>Record can be localized</source>
-        <target state="translated">Datensatz kann lokalisiert werden</target>
+        <target>crwdns23596:0crwdne23596:0</target>
       </trans-unit>
-      <trans-unit id="localize.wasRemovedInOriginal" approved="yes">
+      <trans-unit id="localize.wasRemovedInOriginal">
         <source>Record was removed in original language</source>
-        <target state="translated">Datensatz der Ursprungssprache wurde entfernt</target>
+        <target>crwdns23598:0crwdne23598:0</target>
       </trans-unit>
-      <trans-unit id="localizeAllRecords" approved="yes">
+      <trans-unit id="localizeAllRecords">
         <source>Localize all records</source>
-        <target state="translated">Alle Datensätze lokalisieren</target>
+        <target>crwdns23600:0crwdne23600:0</target>
       </trans-unit>
-      <trans-unit id="synchronizeWithOriginalLanguage" approved="yes">
+      <trans-unit id="synchronizeWithOriginalLanguage">
         <source>Synchronize with original language</source>
-        <target state="translated">Mit Ursprungssprache synchronisieren</target>
+        <target>crwdns23602:0crwdne23602:0</target>
       </trans-unit>
-      <trans-unit id="switchtouser" approved="yes">
+      <trans-unit id="pageTree_filter">
+        <source>Filter</source>
+        <target>crwdns23604:0crwdne23604:0</target>
+      </trans-unit>
+      <trans-unit id="switchtouser">
         <source>Switch to User</source>
-        <target state="translated">Umschalten zu Benutzer</target>
+        <target>crwdns23606:0crwdne23606:0</target>
       </trans-unit>
-      <trans-unit id="switchtousershort" approved="yes">
+      <trans-unit id="switchtousershort">
         <source>SU</source>
-        <target state="translated">BW</target>
+        <target>crwdns23608:0crwdne23608:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_windowTitle" approved="yes">
+      <trans-unit id="fileUpload_windowTitle">
         <source>File Upload Progress</source>
-        <target state="translated">Hochladen von Dateien</target>
+        <target>crwdns23610:0crwdne23610:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_buttonSelectFiles" approved="yes">
+      <trans-unit id="fileUpload_buttonSelectFiles">
         <source>Select Files</source>
-        <target state="translated">Dateien auswählen</target>
+        <target>crwdns23612:0crwdne23612:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_buttonCancelAll" approved="yes">
+      <trans-unit id="fileUpload_buttonCancelAll">
         <source>Cancel All Uploads</source>
-        <target state="translated">Alle Übertragungen abbrechen</target>
+        <target>crwdns23614:0crwdne23614:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_infoComponentMaxFileSize" approved="yes">
+      <trans-unit id="fileUpload_infoComponentMaxFileSize">
         <source>You can upload files with a maximum size of {0}.</source>
-        <target state="translated">Es können Dateien bis zu einer Größe von {0} hochgeladen werden.</target>
+        <target>crwdns23616:0{0}crwdne23616:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_infoComponentFileUploadLimit" approved="yes">
+      <trans-unit id="fileUpload_infoComponentFileUploadLimit">
         <source>You can upload a total of {0}.</source>
-        <target state="translated">Es können insgesamt {0} hochgeladen werden.</target>
+        <target>crwdns23618:0{0}crwdne23618:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_infoComponentFileTypeLimit" approved="yes">
+      <trans-unit id="fileUpload_infoComponentFileTypeLimit">
         <source>You can upload the following file types {0}.</source>
-        <target state="translated">Es können folgende Dateitypen hochgeladen werden {0},</target>
+        <target>crwdns23620:0{0}crwdne23620:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_infoComponentOverrideFiles" approved="yes">
+      <trans-unit id="fileUpload_infoComponentOverrideFiles">
         <source>Overwrite existing files</source>
-        <target state="translated">Vorhandene Dateien überschreiben</target>
+        <target>crwdns23622:0crwdne23622:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_processRunning" approved="yes">
+      <trans-unit id="fileUpload_processRunning">
         <source>Another process is already uploading</source>
-        <target state="translated">Es läuft bereits ein anderer Hochladevorgang</target>
+        <target>crwdns23624:0crwdne23624:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_uploadWait" approved="yes">
+      <trans-unit id="fileUpload_uploadWait">
         <source>Waiting to start upload of {0}</source>
-        <target state="translated">Warten auf Hochladen von {0}</target>
+        <target>crwdns23626:0{0}crwdne23626:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_uploadStarting" approved="yes">
+      <trans-unit id="fileUpload_uploadStarting">
         <source>Starting upload of {0}</source>
-        <target state="translated">Starten des Hochladens von {0}</target>
+        <target>crwdns23628:0{0}crwdne23628:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_uploadProgress" approved="yes">
+      <trans-unit id="fileUpload_uploadProgress">
         <source>{0}% of {1} uploaded</source>
-        <target state="translated">{0}% von {1} hochgeladen</target>
+        <target>crwdns23630:0{0}crwdnd23630:0{1}crwdne23630:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_uploadSuccess" approved="yes">
+      <trans-unit id="fileUpload_uploadSuccess">
         <source>{0} was successfully uploaded!</source>
-        <target state="translated">{0} erfolgreich hochgeladen!</target>
+        <target>crwdns23632:0{0}crwdne23632:0</target>
       </trans-unit>
-      <trans-unit id="pagetree_networkErrorTitle" approved="yes">
+      <trans-unit id="pagetree_networkErrorTitle">
         <source>Page tree error</source>
-        <target state="translated">Seitenbaumfehler</target>
+        <target>crwdns23634:0crwdne23634:0</target>
       </trans-unit>
-      <trans-unit id="pagetree_networkErrorDesc" approved="yes">
+      <trans-unit id="pagetree_networkErrorDesc">
         <source>Got unexpected response from the server. Please check logs for details.</source>
-        <target state="translated">Unerwartete Antwort vom Server erhalten. Bitte überprüfen Sie die Protokolle für mehr Details.</target>
+        <target>crwdns23636:0crwdne23636:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_errorQueueLimitExceeded" approved="yes">
+      <trans-unit id="fileUpload_errorQueueLimitExceeded">
         <source>Too many files selected</source>
-        <target state="translated">Zu viele Dateien ausgewählt</target>
+        <target>crwdns23638:0crwdne23638:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_errorQueueFileSizeLimit" approved="yes">
+      <trans-unit id="fileUpload_errorQueueFileSizeLimit">
         <source>{0} is too big</source>
-        <target state="translated">{0} ist zu groß</target>
+        <target>crwdns23640:0{0}crwdne23640:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_errorQueueZeroByteFile" approved="yes">
+      <trans-unit id="fileUpload_errorQueueZeroByteFile">
         <source>{0} is empty</source>
-        <target state="translated">{0} ist leer</target>
+        <target>crwdns23642:0{0}crwdne23642:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_errorQueueInvalidFiletype" approved="yes">
+      <trans-unit id="fileUpload_errorQueueInvalidFiletype">
         <source>Filetype not allowed for {0}</source>
-        <target state="translated">Dateityp nicht erlaubt bei {0}</target>
+        <target>crwdns23644:0{0}crwdne23644:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_errorUploadHttp" approved="yes">
+      <trans-unit id="fileUpload_errorUploadHttp">
         <source>Too many files selected</source>
-        <target state="translated">Zu viele Dateien ausgewählt</target>
+        <target>crwdns23646:0crwdne23646:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_errorUploadHttpError" approved="yes">
+      <trans-unit id="fileUpload_errorUploadHttpError">
         <source>A HTTP error occurred: {0}</source>
-        <target state="translated">HTTP-Fehler aufgetreten: {0}</target>
+        <target>crwdns23648:0{0}crwdne23648:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_errorUploadMissingUrl" approved="yes">
+      <trans-unit id="fileUpload_errorUploadMissingUrl">
         <source>Internal error: No Upload URL set</source>
-        <target state="translated">Interner Fehler: Keine Hochlade-URL festgelegt</target>
+        <target>crwdns23650:0crwdne23650:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_errorUploadIO" approved="yes">
+      <trans-unit id="fileUpload_errorUploadIO">
         <source>Internal error: Problems while reading/writing the file</source>
-        <target state="translated">Interner Fehler: Fehler beim Lesen/Schreiben der Datei</target>
+        <target>crwdns23652:0crwdne23652:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_errorUploadSecurityError" approved="yes">
+      <trans-unit id="fileUpload_errorUploadSecurityError">
         <source>Internal error: {0}</source>
-        <target state="translated">Interner Fehler: {0}</target>
+        <target>crwdns23654:0{0}crwdne23654:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_errorUploadLimit" approved="yes">
+      <trans-unit id="fileUpload_errorUploadLimit">
         <source>Upload limit exceeded</source>
-        <target state="translated">Höchstwert für Hochladen überschritten</target>
+        <target>crwdns23656:0crwdne23656:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_errorUploadFailed" approved="yes">
+      <trans-unit id="fileUpload_errorUploadFailed">
         <source>Upload failed</source>
-        <target state="translated">Hochladen fehlgeschlagen</target>
+        <target>crwdns23658:0crwdne23658:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_errorUploadFileIDNotFound" approved="yes">
+      <trans-unit id="fileUpload_errorUploadFileIDNotFound">
         <source>Internal error: File ID not found</source>
-        <target state="translated">Interner Fehler: Datei-ID nicht gefunden</target>
+        <target>crwdns23660:0crwdne23660:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_errorUploadFileValidation" approved="yes">
+      <trans-unit id="fileUpload_errorUploadFileValidation">
         <source>Internal error while validating the file</source>
-        <target state="translated">Interner Fehler beim Validieren der Datei</target>
+        <target>crwdns23662:0crwdne23662:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_errorUploadFileCancelled" approved="yes">
+      <trans-unit id="fileUpload_errorUploadFileCancelled">
         <source>Upload of {0} canceled</source>
-        <target state="translated">Hochladen von {0} abgebrochen</target>
+        <target>crwdns23664:0{0}crwdne23664:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_errorUploadStopped" approved="yes">
+      <trans-unit id="fileUpload_errorUploadStopped">
         <source>Upload of {0} stopped</source>
-        <target state="translated">Hochladen von {0} angehalten</target>
+        <target>crwdns23666:0{0}crwdne23666:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_allErrorMessageTitle" approved="yes">
+      <trans-unit id="fileUpload_allErrorMessageTitle">
         <source>All uploads failed</source>
-        <target state="translated">Hochladen aller Dateien fehlgeschlagen</target>
+        <target>crwdns23668:0crwdne23668:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_allErrorMessageText" approved="yes">
+      <trans-unit id="fileUpload_allErrorMessageText">
         <source>All of your uploads failed.&lt;br /&gt;&lt;br /&gt;If this problem persists, please try another browser, contact your administrator or disable this "Flash Uploader" in your User Settings.&lt;br /&gt;&lt;br /&gt;Detailed problem description:&lt;br /&gt;</source>
-        <target state="translated">Keiner der Hochladevorgänge konnte abgeschlossen werden.&lt;br /&gt;&lt;br /&gt;Falls dieses Problem weiterhin besteht, benutzen Sie bitte einen anderen Browser, kontaktieren Ihren Administrator oder deaktivieren die Option "Flash-Schnittstelle zum Hochladen" in den Benutzereinstellungen.&lt;br /&gt;&lt;br /&gt;Problembeschreibung:&lt;br /&gt;</target>
+        <target>crwdns23670:0crwdne23670:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_allError401" approved="yes">
+      <trans-unit id="fileUpload_allError401">
         <source>The server returned the status code 401, which is related to a .htaccess file used for password protection on your server. Unfortunately this can not be handled by your browser's Flash plugin.</source>
-        <target state="translated">Der Server lieferte Statuscode 401 zurück. Dies ist häufig auf einen .htaccess Passwortschutz zurückzuführen. Leider wird dies von dem von Ihnen verwendeten Flash-Plugin nicht unterstützt.</target>
+        <target>crwdns23672:0crwdne23672:0</target>
       </trans-unit>
-      <trans-unit id="fileUpload_allError2038" approved="yes">
+      <trans-unit id="fileUpload_allError2038">
         <source>An input/output error occurred (Error #2038). This i.e. happens with servers using a self-signed SSL certificate, which is a limitation of your browser's Flash plugin.</source>
-        <target state="translated">Ein Lese-/Schreibfehler ist aufgetreten (Fehler #2038). Dies ist häufig auf ein selbstsigniertes SSL-Zertifikat zurückzuführen. Leider wird dies von dem von Ihnen verwendeten Flash-Plug-In nicht unterstützt.</target>
+        <target>crwdns23674:0crwdne23674:0</target>
       </trans-unit>
-      <trans-unit id="liveSearch_title" approved="yes">
+      <trans-unit id="liveSearch_title">
         <source>Short result list</source>
-        <target state="translated">Kurze Liste der Ergebnisse</target>
+        <target>crwdns23676:0crwdne23676:0</target>
       </trans-unit>
-      <trans-unit id="liveSearch_emptyText" approved="yes">
+      <trans-unit id="liveSearch_emptyText">
         <source>Enter search term</source>
-        <target state="translated">Suchbegriff eingeben</target>
+        <target>crwdns23678:0crwdne23678:0</target>
       </trans-unit>
-      <trans-unit id="liveSearch_loadingText" approved="yes">
+      <trans-unit id="liveSearch_loadingText">
         <source>Searching...</source>
-        <target state="translated">Suche läuft...</target>
+        <target>crwdns23680:0crwdne23680:0</target>
       </trans-unit>
-      <trans-unit id="liveSearch_listEmptyText" approved="yes">
+      <trans-unit id="liveSearch_listEmptyText">
         <source>No results found.</source>
-        <target state="translated">Keine Ergebnisse gefunden.</target>
+        <target>crwdns23682:0crwdne23682:0</target>
       </trans-unit>
-      <trans-unit id="liveSearch_showAllResults" approved="yes">
+      <trans-unit id="liveSearch_showAllResults">
         <source>Show All</source>
-        <target state="translated">Alle anzeigen</target>
+        <target>crwdns23684:0crwdne23684:0</target>
       </trans-unit>
-      <trans-unit id="liveSearch_helpTitle" approved="yes">
+      <trans-unit id="liveSearch_helpTitle">
         <source>How to use advanced search tags</source>
-        <target state="translated">Zur Benutzung von Suchpräfixen</target>
+        <target>crwdns23686:0crwdne23686:0</target>
       </trans-unit>
-      <trans-unit id="liveSearch_helpDescription" approved="yes">
+      <trans-unit id="liveSearch_helpDescription">
         <source>Search in certain tables</source>
-        <target state="translated">In ausgewählten Tabellen suchen</target>
+        <target>crwdns23688:0crwdne23688:0</target>
       </trans-unit>
-      <trans-unit id="liveSearch_helpDescriptionPages" approved="yes">
+      <trans-unit id="liveSearch_helpDescriptionPages">
         <source>#page:Home will search for all pages with the title "Home"</source>
-        <target state="translated">#page:Home sucht nach allen Seiten mit dem Titel "Home".</target>
+        <target>crwdns23690:0crwdne23690:0</target>
       </trans-unit>
-      <trans-unit id="viewPort_tooltipModuleMenuSplit" approved="yes">
+      <trans-unit id="viewPort_tooltipModuleMenuSplit">
         <source>Drag to resize the Modules Menu</source>
-        <target state="translated">Ziehen Sie hier, um die Größe des Modulmenüs zu ändern</target>
+        <target>crwdns23692:0crwdne23692:0</target>
       </trans-unit>
-      <trans-unit id="viewPort_tooltipNavigationContainerSplitDrag" approved="yes">
+      <trans-unit id="viewPort_tooltipNavigationContainerSplitDrag">
         <source>Drag to resize or double click to collapse the page tree area</source>
-        <target state="translated">Ziehen Sie hier, um die Größe zu ändern oder doppelklicken Sie, um den Seitenbaum einzuklappen</target>
+        <target>crwdns23694:0crwdne23694:0</target>
       </trans-unit>
-      <trans-unit id="viewPort_tooltipNavigationContainerSplitClick" approved="yes">
+      <trans-unit id="viewPort_tooltipNavigationContainerSplitClick">
         <source>Click to toggle the page tree area</source>
-        <target state="translated">Klicken Sie hier, um den Seitenbaum umzuschalten</target>
+        <target>crwdns23696:0crwdne23696:0</target>
       </trans-unit>
-      <trans-unit id="viewPort_tooltipDebugPanelSplitDrag" approved="yes">
+      <trans-unit id="viewPort_tooltipDebugPanelSplitDrag">
         <source>Drag to resize or click to collapse the Debug Panel.</source>
-        <target state="translated">Ziehen Sie hier, um die Größe zu ändern oder klicken Sie, um das Debug-Panel zuzuklappen</target>
+        <target>crwdns23698:0crwdne23698:0</target>
       </trans-unit>
     </body>
   </file>
