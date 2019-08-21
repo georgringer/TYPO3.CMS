@@ -1,35 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415814823" source-language="en" datatype="plaintext" original="messages" date="2012-03-30T23:43:57Z" product-name="fluid" target-language="de">
+  <file t3:id="1415814823" source-language="en" datatype="plaintext" original="messages" date="2012-03-30T23:43:57Z" product-name="fluid" target-language="de-AT">
     <header/>
     <body>
-      <trans-unit id="widget.pagination.previous" approved="yes">
+      <trans-unit id="widget.pagination.previous">
         <source>previous</source>
-        <target state="translated">vorherige</target>
+        <target>crwdns25492:0crwdne25492:0</target>
       </trans-unit>
-      <trans-unit id="widget.pagination.next" approved="yes">
+      <trans-unit id="widget.pagination.next">
         <source>next</source>
-        <target state="translated">nächste</target>
+        <target>crwdns25494:0crwdne25494:0</target>
       </trans-unit>
-      <trans-unit id="widget.pagination.first" approved="yes">
+      <trans-unit id="widget.pagination.first">
         <source>first</source>
-        <target state="translated">erste</target>
+        <target>crwdns25496:0crwdne25496:0</target>
       </trans-unit>
-      <trans-unit id="widget.pagination.last" approved="yes">
+      <trans-unit id="widget.pagination.last">
         <source>last</source>
-        <target state="translated">letzte</target>
+        <target>crwdns25498:0crwdne25498:0</target>
       </trans-unit>
-      <trans-unit id="widget.pagination.records" approved="yes">
+      <trans-unit id="widget.pagination.records">
         <source>Records</source>
-        <target state="translated">Datensätze</target>
+        <target>crwdns25500:0crwdne25500:0</target>
       </trans-unit>
-      <trans-unit id="widget.pagination.page" approved="yes">
+      <trans-unit id="widget.pagination.page">
         <source>Page</source>
-        <target state="translated">Seite</target>
+        <target>crwdns25502:0crwdne25502:0</target>
       </trans-unit>
-      <trans-unit id="widget.pagination.refresh" approved="yes">
+      <trans-unit id="widget.pagination.refresh">
         <source>Refresh</source>
-        <target state="translated">Aktualisieren</target>
+        <target>crwdns25504:0crwdne25504:0</target>
+      </trans-unit>
+      <trans-unit id="viewhelper.format.bytes.units">
+        <source>B,KB,MB,GB,TB,PB,EB,ZB,YB</source>
+        <target>crwdns25506:0crwdne25506:0</target>
       </trans-unit>
     </body>
   </file>
