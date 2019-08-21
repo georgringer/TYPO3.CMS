@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1424776442" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:35Z" product-name="recycler" target-language="de-AT">
+    <header/>
+    <body>
+      <trans-unit id="cleanerTaskTitle">
+        <source>Remove deleted records</source>
+        <target>crwdns29640:0crwdne29640:0</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskDescription">
+        <source>Deletes rows from the database which are flagged "deleted"</source>
+        <target>crwdns29642:0crwdne29642:0</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskPeriod">
+        <source>Delete entries older than (in days)</source>
+        <target>crwdns29644:0crwdne29644:0</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskTCA">
+        <source>Tables</source>
+        <target>crwdns29646:0crwdne29646:0</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskDescriptionTables">
+        <source>Tables: %s</source>
+        <target>crwdns29648:0%scrwdne29648:0</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskDescriptionDays">
+        <source>Older than %d days(s)</source>
+        <target>crwdns29650:0%dcrwdne29650:0</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskErrorPeriod">
+        <source>The period has to be an integer and greater than zero.</source>
+        <target>crwdns29652:0crwdne29652:0</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskErrorTCAempty">
+        <source>You have to select at least one table.</source>
+        <target>crwdns29654:0crwdne29654:0</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskErrorTCANotSet">
+        <source>The table "%s" is not in the TCA.</source>
+        <target>crwdns29656:0%scrwdne29656:0</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
