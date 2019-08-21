@@ -1,175 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415815006" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="tstemplate" target-language="de">
+  <file t3:id="1415815006" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="tstemplate" target-language="de-AT">
     <header/>
     <body>
-      <trans-unit id="constants" approved="yes">
+      <trans-unit id="constants">
         <source>Constants</source>
-        <target state="translated">Konstanten</target>
+        <target>crwdns44670:0crwdne44670:0</target>
       </trans-unit>
-      <trans-unit id="all" approved="yes">
+      <trans-unit id="setup">
+        <source>Setup</source>
+        <target>crwdns44672:0crwdne44672:0</target>
+      </trans-unit>
+      <trans-unit id="all">
         <source>All</source>
-        <target state="translated">Alle</target>
+        <target>crwdns44674:0crwdne44674:0</target>
       </trans-unit>
-      <trans-unit id="plainSubstitution" approved="yes">
+      <trans-unit id="plainSubstitution">
         <source>Plain substitution (default)</source>
-        <target state="translated">Einfaches Ersetzen (Standard)</target>
+        <target>crwdns44676:0crwdne44676:0</target>
       </trans-unit>
-      <trans-unit id="substitutedGreen" approved="yes">
+      <trans-unit id="substitutedGreen">
         <source>Substituted constants in green</source>
-        <target state="translated">Ersetzte Konstanten in grün</target>
+        <target>crwdns44678:0crwdne44678:0</target>
       </trans-unit>
-      <trans-unit id="unsubstitutedGreen" approved="yes">
+      <trans-unit id="unsubstitutedGreen">
         <source>UN-substituted constants in green</source>
-        <target state="translated">NICHT-ersetzte Konstanten in grün</target>
+        <target>crwdns44680:0crwdne44680:0</target>
       </trans-unit>
-      <trans-unit id="currentTemplate" approved="yes">
+      <trans-unit id="currentTemplate">
         <source>Current template</source>
-        <target state="translated">Aktuelles Template</target>
+        <target>crwdns44682:0crwdne44682:0</target>
       </trans-unit>
-      <trans-unit id="badProperty" approved="yes">
+      <trans-unit id="badProperty">
         <source>Bad property!</source>
-        <target state="translated">Ungültige Eigenschaft!</target>
+        <target>crwdns44684:0crwdne44684:0</target>
       </trans-unit>
-      <trans-unit id="noSpaces" approved="yes">
+      <trans-unit id="noSpaces">
         <source>You must enter a property with characters a-z, A-Z and 0-9, no spaces!</source>
-        <target state="translated">Sie müssen eine Eigenschaft mit folgenden Zeichen eingeben: a-z, A-Z und 0-9, keine Leerzeichen!</target>
+        <target>crwdns44686:0crwdne44686:0</target>
       </trans-unit>
-      <trans-unit id="nothingUpdated" approved="yes">
+      <trans-unit id="nothingUpdated">
         <source>Nothing was updated!</source>
-        <target state="translated">Keine Aktualisierung durchgeführt!</target>
+        <target>crwdns44688:0crwdne44688:0</target>
       </trans-unit>
-      <trans-unit id="propertyAdded" approved="yes">
+      <trans-unit id="propertyAdded">
         <source>Property added</source>
-        <target state="translated">Eigenschaft hinzugefügt</target>
+        <target>crwdns44690:0crwdne44690:0</target>
       </trans-unit>
-      <trans-unit id="valueUpdated" approved="yes">
+      <trans-unit id="valueUpdated">
         <source>Value updated</source>
-        <target state="translated">Wert aktualisiert</target>
+        <target>crwdns44692:0crwdne44692:0</target>
       </trans-unit>
-      <trans-unit id="objectCleared" approved="yes">
+      <trans-unit id="objectCleared">
         <source>Object cleared</source>
-        <target state="translated">Objekt gelöscht</target>
+        <target>crwdns44694:0crwdne44694:0</target>
       </trans-unit>
-      <trans-unit id="updateButton" approved="yes">
+      <trans-unit id="updateButton">
         <source>Update</source>
-        <target state="translated">Aktualisieren</target>
+        <target>crwdns44696:0crwdne44696:0</target>
       </trans-unit>
-      <trans-unit id="editProperty" approved="yes">
+      <trans-unit id="editProperty">
         <source>Edit object/property value</source>
-        <target state="translated">Objekt-/Eigenschaftswert bearbeiten</target>
+        <target>crwdns44698:0crwdne44698:0</target>
       </trans-unit>
-      <trans-unit id="addButton" approved="yes">
+      <trans-unit id="addButton">
         <source>Add</source>
-        <target state="translated">Hinzufügen</target>
+        <target>crwdns44700:0crwdne44700:0</target>
       </trans-unit>
-      <trans-unit id="addProperty" approved="yes">
+      <trans-unit id="addProperty">
         <source>Add object property</source>
-        <target state="translated">Objekteigenschaft hinzufügen</target>
+        <target>crwdns44702:0crwdne44702:0</target>
       </trans-unit>
-      <trans-unit id="clear" approved="yes">
+      <trans-unit id="clear">
         <source>Clear?</source>
-        <target state="translated">Löschen?</target>
+        <target>crwdns44704:0crwdne44704:0</target>
       </trans-unit>
-      <trans-unit id="clearButton" approved="yes">
+      <trans-unit id="clearButton">
         <source>Clear</source>
-        <target state="translated">Löschen</target>
+        <target>crwdns44706:0crwdne44706:0</target>
       </trans-unit>
-      <trans-unit id="clearObject" approved="yes">
+      <trans-unit id="clearObject">
         <source>Clear object</source>
-        <target state="translated">Objekt löschen</target>
+        <target>crwdns44708:0crwdne44708:0</target>
       </trans-unit>
-      <trans-unit id="edit" approved="yes">
+      <trans-unit id="edit">
         <source>Edit</source>
-        <target state="translated">Bearbeiten</target>
+        <target>crwdns44710:0crwdne44710:0</target>
       </trans-unit>
-      <trans-unit id="noCurrentTemplate" approved="yes">
+      <trans-unit id="noCurrentTemplate">
         <source>You cannot edit properties and values, if there's no current template.</source>
-        <target state="translated">Sie können Eigenschaften und Werte nicht bearbeiten, wenn kein Template gewählt ist.</target>
+        <target>crwdns44712:0crwdne44712:0</target>
       </trans-unit>
-      <trans-unit id="addKey" approved="yes">
+      <trans-unit id="addKey">
         <source>Add key "%s" to Object List</source>
-        <target state="translated">Schlüssel "%s" zur Objektliste hinzufügen</target>
+        <target>crwdns44714:0%scrwdne44714:0</target>
       </trans-unit>
-      <trans-unit id="back" approved="yes">
+      <trans-unit id="back">
         <source>Back</source>
-        <target state="translated">Zurück</target>
+        <target>crwdns44716:0crwdne44716:0</target>
       </trans-unit>
-      <trans-unit id="browse" approved="yes">
+      <trans-unit id="browse">
         <source>Browse</source>
-        <target state="translated">Durchsuchen</target>
+        <target>crwdns44718:0crwdne44718:0</target>
       </trans-unit>
-      <trans-unit id="objectList" approved="yes">
+      <trans-unit id="objectList">
         <source>Object List</source>
-        <target state="translated">Objektliste</target>
+        <target>crwdns44720:0crwdne44720:0</target>
       </trans-unit>
-      <trans-unit id="search" approved="yes">
+      <trans-unit id="search">
         <source>Search</source>
-        <target state="translated">Suche</target>
+        <target>crwdns44722:0crwdne44722:0</target>
       </trans-unit>
-      <trans-unit id="regExp" approved="yes">
+      <trans-unit id="regExp">
         <source>Regular expressions</source>
-        <target state="translated">Reguläre Ausdrücke</target>
+        <target>crwdns44724:0crwdne44724:0</target>
       </trans-unit>
-      <trans-unit id="errorsWarnings" approved="yes">
+      <trans-unit id="errorsWarnings">
         <source>Errors and warnings</source>
-        <target state="translated">Fehler und Warnungen</target>
+        <target>crwdns44726:0crwdne44726:0</target>
       </trans-unit>
-      <trans-unit id="errorShowDetails" approved="yes">
+      <trans-unit id="errorShowDetails">
         <source>Show details</source>
-        <target state="translated">Details anzeigen</target>
+        <target>crwdns44728:0crwdne44728:0</target>
       </trans-unit>
-      <trans-unit id="removeKey" approved="yes">
+      <trans-unit id="removeKey">
         <source>Remove key from OL</source>
-        <target state="translated">Schlüssel aus Objektliste entfernen</target>
+        <target>crwdns44730:0crwdne44730:0</target>
       </trans-unit>
-      <trans-unit id="setupRoot" approved="yes">
+      <trans-unit id="setupRoot">
         <source>setup root</source>
-        <target state="translated">Setup-Wurzel</target>
+        <target>crwdns44732:0crwdne44732:0</target>
       </trans-unit>
-      <trans-unit id="constantRoot" approved="yes">
+      <trans-unit id="constantRoot">
         <source>constants root</source>
-        <target state="translated">Konstantenwurzel</target>
+        <target>crwdns44734:0crwdne44734:0</target>
       </trans-unit>
-      <trans-unit id="displayComments" approved="yes">
+      <trans-unit id="displayComments">
         <source>Display comments</source>
-        <target state="translated">Kommentare anzeigen</target>
+        <target>crwdns44736:0crwdne44736:0</target>
       </trans-unit>
-      <trans-unit id="sortAlphabetically" approved="yes">
+      <trans-unit id="sortAlphabetically">
         <source>Sort alphabetically</source>
-        <target state="translated">Alphabetisch sortieren</target>
+        <target>crwdns44738:0crwdne44738:0</target>
       </trans-unit>
-      <trans-unit id="cropLines" approved="yes">
+      <trans-unit id="cropLines">
         <source>Crop lines</source>
-        <target state="translated">Zeilen kappen</target>
+        <target>crwdns44740:0crwdne44740:0</target>
       </trans-unit>
-      <trans-unit id="displayConstants" approved="yes">
+      <trans-unit id="displayConstants">
         <source>Display constants</source>
-        <target state="translated">Konstanten anzeigen</target>
+        <target>crwdns44742:0crwdne44742:0</target>
       </trans-unit>
-      <trans-unit id="displayOptions" approved="yes">
+      <trans-unit id="displayOptions">
         <source>Display options</source>
-        <target state="translated">Optionen anzeigen</target>
+        <target>crwdns44744:0crwdne44744:0</target>
       </trans-unit>
-      <trans-unit id="conditions" approved="yes">
+      <trans-unit id="conditions">
         <source>Conditions</source>
-        <target state="translated">Bedingungen</target>
+        <target>crwdns44746:0crwdne44746:0</target>
       </trans-unit>
-      <trans-unit id="setConditions" approved="yes">
+      <trans-unit id="setConditions">
         <source>Set conditions</source>
-        <target state="translated">Bedingungen setzen</target>
+        <target>crwdns44748:0crwdne44748:0</target>
       </trans-unit>
-      <trans-unit id="severity.2" approved="yes">
+      <trans-unit id="severity.1">
+        <source>Info</source>
+        <target>crwdns44750:0crwdne44750:0</target>
+      </trans-unit>
+      <trans-unit id="severity.2">
         <source>Warning</source>
-        <target state="translated">Warnung</target>
+        <target>crwdns44752:0crwdne44752:0</target>
       </trans-unit>
-      <trans-unit id="severity.3" approved="yes">
+      <trans-unit id="severity.3">
         <source>Error</source>
-        <target state="translated">Fehler</target>
+        <target>crwdns44754:0crwdne44754:0</target>
       </trans-unit>
-      <trans-unit id="error.1446559458" approved="yes">
+      <trans-unit id="error.1446559458">
         <source>Error evaluating regular expression "%s".</source>
-        <target state="translated">Fehler beim Auswerten des regulären Ausdrucks "%s".</target>
+        <target>crwdns44756:0%scrwdne44756:0</target>
       </trans-unit>
     </body>
   </file>
