@@ -1,267 +1,283 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415814894" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="linkvalidator" target-language="de">
+  <file t3:id="1415814894" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="linkvalidator" target-language="de-AT">
     <header/>
     <body>
-      <trans-unit id="linkvalidator" approved="yes">
+      <trans-unit id="linkvalidator">
         <source>Link validator</source>
-        <target state="translated">Linkvalidierung</target>
+        <target>crwdns32000:0crwdne32000:0</target>
       </trans-unit>
-      <trans-unit id="menu.introduction" approved="yes">
+      <trans-unit id="menu.introduction">
         <source>Introduction</source>
-        <target state="translated">Einleitung</target>
+        <target>crwdns32002:0crwdne32002:0</target>
       </trans-unit>
-      <trans-unit id="menu.checkLinks" approved="yes">
+      <trans-unit id="menu.checkLinks">
         <source>Check Links for validity</source>
-        <target state="translated">Links auf Gültigkeit überprüfen</target>
+        <target>crwdns32004:0crwdne32004:0</target>
       </trans-unit>
-      <trans-unit id="menu.overview" approved="yes">
+      <trans-unit id="menu.overview">
         <source>Overview of links on website</source>
-        <target state="translated">Überblick der Links auf der Website</target>
+        <target>crwdns32006:0crwdne32006:0</target>
       </trans-unit>
-      <trans-unit id="overview.header" approved="yes">
+      <trans-unit id="overview.header">
         <source>Overview - choose options to check the links</source>
-        <target state="translated">Überblick - Wählen Sie aus den folgenden Optionen, um die Links zu prüfen</target>
+        <target>crwdns32008:0crwdne32008:0</target>
       </trans-unit>
-      <trans-unit id="overview.all.header" approved="yes">
+      <trans-unit id="overview.all.header">
         <source>Total amounts in tt_content</source>
-        <target state="translated">Anzahl in tt_content</target>
+        <target>crwdns32010:0crwdne32010:0</target>
       </trans-unit>
-      <trans-unit id="overview.all.records" approved="yes">
+      <trans-unit id="overview.all.records">
         <source>Records with ext. links</source>
-        <target state="translated">Datensätze mit ext. Links</target>
+        <target>crwdns32012:0crwdne32012:0</target>
       </trans-unit>
-      <trans-unit id="overview.all.links" approved="yes">
+      <trans-unit id="overview.all.links">
         <source>External links</source>
-        <target state="translated">Externe Links</target>
+        <target>crwdns32014:0crwdne32014:0</target>
       </trans-unit>
-      <trans-unit id="overview.branch.header" approved="yes">
+      <trans-unit id="overview.branch.header">
         <source>Amounts from actual branch in tt_content</source>
-        <target state="translated">Anzahl aus aktuellem Teilbereich in tt_content</target>
+        <target>crwdns32016:0crwdne32016:0</target>
       </trans-unit>
-      <trans-unit id="overview.branch.records" approved="yes">
+      <trans-unit id="overview.branch.records">
         <source>Records with ext. links</source>
-        <target state="translated">Datensätze mit externen Links</target>
+        <target>crwdns32018:0crwdne32018:0</target>
       </trans-unit>
-      <trans-unit id="overview.branch.links" approved="yes">
+      <trans-unit id="overview.branch.links">
         <source>External links</source>
-        <target state="translated">Externe Links</target>
+        <target>crwdns32020:0crwdne32020:0</target>
       </trans-unit>
-      <trans-unit id="overview.attention.header" approved="yes">
+      <trans-unit id="overview.attention.header">
         <source>Attention</source>
-        <target state="translated">Achtung</target>
+        <target>crwdns32022:0crwdne32022:0</target>
       </trans-unit>
-      <trans-unit id="overview.attention.text" approved="yes">
+      <trans-unit id="overview.attention.text">
         <source>Checking links may take up to several minutes. Checking ONE link can last up to 3 seconds.</source>
-        <target state="translated">Die Überprüfung kann mehrere Minuten dauern. Die Überprüfung eines einzelnen Links kann bis zu 3 Sekunden benötigen.</target>
+        <target>crwdns32024:0crwdne32024:0</target>
       </trans-unit>
-      <trans-unit id="Report" approved="yes">
+      <trans-unit id="Report">
         <source>Report</source>
-        <target state="translated">Bericht</target>
+        <target>crwdns32026:0crwdne32026:0</target>
       </trans-unit>
-      <trans-unit id="CheckLink" approved="yes">
+      <trans-unit id="CheckLink">
         <source>Check Links</source>
-        <target state="translated">Links überprüfen</target>
+        <target>crwdns32028:0crwdne32028:0</target>
       </trans-unit>
-      <trans-unit id="report.statistics.header" approved="yes">
+      <trans-unit id="report.statistics.header">
         <source>Show these types of broken links</source>
-        <target state="translated">Diese Typen defekter Links zeigen</target>
+        <target>crwdns32030:0crwdne32030:0</target>
       </trans-unit>
-      <trans-unit id="checklinks.statistics.header" approved="yes">
+      <trans-unit id="checklinks.statistics.header">
         <source>Check these types of broken links</source>
-        <target state="translated">Diese Typen defekter Links prüfen</target>
+        <target>crwdns32032:0crwdne32032:0</target>
       </trans-unit>
-      <trans-unit id="report.func.title" approved="yes">
+      <trans-unit id="report.func.title">
         <source>Show this level</source>
-        <target state="translated">Diese Ebenen zeigen</target>
+        <target>crwdns32034:0crwdne32034:0</target>
       </trans-unit>
-      <trans-unit id="checklinks.func.title" approved="yes">
+      <trans-unit id="checklinks.func.title">
         <source>Check this level</source>
-        <target state="translated">Diese Ebenen prüfen</target>
+        <target>crwdns32036:0crwdne32036:0</target>
       </trans-unit>
-      <trans-unit id="overviews.nbtotal" approved="yes">
+      <trans-unit id="overviews.nbtotal">
         <source>Broken links total</source>
-        <target state="translated">Defekte Links insgesamt</target>
+        <target>crwdns32038:0crwdne32038:0</target>
       </trans-unit>
-      <trans-unit id="hooks.db" approved="yes">
+      <trans-unit id="hooks.db">
         <source>Internal Links</source>
-        <target state="translated">Interne Links</target>
+        <target>crwdns32040:0crwdne32040:0</target>
       </trans-unit>
-      <trans-unit id="hooks.file" approved="yes">
+      <trans-unit id="hooks.file">
         <source>File Links</source>
-        <target state="translated">Dateilinks</target>
+        <target>crwdns32042:0crwdne32042:0</target>
       </trans-unit>
-      <trans-unit id="hooks.external" approved="yes">
+      <trans-unit id="hooks.external">
         <source>External Links</source>
-        <target state="translated">Externe Links</target>
+        <target>crwdns32044:0crwdne32044:0</target>
       </trans-unit>
-      <trans-unit id="hooks.linkhandler" approved="yes">
+      <trans-unit id="hooks.linkhandler">
         <source>Linkhandler Links</source>
-        <target state="translated">Linkhandler-Links</target>
+        <target>crwdns32046:0crwdne32046:0</target>
       </trans-unit>
-      <trans-unit id="label_refresh" approved="yes">
+      <trans-unit id="label_refresh">
         <source>Refresh display</source>
-        <target state="translated">Ansicht aktualisieren</target>
+        <target>crwdns32048:0crwdne32048:0</target>
       </trans-unit>
-      <trans-unit id="label_update" approved="yes">
+      <trans-unit id="label_update">
         <source>Check links</source>
-        <target state="translated">Links überprüfen</target>
+        <target>crwdns32050:0crwdne32050:0</target>
       </trans-unit>
-      <trans-unit id="list.header" approved="yes">
+      <trans-unit id="list.header">
         <source>Listing of broken links</source>
-        <target state="translated">Auflistung defekter Links</target>
+        <target>crwdns32052:0crwdne32052:0</target>
       </trans-unit>
-      <trans-unit id="list.tableHead.path" approved="yes">
+      <trans-unit id="list.tableHead.path">
         <source>Path</source>
-        <target state="translated">Pfad</target>
+        <target>crwdns32054:0crwdne32054:0</target>
       </trans-unit>
-      <trans-unit id="list.tableHead.linktarget" approved="yes">
+      <trans-unit id="list.tableHead.element">
+        <source>Element</source>
+        <target>crwdns32056:0crwdne32056:0</target>
+      </trans-unit>
+      <trans-unit id="list.tableHead.headlink">
+        <source>Link</source>
+        <target>crwdns32058:0crwdne32058:0</target>
+      </trans-unit>
+      <trans-unit id="list.tableHead.linktarget">
         <source>URL / Link Target</source>
-        <target state="translated">URL/Linkziel</target>
+        <target>crwdns32060:0crwdne32060:0</target>
       </trans-unit>
-      <trans-unit id="list.tableHead.linkmessage" approved="yes">
+      <trans-unit id="list.tableHead.linkmessage">
         <source>Error message</source>
-        <target state="translated">Fehlermeldung</target>
+        <target>crwdns32062:0crwdne32062:0</target>
       </trans-unit>
-      <trans-unit id="list.tableHead.lastCheck" approved="yes">
+      <trans-unit id="list.tableHead.lastCheck">
         <source>Last check</source>
-        <target state="translated">Letzte Überprüfung</target>
+        <target>crwdns32064:0crwdne32064:0</target>
       </trans-unit>
-      <trans-unit id="list.edit" approved="yes">
+      <trans-unit id="list.edit">
         <source>Edit element containing this broken link</source>
-        <target state="translated">Das Element, das diesen defekten Link enthält, bearbeiten</target>
+        <target>crwdns32066:0crwdne32066:0</target>
       </trans-unit>
-      <trans-unit id="list.field" approved="yes">
+      <trans-unit id="list.field">
         <source>(Field: %s)</source>
-        <target state="translated">(Feld: %s)</target>
+        <target>crwdns32068:0%scrwdne32068:0</target>
       </trans-unit>
-      <trans-unit id="list.no.headline" approved="yes">
+      <trans-unit id="list.no.headline">
         <source>no headline</source>
-        <target state="translated">keine Überschrift</target>
+        <target>crwdns32070:0crwdne32070:0</target>
       </trans-unit>
-      <trans-unit id="list.report.pagedeleted" approved="yes">
+      <trans-unit id="list.report.pagedeleted">
         <source>Page '###title###' (###uid###) is deleted.</source>
-        <target state="translated">Seite '###title###' (###uid###) ist gelöscht.</target>
+        <target>crwdns32072:0crwdne32072:0</target>
       </trans-unit>
-      <trans-unit id="list.report.pagenotvisible" approved="yes">
+      <trans-unit id="list.report.pagenotvisible">
         <source>Page '###title###' (###uid###) is not visible.</source>
-        <target state="translated">Seite '###title###' (###uid###) ist nicht sichtbar.</target>
+        <target>crwdns32074:0crwdne32074:0</target>
       </trans-unit>
-      <trans-unit id="list.report.pagenotexisting" approved="yes">
+      <trans-unit id="list.report.pagenotexisting">
         <source>Page (###uid###) does not exist.</source>
-        <target state="translated">Seite (###uid###) existiert nicht.</target>
+        <target>crwdns32076:0crwdne32076:0</target>
       </trans-unit>
-      <trans-unit id="list.report.contentmoved" approved="yes">
+      <trans-unit id="list.report.contentmoved">
         <source>Element '###title###' (###uid###) is not located on page ###wrongpage###, but on page ###rightpage###.</source>
-        <target state="translated">Element '###title###' (###uid###) befindet sich nicht auf Seite ###wrongpage###, sondern auf Seite ###rightpage###.</target>
+        <target>crwdns32078:0crwdne32078:0</target>
       </trans-unit>
-      <trans-unit id="list.report.contentdeleted" approved="yes">
+      <trans-unit id="list.report.contentdeleted">
         <source>Element '###title###' (###uid###) is deleted.</source>
-        <target state="translated">Element '###title###' (###uid###) ist gelöscht.</target>
+        <target>crwdns32080:0crwdne32080:0</target>
       </trans-unit>
-      <trans-unit id="list.report.contentnotvisible" approved="yes">
+      <trans-unit id="list.report.contentnotvisible">
         <source>Element '###title###' (###uid###) is not visible.</source>
-        <target state="translated">Element '###title###' (###uid###) ist nicht sichtbar.</target>
+        <target>crwdns32082:0crwdne32082:0</target>
       </trans-unit>
-      <trans-unit id="list.report.contentnotexisting" approved="yes">
+      <trans-unit id="list.report.contentnotexisting">
         <source>Element (###uid###) does not exist.</source>
-        <target state="translated">Element (###uid###) existiert nicht.</target>
+        <target>crwdns32084:0crwdne32084:0</target>
       </trans-unit>
-      <trans-unit id="list.report.rownotvisible" approved="yes">
+      <trans-unit id="list.report.rownotvisible">
         <source>###title### row (###uid###) is not visible.</source>
-        <target state="translated">Zeile '###title###' (###uid###) ist nicht sichtbar.</target>
+        <target>crwdns32086:0crwdne32086:0</target>
       </trans-unit>
-      <trans-unit id="list.report.rowdeleted" approved="yes">
+      <trans-unit id="list.report.rowdeleted">
         <source>###title### row (###uid###) is deleted.</source>
-        <target state="translated">Zeile ###title### (###uid###) ist gelöscht.</target>
+        <target>crwdns32088:0crwdne32088:0</target>
       </trans-unit>
-      <trans-unit id="list.report.rowdeleted.default.title" approved="yes">
+      <trans-unit id="list.report.rowdeleted.default.title">
         <source>Linked</source>
-        <target state="translated">&lt;!-- hier keinen Text einfügen --&gt;</target>
+        <target>crwdns32090:0crwdne32090:0</target>
       </trans-unit>
-      <trans-unit id="list.report.rownotexisting" approved="yes">
+      <trans-unit id="list.report.rownotexisting">
         <source>Row (###uid###) does not exist.</source>
-        <target state="translated">Zeile (###uid###) existiert nicht.</target>
+        <target>crwdns32092:0crwdne32092:0</target>
       </trans-unit>
-      <trans-unit id="list.report.noinformation" approved="yes">
+      <trans-unit id="list.report.noinformation">
         <source>No information about the error is available.</source>
-        <target state="translated">Zu diesem Fehler gibt es keine Information.</target>
+        <target>crwdns32094:0crwdne32094:0</target>
       </trans-unit>
-      <trans-unit id="list.report.noresponse" approved="yes">
+      <trans-unit id="list.report.noresponse">
         <source>External Link not reachable.</source>
-        <target state="translated">Das Ziel des externen Links ist nicht erreichbar.</target>
+        <target>crwdns32096:0crwdne32096:0</target>
       </trans-unit>
-      <trans-unit id="list.report.redirectloop" approved="yes">
+      <trans-unit id="list.report.redirectloop">
         <source>A redirect loop occurred. (%s: %s)</source>
-        <target state="translated">Es ist eine Weiterleitungsschleife aufgetreten. (%s: %s)</target>
+        <target>crwdns32098:0%scrwdnd32098:0%scrwdne32098:0</target>
       </trans-unit>
-      <trans-unit id="list.report.pageforbidden403" approved="yes">
+      <trans-unit id="list.report.pageforbidden403">
         <source>Accessing this address is not allowed (403).</source>
-        <target state="translated">Der Zugriff auf diese URL ist nicht erlaubt (403).</target>
+        <target>crwdns32100:0crwdne32100:0</target>
       </trans-unit>
-      <trans-unit id="list.report.pagenotfound404" approved="yes">
+      <trans-unit id="list.report.pagenotfound404">
         <source>The requested url was not found (404).</source>
-        <target state="translated">Die angeforderte URL wurde nicht gefunden (404).</target>
+        <target>crwdns32102:0crwdne32102:0</target>
       </trans-unit>
-      <trans-unit id="list.report.externalerror" approved="yes">
+      <trans-unit id="list.report.externalerror">
         <source>External Link returned HTTP error code (%s).</source>
-        <target state="translated">Der externe Link gab einen Fehlercode zurück (%s).</target>
+        <target>crwdns32104:0%scrwdne32104:0</target>
       </trans-unit>
-      <trans-unit id="list.report.filenotexisting" approved="yes">
+      <trans-unit id="list.report.filenotexisting">
         <source>File doesn't exist.</source>
-        <target state="translated">Datei existiert nicht.</target>
+        <target>crwdns32106:0crwdne32106:0</target>
       </trans-unit>
-      <trans-unit id="list.report.timeout" approved="yes">
+      <trans-unit id="list.report.timeout">
         <source>Operation timeout. The specified time-out period was reached according to the conditions.</source>
-        <target state="translated">Timeout. Das angegebene Zeitfenster für die Anfrage wurde überschritten.</target>
+        <target>crwdns32108:0crwdne32108:0</target>
       </trans-unit>
-      <trans-unit id="list.report.internalerror500" approved="yes">
+      <trans-unit id="list.report.internalerror500">
         <source>Internal Server Error (500)</source>
-        <target state="translated">Interner Serverfehler (500)</target>
+        <target>crwdns32110:0crwdne32110:0</target>
       </trans-unit>
-      <trans-unit id="list.report.couldnotresolvehost" approved="yes">
+      <trans-unit id="list.report.couldnotresolvehost">
         <source>Could not resolve host. The given remote host was not resolved.</source>
-        <target state="translated">Host konnte nicht aufgelöst werden. Der angegebene Host wurde nicht aufgelöst.</target>
+        <target>crwdns32112:0crwdne32112:0</target>
       </trans-unit>
-      <trans-unit id="list.report.errornetworkdata" approved="yes">
+      <trans-unit id="list.report.errornetworkdata">
         <source>Failure with receiving network data.</source>
-        <target state="translated">Fehler beim Empfangen der Netzwerkdaten.</target>
+        <target>crwdns32114:0crwdne32114:0</target>
       </trans-unit>
-      <trans-unit id="list.report.otherhttpcode" approved="yes">
+      <trans-unit id="list.report.otherhttpcode">
         <source>An error occurred (%s): "%s".</source>
-        <target state="translated">Es ist ein Fehler aufgetreten (%s): "%s".</target>
+        <target>crwdns32116:0%scrwdnd32116:0%scrwdne32116:0</target>
       </trans-unit>
-      <trans-unit id="list.report.httpexception" approved="yes">
+      <trans-unit id="list.report.httpexception">
         <source>Exception: %s</source>
-        <target state="translated">Ausnahme: %s</target>
+        <target>crwdns32118:0%scrwdne32118:0</target>
       </trans-unit>
-      <trans-unit id="list.report.networkexception" approved="yes">
+      <trans-unit id="list.report.networkexception">
         <source>Network error / invalid domain</source>
-        <target state="translated">Netzwerkfehler/Domain ungültig</target>
+        <target>crwdns32120:0crwdne32120:0</target>
       </trans-unit>
-      <trans-unit id="list.no.broken.links.title" approved="yes">
+      <trans-unit id="list.msg.ok">
+        <source>Ok</source>
+        <target>crwdns32122:0crwdne32122:0</target>
+      </trans-unit>
+      <trans-unit id="list.msg.lastRun">
+        <source>%1$s %2$s</source>
+        <target>crwdns32124:0%1$scrwdnd32124:0%2$scrwdne32124:0</target>
+      </trans-unit>
+      <trans-unit id="list.no.broken.links.title">
         <source>No broken links to show!</source>
-        <target state="translated">Keine defekten Links anzuzeigen!</target>
+        <target>crwdns32126:0crwdne32126:0</target>
       </trans-unit>
-      <trans-unit id="list.no.broken.links" approved="yes">
+      <trans-unit id="list.no.broken.links">
         <source>There are no broken links to be displayed.</source>
-        <target state="translated">Es gibt keine defekten Links, die hier anzuzeigen wären.</target>
+        <target>crwdns32128:0crwdne32128:0</target>
       </trans-unit>
-      <trans-unit id="no.access.title" approved="yes">
+      <trans-unit id="no.access.title">
         <source>No access!</source>
-        <target state="translated">Kein Zugriff!</target>
+        <target>crwdns32130:0crwdne32130:0</target>
       </trans-unit>
-      <trans-unit id="no.access" approved="yes">
+      <trans-unit id="no.access">
         <source>You do not have access to these listings.</source>
-        <target state="translated">Sie haben keinen Zugriff auf diese Auflistungen.</target>
+        <target>crwdns32132:0crwdne32132:0</target>
       </trans-unit>
-      <trans-unit id="label_update-link-list" approved="yes">
+      <trans-unit id="label_update-link-list">
         <source>Checking links, please stand by.</source>
-        <target state="translated">Links werden überprüft, bitte warten.</target>
+        <target>crwdns32134:0crwdne32134:0</target>
       </trans-unit>
-      <trans-unit id="label_refresh-link-list" approved="yes">
+      <trans-unit id="label_refresh-link-list">
         <source>Refreshing link list, please stand by.</source>
-        <target state="translated">Linkliste wird aktualisiert, bitte warten.</target>
+        <target>crwdns32136:0crwdne32136:0</target>
       </trans-unit>
     </body>
   </file>
