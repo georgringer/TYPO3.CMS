@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415815006" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="tstemplate" target-language="da">
+    <header/>
+    <body>
+      <trans-unit id="constants" approved="yes">
+        <source>Constants</source>
+        <target state="translated">Konstanter</target>
+      </trans-unit>
+      <trans-unit id="setup" approved="yes">
+        <source>Setup</source>
+        <target state="translated">Konfiguration</target>
+      </trans-unit>
+      <trans-unit id="all" approved="yes">
+        <source>All</source>
+        <target state="translated">Alle</target>
+      </trans-unit>
+      <trans-unit id="plainSubstitution" approved="yes">
+        <source>Plain substitution (default)</source>
+        <target state="translated">Enkel udskiftning (standard)</target>
+      </trans-unit>
+      <trans-unit id="substitutedGreen" approved="yes">
+        <source>Substituted constants in green</source>
+        <target state="translated">Udskiftede konstanter i grøn</target>
+      </trans-unit>
+      <trans-unit id="unsubstitutedGreen" approved="yes">
+        <source>UN-substituted constants in green</source>
+        <target state="translated">IKKE-udskiftede konstanter i grøn</target>
+      </trans-unit>
+      <trans-unit id="currentTemplate" approved="yes">
+        <source>Current template</source>
+        <target state="translated">Aktuel skabelon</target>
+      </trans-unit>
+      <trans-unit id="badProperty" approved="yes">
+        <source>Bad property!</source>
+        <target state="translated">Dårlig egenskab!</target>
+      </trans-unit>
+      <trans-unit id="noSpaces" approved="yes">
+        <source>You must enter a property with characters a-z, A-Z and 0-9, no spaces!</source>
+        <target state="translated">Du skal indtaste en egenskab med karaktererne a-z. A-Z og 0-9, ingen mellemrum!</target>
+      </trans-unit>
+      <trans-unit id="nothingUpdated" approved="yes">
+        <source>Nothing was updated!</source>
+        <target state="translated">Intet blev opdateret!</target>
+      </trans-unit>
+      <trans-unit id="propertyAdded" approved="yes">
+        <source>Property added</source>
+        <target state="translated">Egenskab tilføjet</target>
+      </trans-unit>
+      <trans-unit id="valueUpdated" approved="yes">
+        <source>Value updated</source>
+        <target state="translated">Værdi opdateret</target>
+      </trans-unit>
+      <trans-unit id="objectCleared" approved="yes">
+        <source>Object cleared</source>
+        <target state="translated">Objekt ryddet</target>
+      </trans-unit>
+      <trans-unit id="updateButton" approved="yes">
+        <source>Update</source>
+        <target state="translated">Opdatér</target>
+      </trans-unit>
+      <trans-unit id="editProperty" approved="yes">
+        <source>Edit object/property value</source>
+        <target state="translated">Redigér objekt/egenskabs værdi</target>
+      </trans-unit>
+      <trans-unit id="addButton" approved="yes">
+        <source>Add</source>
+        <target state="translated">Tilføj</target>
+      </trans-unit>
+      <trans-unit id="addProperty" approved="yes">
+        <source>Add object property</source>
+        <target state="translated">Tilføj objektegenskab</target>
+      </trans-unit>
+      <trans-unit id="clear" approved="yes">
+        <source>Clear?</source>
+        <target state="translated">Ryd?</target>
+      </trans-unit>
+      <trans-unit id="clearButton" approved="yes">
+        <source>Clear</source>
+        <target state="translated">Ryd</target>
+      </trans-unit>
+      <trans-unit id="clearObject" approved="yes">
+        <source>Clear object</source>
+        <target state="translated">Ryd objekt</target>
+      </trans-unit>
+      <trans-unit id="edit" approved="yes">
+        <source>Edit</source>
+        <target state="translated">Redigér</target>
+      </trans-unit>
+      <trans-unit id="noCurrentTemplate" approved="yes">
+        <source>You cannot edit properties and values, if there's no current template.</source>
+        <target state="translated">Hvis der ikke er nogen skabelon, kan du ikke redigere egenskaber og værdier.</target>
+      </trans-unit>
+      <trans-unit id="addKey" approved="yes">
+        <source>Add key "%s" to Object List</source>
+        <target state="translated">Tilføj nøgle "%s" til objektliste</target>
+      </trans-unit>
+      <trans-unit id="back" approved="yes">
+        <source>Back</source>
+        <target state="translated">Tilbage</target>
+      </trans-unit>
+      <trans-unit id="objectList" approved="yes">
+        <source>Object List</source>
+        <target state="translated">Objektliste</target>
+      </trans-unit>
+      <trans-unit id="search" approved="yes">
+        <source>Search</source>
+        <target state="translated">Søg</target>
+      </trans-unit>
+      <trans-unit id="regExp" approved="yes">
+        <source>Regular expressions</source>
+        <target state="translated">Regulære udtryk</target>
+      </trans-unit>
+      <trans-unit id="errorsWarnings" approved="yes">
+        <source>Errors and warnings</source>
+        <target state="translated">Fejl og advarsler</target>
+      </trans-unit>
+      <trans-unit id="errorShowDetails" approved="yes">
+        <source>Show details</source>
+        <target state="translated">Vis detaljer</target>
+      </trans-unit>
+      <trans-unit id="removeKey" approved="yes">
+        <source>Remove key from OL</source>
+        <target state="translated">Fjern nøgle fra OL</target>
+      </trans-unit>
+      <trans-unit id="setupRoot" approved="yes">
+        <source>setup root</source>
+        <target state="translated">konfigurering root</target>
+      </trans-unit>
+      <trans-unit id="constantRoot" approved="yes">
+        <source>constants root</source>
+        <target state="translated">Konstant root</target>
+      </trans-unit>
+      <trans-unit id="displayComments" approved="yes">
+        <source>Display comments</source>
+        <target state="translated">Vis kommentarer</target>
+      </trans-unit>
+      <trans-unit id="sortAlphabetically" approved="yes">
+        <source>Sort alphabetically</source>
+        <target state="translated">Sortér alfabetisk</target>
+      </trans-unit>
+      <trans-unit id="cropLines" approved="yes">
+        <source>Crop lines</source>
+        <target state="translated">Beskær linjer</target>
+      </trans-unit>
+      <trans-unit id="displayConstants" approved="yes">
+        <source>Display constants</source>
+        <target state="translated">Vis konstanter</target>
+      </trans-unit>
+      <trans-unit id="displayOptions" approved="yes">
+        <source>Display options</source>
+        <target state="translated">Vis valg</target>
+      </trans-unit>
+      <trans-unit id="conditions" approved="yes">
+        <source>Conditions</source>
+        <target state="translated">Betingelser</target>
+      </trans-unit>
+      <trans-unit id="setConditions" approved="yes">
+        <source>Set conditions</source>
+        <target state="translated">Angiv betingelser</target>
+      </trans-unit>
+      <trans-unit id="severity.2" approved="yes">
+        <source>Warning</source>
+        <target state="translated">Advarsel</target>
+      </trans-unit>
+      <trans-unit id="severity.3" approved="yes">
+        <source>Error</source>
+        <target state="translated">Fejl</target>
+      </trans-unit>
+      <trans-unit id="error.1446559458" approved="yes">
+        <source>Error evaluating regular expression "%s".</source>
+        <target state="translated">Fejl ved evaluering af regulært udtryk "%s".</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
