@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814890" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="cs">
+    <header/>
+    <body>
+      <trans-unit id="rte_undoLastChange" approved="yes">
+        <source>Undo/Redo last change (%s ago)</source>
+        <target state="translated">Zpět/Znovu poslední změnu (%s nazpět)</target>
+      </trans-unit>
+      <trans-unit id="tsprop" approved="yes">
+        <source>TypoScript property lookup</source>
+        <target state="translated">Hledat vlastnost Typoscriptu</target>
+      </trans-unit>
+      <trans-unit id="tsprop_title" approved="yes">
+        <source>Object title</source>
+        <target state="translated">Název objektu</target>
+      </trans-unit>
+      <trans-unit id="tsprop_prefix" approved="yes">
+        <source>Object prefix</source>
+        <target state="translated">Prefix objektu</target>
+      </trans-unit>
+      <trans-unit id="tsprop_mixer_indent" approved="yes">
+        <source>Indent +2</source>
+        <target state="translated">Odsadit +2</target>
+      </trans-unit>
+      <trans-unit id="tsprop_mixer_outdent" approved="yes">
+        <source>Outdent -2</source>
+        <target state="translated">Odsadit -2</target>
+      </trans-unit>
+      <trans-unit id="tsprop_mixer_wrap" approved="yes">
+        <source>Wrap</source>
+        <target state="translated">Zapouzdřit</target>
+      </trans-unit>
+      <trans-unit id="tsprop_mixer_transfer" approved="yes">
+        <source>Transfer &amp; Close</source>
+        <target state="translated">Přenést &amp; Zavřít</target>
+      </trans-unit>
+      <trans-unit id="tsprop_addToList" approved="yes">
+        <source>Add to list...</source>
+        <target state="translated">Přidat do seznamu...</target>
+      </trans-unit>
+      <trans-unit id="table_title" approved="yes">
+        <source>Table wizard</source>
+        <target state="translated">Průvodce tabulkou</target>
+      </trans-unit>
+      <trans-unit id="table_smallFields" approved="yes">
+        <source>Small fields</source>
+        <target state="translated">Malá pole</target>
+      </trans-unit>
+      <trans-unit id="table_addColumn" approved="yes">
+        <source>Add column to the right</source>
+        <target state="translated">Přidat sloupec vpravo</target>
+      </trans-unit>
+      <trans-unit id="table_removeColumn" approved="yes">
+        <source>Remove column</source>
+        <target state="translated">Odstranit sloupec</target>
+      </trans-unit>
+      <trans-unit id="table_addRow" approved="yes">
+        <source>Add row below</source>
+        <target state="translated">Přidat řádku pod</target>
+      </trans-unit>
+      <trans-unit id="table_removeRow" approved="yes">
+        <source>Remove row</source>
+        <target state="translated">Ostranit řádku</target>
+      </trans-unit>
+      <trans-unit id="table_left" approved="yes">
+        <source>Move left</source>
+        <target state="translated">Posunout vlevo</target>
+      </trans-unit>
+      <trans-unit id="table_right" approved="yes">
+        <source>Move right</source>
+        <target state="translated">Posunout vpravo</target>
+      </trans-unit>
+      <trans-unit id="table_up" approved="yes">
+        <source>Move up</source>
+        <target state="translated">Posunout nahoru</target>
+      </trans-unit>
+      <trans-unit id="table_down" approved="yes">
+        <source>Move down</source>
+        <target state="translated">Posunout dolů</target>
+      </trans-unit>
+      <trans-unit id="table_top" approved="yes">
+        <source>Move to top</source>
+        <target state="translated">Posunout až nahoru</target>
+      </trans-unit>
+      <trans-unit id="table_bottom" approved="yes">
+        <source>Move to bottom</source>
+        <target state="translated">Posunout až dolů</target>
+      </trans-unit>
+      <trans-unit id="table_start" approved="yes">
+        <source>Move to first column</source>
+        <target state="translated">Posunout do prvního sloupce</target>
+      </trans-unit>
+      <trans-unit id="table_end" approved="yes">
+        <source>Move to last column</source>
+        <target state="translated">Posunout do posledního sloupce</target>
+      </trans-unit>
+      <trans-unit id="table_noData" approved="yes">
+        <source>No table,field or uid given</source>
+        <target state="translated">Nazadána žádná tabulka, pole nebo uid</target>
+      </trans-unit>
+      <trans-unit id="forms_title" approved="yes">
+        <source>Forms wizard</source>
+        <target state="translated">Průvodce formulářem</target>
+      </trans-unit>
+      <trans-unit id="forms_refresh" approved="yes">
+        <source>Refresh without saving</source>
+        <target state="translated">Obnovit bez uložení</target>
+      </trans-unit>
+      <trans-unit id="forms_label" approved="yes">
+        <source>Label</source>
+        <target state="translated">Popisek</target>
+      </trans-unit>
+      <trans-unit id="forms_type" approved="yes">
+        <source>Type</source>
+        <target state="translated">Typ</target>
+      </trans-unit>
+      <trans-unit id="forms_type_textarea" approved="yes">
+        <source>Text area</source>
+        <target state="translated">Textová oblast</target>
+      </trans-unit>
+      <trans-unit id="forms_type_input" approved="yes">
+        <source>Input field</source>
+        <target state="translated">Vstupní pole</target>
+      </trans-unit>
+      <trans-unit id="forms_type_password" approved="yes">
+        <source>Password field</source>
+        <target state="translated">Heslo</target>
+      </trans-unit>
+      <trans-unit id="forms_type_file" approved="yes">
+        <source>File upload</source>
+        <target state="translated">Přenos souboru</target>
+      </trans-unit>
+      <trans-unit id="forms_type_select" approved="yes">
+        <source>Selector box</source>
+        <target state="translated">Combo box</target>
+      </trans-unit>
+      <trans-unit id="forms_type_radio" approved="yes">
+        <source>Radio buttons</source>
+        <target state="translated">Radio tlačítka</target>
+      </trans-unit>
+      <trans-unit id="forms_type_hidden" approved="yes">
+        <source>Hidden value</source>
+        <target state="translated">Skrytá hodnota</target>
+      </trans-unit>
+      <trans-unit id="forms_type_submit" approved="yes">
+        <source>Submit Button</source>
+        <target state="translated">Odesílací tlačítko</target>
+      </trans-unit>
+      <trans-unit id="forms_type_property" approved="yes">
+        <source>Property</source>
+        <target state="translated">Vlastnost</target>
+      </trans-unit>
+      <trans-unit id="forms_type_label" approved="yes">
+        <source>Label</source>
+        <target state="translated">Označení</target>
+      </trans-unit>
+      <trans-unit id="forms_required" approved="yes">
+        <source>Required</source>
+        <target state="translated">Vyžadováno</target>
+      </trans-unit>
+      <trans-unit id="forms_fieldName" approved="yes">
+        <source>Field</source>
+        <target state="translated">Pole</target>
+      </trans-unit>
+      <trans-unit id="forms_cols" approved="yes">
+        <source>Columns</source>
+        <target state="translated">Sloupce</target>
+      </trans-unit>
+      <trans-unit id="forms_rows" approved="yes">
+        <source>Rows</source>
+        <target state="translated">Řádky</target>
+      </trans-unit>
+      <trans-unit id="forms_size" approved="yes">
+        <source>Size</source>
+        <target state="translated">Velikost</target>
+      </trans-unit>
+      <trans-unit id="forms_autosize" approved="yes">
+        <source>Auto size</source>
+        <target state="translated">Automatická velikost</target>
+      </trans-unit>
+      <trans-unit id="forms_extra" approved="yes">
+        <source>No Wrap</source>
+        <target state="translated">Nezalamovat</target>
+      </trans-unit>
+      <trans-unit id="forms_default" approved="yes">
+        <source>Value</source>
+        <target state="translated">Hodnota</target>
+      </trans-unit>
+      <trans-unit id="forms_multiple" approved="yes">
+        <source>Multiple</source>
+        <target state="translated">Vícečetný</target>
+      </trans-unit>
+      <trans-unit id="forms_options" approved="yes">
+        <source>List options</source>
+        <target state="translated">Seznam možností</target>
+      </trans-unit>
+      <trans-unit id="forms_checked" approved="yes">
+        <source>Checked</source>
+        <target state="translated">Zaškrtnuto</target>
+      </trans-unit>
+      <trans-unit id="forms_preview" approved="yes">
+        <source>Preview of element</source>
+        <target state="translated">Náhled prvku</target>
+      </trans-unit>
+      <trans-unit id="forms_element" approved="yes">
+        <source>Element type</source>
+        <target state="translated">Typ prvku</target>
+      </trans-unit>
+      <trans-unit id="forms_config" approved="yes">
+        <source>Detailed configuration</source>
+        <target state="translated">Podrobná konfigurace</target>
+      </trans-unit>
+      <trans-unit id="forms_eform_subject" approved="yes">
+        <source>Subject</source>
+        <target state="translated">Předmět</target>
+      </trans-unit>
+      <trans-unit id="forms_eform_recipient" approved="yes">
+        <source>Recipient email</source>
+        <target state="translated">E-mail příjemce</target>
+      </trans-unit>
+      <trans-unit id="forms_eform_html_enabled" approved="yes">
+        <source>HTML mode enabled</source>
+        <target state="translated">Zvolen HTML mód</target>
+      </trans-unit>
+      <trans-unit id="forms_eform_formtype_mail" approved="yes">
+        <source>Send button label</source>
+        <target state="translated">Popisek odesílacího tlačítka</target>
+      </trans-unit>
+      <trans-unit id="forms_special_eform" approved="yes">
+        <source>Special configuration for mail forms</source>
+        <target state="translated">Speciální konfigurace pro e-mailové formuláře</target>
+      </trans-unit>
+      <trans-unit id="colorpicker_title" approved="yes">
+        <source>Color Picker</source>
+        <target state="translated">Výběr barvy</target>
+      </trans-unit>
+      <trans-unit id="colorpicker_setClose" approved="yes">
+        <source>Save and Close</source>
+        <target state="translated">Uložit a zavřít</target>
+      </trans-unit>
+      <trans-unit id="colorpicker_black" approved="yes">
+        <source>BLACK</source>
+        <target state="translated">ČERNÁ</target>
+      </trans-unit>
+      <trans-unit id="colorpicker_white" approved="yes">
+        <source>WHITE</source>
+        <target state="translated">BÍLÁ</target>
+      </trans-unit>
+      <trans-unit id="grid_windowTitle" approved="yes">
+        <source>Set cell name and column number</source>
+        <target state="translated">Nastavit jméno buňky a číslo sloupce</target>
+      </trans-unit>
+      <trans-unit id="grid_labelName" approved="yes">
+        <source>Name</source>
+        <target state="translated">Jméno</target>
+      </trans-unit>
+      <trans-unit id="grid_labelColumn" approved="yes">
+        <source>Column Number</source>
+        <target state="translated">Číslo sloupce</target>
+      </trans-unit>
+      <trans-unit id="grid_labelSave" approved="yes">
+        <source>Save to cell</source>
+        <target state="translated">Uložit do buňky</target>
+      </trans-unit>
+      <trans-unit id="grid_addColumn" approved="yes">
+        <source>Add column</source>
+        <target state="translated">Přidat sloupec</target>
+      </trans-unit>
+      <trans-unit id="grid_removeColumn" approved="yes">
+        <source>Remove column</source>
+        <target state="translated">Odstranit sloupec</target>
+      </trans-unit>
+      <trans-unit id="grid_addRow" approved="yes">
+        <source>Add row</source>
+        <target state="translated">Přidat řádek</target>
+      </trans-unit>
+      <trans-unit id="grid_removeRow" approved="yes">
+        <source>Remove row</source>
+        <target state="translated">Odstranit řádek</target>
+      </trans-unit>
+      <trans-unit id="grid_editCell" approved="yes">
+        <source>Edit cell</source>
+        <target state="translated">Úpravy buňku</target>
+      </trans-unit>
+      <trans-unit id="grid_mergeCell" approved="yes">
+        <source>Combine with next cell</source>
+        <target state="translated">Kombinovat s další buňkou</target>
+      </trans-unit>
+      <trans-unit id="grid_splitCell" approved="yes">
+        <source>Split cell</source>
+        <target state="translated">Rozdělit buňku</target>
+      </trans-unit>
+      <trans-unit id="grid_name" approved="yes">
+        <source>Name</source>
+        <target state="translated">Jméno</target>
+      </trans-unit>
+      <trans-unit id="grid_column" approved="yes">
+        <source>Column number</source>
+        <target state="translated">Číslo sloupce</target>
+      </trans-unit>
+      <trans-unit id="grid_notSet" approved="yes">
+        <source>not set</source>
+        <target state="translated">není nastaveno</target>
+      </trans-unit>
+      <trans-unit id="grid_nameHelp" approved="yes">
+        <source>Enter a name for the cell.</source>
+        <target state="translated">Zadejte název buňky.</target>
+      </trans-unit>
+      <trans-unit id="grid_columnHelp" approved="yes">
+        <source>The column position defines in which area the content is rendered in the frontend.</source>
+        <target state="translated">Pozice sloupce definuje v které oblasti je obsah renderován ve frontendu.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
