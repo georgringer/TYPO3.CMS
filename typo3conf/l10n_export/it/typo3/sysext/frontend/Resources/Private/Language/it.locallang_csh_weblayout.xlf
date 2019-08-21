@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814789" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="cms" target-language="it">
+    <header/>
+    <body>
+      <trans-unit id=".alttitle" approved="yes">
+        <source>Web &gt; Page Module</source>
+        <target state="translated">Web &gt; Modulo Pagina</target>
+      </trans-unit>
+      <trans-unit id=".description" approved="yes">
+        <source>The page module is activated from the backend menu and is the primary module for all basic CMS operations you need to perform when maintaining website content.</source>
+        <target state="translated">Il modulo Pagina viene attivato dal menu di backend ed è il modulo principale con il quale effettuare tutte le operazioni di base del CMS che sono necessarie per mantenere i contenuti del sito web.</target>
+      </trans-unit>
+      <trans-unit id="_.seeAlso" xml:space="preserve" approved="yes">
+				<source>Configuring the Page module [Technical] | https://docs.typo3.org/typo3cms/TSconfigReference/PageTsconfig/TSFE/,
+xMOD_csh_corebe:history_log,
+xMOD_csh_corebe:new_ce,
+xMOD_csh_corebe:move_el_pages,
+xMOD_csh_corebe:new_pages,
+xMOD_csh_corebe:TCEforms,
+About the page module | http://typo3.org/documentation/tips-tricks/the-new-page-editing-concept/
+Editing a page | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/EditPageContent/
+The Page Module (Animation) | Using the page tree (Animation) | FILE:EXT:welcome/modsub/ani_05.gif</source>
+			<target state="translated">Configurazione modulo Pagina [Tecnico] | https://docs.typo3.org/typo3cms/TSconfigReference/PageTsconfig/TSFE/,
+xMOD_csh_corebe:history_log,
+xMOD_csh_corebe:new_ce,
+xMOD_csh_corebe:move_el_pages,
+xMOD_csh_corebe:new_pages,
+xMOD_csh_corebe:TCEforms,
+A proposito del modulo pagina | http://typo3.org/documentation/tips-tricks/the-new-page-editing-concept/
+Modifica di una pagina | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/EditPageContent/
+Il Modulo Pagina (Animazione) | Uso dell'albero delle pagine (Animazione) | FILE:EXT:welcome/modsub/ani_05.gif</target></trans-unit>
+      <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
+				<source>Click the Page module, then the title of a page in the page tree.
+The page module is now activated in the right frame, showing the content of the page you clicked in the page tree.
+These buttons are direct links to the History/Undo function (1), Create new content element wizard (2), Move page wizard (3), Create new page wizard (4) and Edit page properties form (5). See the links for more details.</source>
+			<target state="translated">Seleziona il modulo Pagina, quindi il titolo di una pagina nell'alberatura delle pagine. 
+Il modulo Pagina risulta ora attivato sulla parte destra dello schermo, e mostra i contenuti della pagina selezionata nell'alberatura.
+Questi pulsanti sono collegati direttamente alle funzioni di Cronologia/Annulla (1), Procedura guidata di creazione di un nuovo elemento di contenuto (2), Procedura guidata di spostamento della pagina (3), Procedura guidata di creazione di una nuova pagina (4) e Form di modifica delle proprietà della pagina (5). Segui i collegamenti per ulteriori dettagli.</target></trans-unit>
+      <trans-unit id="quickEdit.alttitle" approved="yes">
+        <source>Quick Edit</source>
+        <target state="translated">Modifica Veloce</target>
+      </trans-unit>
+      <trans-unit id="quickEdit.description" approved="yes">
+        <source>The Quick Editor gives you direct access to the form fields of the page content.</source>
+        <target state="translated">La Modifica Veloce ti da la possibilità di poter avere accesso diretto ai campi degli elementi di contenuto.</target>
+      </trans-unit>
+      <trans-unit id="quickEdit_selElement.alttitle" approved="yes">
+        <source>Content Elements</source>
+        <target state="translated">Elementi di Contenuto</target>
+      </trans-unit>
+      <trans-unit id="quickEdit_selElement.description" approved="yes">
+        <source>This is an overview of the content elements on this page in QuickEdit mode. Select another element to edit or click a "New" icon to create a new content element.</source>
+        <target state="translated">Questa è una panoramica degli elementi di contenuto di questa pagina in modalità Modifica Veloce. Seleziona un altro elemento per modificare o clicca sull'icona "Nuovo" per creare un nuovo elemento di contenuto.</target>
+      </trans-unit>
+      <trans-unit id="columns_2.alttitle" approved="yes">
+        <source>Listing by Language</source>
+        <target state="translated">Elenco per Lingua</target>
+      </trans-unit>
+      <trans-unit id="columns_3.alttitle" approved="yes">
+        <source>Page Information</source>
+        <target state="translated">Informazioni pagina</target>
+      </trans-unit>
+      <trans-unit id="columns_3.description" approved="yes">
+        <source>In the "Page Information" view you can see various statistics about a page.</source>
+        <target state="translated">Nella vista "Informazioni Pagina" puoi visualizzare diverse statistiche riguardanti la pagina.</target>
+      </trans-unit>
+      <trans-unit id="columns_single.alttitle" approved="yes">
+        <source>Page content elements in a single column</source>
+        <target state="translated">Elementi di contenuto di una pagina in una singola colonna</target>
+      </trans-unit>
+      <trans-unit id="columns_single.description" approved="yes">
+        <source>The single column view will show the page content elements that define the content on this page of your website. Click an edit icon or element text to edit an element.</source>
+        <target state="translated">La vista di una singola colonna mostra gli elementi di contenuto della pagina che definiscono il contenuto di questa pagina del tuo sito web. Fare clic sull'icona di modifica o sul testo dell'elemento per modificare l'elemento di contenuto.</target>
+      </trans-unit>
+      <trans-unit id="button_panel.alttitle" approved="yes">
+        <source>The "Big Buttons"</source>
+        <target state="translated">I "Grandi Pulsanti"</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
