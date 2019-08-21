@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814900" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lowlevel" target-language="ru">
+    <header/>
+    <body>
+      <trans-unit id="configuration" approved="yes">
+        <source>Configuration</source>
+        <target state="translated">Настройка</target>
+      </trans-unit>
+      <trans-unit id="cropLines" approved="yes">
+        <source>Crop lines</source>
+        <target state="translated">Перенос строк</target>
+      </trans-unit>
+      <trans-unit id="copyPaste" approved="yes">
+        <source>(Now, copy/paste this value into the configuration file where you can set it. This is all you can do from here...)</source>
+        <target state="translated">(На данный момент возможно лишь скопировать отсюда эти значения и вставить в файл для настроек...)</target>
+      </trans-unit>
+      <trans-unit id="search" approved="yes">
+        <source>Search</source>
+        <target state="translated">Поиск</target>
+      </trans-unit>
+      <trans-unit id="useRegExp" approved="yes">
+        <source>Use regular expression (phrase is surrounded by slashes automatically)</source>
+        <target state="translated">Фраза целиком</target>
+      </trans-unit>
+      <trans-unit id="writeValue" approved="yes">
+        <source>Write value to configuration file</source>
+        <target state="translated">Записать значение в файл настроек</target>
+      </trans-unit>
+      <trans-unit id="writeMessage" approved="yes">
+        <source>Following line was added to configuration file (%s): %s%s</source>
+        <target state="translated">В файл настроек была добавлена следующая строка (%s): %s%s</target>
+      </trans-unit>
+      <trans-unit id="writeMessageFailed" approved="yes">
+        <source>Write to configuration file failed (%s)!</source>
+        <target state="translated">Ошибка записи в файл настроек (%s)!</target>
+      </trans-unit>
+      <trans-unit id="databaseRelations" approved="yes">
+        <source>Database Relations</source>
+        <target state="translated">Отношения базы данных</target>
+      </trans-unit>
+      <trans-unit id="checkNow" approved="yes">
+        <source>Check now!</source>
+        <target state="translated">Проверить сейчас!</target>
+      </trans-unit>
+      <trans-unit id="searchButton" approved="yes">
+        <source>Search</source>
+        <target state="translated">Поиск</target>
+      </trans-unit>
+      <trans-unit id="count" approved="yes">
+        <source>Count</source>
+        <target state="translated">Количество</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
