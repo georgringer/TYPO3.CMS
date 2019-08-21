@@ -3,17 +3,34 @@
   <file t3:id="1415814868" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="it">
     <header/>
     <body>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</body>
+      <trans-unit id="mlang_labels_tablabel" approved="yes">
+        <source>File administration on the server</source>
+        <target state="translated">Gestione dei file sul server</target>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.isOffline" approved="yes">
+        <source>offline</source>
+        <target state="translated">non in linea</target>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.localDriverFlexform_basePath" approved="yes">
+        <source>Base path</source>
+        <target state="translated">Percorso base</target>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.localDriverFlexform_pathType" approved="yes">
+        <source>Path type</source>
+        <target state="translated">Tipo di percorso</target>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.localDriverFlexform_pathType_relative" approved="yes">
+        <source>relative</source>
+        <target state="translated">relativo</target>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.localDriverFlexform_pathType_absolute" approved="yes">
+        <source>absolute</source>
+        <target state="translated">assoluto</target>
+      </trans-unit>
+      <trans-unit id="role_folder_temporary" approved="yes">
+        <source>Temporary files</source>
+        <target state="translated">File temporanei</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
