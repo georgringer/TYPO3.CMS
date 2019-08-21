@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1420197366" source-language="en" datatype="plaintext" original="messages" date="2015-01-02T11:16:11Z" product-name="backend" target-language="cs">
+    <header/>
+    <body>
+      <trans-unit id="no_modules_registered" approved="yes">
+        <source>No modules have been registered. Please contact your system administrator.</source>
+        <target state="translated">Nebyly zaregistrovány žádné moduly. Obraťte se na správce systému.</target>
+      </trans-unit>
+      <trans-unit id="show_references" approved="yes">
+        <source>Show references</source>
+        <target state="translated">Ukázat odkazy</target>
+      </trans-unit>
+      <trans-unit id="systemmessage.header" approved="yes">
+        <source>Application Information</source>
+        <target state="translated">Informace o aplikaci</target>
+      </trans-unit>
+      <trans-unit id="systemmessage.allgood" xml:space="preserve" approved="yes">
+				<source>Your system is fully operational.
+Have a nice day.</source>
+			<target state="translated">Váš systém je plně funkční.
+Hezký den.</target></trans-unit>
+      <trans-unit id="config.loginLogo" approved="yes">
+        <source>Logo: If set, this logo will be used instead of the TYPO3 logo above the login credential fields (e.g. fileadmin/images/login-logo.png or EXT:my_theme/Resources/Public/Images/login-logo.png or //domain.tld/login-logo.png)</source>
+        <target state="translated">Logo: Je-li nastaveno, použije se toto logo namísto loga TYPO3 nad poli přihlašovacích pověření (např. fileadmin/images/prihlaseni-logo.png nebo EXT:moje_tema/Resources/Public/Images/prihlaseni-logo.png or //domena.tld/prihlaseni-logo.png)</target>
+      </trans-unit>
+      <trans-unit id="config.loginHighlightColor" approved="yes">
+        <source>Highlight Color: If set, this color will be used as highlight color in the login screen.</source>
+        <target state="translated">Barva zvýraznění: Je-li nastavena, bude tato barva na přihlašovací obrazovce použita jako barva zvýraznění.</target>
+      </trans-unit>
+      <trans-unit id="config.backendLogo" approved="yes">
+        <source>Logo: If set, this logo will be used instead of the TYPO3 logo in the TYPO3 Backend in the left top corner (e.g. fileadmin/images/backend-logo.png or EXT:my_theme/Resources/Public/Images/backend-logo.png</source>
+        <target state="translated">Logo: Je-li nastaveno, použije se toto logo namísto loga TYPO3 v TYPO3 Backend v levém horním rohu (např. fileadmin/ images/backend-logo.png nebo EXT:moje_tema/Resources/Public/Images/backend-logo.png).</target>
+      </trans-unit>
+      <trans-unit id="config.backendFavicon" approved="yes">
+        <source>Favicon: If set, this favicon will be used instead of the TYPO3 logo (e.g. EXT:my_theme/Resources/Public/Images/favicon.ico)</source>
+        <target state="translated">Favicon: Je-li nastaven, použije se favicon místo loga TYPO3 (např. EXT:moje_tema/Resources/Public/Images/favicon.ico)</target>
+      </trans-unit>
+      <trans-unit id="foldertreeview.noFolders.title" approved="yes">
+        <source>No folders available</source>
+        <target state="translated">Žádné složky nejsou k dispozici</target>
+      </trans-unit>
+      <trans-unit id="foldertreeview.noFolders.message" approved="yes">
+        <source>You do not have access to any folder. Please ask your administrator to fix access permissions for your account.</source>
+        <target state="translated">Nemáte přístup k žádné složce. Požádejte prosím administrátora, aby pro váš účet opravil oprávnění k přístupu.</target>
+      </trans-unit>
+      <trans-unit id="login.link" approved="yes">
+        <source>Login with username and password</source>
+        <target state="translated">Přihlášení pomocí uživatelského jména a hesla</target>
+      </trans-unit>
+      <trans-unit id="login.username" approved="yes">
+        <source>Username</source>
+        <target state="translated">Jméno uživatele</target>
+      </trans-unit>
+      <trans-unit id="login.password" approved="yes">
+        <source>Password</source>
+        <target state="translated">Heslo</target>
+      </trans-unit>
+      <trans-unit id="login.error.capslock" approved="yes">
+        <source>Attention: Caps lock enabled!</source>
+        <target state="translated">Upozornění: Caps lock je zapnut!</target>
+      </trans-unit>
+      <trans-unit id="login.interface" approved="yes">
+        <source>Interface</source>
+        <target state="translated">Rozhraní</target>
+      </trans-unit>
+      <trans-unit id="login.news.previous" approved="yes">
+        <source>Previous</source>
+        <target state="translated">Předchozí</target>
+      </trans-unit>
+      <trans-unit id="login.news.next" approved="yes">
+        <source>Next</source>
+        <target state="translated">Další</target>
+      </trans-unit>
+      <trans-unit id="login.error.message" approved="yes">
+        <source>Your login attempt did not succeed</source>
+        <target state="translated">Váš pokus o přihlášení se nezdařil</target>
+      </trans-unit>
+      <trans-unit id="login.error.description" approved="yes">
+        <source>Make sure to spell your username and password correctly, including upper/lowercase characters.</source>
+        <target state="translated">Ujistěte se, že správně zadáte své uživatelské jméno a heslo včetně malých a velkých písmen.</target>
+      </trans-unit>
+      <trans-unit id="login.error.javascript" approved="yes">
+        <source>Please activate JavaScript!</source>
+        <target state="translated">Aktivujte prosím JavaScript!</target>
+      </trans-unit>
+      <trans-unit id="login.error.cookies" approved="yes">
+        <source>Please activate Cookies!</source>
+        <target state="translated">Aktivujte prosím soubory cookie!</target>
+      </trans-unit>
+      <trans-unit id="login.process" approved="yes">
+        <source>Verifying Login Data ...</source>
+        <target state="translated">Ověřování dat přihlášení ...</target>
+      </trans-unit>
+      <trans-unit id="login.submit" approved="yes">
+        <source>Login</source>
+        <target state="translated">Přihlášení</target>
+      </trans-unit>
+      <trans-unit id="login.copyrightLink" approved="yes">
+        <source>More about TYPO3</source>
+        <target state="translated">Více o TYPO3</target>
+      </trans-unit>
+      <trans-unit id="login.donate" approved="yes">
+        <source>Donate</source>
+        <target state="translated">Darujte</target>
+      </trans-unit>
+      <trans-unit id="button.showPageTsConfig" approved="yes">
+        <source>Show PageTS-Config</source>
+        <target state="translated">Ukázat TSconfig stránky</target>
+      </trans-unit>
+      <trans-unit id="button.hidePageTsConfig" approved="yes">
+        <source>Hide PageTS-Config</source>
+        <target state="translated">Skrýt TSconfig stránky</target>
+      </trans-unit>
+      <trans-unit id="formEngine.databaseRecordErrorInlineChildChild" approved="yes">
+        <source>The record with uid %2$s from table %1$s could not be retrieved from the database. This data incosistency can occur if
+				a base record has been deleted but the intermediate record from table %3$s with uid %4$s still points to it. To fix
+				this situation, either delete the intermediate record, or recover the deleted record using the recycler module.
+				</source>
+        <target state="translated">Záznam s uid %2$s z tabulky %1$s nelze načíst z databáze. K této nekonzistenci dat může dojít, pokud byl odstraněn základní záznam, ale přechodný záznam z tabulky %3$s s uid %4$s na něj stále odkazuje. Chcete-li tuto situaci vyřešit, buď vymažte přechodný záznam nebo obnovte odstraněný záznam pomocí modulu pro recyklaci.
+				</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
