@@ -3,6 +3,14 @@
   <file t3:id="1440157535" source-language="en" datatype="plaintext" original="messages" date="2015-08-21T11:45:35Z" product-name="filelist" target-language="fr">
     <header/>
     <body>
+      <trans-unit id="search" approved="yes">
+        <source>Search</source>
+        <target state="translated">Rechercher</target>
+      </trans-unit>
+      <trans-unit id="flashmessage.no_results" approved="yes">
+        <source>No results found</source>
+        <target state="translated">Aucun résultat trouvé</target>
+      </trans-unit>
       <trans-unit id="file_rename.exists.description">
         <source>You want to rename the file "{0}" to "{1}", but such a file already exists. How do you want to
 					proceed?
