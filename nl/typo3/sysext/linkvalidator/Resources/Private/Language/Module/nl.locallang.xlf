@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814894" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="linkvalidator" target-language="nl">
+    <header/>
+    <body>
+      <trans-unit id="linkvalidator" approved="yes">
+        <source>Link validator</source>
+        <target state="translated">Linkvalidator</target>
+      </trans-unit>
+      <trans-unit id="menu.introduction" approved="yes">
+        <source>Introduction</source>
+        <target state="translated">Introductie</target>
+      </trans-unit>
+      <trans-unit id="menu.checkLinks" approved="yes">
+        <source>Check Links for validity</source>
+        <target state="translated">Links op geldigheid controleren</target>
+      </trans-unit>
+      <trans-unit id="menu.overview" approved="yes">
+        <source>Overview of links on website</source>
+        <target state="translated">Overzicht van links op de website</target>
+      </trans-unit>
+      <trans-unit id="overview.header" approved="yes">
+        <source>Overview - choose options to check the links</source>
+        <target state="translated">Overzicht - kies opties om de links te controleren</target>
+      </trans-unit>
+      <trans-unit id="overview.all.header" approved="yes">
+        <source>Total amounts in tt_content</source>
+        <target state="translated">Totaal aantal in tt_content</target>
+      </trans-unit>
+      <trans-unit id="overview.all.records" approved="yes">
+        <source>Records with ext. links</source>
+        <target state="translated">Records met ext. links</target>
+      </trans-unit>
+      <trans-unit id="overview.all.links" approved="yes">
+        <source>External links</source>
+        <target state="translated">Externe links</target>
+      </trans-unit>
+      <trans-unit id="overview.branch.header" approved="yes">
+        <source>Amounts from actual branch in tt_content</source>
+        <target state="translated">Aantallen van de huidige deelboom in tt_content</target>
+      </trans-unit>
+      <trans-unit id="overview.branch.records" approved="yes">
+        <source>Records with ext. links</source>
+        <target state="translated">Records met externe links</target>
+      </trans-unit>
+      <trans-unit id="overview.branch.links" approved="yes">
+        <source>External links</source>
+        <target state="translated">Externe links</target>
+      </trans-unit>
+      <trans-unit id="overview.attention.header" approved="yes">
+        <source>Attention</source>
+        <target state="translated">Let op</target>
+      </trans-unit>
+      <trans-unit id="overview.attention.text" approved="yes">
+        <source>Checking links may take up to several minutes. Checking ONE link can last up to 3 seconds.</source>
+        <target state="translated">Het controleren van links kan enkele minuten duren. Het controleren van een enkele link kan tot 3 seconde duren.</target>
+      </trans-unit>
+      <trans-unit id="Report" approved="yes">
+        <source>Report</source>
+        <target state="translated">Rapportage</target>
+      </trans-unit>
+      <trans-unit id="CheckLink" approved="yes">
+        <source>Check Links</source>
+        <target state="translated">Links controleren</target>
+      </trans-unit>
+      <trans-unit id="report.statistics.header" approved="yes">
+        <source>Show these types of broken links</source>
+        <target state="translated">Deze types defecte links tonen</target>
+      </trans-unit>
+      <trans-unit id="checklinks.statistics.header" approved="yes">
+        <source>Check these types of broken links</source>
+        <target state="translated">Deze types defecte links controleren</target>
+      </trans-unit>
+      <trans-unit id="report.func.title" approved="yes">
+        <source>Show this level</source>
+        <target state="translated">Dit niveau tonen</target>
+      </trans-unit>
+      <trans-unit id="checklinks.func.title" approved="yes">
+        <source>Check this level</source>
+        <target state="translated">Dit niveau controleren</target>
+      </trans-unit>
+      <trans-unit id="overviews.nbtotal" approved="yes">
+        <source>Broken links total</source>
+        <target state="translated">Totaal defecte links</target>
+      </trans-unit>
+      <trans-unit id="hooks.db" approved="yes">
+        <source>Internal Links</source>
+        <target state="translated">Interne links</target>
+      </trans-unit>
+      <trans-unit id="hooks.file" approved="yes">
+        <source>File Links</source>
+        <target state="translated">Links naar bestanden</target>
+      </trans-unit>
+      <trans-unit id="hooks.external" approved="yes">
+        <source>External Links</source>
+        <target state="translated">Externe links</target>
+      </trans-unit>
+      <trans-unit id="hooks.linkhandler" approved="yes">
+        <source>Linkhandler Links</source>
+        <target state="translated">Linkhandler links</target>
+      </trans-unit>
+      <trans-unit id="label_refresh" approved="yes">
+        <source>Refresh display</source>
+        <target state="translated">Verversen</target>
+      </trans-unit>
+      <trans-unit id="label_update" approved="yes">
+        <source>Check links</source>
+        <target state="translated">Links controleren</target>
+      </trans-unit>
+      <trans-unit id="list.header" approved="yes">
+        <source>Listing of broken links</source>
+        <target state="translated">Lijst met defecte links</target>
+      </trans-unit>
+      <trans-unit id="list.tableHead.path" approved="yes">
+        <source>Path</source>
+        <target state="translated">Pad</target>
+      </trans-unit>
+      <trans-unit id="list.tableHead.linktarget" approved="yes">
+        <source>URL / Link Target</source>
+        <target state="translated">URL / Doel van link</target>
+      </trans-unit>
+      <trans-unit id="list.tableHead.linkmessage" approved="yes">
+        <source>Error message</source>
+        <target state="translated">Foutmelding</target>
+      </trans-unit>
+      <trans-unit id="list.tableHead.lastCheck" approved="yes">
+        <source>Last check</source>
+        <target state="translated">Laatste link</target>
+      </trans-unit>
+      <trans-unit id="list.edit" approved="yes">
+        <source>Edit element containing this broken link</source>
+        <target state="translated">Element met defecte link bewerken</target>
+      </trans-unit>
+      <trans-unit id="list.field" approved="yes">
+        <source>(Field: %s)</source>
+        <target state="translated">(Veld: %s)</target>
+      </trans-unit>
+      <trans-unit id="list.no.headline" approved="yes">
+        <source>no headline</source>
+        <target state="translated">geen kopregel</target>
+      </trans-unit>
+      <trans-unit id="list.report.pagedeleted" approved="yes">
+        <source>Page '###title###' (###uid###) is deleted.</source>
+        <target state="translated">Pagina '###title###' (###uid###) is verwijderd.</target>
+      </trans-unit>
+      <trans-unit id="list.report.pagenotvisible" approved="yes">
+        <source>Page '###title###' (###uid###) is not visible.</source>
+        <target state="translated">Pagina '###title###' (###uid###) is niet zichtbaar.</target>
+      </trans-unit>
+      <trans-unit id="list.report.pagenotexisting" approved="yes">
+        <source>Page (###uid###) does not exist.</source>
+        <target state="translated">Pagina (###uid###) bestaat niet.</target>
+      </trans-unit>
+      <trans-unit id="list.report.contentmoved" approved="yes">
+        <source>Element '###title###' (###uid###) is not located on page ###wrongpage###, but on page ###rightpage###.</source>
+        <target state="translated">Element '###title###' (###uid###) bevindt zich niet op pagina ###wrongpage###, maar op pagina ###rightpage###.</target>
+      </trans-unit>
+      <trans-unit id="list.report.contentdeleted" approved="yes">
+        <source>Element '###title###' (###uid###) is deleted.</source>
+        <target state="translated">Element '###title###' (###uid###) is verwijderd.</target>
+      </trans-unit>
+      <trans-unit id="list.report.contentnotvisible" approved="yes">
+        <source>Element '###title###' (###uid###) is not visible.</source>
+        <target state="translated">Element '###title###' (###uid###) is niet zichtbaar.</target>
+      </trans-unit>
+      <trans-unit id="list.report.contentnotexisting" approved="yes">
+        <source>Element (###uid###) does not exist.</source>
+        <target state="translated">Element (###uid###) bestaat niet.</target>
+      </trans-unit>
+      <trans-unit id="list.report.rownotvisible" approved="yes">
+        <source>###title### row (###uid###) is not visible.</source>
+        <target state="translated">Regel '###title###' (###uid###) is niet zichtbaar.</target>
+      </trans-unit>
+      <trans-unit id="list.report.rowdeleted" approved="yes">
+        <source>###title### row (###uid###) is deleted.</source>
+        <target state="translated">Regel ###title### (###uid###) is verwijderd.</target>
+      </trans-unit>
+      <trans-unit id="list.report.rowdeleted.default.title" approved="yes">
+        <source>Linked</source>
+        <target state="translated">Gelinkt</target>
+      </trans-unit>
+      <trans-unit id="list.report.rownotexisting" approved="yes">
+        <source>Row (###uid###) does not exist.</source>
+        <target state="translated">Regel (###uid###) bestaat niet.</target>
+      </trans-unit>
+      <trans-unit id="list.report.noinformation" approved="yes">
+        <source>No information about the error is available.</source>
+        <target state="translated">Er is geen informatie over de fout beschikbaar.</target>
+      </trans-unit>
+      <trans-unit id="list.report.noresponse" approved="yes">
+        <source>External Link not reachable.</source>
+        <target state="translated">Externe link is niet te bereiken.</target>
+      </trans-unit>
+      <trans-unit id="list.report.redirectloop" approved="yes">
+        <source>A redirect loop occurred. (%s: %s)</source>
+        <target state="translated">Er is een doorverwijzingslus opgetreden (%s: %s)</target>
+      </trans-unit>
+      <trans-unit id="list.report.pageforbidden403" approved="yes">
+        <source>Accessing this address is not allowed (403).</source>
+        <target state="translated">Toegang tot deze URL is niet toegestaan (403).</target>
+      </trans-unit>
+      <trans-unit id="list.report.pagenotfound404" approved="yes">
+        <source>The requested url was not found (404).</source>
+        <target state="translated">De gevraagde URL is niet gevonden (404).</target>
+      </trans-unit>
+      <trans-unit id="list.report.externalerror" approved="yes">
+        <source>External Link returned HTTP error code (%s).</source>
+        <target state="translated">Externe link gaf een HTTP foutcode (%s).</target>
+      </trans-unit>
+      <trans-unit id="list.report.filenotexisting" approved="yes">
+        <source>File doesn't exist.</source>
+        <target state="translated">Bestand bestaat niet.</target>
+      </trans-unit>
+      <trans-unit id="list.report.timeout" approved="yes">
+        <source>Operation timeout. The specified time-out period was reached according to the conditions.</source>
+        <target state="translated">Bewerking duurde te lang. De ingestelde periode werd overschreden.</target>
+      </trans-unit>
+      <trans-unit id="list.report.internalerror500" approved="yes">
+        <source>Internal Server Error (500)</source>
+        <target state="translated">Interne serverfout (500)</target>
+      </trans-unit>
+      <trans-unit id="list.report.couldnotresolvehost" approved="yes">
+        <source>Could not resolve host. The given remote host was not resolved.</source>
+        <target state="translated">Can de host niet vinden.</target>
+      </trans-unit>
+      <trans-unit id="list.report.errornetworkdata" approved="yes">
+        <source>Failure with receiving network data.</source>
+        <target state="translated">Fout bij het ontvangen van netwerkdata.</target>
+      </trans-unit>
+      <trans-unit id="list.report.otherhttpcode" approved="yes">
+        <source>An error occurred (%s): "%s".</source>
+        <target state="translated">Een fout is opgetreden (%s): "%s".</target>
+      </trans-unit>
+      <trans-unit id="list.report.httpexception" approved="yes">
+        <source>Exception: %s</source>
+        <target state="translated">Uitzondering: %s</target>
+      </trans-unit>
+      <trans-unit id="list.report.networkexception" approved="yes">
+        <source>Network error / invalid domain</source>
+        <target state="translated">Netwerkfout / ongelidg domein</target>
+      </trans-unit>
+      <trans-unit id="list.msg.ok" approved="yes">
+        <source>Ok</source>
+        <target state="translated">OK</target>
+      </trans-unit>
+      <trans-unit id="list.no.broken.links.title" approved="yes">
+        <source>No broken links to show!</source>
+        <target state="translated">Geen defecte links om te tonen!</target>
+      </trans-unit>
+      <trans-unit id="list.no.broken.links" approved="yes">
+        <source>There are no broken links to be displayed.</source>
+        <target state="translated">Er zijn geen defecte links om af te beelden.</target>
+      </trans-unit>
+      <trans-unit id="no.access.title" approved="yes">
+        <source>No access!</source>
+        <target state="translated">Geen toegang!</target>
+      </trans-unit>
+      <trans-unit id="no.access" approved="yes">
+        <source>You do not have access to these listings.</source>
+        <target state="translated">Geen toegang tot deze lijst.</target>
+      </trans-unit>
+      <trans-unit id="label_update-link-list" approved="yes">
+        <source>Checking links, please stand by.</source>
+        <target state="translated">Links worden gecontroleerd, dit kan even duren.</target>
+      </trans-unit>
+      <trans-unit id="label_refresh-link-list" approved="yes">
+        <source>Refreshing link list, please stand by.</source>
+        <target state="translated">Lijst met links wordt bijgewerkt, dit kan even duren.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
