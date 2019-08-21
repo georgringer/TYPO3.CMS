@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814838" source-language="en" datatype="plaintext" original="messages" date="2011-12-18T10:19:20Z" product-name="indexed_search" target-language="ru">
+    <header/>
+    <body>
+      <trans-unit id="localizedOperandAnd" approved="yes">
+        <source>AND</source>
+        <target state="translated">И</target>
+      </trans-unit>
+      <trans-unit id="localizedOperandOr" approved="yes">
+        <source>OR</source>
+        <target state="translated">ИЛИ</target>
+      </trans-unit>
+      <trans-unit id="localizedOperandNot" approved="yes">
+        <source>NOT</source>
+        <target state="translated">НЕ</target>
+      </trans-unit>
+      <trans-unit id="rules.headline" approved="yes">
+        <source>Rules</source>
+        <target state="translated">Правила</target>
+      </trans-unit>
+      <trans-unit id="rules.text" xml:space="preserve" approved="yes">
+				<source><![CDATA[Only words with 2 or more characters are accepted<br />
+Max 200 chars total<br />
+Space is used to split words, "" can be used to search for a whole string (not indexed search then)<br />
+AND, OR and NOT are prefix words, overruling the default operator<br />
++/|/- equals AND, OR and NOT as operators.<br />
+All search words are converted to lowercase.
+]]></source>
+			<target state="translated"><![CDATA[Воспринимаются лишь слова с двумя и более символами&lt;br /&gt;
+Общее максимальное количество символов 200&lt;br /&gt;
+Для разделения слов используются пробелы, "" можно использовать для поиска целой строки (это не поиск индексов)&lt;br /&gt;
+И, ИЛИ и НЕ — слова префиксы, переназначающие операторы по умолчанию&lt;br /&gt;
++/|/- эквивалентно операторам И, ИЛИ и НЕ.&lt;br /&gt;
+Все искомые слова переводятся в нижний регистр.
+]]></target></trans-unit>
+      <trans-unit id="form.legend" approved="yes">
+        <source>Search form</source>
+        <target state="translated">Форма поиска</target>
+      </trans-unit>
+      <trans-unit id="form.searchFor" approved="yes">
+        <source>Search for</source>
+        <target state="translated">Поиск по</target>
+      </trans-unit>
+      <trans-unit id="form.extResume" approved="yes">
+        <source>Extended resume</source>
+        <target state="translated">Развёрнутое резюме</target>
+      </trans-unit>
+      <trans-unit id="form.atATime" approved="yes">
+        <source>at a time</source>
+        <target state="translated">за время</target>
+      </trans-unit>
+      <trans-unit id="form.orderBy" approved="yes">
+        <source>Order by</source>
+        <target state="translated">Порядок</target>
+      </trans-unit>
+      <trans-unit id="form.fromSection" approved="yes">
+        <source>From section</source>
+        <target state="translated">Из раздела</target>
+      </trans-unit>
+      <trans-unit id="form.freeIndexUid" approved="yes">
+        <source>Category</source>
+        <target state="translated">Категория</target>
+      </trans-unit>
+      <trans-unit id="form.searchIn" approved="yes">
+        <source>Search in</source>
+        <target state="translated">Поиск в</target>
+      </trans-unit>
+      <trans-unit id="form.match" approved="yes">
+        <source>Match</source>
+        <target state="translated">Соответствие</target>
+      </trans-unit>
+      <trans-unit id="form.style" approved="yes">
+        <source>Style</source>
+        <target state="translated">Стиль</target>
+      </trans-unit>
+      <trans-unit id="form.submit" approved="yes">
+        <source>Search</source>
+        <target state="translated">Поиск</target>
+      </trans-unit>
+      <trans-unit id="form.addToSearch" approved="yes">
+        <source>Add to current search words</source>
+        <target state="translated">Добавить к искомым словам</target>
+      </trans-unit>
+      <trans-unit id="form.linkToRegularSearch" approved="yes">
+        <source>Regular search</source>
+        <target state="translated">Обычный поиск</target>
+      </trans-unit>
+      <trans-unit id="form.linkToAdvancedSearch" approved="yes">
+        <source>Advanced search</source>
+        <target state="translated">Настраиваемый поиск</target>
+      </trans-unit>
+      <trans-unit id="defaultOperands.0" approved="yes">
+        <source>All words (AND)</source>
+        <target state="translated">Все слова (И)</target>
+      </trans-unit>
+      <trans-unit id="defaultOperands.1" approved="yes">
+        <source>Any words (OR)</source>
+        <target state="translated">Любое из слов (ИЛИ)</target>
+      </trans-unit>
+      <trans-unit id="languageUids.-1" approved="yes">
+        <source>All languages</source>
+        <target state="translated">Все языки</target>
+      </trans-unit>
+      <trans-unit id="languageUids.0" approved="yes">
+        <source>Default</source>
+        <target state="translated">По умолчанию</target>
+      </trans-unit>
+      <trans-unit id="sections.0" approved="yes">
+        <source>Whole site</source>
+        <target state="translated">Сайт целиком</target>
+      </trans-unit>
+      <trans-unit id="sections.-1" approved="yes">
+        <source>Only this page</source>
+        <target state="translated">Только на этой странице</target>
+      </trans-unit>
+      <trans-unit id="sections.-2" approved="yes">
+        <source>Top + level 1</source>
+        <target state="translated">Основной + 1 уровень</target>
+      </trans-unit>
+      <trans-unit id="sections.-3" approved="yes">
+        <source>Level 2 and out</source>
+        <target state="translated">Уровень 2 и выше</target>
+      </trans-unit>
+      <trans-unit id="mediaTypes.0" approved="yes">
+        <source>Internal pages</source>
+        <target state="translated">Внутренние страницы</target>
+      </trans-unit>
+      <trans-unit id="mediaTypes.-1" approved="yes">
+        <source>All media</source>
+        <target state="translated">Все медиа</target>
+      </trans-unit>
+      <trans-unit id="mediaTypes.-2" approved="yes">
+        <source>All External</source>
+        <target state="translated">Все внешние</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurations.-1" approved="yes">
+        <source>All, mixed</source>
+        <target state="translated">Все, вперемешку</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurations.-2" approved="yes">
+        <source>All, categorized</source>
+        <target state="translated">Все, по категориям</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurationHeader.-1" approved="yes">
+        <source>Mixed categories</source>
+        <target state="translated">Различные категории</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurationHeader.0" approved="yes">
+        <source>Website Pages</source>
+        <target state="translated">Страницы сайта</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_flag" approved="yes">
+        <source>Weight/Frequency</source>
+        <target state="translated">Вес/частота</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_freq" approved="yes">
+        <source>Frequency</source>
+        <target state="translated">Частота</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_first" approved="yes">
+        <source>Close to top</source>
+        <target state="translated">Ближе к началу</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_count" approved="yes">
+        <source>Number of words</source>
+        <target state="translated">Количество слов</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.mtime" approved="yes">
+        <source>Date Modified</source>
+        <target state="translated">Дата изменения</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.title" approved="yes">
+        <source>Document title</source>
+        <target state="translated">Заголовок документа</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.crdate" approved="yes">
+        <source>Creation date</source>
+        <target state="translated">Дата создания</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.descending" approved="yes">
+        <source>Highest first</source>
+        <target state="translated">Сначала большие</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.ascending" approved="yes">
+        <source>Lowest first</source>
+        <target state="translated">Сначала меньшие</target>
+      </trans-unit>
+      <trans-unit id="groupBy.sections" approved="yes">
+        <source>Section hierarchy</source>
+        <target state="translated">Иерархия разделов</target>
+      </trans-unit>
+      <trans-unit id="groupBy.flat" approved="yes">
+        <source>Flat list</source>
+        <target state="translated">Простой список</target>
+      </trans-unit>
+      <trans-unit id="result.page" approved="yes">
+        <source>page</source>
+        <target state="translated">страница</target>
+      </trans-unit>
+      <trans-unit id="result.pages" approved="yes">
+        <source>pages</source>
+        <target state="translated">страницы</target>
+      </trans-unit>
+      <trans-unit id="result.unnamedSection" approved="yes">
+        <source>Other</source>
+        <target state="translated">Другое</target>
+      </trans-unit>
+      <trans-unit id="result.otherMatching" approved="yes">
+        <source>Other matching pages in the same document</source>
+        <target state="translated">Другие соответствующие страницы того же документа:</target>
+      </trans-unit>
+      <trans-unit id="result.otherPageAsWell" approved="yes">
+        <source>INFO: There was another page indexed as well. Probably indexed with another or no usergroup.</source>
+        <target state="translated">ИНФОРМАЦИЯ: имеются и другие проиндексированные страницы. Возможно индексация другой группой пользователей или без групп.</target>
+      </trans-unit>
+      <trans-unit id="result.path" approved="yes">
+        <source>Path</source>
+        <target state="translated">Путь:</target>
+      </trans-unit>
+      <trans-unit id="result.modified" approved="yes">
+        <source>Modified</source>
+        <target state="translated">Изменено:</target>
+      </trans-unit>
+      <trans-unit id="result.created" approved="yes">
+        <source>Created</source>
+        <target state="translated">Создано:</target>
+      </trans-unit>
+      <trans-unit id="result.size" approved="yes">
+        <source>Size</source>
+        <target state="translated">Размер:</target>
+      </trans-unit>
+      <trans-unit id="result.noResume" approved="yes">
+        <source>Note: This search hit may not accurately match the content on this page. The page resume cannot be shown.</source>
+        <target state="translated">Замечание: эта выдача может не вполне соответствовать содержимому этой страницы. Невозможно показать анонс страницы.</target>
+      </trans-unit>
+      <trans-unit id="result.memberGroups" approved="yes">
+        <source>Require membership of group numbers %s</source>
+        <target state="translated">Требуется членство в группе номер %s</target>
+      </trans-unit>
+      <trans-unit id="result.ratingMatches" approved="yes">
+        <source>matches</source>
+        <target state="translated">соответствия</target>
+      </trans-unit>
+      <trans-unit id="result.noResult" approved="yes">
+        <source>No results found.</source>
+        <target state="translated">Результаты отсутствуют.</target>
+      </trans-unit>
+      <trans-unit id="result.inSection" approved="yes">
+        <source>in the section</source>
+        <target state="translated">в разделе</target>
+      </trans-unit>
+      <trans-unit id="result.inNsection" approved="yes">
+        <source>in %s section</source>
+        <target state="translated">в %s разделе:</target>
+      </trans-unit>
+      <trans-unit id="result.inNsections" approved="yes">
+        <source>in %s sections</source>
+        <target state="translated">в %s разделах:</target>
+      </trans-unit>
+      <trans-unit id="searchFor" approved="yes">
+        <source>Search for</source>
+        <target state="translated">Поиск по</target>
+      </trans-unit>
+      <trans-unit id="searchFor.or" approved="yes">
+        <source>or</source>
+        <target state="translated">или</target>
+      </trans-unit>
+      <trans-unit id="searchFor.and" approved="yes">
+        <source>and</source>
+        <target state="translated">и</target>
+      </trans-unit>
+      <trans-unit id="searchFor.andnot" approved="yes">
+        <source>but not</source>
+        <target state="translated">но не</target>
+      </trans-unit>
+      <trans-unit id="displayResults.previous" approved="yes">
+        <source>&lt; Previous</source>
+        <target state="translated">&lt; назад</target>
+      </trans-unit>
+      <trans-unit id="displayResults.page" approved="yes">
+        <source>Page</source>
+        <target state="translated">страница</target>
+      </trans-unit>
+      <trans-unit id="displayResults.next" approved="yes">
+        <source>Next &gt;</source>
+        <target state="translated">далее &gt;</target>
+      </trans-unit>
+      <trans-unit id="displayResults" approved="yes">
+        <source><![CDATA[Displaying results <strong>%1$s to %2$s</strong> out of <strong>%3$s</strong>]]></source>
+        <target state="translated"><![CDATA[Выведены результаты от &lt;strong&gt;%1$s до %2$s&lt;/strong&gt; из &lt;strong&gt;%3$s&lt;/strong&gt;]]></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
