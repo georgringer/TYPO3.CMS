@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814882" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="fr">
+    <header/>
+    <body>
+      <trans-unit id="ch_permissions" approved="yes">
+        <source>Change permissions</source>
+        <target state="translated">Modifier les permissions</target>
+      </trans-unit>
+      <trans-unit id="Legend" approved="yes">
+        <source>Legend</source>
+        <target state="translated">Légende</target>
+      </trans-unit>
+      <trans-unit id="Owner" approved="yes">
+        <source>Owner</source>
+        <target state="translated">Propriétaire</target>
+      </trans-unit>
+      <trans-unit id="Group" approved="yes">
+        <source>Group</source>
+        <target state="translated">Groupe</target>
+      </trans-unit>
+      <trans-unit id="Everybody" approved="yes">
+        <source>Everybody</source>
+        <target state="translated">Tout le monde</target>
+      </trans-unit>
+      <trans-unit id="EditLock" approved="yes">
+        <source>Lock</source>
+        <target state="translated">Verrouiller</target>
+      </trans-unit>
+      <trans-unit id="EditLock_descr" approved="yes">
+        <source>Disable the »Admin-only« edit lock for this page. Currently this page and all content is locked for editing by all non-Admin users.</source>
+        <target state="translated">La page et tous les contenus sont verrouillés à l'édition pour tous les utilisateurs non admin.</target>
+      </trans-unit>
+      <trans-unit id="EditLock_descr2" approved="yes">
+        <source>Enable the »Admin-only« edit lock for this page</source>
+        <target state="translated">Activer le verrouillage d'édition "Seulement pour les admins" pour cette page</target>
+      </trans-unit>
+      <trans-unit id="Save" approved="yes">
+        <source>Save</source>
+        <target state="translated">Enregistrer</target>
+      </trans-unit>
+      <trans-unit id="Abort" approved="yes">
+        <source>Abort</source>
+        <target state="translated">Annuler</target>
+      </trans-unit>
+      <trans-unit id="Edit" approved="yes">
+        <source>EDIT</source>
+        <target state="translated">ÉDITION</target>
+      </trans-unit>
+      <trans-unit id="recursive" approved="yes">
+        <source>Set recursively</source>
+        <target state="translated">Définir récursivement</target>
+      </trans-unit>
+      <trans-unit id="page_affected" approved="yes">
+        <source>page affected</source>
+        <target state="translated">Page affectée</target>
+      </trans-unit>
+      <trans-unit id="pages_affected" approved="yes">
+        <source>pages affected</source>
+        <target state="translated">Pages affectées</target>
+      </trans-unit>
+      <trans-unit id="user_overview" approved="yes">
+        <source>User overview</source>
+        <target state="translated">Aperçu utilisateur</target>
+      </trans-unit>
+      <trans-unit id="Depth" approved="yes">
+        <source>Depth</source>
+        <target state="translated">Profondeur</target>
+      </trans-unit>
+      <trans-unit id="level" approved="yes">
+        <source>level</source>
+        <target state="translated">niveau</target>
+      </trans-unit>
+      <trans-unit id="levels" approved="yes">
+        <source>levels</source>
+        <target state="translated">niveaux</target>
+      </trans-unit>
+      <trans-unit id="User" approved="yes">
+        <source>User</source>
+        <target state="translated">Utilisateur</target>
+      </trans-unit>
+      <trans-unit id="def" approved="yes">
+        <source>Definition: 'content' is records from all tables on a page - except from records from the table 'pages' (Pages).</source>
+        <target state="translated">Définition : 'contenu' est un enregistrement pour toutes les tables d'une page - excepté les enregistrements de la table 'pages' (Pages).</target>
+      </trans-unit>
+      <trans-unit id="A_Granted" approved="yes">
+        <source>Access Granted</source>
+        <target state="translated">Accès autorisé</target>
+      </trans-unit>
+      <trans-unit id="A_Denied" approved="yes">
+        <source>Access Denied</source>
+        <target state="translated">Accès refusé</target>
+      </trans-unit>
+      <trans-unit id="1" approved="yes">
+        <source>Show page</source>
+        <target state="translated">Afficher la page</target>
+      </trans-unit>
+      <trans-unit id="16" approved="yes">
+        <source>Edit content</source>
+        <target state="translated">Editer le contenu</target>
+      </trans-unit>
+      <trans-unit id="2" approved="yes">
+        <source>Edit page</source>
+        <target state="translated">Editer la page</target>
+      </trans-unit>
+      <trans-unit id="4" approved="yes">
+        <source>Delete page</source>
+        <target state="translated">Supprimer la page</target>
+      </trans-unit>
+      <trans-unit id="8" approved="yes">
+        <source>New pages</source>
+        <target state="translated">Nouvelles pages</target>
+      </trans-unit>
+      <trans-unit id="1_t" approved="yes">
+        <source>Show/Copy page and content.</source>
+        <target state="translated">Afficher/Copier la page et le contenu.</target>
+      </trans-unit>
+      <trans-unit id="16_t" approved="yes">
+        <source>Change/Add/Delete/Move content.</source>
+        <target state="translated">Modifier/Ajouter/Supprimer/Déplacer le contenu.</target>
+      </trans-unit>
+      <trans-unit id="2_t" approved="yes">
+        <source>Change page eg. change pagetitle etc.</source>
+        <target state="translated">Modifier la page, par ex. changer le titre de la page, etc.</target>
+      </trans-unit>
+      <trans-unit id="4_t" approved="yes">
+        <source>Delete/Move page and content.</source>
+        <target state="translated">Supprimer/déplacer la page et le contenu.</target>
+      </trans-unit>
+      <trans-unit id="8_t" approved="yes">
+        <source>Create new pages under this page.</source>
+        <target state="translated">Créer de nouvelles pages sous cette page.</target>
+      </trans-unit>
+      <trans-unit id="mlang_labels_tablabel" approved="yes">
+        <source>Page editing permissions</source>
+        <target state="translated">Permissions d'édition de la page</target>
+      </trans-unit>
+      <trans-unit id="mlang_labels_tabdescr" approved="yes">
+        <source>Setting of page permissions is vital for controlling backend user access to pages. You can assign a user and a group as owners of a page and set access permissions for each.</source>
+        <target state="translated">Définir les permissions des pages est essentiel pour contrôler l'accès des utilisateurs backend à ces pages. Vous pouvez définir un utilisateur et un groupe comme propriétaires d'une page et définir les droits d'accès pour chacun d'eux.</target>
+      </trans-unit>
+      <trans-unit id="mlang_tabs_tab" approved="yes">
+        <source>Access</source>
+        <target state="translated">Accès</target>
+      </trans-unit>
+      <trans-unit id="WorkspaceWarning" approved="yes">
+        <source>Workspace Warning</source>
+        <target state="translated">Avertissement au sujet des espaces de travail</target>
+      </trans-unit>
+      <trans-unit id="WorkspaceWarningText" approved="yes">
+        <source>Permissions you set in the workspace are effective on the elements only after they are published! If you need to set permissions which are effective right now, you must do so in the Live workspace. (Permissions are always evaluated on the Live workspace record/placeholder of a draft version)</source>
+        <target state="translated">Les permissions que vous définissez dans un espace de travail sont effectives sur les éléments seulement &lt;em&gt;après&lt;/em&gt; qu'ils soient publiés ! Si vous avez besoin de définir des permissions effectives maintenant, vous devez le faire dans l'espace de travail LIVE (les autorisations sont toujours évaluées sur l'espace de travail LIVE du brouillon)</target>
+      </trans-unit>
+      <trans-unit id="notSet" approved="yes">
+        <source>not set</source>
+        <target state="translated">non défini</target>
+      </trans-unit>
+      <trans-unit id="deleted" approved="yes">
+        <source>deleted</source>
+        <target state="translated">supprimé</target>
+      </trans-unit>
+      <trans-unit id="noGroups" approved="yes">
+        <source>No user groups exist.</source>
+        <target state="translated">Aucun groupe d'utilisateurs n'existe.</target>
+      </trans-unit>
+      <trans-unit id="selectNone" approved="yes">
+        <source>   - none -   </source>
+        <target state="translated">   - aucun -   </target>
+      </trans-unit>
+      <trans-unit id="selectUnchanged" approved="yes">
+        <source>   - leave unchanged -   </source>
+        <target state="translated">   - laisser inchangé -   </target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
