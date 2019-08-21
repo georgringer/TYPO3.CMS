@@ -1,95 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415814889" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="de-AT">
+  <file t3:id="1415814889" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="de">
     <header/>
     <body>
-      <trans-unit id="details">
-        <source>Details</source>
-        <target>crwdns33292:0crwdne33292:0</target>
-      </trans-unit>
-      <trans-unit id="syntax">
-        <source>Syntax</source>
-        <target>crwdns33294:0crwdne33294:0</target>
-      </trans-unit>
-      <trans-unit id="seeAlso">
+      <trans-unit id="seeAlso" approved="yes">
         <source>See also</source>
-        <target>crwdns33296:0crwdne33296:0</target>
+        <target state="translated">Siehe auch</target>
       </trans-unit>
-      <trans-unit id="goBack">
+      <trans-unit id="goBack" approved="yes">
         <source>Go back</source>
-        <target>crwdns33298:0crwdne33298:0</target>
+        <target state="translated">Zurück</target>
       </trans-unit>
-      <trans-unit id="fullDescription">
+      <trans-unit id="fullDescription" approved="yes">
         <source>See full description of table</source>
-        <target>crwdns33300:0crwdne33300:0</target>
+        <target state="translated">Komplette Beschreibung der Tabelle ansehen</target>
       </trans-unit>
-      <trans-unit id="fullDescription_module">
+      <trans-unit id="fullDescription_module" approved="yes">
         <source>See full description of module</source>
-        <target>crwdns33302:0crwdne33302:0</target>
+        <target state="translated">Komplette Beschreibung des Moduls ansehen</target>
       </trans-unit>
-      <trans-unit id="goToToc">
+      <trans-unit id="goToToc" approved="yes">
         <source>&lt;&lt; go to Manual Index</source>
-        <target>crwdns33304:0crwdne33304:0</target>
+        <target state="translated">&lt;&lt; Zum Inhaltsverzeichnis</target>
       </trans-unit>
-      <trans-unit id="to_top">
+      <trans-unit id="to_top" approved="yes">
         <source>To top</source>
-        <target>crwdns33306:0crwdne33306:0</target>
+        <target state="translated">Nach oben</target>
       </trans-unit>
-      <trans-unit id="TOC">
+      <trans-unit id="TOC" approved="yes">
         <source>Table Of Contents</source>
-        <target>crwdns33308:0crwdne33308:0</target>
+        <target state="translated">Inhaltsverzeichnis</target>
       </trans-unit>
-      <trans-unit id="TOC_core">
+      <trans-unit id="TOC_core" approved="yes">
         <source>TYPO3 Core Features</source>
-        <target>crwdns33310:0crwdne33310:0</target>
+        <target state="translated">TYPO3-Kernfunktionen</target>
       </trans-unit>
-      <trans-unit id="TOC_modules">
+      <trans-unit id="TOC_modules" approved="yes">
         <source>Backend Modules</source>
-        <target>crwdns33312:0crwdne33312:0</target>
+        <target state="translated">Backend-Module</target>
       </trans-unit>
-      <trans-unit id="TOC_tables">
+      <trans-unit id="TOC_tables" approved="yes">
         <source>Database Tables</source>
-        <target>crwdns33314:0crwdne33314:0</target>
+        <target state="translated">Datenbanktabellen</target>
       </trans-unit>
-      <trans-unit id="TOC_extensions">
+      <trans-unit id="TOC_extensions" approved="yes">
         <source>Extensions</source>
-        <target>crwdns33316:0crwdne33316:0</target>
+        <target state="translated">Erweiterungen</target>
       </trans-unit>
-      <trans-unit id="TOC_glossary">
+      <trans-unit id="TOC_glossary" approved="yes">
         <source>Glossary</source>
-        <target>crwdns33318:0crwdne33318:0</target>
+        <target state="translated">Glossar</target>
       </trans-unit>
-      <trans-unit id="TOC_other">
+      <trans-unit id="TOC_other" approved="yes">
         <source>Other</source>
-        <target>crwdns33320:0crwdne33320:0</target>
+        <target state="translated">Sonstiges</target>
       </trans-unit>
-      <trans-unit id="close">
+      <trans-unit id="close" approved="yes">
         <source>Close</source>
-        <target>crwdns33322:0crwdne33322:0</target>
+        <target state="translated">Schließen</target>
       </trans-unit>
-      <trans-unit id="title">
+      <trans-unit id="title" approved="yes">
         <source>TYPO3 Inline Help</source>
-        <target>crwdns33324:0crwdne33324:0</target>
+        <target state="translated">Lokale TYPO3-Hilfe</target>
       </trans-unit>
-      <trans-unit id="manual_title">
+      <trans-unit id="manual_title" approved="yes">
         <source>TYPO3 Inline User Manual</source>
-        <target>crwdns33326:0crwdne33326:0</target>
+        <target state="translated">Lokales TYPO3-Handbuch</target>
       </trans-unit>
-      <trans-unit id="introduction">
+      <trans-unit id="introduction" approved="yes">
         <source>Introduction</source>
-        <target>crwdns33328:0crwdne33328:0</target>
+        <target state="translated">Einleitung</target>
       </trans-unit>
-      <trans-unit id="description">
+      <trans-unit id="description" approved="yes">
         <source>The TYPO3 Inline User Manual is composed from the available help in this TYPO3 Installation (Context Sensitive Help). Here you will find a general description of the TYPO3 Core modules, installation specific Backend Modules and Database Tables that are available based on your login credentials.</source>
-        <target>crwdns33330:0crwdne33330:0</target>
+        <target state="translated">Das lokale TYPO3-Handbuch wird dynamisch aus den Hilfetexten dieser TYPO3-Installation erzeugt (kontextabhängige Hilfe). Es enthält eine allgemeine Beschreibung der Kernmodule von TYPO3, Beschreibungen zur Installation bestimmter Backend-Module und Datenbanktabellen, die abhängig von Ihren Zugriffsrechten zur Verfügung stehen.</target>
       </trans-unit>
-      <trans-unit id="full_manual">
+      <trans-unit id="full_manual" approved="yes">
         <source>Full Manual (in one page)</source>
-        <target>crwdns33332:0crwdne33332:0</target>
+        <target state="translated">Vollständiges Handbuch (auf einer Seite)</target>
       </trans-unit>
-      <trans-unit id="full_manual_chapters">
+      <trans-unit id="full_manual_chapters" approved="yes">
         <source>Manual Chapters</source>
-        <target>crwdns33334:0crwdne33334:0</target>
+        <target state="translated">Kapitel des Handbuchs</target>
       </trans-unit>
     </body>
   </file>
