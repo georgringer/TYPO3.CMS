@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814801" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="context_help" target-language="fr">
+    <header/>
+    <body>
+      <trans-unit id=".description" approved="yes">
+        <source>File storage, which acts as an entry root point to a file-based structure. See it like a drive or a hard drive volume in your local machine.</source>
+        <target state="translated">Stockage de fichiers, qui agit comme un point d'entrée vers une structure basée sur des fichiers. Voyez-le comme un lecteur ou un volume de disque dur sur votre ordinateur local.</target>
+      </trans-unit>
+      <trans-unit id=".details">
+        <source/>
+      </trans-unit>
+      <trans-unit id="hidden.description" approved="yes">
+        <source>Disabling the storage will result in removing it from any listings in the backend. Existing file relations will still exist.</source>
+        <target state="translated">Désactiver le stockage aura pour résultat de le supprimer de toutes les listes dans le backend. Les relations de fichiers existantes, existeront toujours.</target>
+      </trans-unit>
+      <trans-unit id="hidden.details" approved="yes">
+        <source>If you set up a file storage, it will show up on any folder lists, thus allowing to basically browse through the files in this file repository. If you set this checkbox, this storage will be excluded from any listings in the backend. Any existing file references will still exist further.</source>
+        <target state="translated">Si vous configurez un stockage de fichiers, celui-ci apparaîtra sur toutes les listes de dossiers, permettant ainsi de parcourir les fichiers de ce référentiel de fichiers. Si vous cochez cette case, cet espace de stockage sera exclu de toute liste du backend. Toute référence de fichier existante, existera toujours.</target>
+      </trans-unit>
+      <trans-unit id="name.description" approved="yes">
+        <source>The visible identifier for this file storage.</source>
+        <target state="translated">L'identifiant visible pour ce stockage de fichier.</target>
+      </trans-unit>
+      <trans-unit id="description.description" approved="yes">
+        <source>A description of this storage.</source>
+        <target state="translated">Une description de ce stockage.</target>
+      </trans-unit>
+      <trans-unit id="description.details" approved="yes">
+        <source>This description field is used to explain e.g. the location of the storage, also what this storage is meant for or what it contains.</source>
+        <target state="translated">Ce champ de description est utilisé pour expliquer, par exemple, l'emplacement du stockage, également ce à quoi ce stockage est destiné ou ce qu'il contient.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
