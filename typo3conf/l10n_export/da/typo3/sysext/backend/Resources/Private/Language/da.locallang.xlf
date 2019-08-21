@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1420197366" source-language="en" datatype="plaintext" original="messages" date="2015-01-02T11:16:11Z" product-name="backend" target-language="da">
+    <header/>
+    <body>
+      <trans-unit id="no_modules_registered" approved="yes">
+        <source>No modules have been registered. Please contact your system administrator.</source>
+        <target state="translated">Ingen moduler er registreret. Kontakt din systemadministrator om dette.</target>
+      </trans-unit>
+      <trans-unit id="show_references" approved="yes">
+        <source>Show references</source>
+        <target state="translated">Vis referencer</target>
+      </trans-unit>
+      <trans-unit id="systemmessage.header" approved="yes">
+        <source>Application Information</source>
+        <target state="translated">Program-information</target>
+      </trans-unit>
+      <trans-unit id="systemmessage.intro" approved="yes">
+        <source><![CDATA[This is a short system overview. For advanced information please head to the <a href="%s">Environment Module</a>.]]></source>
+        <target state="translated"><![CDATA[Dette er et kort systemoverblik. For avanceret information, åben dit &lt;a href="%s"&gt;Miljø modul&lt;/a&gt;.]]></target>
+      </trans-unit>
+      <trans-unit id="systemmessage.allgood" xml:space="preserve" approved="yes">
+				<source>Your system is fully operational.
+Have a nice day.</source>
+			<target state="translated">Dit system er fuldt operationelt.
+Fortsat god dag.</target></trans-unit>
+      <trans-unit id="usermodule.su.list" approved="yes">
+        <source>Recently switched to</source>
+        <target state="translated">Skiftet til for nyligt</target>
+      </trans-unit>
+      <trans-unit id="usermodule.su.tooltip" approved="yes">
+        <source>Switch to user %s</source>
+        <target state="translated">Skift til bruger %s</target>
+      </trans-unit>
+      <trans-unit id="config.loginLogo" approved="yes">
+        <source>Logo: If set, this logo will be used instead of the TYPO3 logo above the login credential fields (e.g. fileadmin/images/login-logo.png or EXT:my_theme/Resources/Public/Images/login-logo.png or //domain.tld/login-logo.png)</source>
+        <target state="translated">Logo: Hvis sat vil dette logo blive brugt i stedet for TYPO3 logoet over log-ind legitimations-felterne (f. eks. fileadmin/images/login-logo.png eller EXT:my_theme/Resources/Public/Images/login-logo.png eller //domain.tld/login-logo.png)</target>
+      </trans-unit>
+      <trans-unit id="config.loginHighlightColor" approved="yes">
+        <source>Highlight Color: If set, this color will be used as highlight color in the login screen.</source>
+        <target state="translated">Fremhævet farve: Hvis sat vil denne farve blive brugt til at fremhæve farven på log-ind siden.</target>
+      </trans-unit>
+      <trans-unit id="config.loginBackgroundImage" approved="yes">
+        <source>Background Image: If set, this image will be used as background image for the login screen (e.g. fileadmin/images/my-background.jpg or EXT:my_theme/Resources/Public/Images/my-background.jpg or //domain.tld/my-background.png)</source>
+        <target state="translated">Baggrundsbillede: Hvis angivet vil dette billede blive vist som baggrundsbillede på log-ind siden (f. eks. fileadmin/images/min-baggrund.jpg eller EXT:my_theme/Resources/Public/Images/min-baggrund.jpg eller //domain.tld/min-baggrund.png)</target>
+      </trans-unit>
+      <trans-unit id="config.loginFootnote" approved="yes">
+        <source>Footnote: If set, this text will be displayed on the login screen to provide copyright information for the background image (e.g. © 2017 by Foo Bar) or a descriptive text</source>
+        <target state="translated">Fodnote: Hvis valgt vil denne tekst blive vist på log ind siden for at tilføje copyright information til baggrundsbilledet (eksempelvis © 2017 af Foo Bar) eller en beskrivende tekst.</target>
+      </trans-unit>
+      <trans-unit id="config.backendLogo" approved="yes">
+        <source>Logo: If set, this logo will be used instead of the TYPO3 logo in the TYPO3 Backend in the left top corner (e.g. fileadmin/images/backend-logo.png or EXT:my_theme/Resources/Public/Images/backend-logo.png</source>
+        <target state="translated">Logo: Hvis angivet vil logo blive anvendt i stedet for TYPO3s logo i øverste venstre hjørne af Backend (eksempelvis fileadmin/images/backend-logo.png eller EXT:my_theme/Resources/Public/Images/backend-logo.png)</target>
+      </trans-unit>
+      <trans-unit id="config.backendFavicon" approved="yes">
+        <source>Favicon: If set, this favicon will be used instead of the TYPO3 logo (e.g. EXT:my_theme/Resources/Public/Images/favicon.ico)</source>
+        <target state="translated">Favicon: Hvis angivet, vil denne favicon blive brugt i stedet for TYPO3s logo (f.eks. EXT:my_theme/Resources/Public/Images/favicon.ico)</target>
+      </trans-unit>
+      <trans-unit id="foldertreeview.noFolders.title" approved="yes">
+        <source>No folders available</source>
+        <target state="translated">Ingen foldere tilgængelige</target>
+      </trans-unit>
+      <trans-unit id="foldertreeview.noFolders.message" approved="yes">
+        <source>You do not have access to any folder. Please ask your administrator to fix access permissions for your account.</source>
+        <target state="translated">Du har ikke adgang til nogen folder. Kontakt din administrator for at tilpasse rettighederne til din brugerkonto.</target>
+      </trans-unit>
+      <trans-unit id="login.link" approved="yes">
+        <source>Login with username and password</source>
+        <target state="translated">Log ind med brugernavn og adgangskode</target>
+      </trans-unit>
+      <trans-unit id="login.username" approved="yes">
+        <source>Username</source>
+        <target state="translated">Brugernavn</target>
+      </trans-unit>
+      <trans-unit id="login.password" approved="yes">
+        <source>Password</source>
+        <target state="translated">Adgangskode</target>
+      </trans-unit>
+      <trans-unit id="login.error.capslock" approved="yes">
+        <source>Attention: Caps lock enabled!</source>
+        <target state="translated">Advarsel: Store bogstaver aktiveret!</target>
+      </trans-unit>
+      <trans-unit id="login.interface" approved="yes">
+        <source>Interface</source>
+        <target state="translated">Grænseflade</target>
+      </trans-unit>
+      <trans-unit id="login.news.previous" approved="yes">
+        <source>Previous</source>
+        <target state="translated">Forrige</target>
+      </trans-unit>
+      <trans-unit id="login.news.next" approved="yes">
+        <source>Next</source>
+        <target state="translated">Næste</target>
+      </trans-unit>
+      <trans-unit id="login.error.message" approved="yes">
+        <source>Your login attempt did not succeed</source>
+        <target state="translated">Dit log-ind forsøg mislykkedes</target>
+      </trans-unit>
+      <trans-unit id="login.error.description" approved="yes">
+        <source>Make sure to spell your username and password correctly, including upper/lowercase characters.</source>
+        <target state="translated">Vær forsigtig med at stave dit brugernavn og adgangskode korrekt, herunder store/små bogstaver.</target>
+      </trans-unit>
+      <trans-unit id="login.error.javascript" approved="yes">
+        <source>Please activate JavaScript!</source>
+        <target state="translated">Aktivér venligst JavaScript!</target>
+      </trans-unit>
+      <trans-unit id="login.error.cookies" approved="yes">
+        <source>Please activate Cookies!</source>
+        <target state="translated">Aktivér venligst cookies!</target>
+      </trans-unit>
+      <trans-unit id="login.process" approved="yes">
+        <source>Verifying Login Data ...</source>
+        <target state="translated">Verificér log-ind data ...</target>
+      </trans-unit>
+      <trans-unit id="login.submit" approved="yes">
+        <source>Login</source>
+        <target state="translated">Log ind</target>
+      </trans-unit>
+      <trans-unit id="login.copyrightLink" approved="yes">
+        <source>More about TYPO3</source>
+        <target state="translated">Mere om TYPO3</target>
+      </trans-unit>
+      <trans-unit id="login.donate" approved="yes">
+        <source>Donate</source>
+        <target state="translated">Donér</target>
+      </trans-unit>
+      <trans-unit id="button.showPageTsConfig" approved="yes">
+        <source>Show PageTS-Config</source>
+        <target state="translated">Vis PageTS-Config</target>
+      </trans-unit>
+      <trans-unit id="button.hidePageTsConfig" approved="yes">
+        <source>Hide PageTS-Config</source>
+        <target state="translated">Skjul PageTS-Config</target>
+      </trans-unit>
+      <trans-unit id="formEngine.databaseRecordErrorInlineChildChild" approved="yes">
+        <source>The record with uid %2$s from table %1$s could not be retrieved from the database. This data incosistency can occur if
+				a base record has been deleted but the intermediate record from table %3$s with uid %4$s still points to it. To fix
+				this situation, either delete the intermediate record, or recover the deleted record using the recycler module.
+				</source>
+        <target state="translated">Elementet med uid %2$s fra tabellen %1$s kunne ikke hentes fra databasen. Den form for data-inkonsistens kan optræde, hvis et base-element er blevet slettet, men det aktuelle element %3$s med uid %4$s stadig peger på det. For at løse dette, skal du enten slette det aktuelle element, eller gendanne det slettede element ved hjælp af recycler modulet.
+				</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
