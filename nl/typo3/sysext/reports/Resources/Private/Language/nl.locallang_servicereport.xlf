@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814992" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="sv" target-language="nl">
+    <header/>
+    <body>
+      <trans-unit id="report_title" approved="yes">
+        <source>Installed Services</source>
+        <target state="translated">Geïnstalleerde diensten</target>
+      </trans-unit>
+      <trans-unit id="report_description" approved="yes">
+        <source>List of all installed services with information and status for each of them.</source>
+        <target state="translated">Lijst van geïnstalleerde diensten met informatie en de status.</target>
+      </trans-unit>
+      <trans-unit id="report_explanation" approved="yes">
+        <source>This report displays a list of installed services, with detailed information about each of them. The services are ordered by type, priority and quality. Unavailable services are highlighted with an error status.</source>
+        <target state="translated">Dit rapport toont een lijst van geïnstalleerde diensten met gedetailleerde informatie over elk van deze. De diensten zijn gesorteerd op type, prioriteit en kwaliteit. Onbeschikbare diensten zijn gemarkeerd met een foutstatus.</target>
+      </trans-unit>
+      <trans-unit id="externals_explanation" approved="yes">
+        <source>The "Externals" column shows which external programs a given service relies on. If such program is missing or not executable, the service will be unavailable. Search paths for executables are listed at the bottom of this report.</source>
+        <target state="translated">De kolom "extern" toont van welk extern programma een bepaalde dienst afhankelijk is. Als zo'n programma ontbreekt of niet uitvoerbaar is zal de dienst niet beschikbaar zijn. Zoekpaden voor uitvoerbare programma's zijn opgesomd onderaan het rapport.</target>
+      </trans-unit>
+      <trans-unit id="service_type" approved="yes">
+        <source>Service type: %s</source>
+        <target state="translated">Diensttype: %s</target>
+      </trans-unit>
+      <trans-unit id="service" approved="yes">
+        <source>Service</source>
+        <target state="translated">Dienst</target>
+      </trans-unit>
+      <trans-unit id="description" approved="yes">
+        <source>Description</source>
+        <target state="translated">Beschrijving</target>
+      </trans-unit>
+      <trans-unit id="priority" approved="yes">
+        <source>Priority</source>
+        <target state="translated">Prioriteit</target>
+      </trans-unit>
+      <trans-unit id="quality" approved="yes">
+        <source>Quality</source>
+        <target state="translated">Kwaliteit</target>
+      </trans-unit>
+      <trans-unit id="externals" approved="yes">
+        <source>Externals</source>
+        <target state="translated">Extern</target>
+      </trans-unit>
+      <trans-unit id="available" approved="yes">
+        <source>Available</source>
+        <target state="translated">Beschikbaar</target>
+      </trans-unit>
+      <trans-unit id="any" approved="yes">
+        <source>Any</source>
+        <target state="translated">Elke</target>
+      </trans-unit>
+      <trans-unit id="search_paths" approved="yes">
+        <source>Configured search paths for external programs</source>
+        <target state="translated">Geconfigureerde zoekpaden voor externe programma's</target>
+      </trans-unit>
+      <trans-unit id="path" approved="yes">
+        <source>Path</source>
+        <target state="translated">Pad</target>
+      </trans-unit>
+      <trans-unit id="valid" approved="yes">
+        <source>Valid</source>
+        <target state="translated">Geldig</target>
+      </trans-unit>
+      <trans-unit id="no_search_paths" approved="yes">
+        <source>No search paths configured.</source>
+        <target state="translated">Geen zoekpaden geconfigureerd.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
