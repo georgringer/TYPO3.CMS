@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1475977066" source-language="en" datatype="plaintext" original="messages" date="2016-10-09T03:38:32Z" product-name="form" target-language="da">
+    <header/>
+    <body>
+      <trans-unit id="element.ImageUpload.properties.SummaryPage.altText" xml:space="preserve" approved="yes">
+                <source>Uploaded image</source>
+            <target state="translated">uploadet billede</target></trans-unit>
+      <trans-unit id="element.DatePicker.properties.timeSelectorHourLabel" xml:space="preserve" approved="yes">
+                <source>Hour</source>
+            <target state="translated">Time</target></trans-unit>
+      <trans-unit id="element.DatePicker.properties.timeSelectorMinuteLabel" xml:space="preserve" approved="yes">
+                <source>Minute</source>
+            <target state="translated">Minut</target></trans-unit>
+      <trans-unit id="validation.error.1221560910" xml:space="preserve" approved="yes">
+                <source>This field is mandatory.</source>
+            <target state="translated">Dette felt er obligatorisk.</target></trans-unit>
+      <trans-unit id="validation.error.1221560718" xml:space="preserve" approved="yes">
+                <source>This field is mandatory.</source>
+            <target state="translated">Dette felt er obligatorisk.</target></trans-unit>
+      <trans-unit id="validation.error.1347992400" xml:space="preserve" approved="yes">
+                <source>This field is mandatory.</source>
+            <target state="translated">Dette felt er obligatorisk.</target></trans-unit>
+      <trans-unit id="validation.error.1347992453" xml:space="preserve" approved="yes">
+                <source>This field is mandatory.</source>
+            <target state="translated">Dette felt er obligatorisk.</target></trans-unit>
+      <trans-unit id="validation.error.1238087674" xml:space="preserve" approved="yes">
+                <source>You must enter a valid date.</source>
+            <target state="translated">Indtast venligst en gyldig dato.</target></trans-unit>
+      <trans-unit id="validation.error.1221551320" xml:space="preserve" approved="yes">
+                <source>You can only enter letters or digits.</source>
+            <target state="translated">Du kan kun Indtaste bogstaver eller tal.</target></trans-unit>
+      <trans-unit id="validation.error.1221565786" xml:space="preserve" approved="yes">
+                <source>You can only enter non formatted text without any markup (e.g without XML tags).</source>
+            <target state="translated">Du kan kun indtaste ikke-formateret tekst uden opmærkning (f. eks. uden XML tags).</target></trans-unit>
+      <trans-unit id="validation.error.1238110957" xml:space="preserve" approved="yes">
+                <source>You can only enter non formatted text without any markup (e.g without XML tags).</source>
+            <target state="translated">Du kan kun indtaste ikke-formateret tekst uden opmærkning (f. eks. uden XML tags).</target></trans-unit>
+      <trans-unit id="validation.error.1269883975" xml:space="preserve" approved="yes">
+                <source>You can only enter non formatted text without any markup (e.g without XML tags).</source>
+            <target state="translated">Du kan kun indtaste ikke-formateret tekst uden opmærkning (f. eks. uden XML tags).</target></trans-unit>
+      <trans-unit id="validation.error.1428504122" xml:space="preserve" approved="yes">
+                <source>Your text must be a minimum of %s characters in length and no longer than %s.</source>
+            <target state="translated">Din tekst skal være minimum %s karakterer lang og ikke længere end %s.</target></trans-unit>
+      <trans-unit id="validation.error.1238108068" xml:space="preserve" approved="yes">
+                <source>You must enter text which is longer than %s characters.</source>
+            <target state="translated">Din tekst må ikke være længere end %s karakterer.</target></trans-unit>
+      <trans-unit id="validation.error.1238108069" xml:space="preserve" approved="yes">
+                <source>You must enter text which is no longer than %s characters.</source>
+            <target state="translated">Du skal indtaste en tekst som ikke er længere end %s karakterer.</target></trans-unit>
+      <trans-unit id="validation.error.1221559976" xml:space="preserve" approved="yes">
+                <source>You must enter a valid email address.</source>
+            <target state="translated">Indtast venligst en gyldig e-mailadresse.</target></trans-unit>
+      <trans-unit id="validation.error.1221560494" xml:space="preserve" approved="yes">
+                <source>You must enter a valid number.</source>
+            <target state="translated">Indtast venligst et gyldigt tal.</target></trans-unit>
+      <trans-unit id="validation.error.1221560288" xml:space="preserve" approved="yes">
+                <source>You must enter a valid floating point number.</source>
+            <target state="translated">Indtast venligst et gyldigt kommatal.</target></trans-unit>
+      <trans-unit id="validation.error.1221563685" xml:space="preserve" approved="yes">
+                <source>You must enter a valid number.</source>
+            <target state="translated">Indtast venligst en gyldig værdi.</target></trans-unit>
+      <trans-unit id="validation.error.1221561046" xml:space="preserve" approved="yes">
+                <source>You must enter a valid number between %s and %s.</source>
+            <target state="translated">Indtast et gyldigt tal mellem %s og %s.</target></trans-unit>
+      <trans-unit id="validation.error.1221565130" xml:space="preserve" approved="yes">
+                <source>You must enter a valid value. Please refer to the description of this field.</source>
+            <target state="translated">Indtast venligst en gyldig værdi. Se venligst beskrivelsen af feltet.</target></trans-unit>
+      <trans-unit id="validation.error.1475002976" xml:space="preserve" approved="yes">
+                <source>You must enter a countable subject.</source>
+            <target state="translated">Du skal indtaste et emne der kan tælles.</target></trans-unit>
+      <trans-unit id="validation.error.1475002994" xml:space="preserve" approved="yes">
+                <source>You must select between %s to %s elements.</source>
+            <target state="translated">Du skal vælge mellem %s og %s elementer.</target></trans-unit>
+      <trans-unit id="validation.error.1471708997" xml:space="preserve" approved="yes">
+                <source>You must enter an instance of \TYPO3\CMS\Extbase\Domain\Model\FileReference or \TYPO3\CMS\Core\Resource\File.</source>
+            <target state="translated">Du skal indtaste en instans af \TYPO3\CMS\Extbase\Domain\Model\FileReference eller \TYPO3\CMS\Core\Resource\File.</target></trans-unit>
+      <trans-unit id="validation.error.1471708998" xml:space="preserve" approved="yes">
+                <source>You entered an incorrect media type, "%s" is not allowed for this file. Please refer to the description of this field.</source>
+            <target state="translated">Du indtastede en forkert medietypen, "%s" er ikke tilladt for denne fil. Læs eventuelt beskrivelsen for dette felt.</target></trans-unit>
+      <trans-unit id="validation.error.1476396435" xml:space="preserve" approved="yes">
+                <source>You must NOT fill this field.</source>
+            <target state="translated">Du må IKKE udfylde dette felt.</target></trans-unit>
+      <trans-unit id="validation.error.1505303626" xml:space="preserve" approved="yes">
+                <source>You must enter an instance of \TYPO3\CMS\Extbase\Domain\Model\FileReference or \TYPO3\CMS\Core\Resource\File.</source>
+            <target state="translated">Du skal indtaset en instance af \TYPO3\CMS\Extbase\Domain\Model\FileReference eller \TYPO3\CMS\Core\Resource\File.</target></trans-unit>
+      <trans-unit id="validation.error.1505305752" xml:space="preserve" approved="yes">
+                <source>You must select a file that is larger than %s in size.</source>
+            <target state="translated">Du skal vælge en fil som er større end %s i størrelse.</target></trans-unit>
+      <trans-unit id="validation.error.1505305753" xml:space="preserve" approved="yes">
+                <source>You must select a file that is no larger than %s.</source>
+            <target state="translated">Dus skal vælge en fil der ikke overstiger %s i størrelse.</target></trans-unit>
+      <trans-unit id="validation.error.1521293686" xml:space="preserve" approved="yes">
+                <source>You must select a date before %s.</source>
+            <target state="translated">Du skal vælge en dato før %s.</target></trans-unit>
+      <trans-unit id="validation.error.1521293687" xml:space="preserve" approved="yes">
+                <source>You must select a date after %s.</source>
+            <target state="translated">Du skal vælge en dato efter %s.</target></trans-unit>
+      <trans-unit id="validation.error.1556283177" xml:space="preserve" approved="yes">
+                <source>Password does not match confirmation</source>
+            <target state="translated">Adgangskode er forskellig fra bekræftelse</target></trans-unit>
+      <trans-unit id="form_new_wizard_title" xml:space="preserve" approved="yes">
+                <source>Form</source>
+            <target state="translated">Formular</target></trans-unit>
+      <trans-unit id="form_new_wizard_description" xml:space="preserve" approved="yes">
+                <source>A form that allows website users to submit messages.</source>
+            <target state="translated">En formular der giver brugere mulighed for at sende beskeder.</target></trans-unit>
+      <trans-unit id="upload.error.150530345" xml:space="preserve" approved="yes">
+                <source>Maximum file size exceeded.</source>
+            <target state="translated">Maksimale filstørrelse af overskredet.</target></trans-unit>
+      <trans-unit id="upload.error.150530346" xml:space="preserve" approved="yes">
+                <source>Upload failed. The file was only partially uploaded, please try again.</source>
+            <target state="translated">Upload fejlede. Filen er delvist uploadet, prøv venligst igen.</target></trans-unit>
+      <trans-unit id="upload.error.150530347" xml:space="preserve" approved="yes">
+                <source>No file was uploaded.</source>
+            <target state="translated">Ingen fil blev uploadet.</target></trans-unit>
+      <trans-unit id="upload.error.150530348" xml:space="preserve" approved="yes">
+                <source>Upload failed.</source>
+            <target state="translated">Upload fejlede.</target></trans-unit>
+    </body>
+  </file>
+</xliff>
