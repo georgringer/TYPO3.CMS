@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814989" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="setup" target-language="ru">
+    <header/>
+    <body>
+      <trans-unit id=".alttitle" approved="yes">
+        <source>User &gt; Setup module</source>
+        <target state="translated">Пользователь &gt; Настройки</target>
+      </trans-unit>
+      <trans-unit id=".description" approved="yes">
+        <source>The Setup module allows the backend user to customize TYPO3 for his own login sessions. This includes the backend language and various other interface features.</source>
+        <target state="translated">Модуль настройки позволяет внутреннему пользователю настраивать TYPO3. К таким настройкам относятся язык системы и настройка интерфейса.</target>
+      </trans-unit>
+      <trans-unit id=".details" approved="yes">
+        <source>&lt;b&gt;Notice [For Admins]:&lt;/b&gt; These settings can all be overridden or have their default values changed by "User TSconfig". To read more about this concept, see the link below!</source>
+        <target state="translated">&lt;b&gt;Примечание [Для Администраторов]:&lt;/b&gt; Эти настройки могут быть принудительно изменены или возвращены к значениям по умолчанию изменением "User TSconfig". Чтобы узнать больше об этой возможности - пройдите по ссылке ниже.</target>
+      </trans-unit>
+      <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
+				<source>The Setup module is selected in the left menu.
+This is how the Setup module interface looks like - a list of options to configure.</source>
+			<target state="translated">модуль Настройки выбирается в меню слева. Так выглядит настройка интерфейса - список опций для настройки.</target></trans-unit>
+      <trans-unit id="language.alttitle" approved="yes">
+        <source>Backend Language selection</source>
+        <target state="translated">Выбор языка системы</target>
+      </trans-unit>
+      <trans-unit id="language.description" approved="yes">
+        <source>Select the backend language you prefer. Most parts of TYPO3s backend (for regular users) are translated into other languages.</source>
+        <target state="translated">Выберите нужный язык системы. БОльшая часть системы TYPO3 (для простых пользователей) переведена на другие языки.</target>
+      </trans-unit>
+      <trans-unit id="language.image_descr" approved="yes">
+        <source>TYPO3 is translated into around 40 languages. English is the default language and all labels must be available in English first and foremost. This screenshot shows translations for Hebrew, Arabic, Russian and Chinese.</source>
+        <target state="translated">TYPO3 переведена более чем на 40 языков. Английский является языком по умолчанию и все надписи существуют на английском и доступны в начале и в любой момент. Эти скриншоты показывают перевод на иврит, арабский, русский и китайский.</target>
+      </trans-unit>
+      <trans-unit id="option_startModule.alttitle" approved="yes">
+        <source>Start module</source>
+        <target state="translated">Стартовый модуль</target>
+      </trans-unit>
+      <trans-unit id="option_startModule.description" xml:space="preserve" approved="yes">
+				<source>Let you select the module that is called when you login in the Backend
+The default module is "About Modules".</source>
+			<target state="translated">Возможно выбрать модуль, загружаемый при входе во внутренний интерфейс. По умолчанию загружается модуль "О модулях"</target></trans-unit>
+      <trans-unit id="option_showThumbs.alttitle" approved="yes">
+        <source>Show Thumbnails by default</source>
+        <target state="translated">По умолчанию показывать эскизы картинок</target>
+      </trans-unit>
+      <trans-unit id="option_showThumbs.description" approved="yes">
+        <source>In modules like the "Web &gt; List" and "File &gt; Filelist" you can enable the display of thumbnails of files (images/fonts) and records (if images are attached) with a checkbox. Setting this option will enable the display by default.</source>
+        <target state="translated">В таких модулях, как "Веб &gt; Список" и "Файл &gt; Список файлов" можно включить отображение эскизов файлов (изображений/шрифтов) и записей (если присутствует изображение). Этот параметр включает отображение эскизов в подобных модулях по умолчанию.</target>
+      </trans-unit>
+      <trans-unit id="option_showThumbs.image_descr" approved="yes">
+        <source>When thumbnails display is enabled, files attached to records will be shown in the "Web &gt; List" module like this.</source>
+        <target state="translated">При включении отображения эскизов, файлы, прикрепленные к записям будут отображаться в модулях, подобных "Веб &gt; Список".</target>
+      </trans-unit>
+      <trans-unit id="option_helpText.alttitle" approved="yes">
+        <source>Show help text when applicable</source>
+        <target state="translated">По возможности показать справку</target>
+      </trans-unit>
+      <trans-unit id="option_helpText.description" approved="yes">
+        <source>If set, some help texts will appear by default. Applies to the "Legend" text in the Web&gt;Access module for instance.</source>
+        <target state="translated">При включении, по умолчанию будет показан текст справки. Например, применяется в тексте "Легенда" модуля Веб &gt; Доступ.</target>
+      </trans-unit>
+      <trans-unit id="option_maxTitleLen.alttitle" approved="yes">
+        <source>Maximum title length</source>
+        <target state="translated">Максимальная длина заголовка</target>
+      </trans-unit>
+      <trans-unit id="option_maxTitleLen.description" approved="yes">
+        <source>TYPO3 will often crop long titles of records etc. so only the first X characters are shown. Often the number of shown characters depends on this variable. For instance the length of page titles in the page tree is determined by this value.</source>
+        <target state="translated">Часто TYPO3 обрезает длинные заголовки записей и т.п., при этом будут показаны лишь X начальных символов. Как правило, это количество показываемых символов зависит от этого значения. Например, длина заголовка страниц в дереве страниц.</target>
+      </trans-unit>
+      <trans-unit id="option_maxTitleLen.image_descr" approved="yes">
+        <source>In this case the Maximum Title length is set to 10 - and the result is that titles in the page tree - as well as other places in the backend - will be cropped after 10 characters, then suffixed by "...". The default value is "30".</source>
+        <target state="translated">Здесь максимальная длина заголовка установлена 10, в результате, как видно на картинке, заголовки были обрезаны до 10 символов, после чего поставлено многоточие. Значение по умолчанию — 30.</target>
+      </trans-unit>
+      <trans-unit id="option_copyLevels.alttitle" approved="yes">
+        <source>Recursive Copy</source>
+        <target state="translated">Рекурсивное копирование</target>
+      </trans-unit>
+      <trans-unit id="option_copyLevels.description" approved="yes">
+        <source>When you copy a page, subpages can also be copied along if you set this option. The number you set here defines the number of levels under a page to include in a copy operation.</source>
+        <target state="translated">Установив этот параметр, можно скопировать подстраницы вместе с копируемой страницей. Установленное здесь число означает число уровней, которые будут копироваться.</target>
+      </trans-unit>
+      <trans-unit id="option_recursiveDelete.alttitle" approved="yes">
+        <source>Recursive Delete</source>
+        <target state="translated">Рекурсивное удаление</target>
+      </trans-unit>
+      <trans-unit id="option_recursiveDelete.description" approved="yes">
+        <source>You cannot delete a page with subpages unless this flag is set. Be careful - setting this option means that TYPO3 will allow a whole tree of pages to be deleted in one go!</source>
+        <target state="translated">Если этот параметр не установлен, то удалить страницу будет невозможно, если у нее есть подстраницы. Будьте осторожны, включение этого параметра означает, что TYPO3 позволит удалить все дерево страниц одним щелчком мыши!</target>
+      </trans-unit>
+      <trans-unit id="option_recursiveDelete.details" approved="yes">
+        <source>You should also consider the performance issues involved when deleting a large page tree. It might take a considerable amount of time to do that and if PHP times out before the operation is finished the results might be unpredictable.</source>
+        <target state="translated">Также нужно помнить, что удаление большого количества страниц влияет на производительность сервера. Операция может занять много времени, либо, при исчерпании лимита времени для операций PHP, результаты могут оказаться непредсказуемыми.</target>
+      </trans-unit>
+      <trans-unit id="option_edit_RTE.alttitle" approved="yes">
+        <source>Enable Rich Text Editor</source>
+        <target state="translated">Включить редактор сложного текста RTE</target>
+      </trans-unit>
+      <trans-unit id="option_edit_RTE.description" approved="yes">
+        <source>If set, the Rich Text Editor in TYPO3 will be enabled for you. Normally you wouldn't want to disable this option.</source>
+        <target state="translated">При включении будет досупен редактор сложного текста RTE. Обычно этот параметр не отключают.</target>
+      </trans-unit>
+      <trans-unit id="option_edit_docModuleUpload.alttitle" approved="yes">
+        <source>Enable File Uploads in editing forms</source>
+        <target state="translated">Загрузка файлов непосредственно в документе</target>
+      </trans-unit>
+      <trans-unit id="option_edit_docModuleUpload.description" approved="yes">
+        <source>This option will enable an "Upload" box for each field in TYPO3 records where you can attach a file or image. Most likely you don't want to disable this since it is usually just a nice thing to have.</source>
+        <target state="translated">Этот параметр включает блок "загрузки" для каждого поля в записях TYPO3, в которые можно вставить файл или изображение. Вероятно вы не откажетесь от этой удобной возможности.</target>
+      </trans-unit>
+      <trans-unit id="option_edit_docModuleUpload.details" approved="yes">
+        <source>If you disable the Upload box there is still the TYPO3 Element Browser left for attaching files and images.</source>
+        <target state="translated">При отключении блока загрузки, все еще будет доступен проводник элемнтов TYPO3 слева, для прикрепления файлов или изображений.</target>
+      </trans-unit>
+      <trans-unit id="option_resizeTextareas.alttitle" approved="yes">
+        <source>Make Textareas Resizable</source>
+        <target state="translated">Изменять размер текстовых областей</target>
+      </trans-unit>
+      <trans-unit id="option_resizeTextareas.description" approved="yes">
+        <source>This option will make textareas resizable. You will see the resize mouse cursor if you move mouse to the outer border of textarea.</source>
+        <target state="translated">Этот параметр отвечает за изменение размеров текстовых областей. При подведении курсора мышки к краю текстовой области, ее размер можно будет изменить.</target>
+      </trans-unit>
+      <trans-unit id="option_resizeTextareas_MaxHeight.alttitle" approved="yes">
+        <source>Maximal Height of Textarea</source>
+        <target state="translated">Максимальная высота текстовой области</target>
+      </trans-unit>
+      <trans-unit id="option_flexibleTextareas_MaxHeight.alttitle" approved="yes">
+        <source>Maximal Height of flexible textareas</source>
+        <target state="translated">Максимальная высота изменяемых текстовых областей</target>
+      </trans-unit>
+      <trans-unit id="option_resizeTextareas_MaxHeight.description" approved="yes">
+        <source>Define the maximal height of textarea (in Pixel).</source>
+        <target state="translated">Определение максимальной высоты текстовой области (в пикселях).</target>
+      </trans-unit>
+      <trans-unit id="option_flexibleTextareas_MaxHeight.description" approved="yes">
+        <source>Define the maximal height of flexible textareas (in Pixel).</source>
+        <target state="translated">Максимальная высота изменяемой текстовой области (в пикселях).</target>
+      </trans-unit>
+      <trans-unit id="option_resizeTextareas_Flexible.alttitle" approved="yes">
+        <source>Make Textareas Flexible</source>
+        <target state="translated">Сделать текстовые области гибкими</target>
+      </trans-unit>
+      <trans-unit id="option_resizeTextareas_Flexible.description" approved="yes">
+        <source>This option will make textareas flexible. The height will grow automatically while typing. Limit is the maximal height set (default 600).</source>
+        <target state="translated">Этот параметр отвечает за размер текстовых областей. Их высота будет автоматически увеличиваться по мере набора текста. Можно установить ограничения на максимальную их высоту (по умолчанию – 600 пикселей)</target>
+      </trans-unit>
+      <trans-unit id="option_beUser_realName.alttitle" approved="yes">
+        <source>Your real name</source>
+        <target state="translated">Ваше настоящее имя</target>
+      </trans-unit>
+      <trans-unit id="option_beUser_realName.description" approved="yes">
+        <source>Enter your real name here.</source>
+        <target state="translated">Введите настоящее ваше имя.</target>
+      </trans-unit>
+      <trans-unit id="option_beUser_email.alttitle" approved="yes">
+        <source>Your email address</source>
+        <target state="translated">Ваш email</target>
+      </trans-unit>
+      <trans-unit id="option_beUser_email.description" approved="yes">
+        <source>Make sure this is a valid email address for you. This is the contact address that the backend administrator will use if he needs to contact you. Also, the TYPO3 system might need to send you messages at various times and this will be the recipient address.</source>
+        <target state="translated">Убедитесь, что ввели правильный адрес электронной почты. Это контактный адрес, по которому в вами сможет связаться администратор. Также по этому адресу будут отправляться различные системные сообщения из TYPO3.</target>
+      </trans-unit>
+      <trans-unit id="option_emailMeAtLogin.alttitle" approved="yes">
+        <source>Notify by login</source>
+        <target state="translated">Оповещение о регистрации</target>
+      </trans-unit>
+      <trans-unit id="option_emailMeAtLogin.description" approved="yes">
+        <source>If you set this option you will receive an email from TYPO3 each time you (or "someone") logs in using your username. You might like to receive such a "warning" as a security measure so you will know if someone else picks up your password and uses your account.</source>
+        <target state="translated">При включении этого параметра, сообщения будут отправляться на введенный здесь адрес электронной почты, когда вы (или кто-то под вашим именем) будете входить в систему. Это можно рассматривать как "предупреждение" системы безопасности о том, что кто-то зарегистрировался в системе под вашим именем.</target>
+      </trans-unit>
+      <trans-unit id="option_newPassword.alttitle" approved="yes">
+        <source>Change password</source>
+        <target state="translated">Изменение пароля</target>
+      </trans-unit>
+      <trans-unit id="option_newPassword.details" approved="yes">
+        <source>The passwords are encrypted to an MD5 hash when you leave the field so no plain text password is sent over the wire.</source>
+        <target state="translated">Пароль шифруется по алгоритму MD5, таким образом информация в явном виде передаваться не будет.</target>
+      </trans-unit>
+      <trans-unit id="option_newPasswordAgain.alttitle" approved="yes">
+        <source>Change password, confirm</source>
+        <target state="translated">Подтверждение изменения пароля</target>
+      </trans-unit>
+      <trans-unit id="option_newPasswordAgain.description" approved="yes">
+        <source>Confirm the new password by entering it again, exactly like above. If the two new passwords do not match, the password will not be changed.</source>
+        <target state="translated">Подтвердите новый пароль, введя его снова, точно также, как в предыдущее поле. При несовпадении введенных символов пароль не будет изменен.</target>
+      </trans-unit>
+      <trans-unit id="reset.alttitle" approved="yes">
+        <source>Reset all Values to default</source>
+        <target state="translated">Сброс значений к значениям по умолчанию</target>
+      </trans-unit>
+      <trans-unit id="reset.description" approved="yes">
+        <source>If you select this option all settings in this module will be reset to the default settings of the system.</source>
+        <target state="translated">Этот параметр сбрасывает все настройки к значениям по умолчанию.</target>
+      </trans-unit>
+      <trans-unit id="reset.details" approved="yes">
+        <source>This does not apply to user name, email and password settings of course.</source>
+        <target state="translated">Это конечно не затронет имя пользователя, его email и пароль.</target>
+      </trans-unit>
+      <trans-unit id="simuser.alttitle" approved="yes">
+        <source>Simulate backend user</source>
+        <target state="translated">Имитация внутреннего пользователя</target>
+      </trans-unit>
+      <trans-unit id="simuser.description" approved="yes">
+        <source>This option allows "admin"-users to change settings for another backend user in the system.</source>
+        <target state="translated">Этот параметр позволяет пользователям-администраторам изменить настройки, имитируя другого внутреннего пользователя системы.</target>
+      </trans-unit>
+      <trans-unit id="option_enableInstallTool.alttitle" approved="yes">
+        <source>Admin control for re-enabling Install Tool access</source>
+        <target state="translated">Административный контроль за доступом к инструментарию установки.</target>
+      </trans-unit>
+      <trans-unit id="option_enableInstallTool.description" approved="yes">
+        <source>By clicking this button, a file typo3conf/ENABLE_INSTALL_TOOL is created (or removed if it already exists). It unlocks the access to the Install Tool (password is still needed!) and will be removed automatically after 1 hour.</source>
+        <target state="translated">При щелчке по этой кнопке, будет создан файл typo3conf/ENABLE_INSTALL_TOOL (или, соответственно удален, если он существовал). При этом разблокируется доступ к инструментарию установки (пароль для него все еще будет нужен!). Файл автоматически удаляется через 1 час.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
