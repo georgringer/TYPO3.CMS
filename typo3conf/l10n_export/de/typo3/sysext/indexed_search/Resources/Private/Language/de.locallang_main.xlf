@@ -1,135 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415814831" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="indexed_search" target-language="de-AT">
+  <file t3:id="1415814831" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="indexed_search" target-language="de">
     <header/>
     <body>
-      <trans-unit id="mod_indexed_search">
+      <trans-unit id="mod_indexed_search" approved="yes">
         <source>Indexed search</source>
-        <target>crwdns28738:0crwdne28738:0</target>
+        <target state="translated">Indexsuche</target>
       </trans-unit>
-      <trans-unit id="mod2_indexed_search">
+      <trans-unit id="mod2_indexed_search" approved="yes">
         <source>Indexed search statistics</source>
-        <target>crwdns28740:0crwdne28740:0</target>
+        <target state="translated">Indexsuche - Statistik</target>
       </trans-unit>
-      <trans-unit id="ignoreExtensions">
+      <trans-unit id="ignoreExtensions" approved="yes">
         <source>Extension %s was set to be ignored.</source>
-        <target>crwdns28742:0%scrwdne28742:0</target>
+        <target state="translated">Erweiterung %s wurde auf Ignorieren gesetzt.</target>
       </trans-unit>
-      <trans-unit id="pdfToolsNotFound">
+      <trans-unit id="pdfToolsNotFound" approved="yes">
         <source>PDF tools was not found in paths '%1$spdftotext' and/or '%1$spdfinfo'"</source>
-        <target>crwdns28744:0%1$scrwdnd28744:0%1$scrwdne28744:0</target>
+        <target state="translated">PDF-Dienstprogramme nicht im Pfad '%1$spdftotext' und/oder '%1$spdfinfo'" gefunden</target>
       </trans-unit>
-      <trans-unit id="pdfToolsDisabled">
+      <trans-unit id="pdfToolsDisabled" approved="yes">
         <source>PDF tools disabled</source>
-        <target>crwdns28746:0crwdne28746:0</target>
+        <target state="translated">PDF-Dienstprogramme deaktiviert.</target>
       </trans-unit>
-      <trans-unit id="pdfToolsFailed">
+      <trans-unit id="pdfToolsFailed" approved="yes">
         <source>PDFtoText Failed on this document: '%s'. Maybe the PDF file is locked for printing or encrypted.</source>
-        <target>crwdns28748:0%scrwdne28748:0</target>
+        <target state="translated">PDFtoText kann Dokument nicht verarbeiten: "%s". PDF-Datei könnte für Druck gesperrt oder verschlüsselt sein.</target>
       </trans-unit>
-      <trans-unit id="catdocNotFound">
+      <trans-unit id="catdocNotFound" approved="yes">
         <source>'catdoc' tool for reading Word-files was not found in path '%scatdoc'</source>
-        <target>crwdns28750:0%scrwdne28750:0</target>
+        <target state="translated">catdoc-Dienstprogramm nicht im Pfad "%scatdoc" gefunden</target>
       </trans-unit>
-      <trans-unit id="catdocDisabled">
+      <trans-unit id="catdocDisabled" approved="yes">
         <source>catdoc tools (Word-files) disabled</source>
-        <target>crwdns28752:0crwdne28752:0</target>
+        <target state="translated">catdoc-Dienstprogramm (Word-Dateien) deaktiviert</target>
       </trans-unit>
-      <trans-unit id="ppthtmlNotFound">
+      <trans-unit id="ppthtmlNotFound" approved="yes">
         <source>'ppthtml' tool for reading Powerpoint-files was not found in path '%sppthtml'</source>
-        <target>crwdns28754:0%scrwdne28754:0</target>
+        <target state="translated">ppthtml-Dienstprogramm zum Lesen von Powerpoint-Dateien nicht in Pfad "%sppthtml" gefunden</target>
       </trans-unit>
-      <trans-unit id="ppthtmlDisabled">
+      <trans-unit id="ppthtmlDisabled" approved="yes">
         <source>ppthtml tools (Powerpoint-files) disabled</source>
-        <target>crwdns28756:0crwdne28756:0</target>
+        <target state="translated">ppthtml-Dienstprogramme (Powerpoint-Dateien) deaktiviert</target>
       </trans-unit>
-      <trans-unit id="xlhtmlNotFound">
+      <trans-unit id="xlhtmlNotFound" approved="yes">
         <source>'xlhtml' tool for reading Excel-files was not found in path '%sxlhtml'</source>
-        <target>crwdns28758:0%scrwdne28758:0</target>
+        <target state="translated">xlhtml-Dienstprogramm zum Lesen von Excel-Dateien nicht im Pfad "%sxlhtml" gefunden</target>
       </trans-unit>
-      <trans-unit id="xlhtmlDisabled">
+      <trans-unit id="xlhtmlDisabled" approved="yes">
         <source>xlhtml tools (Excel-files) disabled</source>
-        <target>crwdns28760:0crwdne28760:0</target>
+        <target state="translated">xlhtml-Dienstprogramme (Excel-Dateien) deaktiviert</target>
       </trans-unit>
-      <trans-unit id="unzipNotFound">
+      <trans-unit id="unzipNotFound" approved="yes">
         <source>'unzip' tool for reading OpenOffice.org-files was not found in path '%sunzip'</source>
-        <target>crwdns28762:0%scrwdne28762:0</target>
+        <target state="translated">unzip-Dienstprogramm zum Lesen von OpenOffice.org-Dateien nicht im Pfad "%sunzip" gefunden</target>
       </trans-unit>
-      <trans-unit id="unzipDisabled">
+      <trans-unit id="unzipDisabled" approved="yes">
         <source>unzip tool (OpenOffice.org-files) disabled</source>
-        <target>crwdns28764:0crwdne28764:0</target>
+        <target state="translated">unzip-Dienstprogramm (OpenOffice.org-Dateien) deaktiviert</target>
       </trans-unit>
-      <trans-unit id="unrtfNotFound">
+      <trans-unit id="unrtfNotFound" approved="yes">
         <source>'unrtf' tool for reading RTF-files was not found in path '%sunrtf'</source>
-        <target>crwdns28766:0%scrwdne28766:0</target>
+        <target state="translated">unrtf-Dienstprogramm zum Lesen von RTF-Dateien nicht im Pfad "%sunrtf" gefunden</target>
       </trans-unit>
-      <trans-unit id="unrtfDisabled">
+      <trans-unit id="unrtfDisabled" approved="yes">
         <source>unrtf tool (RTF-files) disabled</source>
-        <target>crwdns28768:0crwdne28768:0</target>
+        <target state="translated">unrtf-Dienstprogramm (RTF-Dateien) deaktiviert</target>
       </trans-unit>
-      <trans-unit id="extension.PDF">
-        <source>PDF (*.%s)</source>
-        <target>crwdns28770:0%scrwdne28770:0</target>
-      </trans-unit>
-      <trans-unit id="extension.DOC">
-        <source>MS Word (*.%s)</source>
-        <target>crwdns28772:0%scrwdne28772:0</target>
-      </trans-unit>
-      <trans-unit id="extension.PP">
-        <source>MS Powerpoint (*.%s)</source>
-        <target>crwdns28774:0%scrwdne28774:0</target>
-      </trans-unit>
-      <trans-unit id="extension.XLS">
-        <source>MS Excel (*.%s)</source>
-        <target>crwdns28776:0%scrwdne28776:0</target>
-      </trans-unit>
-      <trans-unit id="extension.SXC">
-        <source>OpenOffice.org Calc (*.%s)</source>
-        <target>crwdns28778:0%scrwdne28778:0</target>
-      </trans-unit>
-      <trans-unit id="extension.SXI">
-        <source>OpenOffice.org Impress (*.%s)</source>
-        <target>crwdns28780:0%scrwdne28780:0</target>
-      </trans-unit>
-      <trans-unit id="extension.SXW">
-        <source>OpenOffice.org Writer (*.%s)</source>
-        <target>crwdns28782:0%scrwdne28782:0</target>
-      </trans-unit>
-      <trans-unit id="extension.ODS">
+      <trans-unit id="extension.ODS" approved="yes">
         <source>ODF Spreadsheet (*.%s)</source>
-        <target>crwdns28784:0%scrwdne28784:0</target>
+        <target state="translated">ODF-Tabellenkalkulation (*.%s)</target>
       </trans-unit>
-      <trans-unit id="extension.ODP">
+      <trans-unit id="extension.ODP" approved="yes">
         <source>ODF Presentation (*.%s)</source>
-        <target>crwdns28786:0%scrwdne28786:0</target>
+        <target state="translated">ODF-Präsentation (*.%s)</target>
       </trans-unit>
-      <trans-unit id="extension.ODT">
+      <trans-unit id="extension.ODT" approved="yes">
         <source>ODF Text (*.%s)</source>
-        <target>crwdns28788:0%scrwdne28788:0</target>
+        <target state="translated">ODF-Text (*.%s)</target>
       </trans-unit>
-      <trans-unit id="extension.RTF">
+      <trans-unit id="extension.RTF" approved="yes">
         <source>Rich Text Format (*.%s)</source>
-        <target>crwdns28790:0%scrwdne28790:0</target>
+        <target state="translated">Rich-Text-Format (*.%s)</target>
       </trans-unit>
-      <trans-unit id="extension.images">
+      <trans-unit id="extension.images" approved="yes">
         <source>Images (*.%s)</source>
-        <target>crwdns28792:0%scrwdne28792:0</target>
+        <target state="translated">Bilder (*.%s)</target>
       </trans-unit>
-      <trans-unit id="extension.HTML">
+      <trans-unit id="extension.HTML" approved="yes">
         <source>Webpages (*.%s)</source>
-        <target>crwdns28794:0%scrwdne28794:0</target>
+        <target state="translated">Web-Seiten (*.%s)</target>
       </trans-unit>
-      <trans-unit id="extension.TXT">
+      <trans-unit id="extension.TXT" approved="yes">
         <source>Textfiles (*.%s)</source>
-        <target>crwdns28796:0%scrwdne28796:0</target>
+        <target state="translated">Textdateien (*.%s)</target>
       </trans-unit>
-      <trans-unit id="extension.CSV">
+      <trans-unit id="extension.CSV" approved="yes">
         <source>Comma-Separated Values (*.%s)</source>
-        <target>crwdns28798:0%scrwdne28798:0</target>
+        <target state="translated">Komma-getrennte Werte (*.%s)</target>
       </trans-unit>
-      <trans-unit id="extension.XML">
+      <trans-unit id="extension.XML" approved="yes">
         <source>Extensible Markup Language (*.%s)</source>
-        <target>crwdns28800:0%scrwdne28800:0</target>
+        <target state="translated">Extensible-Markup-Language (*.%s)</target>
       </trans-unit>
     </body>
   </file>
