@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814788" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="cms" target-language="fr">
+    <header/>
+    <body>
+      <trans-unit id="func_0.alttitle" approved="yes">
+        <source>Basic Settings</source>
+        <target state="translated">Réglages de base</target>
+      </trans-unit>
+      <trans-unit id="func_0.description" approved="yes">
+        <source>Displays a selection of fields from page records which are regarded as foundational settings for pages. That includes aliases, start- and stop times, access restriction information etc.</source>
+        <target state="translated">Affiche les champs considérés comme des paramètres fondamentaux des enregistrements de type page. Cela inclus les alias d'url, les dates de début et de fin, les droits d'accès, etc.</target>
+      </trans-unit>
+      <trans-unit id="func_0.details" xml:space="preserve" approved="yes">
+				<source>The Basic Settings view resembles the Cache and Age view quite a lot. They are different only by the selection of fields they show.
+
+&lt;b&gt;Batch editing page fields&lt;/b&gt;
+You will find multiple edit-icons around the interface. All edit icons in head lines will bring you to an editing dialog where you can change exactly that field for all listed tables! Very useful for batch-editing of say all "Start" times.
+If you click the edit icon at the ID numbers of pages you will get straight to the regular editing of a whole page record.</source>
+			<target state="translated">La vue "Réglages de base" ressemble beaucoup à la vue "Cache et âge". Ils diffèrent uniquement au niveau des champs affichés.
+
+&lt;b&gt;Edition groupé des champs de page&lt;/b&gt;
+Vous trouverez plusieurs icônes d'édition dans l'interface. Chaque icône d'édition dans la ligne d'en-tête vous amenera à une fenêtre d'édition où vous pourrez modifier ce champ pour tous les enregistrements listés! Très utile pour l'édition groupé des dates de début d'affichage.
+Si vous cliquez sur l'icône d'édition au niveau de l'ID de la page, vous arriverez directement à la fenêtre normal d'édition, avec l'ensemble des champs d'une page.</target></trans-unit>
+      <trans-unit id="func_1.alttitle" approved="yes">
+        <source>Record Overview</source>
+        <target state="translated">Aperçu des enregistrements</target>
+      </trans-unit>
+      <trans-unit id="func_1.description" approved="yes">
+        <source>Record overview gives you an indispensable overview of the distribution of records in the page tree. Each database table in the system is represented with a column and for each page you can see the number of records from that table located on the page.</source>
+        <target state="translated">L'aperçu des enregistrements fournit une indispensable vue d'ensemble des enregistrements dans l'arborescence. Chaque table de la base de données est représentée par une colonne et pour chaque page est affiché le nombre d'enregistrements de cette table se trouvant sur la page.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
