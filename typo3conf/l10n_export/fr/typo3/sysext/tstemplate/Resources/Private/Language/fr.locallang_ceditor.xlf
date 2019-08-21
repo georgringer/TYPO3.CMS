@@ -3,10 +3,14 @@
   <file t3:id="1415815004" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="tstemplate" target-language="fr">
     <header/>
     <body>
-			
-			
-			
-			
-		</body>
+      <trans-unit id="category" approved="yes">
+        <source>Category</source>
+        <target state="translated">Catégorie</target>
+      </trans-unit>
+      <trans-unit id="noConstants" approved="yes">
+        <source>No constants available</source>
+        <target state="translated">Aucune constante disponible</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
