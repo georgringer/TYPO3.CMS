@@ -1,459 +1,643 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415814984" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="scheduler" target-language="de">
+  <file t3:id="1415814984" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="scheduler" target-language="de-AT">
     <header/>
     <body>
-      <trans-unit id="action.add" approved="yes">
+      <trans-unit id="action.add">
         <source>Add task</source>
-        <target state="translated">Task hinzufügen</target>
+        <target>crwdns30012:0crwdne30012:0</target>
       </trans-unit>
-      <trans-unit id="action.edit" approved="yes">
+      <trans-unit id="action.edit">
         <source>Edit task</source>
-        <target state="translated">Task bearbeiten</target>
+        <target>crwdns30014:0crwdne30014:0</target>
       </trans-unit>
-      <trans-unit id="button.cancel" approved="yes">
+      <trans-unit id="button.cancel">
         <source>Cancel</source>
-        <target state="translated">Abbrechen</target>
+        <target>crwdns30016:0crwdne30016:0</target>
       </trans-unit>
-      <trans-unit id="function.scheduler" approved="yes">
+      <trans-unit id="function.scheduler">
         <source>Scheduled tasks</source>
-        <target state="translated">Geplante Tasks</target>
+        <target>crwdns30018:0crwdne30018:0</target>
       </trans-unit>
-      <trans-unit id="function.check" approved="yes">
+      <trans-unit id="function.check">
         <source>Setup check</source>
-        <target state="translated">Konfiguration prüfen</target>
+        <target>crwdns30020:0crwdne30020:0</target>
       </trans-unit>
-      <trans-unit id="function.info" approved="yes">
+      <trans-unit id="function.info">
         <source>Information</source>
-        <target state="translated">Informationen</target>
+        <target>crwdns30022:0crwdne30022:0</target>
       </trans-unit>
-      <trans-unit id="hdg.cliScript" approved="yes">
+      <trans-unit id="hdg.cliScript">
         <source>CLI script</source>
-        <target state="translated">CLI-Skript</target>
+        <target>crwdns30024:0crwdne30024:0</target>
       </trans-unit>
-      <trans-unit id="hdg.lastRun" approved="yes">
+      <trans-unit id="hdg.lastRun">
         <source>Last run</source>
-        <target state="translated">Letzte Ausführung</target>
+        <target>crwdns30026:0crwdne30026:0</target>
       </trans-unit>
-      <trans-unit id="label.automatically" approved="yes">
+      <trans-unit id="label.automatically">
         <source>automatically</source>
-        <target state="translated">automatisch</target>
+        <target>crwdns30028:0crwdne30028:0</target>
       </trans-unit>
-      <trans-unit id="label.cachingFrameworkGarbageCollection.selectBackends" approved="yes">
+      <trans-unit id="label.cachingFrameworkGarbageCollection.selectBackends">
         <source>Backend types</source>
-        <target state="translated">Backendtypen</target>
+        <target>crwdns30030:0crwdne30030:0</target>
       </trans-unit>
-      <trans-unit id="label.recyclerGarbageCollection.numberOfDays" approved="yes">
+      <trans-unit id="label.recyclerGarbageCollection.numberOfDays">
         <source>Number of days until removing files</source>
-        <target state="translated">Anzahl Tage bis zum Löschen der Dateien</target>
+        <target>crwdns30032:0crwdne30032:0</target>
       </trans-unit>
-      <trans-unit id="label.checkAll" approved="yes">
+      <trans-unit id="label.checkAll">
         <source>Check/uncheck all</source>
-        <target state="translated">Alle auswählen/abwählen</target>
+        <target>crwdns30034:0crwdne30034:0</target>
       </trans-unit>
-      <trans-unit id="label.class" approved="yes">
+      <trans-unit id="label.class">
         <source>Class</source>
-        <target state="translated">Klasse</target>
+        <target>crwdns30036:0crwdne30036:0</target>
       </trans-unit>
-      <trans-unit id="label.defType" approved="yes">
+      <trans-unit id="label.cron">
+        <source>Cron</source>
+        <target>crwdns30038:0crwdne30038:0</target>
+      </trans-unit>
+      <trans-unit id="label.defType">
         <source>Definition type</source>
-        <target state="translated">Definitionstyp</target>
+        <target>crwdns30040:0crwdne30040:0</target>
       </trans-unit>
-      <trans-unit id="label.defType.cron" approved="yes">
+      <trans-unit id="label.defType.interval">
+        <source>Interval</source>
+        <target>crwdns30042:0crwdne30042:0</target>
+      </trans-unit>
+      <trans-unit id="label.defType.cron">
         <source>Cron command</source>
-        <target state="translated">Cron-Befehl</target>
+        <target>crwdns30044:0crwdne30044:0</target>
       </trans-unit>
-      <trans-unit id="label.description" approved="yes">
+      <trans-unit id="label.description">
         <source>Description</source>
-        <target state="translated">Beschreibung</target>
+        <target>crwdns30046:0crwdne30046:0</target>
       </trans-unit>
-      <trans-unit id="label.email" approved="yes">
+      <trans-unit id="label.email">
         <source>Email</source>
-        <target state="translated">E-Mail</target>
+        <target>crwdns30048:0crwdne30048:0</target>
       </trans-unit>
-      <trans-unit id="label.end" approved="yes">
+      <trans-unit id="label.end">
         <source>End (HH:MM DD-MM-YYYY)</source>
-        <target state="translated">Ende (HH:MM TT-MM-JJJJ)</target>
+        <target>crwdns30050:0crwdne30050:0</target>
       </trans-unit>
-      <trans-unit id="label.executeSelected" approved="yes">
+      <trans-unit id="label.executeSelected">
         <source>Execute selected tasks</source>
-        <target state="translated">Ausgewählte Tasks ausführen</target>
+        <target>crwdns30052:0crwdne30052:0</target>
       </trans-unit>
-      <trans-unit id="label.extension" approved="yes">
+      <trans-unit id="label.cronjobSelected">
+        <source>Execute selected tasks on next cron job</source>
+        <target>crwdns30054:0crwdne30054:0</target>
+      </trans-unit>
+      <trans-unit id="label.extension">
         <source>Extension</source>
-        <target state="translated">Erweiterung</target>
+        <target>crwdns30056:0crwdne30056:0</target>
       </trans-unit>
-      <trans-unit id="label.frequency" approved="yes">
+      <trans-unit id="label.frequency">
         <source>Frequency</source>
-        <target state="translated">Häufigkeit</target>
+        <target>crwdns30058:0crwdne30058:0</target>
       </trans-unit>
-      <trans-unit id="label.frequency.long" approved="yes">
+      <trans-unit id="label.frequency.long">
         <source>Frequency (seconds or cron command)</source>
-        <target state="translated">Häufigkeit (Sekunden oder Cron-Befehl)</target>
+        <target>crwdns30060:0crwdne30060:0</target>
       </trans-unit>
-      <trans-unit id="label.lastExecution" approved="yes">
+      <trans-unit id="label.id">
+        <source>ID</source>
+        <target>crwdns30062:0crwdne30062:0</target>
+      </trans-unit>
+      <trans-unit id="label.lastExecution">
         <source>Last Execution</source>
-        <target state="translated">Letzte Ausführung</target>
+        <target>crwdns30064:0crwdne30064:0</target>
       </trans-unit>
-      <trans-unit id="label.manual" approved="yes">
+      <trans-unit id="label.manual">
         <source>Manual</source>
-        <target state="translated">manuell</target>
+        <target>crwdns30066:0crwdne30066:0</target>
       </trans-unit>
-      <trans-unit id="label.manually" approved="yes">
+      <trans-unit id="label.manually">
         <source>manually</source>
-        <target state="translated">manuell</target>
+        <target>crwdns30068:0crwdne30068:0</target>
       </trans-unit>
-      <trans-unit id="label.nextExecution" approved="yes">
+      <trans-unit id="label.name">
+        <source>Name</source>
+        <target>crwdns30070:0crwdne30070:0</target>
+      </trans-unit>
+      <trans-unit id="label.nextExecution">
         <source>Next Execution</source>
-        <target state="translated">Nächste Ausführung</target>
+        <target>crwdns30072:0crwdne30072:0</target>
       </trans-unit>
-      <trans-unit id="label.parallel" approved="yes">
+      <trans-unit id="label.parallel">
         <source>Parallel Execution</source>
-        <target state="translated">Parallele Ausführung</target>
+        <target>crwdns30074:0crwdne30074:0</target>
       </trans-unit>
-      <trans-unit id="label.parallel.long" approved="yes">
+      <trans-unit id="label.parallel.long">
         <source>Allow Parallel Execution</source>
-        <target state="translated">Parallele Ausführung erlauben</target>
+        <target>crwdns30076:0crwdne30076:0</target>
       </trans-unit>
-      <trans-unit id="label.serverTime" approved="yes">
+      <trans-unit id="label.serverTime">
         <source>Server time</source>
-        <target state="translated">Serverzeit</target>
+        <target>crwdns30078:0crwdne30078:0</target>
       </trans-unit>
-      <trans-unit id="label.sleepTime" approved="yes">
+      <trans-unit id="label.sleepTime">
         <source>Sleep time</source>
-        <target state="translated">Pause</target>
+        <target>crwdns30080:0crwdne30080:0</target>
       </trans-unit>
-      <trans-unit id="label.start" approved="yes">
+      <trans-unit id="label.start">
         <source>Start (HH:MM DD-MM-YYYY)</source>
-        <target state="translated">Start (HH:MM TT-MM-JJJJ)</target>
+        <target>crwdns30082:0crwdne30082:0</target>
       </trans-unit>
-      <trans-unit id="label.fileStorageIndexing.storage" approved="yes">
+      <trans-unit id="label.fileStorageIndexing.storage">
         <source>Storage to index</source>
-        <target state="translated">Zu indizierender Speicher</target>
+        <target>crwdns30084:0crwdne30084:0</target>
       </trans-unit>
-      <trans-unit id="label.fileStorageExtraction.fileCount" approved="yes">
+      <trans-unit id="label.fileStorageExtraction.fileCount">
         <source>Number of files per run</source>
-        <target state="translated">Anzahl Dateien pro Durchlauf</target>
+        <target>crwdns30086:0crwdne30086:0</target>
       </trans-unit>
-      <trans-unit id="label.tableGarbageCollection.allTables" approved="yes">
+      <trans-unit id="label.fileStorageExtraction.registeredExtractors">
+        <source>Registered extractors</source>
+        <target>crwdns30088:0crwdne30088:0</target>
+      </trans-unit>
+      <trans-unit id="label.fileStorageExtraction.registeredExtractors.extractor">
+        <source>%1$s with priority %2$d</source>
+        <target>crwdns30090:0%1$scrwdnd30090:0%2$dcrwdne30090:0</target>
+      </trans-unit>
+      <trans-unit id="label.fileStorageExtraction.registeredExtractors.with_extractors">
+        <source>Following extractors have been registered and will be used when running this task</source>
+        <target>crwdns30092:0crwdne30092:0</target>
+      </trans-unit>
+      <trans-unit id="label.fileStorageExtraction.registeredExtractors.without_extractors">
+        <source>There currently is no extractor registered. This task will have no effect!</source>
+        <target>crwdns30094:0crwdne30094:0</target>
+      </trans-unit>
+      <trans-unit id="label.tableGarbageCollection.allTables">
         <source>Clean all available tables</source>
-        <target state="translated">Alle verfügbaren Tabellen bereinigen</target>
+        <target>crwdns30096:0crwdne30096:0</target>
       </trans-unit>
-      <trans-unit id="label.tableGarbageCollection.table" approved="yes">
+      <trans-unit id="label.tableGarbageCollection.table">
         <source>Table to clean up</source>
-        <target state="translated">Zu bereinigende Tabelle</target>
+        <target>crwdns30098:0crwdne30098:0</target>
       </trans-unit>
-      <trans-unit id="label.tableGarbageCollection.additionalInformationTable" approved="yes">
+      <trans-unit id="label.tableGarbageCollection.additionalInformationTable">
         <source>Table: %s</source>
-        <target state="translated">Tabelle: %s</target>
+        <target>crwdns30100:0%scrwdne30100:0</target>
       </trans-unit>
-      <trans-unit id="label.tableGarbageCollection.additionalInformationAllTables" approved="yes">
+      <trans-unit id="label.tableGarbageCollection.additionalInformationAllTables">
         <source>All tables</source>
-        <target state="translated">Alle Tabellen</target>
+        <target>crwdns30102:0crwdne30102:0</target>
       </trans-unit>
-      <trans-unit id="label.tableGarbageCollection.numberOfDays" approved="yes">
+      <trans-unit id="label.tableGarbageCollection.numberOfDays">
         <source>Delete entries older than given number of days</source>
-        <target state="translated">Einträge löschen, die älter sind als die angegebene Anzahl von Tagen</target>
+        <target>crwdns30104:0crwdne30104:0</target>
       </trans-unit>
-      <trans-unit id="label.type" approved="yes">
+      <trans-unit id="label.optimizeDatabaseTables.selectTables">
+        <source>Database tables</source>
+        <target>crwdns30106:0crwdne30106:0</target>
+      </trans-unit>
+      <trans-unit id="label.type">
         <source>Type</source>
-        <target state="translated">Typ</target>
+        <target>crwdns30108:0crwdne30108:0</target>
       </trans-unit>
-      <trans-unit id="label.type.recurring" approved="yes">
+      <trans-unit id="label.type.recurring">
         <source>Recurring</source>
-        <target state="translated">wiederkehrend</target>
+        <target>crwdns30110:0crwdne30110:0</target>
       </trans-unit>
-      <trans-unit id="label.type.single" approved="yes">
+      <trans-unit id="label.type.single">
         <source>Single</source>
-        <target state="translated">einmalig</target>
+        <target>crwdns30112:0crwdne30112:0</target>
       </trans-unit>
-      <trans-unit id="label.group" approved="yes">
+      <trans-unit id="label.group">
         <source>Task group</source>
-        <target state="translated">Taskgruppe</target>
+        <target>crwdns30114:0crwdne30114:0</target>
       </trans-unit>
-      <trans-unit id="msg.addError" approved="yes">
+      <trans-unit id="label.group.taskCount">
+        <source>Amount of tasks in this scheduler task group</source>
+        <target>crwdns30116:0crwdne30116:0</target>
+      </trans-unit>
+      <trans-unit id="label.noGroup">
+        <source>(no task group defined)</source>
+        <target>crwdns30118:0crwdne30118:0</target>
+      </trans-unit>
+      <trans-unit id="label.noGroup.taskCount">
+        <source>Amount of tasks that are not assigned to any scheduler task group</source>
+        <target>crwdns30120:0crwdne30120:0</target>
+      </trans-unit>
+      <trans-unit id="label.noClass">
+        <source>Tasks without registered classes</source>
+        <target>crwdns30122:0crwdne30122:0</target>
+      </trans-unit>
+      <trans-unit id="label.noClass.taskCount">
+        <source>Amount of tasks without found class</source>
+        <target>crwdns30124:0crwdne30124:0</target>
+      </trans-unit>
+      <trans-unit id="label.schedulableCommandName">
+        <source><![CDATA[Schedulable Command. <em>Save and reopen to define command arguments</em>]]></source>
+        <target><![CDATA[crwdns30126:0crwdne30126:0]]></target>
+      </trans-unit>
+      <trans-unit id="label.saveAndCreateNewTask">
+        <source>Save and create new task</source>
+        <target>crwdns30128:0crwdne30128:0</target>
+      </trans-unit>
+      <trans-unit id="msg.addError">
         <source>The task could not be added.</source>
-        <target state="translated">Der Task konnte nicht hinzugefügt werden.</target>
+        <target>crwdns30130:0crwdne30130:0</target>
       </trans-unit>
-      <trans-unit id="msg.addSuccess" approved="yes">
+      <trans-unit id="msg.addSuccess">
         <source>The task was added successfully.</source>
-        <target state="translated">Der Task wurde erfolgreich hinzugefügt.</target>
+        <target>crwdns30132:0crwdne30132:0</target>
       </trans-unit>
-      <trans-unit id="msg.cliScript" approved="yes">
+      <trans-unit id="msg.cliScript">
         <source>The script to execute the Scheduler from the command line is: &lt;strong&gt;"%s scheduler:run"&lt;/strong&gt;.</source>
-        <target state="translated">Der Befehl, um den Planer von der Kommandozeile auszuführen lautet: &lt;strong&gt;"%s scheduler:run"&lt;/strong&gt;.</target>
+        <target>crwdns30134:0%scrwdne30134:0</target>
       </trans-unit>
-      <trans-unit id="msg.cliScriptExecutable" approved="yes">
+      <trans-unit id="msg.cliScriptExecutable">
         <source>The webserver user is allowed execute this script.</source>
-        <target state="translated">Der Webserver-Benutzer darf dieses Skript ausführen.</target>
+        <target>crwdns30136:0crwdne30136:0</target>
       </trans-unit>
-      <trans-unit id="msg.cliScriptNotExecutable" approved="yes">
+      <trans-unit id="msg.cliScriptNotExecutable">
         <source>The webserver user is not allowed to execute this script.</source>
-        <target state="translated">Der Webserver-Benutzer darf dieses Skript nicht ausführen.</target>
+        <target>crwdns30138:0crwdne30138:0</target>
       </trans-unit>
-      <trans-unit id="msg.delete" approved="yes">
+      <trans-unit id="msg.delete">
         <source>Are you sure you want to delete this task?</source>
-        <target state="translated">Diesen Task tatsächlich löschen?</target>
+        <target>crwdns30140:0crwdne30140:0</target>
       </trans-unit>
-      <trans-unit id="msg.deleteError" approved="yes">
+      <trans-unit id="msg.deleteError">
         <source>The task could not be deleted.</source>
-        <target state="translated">Der Task konnte nicht gelöscht werden.</target>
+        <target>crwdns30142:0crwdne30142:0</target>
       </trans-unit>
-      <trans-unit id="msg.deleteSuccess" approved="yes">
+      <trans-unit id="msg.deleteSuccess">
         <source>The task was successfully deleted.</source>
-        <target state="translated">Der Task wurde erfolgreich gelöscht.</target>
+        <target>crwdns30144:0crwdne30144:0</target>
       </trans-unit>
-      <trans-unit id="msg.endDateSmallerThanStartDate" approved="yes">
+      <trans-unit id="msg.endDateSmallerThanStartDate">
         <source>The end date is before the start date.</source>
-        <target state="translated">Das Enddatum liegt vor dem Startdatum.</target>
+        <target>crwdns30146:0crwdne30146:0</target>
       </trans-unit>
-      <trans-unit id="msg.executed" approved="yes">
+      <trans-unit id="msg.executed">
         <source>Executed: %s</source>
-        <target state="translated">Ausgeführt: %s</target>
+        <target>crwdns30148:0%scrwdne30148:0</target>
       </trans-unit>
-      <trans-unit id="msg.frequencyError" approved="yes">
+      <trans-unit id="msg.frequencyError">
         <source>Invalid frequency. Please enter either a number of seconds or a valid cron command. The cron parser said: %1$s [code: %2$d].</source>
-        <target state="translated">Ungültige Häufigkeit. Bitte geben Sie entweder eine Anzahl Sekunden oder einen gültigen Cron-Befehl an. Ausgabe des Cron-Parsers: %1$s [Code: %2$d].</target>
+        <target>crwdns30150:0%1$scrwdnd30150:0%2$dcrwdne30150:0</target>
       </trans-unit>
-      <trans-unit id="msg.incompleteLastRun" approved="yes">
+      <trans-unit id="msg.incompleteLastRun">
         <source>The information about the last execution of the Scheduler is incomplete.</source>
-        <target state="translated">Die Informationen zur letzten Ausführung des Planers sind unvollständig.</target>
+        <target>crwdns30152:0crwdne30152:0</target>
       </trans-unit>
-      <trans-unit id="msg.infoScreenIntro" approved="yes">
+      <trans-unit id="msg.infoScreenIntro">
         <source>This is the list of all available tasks in this TYPO3 installation. Click on the icon at the far right to directly create a new scheduled task of the chosen type.</source>
-        <target state="translated">Dies ist eine Liste aller in dieser TYPO3-Installation verfügbaren Tasks. Klicken Sie auf das Symbol außen rechts, um einen neuen geplanten Task des gewählten Typs zu erstellen.</target>
+        <target>crwdns30154:0crwdne30154:0</target>
       </trans-unit>
-      <trans-unit id="msg.invalidFrequency" approved="yes">
+      <trans-unit id="msg.invalidFrequency">
         <source>Invalid frequency. Please enter either a number of seconds or a valid cron command.</source>
-        <target state="translated">Ungültige Häufigkeit. Bitte geben Sie entweder eine Anzahl Sekunden oder einen gültigen Cron-Befehl ein.</target>
+        <target>crwdns30156:0crwdne30156:0</target>
       </trans-unit>
-      <trans-unit id="msg.invalidSleepTime" approved="yes">
+      <trans-unit id="msg.invalidSleepTime">
         <source>Please enter a sleep time greater or equal to 0 (zero).</source>
-        <target state="translated">Bitte geben Sie eine Pause von mindestens null Sekunden an.</target>
+        <target>crwdns30158:0crwdne30158:0</target>
       </trans-unit>
-      <trans-unit id="msg.lastRun" approved="yes">
+      <trans-unit id="msg.lastRun">
         <source>The Scheduler was last started (%1$s) on %2$s at %3$s and ended on %4$s at %5$s.</source>
-        <target state="translated">Der Planer wurde zuletzt gestartet (%1$s) am %2$s um %3$s und endete am %4$s um %5$s.</target>
+        <target>crwdns30160:0%1$scrwdnd30160:0%2$scrwdnd30160:0%3$scrwdnd30160:0%4$scrwdnd30160:0%5$scrwdne30160:0</target>
       </trans-unit>
-      <trans-unit id="msg.maynotDeleteRunningTask" approved="yes">
+      <trans-unit id="msg.maynotDeleteRunningTask">
         <source>A running task may not be deleted.</source>
-        <target state="translated">Ein laufender Task kann nicht gelöscht werden.</target>
+        <target>crwdns30162:0crwdne30162:0</target>
       </trans-unit>
-      <trans-unit id="msg.maynotEditRunningTask" approved="yes">
+      <trans-unit id="msg.maynotEditRunningTask">
         <source>A running task may not be edited.</source>
-        <target state="translated">Ein laufender Task kann nicht bearbeitet werden.</target>
+        <target>crwdns30164:0crwdne30164:0</target>
       </trans-unit>
-      <trans-unit id="msg.maynotStopNonRunningTask" approved="yes">
+      <trans-unit id="msg.maynotStopNonRunningTask">
         <source>The task is not running. There are no executions to unmark.</source>
-        <target state="translated">Dieser Task läuft nicht. Es gibt keine abzuwählenden Ausführungen.</target>
+        <target>crwdns30166:0crwdne30166:0</target>
       </trans-unit>
-      <trans-unit id="msg.noEmail" approved="yes">
+      <trans-unit id="msg.noEmail">
         <source>Please enter an email address.</source>
-        <target state="translated">Bitte geben Sie eine E-Mail-Adresse an.</target>
+        <target>crwdns30168:0crwdne30168:0</target>
       </trans-unit>
-      <trans-unit id="msg.noFrequency" approved="yes">
+      <trans-unit id="msg.noFrequency">
         <source>No frequency was defined, either as an interval or as a cron command.</source>
-        <target state="translated">Bitte geben Sie als Häufigkeit entweder ein Interval oder einen Cron-Befehl an.</target>
+        <target>crwdns30170:0crwdne30170:0</target>
       </trans-unit>
-      <trans-unit id="msg.noLastRun" approved="yes">
+      <trans-unit id="msg.noLastRun">
         <source>The Scheduler has never yet run or the information about the last run has been lost.</source>
-        <target state="translated">Der Planer wurde noch nie ausgeführt oder die Informationen über die letzte Ausführung sind verloren gegangen.</target>
+        <target>crwdns30172:0crwdne30172:0</target>
       </trans-unit>
-      <trans-unit id="msg.noTasksDefined" approved="yes">
+      <trans-unit id="msg.noTasksDefined">
         <source>There are currently no task classes available at all. To be able to create new tasks, you must either enable the samples provided by the Scheduler or install some other extension that relies on the Scheduler.</source>
-        <target state="translated">Gegenwärtig sind keine Taskklassen verfügbar. Um neue Task erstellen zu können, müssen Sie entweder die mit dem Planer mitgelieferten Beispiele aktivieren oder eine Erweiterung installieren, die den Planer verwendet.</target>
+        <target>crwdns30174:0crwdne30174:0</target>
       </trans-unit>
-      <trans-unit id="msg.noTaskClassFound" approved="yes">
+      <trans-unit id="msg.noTaskClassFound">
         <source>The selected task class could not be found. You should probably contact the task's developers.</source>
-        <target state="translated">Die ausgewählte Taskklasse konnte nicht gefunden werden. Sie sollten sich an den Entwickler des Tasks wenden.</target>
+        <target>crwdns30176:0crwdne30176:0</target>
       </trans-unit>
-      <trans-unit id="msg.noTasks" approved="yes">
+      <trans-unit id="msg.noTasks">
         <source>No tasks defined yet.</source>
-        <target state="translated">Noch keine Tasks angelegt.</target>
+        <target>crwdns30178:0crwdne30178:0</target>
       </trans-unit>
-      <trans-unit id="msg.notExecuted" approved="yes">
+      <trans-unit id="msg.notExecuted">
         <source>Not executed: %s</source>
-        <target state="translated">Nicht ausgeführt: %s</target>
+        <target>crwdns30180:0%scrwdne30180:0</target>
       </trans-unit>
-      <trans-unit id="msg.executionFailed" approved="yes">
+      <trans-unit id="msg.executionFailed">
         <source>Execution of task "%1$s" failed with the following message: %2$s</source>
-        <target state="translated">Die Ausführung von Task "%1$s" ist fehlgeschlagen mit folgender Meldung: %2$s</target>
+        <target>crwdns30182:0%1$scrwdnd30182:0%2$scrwdne30182:0</target>
       </trans-unit>
-      <trans-unit id="msg.executionFailureDefault" approved="yes">
+      <trans-unit id="msg.executionFailureDefault">
         <source>The execution failed, but the error message could not be retrieved (it was probably too large). Sorry.</source>
-        <target state="translated">Die Ausführung ist fehlgeschlagen, ohne dass die Fehlermeldung erfasst werden konnte (wahrscheinlich war sie zu groß). Entschuldigung.</target>
+        <target>crwdns30184:0crwdne30184:0</target>
       </trans-unit>
-      <trans-unit id="msg.executionFailureReport" approved="yes">
+      <trans-unit id="msg.executionFailureReport">
         <source>Execution failed: %1$d, %2$s</source>
-        <target state="translated">Ausführung fehlgeschlagen: %1$d, %2$s</target>
+        <target>crwdns30186:0%1$dcrwdnd30186:0%2$scrwdne30186:0</target>
       </trans-unit>
-      <trans-unit id="msg.noStartDate" approved="yes">
+      <trans-unit id="msg.noStartDate">
         <source>Please define a start date.</source>
-        <target state="translated">Bitte setzen Sie ein Startdatum.</target>
+        <target>crwdns30188:0crwdne30188:0</target>
       </trans-unit>
-      <trans-unit id="msg.invalidStartDate" approved="yes">
+      <trans-unit id="msg.invalidStartDate">
         <source>Start date is invalid.</source>
-        <target state="translated">Das Startdatum ist ungültig.</target>
+        <target>crwdns30190:0crwdne30190:0</target>
       </trans-unit>
-      <trans-unit id="msg.invalidEndDate" approved="yes">
+      <trans-unit id="msg.invalidEndDate">
         <source>End date is invalid.</source>
-        <target state="translated">Das Enddatum ist ungültig.</target>
+        <target>crwdns30192:0crwdne30192:0</target>
       </trans-unit>
-      <trans-unit id="msg.invalidNumberOfDays" approved="yes">
+      <trans-unit id="msg.invalidNumberOfDays">
         <source>Number of days is invalid.</source>
-        <target state="translated">Anzahl an Tagen ist ungültig.</target>
+        <target>crwdns30194:0crwdne30194:0</target>
       </trans-unit>
-      <trans-unit id="msg.selectionOfNonExistingCacheBackends" approved="yes">
+      <trans-unit id="msg.selectionOfNonExistingCacheBackends">
         <source>Some of the selected cache backends do not exist. Please select valid backends only.</source>
-        <target state="translated">Einige der ausgewählten Cache-Backends existieren nicht. Bitte wählen Sie nur valide Backends aus.</target>
+        <target>crwdns30196:0crwdne30196:0</target>
       </trans-unit>
-      <trans-unit id="msg.noCacheBackendSelected" approved="yes">
+      <trans-unit id="msg.noCacheBackendSelected">
         <source>Please select at least one cache backend.</source>
-        <target state="translated">Mindestens ein Cache-Backend auswählen.</target>
+        <target>crwdns30198:0crwdne30198:0</target>
       </trans-unit>
-      <trans-unit id="msg.invalidTaskClass" approved="yes">
+      <trans-unit id="msg.invalidTaskClass">
         <source><![CDATA[<strong>The following tasks can not be executed. No related class could be found for none of the following listed tasks.</strong> You should consider reinstalling the extension that provided them or simply deleting the tasks. Please check also if any of the listed tasks have to be recreated manually (which can be necessary after an extension update due to breaking changes or missing migration scripts).]]></source>
-        <target state="translated"><![CDATA[Die Klasse %s des registrierten Tasks konnte nicht gefunden werden. Sie sollten die Erweiterung, die den Task zur Verfügung stellt, neuinstallieren oder den Task löschen.]]></target>
+        <target><![CDATA[crwdns30200:0crwdne30200:0]]></target>
       </trans-unit>
-      <trans-unit id="msg.invalidTaskClassEdit" approved="yes">
+      <trans-unit id="msg.invalidTaskClassEdit">
         <source>The current class (%s) could not be found. Change it below or consider deleting this task altogether.</source>
-        <target state="translated">Der aktuelle Task (%s) konnte nicht gefunden werden. Ändern Sie ihn unten oder löschen Sie ihn.</target>
+        <target>crwdns30202:0%scrwdne30202:0</target>
       </trans-unit>
-      <trans-unit id="msg.schedulerSetupCheck" approved="yes">
+      <trans-unit id="msg.invalidTaskClass.infobox.title">
+        <source>%s registered scheduler tasks can not be executed</source>
+        <target>crwdns30204:0%scrwdne30204:0</target>
+      </trans-unit>
+      <trans-unit id="msg.invalidTaskClass.infobox.message">
+        <source><![CDATA[<a href="#recordlist-task-group-missing">Please check the erroneous tasks!</a>]]></source>
+        <target><![CDATA[crwdns30206:0crwdne30206:0]]></target>
+      </trans-unit>
+      <trans-unit id="msg.schedulerSetupCheck">
         <source>This screen checks if the requisites for running the Scheduler as a cron job are fulfilled. It also displays information about the last run of the Scheduler.</source>
-        <target state="translated">Diese Seite zeigt Ihnen, ob die Voraussetzungen, um den Planer mit einem Cron-Job auszuführen, erfüllt sind. Zudem zeigt sie Informationen zur letzten Ausführung des Planers.</target>
+        <target>crwdns30208:0crwdne30208:0</target>
       </trans-unit>
-      <trans-unit id="msg.serverTime" approved="yes">
+      <trans-unit id="msg.serverTime">
         <source>Current server time is %s.</source>
-        <target state="translated">Die aktuelle Serverzeit ist %s.</target>
+        <target>crwdns30210:0%scrwdne30210:0</target>
       </trans-unit>
-      <trans-unit id="msg.serverTimeHelp" approved="yes">
+      <trans-unit id="msg.serverTimeHelp">
         <source>All dates and times in the Scheduler are measured according to the server's time, as the Scheduler is run purely on the server-side.</source>
-        <target state="translated">Alle Daten und Zeiten im Planer werden an der Serverzeit gemessen, weil der Planer ausschließlich auf der Serverseite läuft.</target>
+        <target>crwdns30212:0crwdne30212:0</target>
       </trans-unit>
-      <trans-unit id="msg.stop" approved="yes">
+      <trans-unit id="msg.stop">
         <source>Are you sure you want to mark this task as not running? Note that this will not stop the actual script (if unsure please refer to the manual).</source>
-        <target state="translated">Diesen Task tatsächlich als nicht-laufend markieren? Beachten Sie, dass dies nicht das eigentliche Skript beendet. (Wenn Sie unsicher sind, konsultieren Sie bitte das Handbuch.)</target>
+        <target>crwdns30214:0crwdne30214:0</target>
       </trans-unit>
-      <trans-unit id="msg.stopError" approved="yes">
+      <trans-unit id="msg.stopError">
         <source>The task could not be marked as non-running.</source>
-        <target state="translated">Der Task konnte nicht als nicht-laufend markiert werden.</target>
+        <target>crwdns30216:0crwdne30216:0</target>
       </trans-unit>
-      <trans-unit id="msg.stopSuccess" approved="yes">
+      <trans-unit id="msg.stopSuccess">
         <source>The task was successfully marked as non-running.</source>
-        <target state="translated">Der Task wurde erfolgreich als nicht-laufend markiert.</target>
+        <target>crwdns30218:0crwdne30218:0</target>
       </trans-unit>
-      <trans-unit id="msg.taskNotFound" approved="yes">
+      <trans-unit id="msg.taskNotFound">
         <source>The requested task (UID: %d) was not found.</source>
-        <target state="translated">Der angeforderte Task (UID: %d) wurde nicht gefunden.</target>
+        <target>crwdns30220:0%dcrwdne30220:0</target>
       </trans-unit>
-      <trans-unit id="msg.updateSuccess" approved="yes">
+      <trans-unit id="msg.updateSuccess">
         <source>The task was updated successfully.</source>
-        <target state="translated">Der Task wurde erfolgreich aktualisiert.</target>
+        <target>crwdns30222:0crwdne30222:0</target>
       </trans-unit>
-      <trans-unit id="msg.updateError" approved="yes">
+      <trans-unit id="msg.updateError">
         <source>The task could not be updated.</source>
-        <target state="translated">Der Task konnte nicht aktualisiert werden.</target>
+        <target>crwdns30224:0crwdne30224:0</target>
       </trans-unit>
-      <trans-unit id="none" approved="yes">
+      <trans-unit id="msg.selectionOfNonExistingDatabaseTables">
+        <source>Some of the selected database tables do not exist. Please select only valid tables.</source>
+        <target>crwdns30226:0crwdne30226:0</target>
+      </trans-unit>
+      <trans-unit id="msg.noDatabaseTablesSelected">
+        <source>Please select at least one database table.</source>
+        <target>crwdns30228:0crwdne30228:0</target>
+      </trans-unit>
+      <trans-unit id="msg.unregisteredCommand">
+        <source>Command with identifier "%s" has not been registered.</source>
+        <target>crwdns30230:0%scrwdne30230:0</target>
+      </trans-unit>
+      <trans-unit id="msg.mandatoryArgumentMissing">
+        <source>Argument "%s" is mandatory</source>
+        <target>crwdns30232:0%scrwdne30232:0</target>
+      </trans-unit>
+      <trans-unit id="none">
         <source>None</source>
-        <target state="translated">Keine</target>
+        <target>crwdns30234:0crwdne30234:0</target>
       </trans-unit>
-      <trans-unit id="status.progress" approved="yes">
+      <trans-unit id="status">
+        <source>Status</source>
+        <target>crwdns30236:0crwdne30236:0</target>
+      </trans-unit>
+      <trans-unit id="status.progress">
         <source>Progress</source>
-        <target state="translated">Fortschritt</target>
+        <target>crwdns30238:0crwdne30238:0</target>
       </trans-unit>
-      <trans-unit id="status.disabled" approved="yes">
+      <trans-unit id="status.disabled">
         <source>disabled</source>
-        <target state="translated">deaktiviert</target>
+        <target>crwdns30240:0crwdne30240:0</target>
       </trans-unit>
-      <trans-unit id="status.failure" approved="yes">
+      <trans-unit id="status.failure">
         <source>failure</source>
-        <target state="translated">Fehler</target>
+        <target>crwdns30242:0crwdne30242:0</target>
       </trans-unit>
-      <trans-unit id="status.late" approved="yes">
+      <trans-unit id="status.late">
         <source>late</source>
-        <target state="translated">verspätet</target>
+        <target>crwdns30244:0crwdne30244:0</target>
       </trans-unit>
-      <trans-unit id="status.running" approved="yes">
+      <trans-unit id="status.running">
         <source>running</source>
-        <target state="translated">läuft</target>
+        <target>crwdns30246:0crwdne30246:0</target>
       </trans-unit>
-      <trans-unit id="status.scheduled" approved="yes">
+      <trans-unit id="status.scheduled">
         <source>scheduled</source>
-        <target state="translated">geplant</target>
+        <target>crwdns30248:0crwdne30248:0</target>
       </trans-unit>
-      <trans-unit id="title" approved="yes">
+      <trans-unit id="task">
+        <source>Task</source>
+        <target>crwdns30250:0crwdne30250:0</target>
+      </trans-unit>
+      <trans-unit id="title">
         <source>TYPO3 Scheduler administration module</source>
-        <target state="translated">Administrationsmodul des TYPO3-Planers</target>
+        <target>crwdns30252:0crwdne30252:0</target>
       </trans-unit>
-      <trans-unit id="action.run_task" approved="yes">
+      <trans-unit id="action.run_task">
         <source>Run task</source>
-        <target state="translated">Task ausführen</target>
+        <target>crwdns30254:0crwdne30254:0</target>
       </trans-unit>
-      <trans-unit id="testTask.name" approved="yes">
+      <trans-unit id="action.run_task_cron">
+        <source>Run task on next cron job</source>
+        <target>crwdns30256:0crwdne30256:0</target>
+      </trans-unit>
+      <trans-unit id="testTask.name">
         <source>Scheduler test task</source>
-        <target state="translated">Planer-Test-Task</target>
+        <target>crwdns30258:0crwdne30258:0</target>
       </trans-unit>
-      <trans-unit id="testTask.description" approved="yes">
+      <trans-unit id="testTask.description">
         <source>The Scheduler test task just sends a mail to a given email address. It is designed to be used for testing purposes.</source>
-        <target state="translated">Der Test-Task schickt eine E-Mail an eine angegebene E-Mail-Adresse. Er ist zu Testzwecken gedacht.</target>
+        <target>crwdns30260:0crwdne30260:0</target>
       </trans-unit>
-      <trans-unit id="sleepTask.name" approved="yes">
+      <trans-unit id="sleepTask.name">
         <source>Scheduler sleep task</source>
-        <target state="translated">Planer-Pause-Task</target>
+        <target>crwdns30262:0crwdne30262:0</target>
       </trans-unit>
-      <trans-unit id="sleepTask.description" approved="yes">
+      <trans-unit id="sleepTask.description">
         <source>This task does nothing but put PHP to sleep for a number of seconds. It is designed to test multiple executions.</source>
-        <target state="translated">Dieser Task macht nichts außer PHP eine gewisse Anzahl Sekunden zu pausieren. Er ist zum Testen mehrfacher, gleichzeitiger Ausführungen des Planers gedacht.</target>
+        <target>crwdns30264:0crwdne30264:0</target>
       </trans-unit>
-      <trans-unit id="cachingFrameworkGarbageCollection.name" approved="yes">
+      <trans-unit id="cachingFrameworkGarbageCollection.name">
         <source>Caching framework garbage collection</source>
-        <target state="translated">Müllsammlung des Caching-Frameworks</target>
+        <target>crwdns30266:0crwdne30266:0</target>
       </trans-unit>
-      <trans-unit id="cachingFrameworkGarbageCollection.description" approved="yes">
+      <trans-unit id="cachingFrameworkGarbageCollection.description">
         <source>This task calls the garbage collection of configured caching framework caches which use one of the selected backends. This will free some space in cache backends which do not have an internal garbage collection. In case of the default database backend it is advisable to run this task once a day when the database is mostly idle.</source>
-        <target state="translated">Dieser Task ruft die Müllsammlung der Caches des konfigurierten Caching-Frameworks auf. Dies gibt Platz in Cache-Backends freigeben, die keine interne Müllsammlung haben. Im Fall des Standard-Datenbank-Backends ist es ratsam, diesen Task einmal täglich auszuführen, bevorzugt wenn die Datenbank weitestgehend leerläuft.</target>
+        <target>crwdns30268:0crwdne30268:0</target>
       </trans-unit>
-      <trans-unit id="fileIndexing.name" approved="yes">
+      <trans-unit id="fileIndexing.name">
         <source>[OBSOLETE] File Abstraction Layer: Indexing job</source>
-        <target state="translated">Datei-Abstraktionsschicht: Indizierungs-Auftrag</target>
+        <target>crwdns30270:0[OBSOLETE]crwdne30270:0</target>
       </trans-unit>
-      <trans-unit id="fileIndexing.description" approved="yes">
+      <trans-unit id="fileIndexing.description">
         <source>Runs indexing tasks based on an indexing configuration and a storage/folder information.</source>
-        <target state="translated">Führt Indizierungsaufgaben basierend auf der Indizierungskonfiguration und Speicher-/Ordner-Informationen durch.</target>
+        <target>crwdns30272:0crwdne30272:0</target>
       </trans-unit>
-      <trans-unit id="fileStorageIndexing.name" approved="yes">
+      <trans-unit id="fileStorageIndexing.name">
         <source>File Abstraction Layer: Update storage index</source>
-        <target state="translated">Dateiabstraktionsschicht: Speicherindex aktualisieren</target>
+        <target>crwdns30274:0crwdne30274:0</target>
       </trans-unit>
-      <trans-unit id="fileStorageIndexing.description" approved="yes">
+      <trans-unit id="fileStorageIndexing.description">
         <source>Updates the Index/Cache Data of a Storage; only needed if changes to the storage are possible outside the backend (FTP, RemoteStorages).</source>
-        <target state="translated">Aktualisiert den Index/die Cachedaten eines Speichers; nur benötigt, wenn Änderungen am Speicher von außerhalb des Backends vorgenommen werden können (z.B. per FTP oder per remoteStorage).</target>
+        <target>crwdns30276:0crwdne30276:0</target>
       </trans-unit>
-      <trans-unit id="fileStorageExtraction.name" approved="yes">
+      <trans-unit id="fileStorageExtraction.name">
         <source>File Abstraction Layer: Extract metadata in storage</source>
-        <target state="translated">Dateiabstraktionsschicht: Metadaten in Speicher entpacken</target>
+        <target>crwdns30278:0crwdne30278:0</target>
       </trans-unit>
-      <trans-unit id="fileStorageExtraction.description" approved="yes">
+      <trans-unit id="fileStorageExtraction.description">
         <source>Extracts metadata for all files in storage which have been changed since last run.</source>
-        <target state="translated">Entpackt Metadaten für alle Dateien im Speicher, die sich seit der letzten Ausführung verändert haben.</target>
+        <target>crwdns30280:0crwdne30280:0</target>
       </trans-unit>
-      <trans-unit id="tableGarbageCollection.name" approved="yes">
+      <trans-unit id="tableGarbageCollection.name">
         <source>Table garbage collection</source>
-        <target state="translated">Tabellen-Müllsammlung</target>
+        <target>crwdns30282:0crwdne30282:0</target>
       </trans-unit>
-      <trans-unit id="tableGarbageCollection.description" approved="yes">
+      <trans-unit id="tableGarbageCollection.description">
         <source>Task to delete old entries from specific tables like sys_log. Use $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['scheduler']['tasks']['tx_scheduler_TableGarbageCollection']['options']['tables'] to configure tables. Refer to the manual for more details.</source>
-        <target state="translated">Task zum Löschen alter Einträge aus bestimmten Tabellen wie sys_log. Benutzen Sie $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['scheduler']['tasks']['tx_scheduler_TableGarbageCollection']['options']['tables'] um die Tabellen zu konfigurieren. Weitere Details finden Sie im Handbuch.</target>
+        <target>crwdns30284:0$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['scheduler']['tasks']['tx_scheduler_TableGarbageCollection']['options']['tables']crwdne30284:0</target>
       </trans-unit>
-      <trans-unit id="recyclerGarbageCollection.name" approved="yes">
+      <trans-unit id="recyclerGarbageCollection.name">
         <source>Fileadmin garbage collection</source>
-        <target state="translated">Müllsammlung für den Ordner fileadmin</target>
+        <target>crwdns30286:0crwdne30286:0</target>
       </trans-unit>
-      <trans-unit id="recyclerGarbageCollection.description" approved="yes">
+      <trans-unit id="recyclerGarbageCollection.description">
         <source>This task empties all "_recycler_" folders below fileadmin. This helps free some space in the file system.</source>
-        <target state="translated">Dieser Task leert alle Order mit dem Namen "_recycler_" im Ordner fileadmin. So können Sie Speicherplatz im Dateisystem freigeben.</target>
+        <target>crwdns30288:0crwdne30288:0</target>
+      </trans-unit>
+      <trans-unit id="executeSchedulableCommandTask.name">
+        <source>Execute console commands</source>
+        <target>crwdns30290:0crwdne30290:0</target>
+      </trans-unit>
+      <trans-unit id="executeSchedulableCommandTask.description">
+        <source>Allows regular console commands to be configured and executed through the scheduler framework.</source>
+        <target>crwdns30292:0crwdne30292:0</target>
+      </trans-unit>
+      <trans-unit id="optimizeDatabaseTable.name">
+        <source>Optimize MySQL database tables</source>
+        <target>crwdns30294:0crwdne30294:0</target>
+      </trans-unit>
+      <trans-unit id="optimizeDatabaseTable.description">
+        <source>This task executes "OPTIMIZE TABLE" statements on the selected database tables. This helps to reduce storage space and improve I/O efficiency. Warning! Tables will be locked during the optimization process.</source>
+        <target>crwdns30296:0crwdne30296:0</target>
+      </trans-unit>
+      <trans-unit id="ipAnonymization.name">
+        <source>Anonymize IP addresses in database tables</source>
+        <target>crwdns30298:0crwdne30298:0</target>
+      </trans-unit>
+      <trans-unit id="ipAnonymization.description">
+        <source>This task anonymizes the IP addresses to enforce the privacy of the persisted data.</source>
+        <target>crwdns30300:0crwdne30300:0</target>
+      </trans-unit>
+      <trans-unit id="label.ipAnonymization.table">
+        <source>Table to anoymize</source>
+        <target>crwdns30302:0crwdne30302:0</target>
+      </trans-unit>
+      <trans-unit id="label.ipAnonymization.additionalInformationTable">
+        <source>Table: %s after %s days</source>
+        <target>crwdns30304:0%scrwdnd30304:0%scrwdne30304:0</target>
+      </trans-unit>
+      <trans-unit id="label.ipAnonymization.additionalInformationAllTables">
+        <source>All tables</source>
+        <target>crwdns30306:0crwdne30306:0</target>
+      </trans-unit>
+      <trans-unit id="label.ipAnonymization.numberOfDays">
+        <source>Handle entries older than given number of days</source>
+        <target>crwdns30308:0crwdne30308:0</target>
+      </trans-unit>
+      <trans-unit id="label.ipAnonymization.mask">
+        <source>Mask level</source>
+        <target>crwdns30310:0crwdne30310:0</target>
+      </trans-unit>
+      <trans-unit id="label.ipAnonymization.mask.1">
+        <source>Last byte for IPv4 / Interface ID for IPv6</source>
+        <target>crwdns30312:0crwdne30312:0</target>
+      </trans-unit>
+      <trans-unit id="label.ipAnonymization.mask.2">
+        <source>Last 2 bytes for IPv4 / Interface &amp; SLA ID for IPv6</source>
+        <target>crwdns30314:0crwdne30314:0</target>
+      </trans-unit>
+      <trans-unit id="command.example1">
+        <source>Every day-of-week from Monday through Friday. at 09:00 and 15:00</source>
+        <target>crwdns30316:0crwdne30316:0</target>
+      </trans-unit>
+      <trans-unit id="command.example2">
+        <source>Every 2 hours</source>
+        <target>crwdns30318:0crwdne30318:0</target>
+      </trans-unit>
+      <trans-unit id="command.example3">
+        <source>Every 20 minutes</source>
+        <target>crwdns30320:0crwdne30320:0</target>
+      </trans-unit>
+      <trans-unit id="command.example4">
+        <source>Every Tuesday at 07:00</source>
+        <target>crwdns30322:0crwdne30322:0</target>
+      </trans-unit>
+      <trans-unit id="systemmessage.noLastRun">
+        <source><![CDATA[It seems the Scheduler has never yet run. Please check your <a href="%1$s">configuration</a>.]]></source>
+        <target><![CDATA[crwdns30324:0%1$scrwdne30324:0]]></target>
+      </trans-unit>
+      <trans-unit id="systeminformation.lastRunLabel">
+        <source>Last Scheduler run</source>
+        <target>crwdns30326:0crwdne30326:0</target>
+      </trans-unit>
+      <trans-unit id="systeminformation.lastRunValue">
+        <source>%1$s at %2$s, Duration %3$s, (started %4$s)</source>
+        <target>crwdns30328:0%1$scrwdnd30328:0%2$scrwdnd30328:0%3$scrwdnd30328:0%4$scrwdne30328:0</target>
       </trans-unit>
     </body>
   </file>
