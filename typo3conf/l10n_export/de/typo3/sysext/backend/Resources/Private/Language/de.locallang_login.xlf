@@ -1,115 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415814864" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="de-AT">
+  <file t3:id="1415814864" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="de">
     <header/>
     <body>
-      <trans-unit id="labels.submitLogout">
+      <trans-unit id="labels.submitLogout" approved="yes">
         <source>Log Out</source>
-        <target>crwdns19902:0crwdne19902:0</target>
+        <target state="translated">Abmelden</target>
       </trans-unit>
-      <trans-unit id="labels.whatIsOpenId">
+      <trans-unit id="labels.whatIsOpenId" approved="yes">
         <source>What is OpenId?</source>
-        <target>crwdns19904:0crwdne19904:0</target>
+        <target state="translated">Was ist OpenID?</target>
       </trans-unit>
-      <trans-unit id="availableInterfaces">
+      <trans-unit id="availableInterfaces" approved="yes">
         <source>Backend,Front End,Traditional Backend</source>
-        <target>crwdns19906:0crwdne19906:0</target>
+        <target state="translated">Backend,Frontend,Traditionelles Backend</target>
       </trans-unit>
-      <trans-unit id="interface.backend">
-        <source>Backend</source>
-        <target>crwdns19908:0crwdne19908:0</target>
-      </trans-unit>
-      <trans-unit id="interface.frontend">
-        <source>Frontend</source>
-        <target>crwdns19910:0crwdne19910:0</target>
-      </trans-unit>
-      <trans-unit id="interface.backend_old">
+      <trans-unit id="interface.backend_old" approved="yes">
         <source>Traditional Backend</source>
-        <target>crwdns19912:0crwdne19912:0</target>
+        <target state="translated">Traditionelles Backend</target>
       </trans-unit>
-      <trans-unit id="headline">
+      <trans-unit id="headline" approved="yes">
         <source>Login to the TYPO3 CMS Backend on ###SITENAME###</source>
-        <target>crwdns19914:0crwdne19914:0</target>
+        <target state="translated">Anmeldung am Backend von ###SITENAME###</target>
       </trans-unit>
-      <trans-unit id="info.about">
+      <trans-unit id="info.about" approved="yes">
         <source>This is the backend login of TYPO3. You need username and password to access this administration interface. If you are a visitor of ###SITENAME###, please visit the public website: ###SITELINK###</source>
-        <target>crwdns19916:0crwdne19916:0</target>
+        <target state="translated">Dies ist die Anmeldung am TYPO3-Backend. Um auf die Verwaltungsoberfläche zugreifen zu können, benötigen Sie einen Benutzernamen und ein Passwort. Falls Sie ein Besucher von ###SITENAME### sind, besuchen Sie bitte den öffentlichen Bereich: ###SITELINK###</target>
       </trans-unit>
-      <trans-unit id="info.reset">
+      <trans-unit id="info.reset" approved="yes">
         <source>Reset this form</source>
-        <target>crwdns19918:0crwdne19918:0</target>
+        <target state="translated">Formular zurücksetzen</target>
       </trans-unit>
-      <trans-unit id="info.cookies_and_js">
+      <trans-unit id="info.cookies_and_js" approved="yes">
         <source>(Note: Cookies and JavaScript must be enabled!)</source>
-        <target>crwdns19920:0crwdne19920:0</target>
+        <target state="translated">(Hinweis: Cookies und JavaScript müssen aktiviert sein!)</target>
       </trans-unit>
-      <trans-unit id="clear">
+      <trans-unit id="clear" approved="yes">
         <source>Clear this field!</source>
-        <target>crwdns19922:0crwdne19922:0</target>
+        <target state="translated">Dieses Feld leeren!</target>
       </trans-unit>
-      <trans-unit id="warning.incompatibleBrowserHeadline">
+      <trans-unit id="warning.incompatibleBrowserHeadline" approved="yes">
         <source>Unsupported Browser</source>
-        <target>crwdns19924:0crwdne19924:0</target>
+        <target state="translated">Nicht unterstützter Browser</target>
       </trans-unit>
-      <trans-unit id="warning.incompatibleBrowser">
+      <trans-unit id="warning.incompatibleBrowser" approved="yes">
         <source>You are using an unsupported browser version.</source>
-        <target>crwdns19926:0crwdne19926:0</target>
+        <target state="translated">Sie verwenden eine nicht unterstützte Browser-Version.</target>
       </trans-unit>
-      <trans-unit id="warning.incompatibleBrowserInternetExplorer">
+      <trans-unit id="warning.incompatibleBrowserInternetExplorer" approved="yes">
         <source>Please install &lt;a href="http://www.microsoft.com/internetexplorer/" target="_blank" /&gt;a more modern browser version&lt;/a&gt;.</source>
-        <target>crwdns19928:0crwdne19928:0</target>
+        <target state="translated">Bitte installieren Sie &lt;a href="http://www.microsoft.com/internetexplorer/" target="_blank" /&gt;eine aktuellere Browser-Version&lt;/a&gt;.</target>
       </trans-unit>
-      <trans-unit id="newsheadline">
+      <trans-unit id="newsheadline" approved="yes">
         <source>Important Messages</source>
-        <target>crwdns19930:0crwdne19930:0</target>
+        <target state="translated">Wichtige Meldungen</target>
       </trans-unit>
-      <trans-unit id="error.login">
+      <trans-unit id="error.login" approved="yes">
         <source>Your login attempt did not succeed. Make sure to spell your username and password correctly, including upper/lowercase characters.</source>
-        <target>crwdns19932:0crwdne19932:0</target>
+        <target state="translated">Der Anmeldeversuch ist fehlgeschlagen. Achten Sie darauf, Benutzernamen und Passwort korrekt einzugeben, einschließlich Groß-/Kleinschreibung.</target>
       </trans-unit>
-      <trans-unit id="error.cookies_ignore">
+      <trans-unit id="error.cookies_ignore" approved="yes">
         <source>Ignore!</source>
-        <target>crwdns19934:0crwdne19934:0</target>
+        <target state="translated">Ignorieren!</target>
       </trans-unit>
-      <trans-unit id="error.furtherInformation">
+      <trans-unit id="error.furtherInformation" approved="yes">
         <source>For more information or further help click here</source>
-        <target>crwdns19936:0crwdne19936:0</target>
+        <target state="translated">Weitere Informationen und Hilfe erhalten Sie hier</target>
       </trans-unit>
-      <trans-unit id="warranty.by">
+      <trans-unit id="warranty.by" approved="yes">
         <source>Warranty is supplied by %s; %sclick for details.%s</source>
-        <target>crwdns19938:0%scrwdnd19938:0%scrwdnd19938:0%scrwdne19938:0</target>
+        <target state="translated">Gewährleistung wird geboten von %s; %sDetails sind hier verfügbar.%s</target>
       </trans-unit>
-      <trans-unit id="no.warranty">
+      <trans-unit id="no.warranty" approved="yes">
         <source>TYPO3 CMS comes with ABSOLUTELY NO WARRANTY; %sclick for details.%s</source>
-        <target>crwdns19940:0%scrwdnd19940:0%scrwdne19940:0</target>
+        <target state="translated">Sie nutzen TYPO3 OHNE GEWÄHRLEISTUNG; %sDetails sind hier verfügbar.%s</target>
       </trans-unit>
-      <trans-unit id="typo3.cms">
-        <source>TYPO3 CMS</source>
-        <target>crwdns19942:0crwdne19942:0</target>
-      </trans-unit>
-      <trans-unit id="version.short">
+      <trans-unit id="version.short" approved="yes">
         <source>ver.</source>
-        <target>crwdns19944:0crwdne19944:0</target>
+        <target state="translated">Ver.</target>
       </trans-unit>
-      <trans-unit id="copyright">
-        <source>Copyright</source>
-        <target>crwdns19946:0crwdne19946:0</target>
-      </trans-unit>
-      <trans-unit id="extension.copyright">
+      <trans-unit id="extension.copyright" approved="yes">
         <source>Extensions are copyright of their respective owners.</source>
-        <target>crwdns19948:0crwdne19948:0</target>
+        <target state="translated">Erweiterungen sind Eigentum ihrer jeweiligen Autoren.</target>
       </trans-unit>
-      <trans-unit id="details.link">
+      <trans-unit id="details.link" approved="yes">
         <source>Go to %s for details.</source>
-        <target>crwdns19950:0%scrwdne19950:0</target>
+        <target state="translated">Weitere Informationen erhalten Sie unter %s.</target>
       </trans-unit>
-      <trans-unit id="free.software">
+      <trans-unit id="free.software" approved="yes">
         <source>This is free software, and you are welcome to redistribute it under certain conditions; %sclick for details.%s</source>
-        <target>crwdns19952:0%scrwdnd19952:0%scrwdne19952:0</target>
+        <target state="translated">Dies ist freie Software und Sie dürfen sie unter gewissen Voraussetzungen verbreiten; %sDetails sind hier verfügbar.%s</target>
       </trans-unit>
-      <trans-unit id="keep.notice">
+      <trans-unit id="keep.notice" approved="yes">
         <source>Obstructing the appearance of this notice is prohibited by law.</source>
-        <target>crwdns19954:0crwdne19954:0</target>
+        <target state="translated">Das Erscheinen dieses Hinweises zu verhindern, ist gesetzlich verboten.</target>
       </trans-unit>
     </body>
   </file>
