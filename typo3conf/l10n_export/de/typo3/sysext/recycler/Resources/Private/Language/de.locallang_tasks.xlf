@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1424776442" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:35Z" product-name="recycler" target-language="de-AT">
+  <file t3:id="1424776442" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:35Z" product-name="recycler" target-language="de">
     <header/>
     <body>
-      <trans-unit id="cleanerTaskTitle">
+      <trans-unit id="cleanerTaskTitle" approved="yes">
         <source>Remove deleted records</source>
-        <target>crwdns42990:0crwdne42990:0</target>
+        <target state="translated">Gelöschte Datensätze entfernen</target>
       </trans-unit>
-      <trans-unit id="cleanerTaskDescription">
+      <trans-unit id="cleanerTaskDescription" approved="yes">
         <source>Deletes rows from the database which are flagged "deleted"</source>
-        <target>crwdns42992:0crwdne42992:0</target>
+        <target state="translated">Löscht Zeilen, die als gelöscht markiert sind, aus der Datenbank</target>
       </trans-unit>
-      <trans-unit id="cleanerTaskPeriod">
+      <trans-unit id="cleanerTaskPeriod" approved="yes">
         <source>Delete entries older than (in days)</source>
-        <target>crwdns42994:0crwdne42994:0</target>
+        <target state="translated">Einträge löschen, die älter sind als ... Tage</target>
       </trans-unit>
-      <trans-unit id="cleanerTaskTCA">
+      <trans-unit id="cleanerTaskTCA" approved="yes">
         <source>Tables</source>
-        <target>crwdns42996:0crwdne42996:0</target>
+        <target state="translated">Tabellen</target>
       </trans-unit>
-      <trans-unit id="cleanerTaskDescriptionTables">
+      <trans-unit id="cleanerTaskDescriptionTables" approved="yes">
         <source>Tables: %s</source>
-        <target>crwdns42998:0%scrwdne42998:0</target>
+        <target state="translated">Tabellen: %s</target>
       </trans-unit>
-      <trans-unit id="cleanerTaskDescriptionDays">
+      <trans-unit id="cleanerTaskDescriptionDays" approved="yes">
         <source>Older than %d days(s)</source>
-        <target>crwdns43000:0%dcrwdne43000:0</target>
+        <target state="translated">Älter als %d Tag(e)</target>
       </trans-unit>
-      <trans-unit id="cleanerTaskErrorPeriod">
+      <trans-unit id="cleanerTaskErrorPeriod" approved="yes">
         <source>The period has to be an integer and greater than zero.</source>
-        <target>crwdns43002:0crwdne43002:0</target>
+        <target state="translated">Der Zeitraum muss eine ganze Zahl und größer als Null sein.</target>
       </trans-unit>
-      <trans-unit id="cleanerTaskErrorTCAempty">
+      <trans-unit id="cleanerTaskErrorTCAempty" approved="yes">
         <source>You have to select at least one table.</source>
-        <target>crwdns43004:0crwdne43004:0</target>
+        <target state="translated">Es muss mindestens eine Tabelle ausgewählt werden.</target>
       </trans-unit>
-      <trans-unit id="cleanerTaskErrorTCANotSet">
+      <trans-unit id="cleanerTaskErrorTCANotSet" approved="yes">
         <source>The table "%s" is not in the TCA.</source>
-        <target>crwdns43006:0%scrwdne43006:0</target>
+        <target state="translated">Die Tabelle "%s" ist nicht in $GLOBALS['TCA'] definiert.</target>
       </trans-unit>
     </body>
   </file>
