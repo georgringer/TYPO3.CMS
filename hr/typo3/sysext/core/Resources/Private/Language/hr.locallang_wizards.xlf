@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814890" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="hr">
+    <header/>
+    <body>
+      <trans-unit id="rte_undoLastChange" approved="yes">
+        <source>Undo/Redo last change (%s ago)</source>
+        <target state="translated">Undo/Redo zadnjih promjena (%s prije)</target>
+      </trans-unit>
+      <trans-unit id="tsprop" approved="yes">
+        <source>TypoScript property lookup</source>
+        <target state="translated">TypoScript pregled osobina</target>
+      </trans-unit>
+      <trans-unit id="tsprop_title" approved="yes">
+        <source>Object title</source>
+        <target state="translated">Naziv objekta</target>
+      </trans-unit>
+      <trans-unit id="tsprop_prefix" approved="yes">
+        <source>Object prefix</source>
+        <target state="translated">Prefiks objekta</target>
+      </trans-unit>
+      <trans-unit id="tsprop_mixer_indent" approved="yes">
+        <source>Indent +2</source>
+        <target state="translated">Uvlaka +2</target>
+      </trans-unit>
+      <trans-unit id="tsprop_mixer_outdent" approved="yes">
+        <source>Outdent -2</source>
+        <target state="translated">Izvlaka -2</target>
+      </trans-unit>
+      <trans-unit id="tsprop_mixer_wrap" approved="yes">
+        <source>Wrap</source>
+        <target state="translated">Omot (wrap)</target>
+      </trans-unit>
+      <trans-unit id="tsprop_mixer_transfer" approved="yes">
+        <source>Transfer &amp; Close</source>
+        <target state="translated">Transferiraj i zatvori</target>
+      </trans-unit>
+      <trans-unit id="tsprop_addToList" approved="yes">
+        <source>Add to list...</source>
+        <target state="translated">Dodaj na popis...</target>
+      </trans-unit>
+      <trans-unit id="table_title" approved="yes">
+        <source>Table wizard</source>
+        <target state="translated">Čarobnjak za tablice</target>
+      </trans-unit>
+      <trans-unit id="table_smallFields" approved="yes">
+        <source>Small fields</source>
+        <target state="translated">Mala polja</target>
+      </trans-unit>
+      <trans-unit id="table_addColumn" approved="yes">
+        <source>Add column to the right</source>
+        <target state="translated">Dodaj kolonu zdesna</target>
+      </trans-unit>
+      <trans-unit id="table_removeColumn" approved="yes">
+        <source>Remove column</source>
+        <target state="translated">Ukloni kolonu</target>
+      </trans-unit>
+      <trans-unit id="table_addRow" approved="yes">
+        <source>Add row below</source>
+        <target state="translated">Dodaj red ispod</target>
+      </trans-unit>
+      <trans-unit id="table_removeRow" approved="yes">
+        <source>Remove row</source>
+        <target state="translated">Ukloni red</target>
+      </trans-unit>
+      <trans-unit id="table_left" approved="yes">
+        <source>Move left</source>
+        <target state="translated">Pomakni lijevo</target>
+      </trans-unit>
+      <trans-unit id="table_right" approved="yes">
+        <source>Move right</source>
+        <target state="translated">Pomakni desno</target>
+      </trans-unit>
+      <trans-unit id="table_up" approved="yes">
+        <source>Move up</source>
+        <target state="translated">Pomakni gore</target>
+      </trans-unit>
+      <trans-unit id="table_down" approved="yes">
+        <source>Move down</source>
+        <target state="translated">Pomakni dolje</target>
+      </trans-unit>
+      <trans-unit id="table_top" approved="yes">
+        <source>Move to top</source>
+        <target state="translated">Pomakni na vrh</target>
+      </trans-unit>
+      <trans-unit id="table_bottom" approved="yes">
+        <source>Move to bottom</source>
+        <target state="translated">Pomakni na dno</target>
+      </trans-unit>
+      <trans-unit id="table_start" approved="yes">
+        <source>Move to first column</source>
+        <target state="translated">Pomakni u prvu kolonu</target>
+      </trans-unit>
+      <trans-unit id="table_end" approved="yes">
+        <source>Move to last column</source>
+        <target state="translated">Pomakni u zadnju kolonu</target>
+      </trans-unit>
+      <trans-unit id="table_noData" approved="yes">
+        <source>No table,field or uid given</source>
+        <target state="translated">Nema danih tabela, polja ili uid-a</target>
+      </trans-unit>
+      <trans-unit id="forms_title" approved="yes">
+        <source>Forms wizard</source>
+        <target state="translated">Čarobnjak za formulare</target>
+      </trans-unit>
+      <trans-unit id="forms_refresh" approved="yes">
+        <source>Refresh without saving</source>
+        <target state="translated">Osvježi bez snimanja</target>
+      </trans-unit>
+      <trans-unit id="forms_type_property" approved="yes">
+        <source>Property</source>
+        <target state="translated">Svojstvo</target>
+      </trans-unit>
+      <trans-unit id="forms_type_label" approved="yes">
+        <source>Label</source>
+        <target state="translated">Oznaka</target>
+      </trans-unit>
+      <trans-unit id="forms_fieldName" approved="yes">
+        <source>Field</source>
+        <target state="translated">Polje</target>
+      </trans-unit>
+      <trans-unit id="forms_cols" approved="yes">
+        <source>Columns</source>
+        <target state="translated">Kolone</target>
+      </trans-unit>
+      <trans-unit id="forms_rows" approved="yes">
+        <source>Rows</source>
+        <target state="translated">Redovi</target>
+      </trans-unit>
+      <trans-unit id="forms_size" approved="yes">
+        <source>Size</source>
+        <target state="translated">Veličina</target>
+      </trans-unit>
+      <trans-unit id="forms_autosize" approved="yes">
+        <source>Auto size</source>
+        <target state="translated">Auto veličina</target>
+      </trans-unit>
+      <trans-unit id="forms_extra" approved="yes">
+        <source>No Wrap</source>
+        <target state="translated">Bez omatanja</target>
+      </trans-unit>
+      <trans-unit id="forms_default" approved="yes">
+        <source>Value</source>
+        <target state="translated">Vrijednost</target>
+      </trans-unit>
+      <trans-unit id="forms_multiple" approved="yes">
+        <source>Multiple</source>
+        <target state="translated">Višestruko</target>
+      </trans-unit>
+      <trans-unit id="forms_options" approved="yes">
+        <source>List options</source>
+        <target state="translated">Izlistaj opcije</target>
+      </trans-unit>
+      <trans-unit id="forms_checked" approved="yes">
+        <source>Checked</source>
+        <target state="translated">Odabrano</target>
+      </trans-unit>
+      <trans-unit id="forms_preview" approved="yes">
+        <source>Preview of element</source>
+        <target state="translated">Pregled elementa</target>
+      </trans-unit>
+      <trans-unit id="forms_element" approved="yes">
+        <source>Element type</source>
+        <target state="translated">Tip elementa</target>
+      </trans-unit>
+      <trans-unit id="forms_config" approved="yes">
+        <source>Detailed configuration</source>
+        <target state="translated">Detaljna konfiguracija</target>
+      </trans-unit>
+      <trans-unit id="forms_eform_subject" approved="yes">
+        <source>Subject</source>
+        <target state="translated">Naslov</target>
+      </trans-unit>
+      <trans-unit id="forms_eform_recipient" approved="yes">
+        <source>Recipient email</source>
+        <target state="translated">Primateljev email</target>
+      </trans-unit>
+      <trans-unit id="forms_eform_html_enabled" approved="yes">
+        <source>HTML mode enabled</source>
+        <target state="translated">HTML mod omogućen</target>
+      </trans-unit>
+      <trans-unit id="forms_eform_formtype_mail" approved="yes">
+        <source>Send button label</source>
+        <target state="translated">Naziv send dugmeta</target>
+      </trans-unit>
+      <trans-unit id="forms_special_eform" approved="yes">
+        <source>Special configuration for mail forms</source>
+        <target state="translated">Posebna konfiguracija za mail forme</target>
+      </trans-unit>
+      <trans-unit id="colorpicker_title" approved="yes">
+        <source>Color Picker</source>
+        <target state="translated">Odabir boja</target>
+      </trans-unit>
+      <trans-unit id="colorpicker_setClose" approved="yes">
+        <source>Save and Close</source>
+        <target state="translated">Snimi i zatvori</target>
+      </trans-unit>
+      <trans-unit id="colorpicker_black" approved="yes">
+        <source>BLACK</source>
+        <target state="translated">CRNA</target>
+      </trans-unit>
+      <trans-unit id="colorpicker_white" approved="yes">
+        <source>WHITE</source>
+        <target state="translated">BIJELA</target>
+      </trans-unit>
+      <trans-unit id="grid_windowTitle" approved="yes">
+        <source>Set cell name and column number</source>
+        <target state="translated">Postavi naziv ćelije i broj stupca</target>
+      </trans-unit>
+      <trans-unit id="grid_labelName" approved="yes">
+        <source>Name</source>
+        <target state="translated">Ime</target>
+      </trans-unit>
+      <trans-unit id="grid_labelColumn" approved="yes">
+        <source>Column Number</source>
+        <target state="translated">Broj stupca</target>
+      </trans-unit>
+      <trans-unit id="grid_labelSave" approved="yes">
+        <source>Save to cell</source>
+        <target state="translated">Spremi u ćeliju</target>
+      </trans-unit>
+      <trans-unit id="grid_addColumn" approved="yes">
+        <source>Add column</source>
+        <target state="translated">Dodaj stupac</target>
+      </trans-unit>
+      <trans-unit id="grid_removeColumn" approved="yes">
+        <source>Remove column</source>
+        <target state="translated">Ukloni kolonu</target>
+      </trans-unit>
+      <trans-unit id="grid_addRow" approved="yes">
+        <source>Add row</source>
+        <target state="translated">Dodaj redak</target>
+      </trans-unit>
+      <trans-unit id="grid_removeRow" approved="yes">
+        <source>Remove row</source>
+        <target state="translated">Ukloni red</target>
+      </trans-unit>
+      <trans-unit id="grid_editCell" approved="yes">
+        <source>Edit cell</source>
+        <target state="translated">Uredi ćeliju</target>
+      </trans-unit>
+      <trans-unit id="grid_mergeCell" approved="yes">
+        <source>Combine with next cell</source>
+        <target state="translated">Kombiniraj sa sljedećom ćelijom</target>
+      </trans-unit>
+      <trans-unit id="grid_splitCell" approved="yes">
+        <source>Split cell</source>
+        <target state="translated">Podijeli ćeliju</target>
+      </trans-unit>
+      <trans-unit id="grid_name" approved="yes">
+        <source>Name</source>
+        <target state="translated">Ime</target>
+      </trans-unit>
+      <trans-unit id="grid_column" approved="yes">
+        <source>Column number</source>
+        <target state="translated">Broj stupca</target>
+      </trans-unit>
+      <trans-unit id="grid_notSet" approved="yes">
+        <source>not set</source>
+        <target state="translated">nije zadano</target>
+      </trans-unit>
+      <trans-unit id="grid_nameHelp" approved="yes">
+        <source>Enter a name for the cell.</source>
+        <target state="translated">Unesite ime za ćeliju.</target>
+      </trans-unit>
+      <trans-unit id="grid_columnHelp" approved="yes">
+        <source>The column position defines in which area the content is rendered in the frontend.</source>
+        <target state="translated">Pozicija stupca određuje u kojem području prednjeg sučelja će se prikazati sadržaj.</target>
+      </trans-unit>
+      <trans-unit id="imwizard.open-editor" approved="yes">
+        <source>Open Editor</source>
+        <target state="translated">Otvori urednik</target>
+      </trans-unit>
+      <trans-unit id="imwizard.image-manipulation" approved="yes">
+        <source>Image manipulation</source>
+        <target state="translated">Uređivanje slike</target>
+      </trans-unit>
+      <trans-unit id="imwizard.image-title" approved="yes">
+        <source>Title</source>
+        <target state="translated">Naslov</target>
+      </trans-unit>
+      <trans-unit id="imwizard.original-dimensions" approved="yes">
+        <source>Original dimensions</source>
+        <target state="translated">Izvorne dimenzije</target>
+      </trans-unit>
+      <trans-unit id="imwizard.reset" approved="yes">
+        <source>Reset</source>
+        <target state="translated">Resetiraj</target>
+      </trans-unit>
+      <trans-unit id="imwizard.accept" approved="yes">
+        <source>Accept</source>
+        <target state="translated">Prihvati</target>
+      </trans-unit>
+      <trans-unit id="imwizard.cancel" approved="yes">
+        <source>Cancel</source>
+        <target state="translated">Odustani</target>
+      </trans-unit>
+      <trans-unit id="imwizard.aspect-ratio" approved="yes">
+        <source>Aspect ratio</source>
+        <target state="translated">Omjer slike</target>
+      </trans-unit>
+      <trans-unit id="imwizard.set-aspect-ratio" approved="yes">
+        <source>Set Aspect Ratio</source>
+        <target state="translated">Postavi omjer slike</target>
+      </trans-unit>
+      <trans-unit id="imwizard.ratio.free" approved="yes">
+        <source>Free</source>
+        <target state="translated">Slobodno</target>
+      </trans-unit>
+      <trans-unit id="imwizard.selection" approved="yes">
+        <source>Selected Size</source>
+        <target state="translated">Odabrana veličina</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
