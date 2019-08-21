@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814984" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="scheduler" target-language="th">
+    <header/>
+    <body>
+      <trans-unit id="action.add" approved="yes">
+        <source>Add task</source>
+        <target state="translated">เพิ่มงาน</target>
+      </trans-unit>
+      <trans-unit id="action.edit" approved="yes">
+        <source>Edit task</source>
+        <target state="translated">แก้ไขงาน</target>
+      </trans-unit>
+      <trans-unit id="button.cancel" approved="yes">
+        <source>Cancel</source>
+        <target state="translated">ยกเลิก</target>
+      </trans-unit>
+      <trans-unit id="function.scheduler" approved="yes">
+        <source>Scheduled tasks</source>
+        <target state="translated">กำหนดงาน</target>
+      </trans-unit>
+      <trans-unit id="function.check" approved="yes">
+        <source>Setup check</source>
+        <target state="translated">ตรวจสอบการติดตั้ง</target>
+      </trans-unit>
+      <trans-unit id="function.info" approved="yes">
+        <source>Information</source>
+        <target state="translated">ข้อมูล</target>
+      </trans-unit>
+      <trans-unit id="hdg.cliScript" approved="yes">
+        <source>CLI script</source>
+        <target state="translated">script CLI</target>
+      </trans-unit>
+      <trans-unit id="hdg.lastRun" approved="yes">
+        <source>Last run</source>
+        <target state="translated">การทำงานล่าสุด</target>
+      </trans-unit>
+      <trans-unit id="label.automatically" approved="yes">
+        <source>automatically</source>
+        <target state="translated">อัตโนมัติ</target>
+      </trans-unit>
+      <trans-unit id="label.cachingFrameworkGarbageCollection.selectBackends" approved="yes">
+        <source>Backend types</source>
+        <target state="translated">ประเภทของ Backend</target>
+      </trans-unit>
+      <trans-unit id="label.checkAll" approved="yes">
+        <source>Check/uncheck all</source>
+        <target state="translated">เลือก / ยกเลิกการเลือกทั้งหมด</target>
+      </trans-unit>
+      <trans-unit id="label.class" approved="yes">
+        <source>Class</source>
+        <target state="translated">คลาส</target>
+      </trans-unit>
+      <trans-unit id="label.defType" approved="yes">
+        <source>Definition type</source>
+        <target state="translated">ประเภทคำจำกัดความ</target>
+      </trans-unit>
+      <trans-unit id="label.defType.interval" approved="yes">
+        <source>Interval</source>
+        <target state="translated">ระยะห่าง</target>
+      </trans-unit>
+      <trans-unit id="label.defType.cron" approved="yes">
+        <source>Cron command</source>
+        <target state="translated">คำสั่ง Cron</target>
+      </trans-unit>
+      <trans-unit id="label.description" approved="yes">
+        <source>Description</source>
+        <target state="translated">ลักษณะ</target>
+      </trans-unit>
+      <trans-unit id="label.end" approved="yes">
+        <source>End (HH:MM DD-MM-YYYY)</source>
+        <target state="translated">End (HH : MM DD - MM - YYYY)</target>
+      </trans-unit>
+      <trans-unit id="label.executeSelected" approved="yes">
+        <source>Execute selected tasks</source>
+        <target state="translated">ผู้เลือกงาน</target>
+      </trans-unit>
+      <trans-unit id="label.frequency" approved="yes">
+        <source>Frequency</source>
+        <target state="translated">ความถี่</target>
+      </trans-unit>
+      <trans-unit id="label.frequency.long" approved="yes">
+        <source>Frequency (seconds or cron command)</source>
+        <target state="translated">ความถี่ (วินาทีหรือคำสั่ง cron)</target>
+      </trans-unit>
+      <trans-unit id="label.lastExecution" approved="yes">
+        <source>Last Execution</source>
+        <target state="translated">ปฏิบัติการล่าสุด</target>
+      </trans-unit>
+      <trans-unit id="label.manual" approved="yes">
+        <source>Manual</source>
+        <target state="translated">คู่มือการใช้</target>
+      </trans-unit>
+      <trans-unit id="label.manually" approved="yes">
+        <source>manually</source>
+        <target state="translated">ด้วยตัวเอง</target>
+      </trans-unit>
+      <trans-unit id="label.name" approved="yes">
+        <source>Name</source>
+        <target state="translated">ชื่อ</target>
+      </trans-unit>
+      <trans-unit id="label.nextExecution" approved="yes">
+        <source>Next Execution</source>
+        <target state="translated">การทำงานครั้งต่อไป</target>
+      </trans-unit>
+      <trans-unit id="label.parallel" approved="yes">
+        <source>Parallel Execution</source>
+        <target state="translated">การดำเนินการแบบคู่ขนาน</target>
+      </trans-unit>
+      <trans-unit id="label.parallel.long" approved="yes">
+        <source>Allow Parallel Execution</source>
+        <target state="translated">อนุญาตให้ดำเนินการแบบคู่ขนาน</target>
+      </trans-unit>
+      <trans-unit id="label.serverTime" approved="yes">
+        <source>Server time</source>
+        <target state="translated">เวลาของ Server</target>
+      </trans-unit>
+      <trans-unit id="label.sleepTime" approved="yes">
+        <source>Sleep time</source>
+        <target state="translated">เวลาพัก</target>
+      </trans-unit>
+      <trans-unit id="label.start" approved="yes">
+        <source>Start (HH:MM DD-MM-YYYY)</source>
+        <target state="translated">เริ่มต้น (HH : MM DD - MM - YYYY)</target>
+      </trans-unit>
+      <trans-unit id="label.type" approved="yes">
+        <source>Type</source>
+        <target state="translated">ชนิด</target>
+      </trans-unit>
+      <trans-unit id="label.type.recurring" approved="yes">
+        <source>Recurring</source>
+        <target state="translated">เกิดขึ้นอีก</target>
+      </trans-unit>
+      <trans-unit id="label.type.single" approved="yes">
+        <source>Single</source>
+        <target state="translated">เดียว</target>
+      </trans-unit>
+      <trans-unit id="msg.addError" approved="yes">
+        <source>The task could not be added.</source>
+        <target state="translated">ไม่สามารถเพิ่มงานได้</target>
+      </trans-unit>
+      <trans-unit id="msg.addSuccess" approved="yes">
+        <source>The task was added successfully.</source>
+        <target state="translated">งานถูกบันทึกเรียบร้อยแล้ว</target>
+      </trans-unit>
+      <trans-unit id="msg.cliScriptExecutable" approved="yes">
+        <source>The webserver user is allowed execute this script.</source>
+        <target state="translated">อนุญาตให้ผู้ใช้เว็บเซิร์ฟเวอร์ให้รันสคริปต์นี้</target>
+      </trans-unit>
+      <trans-unit id="msg.cliScriptNotExecutable" approved="yes">
+        <source>The webserver user is not allowed to execute this script.</source>
+        <target state="translated">ไม่อนุญาตให้ผู้ใช้เว็บเซิร์ฟเวอร์ให้รันสคริปต์นี้</target>
+      </trans-unit>
+      <trans-unit id="msg.delete" approved="yes">
+        <source>Are you sure you want to delete this task?</source>
+        <target state="translated">คุณแน่ใจหรือว่าต้องการลบงานนี้</target>
+      </trans-unit>
+      <trans-unit id="msg.deleteError" approved="yes">
+        <source>The task could not be deleted.</source>
+        <target state="translated">ไม่สามารถลบงานได้</target>
+      </trans-unit>
+      <trans-unit id="msg.deleteSuccess" approved="yes">
+        <source>The task was successfully deleted.</source>
+        <target state="translated">ลบงานสำเร็จ</target>
+      </trans-unit>
+      <trans-unit id="msg.endDateSmallerThanStartDate" approved="yes">
+        <source>The end date is before the start date.</source>
+        <target state="translated">วันสุดท้ายคือก่อนวันเริ่มต้น</target>
+      </trans-unit>
+      <trans-unit id="msg.executed" approved="yes">
+        <source>Executed: %s</source>
+        <target state="translated">ทำงาน: % s</target>
+      </trans-unit>
+      <trans-unit id="msg.incompleteLastRun" approved="yes">
+        <source>The information about the last execution of the Scheduler is incomplete.</source>
+        <target state="translated">ข้อมูลเกี่ยวกับการทำงานสุดท้ายของ Scheduler ไม่สมบูรณ์</target>
+      </trans-unit>
+      <trans-unit id="msg.infoScreenIntro" approved="yes">
+        <source>This is the list of all available tasks in this TYPO3 installation. Click on the icon at the far right to directly create a new scheduled task of the chosen type.</source>
+        <target state="translated">นี่คือรายการงานทั้งหมดที่มีอยู่ใน TYPO3 installation คลิกที่ไอคอนที่ด้านขวาสุดเพื่อสร้างตารางานของประเภทที่เลือกใหม่ได้โดยตรง</target>
+      </trans-unit>
+      <trans-unit id="msg.invalidFrequency" approved="yes">
+        <source>Invalid frequency. Please enter either a number of seconds or a valid cron command.</source>
+        <target state="translated">ความถี่ไม่ถูกต้อง กรุณากรอกจำนวนวินาทีหรือคำสั่ง cron ที่ถูกต้อง</target>
+      </trans-unit>
+      <trans-unit id="msg.invalidSleepTime" approved="yes">
+        <source>Please enter a sleep time greater or equal to 0 (zero).</source>
+        <target state="translated">กรุณากรอกเวลาพักว่ามากกว่าหรือเท่ากับ 0 (ศูนย์)</target>
+      </trans-unit>
+      <trans-unit id="msg.maynotDeleteRunningTask" approved="yes">
+        <source>A running task may not be deleted.</source>
+        <target state="translated">งานที่ทำงานอยู่อาจลบไม่ได้</target>
+      </trans-unit>
+      <trans-unit id="msg.maynotEditRunningTask" approved="yes">
+        <source>A running task may not be edited.</source>
+        <target state="translated">งานที่ทำงานอยู่อาจแก้ไขไม่ได้</target>
+      </trans-unit>
+      <trans-unit id="msg.maynotStopNonRunningTask" approved="yes">
+        <source>The task is not running. There are no executions to unmark.</source>
+        <target state="translated">งานไม่ทำงาน ไม่มีการทำงานที่จะยกเลิกการทำเครื่องหมาย</target>
+      </trans-unit>
+      <trans-unit id="msg.noEmail" approved="yes">
+        <source>Please enter an email address.</source>
+        <target state="translated">กรุณากรอกอีเมล์</target>
+      </trans-unit>
+      <trans-unit id="msg.noFrequency" approved="yes">
+        <source>No frequency was defined, either as an interval or as a cron command.</source>
+        <target state="translated">ความถี่ไม่มีการกำหนดว่าจะเป็นช่วงเวลาหรือตามคำสั่ง cron</target>
+      </trans-unit>
+      <trans-unit id="msg.noLastRun" approved="yes">
+        <source>The Scheduler has never yet run or the information about the last run has been lost.</source>
+        <target state="translated">Scheduler ยังไม่เคยใช้หรือข้อมูลเกี่ยวกับการทำงานล่าสุดได้ถูกหายไป</target>
+      </trans-unit>
+      <trans-unit id="msg.noTasksDefined" approved="yes">
+        <source>There are currently no task classes available at all. To be able to create new tasks, you must either enable the samples provided by the Scheduler or install some other extension that relies on the Scheduler.</source>
+        <target state="translated">ไม่มีงาน class ที่ใช้งานได้ในขณะนี้ หากต้องการสร้างงานใหม่ คุณต้องเปิดการใช้งานตัวอย่างที่ให้ไว้ หรือ ติดตั้งบาง extension อื่นๆ ที่อาศัย Scheduler</target>
+      </trans-unit>
+      <trans-unit id="msg.noTaskClassFound" approved="yes">
+        <source>The selected task class could not be found. You should probably contact the task's developers.</source>
+        <target state="translated">ไม่พบ class งานที่เลือกไว้ ควรติดต่อผู้พัฒนางาน</target>
+      </trans-unit>
+      <trans-unit id="msg.noTasks" approved="yes">
+        <source>No tasks defined yet.</source>
+        <target state="translated">ยังไม่มีงานใดที่กำหนด</target>
+      </trans-unit>
+      <trans-unit id="msg.notExecuted" approved="yes">
+        <source>Not executed: %s</source>
+        <target state="translated">ดำเนินการไม่ได้ :% s</target>
+      </trans-unit>
+      <trans-unit id="msg.executionFailureDefault" approved="yes">
+        <source>The execution failed, but the error message could not be retrieved (it was probably too large). Sorry.</source>
+        <target state="translated">การดำเนินการล้มเหลว แต่ข้อความ error จะไม่ถูกเรียกคืน(มีขนาดใหญ่เกินไป) ขออภัย</target>
+      </trans-unit>
+      <trans-unit id="msg.noStartDate" approved="yes">
+        <source>Please define a start date.</source>
+        <target state="translated">กรุณากำหนดวันเริ่มต้น</target>
+      </trans-unit>
+      <trans-unit id="msg.invalidStartDate" approved="yes">
+        <source>Start date is invalid.</source>
+        <target state="translated">วันที่เริ่มต้นไม่ถูกต้อง</target>
+      </trans-unit>
+      <trans-unit id="msg.invalidEndDate" approved="yes">
+        <source>End date is invalid.</source>
+        <target state="translated">วันที่สิ้นสุดไม่ถูกต้อง</target>
+      </trans-unit>
+      <trans-unit id="msg.invalidTaskClassEdit" approved="yes">
+        <source>The current class (%s) could not be found. Change it below or consider deleting this task altogether.</source>
+        <target state="translated">ไม่พบ class ปัจจุบัน (% s) เปลี่ยนที่ด้านล่างหรือพิจารณาลบงานนี้ทั้งหมด</target>
+      </trans-unit>
+      <trans-unit id="msg.schedulerSetupCheck" approved="yes">
+        <source>This screen checks if the requisites for running the Scheduler as a cron job are fulfilled. It also displays information about the last run of the Scheduler.</source>
+        <target state="translated">ตรวจสอบหน้าจอถ้าสิ่งจำเป็นสำหรับ Schedulerเป็นหน้าที่ของ cron เป็นจริง และยังแสดงข้อมูลเกี่ยวกับการทำงานครั้งล่าสุดของ Scheduler ด้วย</target>
+      </trans-unit>
+      <trans-unit id="msg.serverTime" approved="yes">
+        <source>Current server time is %s.</source>
+        <target state="translated">เวลาเซิร์ฟเวอร์ปัจจุบันคือ %s</target>
+      </trans-unit>
+      <trans-unit id="msg.serverTimeHelp" approved="yes">
+        <source>All dates and times in the Scheduler are measured according to the server's time, as the Scheduler is run purely on the server-side.</source>
+        <target state="translated">ทุกวันและเวลาในตารางเวลาที่มีการวัดตามเวลาของเซิร์ฟเวอร์ และ Scheduler จะทำงานบนฝั่งเซิร์ฟเวอร์</target>
+      </trans-unit>
+      <trans-unit id="msg.stop" approved="yes">
+        <source>Are you sure you want to mark this task as not running? Note that this will not stop the actual script (if unsure please refer to the manual).</source>
+        <target state="translated">คุณแน่ใจหรือว่าต้องการทำเครื่องหมายงานนี้ว่าไม่ทำงาน โปรดทราบว่าการทำงานนี้จะไม่หยุดสคริปต์ที่เกิดขึ้น (ถ้าไม่แน่ใจ โปรดอ่านคู่มือ)</target>
+      </trans-unit>
+      <trans-unit id="msg.stopError" approved="yes">
+        <source>The task could not be marked as non-running.</source>
+        <target state="translated">งานไม่สามารถทำเครื่องหมายเป็นไม่ใช้</target>
+      </trans-unit>
+      <trans-unit id="msg.stopSuccess" approved="yes">
+        <source>The task was successfully marked as non-running.</source>
+        <target state="translated">งานได้สำเร็จเป็นเครื่องหมายที่ไม่ทำงาน</target>
+      </trans-unit>
+      <trans-unit id="msg.taskNotFound" approved="yes">
+        <source>The requested task (UID: %d) was not found.</source>
+        <target state="translated">งานขอ (UID :% d) ไม่พบ</target>
+      </trans-unit>
+      <trans-unit id="msg.updateSuccess" approved="yes">
+        <source>The task was updated successfully.</source>
+        <target state="translated">งานได้ปรับปรุงเรียบร้อยแล้ว</target>
+      </trans-unit>
+      <trans-unit id="msg.updateError" approved="yes">
+        <source>The task could not be updated.</source>
+        <target state="translated">งานไม่สามารถปรับปรุง</target>
+      </trans-unit>
+      <trans-unit id="none" approved="yes">
+        <source>None</source>
+        <target state="translated">ไม่</target>
+      </trans-unit>
+      <trans-unit id="status" approved="yes">
+        <source>Status</source>
+        <target state="translated">สถานะ</target>
+      </trans-unit>
+      <trans-unit id="status.disabled" approved="yes">
+        <source>disabled</source>
+        <target state="translated">ปิดการใช้งาน ยกเลิก</target>
+      </trans-unit>
+      <trans-unit id="status.failure" approved="yes">
+        <source>failure</source>
+        <target state="translated">ความล้มเหลว</target>
+      </trans-unit>
+      <trans-unit id="status.late" approved="yes">
+        <source>late</source>
+        <target state="translated">ช้า</target>
+      </trans-unit>
+      <trans-unit id="status.running" approved="yes">
+        <source>running</source>
+        <target state="translated">กำลังทำงาน</target>
+      </trans-unit>
+      <trans-unit id="status.scheduled" approved="yes">
+        <source>scheduled</source>
+        <target state="translated">ตามกำหนดการ</target>
+      </trans-unit>
+      <trans-unit id="task" approved="yes">
+        <source>Task</source>
+        <target state="translated">งาน</target>
+      </trans-unit>
+      <trans-unit id="title" approved="yes">
+        <source>TYPO3 Scheduler administration module</source>
+        <target state="translated">โมดูล การบริหารกำหนดการ TYPO3</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
