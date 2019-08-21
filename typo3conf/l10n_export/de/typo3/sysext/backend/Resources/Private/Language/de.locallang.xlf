@@ -1,147 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1420197366" source-language="en" datatype="plaintext" original="messages" date="2015-01-02T11:16:11Z" product-name="backend" target-language="de">
+  <file t3:id="1420197366" source-language="en" datatype="plaintext" original="messages" date="2015-01-02T11:16:11Z" product-name="backend" target-language="de-AT">
     <header/>
     <body>
-      <trans-unit id="no_modules_registered" approved="yes">
+      <trans-unit id="no_modules_registered">
         <source>No modules have been registered. Please contact your system administrator.</source>
-        <target state="translated">Es wurden keine Module registriert. Bitte kontaktieren Sie Ihren Systemadministrator.</target>
+        <target>crwdns19388:0crwdne19388:0</target>
       </trans-unit>
-      <trans-unit id="show_references" approved="yes">
+      <trans-unit id="show_references">
         <source>Show references</source>
-        <target state="translated">Referenzen anzeigen</target>
+        <target>crwdns19390:0crwdne19390:0</target>
       </trans-unit>
-      <trans-unit id="systemmessage.header" approved="yes">
+      <trans-unit id="systemmessage.header">
         <source>Application Information</source>
-        <target state="translated">Anwendungsinformationen</target>
+        <target>crwdns19392:0crwdne19392:0</target>
       </trans-unit>
-      <trans-unit id="systemmessage.intro" approved="yes">
+      <trans-unit id="systemmessage.intro">
         <source><![CDATA[This is a short system overview. For advanced information please head to the <a href="%s">Environment Module</a>.]]></source>
-        <target state="translated"><![CDATA[Dies ist ein kurzer Systemüberblick. Für weitergehende Informationen, konsultieren Sie bitte das &lt;a href="%s"&gt;Umgebungsmodul&lt;/a&gt;.]]></target>
+        <target><![CDATA[crwdns19394:0%scrwdne19394:0]]></target>
       </trans-unit>
-      <trans-unit id="systemmessage.allgood" xml:space="preserve" approved="yes">
+      <trans-unit id="systemmessage.allgood" xml:space="preserve">
 				<source>Your system is fully operational.
 Have a nice day.</source>
-			<target state="translated">Ihr System ist voll funktionsfähig.
-Einen schönen Tag noch!</target></trans-unit>
-      <trans-unit id="usermodule.su.list" approved="yes">
+			<target>crwdns19396:0crwdne19396:0</target></trans-unit>
+      <trans-unit id="usermodule.su.list">
         <source>Recently switched to</source>
-        <target state="translated">Neulich gewechselt zu</target>
+        <target>crwdns19398:0crwdne19398:0</target>
       </trans-unit>
-      <trans-unit id="usermodule.su.tooltip" approved="yes">
+      <trans-unit id="usermodule.su.tooltip">
         <source>Switch to user %s</source>
-        <target state="translated">Wechseln zu Benutzer %s</target>
+        <target>crwdns19400:0%scrwdne19400:0</target>
       </trans-unit>
-      <trans-unit id="config.loginLogo" approved="yes">
+      <trans-unit id="config.loginLogo">
         <source>Logo: If set, this logo will be used instead of the TYPO3 logo above the login credential fields (e.g. fileadmin/images/login-logo.png or EXT:my_theme/Resources/Public/Images/login-logo.png or //domain.tld/login-logo.png)</source>
-        <target state="translated">Logo: Wenn gesetzt, wird anstatt des TYPO3-Logos dieses Logo über dem Feld für die Anmeldedaten angezeigt (z.B. fileadmin/images/login-logo.png oder EXT:my_theme/Resources/Public/Images/login-logo.png oder //domain.tld/login-logo.png).</target>
+        <target>crwdns19402:0crwdne19402:0</target>
       </trans-unit>
-      <trans-unit id="config.loginHighlightColor" approved="yes">
+      <trans-unit id="config.loginHighlightColor">
         <source>Highlight Color: If set, this color will be used as highlight color in the login screen.</source>
-        <target state="translated">Hervorhebungsfarbe: Wenn gesetzt, wird diese Farbe als Hervorhebungsfarbe im Anmeldebildschirm benutzt.</target>
+        <target>crwdns19404:0crwdne19404:0</target>
       </trans-unit>
-      <trans-unit id="config.loginBackgroundImage" approved="yes">
+      <trans-unit id="config.loginBackgroundImage">
         <source>Background Image: If set, this image will be used as background image for the login screen (e.g. fileadmin/images/my-background.jpg or EXT:my_theme/Resources/Public/Images/my-background.jpg or //domain.tld/my-background.png)</source>
-        <target state="translated">Hintergrundbild: Wenn gesetzt, wird das angegebene Bild (z.B. fileadmin/images/mein-hintergrund.jpg oder EXT:my_theme/Resources/Public/Images/mein-hintergrund.jpg oder //domain.tld/mein-hintergrund.png) als Hintergrundbild des Anmeldebildschirms benutzt.</target>
+        <target>crwdns19406:0crwdne19406:0</target>
       </trans-unit>
-      <trans-unit id="config.loginFootnote" approved="yes">
+      <trans-unit id="config.loginFootnote">
         <source>Footnote: If set, this text will be displayed on the login screen to provide copyright information for the background image (e.g. © 2017 by Foo Bar) or a descriptive text</source>
-        <target state="translated">Fußnote: Wenn gesetzt, wird dieser Text auf dem Anmeldebildschirm angezeigt, um Copyright-Informationen oder eine Beschreibung für das Hintergrundbild zu geben (z.B. © bei ChSt)</target>
+        <target>crwdns19408:0crwdne19408:0</target>
       </trans-unit>
-      <trans-unit id="config.backendLogo" approved="yes">
+      <trans-unit id="config.backendLogo">
         <source>Logo: If set, this logo will be used instead of the TYPO3 logo in the TYPO3 Backend in the left top corner (e.g. fileadmin/images/backend-logo.png or EXT:my_theme/Resources/Public/Images/backend-logo.png</source>
-        <target state="translated">Logo: Wenn gesetzt, wird anstelle des TYPO3-Logos dieses Logo in der oberen linken Ecke des TYPO3-Backends verwendet (z.B. fileadmin/images/backend-logo.png oder EXT:my_theme/Resources/Public/Images/backend-logo.png).</target>
+        <target>crwdns19410:0crwdne19410:0</target>
       </trans-unit>
-      <trans-unit id="config.backendFavicon" approved="yes">
+      <trans-unit id="config.backendFavicon">
         <source>Favicon: If set, this favicon will be used instead of the TYPO3 logo (e.g. EXT:my_theme/Resources/Public/Images/favicon.ico)</source>
-        <target state="translated">Favicon: Wenn gesetzt, wird anstatt des TYPO3-Logos dieses Favicon benutzt (z.B. EXT:my_theme/Resources/Public/Images/favicon.ico)</target>
+        <target>crwdns19412:0crwdne19412:0</target>
       </trans-unit>
-      <trans-unit id="foldertreeview.noFolders.title" approved="yes">
+      <trans-unit id="foldertreeview.noFolders.title">
         <source>No folders available</source>
-        <target state="translated">Keine Ordner verfügbar</target>
+        <target>crwdns19414:0crwdne19414:0</target>
       </trans-unit>
-      <trans-unit id="foldertreeview.noFolders.message" approved="yes">
+      <trans-unit id="foldertreeview.noFolders.message">
         <source>You do not have access to any folder. Please ask your administrator to fix access permissions for your account.</source>
-        <target state="translated">Sie haben keinen Zugriff auf irgendeinen Ordner. Bitte bitten Sie Ihren Administrator, die Zugriffsberechtigungen Ihres Benutzers anzupassen.</target>
+        <target>crwdns19416:0crwdne19416:0</target>
       </trans-unit>
-      <trans-unit id="login.link" approved="yes">
+      <trans-unit id="login.link">
         <source>Login with username and password</source>
-        <target state="translated">Anmeldung mit Benutzernamen und Passwort</target>
+        <target>crwdns19418:0crwdne19418:0</target>
       </trans-unit>
-      <trans-unit id="login.username" approved="yes">
+      <trans-unit id="login.username">
         <source>Username</source>
-        <target state="translated">Benutzername</target>
+        <target>crwdns19420:0crwdne19420:0</target>
       </trans-unit>
-      <trans-unit id="login.password" approved="yes">
+      <trans-unit id="login.password">
         <source>Password</source>
-        <target state="translated">Passwort</target>
+        <target>crwdns19422:0crwdne19422:0</target>
       </trans-unit>
-      <trans-unit id="login.error.capslock" approved="yes">
+      <trans-unit id="login.error.capslock">
         <source>Attention: Caps lock enabled!</source>
-        <target state="translated">Achtung: Feststelltaste aktiviert!</target>
+        <target>crwdns19424:0crwdne19424:0</target>
       </trans-unit>
-      <trans-unit id="login.interface" approved="yes">
+      <trans-unit id="login.interface">
         <source>Interface</source>
-        <target state="translated">Oberfläche</target>
+        <target>crwdns19426:0crwdne19426:0</target>
       </trans-unit>
-      <trans-unit id="login.news.previous" approved="yes">
+      <trans-unit id="login.news.previous">
         <source>Previous</source>
-        <target state="translated">Vorherige</target>
+        <target>crwdns19428:0crwdne19428:0</target>
       </trans-unit>
-      <trans-unit id="login.news.next" approved="yes">
+      <trans-unit id="login.news.next">
         <source>Next</source>
-        <target state="translated">Nächste</target>
+        <target>crwdns19430:0crwdne19430:0</target>
       </trans-unit>
-      <trans-unit id="login.error.message" approved="yes">
+      <trans-unit id="login.error.message">
         <source>Your login attempt did not succeed</source>
-        <target state="translated">Ihr Anmeldeversuch war nicht erfolgreich</target>
+        <target>crwdns19432:0crwdne19432:0</target>
       </trans-unit>
-      <trans-unit id="login.error.description" approved="yes">
+      <trans-unit id="login.error.description">
         <source>Make sure to spell your username and password correctly, including upper/lowercase characters.</source>
-        <target state="translated">Bitte stellen Sie sicher, dass Ihr Benutzername und Passwort korrekt sind. Groß-/Kleinschreibung wird unterschieden.</target>
+        <target>crwdns19434:0crwdne19434:0</target>
       </trans-unit>
-      <trans-unit id="login.error.javascript" approved="yes">
+      <trans-unit id="login.error.javascript">
         <source>Please activate JavaScript!</source>
-        <target state="translated">Bitte aktivieren Sie JavaScript!</target>
+        <target>crwdns19436:0crwdne19436:0</target>
       </trans-unit>
-      <trans-unit id="login.error.cookies" approved="yes">
+      <trans-unit id="login.error.cookies">
         <source>Please activate Cookies!</source>
-        <target state="translated">Bitte aktivieren Sie Cookies!</target>
+        <target>crwdns19438:0crwdne19438:0</target>
       </trans-unit>
-      <trans-unit id="login.process" approved="yes">
+      <trans-unit id="login.process">
         <source>Verifying Login Data ...</source>
-        <target state="translated">Anmeldedaten werden verifiziert...</target>
+        <target>crwdns19440:0crwdne19440:0</target>
       </trans-unit>
-      <trans-unit id="login.submit" approved="yes">
+      <trans-unit id="login.submit">
         <source>Login</source>
-        <target state="translated">Anmeldung</target>
+        <target>crwdns19442:0crwdne19442:0</target>
       </trans-unit>
-      <trans-unit id="login.copyrightLink" approved="yes">
+      <trans-unit id="login.copyrightLink">
         <source>More about TYPO3</source>
-        <target state="translated">Mehr über TYPO3</target>
+        <target>crwdns19444:0crwdne19444:0</target>
       </trans-unit>
-      <trans-unit id="login.typo3Logo" approved="yes">
+      <trans-unit id="login.typo3Logo">
         <source>TYPO3 logo</source>
-        <target state="translated">TYPO3-Logo</target>
+        <target>crwdns19446:0crwdne19446:0</target>
       </trans-unit>
-      <trans-unit id="login.donate" approved="yes">
+      <trans-unit id="login.donate">
         <source>Donate</source>
-        <target state="translated">Spenden</target>
+        <target>crwdns19448:0crwdne19448:0</target>
       </trans-unit>
-      <trans-unit id="button.showPageTsConfig" approved="yes">
+      <trans-unit id="button.showPageTsConfig">
         <source>Show PageTS-Config</source>
-        <target state="translated">Seiten-TSconfig anzeigen</target>
+        <target>crwdns19450:0crwdne19450:0</target>
       </trans-unit>
-      <trans-unit id="button.hidePageTsConfig" approved="yes">
+      <trans-unit id="button.hidePageTsConfig">
         <source>Hide PageTS-Config</source>
-        <target state="translated">Seiten-TSconfig verbergen</target>
+        <target>crwdns19452:0crwdne19452:0</target>
       </trans-unit>
-      <trans-unit id="formEngine.databaseRecordErrorInlineChildChild" approved="yes">
+      <trans-unit id="formEngine.databaseRecordErrorInlineChildChild">
         <source>The record with uid %2$s from table %1$s could not be retrieved from the database. This data incosistency can occur if
 				a base record has been deleted but the intermediate record from table %3$s with uid %4$s still points to it. To fix
 				this situation, either delete the intermediate record, or recover the deleted record using the recycler module.
 				</source>
-        <target state="translated">Der Datensatz mit UID %2$s aus Tabelle %1$s konnte nicht aus der Datenbank abgerufen werden. Diese Inkonsistenz kann auftreten, wenn ein Basis-Datensatz gelöscht worden ist, während noch der Datensatz aus Tabelle %3$s mit UID %4$s auf ihn verweist. Um dieses Problem zu beheben, löschen Sie entweder den verweisenden Datensatz oder stellen Sie den gelöschten Datensatz mit dem Papierkorb wieder her.
+        <target>crwdns19454:0%2$scrwdnd19454:0%1$scrwdnd19454:0%3$scrwdnd19454:0%4$scrwdne19454:0
 				</target>
       </trans-unit>
     </body>
