@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1515791927" source-language="en" datatype="plaintext" original="messages" date="2017-12-29T20:22:14Z" product-name="redirects" target-language="it">
+    <header/>
+    <body>
+      <trans-unit id="sys_redirect" approved="yes">
+        <source>Redirect</source>
+        <target state="translated">Reindirizza</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.source_host" approved="yes">
+        <source>Source Domain</source>
+        <target state="translated">Dominio di origine</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.source_path" approved="yes">
+        <source>Source Path</source>
+        <target state="translated">Percorso di origine</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.force_https" approved="yes">
+        <source>SSL Redirect</source>
+        <target state="translated">Reindirizzamento SSL</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.force_https.0" approved="yes">
+        <source>Force SSL Redirect</source>
+        <target state="translated">Forza il reindirizzamento con SSL</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.keep_query_parameters" approved="yes">
+        <source>GET Parameters</source>
+        <target state="translated">Parametri GET</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.keep_query_parameters.0" approved="yes">
+        <source>Keep GET Parameters</source>
+        <target state="translated">Mantieni i parametri GET</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.respect_query_parameters" approved="yes">
+        <source>GET Parameters (source)</source>
+        <target state="translated">Parametri GET (origine)</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.respect_query_parameters.0" approved="yes">
+        <source>Respect GET Parameters</source>
+        <target state="translated">Rispetta i parametri GET</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.target" approved="yes">
+        <source>Target</source>
+        <target state="translated">Obiettivo</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.target_statuscode" approved="yes">
+        <source>Status Code HTTP Header</source>
+        <target state="translated">Intestazione codice di stato HTTP</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.target_statuscode.301" approved="yes">
+        <source>301 Moved Permanently</source>
+        <target state="translated">301 Spostato in modo permanente</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.target_statuscode.302" approved="yes">
+        <source>302 Found</source>
+        <target state="translated">302 Trovato</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.target_statuscode.303" approved="yes">
+        <source>303 See Other</source>
+        <target state="translated">303 Vedi altro</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.target_statuscode.307" approved="yes">
+        <source>307 Temporary Redirect</source>
+        <target state="translated">307 Reindirizzamento temporaneo</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.hitcount" approved="yes">
+        <source>Count</source>
+        <target state="translated">Contatore</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.lasthiton" approved="yes">
+        <source>Last Hit On</source>
+        <target state="translated">Ultima occorrenza</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.hitcountState" approved="yes">
+        <source>Hit Counter</source>
+        <target state="translated">Contatore delle occorrenze</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.disable_hitcount" approved="yes">
+        <source>Disable Hit Counter</source>
+        <target state="translated">Disabilita il contatore delle occorrenze</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.disable_hitcount.0" approved="yes">
+        <source>Disable</source>
+        <target state="translated">Disabilita</target>
+      </trans-unit>
+      <trans-unit id="tabs.redirectCount" approved="yes">
+        <source>Statistics</source>
+        <target state="translated">Statistica</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.is_regexp" approved="yes">
+        <source>Is regular expression?</source>
+        <target state="translated">È un'espressione regolare?</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.is_regexp.0" approved="yes">
+        <source>Yes</source>
+        <target state="translated">Sì</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.disabled" approved="yes">
+        <source>Disable</source>
+        <target state="translated">Disabilita</target>
+      </trans-unit>
+      <trans-unit id="sys_redirect.disabled.0" approved="yes">
+        <source>Deactivate redirect</source>
+        <target state="translated">Disattiva il reindirizzamento</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
