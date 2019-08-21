@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814831" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="indexed_search" target-language="nl">
+    <header/>
+    <body>
+      <trans-unit id="mod_indexed_search" approved="yes">
+        <source>Indexed search</source>
+        <target state="translated">Geïndexeerd zoeken</target>
+      </trans-unit>
+      <trans-unit id="mod2_indexed_search" approved="yes">
+        <source>Indexed search statistics</source>
+        <target state="translated">Statistieken zoeken</target>
+      </trans-unit>
+      <trans-unit id="ignoreExtensions" approved="yes">
+        <source>Extension %s was set to be ignored.</source>
+        <target state="translated">De extensie %s wordt genegeerd.</target>
+      </trans-unit>
+      <trans-unit id="pdfToolsNotFound" approved="yes">
+        <source>PDF tools was not found in paths '%1$spdftotext' and/or '%1$spdfinfo'"</source>
+        <target state="translated">PDF tools is niet gevonden in pad '%1$spdftotext' en/of '%1$spdfinfo'"</target>
+      </trans-unit>
+      <trans-unit id="pdfToolsDisabled" approved="yes">
+        <source>PDF tools disabled</source>
+        <target state="translated">PDF werkset uitgeschakeld</target>
+      </trans-unit>
+      <trans-unit id="pdfToolsFailed" approved="yes">
+        <source>PDFtoText Failed on this document: '%s'. Maybe the PDF file is locked for printing or encrypted.</source>
+        <target state="translated">PDFtoText werkt niet op document: '%s'. Misschien is het PDF bestand geblokkeerd voor afdrukken of is het versleuteld.</target>
+      </trans-unit>
+      <trans-unit id="catdocNotFound" approved="yes">
+        <source>'catdoc' tool for reading Word-files was not found in path '%scatdoc'</source>
+        <target state="translated">'catdoc' programma voor het lezen van MS Word bestanden is niet gevonden in pad '%scatdoc'</target>
+      </trans-unit>
+      <trans-unit id="catdocDisabled" approved="yes">
+        <source>catdoc tools (Word-files) disabled</source>
+        <target state="translated">catdoc werkset (Word bestanden) uitgeschakeld</target>
+      </trans-unit>
+      <trans-unit id="ppthtmlNotFound" approved="yes">
+        <source>'ppthtml' tool for reading Powerpoint-files was not found in path '%sppthtml'</source>
+        <target state="translated">'ppthtml' programma voor het lezen van MS powerpoint bestanden is niet gevonden in pad '%sppthtml'</target>
+      </trans-unit>
+      <trans-unit id="ppthtmlDisabled" approved="yes">
+        <source>ppthtml tools (Powerpoint-files) disabled</source>
+        <target state="translated">ppthtml werkset (MS Powerpoint bestanden) is uitgeschakeld</target>
+      </trans-unit>
+      <trans-unit id="xlhtmlNotFound" approved="yes">
+        <source>'xlhtml' tool for reading Excel-files was not found in path '%sxlhtml'</source>
+        <target state="translated">'xlhtml' programma voor het lezen van MS Excel bestanden is niet gevonden in pad '%sxlhtml'</target>
+      </trans-unit>
+      <trans-unit id="xlhtmlDisabled" approved="yes">
+        <source>xlhtml tools (Excel-files) disabled</source>
+        <target state="translated">xlhtml werkset (MS Excel bestanden) is uitgeschakeld</target>
+      </trans-unit>
+      <trans-unit id="unzipNotFound" approved="yes">
+        <source>'unzip' tool for reading OpenOffice.org-files was not found in path '%sunzip'</source>
+        <target state="translated">'unzip' programma voor het lezen van OpenOffice.org bestanden is niet gevonden in pad '%sunzip'</target>
+      </trans-unit>
+      <trans-unit id="unzipDisabled" approved="yes">
+        <source>unzip tool (OpenOffice.org-files) disabled</source>
+        <target state="translated">unzip werkset (OpenOffice.org bestanden) is uitgeschakeld</target>
+      </trans-unit>
+      <trans-unit id="unrtfNotFound" approved="yes">
+        <source>'unrtf' tool for reading RTF-files was not found in path '%sunrtf'</source>
+        <target state="translated">'unrtf' programma voor het lezen van RTF bestanden is niet gevonden in pad '%sunrtf'</target>
+      </trans-unit>
+      <trans-unit id="unrtfDisabled" approved="yes">
+        <source>unrtf tool (RTF-files) disabled</source>
+        <target state="translated">unrtf werkset (RTF bestanden) is uitgeschakeld</target>
+      </trans-unit>
+      <trans-unit id="extension.images" approved="yes">
+        <source>Images (*.%s)</source>
+        <target state="translated">Afbeeldingen (*.%s)</target>
+      </trans-unit>
+      <trans-unit id="extension.HTML" approved="yes">
+        <source>Webpages (*.%s)</source>
+        <target state="translated">Webpagina's (*.%s)</target>
+      </trans-unit>
+      <trans-unit id="extension.TXT" approved="yes">
+        <source>Textfiles (*.%s)</source>
+        <target state="translated">Tekstbestanden (*.%s)</target>
+      </trans-unit>
+      <trans-unit id="extension.CSV" approved="yes">
+        <source>Comma-Separated Values (*.%s)</source>
+        <target state="translated">Kommagescheiden Waardes (CSV) (*.%s)</target>
+      </trans-unit>
+      <trans-unit id="extension.XML" approved="yes">
+        <source>Extensible Markup Language (*.%s)</source>
+        <target state="translated">eXtensible Markup Language (XML) (*.%s)</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
