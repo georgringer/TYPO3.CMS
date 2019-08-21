@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1522785604" source-language="en" datatype="plaintext" original="messages" date="2018-02-27T22:22:32Z" product-name="backend" target-language="ru">
+    <header/>
+    <body>
+      <trans-unit id="site.ctrl.title" approved="yes">
+        <source>Site Configuration</source>
+        <target state="translated">Конфигурация сайта</target>
+      </trans-unit>
+      <trans-unit id="site.identifier" approved="yes">
+        <source>Site Identifier</source>
+        <target state="translated">Идентификатор сайта</target>
+      </trans-unit>
+      <trans-unit id="site.rootPageId" approved="yes">
+        <source>Root Page ID</source>
+        <target state="translated">ID корневой страницы</target>
+      </trans-unit>
+      <trans-unit id="site.base" approved="yes">
+        <source>Entry Point</source>
+        <target state="translated">Начальная точка</target>
+      </trans-unit>
+      <trans-unit id="site.baseVariants" approved="yes">
+        <source>Variants for the Entry Point</source>
+        <target state="translated">Варианты начальной точки</target>
+      </trans-unit>
+      <trans-unit id="site.languages" approved="yes">
+        <source>Available Languages for this Site</source>
+        <target state="translated">Языки, доступные для этого сайта</target>
+      </trans-unit>
+      <trans-unit id="site.errorHandling" approved="yes">
+        <source>Error Handling</source>
+        <target state="translated">Обработка ошибок</target>
+      </trans-unit>
+      <trans-unit id="site.routes" approved="yes">
+        <source>Routes</source>
+        <target state="translated">Маршруты</target>
+      </trans-unit>
+      <trans-unit id="site.routes.irreHeader.redirectsTo" approved="yes">
+        <source>redirects to</source>
+        <target state="translated">перенаправляется на</target>
+      </trans-unit>
+      <trans-unit id="site.tab.languages" approved="yes">
+        <source>Languages</source>
+        <target state="translated">Языки</target>
+      </trans-unit>
+      <trans-unit id="site.tab.errorHandling" approved="yes">
+        <source>Error Handling</source>
+        <target state="translated">Обработка ошибок</target>
+      </trans-unit>
+      <trans-unit id="site.tab.routes" approved="yes">
+        <source>Static Routes</source>
+        <target state="translated">Статические маршруты</target>
+      </trans-unit>
+      <trans-unit id="site_language.palette.locales" approved="yes">
+        <source>Locales</source>
+        <target state="translated">Локали</target>
+      </trans-unit>
+      <trans-unit id="site_language.palette.frontend" approved="yes">
+        <source>Frontend related</source>
+        <target state="translated">Связано с внешним интерфейсом</target>
+      </trans-unit>
+      <trans-unit id="site_language.ctrl.title" approved="yes">
+        <source>Language Configuration for a Site</source>
+        <target state="translated">Настройка языков для сайта</target>
+      </trans-unit>
+      <trans-unit id="site_language.languageId" approved="yes">
+        <source>Language ID</source>
+        <target state="translated">ID языка</target>
+      </trans-unit>
+      <trans-unit id="site_language.title" approved="yes">
+        <source>Title</source>
+        <target state="translated">Заголовок</target>
+      </trans-unit>
+      <trans-unit id="site_language.navigationTitle" approved="yes">
+        <source>Navigation Title</source>
+        <target state="translated">Название для меню</target>
+      </trans-unit>
+      <trans-unit id="site_language.base" approved="yes">
+        <source>Entry Point</source>
+        <target state="translated">Начальная точка</target>
+      </trans-unit>
+      <trans-unit id="site_language.locale" approved="yes">
+        <source>Locale</source>
+        <target state="translated">Локаль</target>
+      </trans-unit>
+      <trans-unit id="site_language.iso-639-1" approved="yes">
+        <source>Two Letter ISO Code</source>
+        <target state="translated">Двухсимвольный код ISO</target>
+      </trans-unit>
+      <trans-unit id="site_language.hreflang" approved="yes">
+        <source>Language Tag defined by RFC 1766 / 3066</source>
+        <target state="translated">Тег языка определённый в RFC 1766 / 3066</target>
+      </trans-unit>
+      <trans-unit id="site_language.enabled" approved="yes">
+        <source>Visible in Frontend</source>
+        <target state="translated">Видно во внешнем интерфейсе</target>
+      </trans-unit>
+      <trans-unit id="site_language.direction" approved="yes">
+        <source>Direction</source>
+        <target state="translated">Направление</target>
+      </trans-unit>
+      <trans-unit id="site_language.typo3Language" approved="yes">
+        <source>Language Key for XLF Files</source>
+        <target state="translated">Ключ языка для файлов XLF</target>
+      </trans-unit>
+      <trans-unit id="site_language.flag" approved="yes">
+        <source>Flag icon</source>
+        <target state="translated">Значок флага</target>
+      </trans-unit>
+      <trans-unit id="site_language.fallbackType" approved="yes">
+        <source>Fallback Type</source>
+        <target state="translated">Тип отката</target>
+      </trans-unit>
+      <trans-unit id="site_language.fallbacks" approved="yes">
+        <source>Fallback to other Language(s) - order is important!</source>
+        <target state="translated">Откат к другому языку (языкам) - важен порядок!</target>
+      </trans-unit>
+      <trans-unit id="site_base_variant.ctrl.title" approved="yes">
+        <source>Base</source>
+        <target state="translated">База</target>
+      </trans-unit>
+      <trans-unit id="site_base_variant.base" approved="yes">
+        <source>Base</source>
+        <target state="translated">База</target>
+      </trans-unit>
+      <trans-unit id="site_base_variant.condition" approved="yes">
+        <source>Condition</source>
+        <target state="translated">Условие</target>
+      </trans-unit>
+      <trans-unit id="site_base_variant.condition.applicationContext" approved="yes">
+        <source>Application Context</source>
+        <target state="translated">Контекст приложения</target>
+      </trans-unit>
+      <trans-unit id="site_base_variant.condition.environmentVariable" approved="yes">
+        <source>Environment Variable</source>
+        <target state="translated">Переменная среды</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.ctrl.title" approved="yes">
+        <source>Error Handling</source>
+        <target state="translated">Обработка ошибок</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.tab.rootpaths" approved="yes">
+        <source>Root Paths (optional)</source>
+        <target state="translated">Корневые пути (необязательно)</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorCode" approved="yes">
+        <source>HTTP Error Status Code</source>
+        <target state="translated">Код статуса ошибки HTTP</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorCode.404" approved="yes">
+        <source>404 (Page not found)</source>
+        <target state="translated">404 (Страница не найдена)</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorCode.403" approved="yes">
+        <source>403 (Forbidden)</source>
+        <target state="translated">403 (запрещено)</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorCode.500" approved="yes">
+        <source>500 (Internal Server Error)</source>
+        <target state="translated">500 (внутренняя ошибка сервера)</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorCode.503" approved="yes">
+        <source>503 (Service Unavailable)</source>
+        <target state="translated">503 (сервис недоступен)</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorCode.0" approved="yes">
+        <source>any error not defined otherwise</source>
+        <target state="translated">любая ошибка ещё не определённая</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorHandler" approved="yes">
+        <source>How to handle Errors</source>
+        <target state="translated">Как обрабатывать ошибки</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorHandler.fluid" approved="yes">
+        <source>Fluid Template</source>
+        <target state="translated">Шаблон Fluid (Template)</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorHandler.page" approved="yes">
+        <source>Show Content from Page</source>
+        <target state="translated">Вывести содержимое со страницы</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorHandler.php" approved="yes">
+        <source>PHP Class (must implement the PageErrorHandlerInterface)</source>
+        <target state="translated">PHP Class (должен реализовывать PageErrorHandlerInterface)</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorFluidTemplate" approved="yes">
+        <source>Fluid Template File</source>
+        <target state="translated">Файл шаблона Fluid</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorFluidTemplatesRootPath" approved="yes">
+        <source>Fluid Templates Root Path</source>
+        <target state="translated">Путь к корню шаблонов (Templates) Fluid</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorFluidLayoutsRootPath" approved="yes">
+        <source>Fluid Layouts Root Path</source>
+        <target state="translated">Путь к корню макетов (Layouts) Fluid</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorFluidPartialsRootPath" approved="yes">
+        <source>Fluid Partials Root Path</source>
+        <target state="translated">Путь к корню шаблонных частей (Partials) Fluid</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorContentSource" approved="yes">
+        <source>Show Content from Page</source>
+        <target state="translated">Вывести содержимое со страницы</target>
+      </trans-unit>
+      <trans-unit id="site_route.ctrl.title" approved="yes">
+        <source>Routes</source>
+        <target state="translated">Маршруты</target>
+      </trans-unit>
+      <trans-unit id="site_route.type" approved="yes">
+        <source>Route Type</source>
+        <target state="translated">Тип маршрута</target>
+      </trans-unit>
+      <trans-unit id="site_route.staticText" approved="yes">
+        <source>Static Text</source>
+        <target state="translated">Статичный текст</target>
+      </trans-unit>
+      <trans-unit id="site_route.staticText.example1" approved="yes">
+        <source>robots.txt Example Content</source>
+        <target state="translated">robots.txt пример содержимого</target>
+      </trans-unit>
+      <trans-unit id="site_route.source" approved="yes">
+        <source>Page, File or URL</source>
+        <target state="translated">Страница, файл или URL</target>
+      </trans-unit>
+      <trans-unit id="site_route.route" approved="yes">
+        <source>Static Route Name</source>
+        <target state="translated">Название статичного маршрута</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
