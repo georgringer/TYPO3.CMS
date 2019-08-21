@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814831" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="indexed_search" target-language="it">
+    <header/>
+    <body>
+      <trans-unit id="mod_indexed_search" approved="yes">
+        <source>Indexed search</source>
+        <target state="translated">Ricerca indicizzata</target>
+      </trans-unit>
+      <trans-unit id="mod2_indexed_search" approved="yes">
+        <source>Indexed search statistics</source>
+        <target state="translated">Statistiche della ricerca indicizzata</target>
+      </trans-unit>
+      <trans-unit id="ignoreExtensions" approved="yes">
+        <source>Extension %s was set to be ignored.</source>
+        <target state="translated">L'estensione %s è stata impostata per essere ignorata.</target>
+      </trans-unit>
+      <trans-unit id="pdfToolsNotFound" approved="yes">
+        <source>PDF tools was not found in paths '%1$spdftotext' and/or '%1$spdfinfo'"</source>
+        <target state="translated">PDF tools non è stato trovato nei percorsi '%1$spdftotext' e/o '%1$spdfinfo'"</target>
+      </trans-unit>
+      <trans-unit id="pdfToolsDisabled" approved="yes">
+        <source>PDF tools disabled</source>
+        <target state="translated">Gli strumenti PDF sono disabilitati</target>
+      </trans-unit>
+      <trans-unit id="pdfToolsFailed" approved="yes">
+        <source>PDFtoText Failed on this document: '%s'. Maybe the PDF file is locked for printing or encrypted.</source>
+        <target state="translated">PDFtoText fallito per il documento: '%s'. Forse il file PDF è bloccato per la stampa o criptato.</target>
+      </trans-unit>
+      <trans-unit id="catdocNotFound" approved="yes">
+        <source>'catdoc' tool for reading Word-files was not found in path '%scatdoc'</source>
+        <target state="translated">Il tool 'catdoc' per leggere i file Word non è stato trovato nel percorso '%scatdoc'</target>
+      </trans-unit>
+      <trans-unit id="catdocDisabled" approved="yes">
+        <source>catdoc tools (Word-files) disabled</source>
+        <target state="translated">Lo strumento catdoc (Word-files) è disabilitato</target>
+      </trans-unit>
+      <trans-unit id="ppthtmlNotFound" approved="yes">
+        <source>'ppthtml' tool for reading Powerpoint-files was not found in path '%sppthtml'</source>
+        <target state="translated">Lo strumento 'ppthtml' per leggere i file di PowerPoint non è stato trovato nel percorso '%sppthtml'</target>
+      </trans-unit>
+      <trans-unit id="ppthtmlDisabled" approved="yes">
+        <source>ppthtml tools (Powerpoint-files) disabled</source>
+        <target state="translated">Lo strumento ppthtml tools (file PowerPoint) è disabilitato</target>
+      </trans-unit>
+      <trans-unit id="xlhtmlNotFound" approved="yes">
+        <source>'xlhtml' tool for reading Excel-files was not found in path '%sxlhtml'</source>
+        <target state="translated">Lo strumento 'xlhtml' per leggere i file di Excel non è stato trovato nel percorso '%sxlhtml'</target>
+      </trans-unit>
+      <trans-unit id="xlhtmlDisabled" approved="yes">
+        <source>xlhtml tools (Excel-files) disabled</source>
+        <target state="translated">Lo strumento xlhtml tools (file Excel) è disabilitato</target>
+      </trans-unit>
+      <trans-unit id="unzipNotFound" approved="yes">
+        <source>'unzip' tool for reading OpenOffice.org-files was not found in path '%sunzip'</source>
+        <target state="translated">Lo strumento 'unzip' per leggere i file di OpenOffice non è stato trovato nel percorso '%sunzip'</target>
+      </trans-unit>
+      <trans-unit id="unzipDisabled" approved="yes">
+        <source>unzip tool (OpenOffice.org-files) disabled</source>
+        <target state="translated">Lo strumento unzip (files OpenOffice) è disabilitato</target>
+      </trans-unit>
+      <trans-unit id="unrtfNotFound" approved="yes">
+        <source>'unrtf' tool for reading RTF-files was not found in path '%sunrtf'</source>
+        <target state="translated">Il tool 'unrtf' per leggere i file di RTF non è stato trovato nel path '%sunrtf'</target>
+      </trans-unit>
+      <trans-unit id="unrtfDisabled" approved="yes">
+        <source>unrtf tool (RTF-files) disabled</source>
+        <target state="translated">L' unrtf tools (file RTF) è disabilitato</target>
+      </trans-unit>
+      <trans-unit id="extension.images" approved="yes">
+        <source>Images (*.%s)</source>
+        <target state="translated">Immagini (*.%s)</target>
+      </trans-unit>
+      <trans-unit id="extension.HTML" approved="yes">
+        <source>Webpages (*.%s)</source>
+        <target state="translated">Pagine web (*.%s)</target>
+      </trans-unit>
+      <trans-unit id="extension.TXT" approved="yes">
+        <source>Textfiles (*.%s)</source>
+        <target state="translated">File di testo (*.%s)</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
