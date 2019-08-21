@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814853" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="lang" target-language="fr">
+    <header/>
+    <body>
+      <trans-unit id=".description" approved="yes">
+        <source>This is the table of backend administration users. Backend users can login in the backend of TYPO3 and are typically producers of content on a website.</source>
+        <target state="translated">C'est la table d'administration des utilisateurs backend. Les utilisateurs backend peuvent se connecter dans le backend de TYPO3 et sont typiquement des rédacteurs de contenu.</target>
+      </trans-unit>
+      <trans-unit id="username.description" approved="yes">
+        <source>Enter the login name of the backend user.</source>
+        <target state="translated">Entrez le nom d'utilisateur du backend.</target>
+      </trans-unit>
+      <trans-unit id="username.details" approved="yes">
+        <source>A username is required and must be in lowercase without spaces in it. Furthermore the username must be unique. If it is not unique a number will be appended automatically.</source>
+        <target state="translated">Un nom d'utilisateur est nécessaire et doit être composé de minuscules sans espaces. De plus, celui-ci doit être unique. S'il existe déjà dans la base, un chiffre sera ajouté en suffixe automatiquement.</target>
+      </trans-unit>
+      <trans-unit id="password.description" approved="yes">
+        <source>Enter the password for the backend username above (Notice the value you enter &lt;i&gt;will&lt;/i&gt; be readable in the field!).</source>
+        <target state="translated">Entrez le mot de passe pour l'utilisateur du back-office ci-dessus (notez que la valeur que vous entrez &lt;em&gt;sera&lt;/em&gt; lisible dans le champ!).</target>
+      </trans-unit>
+      <trans-unit id="usergroup.description" approved="yes">
+        <source>Assign backend user groups to the user.</source>
+        <target state="translated">Attribuez un groupe à l'utilisateur du backend.</target>
+      </trans-unit>
+      <trans-unit id="_usergroup.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:TSconfig,
+be_groups</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:TSconfig, be_groups</target></trans-unit>
+      <trans-unit id="_lockToDomain.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:lockToDomain,
+fe_users:lockToDomain,
+fe_groups:lockToDomain</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:lockToDomain, fe_users:lockToDomain, fe_groups:lockToDomain</target></trans-unit>
+      <trans-unit id="disableIPlock.description" approved="yes">
+        <source>Disable the lock of the backend users session to the remote IP number.</source>
+        <target state="translated">Désactive le verrou sur adresse IP distant des utilisateurs backend.</target>
+      </trans-unit>
+      <trans-unit id="db_mountpoints.description" approved="yes">
+        <source>Assign startpoints for the users page tree.</source>
+        <target state="translated">Assigne un point d'entrée pour l'arborescence utilisateur.</target>
+      </trans-unit>
+      <trans-unit id="_db_mountpoints.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:db_mountpoints,
+be_users:file_mountpoints,
+be_users:options,
+xMOD_csh_corebe:perm_module,
+xMOD_csh_corebe:pagetree</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:db_mountpoints, be_users:file_mountpoints, be_users:options, xMOD_csh_corebe:perm_module, xMOD_csh_corebe:pagetree</target></trans-unit>
+      <trans-unit id="file_mountpoints.description" approved="yes">
+        <source>Assign startpoints for the file folder tree.</source>
+        <target state="translated">Assigne un point d'entrée pour l'arborescence de fichier.</target>
+      </trans-unit>
+      <trans-unit id="_file_mountpoints.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:file_mountpoints,
+be_users:db_mountpoints,
+be_users:options,
+xMOD_csh_corebe:filetree,
+sys_filemounts</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:file_mountpoints, be_users:db_mountpoints, be_users:options, xMOD_csh_corebe:filetree, sys_filemounts</target></trans-unit>
+      <trans-unit id="email.description" approved="yes">
+        <source>Enter the email address of the user.</source>
+        <target state="translated">Entrez l'adresse email de l'utilisateur.</target>
+      </trans-unit>
+      <trans-unit id="email.details" xml:space="preserve" approved="yes">
+				<source>This address is rather important to enter because this is where messages from the system is sent.
+&lt;strong&gt;Notice&lt;/strong&gt; the user is able to change this value by himself from within the User&gt;Setup module.</source>
+			<target state="translated">Il est assez important d'entrer l'adresse email de l'utilisateur car c'est sur celle-ci que les messages systèmes sont envoyés. &lt;strong&gt;Notez&lt;/strong&gt; que l'utilisateur peut modifier cette adresse par lui-même via le module Utilisateur&gt;Configuration.</target></trans-unit>
+      <trans-unit id="_email.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:realName,
+_MOD_user_setup:option_newPassword</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:realName, _MOD_user_setup:option_newPassword</target></trans-unit>
+      <trans-unit id="realName.description" approved="yes">
+        <source>Enter the ordinary name of the user, eg. John Doe.</source>
+        <target state="translated">Entrez le nom de l'utilisateur, par ex. Brice Bernard ou David Pachot.</target>
+      </trans-unit>
+      <trans-unit id="realName.details" approved="yes">
+        <source>&lt;strong&gt;Notice&lt;/strong&gt; the user is able to change this value by himself from within the User&gt;Setup module.</source>
+        <target state="translated">&lt;strong&gt;Notez&lt;/strong&gt; que l'utilisateur peut modifier cette adresse par lui-même via le module Utilisateur&gt;Configuration.</target>
+      </trans-unit>
+      <trans-unit id="_realName.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:email,
+_MOD_user_setup:option_newPassword</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:email, _MOD_user_setup:option_newPassword</target></trans-unit>
+      <trans-unit id="disable.description" approved="yes">
+        <source>This option will temporarily disable the user from logging in.</source>
+        <target state="translated">Cette option désactivera temporairement l'accès au utilisateur backend.</target>
+      </trans-unit>
+      <trans-unit id="_disable.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:starttime,
+be_users:endtime</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:starttime, be_users:endtime</target></trans-unit>
+      <trans-unit id="admin.description" approved="yes">
+        <source>'Admin' users have TOTAL access to the system!</source>
+        <target state="translated">Les utilisateurs 'Admin' ont un accès TOTAL au système!</target>
+      </trans-unit>
+      <trans-unit id="_options.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:db_mountpoints,
+be_users:file_mountpoints</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:db_mountpoints, be_users:file_mountpoints</target></trans-unit>
+      <trans-unit id="_fileoper_perms.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:file_mountpoints,
+be_group:file_permissions</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:file_mountpoints, be_group:fileoper_perms</target></trans-unit>
+      <trans-unit id="starttime.description" approved="yes">
+        <source>Enter the date from which the account is active.</source>
+        <target state="translated">Entrez la date à partir de laquelle le compte devient actif.</target>
+      </trans-unit>
+      <trans-unit id="_starttime.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:disable,
+be_users:endtime,
+pages:starttime</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:disable, be_users:endtime, pages:starttime</target></trans-unit>
+      <trans-unit id="endtime.description" approved="yes">
+        <source>Enter the date from which the account is disabled.</source>
+        <target state="translated">Entrez la date à partir de laquelle le compte devient inactif.</target>
+      </trans-unit>
+      <trans-unit id="_endtime.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:disable,
+be_users:starttime,
+pages:starttime</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:disable, be_users:starttime, pages:starttime</target></trans-unit>
+      <trans-unit id="lang.description" approved="yes">
+        <source>Select the &lt;i&gt;default&lt;/i&gt; language.</source>
+        <target state="translated">Sélectionnez la langue par &lt;em&gt;défaut&lt;/em&gt;</target>
+      </trans-unit>
+      <trans-unit id="userMods.description" approved="yes">
+        <source>Select available backend modules for the user.</source>
+        <target state="translated">Choisissez les modules backend disponibles pour cet utilisateur.</target>
+      </trans-unit>
+      <trans-unit id="TSconfig.description" approved="yes">
+        <source>Enter additional TSconfig for the user (advanced).</source>
+        <target state="translated">Entrez un TSconfig additionnel pour l'utilisateur (avancé).</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
