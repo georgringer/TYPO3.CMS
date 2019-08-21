@@ -1,95 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415815005" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="tstemplate" target-language="de">
+  <file t3:id="1415815005" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="tstemplate" target-language="de-AT">
     <header/>
     <body>
-      <trans-unit id="delete" approved="yes">
+      <trans-unit id="delete">
         <source>Delete</source>
-        <target state="translated">Löschen</target>
+        <target>crwdns31050:0crwdne31050:0</target>
       </trans-unit>
-      <trans-unit id="toTop" approved="yes">
+      <trans-unit id="toTop">
         <source>To top</source>
-        <target state="translated">Nach oben</target>
+        <target>crwdns31052:0crwdne31052:0</target>
       </trans-unit>
-      <trans-unit id="fileChanged" approved="yes">
+      <trans-unit id="fileChanged">
         <source>File changed</source>
-        <target state="translated">Datei geändert</target>
+        <target>crwdns31054:0crwdne31054:0</target>
       </trans-unit>
-      <trans-unit id="resourceUpdated" approved="yes">
+      <trans-unit id="resourceUpdated">
         <source>Resource '%s' has been updated.</source>
-        <target state="translated">Ressource '%s' wurde aktualisiert.</target>
+        <target>crwdns31056:0%scrwdne31056:0</target>
       </trans-unit>
-      <trans-unit id="templateInformation" approved="yes">
+      <trans-unit id="templateInformation">
         <source>Template information</source>
-        <target state="translated">Template-Informationen</target>
+        <target>crwdns31058:0crwdne31058:0</target>
       </trans-unit>
-      <trans-unit id="title" approved="yes">
+      <trans-unit id="title">
         <source>Title</source>
-        <target state="translated">Titel</target>
+        <target>crwdns31060:0crwdne31060:0</target>
       </trans-unit>
-      <trans-unit id="sitetitle" approved="yes">
+      <trans-unit id="sitetitle">
         <source>Sitetitle</source>
-        <target state="translated">Titel der Website</target>
+        <target>crwdns31062:0crwdne31062:0</target>
       </trans-unit>
-      <trans-unit id="description" approved="yes">
+      <trans-unit id="description">
         <source>Description</source>
-        <target state="translated">Beschreibung</target>
+        <target>crwdns31064:0crwdne31064:0</target>
       </trans-unit>
-      <trans-unit id="allowedExtensions" approved="yes">
+      <trans-unit id="allowedExtensions">
         <source>Allowed extensions</source>
-        <target state="translated">Erlaubte Erweiterungen</target>
+        <target>crwdns31066:0crwdne31066:0</target>
       </trans-unit>
-      <trans-unit id="maxFilesize" approved="yes">
+      <trans-unit id="maxFilesize">
         <source>Max filesize</source>
-        <target state="translated">Maximale Dateigröße</target>
+        <target>crwdns31068:0crwdne31068:0</target>
       </trans-unit>
-      <trans-unit id="uploadResource" approved="yes">
+      <trans-unit id="uploadResource">
         <source>Upload resource</source>
-        <target state="translated">Ressource hochladen</target>
+        <target>crwdns31070:0crwdne31070:0</target>
       </trans-unit>
-      <trans-unit id="newTextResource" approved="yes">
+      <trans-unit id="newTextResource">
         <source>New text resource (enter name)</source>
-        <target state="translated">Neue Textressource (geben Sie einen Namen an)</target>
+        <target>crwdns31072:0crwdne31072:0</target>
       </trans-unit>
-      <trans-unit id="copyResource" approved="yes">
+      <trans-unit id="copyResource">
         <source>Make a copy of resource</source>
-        <target state="translated">Kopie der Ressource erstellen</target>
+        <target>crwdns31074:0crwdne31074:0</target>
       </trans-unit>
-      <trans-unit id="updateResourceList" approved="yes">
+      <trans-unit id="updateResourceList">
         <source>Update resource list</source>
-        <target state="translated">Ressourcenliste aktualisieren</target>
+        <target>crwdns31076:0crwdne31076:0</target>
       </trans-unit>
-      <trans-unit id="constants" approved="yes">
+      <trans-unit id="constants">
         <source>Constants</source>
-        <target state="translated">Konstanten</target>
+        <target>crwdns31078:0crwdne31078:0</target>
       </trans-unit>
-      <trans-unit id="file" approved="yes">
+      <trans-unit id="file">
         <source>File</source>
-        <target state="translated">Datei</target>
+        <target>crwdns31080:0crwdne31080:0</target>
       </trans-unit>
-      <trans-unit id="editResource" approved="yes">
+      <trans-unit id="editResource">
         <source>Edit Resource</source>
-        <target state="translated">Ressource bearbeiten</target>
+        <target>crwdns31082:0crwdne31082:0</target>
       </trans-unit>
-      <trans-unit id="filesizeExceeded" approved="yes">
+      <trans-unit id="filesizeExceeded">
         <source>Filesize exceeded %s KBytes</source>
-        <target state="translated">Dateigröße überschreitet %s KB</target>
+        <target>crwdns31084:0%scrwdne31084:0</target>
       </trans-unit>
-      <trans-unit id="notAllowed" approved="yes">
+      <trans-unit id="notAllowed">
         <source>Files larger than %s KBytes are not allowed to be edited.</source>
-        <target state="translated">Dateien größer als %s KB können nicht bearbeitet werden.</target>
+        <target>crwdns31086:0%scrwdne31086:0</target>
       </trans-unit>
-      <trans-unit id="resources" approved="yes">
+      <trans-unit id="setup">
+        <source>Setup</source>
+        <target>crwdns31088:0crwdne31088:0</target>
+      </trans-unit>
+      <trans-unit id="resources">
         <source>Resources</source>
-        <target state="translated">Ressourcen</target>
+        <target>crwdns31090:0crwdne31090:0</target>
       </trans-unit>
-      <trans-unit id="editToView" approved="yes">
+      <trans-unit id="editToView">
         <source>(edit to view, %s lines)</source>
-        <target state="translated">(bearbeiten um anzuzeigen, %s Zeilen)</target>
+        <target>crwdns31092:0%scrwdne31092:0</target>
       </trans-unit>
-      <trans-unit id="editTemplateRecord" approved="yes">
+      <trans-unit id="editTemplateRecord">
         <source>Edit the whole template record</source>
-        <target state="translated">Vollständigen Template-Datensatz bearbeiten</target>
+        <target>crwdns31094:0crwdne31094:0</target>
       </trans-unit>
     </body>
   </file>
