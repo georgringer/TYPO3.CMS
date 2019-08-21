@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1522780424" source-language="en" datatype="plaintext" original="messages" date="2018-02-27T22:22:32Z" product-name="backend" target-language="it">
+    <header/>
+    <body>
+      <trans-unit id="overview.title" approved="yes">
+        <source>Site Configuration</source>
+        <target state="translated">Configurazione del sito</target>
+      </trans-unit>
+      <trans-unit id="overview.site" approved="yes">
+        <source>Site</source>
+        <target state="translated">Sito</target>
+      </trans-unit>
+      <trans-unit id="overview.configuration" approved="yes">
+        <source>Configuration Folder</source>
+        <target state="translated">Folder di configurazione</target>
+      </trans-unit>
+      <trans-unit id="overview.noPages.title" approved="yes">
+        <source>No pages found!</source>
+        <target state="translated">Nessuna pagina trovata!</target>
+      </trans-unit>
+      <trans-unit id="overview.noPages.message" approved="yes">
+        <source>Please add at least one page through the Page module.</source>
+        <target state="translated">Aggiungi almeno un pagina tramite il modulo Pagina.</target>
+      </trans-unit>
+      <trans-unit id="overview.noSiteConfiguration" approved="yes">
+        <source>This site does not have a configuration, yet.</source>
+        <target state="translated">Questo sito non ha ancora una configurazione.</target>
+      </trans-unit>
+      <trans-unit id="overview.addSiteConfiguration" approved="yes">
+        <source>Add new site configuration for this site</source>
+        <target state="translated">Aggiungi una nuova configurazione per questo sito</target>
+      </trans-unit>
+      <trans-unit id="overview.deleteSiteConfiguration" approved="yes">
+        <source>Delete site configuration</source>
+        <target state="translated">Elimina la configurazione del sito</target>
+      </trans-unit>
+      <trans-unit id="overview.fullUrlPrefix" approved="yes">
+        <source>Full URL prefix</source>
+        <target state="translated">Prefisso URL completo</target>
+      </trans-unit>
+      <trans-unit id="overview.baseUrl" approved="yes">
+        <source>Base URLs</source>
+        <target state="translated">URL base</target>
+      </trans-unit>
+      <trans-unit id="overview.unassignedSites.title" approved="yes">
+        <source>Unassigned site configurations</source>
+        <target state="translated">Configurazioni di sito non assegnate</target>
+      </trans-unit>
+      <trans-unit id="overview.unassignedSites.description" approved="yes">
+        <source>The following sites don't belong to any page anymore and can be removed.</source>
+        <target state="translated">I siti seguenti non appartengono più ad alcuna pagina e possono essere rimossi.</target>
+      </trans-unit>
+      <trans-unit id="validation.identifierRenamed.title" approved="yes">
+        <source>Renamed identifier</source>
+        <target state="translated">Identificativo rimosso</target>
+      </trans-unit>
+      <trans-unit id="validation.identifierRenamed.message" approved="yes">
+        <source>Given site identifier "%1s" already exists. It has been renamed to "%2s". Maybe you want to edit the site again and give it a better name.</source>
+        <target state="translated">L'identificativo di sito "%1s" esiste già. È stato rinominato in "%2s". Potresti voler modificare di nuovo questo sito e assegnargli un nome migliore.</target>
+      </trans-unit>
+      <trans-unit id="validation.identifierExists.message" approved="yes">
+        <source>Given site identifier "%1s" already exists and points to a different site. The existing identifier "%2s" for this site is kept.';</source>
+        <target state="translated">L'identificativo di sito "%1s" esiste già e punta ad un sito diverso. L'identificativo esistente "%s" per questo sito viene mantenuto.';</target>
+      </trans-unit>
+      <trans-unit id="validation.required.title" approved="yes">
+        <source>Site configuration not saved</source>
+        <target state="translated">Configurazione del sito non salvata</target>
+      </trans-unit>
+      <trans-unit id="validation.required.message" approved="yes">
+        <source>Field "%1s" is a required field, but no value has been provided.</source>
+        <target state="translated">Il campo "%1s" è obbligatorio, ma non è stato immesso alcun valore.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
