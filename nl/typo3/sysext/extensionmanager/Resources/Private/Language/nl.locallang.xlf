@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814818" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="workspaces" target-language="nl">
+    <header/>
+    <body>
+      <trans-unit id="extensionManager" approved="yes">
+        <source>Extension Manager</source>
+        <target state="translated">Extensiebeheer</target>
+      </trans-unit>
+      <trans-unit id="manageExtensions" approved="yes">
+        <source>Manage Extensions</source>
+        <target state="translated">Beheer extensies</target>
+      </trans-unit>
+      <trans-unit id="installExtension" approved="yes">
+        <source>Install Extension</source>
+        <target state="translated">Extensie installeren</target>
+      </trans-unit>
+      <trans-unit id="composerMode.title" approved="yes">
+        <source>Composer mode</source>
+        <target state="translated">Composer-modus</target>
+      </trans-unit>
+      <trans-unit id="composerMode.message" approved="yes">
+        <source>The system is set to composer mode. Please notice that it is not possible to add an extension with the Extension Manager. You have to use composer to add further extensions to your system.</source>
+        <target state="translated">Het systeem is in de composer-modus ingesteld. Dit kan problemen geven als een extensie via Extensiebeheer wordt toegevoegd. Gebruik liever composer om extensies toe te voegen.</target>
+      </trans-unit>
+      <trans-unit id="installedExtensions" approved="yes">
+        <source>Installed Extensions</source>
+        <target state="translated">Geïnstalleerde extensies</target>
+      </trans-unit>
+      <trans-unit id="getExtensions" approved="yes">
+        <source>Get Extensions</source>
+        <target state="translated">Extensies ophalen</target>
+      </trans-unit>
+      <trans-unit id="showAllVersions" approved="yes">
+        <source>Show all versions of</source>
+        <target state="translated">Toon alle versies van</target>
+      </trans-unit>
+      <trans-unit id="extConfTemplate.backToList" approved="yes">
+        <source>Back to list</source>
+        <target state="translated">Terug naar lijst</target>
+      </trans-unit>
+      <trans-unit id="updateScript.headline" approved="yes">
+        <source>Update script for %s</source>
+        <target state="translated">Script voor bijwerken van %s</target>
+      </trans-unit>
+      <trans-unit id="updateScript.none" approved="yes">
+        <source>No update necessary.</source>
+        <target state="translated">Geen update nodig.</target>
+      </trans-unit>
+      <trans-unit id="button.cancel" approved="yes">
+        <source>Cancel</source>
+        <target state="translated">Annuleren</target>
+      </trans-unit>
+      <trans-unit id="button.details" approved="yes">
+        <source>Show Details</source>
+        <target state="translated">Details weergeven</target>
+      </trans-unit>
+      <trans-unit id="button.remove" approved="yes">
+        <source>Remove extension</source>
+        <target state="translated">Extensie verwijderen</target>
+      </trans-unit>
+      <trans-unit id="button.updateExtension" approved="yes">
+        <source>Update extension</source>
+        <target state="translated">Extensielijst bijwerken</target>
+      </trans-unit>
+      <trans-unit id="button.resolveDependencies" approved="yes">
+        <source>Resolve dependencies</source>
+        <target state="translated">Afhankelijkheden oplossen</target>
+      </trans-unit>
+      <trans-unit id="label.resolveDependenciesEnableButton" approved="yes">
+        <source>I understand what this means and I'm able to investigate on possibly occurring issues by myself.</source>
+        <target state="translated">Ik begrijp wat dit betekent en ik ben in staat om mogelijke problemen zelf te onderzoeken.</target>
+      </trans-unit>
+      <trans-unit id="button.resolveDependenciesIgnore" approved="yes">
+        <source>I know what I'm doing, continue anyway</source>
+        <target state="translated">Ik weet wat ik doe, gewoon verdergaan</target>
+      </trans-unit>
+      <trans-unit id="extensionList.update.script" approved="yes">
+        <source>Execute the update script</source>
+        <target state="translated">Script voor bijwerken uitvoeren</target>
+      </trans-unit>
+      <trans-unit id="extensionList.downloadsql" approved="yes">
+        <source>Download SQL Dump</source>
+        <target state="translated">SQL Dump downloaden</target>
+      </trans-unit>
+      <trans-unit id="extensionList.remove" approved="yes">
+        <source>Remove</source>
+        <target state="translated">Verwijderen</target>
+      </trans-unit>
+      <trans-unit id="extensionList.update" approved="yes">
+        <source>Update</source>
+        <target state="translated">Bijwerken</target>
+      </trans-unit>
+      <trans-unit id="extensionList.updateToVersion" approved="yes">
+        <source>Update to version %s</source>
+        <target state="translated">Bijwerken naar versie %s</target>
+      </trans-unit>
+      <trans-unit id="extensionList.updateDisabled" approved="yes">
+        <source>An update is available but this operation is currently disabled</source>
+        <target state="translated">Een update is beschikbaar maar deze bewerking is momenteel uitgeschakeld</target>
+      </trans-unit>
+      <trans-unit id="extensionList.deactivate" approved="yes">
+        <source>Deactivate</source>
+        <target state="translated">Deactiveren</target>
+      </trans-unit>
+      <trans-unit id="extensionList.activate" approved="yes">
+        <source>Activate</source>
+        <target state="translated">Activeren</target>
+      </trans-unit>
+      <trans-unit id="extensionList.downloadzip" approved="yes">
+        <source>Download as zip</source>
+        <target state="translated">Downloaden als .zip</target>
+      </trans-unit>
+      <trans-unit id="extensionList.uploadExtension" approved="yes">
+        <source>Upload Extension .t3x/.zip</source>
+        <target state="translated">Extensie .t3x / .zip uploaden</target>
+      </trans-unit>
+      <trans-unit id="extensionList.overwriteExtension" approved="yes">
+        <source>Overwrite</source>
+        <target state="translated">Overschrijven</target>
+      </trans-unit>
+      <trans-unit id="extensionList.overwritingDisabled" approved="yes">
+        <source>Extension is already available and overwriting was not enabled</source>
+        <target state="translated">Deze extensie bestaat al en overschrijven was niet aangevinkt</target>
+      </trans-unit>
+      <trans-unit id="extensionList.loading" approved="yes">
+        <source>Loading form...</source>
+        <target state="translated">Formulier laden...</target>
+      </trans-unit>
+      <trans-unit id="extensionList.header.title.activate" approved="yes">
+        <source>Activate / Deactivate</source>
+        <target state="translated">Activeren / Deactiveren</target>
+      </trans-unit>
+      <trans-unit id="extensionList.header.extensionName" approved="yes">
+        <source>Extension</source>
+        <target state="translated">Extensie</target>
+      </trans-unit>
+      <trans-unit id="extensionList.header.version" approved="yes">
+        <source>Version</source>
+        <target state="translated">Versie</target>
+      </trans-unit>
+      <trans-unit id="extensionList.header.extensionKey" approved="yes">
+        <source>Key</source>
+        <target state="translated">Sleutel</target>
+      </trans-unit>
+      <trans-unit id="extensionList.header.extensionVersion" approved="yes">
+        <source>Version</source>
+        <target state="translated">Versie</target>
+      </trans-unit>
+      <trans-unit id="extensionList.header.extensionActions" approved="yes">
+        <source>Actions</source>
+        <target state="translated">Acties</target>
+      </trans-unit>
+      <trans-unit id="extensionList.header.extensionState" approved="yes">
+        <source>State</source>
+        <target state="translated">Status</target>
+      </trans-unit>
+      <trans-unit id="extensionList.header.uploadComment" approved="yes">
+        <source>Upload Comment</source>
+        <target state="translated">Upload opmerking</target>
+      </trans-unit>
+      <trans-unit id="extensionList.header.lastUpdate" approved="yes">
+        <source>Last Updated</source>
+        <target state="translated">Laatst bijgewerkt</target>
+      </trans-unit>
+      <trans-unit id="extensionList.header.description" approved="yes">
+        <source>Description</source>
+        <target state="translated">Omschrijving</target>
+      </trans-unit>
+      <trans-unit id="extensionList.header.author" approved="yes">
+        <source>Author</source>
+        <target state="translated">Auteur</target>
+      </trans-unit>
+      <trans-unit id="searchTemplate.searchExtensions" approved="yes">
+        <source>Search extensions</source>
+        <target state="translated">Extensies zoeken</target>
+      </trans-unit>
+      <trans-unit id="extensionList.search" approved="yes">
+        <source>Search</source>
+        <target state="translated">Zoeken</target>
+      </trans-unit>
+      <trans-unit id="searchTemplate.submitButton" approved="yes">
+        <source>Go</source>
+        <target state="translated">Zoeken</target>
+      </trans-unit>
+      <trans-unit id="searchTemplate.resetSearchButton" approved="yes">
+        <source>Reset Search</source>
+        <target state="translated">Reset zoekactie</target>
+      </trans-unit>
+      <trans-unit id="searchTemplate.yourSearch" approved="yes">
+        <source>Your search</source>
+        <target state="translated">Uw zoekactie</target>
+      </trans-unit>
+      <trans-unit id="searchTemplate.searchAgain" approved="yes">
+        <source>Search again</source>
+        <target state="translated">Opnieuw zoeken</target>
+      </trans-unit>
+      <trans-unit id="uploadTemplate.uploadButton" approved="yes">
+        <source>Upload!</source>
+        <target state="translated">Uploaden!</target>
+      </trans-unit>
+      <trans-unit id="uploadTemplate.extensionLabel" approved="yes">
+        <source>Extension</source>
+        <target state="translated">Extensie</target>
+      </trans-unit>
+      <trans-unit id="extensionList.removalConfirmation.title" approved="yes">
+        <source>Extension Removal</source>
+        <target state="translated">Extensie verwijderen</target>
+      </trans-unit>
+      <trans-unit id="extensionList.removalConfirmation.message" approved="yes">
+        <source>The extension is currently installed. Uninstall extension?</source>
+        <target state="translated">Deze extensie is momenteel geïnstalleerd. Extensie verwijderen?</target>
+      </trans-unit>
+      <trans-unit id="extensionList.updateConfirmation.message" approved="yes">
+        <source>Update Comments</source>
+        <target state="translated">Opmerkingen van de versie</target>
+      </trans-unit>
+      <trans-unit id="extensionList.databaseImport" approved="yes">
+        <source>The static database data has changed. You should re-import the data.</source>
+        <target state="translated">De data in de statische database is gewijzigd. Data moet opnieuw geïmporteerd worden.</target>
+      </trans-unit>
+      <trans-unit id="extensionList.databaseReload" approved="yes">
+        <source>Nothing has changed since last import. You might want to reload static database data.</source>
+        <target state="translated">Niets gewijzigd sinds de laatste import. Wellicht moet de statische database data opnieuw geladen worden.</target>
+      </trans-unit>
+      <trans-unit id="extensionList.updateConfirmation.questionVersionComments" approved="yes">
+        <source>Version Comments</source>
+        <target state="translated">Versie opmerkingen:</target>
+      </trans-unit>
+      <trans-unit id="extensionList.updateFlashMessage.title" approved="yes">
+        <source>Extension Update</source>
+        <target state="translated">Extensie update</target>
+      </trans-unit>
+      <trans-unit id="extensionList.updateFlashMessage.body" approved="yes">
+        <source>%s was updated!</source>
+        <target state="translated">%s geupload!</target>
+      </trans-unit>
+      <trans-unit id="extensionList.removalConfirmation.question" approved="yes">
+        <source>Are you sure you want to remove the extension?</source>
+        <target state="translated">Weet u zeker dat u deze extensie wilt verwijderen?</target>
+      </trans-unit>
+      <trans-unit id="dependencyCheck.unresolvedDependencies.title" approved="yes">
+        <source>Please read this carefully</source>
+        <target state="translated">Zorgvuldig lezen</target>
+      </trans-unit>
+      <trans-unit id="dependencyCheck.unresolvedDependencies.message" approved="yes">
+        <source><![CDATA[
+					If you continue installing the extension, all dependency checks will be turned off.
+					<ul>
+						<li>Required extensions are tried to be fetched from TER (if they do not yet exist in the system)</li>
+						<li>Version dependency checks are skipped</li>
+					</ul>
+					<strong>
+						Be aware that an installation without dependency checks may turn your installation unusable.<br />
+						In such a case manual intervention is required.
+					</strong>
+				]]></source>
+        <target state="translated"><![CDATA[
+					Indien u doorgaat met de installatie zullen controles op afhankelijkheden uitgeschakeld worden. &lt;ul&gt; &lt;li&gt;Getracht zal worden om benodigde extensies uit de TER te downloaden (als ze nog niet aanwezig zijn)&lt;/li&gt; &lt;li&gt;Controles op benodigde versies zullen overgeslagen worden&lt;/li&gt; &lt;/ul&gt; &lt;strong&gt; Let op dat het installeren zonder controles op afhankelijkheden een installatie onbruikbaar kan maken.&lt;br /&gt; In zo'n geval moet er handmatig ingegrepen worden. &lt;/strong&gt;
+				]]></target>
+      </trans-unit>
+      <trans-unit id="dependencyCheck.unresolvedDependencies.question" approved="yes">
+        <source>Are you sure you want to proceed?</source>
+        <target state="translated">Zeker weten om door te gaan?</target>
+      </trans-unit>
+      <trans-unit id="dependencyCheck.unresolvedDependencies.proceed" approved="yes">
+        <source>I know what I'm doing, install the extension!</source>
+        <target state="translated">Ik weet wat ik doe, installeer de extensie!</target>
+      </trans-unit>
+      <trans-unit id="dependencyCheck.headline" approved="yes">
+        <source>The following errors were found while trying to install "%s"</source>
+        <target state="translated">De volgende foutmeldingen zijn gevonden bij de poging om "%s" te installeren.</target>
+      </trans-unit>
+      <trans-unit id="dependencyCheck.requiredExtension" approved="yes">
+        <source>Required extension "%s"</source>
+        <target state="translated">Benodigde extensie "%s"</target>
+      </trans-unit>
+      <trans-unit id="downloadExtension.dependencies.headline" approved="yes">
+        <source>The following dependencies have to be resolved before installation:
+
+
+				</source>
+        <target state="translated">De volgende afhankelijkheden dienen te worden opgelost voordat de extensie geïnstalleerd kan worden:
+
+
+				</target>
+      </trans-unit>
+      <trans-unit id="downloadExtension.dependencies.extensionWithVersion" approved="yes">
+        <source>%1$s (new version %2$s)</source>
+        <target state="translated">%1$s (nieuwe versie %2$s)</target>
+      </trans-unit>
+      <trans-unit id="downloadExtension.dependencies.typeHeadline" xml:space="preserve" approved="yes">
+				<source>&lt;h3&gt;Extensions marked for %s:&lt;/h3&gt;
+%s
+
+
+				</source>
+			<target state="translated">&lt;h3&gt;Extensies gemarkeerd voor %s:&lt;/h3&gt;
+%s
+
+
+				</target></trans-unit>
+      <trans-unit id="downloadExtension.dependencies.resolveAutomatically" approved="yes">
+        <source>Shall these dependencies be resolved automatically?</source>
+        <target state="translated">Dienen deze afhankelijkheden automatisch te worden opgelost?</target>
+      </trans-unit>
+      <trans-unit id="downloadExtension.dependencies.errorTitle" approved="yes">
+        <source>Dependencies could not be resolved</source>
+        <target state="translated">Afhankelijkheden kunnen niet worden opgelost</target>
+      </trans-unit>
+      <trans-unit id="downloadExtension.dependencies.errorMessage" approved="yes">
+        <source>The dependencies of the following Extensions could not be resolved</source>
+        <target state="translated">De afhankelijkheden van de volgende extensies kunnen niet worden opgelost</target>
+      </trans-unit>
+      <trans-unit id="downloadExtension.dependencyType.download" approved="yes">
+        <source>download</source>
+        <target state="translated">Downloaden</target>
+      </trans-unit>
+      <trans-unit id="downloadExtension.dependencyType.install" approved="yes">
+        <source>install</source>
+        <target state="translated">Installeren</target>
+      </trans-unit>
+      <trans-unit id="downloadExtension.dependencyType.update" approved="yes">
+        <source>update</source>
+        <target state="translated">Bijwerken</target>
+      </trans-unit>
+      <trans-unit id="downloadExtension.updateExtension.error" approved="yes">
+        <source>Error while updating extension</source>
+        <target state="translated">Fout bij het bijwerken van een extensie</target>
+      </trans-unit>
+      <trans-unit id="extensionList.dependenciesResolveDownloadError.title" approved="yes">
+        <source>Download Error</source>
+        <target state="translated">Fout bij het downloaden</target>
+      </trans-unit>
+      <trans-unit id="extensionList.dependenciesResolveDownloadSuccess.message" approved="yes">
+        <source>Your installation of {0} was successful.</source>
+        <target state="translated">De installatie van {0} is geslaagd.</target>
+      </trans-unit>
+      <trans-unit id="extensionList.dependenciesResolveDownloadSuccess.message.downloadOnly" approved="yes">
+        <source>Your download of {0} was successful.</source>
+        <target state="translated">Het downloaden van {0} is gelukt.</target>
+      </trans-unit>
+      <trans-unit id="extensionList.dependenciesResolveDownloadSuccess.item" approved="yes">
+        <source>Extensions</source>
+        <target state="translated">Extensies</target>
+      </trans-unit>
+      <trans-unit id="extensionList.dependenciesResolveFlashMessage.title" approved="yes">
+        <source>{0} installed.</source>
+        <target state="translated">{0} geïnstalleerd.</target>
+      </trans-unit>
+      <trans-unit id="extensionList.dependenciesResolveFlashMessage.title.downloadOnly" approved="yes">
+        <source>{0} downloaded.</source>
+        <target state="translated">{0} gedownload.</target>
+      </trans-unit>
+      <trans-unit id="extensionList.uploadFlashMessage.title" approved="yes">
+        <source>Extension Upload</source>
+        <target state="translated">Extensie uploaden</target>
+      </trans-unit>
+      <trans-unit id="extensionList.uploadFlashMessage.message" approved="yes">
+        <source>%s was uploaded!</source>
+        <target state="translated">{0} geupload!</target>
+      </trans-unit>
+      <trans-unit id="extensionList.installedFlashMessage.message" approved="yes">
+        <source>%s was installed!</source>
+        <target state="translated">%s is geïnstalleerd!</target>
+      </trans-unit>
+      <trans-unit id="extensionList.updateFromTerFlashMessage.title" approved="yes">
+        <source>Update Extension List</source>
+        <target state="translated">Extensie lijst vernieuwen</target>
+      </trans-unit>
+      <trans-unit id="extensionList.downloadViewHelper.submit" approved="yes">
+        <source>Import and Install</source>
+        <target state="translated">Importeren en installeren</target>
+      </trans-unit>
+      <trans-unit id="extensionList.downloadViewHelper.submit.downloadOnly" approved="yes">
+        <source>Import</source>
+        <target state="translated">Importeren</target>
+      </trans-unit>
+      <trans-unit id="extensionList.showAllVersions.label" approved="yes">
+        <source>Show all versions</source>
+        <target state="translated">Alle versies tonen</target>
+      </trans-unit>
+      <trans-unit id="extensionList.showAllVersions.extensionKey" approved="yes">
+        <source>Extension key</source>
+        <target state="translated">Extensiesleutel</target>
+      </trans-unit>
+      <trans-unit id="extensionList.showAllVersions.version" approved="yes">
+        <source>Version</source>
+        <target state="translated">Versie</target>
+      </trans-unit>
+      <trans-unit id="extensionList.showAllVersions.lastUploaded" approved="yes">
+        <source>Last uploaded</source>
+        <target state="translated">Laatst geüpload</target>
+      </trans-unit>
+      <trans-unit id="extensionList.showAllVersions.category" approved="yes">
+        <source>Category</source>
+        <target state="translated">Categorie</target>
+      </trans-unit>
+      <trans-unit id="extensionList.showAllVersions.manual" approved="yes">
+        <source>Manual</source>
+        <target state="translated">Handleiding</target>
+      </trans-unit>
+      <trans-unit id="extensionList.showAllVersions.author" approved="yes">
+        <source>Author</source>
+        <target state="translated">Auteur</target>
+      </trans-unit>
+      <trans-unit id="extensionList.showAllVersions.readOnline" approved="yes">
+        <source>Read online</source>
+        <target state="translated">Online lezen</target>
+      </trans-unit>
+      <trans-unit id="extensionList.remove.message" approved="yes">
+        <source>Extension "%s" was removed successfully!</source>
+        <target state="translated">Extensie "%s" is verwijderd!</target>
+      </trans-unit>
+      <trans-unit id="extensionList.distribution.key" approved="yes">
+        <source>Key</source>
+        <target state="translated">Distributiesleutel</target>
+      </trans-unit>
+      <trans-unit id="extensionList.distribution.author" approved="yes">
+        <source>Author</source>
+        <target state="translated">Auteur</target>
+      </trans-unit>
+      <trans-unit id="extensionList.distribution.title" approved="yes">
+        <source>Title</source>
+        <target state="translated">Titel</target>
+      </trans-unit>
+      <trans-unit id="extensionList.distribution.version" approved="yes">
+        <source>Version</source>
+        <target state="translated">Versie</target>
+      </trans-unit>
+      <trans-unit id="extensionList.distribution.lastUpdated" approved="yes">
+        <source>Last Update</source>
+        <target state="translated">Laatste upload</target>
+      </trans-unit>
+      <trans-unit id="extensionList.showUnsuitableDistributions" approved="yes">
+        <source>Show also distributions that are not suitable for this TYPO3 version</source>
+        <target state="translated">Ook distributies tonen die niet geschikt zijn voor deze TYPO3 versie</target>
+      </trans-unit>
+      <trans-unit id="extensionList.officialDistribution" approved="yes">
+        <source>Official distribution</source>
+        <target state="translated">Officiële distributie</target>
+      </trans-unit>
+      <trans-unit id="distributions" approved="yes">
+        <source>Get preconfigured distribution</source>
+        <target state="translated">Voorgeconfigureerde distributie ophalen</target>
+      </trans-unit>
+      <trans-unit id="extensionList.installDistribution" approved="yes">
+        <source>Install</source>
+        <target state="translated">Distributie installeren</target>
+      </trans-unit>
+      <trans-unit id="extensionList.installImpexp" approved="yes">
+        <source>Please install the Import/Export (impexp) extension to enable distribution support.</source>
+        <target state="translated">De extensie Import/Export (impexp) moet geïnstalleerd worden om distributies te ondersteunen.</target>
+      </trans-unit>
+      <trans-unit id="distribution.installImpexp" approved="yes">
+        <source>Install impexp</source>
+        <target state="translated">Impexp installeren</target>
+      </trans-unit>
+      <trans-unit id="extensionList.updateFromTer.label" approved="yes">
+        <source>Retrieving extension list from TYPO3 Extension Repository (TER)...</source>
+        <target state="translated">Ophalen van de extensielijst vanuit de TYPO3 Extension Repository (TER)</target>
+      </trans-unit>
+      <trans-unit id="extensionList.updateFromTer.buttonLabel" approved="yes">
+        <source>Update now</source>
+        <target state="translated">Nu updaten</target>
+      </trans-unit>
+      <trans-unit id="extensionList.updateFromTer.lastUpdate.label" approved="yes">
+        <source>Last update</source>
+        <target state="translated">Laatst bijgewerkt</target>
+      </trans-unit>
+      <trans-unit id="extensionList.updateFromTer.lastUpdate.timeSinceLastUpdateLabel" approved="yes">
+        <source>Time since last update</source>
+        <target state="translated">Tijd sinds laatste update</target>
+      </trans-unit>
+      <trans-unit id="extensionList.updateFromTer.lastUpdate.noInfo" approved="yes">
+        <source>unknown</source>
+        <target state="translated">onbekend</target>
+      </trans-unit>
+      <trans-unit id="extensionList.updateFromTer.lastUpdate.fullTimeFormat" approved="yes">
+        <source>Y-m-d H:i:s</source>
+        <target state="translated">d-m-Y H:i:s</target>
+      </trans-unit>
+      <trans-unit id="extensionList.updateFromTer.lastUpdate.timeOfLastUpdate" approved="yes">
+        <source>Time of last update: </source>
+        <target state="translated">Voor het laatst bijgewerkt: </target>
+      </trans-unit>
+      <trans-unit id="extensionList.updateFromTer.lastUpdate.noTimeOfLastUpdate" approved="yes">
+        <source>No last update time known.</source>
+        <target state="translated">Geen tijd van laatste update bekend.</target>
+      </trans-unit>
+      <trans-unit id="extensionList.updateFromTer.never" approved="yes">
+        <source>Never</source>
+        <target state="translated">Nooit</target>
+      </trans-unit>
+      <trans-unit id="extensionList.uninstall.dependencyError" approved="yes">
+        <source>Cannot deactivate extension '%s' - The extension(s) '%s' depend on it.</source>
+        <target state="translated">Extensie '%s' kan niet uitgeschakeld worden - De extensie(s) '%s' zijn ervan afhankelijk.</target>
+      </trans-unit>
+      <trans-unit id="distribution.error.headline" approved="yes">
+        <source>Could not install distribution '%s'</source>
+        <target state="translated">Kon distributie "%s" niet installeren.</target>
+      </trans-unit>
+      <trans-unit id="distribution.welcome.headline" approved="yes">
+        <source>Congratulations...</source>
+        <target state="translated">Gefeliciteerd...</target>
+      </trans-unit>
+      <trans-unit id="distribution.welcome.message" approved="yes">
+        <source>You successfully installed the distribution '%s'</source>
+        <target state="translated">De installatie van distributie '%s' is geslaagd</target>
+      </trans-unit>
+      <trans-unit id="distribution.welcome.nextSteps" approved="yes">
+        <source>Now you can</source>
+        <target state="translated">U kunt nu</target>
+      </trans-unit>
+      <trans-unit id="distribution.welcome.openViewModule" approved="yes">
+        <source>View your website</source>
+        <target state="translated">De website bekijken</target>
+      </trans-unit>
+      <trans-unit id="distribution.welcome.openPageModule" approved="yes">
+        <source>Start editing your website</source>
+        <target state="translated">Beginnen met bewerken van de website</target>
+      </trans-unit>
+      <trans-unit id="distribution.dependency.headline" approved="yes">
+        <source>Dependencies, conflicts and suggestions</source>
+        <target state="translated">Afhankelijkheden, conflicten en suggesties</target>
+      </trans-unit>
+      <trans-unit id="distribution.dependency.version" approved="yes">
+        <source>Version</source>
+        <target state="translated">Versie</target>
+      </trans-unit>
+      <trans-unit id="task.updateExtensionListTask.name" approved="yes">
+        <source>Update extension list</source>
+        <target state="translated">Update extensie lijst</target>
+      </trans-unit>
+      <trans-unit id="task.updateExtensionListTask.description" approved="yes">
+        <source>Update TER extension list on a regular basis. Once a day is a good interval.</source>
+        <target state="translated">Update TER extensie lijst periodiek. Eénmaal per dag is een goede interval.</target>
+      </trans-unit>
+      <trans-unit id="report.status.mainRepository.title" approved="yes">
+        <source>Update status of typo3.org main repository extension list</source>
+        <target state="translated">Status van de lijst extensies van de typo3.org hoofdrepository verversen</target>
+      </trans-unit>
+      <trans-unit id="report.status.mainRepository.notFound.value" approved="yes">
+        <source>Error</source>
+        <target state="translated">Fout</target>
+      </trans-unit>
+      <trans-unit id="report.status.mainRepository.notFound.message" approved="yes">
+        <source>The typo3.org extension repository was not found. Please import the main typo3.org extension repository in the install tool wizard.</source>
+        <target state="translated">De extensierepository van typo3.org is niet gevonden. De extensierepository van typo3.org kan in de Install Tool assistent geïmporteerd worden.</target>
+      </trans-unit>
+      <trans-unit id="report.status.mainRepository.notUpToDate.value" approved="yes">
+        <source>Extension list is not up to date!</source>
+        <target state="translated">Extensie lijst niet up to date!</target>
+      </trans-unit>
+      <trans-unit id="report.status.mainRepository.notUpToDate.message" approved="yes">
+        <source>The Main Repository extension list is older than 7 days. Please update it in the Extension manager or Scheduler.</source>
+        <target state="translated">De extensielijst van de hoofdrepository is ouder dan zeven dagen. Deze kan in Extensiebeheer of in de Taakplanner bijgwerkt worden.</target>
+      </trans-unit>
+      <trans-unit id="report.status.loadedExtensions.title" approved="yes">
+        <source>Security status of loaded extensions</source>
+        <target state="translated">Veiligheidsstatus van de geladen extensies</target>
+      </trans-unit>
+      <trans-unit id="report.status.loadedExtensions.insecureExtensionLoaded.value" approved="yes">
+        <source>%s insecure extension(s) found</source>
+        <target state="translated">%s onveilige extensie(s) gevonden</target>
+      </trans-unit>
+      <trans-unit id="report.status.loadedExtensions.insecureExtensionLoaded.message" approved="yes">
+        <source>The following extensions are insecure and usage might damage your system. Please update these extensions as soon as possible or remove them from your system:&lt;br&gt;&lt;br&gt;%s</source>
+        <target state="translated">De volgende extensies zijn onveilig en kunnen schade aan uw systeem veroorzaken. Update deze extensies zo snel mogelijk of verwijderd ze uit het systeem:&lt;br&gt;&lt;br&gt;%s</target>
+      </trans-unit>
+      <trans-unit id="report.status.loadedExtensions.insecureExtensionLoaded.message.extension" approved="yes">
+        <source>&lt;strong&gt;%1$s&lt;/strong&gt; (version %2$s)&lt;br&gt;</source>
+        <target state="translated">&lt;strong&gt;%1s&lt;/strong&gt; (versie %2s)&lt;br&gt;</target>
+      </trans-unit>
+      <trans-unit id="report.status.existingExtensions.title" approved="yes">
+        <source>Security status of existing, but not loaded extensions</source>
+        <target state="translated">Veiligheidsstatus van beschikbare, maar niet geladen extensies</target>
+      </trans-unit>
+      <trans-unit id="report.status.existingExtensions.insecureExtensionExists.value" approved="yes">
+        <source>%s insecure extension(s) found</source>
+        <target state="translated">%s onveilige extensie(s) gevonden</target>
+      </trans-unit>
+      <trans-unit id="report.status.existingExtensions.insecureExtensionExists.message" approved="yes">
+        <source>The following extensions were found on your system, but are currently not installed. Please delete the extensions using the extension manager:&lt;br&gt;&lt;br&gt;%s</source>
+        <target state="translated">De volgende extensies zijn op het systeem gevonden maar niet geïnstalleerd. Verwijder a.u.b. de extensies met behulp van de extensie manager:&lt;br&gt;&lt;br&gt;%s</target>
+      </trans-unit>
+      <trans-unit id="report.status.existingExtensions.insecureExtensionExists.message.extension" approved="yes">
+        <source>&lt;strong&gt;%1$s&lt;/strong&gt; (version %2$s)&lt;br&gt;</source>
+        <target state="translated">&lt;strong&gt;%1s&lt;/strong&gt; (versie %2s)&lt;br&gt;</target>
+      </trans-unit>
+      <trans-unit id="report.status.loadedOutdatedExtensions.title" approved="yes">
+        <source>Outdated status of loaded extensions</source>
+        <target state="translated">Verouderde extensies die geladen zijn</target>
+      </trans-unit>
+      <trans-unit id="report.status.loadedOutdatedExtensions.outdatedExtensionLoaded.value" approved="yes">
+        <source>%s outdated extension(s) found</source>
+        <target state="translated">%s verouderde extensie(s) gevonden</target>
+      </trans-unit>
+      <trans-unit id="report.status.loadedOutdatedExtensions.outdatedExtensionLoaded.message" approved="yes">
+        <source>The following extensions are outdated and may not be compatible with your installation. Please make sure these extensions are compatible and ask the extension author to publish updates:&lt;br&gt;&lt;br&gt;%s</source>
+        <target state="translated">De volgende extensies zijn verouderd en zijn mogelijk niet compatibel met deze installatie. Wees er zeker van dat deze extensies compatibel zijn en vraag de auteur ervan om updates te publiceren: &lt;br&gt;&lt;br&gt;%s</target>
+      </trans-unit>
+      <trans-unit id="report.status.loadedOutdatedExtensions.outdatedExtensionLoaded.message.extension" approved="yes">
+        <source>&lt;strong&gt;%1$s&lt;/strong&gt; (version %2$s)&lt;br&gt;</source>
+        <target state="translated">&lt;strong&gt;%1s&lt;/strong&gt; (versie %2s)&lt;br&gt;</target>
+      </trans-unit>
+      <trans-unit id="report.status.existingOutdatedExtensions.title" approved="yes">
+        <source>Outdated status of existing, but not loaded extensions</source>
+        <target state="translated">Verouderde extensies die niet ingeladen zijn</target>
+      </trans-unit>
+      <trans-unit id="report.status.existingOutdatedExtensions.outdatedExtensionExists.value" approved="yes">
+        <source>%s outdated extension(s) found</source>
+        <target state="translated">%s verouderde extensie(s) gevonden</target>
+      </trans-unit>
+      <trans-unit id="report.status.existingOutdatedExtensions.outdatedExtensionExists.message" approved="yes">
+        <source>The following extensions were found on your system, but are currently not installed. Please make sure they are compatible with your system before installing them:&lt;br&gt;&lt;br&gt;%s</source>
+        <target state="translated">De volgende extensies zijn gevonden op dit systeem, maar ze zijn momenteel niet geïnstalleerd. Wees er zeker van dat ze compatibel zijn alvorens ze te installeren:&lt;br&gt;&lt;br&gt;%s</target>
+      </trans-unit>
+      <trans-unit id="report.status.existingOutdatedExtensions.outdatedExtensionExists.message.extension" approved="yes">
+        <source>&lt;strong&gt;%1$s&lt;/strong&gt; (version %2$s)&lt;br&gt;</source>
+        <target state="translated">&lt;strong&gt;%1s&lt;/strong&gt; (versie %2s)&lt;br&gt;</target>
+      </trans-unit>
+      <trans-unit id="fileHandling.couldNotRemoveDirectory" approved="yes">
+        <source>ERROR: Could not remove extension directory "%s". Reasons</source>
+        <target state="translated">FOUT: Map "%s" van extensie kon niet verwijderd worden. Redenen</target>
+      </trans-unit>
+      <trans-unit id="fileHandling.couldNotCreateDirectory" approved="yes">
+        <source>ERROR: Could not create extension directory "%s"!</source>
+        <target state="translated">FOUT: map "%s" voor de extensie kon niet aangemaakt worden!</target>
+      </trans-unit>
+      <trans-unit id="fileHandling.installPathWasNoDirectory" approved="yes">
+        <source>ERROR: The extension install path "%s" was no directory!</source>
+        <target state="translated">FOUT: Het installatiepad "%s" van de extensie was geen directory!</target>
+      </trans-unit>
+      <trans-unit id="config.automaticInstallation" approved="yes">
+        <source>Install extensions automatically after download from TER or file upload</source>
+        <target state="translated">Extensies automatisch installeren na het downloaden uit TER of het uploaden van een bestand</target>
+      </trans-unit>
+      <trans-unit id="config.offlineMode" approved="yes">
+        <source>Disable TER connection and hide menu items</source>
+        <target state="translated">Verbinding met TER uitschakelen en menu-items verbergen</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
