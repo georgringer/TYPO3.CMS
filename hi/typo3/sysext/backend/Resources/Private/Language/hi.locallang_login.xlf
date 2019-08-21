@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814864" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="hi">
+    <header/>
+    <body>
+      <trans-unit id="labels.submitLogout" approved="yes">
+        <source>Log Out</source>
+        <target state="translated">लॉग आउट</target>
+      </trans-unit>
+      <trans-unit id="labels.whatIsOpenId" approved="yes">
+        <source>What is OpenId?</source>
+        <target state="translated">ओपन ID क्या है?</target>
+      </trans-unit>
+      <trans-unit id="availableInterfaces" approved="yes">
+        <source>Backend,Front End,Traditional Backend</source>
+        <target state="translated">बैकेंड,फ्रंट एंड,ट्रेडिशनल बैकेंड</target>
+      </trans-unit>
+      <trans-unit id="interface.backend" approved="yes">
+        <source>Backend</source>
+        <target state="translated">बैकेंड</target>
+      </trans-unit>
+      <trans-unit id="interface.frontend" approved="yes">
+        <source>Frontend</source>
+        <target state="translated">फ़्रंट एंड</target>
+      </trans-unit>
+      <trans-unit id="interface.backend_old" approved="yes">
+        <source>Traditional Backend</source>
+        <target state="translated">ट्रेडिशनल बैकेंड</target>
+      </trans-unit>
+      <trans-unit id="headline" approved="yes">
+        <source>Login to the TYPO3 CMS Backend on ###SITENAME###</source>
+        <target state="translated">###साइट नाम### पर TYPO3 CMS बैकेंड में लॉगिन करे</target>
+      </trans-unit>
+      <trans-unit id="info.about" approved="yes">
+        <source>This is the backend login of TYPO3. You need username and password to access this administration interface. If you are a visitor of ###SITENAME###, please visit the public website: ###SITELINK###</source>
+        <target state="translated">ये TYPO3 के बैकएंड लॉगिन है। आपको इस एडमिनिस्ट्रेशन इंटरफ़ेस का उपयोग करने के लिए यूज़रनेम और पासवर्ड की जरूरत है। यदि आप ### SITENAME ### के एक विजिटर हैं, कृपया सार्वजनिक वेबसाइट पर जाएँ: ### SITELINK ###</target>
+      </trans-unit>
+      <trans-unit id="info.reset" approved="yes">
+        <source>Reset this form</source>
+        <target state="translated">इस फॉर्म को रीसेट करें</target>
+      </trans-unit>
+      <trans-unit id="info.cookies_and_js" approved="yes">
+        <source>(Note: Cookies and JavaScript must be enabled!)</source>
+        <target state="translated">(नोट:Cookies और JavaScript इनेबल्ड होना जरुरी है!)</target>
+      </trans-unit>
+      <trans-unit id="clear" approved="yes">
+        <source>Clear this field!</source>
+        <target state="translated">यह फील्ड साफ करें!</target>
+      </trans-unit>
+      <trans-unit id="warning.incompatibleBrowserHeadline" approved="yes">
+        <source>Unsupported Browser</source>
+        <target state="translated">अनसपोर्टड मोडल</target>
+      </trans-unit>
+      <trans-unit id="warning.incompatibleBrowser" approved="yes">
+        <source>You are using an unsupported browser version.</source>
+        <target state="translated">आप उनसपोर्टेड ब्राउज़र वर्जन का उपयोग कर रहे हे।</target>
+      </trans-unit>
+      <trans-unit id="warning.incompatibleBrowserInternetExplorer" approved="yes">
+        <source>Please install &lt;a href="http://www.microsoft.com/internetexplorer/" target="_blank" /&gt;a more modern browser version&lt;/a&gt;.</source>
+        <target state="translated">कृपया &lt;a href="http://www.microsoft.com/internetexplorer/" target="_blank" /&gt;और मॉडर्न ब्राउज़र वर्जन&lt;/a&gt; इंस्टॉल करें।</target>
+      </trans-unit>
+      <trans-unit id="error.login" approved="yes">
+        <source>Your login attempt did not succeed. Make sure to spell your username and password correctly, including upper/lowercase characters.</source>
+        <target state="translated">आपका लॉगिन प्रयास सफल नहीं हुआ । सही ढंग से अपने यूज़रनेम और पासवर्ड सही करने के लिए, उप्पेर/लोअरकेस अक्षर सहित सुनिश्चित करें।</target>
+      </trans-unit>
+      <trans-unit id="error.cookies_ignore" approved="yes">
+        <source>Ignore!</source>
+        <target state="translated">इग्नोर करे!</target>
+      </trans-unit>
+      <trans-unit id="error.furtherInformation" approved="yes">
+        <source>For more information or further help click here</source>
+        <target state="translated">अधिक जानकारी या आगे की मदद के लिए यहां क्लिक करें</target>
+      </trans-unit>
+      <trans-unit id="warranty.by" approved="yes">
+        <source>Warranty is supplied by %s; %sclick for details.%s</source>
+        <target state="translated">वारंटी %s द्वारा आपूर्ति की है; %s विवरण के लिए क्लिक करें</target>
+      </trans-unit>
+      <trans-unit id="no.warranty" approved="yes">
+        <source>TYPO3 CMS comes with ABSOLUTELY NO WARRANTY; %sclick for details.%s</source>
+        <target state="translated">TYPO3 CMS बिल्कुल नहीं वारंटी के साथ आता है; %s जानकारी के लिए क्लिक करें।%s</target>
+      </trans-unit>
+      <trans-unit id="copyright" approved="yes">
+        <source>Copyright</source>
+        <target state="translated">कॉपीराइट</target>
+      </trans-unit>
+      <trans-unit id="extension.copyright" approved="yes">
+        <source>Extensions are copyright of their respective owners.</source>
+        <target state="translated">एक्सटेंशन्स उसके सबंधित ओनर के कॉपीराइट होते है।</target>
+      </trans-unit>
+      <trans-unit id="details.link" approved="yes">
+        <source>Go to %s for details.</source>
+        <target state="translated">डिटेल्स के लिए %s पर जाये।</target>
+      </trans-unit>
+      <trans-unit id="free.software" approved="yes">
+        <source>This is free software, and you are welcome to redistribute it under certain conditions; %sclick for details.%s</source>
+        <target state="translated">यह मुफ्त सॉफ्टवेयर है, और आप कुछ शर्तों के तहत इसे फिर से विभाजित करने के लिए स्वागत कर रहे हैं; %s जानकारी के लिए क्लिक करें।%s</target>
+      </trans-unit>
+      <trans-unit id="keep.notice" approved="yes">
+        <source>Obstructing the appearance of this notice is prohibited by law.</source>
+        <target state="translated">इस नोटिस की उपस्थिति में बाधा डालने के कानून द्वारा निषिद्ध है।</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
