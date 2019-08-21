@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814818" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="workspaces" target-language="pt-BR">
+    <header/>
+    <body>
+      <trans-unit id="dependencyCheck.unresolvedDependencies.message">
+        <source><![CDATA[
+					If you continue installing the extension, all dependency checks will be turned off.
+					<ul>
+						<li>Required extensions are tried to be fetched from TER (if they do not yet exist in the system)</li>
+						<li>Version dependency checks are skipped</li>
+					</ul>
+					<strong>
+						Be aware that an installation without dependency checks may turn your installation unusable.<br />
+						In such a case manual intervention is required.
+					</strong>
+				]]></source>
+        <target state="needs-translation"><![CDATA[
+					
+				]]></target>
+      </trans-unit>
+      <trans-unit id="downloadExtension.dependencies.headline">
+        <source>The following dependencies have to be resolved before installation:
+
+
+				</source>
+        <target state="needs-translation">
+
+
+				</target>
+      </trans-unit>
+      <trans-unit id="downloadExtension.dependencies.typeHeadline" xml:space="preserve">
+				<source>&lt;h3&gt;Extensions marked for %s:&lt;/h3&gt;
+%s
+
+
+				</source>
+			<target state="needs-translation">
+
+
+				</target></trans-unit>
+      <trans-unit id="extensionList.updateFromTer.lastUpdate.timeOfLastUpdate">
+        <source>Time of last update: </source>
+        <target state="needs-translation"> </target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
