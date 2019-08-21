@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814828" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="impexp" target-language="cs">
+    <header/>
+    <body>
+      <trans-unit id="tableselec_configuration" approved="yes">
+        <source>Configuration</source>
+        <target state="translated">Konfigurace</target>
+      </trans-unit>
+      <trans-unit id="exportdata_savedFile" approved="yes">
+        <source>SAVED FILE</source>
+        <target state="translated">Uložený soubor</target>
+      </trans-unit>
+      <trans-unit id="exportdata_savedInSBytes" approved="yes">
+        <source>Saved in "%s", bytes %s</source>
+        <target state="translated">Uloženo za "%s", bytů %s</target>
+      </trans-unit>
+      <trans-unit id="exportdata_problemsSavingFile" approved="yes">
+        <source>Problems saving file</source>
+        <target state="translated">Problémy při ukládání souboru</target>
+      </trans-unit>
+      <trans-unit id="exportdata_badPathS" approved="yes">
+        <source>Bad path: "%s"</source>
+        <target state="translated">Špatná cesta: "%s"</target>
+      </trans-unit>
+      <trans-unit id="exportdata_filePreset" approved="yes">
+        <source>File &amp; Preset</source>
+        <target state="translated">Soubor &amp; nastavení</target>
+      </trans-unit>
+      <trans-unit id="exportdata_advancedOptions" approved="yes">
+        <source>Advanced Options</source>
+        <target state="translated">Rozšířené možnosti</target>
+      </trans-unit>
+      <trans-unit id="exportdata_messages" approved="yes">
+        <source>Messages</source>
+        <target state="translated">Zprávy</target>
+      </trans-unit>
+      <trans-unit id="makeconfig_noTreeExportedOnly" approved="yes">
+        <source>No tree exported - only tables on the page.</source>
+        <target state="translated">Žádný strom exportován - pouze tabulky na stránce.</target>
+      </trans-unit>
+      <trans-unit id="makeconfig_tablesOnThisPage" approved="yes">
+        <source>Tables on this page</source>
+        <target state="translated">Tabulky na stránce</target>
+      </trans-unit>
+      <trans-unit id="makeconfig_expandedTree" approved="yes">
+        <source>Expanded tree</source>
+        <target state="translated">Rozbalený strom</target>
+      </trans-unit>
+      <trans-unit id="makeadvanc_update" approved="yes">
+        <source>Update</source>
+        <target state="translated">Aktualizovat</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_update" approved="yes">
+        <source>Update</source>
+        <target state="translated">Obnovit</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_load" approved="yes">
+        <source>Load</source>
+        <target state="translated">Nahrát</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_save" approved="yes">
+        <source>Save</source>
+        <target state="translated">Uložit</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_areYouSure" approved="yes">
+        <source>Are you sure?</source>
+        <target state="translated">Jste si jistí?</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_delete" approved="yes">
+        <source>Delete</source>
+        <target state="translated">Vymazat</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_merge" approved="yes">
+        <source>Merge</source>
+        <target state="translated">Spojit</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_t3dFileCompressed" approved="yes">
+        <source>T3D file / compressed</source>
+        <target state="translated">T3D soubor / zkomprimovaný</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_t3dFile" approved="yes">
+        <source>T3D file</source>
+        <target state="translated">T3D soubor</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_downloadExport" approved="yes">
+        <source>Download export</source>
+        <target state="translated">Stáhnout export</target>
+      </trans-unit>
+      <trans-unit id="importdata_saveToFilename" approved="yes">
+        <source>Save to filename</source>
+        <target state="translated">Uložit do souboru</target>
+      </trans-unit>
+      <trans-unit id="importdata_fromPathS" approved="yes">
+        <source>(From path: %s)</source>
+        <target state="translated">(Z adresy: %s)</target>
+      </trans-unit>
+      <trans-unit id="importdata_noteNoDecompressorAvailable" approved="yes">
+        <source>NOTE: No decompressor available for compressed files!</source>
+        <target state="translated">POZN: Žádný decompressor pro zkomprimovaná data k dispozici!</target>
+      </trans-unit>
+      <trans-unit id="importdata_updateRecords" approved="yes">
+        <source>Update records</source>
+        <target state="translated">Aktualizovat záznamy</target>
+      </trans-unit>
+      <trans-unit id="importdata_thisOptionRequiresThat" approved="yes">
+        <source>This option requires that the structure you import already exists on this server and only needs to be updated with new content!</source>
+        <target state="translated">Tato volba vyžaduje existující odpovídající strukturu na serveru která se pouze aktualizuje novým obsahem z importu.</target>
+      </trans-unit>
+      <trans-unit id="importdata_ignorePidDifferencesGlobally" approved="yes">
+        <source>Ignore PID differences globally</source>
+        <target state="translated">Ignorovat všechny rozdíly v PID</target>
+      </trans-unit>
+      <trans-unit id="importdata_ifYouSetThis" approved="yes">
+        <source>If you set this option, the position of updated elements will not be updated to match the structure of the input file.</source>
+        <target state="translated">Jestliže nastavíte tuto volbu, pozice aktualizovaných prvků nebude aktualizována, aby souhlasila se strukturou vstupního souboru.</target>
+      </trans-unit>
+      <trans-unit id="importdata_force_all_UIDS" approved="yes">
+        <source>Force ALL UIDs values</source>
+        <target state="translated">Vynutit UID hodnoty</target>
+      </trans-unit>
+      <trans-unit id="importdata_force_all_UIDS_descr" approved="yes">
+        <source>With this option the original UID value of all imported records are forced to be the same. BE VERY CAREFUL WITH THIS! (Admin Only).</source>
+        <target state="translated">Při použití této předvolby budou při importu použity původní vyexportované UID hodnoty. TUTO VOLBU POUŽÍVEJTE VELMI OPATRNĚ! (Pouze administrátor)</target>
+      </trans-unit>
+      <trans-unit id="importdata_doNotShowDifferences" approved="yes">
+        <source>Do not show differences in records</source>
+        <target state="translated">Nezobrazovat rozdíly v záznamech</target>
+      </trans-unit>
+      <trans-unit id="importdata_greenValuesAreFrom" approved="yes">
+        <source>Green values are from the import file, red values from the current database record and black values are similar in both versions.</source>
+        <target state="translated">Zelené hodnoty jsou z importu, červené hodnoty z aktuálních databázových záznamů a černé jsou shodné pro obě předchozí varianty.</target>
+      </trans-unit>
+      <trans-unit id="importdata_allowToWriteBanned" approved="yes">
+        <source>Allow to write banned file extensions (eg. PHP scripts), if any</source>
+        <target state="translated">Povolit zakázané přípony souboru (např. PHP skripty), pokud existují</target>
+      </trans-unit>
+      <trans-unit id="importdata_preview" approved="yes">
+        <source>Preview</source>
+        <target state="translated">Náhled</target>
+      </trans-unit>
+      <trans-unit id="importdata_update_299e" approved="yes">
+        <source>Update</source>
+        <target state="translated">Obnovit</target>
+      </trans-unit>
+      <trans-unit id="importdata_areYouSure" approved="yes">
+        <source>Are you sure?</source>
+        <target state="translated">Jste si jistí?</target>
+      </trans-unit>
+      <trans-unit id="importdata_newImport" approved="yes">
+        <source>New import</source>
+        <target state="translated">Nový import</target>
+      </trans-unit>
+      <trans-unit id="importdata_writeIndividualDbActions" approved="yes">
+        <source>Write individual DB actions during import to the log</source>
+        <target state="translated">Vypiš jednotlivé akce DB při importu do logu</target>
+      </trans-unit>
+      <trans-unit id="importdata_thisIsDisabledBy" approved="yes">
+        <source>This is disabled by default since there may be hundred of entries generated.</source>
+        <target state="translated">Funkce je implicitně zablokovaná, protože při jejím použití mohou vzniknout tisíce položek.</target>
+      </trans-unit>
+      <trans-unit id="importdata_failureNoFileUploaded" approved="yes">
+        <source>Failure: No file uploaded - was it too big? Check system log.</source>
+        <target state="translated">Chyba: Soubor nenahrán - byl moc velký? Zkontroluj systémový log.</target>
+      </trans-unit>
+      <trans-unit id="importdata_messages" approved="yes">
+        <source>Messages</source>
+        <target state="translated">Zprávy</target>
+      </trans-unit>
+      <trans-unit id="ALL_tables" approved="yes">
+        <source>ALL tables</source>
+        <target state="translated">VŠECHNY tabulky</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_singlereco_update" approved="yes">
+        <source>Update</source>
+        <target state="translated">Aktualizace</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_singlereco_insert" approved="yes">
+        <source>Insert</source>
+        <target state="translated">Vložit</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_singlereco_importAsNew" approved="yes">
+        <source>Import as new</source>
+        <target state="translated">Importovat jako nové</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_singlereco_ignorePid" approved="yes">
+        <source>Ignore PID</source>
+        <target state="translated">Ignorovat PID</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_singlereco_respectPid" approved="yes">
+        <source>Respect PID</source>
+        <target state="translated">Zachovávat PID</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_singlereco_forceUidSAdmin" approved="yes">
+        <source>Force UID [%s] (Admin)</source>
+        <target state="translated">Vynutit UID [%s] (Admin)</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_singlereco_exclude" approved="yes">
+        <source>Exclude</source>
+        <target state="translated">Vyřadit</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_softrefsel_editable" approved="yes">
+        <source>Editable</source>
+        <target state="translated">Upravitelný</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_softrefsel_exclude" approved="yes">
+        <source>Exclude</source>
+        <target state="translated">Vyřadit</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
