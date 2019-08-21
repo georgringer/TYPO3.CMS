@@ -1,4 +1,3 @@
 files:
   - source: /typo3/sysext/*/Resources/Private/Language/
-    translation: >-
-      /%two_letters_code%/%original_path%/%two_letters_code%.%original_file_name%
+    translation: '%original_path%/%two_letters_code%.%original_file_name%'
