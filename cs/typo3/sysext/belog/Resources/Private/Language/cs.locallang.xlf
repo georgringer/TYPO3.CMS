@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814781" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="belog" target-language="cs">
+    <header/>
+    <body>
+      <trans-unit id="adminLog" approved="yes">
+        <source>Administration log</source>
+        <target state="translated">Administrační protokol</target>
+      </trans-unit>
+      <trans-unit id="allUsers" approved="yes">
+        <source>[All users]</source>
+        <target state="translated">[Všichni uživatelé]</target>
+      </trans-unit>
+      <trans-unit id="any" approved="yes">
+        <source>[Any]</source>
+        <target state="translated">[Všechny]</target>
+      </trans-unit>
+      <trans-unit id="draft" approved="yes">
+        <source>Draft</source>
+        <target state="translated">Koncept</target>
+      </trans-unit>
+      <trans-unit id="self" approved="yes">
+        <source>Self</source>
+        <target state="translated">Já sám</target>
+      </trans-unit>
+      <trans-unit id="thisWeek" approved="yes">
+        <source>This week</source>
+        <target state="translated">Tento týden</target>
+      </trans-unit>
+      <trans-unit id="lastWeek" approved="yes">
+        <source>Last week</source>
+        <target state="translated">Minulý týden</target>
+      </trans-unit>
+      <trans-unit id="last7Days" approved="yes">
+        <source>Last 7 days</source>
+        <target state="translated">Posledních 7 dní</target>
+      </trans-unit>
+      <trans-unit id="thisMonth" approved="yes">
+        <source>This month</source>
+        <target state="translated">Tento měsíc</target>
+      </trans-unit>
+      <trans-unit id="lastMonth" approved="yes">
+        <source>Last month</source>
+        <target state="translated">Minulý měsíc</target>
+      </trans-unit>
+      <trans-unit id="last31Days" approved="yes">
+        <source>Last 31 days</source>
+        <target state="translated">Minulých 31 dní</target>
+      </trans-unit>
+      <trans-unit id="noLimit" approved="yes">
+        <source>No limit</source>
+        <target state="translated">Žádný limit</target>
+      </trans-unit>
+      <trans-unit id="userDefined" approved="yes">
+        <source>User defined</source>
+        <target state="translated">Definováno uživatelem</target>
+      </trans-unit>
+      <trans-unit id="set" approved="yes">
+        <source>Set</source>
+        <target state="translated">Nastavit</target>
+      </trans-unit>
+      <trans-unit id="actionAll" approved="yes">
+        <source>All</source>
+        <target state="translated">Vše</target>
+      </trans-unit>
+      <trans-unit id="actionDatabase" approved="yes">
+        <source>Database</source>
+        <target state="translated">Databáze</target>
+      </trans-unit>
+      <trans-unit id="actionFile" approved="yes">
+        <source>File</source>
+        <target state="translated">Soubor</target>
+      </trans-unit>
+      <trans-unit id="actionCache" approved="yes">
+        <source>Cache</source>
+        <target state="translated">Keš</target>
+      </trans-unit>
+      <trans-unit id="actionSettings" approved="yes">
+        <source>Settings</source>
+        <target state="translated">Nastavení</target>
+      </trans-unit>
+      <trans-unit id="actionLogin" approved="yes">
+        <source>Login</source>
+        <target state="translated">Přihlášení</target>
+      </trans-unit>
+      <trans-unit id="actionErrors" approved="yes">
+        <source>Errors</source>
+        <target state="translated">Chyby</target>
+      </trans-unit>
+      <trans-unit id="changesInFields" approved="yes">
+        <source>Changes in fields: %s.</source>
+        <target state="translated">Změny v polích: %s.</target>
+      </trans-unit>
+      <trans-unit id="showHistory" approved="yes">
+        <source>Show History</source>
+        <target state="translated">Ukázat historii</target>
+      </trans-unit>
+      <trans-unit id="overview" approved="yes">
+        <source>Overview</source>
+        <target state="translated">Přehled</target>
+      </trans-unit>
+      <trans-unit id="timeInfo" approved="yes">
+        <source>These pages have log messages from %s to %s</source>
+        <target state="translated">Tyto stránky mají zprávy protokolu od %s do %s</target>
+      </trans-unit>
+      <trans-unit id="forNonPageRelatedActions" approved="yes">
+        <source>for NON-PAGE related actions</source>
+        <target state="translated">pro akce nesouvisející se stránkou</target>
+      </trans-unit>
+      <trans-unit id="forRootLevel" approved="yes">
+        <source>for ROOT LEVEL</source>
+        <target state="translated">pro ROOT úroveň</target>
+      </trans-unit>
+      <trans-unit id="forPage" approved="yes">
+        <source>for PAGE "%s" (UID: %s)</source>
+        <target state="translated">pro STRÁNKU "%s" (UID: %s)</target>
+      </trans-unit>
+      <trans-unit id="logForNonPageRelatedActionsOrRootLevelOrPage" approved="yes">
+        <source>Log %s from %s to %s</source>
+        <target state="translated">Protokol %s od %s do %s</target>
+      </trans-unit>
+      <trans-unit id="action_1_1" approved="yes">
+        <source>Insert</source>
+        <target state="translated">Vložit</target>
+      </trans-unit>
+      <trans-unit id="action_1_2" approved="yes">
+        <source>Update</source>
+        <target state="translated">Aktualizovat</target>
+      </trans-unit>
+      <trans-unit id="action_1_3" approved="yes">
+        <source>Delete</source>
+        <target state="translated">Odstranit</target>
+      </trans-unit>
+      <trans-unit id="action_1_4" approved="yes">
+        <source>Move</source>
+        <target state="translated">Přesunout</target>
+      </trans-unit>
+      <trans-unit id="action_1_5" approved="yes">
+        <source>Check</source>
+        <target state="translated">Prověřit</target>
+      </trans-unit>
+      <trans-unit id="msg_1_0_1" approved="yes">
+        <source>Referer host '%s' and server host '%s' did not match!</source>
+        <target state="translated">Referer hostitele '%s' a hostitelského serveru '%s' neodpovídají!</target>
+      </trans-unit>
+      <trans-unit id="msg_1_1_11" approved="yes">
+        <source>Attempt to insert record on page '%s' (%s) where this table, %s, is not allowed</source>
+        <target state="translated">Pokus o vložení záznamu na straně '%s' (%s), kde tato tabulka, %s, není povolena</target>
+      </trans-unit>
+      <trans-unit id="msg_1_1_12" approved="yes">
+        <source>Attempt to insert a record on page '%s' (%s) from table '%s' without permissions. Or non-existing page.</source>
+        <target state="translated">Pokus o vložení záznamu na straně '%s' (%s) z tabulky '%s' bez oprávnění. Nebo neexistující stránka.</target>
+      </trans-unit>
+      <trans-unit id="msg_1_2_1" approved="yes">
+        <source>Attempt to modify table '%s' without permission</source>
+        <target state="translated">Pokus změnit tabulku '%s' bez povolení</target>
+      </trans-unit>
+      <trans-unit id="msg_1_2_2" approved="yes">
+        <source>Attempt to modify record '%s' (%s) without permission. Or non-existing page.</source>
+        <target state="translated">Pokus o změnu záznamu '%s' (%s) bez povolení. Nebo neexistující stránka.</target>
+      </trans-unit>
+      <trans-unit id="msg_1_2_10" approved="yes">
+        <source>Record '%s' (%s) was updated.</source>
+        <target state="translated">Záznam '%s' (%s) byl aktualizován.</target>
+      </trans-unit>
+      <trans-unit id="msg_1_2_12" approved="yes">
+        <source>MySQL error: '%s' (%s)</source>
+        <target state="translated">MySQL chyba: '%s' (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_1" approved="yes">
+        <source>Attempt to move record '%s' (%s) to after a non-existing record (uid=%s)</source>
+        <target state="translated">Pokus o přesunutí záznamu '%s' (%s) za neexistující záznam (uid=%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_2" approved="yes">
+        <source>Moved record '%s' (%s) to page '%s' (%s)</source>
+        <target state="translated">Přesunutý záznam '%s' (%s) na stránku '%s' (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_3" approved="yes">
+        <source>Moved record '%s' (%s) from page '%s' (%s)</source>
+        <target state="translated">Přesunutý záznam '%s' (%s) ze stránky '%s' (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_4" approved="yes">
+        <source>Moved record '%s' (%s) on page '%s' (%s)</source>
+        <target state="translated">Přesunutý záznam '%s' (%s) na stránce '%s' (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_10" approved="yes">
+        <source>Attempt to move page '%s' (%s) to inside of its own rootline (at page '%s' (%s))</source>
+        <target state="translated">Pokus o přesunutí stránky '%s' (%s) dovnitř její vlastní rootline (na straně '%s' (%s))</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_11" approved="yes">
+        <source>Attempt to insert record on page '%s' (%s) where this table, %s, is not allowed</source>
+        <target state="translated">Pokus o vložení záznamu na straně '%s' (%s), kde tato tabulka, %s, není povolena</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_12" approved="yes">
+        <source>Attempt to insert a record on page '%s' (%s) from table '%s' without permissions. Or non-existing page.</source>
+        <target state="translated">Pokus o vložení záznamu na straně '%s' (%s) z tabulky '%s' bez oprávnění. Nebo neexistující stránka.</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_13" approved="yes">
+        <source>Attempt to move record '%s' (%s) to after another record, although the table has no sorting row.</source>
+        <target state="translated">Pokus o přesunutí záznamu '%s' (%s) za jiný záznam, přestože tabulka nemá sloupec třídění.</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_14" approved="yes">
+        <source>Attempt to move record '%s' (%s) without having permissions to do so</source>
+        <target state="translated">Pokus o přesunutí záznamu '%s' (%s) bez oprávnění k přesunutí</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_1" approved="yes">
+        <source>You cannot change the 'doktype' of page '%s' to the desired value.</source>
+        <target state="translated">Nemůžete změnit 'doktype' stránky '%s' na požadovanou hodnotu.</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_2" approved="yes">
+        <source>'doktype' of page '%s' could not be changed because the page contains records from disallowed tables; %s</source>
+        <target state="translated">'doktype' stránky '%s' nelze změnit, protože stránka obsahuje záznamy z nepovolených tabulek; %s</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_3" approved="yes">
+        <source>Too few items in the list of values. (%s)</source>
+        <target state="translated">Příliš málo položek ve seznamu hodnot. (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_10" approved="yes">
+        <source>Could not delete file '%s' (does not exist). (%s)</source>
+        <target state="translated">Nelze smazat soubor '%s' (neexistuje). (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_11" approved="yes">
+        <source>Copying file '%s' failed!: No destination file (%s) possible!. (%s)</source>
+        <target state="translated">Kopírování souboru '%s' se nezdařilo ! Není možný žádný cílový soubor (%s)! (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_12" approved="yes">
+        <source>File extension '%s' is not allowed. (%s)</source>
+        <target state="translated">Přípona souboru '%s' není povolena. (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_13" approved="yes">
+        <source>File size (%s) of file '%s' exceeds limit (%s). (%s)</source>
+        <target state="translated">Velikost (%s) souboru '%s' překračuje limit (%s). (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_14" approved="yes">
+        <source>The destination (%s) or the source file (%s) does not exist. (%s)</source>
+        <target state="translated">Cílový (%s) nebo zdrojový soubor (%s) neexistuje. (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_15" approved="yes">
+        <source>Copying to file '%s' failed! (%s)</source>
+        <target state="translated">Kopírování do souboru '%s' se nezdařilo! (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_16" approved="yes">
+        <source>Copying file '%s' failed!: The destination path (%s) may be write protected. Please make it write enabled!. (%s)</source>
+        <target state="translated">Kopírování souboru '%s' se nezdařilo !: Cílová cesta (%s) může být chráněna proti zápisu. Prosím umožněte do ní zápis!. (%s)</target>
+      </trans-unit>
+      <trans-unit id="type_2" approved="yes">
+        <source>FILE</source>
+        <target state="translated">SOUBOR</target>
+      </trans-unit>
+      <trans-unit id="action_2_1" approved="yes">
+        <source>Upload</source>
+        <target state="translated">Nahrát</target>
+      </trans-unit>
+      <trans-unit id="action_2_2" approved="yes">
+        <source>Copy</source>
+        <target state="translated">Kopírovat</target>
+      </trans-unit>
+      <trans-unit id="action_2_3" approved="yes">
+        <source>Move</source>
+        <target state="translated">Přesunout</target>
+      </trans-unit>
+      <trans-unit id="action_2_4" approved="yes">
+        <source>Delete</source>
+        <target state="translated">Odstranit</target>
+      </trans-unit>
+      <trans-unit id="action_2_5" approved="yes">
+        <source>Rename</source>
+        <target state="translated">Přejmenovat</target>
+      </trans-unit>
+      <trans-unit id="action_2_6" approved="yes">
+        <source>New</source>
+        <target state="translated">Nový</target>
+      </trans-unit>
+      <trans-unit id="action_2_7" approved="yes">
+        <source>Unzip</source>
+        <target state="translated">Dekomprimovat</target>
+      </trans-unit>
+      <trans-unit id="action_2_8" approved="yes">
+        <source>New file</source>
+        <target state="translated">Nový soubor</target>
+      </trans-unit>
+      <trans-unit id="action_2_9" approved="yes">
+        <source>Edit</source>
+        <target state="translated">Upravit</target>
+      </trans-unit>
+      <trans-unit id="msg_2_9_1" approved="yes">
+        <source>File saved to '%s', bytes: %s, MD5: %s </source>
+        <target state="translated">Soubor uložen jako '%s', velikost: %s bajtů, MD5: %s </target>
+      </trans-unit>
+      <trans-unit id="type_3" approved="yes">
+        <source>CACHE</source>
+        <target state="translated">KEŠ</target>
+      </trans-unit>
+      <trans-unit id="action_3_1" approved="yes">
+        <source>Clear Cache</source>
+        <target state="translated">Vymazat keš</target>
+      </trans-unit>
+      <trans-unit id="type_4" approved="yes">
+        <source>EXTENSION</source>
+        <target state="translated">ROZŠÍŘENÍ</target>
+      </trans-unit>
+      <trans-unit id="type_5" approved="yes">
+        <source>ERROR</source>
+        <target state="translated">CHYBA</target>
+      </trans-unit>
+      <trans-unit id="action_5_0" approved="yes">
+        <source>Error handler</source>
+        <target state="translated">Obsluha chyb</target>
+      </trans-unit>
+      <trans-unit id="type_254" approved="yes">
+        <source>SETTING</source>
+        <target state="translated">NASTAVENÍ</target>
+      </trans-unit>
+      <trans-unit id="action_254_1" approved="yes">
+        <source>Change</source>
+        <target state="translated">Změnit</target>
+      </trans-unit>
+      <trans-unit id="type_255" approved="yes">
+        <source>LOGIN</source>
+        <target state="translated">PŘIHLÁŠENÍ</target>
+      </trans-unit>
+      <trans-unit id="action_255_1" approved="yes">
+        <source>LOGIN</source>
+        <target state="translated">PŘIHLÁŠENÍ</target>
+      </trans-unit>
+      <trans-unit id="action_255_2" approved="yes">
+        <source>LOGOUT</source>
+        <target state="translated">ODHLÁŠENÍ</target>
+      </trans-unit>
+      <trans-unit id="action_255_3" approved="yes">
+        <source>ATTEMPT</source>
+        <target state="translated">POKUS</target>
+      </trans-unit>
+      <trans-unit id="chLog_title" approved="yes">
+        <source>Admin Changelog</source>
+        <target state="translated">Administrace Protokolu změn</target>
+      </trans-unit>
+      <trans-unit id="chLog_users_0" approved="yes">
+        <source>All users</source>
+        <target state="translated">[Všichni uživatelé]</target>
+      </trans-unit>
+      <trans-unit id="chLog_users_-1" approved="yes">
+        <source>Self</source>
+        <target state="translated">Já sám</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_0" approved="yes">
+        <source>This week</source>
+        <target state="translated">Tento týden</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_1" approved="yes">
+        <source>Last week</source>
+        <target state="translated">Minulý týden</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_2" approved="yes">
+        <source>Last 7 days</source>
+        <target state="translated">Posledních 7 dní</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_10" approved="yes">
+        <source>This month</source>
+        <target state="translated">Tento měsíc</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_11" approved="yes">
+        <source>Last month</source>
+        <target state="translated">Minulý měsíc</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_12" approved="yes">
+        <source>Last 31 days</source>
+        <target state="translated">Minulých 31 dní</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_20" approved="yes">
+        <source>No limit</source>
+        <target state="translated">Žádný limit</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_time" approved="yes">
+        <source>Time</source>
+        <target state="translated">Čas</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_user" approved="yes">
+        <source>User</source>
+        <target state="translated">Uživatel:</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_error" approved="yes">
+        <source>E</source>
+        <target state="translated">CH</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_action" approved="yes">
+        <source>Action</source>
+        <target state="translated">Akce</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_types" approved="yes">
+        <source>Type</source>
+        <target state="translated">Typ</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_table" approved="yes">
+        <source>Table</source>
+        <target state="translated">Tabulka</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_details" approved="yes">
+        <source>Details</source>
+        <target state="translated">Podrobnosti</target>
+      </trans-unit>
+      <trans-unit id="chLog_menuUsers" approved="yes">
+        <source>Users</source>
+        <target state="translated">Uživatelé</target>
+      </trans-unit>
+      <trans-unit id="chLog_menuTime" approved="yes">
+        <source>Time</source>
+        <target state="translated">Čas</target>
+      </trans-unit>
+      <trans-unit id="systemmessage.errorsInPeriod" approved="yes">
+        <source><![CDATA[We have found %1$d errors. Please check your <a href="%2$s">system log</a>.]]></source>
+        <target state="translated"><![CDATA[Nalezeno %1$d chyb. Zkontrolujte prosím &lt;a href="%2$s"&gt;systémový protokol&lt;/a&gt;.]]></target>
+      </trans-unit>
+      <trans-unit id="actions" approved="yes">
+        <source>Actions</source>
+        <target state="translated">Akce</target>
+      </trans-unit>
+      <trans-unit id="actions.delete" approved="yes">
+        <source>Delete similar errors</source>
+        <target state="translated">Smazat podobné chyby</target>
+      </trans-unit>
+      <trans-unit id="actions.deleteWarnings" approved="yes">
+        <source>Delete similar warnings</source>
+        <target state="translated">Smazat podobná upozornění</target>
+      </trans-unit>
+      <trans-unit id="actions.delete.message" approved="yes">
+        <source>Total entries deleted: %1$d</source>
+        <target state="translated">Celkem smazáno položek: %1$d</target>
+      </trans-unit>
+      <trans-unit id="actions.delete.noRowFound" approved="yes">
+        <source>Log entry could not be found.</source>
+        <target state="translated">Položku protokolu nelze nalézt.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
