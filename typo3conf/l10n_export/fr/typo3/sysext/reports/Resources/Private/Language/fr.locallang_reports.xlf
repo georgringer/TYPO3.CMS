@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814909" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:35Z" product-name="reports" target-language="fr">
+    <header/>
+    <body>
+      <trans-unit id="status_report_title" approved="yes">
+        <source>Status Report</source>
+        <target state="translated">Rapport</target>
+      </trans-unit>
+      <trans-unit id="status_report_description" approved="yes">
+        <source>Get a status report about your site's operation and any detected problems.</source>
+        <target state="translated">Rapport affichant l'état des opérations de votre site et les éventuels problèmes détectés.</target>
+      </trans-unit>
+      <trans-unit id="status_report_explanation" approved="yes">
+        <source>Here you can find a short overview of your site's parameters as well as any problems detected with your installation. It may be useful to copy and paste this information into support requests filed on TYPO3's support mailinglists and project issue trackers.</source>
+        <target state="translated">Vous pouvez afficher ici un aperçu rapide des paramètres de votre site ainsi que les problèmes détectés concernant votre installation. Il pourra être utile de copier - coller ces informations dans vos demandes de support déposées sur les mailinglists de support TYPO3 ainsi que sur le bugtracker TYPO3.</target>
+      </trans-unit>
+      <trans-unit id="status_insecure" approved="yes">
+        <source>Insecure</source>
+        <target state="translated">Non sécurisé</target>
+      </trans-unit>
+      <trans-unit id="status_disabled" approved="yes">
+        <source>Disabled</source>
+        <target state="translated">Désactivé</target>
+      </trans-unit>
+      <trans-unit id="status_enabled" approved="yes">
+        <source>Enabled</source>
+        <target state="translated">Activé</target>
+      </trans-unit>
+      <trans-unit id="status_enabledPermanently" approved="yes">
+        <source>Enabled permanently</source>
+        <target state="translated">Activé en permanence</target>
+      </trans-unit>
+      <trans-unit id="status_enabledTemporarily" approved="yes">
+        <source>Enabled temporarily</source>
+        <target state="translated">Activé temporairement</target>
+      </trans-unit>
+      <trans-unit id="status_empty" approved="yes">
+        <source>Empty</source>
+        <target state="translated">Vide</target>
+      </trans-unit>
+      <trans-unit id="status_none" approved="yes">
+        <source>None</source>
+        <target state="translated">Aucun</target>
+      </trans-unit>
+      <trans-unit id="status_connectionFailed" approved="yes">
+        <source>Connection Failed</source>
+        <target state="translated">Echec de la connexion</target>
+      </trans-unit>
+      <trans-unit id="status_updateComplete" approved="yes">
+        <source>Update Complete</source>
+        <target state="translated">Mise à jour complète</target>
+      </trans-unit>
+      <trans-unit id="status_updateIncomplete" approved="yes">
+        <source>Update Incomplete</source>
+        <target state="translated">Mise à jour incomplète</target>
+      </trans-unit>
+      <trans-unit id="status_typo3" approved="yes">
+        <source>TYPO3 System</source>
+        <target state="translated">Système TYPO3</target>
+      </trans-unit>
+      <trans-unit id="status_system" approved="yes">
+        <source>System</source>
+        <target state="translated">Système</target>
+      </trans-unit>
+      <trans-unit id="status_security" approved="yes">
+        <source>Security</source>
+        <target state="translated">Sécurité</target>
+      </trans-unit>
+      <trans-unit id="status_referenceIndex" approved="yes">
+        <source>Reference Index</source>
+        <target state="translated">Index de référence</target>
+      </trans-unit>
+      <trans-unit id="status_memcachedConfiguration" approved="yes">
+        <source>Memcached Configuration</source>
+        <target state="translated">Configuration du cache</target>
+      </trans-unit>
+      <trans-unit id="status_CreatedFilePermissions" approved="yes">
+        <source>Permissions of created files</source>
+        <target state="translated">Permissions des fichiers créés</target>
+      </trans-unit>
+      <trans-unit id="status_adminUserAccount" approved="yes">
+        <source>Admin User Account</source>
+        <target state="translated">Compte d'utilisateur admin</target>
+      </trans-unit>
+      <trans-unit id="status_encryptionKey" approved="yes">
+        <source>Encryption Key</source>
+        <target state="translated">Clé de chiffrement</target>
+      </trans-unit>
+      <trans-unit id="status_fileDenyPattern" approved="yes">
+        <source>File Deny Pattern</source>
+        <target state="translated">Motif de fichier refusé</target>
+      </trans-unit>
+      <trans-unit id="status_htaccessUploadProtection" approved="yes">
+        <source>.htaccess Upload Protection</source>
+        <target state="translated">Protection du téléchargement .htaccess</target>
+      </trans-unit>
+      <trans-unit id="status_installToolPassword" approved="yes">
+        <source>Install Tool Password</source>
+        <target state="translated">Mot de passe de l'outil d'installation</target>
+      </trans-unit>
+      <trans-unit id="status_installTool" approved="yes">
+        <source>Install Tool</source>
+        <target state="translated">Module Install</target>
+      </trans-unit>
+      <trans-unit id="status_phpVersion" approved="yes">
+        <source>PHP Version</source>
+        <target state="translated">Version PHP</target>
+      </trans-unit>
+      <trans-unit id="status_phpTooOld" approved="yes">
+        <source>Your PHP installation is too old.</source>
+        <target state="translated">Votre installation PHP est trop ancienne.</target>
+      </trans-unit>
+      <trans-unit id="status_phpMemory" approved="yes">
+        <source>PHP Memory Limit</source>
+        <target state="translated">Limite de mémoire PHP</target>
+      </trans-unit>
+      <trans-unit id="status_phpMemoryEditLimit" approved="yes">
+        <source>Increase the memory limit by editing the memory_limit parameter in the file %s and then restart your web server (or contact your system administrator or hosting provider for assistance).</source>
+        <target state="translated">Augmentez votre limite de mémoire PHP dans le fichier %s et redémarrez votre serveur (ou contactez votre administrateur système ou votre hébergeur pour une assistance).</target>
+      </trans-unit>
+      <trans-unit id="status_phpMemoryContactAdmin" approved="yes">
+        <source>Contact your system administrator or hosting provider for assistance with increasing your PHP memory limit.</source>
+        <target state="translated">Contactez votre administrateur système ou votre hébergeur pour une assistance pour l'augmentation de votre limite de mémoire PHP.</target>
+      </trans-unit>
+      <trans-unit id="status_phpMemoryUnlimited" approved="yes">
+        <source>unlimited</source>
+        <target state="translated">illimitée</target>
+      </trans-unit>
+      <trans-unit id="status_phpPeakMemory" approved="yes">
+        <source>PHP peak memory usage</source>
+        <target state="translated">Pic d'utilisation mémoire PHP</target>
+      </trans-unit>
+      <trans-unit id="status_phpPeakMemoryClearFlag" approved="yes">
+        <source>Clear this flag</source>
+        <target state="translated">Effacer cette propriété</target>
+      </trans-unit>
+      <trans-unit id="status_phpRegisterGlobalsEnabled" approved="yes">
+        <source>%s is enabled. TYPO3 requires this configuration directive to be disabled.</source>
+        <target state="translated">%s est activé. TYPO3 a besoin que cette configuration soit désactivée.</target>
+      </trans-unit>
+      <trans-unit id="status_phpRegisterGlobalsSecurity" approved="yes">
+        <source>Your site may not be secure when %s is enabled.</source>
+        <target state="translated">Votre site pourrait ne pas être sécurisé si %s est activé.</target>
+      </trans-unit>
+      <trans-unit id="status_phpRegisterGlobalsHowToChange" approved="yes">
+        <source>how to change configuration settings</source>
+        <target state="translated">comment modifier les paramétrages</target>
+      </trans-unit>
+      <trans-unit id="status_phpRegisterGlobalsPHPManual" approved="yes">
+        <source>The PHP manual has instructions for %s.</source>
+        <target state="translated">Le manuel PHP contient les instructions pour %s.</target>
+      </trans-unit>
+      <trans-unit id="status_webServer" approved="yes">
+        <source>Web Server</source>
+        <target state="translated">Serveur Web</target>
+      </trans-unit>
+      <trans-unit id="status_phpModules" approved="yes">
+        <source>PHP Modules</source>
+        <target state="translated">Modules PHP</target>
+      </trans-unit>
+      <trans-unit id="status_phpModulesMissing" approved="yes">
+        <source>One or more modules are missing.</source>
+        <target state="translated">Un ou plusieurs modules sont manquant(s).</target>
+      </trans-unit>
+      <trans-unit id="status_phpModulesList" approved="yes">
+        <source>The following PHP module(s) is/are missing: %s.</source>
+        <target state="translated">Les module(s) PHP suivants sont manquants: %s.</target>
+      </trans-unit>
+      <trans-unit id="status_phpModulesInfo" approved="yes">
+        <source>You need to install and enable these modules to let TYPO3 function correctly.</source>
+        <target state="translated">Vous devez installer et activer ces modules pour permettre à TYPO3 de fonctionner correctement.</target>
+      </trans-unit>
+      <trans-unit id="status_phpModulesGroup" approved="yes">
+        <source>one of: %s</source>
+        <target state="translated">un sur: %s</target>
+      </trans-unit>
+      <trans-unit id="status_phpModulesPresent" approved="yes">
+        <source>All required modules are installed.</source>
+        <target state="translated">Tous les modules requis sont installés</target>
+      </trans-unit>
+      <trans-unit id="status_installEnabledTemporarily" approved="yes">
+        <source>The Install Tool is temporarily enabled. Delete the file "%s" when you have finished setting up TYPO3. If not used the Install Tool will be disabled automatically in %s minutes.</source>
+        <target state="translated">L'outils d'installation est temporairement activé. Supprimer le fichier "%s" quand vous aurez terminé la configuration de TYPO3. Si vous n'utilisez pas l'outil d'installation, il sera automatiquement désactivé dans %s minutes.</target>
+      </trans-unit>
+      <trans-unit id="status_configuration_PhpSafeModeEnabled" approved="yes">
+        <source>PHP INI setting safe_mode "On" is deprecated since PHP 5.3 and is not supported by TYPO3 anymore.</source>
+        <target state="translated">Le paramètre "safe_mode" du php.ini est réglé sur "On", ce qui est déprécié depuis PHP 5.3 et plus supporté par TYPO3.</target>
+      </trans-unit>
+      <trans-unit id="status_configuration_PhpMagicQuotesGpcEnabled" approved="yes">
+        <source>PHP INI setting magic_quotes_gpc "On" is deprecated since PHP 5.3. You are advised to set it to "Off" until it gets completely removed.</source>
+        <target state="translated">le paramètre PHP INI magic_quotes_gpc à "On" est déprécié depuis PHP 5.3. Il est recommandé de le positionner à "Off" jusqu'à ce qu'il soit retiré définitivement.</target>
+      </trans-unit>
+      <trans-unit id="status_updateTaskTitle" approved="yes">
+        <source>System Status Update</source>
+        <target state="translated">Mise à jour de l'état du système</target>
+      </trans-unit>
+      <trans-unit id="status_updateTaskDescription" approved="yes">
+        <source>Runs a system status check and sends notifications if problems have been found.</source>
+        <target state="translated">Exécute un contrôle de l'état du système et envoie des notifications si des problèmes sont rencontrés.</target>
+      </trans-unit>
+      <trans-unit id="status_updateTaskField_notificationEmail" approved="yes">
+        <source>Notification Email Address</source>
+        <target state="translated">Adresse email de notification</target>
+      </trans-unit>
+      <trans-unit id="status_updateTaskField_notificationEmail_invalid" approved="yes">
+        <source>Empty or invalid notification email address.</source>
+        <target state="translated">Adresse email de notification vide ou invalide</target>
+      </trans-unit>
+      <trans-unit id="status_updateTask_email_subject" approved="yes">
+        <source>System Status Notification for site %s</source>
+        <target state="translated">Notification d'état du système pour le site %s</target>
+      </trans-unit>
+      <trans-unit id="status_updateTask_email_issues" approved="yes">
+        <source>Issues</source>
+        <target state="translated">Publications</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
