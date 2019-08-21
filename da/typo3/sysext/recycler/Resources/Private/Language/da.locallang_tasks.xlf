@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1424776442" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:35Z" product-name="recycler" target-language="da">
+    <header/>
+    <body>
+      <trans-unit id="cleanerTaskTitle" approved="yes">
+        <source>Remove deleted records</source>
+        <target state="translated">Fjern slettede elementer</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskDescription" approved="yes">
+        <source>Deletes rows from the database which are flagged "deleted"</source>
+        <target state="translated">Sletter rækker fra databasen, som er makeret med "deleted"</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskPeriod" approved="yes">
+        <source>Delete entries older than (in days)</source>
+        <target state="translated">Slet data ældre end (i dage)</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskTCA" approved="yes">
+        <source>Tables</source>
+        <target state="translated">Tabeller</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskDescriptionTables" approved="yes">
+        <source>Tables: %s</source>
+        <target state="translated">Tabeller: %s</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskDescriptionDays" approved="yes">
+        <source>Older than %d days(s)</source>
+        <target state="translated">Ældre end %d dag(e)</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskErrorPeriod" approved="yes">
+        <source>The period has to be an integer and greater than zero.</source>
+        <target state="translated">Perioden skal være et tal og større end nul.</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskErrorTCAempty" approved="yes">
+        <source>You have to select at least one table.</source>
+        <target state="translated">Du skal vælge mindst én tabel.</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskErrorTCANotSet" approved="yes">
+        <source>The table "%s" is not in the TCA.</source>
+        <target state="translated">Tabellen "%s" er ikke i TCA.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
