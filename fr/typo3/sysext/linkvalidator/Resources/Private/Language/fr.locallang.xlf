@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814893" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="linkvalidator" target-language="fr">
+    <header/>
+    <body>
+      <trans-unit id="mod_linkvalidator" approved="yes">
+        <source>Linkvalidator</source>
+        <target state="translated">Validateur de lien</target>
+      </trans-unit>
+      <trans-unit id="tasks.validate.name" approved="yes">
+        <source>Linkvalidator</source>
+        <target state="translated">Validateur de lien</target>
+      </trans-unit>
+      <trans-unit id="tasks.validate.description" approved="yes">
+        <source>Search for broken links and store the result into the temporary table tx_linkvalidator_link in order to ease up the backend module.</source>
+        <target state="translated">Recherchez des liens interrompus et enregistrez le résultat dans la table temporaire tx_linkvalidator_link afin de faciliter l'utilisation du module backend.</target>
+      </trans-unit>
+      <trans-unit id="tasks.validate.page" approved="yes">
+        <source>Start page (uid)</source>
+        <target state="translated">Page racine (uid)</target>
+      </trans-unit>
+      <trans-unit id="tasks.validate.depth" approved="yes">
+        <source>Depth</source>
+        <target state="translated">Profondeur</target>
+      </trans-unit>
+      <trans-unit id="tasks.validate.conf" approved="yes">
+        <source>Overwrite TSconfig</source>
+        <target state="translated">Surcharger le TSconfig</target>
+      </trans-unit>
+      <trans-unit id="tasks.validate.email" approved="yes">
+        <source>Send email report to</source>
+        <target state="translated">Envoi de l'email de rapport à</target>
+      </trans-unit>
+      <trans-unit id="tasks.validate.emailOnBrokenLinkOnly" approved="yes">
+        <source>Send email on new broken links only</source>
+        <target state="translated">Envoi d'un email uniquement lorsqu'un nouveau lien cassé est découvert</target>
+      </trans-unit>
+      <trans-unit id="tasks.validate.emailTemplateFile" approved="yes">
+        <source>Email template file</source>
+        <target state="translated">Fichier template de l'email</target>
+      </trans-unit>
+      <trans-unit id="tasks.validate.invalidEmail" approved="yes">
+        <source>Invalid email format!</source>
+        <target state="translated">Format d'email invalide!</target>
+      </trans-unit>
+      <trans-unit id="tasks.validate.invalidPage" approved="yes">
+        <source>Invalid page uid, please enter a valid page uid!</source>
+        <target state="translated">L'uid de la page est invalide! Entrez un uid de page valide!</target>
+      </trans-unit>
+      <trans-unit id="tasks.validate.invalidDepth" approved="yes">
+        <source>There is no depth set, please set it to one of the offered values!</source>
+        <target state="translated">Il n'y a pas de profondeur de défini! Choisissez l'une des valeurs proposées!</target>
+      </trans-unit>
+      <trans-unit id="tasks.error.noSubject" approved="yes">
+        <source>No subject for the notification email</source>
+        <target state="translated">Aucun sujet pour la notification email</target>
+      </trans-unit>
+      <trans-unit id="tasks.error.invalidToEmail" approved="yes">
+        <source>Invalid format of one or more of the recipient email addresses!</source>
+        <target state="translated">Format invalide d'une ou plusieurs adresses courriel du / des destinataire(s)!</target>
+      </trans-unit>
+      <trans-unit id="tasks.error.invalidEmailTemplateFile" approved="yes">
+        <source>The email template file is not existing!</source>
+        <target state="translated">Le fichier du template d'email n'existe pas!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
