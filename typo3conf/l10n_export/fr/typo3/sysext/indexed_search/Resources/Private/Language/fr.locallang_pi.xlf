@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814837" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="indexed_search" target-language="fr">
+    <header/>
+    <body>
+      <trans-unit id="default_search_word_entry" approved="yes">
+        <source>Search for</source>
+        <target state="translated">Recherche de</target>
+      </trans-unit>
+      <trans-unit id="submit_button_label" approved="yes">
+        <source>Search</source>
+        <target state="translated">Rechercher</target>
+      </trans-unit>
+      <trans-unit id="opt_type_0" approved="yes">
+        <source>Distinct word</source>
+        <target state="translated">Mot distinct</target>
+      </trans-unit>
+      <trans-unit id="opt_type_1" approved="yes">
+        <source>Part of word</source>
+        <target state="translated">Portion d'un mot</target>
+      </trans-unit>
+      <trans-unit id="opt_type_2" approved="yes">
+        <source>First part of word</source>
+        <target state="translated">Première partie d'un mot</target>
+      </trans-unit>
+      <trans-unit id="opt_type_3" approved="yes">
+        <source>Last part of word</source>
+        <target state="translated">Dernière partie d'un mot</target>
+      </trans-unit>
+      <trans-unit id="opt_type_10" approved="yes">
+        <source>Sounds like</source>
+        <target state="translated">Phonétique</target>
+      </trans-unit>
+      <trans-unit id="opt_type_20" approved="yes">
+        <source>Sentence</source>
+        <target state="translated">Phrase</target>
+      </trans-unit>
+      <trans-unit id="opt_defOp_0" approved="yes">
+        <source>All words (AND)</source>
+        <target state="translated">Tous les mots (ET)</target>
+      </trans-unit>
+      <trans-unit id="opt_defOp_1" approved="yes">
+        <source>Any words (OR)</source>
+        <target state="translated">N'importe quel mot (OU)</target>
+      </trans-unit>
+      <trans-unit id="opt_sections_0" approved="yes">
+        <source>Whole site</source>
+        <target state="translated">Tout le site</target>
+      </trans-unit>
+      <trans-unit id="opt_sections_-1" approved="yes">
+        <source>Only this page</source>
+        <target state="translated">Seulement cette page</target>
+      </trans-unit>
+      <trans-unit id="opt_sections_-2" approved="yes">
+        <source>Top + level 1</source>
+        <target state="translated">Base + niveau 1</target>
+      </trans-unit>
+      <trans-unit id="opt_sections_-3" approved="yes">
+        <source>Level 2 and out</source>
+        <target state="translated">Niveau 2 et suivant</target>
+      </trans-unit>
+      <trans-unit id="opt_freeIndexUid_-1" approved="yes">
+        <source>All, mixed</source>
+        <target state="translated">Tous, mélangés</target>
+      </trans-unit>
+      <trans-unit id="opt_freeIndexUid_-2" approved="yes">
+        <source>All, categorized</source>
+        <target state="translated">Tous, catégorisés</target>
+      </trans-unit>
+      <trans-unit id="opt_freeIndexUid_header_-1" approved="yes">
+        <source>Mixed categories</source>
+        <target state="translated">Catégories mélangées</target>
+      </trans-unit>
+      <trans-unit id="opt_freeIndexUid_header_0" approved="yes">
+        <source>Website Pages</source>
+        <target state="translated">Pages du site</target>
+      </trans-unit>
+      <trans-unit id="opt_media_-1" approved="yes">
+        <source>All media</source>
+        <target state="translated">Tous les médias</target>
+      </trans-unit>
+      <trans-unit id="opt_media_0" approved="yes">
+        <source>Internal pages</source>
+        <target state="translated">Pages internes</target>
+      </trans-unit>
+      <trans-unit id="opt_media_-2" approved="yes">
+        <source>All External</source>
+        <target state="translated">Tout l'externe</target>
+      </trans-unit>
+      <trans-unit id="opt_order_rank_flag" approved="yes">
+        <source>Weight/Frequency</source>
+        <target state="translated">Pertinence</target>
+      </trans-unit>
+      <trans-unit id="opt_order_rank_freq" approved="yes">
+        <source>Frequency</source>
+        <target state="translated">Fréquence</target>
+      </trans-unit>
+      <trans-unit id="opt_order_rank_first" approved="yes">
+        <source>Close to top</source>
+        <target state="translated">En début de page</target>
+      </trans-unit>
+      <trans-unit id="opt_order_rank_count" approved="yes">
+        <source>Number of words</source>
+        <target state="translated">Nombre d'occurrences</target>
+      </trans-unit>
+      <trans-unit id="opt_order_mtime" approved="yes">
+        <source>Date Modified</source>
+        <target state="translated">Date de modification</target>
+      </trans-unit>
+      <trans-unit id="opt_order_title" approved="yes">
+        <source>Document title</source>
+        <target state="translated">Titre</target>
+      </trans-unit>
+      <trans-unit id="opt_order_crdate" approved="yes">
+        <source>Creation date</source>
+        <target state="translated">Date de création</target>
+      </trans-unit>
+      <trans-unit id="opt_group_sections" approved="yes">
+        <source>Section hierarchy</source>
+        <target state="translated">Hiérarchie de section</target>
+      </trans-unit>
+      <trans-unit id="opt_group_flat" approved="yes">
+        <source>Flat list</source>
+        <target state="translated">Liste plate</target>
+      </trans-unit>
+      <trans-unit id="opt_lang_-1" approved="yes">
+        <source>All languages</source>
+        <target state="translated">Toutes les langues</target>
+      </trans-unit>
+      <trans-unit id="opt_lang_0" approved="yes">
+        <source>Default</source>
+        <target state="translated">Langue par défaut</target>
+      </trans-unit>
+      <trans-unit id="opt_desc_0" approved="yes">
+        <source>Highest first</source>
+        <target state="translated">Décroissant</target>
+      </trans-unit>
+      <trans-unit id="opt_desc_1" approved="yes">
+        <source>Lowest first</source>
+        <target state="translated">Croissant</target>
+      </trans-unit>
+      <trans-unit id="opt_RL1ALL" approved="yes">
+        <source>All pages on level 1</source>
+        <target state="translated">Toutes les pages du niveau 1</target>
+      </trans-unit>
+      <trans-unit id="opt_RL2ALL" approved="yes">
+        <source>- All pages on level 2</source>
+        <target state="translated">- Toutes les pages du niveau 2</target>
+      </trans-unit>
+      <trans-unit id="form_legend" approved="yes">
+        <source>Search form</source>
+        <target state="translated">Formulaire de recherche</target>
+      </trans-unit>
+      <trans-unit id="form_extResume" approved="yes">
+        <source>Extended resume</source>
+        <target state="translated">Résumé complet</target>
+      </trans-unit>
+      <trans-unit id="form_atATime" approved="yes">
+        <source>at a time</source>
+        <target state="translated">à la fois</target>
+      </trans-unit>
+      <trans-unit id="rules_text" xml:space="preserve" approved="yes">
+				<source>Only words with 2 or more characters are accepted
+Max 200 chars total
+Space is used to split words, "" can be used to search for a whole string (not indexed search then)
+AND, OR and NOT are prefix words, overruling the default operator
++/|/- equals AND, OR and NOT as operators.
+All search words are converted to lowercase.</source>
+			<target state="translated">- Seuls les mots de plus de 2 caractères sont acceptés. - La taille maximum est de 200 caractères. - Les espaces sont employés pour séparer les mots, les guillemets peuvent être utilisés pour rechercher une expression exacte. - ET, OU et SAUF sont des préfixes, outrepassant l'opérateur par défaut. - +,| et - sont les opérateurs équivalents aux préfixes ET, OU et SAUF. - Les recherches ne tiennent pas compte de la casse des lettres (majuscule ou minuscule).</target></trans-unit>
+      <trans-unit id="searchFor" approved="yes">
+        <source>Search for</source>
+        <target state="translated">Recherche de</target>
+      </trans-unit>
+      <trans-unit id="searchFor_or" approved="yes">
+        <source>or</source>
+        <target state="translated">ou</target>
+      </trans-unit>
+      <trans-unit id="searchFor_and" approved="yes">
+        <source>and</source>
+        <target state="translated">et</target>
+      </trans-unit>
+      <trans-unit id="searchFor_butNot" approved="yes">
+        <source>but not</source>
+        <target state="translated">mais pas</target>
+      </trans-unit>
+      <trans-unit id="noResults" approved="yes">
+        <source>NO results found.</source>
+        <target state="translated">Aucun document ne correspond aux mots-clés recherchés.</target>
+      </trans-unit>
+      <trans-unit id="inSection" approved="yes">
+        <source>in the section</source>
+        <target state="translated">dans la section</target>
+      </trans-unit>
+      <trans-unit id="unnamedSection" approved="yes">
+        <source>Other</source>
+        <target state="translated">Autre</target>
+      </trans-unit>
+      <trans-unit id="link_regularSearch" approved="yes">
+        <source>Regular search</source>
+        <target state="translated">Recherche simple</target>
+      </trans-unit>
+      <trans-unit id="link_advancedSearch" approved="yes">
+        <source>Advanced search</source>
+        <target state="translated">Recherche avancée</target>
+      </trans-unit>
+      <trans-unit id="res_noResume" approved="yes">
+        <source>Note: This search hit may not accurately match the content on this page. The page resume cannot be shown.</source>
+        <target state="translated">Note : ce résultat ne reflète peut-être pas exactement le contenu de cette page. Le résumé de la page ne peut pas être affiché.</target>
+      </trans-unit>
+      <trans-unit id="res_otherPageAsWell" approved="yes">
+        <source>INFO: There was another page indexed as well... Probably indexed with another or no usergroup.</source>
+        <target state="translated">INFO : Une autre page a également été indexée... Elle a probablement été indexée par un autre groupe utilisateur ou aucun groupe utilisateur.</target>
+      </trans-unit>
+      <trans-unit id="res_memberGroups" approved="yes">
+        <source>Require membership of group numbers %s</source>
+        <target state="translated">Nécessite d'être membre des groupes numéro %s</target>
+      </trans-unit>
+      <trans-unit id="pi_list_browseresults_prev" approved="yes">
+        <source>&lt; Previous</source>
+        <target state="translated">&lt; Précédent</target>
+      </trans-unit>
+      <trans-unit id="pi_list_browseresults_next" approved="yes">
+        <source>Next &gt;</source>
+        <target state="translated">Suivant &gt;</target>
+      </trans-unit>
+      <trans-unit id="pi_list_browseresults_display" approved="yes">
+        <source>Displaying results ###TAG_BEGIN###%1$s to %2$s###TAG_END### out of ###TAG_BEGIN###%3$s###TAG_END###</source>
+        <target state="translated">Affichage des résultats ###TAG_BEGIN###%1$s à %2$s###TAG_END### sur un total de ###TAG_BEGIN###%3$s###TAG_END###</target>
+      </trans-unit>
+      <trans-unit id="local_operator_AND" approved="yes">
+        <source>AND</source>
+        <target state="translated">ET</target>
+      </trans-unit>
+      <trans-unit id="local_operator_OR" approved="yes">
+        <source>OR</source>
+        <target state="translated">OU</target>
+      </trans-unit>
+      <trans-unit id="local_operator_NOT" approved="yes">
+        <source>NOT</source>
+        <target state="translated">SAUF</target>
+      </trans-unit>
+      <trans-unit id="makerating_addToCurrentSearch" approved="yes">
+        <source>Add to current search words</source>
+        <target state="translated">Ajouter à la recherche en cours</target>
+      </trans-unit>
+      <trans-unit id="maketitle_matches" approved="yes">
+        <source>matches</source>
+        <target state="translated">correspond</target>
+      </trans-unit>
+      <trans-unit id="pi_wizard_title" approved="yes">
+        <source>Indexed Search</source>
+        <target state="translated">Recherche indexée</target>
+      </trans-unit>
+      <trans-unit id="pi_wizard_description" approved="yes">
+        <source>Search based on a database stored index.</source>
+        <target state="translated">Recherche basée sur un index en base de donnée</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
