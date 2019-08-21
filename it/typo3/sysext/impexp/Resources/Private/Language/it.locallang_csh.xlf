@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814829" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="impexp" target-language="it">
+    <header/>
+    <body>
+      <trans-unit id=".alttitle" approved="yes">
+        <source>Import/Export</source>
+        <target state="translated">Importa/Esporta</target>
+      </trans-unit>
+      <trans-unit id=".description" approved="yes">
+        <source>Native Import/Export module for TYPO3 data. Can export single records, content of tables, single pages or whole branches of the page tree. Includes attached media like image and preserves relations between records. Exports only to TYPO3 specific format, either a binary format (.T3D) or XML. The format is meant for exchange between TYPO3 systems.</source>
+        <target state="translated">Modulo Importa/Esporta nativo per TYPO3. Permette di esportare singoli record, contenuti delle tabelle, singole pagine o interi rami di pagine. Include file allegati come immagini e preserva le relazioni tra records. Esporta sia in uno specifico formato TYPO3, sia in un formato binario (.T3D) o XML. Il formato è destinato allo scambio tra sistemi TYPO3</target>
+      </trans-unit>
+      <trans-unit id="export.alttitle" approved="yes">
+        <source>Exporting records from TYPO3</source>
+        <target state="translated">Esportazione di record da TYPO3</target>
+      </trans-unit>
+      <trans-unit id="export.details" xml:space="preserve" approved="yes">
+				<source>There are a number of methods by which you can export data from TYPO3:
+- Export a single page or branch of the page tree (use page icon context menu)
+- Export a single record from any page (use record icon context menu)
+- Export all records from a specific table on a specific page (using the Web&gt;List module)
+- Export an arbitrary selection of records from the clipboard (using the Web&gt;List module)
+
+The export format observes all TYPO3s methods for relations between the records in the export file. But you will have to configure how these relations are maintained, at least to some degree. Sometimes you would want to include records referred to, at other times you surely want to keep the original mapping. That depends on your objectives with the export.
+
+Regardless of your configuration for export you will always see a complete reflection of all chosen records and their internal relations in the preview display found in the bottom of the export module page.
+
+&lt;b&gt;Error messages:&lt;/b&gt; Remember to consult the Message-tab before exporting if there are any error messages there!</source>
+			<target state="translated">Ci sono numerosi metodi con cui esportare dati da TYPO3:
+- Esportare una pagina singola oppure un ramo dall'albero delle pagine (usare l'icona nel menu contestuale della pagina)
+- Esportare un singolo record da ogni pagina (usare l'icona nel menu contestuale del record)
+- Esportare tutti i record da una specifica tabella ad una specifica pagina (usando il modulo Web&gt;Lista)
+- Esportare una selezione di record dagli appunti (usando il modulo Web&gt;Lista)
+
+Il formato in cui sono esportati i dati rispetta tutti i metodi di TYPO3 per le relazioni tra record e file di esportazione. Ma bisognerà configurare, almeno in una certa misura, come queste relazioni debbano essere mantenute. A volte si vorrebbe mantenere la mappatura originale dei record inclusi, ma questo dipende dagli obiettivi dell'esportazione.
+
+Indipendentemente dal tipo di configurazione scelta per l'esportazione, sarà sempre possibile visualizzare tutti i record selezionati e le relative relazioni interne nell'anteprima posta nella parte inferiore della pagina del modulo di esportazione.
+
+&lt;b&gt;Messaggio di Errore:&lt;/b&gt; Ricorda di consultare la scheda Messaggi prima dell'esportazione per controllare se ci sono messaggi di errore!</target></trans-unit>
+      <trans-unit id="export.image_descr" xml:space="preserve" approved="yes">
+				<source>To export a page or record, simply click the icon and select "Export" from the context menu.
+With the Web&gt;List module you can also export all records from a table by first clicking the table title to see only this table, then next to the CSV export you will find the export button for a T3D export of the table.
+You can export the contents of the clipboard as well by simply selecting "Export" in the menu.</source>
+			<target state="translated">Per esportare una pagina o un record, clicca semplicemente l'icona e selezione "Esporta" dal menu contestuale.
+Con il modulo Web&gt;Lista puoi inoltre esportare tutti i record da una tabella cliccando prima sul titolo della tabella per selezionarla, poi nell'esportazione del file CSV si potrà trovare il pulsante per esportare la tabella in formato T3D.
+Si possono esportare i contenuti degli appunti semplicemente cliccando "Esporta" nel menu.</target></trans-unit>
+      <trans-unit id="pageTreeCfg.alttitle" approved="yes">
+        <source>Configuration of page tree export</source>
+        <target state="translated">Configurazione dell'esportazione dell'albero delle pagine</target>
+      </trans-unit>
+      <trans-unit id="pageTreeCfg.description" xml:space="preserve" approved="yes">
+				<source>Here you configure how a page or a branch of the page tree should be exported. Using the selector box you can set the number of levels of subpages to include in the export.
+By default all records belonging to a page is included when a page is exported.</source>
+			<target state="translated">Qui si può configurare come una pagina o un ramo dell'albero delle pagine debba essere esportato. Usando il box di selezione è possibile selezionare il massimo livello di profondità delle sotto pagine da includere nell'esportazione.
+Quando la pagina viene esportata, di base vengono presi tutti i record.</target></trans-unit>
+      <trans-unit id="pageTreeDisplay.alttitle" approved="yes">
+        <source>Page Tree</source>
+        <target state="translated">Albero delle pagine</target>
+      </trans-unit>
+      <trans-unit id="pageTreeDisplay.description" approved="yes">
+        <source>Based on the levels selected for page tree export this will show the structure that is about to be exported. If any pages are specifically excluded by the exclude option they are not shown either.</source>
+        <target state="translated">Il processo di esportazione mostrerà la struttura di quello che sta per essere esportato basandosi sui livelli selezionati per l'albero delle pagine. Tutte le pagine che sono state escluse, utilizzando l'opzione "escludi", non saranno mostrate.</target>
+      </trans-unit>
+      <trans-unit id="pageTreeMode.alttitle" approved="yes">
+        <source>Levels</source>
+        <target state="translated">Livelli</target>
+      </trans-unit>
+      <trans-unit id="pageTreeRecordLimit.alttitle" approved="yes">
+        <source>Include tables</source>
+        <target state="translated">Includi tabelle</target>
+      </trans-unit>
+      <trans-unit id="singleRecord.alttitle" approved="yes">
+        <source>Export single record</source>
+        <target state="translated">Esporta singolo record</target>
+      </trans-unit>
+      <trans-unit id="singleRecord.description" approved="yes">
+        <source>This overview tells you which independent records has been independently selected for export.</source>
+        <target state="translated">Questa anteprima mostra quali record indipendenti sono stati selezionati per l'esportazione.</target>
+      </trans-unit>
+      <trans-unit id="singleRecord.image_descr" approved="yes">
+        <source>The way to export multiple records like this is using the clipboard like shown below.</source>
+        <target state="translated">Il modo per esportare record multipli come questo è quello di usare la clipboard come mostrato sotto.</target>
+      </trans-unit>
+      <trans-unit id="tableList.alttitle" approved="yes">
+        <source>Table export</source>
+        <target state="translated">Esporta tabella</target>
+      </trans-unit>
+      <trans-unit id="inclRelations.alttitle" approved="yes">
+        <source>Include relations</source>
+        <target state="translated">Includi relazioni</target>
+      </trans-unit>
+      <trans-unit id="staticRelations.alttitle" approved="yes">
+        <source>Set static tables</source>
+        <target state="translated">Imposta tabelle statiche</target>
+      </trans-unit>
+      <trans-unit id="excludedElements.alttitle" approved="yes">
+        <source>Excluded elements</source>
+        <target state="translated">Elementi esclusi</target>
+      </trans-unit>
+      <trans-unit id="htmlCssResources.alttitle" approved="yes">
+        <source>Exclude resources from HTML and CSS files</source>
+        <target state="translated">Escludi risorse dai file HTML e CSS</target>
+      </trans-unit>
+      <trans-unit id="extensionDependencies.alttitle" approved="yes">
+        <source>Extension Dependencies</source>
+        <target state="translated">Estensioni Dipententi</target>
+      </trans-unit>
+      <trans-unit id="presets.alttitle" approved="yes">
+        <source>Configuration presets</source>
+        <target state="translated">Preset di configurazione</target>
+      </trans-unit>
+      <trans-unit id="presets.details" xml:space="preserve">
+				<source>In the "Select preset" box you can select any previously saved preset to load. If you are exporting a page the presets listed will be those found for the start page ID. For records, any preset can be loaded.
+To load a preset, select it in the selector and press "Load". If you press "Merge" instead the settings from the preset will be merged with the current configuration. This is meaningful in cases where you select multiple individual tables or records.
+To save a preset, simply enter a title in the title box and press "Save". This will create a new preset. If you press save while having selected an existing preset you will overwrite it.
+To delete old presets, simply select it and press "Delete".
+
+The checkbox "Public" can be set if you want to share your preset with other users of the system. Otherwise they are personal to you.
+</source>
+			<target state="needs-translation">
+</target></trans-unit>
+      <trans-unit id="metadata.alttitle" approved="yes">
+        <source>Meta data setting</source>
+        <target state="translated">mpostazioni Meta data</target>
+      </trans-unit>
+      <trans-unit id="fileFormat.alttitle" approved="yes">
+        <source>File format options</source>
+        <target state="translated">Opzioni del formato file</target>
+      </trans-unit>
+      <trans-unit id="import.alttitle" approved="yes">
+        <source>Importing TYPO3 records</source>
+        <target state="translated">In importazione record di TYPO3</target>
+      </trans-unit>
+      <trans-unit id="importFile.alttitle" approved="yes">
+        <source>Select file to import</source>
+        <target state="translated">Seleziona il file da importare</target>
+      </trans-unit>
+      <trans-unit id="update.alttitle" approved="yes">
+        <source>Update instead of Insert</source>
+        <target state="translated">Aggiorna invece di inserire</target>
+      </trans-unit>
+      <trans-unit id="options.alttitle" approved="yes">
+        <source>Import options</source>
+        <target state="translated">Opzioni di importazione</target>
+      </trans-unit>
+      <trans-unit id="options.description" approved="yes">
+        <source>Various options for import.</source>
+        <target state="translated">Varie opzioni per importare.</target>
+      </trans-unit>
+      <trans-unit id="action.alttitle" approved="yes">
+        <source>Import Action</source>
+        <target state="translated">Azioni importazione</target>
+      </trans-unit>
+      <trans-unit id="enableLogging.alttitle" approved="yes">
+        <source>Enable System Logging</source>
+        <target state="translated">Abilita il System Logging</target>
+      </trans-unit>
+      <trans-unit id="upload.alttitle" approved="yes">
+        <source>Upload import file</source>
+        <target state="translated">Carica il file di importazione</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
