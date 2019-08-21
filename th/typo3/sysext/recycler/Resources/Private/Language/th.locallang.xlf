@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814907" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:35Z" product-name="recycler" target-language="th">
+    <header/>
+    <body>
+      <trans-unit id="title" approved="yes">
+        <source>Recycler</source>
+        <target state="translated">รีไซเคิล</target>
+      </trans-unit>
+      <trans-unit id="description" approved="yes">
+        <source>The recycler allows you to select any deleted data and undelete it. You can undelete recursive if the parent of the element is deleted too.</source>
+        <target state="translated">รีไซเคิลจะช่วยให้คุณเลือกข้อมูลที่ถูกลบใด ๆ และยกเลิกการลบได้ คุณสามารถยกเลิกการลบ recursive หากผู้ปกครองขององค์ประกอบที่เป็นลบเกินไป</target>
+      </trans-unit>
+      <trans-unit id="button.delete" approved="yes">
+        <source>Delete</source>
+        <target state="translated">ลบ</target>
+      </trans-unit>
+      <trans-unit id="table.header.tstamp" approved="yes">
+        <source>Last edit</source>
+        <target state="translated">แก้ไขล่าสุด</target>
+      </trans-unit>
+      <trans-unit id="table.header.owner" approved="yes">
+        <source>Owner</source>
+        <target state="translated">เจ้าของ</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
