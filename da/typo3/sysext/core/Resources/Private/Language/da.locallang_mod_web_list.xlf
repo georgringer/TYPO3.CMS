@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814881" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="da">
+    <header/>
+    <body>
+      <trans-unit id="mlang_labels_tablabel" approved="yes">
+        <source>List of database-records</source>
+        <target state="translated">Liste over database-records</target>
+      </trans-unit>
+      <trans-unit id="mlang_labels_tabdescr" approved="yes">
+        <source>The Web&gt;List module provides low level access to records appearing on a page.</source>
+        <target state="translated">Modulet Web&gt;Liste giver dig den mest grundliggende tilgang til databaseelementerne på en side. Mens andre moduler hovedsagligt er specialiserede indenfor enkelte operationer på enkelte databasetabeller, så giver dette modul ultimativ adgang til de egentlige databaseelementer som er tilgængelige for en bruger.</target>
+      </trans-unit>
+      <trans-unit id="mlang_tabs_tab" approved="yes">
+        <source>List</source>
+        <target state="translated">Liste</target>
+      </trans-unit>
+      <trans-unit id="clip_pasteAfter" approved="yes">
+        <source>Paste after: Clipboard content is inserted after this record</source>
+        <target state="translated">Indsæt efter: Klippebordets indhold indsættes efter dette element</target>
+      </trans-unit>
+      <trans-unit id="clip_pasteInto" approved="yes">
+        <source>Paste into: Clipboard content is inserted on this page</source>
+        <target state="translated">Indsæt i: Klippebordets indhold indsættes på denne side</target>
+      </trans-unit>
+      <trans-unit id="clip_paste" approved="yes">
+        <source>Paste in clipboard content</source>
+        <target state="translated">Indsæt klippebordets indhold</target>
+      </trans-unit>
+      <trans-unit id="clip_markRecords" approved="yes">
+        <source>Mark All/Mark none</source>
+        <target state="translated">Markér alle/Markér ingen</target>
+      </trans-unit>
+      <trans-unit id="clip_selectMarked" approved="yes">
+        <source>Transfer the selection of records to clipboard</source>
+        <target state="translated">Overfør udvalget af elementer til klippebordet</target>
+      </trans-unit>
+      <trans-unit id="clip_duplicates" approved="yes">
+        <source>Mark duplicates</source>
+        <target state="translated">Markér gengangere</target>
+      </trans-unit>
+      <trans-unit id="clip_editMarked" approved="yes">
+        <source>Edit marked</source>
+        <target state="translated">Redigér markerede</target>
+      </trans-unit>
+      <trans-unit id="clip_deleteMarked" approved="yes">
+        <source>Delete marked</source>
+        <target state="translated">Slet markerede</target>
+      </trans-unit>
+      <trans-unit id="clip_deleteMarkedWarning" approved="yes">
+        <source>Are you sure you want to delete all marked records from the table '%s'?</source>
+        <target state="translated">Er du sikker på, at du vil slette alle markerede elementer fra tabellen '%s'?</target>
+      </trans-unit>
+      <trans-unit id="showInfo" approved="yes">
+        <source>Display information</source>
+        <target state="translated">Vis information</target>
+      </trans-unit>
+      <trans-unit id="edit" approved="yes">
+        <source>Edit record</source>
+        <target state="translated">Redigér element</target>
+      </trans-unit>
+      <trans-unit id="editPage" approved="yes">
+        <source>Edit page properties</source>
+        <target state="translated">Redigér side egenskaber</target>
+      </trans-unit>
+      <trans-unit id="new" approved="yes">
+        <source>New record</source>
+        <target state="translated">Nyt element</target>
+      </trans-unit>
+      <trans-unit id="newPage" approved="yes">
+        <source>Create new page after this page</source>
+        <target state="translated">Opret ny side efter denne side</target>
+      </trans-unit>
+      <trans-unit id="newRecord" approved="yes">
+        <source>Create new record after this record</source>
+        <target state="translated">Opret nyt element efter dette element</target>
+      </trans-unit>
+      <trans-unit id="newRecordGeneral" approved="yes">
+        <source>Create new record</source>
+        <target state="translated">Opret nyt element</target>
+      </trans-unit>
+      <trans-unit id="moveUp" approved="yes">
+        <source>Move up in list</source>
+        <target state="translated">Flyt op i listen</target>
+      </trans-unit>
+      <trans-unit id="moveDown" approved="yes">
+        <source>Move down in list</source>
+        <target state="translated">Flyt ned i listen</target>
+      </trans-unit>
+      <trans-unit id="move_record" approved="yes">
+        <source>Re-position content element</source>
+        <target state="translated">Skift position for indholdselement</target>
+      </trans-unit>
+      <trans-unit id="move_page" approved="yes">
+        <source>Move page</source>
+        <target state="translated">Flyt side</target>
+      </trans-unit>
+      <trans-unit id="hide" approved="yes">
+        <source>Hide record</source>
+        <target state="translated">Skjul element</target>
+      </trans-unit>
+      <trans-unit id="unHide" approved="yes">
+        <source>Un-hide record</source>
+        <target state="translated">Synliggør element</target>
+      </trans-unit>
+      <trans-unit id="hidePage" approved="yes">
+        <source>Hide page</source>
+        <target state="translated">Skjul side</target>
+      </trans-unit>
+      <trans-unit id="unHidePage" approved="yes">
+        <source>Un-hide page</source>
+        <target state="translated">Synliggør side</target>
+      </trans-unit>
+      <trans-unit id="prevLevel" approved="yes">
+        <source>Move this page to the position after the current parent page (Inwards)</source>
+        <target state="translated">Flyt denne side til positionen efter den nuværende side (Indad)</target>
+      </trans-unit>
+      <trans-unit id="nextLevel" approved="yes">
+        <source>Move this page to be a subpage of the page above (Outwards)</source>
+        <target state="translated">Flyt denne side til at være en underside til siden herover (Udad)</target>
+      </trans-unit>
+      <trans-unit id="delete" approved="yes">
+        <source>Delete record (!)</source>
+        <target state="translated">Slet element (!)</target>
+      </trans-unit>
+      <trans-unit id="restore" approved="yes">
+        <source>Restore record</source>
+        <target state="translated">Genindlæs element</target>
+      </trans-unit>
+      <trans-unit id="history" approved="yes">
+        <source>Display change history / Un-do</source>
+        <target state="translated">Vis ændringsforløbet / Fortryd</target>
+      </trans-unit>
+      <trans-unit id="displayVersions" approved="yes">
+        <source>Display versions</source>
+        <target state="translated">Vis versioner</target>
+      </trans-unit>
+      <trans-unit id="permissions" approved="yes">
+        <source>Set permissions for page</source>
+        <target state="translated">Sæt rettigheder for siden</target>
+      </trans-unit>
+      <trans-unit id="largeControl" approved="yes">
+        <source>Extended view</source>
+        <target state="translated">Udvidet visning</target>
+      </trans-unit>
+      <trans-unit id="contractView" approved="yes">
+        <source>List all tables</source>
+        <target state="translated">Vis alle tabeller</target>
+      </trans-unit>
+      <trans-unit id="expandView" approved="yes">
+        <source>List only this table</source>
+        <target state="translated">Vis kun denne tabel</target>
+      </trans-unit>
+      <trans-unit id="showClipBoard" approved="yes">
+        <source>Show clipboard</source>
+        <target state="translated">Vis klippebord</target>
+      </trans-unit>
+      <trans-unit id="editShownColumns" approved="yes">
+        <source>Edit all shown fields of the listed records</source>
+        <target state="translated">Redigér alle viste felter i de oplistede elementer</target>
+      </trans-unit>
+      <trans-unit id="editThisColumn" approved="yes">
+        <source>Edit the '%s' field of the listed records</source>
+        <target state="translated">Redigér feltet '%s' i de oplistede elementer</target>
+      </trans-unit>
+      <trans-unit id="deleteWarning" approved="yes">
+        <source>Are you sure you want to delete this record?</source>
+        <target state="translated">Er du sikker på, at du ønsker at slette dette element?</target>
+      </trans-unit>
+      <trans-unit id="restoreWarning" approved="yes">
+        <source>Are you sure you want to restore this record by reverting the delete status?</source>
+        <target state="translated">Er du sikker på at du vil genindlæse dette element ved at fjerne slette-status?</target>
+      </trans-unit>
+      <trans-unit id="localization" approved="yes">
+        <source>Localization view</source>
+        <target state="translated">Oversættelsesvisning</target>
+      </trans-unit>
+      <trans-unit id="defaultLanguage" approved="yes">
+        <source>Default</source>
+        <target state="translated">Standard</target>
+      </trans-unit>
+      <trans-unit id="multipleLanguages" approved="yes">
+        <source>All languages</source>
+        <target state="translated">Alle sprog</target>
+      </trans-unit>
+      <trans-unit id="Localize" approved="yes">
+        <source>Localize to</source>
+        <target state="translated">Oversæt til</target>
+      </trans-unit>
+      <trans-unit id="viewRecords" approved="yes">
+        <source>Viewing records of</source>
+        <target state="translated">Viser elementer af</target>
+      </trans-unit>
+      <trans-unit id="pageIndicator" approved="yes">
+        <source>Page %1$s of %2$d</source>
+        <target state="translated">Side %1$s af %2$d</target>
+      </trans-unit>
+      <trans-unit id="rangeIndicator" approved="yes">
+        <source>Records %1$d - %2$d</source>
+        <target state="translated">Element %1$d - %2$d</target>
+      </trans-unit>
+      <trans-unit id="missingTcaColumnsMessageTitle" approved="yes">
+        <source>Missing TCA definition</source>
+        <target state="translated">Der mangler TCA definition</target>
+      </trans-unit>
+      <trans-unit id="missingTcaColumnsMessage" approved="yes">
+        <source>No fields for table "%s" have been found. $TCA['%s']['columns'] does not contain the necessary definitions.</source>
+        <target state="translated">Der blev ikke fundet nogen felter for tabellen "%s". $TCA['%s']['columns'] indeholder ikke den nødvendige definition.</target>
+      </trans-unit>
+      <trans-unit id="noRecordsOnThisPage" approved="yes">
+        <source>There are no records on this page.</source>
+        <target state="translated">Der er ikke nogen elementer på denne side.</target>
+      </trans-unit>
+      <trans-unit id="button.cancel" approved="yes">
+        <source>Cancel</source>
+        <target state="translated">Annuller</target>
+      </trans-unit>
+      <trans-unit id="button.close" approved="yes">
+        <source>Close</source>
+        <target state="translated">Luk</target>
+      </trans-unit>
+      <trans-unit id="button.ok" approved="yes">
+        <source>OK</source>
+        <target state="translated">Ok</target>
+      </trans-unit>
+      <trans-unit id="button.delete" approved="yes">
+        <source>Delete</source>
+        <target state="translated">Slet</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
