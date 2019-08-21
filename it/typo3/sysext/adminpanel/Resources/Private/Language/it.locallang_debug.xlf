@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1521629231" source-language="en" datatype="plaintext" original="messages" date="2018-03-21T11:47:00Z" product-name="adminpanel" target-language="it">
+    <header/>
+    <body>
+      <trans-unit id="module.shortinfo" approved="yes">
+        <source>(%s Errors/Warnings)</source>
+        <target state="translated">(%s Errori/Avvisi)</target>
+      </trans-unit>
+      <trans-unit id="submodule.log.component" approved="yes">
+        <source>Component</source>
+        <target state="translated">Componente</target>
+      </trans-unit>
+      <trans-unit id="submodule.log.level" approved="yes">
+        <source>Level</source>
+        <target state="translated">Livello</target>
+      </trans-unit>
+      <trans-unit id="submodule.log.groupByComponent" approved="yes">
+        <source>Group by Component</source>
+        <target state="translated">Raggruppa per Componente</target>
+      </trans-unit>
+      <trans-unit id="submodule.log.groupByLevel" approved="yes">
+        <source>Group by Level</source>
+        <target state="translated">Raggruppa per Livello</target>
+      </trans-unit>
+      <trans-unit id="submodule.log.startLevel" approved="yes">
+        <source>Display only levels equal or higher to</source>
+        <target state="translated">Visualizza solo i livelli uguali o maggiori di</target>
+      </trans-unit>
+      <trans-unit id="submodule.queryInformation.queries" approved="yes">
+        <source>Queries</source>
+        <target state="translated">Query</target>
+      </trans-unit>
+      <trans-unit id="submodule.queryInformation.doctrineDebug" approved="yes">
+        <source>SQL Debug</source>
+        <target state="translated">Debug SQL</target>
+      </trans-unit>
+      <trans-unit id="submodule.queryInformation.sqlQuery" approved="yes">
+        <source>SQL Query</source>
+        <target state="translated">Query SQL</target>
+      </trans-unit>
+      <trans-unit id="submodule.queryInformation.queryTime" approved="yes">
+        <source>Total Time [ms]</source>
+        <target state="translated">Tempo totale [ms]</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
