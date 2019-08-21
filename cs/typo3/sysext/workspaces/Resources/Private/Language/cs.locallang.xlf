@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415815017" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="workspaces" target-language="cs">
+    <header/>
+    <body>
+      <trans-unit id="legend.edited" approved="yes">
+        <source>edited</source>
+        <target state="translated">upraveno</target>
+      </trans-unit>
+      <trans-unit id="legend.moved" approved="yes">
+        <source>moved</source>
+        <target state="translated">přemístěno</target>
+      </trans-unit>
+      <trans-unit id="legend.deleted" approved="yes">
+        <source>deleted</source>
+        <target state="translated">smázáno</target>
+      </trans-unit>
+      <trans-unit id="legend.new" approved="yes">
+        <source>created</source>
+        <target state="translated">vytvořeno</target>
+      </trans-unit>
+      <trans-unit id="legend.hidden" approved="yes">
+        <source>hidden</source>
+        <target state="translated">skryto</target>
+      </trans-unit>
+      <trans-unit id="title" approved="yes">
+        <source>Workspaces</source>
+        <target state="translated">Pracovní plochy</target>
+      </trans-unit>
+      <trans-unit id="item" approved="yes">
+        <source>item</source>
+        <target state="translated">položka</target>
+      </trans-unit>
+      <trans-unit id="items" approved="yes">
+        <source>items</source>
+        <target state="translated">položky</target>
+      </trans-unit>
+      <trans-unit id="recordsToDisplay" approved="yes">
+        <source>Records to display</source>
+        <target state="translated">Záznamy k zobrazení</target>
+      </trans-unit>
+      <trans-unit id="reviewandpublish" approved="yes">
+        <source>review and publish</source>
+        <target state="translated">posoudit a publikovat</target>
+      </trans-unit>
+      <trans-unit id="workspacelist" approved="yes">
+        <source>Workspace List</source>
+        <target state="translated">Seznam Pracovních ploch</target>
+      </trans-unit>
+      <trans-unit id="editorInLive" xml:space="preserve" approved="yes">
+				<source>You are in LIVE workspace. You have to select a draft workspace before you can review and
+					publish changes.
+				</source>
+			<target state="translated">Jste na Pracovní ploše LIVE. Musíte vybrat nějakou "návrhovou" pracovní plochu, abyste mohli posoudit
+	 	 	 	 	 a publikovat změny.
+				</target></trans-unit>
+      <trans-unit id="actionSendToStage" approved="yes">
+        <source>Send to stage</source>
+        <target state="translated">Poslat do fáze</target>
+      </trans-unit>
+      <trans-unit id="publish_execute_action_option" approved="yes">
+        <source>Publish to LIVE</source>
+        <target state="translated">Publikovat (do produkce)</target>
+      </trans-unit>
+      <trans-unit id="close" approved="yes">
+        <source>Close</source>
+        <target state="translated">Zavřít</target>
+      </trans-unit>
+      <trans-unit id="tooltip.swapAll" approved="yes">
+        <source>Really swap entire workspace?</source>
+        <target state="translated">Opravdu chcete přepnout do této plochy?</target>
+      </trans-unit>
+      <trans-unit id="tooltip.affectWholeWorkspace" xml:space="preserve">
+				<source>Please note that this will affect all changes in the current workspace, which may be more than
+					you are currently seeing on your screen.
+				</source>
+			<target state="needs-translation">
+				</target></trans-unit>
+      <trans-unit id="column.difference" approved="yes">
+        <source>Difference</source>
+        <target state="translated">Rozdíl</target>
+      </trans-unit>
+      <trans-unit id="column.changeDate" approved="yes">
+        <source>Modification</source>
+        <target state="translated">Změna</target>
+      </trans-unit>
+      <trans-unit id="column.stage" approved="yes">
+        <source>Current Stage</source>
+        <target state="translated">Současná Fáze</target>
+      </trans-unit>
+      <trans-unit id="column.actions" approved="yes">
+        <source>Actions</source>
+        <target state="translated">Akce</target>
+      </trans-unit>
+      <trans-unit id="column.wsPath" approved="yes">
+        <source>Path</source>
+        <target state="translated">Cesta</target>
+      </trans-unit>
+      <trans-unit id="column.wsTitle" approved="yes">
+        <source>Changed</source>
+        <target state="translated">Změněno</target>
+      </trans-unit>
+      <trans-unit id="column.workspaceName" approved="yes">
+        <source>Workspace</source>
+        <target state="translated">Pracovní plocha</target>
+      </trans-unit>
+      <trans-unit id="column.wsSwapColumn" approved="yes">
+        <source>Swap workspace</source>
+        <target state="translated">Přepnout pracovní plochu</target>
+      </trans-unit>
+      <trans-unit id="tooltip.viewElementAction" approved="yes">
+        <source>Preview element</source>
+        <target state="translated">Náhled prvku</target>
+      </trans-unit>
+      <trans-unit id="tooltip.editElementAction" approved="yes">
+        <source>Edit element</source>
+        <target state="translated">Upravit prvek</target>
+      </trans-unit>
+      <trans-unit id="tooltip.openPage" approved="yes">
+        <source>Open version of page</source>
+        <target state="translated">Otevřít verzi stránky</target>
+      </trans-unit>
+      <trans-unit id="tooltip.sendToPrevStage" approved="yes">
+        <source>Send record to previous Stage</source>
+        <target state="translated">Poslat záznam do předchozí Fáze</target>
+      </trans-unit>
+      <trans-unit id="tooltip.sendToNextStage" approved="yes">
+        <source>Send record to next Stage</source>
+        <target state="translated">Poslat záznam do následující Fáze</target>
+      </trans-unit>
+      <trans-unit id="tooltip.discardVersion" approved="yes">
+        <source>Discard workspace version of record.</source>
+        <target state="translated">Vyřadit verzi záznamu pracovní plochy.</target>
+      </trans-unit>
+      <trans-unit id="window.discard.title" approved="yes">
+        <source>Discard workspace version of record.</source>
+        <target state="translated">Vyřadit verzi záznamu pracovní plochy.</target>
+      </trans-unit>
+      <trans-unit id="error.stageId.invalid" xml:space="preserve">
+				<source>The stage to be used seems to be invalid and cannot be used. Please consider to use the update
+					wizard in the install tool to fix this.
+				</source>
+			<target state="needs-translation">
+				</target></trans-unit>
+      <trans-unit id="window.sendToNextStageWindow.additionalRecipients" approved="yes">
+        <source>Additional recipients</source>
+        <target state="translated">Další adresáti</target>
+      </trans-unit>
+      <trans-unit id="window.sendToNextStageWindow.comments" approved="yes">
+        <source>Comments</source>
+        <target state="translated">Komentáře</target>
+      </trans-unit>
+      <trans-unit id="window.recordChanges.tabs.comments" approved="yes">
+        <source>Comments</source>
+        <target state="translated">Komentáře</target>
+      </trans-unit>
+      <trans-unit id="error.getStageTitle.stageNotFound" approved="yes">
+        <source>Stage not found</source>
+        <target state="translated">Fáze nebyla nalezena</target>
+      </trans-unit>
+      <trans-unit id="info.newpage" approved="yes">
+        <source>New Page!</source>
+        <target state="translated">Nová stránka!</target>
+      </trans-unit>
+      <trans-unit id="preview.listView" approved="yes">
+        <source>List view</source>
+        <target state="translated">zobrazení Seznamu</target>
+      </trans-unit>
+      <trans-unit id="preview.workspacePreview" approved="yes">
+        <source>Workspace</source>
+        <target state="translated">Pracovní plocha</target>
+      </trans-unit>
+      <trans-unit id="preview.modeSlider" approved="yes">
+        <source>Slider</source>
+        <target state="translated">Posuvník</target>
+      </trans-unit>
+      <trans-unit id="preview.modeVbox" approved="yes">
+        <source>Vertical</source>
+        <target state="translated">Vertikálně</target>
+      </trans-unit>
+      <trans-unit id="preview.modeHbox" approved="yes">
+        <source>Horizontal</source>
+        <target state="translated">Horizontálně</target>
+      </trans-unit>
+      <trans-unit id="label_doaction_publish" approved="yes">
+        <source>Publish</source>
+        <target state="translated">Publikovat</target>
+      </trans-unit>
+      <trans-unit id="label_doaction_swap" approved="yes">
+        <source>Swap</source>
+        <target state="translated">Přepnout</target>
+      </trans-unit>
+      <trans-unit id="label_doaction_discard" approved="yes">
+        <source>Discard</source>
+        <target state="translated">Vyřadit</target>
+      </trans-unit>
+      <trans-unit id="stage" approved="yes">
+        <source>Stage {0}</source>
+        <target state="translated">Fáze {0}</target>
+      </trans-unit>
+      <trans-unit id="language.allLanguages" approved="yes">
+        <source>all languages</source>
+        <target state="translated">všechny jazyky</target>
+      </trans-unit>
+      <trans-unit id="language.selectLanguage" approved="yes">
+        <source>all languages</source>
+        <target state="translated">všechny jazyky</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
