@@ -1,139 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415814833" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="indexed_search" target-language="de-AT">
+  <file t3:id="1415814833" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="indexed_search" target-language="de">
     <header/>
     <body>
-      <trans-unit id="index_config">
+      <trans-unit id="index_config" approved="yes">
         <source>Indexing Configuration</source>
-        <target>crwdns41752:0crwdne41752:0</target>
+        <target state="translated">Indizierungseinstellungen</target>
       </trans-unit>
-      <trans-unit id="index_config.title">
+      <trans-unit id="index_config.title" approved="yes">
         <source>Title</source>
-        <target>crwdns41754:0crwdne41754:0</target>
+        <target state="translated">Titel</target>
       </trans-unit>
-      <trans-unit id="index_config.description">
+      <trans-unit id="index_config.description" approved="yes">
         <source>Description</source>
-        <target>crwdns41756:0crwdne41756:0</target>
+        <target state="translated">Beschreibung</target>
       </trans-unit>
-      <trans-unit id="index_config.type.I.0">
-        <source>-</source>
-        <target>crwdns41758:0crwdne41758:0</target>
-      </trans-unit>
-      <trans-unit id="index_config.type.I.1">
+      <trans-unit id="index_config.type.I.1" approved="yes">
         <source>Database Records</source>
-        <target>crwdns41760:0crwdne41760:0</target>
+        <target state="translated">Datensätze</target>
       </trans-unit>
-      <trans-unit id="index_config.type.I.2">
+      <trans-unit id="index_config.type.I.2" approved="yes">
         <source>Filepath on server</source>
-        <target>crwdns41762:0crwdne41762:0</target>
+        <target state="translated">Dateipfad auf dem Server</target>
       </trans-unit>
-      <trans-unit id="index_config.type.I.3">
+      <trans-unit id="index_config.type.I.3" approved="yes">
         <source>External URL</source>
-        <target>crwdns41764:0crwdne41764:0</target>
+        <target state="translated">Externe URL</target>
       </trans-unit>
-      <trans-unit id="index_config.type.I.4">
+      <trans-unit id="index_config.type.I.4" approved="yes">
         <source>Page tree</source>
-        <target>crwdns41766:0crwdne41766:0</target>
+        <target state="translated">Seitenbaum</target>
       </trans-unit>
-      <trans-unit id="index_config.type.I.5">
+      <trans-unit id="index_config.type.I.5" approved="yes">
         <source>Meta configuration</source>
-        <target>crwdns41768:0crwdne41768:0</target>
+        <target state="translated">Metakonfiguration</target>
       </trans-unit>
-      <trans-unit id="index_config.type">
+      <trans-unit id="index_config.type" approved="yes">
         <source>Type</source>
-        <target>crwdns41770:0crwdne41770:0</target>
+        <target state="translated">Typ</target>
       </trans-unit>
-      <trans-unit id="index_config.depth">
+      <trans-unit id="index_config.depth" approved="yes">
         <source>Depth</source>
-        <target>crwdns41772:0crwdne41772:0</target>
+        <target state="translated">Tiefe</target>
       </trans-unit>
-      <trans-unit id="index_config.table2index">
+      <trans-unit id="index_config.table2index" approved="yes">
         <source>Table to index</source>
-        <target>crwdns41774:0crwdne41774:0</target>
+        <target state="translated">Zu indexierende Tabelle</target>
       </trans-unit>
-      <trans-unit id="index_config.table2index.I.0">
-        <source>-</source>
-        <target>crwdns41776:0crwdne41776:0</target>
-      </trans-unit>
-      <trans-unit id="index_config.alternative_source_pid">
+      <trans-unit id="index_config.alternative_source_pid" approved="yes">
         <source>Alternative Source Page</source>
-        <target>crwdns41778:0crwdne41778:0</target>
+        <target state="translated">Alternative Quellseite</target>
       </trans-unit>
-      <trans-unit id="index_config.get_params">
+      <trans-unit id="index_config.get_params" approved="yes">
         <source>GET parameter string (with ###UID### substitution)</source>
-        <target>crwdns41780:0crwdne41780:0</target>
+        <target state="translated">GET-Parameter-String (mit ###UID###-Ersetzung)</target>
       </trans-unit>
-      <trans-unit id="index_config.fields">
+      <trans-unit id="index_config.fields" approved="yes">
         <source>Fields (first is title)</source>
-        <target>crwdns41782:0crwdne41782:0</target>
+        <target state="translated">Felder (erstes ist Titel)</target>
       </trans-unit>
-      <trans-unit id="index_config.externalUrl">
+      <trans-unit id="index_config.externalUrl" approved="yes">
         <source>External URL (eg. "http://www.domain.org/")</source>
-        <target>crwdns41784:0crwdne41784:0</target>
+        <target state="translated">Externe URL (z.B.: "http://www.domain.org/")</target>
       </trans-unit>
-      <trans-unit id="index_config.chashcalc">
-        <source>Calculate cHash (force caching)?</source>
-        <target>crwdns41786:0crwdne41786:0</target>
-      </trans-unit>
-      <trans-unit id="index_config.filepath">
+      <trans-unit id="index_config.filepath" approved="yes">
         <source>Filepath</source>
-        <target>crwdns41788:0crwdne41788:0</target>
+        <target state="translated">Dateipfad</target>
       </trans-unit>
-      <trans-unit id="index_config.extensions">
+      <trans-unit id="index_config.extensions" approved="yes">
         <source>Limit to extensions (commalist)</source>
-        <target>crwdns41790:0crwdne41790:0</target>
+        <target state="translated">Beschränken auf folgende Erweiterungen (kommagetrennte Liste)</target>
       </trans-unit>
-      <trans-unit id="index_config.url_deny">
+      <trans-unit id="index_config.url_deny" approved="yes">
         <source>Enter sub-URLs in which not to decend</source>
-        <target>crwdns41792:0crwdne41792:0</target>
+        <target state="translated">In diese Sub-URLs nicht weiter absteigen</target>
       </trans-unit>
-      <trans-unit id="index_config.records_indexonchange">
+      <trans-unit id="index_config.records_indexonchange" approved="yes">
         <source>Index Records immediately when saved?</source>
-        <target>crwdns41794:0crwdne41794:0</target>
+        <target state="translated">Datensätze direkt beim Speichern indexieren?</target>
       </trans-unit>
-      <trans-unit id="index_config.timer_next_indexing">
+      <trans-unit id="index_config.timer_next_indexing" approved="yes">
         <source>Next indexing is scheduled (if empty, then immediately)</source>
-        <target>crwdns41796:0crwdne41796:0</target>
+        <target state="translated">Nächste Indizierung ist geplant (wenn leer, dann sofort)</target>
       </trans-unit>
-      <trans-unit id="index_config.timer_offset">
+      <trans-unit id="index_config.timer_offset" approved="yes">
         <source>Timing offset from midnight</source>
-        <target>crwdns41798:0crwdne41798:0</target>
+        <target state="translated">Zeitversatz nach Mitternacht</target>
       </trans-unit>
-      <trans-unit id="index_config.timer_frequency">
+      <trans-unit id="index_config.timer_frequency" approved="yes">
         <source>How often would you like a re-index?</source>
-        <target>crwdns41800:0crwdne41800:0</target>
+        <target state="translated">Wie häufig soll eine Reindexierung vorgenommen werden?</target>
       </trans-unit>
-      <trans-unit id="index_config.timer_frequency.I.0">
+      <trans-unit id="index_config.timer_frequency.I.0" approved="yes">
         <source>Every hour</source>
-        <target>crwdns41802:0crwdne41802:0</target>
+        <target state="translated">stündlich</target>
       </trans-unit>
-      <trans-unit id="index_config.timer_frequency.I.1">
+      <trans-unit id="index_config.timer_frequency.I.1" approved="yes">
         <source>Every day (24 hours)</source>
-        <target>crwdns41804:0crwdne41804:0</target>
+        <target state="translated">täglich (24 Stunden)</target>
       </trans-unit>
-      <trans-unit id="index_config.timer_frequency.I.2">
+      <trans-unit id="index_config.timer_frequency.I.2" approved="yes">
         <source>Every week</source>
-        <target>crwdns41806:0crwdne41806:0</target>
+        <target state="translated">wöchentlich</target>
       </trans-unit>
-      <trans-unit id="index_config.recordsbatch">
+      <trans-unit id="index_config.recordsbatch" approved="yes">
         <source>How many records to index a minute (default is 100)</source>
-        <target>crwdns41808:0crwdne41808:0</target>
+        <target state="translated">Wie viele Datensätze sollen pro Minute indexiert werden (Standard ist 100)</target>
       </trans-unit>
-      <trans-unit id="index_config.set_id">
+      <trans-unit id="index_config.set_id" approved="yes">
         <source>Session ID (if &gt; zero, then indexing job is running)</source>
-        <target>crwdns41810:0crwdne41810:0</target>
+        <target state="translated">Sitzungs-ID (wenn &gt; Null, dann läuft der Indizierungsprozess)</target>
       </trans-unit>
-      <trans-unit id="index_config.indexcfgs">
+      <trans-unit id="index_config.indexcfgs" approved="yes">
         <source>Indexing configurations</source>
-        <target>crwdns41812:0crwdne41812:0</target>
+        <target state="translated">Indizierungseinstellungen</target>
       </trans-unit>
-      <trans-unit id="index_config.parameterCfgs">
+      <trans-unit id="index_config.parameterCfgs" approved="yes">
         <source>Parameter combination configuration ([tablename]:&amp;[param]=###UID###)</source>
-        <target>crwdns41814:0[tablename]crwdnd41814:0[param]crwdne41814:0</target>
+        <target state="translated">Konfiguration Parameterkombination ([tablename]:&amp;[param]=###UID###)</target>
       </trans-unit>
-      <trans-unit id="index_config.rootpage">
+      <trans-unit id="index_config.rootpage" approved="yes">
         <source>Root page</source>
-        <target>crwdns41816:0crwdne41816:0</target>
+        <target state="translated">Wurzelseite</target>
       </trans-unit>
     </body>
   </file>
