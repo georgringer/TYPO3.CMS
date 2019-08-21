@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814869" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="da">
+    <header/>
+    <body>
+      <trans-unit id="bigControlPanel" approved="yes">
+        <source>Extended view</source>
+        <target state="translated">Udvidet visning</target>
+      </trans-unit>
+      <trans-unit id="clipBoard" approved="yes">
+        <source>Show clipboard</source>
+        <target state="translated">Vis klippebord</target>
+      </trans-unit>
+      <trans-unit id="clip_paste" approved="yes">
+        <source>Paste in clipboard content</source>
+        <target state="translated">Indsæt klippebordets indhold</target>
+      </trans-unit>
+      <trans-unit id="clip_pasteInto" approved="yes">
+        <source>Paste into: Clipboard content is inserted into this folder</source>
+        <target state="translated">Indsæt i: Klippebordets indhold indsættes i denne mappe</target>
+      </trans-unit>
+      <trans-unit id="clip_markRecords" approved="yes">
+        <source>Mark All/Mark none</source>
+        <target state="translated">Markér alle/Markér ingen</target>
+      </trans-unit>
+      <trans-unit id="clip_selectMarked" approved="yes">
+        <source>Transfer the selection of files to clipboard</source>
+        <target state="translated">Overfør udvalget af filer til klippebordet</target>
+      </trans-unit>
+      <trans-unit id="clip_deleteMarked" approved="yes">
+        <source>Delete marked</source>
+        <target state="translated">Slet markerede</target>
+      </trans-unit>
+      <trans-unit id="clip_deleteMarkedWarning" approved="yes">
+        <source>Are you sure you want to delete all marked files from this folder?</source>
+        <target state="translated">Er du sikker på, at du vil slette alle markerede filer og mapper?</target>
+      </trans-unit>
+      <trans-unit id="displayThumbs" approved="yes">
+        <source>Display thumbnails</source>
+        <target state="translated">Vis miniaturer</target>
+      </trans-unit>
+      <trans-unit id="c_file" approved="yes">
+        <source>File Name</source>
+        <target state="translated">Filnavn</target>
+      </trans-unit>
+      <trans-unit id="c_filepath" approved="yes">
+        <source>File Path</source>
+        <target state="translated">Filsti</target>
+      </trans-unit>
+      <trans-unit id="c_size" approved="yes">
+        <source>Size</source>
+        <target state="translated">Str</target>
+      </trans-unit>
+      <trans-unit id="c_tstamp" approved="yes">
+        <source>Last Modified</source>
+        <target state="translated">Dato</target>
+      </trans-unit>
+      <trans-unit id="files" approved="yes">
+        <source>files</source>
+        <target state="translated">filer</target>
+      </trans-unit>
+      <trans-unit id="temp" approved="yes">
+        <source>Temporary files</source>
+        <target state="translated">Midlertidige filer</target>
+      </trans-unit>
+      <trans-unit id="role_folder_temporary" approved="yes">
+        <source>Temporary files</source>
+        <target state="translated">Midlertidige filer</target>
+      </trans-unit>
+      <trans-unit id="role_folder_recycler" approved="yes">
+        <source>Recycler</source>
+        <target state="translated">Skraldespand</target>
+      </trans-unit>
+      <trans-unit id="recycler" approved="yes">
+        <source>Recycler</source>
+        <target state="translated">Skraldespand</target>
+      </trans-unit>
+      <trans-unit id="mlang_labels_tablabel" approved="yes">
+        <source>Listing of files in the directory</source>
+        <target state="translated">Listning af filer i kataloget</target>
+      </trans-unit>
+      <trans-unit id="mlang_labels_tabdescr" approved="yes">
+        <source>This is the file administration system in TYPO3. It allows you to access the file mounts of your login. Through this module you can upload, copy, move an delete files on the server.</source>
+        <target state="translated">Dette er filadminstrations-delen af TYPO3. Her kan du som bruger tilgå dine fildrev på serveren. Via dette modul kan du uploade, kopiere, flytte og slette filer på serveren.</target>
+      </trans-unit>
+      <trans-unit id="mlang_tabs_tab" approved="yes">
+        <source>Filelist</source>
+        <target state="translated">Filliste</target>
+      </trans-unit>
+      <trans-unit id="paramError" approved="yes">
+        <source>Parameter Error</source>
+        <target state="translated">Parameter fejl</target>
+      </trans-unit>
+      <trans-unit id="targetNoDir" approved="yes">
+        <source>Target was not a directory!</source>
+        <target state="translated">Målet var ikke et bibliotek!</target>
+      </trans-unit>
+      <trans-unit id="storageNotBrowsableTitle" approved="yes">
+        <source>Access denied.</source>
+        <target state="translated">Adgang nægtet.</target>
+      </trans-unit>
+      <trans-unit id="storageNotBrowsableMessage" approved="yes">
+        <source>You are trying to access a folder in a storage that is not browsable.</source>
+        <target state="translated">Du prøver at få adgang til en lager-mappe, der ikke er browsabel.</target>
+      </trans-unit>
+      <trans-unit id="missingFolderPermissionsTitle" approved="yes">
+        <source>Missing folder permissions</source>
+        <target state="translated">Manglende mappe-rettigheder</target>
+      </trans-unit>
+      <trans-unit id="missingFolderPermissionsMessage" approved="yes">
+        <source>You have no access to the folder "%s".</source>
+        <target state="translated">Du har ikke adgang til mappen "%s".</target>
+      </trans-unit>
+      <trans-unit id="folderNotFoundTitle" approved="yes">
+        <source>Folder not found.</source>
+        <target state="translated">Mappe ikke fundet.</target>
+      </trans-unit>
+      <trans-unit id="folderNotFoundMessage" approved="yes">
+        <source>The folder "%s" cannot be accessed. Trying to use parent folder(s).</source>
+        <target state="translated">Mappen "%s" kan ikke læses. Forsøger med overliggende mappe(r).</target>
+      </trans-unit>
+      <trans-unit id="translateMetadata" approved="yes">
+        <source>Translate metadata</source>
+        <target state="translated">Oversæt metadata</target>
+      </trans-unit>
+      <trans-unit id="createMetadataForLanguage" approved="yes">
+        <source>Create metadata of this file for %s</source>
+        <target state="translated">Opret metadata for denne fil for %s</target>
+      </trans-unit>
+      <trans-unit id="editMetadataForLanguage" approved="yes">
+        <source>Edit metadata of this file for %s</source>
+        <target state="translated">Redigér metadat for denne fil for %s</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
