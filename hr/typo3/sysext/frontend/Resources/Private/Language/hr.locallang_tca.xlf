@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814790" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="cms" target-language="hr">
+    <header/>
+    <body>
+      <trans-unit id="mod_tx_cms_webinfo_page" approved="yes">
+        <source>Pagetree Overview</source>
+        <target state="translated">Pregled stabla stranica</target>
+      </trans-unit>
+      <trans-unit id="mod_tx_cms_webinfo_lang" approved="yes">
+        <source>Localization Overview</source>
+        <target state="translated">Pregled lokalizacije</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.standard" approved="yes">
+        <source>Page</source>
+        <target state="translated">Stranica</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.title" approved="yes">
+        <source>Title</source>
+        <target state="translated">Naslov</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.visibility" approved="yes">
+        <source>Visibility</source>
+        <target state="translated">Vidljivost</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.access" approved="yes">
+        <source>Publish Dates and Access Rights</source>
+        <target state="translated">Datumi objave i Prava pristupa</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.abstract" approved="yes">
+        <source>Abstract</source>
+        <target state="translated">Sažetak</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.metatags" approved="yes">
+        <source>Meta Tags</source>
+        <target state="translated">Meta tagovi</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.editorial" approved="yes">
+        <source>Editorial</source>
+        <target state="translated">Editorijal</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.layout" approved="yes">
+        <source>Page Layout</source>
+        <target state="translated">Raspored stranice</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.module" approved="yes">
+        <source>Use as Container</source>
+        <target state="translated">Koristi kao spremnik</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.replace" approved="yes">
+        <source>Replace Content</source>
+        <target state="translated">Zamjeni sadržaj</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.links" approved="yes">
+        <source>Links to this Page</source>
+        <target state="translated">Poveznice na ovu stranicu</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.caching" approved="yes">
+        <source>Caching</source>
+        <target state="translated">Predmemoriranje</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.language" approved="yes">
+        <source>Language</source>
+        <target state="translated">Jezik</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.miscellaneous" approved="yes">
+        <source>Miscellaneous</source>
+        <target state="translated">Razno</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.media" approved="yes">
+        <source>Files</source>
+        <target state="translated">Datoteke</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.storage" approved="yes">
+        <source>General Record Storage Page</source>
+        <target state="translated">Generalna stranica za spremanje zapisa</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.config" approved="yes">
+        <source>TypoScript Configuration</source>
+        <target state="translated">TypoScript postavke</target>
+      </trans-unit>
+      <trans-unit id="pages.doktype_formlabel" approved="yes">
+        <source>Type</source>
+        <target state="translated">Tip</target>
+      </trans-unit>
+      <trans-unit id="pages.doktype.I.0" approved="yes">
+        <source>Advanced</source>
+        <target state="translated">Napredno</target>
+      </trans-unit>
+      <trans-unit id="pages.doktype.I.2" approved="yes">
+        <source>Shortcut</source>
+        <target state="translated">Kratica</target>
+      </trans-unit>
+      <trans-unit id="pages.doktype.I.3" approved="yes">
+        <source>Not in Menu</source>
+        <target state="translated">Nije u izborniku</target>
+      </trans-unit>
+      <trans-unit id="pages.doktype.I.4" approved="yes">
+        <source>Backend User Section</source>
+        <target state="translated">Odjeljak za korisnike pozadinskog sučelja</target>
+      </trans-unit>
+      <trans-unit id="pages.doktype.I.5" approved="yes">
+        <source>Mount Point</source>
+        <target state="translated">Točka montiranja</target>
+      </trans-unit>
+      <trans-unit id="pages.doktype.I.7" approved="yes">
+        <source>Menu Separator</source>
+        <target state="translated">Razdjelnik izbornika</target>
+      </trans-unit>
+      <trans-unit id="pages.doktype.I.8" approved="yes">
+        <source>Link to External URL</source>
+        <target state="translated">Poveznika na vanjski URL</target>
+      </trans-unit>
+      <trans-unit id="pages.doktype.div.page" approved="yes">
+        <source>Page</source>
+        <target state="translated">Stranica</target>
+      </trans-unit>
+      <trans-unit id="pages.doktype.div.link" approved="yes">
+        <source>Link</source>
+        <target state="translated">Poveznica</target>
+      </trans-unit>
+      <trans-unit id="pages.doktype.div.special" approved="yes">
+        <source>Special</source>
+        <target state="translated">Posebno</target>
+      </trans-unit>
+      <trans-unit id="pages.title_formlabel" approved="yes">
+        <source>Page Title</source>
+        <target state="translated">Naslov stranice</target>
+      </trans-unit>
+      <trans-unit id="pages.starttime_formlabel" approved="yes">
+        <source>Publish Date</source>
+        <target state="translated">Datum objave</target>
+      </trans-unit>
+      <trans-unit id="pages.endtime_formlabel" approved="yes">
+        <source>Expiration Date</source>
+        <target state="translated">Datum isteka</target>
+      </trans-unit>
+      <trans-unit id="pages.fe_group_formlabel" approved="yes">
+        <source>Usergroup Access Rights</source>
+        <target state="translated">Prava pristupa grupe korisnika</target>
+      </trans-unit>
+      <trans-unit id="pages.hidden_formlabel" approved="yes">
+        <source>Page</source>
+        <target state="translated">Stranica</target>
+      </trans-unit>
+      <trans-unit id="pages.hidden_checkbox_1_formlabel" approved="yes">
+        <source>Disable</source>
+        <target state="translated">Onemogući</target>
+      </trans-unit>
+      <trans-unit id="pages.layout_formlabel" approved="yes">
+        <source>Frontend Layout</source>
+        <target state="translated">Raspored prednjeg sučelja</target>
+      </trans-unit>
+      <trans-unit id="pages.layout.I.1" approved="yes">
+        <source>Layout 1</source>
+        <target state="translated">Raspored 1</target>
+      </trans-unit>
+      <trans-unit id="pages.layout.I.2" approved="yes">
+        <source>Layout 2</source>
+        <target state="translated">Raspored 2</target>
+      </trans-unit>
+      <trans-unit id="pages.layout.I.3" approved="yes">
+        <source>Layout 3</source>
+        <target state="translated">Raspored 3</target>
+      </trans-unit>
+      <trans-unit id="pages.extendToSubpages_formlabel" approved="yes">
+        <source>Extend to Subpages</source>
+        <target state="translated">Proširi na podstranice</target>
+      </trans-unit>
+      <trans-unit id="pages.nav_title_formlabel" approved="yes">
+        <source>Alternative Navigation Title</source>
+        <target state="translated">Alternativni navigacijski naslov</target>
+      </trans-unit>
+      <trans-unit id="pages.nav_hide_formlabel" approved="yes">
+        <source>In Menus</source>
+        <target state="translated">U izbornicima</target>
+      </trans-unit>
+      <trans-unit id="pages.nav_hide_checkbox_1_formlabel" approved="yes">
+        <source>Hide</source>
+        <target state="translated">Sakrij</target>
+      </trans-unit>
+      <trans-unit id="pages.subtitle_formlabel" approved="yes">
+        <source>Subtitle</source>
+        <target state="translated">Podnaslov</target>
+      </trans-unit>
+      <trans-unit id="pages.target_formlabel" approved="yes">
+        <source>Link Target</source>
+        <target state="translated">Odredište poveznice</target>
+      </trans-unit>
+      <trans-unit id="pages.lastUpdated_formlabel" approved="yes">
+        <source>Last Update</source>
+        <target state="translated">Posljednje ažuriranje</target>
+      </trans-unit>
+      <trans-unit id="pages.newUntil_formlabel" approved="yes">
+        <source>Mark as 'New' Until</source>
+        <target state="translated">Označi kao 'Novo' do</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout_formlabel" approved="yes">
+        <source>Cache Lifetime</source>
+        <target state="translated">Trajanje međuspremnika</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.5" approved="yes">
+        <source>1 hour</source>
+        <target state="translated">1 sat</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.6" approved="yes">
+        <source>4 hours</source>
+        <target state="translated">4 sata</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.7" approved="yes">
+        <source>1 day</source>
+        <target state="translated">1 dan</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.8" approved="yes">
+        <source>2 days</source>
+        <target state="translated">2 dana</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.9" approved="yes">
+        <source>7 days</source>
+        <target state="translated">7 dana</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.10" approved="yes">
+        <source>1 month</source>
+        <target state="translated">1 mjesec</target>
+      </trans-unit>
+      <trans-unit id="pages.editlock_formlabel" approved="yes">
+        <source>Editable for Admins Only</source>
+        <target state="translated">Jedino administratori imaju pravo uređivanja</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.metadata" approved="yes">
+        <source>Metadata</source>
+        <target state="translated">Metapodaci</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.files" approved="yes">
+        <source>Resources</source>
+        <target state="translated">Resursi</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.resources" approved="yes">
+        <source>Resources</source>
+        <target state="translated">Resursi</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.access" approved="yes">
+        <source>Access</source>
+        <target state="translated">Pristup</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.options" approved="yes">
+        <source>Options</source>
+        <target state="translated">Opcije</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.mount" approved="yes">
+        <source>Mount</source>
+        <target state="translated">Montiranje</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.shortcut" approved="yes">
+        <source>Shortcut</source>
+        <target state="translated">Kratica</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.extended" approved="yes">
+        <source>Extended</source>
+        <target state="translated">Prošireno</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.appearance" approved="yes">
+        <source>Appearance</source>
+        <target state="translated">Izgled</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.behaviour" approved="yes">
+        <source>Behaviour</source>
+        <target state="translated">Ponašanje</target>
+      </trans-unit>
+      <trans-unit id="pages.no_search_formlabel" approved="yes">
+        <source>Include in Search</source>
+        <target state="translated">Uključi u pretragu</target>
+      </trans-unit>
+      <trans-unit id="pages.no_search_checkbox_1_formlabel" approved="yes">
+        <source>Disable</source>
+        <target state="translated">Onemogući</target>
+      </trans-unit>
+      <trans-unit id="pages.shortcut_mode_formlabel" approved="yes">
+        <source>Shortcut Mode</source>
+        <target state="translated">Način prečaca</target>
+      </trans-unit>
+      <trans-unit id="pages.shortcut_mode.I.0" approved="yes">
+        <source>Selected page</source>
+        <target state="translated">Odabrana stranica</target>
+      </trans-unit>
+      <trans-unit id="pages.shortcut_mode.I.1" approved="yes">
+        <source>First subpage of selected/current page</source>
+        <target state="translated">Prva podstranica odabrane/trenutne stranice</target>
+      </trans-unit>
+      <trans-unit id="pages.shortcut_mode.I.2" approved="yes">
+        <source>Random subpage of selected/current page</source>
+        <target state="translated">Slučajna podstranica odabrane/trenutne stranice</target>
+      </trans-unit>
+      <trans-unit id="pages.shortcut_mode.I.3" approved="yes">
+        <source>Parent page of selected/current page</source>
+        <target state="translated">Stranica roditelj odabrane/trenutne stranice</target>
+      </trans-unit>
+      <trans-unit id="pages.shortcut_formlabel" approved="yes">
+        <source>Shortcut Target</source>
+        <target state="translated">Meta prečaca</target>
+      </trans-unit>
+      <trans-unit id="pages.content_from_pid_formlabel" approved="yes">
+        <source>Show Content from Page</source>
+        <target state="translated">Prikaži sadržaj sa stranice</target>
+      </trans-unit>
+      <trans-unit id="pages.mount_pid_formlabel" approved="yes">
+        <source>Mounted page</source>
+        <target state="translated">Montirana stranica</target>
+      </trans-unit>
+      <trans-unit id="pages.abstract_formlabel" approved="yes">
+        <source>Abstract</source>
+        <target state="translated">Sažetak</target>
+      </trans-unit>
+      <trans-unit id="pages.keywords_formlabel" approved="yes">
+        <source>Keywords</source>
+        <target state="translated">Ključne riječi</target>
+      </trans-unit>
+      <trans-unit id="pages.description_formlabel" approved="yes">
+        <source>Description</source>
+        <target state="translated">Opis</target>
+      </trans-unit>
+      <trans-unit id="pages.author_formlabel" approved="yes">
+        <source>Author Name</source>
+        <target state="translated">Ime autora</target>
+      </trans-unit>
+      <trans-unit id="pages.author_email_formlabel" approved="yes">
+        <source>Author Email</source>
+        <target state="translated">E-mail autora</target>
+      </trans-unit>
+      <trans-unit id="pages.media_formlabel" approved="yes">
+        <source>Media</source>
+        <target state="translated">Medij</target>
+      </trans-unit>
+      <trans-unit id="pages.is_siteroot_formlabel" approved="yes">
+        <source>Use as Root Page</source>
+        <target state="translated">Koristi kao korijensku stranicu</target>
+      </trans-unit>
+      <trans-unit id="pages.module_formlabel" approved="yes">
+        <source>Contains Plugin</source>
+        <target state="translated">Sadrži umetak</target>
+      </trans-unit>
+      <trans-unit id="pages.module.I.1" approved="yes">
+        <source>Shop</source>
+        <target state="translated">Trgovina</target>
+      </trans-unit>
+      <trans-unit id="pages.module.I.2" approved="yes">
+        <source>Board</source>
+        <target state="translated">Ploča</target>
+      </trans-unit>
+      <trans-unit id="pages.module.I.3" approved="yes">
+        <source>News</source>
+        <target state="translated">Novosti</target>
+      </trans-unit>
+      <trans-unit id="pages.module.I.4" approved="yes">
+        <source>Website Users</source>
+        <target state="translated">Korisnici web lokacije</target>
+      </trans-unit>
+      <trans-unit id="pages.module.I.5" approved="yes">
+        <source>Direct Mail</source>
+        <target state="translated">Direktni e-mail</target>
+      </trans-unit>
+      <trans-unit id="pages.module.I.6" approved="yes">
+        <source>Approvals</source>
+        <target state="translated">Odobrenja</target>
+      </trans-unit>
+      <trans-unit id="pages.l18n_cfg_formlabel" approved="yes">
+        <source>Localization</source>
+        <target state="translated">Lokalizacija</target>
+      </trans-unit>
+      <trans-unit id="pages.l18n_cfg.I.1" approved="yes">
+        <source>Hide default translation of page</source>
+        <target state="translated">Sakrij zadani prijevod stranice</target>
+      </trans-unit>
+      <trans-unit id="pages.l18n_cfg.I.2" approved="yes">
+        <source>Hide page if no translation for current language exists</source>
+        <target state="translated">Sakrij stranicu ukoliko ne postoji prijevod za trenutni jezik</target>
+      </trans-unit>
+      <trans-unit id="pages.l18n_cfg.I.2a" approved="yes">
+        <source>Show page even if no translation exists</source>
+        <target state="translated">Prikaži stranicu čak i ukoliko ne postoji prijevod</target>
+      </trans-unit>
+      <trans-unit id="pages.fe_login_mode_formlabel" approved="yes">
+        <source>Login Behaviour</source>
+        <target state="translated">Ponašanje prijave</target>
+      </trans-unit>
+      <trans-unit id="pages.fe_login_mode.disable" approved="yes">
+        <source>Disable</source>
+        <target state="translated">Onemogući</target>
+      </trans-unit>
+      <trans-unit id="pages.fe_login_mode.enable" approved="yes">
+        <source>Enable login</source>
+        <target state="translated">Omogući prijavu</target>
+      </trans-unit>
+      <trans-unit id="pages.fe_login_mode.disableAll" approved="yes">
+        <source>Disable login</source>
+        <target state="translated">Onemogući prijavu</target>
+      </trans-unit>
+      <trans-unit id="pages.fe_login_mode.disableGroups" approved="yes">
+        <source>Enable user login, Disable usergroup login</source>
+        <target state="translated">Omogući prijavu korisnika, Onemogući prijavu korisničkih grupa</target>
+      </trans-unit>
+      <trans-unit id="pages.fe_login_mode.enableAgain" approved="yes">
+        <source>Re-Enable login</source>
+        <target state="translated">Ponovno omogući prijavu</target>
+      </trans-unit>
+      <trans-unit id="pages.storage_pid_formlabel" approved="yes">
+        <source>Page</source>
+        <target state="translated">Stranica</target>
+      </trans-unit>
+      <trans-unit id="pages.backend_layout_formlabel" approved="yes">
+        <source>Backend Layout (this page only)</source>
+        <target state="translated">Raspored pozadinskog sučelja (samo za ovu stranicu)</target>
+      </trans-unit>
+      <trans-unit id="pages.backend_layout_next_level_formlabel" approved="yes">
+        <source>Backend Layout (subpages of this page)</source>
+        <target state="translated">Raspored pozadinskog sučelja (podstranice ove stranice)</target>
+      </trans-unit>
+      <trans-unit id="pages.backend_layout.none" approved="yes">
+        <source>None</source>
+        <target state="translated">Niti jedan</target>
+      </trans-unit>
+      <trans-unit id="pages.backend_layout.default" approved="yes">
+        <source>Default</source>
+        <target state="translated">Zadano</target>
+      </trans-unit>
+      <trans-unit id="tt_content" approved="yes">
+        <source>Page Content</source>
+        <target state="translated">Sadržaj stranice</target>
+      </trans-unit>
+      <trans-unit id="fe_users" approved="yes">
+        <source>Website User</source>
+        <target state="translated">Korisnik web lokacije</target>
+      </trans-unit>
+      <trans-unit id="fe_users.tabs.personelData" approved="yes">
+        <source>Personal Data</source>
+        <target state="translated">Osobni podaci</target>
+      </trans-unit>
+      <trans-unit id="fe_users.tabs.access" approved="yes">
+        <source>Access</source>
+        <target state="translated">Pristup</target>
+      </trans-unit>
+      <trans-unit id="fe_users.tabs.options" approved="yes">
+        <source>Options</source>
+        <target state="translated">Opcije</target>
+      </trans-unit>
+      <trans-unit id="fe_users.tabs.extended" approved="yes">
+        <source>Extended</source>
+        <target state="translated">Prošireno</target>
+      </trans-unit>
+      <trans-unit id="fe_groups" approved="yes">
+        <source>Website Usergroup</source>
+        <target state="translated">Grupa korisnika web lokacije</target>
+      </trans-unit>
+      <trans-unit id="fe_groups.tabs.options" approved="yes">
+        <source>Options</source>
+        <target state="translated">Opcije</target>
+      </trans-unit>
+      <trans-unit id="fe_groups.tabs.extended" approved="yes">
+        <source>Extended</source>
+        <target state="translated">Prošireno</target>
+      </trans-unit>
+      <trans-unit id="sys_template" approved="yes">
+        <source>Template</source>
+        <target state="translated">Predložak</target>
+      </trans-unit>
+      <trans-unit id="sys_template.static_file_mode.0" approved="yes">
+        <source>Default (include before if root flag is set)</source>
+        <target state="translated">Zadano (uključi prije ukoliko je postavljena korijenska zastavica)</target>
+      </trans-unit>
+      <trans-unit id="sys_template.static_file_mode.1" approved="yes">
+        <source>Always include before this template record</source>
+        <target state="translated">Uvijek uključi prije ovog zapisa predloška</target>
+      </trans-unit>
+      <trans-unit id="sys_template.static_file_mode.2" approved="yes">
+        <source>Never include before this template record</source>
+        <target state="translated">Nika ne uključuj prije ovog zapisa predloška</target>
+      </trans-unit>
+      <trans-unit id="sys_template.static_file_mode.3" approved="yes">
+        <source>Include before all static templates if root flag is set</source>
+        <target state="translated">Uključi prije svi statičnih predložaka ukoliko je postavljena korijenska zastavica</target>
+      </trans-unit>
+      <trans-unit id="sys_template.basedOn_add" approved="yes">
+        <source>Add New Basis Template</source>
+        <target state="translated">Dodaj novi osnovni predložak</target>
+      </trans-unit>
+      <trans-unit id="sys_template.tabs.files" approved="yes">
+        <source>Resources</source>
+        <target state="translated">Resursi</target>
+      </trans-unit>
+      <trans-unit id="sys_template.tabs.include" approved="yes">
+        <source>Includes</source>
+        <target state="translated">Uključenja</target>
+      </trans-unit>
+      <trans-unit id="sys_template.tabs.options" approved="yes">
+        <source>Options</source>
+        <target state="translated">Opcije</target>
+      </trans-unit>
+      <trans-unit id="sys_template.tabs.access" approved="yes">
+        <source>Access</source>
+        <target state="translated">Pristup</target>
+      </trans-unit>
+      <trans-unit id="backend_layout" approved="yes">
+        <source>Backend Layout</source>
+        <target state="translated">Raspored pozadinskog sučelja</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.title" approved="yes">
+        <source>Title</source>
+        <target state="translated">Naslov</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.description" approved="yes">
+        <source>Description</source>
+        <target state="translated">Opis</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.config" approved="yes">
+        <source>Config</source>
+        <target state="translated">Konfiguracija</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.wizard" approved="yes">
+        <source>Wizard</source>
+        <target state="translated">Čarobnjak</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.icon" approved="yes">
+        <source>Icon</source>
+        <target state="translated">Ikona</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.tabs.access" approved="yes">
+        <source>Access</source>
+        <target state="translated">Pristup</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.tabs.extended" approved="yes">
+        <source>Extended</source>
+        <target state="translated">Prošireno</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
