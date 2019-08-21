@@ -1,87 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1520862805" source-language="en" datatype="plaintext" original="messages" date="2018-03-12T13:52:01Z" product-name="adminpanel" target-language="de-AT">
+  <file t3:id="1520862805" source-language="en" datatype="plaintext" original="messages" date="2018-03-12T13:52:01Z" product-name="adminpanel" target-language="de">
     <header/>
     <body>
-      <trans-unit id="module.label">
-        <source>Info</source>
-        <target>crwdns19318:0crwdne19318:0</target>
-      </trans-unit>
-      <trans-unit id="module.shortinfo">
+      <trans-unit id="module.shortinfo" approved="yes">
         <source>(Load Time: %s ms)</source>
-        <target>crwdns19320:0%scrwdne19320:0</target>
+        <target state="translated">(Ladezeit: %s ms)</target>
       </trans-unit>
-      <trans-unit id="imagesOnPage">
+      <trans-unit id="imagesOnPage" approved="yes">
         <source>Images on this page</source>
-        <target>crwdns19322:0crwdne19322:0</target>
+        <target state="translated">Bilder auf dieser Seite</target>
       </trans-unit>
-      <trans-unit id="imagesSize">
+      <trans-unit id="imagesSize" approved="yes">
         <source>Total image file sizes</source>
-        <target>crwdns19324:0crwdne19324:0</target>
+        <target state="translated">Ingesamte Bilddateigröße</target>
       </trans-unit>
-      <trans-unit id="DocumentSize">
+      <trans-unit id="DocumentSize" approved="yes">
         <source>Document size</source>
-        <target>crwdns19326:0crwdne19326:0</target>
+        <target state="translated">Dokumentgröße</target>
       </trans-unit>
-      <trans-unit id="pageUid">
+      <trans-unit id="pageUid" approved="yes">
         <source>Page Uid</source>
-        <target>crwdns19328:0crwdne19328:0</target>
+        <target state="translated">Seiten-UID</target>
       </trans-unit>
-      <trans-unit id="pageType">
+      <trans-unit id="pageType" approved="yes">
         <source>Page type</source>
-        <target>crwdns19330:0crwdne19330:0</target>
+        <target state="translated">Seitentyp</target>
       </trans-unit>
-      <trans-unit id="groupList">
+      <trans-unit id="groupList" approved="yes">
         <source>Frontenduser group combination</source>
-        <target>crwdns19332:0crwdne19332:0</target>
+        <target state="translated">Kombination von Frontend-Benutzergruppen</target>
       </trans-unit>
-      <trans-unit id="noCache">
+      <trans-unit id="noCache" approved="yes">
         <source>Page cached</source>
-        <target>crwdns19334:0crwdne19334:0</target>
+        <target state="translated">Seite gecacht</target>
       </trans-unit>
-      <trans-unit id="noCache_yes">
+      <trans-unit id="noCache_yes" approved="yes">
         <source>Yes</source>
-        <target>crwdns19336:0crwdne19336:0</target>
+        <target state="translated">Ja</target>
       </trans-unit>
-      <trans-unit id="noCache_no">
+      <trans-unit id="noCache_no" approved="yes">
         <source>No</source>
-        <target>crwdns19338:0crwdne19338:0</target>
+        <target state="translated">Nein</target>
       </trans-unit>
-      <trans-unit id="countUserInt">
+      <trans-unit id="countUserInt" approved="yes">
         <source>Count of USER_INT objects</source>
-        <target>crwdns19340:0crwdne19340:0</target>
+        <target state="translated">Anzahl von USER_INT-Objekten</target>
       </trans-unit>
-      <trans-unit id="feuserName">
+      <trans-unit id="feuserName" approved="yes">
         <source>Name of logged in FE-User</source>
-        <target>crwdns19342:0crwdne19342:0</target>
+        <target state="translated">Name des angemeldeten FE-Benutzers</target>
       </trans-unit>
-      <trans-unit id="feuserId">
+      <trans-unit id="feuserId" approved="yes">
         <source>Id of logged in FE-User</source>
-        <target>crwdns19344:0crwdne19344:0</target>
+        <target state="translated">ID des angemeldeten FE-Benutzers</target>
       </trans-unit>
-      <trans-unit id="totalParsetime">
+      <trans-unit id="totalParsetime" approved="yes">
         <source>Total parsetime</source>
-        <target>crwdns19346:0crwdne19346:0</target>
+        <target state="translated">Insgesamte Parsezeit</target>
       </trans-unit>
-      <trans-unit id="key">
+      <trans-unit id="key" approved="yes">
         <source>Key</source>
-        <target>crwdns19348:0crwdne19348:0</target>
+        <target state="translated">Schlüssel</target>
       </trans-unit>
-      <trans-unit id="value">
+      <trans-unit id="value" approved="yes">
         <source>Value</source>
-        <target>crwdns19350:0crwdne19350:0</target>
+        <target state="translated">Wert</target>
       </trans-unit>
-      <trans-unit id="sub.general.label">
+      <trans-unit id="sub.general.label" approved="yes">
         <source>General</source>
-        <target>crwdns19352:0crwdne19352:0</target>
-      </trans-unit>
-      <trans-unit id="sub.php.label">
-        <source>PHP</source>
-        <target>crwdns19354:0crwdne19354:0</target>
-      </trans-unit>
-      <trans-unit id="sub.request.label">
-        <source>REQUEST</source>
-        <target>crwdns19356:0crwdne19356:0</target>
+        <target state="translated">Allgemein</target>
       </trans-unit>
     </body>
   </file>
