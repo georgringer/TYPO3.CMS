@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415815019" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="workspaces" target-language="da">
+    <header/>
+    <body>
+      <trans-unit id="sys_workspace" approved="yes">
+        <source>Workspace</source>
+        <target state="translated">Arbejdsrum</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.custom_stages" approved="yes">
+        <source>Custom stages</source>
+        <target state="translated">Brugerdefinerede stadier</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace_stage.responsible_persons" approved="yes">
+        <source>Responsible persons</source>
+        <target state="translated">Ansvarlige personer</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace_stage.default_mailcomment" approved="yes">
+        <source>Default mail comment</source>
+        <target state="translated">Standard mailkommentar</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace_stage.parentid" approved="yes">
+        <source>UID of parent record</source>
+        <target state="translated">UID af overordnet element</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace_stage.parenttable" approved="yes">
+        <source>Parent table</source>
+        <target state="translated">Overordnet tabel</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace_stage" approved="yes">
+        <source>Workspace Stage</source>
+        <target state="translated">Arbejdsrum stadie</target>
+      </trans-unit>
+      <trans-unit id="tabs.notification_settings" approved="yes">
+        <source>Notification settings</source>
+        <target state="translated">Notifikationsindstillinger</target>
+      </trans-unit>
+      <trans-unit id="tabs.general" approved="yes">
+        <source>General</source>
+        <target state="translated">Generelt</target>
+      </trans-unit>
+      <trans-unit id="tabs.internal_stages" approved="yes">
+        <source>Internal Stages</source>
+        <target state="translated">Interne stadier</target>
+      </trans-unit>
+      <trans-unit id="tabs.custom_stages" approved="yes">
+        <source>Custom Stages</source>
+        <target state="translated">Brugerdefinerede stadier</target>
+      </trans-unit>
+      <trans-unit id="tabs.publish_access" approved="yes">
+        <source>Publishing / Access</source>
+        <target state="translated">Udgiv / Adgang</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace_stage.notification_defaults" approved="yes">
+        <source>Default notification recipients</source>
+        <target state="translated">Standard notifikationsmodtagere</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace_stage.allow_notificaton_settings" approved="yes">
+        <source>Allow notification settings during stage change</source>
+        <target state="translated">Tillad notifikationsindstillinger under stadieændring</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.palette.stage.edit" approved="yes">
+        <source>Stage "editing"</source>
+        <target state="translated">Stadie "redigering"</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.palette.stage.publish" approved="yes">
+        <source>Stage "ready to publish"</source>
+        <target state="translated">Stadie "klar til udgivelse"</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.palette.stage.execute" approved="yes">
+        <source>Stage "publishing execute"</source>
+        <target state="translated">Stadie "udfør udgivelse"</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.settingsDialog" approved="yes">
+        <source>Notification dialog settings</source>
+        <target state="translated">Notifikationsdialog-instillinger</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.settingsDialog.showDialog" approved="yes">
+        <source>Show Dialog</source>
+        <target state="translated">Vis dialog</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.settingsDialog.changeablePreselection" approved="yes">
+        <source>Allow to change pre-selection of recipients</source>
+        <target state="translated">Tillad at ændre forvalgte modtagere</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.preselection" approved="yes">
+        <source>Pre-select recipients</source>
+        <target state="translated">Forvalgte modtagere</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.preselection.owners" approved="yes">
+        <source>Owners</source>
+        <target state="translated">Ejere</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.preselection.members" approved="yes">
+        <source>Members</source>
+        <target state="translated">Medlemmer</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.preselection.editors" approved="yes">
+        <source>Editors</source>
+        <target state="translated">Redaktører</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.preselection.responsiblePersons" approved="yes">
+        <source>Responsible Persons</source>
+        <target state="translated">Ansvarlige personer</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.adminusers" approved="yes">
+        <source>Owners</source>
+        <target state="translated">Ejere</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.members" approved="yes">
+        <source>Members</source>
+        <target state="translated">Medlemmer</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.reviewers" approved="yes">
+        <source>Reviewers</source>
+        <target state="translated">Reviewere</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.publish_time" approved="yes">
+        <source>Auto-publish changes on (requires scheduler task)</source>
+        <target state="translated">Auto-udgiv ændringer aktiveret (kræver scheduler opgave)</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.unpublish_time" approved="yes">
+        <source>Un-Publish changes on (requires scheduler task)</source>
+        <target state="translated">Udgiv ikke ændringer aktiveret (kræver scheduler opgave)</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.freeze" approved="yes">
+        <source>Freeze Editing</source>
+        <target state="translated">Lås redigering</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.live_edit" approved="yes">
+        <source>Allow "live" editing of records from tables without versioning</source>
+        <target state="translated">Tillad "live" redigering af elementer fra tabeller uden versionering</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.swap_modes" approved="yes">
+        <source>Swap modes</source>
+        <target state="translated">Skift tilstande</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.swap_modes.0" approved="yes">
+        <source>Enable Swap-Into-Workspace</source>
+        <target state="translated">Aktivér Skift-til-arbejdsrum</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.swap_modes.1" approved="yes">
+        <source>Swap-Into-Workspace on Auto-publish</source>
+        <target state="translated">Skift-til-arbejdsrum ved auto-udgivelse</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.swap_modes.2" approved="yes">
+        <source>Disable Swap-Into-Workspace</source>
+        <target state="translated">Deaktivér Skift-til-arbejdsrum</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.publish_access" approved="yes">
+        <source>Publish access</source>
+        <target state="translated">Publiceringsadgang</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.publish_access.1" approved="yes">
+        <source>Publish only content in publish stage</source>
+        <target state="translated">Udgiv kun indhold i udgivelses-stadie</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.publish_access.2" approved="yes">
+        <source>Restrict publishing to workspace owners</source>
+        <target state="translated">Begræns publicering til arbejdsrums-ejere</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.stagechg_notification" approved="yes">
+        <source>Notification settings during state change</source>
+        <target state="translated">Notifikationsindstillinger under stadieændring</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.stagechg_notification.0" approved="yes">
+        <source>Disable notifications</source>
+        <target state="translated">Deaktivér notifikationer</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.stagechg_notification.1" approved="yes">
+        <source>Notify users of next stage only</source>
+        <target state="translated">Meddel kun brugere på næste stadie</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.stagechg_notification.10" approved="yes">
+        <source>Notify all users on any change</source>
+        <target state="translated">Meddel alle brugere om alle ændringer</target>
+      </trans-unit>
+      <trans-unit id="tabs.users" approved="yes">
+        <source>Users</source>
+        <target state="translated">Brugere</target>
+      </trans-unit>
+      <trans-unit id="tabs.mountpoints" approved="yes">
+        <source>Mountpoints</source>
+        <target state="translated">Montagepunkter</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
