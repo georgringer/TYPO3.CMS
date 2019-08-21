@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415815007" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="tstemplate" target-language="hi">
+    <header/>
+    <body>
+      <trans-unit id="moduleTitle" approved="yes">
+        <source>Template tools</source>
+        <target state="translated">टेम्पलेट टूल्स</target>
+      </trans-unit>
+      <trans-unit id="templateAnalyzer" approved="yes">
+        <source>Template Analyzer</source>
+        <target state="translated">टेम्पलेट विश्लेषक</target>
+      </trans-unit>
+      <trans-unit id="constantEditor" approved="yes">
+        <source>Constant Editor</source>
+        <target state="translated">कंस्टन्ट एडिटर</target>
+      </trans-unit>
+      <trans-unit id="infoModify" approved="yes">
+        <source>Info/Modify</source>
+        <target state="translated">जानकारी/बदलाव</target>
+      </trans-unit>
+      <trans-unit id="objectBrowser" approved="yes">
+        <source>TypoScript Object Browser</source>
+        <target state="translated">टाइपो-स्क्रिप्ट ऑब्जेक्ट ब्राउज़र</target>
+      </trans-unit>
+      <trans-unit id="viewTemplates" approved="yes">
+        <source>Viewing templates of</source>
+        <target state="translated">के टेम्पलेट्स को देखे</target>
+      </trans-unit>
+      <trans-unit id="pageName" approved="yes">
+        <source>Page name</source>
+        <target state="translated">पेज का नाम</target>
+      </trans-unit>
+      <trans-unit id="templates" approved="yes">
+        <source>Templates</source>
+        <target state="translated">टेम्पलेट्स</target>
+      </trans-unit>
+      <trans-unit id="isRoot" approved="yes">
+        <source>Is Root?</source>
+        <target state="translated">रुट है?</target>
+      </trans-unit>
+      <trans-unit id="isExt" approved="yes">
+        <source>Is Ext?</source>
+        <target state="translated">Ext है?</target>
+      </trans-unit>
+      <trans-unit id="overview" approved="yes">
+        <source>This is an overview of the pages in the database containing one or more template records. Click a page title to go to the page.</source>
+        <target state="translated">यह डेटाबेस में एक या एक से अधिक टेम्पलेट रिकॉर्ड युक्त पेज का ओवर-व्यू है। पेज पर जाने के लिए पेज के शीर्षक पर क्लिक करें।</target>
+      </trans-unit>
+      <trans-unit id="areYouSure" approved="yes">
+        <source>Are you sure you want to do this?</source>
+        <target state="translated">क्या आप निश्चित हैं कि आप यह करना चाहते हैं?</target>
+      </trans-unit>
+      <trans-unit id="noTemplate" approved="yes">
+        <source>No template</source>
+        <target state="translated">टेम्पलेट नहीं</target>
+      </trans-unit>
+      <trans-unit id="noTemplateDescription" approved="yes">
+        <source>There was no template on this page!</source>
+        <target state="translated">इस पेज पर कोइ टेम्पलेट नहीं था!</target>
+      </trans-unit>
+      <trans-unit id="createTemplate" approved="yes">
+        <source>Create a template record first in order to edit constants!</source>
+        <target state="translated">कन्स्टंट्स एडिट करने के लिए पहले टेम्पलेट रिकॉर्ड बनाए!</target>
+      </trans-unit>
+      <trans-unit id="createTemplateToEditConfiguration" approved="yes">
+        <source>You need to create a template record below in order to edit your configuration.</source>
+        <target state="translated">आपके कॉन्फ़िगरेशन को एडिट करने के लिए नीचे दिए गए टेम्पलेट रिकॉर्ड बनाने की जरूरत है।</target>
+      </trans-unit>
+      <trans-unit id="newWebsite" approved="yes">
+        <source>Create new website</source>
+        <target state="translated">नई वेबसाइट बनाएं</target>
+      </trans-unit>
+      <trans-unit id="newWebsiteAction" approved="yes">
+        <source>Create template for a new site</source>
+        <target state="translated">नई साइट के लिए टेम्पलेट बनाएँ</target>
+      </trans-unit>
+      <trans-unit id="extTemplate" approved="yes">
+        <source>Create extension template</source>
+        <target state="translated">एक्सटेंशन टेम्पलेट बनाएं</target>
+      </trans-unit>
+      <trans-unit id="extTemplateDescription" approved="yes">
+        <source>An extension template allows you to enter TypoScript values that will affect only this page and subpages.</source>
+        <target state="translated">एक्सटेंशन आपको टाइपो-स्क्रिप्ट की वैल्यू एंटर करने की अनुमति देता है जो सिर्फ इस पेज और सब-पेज पर असर करेंगी।</target>
+      </trans-unit>
+      <trans-unit id="extTemplateAction" approved="yes">
+        <source>Click here to create an extension template.</source>
+        <target state="translated">एक्सटेंशन टेम्पलेट बनाने के लिए यहां क्लिक करें।</target>
+      </trans-unit>
+      <trans-unit id="goToClosest" approved="yes">
+        <source>Go to closest page with template</source>
+        <target state="translated">टेम्पलेट के साथ करीबी पेज पर जाएँ</target>
+      </trans-unit>
+      <trans-unit id="goToClosestDescription" approved="yes">
+        <source>Closest template is on page '%s' (uid %s).</source>
+        <target state="translated">करीबी टेम्पलेट पेज %s (uid %s) पर है।</target>
+      </trans-unit>
+      <trans-unit id="goToClosestAction" approved="yes">
+        <source>Click here to go.</source>
+        <target state="translated">जाने के लिए यहां क्लिक करें।</target>
+      </trans-unit>
+      <trans-unit id="titleNewSiteStandard" approved="yes">
+        <source>NEW SITE, based on standard</source>
+        <target state="translated">नई साईट, स्टान्डर्ड के आधार पर</target>
+      </trans-unit>
+      <trans-unit id="titleNewSite" approved="yes">
+        <source>NEW SITE</source>
+        <target state="translated">नई साईट</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
