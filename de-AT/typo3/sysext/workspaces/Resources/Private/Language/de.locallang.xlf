@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415815017" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="workspaces" target-language="de-AT">
+    <header/>
+    <body>
+      <trans-unit id="legend.label">
+        <source>Legend</source>
+        <target>crwdns44792:0crwdne44792:0</target>
+      </trans-unit>
+      <trans-unit id="legend.edited">
+        <source>edited</source>
+        <target>crwdns44794:0crwdne44794:0</target>
+      </trans-unit>
+      <trans-unit id="legend.moved">
+        <source>moved</source>
+        <target>crwdns44796:0crwdne44796:0</target>
+      </trans-unit>
+      <trans-unit id="legend.deleted">
+        <source>deleted</source>
+        <target>crwdns44798:0crwdne44798:0</target>
+      </trans-unit>
+      <trans-unit id="legend.new">
+        <source>created</source>
+        <target>crwdns44800:0crwdne44800:0</target>
+      </trans-unit>
+      <trans-unit id="legend.hidden">
+        <source>hidden</source>
+        <target>crwdns44802:0crwdne44802:0</target>
+      </trans-unit>
+      <trans-unit id="title">
+        <source>Workspaces</source>
+        <target>crwdns44804:0crwdne44804:0</target>
+      </trans-unit>
+      <trans-unit id="ok">
+        <source>Ok</source>
+        <target>crwdns44806:0crwdne44806:0</target>
+      </trans-unit>
+      <trans-unit id="cancel">
+        <source>Cancel</source>
+        <target>crwdns44808:0crwdne44808:0</target>
+      </trans-unit>
+      <trans-unit id="chooseMassAction">
+        <source>Choose mass action</source>
+        <target>crwdns44810:0crwdne44810:0</target>
+      </trans-unit>
+      <trans-unit id="chooseSelectionAction">
+        <source>Choose selection action</source>
+        <target>crwdns44812:0crwdne44812:0</target>
+      </trans-unit>
+      <trans-unit id="chooseAction">
+        <source>Choose staging action</source>
+        <target>crwdns44814:0crwdne44814:0</target>
+      </trans-unit>
+      <trans-unit id="item">
+        <source>item</source>
+        <target>crwdns44816:0crwdne44816:0</target>
+      </trans-unit>
+      <trans-unit id="items">
+        <source>items</source>
+        <target>crwdns44818:0crwdne44818:0</target>
+      </trans-unit>
+      <trans-unit id="recordsToDisplay">
+        <source>Records to display</source>
+        <target>crwdns44820:0crwdne44820:0</target>
+      </trans-unit>
+      <trans-unit id="reviewandpublish">
+        <source>review and publish</source>
+        <target>crwdns44822:0crwdne44822:0</target>
+      </trans-unit>
+      <trans-unit id="workspacelist">
+        <source>Workspace List</source>
+        <target>crwdns44824:0crwdne44824:0</target>
+      </trans-unit>
+      <trans-unit id="editorInLive" xml:space="preserve">
+				<source>You are in LIVE workspace. You have to select a draft workspace before you can review and
+					publish changes.
+				</source>
+			<target>crwdns44826:0crwdne44826:0
+				</target></trans-unit>
+      <trans-unit id="actionSendToStage">
+        <source>Send to stage</source>
+        <target>crwdns44828:0crwdne44828:0</target>
+      </trans-unit>
+      <trans-unit id="publish_execute_action_option">
+        <source>Publish to LIVE</source>
+        <target>crwdns44830:0crwdne44830:0</target>
+      </trans-unit>
+      <trans-unit id="close">
+        <source>Close</source>
+        <target>crwdns44832:0crwdne44832:0</target>
+      </trans-unit>
+      <trans-unit id="runMassAction.done">
+        <source>Done processing %d elements</source>
+        <target>crwdns44834:0%dcrwdne44834:0</target>
+      </trans-unit>
+      <trans-unit id="runMassAction.init">
+        <source>init</source>
+        <target>crwdns44836:0crwdne44836:0</target>
+      </trans-unit>
+      <trans-unit id="tooltip.publishAll">
+        <source>Really publish entire workspace?</source>
+        <target>crwdns44838:0crwdne44838:0</target>
+      </trans-unit>
+      <trans-unit id="tooltip.swapAll">
+        <source>Really swap entire workspace?</source>
+        <target>crwdns44840:0crwdne44840:0</target>
+      </trans-unit>
+      <trans-unit id="tooltip.discardAll">
+        <source>Do you really want to discard changes from the whole workspace?</source>
+        <target>crwdns44842:0crwdne44842:0</target>
+      </trans-unit>
+      <trans-unit id="tooltip.publishSelected">
+        <source>Really publish selected elements?</source>
+        <target>crwdns44844:0crwdne44844:0</target>
+      </trans-unit>
+      <trans-unit id="tooltip.swapSelected">
+        <source>Really swap selected elements?</source>
+        <target>crwdns44846:0crwdne44846:0</target>
+      </trans-unit>
+      <trans-unit id="tooltip.discardSelected">
+        <source>Really discard changes of the selected elements?</source>
+        <target>crwdns44848:0crwdne44848:0</target>
+      </trans-unit>
+      <trans-unit id="tooltip.affectWholeWorkspace" xml:space="preserve">
+				<source>Please note that this will affect all changes in the current workspace, which may be more than
+					you are currently seeing on your screen.
+				</source>
+			<target>crwdns44850:0crwdne44850:0
+				</target></trans-unit>
+      <trans-unit id="tooltip.generatePagePreview">
+        <source>Generate page preview links</source>
+        <target>crwdns44852:0crwdne44852:0</target>
+      </trans-unit>
+      <trans-unit id="tooltip.showChanges">
+        <source>Show changes</source>
+        <target>crwdns44854:0crwdne44854:0</target>
+      </trans-unit>
+      <trans-unit id="previewLink">
+        <source>Preview Link</source>
+        <target>crwdns44856:0crwdne44856:0</target>
+      </trans-unit>
+      <trans-unit id="error.noResponse">
+        <source>The server did not send any response whether the action was successful.</source>
+        <target>crwdns44858:0crwdne44858:0</target>
+      </trans-unit>
+      <trans-unit id="rowDetails">
+        <source>Row details...</source>
+        <target>crwdns44860:0crwdne44860:0</target>
+      </trans-unit>
+      <trans-unit id="column.difference">
+        <source>Difference</source>
+        <target>crwdns44862:0crwdne44862:0</target>
+      </trans-unit>
+      <trans-unit id="column.changeDate">
+        <source>Modification</source>
+        <target>crwdns44864:0crwdne44864:0</target>
+      </trans-unit>
+      <trans-unit id="column.stage">
+        <source>Current Stage</source>
+        <target>crwdns44866:0crwdne44866:0</target>
+      </trans-unit>
+      <trans-unit id="column.actions">
+        <source>Actions</source>
+        <target>crwdns44868:0crwdne44868:0</target>
+      </trans-unit>
+      <trans-unit id="column.wsPath">
+        <source>Path</source>
+        <target>crwdns44870:0crwdne44870:0</target>
+      </trans-unit>
+      <trans-unit id="column.wsTitle">
+        <source>Changed</source>
+        <target>crwdns44872:0crwdne44872:0</target>
+      </trans-unit>
+      <trans-unit id="column.uid">
+        <source>WS ID</source>
+        <target>crwdns44874:0crwdne44874:0</target>
+      </trans-unit>
+      <trans-unit id="column.oid">
+        <source>Live ID</source>
+        <target>crwdns44876:0crwdne44876:0</target>
+      </trans-unit>
+      <trans-unit id="column.workspaceName">
+        <source>Workspace</source>
+        <target>crwdns44878:0crwdne44878:0</target>
+      </trans-unit>
+      <trans-unit id="column.livePath">
+        <source>Live path</source>
+        <target>crwdns44880:0crwdne44880:0</target>
+      </trans-unit>
+      <trans-unit id="column.liveTitle">
+        <source>Live title</source>
+        <target>crwdns44882:0crwdne44882:0</target>
+      </trans-unit>
+      <trans-unit id="column.wsSwapColumn">
+        <source>Swap workspace</source>
+        <target>crwdns44884:0crwdne44884:0</target>
+      </trans-unit>
+      <trans-unit id="column.integrity">
+        <source>Integrity</source>
+        <target>crwdns44886:0crwdne44886:0</target>
+      </trans-unit>
+      <trans-unit id="tooltip.viewElementAction">
+        <source>Preview element</source>
+        <target>crwdns44888:0crwdne44888:0</target>
+      </trans-unit>
+      <trans-unit id="tooltip.editElementAction">
+        <source>Edit element</source>
+        <target>crwdns44890:0crwdne44890:0</target>
+      </trans-unit>
+      <trans-unit id="tooltip.openPage">
+        <source>Open version of page</source>
+        <target>crwdns44892:0crwdne44892:0</target>
+      </trans-unit>
+      <trans-unit id="tooltip.sendToPrevStage">
+        <source>Send record to previous Stage</source>
+        <target>crwdns44894:0crwdne44894:0</target>
+      </trans-unit>
+      <trans-unit id="tooltip.sendToNextStage">
+        <source>Send record to next Stage</source>
+        <target>crwdns44896:0crwdne44896:0</target>
+      </trans-unit>
+      <trans-unit id="tooltip.discardVersion">
+        <source>Discard workspace version of record.</source>
+        <target>crwdns44898:0crwdne44898:0</target>
+      </trans-unit>
+      <trans-unit id="tooltip.swap">
+        <source>Swap live and workspace versions of record</source>
+        <target>crwdns44900:0crwdne44900:0</target>
+      </trans-unit>
+      <trans-unit id="tooltip.expand">
+        <source>Expand element and show relations</source>
+        <target>crwdns44902:0crwdne44902:0</target>
+      </trans-unit>
+      <trans-unit id="tooltip.showHistory">
+        <source>Show history of workspace version</source>
+        <target>crwdns44904:0crwdne44904:0</target>
+      </trans-unit>
+      <trans-unit id="window.discard.title">
+        <source>Discard workspace version of record.</source>
+        <target>crwdns44906:0crwdne44906:0</target>
+      </trans-unit>
+      <trans-unit id="window.discardAll.title">
+        <source>Discard all workspace version of current page.</source>
+        <target>crwdns44908:0crwdne44908:0</target>
+      </trans-unit>
+      <trans-unit id="window.discard.message">
+        <source>Do you really want to discard this version from workspace?</source>
+        <target>crwdns44910:0crwdne44910:0</target>
+      </trans-unit>
+      <trans-unit id="window.discardAll.message">
+        <source>Do you really want to discard all versions from page?</source>
+        <target>crwdns44912:0crwdne44912:0</target>
+      </trans-unit>
+      <trans-unit id="window.swap.title">
+        <source>Swap version</source>
+        <target>crwdns44914:0crwdne44914:0</target>
+      </trans-unit>
+      <trans-unit id="window.swap.message">
+        <source>Do you really want to swap this version?</source>
+        <target>crwdns44916:0crwdne44916:0</target>
+      </trans-unit>
+      <trans-unit id="window.massAction.title">
+        <source>Prepare to start mass action</source>
+        <target>crwdns44918:0crwdne44918:0</target>
+      </trans-unit>
+      <trans-unit id="window.selectionAction.title">
+        <source>Prepare to execute actions on selection</source>
+        <target>crwdns44920:0crwdne44920:0</target>
+      </trans-unit>
+      <trans-unit id="error.stageId.integer">
+        <source>StageId is supposed to be an integer</source>
+        <target>crwdns44922:0crwdne44922:0</target>
+      </trans-unit>
+      <trans-unit id="error.stageId.invalid" xml:space="preserve">
+				<source>The stage to be used seems to be invalid and cannot be used. Please consider to use the update
+					wizard in the install tool to fix this.
+				</source>
+			<target>crwdns44924:0crwdne44924:0
+				</target></trans-unit>
+      <trans-unit id="error.sendToNextStage.noRecordFound">
+        <source>The record element could not be found.</source>
+        <target>crwdns44926:0crwdne44926:0</target>
+      </trans-unit>
+      <trans-unit id="error.sendToPrevStage.noPreviousStage">
+        <source>The record element is already in editing stage, there is no previous stage.</source>
+        <target>crwdns44928:0crwdne44928:0</target>
+      </trans-unit>
+      <trans-unit id="window.sendToNextStageWindow.itemsWillBeSentTo">
+        <source>The selected element(s) will be sent to</source>
+        <target>crwdns44930:0crwdne44930:0</target>
+      </trans-unit>
+      <trans-unit id="window.sendToNextStageWindow.selectAll">
+        <source>Select all</source>
+        <target>crwdns44932:0crwdne44932:0</target>
+      </trans-unit>
+      <trans-unit id="window.sendToNextStageWindow.deselectAll">
+        <source>Uncheck all</source>
+        <target>crwdns44934:0crwdne44934:0</target>
+      </trans-unit>
+      <trans-unit id="window.sendToNextStageWindow.sendMailTo">
+        <source>Send mail to</source>
+        <target>crwdns44936:0crwdne44936:0</target>
+      </trans-unit>
+      <trans-unit id="window.sendToNextStageWindow.additionalRecipients">
+        <source>Additional recipients</source>
+        <target>crwdns44938:0crwdne44938:0</target>
+      </trans-unit>
+      <trans-unit id="window.sendToNextStageWindow.additionalRecipients.hint">
+        <source>One recipient per line</source>
+        <target>crwdns44940:0crwdne44940:0</target>
+      </trans-unit>
+      <trans-unit id="window.sendToNextStageWindow.comments">
+        <source>Comments</source>
+        <target>crwdns44942:0crwdne44942:0</target>
+      </trans-unit>
+      <trans-unit id="window.recordChanges">
+        <source>Record changes</source>
+        <target>crwdns44944:0crwdne44944:0</target>
+      </trans-unit>
+      <trans-unit id="window.recordInformation">
+        <source>Information for "{0}"</source>
+        <target>crwdns44946:0{0}crwdne44946:0</target>
+      </trans-unit>
+      <trans-unit id="window.recordChanges.tabs.changeSummary">
+        <source>Summary of changes</source>
+        <target>crwdns44948:0crwdne44948:0</target>
+      </trans-unit>
+      <trans-unit id="window.recordChanges.tabs.comments">
+        <source>Comments</source>
+        <target>crwdns44950:0crwdne44950:0</target>
+      </trans-unit>
+      <trans-unit id="window.recordChanges.tabs.history">
+        <source>History</source>
+        <target>crwdns44952:0crwdne44952:0</target>
+      </trans-unit>
+      <trans-unit id="window.recordHistory">
+        <source>History of record "{0}"</source>
+        <target>crwdns44954:0{0}crwdne44954:0</target>
+      </trans-unit>
+      <trans-unit id="error.getStageTitle.stageNotFound">
+        <source>Stage not found</source>
+        <target>crwdns44956:0crwdne44956:0</target>
+      </trans-unit>
+      <trans-unit id="info.newpage">
+        <source>New Page!</source>
+        <target>crwdns44958:0crwdne44958:0</target>
+      </trans-unit>
+      <trans-unit id="info.newpage.detail">
+        <source>The previewed page has been created in a workspace and has no live counterpart.</source>
+        <target>crwdns44960:0crwdne44960:0</target>
+      </trans-unit>
+      <trans-unit id="preview.visualPreview">
+        <source>Visual preview</source>
+        <target>crwdns44962:0crwdne44962:0</target>
+      </trans-unit>
+      <trans-unit id="preview.listView">
+        <source>List view</source>
+        <target>crwdns44964:0crwdne44964:0</target>
+      </trans-unit>
+      <trans-unit id="preview.livePreview">
+        <source>Live</source>
+        <target>crwdns44966:0crwdne44966:0</target>
+      </trans-unit>
+      <trans-unit id="preview.livePreviewDetail">
+        <source>Click this element to hide the workspace version and see the live version of the page.</source>
+        <target>crwdns44968:0crwdne44968:0</target>
+      </trans-unit>
+      <trans-unit id="preview.workspacePreview">
+        <source>Workspace</source>
+        <target>crwdns44970:0crwdne44970:0</target>
+      </trans-unit>
+      <trans-unit id="preview.workspacePreviewDetail">
+        <source>Click this element to hide the live version and see the workspace version of the page.</source>
+        <target>crwdns44972:0crwdne44972:0</target>
+      </trans-unit>
+      <trans-unit id="preview.modeSlider">
+        <source>Slider</source>
+        <target>crwdns44974:0crwdne44974:0</target>
+      </trans-unit>
+      <trans-unit id="preview.modeVbox">
+        <source>Vertical</source>
+        <target>crwdns44976:0crwdne44976:0</target>
+      </trans-unit>
+      <trans-unit id="preview.modeHbox">
+        <source>Horizontal</source>
+        <target>crwdns44978:0crwdne44978:0</target>
+      </trans-unit>
+      <trans-unit id="label_doaction_publish">
+        <source>Publish</source>
+        <target>crwdns44980:0crwdne44980:0</target>
+      </trans-unit>
+      <trans-unit id="label_doaction_swap">
+        <source>Swap</source>
+        <target>crwdns44982:0crwdne44982:0</target>
+      </trans-unit>
+      <trans-unit id="label_doaction_discard">
+        <source>Discard</source>
+        <target>crwdns44984:0crwdne44984:0</target>
+      </trans-unit>
+      <trans-unit id="label_doaction_generatePreviewLinks">
+        <source>Generate Workspace Preview Links</source>
+        <target>crwdns44986:0crwdne44986:0</target>
+      </trans-unit>
+      <trans-unit id="info.elementAlreadyModified">
+        <source>Element is in workspace stage "%s", modifications will send it back to "%s".</source>
+        <target>crwdns44988:0%scrwdnd44988:0%scrwdne44988:0</target>
+      </trans-unit>
+      <trans-unit id="live_workspace">
+        <source>Live Workspace</source>
+        <target>crwdns44990:0crwdne44990:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_version">
+        <source>Workspace version</source>
+        <target>crwdns44992:0crwdne44992:0</target>
+      </trans-unit>
+      <trans-unit id="current_step">
+        <source><![CDATA[<b>Current stage step</b>: {0} (<b>{1}</b>/{2})]]></source>
+        <target><![CDATA[crwdns44994:0{0}crwdnd44994:0{1}crwdnd44994:0{2}crwdne44994:0]]></target>
+      </trans-unit>
+      <trans-unit id="path">
+        <source><![CDATA[<b>Path</b>: {0}]]></source>
+        <target><![CDATA[crwdns44996:0{0}crwdne44996:0]]></target>
+      </trans-unit>
+      <trans-unit id="stage">
+        <source>Stage {0}</source>
+        <target>crwdns44998:0{0}crwdne44998:0</target>
+      </trans-unit>
+      <trans-unit id="comments">
+        <source><![CDATA[User comments for <b>step {0} of stage</b> "{1}"]]></source>
+        <target><![CDATA[crwdns45000:0{0}crwdnd45000:0{1}crwdne45000:0]]></target>
+      </trans-unit>
+      <trans-unit id="language.allLanguages">
+        <source>all languages</source>
+        <target>crwdns45002:0crwdne45002:0</target>
+      </trans-unit>
+      <trans-unit id="language.selectLanguage">
+        <source>all languages</source>
+        <target>crwdns45004:0crwdne45004:0</target>
+      </trans-unit>
+      <trans-unit id="integrity.dependsOnDefaultLanguageRecord">
+        <source><![CDATA[Record "%s" depends on default language record]]></source>
+        <target><![CDATA[crwdns45006:0%scrwdne45006:0]]></target>
+      </trans-unit>
+      <trans-unit id="integrity.isDefaultLanguageRecord">
+        <source><![CDATA[Default language record for record "%s"]]></source>
+        <target><![CDATA[crwdns45008:0%scrwdne45008:0]]></target>
+      </trans-unit>
+      <trans-unit id="integrity.hasIssuesDescription">
+        <source>The integrity check discovered several issues, see status icons infront of each record for further details.</source>
+        <target>crwdns45010:0crwdne45010:0</target>
+      </trans-unit>
+      <trans-unit id="integrity.hasIssuesQuestion">
+        <source>Do you want to continue?</source>
+        <target>crwdns45012:0crwdne45012:0</target>
+      </trans-unit>
+      <trans-unit id="status.info">
+        <source>Information</source>
+        <target>crwdns45014:0crwdne45014:0</target>
+      </trans-unit>
+      <trans-unit id="status.warning">
+        <source>Warning</source>
+        <target>crwdns45016:0crwdne45016:0</target>
+      </trans-unit>
+      <trans-unit id="status.error">
+        <source>Error</source>
+        <target>crwdns45018:0crwdne45018:0</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
