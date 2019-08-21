@@ -1,257 +1,269 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415814818" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="workspaces" target-language="de">
+  <file t3:id="1415814818" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="workspaces" target-language="de-AT">
     <header/>
     <body>
-      <trans-unit id="extensionManager" approved="yes">
+      <trans-unit id="extensionManager">
         <source>Extension Manager</source>
-        <target state="translated">Erweiterungsmanager</target>
+        <target>crwdns24674:0crwdne24674:0</target>
       </trans-unit>
-      <trans-unit id="manageExtensions" approved="yes">
+      <trans-unit id="manageExtensions">
         <source>Manage Extensions</source>
-        <target state="translated">Erweiterungen verwalten</target>
+        <target>crwdns24676:0crwdne24676:0</target>
       </trans-unit>
-      <trans-unit id="installExtension" approved="yes">
+      <trans-unit id="installExtension">
         <source>Install Extension</source>
-        <target state="translated">Erweiterung installieren</target>
+        <target>crwdns24678:0crwdne24678:0</target>
       </trans-unit>
-      <trans-unit id="composerMode.title" approved="yes">
+      <trans-unit id="composerMode.title">
         <source>Composer mode</source>
-        <target state="translated">Composer-Modus</target>
+        <target>crwdns24680:0crwdne24680:0</target>
       </trans-unit>
-      <trans-unit id="composerMode.message" approved="yes">
+      <trans-unit id="composerMode.message">
         <source>The system is set to composer mode. Please notice that it is not possible to add an extension with the Extension Manager. You have to use composer to add further extensions to your system.</source>
-        <target state="translated">Dieses System ist auf den Composer-Modus eingestellt. Bitte beachten Sie, dass es nicht möglich ist, Erweiterungen mit dem Erweiterungsmanager hinzuzufügen. Stattdessen müssen Sie Composer benutzen, um weitere Erweiterungen hinzuzufügen.</target>
+        <target>crwdns24682:0crwdne24682:0</target>
       </trans-unit>
-      <trans-unit id="installedExtensions" approved="yes">
+      <trans-unit id="installedExtensions">
         <source>Installed Extensions</source>
-        <target state="translated">Installierte Erweiterungen</target>
+        <target>crwdns24684:0crwdne24684:0</target>
       </trans-unit>
-      <trans-unit id="getExtensions" approved="yes">
+      <trans-unit id="getExtensions">
         <source>Get Extensions</source>
-        <target state="translated">Erweiterungen hinzufügen</target>
+        <target>crwdns24686:0crwdne24686:0</target>
       </trans-unit>
-      <trans-unit id="showAllVersions" approved="yes">
+      <trans-unit id="showAllVersions">
         <source>Show all versions of</source>
-        <target state="translated">Zeige alle Versionen von</target>
+        <target>crwdns24688:0crwdne24688:0</target>
       </trans-unit>
-      <trans-unit id="extConfTemplate.backToList" approved="yes">
+      <trans-unit id="extConfTemplate.backToList">
         <source>Back to list</source>
-        <target state="translated">Zurück zur Liste</target>
+        <target>crwdns24690:0crwdne24690:0</target>
       </trans-unit>
-      <trans-unit id="updateScript.headline" approved="yes">
+      <trans-unit id="updateScript.headline">
         <source>Update script for %s</source>
-        <target state="translated">Aktualisierungs-Skript für %s</target>
+        <target>crwdns24692:0%scrwdne24692:0</target>
       </trans-unit>
-      <trans-unit id="updateScript.none" approved="yes">
+      <trans-unit id="updateScript.none">
         <source>No update necessary.</source>
-        <target state="translated">Keine Aktualisierung notwendig.</target>
+        <target>crwdns24694:0crwdne24694:0</target>
       </trans-unit>
-      <trans-unit id="button.cancel" approved="yes">
+      <trans-unit id="button.cancel">
         <source>Cancel</source>
-        <target state="translated">Abbrechen</target>
+        <target>crwdns24696:0crwdne24696:0</target>
       </trans-unit>
-      <trans-unit id="button.details" approved="yes">
+      <trans-unit id="button.details">
         <source>Show Details</source>
-        <target state="translated">Details anzeigen</target>
+        <target>crwdns24698:0crwdne24698:0</target>
       </trans-unit>
-      <trans-unit id="button.remove" approved="yes">
+      <trans-unit id="button.remove">
         <source>Remove extension</source>
-        <target state="translated">Erweiterung entfernen</target>
+        <target>crwdns24700:0crwdne24700:0</target>
       </trans-unit>
-      <trans-unit id="button.updateExtension" approved="yes">
+      <trans-unit id="button.updateExtension">
         <source>Update extension</source>
-        <target state="translated">Erweiterung aktualisieren</target>
+        <target>crwdns24702:0crwdne24702:0</target>
       </trans-unit>
-      <trans-unit id="button.resolveDependencies" approved="yes">
+      <trans-unit id="button.resolveDependencies">
         <source>Resolve dependencies</source>
-        <target state="translated">Abhängigkeiten auflösen</target>
+        <target>crwdns24704:0crwdne24704:0</target>
       </trans-unit>
-      <trans-unit id="label.resolveDependenciesEnableButton" approved="yes">
+      <trans-unit id="label.resolveDependenciesEnableButton">
         <source>I understand what this means and I'm able to investigate on possibly occurring issues by myself.</source>
-        <target state="translated">Ich verstehe, was das bedeutet und ich bin in der Lage, möglicherweise auftretende Probleme selbst zu untersuchen.</target>
+        <target>crwdns24706:0crwdne24706:0</target>
       </trans-unit>
-      <trans-unit id="button.resolveDependenciesIgnore" approved="yes">
+      <trans-unit id="button.resolveDependenciesIgnore">
         <source>I know what I'm doing, continue anyway</source>
-        <target state="translated">Ich weiß was ich tue; trotzdem weitermachen</target>
+        <target>crwdns24708:0crwdne24708:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.update.script" approved="yes">
+      <trans-unit id="extensionList.update.script">
         <source>Execute the update script</source>
-        <target state="translated">Aktualisierungs-Skript ausführen</target>
+        <target>crwdns24710:0crwdne24710:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.downloadsql" approved="yes">
+      <trans-unit id="extensionList.downloadsql">
         <source>Download SQL Dump</source>
-        <target state="translated">SQL-Dump herunterladen</target>
+        <target>crwdns24712:0crwdne24712:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.remove" approved="yes">
+      <trans-unit id="extensionList.remove">
         <source>Remove</source>
-        <target state="translated">Entfernen</target>
+        <target>crwdns24714:0crwdne24714:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.update" approved="yes">
+      <trans-unit id="extensionList.update">
         <source>Update</source>
-        <target state="translated">Aktualisieren</target>
+        <target>crwdns24716:0crwdne24716:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.updateToVersion" approved="yes">
+      <trans-unit id="extensionList.updateToVersion">
         <source>Update to version %s</source>
-        <target state="translated">Aktualisieren auf Version %s</target>
+        <target>crwdns24718:0%scrwdne24718:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.updateDisabled" approved="yes">
+      <trans-unit id="extensionList.updateDisabled">
         <source>An update is available but this operation is currently disabled</source>
-        <target state="translated">Eine Aktualisierung ist verfügbar, aber das Aktualisieren ist im Moment deaktiviert</target>
+        <target>crwdns24720:0crwdne24720:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.deactivate" approved="yes">
+      <trans-unit id="extensionList.deactivate">
         <source>Deactivate</source>
-        <target state="translated">Deaktivieren</target>
+        <target>crwdns24722:0crwdne24722:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.activate" approved="yes">
+      <trans-unit id="extensionList.activate">
         <source>Activate</source>
-        <target state="translated">Aktivieren</target>
+        <target>crwdns24724:0crwdne24724:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.downloadzip" approved="yes">
+      <trans-unit id="extensionList.downloadzip">
         <source>Download as zip</source>
-        <target state="translated">Als ZIP herunterladen</target>
+        <target>crwdns24726:0crwdne24726:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.uploadExtension" approved="yes">
+      <trans-unit id="extensionList.uploadExtension">
         <source>Upload Extension .t3x/.zip</source>
-        <target state="translated">Erweiterung hochladen .t3x/.zip</target>
+        <target>crwdns24728:0crwdne24728:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.overwriteExtension" approved="yes">
+      <trans-unit id="extensionList.overwriteExtension">
         <source>Overwrite</source>
-        <target state="translated">Überschreiben</target>
+        <target>crwdns24730:0crwdne24730:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.overwritingDisabled" approved="yes">
+      <trans-unit id="extensionList.overwritingDisabled">
         <source>Extension is already available and overwriting was not enabled</source>
-        <target state="translated">Die Erweiterung steht bereits zur Verfügung und Überschreiben war nicht aktiviert</target>
+        <target>crwdns24732:0crwdne24732:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.loading" approved="yes">
+      <trans-unit id="extensionList.loading">
         <source>Loading form...</source>
-        <target state="translated">Lade Formular...</target>
+        <target>crwdns24734:0crwdne24734:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.header.update" approved="yes">
+      <trans-unit id="extensionList.header.update">
         <source>Upd.</source>
-        <target state="translated">Akt.</target>
+        <target>crwdns24736:0crwdne24736:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.header.title.update" approved="yes">
+      <trans-unit id="extensionList.header.title.update">
         <source>Update</source>
-        <target state="translated">Aktualisierung</target>
+        <target>crwdns24738:0crwdne24738:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.header.title.activate" approved="yes">
+      <trans-unit id="extensionList.header.activate">
+        <source>A/D</source>
+        <target>crwdns24740:0crwdne24740:0</target>
+      </trans-unit>
+      <trans-unit id="extensionList.header.title.activate">
         <source>Activate / Deactivate</source>
-        <target state="translated">Aktivieren / Deaktivieren</target>
+        <target>crwdns24742:0crwdne24742:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.header.extensionName" approved="yes">
+      <trans-unit id="extensionList.header.extensionName">
         <source>Extension</source>
-        <target state="translated">Erweiterung</target>
+        <target>crwdns24744:0crwdne24744:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.header.extensionKey" approved="yes">
+      <trans-unit id="extensionList.header.version">
+        <source>Version</source>
+        <target>crwdns24746:0crwdne24746:0</target>
+      </trans-unit>
+      <trans-unit id="extensionList.header.extensionKey">
         <source>Key</source>
-        <target state="translated">Schlüssel</target>
+        <target>crwdns24748:0crwdne24748:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.header.extensionActions" approved="yes">
+      <trans-unit id="extensionList.header.extensionVersion">
+        <source>Version</source>
+        <target>crwdns24750:0crwdne24750:0</target>
+      </trans-unit>
+      <trans-unit id="extensionList.header.extensionActions">
         <source>Actions</source>
-        <target state="translated">Aktionen</target>
+        <target>crwdns24752:0crwdne24752:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.header.extensionState" approved="yes">
+      <trans-unit id="extensionList.header.extensionState">
         <source>State</source>
-        <target state="translated">Status</target>
+        <target>crwdns24754:0crwdne24754:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.header.extensionType" approved="yes">
+      <trans-unit id="extensionList.header.extensionType">
         <source>Type</source>
-        <target state="translated">Typ</target>
+        <target>crwdns24756:0crwdne24756:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.header.uploadComment" approved="yes">
+      <trans-unit id="extensionList.header.uploadComment">
         <source>Upload Comment</source>
-        <target state="translated">Hochladekommentar</target>
+        <target>crwdns24758:0crwdne24758:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.header.lastUpdate" approved="yes">
+      <trans-unit id="extensionList.header.lastUpdate">
         <source>Last Updated</source>
-        <target state="translated">Letzte Aktualisierung</target>
+        <target>crwdns24760:0crwdne24760:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.header.description" approved="yes">
+      <trans-unit id="extensionList.header.description">
         <source>Description</source>
-        <target state="translated">Beschreibung</target>
+        <target>crwdns24762:0crwdne24762:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.header.author" approved="yes">
+      <trans-unit id="extensionList.header.author">
         <source>Author</source>
-        <target state="translated">Autor</target>
+        <target>crwdns24764:0crwdne24764:0</target>
       </trans-unit>
-      <trans-unit id="searchTemplate.searchExtensions" approved="yes">
+      <trans-unit id="searchTemplate.searchExtensions">
         <source>Search extensions</source>
-        <target state="translated">Erweiterungen suchen</target>
+        <target>crwdns24766:0crwdne24766:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.search" approved="yes">
+      <trans-unit id="extensionList.search">
         <source>Search</source>
-        <target state="translated">Suche</target>
+        <target>crwdns24768:0crwdne24768:0</target>
       </trans-unit>
-      <trans-unit id="searchTemplate.submitButton" approved="yes">
+      <trans-unit id="searchTemplate.submitButton">
         <source>Go</source>
-        <target state="translated">Absenden</target>
+        <target>crwdns24770:0crwdne24770:0</target>
       </trans-unit>
-      <trans-unit id="searchTemplate.resetSearchButton" approved="yes">
+      <trans-unit id="searchTemplate.resetSearchButton">
         <source>Reset Search</source>
-        <target state="translated">Suche zurücksetzen</target>
+        <target>crwdns24772:0crwdne24772:0</target>
       </trans-unit>
-      <trans-unit id="searchTemplate.yourSearch" approved="yes">
+      <trans-unit id="searchTemplate.yourSearch">
         <source>Your search</source>
-        <target state="translated">Ihre Suche</target>
+        <target>crwdns24774:0crwdne24774:0</target>
       </trans-unit>
-      <trans-unit id="searchTemplate.searchAgain" approved="yes">
+      <trans-unit id="searchTemplate.searchAgain">
         <source>Search again</source>
-        <target state="translated">Erneut suchen</target>
+        <target>crwdns24776:0crwdne24776:0</target>
       </trans-unit>
-      <trans-unit id="uploadTemplate.uploadButton" approved="yes">
+      <trans-unit id="uploadTemplate.uploadButton">
         <source>Upload!</source>
-        <target state="translated">Hochladen!</target>
+        <target>crwdns24778:0crwdne24778:0</target>
       </trans-unit>
-      <trans-unit id="uploadTemplate.extensionLabel" approved="yes">
+      <trans-unit id="uploadTemplate.extensionLabel">
         <source>Extension</source>
-        <target state="translated">Erweiterung</target>
+        <target>crwdns24780:0crwdne24780:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.removalConfirmation.title" approved="yes">
+      <trans-unit id="extensionList.removalConfirmation.title">
         <source>Extension Removal</source>
-        <target state="translated">Erweiterung entfernen</target>
+        <target>crwdns24782:0crwdne24782:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.removalConfirmation.message" approved="yes">
+      <trans-unit id="extensionList.removalConfirmation.message">
         <source>The extension is currently installed. Uninstall extension?</source>
-        <target state="translated">Die Erweiterung ist aktuell installiert. Deinstallieren?</target>
+        <target>crwdns24784:0crwdne24784:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.updateConfirmation.title" approved="yes">
+      <trans-unit id="extensionList.updateConfirmation.title">
         <source>Update?</source>
-        <target state="translated">Aktualisieren?</target>
+        <target>crwdns24786:0crwdne24786:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.updateConfirmation.message" approved="yes">
+      <trans-unit id="extensionList.updateConfirmation.message">
         <source>Update Comments</source>
-        <target state="translated">Aktualisierungskommentare</target>
+        <target>crwdns24788:0crwdne24788:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.databaseImport" approved="yes">
+      <trans-unit id="extensionList.databaseImport">
         <source>The static database data has changed. You should re-import the data.</source>
-        <target state="translated">Die statischen Datenbankdaten haben sich geändert. Sie sollten diese Daten erneut importieren.</target>
+        <target>crwdns24790:0crwdne24790:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.databaseReload" approved="yes">
+      <trans-unit id="extensionList.databaseReload">
         <source>Nothing has changed since last import. You might want to reload static database data.</source>
-        <target state="translated">Seit dem letzten Import gibt es keine Änderungen. Sie können die statischen Datenbankdaten neuladen.</target>
+        <target>crwdns24792:0crwdne24792:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.updateConfirmation.questionVersionComments" approved="yes">
+      <trans-unit id="extensionList.updateConfirmation.questionVersionComments">
         <source>Version Comments</source>
-        <target state="translated">Versionskommentare</target>
+        <target>crwdns24794:0crwdne24794:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.updateFlashMessage.title" approved="yes">
+      <trans-unit id="extensionList.updateFlashMessage.title">
         <source>Extension Update</source>
-        <target state="translated">Erweiterungsaktualisierung</target>
+        <target>crwdns24796:0crwdne24796:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.updateFlashMessage.body" approved="yes">
+      <trans-unit id="extensionList.updateFlashMessage.body">
         <source>%s was updated!</source>
-        <target state="translated">%s hochgeladen!</target>
+        <target>crwdns24798:0%scrwdne24798:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.removalConfirmation.question" approved="yes">
+      <trans-unit id="extensionList.removalConfirmation.question">
         <source>Are you sure you want to remove the extension?</source>
-        <target state="translated">Sind Sie sicher, dass Sie die Erweiterung entfernen möchten?</target>
+        <target>crwdns24800:0crwdne24800:0</target>
       </trans-unit>
-      <trans-unit id="dependencyCheck.unresolvedDependencies.title" approved="yes">
+      <trans-unit id="dependencyCheck.unresolvedDependencies.title">
         <source>Please read this carefully</source>
-        <target state="translated">Bitte sorgfältig lesen</target>
+        <target>crwdns24802:0crwdne24802:0</target>
       </trans-unit>
-      <trans-unit id="dependencyCheck.unresolvedDependencies.message" approved="yes">
+      <trans-unit id="dependencyCheck.unresolvedDependencies.message">
         <source><![CDATA[
 					If you continue installing the extension, all dependency checks will be turned off.
 					<ul>
@@ -263,386 +275,429 @@
 						In such a case manual intervention is required.
 					</strong>
 				]]></source>
-        <target state="translated"><![CDATA[
-					Wenn Sie mit der Installation dieser Erweiterung fortfahren, werden alle Abhängigkeitsprüfungen deaktiviert. &lt;ul&gt; &lt;li&gt;Es wird versucht, benötigte Erweiterungen vom TER zu holen (falls sie noch nicht im System existieren)&lt;/li&gt; &lt;li&gt;Die Überprüfung von Versionsabhängigkeiten wird übersprungen&lt;/li&gt; &lt;/ul&gt; &lt;strong&gt; Beachten Sie, dass eine Installation ohne Abhängigkeitsprüfung Ihre Installation unbenutzbar machen kann.&lt;br /&gt; In diesem Fall ist manuelle Intervention nötig. &lt;/strong&gt;
+        <target><![CDATA[
+					crwdns24804:0crwdne24804:0
 				]]></target>
       </trans-unit>
-      <trans-unit id="dependencyCheck.unresolvedDependencies.question" approved="yes">
+      <trans-unit id="dependencyCheck.unresolvedDependencies.question">
         <source>Are you sure you want to proceed?</source>
-        <target state="translated">Tatsächlich fortfahren?</target>
+        <target>crwdns24806:0crwdne24806:0</target>
       </trans-unit>
-      <trans-unit id="dependencyCheck.unresolvedDependencies.proceed" approved="yes">
+      <trans-unit id="dependencyCheck.unresolvedDependencies.proceed">
         <source>I know what I'm doing, install the extension!</source>
-        <target state="translated">Ich weiß was ich tue, die Erweiterung dennoch installieren!</target>
+        <target>crwdns24808:0crwdne24808:0</target>
       </trans-unit>
-      <trans-unit id="dependencyCheck.headline" approved="yes">
+      <trans-unit id="dependencyCheck.headline">
         <source>The following errors were found while trying to install "%s"</source>
-        <target state="translated">Die folgenden Fehler wurden gefunden als versucht wurde, "%s" zu installieren</target>
+        <target>crwdns24810:0%scrwdne24810:0</target>
       </trans-unit>
-      <trans-unit id="dependencyCheck.requiredExtension" approved="yes">
+      <trans-unit id="dependencyCheck.requiredExtension">
         <source>Required extension "%s"</source>
-        <target state="translated">Benötigte Erweiterung "%s"</target>
+        <target>crwdns24812:0%scrwdne24812:0</target>
       </trans-unit>
-      <trans-unit id="downloadExtension.dependencies.headline" approved="yes">
+      <trans-unit id="downloadExtension.dependencies.headline">
         <source>The following dependencies have to be resolved before installation:
 
 
 				</source>
-        <target state="translated">Die folgenden Abhängigkeiten müssen vor der Installation aufgelöst werden:
+        <target>crwdns24814:0crwdne24814:0
 
 
 				</target>
       </trans-unit>
-      <trans-unit id="downloadExtension.dependencies.extensionWithVersion" approved="yes">
+      <trans-unit id="downloadExtension.dependencies.extensionWithVersion">
         <source>%1$s (new version %2$s)</source>
-        <target state="translated">%1$s (neue Version %2$s)</target>
+        <target>crwdns24816:0%1$scrwdnd24816:0%2$scrwdne24816:0</target>
       </trans-unit>
-      <trans-unit id="downloadExtension.dependencies.typeHeadline" xml:space="preserve" approved="yes">
+      <trans-unit id="downloadExtension.dependencies.typeHeadline" xml:space="preserve">
 				<source>&lt;h3&gt;Extensions marked for %s:&lt;/h3&gt;
 %s
 
 
 				</source>
-			<target state="translated">&lt;h3&gt;Erweiterungen markiert für %s:&lt;/h3&gt;
-%s
+			<target>crwdns24818:0%scrwdnd24818:0%scrwdne24818:0
 
 
 				</target></trans-unit>
-      <trans-unit id="downloadExtension.dependencies.resolveAutomatically" approved="yes">
+      <trans-unit id="downloadExtension.dependencies.resolveAutomatically">
         <source>Shall these dependencies be resolved automatically?</source>
-        <target state="translated">Sollen diese Abhängigkeiten automatisch aufgelöst werden?</target>
+        <target>crwdns24820:0crwdne24820:0</target>
       </trans-unit>
-      <trans-unit id="downloadExtension.dependencies.errorTitle" approved="yes">
+      <trans-unit id="downloadExtension.dependencies.errorTitle">
         <source>Dependencies could not be resolved</source>
-        <target state="translated">Abhängigkeiten konnten nicht aufgelöst werden</target>
+        <target>crwdns24822:0crwdne24822:0</target>
       </trans-unit>
-      <trans-unit id="downloadExtension.dependencies.errorMessage" approved="yes">
+      <trans-unit id="downloadExtension.dependencies.errorMessage">
         <source>The dependencies of the following Extensions could not be resolved</source>
-        <target state="translated">Die Abhängigkeiten der folgenden Erweiterungen konnten nicht aufgelöst werden</target>
+        <target>crwdns24824:0crwdne24824:0</target>
       </trans-unit>
-      <trans-unit id="downloadExtension.dependencyType.download" approved="yes">
+      <trans-unit id="downloadExtension.dependencyType.download">
         <source>download</source>
-        <target state="translated">herunterladen</target>
+        <target>crwdns24826:0crwdne24826:0</target>
       </trans-unit>
-      <trans-unit id="downloadExtension.dependencyType.install" approved="yes">
+      <trans-unit id="downloadExtension.dependencyType.install">
         <source>install</source>
-        <target state="translated">installieren</target>
+        <target>crwdns24828:0crwdne24828:0</target>
       </trans-unit>
-      <trans-unit id="downloadExtension.dependencyType.update" approved="yes">
+      <trans-unit id="downloadExtension.dependencyType.update">
         <source>update</source>
-        <target state="translated">aktualisieren</target>
+        <target>crwdns24830:0crwdne24830:0</target>
       </trans-unit>
-      <trans-unit id="downloadExtension.updateExtension.error" approved="yes">
+      <trans-unit id="downloadExtension.updateExtension.error">
         <source>Error while updating extension</source>
-        <target state="translated">Fehler während der Aktualisierung der Erweiterung</target>
+        <target>crwdns24832:0crwdne24832:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.dependenciesResolveDownloadError.title" approved="yes">
+      <trans-unit id="extensionList.dependenciesResolveDownloadError.title">
         <source>Download Error</source>
-        <target state="translated">Fehler beim Herunterladen</target>
+        <target>crwdns24834:0crwdne24834:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.dependenciesResolveDownloadSuccess.message" approved="yes">
+      <trans-unit id="extensionList.dependenciesResolveDownloadSuccess.message">
         <source>Your installation of {0} was successful.</source>
-        <target state="translated">Die Installation von {0} war erfolgreich.</target>
+        <target>crwdns24836:0{0}crwdne24836:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.dependenciesResolveDownloadSuccess.message.downloadOnly" approved="yes">
+      <trans-unit id="extensionList.dependenciesResolveDownloadSuccess.message.downloadOnly">
         <source>Your download of {0} was successful.</source>
-        <target state="translated">Herunterladen von {0} war erfolgreich.</target>
+        <target>crwdns24838:0{0}crwdne24838:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.dependenciesResolveDownloadSuccess.item" approved="yes">
+      <trans-unit id="extensionList.dependenciesResolveDownloadSuccess.header">
+        <source>Log</source>
+        <target>crwdns24840:0crwdne24840:0</target>
+      </trans-unit>
+      <trans-unit id="extensionList.dependenciesResolveDownloadSuccess.item">
         <source>Extensions</source>
-        <target state="translated">Erweiterungen</target>
+        <target>crwdns24842:0crwdne24842:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.dependenciesResolveFlashMessage.title" approved="yes">
+      <trans-unit id="extensionList.dependenciesResolveFlashMessage.title">
         <source>{0} installed.</source>
-        <target state="translated">{0} installiert.</target>
+        <target>crwdns24844:0{0}crwdne24844:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.dependenciesResolveFlashMessage.title.downloadOnly" approved="yes">
+      <trans-unit id="extensionList.dependenciesResolveFlashMessage.title.downloadOnly">
         <source>{0} downloaded.</source>
-        <target state="translated">{0} heruntergeladen.</target>
+        <target>crwdns24846:0{0}crwdne24846:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.uploadFlashMessage.title" approved="yes">
+      <trans-unit id="extensionList.uploadFlashMessage.title">
         <source>Extension Upload</source>
-        <target state="translated">Erweiterung hochladen</target>
+        <target>crwdns24848:0crwdne24848:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.uploadFlashMessage.message" approved="yes">
+      <trans-unit id="extensionList.uploadFlashMessage.message">
         <source>%s was uploaded!</source>
-        <target state="translated">{0} hochgeladen!</target>
+        <target>crwdns24850:0%scrwdne24850:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.installedFlashMessage.message" approved="yes">
+      <trans-unit id="extensionList.installedFlashMessage.message">
         <source>%s was installed!</source>
-        <target state="translated">%s wurde installiert!</target>
+        <target>crwdns24852:0%scrwdne24852:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.updateFromTerFlashMessage.title" approved="yes">
+      <trans-unit id="extensionList.updateFromTerFlashMessage.title">
         <source>Update Extension List</source>
-        <target state="translated">Aktualisieren der Erweiterungsliste</target>
+        <target>crwdns24854:0crwdne24854:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.downloadViewHelper.submit" approved="yes">
+      <trans-unit id="extensionList.downloadViewHelper.submit">
         <source>Import and Install</source>
-        <target state="translated">Importieren und installieren</target>
+        <target>crwdns24856:0crwdne24856:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.downloadViewHelper.submit.downloadOnly" approved="yes">
+      <trans-unit id="extensionList.downloadViewHelper.submit.downloadOnly">
         <source>Import</source>
-        <target state="translated">Importieren</target>
+        <target>crwdns24858:0crwdne24858:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.showAllVersions.label" approved="yes">
+      <trans-unit id="extensionList.showAllVersions.label">
         <source>Show all versions</source>
-        <target state="translated">Zeige alle Versionen</target>
+        <target>crwdns24860:0crwdne24860:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.showAllVersions.extensionKey" approved="yes">
+      <trans-unit id="extensionList.showAllVersions.extensionKey">
         <source>Extension key</source>
-        <target state="translated">Erweiterungsschlüssel</target>
+        <target>crwdns24862:0crwdne24862:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.showAllVersions.lastUploaded" approved="yes">
+      <trans-unit id="extensionList.showAllVersions.version">
+        <source>Version</source>
+        <target>crwdns24864:0crwdne24864:0</target>
+      </trans-unit>
+      <trans-unit id="extensionList.showAllVersions.lastUploaded">
         <source>Last uploaded</source>
-        <target state="translated">Zuletzt hochgeladen</target>
+        <target>crwdns24866:0crwdne24866:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.showAllVersions.category" approved="yes">
+      <trans-unit id="extensionList.showAllVersions.downloads">
+        <source>Downloads</source>
+        <target>crwdns24868:0crwdne24868:0</target>
+      </trans-unit>
+      <trans-unit id="extensionList.showAllVersions.category">
         <source>Category</source>
-        <target state="translated">Kategorie</target>
+        <target>crwdns24870:0crwdne24870:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.showAllVersions.manual" approved="yes">
+      <trans-unit id="extensionList.showAllVersions.manual">
         <source>Manual</source>
-        <target state="translated">Handbuch</target>
+        <target>crwdns24872:0crwdne24872:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.showAllVersions.author" approved="yes">
+      <trans-unit id="extensionList.showAllVersions.author">
         <source>Author</source>
-        <target state="translated">Autor</target>
+        <target>crwdns24874:0crwdne24874:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.showAllVersions.readOnline" approved="yes">
+      <trans-unit id="extensionList.showAllVersions.readOnline">
         <source>Read online</source>
-        <target state="translated">Online lesen</target>
+        <target>crwdns24876:0crwdne24876:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.remove.message" approved="yes">
+      <trans-unit id="extensionList.remove.message">
         <source>Extension "%s" was removed successfully!</source>
-        <target state="translated">Erweiterung "%s" wurde erfolgreich entfernt!</target>
+        <target>crwdns24878:0%scrwdne24878:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.distribution.key" approved="yes">
+      <trans-unit id="extensionList.distribution.key">
         <source>Key</source>
-        <target state="translated">Distributionsschlüssel</target>
+        <target>crwdns24880:0crwdne24880:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.distribution.author" approved="yes">
+      <trans-unit id="extensionList.distribution.author">
         <source>Author</source>
-        <target state="translated">Autor</target>
+        <target>crwdns24882:0crwdne24882:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.distribution.title" approved="yes">
+      <trans-unit id="extensionList.distribution.title">
         <source>Title</source>
-        <target state="translated">Titel</target>
+        <target>crwdns24884:0crwdne24884:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.distribution.lastUpdated" approved="yes">
+      <trans-unit id="extensionList.distribution.version">
+        <source>Version</source>
+        <target>crwdns24886:0crwdne24886:0</target>
+      </trans-unit>
+      <trans-unit id="extensionList.distribution.downloads">
+        <source>Downloads</source>
+        <target>crwdns24888:0crwdne24888:0</target>
+      </trans-unit>
+      <trans-unit id="extensionList.distribution.lastUpdated">
         <source>Last Update</source>
-        <target state="translated">Letzte Aktualisierung</target>
+        <target>crwdns24890:0crwdne24890:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.showUnsuitableDistributions" approved="yes">
+      <trans-unit id="extensionList.showUnsuitableDistributions">
         <source>Show also distributions that are not suitable for this TYPO3 version</source>
-        <target state="translated">Auch Distributionen anzeigen, die für diese TYPO3-Version nicht geeignet sind</target>
+        <target>crwdns24892:0crwdne24892:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.officialDistribution" approved="yes">
+      <trans-unit id="extensionList.officialDistribution">
         <source>Official distribution</source>
-        <target state="translated">Offizielle Distribution</target>
+        <target>crwdns24894:0crwdne24894:0</target>
       </trans-unit>
-      <trans-unit id="distributions" approved="yes">
+      <trans-unit id="distributions">
         <source>Get preconfigured distribution</source>
-        <target state="translated">Vorkonfigurierte Distribution erhalten</target>
+        <target>crwdns24896:0crwdne24896:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.installDistribution" approved="yes">
+      <trans-unit id="extensionList.installDistribution">
         <source>Install</source>
-        <target state="translated">Distribution installieren</target>
+        <target>crwdns24898:0crwdne24898:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.installImpexp" approved="yes">
+      <trans-unit id="extensionList.installImpexp">
         <source>Please install the Import/Export (impexp) extension to enable distribution support.</source>
-        <target state="translated">Bitte installieren Sie die Import/Export-Erweiterung (impexp), um Distributionen benutzen zu können.</target>
+        <target>crwdns24900:0crwdne24900:0</target>
       </trans-unit>
-      <trans-unit id="distribution.installImpexp" approved="yes">
+      <trans-unit id="distribution.installImpexp">
         <source>Install impexp</source>
-        <target state="translated">impexp installieren</target>
+        <target>crwdns24902:0crwdne24902:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.updateFromTer.label" approved="yes">
+      <trans-unit id="extensionList.updateFromTer.label">
         <source>Retrieving extension list from TYPO3 Extension Repository (TER)...</source>
-        <target state="translated">Empfangen der Erweiterungsliste aus dem TYPO3-Erweiterungs-Repository (TER)...</target>
+        <target>crwdns24904:0crwdne24904:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.updateFromTer.buttonLabel" approved="yes">
+      <trans-unit id="extensionList.updateFromTer.buttonLabel">
         <source>Update now</source>
-        <target state="translated">Jetzt aktualisieren</target>
+        <target>crwdns24906:0crwdne24906:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.updateFromTer.lastUpdate.label" approved="yes">
+      <trans-unit id="extensionList.updateFromTer.lastUpdate.label">
         <source>Last update</source>
-        <target state="translated">Letzte Aktualisierung</target>
+        <target>crwdns24908:0crwdne24908:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.updateFromTer.lastUpdate.timeSinceLastUpdateLabel" approved="yes">
+      <trans-unit id="extensionList.updateFromTer.lastUpdate.timeSinceLastUpdateLabel">
         <source>Time since last update</source>
-        <target state="translated">Zeit seit letzter Aktualisierung</target>
+        <target>crwdns24910:0crwdne24910:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.updateFromTer.lastUpdate.noInfo" approved="yes">
+      <trans-unit id="extensionList.updateFromTer.lastUpdate.noInfo">
         <source>unknown</source>
-        <target state="translated">unbekannt</target>
+        <target>crwdns24912:0crwdne24912:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.updateFromTer.lastUpdate.fullTimeFormat" approved="yes">
+      <trans-unit id="extensionList.updateFromTer.lastUpdate.fullTimeFormat">
         <source>Y-m-d H:i:s</source>
-        <target state="translated">H:i:s am d.m.Y</target>
+        <target>crwdns24914:0crwdne24914:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.updateFromTer.lastUpdate.timeOfLastUpdate" approved="yes">
+      <trans-unit id="extensionList.updateFromTer.lastUpdate.timeOfLastUpdate">
         <source>Time of last update: </source>
-        <target state="translated">Zeit der letzten Aktualisierung: </target>
+        <target>crwdns24916:0crwdne24916:0 </target>
       </trans-unit>
-      <trans-unit id="extensionList.updateFromTer.lastUpdate.noTimeOfLastUpdate" approved="yes">
+      <trans-unit id="extensionList.updateFromTer.lastUpdate.noTimeOfLastUpdate">
         <source>No last update time known.</source>
-        <target state="translated">Zeit der letzten Aktualisierung unbekannt.</target>
+        <target>crwdns24918:0crwdne24918:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.updateFromTer.never" approved="yes">
+      <trans-unit id="extensionList.updateFromTer.never">
         <source>Never</source>
-        <target state="translated">Nie</target>
+        <target>crwdns24920:0crwdne24920:0</target>
       </trans-unit>
-      <trans-unit id="extensionList.uninstall.dependencyError" approved="yes">
+      <trans-unit id="extensionList.uninstall.dependencyError">
         <source>Cannot deactivate extension '%s' - The extension(s) '%s' depend on it.</source>
-        <target state="translated">Erweiterung '%s' kann nicht deaktiviert weil, weil die Erweiterung(en) '%s' auf ihr basieren.</target>
+        <target>crwdns24922:0%scrwdnd24922:0%scrwdne24922:0</target>
       </trans-unit>
-      <trans-unit id="distribution.error.headline" approved="yes">
+      <trans-unit id="distribution.error.headline">
         <source>Could not install distribution '%s'</source>
-        <target state="translated">Distribution '%s' konnte nicht installiert werden</target>
+        <target>crwdns24924:0%scrwdne24924:0</target>
       </trans-unit>
-      <trans-unit id="distribution.welcome.headline" approved="yes">
+      <trans-unit id="distribution.welcome.headline">
         <source>Congratulations...</source>
-        <target state="translated">Herzlichen Glückwunsch...</target>
+        <target>crwdns24926:0crwdne24926:0</target>
       </trans-unit>
-      <trans-unit id="distribution.welcome.message" approved="yes">
+      <trans-unit id="distribution.welcome.message">
         <source>You successfully installed the distribution '%s'</source>
-        <target state="translated">Distribution '%s' wurde erfolgreich installiert</target>
+        <target>crwdns24928:0%scrwdne24928:0</target>
       </trans-unit>
-      <trans-unit id="distribution.welcome.nextSteps" approved="yes">
+      <trans-unit id="distribution.welcome.nextSteps">
         <source>Now you can</source>
-        <target state="translated">Sie können jetzt</target>
+        <target>crwdns24930:0crwdne24930:0</target>
       </trans-unit>
-      <trans-unit id="distribution.welcome.openViewModule" approved="yes">
+      <trans-unit id="distribution.welcome.openViewModule">
         <source>View your website</source>
-        <target state="translated">Ihre Website anzeigen</target>
+        <target>crwdns24932:0crwdne24932:0</target>
       </trans-unit>
-      <trans-unit id="distribution.welcome.openPageModule" approved="yes">
+      <trans-unit id="distribution.welcome.openPageModule">
         <source>Start editing your website</source>
-        <target state="translated">Beginnen, Ihre Website zu bearbeiten</target>
+        <target>crwdns24934:0crwdne24934:0</target>
       </trans-unit>
-      <trans-unit id="distribution.dependency.headline" approved="yes">
+      <trans-unit id="distribution.dependency.headline">
         <source>Dependencies, conflicts and suggestions</source>
-        <target state="translated">Abhängigkeiten, Konflikte und Vorschläge</target>
+        <target>crwdns24936:0crwdne24936:0</target>
       </trans-unit>
-      <trans-unit id="distribution.dependency.identifier" approved="yes">
+      <trans-unit id="distribution.dependency.identifier">
         <source>Identifier</source>
-        <target state="translated">Bezeichner</target>
+        <target>crwdns24938:0crwdne24938:0</target>
       </trans-unit>
-      <trans-unit id="distribution.dependency.type" approved="yes">
+      <trans-unit id="distribution.dependency.type">
         <source>Type</source>
-        <target state="translated">Typ</target>
+        <target>crwdns24940:0crwdne24940:0</target>
       </trans-unit>
-      <trans-unit id="task.updateExtensionListTask.name" approved="yes">
+      <trans-unit id="distribution.dependency.version">
+        <source>Version</source>
+        <target>crwdns24942:0crwdne24942:0</target>
+      </trans-unit>
+      <trans-unit id="task.updateExtensionListTask.name">
         <source>Update extension list</source>
-        <target state="translated">Erweiterungsliste aktualisieren</target>
+        <target>crwdns24944:0crwdne24944:0</target>
       </trans-unit>
-      <trans-unit id="task.updateExtensionListTask.description" approved="yes">
+      <trans-unit id="task.updateExtensionListTask.description">
         <source>Update TER extension list on a regular basis. Once a day is a good interval.</source>
-        <target state="translated">Aktualisieren der TER-Erweiterungsliste in regelmäßigem Interval. Einmal pro Tag ist ein gutes Interval.</target>
+        <target>crwdns24946:0crwdne24946:0</target>
       </trans-unit>
-      <trans-unit id="report.status.mainRepository.title" approved="yes">
+      <trans-unit id="report.status.mainRepository.title">
         <source>Update status of typo3.org main repository extension list</source>
-        <target state="translated">Aktualisierungsstatus der typo3.org Haupt-Repository Erweiterungsliste</target>
+        <target>crwdns24948:0crwdne24948:0</target>
       </trans-unit>
-      <trans-unit id="report.status.mainRepository.notFound.value" approved="yes">
+      <trans-unit id="report.status.mainRepository.notFound.value">
         <source>Error</source>
-        <target state="translated">Fehler</target>
+        <target>crwdns24950:0crwdne24950:0</target>
       </trans-unit>
-      <trans-unit id="report.status.mainRepository.notFound.message" approved="yes">
+      <trans-unit id="report.status.mainRepository.notFound.message">
         <source>The typo3.org extension repository was not found. Please import the main typo3.org extension repository in the install tool wizard.</source>
-        <target state="translated">Das typo3.org Erweiterungsrepository wurde nicht gefunden. Bitte importieren sie das Haupt-typo3.org-Erweiterungsrepository über den Assistenten im Install Tool</target>
+        <target>crwdns24952:0crwdne24952:0</target>
       </trans-unit>
-      <trans-unit id="report.status.mainRepository.notUpToDate.value" approved="yes">
+      <trans-unit id="report.status.mainRepository.notUpToDate.value">
         <source>Extension list is not up to date!</source>
-        <target state="translated">Erweiterungsliste ist nicht aktuell!</target>
+        <target>crwdns24954:0crwdne24954:0</target>
       </trans-unit>
-      <trans-unit id="report.status.mainRepository.notUpToDate.message" approved="yes">
+      <trans-unit id="report.status.mainRepository.notUpToDate.message">
         <source>The Main Repository extension list is older than 7 days. Please update it in the Extension manager or Scheduler.</source>
-        <target state="translated">Die Erweiterungsliste des Haupt-Repository ist älter als 7 Tage. Bitte aktualisieren sie es über den Erweiterungsmanager oder den Planer</target>
+        <target>crwdns24956:0crwdne24956:0</target>
       </trans-unit>
-      <trans-unit id="report.status.loadedExtensions.title" approved="yes">
+      <trans-unit id="report.status.mainRepository.upToDate.value">
+        <source>OK</source>
+        <target>crwdns24958:0crwdne24958:0</target>
+      </trans-unit>
+      <trans-unit id="report.status.loadedExtensions.title">
         <source>Security status of loaded extensions</source>
-        <target state="translated">Sicherheitsstatus der geladenen Erweiterungen</target>
+        <target>crwdns24960:0crwdne24960:0</target>
       </trans-unit>
-      <trans-unit id="report.status.loadedExtensions.insecureExtensionLoaded.value" approved="yes">
+      <trans-unit id="report.status.loadedExtensions.noInsecureExtensionLoaded.value">
+        <source>OK</source>
+        <target>crwdns24962:0crwdne24962:0</target>
+      </trans-unit>
+      <trans-unit id="report.status.loadedExtensions.insecureExtensionLoaded.value">
         <source>%s insecure extension(s) found</source>
-        <target state="translated">%s unsichere Erweiterung(en) gefunden</target>
+        <target>crwdns24964:0%scrwdne24964:0</target>
       </trans-unit>
-      <trans-unit id="report.status.loadedExtensions.insecureExtensionLoaded.message" approved="yes">
+      <trans-unit id="report.status.loadedExtensions.insecureExtensionLoaded.message">
         <source>The following extensions are insecure and usage might damage your system. Please update these extensions as soon as possible or remove them from your system:&lt;br&gt;&lt;br&gt;%s</source>
-        <target state="translated">Die folgenden Erweiterungen sind unsicher und die Verwendung könnte Ihr System gefährden. Bitte aktualisieren Sie diese Erweiterungen so bald wie möglich oder entfernen Sie diese Ihrem System:&lt;br&gt;&lt;br&gt;%s</target>
+        <target>crwdns24966:0%scrwdne24966:0</target>
       </trans-unit>
-      <trans-unit id="report.status.loadedExtensions.insecureExtensionLoaded.message.extension" approved="yes">
+      <trans-unit id="report.status.loadedExtensions.insecureExtensionLoaded.message.extension">
         <source>&lt;strong&gt;%1$s&lt;/strong&gt; (version %2$s)&lt;br&gt;</source>
-        <target state="translated">&lt;strong&gt;%1$s&lt;/strong&gt; (Version %2$s)&lt;br&gt;</target>
+        <target>crwdns24968:0%1$scrwdnd24968:0%2$scrwdne24968:0</target>
       </trans-unit>
-      <trans-unit id="report.status.existingExtensions.title" approved="yes">
+      <trans-unit id="report.status.existingExtensions.title">
         <source>Security status of existing, but not loaded extensions</source>
-        <target state="translated">Sicherheitsstatus von existierenden, aber nicht geladenen Erweiterungen</target>
+        <target>crwdns24970:0crwdne24970:0</target>
       </trans-unit>
-      <trans-unit id="report.status.existingExtensions.insecureExtensionExists.value" approved="yes">
+      <trans-unit id="report.status.existingExtensions.noInsecureExtensionExists.value">
+        <source>OK</source>
+        <target>crwdns24972:0crwdne24972:0</target>
+      </trans-unit>
+      <trans-unit id="report.status.existingExtensions.insecureExtensionExists.value">
         <source>%s insecure extension(s) found</source>
-        <target state="translated">%s unsichere Erweiterung(en) gefunden</target>
+        <target>crwdns24974:0%scrwdne24974:0</target>
       </trans-unit>
-      <trans-unit id="report.status.existingExtensions.insecureExtensionExists.message" approved="yes">
+      <trans-unit id="report.status.existingExtensions.insecureExtensionExists.message">
         <source>The following extensions were found on your system, but are currently not installed. Please delete the extensions using the extension manager:&lt;br&gt;&lt;br&gt;%s</source>
-        <target state="translated">Die folgenden Erweiterungen wurden auf Ihrem System gefunden, aber sind aktuell nicht installiert. Bitte löschen Sie die Erweiterungen über den Erweiterungsmanager:&lt;br&gt;&lt;br&gt;%s</target>
+        <target>crwdns24976:0%scrwdne24976:0</target>
       </trans-unit>
-      <trans-unit id="report.status.existingExtensions.insecureExtensionExists.message.extension" approved="yes">
+      <trans-unit id="report.status.existingExtensions.insecureExtensionExists.message.extension">
         <source>&lt;strong&gt;%1$s&lt;/strong&gt; (version %2$s)&lt;br&gt;</source>
-        <target state="translated">&lt;strong&gt;%1$s&lt;/strong&gt; (Version %2$s)&lt;br&gt;</target>
+        <target>crwdns24978:0%1$scrwdnd24978:0%2$scrwdne24978:0</target>
       </trans-unit>
-      <trans-unit id="report.status.loadedOutdatedExtensions.title" approved="yes">
+      <trans-unit id="report.status.loadedOutdatedExtensions.title">
         <source>Outdated status of loaded extensions</source>
-        <target state="translated">Veraltete Erweiterungen, die geladen sind</target>
+        <target>crwdns24980:0crwdne24980:0</target>
       </trans-unit>
-      <trans-unit id="report.status.loadedOutdatedExtensions.outdatedExtensionLoaded.value" approved="yes">
+      <trans-unit id="report.status.loadedOutdatedExtensions.noOutdatedExtensionLoaded.value">
+        <source>OK</source>
+        <target>crwdns24982:0crwdne24982:0</target>
+      </trans-unit>
+      <trans-unit id="report.status.loadedOutdatedExtensions.outdatedExtensionLoaded.value">
         <source>%s outdated extension(s) found</source>
-        <target state="translated">%s veraltete Erweiterung(en) gefunden</target>
+        <target>crwdns24984:0%scrwdne24984:0</target>
       </trans-unit>
-      <trans-unit id="report.status.loadedOutdatedExtensions.outdatedExtensionLoaded.message" approved="yes">
+      <trans-unit id="report.status.loadedOutdatedExtensions.outdatedExtensionLoaded.message">
         <source>The following extensions are outdated and may not be compatible with your installation. Please make sure these extensions are compatible and ask the extension author to publish updates:&lt;br&gt;&lt;br&gt;%s</source>
-        <target state="translated">Die folgenden Erweiterungen sind veraltet und mit Ihrer Installation möglicherweise nicht kompatibel. Bitte stellen Sie sicher, dass diese Erweiterungen kompatibel sind und bitten Sie den Autor um eine Aktualisierung:&lt;br&gt;&lt;br&gt;%s</target>
+        <target>crwdns24986:0%scrwdne24986:0</target>
       </trans-unit>
-      <trans-unit id="report.status.loadedOutdatedExtensions.outdatedExtensionLoaded.message.extension" approved="yes">
+      <trans-unit id="report.status.loadedOutdatedExtensions.outdatedExtensionLoaded.message.extension">
         <source>&lt;strong&gt;%1$s&lt;/strong&gt; (version %2$s)&lt;br&gt;</source>
-        <target state="translated">&lt;strong&gt;%1$s&lt;/strong&gt; (Version %2$s)&lt;br&gt;</target>
+        <target>crwdns24988:0%1$scrwdnd24988:0%2$scrwdne24988:0</target>
       </trans-unit>
-      <trans-unit id="report.status.existingOutdatedExtensions.title" approved="yes">
+      <trans-unit id="report.status.existingOutdatedExtensions.title">
         <source>Outdated status of existing, but not loaded extensions</source>
-        <target state="translated">Veraltete Erweiterungen, die nicht geladen sind</target>
+        <target>crwdns24990:0crwdne24990:0</target>
       </trans-unit>
-      <trans-unit id="report.status.existingOutdatedExtensions.outdatedExtensionExists.value" approved="yes">
+      <trans-unit id="report.status.existingOutdatedExtensions.noOutdatedExtensionExists.value">
+        <source>OK</source>
+        <target>crwdns24992:0crwdne24992:0</target>
+      </trans-unit>
+      <trans-unit id="report.status.existingOutdatedExtensions.outdatedExtensionExists.value">
         <source>%s outdated extension(s) found</source>
-        <target state="translated">%s veraltete Erweiterung(en) gefunden</target>
+        <target>crwdns24994:0%scrwdne24994:0</target>
       </trans-unit>
-      <trans-unit id="report.status.existingOutdatedExtensions.outdatedExtensionExists.message" approved="yes">
+      <trans-unit id="report.status.existingOutdatedExtensions.outdatedExtensionExists.message">
         <source>The following extensions were found on your system, but are currently not installed. Please make sure they are compatible with your system before installing them:&lt;br&gt;&lt;br&gt;%s</source>
-        <target state="translated">Die folgenden Erweiterungen wurden auf Ihrem System gefunden, sind aber momentan nicht installiert. Bitte stellen Sie sicher, dass sie mit Ihrem System kompatibel sind bevor Sie sie installieren:&lt;br&gt;&lt;br&gt;%s</target>
+        <target>crwdns24996:0%scrwdne24996:0</target>
       </trans-unit>
-      <trans-unit id="report.status.existingOutdatedExtensions.outdatedExtensionExists.message.extension" approved="yes">
+      <trans-unit id="report.status.existingOutdatedExtensions.outdatedExtensionExists.message.extension">
         <source>&lt;strong&gt;%1$s&lt;/strong&gt; (version %2$s)&lt;br&gt;</source>
-        <target state="translated">&lt;strong&gt;%1$s&lt;/strong&gt; (Version %2$s)&lt;br&gt;</target>
+        <target>crwdns24998:0%1$scrwdnd24998:0%2$scrwdne24998:0</target>
       </trans-unit>
-      <trans-unit id="fileHandling.couldNotRemoveDirectory" approved="yes">
+      <trans-unit id="fileHandling.couldNotRemoveDirectory">
         <source>ERROR: Could not remove extension directory "%s". Reasons</source>
-        <target state="translated">FEHLER: Erweiterungsverzeichnis "%s" konnte nicht entfernt werden. Gründe</target>
+        <target>crwdns25000:0%scrwdne25000:0</target>
       </trans-unit>
-      <trans-unit id="fileHandling.couldNotCreateDirectory" approved="yes">
+      <trans-unit id="fileHandling.couldNotCreateDirectory">
         <source>ERROR: Could not create extension directory "%s"!</source>
-        <target state="translated">FEHLER: Erweiterungsverzeichnis "%s" konnte nicht erstellt werden!</target>
+        <target>crwdns25002:0%scrwdne25002:0</target>
       </trans-unit>
-      <trans-unit id="fileHandling.installPathWasNoDirectory" approved="yes">
+      <trans-unit id="fileHandling.installPathWasNoDirectory">
         <source>ERROR: The extension install path "%s" was no directory!</source>
-        <target state="translated">FEHLER: Der Erweiterungsinstallationspfad "%s" war kein Verzeichnis!</target>
+        <target>crwdns25004:0%scrwdne25004:0</target>
       </trans-unit>
-      <trans-unit id="config.automaticInstallation" approved="yes">
+      <trans-unit id="config.automaticInstallation">
         <source>Install extensions automatically after download from TER or file upload</source>
-        <target state="translated">Erweiterungen nach dem Herunterladen aus dem TER oder dem Hochladen der Datei automatisch installieren</target>
+        <target>crwdns25006:0crwdne25006:0</target>
       </trans-unit>
-      <trans-unit id="config.offlineMode" approved="yes">
+      <trans-unit id="config.offlineMode">
         <source>Disable TER connection and hide menu items</source>
-        <target state="translated">Verbindung zum TER deaktivieren und Menüeinträge verbergen</target>
+        <target>crwdns25008:0crwdne25008:0</target>
       </trans-unit>
     </body>
   </file>
