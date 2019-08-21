@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814900" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lowlevel" target-language="fr">
+    <header/>
+    <body>
+      <trans-unit id="typo3ConfVars" approved="yes">
+        <source>$GLOBALS['TYPO3_CONF_VARS'] (Global Configuration)</source>
+        <target state="translated">$GLOBALS['TYPO3_CONF_VARS'] (Configuration globale)</target>
+      </trans-unit>
+      <trans-unit id="tca" approved="yes">
+        <source>$GLOBALS['TCA'] (Table configuration array)</source>
+        <target state="translated">$GLOBALS['TCA'] (Tableau pour la configuration de la table)</target>
+      </trans-unit>
+      <trans-unit id="tcaDescr" approved="yes">
+        <source>$GLOBALS['TCA_DESCR'] (Table Help Description)</source>
+        <target state="translated">$GLOBALS['TCA_DESCR'] (Description pour la table d'aide)</target>
+      </trans-unit>
+      <trans-unit id="beUser" approved="yes">
+        <source>$GLOBALS['BE_USER']-&gt;uc (User Settings)</source>
+        <target state="translated">GLOBALS['BE_USER']-&gt;uc (Préférences utilisateurs)</target>
+      </trans-unit>
+      <trans-unit id="usersettings" approved="yes">
+        <source>$GLOBALS['TYPO3_USER_SETTINGS'] (User Settings Configuration)</source>
+        <target state="translated">$GLOBALS['TYPO3_USER_SETTINGS'] (Configuration des préférences utilisateurs)</target>
+      </trans-unit>
+      <trans-unit id="t3services" approved="yes">
+        <source>$GLOBALS['T3_SERVICES'] (Registered Services)</source>
+        <target state="translated">$GLOBALS['T3_SERVICES'] (Services enregistrés)</target>
+      </trans-unit>
+      <trans-unit id="tbemodules" approved="yes">
+        <source>$GLOBALS['TBE_MODULES'] (BE Modules)</source>
+        <target state="translated">$GLOBALS['TBE_MODULES'] (Modules BE)</target>
+      </trans-unit>
+      <trans-unit id="cropLines" approved="yes">
+        <source>Crop lines</source>
+        <target state="translated">Rogner les lignes</target>
+      </trans-unit>
+      <trans-unit id="variable" approved="yes">
+        <source>Variable</source>
+        <target state="translated">Variable :</target>
+      </trans-unit>
+      <trans-unit id="copyPaste" approved="yes">
+        <source>(Now, copy/paste this value into the configuration file where you can set it. This is all you can do from here...)</source>
+        <target state="translated">(Maintenant, copier / coller cette valeur dans le fichier de configuration où vous pouvez le régler. C'est tout ce que vous pouvez faire à partir d'ici ...)</target>
+      </trans-unit>
+      <trans-unit id="enterSearchPhrase" approved="yes">
+        <source>Enter search phrase</source>
+        <target state="translated">Saisissez vos termes de recherche:</target>
+      </trans-unit>
+      <trans-unit id="search" approved="yes">
+        <source>Search</source>
+        <target state="translated">Recherche</target>
+      </trans-unit>
+      <trans-unit id="useRegExp" approved="yes">
+        <source>Use regular expression (phrase is surrounded by slashes automatically)</source>
+        <target state="translated">Utiliser une expression régulière</target>
+      </trans-unit>
+      <trans-unit id="writeValue" approved="yes">
+        <source>Write value to configuration file</source>
+        <target state="translated">Ecriture du fichier de configuration</target>
+      </trans-unit>
+      <trans-unit id="writeMessage" approved="yes">
+        <source>Following line was added to configuration file (%s): %s%s</source>
+        <target state="translated">La ligne suivante a été ajoutée dans le fichier de configuration (%s): %s%s</target>
+      </trans-unit>
+      <trans-unit id="writeMessageFailed" approved="yes">
+        <source>Write to configuration file failed (%s)!</source>
+        <target state="translated">Impossible d'écrire dans le fichier de configuration (%s)!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
