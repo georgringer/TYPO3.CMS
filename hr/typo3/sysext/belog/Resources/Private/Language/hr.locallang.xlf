@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814781" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="belog" target-language="hr">
+    <header/>
+    <body>
+      <trans-unit id="adminLog" approved="yes">
+        <source>Administration log</source>
+        <target state="translated">Administracijski zapisnik</target>
+      </trans-unit>
+      <trans-unit id="allUsers" approved="yes">
+        <source>[All users]</source>
+        <target state="translated">[Svi korisnici]</target>
+      </trans-unit>
+      <trans-unit id="any" approved="yes">
+        <source>[Any]</source>
+        <target state="translated">[Bilo koji]</target>
+      </trans-unit>
+      <trans-unit id="viaUser" approved="yes">
+        <source>via</source>
+        <target state="translated">putem</target>
+      </trans-unit>
+      <trans-unit id="live" approved="yes">
+        <source>LIVE</source>
+        <target state="translated">UŽIVO</target>
+      </trans-unit>
+      <trans-unit id="draft" approved="yes">
+        <source>Draft</source>
+        <target state="translated">Skica</target>
+      </trans-unit>
+      <trans-unit id="self" approved="yes">
+        <source>Self</source>
+        <target state="translated">Sebe</target>
+      </trans-unit>
+      <trans-unit id="thisWeek" approved="yes">
+        <source>This week</source>
+        <target state="translated">Ovaj tjedan</target>
+      </trans-unit>
+      <trans-unit id="lastWeek" approved="yes">
+        <source>Last week</source>
+        <target state="translated">Prošli tjedan</target>
+      </trans-unit>
+      <trans-unit id="last7Days" approved="yes">
+        <source>Last 7 days</source>
+        <target state="translated">Posljednjih 7 dana</target>
+      </trans-unit>
+      <trans-unit id="thisMonth" approved="yes">
+        <source>This month</source>
+        <target state="translated">Ovaj mjesec</target>
+      </trans-unit>
+      <trans-unit id="lastMonth" approved="yes">
+        <source>Last month</source>
+        <target state="translated">Prošli mjesec</target>
+      </trans-unit>
+      <trans-unit id="last31Days" approved="yes">
+        <source>Last 31 days</source>
+        <target state="translated">Proteklih 31 dan</target>
+      </trans-unit>
+      <trans-unit id="noLimit" approved="yes">
+        <source>No limit</source>
+        <target state="translated">Bez ograničenja</target>
+      </trans-unit>
+      <trans-unit id="userDefined" approved="yes">
+        <source>User defined</source>
+        <target state="translated">Korisnički definirano</target>
+      </trans-unit>
+      <trans-unit id="set" approved="yes">
+        <source>Set</source>
+        <target state="translated">Postavi</target>
+      </trans-unit>
+      <trans-unit id="actionAll" approved="yes">
+        <source>All</source>
+        <target state="translated">Sve</target>
+      </trans-unit>
+      <trans-unit id="actionDatabase" approved="yes">
+        <source>Database</source>
+        <target state="translated">Baza podataka</target>
+      </trans-unit>
+      <trans-unit id="actionFile" approved="yes">
+        <source>File</source>
+        <target state="translated">Datoteka</target>
+      </trans-unit>
+      <trans-unit id="actionCache" approved="yes">
+        <source>Cache</source>
+        <target state="translated">Međuspremnik</target>
+      </trans-unit>
+      <trans-unit id="actionSettings" approved="yes">
+        <source>Settings</source>
+        <target state="translated">Postavke</target>
+      </trans-unit>
+      <trans-unit id="actionLogin" approved="yes">
+        <source>Login</source>
+        <target state="translated">Prijava</target>
+      </trans-unit>
+      <trans-unit id="actionErrors" approved="yes">
+        <source>Errors</source>
+        <target state="translated">Greške</target>
+      </trans-unit>
+      <trans-unit id="changesInFields" approved="yes">
+        <source>Changes in fields: %s.</source>
+        <target state="translated">Promjene u poljima: %s.</target>
+      </trans-unit>
+      <trans-unit id="showHistory" approved="yes">
+        <source>Show History</source>
+        <target state="translated">Prikaži povijest</target>
+      </trans-unit>
+      <trans-unit id="overview" approved="yes">
+        <source>Overview</source>
+        <target state="translated">Pregled</target>
+      </trans-unit>
+      <trans-unit id="timeInfo" approved="yes">
+        <source>These pages have log messages from %s to %s</source>
+        <target state="translated">Ove stranice imaju zapisnike od %s do %s</target>
+      </trans-unit>
+      <trans-unit id="forNonPageRelatedActions" approved="yes">
+        <source>for NON-PAGE related actions</source>
+        <target state="translated">za akcije nevezane uz stranicu</target>
+      </trans-unit>
+      <trans-unit id="forRootLevel" approved="yes">
+        <source>for ROOT LEVEL</source>
+        <target state="translated">za korjensku razinu</target>
+      </trans-unit>
+      <trans-unit id="forPage" approved="yes">
+        <source>for PAGE "%s" (UID: %s)</source>
+        <target state="translated">za stranicu "%s" (UID: %s)</target>
+      </trans-unit>
+      <trans-unit id="logForNonPageRelatedActionsOrRootLevelOrPage" approved="yes">
+        <source>Log %s from %s to %s</source>
+        <target state="translated">Zapisnik %s od %s do %s</target>
+      </trans-unit>
+      <trans-unit id="action_1_1" approved="yes">
+        <source>Insert</source>
+        <target state="translated">Umetni</target>
+      </trans-unit>
+      <trans-unit id="action_1_2" approved="yes">
+        <source>Update</source>
+        <target state="translated">Osvježi</target>
+      </trans-unit>
+      <trans-unit id="action_1_3" approved="yes">
+        <source>Delete</source>
+        <target state="translated">Obriši</target>
+      </trans-unit>
+      <trans-unit id="action_1_4" approved="yes">
+        <source>Move</source>
+        <target state="translated">Provjeri</target>
+      </trans-unit>
+      <trans-unit id="action_1_5" approved="yes">
+        <source>Check</source>
+        <target state="translated">Provjeri</target>
+      </trans-unit>
+      <trans-unit id="msg_1_0_1" approved="yes">
+        <source>Referer host '%s' and server host '%s' did not match!</source>
+        <target state="translated">Preporučitelj '%s' i server '%s' se ne podudaraju!</target>
+      </trans-unit>
+      <trans-unit id="msg_1_1_11" approved="yes">
+        <source>Attempt to insert record on page '%s' (%s) where this table, %s, is not allowed</source>
+        <target state="translated">Pokušaj dodavanja zapisa na stranicu '%s' (%s) gdje tablica %s nije dopuštena</target>
+      </trans-unit>
+      <trans-unit id="msg_1_1_12" approved="yes">
+        <source>Attempt to insert a record on page '%s' (%s) from table '%s' without permissions. Or non-existing page.</source>
+        <target state="translated">Pokušaj dodavanja zapisa na stranicu '%s' (%s) iz tablice '%s' bez dopuštenja ili stranica ne postoji.</target>
+      </trans-unit>
+      <trans-unit id="msg_1_2_1" approved="yes">
+        <source>Attempt to modify table '%s' without permission</source>
+        <target state="translated">Pokušaj uređivanja stranice '%s' bez dopuštenja</target>
+      </trans-unit>
+      <trans-unit id="msg_1_2_2" approved="yes">
+        <source>Attempt to modify record '%s' (%s) without permission. Or non-existing page.</source>
+        <target state="translated">Pokušaj uređivanja zapisa '%s' (%s) bez dopuštenja ili stranica ne postoji.</target>
+      </trans-unit>
+      <trans-unit id="msg_1_2_10" approved="yes">
+        <source>Record '%s' (%s) was updated.</source>
+        <target state="translated">Zapis '%s' (%s) je uređen.</target>
+      </trans-unit>
+      <trans-unit id="msg_1_2_12" approved="yes">
+        <source>MySQL error: '%s' (%s)</source>
+        <target state="translated">MySQL pogreška: '%s' (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_1" approved="yes">
+        <source>Attempt to move record '%s' (%s) to after a non-existing record (uid=%s)</source>
+        <target state="translated">Pokušaj micanja zapisa '%s' (%s) na lokaciju nakon nepostojećeg zapisa (uid=%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_2" approved="yes">
+        <source>Moved record '%s' (%s) to page '%s' (%s)</source>
+        <target state="translated">Zapis '%s' (%s) pomaknut na stranicu '%s' (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_3" approved="yes">
+        <source>Moved record '%s' (%s) from page '%s' (%s)</source>
+        <target state="translated">Zapis '%s' (%s) pomaknut sa stranice '%s' (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_4" approved="yes">
+        <source>Moved record '%s' (%s) on page '%s' (%s)</source>
+        <target state="translated">Zapis '%s' (%s) pomaknut na stranici '%s' (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_10" approved="yes">
+        <source>Attempt to move page '%s' (%s) to inside of its own rootline (at page '%s' (%s))</source>
+        <target state="translated">Pokušaj micanja stranice '%s' (%s) unutar vlastite putanje (na stranicu '%s' (%s))</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_11" approved="yes">
+        <source>Attempt to insert record on page '%s' (%s) where this table, %s, is not allowed</source>
+        <target state="translated">Pokušaj dodavanja zapisa na stranicu '%s' (%s) gdje ova tablica, %s, nije dopuštena</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_12" approved="yes">
+        <source>Attempt to insert a record on page '%s' (%s) from table '%s' without permissions. Or non-existing page.</source>
+        <target state="translated">Pokušaj umetanja zapisa na stranicu '%s' (%s) iz tablice '%s' bez dopušenja ili stranica ne postoji.</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_13" approved="yes">
+        <source>Attempt to move record '%s' (%s) to after another record, although the table has no sorting row.</source>
+        <target state="translated">Pokušaj micanja zapisa '%s' (%s) na lokaciju iza drugog zapisa iako tablica nema informaciju o poretku zapisa.</target>
+      </trans-unit>
+      <trans-unit id="msg_1_4_14" approved="yes">
+        <source>Attempt to move record '%s' (%s) without having permissions to do so</source>
+        <target state="translated">Pokušaj micanja zapisa '%s' (%s) bez dopuštenja</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_1" approved="yes">
+        <source>You cannot change the 'doktype' of page '%s' to the desired value.</source>
+        <target state="translated">Ne možete mijenjati 'doktype' stranice '%s' na željenu vrijednost.</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_2" approved="yes">
+        <source>'doktype' of page '%s' could not be changed because the page contains records from disallowed tables; %s</source>
+        <target state="translated">'doktype' stranice '%s' nije moguće mijenjati jer stranica sadrži zapise iz nedozvoljenih tablica: %s</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_3" approved="yes">
+        <source>Too few items in the list of values. (%s)</source>
+        <target state="translated">Premalo stavki na popisu vrijednosti. (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_10" approved="yes">
+        <source>Could not delete file '%s' (does not exist). (%s)</source>
+        <target state="translated">Nije moguće obrisati datoteku '%s' (ne postoji). (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_11" approved="yes">
+        <source>Copying file '%s' failed!: No destination file (%s) possible!. (%s)</source>
+        <target state="translated">Kopiranje datoteke '%s' nije uspjelo! Odredišna datoteka (%s) nije moguća! (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_12" approved="yes">
+        <source>File extension '%s' is not allowed. (%s)</source>
+        <target state="translated">Datotečni nastavak '%s' nije dopušten. (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_13" approved="yes">
+        <source>File size (%s) of file '%s' exceeds limit (%s). (%s)</source>
+        <target state="translated">Veličina (%s) datoteke '%s' premašuje ograničenje (%s). (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_14" approved="yes">
+        <source>The destination (%s) or the source file (%s) does not exist. (%s)</source>
+        <target state="translated">Odredište (%s) ili izvorna datoteka (%s) ne postoji. (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_15" approved="yes">
+        <source>Copying to file '%s' failed! (%s)</source>
+        <target state="translated">Kopiranje u datoteku '%s' nije uspjelo! (%s)</target>
+      </trans-unit>
+      <trans-unit id="msg_1_5_16" approved="yes">
+        <source>Copying file '%s' failed!: The destination path (%s) may be write protected. Please make it write enabled!. (%s)</source>
+        <target state="translated">Kopiranje datoteke '%s' nije uspjelo: možda je odredišna putanja (%s) zaštićena od pisanja? Molimo Vas da omogućite pisanje u navedenu odredišnu putanju. (%s)</target>
+      </trans-unit>
+      <trans-unit id="type_2" approved="yes">
+        <source>FILE</source>
+        <target state="translated">DATOTEKA</target>
+      </trans-unit>
+      <trans-unit id="action_2_1" approved="yes">
+        <source>Upload</source>
+        <target state="translated">Slanje</target>
+      </trans-unit>
+      <trans-unit id="action_2_2" approved="yes">
+        <source>Copy</source>
+        <target state="translated">Kopiranje</target>
+      </trans-unit>
+      <trans-unit id="action_2_3" approved="yes">
+        <source>Move</source>
+        <target state="translated">Premjesti</target>
+      </trans-unit>
+      <trans-unit id="action_2_4" approved="yes">
+        <source>Delete</source>
+        <target state="translated">Obriši</target>
+      </trans-unit>
+      <trans-unit id="action_2_5" approved="yes">
+        <source>Rename</source>
+        <target state="translated">Preimenuj</target>
+      </trans-unit>
+      <trans-unit id="action_2_6" approved="yes">
+        <source>New</source>
+        <target state="translated">Novo</target>
+      </trans-unit>
+      <trans-unit id="action_2_8" approved="yes">
+        <source>New file</source>
+        <target state="translated">Nova datoteka</target>
+      </trans-unit>
+      <trans-unit id="action_2_9" approved="yes">
+        <source>Edit</source>
+        <target state="translated">Uredi</target>
+      </trans-unit>
+      <trans-unit id="msg_2_9_1" approved="yes">
+        <source>File saved to '%s', bytes: %s, MD5: %s </source>
+        <target state="translated">Datoteka spremljena u '%s', bajtova: %s, MD5: %s </target>
+      </trans-unit>
+      <trans-unit id="type_3" approved="yes">
+        <source>CACHE</source>
+        <target state="translated">MEĐUSPREMNIK</target>
+      </trans-unit>
+      <trans-unit id="action_3_1" approved="yes">
+        <source>Clear Cache</source>
+        <target state="translated">Očisti predmemoriju</target>
+      </trans-unit>
+      <trans-unit id="type_4" approved="yes">
+        <source>EXTENSION</source>
+        <target state="translated">PROŠIRENJE</target>
+      </trans-unit>
+      <trans-unit id="type_5" approved="yes">
+        <source>ERROR</source>
+        <target state="translated">GREŠKA</target>
+      </trans-unit>
+      <trans-unit id="action_5_0" approved="yes">
+        <source>Error handler</source>
+        <target state="translated">Upravitelj grešaka</target>
+      </trans-unit>
+      <trans-unit id="type_254" approved="yes">
+        <source>SETTING</source>
+        <target state="translated">POSTAVKA</target>
+      </trans-unit>
+      <trans-unit id="action_254_1" approved="yes">
+        <source>Change</source>
+        <target state="translated">Promijeni</target>
+      </trans-unit>
+      <trans-unit id="type_255" approved="yes">
+        <source>LOGIN</source>
+        <target state="translated">PRIJAVA</target>
+      </trans-unit>
+      <trans-unit id="action_255_1" approved="yes">
+        <source>LOGIN</source>
+        <target state="translated">PRIJAVA</target>
+      </trans-unit>
+      <trans-unit id="action_255_2" approved="yes">
+        <source>LOGOUT</source>
+        <target state="translated">ODJAVA</target>
+      </trans-unit>
+      <trans-unit id="action_255_3" approved="yes">
+        <source>ATTEMPT</source>
+        <target state="translated">POKUŠAJ</target>
+      </trans-unit>
+      <trans-unit id="chLog_title" approved="yes">
+        <source>Admin Changelog</source>
+        <target state="translated">Administratorski zapisnik promjena</target>
+      </trans-unit>
+      <trans-unit id="chLog_users_0" approved="yes">
+        <source>All users</source>
+        <target state="translated">Svi korisnici</target>
+      </trans-unit>
+      <trans-unit id="chLog_users_-1" approved="yes">
+        <source>Self</source>
+        <target state="translated">Sebe</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_0" approved="yes">
+        <source>This week</source>
+        <target state="translated">Ovaj tjedan</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_1" approved="yes">
+        <source>Last week</source>
+        <target state="translated">Prošli tjedan</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_2" approved="yes">
+        <source>Last 7 days</source>
+        <target state="translated">Posljednjih 7 dana</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_10" approved="yes">
+        <source>This month</source>
+        <target state="translated">Ovaj mjesec</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_11" approved="yes">
+        <source>Last month</source>
+        <target state="translated">Prošli mjesec</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_12" approved="yes">
+        <source>Last 31 days</source>
+        <target state="translated">Proteklih 31 dan</target>
+      </trans-unit>
+      <trans-unit id="chLog_time_20" approved="yes">
+        <source>No limit</source>
+        <target state="translated">Bez ograničenja</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_time" approved="yes">
+        <source>Time</source>
+        <target state="translated">Vrijeme</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_user" approved="yes">
+        <source>User</source>
+        <target state="translated">Korisnik</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_action" approved="yes">
+        <source>Action</source>
+        <target state="translated">Akcija</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_types" approved="yes">
+        <source>Type</source>
+        <target state="translated">Tip</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_table" approved="yes">
+        <source>Table</source>
+        <target state="translated">Tablica</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_details" approved="yes">
+        <source>Details</source>
+        <target state="translated">Detalji</target>
+      </trans-unit>
+      <trans-unit id="chLog_menuUsers" approved="yes">
+        <source>Users</source>
+        <target state="translated">Korisnici</target>
+      </trans-unit>
+      <trans-unit id="chLog_menuTime" approved="yes">
+        <source>Time</source>
+        <target state="translated">Vrijeme</target>
+      </trans-unit>
+      <trans-unit id="systemmessage.errorsInPeriod" approved="yes">
+        <source><![CDATA[We have found %1$d errors. Please check your <a href="%2$s">system log</a>.]]></source>
+        <target state="translated"><![CDATA[Pronašli smo %1$d grešaka. Molimo Vas da provjerite svoj &lt;a href="%2$s"&gt;zapisnik sustava&lt;/a&gt;.]]></target>
+      </trans-unit>
+      <trans-unit id="actions" approved="yes">
+        <source>Actions</source>
+        <target state="translated">Radnje</target>
+      </trans-unit>
+      <trans-unit id="actions.delete" approved="yes">
+        <source>Delete similar errors</source>
+        <target state="translated">Izbriši slične pogreške</target>
+      </trans-unit>
+      <trans-unit id="actions.deleteWarnings" approved="yes">
+        <source>Delete similar warnings</source>
+        <target state="translated">Izbriši slična upozorenja</target>
+      </trans-unit>
+      <trans-unit id="actions.delete.message" approved="yes">
+        <source>Total entries deleted: %1$d</source>
+        <target state="translated">Ukupno izbrisanih radnji: %1$d</target>
+      </trans-unit>
+      <trans-unit id="actions.delete.noRowFound" approved="yes">
+        <source>Log entry could not be found.</source>
+        <target state="translated">Zapis iz zapisnika nije pronađen.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
