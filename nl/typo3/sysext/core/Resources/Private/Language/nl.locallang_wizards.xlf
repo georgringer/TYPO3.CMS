@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814890" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="nl">
+    <header/>
+    <body>
+      <trans-unit id="rte_undoLastChange" approved="yes">
+        <source>Undo/Redo last change (%s ago)</source>
+        <target state="translated">Laatste wijziging ongedaan maken/opnieuw (%s geleden)</target>
+      </trans-unit>
+      <trans-unit id="tsprop" approved="yes">
+        <source>TypoScript property lookup</source>
+        <target state="translated">TypoScript eigenschappen (naslag)</target>
+      </trans-unit>
+      <trans-unit id="tsprop_title" approved="yes">
+        <source>Object title</source>
+        <target state="translated">Objecttitel</target>
+      </trans-unit>
+      <trans-unit id="tsprop_prefix" approved="yes">
+        <source>Object prefix</source>
+        <target state="translated">Objectvoorvoegsel</target>
+      </trans-unit>
+      <trans-unit id="tsprop_mixer_indent" approved="yes">
+        <source>Indent +2</source>
+        <target state="translated">Inspringen +2</target>
+      </trans-unit>
+      <trans-unit id="tsprop_mixer_outdent" approved="yes">
+        <source>Outdent -2</source>
+        <target state="translated">Terugspringen -2</target>
+      </trans-unit>
+      <trans-unit id="tsprop_mixer_wrap" approved="yes">
+        <source>Wrap</source>
+        <target state="translated">Omsluiten</target>
+      </trans-unit>
+      <trans-unit id="tsprop_mixer_transfer" approved="yes">
+        <source>Transfer &amp; Close</source>
+        <target state="translated">Overdragen &amp; Sluiten</target>
+      </trans-unit>
+      <trans-unit id="tsprop_addToList" approved="yes">
+        <source>Add to list...</source>
+        <target state="translated">Toevoegen aan lijst...</target>
+      </trans-unit>
+      <trans-unit id="table_title" approved="yes">
+        <source>Table wizard</source>
+        <target state="translated">Tabelassistent</target>
+      </trans-unit>
+      <trans-unit id="table_smallFields" approved="yes">
+        <source>Small fields</source>
+        <target state="translated">Kleine velden</target>
+      </trans-unit>
+      <trans-unit id="table_addColumn" approved="yes">
+        <source>Add column to the right</source>
+        <target state="translated">Kolom rechts toevoegen</target>
+      </trans-unit>
+      <trans-unit id="table_removeColumn" approved="yes">
+        <source>Remove column</source>
+        <target state="translated">Verwijder kolom</target>
+      </trans-unit>
+      <trans-unit id="table_addRow" approved="yes">
+        <source>Add row below</source>
+        <target state="translated">Rij onder toevoegen</target>
+      </trans-unit>
+      <trans-unit id="table_removeRow" approved="yes">
+        <source>Remove row</source>
+        <target state="translated">Rij verwijderen</target>
+      </trans-unit>
+      <trans-unit id="table_left" approved="yes">
+        <source>Move left</source>
+        <target state="translated">Verplaats naar links</target>
+      </trans-unit>
+      <trans-unit id="table_right" approved="yes">
+        <source>Move right</source>
+        <target state="translated">Verplaats naar rechts</target>
+      </trans-unit>
+      <trans-unit id="table_up" approved="yes">
+        <source>Move up</source>
+        <target state="translated">Verplaats naar boven</target>
+      </trans-unit>
+      <trans-unit id="table_down" approved="yes">
+        <source>Move down</source>
+        <target state="translated">Verplaats naar onderen</target>
+      </trans-unit>
+      <trans-unit id="table_top" approved="yes">
+        <source>Move to top</source>
+        <target state="translated">Verplaats naar boven</target>
+      </trans-unit>
+      <trans-unit id="table_bottom" approved="yes">
+        <source>Move to bottom</source>
+        <target state="translated">Verplaats naar beneden</target>
+      </trans-unit>
+      <trans-unit id="table_start" approved="yes">
+        <source>Move to first column</source>
+        <target state="translated">Verplaats naar eerste kolom</target>
+      </trans-unit>
+      <trans-unit id="table_end" approved="yes">
+        <source>Move to last column</source>
+        <target state="translated">Verplaats naar laatste kolom</target>
+      </trans-unit>
+      <trans-unit id="table_noData" approved="yes">
+        <source>No table,field or uid given</source>
+        <target state="translated">Geen tabel, veld of uid aangegeven</target>
+      </trans-unit>
+      <trans-unit id="forms_title" approved="yes">
+        <source>Forms wizard</source>
+        <target state="translated">Formulierassistent</target>
+      </trans-unit>
+      <trans-unit id="forms_refresh" approved="yes">
+        <source>Refresh without saving</source>
+        <target state="translated">Vernieuwen zonder opslaan</target>
+      </trans-unit>
+      <trans-unit id="forms_type_textarea" approved="yes">
+        <source>Text area</source>
+        <target state="translated">Tekstveld</target>
+      </trans-unit>
+      <trans-unit id="forms_type_input" approved="yes">
+        <source>Input field</source>
+        <target state="translated">Invulveld</target>
+      </trans-unit>
+      <trans-unit id="forms_type_password" approved="yes">
+        <source>Password field</source>
+        <target state="translated">Wachtwoordveld</target>
+      </trans-unit>
+      <trans-unit id="forms_type_file" approved="yes">
+        <source>File upload</source>
+        <target state="translated">Bestandsupload</target>
+      </trans-unit>
+      <trans-unit id="forms_type_check" approved="yes">
+        <source>Check box</source>
+        <target state="translated">Checkbox</target>
+      </trans-unit>
+      <trans-unit id="forms_type_select" approved="yes">
+        <source>Selector box</source>
+        <target state="translated">Selectbox</target>
+      </trans-unit>
+      <trans-unit id="forms_type_radio" approved="yes">
+        <source>Radio buttons</source>
+        <target state="translated">Radioknoppen</target>
+      </trans-unit>
+      <trans-unit id="forms_type_hidden" approved="yes">
+        <source>Hidden value</source>
+        <target state="translated">Verborgen waarde</target>
+      </trans-unit>
+      <trans-unit id="forms_type_submit" approved="yes">
+        <source>Submit Button</source>
+        <target state="translated">Submit knop</target>
+      </trans-unit>
+      <trans-unit id="forms_type_property" approved="yes">
+        <source>Property</source>
+        <target state="translated">Eigenschap</target>
+      </trans-unit>
+      <trans-unit id="forms_required" approved="yes">
+        <source>Required</source>
+        <target state="translated">Verplicht</target>
+      </trans-unit>
+      <trans-unit id="forms_fieldName" approved="yes">
+        <source>Field</source>
+        <target state="translated">Veld</target>
+      </trans-unit>
+      <trans-unit id="forms_cols" approved="yes">
+        <source>Columns</source>
+        <target state="translated">Kolommen</target>
+      </trans-unit>
+      <trans-unit id="forms_rows" approved="yes">
+        <source>Rows</source>
+        <target state="translated">Rijen</target>
+      </trans-unit>
+      <trans-unit id="forms_size" approved="yes">
+        <source>Size</source>
+        <target state="translated">Grootte</target>
+      </trans-unit>
+      <trans-unit id="forms_autosize" approved="yes">
+        <source>Auto size</source>
+        <target state="translated">Automatisch aanpassen</target>
+      </trans-unit>
+      <trans-unit id="forms_extra" approved="yes">
+        <source>No Wrap</source>
+        <target state="translated">Niet afbreken</target>
+      </trans-unit>
+      <trans-unit id="forms_default" approved="yes">
+        <source>Value</source>
+        <target state="translated">Waarde</target>
+      </trans-unit>
+      <trans-unit id="forms_multiple" approved="yes">
+        <source>Multiple</source>
+        <target state="translated">Meervoudig</target>
+      </trans-unit>
+      <trans-unit id="forms_options" approved="yes">
+        <source>List options</source>
+        <target state="translated">Opties tonen</target>
+      </trans-unit>
+      <trans-unit id="forms_checked" approved="yes">
+        <source>Checked</source>
+        <target state="translated">Gemarkeerd</target>
+      </trans-unit>
+      <trans-unit id="forms_preview" approved="yes">
+        <source>Preview of element</source>
+        <target state="translated">Voortonen van element</target>
+      </trans-unit>
+      <trans-unit id="forms_config" approved="yes">
+        <source>Detailed configuration</source>
+        <target state="translated">Gedetailleerde configuratie</target>
+      </trans-unit>
+      <trans-unit id="forms_eform_subject" approved="yes">
+        <source>Subject</source>
+        <target state="translated">Betreft</target>
+      </trans-unit>
+      <trans-unit id="forms_eform_recipient" approved="yes">
+        <source>Recipient email</source>
+        <target state="translated">Emailadres ontvanger</target>
+      </trans-unit>
+      <trans-unit id="forms_eform_html_enabled" approved="yes">
+        <source>HTML mode enabled</source>
+        <target state="translated">HTML-modus geactiveerd</target>
+      </trans-unit>
+      <trans-unit id="forms_eform_formtype_mail" approved="yes">
+        <source>Send button label</source>
+        <target state="translated">Verstuurknop label</target>
+      </trans-unit>
+      <trans-unit id="forms_special_eform" approved="yes">
+        <source>Special configuration for mail forms</source>
+        <target state="translated">Speciale configuratie voor emailformulieren</target>
+      </trans-unit>
+      <trans-unit id="colorpicker_title" approved="yes">
+        <source>Color Picker</source>
+        <target state="translated">Kleurenkiezer</target>
+      </trans-unit>
+      <trans-unit id="colorpicker_setClose" approved="yes">
+        <source>Save and Close</source>
+        <target state="translated">Opslaan en Sluiten</target>
+      </trans-unit>
+      <trans-unit id="colorpicker_colorValue" approved="yes">
+        <source>Selected Color</source>
+        <target state="translated">Geselecteerde kleur</target>
+      </trans-unit>
+      <trans-unit id="colorpicker_fromImage" approved="yes">
+        <source>Capture color from image (click on image)</source>
+        <target state="translated">Kleur uit afbeelding overnemen (klik op afbeelding)</target>
+      </trans-unit>
+      <trans-unit id="colorpicker_fromMatrix" approved="yes">
+        <source>Select color from matrix (websafe colors)</source>
+        <target state="translated">Kleur uit de matrix kiezen (web-veilige kleuren):</target>
+      </trans-unit>
+      <trans-unit id="colorpicker_fromList" approved="yes">
+        <source>Select HTML color name</source>
+        <target state="translated">HTML kleurnaam kiezen</target>
+      </trans-unit>
+      <trans-unit id="colorpicker_black" approved="yes">
+        <source>BLACK</source>
+        <target state="translated">ZWART</target>
+      </trans-unit>
+      <trans-unit id="colorpicker_white" approved="yes">
+        <source>WHITE</source>
+        <target state="translated">WIT</target>
+      </trans-unit>
+      <trans-unit id="grid_windowTitle" approved="yes">
+        <source>Set cell name and column number</source>
+        <target state="translated">Stel celnaam en kolomnummer in</target>
+      </trans-unit>
+      <trans-unit id="grid_labelName" approved="yes">
+        <source>Name</source>
+        <target state="translated">Naam</target>
+      </trans-unit>
+      <trans-unit id="grid_labelColumn" approved="yes">
+        <source>Column Number</source>
+        <target state="translated">Kolomnummer</target>
+      </trans-unit>
+      <trans-unit id="grid_labelSave" approved="yes">
+        <source>Save to cell</source>
+        <target state="translated">Opslaan naar cel</target>
+      </trans-unit>
+      <trans-unit id="grid_addColumn" approved="yes">
+        <source>Add column</source>
+        <target state="translated">Kolom toevoegen</target>
+      </trans-unit>
+      <trans-unit id="grid_removeColumn" approved="yes">
+        <source>Remove column</source>
+        <target state="translated">Kolom verwijderen</target>
+      </trans-unit>
+      <trans-unit id="grid_addRow" approved="yes">
+        <source>Add row</source>
+        <target state="translated">Rij toevoegen</target>
+      </trans-unit>
+      <trans-unit id="grid_removeRow" approved="yes">
+        <source>Remove row</source>
+        <target state="translated">Rij verwijderen</target>
+      </trans-unit>
+      <trans-unit id="grid_editCell" approved="yes">
+        <source>Edit cell</source>
+        <target state="translated">Cel bewerken</target>
+      </trans-unit>
+      <trans-unit id="grid_mergeCell" approved="yes">
+        <source>Combine with next cell</source>
+        <target state="translated">Combineer met volgende cel</target>
+      </trans-unit>
+      <trans-unit id="grid_splitCell" approved="yes">
+        <source>Split cell</source>
+        <target state="translated">Cel delen</target>
+      </trans-unit>
+      <trans-unit id="grid_name" approved="yes">
+        <source>Name</source>
+        <target state="translated">Naam</target>
+      </trans-unit>
+      <trans-unit id="grid_column" approved="yes">
+        <source>Column number</source>
+        <target state="translated">Kolomnummer</target>
+      </trans-unit>
+      <trans-unit id="grid_notSet" approved="yes">
+        <source>not set</source>
+        <target state="translated">niet ingesteld</target>
+      </trans-unit>
+      <trans-unit id="grid_nameHelp" approved="yes">
+        <source>Enter a name for the cell.</source>
+        <target state="translated">Naam ingeven voor de cel</target>
+      </trans-unit>
+      <trans-unit id="grid_columnHelp" approved="yes">
+        <source>The column position defines in which area the content is rendered in the frontend.</source>
+        <target state="translated">De kolompositie bepaalt in welk gebied de content in de frontend wordt gerenderd.</target>
+      </trans-unit>
+      <trans-unit id="imwizard.open-editor" approved="yes">
+        <source>Open Editor</source>
+        <target state="translated">Editor openen</target>
+      </trans-unit>
+      <trans-unit id="imwizard.supported-types-message" approved="yes">
+        <source>Image manipulation is only available for supported types</source>
+        <target state="translated">Beeldbewerking is alleen beschikbaar voor ondersteunde types</target>
+      </trans-unit>
+      <trans-unit id="imwizard.no-image-dimensions" approved="yes">
+        <source>No image dimensions could be determined.</source>
+        <target state="translated">Maten van afbeelding konden niet vastgesteld worden.</target>
+      </trans-unit>
+      <trans-unit id="imwizard.no-image-dimensions-message" approved="yes">
+        <source>Unable to provide image manipulation, because original dimensions of the image are unknown.</source>
+        <target state="translated">Beeldbewerking niet mogelijk omdat de originele maten van de afbeelding niet bekend zijn.</target>
+      </trans-unit>
+      <trans-unit id="imwizard.image-manipulation" approved="yes">
+        <source>Image manipulation</source>
+        <target state="translated">Afbeeldingmanipulatie</target>
+      </trans-unit>
+      <trans-unit id="imwizard.image-title" approved="yes">
+        <source>Title</source>
+        <target state="translated">Titel</target>
+      </trans-unit>
+      <trans-unit id="imwizard.original-dimensions" approved="yes">
+        <source>Original dimensions</source>
+        <target state="translated">Oorspronkelijke afmetingen</target>
+      </trans-unit>
+      <trans-unit id="imwizard.reset" approved="yes">
+        <source>Reset</source>
+        <target state="translated">Resetten</target>
+      </trans-unit>
+      <trans-unit id="imwizard.accept" approved="yes">
+        <source>Accept</source>
+        <target state="translated">Accepteren</target>
+      </trans-unit>
+      <trans-unit id="imwizard.cancel" approved="yes">
+        <source>Cancel</source>
+        <target state="translated">Annuleren</target>
+      </trans-unit>
+      <trans-unit id="imwizard.preview" approved="yes">
+        <source>Preview</source>
+        <target state="translated">Voorbeeld</target>
+      </trans-unit>
+      <trans-unit id="imwizard.aspect-ratio" approved="yes">
+        <source>Aspect ratio</source>
+        <target state="translated">Beeldverhouding</target>
+      </trans-unit>
+      <trans-unit id="imwizard.set-aspect-ratio" approved="yes">
+        <source>Set Aspect Ratio</source>
+        <target state="translated">Stel beeldverhouding in</target>
+      </trans-unit>
+      <trans-unit id="imwizard.ratio.free" approved="yes">
+        <source>Free</source>
+        <target state="translated">Vrij</target>
+      </trans-unit>
+      <trans-unit id="imwizard.crop_variant.default" approved="yes">
+        <source>Default</source>
+        <target state="translated">Standaard</target>
+      </trans-unit>
+      <trans-unit id="imwizard.crop_variant.social" approved="yes">
+        <source>Social media</source>
+        <target state="translated">Sociale media</target>
+      </trans-unit>
+      <trans-unit id="imwizard.selection" approved="yes">
+        <source>Selected Size</source>
+        <target state="translated">Geselecteerde Grootte</target>
+      </trans-unit>
+      <trans-unit id="imwizard.crop-width" approved="yes">
+        <source>width</source>
+        <target state="translated">breedte</target>
+      </trans-unit>
+      <trans-unit id="imwizard.crop-height" approved="yes">
+        <source>height</source>
+        <target state="translated">hoogte</target>
+      </trans-unit>
+      <trans-unit id="localizationStateSelector.header" approved="yes">
+        <source>Translation behavior</source>
+        <target state="translated">Gedrag van vertaling</target>
+      </trans-unit>
+      <trans-unit id="localizationStateSelector.customValue" approved="yes">
+        <source>Custom value</source>
+        <target state="translated">Aangepaste waarde</target>
+      </trans-unit>
+      <trans-unit id="localizationStateSelector.defaultLanguageValue" approved="yes">
+        <source>Value of default language</source>
+        <target state="translated">Waarde van standaardtaal</target>
+      </trans-unit>
+      <trans-unit id="localizationStateSelector.sourceLanguageValue" approved="yes">
+        <source>Value of %1s language</source>
+        <target state="translated">Waarde van taal %1s</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
