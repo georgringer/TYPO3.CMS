@@ -1,75 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415814992" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="sv" target-language="de">
+  <file t3:id="1415814992" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="sv" target-language="de-AT">
     <header/>
     <body>
-      <trans-unit id="report_title" approved="yes">
+      <trans-unit id="report_title">
         <source>Installed Services</source>
-        <target state="translated">Installierte Dienste</target>
+        <target>crwdns29976:0crwdne29976:0</target>
       </trans-unit>
-      <trans-unit id="report_description" approved="yes">
+      <trans-unit id="report_description">
         <source>List of all installed services with information and status for each of them.</source>
-        <target state="translated">Liste aller installierten Dienste mit Angaben zum Status und weiteren Informationen.</target>
+        <target>crwdns29978:0crwdne29978:0</target>
       </trans-unit>
-      <trans-unit id="report_explanation" approved="yes">
+      <trans-unit id="report_explanation">
         <source>This report displays a list of installed services, with detailed information about each of them. The services are ordered by type, priority and quality. Unavailable services are highlighted with an error status.</source>
-        <target state="translated">Dieser Bericht zeigt eine Liste der installierten Dienste mit detaillierten Informationen zu jedem Dienst. Die Dienste sind nach Typ, Priorität und Qualität sortiert. Dienste, die nicht verfügbar sind, sind mit einem Statusfehler hervorgehoben.</target>
+        <target>crwdns29980:0crwdne29980:0</target>
       </trans-unit>
-      <trans-unit id="externals_explanation" approved="yes">
+      <trans-unit id="externals_explanation">
         <source>The "Externals" column shows which external programs a given service relies on. If such program is missing or not executable, the service will be unavailable. Search paths for executables are listed at the bottom of this report.</source>
-        <target state="translated">Die Spalte "Extern" zeigt an, welche externen Programme ein Dienst benötigt. Wenn ein benötigtes Programm fehlt oder nicht ausführbar ist, ist der Dienst nicht verfügbar. Die Suchpfade für ausführbare Programme sind unten aufgelistet.</target>
+        <target>crwdns29982:0crwdne29982:0</target>
       </trans-unit>
-      <trans-unit id="service_type" approved="yes">
+      <trans-unit id="service_type">
         <source>Service type: %s</source>
-        <target state="translated">Diensttyp: %s</target>
+        <target>crwdns29984:0%scrwdne29984:0</target>
       </trans-unit>
-      <trans-unit id="service" approved="yes">
+      <trans-unit id="service">
         <source>Service</source>
-        <target state="translated">Dienst</target>
+        <target>crwdns29986:0crwdne29986:0</target>
       </trans-unit>
-      <trans-unit id="description" approved="yes">
+      <trans-unit id="description">
         <source>Description</source>
-        <target state="translated">Beschreibung</target>
+        <target>crwdns29988:0crwdne29988:0</target>
       </trans-unit>
-      <trans-unit id="priority" approved="yes">
+      <trans-unit id="priority">
         <source>Priority</source>
-        <target state="translated">Priorität</target>
+        <target>crwdns29990:0crwdne29990:0</target>
       </trans-unit>
-      <trans-unit id="quality" approved="yes">
+      <trans-unit id="quality">
         <source>Quality</source>
-        <target state="translated">Qualität</target>
+        <target>crwdns29992:0crwdne29992:0</target>
       </trans-unit>
-      <trans-unit id="subtypes" approved="yes">
+      <trans-unit id="subtypes">
         <source>Subtypes</source>
-        <target state="translated">Untertypen</target>
+        <target>crwdns29994:0crwdne29994:0</target>
       </trans-unit>
-      <trans-unit id="externals" approved="yes">
+      <trans-unit id="os">
+        <source>OS</source>
+        <target>crwdns29996:0crwdne29996:0</target>
+      </trans-unit>
+      <trans-unit id="externals">
         <source>Externals</source>
-        <target state="translated">Extern</target>
+        <target>crwdns29998:0crwdne29998:0</target>
       </trans-unit>
-      <trans-unit id="available" approved="yes">
+      <trans-unit id="available">
         <source>Available</source>
-        <target state="translated">Verfügbar</target>
+        <target>crwdns30000:0crwdne30000:0</target>
       </trans-unit>
-      <trans-unit id="any" approved="yes">
+      <trans-unit id="any">
         <source>Any</source>
-        <target state="translated">Alle</target>
+        <target>crwdns30002:0crwdne30002:0</target>
       </trans-unit>
-      <trans-unit id="search_paths" approved="yes">
+      <trans-unit id="search_paths">
         <source>Configured search paths for external programs</source>
-        <target state="translated">Festgelegte Suchpfade für externe Programme</target>
+        <target>crwdns30004:0crwdne30004:0</target>
       </trans-unit>
-      <trans-unit id="path" approved="yes">
+      <trans-unit id="path">
         <source>Path</source>
-        <target state="translated">Pfad</target>
+        <target>crwdns30006:0crwdne30006:0</target>
       </trans-unit>
-      <trans-unit id="valid" approved="yes">
+      <trans-unit id="valid">
         <source>Valid</source>
-        <target state="translated">Gültig</target>
+        <target>crwdns30008:0crwdne30008:0</target>
       </trans-unit>
-      <trans-unit id="no_search_paths" approved="yes">
+      <trans-unit id="no_search_paths">
         <source>No search paths configured.</source>
-        <target state="translated">Keine Suchpfade festgelegt.</target>
+        <target>crwdns30010:0crwdne30010:0</target>
       </trans-unit>
     </body>
   </file>
