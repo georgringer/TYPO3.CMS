@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1522785604" source-language="en" datatype="plaintext" original="messages" date="2018-02-27T22:22:32Z" product-name="backend" target-language="da">
+    <header/>
+    <body>
+      <trans-unit id="site.ctrl.title" approved="yes">
+        <source>Site Configuration</source>
+        <target state="translated">Site konfiguration</target>
+      </trans-unit>
+      <trans-unit id="site.identifier" approved="yes">
+        <source>Site Identifier</source>
+        <target state="translated">Site identifikator</target>
+      </trans-unit>
+      <trans-unit id="site.rootPageId" approved="yes">
+        <source>Root Page ID</source>
+        <target state="translated">Siden rod ID</target>
+      </trans-unit>
+      <trans-unit id="site.base" approved="yes">
+        <source>Entry Point</source>
+        <target state="translated">Adgangspunkt</target>
+      </trans-unit>
+      <trans-unit id="site.baseVariants" approved="yes">
+        <source>Variants for the Entry Point</source>
+        <target state="translated">Varianter for startpunktet</target>
+      </trans-unit>
+      <trans-unit id="site.languages" approved="yes">
+        <source>Available Languages for this Site</source>
+        <target state="translated">Tilgængelige sprog for dette site</target>
+      </trans-unit>
+      <trans-unit id="site.errorHandling" approved="yes">
+        <source>Error Handling</source>
+        <target state="translated">Fejlhåndtering</target>
+      </trans-unit>
+      <trans-unit id="site.routes.irreHeader.redirectsTo" approved="yes">
+        <source>redirects to</source>
+        <target state="translated">videresendes til</target>
+      </trans-unit>
+      <trans-unit id="site.tab.languages" approved="yes">
+        <source>Languages</source>
+        <target state="translated">Sprog</target>
+      </trans-unit>
+      <trans-unit id="site.tab.errorHandling" approved="yes">
+        <source>Error Handling</source>
+        <target state="translated">Fejlhåndtering</target>
+      </trans-unit>
+      <trans-unit id="site.tab.routes" approved="yes">
+        <source>Static Routes</source>
+        <target state="translated">Statisk routes</target>
+      </trans-unit>
+      <trans-unit id="site_language.palette.locales" approved="yes">
+        <source>Locales</source>
+        <target state="translated">Landeindstillinger</target>
+      </trans-unit>
+      <trans-unit id="site_language.palette.frontend" approved="yes">
+        <source>Frontend related</source>
+        <target state="translated">Frontend relateret</target>
+      </trans-unit>
+      <trans-unit id="site_language.ctrl.title" approved="yes">
+        <source>Language Configuration for a Site</source>
+        <target state="translated">Sprog-konfiguration for et site</target>
+      </trans-unit>
+      <trans-unit id="site_language.languageId" approved="yes">
+        <source>Language ID</source>
+        <target state="translated">Sprog ID</target>
+      </trans-unit>
+      <trans-unit id="site_language.title" approved="yes">
+        <source>Title</source>
+        <target state="translated">Titel</target>
+      </trans-unit>
+      <trans-unit id="site_language.navigationTitle" approved="yes">
+        <source>Navigation Title</source>
+        <target state="translated">Navigationstitel</target>
+      </trans-unit>
+      <trans-unit id="site_language.base" approved="yes">
+        <source>Entry Point</source>
+        <target state="translated">Adgangspunkt</target>
+      </trans-unit>
+      <trans-unit id="site_language.locale" approved="yes">
+        <source>Locale</source>
+        <target state="translated">Landeindstilling</target>
+      </trans-unit>
+      <trans-unit id="site_language.iso-639-1" approved="yes">
+        <source>Two Letter ISO Code</source>
+        <target state="translated">To bogstavers ISO kode</target>
+      </trans-unit>
+      <trans-unit id="site_language.hreflang" approved="yes">
+        <source>Language Tag defined by RFC 1766 / 3066</source>
+        <target state="translated">Sprog-tag defineret af RFC 1766 / 3066</target>
+      </trans-unit>
+      <trans-unit id="site_language.enabled" approved="yes">
+        <source>Visible in Frontend</source>
+        <target state="translated">Synlig i frontend</target>
+      </trans-unit>
+      <trans-unit id="site_language.direction" approved="yes">
+        <source>Direction</source>
+        <target state="translated">Sprogretning</target>
+      </trans-unit>
+      <trans-unit id="site_language.typo3Language" approved="yes">
+        <source>Language Key for XLF Files</source>
+        <target state="translated">Sprognøgle for XLF filer</target>
+      </trans-unit>
+      <trans-unit id="site_language.flag" approved="yes">
+        <source>Flag icon</source>
+        <target state="translated">Flag-ikon</target>
+      </trans-unit>
+      <trans-unit id="site_language.fallbackType" approved="yes">
+        <source>Fallback Type</source>
+        <target state="translated">Fallback-type</target>
+      </trans-unit>
+      <trans-unit id="site_language.fallbacks" approved="yes">
+        <source>Fallback to other Language(s) - order is important!</source>
+        <target state="translated">Fallback til andre sprog - rækkefølgen er vigtig!</target>
+      </trans-unit>
+      <trans-unit id="site_base_variant.condition" approved="yes">
+        <source>Condition</source>
+        <target state="translated">Tilstand</target>
+      </trans-unit>
+      <trans-unit id="site_base_variant.condition.applicationContext" approved="yes">
+        <source>Application Context</source>
+        <target state="translated">Applikationsindhold</target>
+      </trans-unit>
+      <trans-unit id="site_base_variant.condition.environmentVariable" approved="yes">
+        <source>Environment Variable</source>
+        <target state="translated">Miljøvariabel</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.ctrl.title" approved="yes">
+        <source>Error Handling</source>
+        <target state="translated">Fejlhåndtering</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.tab.rootpaths" approved="yes">
+        <source>Root Paths (optional)</source>
+        <target state="translated">Rodsti (valgfri)</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorCode" approved="yes">
+        <source>HTTP Error Status Code</source>
+        <target state="translated">HTTP fejl statuskode</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorCode.404" approved="yes">
+        <source>404 (Page not found)</source>
+        <target state="translated">404 (side ikke fundet)</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorCode.403" approved="yes">
+        <source>403 (Forbidden)</source>
+        <target state="translated">403 (forbudt)</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorCode.500" approved="yes">
+        <source>500 (Internal Server Error)</source>
+        <target state="translated">500 (intern serverfejl)</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorCode.503" approved="yes">
+        <source>503 (Service Unavailable)</source>
+        <target state="translated">503 (service utilgængelig)</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorCode.0" approved="yes">
+        <source>any error not defined otherwise</source>
+        <target state="translated">ellers, andre fejl ikke defineret</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorHandler" approved="yes">
+        <source>How to handle Errors</source>
+        <target state="translated">Hvordan håndteres fejl</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorHandler.fluid" approved="yes">
+        <source>Fluid Template</source>
+        <target state="translated">Fluid skabelon</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorHandler.page" approved="yes">
+        <source>Show Content from Page</source>
+        <target state="translated">Vis indhold fra side</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorHandler.php" approved="yes">
+        <source>PHP Class (must implement the PageErrorHandlerInterface)</source>
+        <target state="translated">PHP Class (skal implementere PageErrorHandlerInterface)</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorFluidTemplate" approved="yes">
+        <source>Fluid Template File</source>
+        <target state="translated">Fluid skabelonfil</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorFluidTemplatesRootPath" approved="yes">
+        <source>Fluid Templates Root Path</source>
+        <target state="translated">Fluid skabelon rodsti</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorFluidLayoutsRootPath" approved="yes">
+        <source>Fluid Layouts Root Path</source>
+        <target state="translated">Fluid layout rodsti</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorFluidPartialsRootPath" approved="yes">
+        <source>Fluid Partials Root Path</source>
+        <target state="translated">Fluid partial rodsti</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorContentSource" approved="yes">
+        <source>Show Content from Page</source>
+        <target state="translated">Vis indhold fra side</target>
+      </trans-unit>
+      <trans-unit id="site_route.type" approved="yes">
+        <source>Route Type</source>
+        <target state="translated">Routetype</target>
+      </trans-unit>
+      <trans-unit id="site_route.staticText" approved="yes">
+        <source>Static Text</source>
+        <target state="translated">Statisk tekst</target>
+      </trans-unit>
+      <trans-unit id="site_route.staticText.example1" approved="yes">
+        <source>robots.txt Example Content</source>
+        <target state="translated">robots.txt eksempelindhold</target>
+      </trans-unit>
+      <trans-unit id="site_route.source" approved="yes">
+        <source>Page, File or URL</source>
+        <target state="translated">Side, Fil eller URL</target>
+      </trans-unit>
+      <trans-unit id="site_route.route" approved="yes">
+        <source>Static Route Name</source>
+        <target state="translated">Statisk routenavn</target>
+      </trans-unit>
+      <trans-unit id="site_route.route.placeholder" approved="yes">
+        <source>my-custom_route</source>
+        <target state="translated">min-custom_rute</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
