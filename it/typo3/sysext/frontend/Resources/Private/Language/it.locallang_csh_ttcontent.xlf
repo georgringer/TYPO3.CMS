@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814794" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="context_help" target-language="it">
+    <header/>
+    <body>
+      <trans-unit id=".description" approved="yes">
+        <source>All visible content on webpages is typically made by "Page Content" records, often referred to as "Content Elements". Content Elements are managed by the "Page" Module which organizes Content Elements in multiple columns and languages.</source>
+        <target state="translated">Tutti i contenuti visibili nelle pagine web sono solitamente creati tramite i record "Page Content", che spesso viene definiti come "Elemento di Contenuto". Gli elementi di contenuto sono gestiti tramite il modulo "Page" che li organizza in colonne multiple e lingua.</target>
+      </trans-unit>
+      <trans-unit id="_.seeAlso" xml:space="preserve" approved="yes">
+				<source>Page Content Principles | https://docs.typo3.org/typo3cms/GettingStartedTutorial/GeneralPrinciples/PageContent/,
+_MOD_web_layout</source>
+			<target state="translated">Principi di Page Content | https://docs.typo3.org/typo3cms/GettingStartedTutorial/GeneralPrinciples/PageContent/,
+_MOD_web_layout</target></trans-unit>
+      <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
+				<source>The Page Module is used to manage Content Elements arranged in columns and languages.
+A Content Element has an editing form with many options. The "Type" determines which options are visible.
+In the Frontend, a Content Element like the above could look like this.</source>
+			<target state="translated">Il modulo Pagina è usato per gestire gli elementi di contenuto disposti in colonne e lingue.
+Un elemento di contenuto ha un modulo per la modifica con varie opzioni. Il "Tipo" definisce quali opzioni saranno visibili.
+Nel fronted un elemento di contenuto puo' apparire simile a quello sopra.</target></trans-unit>
+      <trans-unit id="CType.description" approved="yes">
+        <source>Select the kind of Page Content this element represents. New options will appear when you save the record.</source>
+        <target state="translated">Selezionare il tipo di Page Content che l'elemento rappresenta. Nuove opzioni appariranno qando il record viene salvato.</target>
+      </trans-unit>
+      <trans-unit id="hidden.description" approved="yes">
+        <source>Check this box if you wish to disable the Content Element and keep it from being displayed on the website.</source>
+        <target state="translated">Seleziona questa casella se desideri disabilitate l'elemento di contenuto ed escluderlo dalla visualizzazione nel sito web.</target>
+      </trans-unit>
+      <trans-unit id="starttime.description" approved="yes">
+        <source>Enter the date when the Content Element should be published and displayed on the website.</source>
+        <target state="translated">Inserire la data a partire dalla quale il contenuto sarà pubblicato e quindi visibile nel sito web.</target>
+      </trans-unit>
+      <trans-unit id="endtime.description" approved="yes">
+        <source>Enter the date when the Content Element should expire and disappear from the website.</source>
+        <target state="translated">Inserire la data a partire dalla quale il contenuto scadrà e quindi sparirà dal sito web, non essendo più visibile.</target>
+      </trans-unit>
+      <trans-unit id="sys_language_uid.description" approved="yes">
+        <source>Select the system language of this Content Element. &lt;strong&gt;Notice:&lt;/strong&gt; This will affect the Content Element visibility by limiting it to a certain language.</source>
+        <target state="translated">Selezionare la lingua di sistema per questo elemento di contenuto. &lt;strong&gt;Avviso:&lt;/strong&gt; Questo modifica l'elemento di contenuto limitandone la visibilità a specifiche lingue.</target>
+      </trans-unit>
+      <trans-unit id="layout.description" approved="yes">
+        <source>Select a Layout.</source>
+        <target state="translated">Seleziona un Layout.</target>
+      </trans-unit>
+      <trans-unit id="layout.details" xml:space="preserve" approved="yes">
+				<source>This option does not work by default for all Content Elements but your website may display Content Elements differently depending on the layout.
+
+The File Links Content Element does make use of the Layout field by default:
+"Normal" will provide a list of file links with no thumbnail.
+"Layout 1" adds a file icon to the left of the link
+"Layout 2" adds a thumbnail for image files and an icon for other files. A black border is wrapped around the icon.
+"Layout 3" is similar to Layout 2, but without the black border.</source>
+			<target state="translated">Questa opzione non viene supportata come impostazione predefinita per tutti i Content Elements, in questo caso i Content Elements saranno visualizzati utilizzando il layout base del tuo sito web.
+
+I File Links ai Content Elements non utilizzeranno il campo Layout di defautl:
+"Normal" la lista dei file sarà mostrata come collegamenti senza anteprime o icone.
+"Layout 1" un'icona sarà aggiunta alla sinistra del collegamento
+"Layout 2" un'anteprima sarà mostrata per i file di tipo immagine e un'icona per i file di altro tipo. Le icone e le anteprime saranno circondate da un bordo nero.
+"Layout 3" come il Layout 2, ma senza bordo nero.</target></trans-unit>
+      <trans-unit id="header.description" approved="yes">
+        <source>Enter header text for the Content Element.</source>
+        <target state="translated">Inserisci il testo per l'intestazione dell'elemento di contenuto.</target>
+      </trans-unit>
+      <trans-unit id="header_position.description" approved="yes">
+        <source>Aligns the header to the left, center, or right.</source>
+        <target state="translated">Allinea l'intestazione a sinistra, al centro oppure a destra.</target>
+      </trans-unit>
+      <trans-unit id="header_link.description" approved="yes">
+        <source>Creates a link from the header to a Page ID, email address, or URL.</source>
+        <target state="translated">Crea un collegamento dall'intestazione a un ID pagina, indirizzo email oppure URL.</target>
+      </trans-unit>
+      <trans-unit id="header_link.syntax" xml:space="preserve" approved="yes">
+				<source>If you insert a Page ID (ex. 51), the link will point to the page with id=51 &lt;em&gt;inside&lt;/em&gt; TYPO3.
+If you insert an email address (ex. name@my-domain.test), the link will point to that email address.
+If you insert an URL or domain, (ex. www.typo3.org or http://www.my-domain.org), the link will point to that website.</source>
+			<target state="translated">Inserendo un ID di pagina (ad es. 51), il collegamento porterà alla pagina con ID=51 &lt;em&gt;all'interno di TYPO3&lt;/em&gt;.
+Inserendo un indirizzo email (ad es. nome@mia-casella.test) il collegamento porterà a quell'indirizzo email.
+Inserendo un URL o un dominio (ad es. www.typo3.org or http://www.my-domain.org), il collegamento porterà a quel sito web.</target></trans-unit>
+      <trans-unit id="header_layout.description" approved="yes">
+        <source>Select a visual design for the header.</source>
+        <target state="translated">Seleziona una visualizzazione per l'intestazione.</target>
+      </trans-unit>
+      <trans-unit id="header_layout.details" xml:space="preserve" approved="yes">
+				<source>If you select "Default" the standard design (which is one of the layouts 1-5) will be used.
+Alternatively you can select from Layout 1 through 5 which are configured in the website template with individual visual designs.
+If you select "Hidden" the header will simply not appear. This is useful when you don't need a header to display on the website but still want to identify the Content Element in the Backend.</source>
+			<target state="translated">Se selezioni "Predefinito" (Default) sarà usato il design standard (che è uno dei layout da 1 a 5).
+In alternativa puoi fare una scelta da Layout1 a Layout5; questi elementi sono configurati nel template per il sito web come design visuali individuali.
+Se selezioni "Nascondi" (Hidden) l'intestazione (header) non sarà visualizzata. Questo è utile quando non hai bisogno di visualizzare una intestazione nel sito ma vuoi identificare il contenuto nel Backend.</target></trans-unit>
+      <trans-unit id="subheader.description" approved="yes">
+        <source>Enter a subheader to be displayed below the main header. If the Content Element is a "Form" this field is instead used as the Recipient Email.</source>
+        <target state="translated">Inserire una sottotitolo che sarà visualizzato sotto l'intestazione principale. Se il contenuto è di tipo "Form" questo campo sarà utilizzato come Email per l'indirizzo di destinazione.</target>
+      </trans-unit>
+      <trans-unit id="bodytext.description" approved="yes">
+        <source>Enter the main text.</source>
+        <target state="translated">Inserisci il testo principale.</target>
+      </trans-unit>
+      <trans-unit id="image.description" approved="yes">
+        <source>Insert one or more images.</source>
+        <target state="translated">Inserire una o più immagini.</target>
+      </trans-unit>
+      <trans-unit id="imagewidth.description" approved="yes">
+        <source>Enter the width (in pixels) for displaying the image in the Frontend of your website.</source>
+        <target state="translated">Inserire la larghezza (in pixel) per visualizzare l'immagine nel Frontend del sito web.</target>
+      </trans-unit>
+      <trans-unit id="imageheight.description" approved="yes">
+        <source>Enter the height (in pixels) for displaying the images in the Frontend of your website.</source>
+        <target state="translated">Inserire l'altezza (in pixel) per visualizzare le immagini in Frontend del sito web.</target>
+      </trans-unit>
+      <trans-unit id="imageborder.description" approved="yes">
+        <source>Displays a colored border around the images.</source>
+        <target state="translated">Visualizza un bordo colorato intorno all'immagine.</target>
+      </trans-unit>
+      <trans-unit id="image_link.description" approved="yes">
+        <source>Enter a link for the image. For multiple images, separate the links with commas.</source>
+        <target state="translated">Inserire un link per l'immagine. Per immagini multiple, bisogna separare i link con le virgole.</target>
+      </trans-unit>
+      <trans-unit id="image_link.details" xml:space="preserve" approved="yes">
+				<source>By default all images share the same link. Your TypoScript template may be configured to allow a separate link for each image. If this is the case, you simply separate the links with a comma.
+
+See Page Content&gt;Link below for details on syntax.</source>
+			<target state="translated">Di base tutte le immagini condividono lo stesso link. Il TypoScript template dovrebbe essere configurato per consentire un link separato per ogni immagine. Se questo è il caso, si devono semplicemente separare i link con una virgola.
+
+Per avere dettagli sulla sintassi guardare in basso Contenuto di Pagina &gt; Link.</target></trans-unit>
+      <trans-unit id="image_zoom.description" approved="yes">
+        <source>When enabled, clicking an image will open a larger version in a popup window.</source>
+        <target state="translated">Quando è abilitato, cliccando su una immagine si aprirà una finestra di popup con l'immagine in formato grande.</target>
+      </trans-unit>
+      <trans-unit id="image_zoom.details" approved="yes">
+        <source>This option overrides the value in the Links field.</source>
+        <target state="translated">Questa opzione sovrascrive il valore del campo Link.</target>
+      </trans-unit>
+      <trans-unit id="imagecols.description" approved="yes">
+        <source>Set the number of columns when the images are displayed in the Frontend of the website.</source>
+        <target state="translated">Impostare il numero di colonne quando le immagini vengono visualizzate nel Frontend del sito web.</target>
+      </trans-unit>
+      <trans-unit id="imagecaption.description" approved="yes">
+        <source>Enter captions for the images. For multiple images, enter one caption per line.</source>
+        <target state="translated">inserire la didascalia per le immagini. Per immagini multiple, inserire una didascialia per linea</target>
+      </trans-unit>
+      <trans-unit id="cols.description" approved="yes">
+        <source>Select a fixed number of table columns</source>
+        <target state="translated">Seleziona un numero fisso di colonne in tabella</target>
+      </trans-unit>
+      <trans-unit id="menu_type.description" approved="yes">
+        <source>Select the type of menu you wish to create.</source>
+        <target state="translated">Seleziona il tipo di menu che desideri creare.</target>
+      </trans-unit>
+      <trans-unit id="list_type.description" approved="yes">
+        <source>Select a plugin to insert.</source>
+        <target state="translated">Seleziona un plugin da inserire.</target>
+      </trans-unit>
+      <trans-unit id="list_type.details" approved="yes">
+        <source>The list of plugins you can insert on a page. The available plugins depend on which extensions are installed.</source>
+        <target state="translated">La lista dei plugin che puoi inserire in una pagina. I plugin disponibili dipendono dalle estensioni installate.</target>
+      </trans-unit>
+      <trans-unit id="media.description" approved="yes">
+        <source>Files can be added to the list here.</source>
+        <target state="translated">Da qui si possono aggiungere file alla lista.</target>
+      </trans-unit>
+      <trans-unit id="multimedia.description" approved="yes">
+        <source>Insert a multimedia element here (ex. Flash movie)</source>
+        <target state="translated">Inserisci qui un elemento multimediale (es. un filmato Flash)</target>
+      </trans-unit>
+      <trans-unit id="filelink_size.description" approved="yes">
+        <source>Enable the display of file sizes.</source>
+        <target state="translated">Abilita la visualizzazione del peso dei files.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
