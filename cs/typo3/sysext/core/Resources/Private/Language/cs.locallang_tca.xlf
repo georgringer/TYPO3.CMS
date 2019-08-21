@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814885" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="cs">
+    <header/>
+    <body>
+      <trans-unit id="file_mountpoints_edit_title" approved="yes">
+        <source>Edit filemount</source>
+        <target state="translated">Upravit připojení souborů</target>
+      </trans-unit>
+      <trans-unit id="file_mountpoints_add_title" approved="yes">
+        <source>Create new filemount</source>
+        <target state="translated">Vyvořit nové připojení souborů</target>
+      </trans-unit>
+      <trans-unit id="file_mountpoints_list_title" approved="yes">
+        <source>List filemounts</source>
+        <target state="translated">Vypsat připojení souborů</target>
+      </trans-unit>
+      <trans-unit id="workspace_perms_live" approved="yes">
+        <source>Edit Live (Online)</source>
+        <target state="translated">Upravit LIVE (Online)</target>
+      </trans-unit>
+      <trans-unit id="workspace_perms_draft" approved="yes">
+        <source>Edit Draft (Offline)</source>
+        <target state="translated">Upravit KONCEPT (Offline)</target>
+      </trans-unit>
+      <trans-unit id="workspace_perms_custom" approved="yes">
+        <source>Create new workspace projects</source>
+        <target state="translated">Vyvořit nový projekt pracovní plochy</target>
+      </trans-unit>
+      <trans-unit id="be_users.usergroup_edit_title" approved="yes">
+        <source>Edit usergroup</source>
+        <target state="translated">Upravit skupinu uživatele</target>
+      </trans-unit>
+      <trans-unit id="be_users.usergroup_add_title" approved="yes">
+        <source>Create new group</source>
+        <target state="translated">Vyvořit novou skupinu</target>
+      </trans-unit>
+      <trans-unit id="be_users.usergroup_list_title" approved="yes">
+        <source>List groups</source>
+        <target state="translated">Vypsat skupiny</target>
+      </trans-unit>
+      <trans-unit id="be_users.options_db_mounts" approved="yes">
+        <source>DB Mounts</source>
+        <target state="translated">Připojení DB</target>
+      </trans-unit>
+      <trans-unit id="be_users.options_file_mounts" approved="yes">
+        <source>File Mounts</source>
+        <target state="translated">Připojení souborů</target>
+      </trans-unit>
+      <trans-unit id="be_users.file_permissions.files_read" approved="yes">
+        <source>Files: Read</source>
+        <target state="translated">Soubory: Čtení</target>
+      </trans-unit>
+      <trans-unit id="be_users.file_permissions.files_write" approved="yes">
+        <source>Files: Write</source>
+        <target state="translated">Soubory: Zápis</target>
+      </trans-unit>
+      <trans-unit id="be_users.file_permissions.files_add" approved="yes">
+        <source>Files: Add</source>
+        <target state="translated">Soubory: Přidat</target>
+      </trans-unit>
+      <trans-unit id="be_users.file_permissions.files_rename" approved="yes">
+        <source>Files: Rename</source>
+        <target state="translated">Soubory: Přejmenovat</target>
+      </trans-unit>
+      <trans-unit id="be_groups.file_permissions.files_replace" approved="yes">
+        <source>Files: Replace</source>
+        <target state="translated">Soubory: Nahradit</target>
+      </trans-unit>
+      <trans-unit id="be_users.file_permissions.files_move" approved="yes">
+        <source>Files: Move</source>
+        <target state="translated">Soubory: Přesunout</target>
+      </trans-unit>
+      <trans-unit id="be_users.file_permissions.files_copy" approved="yes">
+        <source>Files: Copy</source>
+        <target state="translated">Soubory: Kopírovat</target>
+      </trans-unit>
+      <trans-unit id="be_users.fileoper_perms_unzip" approved="yes">
+        <source>Files: Unzip</source>
+        <target state="translated">Soubory: Rozbalit</target>
+      </trans-unit>
+      <trans-unit id="be_users.file_permissions.file_delete" approved="yes">
+        <source>Files: Delete</source>
+        <target state="translated">Soubory: Odstranit</target>
+      </trans-unit>
+      <trans-unit id="be_users.fileoper_perms_general" approved="yes">
+        <source>Files: Upload,Copy,Move,Delete,Rename,New,Edit</source>
+        <target state="translated">Soubory: Nahrát,Kopírovat,Přesunout,Smazat,Přejmenovat,Nový,Upravit</target>
+      </trans-unit>
+      <trans-unit id="be_users.fileoper_perms_diroper_perms" approved="yes">
+        <source>Directory: Move,Delete,Rename,New</source>
+        <target state="translated">Adresář: Přesunout,Smazat,Přejmenovat,Nový</target>
+      </trans-unit>
+      <trans-unit id="be_users.fileoper_perms_diroper_perms_copy" approved="yes">
+        <source>Directory: Copy</source>
+        <target state="translated">Adresář: Kopírovat</target>
+      </trans-unit>
+      <trans-unit id="be_users.fileoper_perms_diroper_perms_delete" approved="yes">
+        <source>Directory: Delete recursively (rm -Rf)</source>
+        <target state="translated">Adresář: Smazat rekurzivně (rm -Rf)</target>
+      </trans-unit>
+      <trans-unit id="be_users.tabs.rights" approved="yes">
+        <source>Access Rights</source>
+        <target state="translated">Přístupová práva</target>
+      </trans-unit>
+      <trans-unit id="be_users.tabs.mounts_and_workspaces" approved="yes">
+        <source>Mounts and Workspaces</source>
+        <target state="translated">Připojení a pracovní prostory</target>
+      </trans-unit>
+      <trans-unit id="be_users.tabs.options" approved="yes">
+        <source>Options</source>
+        <target state="translated">Možnosti</target>
+      </trans-unit>
+      <trans-unit id="be_users.tabs.extended" approved="yes">
+        <source>Extended</source>
+        <target state="translated">Rozšířené</target>
+      </trans-unit>
+      <trans-unit id="be_users.tabs.access" approved="yes">
+        <source>Access</source>
+        <target state="translated">Přístup</target>
+      </trans-unit>
+      <trans-unit id="be_groups.tabs.base_rights" approved="yes">
+        <source>Access Lists</source>
+        <target state="translated">Přístupové seznamy</target>
+      </trans-unit>
+      <trans-unit id="be_groups.tabs.mounts_and_workspaces" approved="yes">
+        <source>Mounts and Workspaces</source>
+        <target state="translated">Připojení a pracovní prostory</target>
+      </trans-unit>
+      <trans-unit id="be_groups.file_permissions.folder_read" approved="yes">
+        <source>Directory: Read</source>
+        <target state="translated">Složka: Číst</target>
+      </trans-unit>
+      <trans-unit id="be_groups.file_permissions.folder_write" approved="yes">
+        <source>Directory: Write</source>
+        <target state="translated">Složka: Zapisovat</target>
+      </trans-unit>
+      <trans-unit id="be_groups.file_permissions.folder_add" approved="yes">
+        <source>Directory: Add</source>
+        <target state="translated">Složka: Kopírovat</target>
+      </trans-unit>
+      <trans-unit id="be_groups.file_permissions.folder_rename" approved="yes">
+        <source>Directory: Rename</source>
+        <target state="translated">Složka: Přejmenovat</target>
+      </trans-unit>
+      <trans-unit id="be_groups.file_permissions.folder_move" approved="yes">
+        <source>Directory: Move</source>
+        <target state="translated">Složka: Přesunout</target>
+      </trans-unit>
+      <trans-unit id="be_groups.file_permissions.folder_copy" approved="yes">
+        <source>Directory: Copy</source>
+        <target state="translated">Adresář: Kopírovat</target>
+      </trans-unit>
+      <trans-unit id="be_groups.file_permissions.folder_delete" approved="yes">
+        <source>Directory: Delete</source>
+        <target state="translated">Složka: Odstranit</target>
+      </trans-unit>
+      <trans-unit id="be_groups.file_permissions.folder_recursivedelete" approved="yes">
+        <source>Directory: Delete recursively</source>
+        <target state="translated">Složka: Odstranit rekurzivně</target>
+      </trans-unit>
+      <trans-unit id="be_groups.file_permissions.files_read" approved="yes">
+        <source>Files: Read</source>
+        <target state="translated">Soubory: Číst</target>
+      </trans-unit>
+      <trans-unit id="be_groups.file_permissions.files_write" approved="yes">
+        <source>Files: Write</source>
+        <target state="translated">Soubory: Zapisovat</target>
+      </trans-unit>
+      <trans-unit id="be_groups.file_permissions.files_edit" approved="yes">
+        <source>Files: Edit</source>
+        <target state="translated">Soubory: Upravit</target>
+      </trans-unit>
+      <trans-unit id="be_groups.file_permissions.files_add" approved="yes">
+        <source>Files: Add</source>
+        <target state="translated">Soubory: Přidat</target>
+      </trans-unit>
+      <trans-unit id="be_groups.file_permissions.files_rename" approved="yes">
+        <source>Files: Rename</source>
+        <target state="translated">Soubory: Přejmenovat</target>
+      </trans-unit>
+      <trans-unit id="be_groups.file_permissions.files_move" approved="yes">
+        <source>Files: Move</source>
+        <target state="translated">Soubory: Přesunout</target>
+      </trans-unit>
+      <trans-unit id="be_groups.file_permissions.files_copy" approved="yes">
+        <source>Files: Copy</source>
+        <target state="translated">Soubory: Kopírovat</target>
+      </trans-unit>
+      <trans-unit id="be_groups.fileoper_perms_unzip" approved="yes">
+        <source>Files: Unzip</source>
+        <target state="translated">Soubory: Rozbalit</target>
+      </trans-unit>
+      <trans-unit id="be_groups.file_permissions.files_delete" approved="yes">
+        <source>Files: Delete</source>
+        <target state="translated">Soubory: Odstranit</target>
+      </trans-unit>
+      <trans-unit id="be_groups.fileoper_perms_general" approved="yes">
+        <source>Files: Upload,Copy,Move,Delete,Rename,New,Edit</source>
+        <target state="translated">Soubory: Nahrát,Kopírovat,Přesunout,Odstranit,Přejmenovat,Nový,Upravit</target>
+      </trans-unit>
+      <trans-unit id="be_groups.fileoper_perms_diroper_perms" approved="yes">
+        <source>Directory: Move,Delete,Rename,New</source>
+        <target state="translated">Adresář: Přesunout, Odstranit, Přejmenovat, Nový</target>
+      </trans-unit>
+      <trans-unit id="be_groups.fileoper_perms_diroper_perms_copy" approved="yes">
+        <source>Directory: Copy</source>
+        <target state="translated">Adresář: Kopírovat</target>
+      </trans-unit>
+      <trans-unit id="be_groups.fileoper_perms_diroper_perms_delete" approved="yes">
+        <source>Directory: Delete recursively (rm -Rf)</source>
+        <target state="translated">Adresář: Odstranit rekurzivně (rm -Rf)</target>
+      </trans-unit>
+      <trans-unit id="be_groups.tabs.options" approved="yes">
+        <source>Options</source>
+        <target state="translated">Možnosti</target>
+      </trans-unit>
+      <trans-unit id="be_groups.tabs.extended" approved="yes">
+        <source>Extended</source>
+        <target state="translated">Rozšířené</target>
+      </trans-unit>
+      <trans-unit id="sys_filemounts.tabs.users" approved="yes">
+        <source>Users</source>
+        <target state="translated">Uživatelé</target>
+      </trans-unit>
+      <trans-unit id="sys_filemounts.tabs.mountpoints" approved="yes">
+        <source>Mountpoints</source>
+        <target state="translated">Přípojné body</target>
+      </trans-unit>
+      <trans-unit id="sys_filemounts.tabs.publishing" approved="yes">
+        <source>Publishing</source>
+        <target state="translated">Publikování</target>
+      </trans-unit>
+      <trans-unit id="sys_filemounts.tabs.other" approved="yes">
+        <source>Other</source>
+        <target state="translated">Ostatní</target>
+      </trans-unit>
+      <trans-unit id="sys_filemounts.base_absolute" approved="yes">
+        <source>absolute (root) / </source>
+        <target state="translated">absolutní (kořen) / </target>
+      </trans-unit>
+      <trans-unit id="sys_filemounts.base_relative" approved="yes">
+        <source>relative ../fileadmin/</source>
+        <target state="translated">relativní ../fileadmin/</target>
+      </trans-unit>
+      <trans-unit id="sys_log" approved="yes">
+        <source>System Log</source>
+        <target state="translated">Log systému</target>
+      </trans-unit>
+      <trans-unit id="sys_news" approved="yes">
+        <source>System News</source>
+        <target state="translated">Systémové novinky</target>
+      </trans-unit>
+      <trans-unit id="sys_news.tabs.access" approved="yes">
+        <source>Access</source>
+        <target state="translated">Přístup</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.freeze" approved="yes">
+        <source>Freeze Editing</source>
+        <target state="translated">Zmrazit úpravy</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.live_edit" approved="yes">
+        <source>Allow "live" editing of records from tables without versioning</source>
+        <target state="translated">Povolit přímé úpravy "živých" záznamů tabulek, bez verzování</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.review_stage_edit" approved="yes">
+        <source>Allow members to edit records in "Review" stage</source>
+        <target state="translated">Povolit členům upravovat záznamy ve fázi "Revize"</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.disable_autocreate" approved="yes">
+        <source>Disable auto-versioning when editing</source>
+        <target state="translated">Vypnout auto-verzování při úpravách</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace.swap_modes" approved="yes">
+        <source>Swap modes</source>
+        <target state="translated">Přepnout módy</target>
+      </trans-unit>
+      <trans-unit id="pages" approved="yes">
+        <source>Page</source>
+        <target state="translated">Stránka</target>
+      </trans-unit>
+      <trans-unit id="doktype.I.0" approved="yes">
+        <source>Standard</source>
+        <target state="translated">Standardní</target>
+      </trans-unit>
+      <trans-unit id="doktype.I.1" approved="yes">
+        <source>SysFolder</source>
+        <target state="translated">Systémová složka</target>
+      </trans-unit>
+      <trans-unit id="doktype.I.folder" approved="yes">
+        <source>Folder</source>
+        <target state="translated">Složka</target>
+      </trans-unit>
+      <trans-unit id="doktype.I.2" approved="yes">
+        <source>Recycler</source>
+        <target state="translated">Koš</target>
+      </trans-unit>
+      <trans-unit id="be_users" approved="yes">
+        <source>Backend user</source>
+        <target state="translated">Uživatel backendu</target>
+      </trans-unit>
+      <trans-unit id="be_groups" approved="yes">
+        <source>Backend usergroup</source>
+        <target state="translated">Skupina uživatelů backendu</target>
+      </trans-unit>
+      <trans-unit id="sys_filemounts" approved="yes">
+        <source>Filemount</source>
+        <target state="translated">Souborový přípojný bod</target>
+      </trans-unit>
+      <trans-unit id="sys_collection" approved="yes">
+        <source>Record Collection</source>
+        <target state="translated">Kolekce záznamů</target>
+      </trans-unit>
+      <trans-unit id="sys_collection.title" approved="yes">
+        <source>Collection-Name</source>
+        <target state="translated">Jméno kolekce</target>
+      </trans-unit>
+      <trans-unit id="sys_collection.description" approved="yes">
+        <source>Description</source>
+        <target state="translated">Popis</target>
+      </trans-unit>
+      <trans-unit id="sys_collection.table_name" approved="yes">
+        <source>Record Type of Collection</source>
+        <target state="translated">Typ záznamu kolekce</target>
+      </trans-unit>
+      <trans-unit id="sys_collection.items" approved="yes">
+        <source>Items</source>
+        <target state="translated">Položek</target>
+      </trans-unit>
+      <trans-unit id="sys_collection.type" approved="yes">
+        <source>Type of collection</source>
+        <target state="translated">Typ kolekce</target>
+      </trans-unit>
+      <trans-unit id="sys_collection.type.static" approved="yes">
+        <source>static record composition</source>
+        <target state="translated">Kompozice statických záznamů</target>
+      </trans-unit>
+      <trans-unit id="sys_file_storage" approved="yes">
+        <source>File Storage</source>
+        <target state="translated">Úložiště souborů</target>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.type" approved="yes">
+        <source>Entry point</source>
+        <target state="translated">Vstupní bod</target>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.name" approved="yes">
+        <source>Name</source>
+        <target state="translated">Jméno</target>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.description" approved="yes">
+        <source>Description</source>
+        <target state="translated">Popis</target>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.hidden" approved="yes">
+        <source>Hide from listings</source>
+        <target state="translated">Skrýt v seznamech</target>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.is_online" approved="yes">
+        <source>Is online?</source>
+        <target state="translated">Je online?</target>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.is_default" approved="yes">
+        <source>Is default storage?</source>
+        <target state="translated">Je výchozí úložiště?</target>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.is_browsable" approved="yes">
+        <source>Is browsable?</source>
+        <target state="translated">Dá se procházet?</target>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.is_public" approved="yes">
+        <source>Is publicly available?</source>
+        <target state="translated">Je veřejně přístupné?</target>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.is_writable" approved="yes">
+        <source>Is writable?</source>
+        <target state="translated">Je zapisovatelné?</target>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.capabilities" approved="yes">
+        <source>Capabilities</source>
+        <target state="translated">Možnosti</target>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.processingfolder" approved="yes">
+        <source>Folder for manipulated and temporary images etc.</source>
+        <target state="translated">Složka pro manipulované a dočasné obrázky atd.</target>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.driver" approved="yes">
+        <source>Driver</source>
+        <target state="translated">Ovladač</target>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.driver.local" approved="yes">
+        <source>Local Filesystem</source>
+        <target state="translated">Lokální souborový systém</target>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.configuration" approved="yes">
+        <source>Driver Configuration</source>
+        <target state="translated">Nastavení ovladače</target>
+      </trans-unit>
+      <trans-unit id="sys_file" approved="yes">
+        <source>File</source>
+        <target state="translated">Soubor</target>
+      </trans-unit>
+      <trans-unit id="sys_file.storage" approved="yes">
+        <source>Storage</source>
+        <target state="translated">Úložiště</target>
+      </trans-unit>
+      <trans-unit id="sys_file.identifier" approved="yes">
+        <source>Identifier</source>
+        <target state="translated">Identifikátor</target>
+      </trans-unit>
+      <trans-unit id="sys_file.name" approved="yes">
+        <source>Filename</source>
+        <target state="translated">Název souboru</target>
+      </trans-unit>
+      <trans-unit id="sys_file.title" approved="yes">
+        <source>Title</source>
+        <target state="translated">Titulek</target>
+      </trans-unit>
+      <trans-unit id="sys_file.type" approved="yes">
+        <source>File Type</source>
+        <target state="translated">Typ souboru</target>
+      </trans-unit>
+      <trans-unit id="sys_file.type.unknown" approved="yes">
+        <source>Unknown</source>
+        <target state="translated">Neznámý</target>
+      </trans-unit>
+      <trans-unit id="sys_file.type.image" approved="yes">
+        <source>Image</source>
+        <target state="translated">Obrázek</target>
+      </trans-unit>
+      <trans-unit id="sys_file.type.audio" approved="yes">
+        <source>Audio</source>
+        <target state="translated">Zvuk</target>
+      </trans-unit>
+      <trans-unit id="sys_file.mime_type" approved="yes">
+        <source>Mime Type</source>
+        <target state="translated">Mime Typ</target>
+      </trans-unit>
+      <trans-unit id="sys_file.size" approved="yes">
+        <source>Size</source>
+        <target state="translated">Velikost</target>
+      </trans-unit>
+      <trans-unit id="sys_file.usage_count" approved="yes">
+        <source>Usage Count</source>
+        <target state="translated">Počet použití</target>
+      </trans-unit>
+      <trans-unit id="sys_file.description" approved="yes">
+        <source>Description</source>
+        <target state="translated">Popis</target>
+      </trans-unit>
+      <trans-unit id="sys_file.alternative" approved="yes">
+        <source>Alternative Text</source>
+        <target state="translated">Alternativní text</target>
+      </trans-unit>
+      <trans-unit id="sys_file.missing" approved="yes">
+        <source>Marked as missing</source>
+        <target state="translated">Označen jako chybějící</target>
+      </trans-unit>
+      <trans-unit id="sys_file.metadata" approved="yes">
+        <source>Metadata records</source>
+        <target state="translated">Záznamy metadat</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata" approved="yes">
+        <source>File Metadata</source>
+        <target state="translated">Metadata souboru</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference" approved="yes">
+        <source>File Reference</source>
+        <target state="translated">Odkaz souboru</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.uid_local" approved="yes">
+        <source>File</source>
+        <target state="translated">Soubor</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.uid_foreign" approved="yes">
+        <source>Used by content elements</source>
+        <target state="translated">Použit prvky obsahu</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.tablenames" approved="yes">
+        <source>Table name</source>
+        <target state="translated">Jméno tabulky</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.fieldname" approved="yes">
+        <source>Foreign Field</source>
+        <target state="translated">Cizí pole</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.sorting_foreign" approved="yes">
+        <source>Sorting foreign</source>
+        <target state="translated">Cizí třídění</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.basicoverlayPalette" approved="yes">
+        <source>File Metadata</source>
+        <target state="translated">Metadata souboru</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.imageoverlayPalette" approved="yes">
+        <source>Image Metadata</source>
+        <target state="translated">Metadata obrázku</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.audioOverlayPalette" approved="yes">
+        <source>Audio Metadata</source>
+        <target state="translated">Audio metadata</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.videoOverlayPalette" approved="yes">
+        <source>Video Metadata</source>
+        <target state="translated">Video metadata</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.title" approved="yes">
+        <source>Title</source>
+        <target state="translated">Titulek</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.description" approved="yes">
+        <source>Description (Caption)</source>
+        <target state="translated">Popis (titulek obrázku)</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.downloadname" approved="yes">
+        <source>Download Name</source>
+        <target state="translated">Jméno souboru pro download</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.alternative" approved="yes">
+        <source>Alternative Text</source>
+        <target state="translated">Alternativní text</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.link" approved="yes">
+        <source>Link</source>
+        <target state="translated">Odkaz</target>
+      </trans-unit>
+      <trans-unit id="sys_file_collection" approved="yes">
+        <source>File collection</source>
+        <target state="translated">Kolekce souborů</target>
+      </trans-unit>
+      <trans-unit id="sys_file_collection.files" approved="yes">
+        <source>Files</source>
+        <target state="translated">Soubory</target>
+      </trans-unit>
+      <trans-unit id="sys_file_collection.title" approved="yes">
+        <source>Title</source>
+        <target state="translated">Titulek</target>
+      </trans-unit>
+      <trans-unit id="sys_file_collection.type" approved="yes">
+        <source>Type</source>
+        <target state="translated">Typ</target>
+      </trans-unit>
+      <trans-unit id="sys_file_collection.type.0" approved="yes">
+        <source>Static selection of files</source>
+        <target state="translated">Statický výběr souborů</target>
+      </trans-unit>
+      <trans-unit id="sys_file_collection.type.1" approved="yes">
+        <source>Folder from Storage</source>
+        <target state="translated">Složka z úložiště</target>
+      </trans-unit>
+      <trans-unit id="sys_file_collection.type.2" approved="yes">
+        <source>Select by category</source>
+        <target state="translated">Výběr podle kategorie</target>
+      </trans-unit>
+      <trans-unit id="sys_file_collection.storage" approved="yes">
+        <source>File Storage</source>
+        <target state="translated">Úložiště souboru</target>
+      </trans-unit>
+      <trans-unit id="sys_file_collection.folder" approved="yes">
+        <source>Folder</source>
+        <target state="translated">Složka</target>
+      </trans-unit>
+      <trans-unit id="sys_file_collection.category" approved="yes">
+        <source>Category</source>
+        <target state="translated">Kategorie</target>
+      </trans-unit>
+      <trans-unit id="sys_language" approved="yes">
+        <source>Website Language</source>
+        <target state="translated">Jazyk webové stránky</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace" approved="yes">
+        <source>Workspace</source>
+        <target state="translated">Pracovní plocha</target>
+      </trans-unit>
+      <trans-unit id="sys_category" approved="yes">
+        <source>Category</source>
+        <target state="translated">Kategorie</target>
+      </trans-unit>
+      <trans-unit id="sys_category.title" approved="yes">
+        <source>Title</source>
+        <target state="translated">Titulek</target>
+      </trans-unit>
+      <trans-unit id="sys_category.description" approved="yes">
+        <source>Description</source>
+        <target state="translated">Popis</target>
+      </trans-unit>
+      <trans-unit id="sys_category.parent" approved="yes">
+        <source>Parent</source>
+        <target state="translated">Rodič</target>
+      </trans-unit>
+      <trans-unit id="sys_category.items" approved="yes">
+        <source>Items</source>
+        <target state="translated">Položek</target>
+      </trans-unit>
+      <trans-unit id="sys_category.categories" approved="yes">
+        <source>Categories</source>
+        <target state="translated">Kategorie</target>
+      </trans-unit>
+      <trans-unit id="sys_category.tabs.category" approved="yes">
+        <source>Categories</source>
+        <target state="translated">Kategorie</target>
+      </trans-unit>
+      <trans-unit id="sys_category.tabs.items" approved="yes">
+        <source>Items</source>
+        <target state="translated">Položek</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
