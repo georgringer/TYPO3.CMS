@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814852" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="lang" target-language="fr">
+    <header/>
+    <body>
+      <trans-unit id=".description" approved="yes">
+        <source>This is the Backend administration user groups available for the Backend users. These determine the access credentials for the Backend users.</source>
+        <target state="translated">Ceci est l'interface BE d'administration des groupes utilisateurs. C'est ici que sont définis les accès pour les utilisateurs BE.</target>
+      </trans-unit>
+      <trans-unit id=".details" xml:space="preserve" approved="yes">
+				<source>Groups contain the main permission settings you can set for a backend user. Many users can be members of the same group and thus share permissions.
+When a user is a member of many groups (including sub-groups) then the permission settings are added together so that the more groups a user is a member of, the more access is granted to him.</source>
+			<target state="translated">Les groupes contiennent les paramètres de permissions que vous pouvez attribuer pour un utilisateur backend. La plupart des utilisateurs peuvent être membre du même groupe et donc partager les même permissions. Quand un utilisateur est membre de plusieurs groupe (sous-groupe inclus) alors les paramètres de permission sont additionnés si bien que les permissions augmentent avec le nombre de groupe auquel il appartient.</target></trans-unit>
+      <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
+				<source>Backend Usergroups are found in the root of the page tree where only "admin" users can edit them. The usergroups with red icons in this image are the ones with Access Lists enabled. The blue are just plain usergroups.
+This usergroup has Access Lists enabled. In the Access Lists you specify which modules, tables, database fields etc. the group members can access in TYPO3.</source>
+			<target state="translated">Les groupes d'utilisateurs backend se trouve à la racine de l'arborescence des pages. Uniquement un utilisateur "admin" peut éditer ces groupes. Sur cette image, les groupes d'utilisateurs avec une icône rouge sont ceux qui ont les listes d'accès activés. Les icônes bleues représentent les groupes tout simplement. Ce groupe d'utilisateurs a les listes d'accès activés. Les listes d'accès vous permettent de définir à quel module, table, champs, etc... le membre du groupe aura accès dans TYPO3.</target></trans-unit>
+      <trans-unit id="title.description" approved="yes">
+        <source>Name of the Backend usergroup. The name should be descriptive and can always be changed later.</source>
+        <target state="translated">Nom du groupe d'utilisateurs backend. Le nom doit être descriptif et peut toujours être modifié par la suite.</target>
+      </trans-unit>
+      <trans-unit id="title.details" approved="yes">
+        <source>Backend Usergroups are identified by their "uid" field value (integer) and therefore the title can always be changed. The "uid" can never be changed for a user group.</source>
+        <target state="translated">Les groupes d'utilisateurs backend sont identifiés par la valeur de leur champ "uid" (entier). Le titre du groupe peut donc toujours être modifié. Le "uid" ne peut jamais être changé pour un groupe d'utilisateurs.</target>
+      </trans-unit>
+      <trans-unit id="title.image_descr" approved="yes">
+        <source>The usergroup title is shown in the record lists.</source>
+        <target state="translated">Le titre du groupe utilisateur est affiché dans la liste des enregistrements.</target>
+      </trans-unit>
+      <trans-unit id="db_mountpoints.description" approved="yes">
+        <source>Define page tree root points for the group members.</source>
+        <target state="translated">Définit la racine de l'arborescence pour les membres du groupe.</target>
+      </trans-unit>
+      <trans-unit id="_db_mountpoints.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:file_mountpoints,
+be_users:db_mountpoints,
+be_users:options,
+xMOD_csh_corebe:list_module</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:file_mountpoints, be_users:db_mountpoints, be_users:options, xMOD_csh_corebe:list_module</target></trans-unit>
+      <trans-unit id="db_mountpoints.image_descr" xml:space="preserve" approved="yes">
+				<source>Here a page is added as a "DB mount"...
+... and in the page tree of member users this will become the starting point for the page tree.</source>
+			<target state="translated">Voici une page définit comme un "point de montage" ... ... et dans l'arborescence des pages de l'utilisateur ce "point de montage" devient le point de départ de l'arborescence des pages.</target></trans-unit>
+      <trans-unit id="file_mountpoints.description" approved="yes">
+        <source>Define startpoints for the file folder tree.</source>
+        <target state="translated">Définit les points d'entrée pour l'arborescence de fichiers.</target>
+      </trans-unit>
+      <trans-unit id="file_permissions.description" approved="yes">
+        <source>Select file operation permissions for the group members.</source>
+        <target state="translated">Sélectionnez les permissions sur les manipulations de fichier pour les membres du groupe.</target>
+      </trans-unit>
+      <trans-unit id="fileoper_perms.description" approved="yes">
+        <source>Select file operation permissions for the group members.</source>
+        <target state="translated">Sélectionnez les permissions sur les manipulations de fichier pour les membres du groupe.</target>
+      </trans-unit>
+      <trans-unit id="fileoper_perms.details" xml:space="preserve" approved="yes">
+				<source>These settings relate to the functions found in the File&gt;Filelist module as well as general upload of files.
+
+&lt;strong&gt;Notice&lt;/strong&gt; that these settings apply to all members of this group and extend the users permissions accordingly.</source>
+			<target state="translated">Ces paramètres sont aussi bien relatifs aux fonctionnalités du module Fichier&gt;Fichiers qu'à l'envoi générique de fichiers. &lt;strong&gt;Notez&lt;/strong&gt; que ces paramètres seront appliqués à tous les membres de ce groupe et donc étendra les permissions de l'utilisateur.</target></trans-unit>
+      <trans-unit id="_fileoper_perms.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:file_mountpoints,
+be_users:file_mountpoints,
+be_users:file_permissions</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:file_mountpoints, be_users:file_mountpoints, be_users:fileoper_perms</target></trans-unit>
+      <trans-unit id="pagetypes_select.description" approved="yes">
+        <source>Select which 'Types' of Pages the members may set.</source>
+        <target state="translated">Sélectionnez quels types de pages le membre pourra créer.</target>
+      </trans-unit>
+      <trans-unit id="pagetypes_select.image_descr" approved="yes">
+        <source>The list of typical page types available in a CMS context. Selecting Page types for a usergroup defines which of these options can be selected by member users.</source>
+        <target state="translated">Liste des pages à disposition. Le choix sera limité en fonction des options que vous aurez sélectionné pour un groupe d'utilisateurs.</target>
+      </trans-unit>
+      <trans-unit id="tables_modify.description" approved="yes">
+        <source>Select which tables the members may modify.</source>
+        <target state="translated">Choisissez quelles tables le membre peut modifier.</target>
+      </trans-unit>
+      <trans-unit id="tables_modify.details" xml:space="preserve" approved="yes">
+				<source>An important part of setting permissions is to define which database tables a user is allowed to modify.
+Tables allowed for modification is automatically also allowed for selection and thus you don't need to set tables entered here in the "Tables (listing)" box.
+
+&lt;strong&gt;Notice&lt;/strong&gt; that this list adds to the fields selected in other member groups of a user.</source>
+			<target state="translated">Une partie importante des permissions / accès consiste à choisir quelles tables de la base de données l'utilisateur sera autorisé à modifier. Si un utilisateur est autorisé à modifier une table, il peut naturellement automatiquement sélectionner cette table. Vous n'avez donc pas besoin de définir cette permission aussi dans la partie "Table (Liste)". &lt;strong&gt;Notez&lt;/strong&gt; que cette liste s'ajoute aux champs sélectionnés dans les autres groupes de membres de l'utilisateur.</target></trans-unit>
+      <trans-unit id="tables_modify.image_descr" xml:space="preserve" approved="yes">
+				<source>The screenshot above shows how the "Create new record" dialog looks for a user limited to editing only "Page" and "Page content" elements.
+The two tables are simply added to the list of "Tables (modify)" in the group Access Lists.
+This is (an example of) the full amount of elements that can be created on the page by the "admin" user for whom there are no restrictions.</source>
+			<target state="translated">L'image ci-dessus montre ce qu'un utilisateur; avec la permission d'éditer uniquement les éléments "Page" et "Elément de contenu", voit lorsqu'il créé un nouvel enregistrement. Les deux tables sont simplement ajoutées à la liste des "Tables (Modifier)" dans la liste des accès. Un exemple de la même vue mais cette fois pour un utilisateur "admin" qui n'a donc aucune restriction.</target></trans-unit>
+      <trans-unit id="tables_select.description" approved="yes">
+        <source>Select which tables the members may see in record lists ('modify' tables does not need to be re-entered here!).</source>
+        <target state="translated">Choisissez quelles tables les membres peuvent voir dans les listes d'enregistrements. Pas besoin de resélectionner ici une table déjà autorisée sous "Tables (Modifier)".</target>
+      </trans-unit>
+      <trans-unit id="tables_select.details" xml:space="preserve" approved="yes">
+				<source>This determines which tables - in addition to those selected in the "Tables (modify)" box - may be viewed and listed for the member users. He is not able to &lt;em&gt;edit&lt;/em&gt; the table - only select the records and view the content.
+This list is not very important. It's a pretty rare situation that a user may select tables but not modify them.</source>
+			<target state="translated">Définit quelles tables - en plus de celles sélectionnées sous "Tables (Modifier)" - l'utilisateur pourra voir et lister. L'utilisateur ne pourra donc pas &lt;em&gt;éditer&lt;/en&gt; cette table - uniquement sélectionner et voir le contenu. Cette liste n'est pas vraiment importante. La situation où un utilisateur devrait pouvoir sélectionner une table sans pouvoir la modifier est plutôt rare.</target></trans-unit>
+      <trans-unit id="non_exclude_fields.description" approved="yes">
+        <source>Certain table fields are not available by default. Those fields can be explicitly enabled for the group members here.</source>
+        <target state="translated">Certains champs des tables ne sont pas disponibles par défaut. Ces champs peuvent être explicitement autorisé ici pour les membres du groupe.</target>
+      </trans-unit>
+      <trans-unit id="hidden.description" approved="yes">
+        <source>Disables a user group.</source>
+        <target state="translated">Désactive un groupe utilisateur.</target>
+      </trans-unit>
+      <trans-unit id="hidden.details" approved="yes">
+        <source>If you disable a user group all users which are members of the group will in effect not inherit any properties this group may have given them.</source>
+        <target state="translated">Si vous désactivez un groupe utilisateur tous ses utilisateurs n'hériterons plus des propriétés que ce groupe leur attribuait.</target>
+      </trans-unit>
+      <trans-unit id="_lockToDomain.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:lockToDomain,
+fe_users:lockToDomain,
+fe_groups:lockToDomain</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:lockToDomain, fe_users:lockToDomain, fe_groups:lockToDomain</target></trans-unit>
+      <trans-unit id="groupMods.description" approved="yes">
+        <source>Select available backend modules for the group members.</source>
+        <target state="translated">Choisissez les modules backend disponibles pour les membres du groupe.</target>
+      </trans-unit>
+      <trans-unit id="groupMods.details" xml:space="preserve" approved="yes">
+				<source>This determines which 'menu items' are available for the group members.
+This list of modules is added to any modules selected in other member groups of a user as well as the corresponding field of the user himself.</source>
+			<target state="translated">Ceci détermine quels 'éléments de menu' sont disponibles pour les membres du groupe.
+Cette liste de modules est ajoutée aux modules sélectionnés dans les autres groupes d'un utilisateur ainsi que dans le champ correspondant de son enregistrement Utilisateur BE.</target></trans-unit>
+      <trans-unit id="inc_access_lists.description" approved="yes">
+        <source>Select whether the Access Lists for Page type, Tables, Module and Allowed excludefield are enabled for this group.</source>
+        <target state="translated">Choisissez si les listes d'accès aux modules, tables, types de pages, autorisations et exclusions explicites sont activées pour ce groupe.</target>
+      </trans-unit>
+      <trans-unit id="_inc_access_lists.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:pagetypes_select,
+be_groups:tables_modify,
+be_groups:tables_select,
+be_groups:groupMods,
+be_groups:non_exclude_fields</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:pagetypes_select, be_groups:tables_modify, be_groups:tables_select, be_groups:groupMods, be_groups:non_exclude_fields</target></trans-unit>
+      <trans-unit id="description.description" approved="yes">
+        <source>Enter a short description of the user group, what it is for and who should be members. This is for internal use only.</source>
+        <target state="translated">Entrez une brève description du groupe d'utilisateurs, à quoi il sert et qui devrait être membre. Ceci est seulement pour usage interne.</target>
+      </trans-unit>
+      <trans-unit id="TSconfig.syntax" approved="yes">
+        <source>TypoScript syntax without conditions and constants.</source>
+        <target state="translated">Syntaxe Typoscript sans conditions ni constantes.</target>
+      </trans-unit>
+      <trans-unit id="explicit_allowdeny.description" approved="yes">
+        <source>Select field values to explicitly deny or allow for user group members.</source>
+        <target state="translated">Sélectionnez les champs explicitement autorisés ou interdits pour les membres du groupe utilisateur.</target>
+      </trans-unit>
+      <trans-unit id="allowed_languages.description" approved="yes">
+        <source>Select which record languages the group members are limited to edit.</source>
+        <target state="translated">Choisissez les langues auxquelles le groupe à les droits d'éditions.</target>
+      </trans-unit>
+      <trans-unit id="allowed_languages.details" xml:space="preserve" approved="yes">
+				<source>Records in TYPO3 can be configured to carry information about their language. If that is the case access to these elements will also be evaluated based on whether the user has the language in question included from this list.
+If a user has no languages listed all together it simply means that he can edit &lt;em&gt;all&lt;/em&gt; languages!</source>
+			<target state="translated">Les enregistrements dans TYPO3 peuvent contenir des informations concernant leur langue. Si c'est le cas alors l'accès à ces enregistrements est permis uniquement si l'utilisateur à cette langue dans sa liste. Si un utilisateur na pas de langue dans sa liste alors cela signifie qu'il peut éditer &lt;em&gt;toutes&lt;/em&gt; les langues!</target></trans-unit>
+      <trans-unit id="custom_options.description" approved="yes">
+        <source>Select custom permission options.</source>
+        <target state="translated">Choisissez les options de permission personnalisées.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
