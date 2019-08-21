@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814857" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="lang" target-language="fr">
+    <header/>
+    <body>
+      <trans-unit id=".description" approved="yes">
+        <source>Filemounts describe a filepath on the server, relative or absolute.</source>
+        <target state="translated">Le montage de fichiers décrit un chemin sur le serveur, relatif ou absolu.</target>
+      </trans-unit>
+      <trans-unit id="title.description" approved="yes">
+        <source>Enter a title for the filemount. The title will appear as the name of the file mount when it is applied to users and groups.</source>
+        <target state="translated">Saisir un titre pour le montage de fichier. Le titre apparaîtra comme nom du montage de fichier quand il est appliqué aux utilisateurs et aux groupes</target>
+      </trans-unit>
+      <trans-unit id="path.description" approved="yes">
+        <source>Enter the path of the filemount, relative or absolute depending on the settings of BASE.</source>
+        <target state="translated">Entrer le chemin du montage de fichier, relatif ou absolu selon les options de configuration de « BASE »</target>
+      </trans-unit>
+      <trans-unit id="path.image_descr" xml:space="preserve" approved="yes">
+				<source>This is a filemount relative to "fileadmin/". The mounted folder is "fileadmin/user_upload/" since "user_upload" is the value of the "Path" field.
+The directory structure of "fileadmin/" where you can see the "user_upload" folder in the bottom of the list.</source>
+			<target state="translated">Ceci est un montage de fichier relatif à "fileadmin/". Le dossier monté est "fileadmin/user_upload/" depuis "user_upload" et correspond à la valeur du champ "Chemin".
+La structure du dossier de "fileadmin/" où vous pouvez voir le dossier "user_upload" est placé en bas de la liste.</target></trans-unit>
+      <trans-unit id="hidden.description" approved="yes">
+        <source>Use this option to temporarily disable the filemount.</source>
+        <target state="translated">Utilisez cette option pour désactiver temporairement le point de montage.</target>
+      </trans-unit>
+      <trans-unit id="hidden.details" approved="yes">
+        <source>All backend users using the mount will not have access anymore. This includes 'Admin'-users.</source>
+        <target state="translated">Tous les utilisateurs backend utilisant ce point de montage n'auront plus accès à rien. Cela inclut également les utilisateurs de type "Admin".</target>
+      </trans-unit>
+      <trans-unit id="base.description" approved="yes">
+        <source>Determines whether the value of the PATH field is to be recognized as an absolute path on the server or a path relative to the fileadmin/ subfolder to the website.</source>
+        <target state="translated">Détermine si la valeur du champ « Chemin » doit être reconnue comme un chemin absolu sur le serveur ou un chemin relatif au sous-dossier « fileadmin/ » du site web.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
