@@ -1,75 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1521629231" source-language="en" datatype="plaintext" original="messages" date="2018-03-21T11:47:00Z" product-name="adminpanel" target-language="de">
+  <file t3:id="1521629231" source-language="en" datatype="plaintext" original="messages" date="2018-03-21T11:47:00Z" product-name="adminpanel" target-language="de-AT">
     <header/>
     <body>
-      <trans-unit id="module.shortinfo" approved="yes">
+      <trans-unit id="module.label">
+        <source>Debug</source>
+        <target>crwdns19282:0crwdne19282:0</target>
+      </trans-unit>
+      <trans-unit id="module.shortinfo">
         <source>(%s Errors/Warnings)</source>
-        <target state="translated">(%s Fehler/Warnungen)</target>
+        <target>crwdns19284:0%scrwdne19284:0</target>
       </trans-unit>
-      <trans-unit id="submodule.log.label" approved="yes">
+      <trans-unit id="submodule.log.label">
         <source>Log</source>
-        <target state="translated">Protokoll</target>
+        <target>crwdns19286:0crwdne19286:0</target>
       </trans-unit>
-      <trans-unit id="submodule.log.message" approved="yes">
+      <trans-unit id="submodule.log.message">
         <source>Log Message</source>
-        <target state="translated">Protokoll-Nachricht</target>
+        <target>crwdns19288:0crwdne19288:0</target>
       </trans-unit>
-      <trans-unit id="submodule.log.component" approved="yes">
+      <trans-unit id="submodule.log.component">
         <source>Component</source>
-        <target state="translated">Komponente</target>
+        <target>crwdns19290:0crwdne19290:0</target>
       </trans-unit>
-      <trans-unit id="submodule.log.level" approved="yes">
+      <trans-unit id="submodule.log.level">
         <source>Level</source>
-        <target state="translated">Ebene</target>
+        <target>crwdns19292:0crwdne19292:0</target>
       </trans-unit>
-      <trans-unit id="submodule.log.groupByComponent" approved="yes">
+      <trans-unit id="submodule.log.groupByComponent">
         <source>Group by Component</source>
-        <target state="translated">Nach Komponente gruppieren</target>
+        <target>crwdns19294:0crwdne19294:0</target>
       </trans-unit>
-      <trans-unit id="submodule.log.groupByLevel" approved="yes">
+      <trans-unit id="submodule.log.groupByLevel">
         <source>Group by Level</source>
-        <target state="translated">Nach Ebene gruppieren</target>
+        <target>crwdns19296:0crwdne19296:0</target>
       </trans-unit>
-      <trans-unit id="submodule.log.startLevel" approved="yes">
+      <trans-unit id="submodule.log.startLevel">
         <source>Display only levels equal or higher to</source>
-        <target state="translated">Nur Ebenen anzeigen, die gleich oder höher sind als</target>
+        <target>crwdns19298:0crwdne19298:0</target>
       </trans-unit>
-      <trans-unit id="submodule.log.noEntries" approved="yes">
+      <trans-unit id="submodule.log.noEntries">
         <source>No log entries.</source>
-        <target state="translated">Keine Protokoll-Einträge.</target>
+        <target>crwdns19300:0crwdne19300:0</target>
       </trans-unit>
-      <trans-unit id="submodule.queryInformation.label" approved="yes">
+      <trans-unit id="submodule.queryInformation.label">
         <source>Query Information</source>
-        <target state="translated">Abfrage-Informationen</target>
+        <target>crwdns19302:0crwdne19302:0</target>
       </trans-unit>
-      <trans-unit id="submodule.queryInformation.query" approved="yes">
+      <trans-unit id="submodule.queryInformation.query">
         <source>Query</source>
-        <target state="translated">Abfrage</target>
+        <target>crwdns19304:0crwdne19304:0</target>
       </trans-unit>
-      <trans-unit id="submodule.queryInformation.queries" approved="yes">
+      <trans-unit id="submodule.queryInformation.queries">
         <source>Queries</source>
-        <target state="translated">Abfragen</target>
+        <target>crwdns19306:0crwdne19306:0</target>
       </trans-unit>
-      <trans-unit id="submodule.queryInformation.backtrace" approved="yes">
+      <trans-unit id="submodule.queryInformation.backtrace">
         <source>Backtrace</source>
-        <target state="translated">Ablaufverfolgung</target>
+        <target>crwdns19308:0crwdne19308:0</target>
       </trans-unit>
-      <trans-unit id="submodule.queryInformation.doctrineDebug" approved="yes">
+      <trans-unit id="submodule.queryInformation.doctrineDebug">
         <source>SQL Debug</source>
-        <target state="translated">SQL-Debug</target>
+        <target>crwdns19310:0crwdne19310:0</target>
       </trans-unit>
-      <trans-unit id="submodule.queryInformation.sqlQuery" approved="yes">
+      <trans-unit id="submodule.queryInformation.sqlQuery">
         <source>SQL Query</source>
-        <target state="translated">SQL-Abfrage</target>
+        <target>crwdns19312:0crwdne19312:0</target>
       </trans-unit>
-      <trans-unit id="submodule.queryInformation.queryCount" approved="yes">
+      <trans-unit id="submodule.queryInformation.queryCount">
         <source>Count</source>
-        <target state="translated">Anzahl</target>
+        <target>crwdns19314:0crwdne19314:0</target>
       </trans-unit>
-      <trans-unit id="submodule.queryInformation.queryTime" approved="yes">
+      <trans-unit id="submodule.queryInformation.queryTime">
         <source>Total Time [ms]</source>
-        <target state="translated">Gesamtzeit [ms]</target>
+        <target>crwdns19316:0[ms]crwdne19316:0</target>
       </trans-unit>
     </body>
   </file>
