@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1498839785" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="backend" target-language="ru">
+    <header/>
+    <body>
+      <trans-unit id="title" approved="yes">
+        <source>Sort sub pages</source>
+        <target state="translated">Сортировка подстраниц</target>
+      </trans-unit>
+      <trans-unit id="currentPageOrder" approved="yes">
+        <source>Current page order</source>
+        <target state="translated">Текущий порядок страниц</target>
+      </trans-unit>
+      <trans-unit id="changeOrder" approved="yes">
+        <source>Sort these pages by</source>
+        <target state="translated">Упорядочить страницы по</target>
+      </trans-unit>
+      <trans-unit id="changeOrderConfirm" approved="yes">
+        <source>You're about to change the order of the above pages. Are you sure you want to continue?</source>
+        <target state="translated">Вы собираетесь изменить порядок вышеперечисленных страниц. Верно?</target>
+      </trans-unit>
+      <trans-unit id="fieldTitle" approved="yes">
+        <source>Page title</source>
+        <target state="translated">Заголовок страницы</target>
+      </trans-unit>
+      <trans-unit id="fieldSubtitle" approved="yes">
+        <source>Subtitle</source>
+        <target state="translated">Подзаголовок</target>
+      </trans-unit>
+      <trans-unit id="fieldNavitle" approved="yes">
+        <source>Navigation title</source>
+        <target state="translated">Название для меню</target>
+      </trans-unit>
+      <trans-unit id="fieldCrdate" approved="yes">
+        <source>Create-time</source>
+        <target state="translated">Время создания</target>
+      </trans-unit>
+      <trans-unit id="fieldTstamp" approved="yes">
+        <source>Change-time</source>
+        <target state="translated">Время изменения</target>
+      </trans-unit>
+      <trans-unit id="changeOrderByTitle" approved="yes">
+        <source>Page title</source>
+        <target state="translated">Заголовок страницы</target>
+      </trans-unit>
+      <trans-unit id="changeOrderBySubtitle" approved="yes">
+        <source>Subtitle</source>
+        <target state="translated">Подзаголовок</target>
+      </trans-unit>
+      <trans-unit id="changeOrderByNavtitle" approved="yes">
+        <source>Navigation title</source>
+        <target state="translated">Название для меню</target>
+      </trans-unit>
+      <trans-unit id="changeOrderByTstamp" approved="yes">
+        <source>Change-time</source>
+        <target state="translated">Время изменения</target>
+      </trans-unit>
+      <trans-unit id="changeOrderByCreate" approved="yes">
+        <source>Create-time</source>
+        <target state="translated">Время создания</target>
+      </trans-unit>
+      <trans-unit id="changeOrderReverse" approved="yes">
+        <source>Reverse current order</source>
+        <target state="translated">Порядок обратный текущему</target>
+      </trans-unit>
+      <trans-unit id="hasInvisiblePage.title" approved="yes">
+        <source>Invisible subpages</source>
+        <target state="translated">Невидимые подстраницы</target>
+      </trans-unit>
+      <trans-unit id="hasInvisiblePage.message" approved="yes">
+        <source>The page has invisible subpages which are not shown due to access restrictions. Those will not be sorted among others.</source>
+        <target state="translated">На странице имеются невидимые подстраницы, не отображаемые из-за ограничений доступа. Они не будут отсортированы.</target>
+      </trans-unit>
+      <trans-unit id="noSubpages.title" approved="yes">
+        <source>No subpages</source>
+        <target state="translated">Нет подстраниц</target>
+      </trans-unit>
+      <trans-unit id="noSubpages.message" approved="yes">
+        <source>Please select a page with subpages.</source>
+        <target state="translated">Выберите страницу с подстраницами.</target>
+      </trans-unit>
+      <trans-unit id="notAvailableInWorkspace.title" approved="yes">
+        <source>Not implemented</source>
+        <target state="translated">Не реализовано</target>
+      </trans-unit>
+      <trans-unit id="notAvailableInWorkspace.message" approved="yes">
+        <source>Sorry, this function is not available in the current draft workspace!</source>
+        <target state="translated">Эта функция недоступна в текущем черновом рабочем пространстве!</target>
+      </trans-unit>
+      <trans-unit id="noEditPermissions" approved="yes">
+        <source>No edit permissions on this sub page. This page can not be re-sorted among others.</source>
+        <target state="translated">Нет прав на редактирование этой подстраницы. Эта страница не может быть пересортирована среди других.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
