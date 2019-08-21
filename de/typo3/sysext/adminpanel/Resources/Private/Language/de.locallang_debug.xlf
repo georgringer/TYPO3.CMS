@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1521629231" source-language="en" datatype="plaintext" original="messages" date="2018-03-21T11:47:00Z" product-name="adminpanel" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="module.shortinfo" approved="yes">
+        <source>(%s Errors/Warnings)</source>
+        <target state="translated">(%s Fehler/Warnungen)</target>
+      </trans-unit>
+      <trans-unit id="submodule.log.label" approved="yes">
+        <source>Log</source>
+        <target state="translated">Protokoll</target>
+      </trans-unit>
+      <trans-unit id="submodule.log.message" approved="yes">
+        <source>Log Message</source>
+        <target state="translated">Protokoll-Nachricht</target>
+      </trans-unit>
+      <trans-unit id="submodule.log.component" approved="yes">
+        <source>Component</source>
+        <target state="translated">Komponente</target>
+      </trans-unit>
+      <trans-unit id="submodule.log.level" approved="yes">
+        <source>Level</source>
+        <target state="translated">Ebene</target>
+      </trans-unit>
+      <trans-unit id="submodule.log.groupByComponent" approved="yes">
+        <source>Group by Component</source>
+        <target state="translated">Nach Komponente gruppieren</target>
+      </trans-unit>
+      <trans-unit id="submodule.log.groupByLevel" approved="yes">
+        <source>Group by Level</source>
+        <target state="translated">Nach Ebene gruppieren</target>
+      </trans-unit>
+      <trans-unit id="submodule.log.startLevel" approved="yes">
+        <source>Display only levels equal or higher to</source>
+        <target state="translated">Nur Ebenen anzeigen, die gleich oder höher sind als</target>
+      </trans-unit>
+      <trans-unit id="submodule.log.noEntries" approved="yes">
+        <source>No log entries.</source>
+        <target state="translated">Keine Protokoll-Einträge.</target>
+      </trans-unit>
+      <trans-unit id="submodule.queryInformation.label" approved="yes">
+        <source>Query Information</source>
+        <target state="translated">Abfrage-Informationen</target>
+      </trans-unit>
+      <trans-unit id="submodule.queryInformation.query" approved="yes">
+        <source>Query</source>
+        <target state="translated">Abfrage</target>
+      </trans-unit>
+      <trans-unit id="submodule.queryInformation.queries" approved="yes">
+        <source>Queries</source>
+        <target state="translated">Abfragen</target>
+      </trans-unit>
+      <trans-unit id="submodule.queryInformation.backtrace" approved="yes">
+        <source>Backtrace</source>
+        <target state="translated">Ablaufverfolgung</target>
+      </trans-unit>
+      <trans-unit id="submodule.queryInformation.doctrineDebug" approved="yes">
+        <source>SQL Debug</source>
+        <target state="translated">SQL-Debug</target>
+      </trans-unit>
+      <trans-unit id="submodule.queryInformation.sqlQuery" approved="yes">
+        <source>SQL Query</source>
+        <target state="translated">SQL-Abfrage</target>
+      </trans-unit>
+      <trans-unit id="submodule.queryInformation.queryCount" approved="yes">
+        <source>Count</source>
+        <target state="translated">Anzahl</target>
+      </trans-unit>
+      <trans-unit id="submodule.queryInformation.queryTime" approved="yes">
+        <source>Total Time [ms]</source>
+        <target state="translated">Gesamtzeit [ms]</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
