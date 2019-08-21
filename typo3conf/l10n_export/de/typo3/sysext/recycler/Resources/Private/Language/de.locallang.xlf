@@ -1,171 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415814907" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:35Z" product-name="recycler" target-language="de-AT">
+  <file t3:id="1415814907" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:35Z" product-name="recycler" target-language="de">
     <header/>
     <body>
-      <trans-unit id="title">
+      <trans-unit id="title" approved="yes">
         <source>Recycler</source>
-        <target>crwdns42902:0crwdne42902:0</target>
+        <target state="translated">Papierkorb</target>
       </trans-unit>
-      <trans-unit id="description">
+      <trans-unit id="description" approved="yes">
         <source>The recycler allows you to select any deleted data and undelete it. You can undelete recursive if the parent of the element is deleted too.</source>
-        <target>crwdns42904:0crwdne42904:0</target>
+        <target state="translated">Der Papierkorb erlaubt es, gelöschte Daten auszuwählen und sie wiederherzustellen. Ist auch das übergeordnete Element gelöscht (etwa die Seite, auf der sich das wiederherzustellende Inhaltselement befunden hat), können Sie Datensätze auch rekursiv wiederherstellen.</target>
       </trans-unit>
-      <trans-unit id="label_allrecordtypes">
+      <trans-unit id="label_allrecordtypes" approved="yes">
         <source>All Record Types</source>
-        <target>crwdns42906:0crwdne42906:0</target>
+        <target state="translated">Alle Datensatztypen</target>
       </trans-unit>
-      <trans-unit id="button.cancel">
+      <trans-unit id="button.cancel" approved="yes">
         <source>Cancel</source>
-        <target>crwdns42908:0crwdne42908:0</target>
+        <target state="translated">Abbrechen</target>
       </trans-unit>
-      <trans-unit id="button.delete">
+      <trans-unit id="button.delete" approved="yes">
         <source>Delete</source>
-        <target>crwdns42910:0crwdne42910:0</target>
+        <target state="translated">Löschen</target>
       </trans-unit>
-      <trans-unit id="button.deleteselected">
+      <trans-unit id="button.deleteselected" approved="yes">
         <source>Delete {0} records</source>
-        <target>crwdns42912:0{0}crwdne42912:0</target>
+        <target state="translated">{0} Datensätze löschen</target>
       </trans-unit>
-      <trans-unit id="button.undo">
+      <trans-unit id="button.undo" approved="yes">
         <source>Recover</source>
-        <target>crwdns42914:0crwdne42914:0</target>
+        <target state="translated">Wiederherstellen</target>
       </trans-unit>
-      <trans-unit id="button.expand">
+      <trans-unit id="button.expand" approved="yes">
         <source>Expand record</source>
-        <target>crwdns42916:0crwdne42916:0</target>
+        <target state="translated">Datensatz ausklappen</target>
       </trans-unit>
-      <trans-unit id="button.undoselected">
+      <trans-unit id="button.undoselected" approved="yes">
         <source>Recover {0} records</source>
-        <target>crwdns42918:0{0}crwdne42918:0</target>
+        <target state="translated">{0} Datensätze wiederherstellen</target>
       </trans-unit>
-      <trans-unit id="button.reload">
+      <trans-unit id="button.reload" approved="yes">
         <source>Reload</source>
-        <target>crwdns42920:0crwdne42920:0</target>
+        <target state="translated">Neuladen</target>
       </trans-unit>
-      <trans-unit id="modal.delete.header">
+      <trans-unit id="modal.delete.header" approved="yes">
         <source>Confirm deletion</source>
-        <target>crwdns42922:0crwdne42922:0</target>
+        <target state="translated">Löschen bestätigen</target>
       </trans-unit>
-      <trans-unit id="modal.undo.header">
+      <trans-unit id="modal.undo.header" approved="yes">
         <source>Recover records</source>
-        <target>crwdns42924:0crwdne42924:0</target>
+        <target state="translated">Datensätze wiederherstellen</target>
       </trans-unit>
-      <trans-unit id="modal.undo.recursive">
+      <trans-unit id="modal.undo.recursive" approved="yes">
         <source>Recover content and subpages recursively</source>
-        <target>crwdns42926:0crwdne42926:0</target>
+        <target state="translated">Inhalt und Unterseiten rekursiv wiederherstellen</target>
       </trans-unit>
-      <trans-unit id="modal.deletecontent.text">
+      <trans-unit id="modal.deletecontent.text" approved="yes">
         <source>Do you really want to delete the record "{0}" {1} permanently? You cannot revert this action!</source>
-        <target>crwdns42928:0{0}crwdnd42928:0{1}crwdne42928:0</target>
+        <target state="translated">Datensatz "{0}" {1} tatsächlich dauerhaft löschen? Diese Aktion können Sie nicht rückgängig machen!</target>
       </trans-unit>
-      <trans-unit id="modal.massdelete.text">
+      <trans-unit id="modal.massdelete.text" approved="yes">
         <source>Do you really want to delete all selected records and potential subpages? You cannot revert this action!</source>
-        <target>crwdns42930:0crwdne42930:0</target>
+        <target state="translated">Alle ausgewählten Datensätze und eventuelle Unterseiten tatsächlich dauerhaft löschen? Diese Aktion können Sie nicht rückgängig machen!</target>
       </trans-unit>
-      <trans-unit id="modal.deletepage.text">
+      <trans-unit id="modal.deletepage.text" approved="yes">
         <source>Do you really want to delete the page "{0}" {1} and all of its contents (records and pages) permanently? You cannot revert this action!</source>
-        <target>crwdns42932:0{0}crwdnd42932:0{1}crwdne42932:0</target>
+        <target state="translated">Seite "{0}" {1} mit all ihrem Inhalt (Datensätze und Seiten) tatsächlich dauerhaft löschen? Diese Aktion können Sie nicht rückgängig machen!</target>
       </trans-unit>
-      <trans-unit id="modal.undocontent.text">
+      <trans-unit id="modal.undocontent.text" approved="yes">
         <source>Do you really want to recover the record "{0}" {1}?</source>
-        <target>crwdns42934:0{0}crwdnd42934:0{1}crwdne42934:0</target>
+        <target state="translated">Datensatz "{0}" {1} tatsächlich wiederherstellen?</target>
       </trans-unit>
-      <trans-unit id="modal.undopage.text">
+      <trans-unit id="modal.undopage.text" approved="yes">
         <source>Do you really want to recover the page "{0}" {1}, its contents and optionally all of its subpages?</source>
-        <target>crwdns42936:0{0}crwdnd42936:0{1}crwdne42936:0</target>
+        <target state="translated">Seite "{0}" {1} mit all ihrem Inhalt und optional alle ihre Unterseiten tatsächlich wiederherstellen?</target>
       </trans-unit>
-      <trans-unit id="modal.undo.parentpages">
+      <trans-unit id="modal.undo.parentpages" approved="yes">
         <source>All parent pages have been restored to ensure a valid rootline!</source>
-        <target>crwdns42938:0crwdne42938:0</target>
+        <target state="translated">Alle Elternseiten wurden wiederhergestellt, um eine gültige Verbindung zur Websitewurzel sicherzustellen!</target>
       </trans-unit>
-      <trans-unit id="modal.massundo.text">
+      <trans-unit id="modal.massundo.text" approved="yes">
         <source>Do you really want to recover all selected records and optionally potential subpages?</source>
-        <target>crwdns42940:0crwdne42940:0</target>
+        <target state="translated">Alle ausgewählten Datensätze und optional potenzielle Unterseiten tatsächlich wiederherstellen?</target>
       </trans-unit>
-      <trans-unit id="flashmessage.delete.norecordsselected">
+      <trans-unit id="flashmessage.delete.norecordsselected" approved="yes">
         <source>No records set to delete.</source>
-        <target>crwdns42942:0crwdne42942:0</target>
+        <target state="translated">Keine Datensätze zum Löschen markiert.</target>
       </trans-unit>
-      <trans-unit id="flashmessage.delete.success.singular">
+      <trans-unit id="flashmessage.delete.success.singular" approved="yes">
         <source>One record was deleted.</source>
-        <target>crwdns42944:0crwdne42944:0</target>
+        <target state="translated">Ein Datensatz wurde gelöscht.</target>
       </trans-unit>
-      <trans-unit id="flashmessage.delete.success.plural">
+      <trans-unit id="flashmessage.delete.success.plural" approved="yes">
         <source>%d records were deleted.</source>
-        <target>crwdns42946:0%dcrwdne42946:0</target>
+        <target state="translated">%d Datensätze wurden gelöscht.</target>
       </trans-unit>
-      <trans-unit id="flashmessage.delete.failure.singular">
+      <trans-unit id="flashmessage.delete.failure.singular" approved="yes">
         <source>Could not delete one record.</source>
-        <target>crwdns42948:0crwdne42948:0</target>
+        <target state="translated">Ein Datensatz konnte nicht gelöscht werden.</target>
       </trans-unit>
-      <trans-unit id="flashmessage.delete.failure.plural">
+      <trans-unit id="flashmessage.delete.failure.plural" approved="yes">
         <source>Could not delete %d records.</source>
-        <target>crwdns42950:0%dcrwdne42950:0</target>
+        <target state="translated">%d Datensätze konnten nicht gelöscht werden.</target>
       </trans-unit>
-      <trans-unit id="flashmessage.undo.norecordsselected">
+      <trans-unit id="flashmessage.undo.norecordsselected" approved="yes">
         <source>No records set to recover.</source>
-        <target>crwdns42952:0crwdne42952:0</target>
+        <target state="translated">Keine Datensätze zum Wiederherstellen markiert.</target>
       </trans-unit>
-      <trans-unit id="flashmessage.undo.success.singular">
+      <trans-unit id="flashmessage.undo.success.singular" approved="yes">
         <source>One record was recovered.</source>
-        <target>crwdns42954:0crwdne42954:0</target>
+        <target state="translated">Ein Datensatz wurde wiederhergestellt.</target>
       </trans-unit>
-      <trans-unit id="flashmessage.undo.success.plural">
+      <trans-unit id="flashmessage.undo.success.plural" approved="yes">
         <source>%d records were recovered.</source>
-        <target>crwdns42956:0%dcrwdne42956:0</target>
+        <target state="translated">%d Datensätze wurden wiederhergestellt.</target>
       </trans-unit>
-      <trans-unit id="flashmessage.undo.failure.singular">
+      <trans-unit id="flashmessage.undo.failure.singular" approved="yes">
         <source>Could not recover one record.</source>
-        <target>crwdns42958:0crwdne42958:0</target>
+        <target state="translated">Ein Datensatz konnte nicht wiederhergestellt werden.</target>
       </trans-unit>
-      <trans-unit id="flashmessage.undo.failure.plural">
+      <trans-unit id="flashmessage.undo.failure.plural" approved="yes">
         <source>Could not recover %d records.</source>
-        <target>crwdns42960:0%dcrwdne42960:0</target>
+        <target state="translated">%d Datensätze konnten nicht wiederhergestellt werden.</target>
       </trans-unit>
-      <trans-unit id="table.header.uid">
-        <source>UID</source>
-        <target>crwdns42962:0crwdne42962:0</target>
-      </trans-unit>
-      <trans-unit id="table.header.pid">
-        <source>PID</source>
-        <target>crwdns42964:0crwdne42964:0</target>
-      </trans-unit>
-      <trans-unit id="table.header.record">
+      <trans-unit id="table.header.record" approved="yes">
         <source>Record</source>
-        <target>crwdns42966:0crwdne42966:0</target>
+        <target state="translated">Datensatz</target>
       </trans-unit>
-      <trans-unit id="table.header.actions">
+      <trans-unit id="table.header.actions" approved="yes">
         <source>Actions</source>
-        <target>crwdns42968:0crwdne42968:0</target>
+        <target state="translated">Aktionen</target>
       </trans-unit>
-      <trans-unit id="table.header.recordtype">
+      <trans-unit id="table.header.recordtype" approved="yes">
         <source>Record Type</source>
-        <target>crwdns42970:0crwdne42970:0</target>
+        <target state="translated">Datensatztyp</target>
       </trans-unit>
-      <trans-unit id="table.header.tstamp">
+      <trans-unit id="table.header.tstamp" approved="yes">
         <source>Last edit</source>
-        <target>crwdns42972:0crwdne42972:0</target>
+        <target state="translated">Letzte Bearbeitung</target>
       </trans-unit>
-      <trans-unit id="table.header.crdate">
+      <trans-unit id="table.header.crdate" approved="yes">
         <source>Created on</source>
-        <target>crwdns42974:0crwdne42974:0</target>
+        <target state="translated">Erstellt am</target>
       </trans-unit>
-      <trans-unit id="table.header.owner">
+      <trans-unit id="table.header.owner" approved="yes">
         <source>Owner</source>
-        <target>crwdns42976:0crwdne42976:0</target>
+        <target state="translated">Besitzer</target>
       </trans-unit>
-      <trans-unit id="table.header.deletedBy">
+      <trans-unit id="table.header.deletedBy" approved="yes">
         <source>Deleted by</source>
-        <target>crwdns42978:0crwdne42978:0</target>
+        <target state="translated">Gelöscht von</target>
       </trans-unit>
-      <trans-unit id="table.header.path">
+      <trans-unit id="table.header.path" approved="yes">
         <source>Path</source>
-        <target>crwdns42980:0crwdne42980:0</target>
+        <target state="translated">Pfad</target>
       </trans-unit>
-      <trans-unit id="record.deleted">
+      <trans-unit id="record.deleted" approved="yes">
         <source>deleted</source>
-        <target>crwdns42982:0crwdne42982:0</target>
+        <target state="translated">gelöscht</target>
       </trans-unit>
     </body>
   </file>
