@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1424776442" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:35Z" product-name="recycler" target-language="hr">
+    <header/>
+    <body>
+      <trans-unit id="cleanerTaskTitle" approved="yes">
+        <source>Remove deleted records</source>
+        <target state="translated">Ukloni izbrisane zapise</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskDescription" approved="yes">
+        <source>Deletes rows from the database which are flagged "deleted"</source>
+        <target state="translated">Briše retke iz baze podataka koji su označeni kao "obrisani"</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskPeriod" approved="yes">
+        <source>Delete entries older than (in days)</source>
+        <target state="translated">Obriši zapise starije od (u danima)</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskTCA" approved="yes">
+        <source>Tables</source>
+        <target state="translated">Tablice</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskDescriptionTables" approved="yes">
+        <source>Tables: %s</source>
+        <target state="translated">Tablice: %s</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskDescriptionDays" approved="yes">
+        <source>Older than %d days(s)</source>
+        <target state="translated">Starije od %d dana</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskErrorPeriod" approved="yes">
+        <source>The period has to be an integer and greater than zero.</source>
+        <target state="translated">Razdoblje mora biti uneseno kao cijeli broj veći od nule.</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskErrorTCAempty" approved="yes">
+        <source>You have to select at least one table.</source>
+        <target state="translated">Morate odabrati barem jednu tablicu.</target>
+      </trans-unit>
+      <trans-unit id="cleanerTaskErrorTCANotSet" approved="yes">
+        <source>The table "%s" is not in the TCA.</source>
+        <target state="translated">Tablica "%s" se ne nalazi u TCA polju.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
