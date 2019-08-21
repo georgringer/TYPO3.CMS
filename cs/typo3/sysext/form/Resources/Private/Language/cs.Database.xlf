@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1471786343" source-language="en" datatype="plaintext" original="messages" date="2016-08-21T20:15:32Z" product-name="form" target-language="cs">
+    <header/>
+    <body>
+      <trans-unit id="module.shortcut_name" xml:space="preserve" approved="yes">
+                <source>Form manager</source>
+            <target state="translated">Správce formuláře</target></trans-unit>
+      <trans-unit id="default" xml:space="preserve" approved="yes">
+                <source>Default</source>
+            <target state="translated">Výchozí</target></trans-unit>
+      <trans-unit id="tt_content.finishersDefinition.EmailToSender.subject.label" xml:space="preserve" approved="yes">
+                <source>Subject of the email</source>
+            <target state="translated">Předmět emailu</target></trans-unit>
+      <trans-unit id="tt_content.finishersDefinition.EmailToSender.senderAddress.label" xml:space="preserve" approved="yes">
+                <source>Email address of the sender</source>
+            <target state="translated">Emailová adresa odesílatele</target></trans-unit>
+      <trans-unit id="tt_content.finishersDefinition.EmailToSender.senderName.label" xml:space="preserve" approved="yes">
+                <source>Human-readable name of the sender</source>
+            <target state="translated">Jméno odesílatele v lidsky čitelné podobě</target></trans-unit>
+      <trans-unit id="tt_content.finishersDefinition.EmailToReceiver.subject.label" xml:space="preserve" approved="yes">
+                <source>Subject of the email</source>
+            <target state="translated">Předmět emailu</target></trans-unit>
+      <trans-unit id="tt_content.finishersDefinition.EmailToReceiver.senderAddress.label" xml:space="preserve" approved="yes">
+                <source>Email address of the sender</source>
+            <target state="translated">Emailová adresa odesílatele</target></trans-unit>
+      <trans-unit id="tt_content.finishersDefinition.EmailToReceiver.senderName.label" xml:space="preserve" approved="yes">
+                <source>Human-readable name of the sender</source>
+            <target state="translated">Jméno odesílatele v lidsky čitelné podobě</target></trans-unit>
+      <trans-unit id="tt_content.finishersDefinition.EmailToReceiver.language.label" xml:space="preserve" approved="yes">
+                <source>Translation language</source>
+            <target state="translated">Jazyk překladu</target></trans-unit>
+      <trans-unit id="tt_content.finishersDefinition.EmailToReceiver.language.1" xml:space="preserve" approved="yes">
+                <source>Default</source>
+            <target state="translated">Výchozí</target></trans-unit>
+      <trans-unit id="formManagerController.deleteAction.error.body" xml:space="preserve" approved="yes">
+                <source>The form "%s" could not be deleted.</source>
+            <target state="translated">Formulář "%s" nemůže být smazán.</target></trans-unit>
+      <trans-unit id="formManager.headline" xml:space="preserve" approved="yes">
+                <source>Form Management</source>
+            <target state="translated">Správa formulářů</target></trans-unit>
+      <trans-unit id="formManager.create_new_form" xml:space="preserve" approved="yes">
+                <source>Create new form</source>
+            <target state="translated">Vytvořit nový formulář</target></trans-unit>
+      <trans-unit id="formManager.edit_existing_forms" xml:space="preserve" approved="yes">
+                <source>Edit existing forms</source>
+            <target state="translated">Upravit existující formulář</target></trans-unit>
+      <trans-unit id="formManager.form_name" xml:space="preserve" approved="yes">
+                <source>Form name</source>
+            <target state="translated">Název formuláře</target></trans-unit>
+      <trans-unit id="formManager.edit_form" xml:space="preserve" approved="yes">
+                <source>Edit this form</source>
+            <target state="translated">Upravit tento formulář</target></trans-unit>
+      <trans-unit id="formManager.duplicate_this_form" xml:space="preserve" approved="yes">
+                <source>Duplicate this form</source>
+            <target state="translated">Duplikovat tento formulář</target></trans-unit>
+      <trans-unit id="formManager.selectablePrototypesConfiguration.standard.newFormTemplates.blankForm.label" xml:space="preserve" approved="yes">
+                <source>Blank form</source>
+            <target state="translated">Prázdný formulář</target></trans-unit>
+      <trans-unit id="formManager.selectablePrototypesConfiguration.standard.newFormTemplates.simpleContactForm.label" xml:space="preserve" approved="yes">
+                <source>Simple contact form (ext:form example)</source>
+            <target state="translated">Prostý kontaktní formulář (ext:form příklad)</target></trans-unit>
+      <trans-unit id="formEditor.header" xml:space="preserve" approved="yes">
+                <source>Form editor</source>
+            <target state="translated">Editor formuláře</target></trans-unit>
+      <trans-unit id="formEditor.loading" xml:space="preserve" approved="yes">
+                <source>Loading...</source>
+            <target state="translated">Načítání...</target></trans-unit>
+      <trans-unit id="formEditor.spinner" xml:space="preserve" approved="yes">
+                <source>Loading...</source>
+            <target state="translated">Načítání...</target></trans-unit>
+      <trans-unit id="formEditor.save_button" xml:space="preserve" approved="yes">
+                <source>Save</source>
+            <target state="translated">Uložit</target></trans-unit>
+      <trans-unit id="formEditor.formElementPropertyValidatorsDefinition.Integer.label" xml:space="preserve" approved="yes">
+                <source>Not a number</source>
+            <target state="translated">Není číslo</target></trans-unit>
+      <trans-unit id="formEditor.formElementPropertyValidatorsDefinition.NaiveEmail.label" xml:space="preserve" approved="yes">
+                <source>Invalid email address</source>
+            <target state="translated">Neplatná emailová adresa</target></trans-unit>
+      <trans-unit id="formEditor.formElementPropertyValidatorsDefinition.FormElementIdentifierWithinCurlyBraces.label" xml:space="preserve" approved="yes">
+                <source>Invalid form element</source>
+            <target state="translated">Neplatný prvek formuláře</target></trans-unit>
+      <trans-unit id="formEditor.formElementGroups.input.label" xml:space="preserve" approved="yes">
+                <source>Basic elements</source>
+            <target state="translated">Základní prvky</target></trans-unit>
+      <trans-unit id="formEditor.formElementGroups.custom.label" xml:space="preserve" approved="yes">
+                <source>Advanced elements</source>
+            <target state="translated">Pokročilé prvky</target></trans-unit>
+      <trans-unit id="formEditor.elements.BaseFormElementMixin.editor.label.label" xml:space="preserve" approved="yes">
+                <source>Form name</source>
+            <target state="translated">Název formuláře</target></trans-unit>
+      <trans-unit id="formEditor.elements.Form.saveSuccessFlashMessageTitle" xml:space="preserve" approved="yes">
+                <source>Save</source>
+            <target state="translated">Uložit</target></trans-unit>
+      <trans-unit id="formEditor.elements.Form.saveErrorFlashMessageTitle" xml:space="preserve" approved="yes">
+                <source>Save</source>
+            <target state="translated">Uložit</target></trans-unit>
+      <trans-unit id="formEditor.modals.removeElement.confirmButton" xml:space="preserve" approved="yes">
+                <source>Remove</source>
+            <target state="translated">Odstranit</target></trans-unit>
+      <trans-unit id="formEditor.modals.removeElement.cancleButton" xml:space="preserve" approved="yes">
+                <source>Cancel</source>
+            <target state="translated">Zrušit</target></trans-unit>
+      <trans-unit id="formEditor.modals.removeElement.lastAvailablePageFlashMessageTitle" xml:space="preserve" approved="yes">
+                <source>Error</source>
+            <target state="translated">Chyba</target></trans-unit>
+      <trans-unit id="formEditor.elements.SelectionMixin.editor.options.removeLastAvailableRowFlashMessageTitle" xml:space="preserve" approved="yes">
+                <source>Error</source>
+            <target state="translated">Chyba</target></trans-unit>
+      <trans-unit id="formEditor.elements.Form.finisher.EmailToReceiver.editor.language.label" xml:space="preserve" approved="yes">
+                <source>Translation language</source>
+            <target state="translated">Jazyk překladu</target></trans-unit>
+      <trans-unit id="formEditor.stage.toolbar.remove" xml:space="preserve" approved="yes">
+                <source>Remove</source>
+            <target state="translated">Odstranit</target></trans-unit>
+    </body>
+  </file>
+</xliff>
