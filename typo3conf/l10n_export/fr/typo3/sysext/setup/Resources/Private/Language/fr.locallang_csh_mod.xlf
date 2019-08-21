@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814989" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="setup" target-language="fr">
+    <header/>
+    <body>
+      <trans-unit id=".alttitle" approved="yes">
+        <source>User &gt; Setup module</source>
+        <target state="translated">Utilisateur &gt; Module de configuration</target>
+      </trans-unit>
+      <trans-unit id=".description" approved="yes">
+        <source>The Setup module allows the backend user to customize TYPO3 for his own login sessions. This includes the backend language and various other interface features.</source>
+        <target state="translated">Le module Configuration permet à l'utilisateur backend de personnaliser son interface TYPO3. Ceci comprend la langue du backend et bien d'autres fonctionnalités liées à l'interface.</target>
+      </trans-unit>
+      <trans-unit id=".details" approved="yes">
+        <source>&lt;b&gt;Notice [For Admins]:&lt;/b&gt; These settings can all be overridden or have their default values changed by "User TSconfig". To read more about this concept, see the link below!</source>
+        <target state="translated">&lt;b&gt;Note [Pour les Administrateurs]:&lt;/b&gt; Tous ces paramètres peuvent être surchargés ou leurs valeurs par défaut changées par le "USER TSconfig". Pour en savoir plus à propos de ce concept, voir le lien ci-dessous!</target>
+      </trans-unit>
+      <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
+				<source>The Setup module is selected in the left menu.
+This is how the Setup module interface looks like - a list of options to configure.</source>
+			<target state="translated">Le module Setup est sélectionné dans le menu de gauche. C'est ce à quoi ressemble l'interface du module - une liste d'options à configurer.</target></trans-unit>
+      <trans-unit id="language.alttitle" approved="yes">
+        <source>Backend Language selection</source>
+        <target state="translated">Sélection de la langue backend</target>
+      </trans-unit>
+      <trans-unit id="language.description" approved="yes">
+        <source>Select the backend language you prefer. Most parts of TYPO3s backend (for regular users) are translated into other languages.</source>
+        <target state="translated">Sélectionnez la langue backend que vous préférez. La plupart des parties du backend de TYPO3 (pour les utilisateurs réguliers) sont traduites en d'autres langues.</target>
+      </trans-unit>
+      <trans-unit id="language.image_descr" approved="yes">
+        <source>TYPO3 is translated into around 40 languages. English is the default language and all labels must be available in English first and foremost. This screenshot shows translations for Hebrew, Arabic, Russian and Chinese.</source>
+        <target state="translated">TYPO3 est traduit dans près de 40 langues. L'anglais est la langue par défaut et toutes les labels doivent être disponibles en premier et avant tout en anglais. Cette capture d'écran montre des traductions en l'hébreu, arabe, russe et chinois.</target>
+      </trans-unit>
+      <trans-unit id="option_startModule.alttitle" approved="yes">
+        <source>Start module</source>
+        <target state="translated">Module de démarrage</target>
+      </trans-unit>
+      <trans-unit id="option_startModule.description" xml:space="preserve" approved="yes">
+				<source>Let you select the module that is called when you login in the Backend
+The default module is "About Modules".</source>
+			<target state="translated">Vous laisse sélectionner le module appelé quand vous vous connectez au Backend. Le module par défaut est "À propos des modules".</target></trans-unit>
+      <trans-unit id="option_showThumbs.alttitle" approved="yes">
+        <source>Show Thumbnails by default</source>
+        <target state="translated">Afficher les miniatures par défaut</target>
+      </trans-unit>
+      <trans-unit id="option_showThumbs.description" approved="yes">
+        <source>In modules like the "Web &gt; List" and "File &gt; Filelist" you can enable the display of thumbnails of files (images/fonts) and records (if images are attached) with a checkbox. Setting this option will enable the display by default.</source>
+        <target state="translated">Dans les modules tel que "WEB &gt; Liste" et "Fichiers &gt; Fichiers" vous pouvez activer l'affichage des vignettes de fichiers (images/fonts) et d'enregistrements (si des images sont attachées) avec une case à cocher. Cocher cette option activera l'affichage par défaut.</target>
+      </trans-unit>
+      <trans-unit id="option_showThumbs.image_descr" approved="yes">
+        <source>When thumbnails display is enabled, files attached to records will be shown in the "Web &gt; List" module like this.</source>
+        <target state="translated">Quand l'affichage des vignettes est activé, les fichiers attachés aux enregistrements seront montrés dans le module "Web &gt; Liste" comme ceci.</target>
+      </trans-unit>
+      <trans-unit id="option_helpText.alttitle" approved="yes">
+        <source>Show help text when applicable</source>
+        <target state="translated">Afficher l'aide contextuelle si applicable</target>
+      </trans-unit>
+      <trans-unit id="option_maxTitleLen.alttitle" approved="yes">
+        <source>Maximum title length</source>
+        <target state="translated">Taille maximale du titre</target>
+      </trans-unit>
+      <trans-unit id="option_maxTitleLen.description" approved="yes">
+        <source>TYPO3 will often crop long titles of records etc. so only the first X characters are shown. Often the number of shown characters depends on this variable. For instance the length of page titles in the page tree is determined by this value.</source>
+        <target state="translated">TYPO3 coupe souvent les longs titres des enregistrements, etc. donc seulement les n premiers caractères seront affichés. Souvent le nombre de caractères affichés dépend de cette variable. Par exemple la longueur des titres des pages dans l'arborescence est déterminée par cette valeur.</target>
+      </trans-unit>
+      <trans-unit id="option_copyLevels.alttitle" approved="yes">
+        <source>Recursive Copy</source>
+        <target state="translated">Copie récursive</target>
+      </trans-unit>
+      <trans-unit id="option_copyLevels.description" approved="yes">
+        <source>When you copy a page, subpages can also be copied along if you set this option. The number you set here defines the number of levels under a page to include in a copy operation.</source>
+        <target state="translated">Quand vous copiez une page, les sous-pages peuvent aussi l'être si vous mettez cette option. Le nombre que vous mettez ici défini le nombre de niveaux de sous-page à inclure lors de l'opération de copie.</target>
+      </trans-unit>
+      <trans-unit id="option_recursiveDelete.alttitle" approved="yes">
+        <source>Recursive Delete</source>
+        <target state="translated">Suppression récursive</target>
+      </trans-unit>
+      <trans-unit id="option_recursiveDelete.description" approved="yes">
+        <source>You cannot delete a page with subpages unless this flag is set. Be careful - setting this option means that TYPO3 will allow a whole tree of pages to be deleted in one go!</source>
+        <target state="translated">Vous ne pouvez pas supprimer une page avec des sous-pages à moins que cette option soit sélectionnée. Soyez prudent - paramétrer cette option signifie que TYPO3 permettra de supprimer une arborescence de pages en une seule fois!</target>
+      </trans-unit>
+      <trans-unit id="option_edit_RTE.alttitle" approved="yes">
+        <source>Enable Rich Text Editor</source>
+        <target state="translated">Activer le Rich Text Editor</target>
+      </trans-unit>
+      <trans-unit id="option_resizeTextareas.alttitle" approved="yes">
+        <source>Make Textareas Resizable</source>
+        <target state="translated">Activer la possibilité de redimensionner les zones de texte</target>
+      </trans-unit>
+      <trans-unit id="option_resizeTextareas.description" approved="yes">
+        <source>This option will make textareas resizable. You will see the resize mouse cursor if you move mouse to the outer border of textarea.</source>
+        <target state="translated">Cette option rendra les zones de texte redimensionnables. Vous verrez le curseur de redimensionnement si vous bouger le curseur près des bords extérieurs de la zone de texte.</target>
+      </trans-unit>
+      <trans-unit id="option_resizeTextareas_MaxHeight.alttitle" approved="yes">
+        <source>Maximal Height of Textarea</source>
+        <target state="translated">Hauteur maximum des zones de texte</target>
+      </trans-unit>
+      <trans-unit id="option_resizeTextareas_Flexible.alttitle" approved="yes">
+        <source>Make Textareas Flexible</source>
+        <target state="translated">Rendre les zones de texte flexibles</target>
+      </trans-unit>
+      <trans-unit id="option_resizeTextareas_Flexible.description" approved="yes">
+        <source>This option will make textareas flexible. The height will grow automatically while typing. Limit is the maximal height set (default 600).</source>
+        <target state="translated">Cette option rendra les zones de texte flexibles. La hauteur augmentera automatiquement durant la frappe. La limite est la valeur du champ de hauteur maximale (défaut 600).</target>
+      </trans-unit>
+      <trans-unit id="option_beUser_realName.alttitle" approved="yes">
+        <source>Your real name</source>
+        <target state="translated">Votre vrai nom</target>
+      </trans-unit>
+      <trans-unit id="option_beUser_realName.description" approved="yes">
+        <source>Enter your real name here.</source>
+        <target state="translated">Entrez votre vrai nom ici</target>
+      </trans-unit>
+      <trans-unit id="option_beUser_email.alttitle" approved="yes">
+        <source>Your email address</source>
+        <target state="translated">Votre adresse email</target>
+      </trans-unit>
+      <trans-unit id="option_emailMeAtLogin.alttitle" approved="yes">
+        <source>Notify by login</source>
+        <target state="translated">Notifier à la connexion</target>
+      </trans-unit>
+      <trans-unit id="option_newPassword.alttitle" approved="yes">
+        <source>Change password</source>
+        <target state="translated">Changez le mot de passe</target>
+      </trans-unit>
+      <trans-unit id="option_newPasswordAgain.alttitle" approved="yes">
+        <source>Change password, confirm</source>
+        <target state="translated">Changez le mot de passe (confirmation)</target>
+      </trans-unit>
+      <trans-unit id="reset.alttitle" approved="yes">
+        <source>Reset all Values to default</source>
+        <target state="translated">Réinitialiser toutes les valeurs</target>
+      </trans-unit>
+      <trans-unit id="reset.description" approved="yes">
+        <source>If you select this option all settings in this module will be reset to the default settings of the system.</source>
+        <target state="translated">Si vous sélectionnez cette option, tous les paramètres de ce module seront réinitialisés aux valeurs par défaut du système.</target>
+      </trans-unit>
+      <trans-unit id="reset.details" approved="yes">
+        <source>This does not apply to user name, email and password settings of course.</source>
+        <target state="translated">Cela ne s'applique pas au nom d'utilisateur, à l'adresse email et au mot de passe.</target>
+      </trans-unit>
+      <trans-unit id="simuser.alttitle" approved="yes">
+        <source>Simulate backend user</source>
+        <target state="translated">Simuler un utilisateur backend</target>
+      </trans-unit>
+      <trans-unit id="simuser.description" approved="yes">
+        <source>This option allows "admin"-users to change settings for another backend user in the system.</source>
+        <target state="translated">Cette option permet aux utilisateurs "admin" de changer les paramètres pour un autre utilisateur backend du système.</target>
+      </trans-unit>
+      <trans-unit id="option_enableInstallTool.alttitle" approved="yes">
+        <source>Admin control for re-enabling Install Tool access</source>
+        <target state="translated">Contrôle administrateur pour réactiver l'accès à l'outil d'installation</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
