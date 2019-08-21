@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415814838" source-language="en" datatype="plaintext" original="messages" date="2011-12-18T10:19:20Z" product-name="indexed_search" target-language="de">
+  <file t3:id="1415814838" source-language="en" datatype="plaintext" original="messages" date="2011-12-18T10:19:20Z" product-name="indexed_search" target-language="de-AT">
     <header/>
     <body>
-      <trans-unit id="localizedOperandAnd" approved="yes">
+      <trans-unit id="localizedOperandAnd">
         <source>AND</source>
-        <target state="translated">UND</target>
+        <target>crwdns28250:0crwdne28250:0</target>
       </trans-unit>
-      <trans-unit id="localizedOperandOr" approved="yes">
+      <trans-unit id="localizedOperandOr">
         <source>OR</source>
-        <target state="translated">ODER</target>
+        <target>crwdns28252:0crwdne28252:0</target>
       </trans-unit>
-      <trans-unit id="localizedOperandNot" approved="yes">
+      <trans-unit id="localizedOperandNot">
         <source>NOT</source>
-        <target state="translated">NICHT</target>
+        <target>crwdns28254:0crwdne28254:0</target>
       </trans-unit>
-      <trans-unit id="rules.headline" approved="yes">
+      <trans-unit id="rules.headline">
         <source>Rules</source>
-        <target state="translated">Regeln</target>
+        <target>crwdns28256:0crwdne28256:0</target>
       </trans-unit>
-      <trans-unit id="rules.text" xml:space="preserve" approved="yes">
+      <trans-unit id="rules.text" xml:space="preserve">
 				<source><![CDATA[Only words with 2 or more characters are accepted<br />
 Max 200 chars total<br />
 Space is used to split words, "" can be used to search for a whole string (not indexed search then)<br />
@@ -27,564 +27,587 @@ AND, OR and NOT are prefix words, overruling the default operator<br />
 +/|/- equals AND, OR and NOT as operators.<br />
 All search words are converted to lowercase.
 ]]></source>
-			<target state="translated"><![CDATA[Nur Wörter mit 2 oder mehr Zeichen werden akzeptiert.&lt;br /&gt;
-Maximal 200 Zeichen insgesamt.&lt;br /&gt;
-Leerzeichen werden zur Trennung von Worten verwendet, "" kann für die Suche nach ganzen Zeichenfolgen benutzt werden (keine Indexsuche).&lt;br /&gt;
-UND, ODER und NICHT sind Suchoperatoren, die den standardmäßigen Operator überschreiben.&lt;br /&gt;
-+/|/- entspricht UND, ODER und NICHT als Operatoren.&lt;br /&gt;
-Alle Suchwörter werden zu Kleinschreibung konvertiert.
+			<target><![CDATA[crwdns28258:0crwdne28258:0
 ]]></target></trans-unit>
-      <trans-unit id="form.legend" approved="yes">
+      <trans-unit id="form.legend">
         <source>Search form</source>
-        <target state="translated">Suchformular</target>
+        <target>crwdns28260:0crwdne28260:0</target>
       </trans-unit>
-      <trans-unit id="form.searchFor" approved="yes">
+      <trans-unit id="form.searchFor">
         <source>Search for</source>
-        <target state="translated">Suchen nach</target>
+        <target>crwdns28262:0crwdne28262:0</target>
       </trans-unit>
-      <trans-unit id="form.extResume" approved="yes">
+      <trans-unit id="form.extResume">
         <source>Extended resume</source>
-        <target state="translated">Erweiterte Vorschau</target>
+        <target>crwdns28264:0crwdne28264:0</target>
       </trans-unit>
-      <trans-unit id="form.atATime" approved="yes">
+      <trans-unit id="form.atATime">
         <source>at a time</source>
-        <target state="translated">gleichzeitig</target>
+        <target>crwdns28266:0crwdne28266:0</target>
       </trans-unit>
-      <trans-unit id="form.orderBy" approved="yes">
+      <trans-unit id="form.orderBy">
         <source>Order by</source>
-        <target state="translated">Sortieren nach</target>
+        <target>crwdns28268:0crwdne28268:0</target>
       </trans-unit>
-      <trans-unit id="form.fromSection" approved="yes">
+      <trans-unit id="form.fromSection">
         <source>From section</source>
-        <target state="translated">Aus dem Bereich</target>
+        <target>crwdns28270:0crwdne28270:0</target>
       </trans-unit>
-      <trans-unit id="form.freeIndexUid" approved="yes">
+      <trans-unit id="form.freeIndexUid">
         <source>Category</source>
-        <target state="translated">Kategorie</target>
+        <target>crwdns28272:0crwdne28272:0</target>
       </trans-unit>
-      <trans-unit id="form.searchIn" approved="yes">
+      <trans-unit id="form.searchIn">
         <source>Search in</source>
-        <target state="translated">Suche in</target>
+        <target>crwdns28274:0crwdne28274:0</target>
       </trans-unit>
-      <trans-unit id="form.match" approved="yes">
+      <trans-unit id="form.match">
         <source>Match</source>
-        <target state="translated">Vergleich</target>
+        <target>crwdns28276:0crwdne28276:0</target>
       </trans-unit>
-      <trans-unit id="form.style" approved="yes">
+      <trans-unit id="form.style">
         <source>Style</source>
-        <target state="translated">Ansicht</target>
+        <target>crwdns28278:0crwdne28278:0</target>
       </trans-unit>
-      <trans-unit id="form.submit" approved="yes">
+      <trans-unit id="form.submit">
         <source>Search</source>
-        <target state="translated">Suchen</target>
+        <target>crwdns28280:0crwdne28280:0</target>
       </trans-unit>
-      <trans-unit id="form.addToSearch" approved="yes">
+      <trans-unit id="form.addToSearch">
         <source>Add to current search words</source>
-        <target state="translated">Den derzeitigen Suchbegriffen hinzufügen</target>
+        <target>crwdns28282:0crwdne28282:0</target>
       </trans-unit>
-      <trans-unit id="form.linkToRegularSearch" approved="yes">
+      <trans-unit id="form.linkToRegularSearch">
         <source>Regular search</source>
-        <target state="translated">Normale Suche</target>
+        <target>crwdns28284:0crwdne28284:0</target>
       </trans-unit>
-      <trans-unit id="form.linkToAdvancedSearch" approved="yes">
+      <trans-unit id="form.linkToAdvancedSearch">
         <source>Advanced search</source>
-        <target state="translated">Erweiterte Suche</target>
+        <target>crwdns28286:0crwdne28286:0</target>
       </trans-unit>
-      <trans-unit id="searchTypes.0" approved="yes">
+      <trans-unit id="searchTypes.0">
         <source>Distinct word</source>
-        <target state="translated">Ganzes Wort</target>
+        <target>crwdns28288:0crwdne28288:0</target>
       </trans-unit>
-      <trans-unit id="searchTypes.1" approved="yes">
+      <trans-unit id="searchTypes.1">
         <source>Part of word</source>
-        <target state="translated">Wortteil</target>
+        <target>crwdns28290:0crwdne28290:0</target>
       </trans-unit>
-      <trans-unit id="searchTypes.2" approved="yes">
+      <trans-unit id="searchTypes.2">
         <source>First part of word</source>
-        <target state="translated">Wortanfang</target>
+        <target>crwdns28292:0crwdne28292:0</target>
       </trans-unit>
-      <trans-unit id="searchTypes.3" approved="yes">
+      <trans-unit id="searchTypes.3">
         <source>Last part of word</source>
-        <target state="translated">Wortende</target>
+        <target>crwdns28294:0crwdne28294:0</target>
       </trans-unit>
-      <trans-unit id="searchTypes.10" approved="yes">
+      <trans-unit id="searchTypes.10">
         <source>Sounds like</source>
-        <target state="translated">Aussprache</target>
+        <target>crwdns28296:0crwdne28296:0</target>
       </trans-unit>
-      <trans-unit id="searchTypes.20" approved="yes">
+      <trans-unit id="searchTypes.20">
         <source>Sentence</source>
-        <target state="translated">Ganzer Satz</target>
+        <target>crwdns28298:0crwdne28298:0</target>
       </trans-unit>
-      <trans-unit id="defaultOperands.0" approved="yes">
+      <trans-unit id="defaultOperands.0">
         <source>All words (AND)</source>
-        <target state="translated">Alle Wörter (UND)</target>
+        <target>crwdns28300:0crwdne28300:0</target>
       </trans-unit>
-      <trans-unit id="defaultOperands.1" approved="yes">
+      <trans-unit id="defaultOperands.1">
         <source>Any words (OR)</source>
-        <target state="translated">Jedes Wort (ODER)</target>
+        <target>crwdns28302:0crwdne28302:0</target>
       </trans-unit>
-      <trans-unit id="languageUids.-1" approved="yes">
+      <trans-unit id="languageUids.-1">
         <source>All languages</source>
-        <target state="translated">Alle Sprachen</target>
+        <target>crwdns28304:0crwdne28304:0</target>
       </trans-unit>
-      <trans-unit id="languageUids.0" approved="yes">
+      <trans-unit id="languageUids.0">
         <source>Default</source>
-        <target state="translated">Standard</target>
+        <target>crwdns28306:0crwdne28306:0</target>
       </trans-unit>
-      <trans-unit id="sections.0" approved="yes">
+      <trans-unit id="sections.0">
         <source>Whole site</source>
-        <target state="translated">Ganze Website</target>
+        <target>crwdns28308:0crwdne28308:0</target>
       </trans-unit>
-      <trans-unit id="sections.-1" approved="yes">
+      <trans-unit id="sections.-1">
         <source>Only this page</source>
-        <target state="translated">Nur diese Seite</target>
+        <target>crwdns28310:0crwdne28310:0</target>
       </trans-unit>
-      <trans-unit id="sections.-2" approved="yes">
+      <trans-unit id="sections.-2">
         <source>Top + level 1</source>
-        <target state="translated">Homepage + Ebene 1</target>
+        <target>crwdns28312:0crwdne28312:0</target>
       </trans-unit>
-      <trans-unit id="sections.-3" approved="yes">
+      <trans-unit id="sections.-3">
         <source>Level 2 and out</source>
-        <target state="translated">Ebene 2 und tiefer</target>
+        <target>crwdns28314:0crwdne28314:0</target>
       </trans-unit>
-      <trans-unit id="sections.rootLevel1" approved="yes">
+      <trans-unit id="sections.rootLevel1">
         <source>Level 1</source>
-        <target state="translated">Ebene 1</target>
+        <target>crwdns28316:0crwdne28316:0</target>
       </trans-unit>
-      <trans-unit id="sections.rootLevel1All" approved="yes">
+      <trans-unit id="sections.rootLevel1All">
         <source>All pages on level 1</source>
-        <target state="translated">Alle Seiten auf Ebene 1</target>
+        <target>crwdns28318:0crwdne28318:0</target>
       </trans-unit>
-      <trans-unit id="sections.rootLevel2" approved="yes">
+      <trans-unit id="sections.rootLevel2">
         <source>- Level 2</source>
-        <target state="translated">- Ebene 2</target>
+        <target>crwdns28320:0crwdne28320:0</target>
       </trans-unit>
-      <trans-unit id="sections.rootLevel2All" approved="yes">
+      <trans-unit id="sections.rootLevel2All">
         <source>- All pages on level 2</source>
-        <target state="translated">- Alle Seiten auf Ebene 2</target>
+        <target>crwdns28322:0crwdne28322:0</target>
       </trans-unit>
-      <trans-unit id="mediaTypes.0" approved="yes">
+      <trans-unit id="mediaTypes.0">
         <source>Internal pages</source>
-        <target state="translated">Interne Seiten</target>
+        <target>crwdns28324:0crwdne28324:0</target>
       </trans-unit>
-      <trans-unit id="mediaTypes.-1" approved="yes">
+      <trans-unit id="mediaTypes.-1">
         <source>All media</source>
-        <target state="translated">Alle Medien</target>
+        <target>crwdns28326:0crwdne28326:0</target>
       </trans-unit>
-      <trans-unit id="mediaTypes.-2" approved="yes">
+      <trans-unit id="mediaTypes.-2">
         <source>All External</source>
-        <target state="translated">Alle externen Seiten</target>
+        <target>crwdns28328:0crwdne28328:0</target>
       </trans-unit>
-      <trans-unit id="indexingConfigurations.-1" approved="yes">
+      <trans-unit id="indexingConfigurations.-1">
         <source>All, mixed</source>
-        <target state="translated">Alle, gemischt</target>
+        <target>crwdns28330:0crwdne28330:0</target>
       </trans-unit>
-      <trans-unit id="indexingConfigurations.-2" approved="yes">
+      <trans-unit id="indexingConfigurations.-2">
         <source>All, categorized</source>
-        <target state="translated">Alle, kategorisiert</target>
+        <target>crwdns28332:0crwdne28332:0</target>
       </trans-unit>
-      <trans-unit id="indexingConfigurations.0" approved="yes">
+      <trans-unit id="indexingConfigurations.0">
         <source>Pages</source>
-        <target state="translated">Seiten</target>
+        <target>crwdns28334:0crwdne28334:0</target>
       </trans-unit>
-      <trans-unit id="indexingConfigurationHeader.-1" approved="yes">
+      <trans-unit id="indexingConfigurationHeader.-1">
         <source>Mixed categories</source>
-        <target state="translated">gemischte Kategorien</target>
+        <target>crwdns28336:0crwdne28336:0</target>
       </trans-unit>
-      <trans-unit id="indexingConfigurationHeader.0" approved="yes">
+      <trans-unit id="indexingConfigurationHeader.0">
         <source>Website Pages</source>
-        <target state="translated">Web-Seiten</target>
+        <target>crwdns28338:0crwdne28338:0</target>
       </trans-unit>
-      <trans-unit id="sortOrders.rank_flag" approved="yes">
+      <trans-unit id="sortOrders.rank_flag">
         <source>Weight/Frequency</source>
-        <target state="translated">Trefferquote/Vorkommen</target>
+        <target>crwdns28340:0crwdne28340:0</target>
       </trans-unit>
-      <trans-unit id="sortOrders.rank_freq" approved="yes">
+      <trans-unit id="sortOrders.rank_freq">
         <source>Frequency</source>
-        <target state="translated">Vorkommen</target>
+        <target>crwdns28342:0crwdne28342:0</target>
       </trans-unit>
-      <trans-unit id="sortOrders.rank_first" approved="yes">
+      <trans-unit id="sortOrders.rank_first">
         <source>Close to top</source>
-        <target state="translated">Nähe zum Dokumentanfang</target>
+        <target>crwdns28344:0crwdne28344:0</target>
       </trans-unit>
-      <trans-unit id="sortOrders.rank_count" approved="yes">
+      <trans-unit id="sortOrders.rank_count">
         <source>Number of words</source>
-        <target state="translated">Anzahl der Worte</target>
+        <target>crwdns28346:0crwdne28346:0</target>
       </trans-unit>
-      <trans-unit id="sortOrders.mtime" approved="yes">
+      <trans-unit id="sortOrders.mtime">
         <source>Date Modified</source>
-        <target state="translated">Letzte Änderung</target>
+        <target>crwdns28348:0crwdne28348:0</target>
       </trans-unit>
-      <trans-unit id="sortOrders.title" approved="yes">
+      <trans-unit id="sortOrders.title">
         <source>Document title</source>
-        <target state="translated">Dokumententitel</target>
+        <target>crwdns28350:0crwdne28350:0</target>
       </trans-unit>
-      <trans-unit id="sortOrders.crdate" approved="yes">
+      <trans-unit id="sortOrders.crdate">
         <source>Creation date</source>
-        <target state="translated">Erstelldatum</target>
+        <target>crwdns28352:0crwdne28352:0</target>
       </trans-unit>
-      <trans-unit id="sortOrders.descending" approved="yes">
+      <trans-unit id="sortOrders.descending">
         <source>Highest first</source>
-        <target state="translated">Höchste zuerst</target>
+        <target>crwdns28354:0crwdne28354:0</target>
       </trans-unit>
-      <trans-unit id="sortOrders.ascending" approved="yes">
+      <trans-unit id="sortOrders.ascending">
         <source>Lowest first</source>
-        <target state="translated">Geringste zuerst</target>
+        <target>crwdns28356:0crwdne28356:0</target>
       </trans-unit>
-      <trans-unit id="groupBy.sections" approved="yes">
+      <trans-unit id="groupBy.sections">
         <source>Section hierarchy</source>
-        <target state="translated">Bereichshierarchie</target>
+        <target>crwdns28358:0crwdne28358:0</target>
       </trans-unit>
-      <trans-unit id="groupBy.flat" approved="yes">
+      <trans-unit id="groupBy.flat">
         <source>Flat list</source>
-        <target state="translated">Flache Liste</target>
+        <target>crwdns28360:0crwdne28360:0</target>
       </trans-unit>
-      <trans-unit id="result.page" approved="yes">
+      <trans-unit id="result.page">
         <source>page</source>
-        <target state="translated">Seite</target>
+        <target>crwdns28362:0crwdne28362:0</target>
       </trans-unit>
-      <trans-unit id="result.pages" approved="yes">
+      <trans-unit id="result.pages">
         <source>pages</source>
-        <target state="translated">Seiten</target>
+        <target>crwdns28364:0crwdne28364:0</target>
       </trans-unit>
-      <trans-unit id="result.unnamedSection" approved="yes">
+      <trans-unit id="result.unnamedSection">
         <source>Other</source>
-        <target state="translated">Andere</target>
+        <target>crwdns28366:0crwdne28366:0</target>
       </trans-unit>
-      <trans-unit id="result.otherMatching" approved="yes">
+      <trans-unit id="result.otherMatching">
         <source>Other matching pages in the same document</source>
-        <target state="translated">Andere passende Seiten im selben Dokument</target>
+        <target>crwdns28368:0crwdne28368:0</target>
       </trans-unit>
-      <trans-unit id="result.otherPageAsWell" approved="yes">
+      <trans-unit id="result.otherPageAsWell">
         <source>INFO: There was another page indexed as well. Probably indexed with another or no usergroup.</source>
-        <target state="translated">Information: Eine andere Seite wurde auch indexiert... Diese wurde vermutlich mit einer anderen oder keiner Benutzergruppe indexiert.</target>
+        <target>crwdns28370:0crwdne28370:0</target>
       </trans-unit>
-      <trans-unit id="result.path" approved="yes">
+      <trans-unit id="result.path">
         <source>Path</source>
-        <target state="translated">Pfad</target>
+        <target>crwdns28372:0crwdne28372:0</target>
       </trans-unit>
-      <trans-unit id="result.modified" approved="yes">
+      <trans-unit id="result.modified">
         <source>Modified</source>
-        <target state="translated">Geändert</target>
+        <target>crwdns28374:0crwdne28374:0</target>
       </trans-unit>
-      <trans-unit id="result.created" approved="yes">
+      <trans-unit id="result.created">
         <source>Created</source>
-        <target state="translated">Erstellt</target>
+        <target>crwdns28376:0crwdne28376:0</target>
       </trans-unit>
-      <trans-unit id="result.size" approved="yes">
+      <trans-unit id="result.size">
         <source>Size</source>
-        <target state="translated">Größe</target>
+        <target>crwdns28378:0crwdne28378:0</target>
       </trans-unit>
-      <trans-unit id="result.noResume" approved="yes">
+      <trans-unit id="result.noResume">
         <source>Note: This search hit may not accurately match the content on this page. The page resume cannot be shown.</source>
-        <target state="translated">Hinweis: Der Inhalt dieser Seite entspricht nicht exakt der Suche. Die Seitenvorschau wird nicht angezeigt.</target>
+        <target>crwdns28380:0crwdne28380:0</target>
       </trans-unit>
-      <trans-unit id="result.memberGroups" approved="yes">
+      <trans-unit id="result.memberGroups">
         <source>Require membership of group numbers %s</source>
-        <target state="translated">Erfordert Mitgliedschaft der Gruppe(n) Nummer %s</target>
+        <target>crwdns28382:0%scrwdne28382:0</target>
       </trans-unit>
-      <trans-unit id="result.ratingMatches" approved="yes">
+      <trans-unit id="result.ratingMatches">
         <source>matches</source>
-        <target state="translated">Treffer</target>
+        <target>crwdns28384:0crwdne28384:0</target>
       </trans-unit>
-      <trans-unit id="result.noResult" approved="yes">
+      <trans-unit id="result.noResult">
         <source>No results found.</source>
-        <target state="translated">Keine Ergebnisse gefunden.</target>
+        <target>crwdns28386:0crwdne28386:0</target>
       </trans-unit>
-      <trans-unit id="result.inSection" approved="yes">
+      <trans-unit id="result.inSection">
         <source>in the section</source>
-        <target state="translated">im Bereich</target>
+        <target>crwdns28388:0crwdne28388:0</target>
       </trans-unit>
-      <trans-unit id="result.inNsection" approved="yes">
+      <trans-unit id="result.inNsection">
         <source>in %s section</source>
-        <target state="translated">in %s Bereich</target>
+        <target>crwdns28390:0%scrwdne28390:0</target>
       </trans-unit>
-      <trans-unit id="result.inNsections" approved="yes">
+      <trans-unit id="result.inNsections">
         <source>in %s sections</source>
-        <target state="translated">in %s Bereichen</target>
+        <target>crwdns28392:0%scrwdne28392:0</target>
       </trans-unit>
-      <trans-unit id="searchFor" approved="yes">
+      <trans-unit id="searchFor">
         <source>Search for</source>
-        <target state="translated">Suche nach</target>
+        <target>crwdns28394:0crwdne28394:0</target>
       </trans-unit>
-      <trans-unit id="searchFor.or" approved="yes">
+      <trans-unit id="searchFor.or">
         <source>or</source>
-        <target state="translated">oder</target>
+        <target>crwdns28396:0crwdne28396:0</target>
       </trans-unit>
-      <trans-unit id="searchFor.and" approved="yes">
+      <trans-unit id="searchFor.and">
         <source>and</source>
-        <target state="translated">und</target>
+        <target>crwdns28398:0crwdne28398:0</target>
       </trans-unit>
-      <trans-unit id="searchFor.andnot" approved="yes">
+      <trans-unit id="searchFor.andnot">
         <source>but not</source>
-        <target state="translated">aber nicht</target>
+        <target>crwdns28400:0crwdne28400:0</target>
       </trans-unit>
-      <trans-unit id="displayResults.previous" approved="yes">
+      <trans-unit id="displayResults.previous">
         <source>&lt; Previous</source>
-        <target state="translated">&lt; Zurück</target>
+        <target>crwdns28402:0crwdne28402:0</target>
       </trans-unit>
-      <trans-unit id="displayResults.page" approved="yes">
+      <trans-unit id="displayResults.page">
         <source>Page</source>
-        <target state="translated">Seite</target>
+        <target>crwdns28404:0crwdne28404:0</target>
       </trans-unit>
-      <trans-unit id="displayResults.next" approved="yes">
+      <trans-unit id="displayResults.next">
         <source>Next &gt;</source>
-        <target state="translated">Nächste &gt;</target>
+        <target>crwdns28406:0crwdne28406:0</target>
       </trans-unit>
-      <trans-unit id="displayResults" approved="yes">
+      <trans-unit id="displayResults">
         <source><![CDATA[Displaying results <strong>%1$s to %2$s</strong> out of <strong>%3$s</strong>]]></source>
-        <target state="translated"><![CDATA[Anzeige der Ergebnisse &lt;strong&gt;%1$s bis %2$s&lt;/strong&gt; von insgesamt &lt;strong&gt;%3$s&lt;/strong&gt;]]></target>
+        <target><![CDATA[crwdns28408:0%1$scrwdnd28408:0%2$scrwdnd28408:0%3$scrwdne28408:0]]></target>
       </trans-unit>
-      <trans-unit id="administration.menu.general" approved="yes">
+      <trans-unit id="administration.menu.general">
         <source>General statistics</source>
-        <target state="translated">Allgemeine Statistiken</target>
+        <target>crwdns28410:0crwdne28410:0</target>
       </trans-unit>
-      <trans-unit id="administration.menu.pages" approved="yes">
+      <trans-unit id="administration.menu.pages">
         <source>List: Pages</source>
-        <target state="translated">Liste: Seiten</target>
+        <target>crwdns28412:0crwdne28412:0</target>
       </trans-unit>
-      <trans-unit id="administration.menu.externalDocuments" approved="yes">
+      <trans-unit id="administration.menu.externalDocuments">
         <source>List: External documents</source>
-        <target state="translated">Liste: Externe Dokumente</target>
+        <target>crwdns28414:0crwdne28414:0</target>
       </trans-unit>
-      <trans-unit id="administration.menu.searchStatistic" approved="yes">
+      <trans-unit id="administration.menu.searchStatistic">
         <source>Search statistics</source>
-        <target state="translated">Suchstatistik</target>
+        <target>crwdns28416:0crwdne28416:0</target>
       </trans-unit>
-      <trans-unit id="administration.menu.statistic" approved="yes">
+      <trans-unit id="administration.menu.statistic">
         <source>Detailed statistics</source>
-        <target state="translated">Detaillierte Statistik</target>
+        <target>crwdns28418:0crwdne28418:0</target>
       </trans-unit>
-      <trans-unit id="administration.index.description" approved="yes">
+      <trans-unit id="administration.index.description">
         <source>General statistics</source>
-        <target state="translated">Allgemeine Statistiken</target>
+        <target>crwdns28420:0crwdne28420:0</target>
       </trans-unit>
-      <trans-unit id="administration.statistics" approved="yes">
+      <trans-unit id="administration.statistics">
         <source>Indexing Engine Statistics</source>
-        <target state="translated">Statistiken zur Indizierung</target>
+        <target>crwdns28422:0crwdne28422:0</target>
       </trans-unit>
-      <trans-unit id="administration.statistics.header" approved="yes">
+      <trans-unit id="administration.statistics.header">
         <source>Row count by database table</source>
-        <target state="translated">Zeilenanzahl pro Datenbanktabelle</target>
+        <target>crwdns28424:0crwdne28424:0</target>
       </trans-unit>
-      <trans-unit id="administration.statistics.count" approved="yes">
+      <trans-unit id="administration.statistics.name">
+        <source>Name</source>
+        <target>crwdns28426:0crwdne28426:0</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.count">
         <source>Count</source>
-        <target state="translated">Anzahl</target>
+        <target>crwdns28428:0crwdne28428:0</target>
       </trans-unit>
-      <trans-unit id="administration.statistics.headerTypes" approved="yes">
+      <trans-unit id="administration.statistics.headerTypes">
         <source>Hash Header Types</source>
-        <target state="translated">Hash-Headertypen</target>
+        <target>crwdns28430:0crwdne28430:0</target>
       </trans-unit>
-      <trans-unit id="administration.statistics.headerTypes.count" approved="yes">
+      <trans-unit id="administration.statistics.headerTypes.count">
         <source>Count / Unique count</source>
-        <target state="translated">Anzahl / Einmalige Anzahl</target>
+        <target>crwdns28432:0crwdne28432:0</target>
       </trans-unit>
-      <trans-unit id="administration.statistics.word" approved="yes">
+      <trans-unit id="administration.statistics.word">
         <source>Word</source>
-        <target state="translated">Wort</target>
+        <target>crwdns28434:0crwdne28434:0</target>
       </trans-unit>
-      <trans-unit id="administration.statistics.mostSearched.title" approved="yes">
+      <trans-unit id="administration.statistics.mostSearched.title">
         <source>List of most searched words</source>
-        <target state="translated">Liste der meist-gesuchten Worte</target>
+        <target>crwdns28436:0crwdne28436:0</target>
       </trans-unit>
-      <trans-unit id="administration.statistics.mostSearched.description" approved="yes">
+      <trans-unit id="administration.statistics.mostSearched.description">
         <source>Statistics for all pages. Select a page with indexed search form to see several statistics.</source>
-        <target state="translated">Statistiken für alle Seiten. Wählen Sie eine Seite mit Indexsuchformular aus, um detaillierte Statistiken zu sehen.</target>
+        <target>crwdns28438:0crwdne28438:0</target>
       </trans-unit>
-      <trans-unit id="administration.statistics.mostSearched.all" approved="yes">
+      <trans-unit id="administration.statistics.mostSearched.all">
         <source>All</source>
-        <target state="translated">Alle</target>
+        <target>crwdns28440:0crwdne28440:0</target>
       </trans-unit>
-      <trans-unit id="administration.statistics.mostSearched.last30days" approved="yes">
+      <trans-unit id="administration.statistics.mostSearched.last30days">
         <source>Last 30 days</source>
-        <target state="translated">Letzte 30 Tage</target>
+        <target>crwdns28442:0crwdne28442:0</target>
       </trans-unit>
-      <trans-unit id="administration.statistics.mostSearched.last24hours" approved="yes">
+      <trans-unit id="administration.statistics.mostSearched.last24hours">
         <source>Last 24 hours</source>
-        <target state="translated">Letzte 24 Stunden</target>
+        <target>crwdns28444:0crwdne28444:0</target>
       </trans-unit>
-      <trans-unit id="administration.statistics.noResult" approved="yes">
+      <trans-unit id="administration.statistics.noResult">
         <source>No result found</source>
-        <target state="translated">Kein Ergebnis gefunden</target>
+        <target>crwdns28446:0crwdne28446:0</target>
       </trans-unit>
-      <trans-unit id="administration.statistics.noResultForPage" approved="yes">
+      <trans-unit id="administration.statistics.noResultForPage">
         <source>No result for the selected page found.</source>
-        <target state="translated">Kein Ergebnis für die ausgewählte Seite gefunden.</target>
+        <target>crwdns28448:0crwdne28448:0</target>
       </trans-unit>
-      <trans-unit id="administration.statistics.selectPage" approved="yes">
+      <trans-unit id="administration.statistics.selectPage">
         <source>Please select a page in the page tree.</source>
-        <target state="translated">Bitte wählen Sie eine Seite aus dem Seitenbaum aus.</target>
+        <target>crwdns28450:0crwdne28450:0</target>
       </trans-unit>
-      <trans-unit id="administration.external.title" approved="yes">
+      <trans-unit id="administration.external.title">
         <source>External documents</source>
-        <target state="translated">Externe Dokumente</target>
+        <target>crwdns28452:0crwdne28452:0</target>
       </trans-unit>
-      <trans-unit id="field.fileName" approved="yes">
+      <trans-unit id="field.fileName">
         <source>Filename</source>
-        <target state="translated">Dateiname</target>
+        <target>crwdns28454:0crwdne28454:0</target>
       </trans-unit>
-      <trans-unit id="field.fileSize" approved="yes">
+      <trans-unit id="field.fileSize">
         <source>Filesize</source>
-        <target state="translated">Dateigröße</target>
+        <target>crwdns28456:0crwdne28456:0</target>
       </trans-unit>
-      <trans-unit id="field.wordCount" approved="yes">
+      <trans-unit id="field.wordCount">
         <source>Word count</source>
-        <target state="translated">Wortanzahl</target>
+        <target>crwdns28458:0crwdne28458:0</target>
       </trans-unit>
-      <trans-unit id="field.words" approved="yes">
+      <trans-unit id="field.words">
         <source>Words</source>
-        <target state="translated">Worte</target>
+        <target>crwdns28460:0crwdne28460:0</target>
       </trans-unit>
-      <trans-unit id="field.mtime" approved="yes">
+      <trans-unit id="field.mtime">
         <source>Modification time</source>
-        <target state="translated">Bearbeitungszeit</target>
+        <target>crwdns28462:0crwdne28462:0</target>
       </trans-unit>
-      <trans-unit id="field.indexed" approved="yes">
+      <trans-unit id="field.indexed">
         <source>Indexed</source>
-        <target state="translated">Indiziert</target>
+        <target>crwdns28464:0crwdne28464:0</target>
       </trans-unit>
-      <trans-unit id="field.updated" approved="yes">
+      <trans-unit id="field.updated">
         <source>Updated</source>
-        <target state="translated">Aktualisiert</target>
+        <target>crwdns28466:0crwdne28466:0</target>
       </trans-unit>
-      <trans-unit id="field.parseTime" approved="yes">
+      <trans-unit id="field.parseTime">
         <source>Parsetime [ms]</source>
-        <target state="translated">Parsezeit [ms]</target>
+        <target>crwdns28468:0[ms]crwdne28468:0</target>
       </trans-unit>
-      <trans-unit id="field.sub" approved="yes">
+      <trans-unit id="field.groups">
+        <source>#sec/gr/full</source>
+        <target>crwdns28470:0crwdne28470:0</target>
+      </trans-unit>
+      <trans-unit id="field.sub">
         <source>Sub</source>
-        <target state="translated">Unter</target>
+        <target>crwdns28472:0crwdne28472:0</target>
       </trans-unit>
-      <trans-unit id="field.count" approved="yes">
+      <trans-unit id="field.staticPageArguments">
+        <source>Static Page Arguments</source>
+        <target>crwdns28474:0crwdne28474:0</target>
+      </trans-unit>
+      <trans-unit id="field.count">
         <source>Count</source>
-        <target state="translated">Anzahl</target>
+        <target>crwdns28476:0crwdne28476:0</target>
       </trans-unit>
-      <trans-unit id="field.first" approved="yes">
+      <trans-unit id="field.first">
         <source>First</source>
-        <target state="translated">Erster</target>
+        <target>crwdns28478:0crwdne28478:0</target>
       </trans-unit>
-      <trans-unit id="field.pHash" approved="yes">
+      <trans-unit id="field.pHash">
         <source>PageHash</source>
-        <target state="translated">SeitenHash</target>
+        <target>crwdns28480:0crwdne28480:0</target>
       </trans-unit>
-      <trans-unit id="field.path" approved="yes">
+      <trans-unit id="field.path">
         <source>Path</source>
-        <target state="translated">Pfad</target>
+        <target>crwdns28482:0crwdne28482:0</target>
       </trans-unit>
-      <trans-unit id="field.id" approved="yes">
+      <trans-unit id="field.id">
         <source>Page Id</source>
-        <target state="translated">Seiten-ID</target>
+        <target>crwdns28484:0crwdne28484:0</target>
       </trans-unit>
-      <trans-unit id="field.uniqueId" approved="yes">
+      <trans-unit id="field.uniqueId">
         <source>Unique Id</source>
-        <target state="translated">Eindeutige ID</target>
+        <target>crwdns28486:0crwdne28486:0</target>
       </trans-unit>
-      <trans-unit id="field.type" approved="yes">
+      <trans-unit id="field.type">
         <source>Type</source>
-        <target state="translated">Typ</target>
+        <target>crwdns28488:0crwdne28488:0</target>
       </trans-unit>
-      <trans-unit id="field.title" approved="yes">
+      <trans-unit id="field.title">
         <source>Title</source>
-        <target state="translated">Titel</target>
+        <target>crwdns28490:0crwdne28490:0</target>
       </trans-unit>
-      <trans-unit id="field.language" approved="yes">
+      <trans-unit id="field.language">
         <source>Language</source>
-        <target state="translated">Sprache</target>
+        <target>crwdns28492:0crwdne28492:0</target>
       </trans-unit>
-      <trans-unit id="field.frequency" approved="yes">
+      <trans-unit id="field.frequency">
         <source>Frequency</source>
-        <target state="translated">Vorkommen</target>
+        <target>crwdns28494:0crwdne28494:0</target>
       </trans-unit>
-      <trans-unit id="field.flag" approved="yes">
+      <trans-unit id="field.flag">
         <source>Flag</source>
-        <target state="translated">Markierung</target>
+        <target>crwdns28496:0crwdne28496:0</target>
       </trans-unit>
-      <trans-unit id="field.content" approved="yes">
+      <trans-unit id="field.metaphone">
+        <source>Metaphone</source>
+        <target>crwdns28498:0crwdne28498:0</target>
+      </trans-unit>
+      <trans-unit id="field.content">
         <source>Content</source>
-        <target state="translated">Inhalt</target>
+        <target>crwdns28500:0crwdne28500:0</target>
       </trans-unit>
-      <trans-unit id="administration.notIndexed" approved="yes">
+      <trans-unit id="administration.notIndexed">
         <source>Not indexed?</source>
-        <target state="translated">Nicht indiziert?</target>
+        <target>crwdns28502:0crwdne28502:0</target>
       </trans-unit>
-      <trans-unit id="administration.document.description" approved="yes">
+      <trans-unit id="administration.document.description">
         <source>Details for a single result row</source>
-        <target state="translated">Details für eine einzelne Ergebniszeile</target>
+        <target>crwdns28504:0crwdne28504:0</target>
       </trans-unit>
-      <trans-unit id="administration.document.words" approved="yes">
+      <trans-unit id="administration.document.words">
         <source>All words found on page</source>
-        <target state="translated">Alle Worte auf Seite</target>
+        <target>crwdns28506:0crwdne28506:0</target>
       </trans-unit>
-      <trans-unit id="administration.document.topCount" approved="yes">
+      <trans-unit id="administration.document.topCount">
         <source>Words by top count</source>
-        <target state="translated">Worte nach Anzahl</target>
+        <target>crwdns28508:0crwdne28508:0</target>
       </trans-unit>
-      <trans-unit id="administration.document.topFrequency" approved="yes">
+      <trans-unit id="administration.document.topFrequency">
         <source>Words by frequency</source>
-        <target state="translated">Worte nach Frequenz</target>
+        <target>crwdns28510:0crwdne28510:0</target>
       </trans-unit>
-      <trans-unit id="administration.stopWords" approved="yes">
+      <trans-unit id="administration.stopWords">
         <source>Stopwords</source>
-        <target state="translated">Stoppworte</target>
+        <target>crwdns28512:0crwdne28512:0</target>
       </trans-unit>
-      <trans-unit id="administration.stopWords.save" approved="yes">
+      <trans-unit id="administration.stopWords.save">
         <source>Save stopwords</source>
-        <target state="translated">Stoppworte speichern</target>
+        <target>crwdns28514:0crwdne28514:0</target>
       </trans-unit>
-      <trans-unit id="administration.keywords" approved="yes">
+      <trans-unit id="administration.keywords">
         <source>Page keywords</source>
-        <target state="translated">Seitenstichworte</target>
+        <target>crwdns28516:0crwdne28516:0</target>
       </trans-unit>
-      <trans-unit id="administration.keywords.current" approved="yes">
+      <trans-unit id="administration.keywords.current">
         <source>Current page keywords</source>
-        <target state="translated">Aktuelle Seitenstichworte</target>
+        <target>crwdns28518:0crwdne28518:0</target>
       </trans-unit>
-      <trans-unit id="administration.stopWordsKeywords.save" approved="yes">
+      <trans-unit id="administration.stopWordsKeywords.save">
         <source>Save keywords and stop words</source>
-        <target state="translated">Stoppworte und Schlüsselworte speichern</target>
+        <target>crwdns28520:0crwdne28520:0</target>
       </trans-unit>
-      <trans-unit id="administration.word.description" approved="yes">
+      <trans-unit id="administration.word.description">
         <source>Detail view of a single word</source>
-        <target state="translated">Detailansicht eines einzelnen Wortes</target>
+        <target>crwdns28522:0crwdne28522:0</target>
       </trans-unit>
-      <trans-unit id="administration.linkBack" approved="yes">
+      <trans-unit id="administration.linkBack">
         <source>Back</source>
-        <target state="translated">Zurück</target>
+        <target>crwdns28524:0crwdne28524:0</target>
       </trans-unit>
-      <trans-unit id="administration.statistics.sectionRecords" approved="yes">
+      <trans-unit id="administration.statistics.sectionRecords">
         <source>Section records for this phash</source>
-        <target state="translated">Abschnittsdatensätze für diesen Phash</target>
+        <target>crwdns28526:0crwdne28526:0</target>
       </trans-unit>
-      <trans-unit id="administration.statistics.view.overview" approved="yes">
+      <trans-unit id="administration.statistics.debug">
+        <source>Debug</source>
+        <target>crwdns28528:0crwdne28528:0</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.lexer">
+        <source>Lexer</source>
+        <target>crwdns28530:0crwdne28530:0</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.metaphone">
+        <source>Metaphone</source>
+        <target>crwdns28532:0crwdne28532:0</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.view.overview">
         <source>Overview</source>
-        <target state="translated">Überblick</target>
+        <target>crwdns28534:0crwdne28534:0</target>
       </trans-unit>
-      <trans-unit id="administration.statistics.view.content" approved="yes">
+      <trans-unit id="administration.statistics.view.content">
         <source>Words and content</source>
-        <target state="translated">Worte und Inhalt</target>
+        <target>crwdns28536:0crwdne28536:0</target>
       </trans-unit>
-      <trans-unit id="administration.phash.tableHeader" approved="yes">
+      <trans-unit id="administration.phash.tableHeader">
         <source>Phash row content</source>
-        <target state="translated">Inhalt der Phash-Zeile</target>
+        <target>crwdns28538:0crwdne28538:0</target>
       </trans-unit>
-      <trans-unit id="administration.removeEntry" approved="yes">
+      <trans-unit id="administration.removeEntry">
         <source>Remove entry</source>
-        <target state="translated">Eintrag entfernen</target>
+        <target>crwdns28540:0crwdne28540:0</target>
       </trans-unit>
-      <trans-unit id="administration.removeAllEntries" approved="yes">
+      <trans-unit id="administration.removeAllEntries">
         <source>Remove all listed entries</source>
-        <target state="translated">Alle aufgeführten Einträge entfernen</target>
+        <target>crwdns28542:0crwdne28542:0</target>
       </trans-unit>
-      <trans-unit id="administration.back" approved="yes">
+      <trans-unit id="administration.back">
         <source>Back</source>
-        <target state="translated">Zurück</target>
+        <target>crwdns28544:0crwdne28544:0</target>
       </trans-unit>
-      <trans-unit id="administration.noPageSelected" approved="yes">
+      <trans-unit id="administration.noPageSelected">
         <source>Please select a page from the page tree.</source>
-        <target state="translated">Bitte wählen Sie eine Seite aus dem Seitenbaum aus.</target>
+        <target>crwdns28546:0crwdne28546:0</target>
       </trans-unit>
-      <trans-unit id="error.noTypoScript" approved="yes">
+      <trans-unit id="error.noTypoScript">
         <source>Error: Please check that TypoScript for the Indexed Search plugin is included.</source>
-        <target state="translated">Fehler: Bitte stellen Sie sicher, dass das TypoScript für das Indexsuche-Plug-In eingebunden ist.</target>
+        <target>crwdns28548:0crwdne28548:0</target>
       </trans-unit>
     </body>
   </file>
