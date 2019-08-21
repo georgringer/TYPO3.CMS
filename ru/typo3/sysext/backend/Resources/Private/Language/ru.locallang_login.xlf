@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814864" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="ru">
+    <header/>
+    <body>
+      <trans-unit id="labels.submitLogout" approved="yes">
+        <source>Log Out</source>
+        <target state="translated">Выход</target>
+      </trans-unit>
+      <trans-unit id="labels.whatIsOpenId" approved="yes">
+        <source>What is OpenId?</source>
+        <target state="translated">Что такое OpenID?</target>
+      </trans-unit>
+      <trans-unit id="availableInterfaces" approved="yes">
+        <source>Backend,Front End,Traditional Backend</source>
+        <target state="translated">Внутренний интерфейс,Внешний интерфейс,Традиционный внутренний интерфейс</target>
+      </trans-unit>
+      <trans-unit id="interface.backend" approved="yes">
+        <source>Backend</source>
+        <target state="translated">Внутренний интерфейс</target>
+      </trans-unit>
+      <trans-unit id="interface.frontend" approved="yes">
+        <source>Frontend</source>
+        <target state="translated">Внешний интерфейс</target>
+      </trans-unit>
+      <trans-unit id="interface.backend_old" approved="yes">
+        <source>Traditional Backend</source>
+        <target state="translated">Традиционный внутренний интерфейс</target>
+      </trans-unit>
+      <trans-unit id="headline" approved="yes">
+        <source>Login to the TYPO3 CMS Backend on ###SITENAME###</source>
+        <target state="translated">Вход в TYPO3 CMS Backend на ###SITENAME###</target>
+      </trans-unit>
+      <trans-unit id="info.about" approved="yes">
+        <source>This is the backend login of TYPO3. You need username and password to access this administration interface. If you are a visitor of ###SITENAME###, please visit the public website: ###SITELINK###</source>
+        <target state="translated">Это вход во внутренний интерфейс TYPO3. Для доступа к интерфейсу управления нужно ввести имя пользователя и пароль. Если Вы обычный посетитель ###SITENAME###, перейдите на публичный сайт: ###SITELINK###</target>
+      </trans-unit>
+      <trans-unit id="info.reset" approved="yes">
+        <source>Reset this form</source>
+        <target state="translated">Сбросить форму</target>
+      </trans-unit>
+      <trans-unit id="info.cookies_and_js" approved="yes">
+        <source>(Note: Cookies and JavaScript must be enabled!)</source>
+        <target state="translated">(Помните: должны быть включены Cookies и JavaScript)</target>
+      </trans-unit>
+      <trans-unit id="clear" approved="yes">
+        <source>Clear this field!</source>
+        <target state="translated">Очистить это поле!</target>
+      </trans-unit>
+      <trans-unit id="warning.incompatibleBrowserHeadline" approved="yes">
+        <source>Unsupported Browser</source>
+        <target state="translated">Неподдерживаемый браузер</target>
+      </trans-unit>
+      <trans-unit id="warning.incompatibleBrowser" approved="yes">
+        <source>You are using an unsupported browser version.</source>
+        <target state="translated">Используется неподдерживаемая версия браузера.</target>
+      </trans-unit>
+      <trans-unit id="warning.incompatibleBrowserInternetExplorer" approved="yes">
+        <source>Please install &lt;a href="http://www.microsoft.com/internetexplorer/" target="_blank" /&gt;a more modern browser version&lt;/a&gt;.</source>
+        <target state="translated">Установите &lt;a href="http://www.microsoft.com/internetexplorer/" target="_blank" /&gt;современную версию браузера&lt;/a&gt;.</target>
+      </trans-unit>
+      <trans-unit id="newsheadline" approved="yes">
+        <source>Important Messages</source>
+        <target state="translated">Важные сообщения</target>
+      </trans-unit>
+      <trans-unit id="error.login" approved="yes">
+        <source>Your login attempt did not succeed. Make sure to spell your username and password correctly, including upper/lowercase characters.</source>
+        <target state="translated">Регистрация не удалась. Убедитесь в правильности ввода имени пользователя и пароля, включая регистр символов.</target>
+      </trans-unit>
+      <trans-unit id="error.cookies_ignore" approved="yes">
+        <source>Ignore!</source>
+        <target state="translated">Игнорировать!</target>
+      </trans-unit>
+      <trans-unit id="error.furtherInformation" approved="yes">
+        <source>For more information or further help click here</source>
+        <target state="translated">Для дополнительной информации или для помощи, щелкните здесь</target>
+      </trans-unit>
+      <trans-unit id="warranty.by" approved="yes">
+        <source>Warranty is supplied by %s; %sclick for details.%s</source>
+        <target state="translated">Гарантия предоставляется %s; %sподробности по ссылке.%s</target>
+      </trans-unit>
+      <trans-unit id="no.warranty" approved="yes">
+        <source>TYPO3 CMS comes with ABSOLUTELY NO WARRANTY; %sclick for details.%s</source>
+        <target state="translated">TYPO3 CMS предоставляется БЕЗ КАКОЙ-ЛИБО ГАРАНТИИ; %sподробности по ссылке.%s</target>
+      </trans-unit>
+      <trans-unit id="version.short" approved="yes">
+        <source>ver.</source>
+        <target state="translated">вер.</target>
+      </trans-unit>
+      <trans-unit id="copyright" approved="yes">
+        <source>Copyright</source>
+        <target state="translated">Авторское право</target>
+      </trans-unit>
+      <trans-unit id="extension.copyright" approved="yes">
+        <source>Extensions are copyright of their respective owners.</source>
+        <target state="translated">Авторские права на расширения принадлежат их владельцам.</target>
+      </trans-unit>
+      <trans-unit id="details.link" approved="yes">
+        <source>Go to %s for details.</source>
+        <target state="translated">За деталями обратитесь на %s.</target>
+      </trans-unit>
+      <trans-unit id="free.software" approved="yes">
+        <source>This is free software, and you are welcome to redistribute it under certain conditions; %sclick for details.%s</source>
+        <target state="translated">Это бесплатное программное обеспечение, и вы можете распространять его под определенными условиями; %sподробности по ссылке.%s</target>
+      </trans-unit>
+      <trans-unit id="keep.notice" approved="yes">
+        <source>Obstructing the appearance of this notice is prohibited by law.</source>
+        <target state="translated">Удаление этого примечания преследуется по закону.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
