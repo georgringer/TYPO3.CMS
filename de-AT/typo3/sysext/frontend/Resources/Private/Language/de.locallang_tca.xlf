@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814790" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="cms" target-language="de-AT">
+    <header/>
+    <body>
+      <trans-unit id="mod_tx_cms_webinfo_page">
+        <source>Pagetree Overview</source>
+        <target>crwdns39910:0crwdne39910:0</target>
+      </trans-unit>
+      <trans-unit id="mod_tx_cms_webinfo_lang">
+        <source>Localization Overview</source>
+        <target>crwdns39912:0crwdne39912:0</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.standard">
+        <source>Page</source>
+        <target>crwdns39914:0crwdne39914:0</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.title">
+        <source>Title</source>
+        <target>crwdns39916:0crwdne39916:0</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.visibility">
+        <source>Visibility</source>
+        <target>crwdns39918:0crwdne39918:0</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.access">
+        <source>Publish Dates and Access Rights</source>
+        <target>crwdns39920:0crwdne39920:0</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.abstract">
+        <source>Abstract</source>
+        <target>crwdns39922:0crwdne39922:0</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.metatags">
+        <source>Meta Tags</source>
+        <target>crwdns39924:0crwdne39924:0</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.editorial">
+        <source>Editorial</source>
+        <target>crwdns39926:0crwdne39926:0</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.layout">
+        <source>Page Layout</source>
+        <target>crwdns39928:0crwdne39928:0</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.module">
+        <source>Use as Container</source>
+        <target>crwdns39930:0crwdne39930:0</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.replace">
+        <source>Replace Content</source>
+        <target>crwdns39932:0crwdne39932:0</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.links">
+        <source>Links to this Page</source>
+        <target>crwdns39934:0crwdne39934:0</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.caching">
+        <source>Caching</source>
+        <target>crwdns39936:0crwdne39936:0</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.language">
+        <source>Language</source>
+        <target>crwdns39938:0crwdne39938:0</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.miscellaneous">
+        <source>Miscellaneous</source>
+        <target>crwdns39940:0crwdne39940:0</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.media">
+        <source>Files</source>
+        <target>crwdns39942:0crwdne39942:0</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.storage">
+        <source>General Record Storage Page</source>
+        <target>crwdns39944:0crwdne39944:0</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.config">
+        <source>TypoScript Configuration</source>
+        <target>crwdns39946:0crwdne39946:0</target>
+      </trans-unit>
+      <trans-unit id="pages.doktype_formlabel">
+        <source>Type</source>
+        <target>crwdns39948:0crwdne39948:0</target>
+      </trans-unit>
+      <trans-unit id="pages.doktype.I.0">
+        <source>Advanced</source>
+        <target>crwdns39950:0crwdne39950:0</target>
+      </trans-unit>
+      <trans-unit id="pages.doktype.I.2">
+        <source>Shortcut</source>
+        <target>crwdns39952:0crwdne39952:0</target>
+      </trans-unit>
+      <trans-unit id="pages.doktype.I.3">
+        <source>Not in Menu</source>
+        <target>crwdns39954:0crwdne39954:0</target>
+      </trans-unit>
+      <trans-unit id="pages.doktype.I.4">
+        <source>Backend User Section</source>
+        <target>crwdns39956:0crwdne39956:0</target>
+      </trans-unit>
+      <trans-unit id="pages.doktype.I.5">
+        <source>Mount Point</source>
+        <target>crwdns39958:0crwdne39958:0</target>
+      </trans-unit>
+      <trans-unit id="pages.doktype.I.7">
+        <source>Menu Separator</source>
+        <target>crwdns39960:0crwdne39960:0</target>
+      </trans-unit>
+      <trans-unit id="pages.doktype.I.8">
+        <source>Link to External URL</source>
+        <target>crwdns39962:0crwdne39962:0</target>
+      </trans-unit>
+      <trans-unit id="pages.doktype.div.page">
+        <source>Page</source>
+        <target>crwdns39964:0crwdne39964:0</target>
+      </trans-unit>
+      <trans-unit id="pages.doktype.div.link">
+        <source>Link</source>
+        <target>crwdns39966:0crwdne39966:0</target>
+      </trans-unit>
+      <trans-unit id="pages.doktype.div.special">
+        <source>Special</source>
+        <target>crwdns39968:0crwdne39968:0</target>
+      </trans-unit>
+      <trans-unit id="pages.title_formlabel">
+        <source>Page Title</source>
+        <target>crwdns39970:0crwdne39970:0</target>
+      </trans-unit>
+      <trans-unit id="pages.starttime_formlabel">
+        <source>Publish Date</source>
+        <target>crwdns39972:0crwdne39972:0</target>
+      </trans-unit>
+      <trans-unit id="pages.endtime_formlabel">
+        <source>Expiration Date</source>
+        <target>crwdns39974:0crwdne39974:0</target>
+      </trans-unit>
+      <trans-unit id="pages.fe_group_formlabel">
+        <source>Usergroup Access Rights</source>
+        <target>crwdns39976:0crwdne39976:0</target>
+      </trans-unit>
+      <trans-unit id="pages.hidden">
+        <source>Hide page</source>
+        <target>crwdns39978:0crwdne39978:0</target>
+      </trans-unit>
+      <trans-unit id="pages.hidden_formlabel">
+        <source>Page</source>
+        <target>crwdns39980:0crwdne39980:0</target>
+      </trans-unit>
+      <trans-unit id="pages.hidden_checkbox_1_formlabel">
+        <source>Disable</source>
+        <target>crwdns39982:0crwdne39982:0</target>
+      </trans-unit>
+      <trans-unit id="pages.layout_formlabel">
+        <source>Frontend Layout</source>
+        <target>crwdns39984:0crwdne39984:0</target>
+      </trans-unit>
+      <trans-unit id="pages.layout.I.1">
+        <source>Layout 1</source>
+        <target>crwdns39986:0crwdne39986:0</target>
+      </trans-unit>
+      <trans-unit id="pages.layout.I.2">
+        <source>Layout 2</source>
+        <target>crwdns39988:0crwdne39988:0</target>
+      </trans-unit>
+      <trans-unit id="pages.layout.I.3">
+        <source>Layout 3</source>
+        <target>crwdns39990:0crwdne39990:0</target>
+      </trans-unit>
+      <trans-unit id="pages.extendToSubpages">
+        <source>Include Subpages</source>
+        <target>crwdns39992:0crwdne39992:0</target>
+      </trans-unit>
+      <trans-unit id="pages.extendToSubpages_formlabel">
+        <source>Extend to Subpages</source>
+        <target>crwdns39994:0crwdne39994:0</target>
+      </trans-unit>
+      <trans-unit id="pages.nav_title">
+        <source>Navigation Title</source>
+        <target>crwdns39996:0crwdne39996:0</target>
+      </trans-unit>
+      <trans-unit id="pages.nav_title_formlabel">
+        <source>Alternative Navigation Title</source>
+        <target>crwdns39998:0crwdne39998:0</target>
+      </trans-unit>
+      <trans-unit id="pages.nav_hide">
+        <source>Hide in Menu</source>
+        <target>crwdns40000:0crwdne40000:0</target>
+      </trans-unit>
+      <trans-unit id="pages.nav_hide_formlabel">
+        <source>In Menus</source>
+        <target>crwdns40002:0crwdne40002:0</target>
+      </trans-unit>
+      <trans-unit id="pages.nav_hide_checkbox_1_formlabel">
+        <source>Hide</source>
+        <target>crwdns40004:0crwdne40004:0</target>
+      </trans-unit>
+      <trans-unit id="pages.subtitle">
+        <source>Subtitle</source>
+        <target>crwdns40006:0crwdne40006:0</target>
+      </trans-unit>
+      <trans-unit id="pages.subtitle_formlabel">
+        <source>Subtitle</source>
+        <target>crwdns40008:0crwdne40008:0</target>
+      </trans-unit>
+      <trans-unit id="pages.target">
+        <source>Target</source>
+        <target>crwdns40010:0crwdne40010:0</target>
+      </trans-unit>
+      <trans-unit id="pages.target_formlabel">
+        <source>Link Target</source>
+        <target>crwdns40012:0crwdne40012:0</target>
+      </trans-unit>
+      <trans-unit id="pages.alias">
+        <source>Alias</source>
+        <target>crwdns40014:0crwdne40014:0</target>
+      </trans-unit>
+      <trans-unit id="pages.alias_formlabel">
+        <source>URL Alias</source>
+        <target>crwdns40016:0crwdne40016:0</target>
+      </trans-unit>
+      <trans-unit id="pages.url">
+        <source>URL</source>
+        <target>crwdns40018:0crwdne40018:0</target>
+      </trans-unit>
+      <trans-unit id="pages.url_formlabel">
+        <source>URL</source>
+        <target>crwdns40020:0crwdne40020:0</target>
+      </trans-unit>
+      <trans-unit id="pages.lastUpdated">
+        <source>Last Updated</source>
+        <target>crwdns40022:0crwdne40022:0</target>
+      </trans-unit>
+      <trans-unit id="pages.lastUpdated_formlabel">
+        <source>Last Update</source>
+        <target>crwdns40024:0crwdne40024:0</target>
+      </trans-unit>
+      <trans-unit id="pages.newUntil">
+        <source>'New' Until</source>
+        <target>crwdns40026:0crwdne40026:0</target>
+      </trans-unit>
+      <trans-unit id="pages.newUntil_formlabel">
+        <source>Mark as 'New' Until</source>
+        <target>crwdns40028:0crwdne40028:0</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout">
+        <source>Cache Expires</source>
+        <target>crwdns40030:0crwdne40030:0</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout_formlabel">
+        <source>Cache Lifetime</source>
+        <target>crwdns40032:0crwdne40032:0</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.1">
+        <source>1 min</source>
+        <target>crwdns40034:0crwdne40034:0</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.2">
+        <source>5 min</source>
+        <target>crwdns40036:0crwdne40036:0</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.3">
+        <source>15 min</source>
+        <target>crwdns40038:0crwdne40038:0</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.4">
+        <source>30 min</source>
+        <target>crwdns40040:0crwdne40040:0</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.5">
+        <source>1 hour</source>
+        <target>crwdns40042:0crwdne40042:0</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.6">
+        <source>4 hours</source>
+        <target>crwdns40044:0crwdne40044:0</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.7">
+        <source>1 day</source>
+        <target>crwdns40046:0crwdne40046:0</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.8">
+        <source>2 days</source>
+        <target>crwdns40048:0crwdne40048:0</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.9">
+        <source>7 days</source>
+        <target>crwdns40050:0crwdne40050:0</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.10">
+        <source>1 month</source>
+        <target>crwdns40052:0crwdne40052:0</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_tags">
+        <source>Cache Tags</source>
+        <target>crwdns40054:0crwdne40054:0</target>
+      </trans-unit>
+      <trans-unit id="pages.editlock_formlabel">
+        <source>Editable for Admins Only</source>
+        <target>crwdns40056:0crwdne40056:0</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.metadata">
+        <source>Metadata</source>
+        <target>crwdns40058:0crwdne40058:0</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.files">
+        <source>Resources</source>
+        <target>crwdns40060:0crwdne40060:0</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.resources">
+        <source>Resources</source>
+        <target>crwdns40062:0crwdne40062:0</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.access">
+        <source>Access</source>
+        <target>crwdns40064:0crwdne40064:0</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.options">
+        <source>Options</source>
+        <target>crwdns40066:0crwdne40066:0</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.mount">
+        <source>Mount</source>
+        <target>crwdns40068:0crwdne40068:0</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.shortcut">
+        <source>Shortcut</source>
+        <target>crwdns40070:0crwdne40070:0</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.url">
+        <source>URL</source>
+        <target>crwdns40072:0crwdne40072:0</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.extended">
+        <source>Extended</source>
+        <target>crwdns40074:0crwdne40074:0</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.appearance">
+        <source>Appearance</source>
+        <target>crwdns40076:0crwdne40076:0</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.behaviour">
+        <source>Behaviour</source>
+        <target>crwdns40078:0crwdne40078:0</target>
+      </trans-unit>
+      <trans-unit id="pages.no_search">
+        <source>No Search</source>
+        <target>crwdns40080:0crwdne40080:0</target>
+      </trans-unit>
+      <trans-unit id="pages.no_search_formlabel">
+        <source>Include in Search</source>
+        <target>crwdns40082:0crwdne40082:0</target>
+      </trans-unit>
+      <trans-unit id="pages.no_search_checkbox_1_formlabel">
+        <source>Disable</source>
+        <target>crwdns40084:0crwdne40084:0</target>
+      </trans-unit>
+      <trans-unit id="pages.shortcut_mode">
+        <source>Shortcut Mode</source>
+        <target>crwdns40086:0crwdne40086:0</target>
+      </trans-unit>
+      <trans-unit id="pages.shortcut_mode_formlabel">
+        <source>Shortcut Mode</source>
+        <target>crwdns40088:0crwdne40088:0</target>
+      </trans-unit>
+      <trans-unit id="pages.shortcut_mode.I.0">
+        <source>Selected page</source>
+        <target>crwdns40090:0crwdne40090:0</target>
+      </trans-unit>
+      <trans-unit id="pages.shortcut_mode.I.1">
+        <source>First subpage of selected/current page</source>
+        <target>crwdns40092:0crwdne40092:0</target>
+      </trans-unit>
+      <trans-unit id="pages.shortcut_mode.I.2">
+        <source>Random subpage of selected/current page</source>
+        <target>crwdns40094:0crwdne40094:0</target>
+      </trans-unit>
+      <trans-unit id="pages.shortcut_mode.I.3">
+        <source>Parent page of selected/current page</source>
+        <target>crwdns40096:0crwdne40096:0</target>
+      </trans-unit>
+      <trans-unit id="pages.shortcut_formlabel">
+        <source>Shortcut Target</source>
+        <target>crwdns40098:0crwdne40098:0</target>
+      </trans-unit>
+      <trans-unit id="pages.content_from_pid">
+        <source>Show content from this page instead</source>
+        <target>crwdns40100:0crwdne40100:0</target>
+      </trans-unit>
+      <trans-unit id="pages.content_from_pid_formlabel">
+        <source>Show Content from Page</source>
+        <target>crwdns40102:0crwdne40102:0</target>
+      </trans-unit>
+      <trans-unit id="pages.mount_pid">
+        <source>Mount Point of</source>
+        <target>crwdns40104:0crwdne40104:0</target>
+      </trans-unit>
+      <trans-unit id="pages.mount_pid_formlabel">
+        <source>Mounted page</source>
+        <target>crwdns40106:0crwdne40106:0</target>
+      </trans-unit>
+      <trans-unit id="pages.mount_pid_ol">
+        <source>Mount Point redirects to mounted page</source>
+        <target>crwdns40108:0crwdne40108:0</target>
+      </trans-unit>
+      <trans-unit id="pages.mount_pid_ol_formlabel">
+        <source>Mount Point Display Option</source>
+        <target>crwdns40110:0crwdne40110:0</target>
+      </trans-unit>
+      <trans-unit id="pages.mount_pid_ol.I.0">
+        <source>Show this page</source>
+        <target>crwdns40112:0crwdne40112:0</target>
+      </trans-unit>
+      <trans-unit id="pages.mount_pid_ol.I.1">
+        <source>Show the mounted page</source>
+        <target>crwdns40114:0crwdne40114:0</target>
+      </trans-unit>
+      <trans-unit id="pages.abstract">
+        <source>Abstract</source>
+        <target>crwdns40116:0crwdne40116:0</target>
+      </trans-unit>
+      <trans-unit id="pages.abstract_formlabel">
+        <source>Abstract</source>
+        <target>crwdns40118:0crwdne40118:0</target>
+      </trans-unit>
+      <trans-unit id="pages.keywords_formlabel">
+        <source>Keywords</source>
+        <target>crwdns40120:0crwdne40120:0</target>
+      </trans-unit>
+      <trans-unit id="pages.description_formlabel">
+        <source>Description</source>
+        <target>crwdns40122:0crwdne40122:0</target>
+      </trans-unit>
+      <trans-unit id="pages.author_formlabel">
+        <source>Author Name</source>
+        <target>crwdns40124:0crwdne40124:0</target>
+      </trans-unit>
+      <trans-unit id="pages.author_email_formlabel">
+        <source>Author Email</source>
+        <target>crwdns40126:0crwdne40126:0</target>
+      </trans-unit>
+      <trans-unit id="pages.media">
+        <source>Files</source>
+        <target>crwdns40128:0crwdne40128:0</target>
+      </trans-unit>
+      <trans-unit id="pages.media_formlabel">
+        <source>Media</source>
+        <target>crwdns40130:0crwdne40130:0</target>
+      </trans-unit>
+      <trans-unit id="pages.php_tree_stop_formlabel">
+        <source>Hide child pages in page tree</source>
+        <target>crwdns40132:0crwdne40132:0</target>
+      </trans-unit>
+      <trans-unit id="pages.is_siteroot">
+        <source>Is Root of Website</source>
+        <target>crwdns40134:0crwdne40134:0</target>
+      </trans-unit>
+      <trans-unit id="pages.is_siteroot_formlabel">
+        <source>Use as Root Page</source>
+        <target>crwdns40136:0crwdne40136:0</target>
+      </trans-unit>
+      <trans-unit id="pages.module">
+        <source>Contains Plugin</source>
+        <target>crwdns40138:0crwdne40138:0</target>
+      </trans-unit>
+      <trans-unit id="pages.module_formlabel">
+        <source>Contains Plugin</source>
+        <target>crwdns40140:0crwdne40140:0</target>
+      </trans-unit>
+      <trans-unit id="pages.module.I.1">
+        <source>Shop</source>
+        <target>crwdns40142:0crwdne40142:0</target>
+      </trans-unit>
+      <trans-unit id="pages.module.I.2">
+        <source>Board</source>
+        <target>crwdns40144:0crwdne40144:0</target>
+      </trans-unit>
+      <trans-unit id="pages.module.I.3">
+        <source>News</source>
+        <target>crwdns40146:0crwdne40146:0</target>
+      </trans-unit>
+      <trans-unit id="pages.module.I.4">
+        <source>Website Users</source>
+        <target>crwdns40148:0crwdne40148:0</target>
+      </trans-unit>
+      <trans-unit id="pages.module.I.5">
+        <source>Direct Mail</source>
+        <target>crwdns40150:0crwdne40150:0</target>
+      </trans-unit>
+      <trans-unit id="pages.module.I.6">
+        <source>Approvals</source>
+        <target>crwdns40152:0crwdne40152:0</target>
+      </trans-unit>
+      <trans-unit id="pages.l18n_cfg">
+        <source>Localization Settings</source>
+        <target>crwdns40154:0crwdne40154:0</target>
+      </trans-unit>
+      <trans-unit id="pages.l18n_cfg_formlabel">
+        <source>Localization</source>
+        <target>crwdns40156:0crwdne40156:0</target>
+      </trans-unit>
+      <trans-unit id="pages.l18n_cfg.I.1">
+        <source>Hide default translation of page</source>
+        <target>crwdns40158:0crwdne40158:0</target>
+      </trans-unit>
+      <trans-unit id="pages.l18n_cfg.I.2">
+        <source>Hide page if no translation for current language exists</source>
+        <target>crwdns40160:0crwdne40160:0</target>
+      </trans-unit>
+      <trans-unit id="pages.l18n_cfg.I.2a">
+        <source>Show page even if no translation exists</source>
+        <target>crwdns40162:0crwdne40162:0</target>
+      </trans-unit>
+      <trans-unit id="pages.fe_login_mode">
+        <source>Login Mode</source>
+        <target>crwdns40164:0crwdne40164:0</target>
+      </trans-unit>
+      <trans-unit id="pages.fe_login_mode_formlabel">
+        <source>Login Behaviour</source>
+        <target>crwdns40166:0crwdne40166:0</target>
+      </trans-unit>
+      <trans-unit id="pages.fe_login_mode.disable">
+        <source>Disable</source>
+        <target>crwdns40168:0crwdne40168:0</target>
+      </trans-unit>
+      <trans-unit id="pages.fe_login_mode.enable">
+        <source>Enable login</source>
+        <target>crwdns40170:0crwdne40170:0</target>
+      </trans-unit>
+      <trans-unit id="pages.fe_login_mode.disableAll">
+        <source>Disable login</source>
+        <target>crwdns40172:0crwdne40172:0</target>
+      </trans-unit>
+      <trans-unit id="pages.fe_login_mode.disableGroups">
+        <source>Enable user login, Disable usergroup login</source>
+        <target>crwdns40174:0crwdne40174:0</target>
+      </trans-unit>
+      <trans-unit id="pages.fe_login_mode.enableAgain">
+        <source>Re-Enable login</source>
+        <target>crwdns40176:0crwdne40176:0</target>
+      </trans-unit>
+      <trans-unit id="pages.storage_pid_formlabel">
+        <source>Page</source>
+        <target>crwdns40178:0crwdne40178:0</target>
+      </trans-unit>
+      <trans-unit id="pages.TSconfig_formlabel">
+        <source>Page TSConfig</source>
+        <target>crwdns40180:0crwdne40180:0</target>
+      </trans-unit>
+      <trans-unit id="pages.backend_layout_formlabel">
+        <source>Backend Layout (this page only)</source>
+        <target>crwdns40182:0crwdne40182:0</target>
+      </trans-unit>
+      <trans-unit id="pages.backend_layout_next_level_formlabel">
+        <source>Backend Layout (subpages of this page)</source>
+        <target>crwdns40184:0crwdne40184:0</target>
+      </trans-unit>
+      <trans-unit id="pages.backend_layout.none">
+        <source>None</source>
+        <target>crwdns40186:0crwdne40186:0</target>
+      </trans-unit>
+      <trans-unit id="pages.backend_layout.default">
+        <source>Default</source>
+        <target>crwdns40188:0crwdne40188:0</target>
+      </trans-unit>
+      <trans-unit id="pages.tsconfig_includes">
+        <source>Include Page TSConfig (from extensions)</source>
+        <target>crwdns40190:0crwdne40190:0</target>
+      </trans-unit>
+      <trans-unit id="tt_content">
+        <source>Page Content</source>
+        <target>crwdns40192:0crwdne40192:0</target>
+      </trans-unit>
+      <trans-unit id="fe_users">
+        <source>Website User</source>
+        <target>crwdns40194:0crwdne40194:0</target>
+      </trans-unit>
+      <trans-unit id="fe_users.username">
+        <source>Username</source>
+        <target>crwdns40196:0crwdne40196:0</target>
+      </trans-unit>
+      <trans-unit id="fe_users.password">
+        <source>Password</source>
+        <target>crwdns40198:0crwdne40198:0</target>
+      </trans-unit>
+      <trans-unit id="fe_users.usergroup">
+        <source>Groups</source>
+        <target>crwdns40200:0crwdne40200:0</target>
+      </trans-unit>
+      <trans-unit id="fe_users.lockToDomain">
+        <source>Lock to Domain</source>
+        <target>crwdns40202:0crwdne40202:0</target>
+      </trans-unit>
+      <trans-unit id="fe_users.tabs.personelData">
+        <source>Personal Data</source>
+        <target>crwdns40204:0crwdne40204:0</target>
+      </trans-unit>
+      <trans-unit id="fe_users.tabs.access">
+        <source>Access</source>
+        <target>crwdns40206:0crwdne40206:0</target>
+      </trans-unit>
+      <trans-unit id="fe_users.tabs.options">
+        <source>Options</source>
+        <target>crwdns40208:0crwdne40208:0</target>
+      </trans-unit>
+      <trans-unit id="fe_users.tabs.extended">
+        <source>Extended</source>
+        <target>crwdns40210:0crwdne40210:0</target>
+      </trans-unit>
+      <trans-unit id="fe_groups">
+        <source>Website Usergroup</source>
+        <target>crwdns40212:0crwdne40212:0</target>
+      </trans-unit>
+      <trans-unit id="fe_groups.title">
+        <source>Group Title</source>
+        <target>crwdns40214:0crwdne40214:0</target>
+      </trans-unit>
+      <trans-unit id="fe_groups.lockToDomain">
+        <source>Lock to Domain</source>
+        <target>crwdns40216:0crwdne40216:0</target>
+      </trans-unit>
+      <trans-unit id="fe_groups.subgroup">
+        <source>Subgroups</source>
+        <target>crwdns40218:0crwdne40218:0</target>
+      </trans-unit>
+      <trans-unit id="fe_groups.tabs.options">
+        <source>Options</source>
+        <target>crwdns40220:0crwdne40220:0</target>
+      </trans-unit>
+      <trans-unit id="fe_groups.tabs.extended">
+        <source>Extended</source>
+        <target>crwdns40222:0crwdne40222:0</target>
+      </trans-unit>
+      <trans-unit id="sys_domain">
+        <source>Domain</source>
+        <target>crwdns40224:0crwdne40224:0</target>
+      </trans-unit>
+      <trans-unit id="sys_domain.domainName">
+        <source>Domain</source>
+        <target>crwdns40226:0crwdne40226:0</target>
+      </trans-unit>
+      <trans-unit id="sys_template">
+        <source>Template</source>
+        <target>crwdns40228:0crwdne40228:0</target>
+      </trans-unit>
+      <trans-unit id="sys_template.title">
+        <source>Template Title</source>
+        <target>crwdns40230:0crwdne40230:0</target>
+      </trans-unit>
+      <trans-unit id="sys_template.root">
+        <source>Rootlevel</source>
+        <target>crwdns40232:0crwdne40232:0</target>
+      </trans-unit>
+      <trans-unit id="sys_template.clear">
+        <source>Clear</source>
+        <target>crwdns40234:0crwdne40234:0</target>
+      </trans-unit>
+      <trans-unit id="sys_template.sitetitle">
+        <source>Website Title</source>
+        <target>crwdns40236:0crwdne40236:0</target>
+      </trans-unit>
+      <trans-unit id="sys_template.constants">
+        <source>Constants</source>
+        <target>crwdns40238:0crwdne40238:0</target>
+      </trans-unit>
+      <trans-unit id="sys_template.resources">
+        <source>Resources</source>
+        <target>crwdns40240:0crwdne40240:0</target>
+      </trans-unit>
+      <trans-unit id="sys_template.nextLevel">
+        <source>Template on Next Level</source>
+        <target>crwdns40242:0crwdne40242:0</target>
+      </trans-unit>
+      <trans-unit id="sys_template.include_static_file">
+        <source>Include static (from extensions)</source>
+        <target>crwdns40244:0crwdne40244:0</target>
+      </trans-unit>
+      <trans-unit id="sys_template.basedOn">
+        <source>Include Basis Template</source>
+        <target>crwdns40246:0crwdne40246:0</target>
+      </trans-unit>
+      <trans-unit id="sys_template.includeStaticAfterBasedOn">
+        <source>Include Static Templates After Basis Templates</source>
+        <target>crwdns40248:0crwdne40248:0</target>
+      </trans-unit>
+      <trans-unit id="sys_template.config">
+        <source>Setup</source>
+        <target>crwdns40250:0crwdne40250:0</target>
+      </trans-unit>
+      <trans-unit id="sys_template.editorcfg">
+        <source>Backend Editor Configuration</source>
+        <target>crwdns40252:0crwdne40252:0</target>
+      </trans-unit>
+      <trans-unit id="sys_template.description">
+        <source>Description</source>
+        <target>crwdns40254:0crwdne40254:0</target>
+      </trans-unit>
+      <trans-unit id="sys_template.static_file_mode">
+        <source>Static Template Files from TYPO3 Extensions</source>
+        <target>crwdns40256:0crwdne40256:0</target>
+      </trans-unit>
+      <trans-unit id="sys_template.static_file_mode.0">
+        <source>Default (include before if root flag is set)</source>
+        <target>crwdns40258:0crwdne40258:0</target>
+      </trans-unit>
+      <trans-unit id="sys_template.static_file_mode.1">
+        <source>Always include before this template record</source>
+        <target>crwdns40260:0crwdne40260:0</target>
+      </trans-unit>
+      <trans-unit id="sys_template.static_file_mode.2">
+        <source>Never include before this template record</source>
+        <target>crwdns40262:0crwdne40262:0</target>
+      </trans-unit>
+      <trans-unit id="sys_template.static_file_mode.3">
+        <source>Include before all static templates if root flag is set</source>
+        <target>crwdns40264:0crwdne40264:0</target>
+      </trans-unit>
+      <trans-unit id="sys_template.basedOn_add">
+        <source>Add New Basis Template</source>
+        <target>crwdns40266:0crwdne40266:0</target>
+      </trans-unit>
+      <trans-unit id="sys_template.basedOn_edit">
+        <source>Edit template</source>
+        <target>crwdns40268:0crwdne40268:0</target>
+      </trans-unit>
+      <trans-unit id="sys_template.tabs.files">
+        <source>Resources</source>
+        <target>crwdns40270:0crwdne40270:0</target>
+      </trans-unit>
+      <trans-unit id="sys_template.tabs.include">
+        <source>Includes</source>
+        <target>crwdns40272:0crwdne40272:0</target>
+      </trans-unit>
+      <trans-unit id="sys_template.tabs.options">
+        <source>Options</source>
+        <target>crwdns40274:0crwdne40274:0</target>
+      </trans-unit>
+      <trans-unit id="sys_template.tabs.access">
+        <source>Access</source>
+        <target>crwdns40276:0crwdne40276:0</target>
+      </trans-unit>
+      <trans-unit id="pages_language_overlay">
+        <source>Alternative Page Language</source>
+        <target>crwdns40278:0crwdne40278:0</target>
+      </trans-unit>
+      <trans-unit id="backend_layout">
+        <source>Backend Layout</source>
+        <target>crwdns40280:0crwdne40280:0</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.title">
+        <source>Title</source>
+        <target>crwdns40282:0crwdne40282:0</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.description">
+        <source>Description</source>
+        <target>crwdns40284:0crwdne40284:0</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.config">
+        <source>Config</source>
+        <target>crwdns40286:0crwdne40286:0</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.wizard">
+        <source>Wizard</source>
+        <target>crwdns40288:0crwdne40288:0</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.icon">
+        <source>Icon</source>
+        <target>crwdns40290:0crwdne40290:0</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.tabs.access">
+        <source>Access</source>
+        <target>crwdns40292:0crwdne40292:0</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.tabs.extended">
+        <source>Extended</source>
+        <target>crwdns40294:0crwdne40294:0</target>
+      </trans-unit>
+      <trans-unit id="no_mount_pid">
+        <source>No Mount Point is set</source>
+        <target>crwdns40296:0crwdne40296:0</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
