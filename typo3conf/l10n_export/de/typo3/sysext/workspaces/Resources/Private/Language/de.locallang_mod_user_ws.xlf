@@ -1,599 +1,583 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415814876" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="de-AT">
+  <file t3:id="1415814876" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="de">
     <header/>
     <body>
-      <trans-unit id="mlang_labels_tablabel">
+      <trans-unit id="mlang_labels_tablabel" approved="yes">
         <source>Workspace overview</source>
-        <target>crwdns45150:0crwdne45150:0</target>
+        <target state="translated">Arbeitsumgebungsübersicht</target>
       </trans-unit>
-      <trans-unit id="mlang_labels_tabdescr">
+      <trans-unit id="mlang_labels_tabdescr" approved="yes">
         <source>Workspace overview showing the changes you have made in the workspace. Here you can also publish the changes to the website if you are allowed to do that.</source>
-        <target>crwdns45152:0crwdne45152:0</target>
+        <target state="translated">Die Arbeitsumgebungsübersicht zeigt Änderungen, die Sie in der Arbeitsumgebung vorgenommen haben. Mit den entsprechenden Berechtigungen können Sie die Änderungen an der Website von hier aus veröffentlichen.</target>
       </trans-unit>
-      <trans-unit id="mlang_tabs_tab">
+      <trans-unit id="mlang_tabs_tab" approved="yes">
         <source>Workspace</source>
-        <target>crwdns45154:0crwdne45154:0</target>
+        <target state="translated">Arbeitsumgebung</target>
       </trans-unit>
-      <trans-unit id="title">
+      <trans-unit id="title" approved="yes">
         <source>Workspace Manager</source>
-        <target>crwdns45156:0crwdne45156:0</target>
+        <target state="translated">Arbeitsumgebungsverwaltung</target>
       </trans-unit>
-      <trans-unit id="menuitem_review">
+      <trans-unit id="menuitem_review" approved="yes">
         <source>Review and Publish</source>
-        <target>crwdns45158:0crwdne45158:0</target>
+        <target state="translated">Redigieren und veröffentlichen</target>
       </trans-unit>
-      <trans-unit id="menuitem_workspaces">
+      <trans-unit id="menuitem_workspaces" approved="yes">
         <source>Workspace List</source>
-        <target>crwdns45160:0crwdne45160:0</target>
+        <target state="translated">Arbeitsumgebungsliste</target>
       </trans-unit>
-      <trans-unit id="filter_drafts">
+      <trans-unit id="filter_drafts" approved="yes">
         <source>Drafts</source>
-        <target>crwdns45162:0crwdne45162:0</target>
+        <target state="translated">Entwürfe</target>
       </trans-unit>
-      <trans-unit id="filter_archive">
+      <trans-unit id="filter_archive" approved="yes">
         <source>Archive</source>
-        <target>crwdns45164:0crwdne45164:0</target>
+        <target state="translated">Archiv</target>
       </trans-unit>
-      <trans-unit id="filter_all">
+      <trans-unit id="filter_all" approved="yes">
         <source>All</source>
-        <target>crwdns45166:0crwdne45166:0</target>
+        <target state="translated">Alle</target>
       </trans-unit>
-      <trans-unit id="diff_no_diff">
+      <trans-unit id="diff_no_diff" approved="yes">
         <source>Do not show differences</source>
-        <target>crwdns45168:0crwdne45168:0</target>
+        <target state="translated">Unterschiede nicht anzeigen</target>
       </trans-unit>
-      <trans-unit id="diff_show_inline">
+      <trans-unit id="diff_show_inline" approved="yes">
         <source>Show differences inline</source>
-        <target>crwdns45170:0crwdne45170:0</target>
+        <target state="translated">Unterschiede in Zeile anzeigen</target>
       </trans-unit>
-      <trans-unit id="diff_show_popup">
+      <trans-unit id="diff_show_popup" approved="yes">
         <source>Show diff. popups (branches)</source>
-        <target>crwdns45172:0crwdne45172:0</target>
+        <target state="translated">Untersch.-PopUp (Zweige) anzeigen</target>
       </trans-unit>
-      <trans-unit id="label_errors">
+      <trans-unit id="label_errors" approved="yes">
         <source>Errors</source>
-        <target>crwdns45174:0crwdne45174:0</target>
+        <target state="translated">Fehler</target>
       </trans-unit>
-      <trans-unit id="workspace_description_live">
+      <trans-unit id="workspace_description_live" approved="yes">
         <source>The LIVE workspace allows changes to take effect immediately on the website. However versioning can be applied inside the live workspace and this overview shows you draft and archive versions from the various workspaces, including the LIVE workspace.</source>
-        <target>crwdns45176:0crwdne45176:0</target>
+        <target state="translated">Die LIVE-Arbeitsumgebung ermöglicht Änderungen, die sich direkt auf die Website auswirken. Trotzdem kann eine Versionierung in der LIVE-Arbeitsumgebung angelegt werden. Dieser Überblick zeigt die Entwurfs- und Archivversionen der einzelnen Arbeitsumgebungen, inkl. der LIVE-Arbeitsumgebung.</target>
       </trans-unit>
-      <trans-unit id="workspace_description_draft">
+      <trans-unit id="workspace_description_draft" approved="yes">
         <source>In the Draft workspace all changes will be made as new versions of the live content. Changes can be previewed, reviewed and eventually published live.</source>
-        <target>crwdns45178:0crwdne45178:0</target>
+        <target state="translated">In der Entwurfsarbeitsumgebung werden alle Veränderungen als neue Versionen des Live-Inhalts angelegt. Für Änderungen gibt es eine Vorschau, sie können begutachtet und gegebenenfalls veröffentlicht werden.</target>
       </trans-unit>
-      <trans-unit id="workspace_description_no_access">
+      <trans-unit id="workspace_description_no_access" approved="yes">
         <source>You have no access to any workspace which might be an error. Please contact you administrator!</source>
-        <target>crwdns45180:0crwdne45180:0</target>
+        <target state="translated">Sie haben auf keine Arbeitsumgebung Zugriff, was ein möglicherweise ein Irrtum ist. Bitte setzen Sie sich mit dem Administrator in Verbindung!</target>
       </trans-unit>
-      <trans-unit id="edit_workspace_no_permission">
+      <trans-unit id="edit_workspace_no_permission" approved="yes">
         <source>You have no permission to edit this workspace. Only admin users or owners of the workspace can modify its parameters.</source>
-        <target>crwdns45182:0crwdne45182:0</target>
+        <target state="translated">Sie haben keine Berechtigung, diese Arbeitsumgebung zu bearbeiten. Nur Administratoren und Eigentümer der Arbeitsumgebung können ihre Einstellungen ändern.</target>
       </trans-unit>
-      <trans-unit id="create_workspace_no_permission">
+      <trans-unit id="create_workspace_no_permission" approved="yes">
         <source>You have no permission to create workspaces. Only admin users can create workspaces.</source>
-        <target>crwdns45184:0crwdne45184:0</target>
+        <target state="translated">Sie haben keine Berechtigung, Arbeitsumgebungen anzulegen. Dies können nur Administratoren.</target>
       </trans-unit>
-      <trans-unit id="submit_publish_workspace">
+      <trans-unit id="submit_publish_workspace" approved="yes">
         <source>Publish workspace</source>
-        <target>crwdns45186:0crwdne45186:0</target>
+        <target state="translated">Arbeitsumgebung veröffentlichen</target>
       </trans-unit>
-      <trans-unit id="submit_publish_workspace_confirmation_1">
+      <trans-unit id="submit_publish_workspace_confirmation_1" approved="yes">
         <source>Are you sure you want to publish all content in "Publish" stage from the workspace?</source>
-        <target>crwdns45188:0crwdne45188:0</target>
+        <target state="translated">Alle Inhalte der "Veröffentlichen"-Stufe aus der Arbeitsumgebung tatsächlich veröffentlichen?</target>
       </trans-unit>
-      <trans-unit id="submit_publish_workspace_confirmation_2">
+      <trans-unit id="submit_publish_workspace_confirmation_2" approved="yes">
         <source>Are you sure you want to publish all content from the workspace?</source>
-        <target>crwdns45190:0crwdne45190:0</target>
+        <target state="translated">Den gesamten Inhalt der Arbeitsumgebung tatsächlich veröffentlichen?</target>
       </trans-unit>
-      <trans-unit id="submit_swap_workspace">
+      <trans-unit id="submit_swap_workspace" approved="yes">
         <source>Swap workspace</source>
-        <target>crwdns45192:0crwdne45192:0</target>
+        <target state="translated">Arbeitsumgebung austauschen</target>
       </trans-unit>
-      <trans-unit id="submit_swap_workspace_confirmation_1">
+      <trans-unit id="submit_swap_workspace_confirmation_1" approved="yes">
         <source>Are you sure you want to publish (swap) all content in "Publish" stage from the workspace?</source>
-        <target>crwdns45194:0crwdne45194:0</target>
+        <target state="translated">Alle Inhalte der "Veröffentlichen"-Stufe aus der Arbeitsumgebung tatsächlich veröffentlichen (austauschen)?</target>
       </trans-unit>
-      <trans-unit id="submit_swap_workspace_confirmation_2">
+      <trans-unit id="submit_swap_workspace_confirmation_2" approved="yes">
         <source>Are you sure you want to publish (swap) all content from the workspace?</source>
-        <target>crwdns45196:0crwdne45196:0</target>
+        <target state="translated">Alle Inhalte der Arbeitsumgebung tatsächlich veröffentlichen (austauschen)?</target>
       </trans-unit>
-      <trans-unit id="submit_apply_action_on_selected_elements">
+      <trans-unit id="submit_apply_action_on_selected_elements" approved="yes">
         <source>Sure you want to perform this action with selected elements?</source>
-        <target>crwdns45198:0crwdne45198:0</target>
+        <target state="translated">Diese Aktion mit den ausgewählten Elementen tatsächlich durchführen?</target>
       </trans-unit>
-      <trans-unit id="no_publish_permission">
+      <trans-unit id="no_publish_permission" approved="yes">
         <source>You are not permitted to publish from this workspace</source>
-        <target>crwdns45200:0crwdne45200:0</target>
+        <target state="translated">Sie haben keine Berechtigung, aus dieser Arbeitsumgebung zu veröffentlichen.</target>
       </trans-unit>
-      <trans-unit id="label_workspace">
+      <trans-unit id="label_workspace" approved="yes">
         <source>Workspace</source>
-        <target>crwdns45202:0crwdne45202:0</target>
+        <target state="translated">Arbeitsumgebung</target>
       </trans-unit>
-      <trans-unit id="label_description">
+      <trans-unit id="label_description" approved="yes">
         <source>Description</source>
-        <target>crwdns45204:0crwdne45204:0</target>
+        <target state="translated">Beschreibung</target>
       </trans-unit>
-      <trans-unit id="label_options">
+      <trans-unit id="label_options" approved="yes">
         <source>Options</source>
-        <target>crwdns45206:0crwdne45206:0</target>
+        <target state="translated">Optionen</target>
       </trans-unit>
-      <trans-unit id="label_status">
-        <source>Status</source>
-        <target>crwdns45208:0crwdne45208:0</target>
-      </trans-unit>
-      <trans-unit id="label_pagetree">
+      <trans-unit id="label_pagetree" approved="yes">
         <source>Pagetree</source>
-        <target>crwdns45210:0crwdne45210:0</target>
+        <target state="translated">Seitenbaum</target>
       </trans-unit>
-      <trans-unit id="label_live_version">
+      <trans-unit id="label_live_version" approved="yes">
         <source>Live Version</source>
-        <target>crwdns45212:0crwdne45212:0</target>
+        <target state="translated">Live-Version</target>
       </trans-unit>
-      <trans-unit id="label_draft_versions">
+      <trans-unit id="label_draft_versions" approved="yes">
         <source>Workspace Versions</source>
-        <target>crwdns45214:0crwdne45214:0</target>
+        <target state="translated">Entwurfsversionen</target>
       </trans-unit>
-      <trans-unit id="label_stage">
+      <trans-unit id="label_stage" approved="yes">
         <source>Stage</source>
-        <target>crwdns45216:0crwdne45216:0</target>
+        <target state="translated">Stufe</target>
       </trans-unit>
-      <trans-unit id="label_publish">
+      <trans-unit id="label_publish" approved="yes">
         <source>Publish</source>
-        <target>crwdns45218:0crwdne45218:0</target>
+        <target state="translated">Veröffentlichen</target>
       </trans-unit>
-      <trans-unit id="label_lifecycle">
+      <trans-unit id="label_lifecycle" approved="yes">
         <source>Lifecycle</source>
-        <target>crwdns45220:0crwdne45220:0</target>
+        <target state="translated">Lebenszyklus</target>
       </trans-unit>
-      <trans-unit id="label_access_level">
+      <trans-unit id="label_access_level" approved="yes">
         <source>Access level</source>
-        <target>crwdns45222:0crwdne45222:0</target>
+        <target state="translated">Zugriffsstufe</target>
       </trans-unit>
-      <trans-unit id="img_title_publish">
+      <trans-unit id="img_title_publish" approved="yes">
         <source>Publish</source>
-        <target>crwdns45224:0crwdne45224:0</target>
+        <target state="translated">Veröffentlichen</target>
       </trans-unit>
-      <trans-unit id="img_title_swap">
+      <trans-unit id="img_title_swap" approved="yes">
         <source>Swap</source>
-        <target>crwdns45226:0crwdne45226:0</target>
+        <target state="translated">Austauschen</target>
       </trans-unit>
-      <trans-unit id="remove_from_ws_confirmation">
+      <trans-unit id="remove_from_ws_confirmation" approved="yes">
         <source>Remove from workspace?</source>
-        <target>crwdns45228:0crwdne45228:0</target>
+        <target state="translated">Aus der Arbeitsumgebung tatsächlich entfernen?</target>
       </trans-unit>
-      <trans-unit id="img_title_remove_from_ws">
+      <trans-unit id="img_title_remove_from_ws" approved="yes">
         <source>Remove from workspace?</source>
-        <target>crwdns45230:0crwdne45230:0</target>
+        <target state="translated">Aus der Arbeitsumgebung entfernen?</target>
       </trans-unit>
-      <trans-unit id="img_title_edit_page">
+      <trans-unit id="img_title_edit_page" approved="yes">
         <source>Edit page</source>
-        <target>crwdns45232:0crwdne45232:0</target>
+        <target state="translated">Seite bearbeiten</target>
       </trans-unit>
-      <trans-unit id="img_title_edit_element">
+      <trans-unit id="img_title_edit_element" approved="yes">
         <source>Edit element</source>
-        <target>crwdns45234:0crwdne45234:0</target>
+        <target state="translated">Element bearbeiten</target>
       </trans-unit>
-      <trans-unit id="img_title_show_log">
+      <trans-unit id="img_title_show_log" approved="yes">
         <source>Show Log</source>
-        <target>crwdns45236:0crwdne45236:0</target>
+        <target state="translated">Protokoll zeigen</target>
       </trans-unit>
-      <trans-unit id="diffview_label_field_name">
+      <trans-unit id="diffview_label_field_name" approved="yes">
         <source>Fieldname</source>
-        <target>crwdns45238:0crwdne45238:0</target>
+        <target state="translated">Feldname</target>
       </trans-unit>
-      <trans-unit id="diffview_label_colored_diff_view">
+      <trans-unit id="diffview_label_colored_diff_view" approved="yes">
         <source>Colored diff-view</source>
-        <target>crwdns45240:0crwdne45240:0</target>
+        <target state="translated">Eingefärbte Untersch.-Ansicht</target>
       </trans-unit>
-      <trans-unit id="diffview_complete_match">
+      <trans-unit id="diffview_complete_match" approved="yes">
         <source>Complete match on editable fields.</source>
-        <target>crwdns45242:0crwdne45242:0</target>
+        <target state="translated">Komplette Übereinstimmung der bearbeitbaren Felder</target>
       </trans-unit>
-      <trans-unit id="diffview_cannot_find_records">
+      <trans-unit id="diffview_cannot_find_records" approved="yes">
         <source>ERROR: Records could strangely not be found!</source>
-        <target>crwdns45244:0crwdne45244:0</target>
+        <target state="translated">FEHLER: Seltsamerweise konnten keine Datensätze gefunden werden!</target>
       </trans-unit>
-      <trans-unit id="img_title_show_more">
+      <trans-unit id="img_title_show_more" approved="yes">
         <source>Show more</source>
-        <target>crwdns45246:0crwdne45246:0</target>
+        <target state="translated">Mehr anzeigen</target>
       </trans-unit>
-      <trans-unit id="img_title_current_workspace">
+      <trans-unit id="img_title_current_workspace" approved="yes">
         <source>This is a current workspace!</source>
-        <target>crwdns45248:0crwdne45248:0</target>
+        <target state="translated">Das ist eine aktuelle Arbeitsumgebung!</target>
       </trans-unit>
-      <trans-unit id="img_title_create_new_workspace">
+      <trans-unit id="img_title_create_new_workspace" approved="yes">
         <source>Create new workspace</source>
-        <target>crwdns45250:0crwdne45250:0</target>
+        <target state="translated">Neue Arbeitsumgebung anlegen</target>
       </trans-unit>
-      <trans-unit id="link_text_create_new_workspace">
+      <trans-unit id="link_text_create_new_workspace" approved="yes">
         <source>Create new workspace</source>
-        <target>crwdns45252:0crwdne45252:0</target>
+        <target state="translated">Neue Arbeitsumgebung anlegen</target>
       </trans-unit>
-      <trans-unit id="edit_workspace_go_back">
+      <trans-unit id="edit_workspace_go_back" approved="yes">
         <source>Go back</source>
-        <target>crwdns45254:0crwdne45254:0</target>
+        <target state="translated">Zurück</target>
       </trans-unit>
-      <trans-unit id="edit_workspace_title_edit">
+      <trans-unit id="edit_workspace_title_edit" approved="yes">
         <source>Edit workspace</source>
-        <target>crwdns45256:0crwdne45256:0</target>
+        <target state="translated">Arbeitsumgebung bearbeiten</target>
       </trans-unit>
-      <trans-unit id="edit_workspace_title_new">
+      <trans-unit id="edit_workspace_title_new" approved="yes">
         <source>Create new workspace</source>
-        <target>crwdns45258:0crwdne45258:0</target>
+        <target state="translated">Neue Arbeitsumgebung anlegen</target>
       </trans-unit>
-      <trans-unit id="workspace_list_label_current_workspace">
+      <trans-unit id="workspace_list_label_current_workspace" approved="yes">
         <source>Current</source>
-        <target>crwdns45260:0crwdne45260:0</target>
+        <target state="translated">Aktuell</target>
       </trans-unit>
-      <trans-unit id="workspace_list_label_workspace_title">
+      <trans-unit id="workspace_list_label_workspace_title" approved="yes">
         <source>Title</source>
-        <target>crwdns45262:0crwdne45262:0</target>
+        <target state="translated">Titel</target>
       </trans-unit>
-      <trans-unit id="workspace_list_label_workspace_description">
+      <trans-unit id="workspace_list_label_workspace_description" approved="yes">
         <source>Description</source>
-        <target>crwdns45264:0crwdne45264:0</target>
+        <target state="translated">Beschreibung</target>
       </trans-unit>
-      <trans-unit id="workspace_list_label_owners">
+      <trans-unit id="workspace_list_label_owners" approved="yes">
         <source>Owners</source>
-        <target>crwdns45266:0crwdne45266:0</target>
+        <target state="translated">Besitzer</target>
       </trans-unit>
-      <trans-unit id="workspace_list_label_members">
+      <trans-unit id="workspace_list_label_members" approved="yes">
         <source>Members</source>
-        <target>crwdns45268:0crwdne45268:0</target>
+        <target state="translated">Mitglieder</target>
       </trans-unit>
-      <trans-unit id="workspace_list_label_reviewers">
+      <trans-unit id="workspace_list_label_reviewers" approved="yes">
         <source>Reviewers</source>
-        <target>crwdns45270:0crwdne45270:0</target>
+        <target state="translated">Redakteure</target>
       </trans-unit>
-      <trans-unit id="workspace_list_access_admins_only">
+      <trans-unit id="workspace_list_access_admins_only" approved="yes">
         <source>Admins only</source>
-        <target>crwdns45272:0crwdne45272:0</target>
+        <target state="translated">Nur Administratoren</target>
       </trans-unit>
-      <trans-unit id="workspace_list_access_anyone">
+      <trans-unit id="workspace_list_access_anyone" approved="yes">
         <source>no restrictions</source>
-        <target>crwdns45274:0crwdne45274:0</target>
+        <target state="translated">keine Einschränkungen</target>
       </trans-unit>
-      <trans-unit id="workspace_list_label_file_mountpoints">
+      <trans-unit id="workspace_list_label_file_mountpoints" approved="yes">
         <source>File mountpoints</source>
-        <target>crwdns45276:0crwdne45276:0</target>
+        <target state="translated">Verzeichnisfreigaben</target>
       </trans-unit>
-      <trans-unit id="workspace_list_label_db_mountpoints">
+      <trans-unit id="workspace_list_label_db_mountpoints" approved="yes">
         <source>Database mountpoints</source>
-        <target>crwdns45278:0crwdne45278:0</target>
+        <target state="translated">Datenbankfreigaben</target>
       </trans-unit>
-      <trans-unit id="workspace_list_label_frozen">
+      <trans-unit id="workspace_list_label_frozen" approved="yes">
         <source>Frozen</source>
-        <target>crwdns45280:0crwdne45280:0</target>
+        <target state="translated">Eingefroren</target>
       </trans-unit>
-      <trans-unit id="workspace_list_label_publish_date">
+      <trans-unit id="workspace_list_label_publish_date" approved="yes">
         <source>Publish date</source>
-        <target>crwdns45282:0crwdne45282:0</target>
+        <target state="translated">Veröffentlichungsdatum</target>
       </trans-unit>
-      <trans-unit id="workspace_list_label_unpublish_date">
+      <trans-unit id="workspace_list_label_unpublish_date" approved="yes">
         <source>Unpublish date</source>
-        <target>crwdns45284:0crwdne45284:0</target>
+        <target state="translated">Zurückziehungsdatum</target>
       </trans-unit>
-      <trans-unit id="workspace_list_label_your_access">
+      <trans-unit id="workspace_list_label_your_access" approved="yes">
         <source>Your access</source>
-        <target>crwdns45286:0crwdne45286:0</target>
+        <target state="translated">Ihr Zugriff</target>
       </trans-unit>
-      <trans-unit id="workspace_list_label_workspace_users">
+      <trans-unit id="workspace_list_label_workspace_users" approved="yes">
         <source>Workspace users</source>
-        <target>crwdns45288:0crwdne45288:0</target>
+        <target state="translated">Arbeitsumgebungsbenutzer</target>
       </trans-unit>
-      <trans-unit id="workspace_list_label_frozen_yes">
+      <trans-unit id="workspace_list_label_frozen_yes" approved="yes">
         <source>Yes</source>
-        <target>crwdns45290:0crwdne45290:0</target>
+        <target state="translated">Ja</target>
       </trans-unit>
-      <trans-unit id="workspace_list_label_frozen_no">
+      <trans-unit id="workspace_list_label_frozen_no" approved="yes">
         <source>No</source>
-        <target>crwdns45292:0crwdne45292:0</target>
+        <target state="translated">Nein</target>
       </trans-unit>
-      <trans-unit id="workspace_list_icon_title_edit_workspace">
+      <trans-unit id="workspace_list_icon_title_edit_workspace" approved="yes">
         <source>Edit workspace</source>
-        <target>crwdns45294:0crwdne45294:0</target>
+        <target state="translated">Arbeitsumgebung bearbeiten</target>
       </trans-unit>
-      <trans-unit id="workspace_list_icon_title_switch_workspace">
+      <trans-unit id="workspace_list_icon_title_switch_workspace" approved="yes">
         <source>Switch workspace</source>
-        <target>crwdns45296:0crwdne45296:0</target>
+        <target state="translated">Arbeitsumgebung umschalten</target>
       </trans-unit>
-      <trans-unit id="workspace_list_access_admin">
+      <trans-unit id="workspace_list_access_admin" approved="yes">
         <source>Admin</source>
-        <target>crwdns45298:0crwdne45298:0</target>
+        <target state="translated">Administrator</target>
       </trans-unit>
-      <trans-unit id="workspace_list_access_online">
-        <source>Online</source>
-        <target>crwdns45300:0crwdne45300:0</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_access_offline">
-        <source>Offline</source>
-        <target>crwdns45302:0crwdne45302:0</target>
-      </trans-unit>
-      <trans-unit id="workspace_list_access_owner">
+      <trans-unit id="workspace_list_access_owner" approved="yes">
         <source>Owner</source>
-        <target>crwdns45304:0crwdne45304:0</target>
+        <target state="translated">Besitzer</target>
       </trans-unit>
-      <trans-unit id="workspace_list_access_member">
+      <trans-unit id="workspace_list_access_member" approved="yes">
         <source>Member</source>
-        <target>crwdns45306:0crwdne45306:0</target>
+        <target state="translated">Mitglied</target>
       </trans-unit>
-      <trans-unit id="workspace_list_access_reviewer">
+      <trans-unit id="workspace_list_access_reviewer" approved="yes">
         <source>Reviewer</source>
-        <target>crwdns45308:0crwdne45308:0</target>
+        <target state="translated">Gutachter</target>
       </trans-unit>
-      <trans-unit id="workspace_list_publishing_count_draft">
+      <trans-unit id="workspace_list_publishing_count_draft" approved="yes">
         <source>Draft</source>
-        <target>crwdns45310:0crwdne45310:0</target>
+        <target state="translated">Entwurf</target>
       </trans-unit>
-      <trans-unit id="workspace_list_publishing_count_archive">
+      <trans-unit id="workspace_list_publishing_count_archive" approved="yes">
         <source>Archive</source>
-        <target>crwdns45312:0crwdne45312:0</target>
+        <target state="translated">Archiv</target>
       </trans-unit>
-      <trans-unit id="workspace_list_publishing_count">
+      <trans-unit id="workspace_list_publishing_count" approved="yes">
         <source>Published %d times</source>
-        <target>crwdns45314:0%dcrwdne45314:0</target>
+        <target state="translated">%d mal veröffentlicht</target>
       </trans-unit>
-      <trans-unit id="stage_sent_to_review">
+      <trans-unit id="stage_sent_to_review" approved="yes">
         <source>"%s" sent element to "Review"</source>
-        <target>crwdns45316:0%scrwdne45316:0</target>
+        <target state="translated">"%s" hat das Element zum "Begutachten" geschickt</target>
       </trans-unit>
-      <trans-unit id="stage_approved_for_publish">
+      <trans-unit id="stage_approved_for_publish" approved="yes">
         <source>"%s" approved for "Publish"</source>
-        <target>crwdns45318:0%scrwdne45318:0</target>
+        <target state="translated">"%s" hat zum "Veröffentlichen" freigegeben</target>
       </trans-unit>
-      <trans-unit id="stage_rejected">
+      <trans-unit id="stage_rejected" approved="yes">
         <source>"%s" rejected element!</source>
-        <target>crwdns45320:0%scrwdne45320:0</target>
+        <target state="translated">"%s" hat das Element abgelehnt!</target>
       </trans-unit>
-      <trans-unit id="stage_reset_to_editing">
+      <trans-unit id="stage_reset_to_editing" approved="yes">
         <source>"%s" reset to "Editing"</source>
-        <target>crwdns45322:0%scrwdne45322:0</target>
+        <target state="translated">"%s" hat das Element auf "Bearbeiten" zurückgesetzt</target>
       </trans-unit>
-      <trans-unit id="stage_undefined">
+      <trans-unit id="stage_undefined" approved="yes">
         <source>[undefined]</source>
-        <target>crwdns45324:0[undefined]crwdne45324:0</target>
+        <target state="translated">[undefiniert]</target>
       </trans-unit>
-      <trans-unit id="stage_label_user_comment">
+      <trans-unit id="stage_label_user_comment" approved="yes">
         <source>User Comment</source>
-        <target>crwdns45326:0crwdne45326:0</target>
+        <target state="translated">Benutzerkommentar</target>
       </trans-unit>
-      <trans-unit id="workspace_list_mount_point_inaccessible">
+      <trans-unit id="workspace_list_mount_point_inaccessible" approved="yes">
         <source>This mount point is defined for workspace but not accessible to you. If you need access to this mount point, ask your system administrator to give you access to it.</source>
-        <target>crwdns45328:0crwdne45328:0</target>
+        <target state="translated">Diese Freigabe ist für die Arbeitsumgebung definiert, Sie haben aber keinen Zugriff. Wenn Sie Zugriff auf diese Freigabe benötigen, wenden Sie sich an den Systemadministrator.</target>
       </trans-unit>
-      <trans-unit id="workspace_list_file_mount_point_live">
+      <trans-unit id="workspace_list_file_mount_point_live" approved="yes">
         <source>Mount points from user profile are used.</source>
-        <target>crwdns45330:0crwdne45330:0</target>
+        <target state="translated">Freigaben des Benutzerprofils werden benutzt.</target>
       </trans-unit>
-      <trans-unit id="workspace_list_file_mount_point_draft">
+      <trans-unit id="workspace_list_file_mount_point_draft" approved="yes">
         <source>File mount points are not available in draft workspace.</source>
-        <target>crwdns45332:0crwdne45332:0</target>
+        <target state="translated">Verzeichnisfreigaben sind in der Entwurfsarbeitsumgebung nicht verwendbar.</target>
       </trans-unit>
-      <trans-unit id="workspace_list_file_mount_point_custom">
+      <trans-unit id="workspace_list_file_mount_point_custom" approved="yes">
         <source>File mount points are not defined for this workspace. Therefore no file mount points available in the workspace.</source>
-        <target>crwdns45334:0crwdne45334:0</target>
+        <target state="translated">Verzeichnisfreigaben sind für diese Arbeitsumgebung nicht definiert. Aus diesem Grund sind keine Freigaben in dieser Arbeitsumgebung verfügbar.</target>
       </trans-unit>
-      <trans-unit id="workspace_list_db_mount_point_live">
+      <trans-unit id="workspace_list_db_mount_point_live" approved="yes">
         <source>Mount points from user profile are used.</source>
-        <target>crwdns45336:0crwdne45336:0</target>
+        <target state="translated">Freigaben des Benutzerprofils werden benutzt.</target>
       </trans-unit>
-      <trans-unit id="workspace_list_db_mount_point_draft">
+      <trans-unit id="workspace_list_db_mount_point_draft" approved="yes">
         <source>Mount points from user profile are used.</source>
-        <target>crwdns45338:0crwdne45338:0</target>
+        <target state="translated">Freigaben des Benutzerprofils werden benutzt.</target>
       </trans-unit>
-      <trans-unit id="workspace_list_db_mount_point_custom">
+      <trans-unit id="workspace_list_db_mount_point_custom" approved="yes">
         <source>Mount points from user profile are used.</source>
-        <target>crwdns45340:0crwdne45340:0</target>
+        <target state="translated">Freigaben des Benutzerprofils werden benutzt.</target>
       </trans-unit>
-      <trans-unit id="publish_title">
+      <trans-unit id="publish_title" approved="yes">
         <source>Publish workspace</source>
-        <target>crwdns45342:0crwdne45342:0</target>
+        <target state="translated">Arbeitsumgebung veröffentlichen</target>
       </trans-unit>
-      <trans-unit id="swap_title">
+      <trans-unit id="swap_title" approved="yes">
         <source>Swap workspace</source>
-        <target>crwdns45344:0crwdne45344:0</target>
+        <target state="translated">Arbeitsumgebung austauschen</target>
       </trans-unit>
-      <trans-unit id="publish_status">
+      <trans-unit id="publish_status" approved="yes">
         <source>Published records &lt;strong&gt;%d&lt;/strong&gt; to &lt;strong&gt;%d&lt;/strong&gt; of &lt;strong&gt;%d&lt;/strong&gt;.</source>
-        <target>crwdns45346:0%dcrwdnd45346:0%dcrwdnd45346:0%dcrwdne45346:0</target>
+        <target state="translated">Datensätze &lt;strong&gt;%d&lt;/strong&gt; bis &lt;strong&gt;%d&lt;/strong&gt; von &lt;strong&gt;%d&lt;/strong&gt; veröffentlicht.</target>
       </trans-unit>
-      <trans-unit id="swap_status">
+      <trans-unit id="swap_status" approved="yes">
         <source>Swapped records &lt;strong&gt;%d&lt;/strong&gt; to &lt;strong&gt;%d&lt;/strong&gt; of &lt;strong&gt;%d&lt;/strong&gt;.</source>
-        <target>crwdns45348:0%dcrwdnd45348:0%dcrwdnd45348:0%dcrwdne45348:0</target>
+        <target state="translated">Datensätze &lt;strong&gt;%d&lt;/strong&gt; bis &lt;strong&gt;%d&lt;/strong&gt; von &lt;strong&gt;%d&lt;/strong&gt; ausgetauscht.</target>
       </trans-unit>
-      <trans-unit id="publish_prepare">
+      <trans-unit id="publish_prepare" approved="yes">
         <source>TYPO3 is preparing to publish records.</source>
-        <target>crwdns45350:0crwdne45350:0</target>
+        <target state="translated">TYPO3 bereitet die Veröffentlichung der Datensätze vor.</target>
       </trans-unit>
-      <trans-unit id="swap_prepare">
+      <trans-unit id="swap_prepare" approved="yes">
         <source>TYPO3 is preparing to swap records.</source>
-        <target>crwdns45352:0crwdne45352:0</target>
+        <target state="translated">TYPO3 bereitet den Austausch der Datensätze vor.</target>
       </trans-unit>
-      <trans-unit id="please_wait">
+      <trans-unit id="please_wait" approved="yes">
         <source>Please, wait...</source>
-        <target>crwdns45354:0crwdne45354:0</target>
+        <target state="translated">Bitte warten...</target>
       </trans-unit>
-      <trans-unit id="return_to_index">
+      <trans-unit id="return_to_index" approved="yes">
         <source>Return to Workspace module</source>
-        <target>crwdns45356:0crwdne45356:0</target>
+        <target state="translated">Zurück zum Modul Arbeitsumgebung</target>
       </trans-unit>
-      <trans-unit id="do_not_interrupt_publishing_1">
+      <trans-unit id="do_not_interrupt_publishing_1" approved="yes">
         <source>Do not interrupt publishing process or</source>
-        <target>crwdns45358:0crwdne45358:0</target>
+        <target state="translated">Bitte die Veröffentlichung nicht unterbrechen, da</target>
       </trans-unit>
-      <trans-unit id="do_not_interrupt_publishing_2">
+      <trans-unit id="do_not_interrupt_publishing_2" approved="yes">
         <source>workspace may be left in half-published state!</source>
-        <target>crwdns45360:0crwdne45360:0</target>
+        <target state="translated">die Arbeitsumgebung sonst evtl. nur teilweise veröffentlicht wird.</target>
       </trans-unit>
-      <trans-unit id="workspace_published">
+      <trans-unit id="workspace_published" approved="yes">
         <source>Workspace has been published.</source>
-        <target>crwdns45362:0crwdne45362:0</target>
+        <target state="translated">Die Arbeitsumgebung wurde veröffentlicht.</target>
       </trans-unit>
-      <trans-unit id="workspace_swapped">
+      <trans-unit id="workspace_swapped" approved="yes">
         <source>Workspace has been swapped.</source>
-        <target>crwdns45364:0crwdne45364:0</target>
+        <target state="translated">Die Arbeitsumgebung wurde ausgetauscht.</target>
       </trans-unit>
-      <trans-unit id="label_reject">
+      <trans-unit id="label_reject" approved="yes">
         <source>Reject</source>
-        <target>crwdns45366:0crwdne45366:0</target>
+        <target state="translated">Ablehnen</target>
       </trans-unit>
-      <trans-unit id="label_review">
+      <trans-unit id="label_review" approved="yes">
         <source>Review</source>
-        <target>crwdns45368:0crwdne45368:0</target>
+        <target state="translated">Gutachten</target>
       </trans-unit>
-      <trans-unit id="label_sendtoreview">
+      <trans-unit id="label_sendtoreview" approved="yes">
         <source>Send to review</source>
-        <target>crwdns45370:0crwdne45370:0</target>
+        <target state="translated">Zum Gutachten</target>
       </trans-unit>
-      <trans-unit id="label_approveforpublishing">
+      <trans-unit id="label_approveforpublishing" approved="yes">
         <source>Approve for publishing</source>
-        <target>crwdns45372:0crwdne45372:0</target>
+        <target state="translated">Zur Veröffentlichung freigeben</target>
       </trans-unit>
-      <trans-unit id="stage_editing">
+      <trans-unit id="stage_editing" approved="yes">
         <source>Editing</source>
-        <target>crwdns45374:0crwdne45374:0</target>
+        <target state="translated">Bearbeiten</target>
       </trans-unit>
-      <trans-unit id="stage_review">
+      <trans-unit id="stage_review" approved="yes">
         <source>Review</source>
-        <target>crwdns45376:0crwdne45376:0</target>
+        <target state="translated">Begutachten</target>
       </trans-unit>
-      <trans-unit id="stage_publish">
+      <trans-unit id="stage_publish" approved="yes">
         <source>Publish</source>
-        <target>crwdns45378:0crwdne45378:0</target>
+        <target state="translated">Veröffentlichen</target>
       </trans-unit>
-      <trans-unit id="label_subelements">
+      <trans-unit id="label_subelements" approved="yes">
         <source>Sub elements</source>
-        <target>crwdns45380:0crwdne45380:0</target>
+        <target state="translated">Unterelemente</target>
       </trans-unit>
-      <trans-unit id="label_subelementsdetails">
+      <trans-unit id="label_subelementsdetails" approved="yes">
         <source>Sub elements, click for details</source>
-        <target>crwdns45382:0crwdne45382:0</target>
+        <target state="translated">Unterelemente, Klick für Details</target>
       </trans-unit>
-      <trans-unit id="label_commentforreviewer">
+      <trans-unit id="label_commentforreviewer" approved="yes">
         <source>Comment for Reviewer</source>
-        <target>crwdns45384:0crwdne45384:0</target>
+        <target state="translated">Anmerkung für den Redakteur</target>
       </trans-unit>
-      <trans-unit id="label_commentforpublisher">
+      <trans-unit id="label_commentforpublisher" approved="yes">
         <source>Comment for Publisher</source>
-        <target>crwdns45386:0crwdne45386:0</target>
+        <target state="translated">Anmerkung für den Veröffentlicher</target>
       </trans-unit>
-      <trans-unit id="label_resetstage">
+      <trans-unit id="label_resetstage" approved="yes">
         <source>Reset stage</source>
-        <target>crwdns45388:0crwdne45388:0</target>
+        <target state="translated">Stufe zurücksetzen</target>
       </trans-unit>
-      <trans-unit id="label_undefined">
+      <trans-unit id="label_undefined" approved="yes">
         <source>Undefined</source>
-        <target>crwdns45390:0crwdne45390:0</target>
+        <target state="translated">Undefiniert</target>
       </trans-unit>
-      <trans-unit id="explain_reject">
+      <trans-unit id="explain_reject" approved="yes">
         <source>Please explain why you reject</source>
-        <target>crwdns45392:0crwdne45392:0</target>
+        <target state="translated">Bitte Grund für die Ablehnung erläutern</target>
       </trans-unit>
-      <trans-unit id="label_element">
-        <source>Element</source>
-        <target>crwdns45394:0crwdne45394:0</target>
-      </trans-unit>
-      <trans-unit id="label_page">
+      <trans-unit id="label_page" approved="yes">
         <source>Page</source>
-        <target>crwdns45396:0crwdne45396:0</target>
+        <target state="translated">Seite</target>
       </trans-unit>
-      <trans-unit id="label_branch">
+      <trans-unit id="label_branch" approved="yes">
         <source>Branch</source>
-        <target>crwdns45398:0crwdne45398:0</target>
+        <target state="translated">Zweig</target>
       </trans-unit>
-      <trans-unit id="label_newrecord">
+      <trans-unit id="label_newrecord" approved="yes">
         <source>New element</source>
-        <target>crwdns45400:0crwdne45400:0</target>
+        <target state="translated">Neues Element</target>
       </trans-unit>
-      <trans-unit id="label_deletedrecord">
+      <trans-unit id="label_deletedrecord" approved="yes">
         <source>Deleted element</source>
-        <target>crwdns45402:0crwdne45402:0</target>
+        <target state="translated">Gelöschtes Element</target>
       </trans-unit>
-      <trans-unit id="label_otherversions">
+      <trans-unit id="label_otherversions" approved="yes">
         <source>Other version(s) in workspace(s)</source>
-        <target>crwdns45404:0crwdne45404:0</target>
+        <target state="translated">Andere Version(en) in der Arbeitsumgebung</target>
       </trans-unit>
-      <trans-unit id="label_multipleversions">
+      <trans-unit id="label_multipleversions" approved="yes">
         <source>Multiple versions in same workspace!</source>
-        <target>crwdns45406:0crwdne45406:0</target>
+        <target state="translated">Mehrere Versionen in der selben Arbeitsumgebung</target>
       </trans-unit>
-      <trans-unit id="label_nestedversions">
+      <trans-unit id="label_nestedversions" approved="yes">
         <source>Version inside version!</source>
-        <target>crwdns45408:0crwdne45408:0</target>
+        <target state="translated">Version innerhalb einer Version!</target>
       </trans-unit>
-      <trans-unit id="label_rejected">
+      <trans-unit id="label_rejected" approved="yes">
         <source>Rejected</source>
-        <target>crwdns45410:0crwdne45410:0</target>
+        <target state="translated">Abgelehnt</target>
       </trans-unit>
-      <trans-unit id="label_showsubelements">
+      <trans-unit id="label_showsubelements" approved="yes">
         <source>Show sub elements</source>
-        <target>crwdns45412:0crwdne45412:0</target>
+        <target state="translated">Unterelemente anzeigen</target>
       </trans-unit>
-      <trans-unit id="label_onlymychanges">
+      <trans-unit id="label_onlymychanges" approved="yes">
         <source>Show only my changes</source>
-        <target>crwdns45414:0crwdne45414:0</target>
+        <target state="translated">Nur meine Änderungen anzeigen</target>
       </trans-unit>
-      <trans-unit id="label_allWSes">
+      <trans-unit id="label_allWSes" approved="yes">
         <source>All workspaces</source>
-        <target>crwdns45416:0crwdne45416:0</target>
+        <target state="translated">Alle Arbeitsumgebungen</target>
       </trans-unit>
-      <trans-unit id="label_notapplicable">
+      <trans-unit id="label_notapplicable" approved="yes">
         <source>n/a</source>
-        <target>crwdns45418:0crwdne45418:0</target>
+        <target state="translated">k.A.</target>
       </trans-unit>
-      <trans-unit id="label_percentchange">
+      <trans-unit id="label_percentchange" approved="yes">
         <source>%%% change</source>
-        <target>crwdns45420:0%%crwdne45420:0</target>
+        <target state="translated">%%% Änderung</target>
       </trans-unit>
-      <trans-unit id="label_percentChange">
+      <trans-unit id="label_percentChange" approved="yes">
         <source>%d%% change</source>
-        <target>crwdns45422:0%dcrwdnd45422:0%%crwdne45422:0</target>
+        <target state="translated">%d%% Änderung</target>
       </trans-unit>
-      <trans-unit id="label_doaction_default">
+      <trans-unit id="label_doaction_default" approved="yes">
         <source>Do</source>
-        <target>crwdns45424:0crwdne45424:0</target>
+        <target state="translated">Ausführen</target>
       </trans-unit>
-      <trans-unit id="label_doaction_publish">
+      <trans-unit id="label_doaction_publish" approved="yes">
         <source>Publish</source>
-        <target>crwdns45426:0crwdne45426:0</target>
+        <target state="translated">Veröffentlichen</target>
       </trans-unit>
-      <trans-unit id="label_doaction_swap">
+      <trans-unit id="label_doaction_swap" approved="yes">
         <source>Swap</source>
-        <target>crwdns45428:0crwdne45428:0</target>
+        <target state="translated">Austauschen</target>
       </trans-unit>
-      <trans-unit id="label_doaction_release">
+      <trans-unit id="label_doaction_release" approved="yes">
         <source>Remove this version</source>
-        <target>crwdns45430:0crwdne45430:0</target>
+        <target state="translated">Diese Version entfernen</target>
       </trans-unit>
-      <trans-unit id="label_doaction_stage_reject">
+      <trans-unit id="label_doaction_stage_reject" approved="yes">
         <source>Reject changes</source>
-        <target>crwdns45432:0crwdne45432:0</target>
+        <target state="translated">Änderungen ablehnen</target>
       </trans-unit>
-      <trans-unit id="label_doaction_stage_editing">
+      <trans-unit id="label_doaction_stage_editing" approved="yes">
         <source>Send to stage: Editing</source>
-        <target>crwdns45434:0crwdne45434:0</target>
+        <target state="translated">Auf Stufe setzen: Bearbeiten</target>
       </trans-unit>
-      <trans-unit id="label_doaction_stage_review">
+      <trans-unit id="label_doaction_stage_review" approved="yes">
         <source>Send to stage: Review</source>
-        <target>crwdns45436:0crwdne45436:0</target>
+        <target state="translated">Auf Stufe setzen: Begutachten</target>
       </trans-unit>
-      <trans-unit id="label_doaction_stage_publish">
+      <trans-unit id="label_doaction_stage_publish" approved="yes">
         <source>Send to stage: Publish</source>
-        <target>crwdns45438:0crwdne45438:0</target>
+        <target state="translated">Auf Stufe setzen: Veröffentlichen</target>
       </trans-unit>
-      <trans-unit id="label_doaction_flush">
+      <trans-unit id="label_doaction_flush" approved="yes">
         <source>Flush ALL changes/versions</source>
-        <target>crwdns45440:0crwdne45440:0</target>
+        <target state="translated">ALLE Änderungen/Versionen löschen</target>
       </trans-unit>
-      <trans-unit id="label_moveto_placeholder">
+      <trans-unit id="label_moveto_placeholder" approved="yes">
         <source>Move-to placeholder (destination)</source>
-        <target>crwdns45442:0crwdne45442:0</target>
+        <target state="translated">Platzhalter für Verschieben (Ziel)</target>
       </trans-unit>
-      <trans-unit id="label_moveto_pointer">
+      <trans-unit id="label_moveto_pointer" approved="yes">
         <source>Move-to pointer (source)</source>
-        <target>crwdns45444:0crwdne45444:0</target>
+        <target state="translated">Zeiger für Verschieben (Quelle)</target>
       </trans-unit>
     </body>
   </file>
