@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814876" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="de-AT">
+    <header/>
+    <body>
+      <trans-unit id="mlang_labels_tablabel">
+        <source>Workspace overview</source>
+        <target>crwdns45150:0crwdne45150:0</target>
+      </trans-unit>
+      <trans-unit id="mlang_labels_tabdescr">
+        <source>Workspace overview showing the changes you have made in the workspace. Here you can also publish the changes to the website if you are allowed to do that.</source>
+        <target>crwdns45152:0crwdne45152:0</target>
+      </trans-unit>
+      <trans-unit id="mlang_tabs_tab">
+        <source>Workspace</source>
+        <target>crwdns45154:0crwdne45154:0</target>
+      </trans-unit>
+      <trans-unit id="title">
+        <source>Workspace Manager</source>
+        <target>crwdns45156:0crwdne45156:0</target>
+      </trans-unit>
+      <trans-unit id="menuitem_review">
+        <source>Review and Publish</source>
+        <target>crwdns45158:0crwdne45158:0</target>
+      </trans-unit>
+      <trans-unit id="menuitem_workspaces">
+        <source>Workspace List</source>
+        <target>crwdns45160:0crwdne45160:0</target>
+      </trans-unit>
+      <trans-unit id="filter_drafts">
+        <source>Drafts</source>
+        <target>crwdns45162:0crwdne45162:0</target>
+      </trans-unit>
+      <trans-unit id="filter_archive">
+        <source>Archive</source>
+        <target>crwdns45164:0crwdne45164:0</target>
+      </trans-unit>
+      <trans-unit id="filter_all">
+        <source>All</source>
+        <target>crwdns45166:0crwdne45166:0</target>
+      </trans-unit>
+      <trans-unit id="diff_no_diff">
+        <source>Do not show differences</source>
+        <target>crwdns45168:0crwdne45168:0</target>
+      </trans-unit>
+      <trans-unit id="diff_show_inline">
+        <source>Show differences inline</source>
+        <target>crwdns45170:0crwdne45170:0</target>
+      </trans-unit>
+      <trans-unit id="diff_show_popup">
+        <source>Show diff. popups (branches)</source>
+        <target>crwdns45172:0crwdne45172:0</target>
+      </trans-unit>
+      <trans-unit id="label_errors">
+        <source>Errors</source>
+        <target>crwdns45174:0crwdne45174:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_description_live">
+        <source>The LIVE workspace allows changes to take effect immediately on the website. However versioning can be applied inside the live workspace and this overview shows you draft and archive versions from the various workspaces, including the LIVE workspace.</source>
+        <target>crwdns45176:0crwdne45176:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_description_draft">
+        <source>In the Draft workspace all changes will be made as new versions of the live content. Changes can be previewed, reviewed and eventually published live.</source>
+        <target>crwdns45178:0crwdne45178:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_description_no_access">
+        <source>You have no access to any workspace which might be an error. Please contact you administrator!</source>
+        <target>crwdns45180:0crwdne45180:0</target>
+      </trans-unit>
+      <trans-unit id="edit_workspace_no_permission">
+        <source>You have no permission to edit this workspace. Only admin users or owners of the workspace can modify its parameters.</source>
+        <target>crwdns45182:0crwdne45182:0</target>
+      </trans-unit>
+      <trans-unit id="create_workspace_no_permission">
+        <source>You have no permission to create workspaces. Only admin users can create workspaces.</source>
+        <target>crwdns45184:0crwdne45184:0</target>
+      </trans-unit>
+      <trans-unit id="submit_publish_workspace">
+        <source>Publish workspace</source>
+        <target>crwdns45186:0crwdne45186:0</target>
+      </trans-unit>
+      <trans-unit id="submit_publish_workspace_confirmation_1">
+        <source>Are you sure you want to publish all content in "Publish" stage from the workspace?</source>
+        <target>crwdns45188:0crwdne45188:0</target>
+      </trans-unit>
+      <trans-unit id="submit_publish_workspace_confirmation_2">
+        <source>Are you sure you want to publish all content from the workspace?</source>
+        <target>crwdns45190:0crwdne45190:0</target>
+      </trans-unit>
+      <trans-unit id="submit_swap_workspace">
+        <source>Swap workspace</source>
+        <target>crwdns45192:0crwdne45192:0</target>
+      </trans-unit>
+      <trans-unit id="submit_swap_workspace_confirmation_1">
+        <source>Are you sure you want to publish (swap) all content in "Publish" stage from the workspace?</source>
+        <target>crwdns45194:0crwdne45194:0</target>
+      </trans-unit>
+      <trans-unit id="submit_swap_workspace_confirmation_2">
+        <source>Are you sure you want to publish (swap) all content from the workspace?</source>
+        <target>crwdns45196:0crwdne45196:0</target>
+      </trans-unit>
+      <trans-unit id="submit_apply_action_on_selected_elements">
+        <source>Sure you want to perform this action with selected elements?</source>
+        <target>crwdns45198:0crwdne45198:0</target>
+      </trans-unit>
+      <trans-unit id="no_publish_permission">
+        <source>You are not permitted to publish from this workspace</source>
+        <target>crwdns45200:0crwdne45200:0</target>
+      </trans-unit>
+      <trans-unit id="label_workspace">
+        <source>Workspace</source>
+        <target>crwdns45202:0crwdne45202:0</target>
+      </trans-unit>
+      <trans-unit id="label_description">
+        <source>Description</source>
+        <target>crwdns45204:0crwdne45204:0</target>
+      </trans-unit>
+      <trans-unit id="label_options">
+        <source>Options</source>
+        <target>crwdns45206:0crwdne45206:0</target>
+      </trans-unit>
+      <trans-unit id="label_status">
+        <source>Status</source>
+        <target>crwdns45208:0crwdne45208:0</target>
+      </trans-unit>
+      <trans-unit id="label_pagetree">
+        <source>Pagetree</source>
+        <target>crwdns45210:0crwdne45210:0</target>
+      </trans-unit>
+      <trans-unit id="label_live_version">
+        <source>Live Version</source>
+        <target>crwdns45212:0crwdne45212:0</target>
+      </trans-unit>
+      <trans-unit id="label_draft_versions">
+        <source>Workspace Versions</source>
+        <target>crwdns45214:0crwdne45214:0</target>
+      </trans-unit>
+      <trans-unit id="label_stage">
+        <source>Stage</source>
+        <target>crwdns45216:0crwdne45216:0</target>
+      </trans-unit>
+      <trans-unit id="label_publish">
+        <source>Publish</source>
+        <target>crwdns45218:0crwdne45218:0</target>
+      </trans-unit>
+      <trans-unit id="label_lifecycle">
+        <source>Lifecycle</source>
+        <target>crwdns45220:0crwdne45220:0</target>
+      </trans-unit>
+      <trans-unit id="label_access_level">
+        <source>Access level</source>
+        <target>crwdns45222:0crwdne45222:0</target>
+      </trans-unit>
+      <trans-unit id="img_title_publish">
+        <source>Publish</source>
+        <target>crwdns45224:0crwdne45224:0</target>
+      </trans-unit>
+      <trans-unit id="img_title_swap">
+        <source>Swap</source>
+        <target>crwdns45226:0crwdne45226:0</target>
+      </trans-unit>
+      <trans-unit id="remove_from_ws_confirmation">
+        <source>Remove from workspace?</source>
+        <target>crwdns45228:0crwdne45228:0</target>
+      </trans-unit>
+      <trans-unit id="img_title_remove_from_ws">
+        <source>Remove from workspace?</source>
+        <target>crwdns45230:0crwdne45230:0</target>
+      </trans-unit>
+      <trans-unit id="img_title_edit_page">
+        <source>Edit page</source>
+        <target>crwdns45232:0crwdne45232:0</target>
+      </trans-unit>
+      <trans-unit id="img_title_edit_element">
+        <source>Edit element</source>
+        <target>crwdns45234:0crwdne45234:0</target>
+      </trans-unit>
+      <trans-unit id="img_title_show_log">
+        <source>Show Log</source>
+        <target>crwdns45236:0crwdne45236:0</target>
+      </trans-unit>
+      <trans-unit id="diffview_label_field_name">
+        <source>Fieldname</source>
+        <target>crwdns45238:0crwdne45238:0</target>
+      </trans-unit>
+      <trans-unit id="diffview_label_colored_diff_view">
+        <source>Colored diff-view</source>
+        <target>crwdns45240:0crwdne45240:0</target>
+      </trans-unit>
+      <trans-unit id="diffview_complete_match">
+        <source>Complete match on editable fields.</source>
+        <target>crwdns45242:0crwdne45242:0</target>
+      </trans-unit>
+      <trans-unit id="diffview_cannot_find_records">
+        <source>ERROR: Records could strangely not be found!</source>
+        <target>crwdns45244:0crwdne45244:0</target>
+      </trans-unit>
+      <trans-unit id="img_title_show_more">
+        <source>Show more</source>
+        <target>crwdns45246:0crwdne45246:0</target>
+      </trans-unit>
+      <trans-unit id="img_title_current_workspace">
+        <source>This is a current workspace!</source>
+        <target>crwdns45248:0crwdne45248:0</target>
+      </trans-unit>
+      <trans-unit id="img_title_create_new_workspace">
+        <source>Create new workspace</source>
+        <target>crwdns45250:0crwdne45250:0</target>
+      </trans-unit>
+      <trans-unit id="link_text_create_new_workspace">
+        <source>Create new workspace</source>
+        <target>crwdns45252:0crwdne45252:0</target>
+      </trans-unit>
+      <trans-unit id="edit_workspace_go_back">
+        <source>Go back</source>
+        <target>crwdns45254:0crwdne45254:0</target>
+      </trans-unit>
+      <trans-unit id="edit_workspace_title_edit">
+        <source>Edit workspace</source>
+        <target>crwdns45256:0crwdne45256:0</target>
+      </trans-unit>
+      <trans-unit id="edit_workspace_title_new">
+        <source>Create new workspace</source>
+        <target>crwdns45258:0crwdne45258:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_label_current_workspace">
+        <source>Current</source>
+        <target>crwdns45260:0crwdne45260:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_label_workspace_title">
+        <source>Title</source>
+        <target>crwdns45262:0crwdne45262:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_label_workspace_description">
+        <source>Description</source>
+        <target>crwdns45264:0crwdne45264:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_label_owners">
+        <source>Owners</source>
+        <target>crwdns45266:0crwdne45266:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_label_members">
+        <source>Members</source>
+        <target>crwdns45268:0crwdne45268:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_label_reviewers">
+        <source>Reviewers</source>
+        <target>crwdns45270:0crwdne45270:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_access_admins_only">
+        <source>Admins only</source>
+        <target>crwdns45272:0crwdne45272:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_access_anyone">
+        <source>no restrictions</source>
+        <target>crwdns45274:0crwdne45274:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_label_file_mountpoints">
+        <source>File mountpoints</source>
+        <target>crwdns45276:0crwdne45276:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_label_db_mountpoints">
+        <source>Database mountpoints</source>
+        <target>crwdns45278:0crwdne45278:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_label_frozen">
+        <source>Frozen</source>
+        <target>crwdns45280:0crwdne45280:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_label_publish_date">
+        <source>Publish date</source>
+        <target>crwdns45282:0crwdne45282:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_label_unpublish_date">
+        <source>Unpublish date</source>
+        <target>crwdns45284:0crwdne45284:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_label_your_access">
+        <source>Your access</source>
+        <target>crwdns45286:0crwdne45286:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_label_workspace_users">
+        <source>Workspace users</source>
+        <target>crwdns45288:0crwdne45288:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_label_frozen_yes">
+        <source>Yes</source>
+        <target>crwdns45290:0crwdne45290:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_label_frozen_no">
+        <source>No</source>
+        <target>crwdns45292:0crwdne45292:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_icon_title_edit_workspace">
+        <source>Edit workspace</source>
+        <target>crwdns45294:0crwdne45294:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_icon_title_switch_workspace">
+        <source>Switch workspace</source>
+        <target>crwdns45296:0crwdne45296:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_access_admin">
+        <source>Admin</source>
+        <target>crwdns45298:0crwdne45298:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_access_online">
+        <source>Online</source>
+        <target>crwdns45300:0crwdne45300:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_access_offline">
+        <source>Offline</source>
+        <target>crwdns45302:0crwdne45302:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_access_owner">
+        <source>Owner</source>
+        <target>crwdns45304:0crwdne45304:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_access_member">
+        <source>Member</source>
+        <target>crwdns45306:0crwdne45306:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_access_reviewer">
+        <source>Reviewer</source>
+        <target>crwdns45308:0crwdne45308:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_publishing_count_draft">
+        <source>Draft</source>
+        <target>crwdns45310:0crwdne45310:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_publishing_count_archive">
+        <source>Archive</source>
+        <target>crwdns45312:0crwdne45312:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_publishing_count">
+        <source>Published %d times</source>
+        <target>crwdns45314:0%dcrwdne45314:0</target>
+      </trans-unit>
+      <trans-unit id="stage_sent_to_review">
+        <source>"%s" sent element to "Review"</source>
+        <target>crwdns45316:0%scrwdne45316:0</target>
+      </trans-unit>
+      <trans-unit id="stage_approved_for_publish">
+        <source>"%s" approved for "Publish"</source>
+        <target>crwdns45318:0%scrwdne45318:0</target>
+      </trans-unit>
+      <trans-unit id="stage_rejected">
+        <source>"%s" rejected element!</source>
+        <target>crwdns45320:0%scrwdne45320:0</target>
+      </trans-unit>
+      <trans-unit id="stage_reset_to_editing">
+        <source>"%s" reset to "Editing"</source>
+        <target>crwdns45322:0%scrwdne45322:0</target>
+      </trans-unit>
+      <trans-unit id="stage_undefined">
+        <source>[undefined]</source>
+        <target>crwdns45324:0[undefined]crwdne45324:0</target>
+      </trans-unit>
+      <trans-unit id="stage_label_user_comment">
+        <source>User Comment</source>
+        <target>crwdns45326:0crwdne45326:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_mount_point_inaccessible">
+        <source>This mount point is defined for workspace but not accessible to you. If you need access to this mount point, ask your system administrator to give you access to it.</source>
+        <target>crwdns45328:0crwdne45328:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_file_mount_point_live">
+        <source>Mount points from user profile are used.</source>
+        <target>crwdns45330:0crwdne45330:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_file_mount_point_draft">
+        <source>File mount points are not available in draft workspace.</source>
+        <target>crwdns45332:0crwdne45332:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_file_mount_point_custom">
+        <source>File mount points are not defined for this workspace. Therefore no file mount points available in the workspace.</source>
+        <target>crwdns45334:0crwdne45334:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_db_mount_point_live">
+        <source>Mount points from user profile are used.</source>
+        <target>crwdns45336:0crwdne45336:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_db_mount_point_draft">
+        <source>Mount points from user profile are used.</source>
+        <target>crwdns45338:0crwdne45338:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_db_mount_point_custom">
+        <source>Mount points from user profile are used.</source>
+        <target>crwdns45340:0crwdne45340:0</target>
+      </trans-unit>
+      <trans-unit id="publish_title">
+        <source>Publish workspace</source>
+        <target>crwdns45342:0crwdne45342:0</target>
+      </trans-unit>
+      <trans-unit id="swap_title">
+        <source>Swap workspace</source>
+        <target>crwdns45344:0crwdne45344:0</target>
+      </trans-unit>
+      <trans-unit id="publish_status">
+        <source>Published records &lt;strong&gt;%d&lt;/strong&gt; to &lt;strong&gt;%d&lt;/strong&gt; of &lt;strong&gt;%d&lt;/strong&gt;.</source>
+        <target>crwdns45346:0%dcrwdnd45346:0%dcrwdnd45346:0%dcrwdne45346:0</target>
+      </trans-unit>
+      <trans-unit id="swap_status">
+        <source>Swapped records &lt;strong&gt;%d&lt;/strong&gt; to &lt;strong&gt;%d&lt;/strong&gt; of &lt;strong&gt;%d&lt;/strong&gt;.</source>
+        <target>crwdns45348:0%dcrwdnd45348:0%dcrwdnd45348:0%dcrwdne45348:0</target>
+      </trans-unit>
+      <trans-unit id="publish_prepare">
+        <source>TYPO3 is preparing to publish records.</source>
+        <target>crwdns45350:0crwdne45350:0</target>
+      </trans-unit>
+      <trans-unit id="swap_prepare">
+        <source>TYPO3 is preparing to swap records.</source>
+        <target>crwdns45352:0crwdne45352:0</target>
+      </trans-unit>
+      <trans-unit id="please_wait">
+        <source>Please, wait...</source>
+        <target>crwdns45354:0crwdne45354:0</target>
+      </trans-unit>
+      <trans-unit id="return_to_index">
+        <source>Return to Workspace module</source>
+        <target>crwdns45356:0crwdne45356:0</target>
+      </trans-unit>
+      <trans-unit id="do_not_interrupt_publishing_1">
+        <source>Do not interrupt publishing process or</source>
+        <target>crwdns45358:0crwdne45358:0</target>
+      </trans-unit>
+      <trans-unit id="do_not_interrupt_publishing_2">
+        <source>workspace may be left in half-published state!</source>
+        <target>crwdns45360:0crwdne45360:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_published">
+        <source>Workspace has been published.</source>
+        <target>crwdns45362:0crwdne45362:0</target>
+      </trans-unit>
+      <trans-unit id="workspace_swapped">
+        <source>Workspace has been swapped.</source>
+        <target>crwdns45364:0crwdne45364:0</target>
+      </trans-unit>
+      <trans-unit id="label_reject">
+        <source>Reject</source>
+        <target>crwdns45366:0crwdne45366:0</target>
+      </trans-unit>
+      <trans-unit id="label_review">
+        <source>Review</source>
+        <target>crwdns45368:0crwdne45368:0</target>
+      </trans-unit>
+      <trans-unit id="label_sendtoreview">
+        <source>Send to review</source>
+        <target>crwdns45370:0crwdne45370:0</target>
+      </trans-unit>
+      <trans-unit id="label_approveforpublishing">
+        <source>Approve for publishing</source>
+        <target>crwdns45372:0crwdne45372:0</target>
+      </trans-unit>
+      <trans-unit id="stage_editing">
+        <source>Editing</source>
+        <target>crwdns45374:0crwdne45374:0</target>
+      </trans-unit>
+      <trans-unit id="stage_review">
+        <source>Review</source>
+        <target>crwdns45376:0crwdne45376:0</target>
+      </trans-unit>
+      <trans-unit id="stage_publish">
+        <source>Publish</source>
+        <target>crwdns45378:0crwdne45378:0</target>
+      </trans-unit>
+      <trans-unit id="label_subelements">
+        <source>Sub elements</source>
+        <target>crwdns45380:0crwdne45380:0</target>
+      </trans-unit>
+      <trans-unit id="label_subelementsdetails">
+        <source>Sub elements, click for details</source>
+        <target>crwdns45382:0crwdne45382:0</target>
+      </trans-unit>
+      <trans-unit id="label_commentforreviewer">
+        <source>Comment for Reviewer</source>
+        <target>crwdns45384:0crwdne45384:0</target>
+      </trans-unit>
+      <trans-unit id="label_commentforpublisher">
+        <source>Comment for Publisher</source>
+        <target>crwdns45386:0crwdne45386:0</target>
+      </trans-unit>
+      <trans-unit id="label_resetstage">
+        <source>Reset stage</source>
+        <target>crwdns45388:0crwdne45388:0</target>
+      </trans-unit>
+      <trans-unit id="label_undefined">
+        <source>Undefined</source>
+        <target>crwdns45390:0crwdne45390:0</target>
+      </trans-unit>
+      <trans-unit id="explain_reject">
+        <source>Please explain why you reject</source>
+        <target>crwdns45392:0crwdne45392:0</target>
+      </trans-unit>
+      <trans-unit id="label_element">
+        <source>Element</source>
+        <target>crwdns45394:0crwdne45394:0</target>
+      </trans-unit>
+      <trans-unit id="label_page">
+        <source>Page</source>
+        <target>crwdns45396:0crwdne45396:0</target>
+      </trans-unit>
+      <trans-unit id="label_branch">
+        <source>Branch</source>
+        <target>crwdns45398:0crwdne45398:0</target>
+      </trans-unit>
+      <trans-unit id="label_newrecord">
+        <source>New element</source>
+        <target>crwdns45400:0crwdne45400:0</target>
+      </trans-unit>
+      <trans-unit id="label_deletedrecord">
+        <source>Deleted element</source>
+        <target>crwdns45402:0crwdne45402:0</target>
+      </trans-unit>
+      <trans-unit id="label_otherversions">
+        <source>Other version(s) in workspace(s)</source>
+        <target>crwdns45404:0crwdne45404:0</target>
+      </trans-unit>
+      <trans-unit id="label_multipleversions">
+        <source>Multiple versions in same workspace!</source>
+        <target>crwdns45406:0crwdne45406:0</target>
+      </trans-unit>
+      <trans-unit id="label_nestedversions">
+        <source>Version inside version!</source>
+        <target>crwdns45408:0crwdne45408:0</target>
+      </trans-unit>
+      <trans-unit id="label_rejected">
+        <source>Rejected</source>
+        <target>crwdns45410:0crwdne45410:0</target>
+      </trans-unit>
+      <trans-unit id="label_showsubelements">
+        <source>Show sub elements</source>
+        <target>crwdns45412:0crwdne45412:0</target>
+      </trans-unit>
+      <trans-unit id="label_onlymychanges">
+        <source>Show only my changes</source>
+        <target>crwdns45414:0crwdne45414:0</target>
+      </trans-unit>
+      <trans-unit id="label_allWSes">
+        <source>All workspaces</source>
+        <target>crwdns45416:0crwdne45416:0</target>
+      </trans-unit>
+      <trans-unit id="label_notapplicable">
+        <source>n/a</source>
+        <target>crwdns45418:0crwdne45418:0</target>
+      </trans-unit>
+      <trans-unit id="label_percentchange">
+        <source>%%% change</source>
+        <target>crwdns45420:0%%crwdne45420:0</target>
+      </trans-unit>
+      <trans-unit id="label_percentChange">
+        <source>%d%% change</source>
+        <target>crwdns45422:0%dcrwdnd45422:0%%crwdne45422:0</target>
+      </trans-unit>
+      <trans-unit id="label_doaction_default">
+        <source>Do</source>
+        <target>crwdns45424:0crwdne45424:0</target>
+      </trans-unit>
+      <trans-unit id="label_doaction_publish">
+        <source>Publish</source>
+        <target>crwdns45426:0crwdne45426:0</target>
+      </trans-unit>
+      <trans-unit id="label_doaction_swap">
+        <source>Swap</source>
+        <target>crwdns45428:0crwdne45428:0</target>
+      </trans-unit>
+      <trans-unit id="label_doaction_release">
+        <source>Remove this version</source>
+        <target>crwdns45430:0crwdne45430:0</target>
+      </trans-unit>
+      <trans-unit id="label_doaction_stage_reject">
+        <source>Reject changes</source>
+        <target>crwdns45432:0crwdne45432:0</target>
+      </trans-unit>
+      <trans-unit id="label_doaction_stage_editing">
+        <source>Send to stage: Editing</source>
+        <target>crwdns45434:0crwdne45434:0</target>
+      </trans-unit>
+      <trans-unit id="label_doaction_stage_review">
+        <source>Send to stage: Review</source>
+        <target>crwdns45436:0crwdne45436:0</target>
+      </trans-unit>
+      <trans-unit id="label_doaction_stage_publish">
+        <source>Send to stage: Publish</source>
+        <target>crwdns45438:0crwdne45438:0</target>
+      </trans-unit>
+      <trans-unit id="label_doaction_flush">
+        <source>Flush ALL changes/versions</source>
+        <target>crwdns45440:0crwdne45440:0</target>
+      </trans-unit>
+      <trans-unit id="label_moveto_placeholder">
+        <source>Move-to placeholder (destination)</source>
+        <target>crwdns45442:0crwdne45442:0</target>
+      </trans-unit>
+      <trans-unit id="label_moveto_pointer">
+        <source>Move-to pointer (source)</source>
+        <target>crwdns45444:0crwdne45444:0</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
