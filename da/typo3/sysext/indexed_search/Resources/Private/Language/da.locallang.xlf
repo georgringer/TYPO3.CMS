@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814838" source-language="en" datatype="plaintext" original="messages" date="2011-12-18T10:19:20Z" product-name="indexed_search" target-language="da">
+    <header/>
+    <body>
+      <trans-unit id="rules.headline" approved="yes">
+        <source>Rules</source>
+        <target state="translated">Regler</target>
+      </trans-unit>
+      <trans-unit id="rules.text" xml:space="preserve" approved="yes">
+				<source><![CDATA[Only words with 2 or more characters are accepted<br />
+Max 200 chars total<br />
+Space is used to split words, "" can be used to search for a whole string (not indexed search then)<br />
+AND, OR and NOT are prefix words, overruling the default operator<br />
++/|/- equals AND, OR and NOT as operators.<br />
+All search words are converted to lowercase.
+]]></source>
+			<target state="translated"><![CDATA[Kun ord med to eller flere karakterer accepteres&lt;br /&gt;
+Maks 200 karakterer i alt&lt;br /&gt;
+Mellemrum bruges til at dele ord, "" kan bruges til at søge efter hele strenge (i så fald ikke indekseret søgning)&lt;br /&gt;
+AND, OR og NOT er præfikserede ord, som underkender standardoperatøren&lt;br /&gt;
++/|/- er det samme som AND, OR og NOT som operatører.&lt;br /&gt;
+Alle søgeord er konverteret til små bogstaver.
+]]></target></trans-unit>
+      <trans-unit id="form.legend" approved="yes">
+        <source>Search form</source>
+        <target state="translated">Søgeformular</target>
+      </trans-unit>
+      <trans-unit id="form.searchFor" approved="yes">
+        <source>Search for</source>
+        <target state="translated">Søg efter</target>
+      </trans-unit>
+      <trans-unit id="form.extResume" approved="yes">
+        <source>Extended resume</source>
+        <target state="translated">Udvidet resumé</target>
+      </trans-unit>
+      <trans-unit id="form.atATime" approved="yes">
+        <source>at a time</source>
+        <target state="translated">af gangen</target>
+      </trans-unit>
+      <trans-unit id="form.orderBy" approved="yes">
+        <source>Order by</source>
+        <target state="translated">Sortér efter</target>
+      </trans-unit>
+      <trans-unit id="form.fromSection" approved="yes">
+        <source>From section</source>
+        <target state="translated">Fra sektion</target>
+      </trans-unit>
+      <trans-unit id="form.freeIndexUid" approved="yes">
+        <source>Category</source>
+        <target state="translated">Kategori</target>
+      </trans-unit>
+      <trans-unit id="form.searchIn" approved="yes">
+        <source>Search in</source>
+        <target state="translated">Søg i</target>
+      </trans-unit>
+      <trans-unit id="form.style" approved="yes">
+        <source>Style</source>
+        <target state="translated">Stil</target>
+      </trans-unit>
+      <trans-unit id="form.submit" approved="yes">
+        <source>Search</source>
+        <target state="translated">Søg</target>
+      </trans-unit>
+      <trans-unit id="form.addToSearch" approved="yes">
+        <source>Add to current search words</source>
+        <target state="translated">Tilføj til aktuelle søgeord</target>
+      </trans-unit>
+      <trans-unit id="form.linkToRegularSearch" approved="yes">
+        <source>Regular search</source>
+        <target state="translated">Regulær søgning</target>
+      </trans-unit>
+      <trans-unit id="form.linkToAdvancedSearch" approved="yes">
+        <source>Advanced search</source>
+        <target state="translated">Avenceret søgning</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.0" approved="yes">
+        <source>Distinct word</source>
+        <target state="translated">Særskilt ord</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.1" approved="yes">
+        <source>Part of word</source>
+        <target state="translated">Del af ord</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.2" approved="yes">
+        <source>First part of word</source>
+        <target state="translated">Første del af ord</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.3" approved="yes">
+        <source>Last part of word</source>
+        <target state="translated">Sidste del af ord</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.10" approved="yes">
+        <source>Sounds like</source>
+        <target state="translated">Lyder som</target>
+      </trans-unit>
+      <trans-unit id="searchTypes.20" approved="yes">
+        <source>Sentence</source>
+        <target state="translated">Sentens</target>
+      </trans-unit>
+      <trans-unit id="defaultOperands.0" approved="yes">
+        <source>All words (AND)</source>
+        <target state="translated">Alle ord (OG)</target>
+      </trans-unit>
+      <trans-unit id="defaultOperands.1" approved="yes">
+        <source>Any words (OR)</source>
+        <target state="translated">Ethvert ord (OR)</target>
+      </trans-unit>
+      <trans-unit id="languageUids.-1" approved="yes">
+        <source>All languages</source>
+        <target state="translated">Alle sprog</target>
+      </trans-unit>
+      <trans-unit id="languageUids.0" approved="yes">
+        <source>Default</source>
+        <target state="translated">Standard</target>
+      </trans-unit>
+      <trans-unit id="sections.0" approved="yes">
+        <source>Whole site</source>
+        <target state="translated">Hele hjemmesiden</target>
+      </trans-unit>
+      <trans-unit id="sections.-1" approved="yes">
+        <source>Only this page</source>
+        <target state="translated">Kun denne side</target>
+      </trans-unit>
+      <trans-unit id="sections.-2" approved="yes">
+        <source>Top + level 1</source>
+        <target state="translated">Top + niveau 1</target>
+      </trans-unit>
+      <trans-unit id="sections.-3" approved="yes">
+        <source>Level 2 and out</source>
+        <target state="translated">Niveau 2 og ud</target>
+      </trans-unit>
+      <trans-unit id="sections.rootLevel1" approved="yes">
+        <source>Level 1</source>
+        <target state="translated">Niveau 1</target>
+      </trans-unit>
+      <trans-unit id="sections.rootLevel1All" approved="yes">
+        <source>All pages on level 1</source>
+        <target state="translated">Alle sider på niveau 1</target>
+      </trans-unit>
+      <trans-unit id="sections.rootLevel2" approved="yes">
+        <source>- Level 2</source>
+        <target state="translated">- Niveau 2</target>
+      </trans-unit>
+      <trans-unit id="sections.rootLevel2All" approved="yes">
+        <source>- All pages on level 2</source>
+        <target state="translated">- Alle sider på niveau 2</target>
+      </trans-unit>
+      <trans-unit id="mediaTypes.0" approved="yes">
+        <source>Internal pages</source>
+        <target state="translated">Interne sider</target>
+      </trans-unit>
+      <trans-unit id="mediaTypes.-1" approved="yes">
+        <source>All media</source>
+        <target state="translated">Alle medier</target>
+      </trans-unit>
+      <trans-unit id="mediaTypes.-2" approved="yes">
+        <source>All External</source>
+        <target state="translated">Alle eksterne</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurations.-1" approved="yes">
+        <source>All, mixed</source>
+        <target state="translated">Alle, blandet</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurations.-2" approved="yes">
+        <source>All, categorized</source>
+        <target state="translated">Alle, kategoriseret</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurations.0" approved="yes">
+        <source>Pages</source>
+        <target state="translated">Sider</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurationHeader.-1" approved="yes">
+        <source>Mixed categories</source>
+        <target state="translated">Blandede kategorier</target>
+      </trans-unit>
+      <trans-unit id="indexingConfigurationHeader.0" approved="yes">
+        <source>Website Pages</source>
+        <target state="translated">Websider</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_flag" approved="yes">
+        <source>Weight/Frequency</source>
+        <target state="translated">Vægt/frekvens</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_freq" approved="yes">
+        <source>Frequency</source>
+        <target state="translated">Frekvens</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_first" approved="yes">
+        <source>Close to top</source>
+        <target state="translated">Tæt på top</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.rank_count" approved="yes">
+        <source>Number of words</source>
+        <target state="translated">Antal ord</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.mtime" approved="yes">
+        <source>Date Modified</source>
+        <target state="translated">Modificeret den</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.title" approved="yes">
+        <source>Document title</source>
+        <target state="translated">Dokumenttitel</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.crdate" approved="yes">
+        <source>Creation date</source>
+        <target state="translated">Oprettet den</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.descending" approved="yes">
+        <source>Highest first</source>
+        <target state="translated">Højeset først</target>
+      </trans-unit>
+      <trans-unit id="sortOrders.ascending" approved="yes">
+        <source>Lowest first</source>
+        <target state="translated">Laveste først</target>
+      </trans-unit>
+      <trans-unit id="groupBy.sections" approved="yes">
+        <source>Section hierarchy</source>
+        <target state="translated">Sektionshieraki</target>
+      </trans-unit>
+      <trans-unit id="groupBy.flat" approved="yes">
+        <source>Flat list</source>
+        <target state="translated">Flad liste</target>
+      </trans-unit>
+      <trans-unit id="result.page" approved="yes">
+        <source>page</source>
+        <target state="translated">side</target>
+      </trans-unit>
+      <trans-unit id="result.pages" approved="yes">
+        <source>pages</source>
+        <target state="translated">sider</target>
+      </trans-unit>
+      <trans-unit id="result.unnamedSection" approved="yes">
+        <source>Other</source>
+        <target state="translated">Andre</target>
+      </trans-unit>
+      <trans-unit id="result.otherMatching" approved="yes">
+        <source>Other matching pages in the same document</source>
+        <target state="translated">Andre matchende sider i det samme dokument</target>
+      </trans-unit>
+      <trans-unit id="result.otherPageAsWell" approved="yes">
+        <source>INFO: There was another page indexed as well. Probably indexed with another or no usergroup.</source>
+        <target state="translated">INFO: Der er også en anden indekseret side. Formentlig indekseret med en anden eller ingen brugergruppe.</target>
+      </trans-unit>
+      <trans-unit id="result.path" approved="yes">
+        <source>Path</source>
+        <target state="translated">Sti</target>
+      </trans-unit>
+      <trans-unit id="result.modified" approved="yes">
+        <source>Modified</source>
+        <target state="translated">Ændret</target>
+      </trans-unit>
+      <trans-unit id="result.created" approved="yes">
+        <source>Created</source>
+        <target state="translated">Oprettet</target>
+      </trans-unit>
+      <trans-unit id="result.size" approved="yes">
+        <source>Size</source>
+        <target state="translated">Størrelse</target>
+      </trans-unit>
+      <trans-unit id="result.noResume" approved="yes">
+        <source>Note: This search hit may not accurately match the content on this page. The page resume cannot be shown.</source>
+        <target state="translated">Note: Dette søgeresultat passer måske ikke præcist med indholdet på siden. Sideresumé kan ikke vises.</target>
+      </trans-unit>
+      <trans-unit id="result.memberGroups" approved="yes">
+        <source>Require membership of group numbers %s</source>
+        <target state="translated">Kræver medlemskab af gruppe nummer %s</target>
+      </trans-unit>
+      <trans-unit id="result.ratingMatches" approved="yes">
+        <source>matches</source>
+        <target state="translated">matcher</target>
+      </trans-unit>
+      <trans-unit id="result.noResult" approved="yes">
+        <source>No results found.</source>
+        <target state="translated">Intet resultat fundet.</target>
+      </trans-unit>
+      <trans-unit id="result.inSection" approved="yes">
+        <source>in the section</source>
+        <target state="translated">i denne sektion</target>
+      </trans-unit>
+      <trans-unit id="result.inNsection" approved="yes">
+        <source>in %s section</source>
+        <target state="translated">i %s sektion</target>
+      </trans-unit>
+      <trans-unit id="result.inNsections" approved="yes">
+        <source>in %s sections</source>
+        <target state="translated">i %s sektioner</target>
+      </trans-unit>
+      <trans-unit id="searchFor" approved="yes">
+        <source>Search for</source>
+        <target state="translated">Søg efter</target>
+      </trans-unit>
+      <trans-unit id="searchFor.andnot" approved="yes">
+        <source>but not</source>
+        <target state="translated">men not</target>
+      </trans-unit>
+      <trans-unit id="displayResults.previous" approved="yes">
+        <source>&lt; Previous</source>
+        <target state="translated">&lt; Forrige</target>
+      </trans-unit>
+      <trans-unit id="displayResults.page" approved="yes">
+        <source>Page</source>
+        <target state="translated">Side</target>
+      </trans-unit>
+      <trans-unit id="displayResults.next" approved="yes">
+        <source>Next &gt;</source>
+        <target state="translated">Næste &gt;</target>
+      </trans-unit>
+      <trans-unit id="displayResults" approved="yes">
+        <source><![CDATA[Displaying results <strong>%1$s to %2$s</strong> out of <strong>%3$s</strong>]]></source>
+        <target state="translated"><![CDATA[Viser resulter &lt;strong&gt;%1$s til %2$s&lt;/strong&gt; ud af &lt;strong&gt;%3$s&lt;/strong&gt;]]></target>
+      </trans-unit>
+      <trans-unit id="administration.menu.general" approved="yes">
+        <source>General statistics</source>
+        <target state="translated">Generel statistik</target>
+      </trans-unit>
+      <trans-unit id="administration.menu.pages" approved="yes">
+        <source>List: Pages</source>
+        <target state="translated">Vis: Sider</target>
+      </trans-unit>
+      <trans-unit id="administration.menu.externalDocuments" approved="yes">
+        <source>List: External documents</source>
+        <target state="translated">Liste: Eksterne dokumenter</target>
+      </trans-unit>
+      <trans-unit id="administration.menu.searchStatistic" approved="yes">
+        <source>Search statistics</source>
+        <target state="translated">Søg statistik</target>
+      </trans-unit>
+      <trans-unit id="administration.menu.statistic" approved="yes">
+        <source>Detailed statistics</source>
+        <target state="translated">Detaljeret statistik</target>
+      </trans-unit>
+      <trans-unit id="administration.index.description" approved="yes">
+        <source>General statistics</source>
+        <target state="translated">Generel statistik</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics" approved="yes">
+        <source>Indexing Engine Statistics</source>
+        <target state="translated">Indekserer søgemaskine-statistik</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.header" approved="yes">
+        <source>Row count by database table</source>
+        <target state="translated">Antal rækker i databasetabel</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.name" approved="yes">
+        <source>Name</source>
+        <target state="translated">Navn</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.count" approved="yes">
+        <source>Count</source>
+        <target state="translated">Antal</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.headerTypes" approved="yes">
+        <source>Hash Header Types</source>
+        <target state="translated">Hash header-typer</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.headerTypes.count" approved="yes">
+        <source>Count / Unique count</source>
+        <target state="translated">Antal / Unikke antal</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.word" approved="yes">
+        <source>Word</source>
+        <target state="translated">Ord</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.mostSearched.title" approved="yes">
+        <source>List of most searched words</source>
+        <target state="translated">Liste over mest søgte ord</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.mostSearched.description" approved="yes">
+        <source>Statistics for all pages. Select a page with indexed search form to see several statistics.</source>
+        <target state="translated">Statistik for alle sider. Vælg en side med indekssøgeformular, for at få vist flere statistikker.</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.mostSearched.all" approved="yes">
+        <source>All</source>
+        <target state="translated">Alle</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.mostSearched.last30days" approved="yes">
+        <source>Last 30 days</source>
+        <target state="translated">Sidste 30 dage</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.mostSearched.last24hours" approved="yes">
+        <source>Last 24 hours</source>
+        <target state="translated">Sidste 24 timer</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.noResult" approved="yes">
+        <source>No result found</source>
+        <target state="translated">Intet resultat fundet</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.noResultForPage" approved="yes">
+        <source>No result for the selected page found.</source>
+        <target state="translated">Der blev ikke fundet nogen resultater på den valgte side.</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.selectPage" approved="yes">
+        <source>Please select a page in the page tree.</source>
+        <target state="translated">Vælg en side i sidetræet.</target>
+      </trans-unit>
+      <trans-unit id="administration.external.title" approved="yes">
+        <source>External documents</source>
+        <target state="translated">Eksterne dokumenter</target>
+      </trans-unit>
+      <trans-unit id="field.fileName" approved="yes">
+        <source>Filename</source>
+        <target state="translated">Filnavn</target>
+      </trans-unit>
+      <trans-unit id="field.fileSize" approved="yes">
+        <source>Filesize</source>
+        <target state="translated">Filstørrelse</target>
+      </trans-unit>
+      <trans-unit id="field.wordCount" approved="yes">
+        <source>Word count</source>
+        <target state="translated">Ordoptælling</target>
+      </trans-unit>
+      <trans-unit id="field.words" approved="yes">
+        <source>Words</source>
+        <target state="translated">Ord</target>
+      </trans-unit>
+      <trans-unit id="field.mtime" approved="yes">
+        <source>Modification time</source>
+        <target state="translated">Modifikationstid</target>
+      </trans-unit>
+      <trans-unit id="field.indexed" approved="yes">
+        <source>Indexed</source>
+        <target state="translated">Indekseret</target>
+      </trans-unit>
+      <trans-unit id="field.updated" approved="yes">
+        <source>Updated</source>
+        <target state="translated">Opdateret</target>
+      </trans-unit>
+      <trans-unit id="field.parseTime" approved="yes">
+        <source>Parsetime [ms]</source>
+        <target state="translated">Parse-tid [ms]</target>
+      </trans-unit>
+      <trans-unit id="field.sub" approved="yes">
+        <source>Sub</source>
+        <target state="translated">Under</target>
+      </trans-unit>
+      <trans-unit id="field.staticPageArguments" approved="yes">
+        <source>Static Page Arguments</source>
+        <target state="translated">Statisk side argumenter</target>
+      </trans-unit>
+      <trans-unit id="field.count" approved="yes">
+        <source>Count</source>
+        <target state="translated">Antal</target>
+      </trans-unit>
+      <trans-unit id="field.first" approved="yes">
+        <source>First</source>
+        <target state="translated">Første</target>
+      </trans-unit>
+      <trans-unit id="field.pHash" approved="yes">
+        <source>PageHash</source>
+        <target state="translated">SideHash</target>
+      </trans-unit>
+      <trans-unit id="field.path" approved="yes">
+        <source>Path</source>
+        <target state="translated">Sti</target>
+      </trans-unit>
+      <trans-unit id="field.id" approved="yes">
+        <source>Page Id</source>
+        <target state="translated">Side-id</target>
+      </trans-unit>
+      <trans-unit id="field.uniqueId" approved="yes">
+        <source>Unique Id</source>
+        <target state="translated">Unikt id</target>
+      </trans-unit>
+      <trans-unit id="field.title" approved="yes">
+        <source>Title</source>
+        <target state="translated">Titel</target>
+      </trans-unit>
+      <trans-unit id="field.language" approved="yes">
+        <source>Language</source>
+        <target state="translated">Sprog</target>
+      </trans-unit>
+      <trans-unit id="field.frequency" approved="yes">
+        <source>Frequency</source>
+        <target state="translated">Frekvens</target>
+      </trans-unit>
+      <trans-unit id="field.metaphone" approved="yes">
+        <source>Metaphone</source>
+        <target state="translated">Metafonetisk</target>
+      </trans-unit>
+      <trans-unit id="field.content" approved="yes">
+        <source>Content</source>
+        <target state="translated">Indhold</target>
+      </trans-unit>
+      <trans-unit id="administration.notIndexed" approved="yes">
+        <source>Not indexed?</source>
+        <target state="translated">Ikke indekseret?</target>
+      </trans-unit>
+      <trans-unit id="administration.document.description" approved="yes">
+        <source>Details for a single result row</source>
+        <target state="translated">Resultater for en enkelt resultat-række</target>
+      </trans-unit>
+      <trans-unit id="administration.document.words" approved="yes">
+        <source>All words found on page</source>
+        <target state="translated">Alle ord fundet på siden</target>
+      </trans-unit>
+      <trans-unit id="administration.document.topCount" approved="yes">
+        <source>Words by top count</source>
+        <target state="translated">Ord efter antal</target>
+      </trans-unit>
+      <trans-unit id="administration.document.topFrequency" approved="yes">
+        <source>Words by frequency</source>
+        <target state="translated">Ord efter frekvens</target>
+      </trans-unit>
+      <trans-unit id="administration.stopWords" approved="yes">
+        <source>Stopwords</source>
+        <target state="translated">Stopord</target>
+      </trans-unit>
+      <trans-unit id="administration.stopWords.save" approved="yes">
+        <source>Save stopwords</source>
+        <target state="translated">Gem stopord</target>
+      </trans-unit>
+      <trans-unit id="administration.keywords" approved="yes">
+        <source>Page keywords</source>
+        <target state="translated">Side-nøgleord</target>
+      </trans-unit>
+      <trans-unit id="administration.keywords.current" approved="yes">
+        <source>Current page keywords</source>
+        <target state="translated">Aktuel sides nøgleord</target>
+      </trans-unit>
+      <trans-unit id="administration.stopWordsKeywords.save" approved="yes">
+        <source>Save keywords and stop words</source>
+        <target state="translated">Gem nøgleord og stopord</target>
+      </trans-unit>
+      <trans-unit id="administration.word.description" approved="yes">
+        <source>Detail view of a single word</source>
+        <target state="translated">Detailvisning af et enkelt ord</target>
+      </trans-unit>
+      <trans-unit id="administration.linkBack" approved="yes">
+        <source>Back</source>
+        <target state="translated">Tilbage</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.sectionRecords" approved="yes">
+        <source>Section records for this phash</source>
+        <target state="translated">Afsnits-elementer for denne phash</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.debug" approved="yes">
+        <source>Debug</source>
+        <target state="translated">Fejlsøg</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.metaphone" approved="yes">
+        <source>Metaphone</source>
+        <target state="translated">Metafonetisk</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.view.overview" approved="yes">
+        <source>Overview</source>
+        <target state="translated">Overblik</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.view.content" approved="yes">
+        <source>Words and content</source>
+        <target state="translated">Ord og indhold</target>
+      </trans-unit>
+      <trans-unit id="administration.phash.tableHeader" approved="yes">
+        <source>Phash row content</source>
+        <target state="translated">Indhold i Phash-række</target>
+      </trans-unit>
+      <trans-unit id="administration.removeEntry" approved="yes">
+        <source>Remove entry</source>
+        <target state="translated">Fjern indtastning</target>
+      </trans-unit>
+      <trans-unit id="administration.removeAllEntries" approved="yes">
+        <source>Remove all listed entries</source>
+        <target state="translated">Fjern alle viste indtastninger?</target>
+      </trans-unit>
+      <trans-unit id="administration.back" approved="yes">
+        <source>Back</source>
+        <target state="translated">Tilbage</target>
+      </trans-unit>
+      <trans-unit id="administration.noPageSelected" approved="yes">
+        <source>Please select a page from the page tree.</source>
+        <target state="translated">Vælg en side i sidetræet.</target>
+      </trans-unit>
+      <trans-unit id="error.noTypoScript" approved="yes">
+        <source>Error: Please check that TypoScript for the Indexed Search plugin is included.</source>
+        <target state="translated">Fejl: Undersøg om TypoScript er inkluderet i Index Search udvidelsen.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
