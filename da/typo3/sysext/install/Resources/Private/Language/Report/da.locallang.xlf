@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814843" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="install" target-language="da">
+    <header/>
+    <body>
+      <trans-unit id="environment.status.title" approved="yes">
+        <source>System environment check</source>
+        <target state="translated">Systemmiljø tjek</target>
+      </trans-unit>
+      <trans-unit id="environment.status.message.error" approved="yes">
+        <source>The system environment check returned errors. Those errors will affect the functionality and stability of your TYPO3 CMS instance. Please check the install tool "System environment" for all details.</source>
+        <target state="translated">Systemmiljøkontrol returnerede med fejl. Disse fejl vil have indflydelse på funktionalitet og stabilitet i din TYPO3 installation. Tjek venligst dit installations-værktøj under "Systemmiljø" for at se alle detaljer.</target>
+      </trans-unit>
+      <trans-unit id="environment.status.message.warning" approved="yes">
+        <source>The system environment check returned warnings. Those warnings might have a negative effect on the functionality and stability of your TYPO3 CMS instance. Please check the install tool "System environment" for all details.</source>
+        <target state="translated">Systemmiljøkontrollen returnerede med advarsler. Disse advarsler kan have negativ effekt på funktionalitet og stabilitet i din TYPO3 installation. Tjek venligst dit installations-værktøj under "Systemmiljø" for at se alle detaljer.</target>
+      </trans-unit>
+      <trans-unit id="environment.status.message.notice" approved="yes">
+        <source>The system environment check returned notices. Those should not affect the functionality and stability of your TYPO3 CMS instance. Please check the install tool "System environment" for all details.</source>
+        <target state="translated">Systemmiljøkontrollen returnerede med noter. Disse noter bør ikke have nogen effekt på funktionalitet og stabilitet i din TYPO3 installation. Tjek venligst dit installations-værktøj under "Systemmiljø" for at se alle detaljer.</target>
+      </trans-unit>
+      <trans-unit id="environment.status.message.ok" xml:space="preserve">
+				<source/>
+			</trans-unit>
+      <trans-unit id="environment.status.message.info" xml:space="preserve">
+				<source/>
+			</trans-unit>
+      <trans-unit id="status_fileSystem" approved="yes">
+        <source>File System</source>
+        <target state="translated">Filsystem</target>
+      </trans-unit>
+      <trans-unit id="status_writable" approved="yes">
+        <source>Writable</source>
+        <target state="translated">Skrivebar</target>
+      </trans-unit>
+      <trans-unit id="status_missingDirectory" approved="yes">
+        <source>Required directory missing</source>
+        <target state="translated">Krævet folder mangler</target>
+      </trans-unit>
+      <trans-unit id="status_nonExistingDirectory" approved="yes">
+        <source>Directory not existing</source>
+        <target state="translated">Folder eksisterer ikke</target>
+      </trans-unit>
+      <trans-unit id="status_recommendedWritableDirectory" approved="yes">
+        <source>Directory should be writable</source>
+        <target state="translated">Folder skulle være skrivebar</target>
+      </trans-unit>
+      <trans-unit id="status_requiredWritableDirectory" approved="yes">
+        <source>Directory not writable</source>
+        <target state="translated">Folder er skrivebeskyttet</target>
+      </trans-unit>
+      <trans-unit id="status_directoryDoesNotExist" approved="yes">
+        <source>%s does not exist.</source>
+        <target state="translated">%s eksisterer ikke.</target>
+      </trans-unit>
+      <trans-unit id="status_directoryDoesNotExistCouldNotCreate" approved="yes">
+        <source>%s does not exist and could not be created.</source>
+        <target state="translated">%s eksisterer ikke og kunne ikke oprettes.</target>
+      </trans-unit>
+      <trans-unit id="status_directoryShouldAlsoBeWritable" approved="yes">
+        <source>Also note that it should be writable, if it did exist.</source>
+        <target state="translated">Notér desuden at den skulle være skrivebar, hvis den fandtes.</target>
+      </trans-unit>
+      <trans-unit id="status_directoryShouldBeWritable" approved="yes">
+        <source>%s should be writable.</source>
+        <target state="translated">%s skulle være skrivebar.</target>
+      </trans-unit>
+      <trans-unit id="status_directoryMustBeWritable" approved="yes">
+        <source>%s must be writable.</source>
+        <target state="translated">%s skal være skrivebar.</target>
+      </trans-unit>
+      <trans-unit id="status_remainingUpdates" approved="yes">
+        <source>Remaining updates</source>
+        <target state="translated">Resterende opdateringer</target>
+      </trans-unit>
+      <trans-unit id="status_remoteFetchException" approved="yes">
+        <source>Could not fetch version matrix of TYPO3. Maybe this instance is blocked by a firewall?</source>
+        <target state="translated">Kunne ikke hente versionsmatrix af TYPO3. Måske er din instans blokeret af firewall?</target>
+      </trans-unit>
+      <trans-unit id="status_isDevelopmentVersion" approved="yes">
+        <source>This version of TYPO3 seems to be a development version. Thus no update information exists.</source>
+        <target state="translated">Denne version af TYPO3 ser ud til at være en udviklingsversion. Derfor findes der ikke nogen opdateringsinformation.</target>
+      </trans-unit>
+      <trans-unit id="status_patchLevelNotFoundInReleaseMatrix" approved="yes">
+        <source>It seems that this TYPO3 version has never been released. Thus no update information exists.</source>
+        <target state="translated">Det ser ud at denne TYPO3 version aldrig har været udgivet. Derfor findes ingen opdateringsinformation.</target>
+      </trans-unit>
+      <trans-unit id="status_newVersionSecurityRelevant" approved="yes">
+        <source>There is a new version of TYPO3 available, updating is security relevant. Please update to version %s</source>
+        <target state="translated">Der er en ny version af TYPO3 tilgængelig. Denne version er relevant i forhold til sikkerhed. Opdatér venligst til version %s</target>
+      </trans-unit>
+      <trans-unit id="status_newVersion" approved="yes">
+        <source>There is a new version of TYPO3 available. You can update to version %s</source>
+        <target state="translated">Der er en ny version af TYPO3 tilgængelig. Du kan opdatere til version %s</target>
+      </trans-unit>
+      <trans-unit id="status_versionOutdated" approved="yes">
+        <source>The TYPO3 version you're using is not supported anymore. You should update to a supported version.</source>
+        <target state="translated">Den TYPO3 version du bruger, er ikke længere understøttet. Du bør opdatere til en understøttet version.</target>
+      </trans-unit>
+      <trans-unit id="status_noAutomaticCheck" approved="yes">
+        <source>Automatic update checking failed, please check for updates manually.</source>
+        <target state="translated">Automatisk check af opdatering fejlede, tjek venligst opdatering manuelt.</target>
+      </trans-unit>
+      <trans-unit id="status_uptodate" approved="yes">
+        <source>Your TYPO3 version is up-to-date.</source>
+        <target state="translated">Din TYPO3 version er up-to-date.</target>
+      </trans-unit>
+      <trans-unit id="status_installToolPassword" approved="yes">
+        <source>Install Tool Password</source>
+        <target state="translated">Installationsværktøj</target>
+      </trans-unit>
+      <trans-unit id="status_installTool" approved="yes">
+        <source>Install Tool</source>
+        <target state="translated">Installationsværktøj</target>
+      </trans-unit>
+      <trans-unit id="status_enabledPermanently" approved="yes">
+        <source>Enabled permanently</source>
+        <target state="translated">Aktiveret permanent</target>
+      </trans-unit>
+      <trans-unit id="status_enabledTemporarily" approved="yes">
+        <source>Enabled temporarily</source>
+        <target state="translated">Aktiveret midlertidigt</target>
+      </trans-unit>
+      <trans-unit id="status_installEnabledTemporarily" approved="yes">
+        <source>The Install Tool is temporarily enabled. Delete the file "%s" when you have finished setting up TYPO3. If not used the Install Tool will be disabled automatically in %s minutes.</source>
+        <target state="translated">Installationsværktøjet er aktiveret midlertidigt. Slet filen "%s" når du er færdig med at sætte TYPO3 op. Hvis ikke værktøjet bruges i %s minutter, deaktiveres det automatisk.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
