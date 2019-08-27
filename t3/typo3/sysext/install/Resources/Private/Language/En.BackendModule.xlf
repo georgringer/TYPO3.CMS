@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814842" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="install" target-language="t3">
+    <header/>
+    <body>
+      <trans-unit id="confirmUnlockInstallToolMessage" xml:space="preserve">
+				<source>&lt;p&gt;For security reasons the Install Tool is locked by default.&lt;/p&gt;
+&lt;p&gt;To enable the Install Tool, the file &lt;strong&gt;ENABLE_INSTALL_TOOL&lt;/strong&gt; must be created in the directory &lt;strong&gt;typo3conf/&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Just click the button below, the file will be created for you and the Install Tool will be unlocked.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Security note: &lt;/strong&gt;When you are finished with your work, please log out of the Install Tool. Otherwise TYPO3 will automatically lock the Install Tool after one hour.&lt;/p&gt;
+				</source>
+			<target state="needs-translation">
+				</target></trans-unit>
+    </body>
+  </file>
+</xliff>
