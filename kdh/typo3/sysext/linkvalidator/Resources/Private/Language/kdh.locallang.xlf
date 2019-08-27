@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814893" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="linkvalidator" target-language="kdh">
+    <header/>
+    <body>
+      <trans-unit id="mod_linkvalidator">
+        <source>Linkvalidator</source>
+        <target>crwdns29194:0crwdne29194:0</target>
+      </trans-unit>
+      <trans-unit id="tasks.validate.name">
+        <source>Linkvalidator</source>
+        <target>crwdns29196:0crwdne29196:0</target>
+      </trans-unit>
+      <trans-unit id="tasks.validate.description">
+        <source>Search for broken links and store the result into the temporary table tx_linkvalidator_link in order to ease up the backend module.</source>
+        <target>crwdns29198:0crwdne29198:0</target>
+      </trans-unit>
+      <trans-unit id="tasks.validate.page">
+        <source>Start page (uid)</source>
+        <target>crwdns29200:0crwdne29200:0</target>
+      </trans-unit>
+      <trans-unit id="tasks.validate.depth">
+        <source>Depth</source>
+        <target>crwdns29202:0crwdne29202:0</target>
+      </trans-unit>
+      <trans-unit id="tasks.validate.conf">
+        <source>Overwrite TSconfig</source>
+        <target>crwdns29204:0crwdne29204:0</target>
+      </trans-unit>
+      <trans-unit id="tasks.validate.email">
+        <source>Send email report to</source>
+        <target>crwdns29206:0crwdne29206:0</target>
+      </trans-unit>
+      <trans-unit id="tasks.validate.emailOnBrokenLinkOnly">
+        <source>Send email on new broken links only</source>
+        <target>crwdns29208:0crwdne29208:0</target>
+      </trans-unit>
+      <trans-unit id="tasks.validate.emailTemplateFile">
+        <source>Email template file</source>
+        <target>crwdns29210:0crwdne29210:0</target>
+      </trans-unit>
+      <trans-unit id="tasks.validate.invalidEmail">
+        <source>Invalid email format!</source>
+        <target>crwdns29212:0crwdne29212:0</target>
+      </trans-unit>
+      <trans-unit id="tasks.validate.invalidPage">
+        <source>Invalid page uid, please enter a valid page uid!</source>
+        <target>crwdns29214:0crwdne29214:0</target>
+      </trans-unit>
+      <trans-unit id="tasks.validate.invalidDepth">
+        <source>There is no depth set, please set it to one of the offered values!</source>
+        <target>crwdns29216:0crwdne29216:0</target>
+      </trans-unit>
+      <trans-unit id="tasks.error.noSubject">
+        <source>No subject for the notification email</source>
+        <target>crwdns29218:0crwdne29218:0</target>
+      </trans-unit>
+      <trans-unit id="tasks.error.invalidToEmail">
+        <source>Invalid format of one or more of the recipient email addresses!</source>
+        <target>crwdns29220:0crwdne29220:0</target>
+      </trans-unit>
+      <trans-unit id="tasks.error.invalidFromEmail">
+        <source>Invalid format of the email address in the from header</source>
+        <target>crwdns29222:0crwdne29222:0</target>
+      </trans-unit>
+      <trans-unit id="tasks.error.invalidTSconfig">
+        <source>Invalid TSconfig in the task configuration!</source>
+        <target>crwdns29224:0crwdne29224:0</target>
+      </trans-unit>
+      <trans-unit id="tasks.error.invalidEmailTemplateFile">
+        <source>The email template file is not existing!</source>
+        <target>crwdns29226:0crwdne29226:0</target>
+      </trans-unit>
+      <trans-unit id="tasks.error.invalidPageUid">
+        <source>The given page id %d is invalid!</source>
+        <target>crwdns29228:0%dcrwdne29228:0</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
