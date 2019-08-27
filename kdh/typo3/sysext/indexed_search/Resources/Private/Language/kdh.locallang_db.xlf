@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814833" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="indexed_search" target-language="kdh">
+    <header/>
+    <body>
+      <trans-unit id="index_config">
+        <source>Indexing Configuration</source>
+        <target>crwdns41752:0crwdne41752:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.title">
+        <source>Title</source>
+        <target>crwdns41754:0crwdne41754:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.description">
+        <source>Description</source>
+        <target>crwdns41756:0crwdne41756:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.type.I.0">
+        <source>-</source>
+        <target>crwdns41758:0crwdne41758:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.type.I.1">
+        <source>Database Records</source>
+        <target>crwdns41760:0crwdne41760:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.type.I.2">
+        <source>Filepath on server</source>
+        <target>crwdns41762:0crwdne41762:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.type.I.3">
+        <source>External URL</source>
+        <target>crwdns41764:0crwdne41764:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.type.I.4">
+        <source>Page tree</source>
+        <target>crwdns41766:0crwdne41766:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.type.I.5">
+        <source>Meta configuration</source>
+        <target>crwdns41768:0crwdne41768:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.type">
+        <source>Type</source>
+        <target>crwdns41770:0crwdne41770:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.depth">
+        <source>Depth</source>
+        <target>crwdns41772:0crwdne41772:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.table2index">
+        <source>Table to index</source>
+        <target>crwdns41774:0crwdne41774:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.table2index.I.0">
+        <source>-</source>
+        <target>crwdns41776:0crwdne41776:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.alternative_source_pid">
+        <source>Alternative Source Page</source>
+        <target>crwdns41778:0crwdne41778:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.get_params">
+        <source>GET parameter string (with ###UID### substitution)</source>
+        <target>crwdns41780:0crwdne41780:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.fields">
+        <source>Fields (first is title)</source>
+        <target>crwdns41782:0crwdne41782:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.externalUrl">
+        <source>External URL (eg. "http://www.domain.org/")</source>
+        <target>crwdns41784:0crwdne41784:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.chashcalc">
+        <source>Calculate cHash (force caching)?</source>
+        <target>crwdns41786:0crwdne41786:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.filepath">
+        <source>Filepath</source>
+        <target>crwdns41788:0crwdne41788:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.extensions">
+        <source>Limit to extensions (commalist)</source>
+        <target>crwdns41790:0crwdne41790:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.url_deny">
+        <source>Enter sub-URLs in which not to decend</source>
+        <target>crwdns41792:0crwdne41792:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.records_indexonchange">
+        <source>Index Records immediately when saved?</source>
+        <target>crwdns41794:0crwdne41794:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.timer_next_indexing">
+        <source>Next indexing is scheduled (if empty, then immediately)</source>
+        <target>crwdns41796:0crwdne41796:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.timer_offset">
+        <source>Timing offset from midnight</source>
+        <target>crwdns41798:0crwdne41798:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.timer_frequency">
+        <source>How often would you like a re-index?</source>
+        <target>crwdns41800:0crwdne41800:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.timer_frequency.I.0">
+        <source>Every hour</source>
+        <target>crwdns41802:0crwdne41802:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.timer_frequency.I.1">
+        <source>Every day (24 hours)</source>
+        <target>crwdns41804:0crwdne41804:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.timer_frequency.I.2">
+        <source>Every week</source>
+        <target>crwdns41806:0crwdne41806:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.recordsbatch">
+        <source>How many records to index a minute (default is 100)</source>
+        <target>crwdns41808:0crwdne41808:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.set_id">
+        <source>Session ID (if &gt; zero, then indexing job is running)</source>
+        <target>crwdns41810:0crwdne41810:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.indexcfgs">
+        <source>Indexing configurations</source>
+        <target>crwdns41812:0crwdne41812:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.parameterCfgs">
+        <source>Parameter combination configuration ([tablename]:&amp;[param]=###UID###)</source>
+        <target>crwdns41814:0[tablename]crwdnd41814:0[param]crwdne41814:0</target>
+      </trans-unit>
+      <trans-unit id="index_config.rootpage">
+        <source>Root page</source>
+        <target>crwdns41816:0crwdne41816:0</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
