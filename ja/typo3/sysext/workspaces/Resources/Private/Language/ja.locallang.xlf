@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415815017" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="workspaces" target-language="ja">
+    <header/>
+    <body>
+      <trans-unit id="legend.label" approved="yes">
+        <source>Legend</source>
+        <target state="translated">凡例</target>
+      </trans-unit>
+      <trans-unit id="legend.edited" approved="yes">
+        <source>edited</source>
+        <target state="translated">編集済</target>
+      </trans-unit>
+      <trans-unit id="legend.moved" approved="yes">
+        <source>moved</source>
+        <target state="translated">移動済</target>
+      </trans-unit>
+      <trans-unit id="legend.deleted" approved="yes">
+        <source>deleted</source>
+        <target state="translated">削除済</target>
+      </trans-unit>
+      <trans-unit id="legend.new" approved="yes">
+        <source>created</source>
+        <target state="translated">作成済</target>
+      </trans-unit>
+      <trans-unit id="legend.hidden" approved="yes">
+        <source>hidden</source>
+        <target state="translated">非表示</target>
+      </trans-unit>
+      <trans-unit id="title" approved="yes">
+        <source>Workspaces</source>
+        <target state="translated">ワークスペース</target>
+      </trans-unit>
+      <trans-unit id="ok" approved="yes">
+        <source>Ok</source>
+        <target state="translated">OK</target>
+      </trans-unit>
+      <trans-unit id="cancel" approved="yes">
+        <source>Cancel</source>
+        <target state="translated">キャンセル</target>
+      </trans-unit>
+      <trans-unit id="chooseMassAction" approved="yes">
+        <source>Choose mass action</source>
+        <target state="translated">動作を選択してください</target>
+      </trans-unit>
+      <trans-unit id="chooseAction" approved="yes">
+        <source>Choose staging action</source>
+        <target state="translated">ステージ動作を選択してください</target>
+      </trans-unit>
+      <trans-unit id="item" approved="yes">
+        <source>item</source>
+        <target state="translated">項目</target>
+      </trans-unit>
+      <trans-unit id="items" approved="yes">
+        <source>items</source>
+        <target state="translated">項目</target>
+      </trans-unit>
+      <trans-unit id="recordsToDisplay" approved="yes">
+        <source>Records to display</source>
+        <target state="translated">表示するレコード</target>
+      </trans-unit>
+      <trans-unit id="reviewandpublish" approved="yes">
+        <source>review and publish</source>
+        <target state="translated">レビューと公開</target>
+      </trans-unit>
+      <trans-unit id="workspacelist" approved="yes">
+        <source>Workspace List</source>
+        <target state="translated">ワークスペースリスト</target>
+      </trans-unit>
+      <trans-unit id="editorInLive" xml:space="preserve" approved="yes">
+				<source>You are in LIVE workspace. You have to select a draft workspace before you can review and
+					publish changes.
+				</source>
+			<target state="translated">ライブ ワークスペースです。レビューと公開にする前にドラフトワークスペースを選択しなければならない
+				</target></trans-unit>
+      <trans-unit id="actionSendToStage" approved="yes">
+        <source>Send to stage</source>
+        <target state="translated">つぎのステージへ送る</target>
+      </trans-unit>
+      <trans-unit id="publish_execute_action_option" approved="yes">
+        <source>Publish to LIVE</source>
+        <target state="translated">ライブへ公開</target>
+      </trans-unit>
+      <trans-unit id="close" approved="yes">
+        <source>Close</source>
+        <target state="translated">閉じる</target>
+      </trans-unit>
+      <trans-unit id="runMassAction.done" approved="yes">
+        <source>Done processing %d elements</source>
+        <target state="translated">%d のエレメントを処理済み</target>
+      </trans-unit>
+      <trans-unit id="runMassAction.init" approved="yes">
+        <source>init</source>
+        <target state="translated">初期化</target>
+      </trans-unit>
+      <trans-unit id="tooltip.publishAll" approved="yes">
+        <source>Really publish entire workspace?</source>
+        <target state="translated">全体のワークスペースを公開してもよろしいでしょうか？</target>
+      </trans-unit>
+      <trans-unit id="tooltip.affectWholeWorkspace" xml:space="preserve">
+				<source>Please note that this will affect all changes in the current workspace, which may be more than
+					you are currently seeing on your screen.
+				</source>
+			<target state="needs-translation">
+				</target></trans-unit>
+      <trans-unit id="error.stageId.invalid" xml:space="preserve">
+				<source>The stage to be used seems to be invalid and cannot be used. Please consider to use the update
+					wizard in the install tool to fix this.
+				</source>
+			<target state="needs-translation">
+				</target></trans-unit>
+    </body>
+  </file>
+</xliff>
