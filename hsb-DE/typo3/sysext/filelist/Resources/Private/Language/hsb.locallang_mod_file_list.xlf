@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814869" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="hsb-DE">
+    <header/>
+    <body>
+      <trans-unit id="bigControlPanel">
+        <source>Extended view</source>
+        <target>crwdns25312:0crwdne25312:0</target>
+      </trans-unit>
+      <trans-unit id="clipBoard">
+        <source>Show clipboard</source>
+        <target>crwdns25314:0crwdne25314:0</target>
+      </trans-unit>
+      <trans-unit id="clip_paste">
+        <source>Paste in clipboard content</source>
+        <target>crwdns25316:0crwdne25316:0</target>
+      </trans-unit>
+      <trans-unit id="clip_pasteInto">
+        <source>Paste into: Clipboard content is inserted into this folder</source>
+        <target>crwdns25318:0crwdne25318:0</target>
+      </trans-unit>
+      <trans-unit id="clip_markRecords">
+        <source>Mark All/Mark none</source>
+        <target>crwdns25320:0crwdne25320:0</target>
+      </trans-unit>
+      <trans-unit id="clip_selectMarked">
+        <source>Transfer the selection of files to clipboard</source>
+        <target>crwdns25322:0crwdne25322:0</target>
+      </trans-unit>
+      <trans-unit id="clip_deleteMarked">
+        <source>Delete marked</source>
+        <target>crwdns25324:0crwdne25324:0</target>
+      </trans-unit>
+      <trans-unit id="clip_deleteMarkedWarning">
+        <source>Are you sure you want to delete all marked files from this folder?</source>
+        <target>crwdns25326:0crwdne25326:0</target>
+      </trans-unit>
+      <trans-unit id="displayThumbs">
+        <source>Display thumbnails</source>
+        <target>crwdns25328:0crwdne25328:0</target>
+      </trans-unit>
+      <trans-unit id="c_file">
+        <source>File Name</source>
+        <target>crwdns25330:0crwdne25330:0</target>
+      </trans-unit>
+      <trans-unit id="c_filepath">
+        <source>File Path</source>
+        <target>crwdns25332:0crwdne25332:0</target>
+      </trans-unit>
+      <trans-unit id="c_size">
+        <source>Size</source>
+        <target>crwdns25334:0crwdne25334:0</target>
+      </trans-unit>
+      <trans-unit id="c_fileext">
+        <source>Type</source>
+        <target>crwdns25336:0crwdne25336:0</target>
+      </trans-unit>
+      <trans-unit id="c_tstamp">
+        <source>Last Modified</source>
+        <target>crwdns25338:0crwdne25338:0</target>
+      </trans-unit>
+      <trans-unit id="c_rw">
+        <source>RW</source>
+        <target>crwdns25340:0crwdne25340:0</target>
+      </trans-unit>
+      <trans-unit id="files">
+        <source>files</source>
+        <target>crwdns25342:0crwdne25342:0</target>
+      </trans-unit>
+      <trans-unit id="temp">
+        <source>Temporary files</source>
+        <target>crwdns25344:0crwdne25344:0</target>
+      </trans-unit>
+      <trans-unit id="read">
+        <source>R</source>
+        <target>crwdns25346:0crwdne25346:0</target>
+      </trans-unit>
+      <trans-unit id="recycler">
+        <source>Recycler</source>
+        <target>crwdns25348:0crwdne25348:0</target>
+      </trans-unit>
+      <trans-unit id="mlang_labels_tablabel">
+        <source>Listing of files in the directory</source>
+        <target>crwdns25350:0crwdne25350:0</target>
+      </trans-unit>
+      <trans-unit id="mlang_labels_tabdescr">
+        <source>This is the file administration system in TYPO3. It allows you to access the file mounts of your login. Through this module you can upload, copy, move an delete files on the server.</source>
+        <target>crwdns25352:0crwdne25352:0</target>
+      </trans-unit>
+      <trans-unit id="mlang_tabs_tab">
+        <source>Filelist</source>
+        <target>crwdns25354:0crwdne25354:0</target>
+      </trans-unit>
+      <trans-unit id="write">
+        <source>W</source>
+        <target>crwdns25356:0crwdne25356:0</target>
+      </trans-unit>
+      <trans-unit id="storageNotBrowsableTitle">
+        <source>Access denied.</source>
+        <target>crwdns25358:0crwdne25358:0</target>
+      </trans-unit>
+      <trans-unit id="storageNotBrowsableMessage">
+        <source>You are trying to access a folder in a storage that is not browsable.</source>
+        <target>crwdns25360:0crwdne25360:0</target>
+      </trans-unit>
+      <trans-unit id="missingFolderPermissionsTitle">
+        <source>Missing folder permissions</source>
+        <target>crwdns25362:0crwdne25362:0</target>
+      </trans-unit>
+      <trans-unit id="missingFolderPermissionsMessage">
+        <source>You have no access to the folder "%s".</source>
+        <target>crwdns25364:0%scrwdne25364:0</target>
+      </trans-unit>
+      <trans-unit id="folderNotFoundTitle">
+        <source>Folder not found.</source>
+        <target>crwdns25366:0crwdne25366:0</target>
+      </trans-unit>
+      <trans-unit id="folderNotFoundMessage">
+        <source>The folder "%s" cannot be accessed. Trying to use parent folder(s).</source>
+        <target>crwdns25368:0%scrwdne25368:0</target>
+      </trans-unit>
+      <trans-unit id="translateMetadata">
+        <source>Translate metadata</source>
+        <target>crwdns25370:0crwdne25370:0</target>
+      </trans-unit>
+      <trans-unit id="createMetadataForLanguage">
+        <source>Create metadata of this file for %s</source>
+        <target>crwdns25372:0%scrwdne25372:0</target>
+      </trans-unit>
+      <trans-unit id="editMetadataForLanguage">
+        <source>Edit metadata of this file for %s</source>
+        <target>crwdns25374:0%scrwdne25374:0</target>
+      </trans-unit>
+      <trans-unit id="paramError">
+        <source>Parameter Error</source>
+        <target>crwdns25376:0crwdne25376:0</target>
+      </trans-unit>
+      <trans-unit id="targetNoDir">
+        <source>Target was not a directory!</source>
+        <target>crwdns25378:0crwdne25378:0</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
