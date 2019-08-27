@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1515791952" source-language="en" datatype="plaintext" original="messages" date="2017-12-29T20:23:34Z" product-name="redirects" target-language="kdh">
+    <header/>
+    <body>
+      <trans-unit id="mlang_labels_tablabel">
+        <source>Redirect Administration</source>
+        <target>crwdns29708:0crwdne29708:0</target>
+      </trans-unit>
+      <trans-unit id="mlang_labels_tabdescr">
+        <source>This is the administration area for Web Redirects.</source>
+        <target>crwdns29710:0crwdne29710:0</target>
+      </trans-unit>
+      <trans-unit id="mlang_tabs_tab">
+        <source>Redirects</source>
+        <target>crwdns29712:0crwdne29712:0</target>
+      </trans-unit>
+      <trans-unit id="source_host_global_text">
+        <source>Global redirect (any domain)</source>
+        <target>crwdns29714:0crwdne29714:0</target>
+      </trans-unit>
+      <trans-unit id="heading_text">
+        <source>Redirect Management</source>
+        <target>crwdns29716:0crwdne29716:0</target>
+      </trans-unit>
+      <trans-unit id="redirect_add_text">
+        <source>Add redirect</source>
+        <target>crwdns29718:0crwdne29718:0</target>
+      </trans-unit>
+      <trans-unit id="redirect_not_found.title">
+        <source>No redirects found!</source>
+        <target>crwdns29720:0crwdne29720:0</target>
+      </trans-unit>
+      <trans-unit id="redirect_not_found.message">
+        <source>There are currently no redirect records found in the database.</source>
+        <target>crwdns29722:0crwdne29722:0</target>
+      </trans-unit>
+      <trans-unit id="redirect_create">
+        <source>Create new redirect</source>
+        <target>crwdns29724:0crwdne29724:0</target>
+      </trans-unit>
+      <trans-unit id="redirect_not_found_with_filter.title">
+        <source>No redirects found!</source>
+        <target>crwdns29726:0crwdne29726:0</target>
+      </trans-unit>
+      <trans-unit id="redirect_not_found_with_filter.message">
+        <source>With the current set of filters applied, no redirect could be found.</source>
+        <target>crwdns29728:0crwdne29728:0</target>
+      </trans-unit>
+      <trans-unit id="redirect_no_filter">
+        <source>Remove all filter</source>
+        <target>crwdns29730:0crwdne29730:0</target>
+      </trans-unit>
+      <trans-unit id="filter.source_host.showAll">
+        <source>Show All</source>
+        <target>crwdns29732:0crwdne29732:0</target>
+      </trans-unit>
+      <trans-unit id="filter.destination">
+        <source>Destination (Path or Page ID)</source>
+        <target>crwdns29734:0crwdne29734:0</target>
+      </trans-unit>
+      <trans-unit id="filter.targetStatusCode">
+        <source>Status Code</source>
+        <target>crwdns29736:0crwdne29736:0</target>
+      </trans-unit>
+      <trans-unit id="filter.sendButton">
+        <source>Send</source>
+        <target>crwdns29738:0crwdne29738:0</target>
+      </trans-unit>
+      <trans-unit id="record_disabled">
+        <source>Redirect is not activated!</source>
+        <target>crwdns29740:0crwdne29740:0</target>
+      </trans-unit>
+      <trans-unit id="source_host">
+        <source>Source Host</source>
+        <target>crwdns29742:0crwdne29742:0</target>
+      </trans-unit>
+      <trans-unit id="source_path">
+        <source>Source Path</source>
+        <target>crwdns29744:0crwdne29744:0</target>
+      </trans-unit>
+      <trans-unit id="source_path.placeholder">
+        <source>/my-path/ or #^/my-path/$# (when regex enabled)</source>
+        <target>crwdns29746:0crwdne29746:0</target>
+      </trans-unit>
+      <trans-unit id="destination">
+        <source>Destination</source>
+        <target>crwdns29748:0crwdne29748:0</target>
+      </trans-unit>
+      <trans-unit id="pageID">
+        <source>Page ID</source>
+        <target>crwdns29750:0crwdne29750:0</target>
+      </trans-unit>
+      <trans-unit id="destination_status_code">
+        <source>Status Code</source>
+        <target>crwdns29752:0crwdne29752:0</target>
+      </trans-unit>
+      <trans-unit id="hits">
+        <source>Hits</source>
+        <target>crwdns29754:0crwdne29754:0</target>
+      </trans-unit>
+      <trans-unit id="hit_text">
+        <source>%s hit</source>
+        <target>crwdns29756:0%scrwdne29756:0</target>
+      </trans-unit>
+      <trans-unit id="hits_text">
+        <source>%s hits</source>
+        <target>crwdns29758:0%scrwdne29758:0</target>
+      </trans-unit>
+      <trans-unit id="hit_reset">
+        <source>Reset Hit Counter (!)</source>
+        <target>crwdns29760:0crwdne29760:0</target>
+      </trans-unit>
+      <trans-unit id="hit_reset.confirm.title">
+        <source>Reset the hitcounter of this record?</source>
+        <target>crwdns29762:0crwdne29762:0</target>
+      </trans-unit>
+      <trans-unit id="hit_reset.confirm.content">
+        <source>Are you sure you want to reset the hitcounter of this record?</source>
+        <target>crwdns29764:0crwdne29764:0</target>
+      </trans-unit>
+      <trans-unit id="hit_last">
+        <source>Last Hit on</source>
+        <target>crwdns29766:0crwdne29766:0</target>
+      </trans-unit>
+      <trans-unit id="hit_last_never">
+        <source>Never</source>
+        <target>crwdns29768:0crwdne29768:0</target>
+      </trans-unit>
+      <trans-unit id="visit_destination">
+        <source>Go to</source>
+        <target>crwdns29770:0crwdne29770:0</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
