@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814992" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="sv" target-language="hsb-DE">
+    <header/>
+    <body>
+      <trans-unit id="report_title">
+        <source>Installed Services</source>
+        <target>crwdns29976:0crwdne29976:0</target>
+      </trans-unit>
+      <trans-unit id="report_description">
+        <source>List of all installed services with information and status for each of them.</source>
+        <target>crwdns29978:0crwdne29978:0</target>
+      </trans-unit>
+      <trans-unit id="report_explanation">
+        <source>This report displays a list of installed services, with detailed information about each of them. The services are ordered by type, priority and quality. Unavailable services are highlighted with an error status.</source>
+        <target>crwdns29980:0crwdne29980:0</target>
+      </trans-unit>
+      <trans-unit id="externals_explanation">
+        <source>The "Externals" column shows which external programs a given service relies on. If such program is missing or not executable, the service will be unavailable. Search paths for executables are listed at the bottom of this report.</source>
+        <target>crwdns29982:0crwdne29982:0</target>
+      </trans-unit>
+      <trans-unit id="service_type">
+        <source>Service type: %s</source>
+        <target>crwdns29984:0%scrwdne29984:0</target>
+      </trans-unit>
+      <trans-unit id="service">
+        <source>Service</source>
+        <target>crwdns29986:0crwdne29986:0</target>
+      </trans-unit>
+      <trans-unit id="description">
+        <source>Description</source>
+        <target>crwdns29988:0crwdne29988:0</target>
+      </trans-unit>
+      <trans-unit id="priority">
+        <source>Priority</source>
+        <target>crwdns29990:0crwdne29990:0</target>
+      </trans-unit>
+      <trans-unit id="quality">
+        <source>Quality</source>
+        <target>crwdns29992:0crwdne29992:0</target>
+      </trans-unit>
+      <trans-unit id="subtypes">
+        <source>Subtypes</source>
+        <target>crwdns29994:0crwdne29994:0</target>
+      </trans-unit>
+      <trans-unit id="os">
+        <source>OS</source>
+        <target>crwdns29996:0crwdne29996:0</target>
+      </trans-unit>
+      <trans-unit id="externals">
+        <source>Externals</source>
+        <target>crwdns29998:0crwdne29998:0</target>
+      </trans-unit>
+      <trans-unit id="available">
+        <source>Available</source>
+        <target>crwdns30000:0crwdne30000:0</target>
+      </trans-unit>
+      <trans-unit id="any">
+        <source>Any</source>
+        <target>crwdns30002:0crwdne30002:0</target>
+      </trans-unit>
+      <trans-unit id="search_paths">
+        <source>Configured search paths for external programs</source>
+        <target>crwdns30004:0crwdne30004:0</target>
+      </trans-unit>
+      <trans-unit id="path">
+        <source>Path</source>
+        <target>crwdns30006:0crwdne30006:0</target>
+      </trans-unit>
+      <trans-unit id="valid">
+        <source>Valid</source>
+        <target>crwdns30008:0crwdne30008:0</target>
+      </trans-unit>
+      <trans-unit id="no_search_paths">
+        <source>No search paths configured.</source>
+        <target>crwdns30010:0crwdne30010:0</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
