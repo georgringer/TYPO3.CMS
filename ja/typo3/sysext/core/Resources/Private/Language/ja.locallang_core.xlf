@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814851" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="lang" target-language="ja">
+    <header/>
+    <body>
+      <trans-unit id="labels.openInNewWindow" approved="yes">
+        <source>Open in new window</source>
+        <target state="translated">新しいウィンドウで開く</target>
+      </trans-unit>
+      <trans-unit id="labels.goBack" approved="yes">
+        <source>Go back</source>
+        <target state="translated">戻る</target>
+      </trans-unit>
+      <trans-unit id="labels.makeShortcut" approved="yes">
+        <source>Create a shortcut to this page?</source>
+        <target state="translated">このページへのショートカットを作成しますか？</target>
+      </trans-unit>
+      <trans-unit id="labels.lockedRecord" approved="yes">
+        <source>The user '%s' began to edit this record %s ago.</source>
+        <target state="translated">ユーザ'%s'がこのレコードを'%s'前から編集しています。</target>
+      </trans-unit>
+      <trans-unit id="labels.lockedRecord_content" approved="yes">
+        <source>The user '%s' began to edit content on this page %s ago.</source>
+        <target state="translated">ユーザ'%s'がこのコンテンツを'%s'前から編集しています。</target>
+      </trans-unit>
+      <trans-unit id="labels.showRecords" approved="yes">
+        <source>Show records</source>
+        <target state="translated">レコードを表示</target>
+      </trans-unit>
+      <trans-unit id="labels.path" approved="yes">
+        <source>Path</source>
+        <target state="translated">パス</target>
+      </trans-unit>
+      <trans-unit id="labels.table" approved="yes">
+        <source>Table</source>
+        <target state="translated">テーブル</target>
+      </trans-unit>
+      <trans-unit id="labels.upOneLevel" approved="yes">
+        <source>Up one level</source>
+        <target state="translated">1つ上のレベルへ</target>
+      </trans-unit>
+      <trans-unit id="labels.enterSearchLevels" approved="yes">
+        <source>This page|1 level down|2 levels down|3 levels down|4 levels down</source>
+        <target state="translated">このページ|1つ下のレベル|2つ下のレベル|3つ下のレベル|4つ下のレベル</target>
+      </trans-unit>
+      <trans-unit id="labels.searchLevel.0" approved="yes">
+        <source>This page</source>
+        <target state="translated">このページ</target>
+      </trans-unit>
+      <trans-unit id="labels.noEditPermission" approved="yes">
+        <source>Sorry, you didn't have proper permissions to perform this change.</source>
+        <target state="translated">その変更を行なうために必要な権限がありません</target>
+      </trans-unit>
+      <trans-unit id="labels.fieldsChanged" xml:space="preserve" approved="yes">
+				<source>There are unsaved changes in the form!
+Do you want to continue WITHOUT saving?</source>
+			<target state="translated">変更したフォームの内容が保存されていません！ 「保存せずに」作業を続けますか？</target></trans-unit>
+      <trans-unit id="labels.noRTEfound" approved="yes">
+        <source>Notice: This field can only be edited with a Rich Text Editor. No editor is currently available or enabled.</source>
+        <target state="translated">このフィールドはリッチテキストエディターを使わないと編集できません。リッチテキストエディターは使えない、もしくは無効にされています</target>
+      </trans-unit>
+      <trans-unit id="labels.disableRTE" approved="yes">
+        <source>Disable Rich Text Editor (RTE)</source>
+        <target state="translated">リッチテキストエディターを無効</target>
+      </trans-unit>
+      <trans-unit id="labels._CONTROL_" approved="yes">
+        <source>Control</source>
+        <target state="translated">コントロール</target>
+      </trans-unit>
+      <trans-unit id="labels._PATH_" approved="yes">
+        <source>Path</source>
+        <target state="translated">パス</target>
+      </trans-unit>
+      <trans-unit id="labels._LOCALIZATION_" approved="yes">
+        <source>Localization</source>
+        <target state="translated">ローカリゼーション</target>
+      </trans-unit>
+      <trans-unit id="labels.setFields" approved="yes">
+        <source>Set fields</source>
+        <target state="translated">フィールドを設定</target>
+      </trans-unit>
+      <trans-unit id="labels.search" approved="yes">
+        <source>Search</source>
+        <target state="translated">検索</target>
+      </trans-unit>
+      <trans-unit id="labels.reload" approved="yes">
+        <source>Reload</source>
+        <target state="translated">リロード</target>
+      </trans-unit>
+      <trans-unit id="labels.csv" approved="yes">
+        <source>Download CSV file</source>
+        <target state="translated">CVSファイルとしてダウンロード</target>
+      </trans-unit>
+      <trans-unit id="labels.clear_cache" approved="yes">
+        <source>Clear cache for this page</source>
+        <target state="translated">このページのキャッシュを削除する</target>
+      </trans-unit>
+      <trans-unit id="labels.no_title" approved="yes">
+        <source>No title</source>
+        <target state="translated">無題</target>
+      </trans-unit>
+      <trans-unit id="labels.cancel" approved="yes">
+        <source>Cancel</source>
+        <target state="translated">キャンセル</target>
+      </trans-unit>
+      <trans-unit id="labels.hidden" approved="yes">
+        <source>Hidden</source>
+        <target state="translated">非表示</target>
+      </trans-unit>
+      <trans-unit id="labels.starttime" approved="yes">
+        <source>Start</source>
+        <target state="translated">開始</target>
+      </trans-unit>
+      <trans-unit id="labels.endtime" approved="yes">
+        <source>End</source>
+        <target state="translated">終了</target>
+      </trans-unit>
+      <trans-unit id="labels.showPage" approved="yes">
+        <source>View webpage</source>
+        <target state="translated">ページを表示</target>
+      </trans-unit>
+      <trans-unit id="labels.showList" approved="yes">
+        <source>Show record list</source>
+        <target state="translated">レコードを一覧表示</target>
+      </trans-unit>
+      <trans-unit id="labels.days" approved="yes">
+        <source>days</source>
+        <target state="translated">日</target>
+      </trans-unit>
+      <trans-unit id="labels.depth_0" approved="yes">
+        <source>This page</source>
+        <target state="translated">このページ</target>
+      </trans-unit>
+      <trans-unit id="labels.depth_1" approved="yes">
+        <source>1 level</source>
+        <target state="translated">1つ下のレベル</target>
+      </trans-unit>
+      <trans-unit id="labels.depth_2" approved="yes">
+        <source>2 levels</source>
+        <target state="translated">2つ下のレベル</target>
+      </trans-unit>
+      <trans-unit id="labels.depth_3" approved="yes">
+        <source>3 levels</source>
+        <target state="translated">3つ下のレベル</target>
+      </trans-unit>
+      <trans-unit id="labels.depth_4" approved="yes">
+        <source>4 levels</source>
+        <target state="translated">4つ下のレベル</target>
+      </trans-unit>
+      <trans-unit id="labels.depth_infi" approved="yes">
+        <source>Infinite</source>
+        <target state="translated">この下のレベルすべて</target>
+      </trans-unit>
+      <trans-unit id="labels.allow" approved="yes">
+        <source>Allow</source>
+        <target state="translated">許可</target>
+      </trans-unit>
+      <trans-unit id="labels.deny" approved="yes">
+        <source>Deny</source>
+        <target state="translated">禁止</target>
+      </trans-unit>
+      <trans-unit id="labels.show" approved="yes">
+        <source>Show</source>
+        <target state="translated">表示</target>
+      </trans-unit>
+      <trans-unit id="labels.generalTab" approved="yes">
+        <source>General</source>
+        <target state="translated">通常</target>
+      </trans-unit>
+      <trans-unit id="labels.refresh" approved="yes">
+        <source>Reload the tree from server</source>
+        <target state="translated">ツリーを最新の情報に更新</target>
+      </trans-unit>
+      <trans-unit id="labels.temporaryDBmount" approved="yes">
+        <source>Cancel temporary DB mount</source>
+        <target state="translated">テンポラリデータベースマウントをキャンセル</target>
+      </trans-unit>
+      <trans-unit id="labels.refreshList" approved="yes">
+        <source>Reload list from server</source>
+        <target state="translated">リストを最新の情報に更新</target>
+      </trans-unit>
+      <trans-unit id="labels.close" approved="yes">
+        <source>Close</source>
+        <target state="translated">閉じる</target>
+      </trans-unit>
+      <trans-unit id="labels.edit" approved="yes">
+        <source>Edit</source>
+        <target state="translated">編集</target>
+      </trans-unit>
+      <trans-unit id="labels.createNew" approved="yes">
+        <source>Create new</source>
+        <target state="translated">新規作成</target>
+      </trans-unit>
+      <trans-unit id="labels.selected" approved="yes">
+        <source>Selected Items</source>
+        <target state="translated">選択された</target>
+      </trans-unit>
+      <trans-unit id="labels.items" approved="yes">
+        <source>Available Items</source>
+        <target state="translated">アイテム</target>
+      </trans-unit>
+      <trans-unit id="labels.remove_selected" approved="yes">
+        <source>Remove selected items</source>
+        <target state="translated">選択したアイテムを削除</target>
+      </trans-unit>
+      <trans-unit id="labels.move_to_top" approved="yes">
+        <source>Move selected items to top</source>
+        <target state="translated">選択したアイテムを一番上に移動</target>
+      </trans-unit>
+      <trans-unit id="labels.move_up" approved="yes">
+        <source>Move selected items upwards</source>
+        <target state="translated">選択したアイテムを上に移動</target>
+      </trans-unit>
+      <trans-unit id="labels.move_down" approved="yes">
+        <source>Move selected items downwards</source>
+        <target state="translated">選択したアイテムを下に移動</target>
+      </trans-unit>
+      <trans-unit id="labels.move_to_bottom" approved="yes">
+        <source>Move selected items to bottom</source>
+        <target state="translated">選択したアイテムを一番下に移動</target>
+      </trans-unit>
+      <trans-unit id="labels.move" approved="yes">
+        <source>Move this item</source>
+        <target state="translated">アイテムの移動</target>
+      </trans-unit>
+      <trans-unit id="labels.browse_file" approved="yes">
+        <source>Browse for files</source>
+        <target state="translated">ファイルを参照</target>
+      </trans-unit>
+      <trans-unit id="labels.browse_db" approved="yes">
+        <source>Browse for records</source>
+        <target state="translated">レコードを参照</target>
+      </trans-unit>
+      <trans-unit id="labels.clipInsert_file" approved="yes">
+        <source>Insert %s file(s) from the clipboard</source>
+        <target state="translated">クリップボードから%s個のファイルを挿入</target>
+      </trans-unit>
+      <trans-unit id="labels.clipInsert_db" approved="yes">
+        <source>Insert %s record(s) from the clipboard</source>
+        <target state="translated">クリップボードから%s個のレコードを挿入</target>
+      </trans-unit>
+      <trans-unit id="labels.allTables" approved="yes">
+        <source>[All tables]</source>
+        <target state="translated">[すべてのテーブル]</target>
+      </trans-unit>
+      <trans-unit id="labels.noMatchingValue" approved="yes">
+        <source>INVALID VALUE ("%s")</source>
+        <target state="translated">無効な値("%s")</target>
+      </trans-unit>
+      <trans-unit id="labels.thumbmode_clip" approved="yes">
+        <source>Show Thumbnails on ClipBoard</source>
+        <target state="translated">クリップボードのサムネイルを表示</target>
+      </trans-unit>
+      <trans-unit id="labels.copymode" approved="yes">
+        <source>Copy items instead of moving them</source>
+        <target state="translated">アイテムを移動せずにコピーする</target>
+      </trans-unit>
+      <trans-unit id="labels.cliptabs" approved="yes">
+        <source>Clipboard #</source>
+        <target state="translated">クリップボード #</target>
+      </trans-unit>
+      <trans-unit id="labels.removeItem" approved="yes">
+        <source>Remove item</source>
+        <target state="translated">アイテムを取り除く</target>
+      </trans-unit>
+      <trans-unit id="labels.holdDownCTRL" approved="yes">
+        <source>Important: Hold down the CTRL key while toggling elements in this list!</source>
+        <target state="translated">注意: 複数のエレメントを選択するにはコントロールキーを押しながら選択します。</target>
+      </trans-unit>
+      <trans-unit id="labels.revertSelection" approved="yes">
+        <source>Revert selection</source>
+        <target state="translated">選択を反転</target>
+      </trans-unit>
+      <trans-unit id="labels.setAllCheckboxes" approved="yes">
+        <source>Select All Checkboxes</source>
+        <target state="translated">すべてにチェックを入れる</target>
+      </trans-unit>
+      <trans-unit id="labels.changeInOrig" approved="yes">
+        <source>Changed in original translation</source>
+        <target state="translated">オリジナルの翻訳に変更</target>
+      </trans-unit>
+      <trans-unit id="labels.expandAll" approved="yes">
+        <source>Expand all</source>
+        <target state="translated">すべてを展開</target>
+      </trans-unit>
+      <trans-unit id="labels.title.search" approved="yes">
+        <source>Search</source>
+        <target state="translated">検索</target>
+      </trans-unit>
+      <trans-unit id="ver.online" approved="yes">
+        <source>ONLINE</source>
+        <target state="translated">オンライン</target>
+      </trans-unit>
+      <trans-unit id="ver.mgm" approved="yes">
+        <source>Version Management</source>
+        <target state="translated">バージョンマネージメント</target>
+      </trans-unit>
+      <trans-unit id="ver.swap" approved="yes">
+        <source>Swap/Publish</source>
+        <target state="translated">スワップ/パブリッシュ</target>
+      </trans-unit>
+      <trans-unit id="ver.swapPage" approved="yes">
+        <source>Publish this version of the page including content</source>
+        <target state="translated">コンテンツも含め、このバージョンのページを公開</target>
+      </trans-unit>
+      <trans-unit id="TYPO3_Element_Browser" approved="yes">
+        <source>TYPO3 Element Browser</source>
+        <target state="translated">TYPO3 エレメントブラウザ</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.viewItem" approved="yes">
+        <source>View Item</source>
+        <target state="translated">アイテムを表示</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.file" approved="yes">
+        <source>File</source>
+        <target state="translated">ファイル</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.dimensions" approved="yes">
+        <source>Dimensions</source>
+        <target state="translated">寸法</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.filesize" approved="yes">
+        <source>Size</source>
+        <target state="translated">サイズ</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.files" approved="yes">
+        <source>files</source>
+        <target state="translated">ファイル</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.ftp_area" approved="yes">
+        <source>FTP AREA</source>
+        <target state="translated">FTPエリア</target>
+      </trans-unit>
+      <trans-unit id="db_new.php.pagetitle" approved="yes">
+        <source>New record</source>
+        <target state="translated">新規レコード</target>
+      </trans-unit>
+      <trans-unit id="db_new.php.after" approved="yes">
+        <source>after</source>
+        <target state="translated">下に</target>
+      </trans-unit>
+      <trans-unit id="db_new.php.inside" approved="yes">
+        <source>inside</source>
+        <target state="translated">中に</target>
+      </trans-unit>
+      <trans-unit id="file_upload.php.pagetitle" approved="yes">
+        <source>Upload files</source>
+        <target state="translated">ファイルをアップロード</target>
+      </trans-unit>
+      <trans-unit id="file_upload.php.submit" approved="yes">
+        <source>Upload files</source>
+        <target state="translated">ファイルをアップロード</target>
+      </trans-unit>
+      <trans-unit id="file_upload.php.files" approved="yes">
+        <source>files</source>
+        <target state="translated">ファイル</target>
+      </trans-unit>
+      <trans-unit id="file_upload.actions.rename" approved="yes">
+        <source>Rename</source>
+        <target state="translated">名前の変更</target>
+      </trans-unit>
+      <trans-unit id="file_upload.button.cancel" approved="yes">
+        <source>Cancel</source>
+        <target state="translated">キャンセル</target>
+      </trans-unit>
+      <trans-unit id="file_rename.actions.cancel" approved="yes">
+        <source>Cancel</source>
+        <target state="translated">キャンセル</target>
+      </trans-unit>
+      <trans-unit id="file_rename.php.pagetitle" approved="yes">
+        <source>Rename</source>
+        <target state="translated">名前の変更</target>
+      </trans-unit>
+      <trans-unit id="file_rename.php.submit" approved="yes">
+        <source>Rename</source>
+        <note from="developer">This label is not used since TYPO3 v9.</note>
+        <target state="translated">名前の変更</target>
+      </trans-unit>
+      <trans-unit id="file_edit.php.pagetitle" approved="yes">
+        <source>Edit</source>
+        <target state="translated">編集</target>
+      </trans-unit>
+      <trans-unit id="file_clipupload.php.warning_head" approved="yes">
+        <source>Upload path error</source>
+        <target state="translated">アップロードパスエラー</target>
+      </trans-unit>
+      <trans-unit id="file_clipupload.php.warning" approved="yes">
+        <source>No upload-folder is found. You should create a TEMP-folder ("_temp_") in the root of one of your mounts first!</source>
+        <target state="translated">アップロード用のフォルダが見つかりません。あらかじめマウントの最上部に、一時フォルダ("_temp_")を作成してください。</target>
+      </trans-unit>
+      <trans-unit id="mess.redraw" approved="yes">
+        <source>Redrawing the page will discard the current data. Do you want to continue?</source>
+        <target state="translated">再表示するとページの内容は削除されます。よろしいですか？</target>
+      </trans-unit>
+      <trans-unit id="mess.refresh_login" xml:space="preserve" approved="yes">
+				<source>Your login has probably expired.
+Do you want to refresh it now?</source>
+			<target state="translated">ログインセッションの期限が切れてしまったようです。再度ログインしますか？</target></trans-unit>
+      <trans-unit id="mess.refresh_exit_button" approved="yes">
+        <source>Exit</source>
+        <target state="translated">エグジット</target>
+      </trans-unit>
+      <trans-unit id="mess.noSelItemForEdit" approved="yes">
+        <source>Please select one or more items in the list before you can edit.</source>
+        <target state="translated">編集する前に1つ以上のアイテムを選択してください。</target>
+      </trans-unit>
+      <trans-unit id="mess.move_into" approved="yes">
+        <source>Move "%s" into "%s"?</source>
+        <target state="translated">"%s"を"%s"の中に移動しますか？</target>
+      </trans-unit>
+      <trans-unit id="mess.move_after" approved="yes">
+        <source>Move "%s" to after "%s"?</source>
+        <target state="translated">"%s"を"%s"の下に移動しますか？</target>
+      </trans-unit>
+      <trans-unit id="mess.copy_into" approved="yes">
+        <source>Copy "%s" into "%s"?</source>
+        <target state="translated">"%s"を"%s"の中にコピーしますか？</target>
+      </trans-unit>
+      <trans-unit id="mess.copy_after" approved="yes">
+        <source>Copy "%s" to after "%s"?</source>
+        <target state="translated">"%s"を"%s"の下にコピーしますか？</target>
+      </trans-unit>
+      <trans-unit id="mess.copycb_into" approved="yes">
+        <source>Copy all elements (%s) from the clipboard into "%s"?</source>
+        <target state="translated">クリップボードにあるすべてのエレメント(%s)を"%s"にコピーしますか？</target>
+      </trans-unit>
+      <trans-unit id="mess.copycb_after" approved="yes">
+        <source>Copy all elements (%s) from the clipboard to the position after "%s"?</source>
+        <target state="translated">クリップボードにあるすべてのエレメント(%s)を"%s"の下にコピーしますか？</target>
+      </trans-unit>
+      <trans-unit id="mess.movecb_into" approved="yes">
+        <source>Move all elements (%s) from the clipboard into "%s"?</source>
+        <target state="translated">クリップボードにあるすべてのエレメント(%s)を"%s"に移動しますか？</target>
+      </trans-unit>
+      <trans-unit id="mess.movecb_after" approved="yes">
+        <source>Move all elements (%s) from the clipboard to the position after "%s"?</source>
+        <target state="translated">クリップボードにあるすべてのエレメント(%s)を"%s"の下の位置に移動しますか？</target>
+      </trans-unit>
+      <trans-unit id="rm.menu" approved="yes">
+        <source>[menu]</source>
+        <target state="translated">[メニュー]</target>
+      </trans-unit>
+      <trans-unit id="rm.newDoc" approved="yes">
+        <source>New</source>
+        <target state="translated">新規作成</target>
+      </trans-unit>
+      <trans-unit id="rm.clearCache_clearCache" approved="yes">
+        <source>Clear cache</source>
+        <target state="translated">キャッシュを削除</target>
+      </trans-unit>
+      <trans-unit id="rm.clearCache_thisPage" approved="yes">
+        <source>This page</source>
+        <target state="translated">このページ</target>
+      </trans-unit>
+      <trans-unit id="rm.clearCache_all" approved="yes">
+        <source>Clear FE cache</source>
+        <target state="translated">フロントエンドキャッシュを削除</target>
+      </trans-unit>
+      <trans-unit id="rm.clearCache_pages" approved="yes">
+        <source>Clear Page Cache</source>
+        <target state="translated">ページのキャッシュを削除</target>
+      </trans-unit>
+      <trans-unit id="rm.clearCache_allTypo3Conf" approved="yes">
+        <source>Clear cache in typo3conf/</source>
+        <target state="translated">typo3confのキャッシュを削除</target>
+      </trans-unit>
+      <trans-unit id="rm.clearCacheMenu_all" approved="yes">
+        <source>Clear all caches</source>
+        <target state="translated">すべてのキャッシュを削除</target>
+      </trans-unit>
+      <trans-unit id="rm.clearCacheMenu_pages" approved="yes">
+        <source>Clear page content cache</source>
+        <target state="translated">ページコンテンツキャッシュを削除</target>
+      </trans-unit>
+      <trans-unit id="rm.clearCacheMenu_allTypo3Conf" approved="yes">
+        <source>Clear configuration cache</source>
+        <target state="translated">設定キャッシュを削除</target>
+      </trans-unit>
+      <trans-unit id="rm.adminFunctions" approved="yes">
+        <source>Admin functions</source>
+        <target state="translated">管理者機能</target>
+      </trans-unit>
+      <trans-unit id="rm.edit" approved="yes">
+        <source>Edit</source>
+        <target state="translated">編集</target>
+      </trans-unit>
+      <trans-unit id="rm.export" approved="yes">
+        <source>Export</source>
+        <target state="translated">エクスポート</target>
+      </trans-unit>
+      <trans-unit id="rm.delete" approved="yes">
+        <source>Delete</source>
+        <target state="translated">削除</target>
+      </trans-unit>
+      <trans-unit id="buttons.logout" approved="yes">
+        <source>Logout</source>
+        <target state="translated">ログアウト</target>
+      </trans-unit>
+      <trans-unit id="buttons.exit" approved="yes">
+        <source>Exit</source>
+        <target state="translated">エグジット</target>
+      </trans-unit>
+      <trans-unit id="buttons.selMenu_modules" approved="yes">
+        <source>MODULES</source>
+        <target state="translated">モジュール</target>
+      </trans-unit>
+      <trans-unit id="buttons.clear" approved="yes">
+        <source>Clear</source>
+        <target state="translated">クリア</target>
+      </trans-unit>
+      <trans-unit id="buttons.clipboard" approved="yes">
+        <source>Clipboard</source>
+        <target state="translated">クリップボード</target>
+      </trans-unit>
+      <trans-unit id="cm.copy" approved="yes">
+        <source>Copy</source>
+        <target state="translated">コピー</target>
+      </trans-unit>
+      <trans-unit id="cm.cut" approved="yes">
+        <source>Cut</source>
+        <target state="translated">切り取り</target>
+      </trans-unit>
+      <trans-unit id="cm.view" approved="yes">
+        <source>Show</source>
+        <target state="translated">表示</target>
+      </trans-unit>
+      <trans-unit id="cm.edit" approved="yes">
+        <source>Edit</source>
+        <target state="translated">編集</target>
+      </trans-unit>
+      <trans-unit id="cm.new" approved="yes">
+        <source>New</source>
+        <target state="translated">新規作成</target>
+      </trans-unit>
+      <trans-unit id="cm.pasteinto" approved="yes">
+        <source>Paste into</source>
+        <target state="translated">この中に貼り付け</target>
+      </trans-unit>
+      <trans-unit id="cm.pasteafter" approved="yes">
+        <source>Paste after</source>
+        <target state="translated">この下に貼り付け</target>
+      </trans-unit>
+      <trans-unit id="cm.select" approved="yes">
+        <source>Select</source>
+        <target state="translated">選択</target>
+      </trans-unit>
+      <trans-unit id="cm.deselect" approved="yes">
+        <source>Deselect</source>
+        <target state="translated">選択解除</target>
+      </trans-unit>
+      <trans-unit id="cm.selectto" approved="yes">
+        <source>Select to</source>
+        <target state="translated">選択する</target>
+      </trans-unit>
+      <trans-unit id="cm.deselectto" approved="yes">
+        <source>Deselect to</source>
+        <target state="translated">選択解除する</target>
+      </trans-unit>
+      <trans-unit id="cm.delete" approved="yes">
+        <source>Delete</source>
+        <target state="translated">削除</target>
+      </trans-unit>
+      <trans-unit id="cm.hide" approved="yes">
+        <source>Hide</source>
+        <target state="translated">非表示</target>
+      </trans-unit>
+      <trans-unit id="cm.unhide" approved="yes">
+        <source>Unhide</source>
+        <target state="translated">表示</target>
+      </trans-unit>
+      <trans-unit id="cm.upload" approved="yes">
+        <source>Upload Files</source>
+        <target state="translated">ファイルをアップロード</target>
+      </trans-unit>
+      <trans-unit id="cm.rename" approved="yes">
+        <source>Rename</source>
+        <target state="translated">名前を変更</target>
+      </trans-unit>
+      <trans-unit id="cm.open" approved="yes">
+        <source>Open</source>
+        <target state="translated">開く</target>
+      </trans-unit>
+      <trans-unit id="cm.save" approved="yes">
+        <source>Save</source>
+        <target state="translated">保存</target>
+      </trans-unit>
+      <trans-unit id="cm.unzip" approved="yes">
+        <source>Unzip</source>
+        <target state="translated">解凍</target>
+      </trans-unit>
+      <trans-unit id="cm.info" approved="yes">
+        <source>Info</source>
+        <target state="translated">情報</target>
+      </trans-unit>
+      <trans-unit id="cm.createnew" approved="yes">
+        <source>Create new</source>
+        <target state="translated">新規作成</target>
+      </trans-unit>
+      <trans-unit id="cm.tempMountPoint" approved="yes">
+        <source>Mount as treeroot</source>
+        <target state="translated">ツリールートとしてマウント</target>
+      </trans-unit>
+      <trans-unit id="cm.copyPage_into" approved="yes">
+        <source>Copy page into</source>
+        <target state="translated">ページの中にコピー</target>
+      </trans-unit>
+      <trans-unit id="cm.copyPage_after" approved="yes">
+        <source>Copy page after</source>
+        <target state="translated">ページの下にコピー</target>
+      </trans-unit>
+      <trans-unit id="cm.movePage_into" approved="yes">
+        <source>Move page into</source>
+        <target state="translated">ページの中に移動</target>
+      </trans-unit>
+      <trans-unit id="cm.movePage_after" approved="yes">
+        <source>Move page after</source>
+        <target state="translated">ページの下に移動</target>
+      </trans-unit>
+      <trans-unit id="cm.copyFolder_into" approved="yes">
+        <source>Copy folder into</source>
+        <target state="translated">フォルダーをコピー</target>
+      </trans-unit>
+      <trans-unit id="cm.moveFolder_into" approved="yes">
+        <source>Move folder into</source>
+        <target state="translated">フォルダーを移動</target>
+      </trans-unit>
+      <trans-unit id="cm.createNewRelation" approved="yes">
+        <source>Create new relation</source>
+        <target state="translated">新規関連を作成</target>
+      </trans-unit>
+      <trans-unit id="cm.more" approved="yes">
+        <source>More options...</source>
+        <target state="translated">詳細設定</target>
+      </trans-unit>
+      <trans-unit id="warning.install_password" approved="yes">
+        <source>The Install Tool is still using the default password "joh316". Update this within the %sAbout section%s of the Install Tool.</source>
+        <target state="translated">インストールツールにおいて、デフォルトパスワード"joh316"のままです。インストールツールの％ｓ セクションについて %s で更新してください。</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.search" approved="yes">
+        <source>Search</source>
+        <target state="translated">検索</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
