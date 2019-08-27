@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814821" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="felogin" target-language="el">
+    <header/>
+    <body>
+      <trans-unit id="welcome_header" approved="yes">
+        <source>User login</source>
+        <target state="translated">Σύνδεση χρήστη</target>
+      </trans-unit>
+      <trans-unit id="logout_header" approved="yes">
+        <source>You have logged out.</source>
+        <target state="translated">Έχετε αποσυνδεθεί.</target>
+      </trans-unit>
+      <trans-unit id="error_header" approved="yes">
+        <source>Login failure</source>
+        <target state="translated">Αποτυχία σύνδεσης</target>
+      </trans-unit>
+      <trans-unit id="success_header" approved="yes">
+        <source>Login successful</source>
+        <target state="translated">Επιτυχής σύνδεση</target>
+      </trans-unit>
+      <trans-unit id="success_message" approved="yes">
+        <source>You are now logged in as '###USER###'</source>
+        <target state="translated">Έχετε συνδεθεί ως '###USER###'</target>
+      </trans-unit>
+      <trans-unit id="status_header" approved="yes">
+        <source>Current status</source>
+        <target state="translated">Τρέχουσα κατάσταση</target>
+      </trans-unit>
+      <trans-unit id="cookie_warning" approved="yes">
+        <source>Warning: There is a possibility that cookies are not enabled in your web browser! If your login disappears on your next click that is the case and you should enable cookies (or accept cookies from this website) immediately!</source>
+        <target state="translated">Προσοχή: Υπάρχει περίπτωση τα cookies να μην είναι ενεργοποιημένα στο φυλλομετρητή σας! Αν η φόρμα σύνδεσης εξαφανιστεί στο επόμενο κλικ τότε θα πρέπει να ενεργοποιήσετε τα cookies (ή να αποδεχθείτε τα cookies από αυτό τον ιστότοπο) αμέσως!</target>
+      </trans-unit>
+      <trans-unit id="login" approved="yes">
+        <source>Login</source>
+        <target state="translated">Σύνδεση</target>
+      </trans-unit>
+      <trans-unit id="logout" approved="yes">
+        <source>Logout</source>
+        <target state="translated">Αποσύνδεση</target>
+      </trans-unit>
+      <trans-unit id="send_password" approved="yes">
+        <source>Send password</source>
+        <target state="translated">Αποστολή κωδικού πρόσβασης</target>
+      </trans-unit>
+      <trans-unit id="reset_password" approved="yes">
+        <source>Reset Password</source>
+        <target state="translated">Αρχικοποίηση κωδικού</target>
+      </trans-unit>
+      <trans-unit id="change_password_header" approved="yes">
+        <source>Change your password</source>
+        <target state="translated">Αλλαγή κωδικού</target>
+      </trans-unit>
+      <trans-unit id="change_password" approved="yes">
+        <source>Change your password</source>
+        <target state="translated">Αλλάξτε τον κωδικό</target>
+      </trans-unit>
+      <trans-unit id="newpassword_label1" approved="yes">
+        <source>Enter new password</source>
+        <target state="translated">Εισάγετε νέο κωδικό</target>
+      </trans-unit>
+      <trans-unit id="newpassword_label2" approved="yes">
+        <source>Repeat new password</source>
+        <target state="translated">Επανάληψη κωδικού</target>
+      </trans-unit>
+      <trans-unit id="forgot_header" approved="yes">
+        <source>Forgot your password?</source>
+        <target state="translated">Ξεχάσατε τον κωδικό σας;</target>
+      </trans-unit>
+      <trans-unit id="forgot_email_password" xml:space="preserve" approved="yes">
+				<source>Your password
+Hi %s
+
+Your username is "%s"
+Your password is "%s"</source>
+			<target state="translated">Ο κωδικός σας
+Γεια σας %s,
+
+To όνομα χρήστη σας είναι "%s". 
+Ο κωδικός πρόσβασης είναι "%s".</target></trans-unit>
+      <trans-unit id="forgot_message_emailSent" approved="yes">
+        <source>Your password has now been sent to the email address %s</source>
+        <target state="translated">Ο κωδικός πρόσβασής σας έχει σταλεί στη διεύθυνση email σας %s.</target>
+      </trans-unit>
+      <trans-unit id="forgot_reset_message_error" approved="yes">
+        <source>Your account or email address does not exist.</source>
+        <target state="translated">Ο λογαριασμός σας ή η διεύθυνση email δεν υπάρχουν.</target>
+      </trans-unit>
+      <trans-unit id="forgot_header_backToLogin" approved="yes">
+        <source>Return to login form</source>
+        <target state="translated">Επιστροφή στη φόρμα σύνδεσης</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
