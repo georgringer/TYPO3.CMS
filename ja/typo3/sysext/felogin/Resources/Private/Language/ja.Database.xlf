@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814820" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="felogin" target-language="ja">
+    <header/>
+    <body>
+      <trans-unit id="tt_content.CType_pi1" approved="yes">
+        <source>Website User Login</source>
+        <target state="translated">ユーザログイン</target>
+      </trans-unit>
+      <trans-unit id="felogin_redirectPid" approved="yes">
+        <source>Redirect at Login to Page (felogin)</source>
+        <target state="translated">ログイン時のページへのリダイレクト(felogin):</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.general_header" approved="yes">
+        <source>General Header</source>
+        <target state="translated">共通の見出し：</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.general_message" approved="yes">
+        <source>General Message</source>
+        <target state="translated">共通の本文：</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.redirect_header" approved="yes">
+        <source>Redirect Header</source>
+        <target state="translated">リダイレクト用の見出し：</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.redirect_message" approved="yes">
+        <source>Redirect Message</source>
+        <target state="translated">リダイレクト用の本文：</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.welcome_header" approved="yes">
+        <source>Welcome Header</source>
+        <target state="translated">ウェルカム用の見出し：</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.welcome_message" approved="yes">
+        <source>Welcome Message</source>
+        <target state="translated">ウェルカム用の本文：</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.success_header" approved="yes">
+        <source>Login Success Header</source>
+        <target state="translated">ログイン成功の見出し：</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.success_message" approved="yes">
+        <source>Login Success Message</source>
+        <target state="translated">ログイン成功の本文：</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.error_header" approved="yes">
+        <source>Login Error Header</source>
+        <target state="translated">ログイン失敗の見出し：</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.error_message" approved="yes">
+        <source>Login Error Message</source>
+        <target state="translated">ログイン失敗の本文：</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.status_header" approved="yes">
+        <source>Status Display Header</source>
+        <target state="translated">状態表示の見出し：</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.status_message" approved="yes">
+        <source>Status Display Message</source>
+        <target state="translated">状態表示の本文：</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.logout_header" approved="yes">
+        <source>Logout Header</source>
+        <target state="translated">ログアウトの見出し：</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.logout_message" approved="yes">
+        <source>Logout Message</source>
+        <target state="translated">ログアウトの本文：</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.forgot_header" approved="yes">
+        <source>Forgot Password Header</source>
+        <target state="translated">パスワードリマインダー用の見出し：</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.forgot_message" approved="yes">
+        <source>Forgot Password Message</source>
+        <target state="translated">パスワードリマインダー用の本文：</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.sheet_general" approved="yes">
+        <source>General</source>
+        <target state="translated">共通</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.sheet_redirect" approved="yes">
+        <source>Redirects</source>
+        <target state="translated">リダイレクトオプション</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.sheet_messages" approved="yes">
+        <source>Messages</source>
+        <target state="translated">本文</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.show_forgot_password" approved="yes">
+        <source>Display Password Recovery Link</source>
+        <target state="translated">パスワードリマインダへのリンクを表示：</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.show_permalogin" approved="yes">
+        <source>Display Remember Login Option</source>
+        <target state="translated">ログインした状態を保持のチェックボックスを表示（インストールのためにつけられる）</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.groupSelectmode" approved="yes">
+        <source>FE group select mode:</source>
+        <target state="translated">フロントエンドグループ選択モード</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.groupSelectmode_showAll" approved="yes">
+        <source>Show all</source>
+        <target state="translated">すべてを表示</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.groupSelectmode_showSelected" approved="yes">
+        <source>Show selected</source>
+        <target state="translated">選択された項目を表示</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.groupSelectmode_FromTS" approved="yes">
+        <source>(from Typoscript)</source>
+        <target state="translated">(TypoScript から)</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.groupSelection" approved="yes">
+        <source>FE group selection:</source>
+        <target state="translated">選択されたフロントエンドグループ</target>
+      </trans-unit>
+      <trans-unit id="tt_content.pi_flexform.groupSelection_noGroup" approved="yes">
+        <source>no group</source>
+        <target state="translated">未分類グループ</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
