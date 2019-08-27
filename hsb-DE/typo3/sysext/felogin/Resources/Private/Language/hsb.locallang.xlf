@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1415814821" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="felogin" target-language="hsb-DE">
+    <header/>
+    <body>
+      <trans-unit id="ll_welcome_header">
+        <source>User login</source>
+        <target>crwdns38236:0crwdne38236:0</target>
+      </trans-unit>
+      <trans-unit id="ll_welcome_message">
+        <source>Enter your username and password here in order to log in on the website</source>
+        <target>crwdns38238:0crwdne38238:0</target>
+      </trans-unit>
+      <trans-unit id="ll_logout_header">
+        <source>You have logged out.</source>
+        <target>crwdns38240:0crwdne38240:0</target>
+      </trans-unit>
+      <trans-unit id="ll_logout_message">
+        <source>You just logged out from your user session on this website. You can login again or as another user by the form below.</source>
+        <target>crwdns38242:0crwdne38242:0</target>
+      </trans-unit>
+      <trans-unit id="ll_error_header">
+        <source>Login failure</source>
+        <target>crwdns38244:0crwdne38244:0</target>
+      </trans-unit>
+      <trans-unit id="ll_error_message" xml:space="preserve">
+				<source>An error occurred during login. Most likely you didn't enter the username or password correctly.
+Be certain that you enter them precisely as they are, including upper/lower case.
+Another possibility is that cookies might be disabled in your web browser.</source>
+			<target>crwdns38246:0crwdne38246:0</target></trans-unit>
+      <trans-unit id="ll_success_header">
+        <source>Login successful</source>
+        <target>crwdns38248:0crwdne38248:0</target>
+      </trans-unit>
+      <trans-unit id="ll_success_message">
+        <source>You are now logged in as '###USER###'</source>
+        <target>crwdns38250:0crwdne38250:0</target>
+      </trans-unit>
+      <trans-unit id="ll_status_header">
+        <source>Current status</source>
+        <target>crwdns38252:0crwdne38252:0</target>
+      </trans-unit>
+      <trans-unit id="ll_status_message">
+        <source>This is your current status</source>
+        <target>crwdns38254:0crwdne38254:0</target>
+      </trans-unit>
+      <trans-unit id="cookie_warning">
+        <source>Warning: There is a possibility that cookies are not enabled in your web browser! If your login disappears on your next click that is the case and you should enable cookies (or accept cookies from this website) immediately!</source>
+        <target>crwdns38256:0crwdne38256:0</target>
+      </trans-unit>
+      <trans-unit id="username">
+        <source>Username</source>
+        <target>crwdns38258:0crwdne38258:0</target>
+      </trans-unit>
+      <trans-unit id="password">
+        <source>Password</source>
+        <target>crwdns38260:0crwdne38260:0</target>
+      </trans-unit>
+      <trans-unit id="login">
+        <source>Login</source>
+        <target>crwdns38262:0crwdne38262:0</target>
+      </trans-unit>
+      <trans-unit id="permalogin">
+        <source>Stay logged in</source>
+        <target>crwdns38264:0crwdne38264:0</target>
+      </trans-unit>
+      <trans-unit id="logout">
+        <source>Logout</source>
+        <target>crwdns38266:0crwdne38266:0</target>
+      </trans-unit>
+      <trans-unit id="send_password">
+        <source>Send password</source>
+        <target>crwdns38268:0crwdne38268:0</target>
+      </trans-unit>
+      <trans-unit id="reset_password">
+        <source>Reset Password</source>
+        <target>crwdns38270:0crwdne38270:0</target>
+      </trans-unit>
+      <trans-unit id="ll_change_password_header">
+        <source>Change your password</source>
+        <target>crwdns38272:0crwdne38272:0</target>
+      </trans-unit>
+      <trans-unit id="ll_change_password_message">
+        <source>Please enter your new password twice. Password needs a minimum length of %s chars.</source>
+        <target>crwdns38274:0%scrwdne38274:0</target>
+      </trans-unit>
+      <trans-unit id="ll_change_password_nolinkprefix_message">
+        <source>Error: there is no prefix for the link. Please set one of the following in your typoscript template: plugin.tx_felogin_pi1.feloginBaseURL = http://yourdomain/, config.baseURL = http://yourdomain/, config.absRefPrefix = /</source>
+        <target>crwdns38276:0crwdne38276:0</target>
+      </trans-unit>
+      <trans-unit id="ll_change_password_notvalid_message">
+        <source>The link you clicked is not valid. Please repeat the forgot password procedure.</source>
+        <target>crwdns38278:0crwdne38278:0</target>
+      </trans-unit>
+      <trans-unit id="ll_change_password_notequal_message">
+        <source>The passwords are not equal, please enter your new password twice. Password needs a minimum length of %s chars.</source>
+        <target>crwdns38280:0%scrwdne38280:0</target>
+      </trans-unit>
+      <trans-unit id="ll_change_password_tooshort_message">
+        <source>The password length is too short. Please enter your new password twice. Password needs a minimum length of %s chars.</source>
+        <target>crwdns38282:0%scrwdne38282:0</target>
+      </trans-unit>
+      <trans-unit id="ll_change_password_done_message">
+        <source>Your password has been saved. You can now login with your new password.</source>
+        <target>crwdns38284:0crwdne38284:0</target>
+      </trans-unit>
+      <trans-unit id="change_password">
+        <source>Change your password</source>
+        <target>crwdns38286:0crwdne38286:0</target>
+      </trans-unit>
+      <trans-unit id="newpassword_label1">
+        <source>Enter new password</source>
+        <target>crwdns38288:0crwdne38288:0</target>
+      </trans-unit>
+      <trans-unit id="newpassword_label2">
+        <source>Repeat new password</source>
+        <target>crwdns38290:0crwdne38290:0</target>
+      </trans-unit>
+      <trans-unit id="your_email">
+        <source>Your email</source>
+        <target>crwdns38292:0crwdne38292:0</target>
+      </trans-unit>
+      <trans-unit id="ll_forgot_header">
+        <source>Forgot your password?</source>
+        <target>crwdns38294:0crwdne38294:0</target>
+      </trans-unit>
+      <trans-unit id="ll_forgot_email_password" xml:space="preserve">
+				<source>Your password
+Hi %s
+
+Your username is "%s"
+Your password is "%s"</source>
+			<target>crwdns38296:0%scrwdnd38296:0%scrwdnd38296:0%scrwdne38296:0</target></trans-unit>
+      <trans-unit id="ll_forgot_email_nopassword" xml:space="preserve">
+				<source>Your password
+Hi %s
+
+We couldn't find a username for this email address and so cannot send the password to you. Probably you misspelled the email address (upper/lower case makes a difference) or maybe you even didn't register yet?</source>
+			<target>crwdns38298:0%scrwdne38298:0</target></trans-unit>
+      <trans-unit id="ll_forgot_validate_reset_password" xml:space="preserve">
+				<source>Your new password
+Dear %s,
+
+This email was sent in response to your request to reset your password. Please click on the link below.
+%s
+
+For security reasons, this link is only active until %s. If you do not visit the link before then, you will need to repeat the password reset steps.</source>
+			<target>crwdns38300:0%scrwdnd38300:0%scrwdnd38300:0%scrwdne38300:0</target></trans-unit>
+      <trans-unit id="ll_forgot_message">
+        <source>Please enter the email address by which you registered your user account. Then press "Send password" and your password will immediately be emailed to you. Make sure to spell your email address correctly.</source>
+        <target>crwdns38302:0crwdne38302:0</target>
+      </trans-unit>
+      <trans-unit id="ll_forgot_message_emailSent">
+        <source>Your password has now been sent to the email address %s</source>
+        <target>crwdns38304:0%scrwdne38304:0</target>
+      </trans-unit>
+      <trans-unit id="ll_forgot_reset_message">
+        <source>Please enter your username or email address. Instructions for resetting the password will be immediately emailed to you.</source>
+        <target>crwdns38306:0crwdne38306:0</target>
+      </trans-unit>
+      <trans-unit id="ll_forgot_reset_message_emailSent">
+        <source>An email has been sent to the address stored in your account and contains a link to reset your password. If you do not receive an email, your account or email address was not found.</source>
+        <target>crwdns38308:0crwdne38308:0</target>
+      </trans-unit>
+      <trans-unit id="ll_forgot_reset_message_error">
+        <source>Your account or email address does not exist.</source>
+        <target>crwdns38310:0crwdne38310:0</target>
+      </trans-unit>
+      <trans-unit id="ll_forgot_header_backToLogin">
+        <source>Return to login form</source>
+        <target>crwdns38312:0crwdne38312:0</target>
+      </trans-unit>
+      <trans-unit id="ll_enter_your_data">
+        <source>Username or email address</source>
+        <target>crwdns38314:0crwdne38314:0</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
