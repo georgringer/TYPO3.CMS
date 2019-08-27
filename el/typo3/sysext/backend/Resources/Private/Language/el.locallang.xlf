@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1420197366" source-language="en" datatype="plaintext" original="messages" date="2015-01-02T11:16:11Z" product-name="backend" target-language="el">
+    <header/>
+    <body>
+      <trans-unit id="formEngine.databaseRecordErrorInlineChildChild">
+        <source>The record with uid %2$s from table %1$s could not be retrieved from the database. This data incosistency can occur if
+				a base record has been deleted but the intermediate record from table %3$s with uid %4$s still points to it. To fix
+				this situation, either delete the intermediate record, or recover the deleted record using the recycler module.
+				</source>
+        <target state="needs-translation">
+				</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
