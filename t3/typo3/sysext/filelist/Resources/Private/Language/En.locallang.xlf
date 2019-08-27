@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1440157535" source-language="en" datatype="plaintext" original="messages" date="2015-08-21T11:45:35Z" product-name="filelist" target-language="t3">
+    <header/>
+    <body>
+      <trans-unit id="file_rename.exists.description">
+        <source>You want to rename the file "{0}" to "{1}", but such a file already exists. How do you want to
+					proceed?
+				</source>
+        <target state="needs-translation">
+				</target>
+      </trans-unit>
+      <trans-unit id="file_edit.php.coundNot">
+        <source>This filetype cannot be edited.&lt;br /&gt;The file must have an extension like:&lt;br /&gt;&lt;br
+					/&gt; &lt;b&gt;%s&lt;/b&gt;
+				</source>
+        <target state="needs-translation">
+				</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
