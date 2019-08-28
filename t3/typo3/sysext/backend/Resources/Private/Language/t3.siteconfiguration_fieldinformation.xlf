@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1522923345" source-language="en" datatype="plaintext" original="messages" date="2015-01-02T11:16:11Z" product-name="backend" target-language="t3">
+    <header/>
+    <body>
+      <trans-unit id="site.rootPageId">
+        <source>You must create a page with a site root flag.</source>
+        <target>crwdns33336:0crwdne33336:0</target>
+      </trans-unit>
+      <trans-unit id="site.identifier">
+        <source>This name will be used to create the configuration directory. Mind the recommendations for directory names (only a-z,0-9,_,-) and make it unique.</source>
+        <target>crwdns33338:0crwdne33338:0</target>
+      </trans-unit>
+      <trans-unit id="site.base">
+        <source>Main URL to call the frontend in default language. Can be https://www.example.com/ or just /, if it is just a / you cannot rely on TYPO3 creating
+					full URLs</source>
+        <target>crwdns33340:0crwdne33340:0</target>
+      </trans-unit>
+      <trans-unit id="site.baseVariants">
+        <source>This allows you to specify variants of the site's base. Can be used, for example, if you have a different domain for your staging environment.</source>
+        <target>crwdns33342:0crwdne33342:0</target>
+      </trans-unit>
+      <trans-unit id="site_language.base">
+        <source>Use a full qualified domain "https://www.mydomain.fr/" or "/fr/". Use "/" to keep the main URL for the default language. Add language specific suffixes to use those, or configure complete URLs for independent domains.</source>
+        <target>crwdns33344:0crwdne33344:0</target>
+      </trans-unit>
+      <trans-unit id="site_language.locale">
+        <source>Used for localized date and currency formats. E.g. "de_DE" or "en_US.UTF-8".</source>
+        <target>crwdns33346:0crwdne33346:0</target>
+      </trans-unit>
+      <trans-unit id="site_language.iso-639-1">
+        <source>ISO 639-1 code of the Language</source>
+        <target>crwdns33348:0crwdne33348:0</target>
+      </trans-unit>
+      <trans-unit id="site_language.hreflang">
+        <source>Used within for "lang" and "hreflang" attributes</source>
+        <target>crwdns33350:0crwdne33350:0</target>
+      </trans-unit>
+      <trans-unit id="site_language.navigationTitle">
+        <source>Used within language-related menus</source>
+        <target>crwdns33352:0crwdne33352:0</target>
+      </trans-unit>
+      <trans-unit id="site_language.direction">
+        <source>Language direction for "dir" attribute</source>
+        <target>crwdns33354:0crwdne33354:0</target>
+      </trans-unit>
+      <trans-unit id="site_language.typo3Language">
+        <source>Select the language to be used from translation files. Keep default if no translation files are available.</source>
+        <target>crwdns33356:0crwdne33356:0</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorCode">
+        <source>Make sure to have at least 0 (not defined otherwise) configured in order to serve helpful error messages to your visitors.</source>
+        <target>crwdns33358:0crwdne33358:0</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorFluidTemplate">
+        <source>Path to the fluid template file given by absolute, relative path (from site root) or by referring the template file inside an extension with "EXT:" prefix.</source>
+        <target>crwdns33360:0crwdne33360:0</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorPhpClassFQCN">
+        <source>Fully qualified class name to a class that implements the PageErrorHandlerInterface.</source>
+        <target>crwdns33362:0crwdne33362:0</target>
+      </trans-unit>
+      <trans-unit id="site_base_variant.base">
+        <source>For example "https://staging.domain.tld" or "http://www.domain.local"</source>
+        <target>crwdns33364:0crwdne33364:0</target>
+      </trans-unit>
+      <trans-unit id="site_base_variant.condition">
+        <source>Expression to match this base variant.</source>
+        <target>crwdns33366:0crwdne33366:0</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
