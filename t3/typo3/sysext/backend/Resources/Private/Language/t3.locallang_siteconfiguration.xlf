@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
+  <file t3:id="1522780424" source-language="en" datatype="plaintext" original="messages" date="2018-02-27T22:22:32Z" product-name="backend" target-language="t3">
+    <header/>
+    <body>
+      <trans-unit id="overview.title">
+        <source>Site Configuration</source>
+        <target>crwdns33116:0crwdne33116:0</target>
+      </trans-unit>
+      <trans-unit id="overview.site">
+        <source>Site</source>
+        <target>crwdns33118:0crwdne33118:0</target>
+      </trans-unit>
+      <trans-unit id="overview.configuration">
+        <source>Configuration Folder</source>
+        <target>crwdns33120:0crwdne33120:0</target>
+      </trans-unit>
+      <trans-unit id="overview.noPages.title">
+        <source>No pages found!</source>
+        <target>crwdns33122:0crwdne33122:0</target>
+      </trans-unit>
+      <trans-unit id="overview.noPages.message">
+        <source>Please add at least one page through the Page module.</source>
+        <target>crwdns33124:0crwdne33124:0</target>
+      </trans-unit>
+      <trans-unit id="overview.noSiteConfiguration">
+        <source>This site does not have a configuration, yet.</source>
+        <target>crwdns33126:0crwdne33126:0</target>
+      </trans-unit>
+      <trans-unit id="overview.addSiteConfiguration">
+        <source>Add new site configuration for this site</source>
+        <target>crwdns33128:0crwdne33128:0</target>
+      </trans-unit>
+      <trans-unit id="overview.deleteSiteConfiguration">
+        <source>Delete site configuration</source>
+        <target>crwdns33130:0crwdne33130:0</target>
+      </trans-unit>
+      <trans-unit id="overview.fullUrlPrefix">
+        <source>Full URL prefix</source>
+        <target>crwdns33132:0crwdne33132:0</target>
+      </trans-unit>
+      <trans-unit id="overview.baseUrl">
+        <source>Base URLs</source>
+        <target>crwdns33134:0crwdne33134:0</target>
+      </trans-unit>
+      <trans-unit id="overview.unassignedSites.title">
+        <source>Unassigned site configurations</source>
+        <target>crwdns33136:0crwdne33136:0</target>
+      </trans-unit>
+      <trans-unit id="overview.unassignedSites.description">
+        <source>The following sites don't belong to any page anymore and can be removed.</source>
+        <target>crwdns33138:0crwdne33138:0</target>
+      </trans-unit>
+      <trans-unit id="validation.identifierRenamed.title">
+        <source>Renamed identifier</source>
+        <target>crwdns33140:0crwdne33140:0</target>
+      </trans-unit>
+      <trans-unit id="validation.identifierRenamed.message">
+        <source>Given site identifier "%1s" already exists. It has been renamed to "%2s". Maybe you want to edit the site again and give it a better name.</source>
+        <target>crwdns33142:0%1scrwdnd33142:0%2scrwdne33142:0</target>
+      </trans-unit>
+      <trans-unit id="validation.identifierExists.title">
+        <source>Identifier not changed</source>
+        <target>crwdns33144:0crwdne33144:0</target>
+      </trans-unit>
+      <trans-unit id="validation.identifierExists.message">
+        <source>Given site identifier "%1s" already exists and points to a different site. The existing identifier "%2s" for this site is kept.';</source>
+        <target>crwdns33146:0%1scrwdnd33146:0%2scrwdne33146:0</target>
+      </trans-unit>
+      <trans-unit id="validation.required.title">
+        <source>Site configuration not saved</source>
+        <target>crwdns33148:0crwdne33148:0</target>
+      </trans-unit>
+      <trans-unit id="validation.required.message">
+        <source>Field "%1s" is a required field, but no value has been provided.</source>
+        <target>crwdns33150:0%1scrwdne33150:0</target>
+      </trans-unit>
+      <trans-unit id="validation.duplicateErrorCode.title">
+        <source>Duplicate error code removed</source>
+        <target>crwdns33152:0crwdne33152:0</target>
+      </trans-unit>
+      <trans-unit id="validation.duplicateErrorCode.message">
+        <source>Two error handler configurations for error code "%1s" found. This would be an invalid configuration, the dangling one has been removed.</source>
+        <target>crwdns33154:0%1scrwdne33154:0</target>
+      </trans-unit>
+      <trans-unit id="validation.duplicateLanguageId.title">
+        <source>Duplicate language configuration removed</source>
+        <target>crwdns33156:0crwdne33156:0</target>
+      </trans-unit>
+      <trans-unit id="validation.duplicateLanguageId.message">
+        <source>Two language configurations for language "%1s" found. This would be an invalid configuration, the dangling one has been removed.</source>
+        <target>crwdns33158:0%1scrwdne33158:0</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
