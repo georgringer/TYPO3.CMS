@@ -8,6 +8,14 @@
         <source>Visible</source>
         <target state="translated">Vidljivo</target>
       </trans-unit>
+      <trans-unit id="sys_file_metadata.status" approved="yes">
+        <source>Status</source>
+        <target state="translated">Status</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.status.1" approved="yes">
+        <source>Ok</source>
+        <target state="translated">Ok</target>
+      </trans-unit>
       <trans-unit id="sys_file_metadata.status.2" approved="yes">
         <source>Pending</source>
         <target state="translated">Na čekanju</target>
@@ -128,6 +136,22 @@
         <source>RGB</source>
         <target state="translated">RBG</target>
       </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.sRGB" approved="yes">
+        <source>sRGB</source>
+        <target state="translated">sRGB</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.CMYK" approved="yes">
+        <source>CMYK</source>
+        <target state="translated">CMYK</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.CMY" approved="yes">
+        <source>CMY</source>
+        <target state="translated">CMY</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.YUV" approved="yes">
+        <source>YUV</source>
+        <target state="translated">YUV</target>
+      </trans-unit>
       <trans-unit id="sys_file_metadata.color_space.grey" approved="yes">
         <source>Grey</source>
         <target state="translated">Siva</target>
@@ -169,6 +193,10 @@
         <source>Audio</source>
         <target state="translated">Zvuk</target>
       </trans-unit>
+      <trans-unit id="tabs.video" approved="yes">
+        <source>Video</source>
+        <target state="translated">Video</target>
+      </trans-unit>
       <!-- sys_file_metadata placeholder -->
       <trans-unit id="placeholder.keywords" approved="yes">
         <source>Keyword #1, keyword #2, ...</source>
@@ -194,6 +222,10 @@
       <trans-unit id="palette.accessibility" approved="yes">
         <source>Accessibility</source>
         <target state="translated">Pristupačnost</target>
+      </trans-unit>
+      <trans-unit id="palette.gps" approved="yes">
+        <source>GPS</source>
+        <target state="translated">GPS</target>
       </trans-unit>
       <!-- fe_groups fields -->
       <trans-unit id="fe_groups.files" approved="yes">
