@@ -90,6 +90,10 @@
         <source>Done processing %d elements</source>
         <target state="translated">प्रोसेसिंग %d एलिमेंट्स किया</target>
       </trans-unit>
+      <trans-unit id="runMassAction.init" approved="yes">
+        <source>init</source>
+        <target state="translated">init</target>
+      </trans-unit>
       <trans-unit id="tooltip.publishAll" approved="yes">
         <source>Really publish entire workspace?</source>
         <target state="translated">वास्तव में संपूर्ण वर्कस्पेस प्रकाशित करना है?</target>
@@ -163,6 +167,10 @@
       <trans-unit id="column.wsTitle" approved="yes">
         <source>Changed</source>
         <target state="translated">बदल दिया गया</target>
+      </trans-unit>
+      <trans-unit id="column.uid" approved="yes">
+        <source>WS ID</source>
+        <target state="translated">WS ID</target>
       </trans-unit>
       <trans-unit id="column.oid" approved="yes">
         <source>Live ID</source>
