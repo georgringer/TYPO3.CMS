@@ -87,6 +87,14 @@
         <source>T3D file / compressed</source>
         <target state="translated">T3D ไฟล์บีบอัด /</target>
       </trans-unit>
+      <trans-unit id="makesavefo_t3dFile" approved="yes">
+        <source>T3D file</source>
+        <target state="translated">T3D file</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_xml" approved="yes">
+        <source>XML</source>
+        <target state="translated">XML</target>
+      </trans-unit>
       <trans-unit id="makesavefo_downloadExport" approved="yes">
         <source>Download export</source>
         <target state="translated">ส่งออกดาวน์โหลด</target>
@@ -171,6 +179,10 @@
         <source>Failure: No file uploaded - was it too big? Check system log.</source>
         <target state="translated">ความล้มเหลว : ไฟล์ที่อัพโหลดไม่ -- ได้มันใหญ่เกินไป? ตรวจสอบบันทึกของระบบ</target>
       </trans-unit>
+      <trans-unit id="importdata_upload" approved="yes">
+        <source>Upload</source>
+        <target state="translated">Upload</target>
+      </trans-unit>
       <trans-unit id="importdata_metaData_1387" approved="yes">
         <source>Meta data</source>
         <target state="translated">ข้อมูล Meta</target>
@@ -194,6 +206,10 @@
       <trans-unit id="impexpcore_singlereco_importAsNew" approved="yes">
         <source>Import as new</source>
         <target state="translated">นำเข้าเป็นใหม่</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_singlereco_ignorePid" approved="yes">
+        <source>Ignore PID</source>
+        <target state="translated">Ignore PID</target>
       </trans-unit>
       <trans-unit id="impexpcore_singlereco_respectPid" approved="yes">
         <source>Respect PID</source>
