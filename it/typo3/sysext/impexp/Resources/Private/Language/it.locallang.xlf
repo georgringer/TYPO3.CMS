@@ -35,6 +35,10 @@
         <source>Bad path: "%s"</source>
         <target state="translated">Indirizzo errato: "%s"</target>
       </trans-unit>
+      <trans-unit id="exportdata_filePreset" approved="yes">
+        <source>File &amp; Preset</source>
+        <target state="translated">File &amp; Preset</target>
+      </trans-unit>
       <trans-unit id="exportdata_advancedOptions" approved="yes">
         <source>Advanced Options</source>
         <target state="translated">Opzioni Avanzate</target>
@@ -107,6 +111,10 @@
         <source>T3D file</source>
         <target state="translated">file T3D</target>
       </trans-unit>
+      <trans-unit id="makesavefo_xml" approved="yes">
+        <source>XML</source>
+        <target state="translated">XML</target>
+      </trans-unit>
       <trans-unit id="makesavefo_downloadExport" approved="yes">
         <source>Download export</source>
         <target state="translated">Scarica l'esportazione</target>
@@ -159,6 +167,10 @@
         <source>Allow to write banned file extensions (eg. PHP scripts), if any</source>
         <target state="translated">Permetti di scrivere files con estensioni proibite (ad esempio script PHP), se ce ne fossero</target>
       </trans-unit>
+      <trans-unit id="importdata_preview" approved="yes">
+        <source>Preview</source>
+        <target state="translated">Preview</target>
+      </trans-unit>
       <trans-unit id="importdata_update_299e" approved="yes">
         <source>Update</source>
         <target state="translated">Aggiorna</target>
@@ -186,6 +198,14 @@
       <trans-unit id="importdata_failureNoFileUploaded" approved="yes">
         <source>Failure: No file uploaded - was it too big? Check system log.</source>
         <target state="translated">Errore: nessun file uploadato - forse era troppo grande? Controlla il log di sistema</target>
+      </trans-unit>
+      <trans-unit id="importdata_upload" approved="yes">
+        <source>Upload</source>
+        <target state="translated">Upload</target>
+      </trans-unit>
+      <trans-unit id="importdata_metaData_1387" approved="yes">
+        <source>Meta data</source>
+        <target state="translated">Meta data</target>
       </trans-unit>
       <trans-unit id="importdata_messages" approved="yes">
         <source>Messages</source>
