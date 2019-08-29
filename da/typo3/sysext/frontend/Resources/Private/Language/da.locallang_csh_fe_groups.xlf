@@ -11,6 +11,11 @@
 				<source>If you disable a user group all users which are members of the group will in effect not inherit any properties this group may have given them.
 For instance if a page or content element was assigned access only by this group and you disable the group, no one would gain access to that page or content element.</source>
 			<target state="translated">Hvis du deaktiverer en brugergruppe vil ingen brugere i den gruppe arve de egenskaber som denne gruppe kunne have givet dem. For eksempel hvis en side eller indholdselement kun kunne tilgås fra denne gruppe og du deakriverer denne gruppe, så vil ingen kunne tilgå denne side eller dette indhold.</target></trans-unit>
+      <trans-unit id="_hidden.seeAlso" approved="yes">
+        <source>fe_users:disable</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_users:disable</target>
+      </trans-unit>
       <trans-unit id="title.description" approved="yes">
         <source>Name of the group.</source>
         <target state="translated">Navn på gruppe.</target>
@@ -28,6 +33,11 @@ For instance if a page or content element was assigned access only by this group
 
 &lt;b&gt;Notice:&lt;/b&gt; The use for this option is not critical if you have multiple Website user storages, namely one for each site.</source>
 			<target state="translated">Denne valgmulighed kan være vigtig hvis du har mange websites på den samme TYPO3 database men stadig kun een side der opbevarer alle Website brugere. Således ville brugere kunne logge ind ligegyldig hvilken domæne de bruger. Dette kunne betragtes som en funktionalitet (at have globalt login som bruger) eller et problem ( hvor du burde have gemt brugerene forskellige steder alligevel). Du kan imidlertid ønske at begrænse brugen af et website brugergruppe til et specifikt website og således ikke ønsker gruppen aktiveret for brugeren hvis han logger ind fra en anden URL (stadig på den samme database, selvfølgelig). Ved at skrive host navnet på websitet her, bergænser du gruppen til kun at kunne bruges fra dettte domæne. &lt;b&gt; Bemærk: &lt;/b&gt; Brugen af denne valgmulighed er ikke kritisk hvis du har mange forskellige opbevaringssider for brugerne - nemlig et for hvert site.</target></trans-unit>
+      <trans-unit id="_lockToDomain.seeAlso" approved="yes">
+        <source>fe_users:lockToDomain</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_users:lockToDomain</target>
+      </trans-unit>
       <trans-unit id="subgroup.description" approved="yes">
         <source>Member of other groups.</source>
         <target state="translated">Medlem af andre grupper.</target>
@@ -56,6 +66,11 @@ The configuration is subject to being overridden in other groups and by the TSco
         <source>TypoScript syntax, without conditions and constants.</source>
         <target state="translated">Typoecript syntax uden conditions og konstanter.</target>
       </trans-unit>
+      <trans-unit id="_TSconfig.seeAlso" approved="yes">
+        <source>fe_users:TSconfig</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_users:TSconfig</target>
+      </trans-unit>
       <trans-unit id=".description" approved="yes">
         <source>Usergroups for Website users.</source>
         <target state="translated">Brugergrupper for website brugere.</target>
@@ -69,6 +84,12 @@ The configuration is subject to being overridden in other groups and by the TSco
 About access restricting pages | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/PasswordProtectedPages/</source>
 			<target state="translated">fe_users,
 Om adgangsbegrænsede sider | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/PasswordProtectedPages/</target></trans-unit>
+      <trans-unit id="_.image" xml:space="preserve" approved="yes">
+				<source>EXT:frontend/Resources/Public/Images/cshimages/fegroups_3.png,
+EXT:frontend/Resources/Public/Images/cshimages/fegroups_4.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:frontend/Resources/Public/Images/cshimages/fegroups_3.png,
+EXT:frontend/Resources/Public/Images/cshimages/fegroups_4.png</target></trans-unit>
       <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
 				<source>The form for editing frontend users groups.
 Pages, Content Elements and other records for frontend display often have a selector box where you can define access restriction by selecting access for a certain group only.</source>
