@@ -132,6 +132,30 @@
         <source>Color Space</source>
         <target state="translated">रंग स्थान</target>
       </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.RGB" approved="yes">
+        <source>RGB</source>
+        <target state="translated">RGB</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.sRGB" approved="yes">
+        <source>sRGB</source>
+        <target state="translated">sRGB</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.CMYK" approved="yes">
+        <source>CMYK</source>
+        <target state="translated">CMYK</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.CMY" approved="yes">
+        <source>CMY</source>
+        <target state="translated">CMY</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.YUV" approved="yes">
+        <source>YUV</source>
+        <target state="translated">YUV</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.grey" approved="yes">
+        <source>Grey</source>
+        <target state="translated">Grey</target>
+      </trans-unit>
       <trans-unit id="sys_file_metadata.color_space.indx" approved="yes">
         <source>Indexed</source>
         <target state="translated">इंडैक्स्ड</target>
@@ -198,6 +222,10 @@
       <trans-unit id="palette.accessibility" approved="yes">
         <source>Accessibility</source>
         <target state="translated">एक्सेसिबिलिटी</target>
+      </trans-unit>
+      <trans-unit id="palette.gps" approved="yes">
+        <source>GPS</source>
+        <target state="translated">GPS</target>
       </trans-unit>
       <!-- fe_groups fields -->
       <trans-unit id="fe_groups.files" approved="yes">
