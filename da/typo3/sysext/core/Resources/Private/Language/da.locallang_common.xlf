@@ -19,9 +19,9 @@
         <source>Back</source>
         <target state="translated">Tilbage</target>
       </trans-unit>
-      <trans-unit id="byteSizeUnits">
+      <trans-unit id="byteSizeUnits" approved="yes">
         <source> B| KB| MB| GB</source>
-        <target state="needs-translation"> </target>
+        <target state="translated"> B| KB| MB| GB</target>
       </trans-unit>
       <trans-unit id="cancel" approved="yes">
         <source>Cancel</source>
@@ -58,6 +58,10 @@
       <trans-unit id="down" approved="yes">
         <source>Down</source>
         <target state="translated">Ned</target>
+      </trans-unit>
+      <trans-unit id="download" approved="yes">
+        <source>Download</source>
+        <target state="translated">Download</target>
       </trans-unit>
       <trans-unit id="edit" approved="yes">
         <source>Edit</source>
@@ -127,6 +131,10 @@
         <source>Left</source>
         <target state="translated">Venstre</target>
       </trans-unit>
+      <trans-unit id="login" approved="yes">
+        <source>Login</source>
+        <target state="translated">Login</target>
+      </trans-unit>
       <trans-unit id="logout" approved="yes">
         <source>Logout</source>
         <target state="translated">Log ud</target>
@@ -151,6 +159,10 @@
         <source>No</source>
         <target state="translated">Nej</target>
       </trans-unit>
+      <trans-unit id="ok" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
+      </trans-unit>
       <trans-unit id="open" approved="yes">
         <source>Open</source>
         <target state="translated">Åben</target>
@@ -166,6 +178,10 @@
       <trans-unit id="previous" approved="yes">
         <source>Previous</source>
         <target state="translated">Forrige</target>
+      </trans-unit>
+      <trans-unit id="print" approved="yes">
+        <source>Print</source>
+        <target state="translated">Print</target>
       </trans-unit>
       <trans-unit id="reload" approved="yes">
         <source>Reload</source>
@@ -199,6 +215,18 @@
         <source>Search</source>
         <target state="translated">Søg</target>
       </trans-unit>
+      <trans-unit id="send" approved="yes">
+        <source>Send</source>
+        <target state="translated">Send</target>
+      </trans-unit>
+      <trans-unit id="start" approved="yes">
+        <source>Start</source>
+        <target state="translated">Start</target>
+      </trans-unit>
+      <trans-unit id="stop" approved="yes">
+        <source>Stop</source>
+        <target state="translated">Stop</target>
+      </trans-unit>
       <trans-unit id="submit" approved="yes">
         <source>Submit</source>
         <target state="translated">Send</target>
@@ -207,6 +235,10 @@
         <source>To</source>
         <target state="translated">Til</target>
       </trans-unit>
+      <trans-unit id="tsRef" approved="yes">
+        <source>TSref reference</source>
+        <target state="translated">TSref reference</target>
+      </trans-unit>
       <trans-unit id="undefined" approved="yes">
         <source>Undefined</source>
         <target state="translated">Udefineret</target>
@@ -214,6 +246,10 @@
       <trans-unit id="up" approved="yes">
         <source>Up</source>
         <target state="translated">Op</target>
+      </trans-unit>
+      <trans-unit id="upload" approved="yes">
+        <source>Upload</source>
+        <target state="translated">Upload</target>
       </trans-unit>
       <trans-unit id="user" approved="yes">
         <source>User</source>
