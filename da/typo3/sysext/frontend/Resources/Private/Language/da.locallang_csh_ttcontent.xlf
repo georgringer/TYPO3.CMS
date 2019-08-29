@@ -16,6 +16,14 @@
 _MOD_web_layout</source>
 			<target state="translated">Sideindhold principper | http://docs.typo3.org/typo3cms/GettingStartedTutorial/GeneralPrinciples/PageContent/,
 _MOD_web_layout</target></trans-unit>
+      <trans-unit id="_.image" xml:space="preserve" approved="yes">
+				<source>EXT:frontend/Resources/Public/Images/cshimages/ttcontent_1.png,
+EXT:frontend/Resources/Public/Images/cshimages/ttcontent_2.png,
+EXT:frontend/Resources/Public/Images/cshimages/ttcontent_3.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:frontend/Resources/Public/Images/cshimages/ttcontent_1.png,
+EXT:frontend/Resources/Public/Images/cshimages/ttcontent_2.png,
+EXT:frontend/Resources/Public/Images/cshimages/ttcontent_3.png</target></trans-unit>
       <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
 				<source>The Page Module is used to manage Content Elements arranged in columns and languages.
 A Content Element has an editing form with many options. The "Type" determines which options are visible.
@@ -134,18 +142,55 @@ About Content Elements | https://docs.typo3.org/typo3cms/GettingStartedTutorial/
 			<target state="translated">tt_content:colPos,
 tt_content:sys_language_uid,
 Om indholdselementer | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/EditPageContent/</target></trans-unit>
+      <trans-unit id="_CType.image" approved="yes">
+        <source>EXT:frontend/Resources/Public/Images/cshimages/ttcontent_4.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:frontend/Resources/Public/Images/cshimages/ttcontent_4.png</target>
+      </trans-unit>
       <trans-unit id="hidden.description" approved="yes">
         <source>Check this box if you wish to disable the Content Element and keep it from being displayed on the website.</source>
         <target state="translated">Markér dette afkrydsningsfelt, hvis du ønsker at skjule indholdselementet.</target>
       </trans-unit>
+      <trans-unit id="_hidden.seeAlso" xml:space="preserve" approved="yes">
+				<source>tt_content:starttime,
+tt_content:endtime,
+tt_content:fe_group,
+tt_content:colPos,
+tt_content:sys_language_uid</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:starttime,
+tt_content:endtime,
+tt_content:fe_group,
+tt_content:colPos,
+tt_content:sys_language_uid</target></trans-unit>
       <trans-unit id="starttime.description" approved="yes">
         <source>Enter the date when the Content Element should be published and displayed on the website.</source>
         <target state="translated">Indtast den dato hvor elementet bliver vist. Datoen der indtastes, er første visningsdag.</target>
       </trans-unit>
+      <trans-unit id="_starttime.seeAlso" xml:space="preserve" approved="yes">
+				<source>pages:starttime,
+tt_content:endtime,
+tt_content:hidden,
+tt_content:fe_group</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">pages:starttime,
+tt_content:endtime,
+tt_content:hidden,
+tt_content:fe_group</target></trans-unit>
       <trans-unit id="endtime.description" approved="yes">
         <source>Enter the date when the Content Element should expire and disappear from the website.</source>
         <target state="translated">Indtast den dato hvor elementet ikke længere vises. Indtast den dato hvor elementet bliver vist.</target>
       </trans-unit>
+      <trans-unit id="_endtime.seeAlso" xml:space="preserve" approved="yes">
+				<source>pages:endtime,
+tt_content:starttime,
+tt_content:hidden,
+tt_content:fe_group</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">pages:endtime,
+tt_content:starttime,
+tt_content:hidden,
+tt_content:fe_group</target></trans-unit>
       <trans-unit id="fe_group.description" approved="yes">
         <source>If Usergroup Access Rights are set to a usergroup name, only website users who are logged in and members of the selected usergroup will be able to view the Content Element. The special option 'Hide at Login' means the Content Element will &lt;em&gt;not&lt;/em&gt; be visible for any website users that are logged in. Likewise "Show at Any Login" will make the Content Element visible for any logged in website user.</source>
         <target state="translated">Hvis brugergruppe adgangsrettigheder er angivet til t brugergruppenavn, vil sideelementet kun blive vist til de medlemmer der tilhører brugergruppen. Den specielle mulighed 'Gem ved login' betyder at indholdselementet &lt;em&gt;ikke&lt;/em&gt; vil være synlig for nogen bruger, der er logget ind. På samme måde vil 'Vis ved alle logins' gøre indholdselementet synlig for enhver bruger der er logget ind.</target>
@@ -154,6 +199,20 @@ Om indholdselementer | https://docs.typo3.org/typo3cms/GettingStartedTutorial/Ed
         <source>The 'Hide at Login' option is is useful if you want to present information like "How to Login" that becomes irrelevant when a website user is actually logged in.</source>
         <target state="translated">Mulighederne i denne boks afhænger af hvilke Frontend brugergrupper der er oprettet. Når du vælger en brugergruppe her, vil elementet være skjult overfor de brugere som ikke er logget ind, og medlemmer af den gruppe som er valgt, vil have mulighed for at se elementet. Hvis du vælger "Skjul ved log ind" er effekten omvendt, på den måde at forstå, at elementet &lt;em&gt;forsvinder&lt;/em&gt; hvis &lt;em&gt;nogen&lt;/em&gt; website bruger er logget ind. Dette er brugbart hvis du ønsker at præsentere information, som for eksempel "Hvordan logger du ind" og informationen er irrelevant, når du er logget ind.</target>
       </trans-unit>
+      <trans-unit id="_fe_group.seeAlso" xml:space="preserve" approved="yes">
+				<source>tt_content:hidden,
+tt_content:starttime,
+tt_content:endtime,
+pages:fe_group,
+fe_users,
+fe_groups</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:hidden,
+tt_content:starttime,
+tt_content:endtime,
+pages:fe_group,
+fe_users,
+fe_groups</target></trans-unit>
       <trans-unit id="sys_language_uid.description" approved="yes">
         <source>Select the system language of this Content Element. &lt;strong&gt;Notice:&lt;/strong&gt; This will affect the Content Element visibility by limiting it to a certain language.</source>
         <target state="translated">Vælg systemsprog for dette element. &lt;strong&gt;Bemærk&lt;/strong&gt; Dette har betydning for om elementet vises.</target>
@@ -163,6 +222,16 @@ Om indholdselementer | https://docs.typo3.org/typo3cms/GettingStartedTutorial/Ed
 The available system languages are created by the administrator.</source>
 			<target state="translated">Dette giver dig mulighed for at tildele et specifikt sprog til indholdselementet. Hvis du vælger noget andet end standardindstillingen, vil elementet &lt;em&gt;ikke&lt;/em&gt; blive synligt medmindre det tildelte sprog også er konfigureret af TypoScript skabelonen.
 De tilgængelige systemsprog oprettes af administratoren.</target></trans-unit>
+      <trans-unit id="_sys_language_uid.seeAlso" xml:space="preserve" approved="yes">
+				<source>tt_content:colPos,
+sys_language,
+Localization concepts [Technical] | http://typo3.org/documentation/tips-tricks/multi-language-sites-in-typo3/,
+_MOD_web_layout:language_list</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:colPos,
+sys_language,
+Localization concepts [Technical] | http://typo3.org/documentation/tips-tricks/multi-language-sites-in-typo3/,
+_MOD_web_layout:language_list</target></trans-unit>
       <trans-unit id="layout.description" approved="yes">
         <source>Select a Layout.</source>
         <target state="translated">Vælg et layout.</target>
@@ -193,6 +262,14 @@ Der er flere forskellige standard udførsler afhængig af indholdselement typen.
 			<target state="translated">Mange websites bruger kun en kolonne til indhold. Det er dog muligt at tilbygge flere skabeloner, som giver dig mulighed for at indsætte indholdselementer i flere kolonner. Denne selektorboks lader dig vælge en anden kolonne til indholdet.
 
 &lt;strong&gt;Bemærk&lt;/strong&gt; Hvis du vælger en anden kolonne end 'Normal' kolonnen, kan dette medføre at indholdselementet ikke vises på websitet, medmindre denne kolonne også vises på websitet. Hvis dit indholdselement på besynderlig vis ikke vises, eftertjek da at kolonnen vises på websitet.</target></trans-unit>
+      <trans-unit id="_colPos.seeAlso" xml:space="preserve" approved="yes">
+				<source>tt_content:sys_language_uid,
+_MOD_web_layout:columns_multi,
+_MOD_web_layout:columns_single</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:sys_language_uid,
+_MOD_web_layout:columns_multi,
+_MOD_web_layout:columns_single</target></trans-unit>
       <trans-unit id="date.description" approved="yes">
         <source>Enter a date to be displayed above the header.</source>
         <target state="translated">Indtast en dato der vises over overskriften.</target>
@@ -208,9 +285,29 @@ Some content element types do not display the header by default. In those cases 
 			<target state="translated">Næsten alle indholdselementer (dog ikke HTML elementet med andre) viser en overskrift over indholdet. Hvis du ikke ønsker at overskriften skal vises kan du vælge 'Skjult' i selektorboksen 'Layout'. Alternativt kan du undlade at indtaste noget i feltet.
 
 Nogle indholdselement-typer viser ikke overskriften som standard. I disse tilfælde er Overskrift feltet typisk benævnt "Navn" i stedet. Et af disse er HTML indholdselementet.</target></trans-unit>
+      <trans-unit id="_header.seeAlso" xml:space="preserve" approved="yes">
+				<source>tt_content:header_position,
+tt_content:header_link,
+tt_content:header_layout,
+tt_content:date,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:header_position,
+tt_content:header_link,
+tt_content:header_layout,
+tt_content:date,</target></trans-unit>
+      <trans-unit id="_header.image" approved="yes">
+        <source>EXT:frontend/Resources/Public/Images/cshimages/ttcontent_6.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:frontend/Resources/Public/Images/cshimages/ttcontent_6.png</target>
+      </trans-unit>
       <trans-unit id="header_position.description" approved="yes">
         <source>Aligns the header to the left, center, or right.</source>
         <target state="translated">Placerer overskriften til venstre, centreret, eller højrejusteret.</target>
+      </trans-unit>
+      <trans-unit id="_header_position.seeAlso" approved="yes">
+        <source>tt_content:header</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">tt_content:header</target>
       </trans-unit>
       <trans-unit id="header_link.description" approved="yes">
         <source>Creates a link from the header to a Page ID, email address, or URL.</source>
@@ -223,6 +320,11 @@ If you insert an URL or domain, (ex. www.typo3.org or http://www.my-domain.org),
 			<target state="translated">Hvis du indsætter et ID-nummer, (f.eks. 51), refererer linket til siden med id=51 &lt;em&gt;i&lt;/em&gt; TYPO3.
 Hvis du indsætter en e-mail, for eksempel "navn@mit-domain.test", vil linket pege på den e-mail adresse.
 Hvis du indtaster en URL eller et domæne, f.eks. "www.typo3.org" eller "http://www.mit-domain.org", vil linket pege på den hjemmeside.</target></trans-unit>
+      <trans-unit id="_header_link.seeAlso" approved="yes">
+        <source>tt_content:header</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">tt_content:header</target>
+      </trans-unit>
       <trans-unit id="header_layout.description" approved="yes">
         <source>Select a visual design for the header.</source>
         <target state="translated">Vælg et visuelt design for overskriften.</target>
@@ -234,6 +336,11 @@ If you select "Hidden" the header will simply not appear. This is useful when yo
 			<target state="translated">Hvis du vælger “Standard” vil standard designet (et ud af de tilgængelige layouts 1-5) blive brugt.
 Alternativt kan du vælge mellem de 5 layouts (layout 1-5), som er konfigureret i website skabelonen med individuelle visuelle designs.
 Hvis du vælger “Skjult” vil overskriften ikke blive vist. Dette kan være praktisk, hvis du ønsker at kunne identificere et indholdselement på en overskrift i Backend, men samtidig ønsker, at overskriften skal være skjult på websitet.</target></trans-unit>
+      <trans-unit id="_header_layout.seeAlso" approved="yes">
+        <source>tt_content:header</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">tt_content:header</target>
+      </trans-unit>
       <trans-unit id="subheader.description" approved="yes">
         <source>Enter a subheader to be displayed below the main header. If the Content Element is a "Form" this field is instead used as the Recipient Email.</source>
         <target state="translated">Indtast en underoverskrift. Denne bliver vist under den almindelige overskrift. Hvis indholdselementets type er “Formular” bliver feltet brugt til formularmodtagerens emailadresse.</target>
@@ -242,6 +349,12 @@ Hvis du vælger “Skjult” vil overskriften ikke blive vist. Dette kan være p
         <source>A subheader is displayed only with "Header" Content Elements and with "Form" Content Elements (as the Recipient Email).</source>
         <target state="translated">En underoverskrift vises kun, når indholdselementets type er valgt som “Overskrift”. &lt;b&gt;Bemærk:&lt;/b&gt; Når indholdselementtypen “Formular” anvendes, bliver feltet brugt til “Modtager-email” - formularmodtagerens emailadresse. Det er derfor vigtigt, at tildele adgang til dette felt til brugerne.</target>
       </trans-unit>
+      <trans-unit id="_subheader.seeAlso" xml:space="preserve" approved="yes">
+				<source>tt_content:header
+tt_content:bodytext</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:header
+tt_content:bodytext</target></trans-unit>
       <trans-unit id="bodytext.description" approved="yes">
         <source>Enter the main text.</source>
         <target state="translated">Indtast brødteksten.</target>
@@ -269,6 +382,14 @@ Hvis typen er “Punktliste” vil hver ny linie starte med et punkt.
 
 &lt;b&gt;Tabeller:&lt;/b&gt;
 Hvis typen er “Tabel” vil hver ny linie repræsentere en tabelrække. Indenfor hver enkelt linie deles teksten i kolonner af en lodret streg, |. En tabel med 3 kolonner kunne se ud som følgende: “Kolonne 1 | Kolonne 2 | Kolonne 3” Men brug tabelguiden til at lave tabeller, det er meget nemmere end at “kode” dem.</target></trans-unit>
+      <trans-unit id="_bodytext.seeAlso" xml:space="preserve" approved="yes">
+				<source>tt_content:CType,
+tt_content:subheader,
+xMOD_csh_corebe:wizard_table_wiz</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:CType,
+tt_content:subheader,
+xMOD_csh_corebe:wizard_table_wiz</target></trans-unit>
       <trans-unit id="image.description" approved="yes">
         <source>Insert one or more images.</source>
         <target state="translated">Indsæt et eller flere billeder.</target>
@@ -307,6 +428,11 @@ tt_content:imagecaption,
 tt_content:image_frames,
 Brug af billeder ("Getting Started") | https://docs.typo3.org/typo3cms/GettingStartedTutorial/TheFileModuleOrImageArchives/ManagingFilesInTypo3/
 Brug af billeder (Animation) | FILE:EXT:welcome/modsub/ani_10.gif</target></trans-unit>
+      <trans-unit id="_image.image" approved="yes">
+        <source>EXT:frontend/Resources/Public/Images/cshimages/ttcontent_5.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:frontend/Resources/Public/Images/cshimages/ttcontent_5.png</target>
+      </trans-unit>
       <trans-unit id="image.image_descr" approved="yes">
         <source>This shows all the options related to inserting images in Content Elements. Depending on user permissions, you may not be able to use all of them.</source>
         <target state="translated">Dette viser alle funktioner relateret til indsætning af billeder i indholdselementer. Afhængigt af systemets konfiguration, er det ikke sikkert du har adgang til alle funktioner.</target>
@@ -319,10 +445,22 @@ Brug af billeder (Animation) | FILE:EXT:welcome/modsub/ani_10.gif</target></tran
         <source>The TypoScript template is normally configured with maximum image width so you shouldn't need to specify a width. In unique cases, this provides additional flexibility though.</source>
         <target state="translated">Skabelonen er normalt konfigureret til at vise et billede i maksimal bredde og det er derfor ikke nødvendigt at specificere bredde hvis billedet passer i forhold til indholdet. Feltet giver dig blot mulighed for at overskrive denne værdi.</target>
       </trans-unit>
+      <trans-unit id="_imagewidth.seeAlso" xml:space="preserve" approved="yes">
+				<source>tt_content:imageheight,
+tt_content:image</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:imageheight,
+tt_content:image</target></trans-unit>
       <trans-unit id="imageheight.description" approved="yes">
         <source>Enter the height (in pixels) for displaying the images in the Frontend of your website.</source>
         <target state="translated">Indtast højden på billedet i pixels.</target>
       </trans-unit>
+      <trans-unit id="_imageheight.seeAlso" xml:space="preserve" approved="yes">
+				<source>tt_content:imagewidth,
+tt_content:image</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:imagewidth,
+tt_content:image</target></trans-unit>
       <trans-unit id="imageorient.description" approved="yes">
         <source>Select the position and alignment of the images relative to the body text.</source>
         <target state="translated">Vælg billedblokkens position i forhold til brødteksten.</target>
@@ -339,6 +477,12 @@ Ud over den synlige forskel er der også et teknisk aspekt. Hvis tekstomløb væ
         <source>Displays a colored border around the images.</source>
         <target state="translated">Vælg om du vil have en kant på billederne.</target>
       </trans-unit>
+      <trans-unit id="_imageborder.seeAlso" xml:space="preserve" approved="yes">
+				<source>tt_content:imagecols,
+tt_content:image</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:imagecols,
+tt_content:image</target></trans-unit>
       <trans-unit id="image_link.description" approved="yes">
         <source>Enter a link for the image. For multiple images, separate the links with commas.</source>
         <target state="translated">Indtast et link til billedet.</target>
@@ -350,6 +494,14 @@ See Page Content&gt;Link below for details on syntax.</source>
 			<target state="translated">Som standard deler alle billeder det samme link. Men du kan bede administratoren om at konfigurere TypoScript skabelonen, så den tillader et seperat link for hvert billede. Hvis dette er konfigureret, skal seperate links blot adskilles af komma.
 
 Se sideindhold-&gt;Link under for syntaksdetaljer.</target></trans-unit>
+      <trans-unit id="_image_link.seeAlso" xml:space="preserve" approved="yes">
+				<source>tt_content:header_link,
+tt_content:image_zoom,
+tt_content:image</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:header_link,
+tt_content:image_zoom,
+tt_content:image</target></trans-unit>
       <trans-unit id="image_zoom.description" approved="yes">
         <source>When enabled, clicking an image will open a larger version in a popup window.</source>
         <target state="translated">Markér her og billedet linkes til en større udgave i et popup vindue.</target>
@@ -358,14 +510,28 @@ Se sideindhold-&gt;Link under for syntaksdetaljer.</target></trans-unit>
         <source>This option overrides the value in the Links field.</source>
         <target state="translated">Dette overskriver værdien i link-feltet.</target>
       </trans-unit>
+      <trans-unit id="_image_zoom.seeAlso" xml:space="preserve" approved="yes">
+				<source>tt_content:image_link,
+tt_content:image</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:image_link,
+tt_content:image</target></trans-unit>
       <trans-unit id="image_frames.description" approved="yes">
         <source>Select special image framing options.</source>
         <target state="translated">Vælg specielle billedramme muligheder.</target>
       </trans-unit>
+      <trans-unit id="_image_frames.seeAlso" xml:space="preserve" approved="yes">
+				<source>tt_content:image</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:image</target></trans-unit>
       <trans-unit id="imagecols.description" approved="yes">
         <source>Set the number of columns when the images are displayed in the Frontend of the website.</source>
         <target state="translated">Vælg antallet af kolonner billederne vises i.</target>
       </trans-unit>
+      <trans-unit id="_imagecols.seeAlso" xml:space="preserve" approved="yes">
+				<source>tt_content:image</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:image</target></trans-unit>
       <trans-unit id="imagecaption.description" approved="yes">
         <source>Enter captions for the images. For multiple images, enter one caption per line.</source>
         <target state="translated">Indtast en billedtekst</target>
@@ -410,6 +576,12 @@ For at være sikker på, at login virker, skal du sikre dig 1) at der er oprette
 Typen “Menu/oversigt” bruger også dette felt. I dette tilfælde vil siden bestemme hvor menuen begynder eller måske endda repræsentere de aktuelle sider, hvortil menuen linker. Dette afhænger af den undertype af “Menu/oversigt”, som er valgt.
 
 Typen “Formular” bruger dette felt til den side, hvortil man sendes, når man har afsendt formularen. Det kunne være en side med “Tak for din mail”.</target></trans-unit>
+      <trans-unit id="_pages.seeAlso" xml:space="preserve" approved="yes">
+				<source>tt_content:CType,
+tt_content:recursive</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:CType,
+tt_content:recursive</target></trans-unit>
       <trans-unit id="recursive.description" approved="yes">
         <source>The number of subpage levels that should also be included for each page in the list.</source>
         <target state="translated">Vælg hvor mange underniveauer der yderligere skal vælges for hver side i listen.</target>
@@ -421,6 +593,11 @@ Typen “Formular” bruger dette felt til den side, hvortil man sendes, når ma
 			<target state="translated">Denne funtionalitet afhænger af implementering i skabelonen. Hvis denne funktionalitet er slået til betyder det, at for hver side listet i “Spring til side/Startside” vil undersider - som niveaumæssigt er specificeret her - &lt;em&gt;også&lt;/em&gt; blive valgt.
 
 &lt;strong&gt;Advarsel:&lt;/strong&gt; Hvis der er mange underside, skal man være forsigtig med denne funktion, da den kan vælge et meget stort antal sider.</target></trans-unit>
+      <trans-unit id="_recursive.seeAlso" approved="yes">
+        <source>tt_content:pages</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">tt_content:pages</target>
+      </trans-unit>
       <trans-unit id="menu_type.description" approved="yes">
         <source>Select the type of menu you wish to create.</source>
         <target state="translated">Vælg hvilken form for menu, du ønsker at oprette.</target>
@@ -482,6 +659,12 @@ Viser andre relaterede sider baseret på de nøgleord, som er indsat på den akt
 
 
 &lt;b&gt;Bemærk:&lt;/b&gt; Ved mange af de ovennævnte menutyper, er standard udgangspunktet den aktuelle. Men du kan specificere en anden side som udgangspunkt (faktisk flere end én) ved at tilføje sider til listen i "Udgangspunkt".</target></trans-unit>
+      <trans-unit id="_menu_type.seeAlso" xml:space="preserve" approved="yes">
+				<source>tt_content:pages,
+tt_content:sectionIndex</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:pages,
+tt_content:sectionIndex</target></trans-unit>
       <trans-unit id="list_type.description" approved="yes">
         <source>Select a plugin to insert.</source>
         <target state="translated">Vælg den plugin du vil indsætte.</target>
@@ -489,6 +672,16 @@ Viser andre relaterede sider baseret på de nøgleord, som er indsat på den akt
       <trans-unit id="list_type.details" approved="yes">
         <source>The list of plugins you can insert on a page. The available plugins depend on which extensions are installed.</source>
         <target state="translated">Listen med plugins, du kan indsætte på en side. De tilgængelige plugins afhænger af hvilke udvidelser, der er installeret.</target>
+      </trans-unit>
+      <trans-unit id="_list_type.seeAlso" approved="yes">
+        <source>_MOD_tools_em</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">_MOD_tools_em</target>
+      </trans-unit>
+      <trans-unit id="_list_type.image" approved="yes">
+        <source>EXT:frontend/Resources/Public/Images/cshimages/ttcontent_7.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:frontend/Resources/Public/Images/cshimages/ttcontent_7.png</target>
       </trans-unit>
       <trans-unit id="media.description" approved="yes">
         <source>Files can be added to the list here.</source>
@@ -514,6 +707,11 @@ Viser andre relaterede sider baseret på de nøgleord, som er indsat på den akt
         <source>See more details about Section Menus by clicking below.</source>
         <target state="translated">Se detaljer for Menu-type selektor (klik nedenfor).</target>
       </trans-unit>
+      <trans-unit id="_sectionIndex.seeAlso" approved="yes">
+        <source>tt_content:menu_type</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">tt_content:menu_type</target>
+      </trans-unit>
       <trans-unit id="linkToTop.description" approved="yes">
         <source>If checked, a small  "To Top" link will be added after the Content Element, linking back to the top of the page.</source>
         <target state="translated">Hvis du markerer her, indsættes et "Til top" link efter indholdselementet, som linker tilbage til toppen af siden.</target>
@@ -522,6 +720,11 @@ Viser andre relaterede sider baseret på de nøgleord, som er indsat på den akt
         <source>If checked, the Rich Text Editor will be disabled for the "Text" and "Text &amp; Image" types (&lt;em&gt;in this Content Element only&lt;/em&gt;).</source>
         <target state="translated">Hvis markeret, vil RTE blive slået fra for “Tekst” og “Tekst m/billede” typer (&lt;em&gt;i dette element&lt;/em&gt;).</target>
       </trans-unit>
+      <trans-unit id="_rte_enabled.seeAlso" approved="yes">
+        <source>tt_content:bodytext</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">tt_content:bodytext</target>
+      </trans-unit>
       <trans-unit id="pi_flexform.description" approved="yes">
         <source>Plugin Configuration</source>
         <target state="translated">FlexFormular konfiguration af plugins</target>
@@ -529,6 +732,11 @@ Viser andre relaterede sider baseret på de nøgleord, som er indsat på den akt
       <trans-unit id="pi_flexform.details" approved="yes">
         <source>Some plugins may provide configuration options, but the actual options vary based on the plugin. Behind the scenes, these are based on FlexForms and stored as XML.</source>
         <target state="translated">Nogle plugins kræver konfiguration af valgmuligheder. Her kan dette felt eventuelt bruges til FlexFormular baserede konfigurations indstillinger.</target>
+      </trans-unit>
+      <trans-unit id="_pi_flexform.seeAlso" approved="yes">
+        <source>tt_content:list_type</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">tt_content:list_type</target>
       </trans-unit>
     </body>
   </file>
