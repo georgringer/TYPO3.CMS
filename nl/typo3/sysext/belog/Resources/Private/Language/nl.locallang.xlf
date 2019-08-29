@@ -15,6 +15,14 @@
         <source>[Any]</source>
         <target state="translated">[Alle]</target>
       </trans-unit>
+      <trans-unit id="viaUser" approved="yes">
+        <source>via</source>
+        <target state="translated">via</target>
+      </trans-unit>
+      <trans-unit id="live" approved="yes">
+        <source>LIVE</source>
+        <target state="translated">LIVE</target>
+      </trans-unit>
       <trans-unit id="draft" approved="yes">
         <source>Draft</source>
         <target state="translated">Concept</target>
@@ -63,13 +71,45 @@
         <source>Set</source>
         <target state="translated">Instellen</target>
       </trans-unit>
+      <trans-unit id="20" approved="yes">
+        <source>20</source>
+        <target state="translated">20</target>
+      </trans-unit>
+      <trans-unit id="50" approved="yes">
+        <source>50</source>
+        <target state="translated">50</target>
+      </trans-unit>
+      <trans-unit id="100" approved="yes">
+        <source>100</source>
+        <target state="translated">100</target>
+      </trans-unit>
+      <trans-unit id="200" approved="yes">
+        <source>200</source>
+        <target state="translated">200</target>
+      </trans-unit>
+      <trans-unit id="500" approved="yes">
+        <source>500</source>
+        <target state="translated">500</target>
+      </trans-unit>
+      <trans-unit id="1000" approved="yes">
+        <source>1000</source>
+        <target state="translated">1000</target>
+      </trans-unit>
       <trans-unit id="actionAll" approved="yes">
         <source>All</source>
         <target state="translated">Alles</target>
       </trans-unit>
+      <trans-unit id="actionDatabase" approved="yes">
+        <source>Database</source>
+        <target state="translated">Database</target>
+      </trans-unit>
       <trans-unit id="actionFile" approved="yes">
         <source>File</source>
         <target state="translated">Bestand</target>
+      </trans-unit>
+      <trans-unit id="actionCache" approved="yes">
+        <source>Cache</source>
+        <target state="translated">Cache</target>
       </trans-unit>
       <trans-unit id="actionSettings" approved="yes">
         <source>Settings</source>
@@ -123,6 +163,10 @@
         <source>Group by page</source>
         <target state="translated">Groeperen op pagina</target>
       </trans-unit>
+      <trans-unit id="pagenameWithUID" approved="yes">
+        <source>%s" [UID: %s]</source>
+        <target state="translated">%s" [UID: %s]</target>
+      </trans-unit>
       <trans-unit id="overview" approved="yes">
         <source>Overview</source>
         <target state="translated">Overzicht</target>
@@ -146,6 +190,10 @@
       <trans-unit id="logForNonPageRelatedActionsOrRootLevelOrPage" approved="yes">
         <source>Log %s from %s to %s</source>
         <target state="translated">Log %s van %s tot %s</target>
+      </trans-unit>
+      <trans-unit id="type_1" approved="yes">
+        <source>DB</source>
+        <target state="translated">DB</target>
       </trans-unit>
       <trans-unit id="action_1_1" approved="yes">
         <source>Insert</source>
@@ -319,6 +367,10 @@
         <source>File saved to '%s', bytes: %s, MD5: %s </source>
         <target state="translated">Bestand opgeslagen als '%s', grootte: %s bytes, MD5: %s </target>
       </trans-unit>
+      <trans-unit id="type_3" approved="yes">
+        <source>CACHE</source>
+        <target state="translated">CACHE</target>
+      </trans-unit>
       <trans-unit id="action_3_1" approved="yes">
         <source>Clear Cache</source>
         <target state="translated">Cache legen</target>
@@ -415,9 +467,17 @@
         <source>Action</source>
         <target state="translated">Actie</target>
       </trans-unit>
+      <trans-unit id="chLog_l_types" approved="yes">
+        <source>Type</source>
+        <target state="translated">Type</target>
+      </trans-unit>
       <trans-unit id="chLog_l_table" approved="yes">
         <source>Table</source>
         <target state="translated">Tabel</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_details" approved="yes">
+        <source>Details</source>
+        <target state="translated">Details</target>
       </trans-unit>
       <trans-unit id="chLog_menuUsers" approved="yes">
         <source>Users</source>
