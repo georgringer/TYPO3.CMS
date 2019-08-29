@@ -27,6 +27,10 @@
         <source>Information</source>
         <target state="translated">Informatie</target>
       </trans-unit>
+      <trans-unit id="hdg.cliScript" approved="yes">
+        <source>CLI script</source>
+        <target state="translated">CLI script</target>
+      </trans-unit>
       <trans-unit id="hdg.lastRun" approved="yes">
         <source>Last run</source>
         <target state="translated">Laatste uitvoering</target>
@@ -51,9 +55,17 @@
         <source>Class</source>
         <target state="translated">Klasse</target>
       </trans-unit>
+      <trans-unit id="label.cron" approved="yes">
+        <source>Cron</source>
+        <target state="translated">Cron</target>
+      </trans-unit>
       <trans-unit id="label.defType" approved="yes">
         <source>Definition type</source>
         <target state="translated">Definitietype</target>
+      </trans-unit>
+      <trans-unit id="label.defType.interval" approved="yes">
+        <source>Interval</source>
+        <target state="translated">Interval</target>
       </trans-unit>
       <trans-unit id="label.defType.cron" approved="yes">
         <source>Cron command</source>
@@ -90,6 +102,10 @@
       <trans-unit id="label.frequency.long" approved="yes">
         <source>Frequency (seconds or cron command)</source>
         <target state="translated">Frequentie (seconden of cron-commando)</target>
+      </trans-unit>
+      <trans-unit id="label.id" approved="yes">
+        <source>ID</source>
+        <target state="translated">ID</target>
       </trans-unit>
       <trans-unit id="label.lastExecution" approved="yes">
         <source>Last Execution</source>
@@ -178,6 +194,10 @@
       <trans-unit id="label.optimizeDatabaseTables.selectTables" approved="yes">
         <source>Database tables</source>
         <target state="translated">Databasetabellen</target>
+      </trans-unit>
+      <trans-unit id="label.type" approved="yes">
+        <source>Type</source>
+        <target state="translated">Type</target>
       </trans-unit>
       <trans-unit id="label.type.recurring" approved="yes">
         <source>Recurring</source>
@@ -430,6 +450,10 @@
       <trans-unit id="none" approved="yes">
         <source>None</source>
         <target state="translated">Geen</target>
+      </trans-unit>
+      <trans-unit id="status" approved="yes">
+        <source>Status</source>
+        <target state="translated">Status</target>
       </trans-unit>
       <trans-unit id="status.progress" approved="yes">
         <source>Progress</source>
