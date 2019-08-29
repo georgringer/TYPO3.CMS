@@ -3,13 +3,25 @@
   <file t3:id="1435679883" source-language="en" datatype="plaintext" original="messages" date="2015-06-30T15:55:11Z" product-name="" target-language="fr">
     <header/>
     <body>
+      <trans-unit id="tx_extensionmanager_domain_model_extension" approved="yes">
+        <source>Extension</source>
+        <target state="translated">Extension</target>
+      </trans-unit>
       <trans-unit id="tx_extensionmanager_domain_model_extension.extensionkey" approved="yes">
         <source>Extension Key</source>
         <target state="translated">Clé d'extension</target>
       </trans-unit>
+      <trans-unit id="tx_extensionmanager_domain_model_extension.version" approved="yes">
+        <source>Version</source>
+        <target state="translated">Version</target>
+      </trans-unit>
       <trans-unit id="tx_extensionmanager_domain_model_extension.title" approved="yes">
         <source>Title</source>
         <target state="translated">Titre</target>
+      </trans-unit>
+      <trans-unit id="tx_extensionmanager_domain_model_extension.description" approved="yes">
+        <source>Description</source>
+        <target state="translated">Description</target>
       </trans-unit>
       <trans-unit id="tx_extensionmanager_domain_model_extension.state" approved="yes">
         <source>State</source>
@@ -58,6 +70,10 @@
       <trans-unit id="tx_extensionmanager_domain_model_repository.title" approved="yes">
         <source>Title</source>
         <target state="translated">Titre</target>
+      </trans-unit>
+      <trans-unit id="tx_extensionmanager_domain_model_repository.description" approved="yes">
+        <source>Description</source>
+        <target state="translated">Description</target>
       </trans-unit>
       <trans-unit id="tx_extensionmanager_domain_model_repository.wsdlUrl" approved="yes">
         <source>WSDL URL</source>
