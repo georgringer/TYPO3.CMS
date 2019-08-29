@@ -119,6 +119,10 @@
         <source>Options</source>
         <target state="translated">Muligheder</target>
       </trans-unit>
+      <trans-unit id="label_status" approved="yes">
+        <source>Status</source>
+        <target state="translated">Status</target>
+      </trans-unit>
       <trans-unit id="label_pagetree" approved="yes">
         <source>Pagetree</source>
         <target state="translated">Sidetræ</target>
@@ -294,6 +298,18 @@
       <trans-unit id="workspace_list_icon_title_switch_workspace" approved="yes">
         <source>Switch workspace</source>
         <target state="translated">Skift arbejdsrum</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_access_admin" approved="yes">
+        <source>Admin</source>
+        <target state="translated">Admin</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_access_online" approved="yes">
+        <source>Online</source>
+        <target state="translated">Online</target>
+      </trans-unit>
+      <trans-unit id="workspace_list_access_offline" approved="yes">
+        <source>Offline</source>
+        <target state="translated">Offline</target>
       </trans-unit>
       <trans-unit id="workspace_list_access_owner" approved="yes">
         <source>Owner</source>
@@ -475,6 +491,10 @@
         <source>Please explain why you reject</source>
         <target state="translated">Forklar venligst hvorfor du afviser</target>
       </trans-unit>
+      <trans-unit id="label_element" approved="yes">
+        <source>Element</source>
+        <target state="translated">Element</target>
+      </trans-unit>
       <trans-unit id="label_page" approved="yes">
         <source>Page</source>
         <target state="translated">Side</target>
@@ -518,6 +538,10 @@
       <trans-unit id="label_allWSes" approved="yes">
         <source>All workspaces</source>
         <target state="translated">Alle arbejdsrum</target>
+      </trans-unit>
+      <trans-unit id="label_notapplicable" approved="yes">
+        <source>n/a</source>
+        <target state="translated">n/a</target>
       </trans-unit>
       <trans-unit id="label_percentchange" approved="yes">
         <source>%%% change</source>
