@@ -19,6 +19,10 @@
         <source>via</source>
         <target state="translated">через</target>
       </trans-unit>
+      <trans-unit id="live" approved="yes">
+        <source>LIVE</source>
+        <target state="translated">LIVE</target>
+      </trans-unit>
       <trans-unit id="draft" approved="yes">
         <source>Draft</source>
         <target state="translated">Черновик</target>
@@ -66,6 +70,30 @@
       <trans-unit id="set" approved="yes">
         <source>Set</source>
         <target state="translated">Готово</target>
+      </trans-unit>
+      <trans-unit id="20" approved="yes">
+        <source>20</source>
+        <target state="translated">20</target>
+      </trans-unit>
+      <trans-unit id="50" approved="yes">
+        <source>50</source>
+        <target state="translated">50</target>
+      </trans-unit>
+      <trans-unit id="100" approved="yes">
+        <source>100</source>
+        <target state="translated">100</target>
+      </trans-unit>
+      <trans-unit id="200" approved="yes">
+        <source>200</source>
+        <target state="translated">200</target>
+      </trans-unit>
+      <trans-unit id="500" approved="yes">
+        <source>500</source>
+        <target state="translated">500</target>
+      </trans-unit>
+      <trans-unit id="1000" approved="yes">
+        <source>1000</source>
+        <target state="translated">1000</target>
       </trans-unit>
       <trans-unit id="actionAll" approved="yes">
         <source>All</source>
@@ -135,6 +163,10 @@
         <source>Group by page</source>
         <target state="translated">Группировать по страницам</target>
       </trans-unit>
+      <trans-unit id="pagenameWithUID" approved="yes">
+        <source>%s" [UID: %s]</source>
+        <target state="translated">%s" [UID: %s]</target>
+      </trans-unit>
       <trans-unit id="overview" approved="yes">
         <source>Overview</source>
         <target state="translated">Обзор</target>
@@ -158,6 +190,10 @@
       <trans-unit id="logForNonPageRelatedActionsOrRootLevelOrPage" approved="yes">
         <source>Log %s from %s to %s</source>
         <target state="translated">Журнал %s с %s по %s</target>
+      </trans-unit>
+      <trans-unit id="type_1" approved="yes">
+        <source>DB</source>
+        <target state="translated">DB</target>
       </trans-unit>
       <trans-unit id="action_1_1" approved="yes">
         <source>Insert</source>
@@ -283,6 +319,10 @@
         <source>Copying file '%s' failed!: The destination path (%s) may be write protected. Please make it write enabled!. (%s)</source>
         <target state="translated">Копирование файла '%s' не удалось: Целевой путь (%s) кажется защищённым от записи. Пожалуйста, предоставьте права на запись! (%s)</target>
       </trans-unit>
+      <trans-unit id="type_2" approved="yes">
+        <source>FILE</source>
+        <target state="translated">FILE</target>
+      </trans-unit>
       <trans-unit id="action_2_1" approved="yes">
         <source>Upload</source>
         <target state="translated">Загрузка</target>
@@ -323,6 +363,10 @@
         <source>File saved to '%s', bytes: %s, MD5: %s </source>
         <target state="translated">Файл сохранён как '%s', размер: %s байт, MD5: %s </target>
       </trans-unit>
+      <trans-unit id="type_3" approved="yes">
+        <source>CACHE</source>
+        <target state="translated">CACHE</target>
+      </trans-unit>
       <trans-unit id="action_3_1" approved="yes">
         <source>Clear Cache</source>
         <target state="translated">Очистить кэш</target>
@@ -339,9 +383,17 @@
         <source>Error handler</source>
         <target state="translated">Обработчик ошибок</target>
       </trans-unit>
+      <trans-unit id="type_254" approved="yes">
+        <source>SETTING</source>
+        <target state="translated">SETTING</target>
+      </trans-unit>
       <trans-unit id="action_254_1" approved="yes">
         <source>Change</source>
         <target state="translated">Изменение</target>
+      </trans-unit>
+      <trans-unit id="type_255" approved="yes">
+        <source>LOGIN</source>
+        <target state="translated">LOGIN</target>
       </trans-unit>
       <trans-unit id="action_255_1" approved="yes">
         <source>LOGIN</source>
