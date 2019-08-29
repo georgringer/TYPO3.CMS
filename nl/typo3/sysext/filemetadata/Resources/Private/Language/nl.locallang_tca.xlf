@@ -8,6 +8,10 @@
         <source>Visible</source>
         <target state="translated">Zichtbaar</target>
       </trans-unit>
+      <trans-unit id="sys_file_metadata.status" approved="yes">
+        <source>Status</source>
+        <target state="translated">Status</target>
+      </trans-unit>
       <trans-unit id="sys_file_metadata.status.1" approved="yes">
         <source>Ok</source>
         <target state="translated">OK</target>
@@ -92,6 +96,18 @@
         <source>Unit</source>
         <target state="translated">Eenheid</target>
       </trans-unit>
+      <trans-unit id="sys_file_metadata.unit.px" approved="yes">
+        <source>Pixels</source>
+        <target state="translated">Pixels</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.unit.cm" approved="yes">
+        <source>Centimeters</source>
+        <target state="translated">Centimeters</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.unit.in" approved="yes">
+        <source>Inches</source>
+        <target state="translated">Inches</target>
+      </trans-unit>
       <trans-unit id="sys_file_metadata.unit.mm" approved="yes">
         <source>Millimeters</source>
         <target state="translated">millimeter</target>
@@ -115,6 +131,26 @@
       <trans-unit id="sys_file_metadata.color_space" approved="yes">
         <source>Color Space</source>
         <target state="translated">Kleurruimte</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.RGB" approved="yes">
+        <source>RGB</source>
+        <target state="translated">RGB</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.sRGB" approved="yes">
+        <source>sRGB</source>
+        <target state="translated">sRGB</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.CMYK" approved="yes">
+        <source>CMYK</source>
+        <target state="translated">CMYK</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.CMY" approved="yes">
+        <source>CMY</source>
+        <target state="translated">CMY</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.YUV" approved="yes">
+        <source>YUV</source>
+        <target state="translated">YUV</target>
       </trans-unit>
       <trans-unit id="sys_file_metadata.color_space.grey" approved="yes">
         <source>Grey</source>
@@ -145,9 +181,21 @@
         <target state="translated">Hoogte</target>
       </trans-unit>
       <!-- sys_file_metadata tabs -->
+      <trans-unit id="tabs.metadata" approved="yes">
+        <source>Metadata</source>
+        <target state="translated">Metadata</target>
+      </trans-unit>
       <trans-unit id="tabs.camera" approved="yes">
         <source>Camera Data</source>
         <target state="translated">Cameragegevens</target>
+      </trans-unit>
+      <trans-unit id="tabs.audio" approved="yes">
+        <source>Audio</source>
+        <target state="translated">Audio</target>
+      </trans-unit>
+      <trans-unit id="tabs.video" approved="yes">
+        <source>Video</source>
+        <target state="translated">Video</target>
       </trans-unit>
       <!-- sys_file_metadata placeholder -->
       <trans-unit id="placeholder.keywords" approved="yes">
@@ -174,6 +222,10 @@
       <trans-unit id="palette.accessibility" approved="yes">
         <source>Accessibility</source>
         <target state="translated">Toegankelijkheid</target>
+      </trans-unit>
+      <trans-unit id="palette.gps" approved="yes">
+        <source>GPS</source>
+        <target state="translated">GPS</target>
       </trans-unit>
       <!-- fe_groups fields -->
       <trans-unit id="fe_groups.files" approved="yes">
