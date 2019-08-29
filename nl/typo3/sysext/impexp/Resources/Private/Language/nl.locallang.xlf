@@ -19,6 +19,10 @@
         <source>Import</source>
         <target state="translated">Importeer</target>
       </trans-unit>
+      <trans-unit id="title_export" approved="yes">
+        <source>Export</source>
+        <target state="translated">Export</target>
+      </trans-unit>
       <trans-unit id="tableselec_configuration" approved="yes">
         <source>Configuration</source>
         <target state="translated">Configuratie</target>
@@ -94,6 +98,10 @@
       <trans-unit id="makeconfig_exportSingleRecord" approved="yes">
         <source>Export single record</source>
         <target state="translated">Enkel record exporteren</target>
+      </trans-unit>
+      <trans-unit id="makeconfig_record" approved="yes">
+        <source>Record</source>
+        <target state="translated">Record</target>
       </trans-unit>
       <trans-unit id="makeconfig_exportTablesFromPages" approved="yes">
         <source>Export tables from pages</source>
@@ -243,6 +251,10 @@
         <source>T3D file</source>
         <target state="translated">T3D bestand</target>
       </trans-unit>
+      <trans-unit id="makesavefo_xml" approved="yes">
+        <source>XML</source>
+        <target state="translated">XML</target>
+      </trans-unit>
       <trans-unit id="makesavefo_fileFormat" approved="yes">
         <source>File format</source>
         <target state="translated">Bestandsformaat</target>
@@ -250,6 +262,10 @@
       <trans-unit id="makesavefo_filenameSavedInS" approved="yes">
         <source>Filename (saved in "%s")</source>
         <target state="translated">Bestandsnaam (opgeslagen in "%s")</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_downloadExport" approved="yes">
+        <source>Download export</source>
+        <target state="translated">Download export</target>
       </trans-unit>
       <trans-unit id="importdata_saveToFilename" approved="yes">
         <source>Save to filename</source>
@@ -323,6 +339,10 @@
         <source>Action</source>
         <target state="translated">Actie</target>
       </trans-unit>
+      <trans-unit id="importdata_preview" approved="yes">
+        <source>Preview</source>
+        <target state="translated">Preview</target>
+      </trans-unit>
       <trans-unit id="importdata_update_299e" approved="yes">
         <source>Update</source>
         <target state="translated">Actualiseer</target>
@@ -370,6 +390,10 @@
       <trans-unit id="importdata_failureNoFileUploaded" approved="yes">
         <source>Failure: No file uploaded - was it too big? Check system log.</source>
         <target state="translated">FOUT: Geen bestand geupload - was het te groot? Controleer systeemlog</target>
+      </trans-unit>
+      <trans-unit id="importdata_upload" approved="yes">
+        <source>Upload</source>
+        <target state="translated">Upload</target>
       </trans-unit>
       <trans-unit id="importdata_upload_error" approved="yes">
         <source>Upload error</source>
@@ -514,6 +538,10 @@
       <trans-unit id="impexpcore_singlereco_value" approved="yes">
         <source>Value</source>
         <target state="translated">Waarde</target>
+      </trans-unit>
+      <trans-unit id="impexpcore_softrefsel_record" approved="yes">
+        <source>Record</source>
+        <target state="translated">Record</target>
       </trans-unit>
       <trans-unit id="impexpcore_softrefsel_editable" approved="yes">
         <source>Editable</source>
