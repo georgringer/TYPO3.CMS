@@ -3,6 +3,10 @@
   <file t3:id="1415814791" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="cms" target-language="da">
     <header/>
     <body>
+      <trans-unit id="CType_formlabel" approved="yes">
+        <source>Type</source>
+        <target state="translated">Type</target>
+      </trans-unit>
       <trans-unit id="CType.I.0" approved="yes">
         <source>Header</source>
         <target state="translated">Overskrift</target>
@@ -67,6 +71,10 @@
         <source>Divider</source>
         <target state="translated">Adskiller</target>
       </trans-unit>
+      <trans-unit id="CType.I.17" approved="yes">
+        <source>HTML</source>
+        <target state="translated">HTML</target>
+      </trans-unit>
       <trans-unit id="CType.textmedia" approved="yes">
         <source>Text &amp; Media</source>
         <target state="translated">Tekst &amp; medier</target>
@@ -115,9 +123,17 @@
         <source>Sitemaps of selected pages</source>
         <target state="translated">Sitemaps af valgte sider</target>
       </trans-unit>
+      <trans-unit id="CType.div.standard" approved="yes">
+        <source>Standard</source>
+        <target state="translated">Standard</target>
+      </trans-unit>
       <trans-unit id="CType.div.lists" approved="yes">
         <source>Lists</source>
         <target state="translated">Lister</target>
+      </trans-unit>
+      <trans-unit id="CType.div.menu" approved="yes">
+        <source>Menu</source>
+        <target state="translated">Menu</target>
       </trans-unit>
       <trans-unit id="CType.div.forms" approved="yes">
         <source>Forms</source>
@@ -126,6 +142,18 @@
       <trans-unit id="CType.div.special" approved="yes">
         <source>Special</source>
         <target state="translated">Speciel</target>
+      </trans-unit>
+      <trans-unit id="layout.I.1" approved="yes">
+        <source>Layout 1</source>
+        <target state="translated">Layout 1</target>
+      </trans-unit>
+      <trans-unit id="layout.I.2" approved="yes">
+        <source>Layout 2</source>
+        <target state="translated">Layout 2</target>
+      </trans-unit>
+      <trans-unit id="layout.I.3" approved="yes">
+        <source>Layout 3</source>
+        <target state="translated">Layout 3</target>
       </trans-unit>
       <trans-unit id="colPos" approved="yes">
         <source>Columns</source>
@@ -138,6 +166,10 @@
       <trans-unit id="colPos.I.0" approved="yes">
         <source>Left</source>
         <target state="translated">Venstre</target>
+      </trans-unit>
+      <trans-unit id="colPos.I.1" approved="yes">
+        <source>Normal</source>
+        <target state="translated">Normal</target>
       </trans-unit>
       <trans-unit id="colPos.I.2" approved="yes">
         <source>Right</source>
@@ -203,6 +235,38 @@
         <source>Left</source>
         <target state="translated">Venstre</target>
       </trans-unit>
+      <trans-unit id="header_link" approved="yes">
+        <source>Link</source>
+        <target state="translated">Link</target>
+      </trans-unit>
+      <trans-unit id="header_link_formlabel" approved="yes">
+        <source>Link</source>
+        <target state="translated">Link</target>
+      </trans-unit>
+      <trans-unit id="header_layout_formlabel" approved="yes">
+        <source>Type</source>
+        <target state="translated">Type</target>
+      </trans-unit>
+      <trans-unit id="header_layout.I.1" approved="yes">
+        <source>Layout 1</source>
+        <target state="translated">Layout 1</target>
+      </trans-unit>
+      <trans-unit id="header_layout.I.2" approved="yes">
+        <source>Layout 2</source>
+        <target state="translated">Layout 2</target>
+      </trans-unit>
+      <trans-unit id="header_layout.I.3" approved="yes">
+        <source>Layout 3</source>
+        <target state="translated">Layout 3</target>
+      </trans-unit>
+      <trans-unit id="header_layout.I.4" approved="yes">
+        <source>Layout 4</source>
+        <target state="translated">Layout 4</target>
+      </trans-unit>
+      <trans-unit id="header_layout.I.5" approved="yes">
+        <source>Layout 5</source>
+        <target state="translated">Layout 5</target>
+      </trans-unit>
       <trans-unit id="header_layout.I.6" approved="yes">
         <source>Hidden</source>
         <target state="translated">Skjult</target>
@@ -242,6 +306,10 @@
       <trans-unit id="imageheight_formlabel" approved="yes">
         <source>Height (px)</source>
         <target state="translated">Højde (px)</target>
+      </trans-unit>
+      <trans-unit id="imageorient" approved="yes">
+        <source>Position</source>
+        <target state="translated">Position</target>
       </trans-unit>
       <trans-unit id="imageorient_formlabel" approved="yes">
         <source>Position and Alignment</source>
@@ -298,6 +366,10 @@
       <trans-unit id="imageborder_formlabel" approved="yes">
         <source>Border</source>
         <target state="translated">Kant</target>
+      </trans-unit>
+      <trans-unit id="image_link" approved="yes">
+        <source>Link</source>
+        <target state="translated">Link</target>
       </trans-unit>
       <trans-unit id="image_link_formlabel" approved="yes">
         <source>Links (one per line, one link per image)</source>
@@ -395,6 +467,10 @@
         <source>Columns</source>
         <target state="translated">Kolonner</target>
       </trans-unit>
+      <trans-unit id="cols.I.0" approved="yes">
+        <source>Auto</source>
+        <target state="translated">Auto</target>
+      </trans-unit>
       <trans-unit id="recursive.I.0" approved="yes">
         <source>0 levels (only selected page)</source>
         <target state="translated">0 niveauer (kun valgte side)</target>
@@ -470,6 +546,10 @@
       <trans-unit id="menu_type.I.categorized_content" approved="yes">
         <source>Content elements for selected categories</source>
         <target state="translated">Indholdselementer for valgte kategorier</target>
+      </trans-unit>
+      <trans-unit id="list_type" approved="yes">
+        <source>Plugin</source>
+        <target state="translated">Plugin</target>
       </trans-unit>
       <trans-unit id="list_type_formlabel" approved="yes">
         <source>Selected Plugin</source>
@@ -667,6 +747,10 @@
         <source>Textbox Type</source>
         <target state="translated">Tekstboks type</target>
       </trans-unit>
+      <trans-unit id="splash_layout_formlabel" approved="yes">
+        <source>Type</source>
+        <target state="translated">Type</target>
+      </trans-unit>
       <trans-unit id="splash_layout.I.1" approved="yes">
         <source>Image Shadow</source>
         <target state="translated">Billedskygge</target>
@@ -827,6 +911,10 @@
         <source>Recipient Email</source>
         <target state="translated">Modtager e-mail</target>
       </trans-unit>
+      <trans-unit id="bodytext.ALT.html" approved="yes">
+        <source>HTML</source>
+        <target state="translated">HTML</target>
+      </trans-unit>
       <trans-unit id="menu.ALT.accessibility_title_formlabel" approved="yes">
         <source>Menu block title</source>
         <target state="translated">Menu-blok titel</target>
@@ -846,6 +934,10 @@
       <trans-unit id="tabs.media" approved="yes">
         <source>Media</source>
         <target state="translated">Medie</target>
+      </trans-unit>
+      <trans-unit id="tabs.plugin" approved="yes">
+        <source>Plugin</source>
+        <target state="translated">Plugin</target>
       </trans-unit>
       <trans-unit id="sys_language_uid_formlabel" approved="yes">
         <source>Language</source>
@@ -874,6 +966,10 @@
       <trans-unit id="fe_group_formlabel" approved="yes">
         <source>Usergroup Access Rights</source>
         <target state="translated">Adgangsrettigheder for brugergrupper</target>
+      </trans-unit>
+      <trans-unit id="layout_formlabel" approved="yes">
+        <source>Layout</source>
+        <target state="translated">Layout</target>
       </trans-unit>
       <trans-unit id="bodytext_formlabel" approved="yes">
         <source>Text</source>
@@ -1010,6 +1106,10 @@
       <trans-unit id="palette.table_layout" approved="yes">
         <source>Table Layout</source>
         <target state="translated">Tabel-layout</target>
+      </trans-unit>
+      <trans-unit id="palette.appearanceLinks" approved="yes">
+        <source>Links</source>
+        <target state="translated">Links</target>
       </trans-unit>
       <trans-unit id="tabs.access" approved="yes">
         <source>Access</source>
