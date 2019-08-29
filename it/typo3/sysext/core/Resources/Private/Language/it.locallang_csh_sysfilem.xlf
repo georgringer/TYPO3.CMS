@@ -7,6 +7,11 @@
         <source>Filemounts describe a filepath on the server, relative or absolute.</source>
         <target state="translated">i Filemounts descrivono un indirizzo sul server, in modo reativo o assoluto.</target>
       </trans-unit>
+      <trans-unit id="_.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/filemount_1.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/filemount_1.png</target>
+      </trans-unit>
       <trans-unit id="title.description" approved="yes">
         <source>Enter a title for the filemount. The title will appear as the name of the file mount when it is applied to users and groups.</source>
         <target state="translated">Inserisci il titolo del Filemount. Questo titolo apparirà come il nome del Filemount, quando sarà da applicare agli Utenti o ai Gruppi.</target>
@@ -15,9 +20,28 @@
         <source>Enter the path of the filemount, relative or absolute depending on the settings of BASE.</source>
         <target state="translated">Inserisci il path del Filemount, relativo o assoluto, a seconda del settagi di BASE</target>
       </trans-unit>
+      <trans-unit id="_path.seeAlso" xml:space="preserve" approved="yes">
+				<source>sys_filemounts:base,
+be_groups:file_mountpoints,
+sys_filemounts</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">sys_filemounts:base,
+be_groups:file_mountpoints,
+sys_filemounts</target></trans-unit>
+      <trans-unit id="_path.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/be_groups_6.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_7.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/be_groups_6.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_7.png</target></trans-unit>
       <trans-unit id="hidden.description" approved="yes">
         <source>Use this option to temporarily disable the filemount.</source>
         <target state="translated">usa questa opzione per disabilitare temporaneamente il Filemount.</target>
+      </trans-unit>
+      <trans-unit id="_base.seeAlso" approved="yes">
+        <source>sys_filemounts:path</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">sys_filemounts:path</target>
       </trans-unit>
     </body>
   </file>
