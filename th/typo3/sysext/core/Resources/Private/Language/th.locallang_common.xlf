@@ -3,9 +3,261 @@
   <file t3:id="1415814850" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="lang" target-language="th">
     <header/>
     <body>
+      <trans-unit id="about" approved="yes">
+        <source>About</source>
+        <target state="translated">เกี่ยวกับ</target>
+      </trans-unit>
+      <trans-unit id="and" approved="yes">
+        <source>and</source>
+        <target state="translated">และ</target>
+      </trans-unit>
+      <trans-unit id="ascending" approved="yes">
+        <source>Ascending</source>
+        <target state="translated">Ascending</target>
+      </trans-unit>
+      <trans-unit id="back" approved="yes">
+        <source>Back</source>
+        <target state="translated">กลับ</target>
+      </trans-unit>
       <trans-unit id="byteSizeUnits">
         <source> B| KB| MB| GB</source>
         <target state="needs-translation"> </target>
+      </trans-unit>
+      <trans-unit id="cancel" approved="yes">
+        <source>Cancel</source>
+        <target state="translated">ยกเลิก</target>
+      </trans-unit>
+      <trans-unit id="category" approved="yes">
+        <source>Category</source>
+        <target state="translated">หมวด</target>
+      </trans-unit>
+      <trans-unit id="close" approved="yes">
+        <source>Close</source>
+        <target state="translated">ปิด</target>
+      </trans-unit>
+      <trans-unit id="delete" approved="yes">
+        <source>Delete</source>
+        <target state="translated">ลบ</target>
+      </trans-unit>
+      <trans-unit id="descending" approved="yes">
+        <source>Descending</source>
+        <target state="translated">Descending</target>
+      </trans-unit>
+      <trans-unit id="details" approved="yes">
+        <source>Details</source>
+        <target state="translated">รายละเอียด</target>
+      </trans-unit>
+      <trans-unit id="disable" approved="yes">
+        <source>Disable</source>
+        <target state="translated">ปิดการใช้งาน</target>
+      </trans-unit>
+      <trans-unit id="disabled" approved="yes">
+        <source>Disabled</source>
+        <target state="translated">ปิดการใช้งาน</target>
+      </trans-unit>
+      <trans-unit id="down" approved="yes">
+        <source>Down</source>
+        <target state="translated">ลง</target>
+      </trans-unit>
+      <trans-unit id="download" approved="yes">
+        <source>Download</source>
+        <target state="translated">Download</target>
+      </trans-unit>
+      <trans-unit id="edit" approved="yes">
+        <source>Edit</source>
+        <target state="translated">Edit</target>
+      </trans-unit>
+      <trans-unit id="editField" approved="yes">
+        <source>Edit field</source>
+        <target state="translated">แก้ไขข้อมูล</target>
+      </trans-unit>
+      <trans-unit id="editFile" approved="yes">
+        <source>Edit file</source>
+        <target state="translated">แก้ไขไฟล์</target>
+      </trans-unit>
+      <trans-unit id="enable" approved="yes">
+        <source>Enable</source>
+        <target state="translated">เปิดใช้งาน</target>
+      </trans-unit>
+      <trans-unit id="enabled" approved="yes">
+        <source>Enabled</source>
+        <target state="translated">เปิดการใช้งาน</target>
+      </trans-unit>
+      <trans-unit id="file" approved="yes">
+        <source>File</source>
+        <target state="translated">ไฟล์</target>
+      </trans-unit>
+      <trans-unit id="files" approved="yes">
+        <source>Files</source>
+        <target state="translated">ไฟล์</target>
+      </trans-unit>
+      <trans-unit id="first" approved="yes">
+        <source>First</source>
+        <target state="translated">แรก</target>
+      </trans-unit>
+      <trans-unit id="from" approved="yes">
+        <source>From</source>
+        <target state="translated">จาก</target>
+      </trans-unit>
+      <trans-unit id="go" approved="yes">
+        <source>Go</source>
+        <target state="translated">ไป</target>
+      </trans-unit>
+      <trans-unit id="goTo" approved="yes">
+        <source>Go to</source>
+        <target state="translated">ไปที่</target>
+      </trans-unit>
+      <trans-unit id="help" approved="yes">
+        <source>Help</source>
+        <target state="translated">ช่วยเหลือ</target>
+      </trans-unit>
+      <trans-unit id="item" approved="yes">
+        <source>Item</source>
+        <target state="translated">ชิ้น</target>
+      </trans-unit>
+      <trans-unit id="items" approved="yes">
+        <source>Items</source>
+        <target state="translated">รายการที่</target>
+      </trans-unit>
+      <trans-unit id="last" approved="yes">
+        <source>Last</source>
+        <target state="translated">ล่าสุด</target>
+      </trans-unit>
+      <trans-unit id="left" approved="yes">
+        <source>Left</source>
+        <target state="translated">ซ้าย</target>
+      </trans-unit>
+      <trans-unit id="login" approved="yes">
+        <source>Login</source>
+        <target state="translated">เข้าสู่ระบบ</target>
+      </trans-unit>
+      <trans-unit id="logout" approved="yes">
+        <source>Logout</source>
+        <target state="translated">ออกจากระบบ</target>
+      </trans-unit>
+      <trans-unit id="more" approved="yes">
+        <source>More</source>
+        <target state="translated">ขึ้น</target>
+      </trans-unit>
+      <trans-unit id="move" approved="yes">
+        <source>Move</source>
+        <target state="translated">ย้าย</target>
+      </trans-unit>
+      <trans-unit id="new" approved="yes">
+        <source>New</source>
+        <target state="translated">ใหม่</target>
+      </trans-unit>
+      <trans-unit id="next" approved="yes">
+        <source>Next</source>
+        <target state="translated">ถัดไป</target>
+      </trans-unit>
+      <trans-unit id="no" approved="yes">
+        <source>No</source>
+        <target state="translated">ไม่</target>
+      </trans-unit>
+      <trans-unit id="ok" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
+      </trans-unit>
+      <trans-unit id="open" approved="yes">
+        <source>Open</source>
+        <target state="translated">เปิด</target>
+      </trans-unit>
+      <trans-unit id="page" approved="yes">
+        <source>Page</source>
+        <target state="translated">หน้า</target>
+      </trans-unit>
+      <trans-unit id="pages" approved="yes">
+        <source>Pages</source>
+        <target state="translated">หน้า</target>
+      </trans-unit>
+      <trans-unit id="previous" approved="yes">
+        <source>Previous</source>
+        <target state="translated">ก่อน</target>
+      </trans-unit>
+      <trans-unit id="print" approved="yes">
+        <source>Print</source>
+        <target state="translated">พิมพ์</target>
+      </trans-unit>
+      <trans-unit id="reload" approved="yes">
+        <source>Reload</source>
+        <target state="translated">บรรจุใหม่</target>
+      </trans-unit>
+      <trans-unit id="right" approved="yes">
+        <source>Right</source>
+        <target state="translated">ขวา</target>
+      </trans-unit>
+      <trans-unit id="save" approved="yes">
+        <source>Save</source>
+        <target state="translated">ประหยัด</target>
+      </trans-unit>
+      <trans-unit id="saveAndClose" approved="yes">
+        <source>Save and close</source>
+        <target state="translated">บันทึกและปิด</target>
+      </trans-unit>
+      <trans-unit id="saveAndCloseDoc" approved="yes">
+        <source>Save and close document</source>
+        <target state="translated">เอกสารบันทึกและปิด</target>
+      </trans-unit>
+      <trans-unit id="saveAndCreateNewDoc" approved="yes">
+        <source>Save and create new document</source>
+        <target state="translated">ประหยัดและสร้างเอกสารใหม่</target>
+      </trans-unit>
+      <trans-unit id="saveAndViewPage" approved="yes">
+        <source>Save and view page</source>
+        <target state="translated">หน้าบันทึกและดู</target>
+      </trans-unit>
+      <trans-unit id="search" approved="yes">
+        <source>Search</source>
+        <target state="translated">ค้นหา</target>
+      </trans-unit>
+      <trans-unit id="send" approved="yes">
+        <source>Send</source>
+        <target state="translated">ส่ง</target>
+      </trans-unit>
+      <trans-unit id="start" approved="yes">
+        <source>Start</source>
+        <target state="translated">เริ่มต้น</target>
+      </trans-unit>
+      <trans-unit id="stop" approved="yes">
+        <source>Stop</source>
+        <target state="translated">หยุด</target>
+      </trans-unit>
+      <trans-unit id="submit" approved="yes">
+        <source>Submit</source>
+        <target state="translated">เสนอ</target>
+      </trans-unit>
+      <trans-unit id="to" approved="yes">
+        <source>To</source>
+        <target state="translated">ถึง</target>
+      </trans-unit>
+      <trans-unit id="tsRef" approved="yes">
+        <source>TSref reference</source>
+        <target state="translated">อ้างอิง TSref</target>
+      </trans-unit>
+      <trans-unit id="up" approved="yes">
+        <source>Up</source>
+        <target state="translated">ขึ้นไป</target>
+      </trans-unit>
+      <trans-unit id="upload" approved="yes">
+        <source>Upload</source>
+        <target state="translated">อัพโหลด</target>
+      </trans-unit>
+      <trans-unit id="user" approved="yes">
+        <source>User</source>
+        <target state="translated">ผู้ใช้งาน</target>
+      </trans-unit>
+      <trans-unit id="users" approved="yes">
+        <source>Users</source>
+        <target state="translated">ผู้ใช้งาน</target>
+      </trans-unit>
+      <trans-unit id="view" approved="yes">
+        <source>View</source>
+        <target state="translated">ดู</target>
+      </trans-unit>
+      <trans-unit id="yes" approved="yes">
+        <source>Yes</source>
+        <target state="translated">ใช่</target>
       </trans-unit>
     </body>
   </file>
