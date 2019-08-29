@@ -249,6 +249,9 @@
       <trans-unit id="formEditor.modals.validationErrors.dialogMessage" xml:space="preserve" approved="yes">
                 <source>Some elements are not configured properly. Please check the following elements:</source>
             <target state="translated">Некоторые элементы неверно настроены. Проверьте следующие элементы:</target></trans-unit>
+      <trans-unit id="formEditor.modals.validationErrors.confirmButton" xml:space="preserve" approved="yes">
+                <source>OK</source>
+            <target state="translated">OK</target></trans-unit>
       <trans-unit id="formEditor.modals.insertElements.dialogTitle" xml:space="preserve" approved="yes">
                 <source>New element</source>
             <target state="translated">Новый элемент</target></trans-unit>
@@ -324,6 +327,9 @@
       <trans-unit id="formEditor.elements.TextMixin.editor.validators.StringLength.label" xml:space="preserve" approved="yes">
                 <source>String length</source>
             <target state="translated">Длина строки</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.editor.validators.EmailAddress.label" xml:space="preserve" approved="yes">
+                <source>Email</source>
+            <target state="translated">Email</target></trans-unit>
       <trans-unit id="formEditor.elements.TextMixin.editor.validators.Integer.label" xml:space="preserve" approved="yes">
                 <source>Integer number</source>
             <target state="translated">Целое число</target></trans-unit>
@@ -369,6 +375,9 @@
       <trans-unit id="formEditor.elements.TextMixin.validators.StringLength.editor.validationErrorMessage.fieldExplanationText" xml:space="preserve" approved="yes">
                 <source>Error message which is shown if the validation does not succeed</source>
             <target state="translated">Сообщение об ошибке, которое отображается, если проверка не удалась</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.validators.EmailAddress.editor.header.label" xml:space="preserve" approved="yes">
+                <source>Email</source>
+            <target state="translated">Email</target></trans-unit>
       <trans-unit id="formEditor.elements.TextMixin.validators.EmailAddress.editor.validationErrorMessage.label" xml:space="preserve" approved="yes">
                 <source>Custom error message</source>
             <target state="translated">Пользовательское сообщение об ошибке</target></trans-unit>
@@ -534,6 +543,9 @@
       <trans-unit id="formEditor.elements.Form.finisher.EmailToReceiver.editor.language.label" xml:space="preserve" approved="yes">
                 <source>Translation language</source>
             <target state="translated">Язык перевода</target></trans-unit>
+      <trans-unit id="formEditor.elements.Form.finisher.EmailToReceiver.editor.language.1" xml:space="preserve" approved="yes">
+                <source>EN</source>
+            <target state="translated">EN</target></trans-unit>
       <trans-unit id="formEditor.elements.Form.finisher.Redirect.editor.header.label" xml:space="preserve" approved="yes">
                 <source>Redirect to a page</source>
             <target state="translated">Перенаправить на страницу</target></trans-unit>
