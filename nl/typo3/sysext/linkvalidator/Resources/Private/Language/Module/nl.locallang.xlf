@@ -115,6 +115,14 @@
         <source>Path</source>
         <target state="translated">Pad</target>
       </trans-unit>
+      <trans-unit id="list.tableHead.element" approved="yes">
+        <source>Element</source>
+        <target state="translated">Element</target>
+      </trans-unit>
+      <trans-unit id="list.tableHead.headlink" approved="yes">
+        <source>Link</source>
+        <target state="translated">Link</target>
+      </trans-unit>
       <trans-unit id="list.tableHead.linktarget" approved="yes">
         <source>URL / Link Target</source>
         <target state="translated">URL / Doel van link</target>
@@ -242,6 +250,10 @@
       <trans-unit id="list.msg.ok" approved="yes">
         <source>Ok</source>
         <target state="translated">OK</target>
+      </trans-unit>
+      <trans-unit id="list.msg.lastRun" approved="yes">
+        <source>%1$s %2$s</source>
+        <target state="translated">%1$s %2$s</target>
       </trans-unit>
       <trans-unit id="list.no.broken.links.title" approved="yes">
         <source>No broken links to show!</source>
