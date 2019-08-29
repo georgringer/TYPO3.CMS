@@ -55,9 +55,17 @@
         <source>Class</source>
         <target state="translated">Klasse</target>
       </trans-unit>
+      <trans-unit id="label.cron" approved="yes">
+        <source>Cron</source>
+        <target state="translated">Cron</target>
+      </trans-unit>
       <trans-unit id="label.defType" approved="yes">
         <source>Definition type</source>
         <target state="translated">Definitionstyp</target>
+      </trans-unit>
+      <trans-unit id="label.defType.interval" approved="yes">
+        <source>Interval</source>
+        <target state="translated">Interval</target>
       </trans-unit>
       <trans-unit id="label.defType.cron" approved="yes">
         <source>Cron command</source>
@@ -91,6 +99,10 @@
         <source>Frequency (seconds or cron command)</source>
         <target state="translated">Häufigkeit (Sekunden oder Cron-Befehl)</target>
       </trans-unit>
+      <trans-unit id="label.id" approved="yes">
+        <source>ID</source>
+        <target state="translated">ID</target>
+      </trans-unit>
       <trans-unit id="label.lastExecution" approved="yes">
         <source>Last Execution</source>
         <target state="translated">Letzte Ausführung</target>
@@ -102,6 +114,10 @@
       <trans-unit id="label.manually" approved="yes">
         <source>manually</source>
         <target state="translated">manuell</target>
+      </trans-unit>
+      <trans-unit id="label.name" approved="yes">
+        <source>Name</source>
+        <target state="translated">Name</target>
       </trans-unit>
       <trans-unit id="label.nextExecution" approved="yes">
         <source>Next Execution</source>
@@ -359,6 +375,10 @@
         <source>None</source>
         <target state="translated">Keine</target>
       </trans-unit>
+      <trans-unit id="status" approved="yes">
+        <source>Status</source>
+        <target state="translated">Status</target>
+      </trans-unit>
       <trans-unit id="status.progress" approved="yes">
         <source>Progress</source>
         <target state="translated">Fortschritt</target>
@@ -382,6 +402,10 @@
       <trans-unit id="status.scheduled" approved="yes">
         <source>scheduled</source>
         <target state="translated">geplant</target>
+      </trans-unit>
+      <trans-unit id="task" approved="yes">
+        <source>Task</source>
+        <target state="translated">Task</target>
       </trans-unit>
       <trans-unit id="title" approved="yes">
         <source>TYPO3 Scheduler administration module</source>
