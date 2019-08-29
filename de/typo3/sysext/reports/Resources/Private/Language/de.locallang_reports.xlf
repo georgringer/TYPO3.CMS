@@ -15,9 +15,17 @@
         <source>Here you can find a short overview of your site's parameters as well as any problems detected with your installation. It may be useful to copy and paste this information into support requests filed on TYPO3's support mailinglists and project issue trackers.</source>
         <target state="translated">Hier finden Sie eine kurze Übersicht über die Parameter der Website sowie in der Installation festgestellte Probleme. Diese Informationen können für Support-Anfragen in den TYPO3-Mailinglisten und -Bugtrackern hilfreich sein.</target>
       </trans-unit>
+      <trans-unit id="status_ok" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
+      </trans-unit>
       <trans-unit id="status_wrongValue" approved="yes">
         <source>Wrong value detected</source>
         <target state="translated">Falscher Wert festgestellt</target>
+      </trans-unit>
+      <trans-unit id="status_info" approved="yes">
+        <source>Information</source>
+        <target state="translated">Information</target>
       </trans-unit>
       <trans-unit id="status_insecure" approved="yes">
         <source>Insecure</source>
@@ -74,6 +82,10 @@
       <trans-unit id="status_typo3" approved="yes">
         <source>TYPO3 System</source>
         <target state="translated">TYPO3-System</target>
+      </trans-unit>
+      <trans-unit id="status_system" approved="yes">
+        <source>System</source>
+        <target state="translated">System</target>
       </trans-unit>
       <trans-unit id="status_security" approved="yes">
         <source>Security</source>
