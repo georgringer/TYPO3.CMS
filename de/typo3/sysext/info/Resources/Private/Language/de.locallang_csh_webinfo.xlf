@@ -24,6 +24,14 @@ _MOD_web_info:func_2,
 _MOD_web_info:pagetree_overview</source>
 				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
 			<target state="translated">xMOD_csh_corebe:list_module, _MOD_web_info:func_2, _MOD_web_info:pagetree_overview</target></trans-unit>
+      <trans-unit id="_func_0.image" xml:space="preserve" approved="yes">
+				<source>EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_4.png,
+EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_8.png,
+EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_9.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_4.png,
+EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_8.png,
+EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_9.png</target></trans-unit>
       <trans-unit id="func_1.alttitle" approved="yes">
         <source>Record Overview</source>
         <target state="translated">Datensatzübersicht</target>
@@ -43,6 +51,11 @@ Notice the red "+" next to a page in the page tree? This is due to a setting for
 pages:php_tree_stop</source>
 				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
 			<target state="translated">_MOD_web_info:pagetree_overview, pages:php_tree_stop</target></trans-unit>
+      <trans-unit id="_func_1.image" approved="yes">
+        <source>EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_6.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_6.png</target>
+      </trans-unit>
       <trans-unit id="func_1.image_descr" approved="yes">
         <source>You can easily see the distribution of Content Elements on a page. You can also see where Template Records - and basically any record! - are located in the page tree!</source>
         <target state="translated">Beachten Sie, wie einfach Sie einen Überblick über die Verteilung der Inhaltselemente auf den Seiten bekommen. Sie können ebenfalls sehen, wo sich Vorlagendatensätze - grundsätzlich jede Art von Datensätzen - im Seitenbaum befinden.</target>
@@ -61,6 +74,12 @@ _MOD_web_info:pagetree_overview,
 pages:TSconfig</source>
 				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
 			<target state="translated">_MOD_web_info:func_0, _MOD_web_info:pagetree_overview, pages:TSconfig</target></trans-unit>
+      <trans-unit id="_func_2.image" xml:space="preserve" approved="yes">
+				<source>EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_5.png,
+EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_7.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_5.png,
+EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_7.png</target></trans-unit>
       <trans-unit id="func_2.image_descr" xml:space="preserve" approved="yes">
 				<source>The "Cache and Age" view.
 Here you see the "TSconfig" column. The overview exposes that these two pages include some Page TSconfig code!</source>
@@ -83,6 +102,12 @@ The problem basically is that "&amp;L=xx" is different from internal "sys_langua
 
 Finally, the number found in each column tells you how many content elements are found in the specified language.</source>
 			<target state="translated">In der Übersicht werden Farben zur Kennzeichnung der Verfügbarkeit und Ausweichsituation verwendet. Die Farben haben folgende Bedeutungen: &lt;b&gt;Grüner Hintergrund:&lt;/b&gt; Die Seite wurde übersetzt und kann in dieser Sprache angesehen werden. Für Übersetzungen bedeutet dies, dass ein aktiver Overlay-Datensatz für die Seite vorhanden ist. &lt;b&gt;Roter Hintergrund:&lt;/b&gt; Die Seite kann &lt;em&gt;nicht&lt;/em&gt; in dieser Sprache angeschaut werden, und es wird bei dem Versuch eine Fehlermeldung angezeigt. Menüs sollten Links auf diese Seite mit dieser Übersetzung automatisch ausfiltern. &lt;b&gt;Grauer Hintergrund (nicht bei Standardsprache):&lt;/b&gt; Für die Seite wird der angegebene Ausweichmodus verwendet. Hängt von der Konfiguration ab. (Die Einstellung sys_language_mode = content_fallback wird für das flexibelste Verhalten empfohlen, sys_language_mode = strict verhindert dies und zeigt einen Fehler an.) &lt;b&gt;Die "Lokalisierungseinstellunge" der Seite:&lt;/b&gt; Die o.g. Modi werden durch die "Lokalisierungseinstellungen" des Seitendatensatzes bestimmt. In der Spalte der Standardübersetzung werden diese Einstellungen durch ein "N" (Seite verbergen, wenn für die aktuelle Sprache keine Übersetzung vorhanden ist) oder ein "D" (Standardübersetzung der Seite verbergen) repräsentiert. Wie man sieht, ist bei der Seite "Startpage" die Flagge N gesetzt, daher wird der Zugriff auf die deutsche Version dieser Seite blockiert, da es keine deutsche Übersetzung gibt. Standardmäßig wird bei "deutschem Zugriff" auf eine nicht übersetzte Seite einfach der englische Inhalt angezeigt. Es gibt auch eine Seite mit der Flagge D ("[Dummy]"). Die Flagge D bedeutet, dass die Seite nur in einer der Sprachen verfügbar ist, in diesem Falle Dänisch. Daher wird jeder Versuch, die Seite in der Standardsprache oder Deutsch anzuzeigen, zu einer Fehlermeldung führen. Wenn also die Markierungsfelder der "Lokalisierungseinstellungen" für eine Seite eingesetzt werden, erhält man eine Fehlermeldung beim Zugriffsversuch auf eine blockierte Seite. Dies ist eine beabsichtigte Funktionalität. Wichtig ist, keine Links auf solche Seiten zu erstellen. Mit Hilfe von HMENU-Objekten erzeugte Menüs berücksichtigen stets "sys_language" und zeigen nur Seiten an, auf die für eine Sprache zugegriffen werden kann. Kombiniert mit den "Lokalisierungseinstellungen" einer Seite, über die Zugriff auf eine Seite blockiert werden kann, führt dies jedoch zu Schwierigkeiten bei Seiten, die &lt;em&gt;nicht&lt;/em&gt; übersetzt wurden (mit einem grauen Hintergrund versehen sind). Es kann dazu kommen, dass Menüeinträge Links auf Seiten enthalten, auf die nicht zugegriffen werden kann. Das Problem liegt im Grunde darin, dass "&amp;L=xx" sich vom internen "sys_language" unterscheidet. Sie sollten das vermeiden und dazu "sys_language_mode" auf "content_fallback" setzen. Dann befolgt "sys_language" &lt;em&gt;immer&lt;/em&gt; die über "&amp;L=" gegebene Anweisung und die Menüs sind korrekt. Gleichzeitig wird der Standardinhalt angezeigt, falls keine Übersetzung vorhanden ist (weil die Inhaltsauswahl dem Ausweichweg folgt). Schließlich zeigt die Zahl in jeder Spalte an, wie viele Elemente in der angegebenen Sprache gefunden wurden.</target></trans-unit>
+      <trans-unit id="_lang.image" xml:space="preserve" approved="yes">
+				<source>EXT:frontend/Resources/Public/Images/cshimages/localizationoverview.png,
+EXT:frontend/Resources/Public/Images/cshimages/localizationoverview1.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:frontend/Resources/Public/Images/cshimages/localizationoverview.png,
+EXT:frontend/Resources/Public/Images/cshimages/localizationoverview1.png</target></trans-unit>
       <trans-unit id="lang.image_descr" xml:space="preserve" approved="yes">
 				<source>Localization overview in the Web&gt;Info module. Use the buttons to edit, view and create new page translation headers. Use the regular page module to put localized content on the pages.
 The "Localization settings" that affect availability of pages in the various languages.</source>
