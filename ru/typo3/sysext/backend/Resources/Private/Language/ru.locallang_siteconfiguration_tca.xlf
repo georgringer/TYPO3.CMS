@@ -123,9 +123,17 @@
         <source>Base</source>
         <target state="translated">База</target>
       </trans-unit>
+      <trans-unit id="site_base_variant.base.placeholder" approved="yes">
+        <source>www.domain.local</source>
+        <target state="translated">www.domain.local</target>
+      </trans-unit>
       <trans-unit id="site_base_variant.condition" approved="yes">
         <source>Condition</source>
         <target state="translated">Условие</target>
+      </trans-unit>
+      <trans-unit id="site_base_variant.condition.placeholder" approved="yes">
+        <source>applicationContext == "Production"</source>
+        <target state="translated">applicationContext == "Production"</target>
       </trans-unit>
       <trans-unit id="site_base_variant.condition.applicationContext" approved="yes">
         <source>Application Context</source>
@@ -187,6 +195,10 @@
         <source>Fluid Template File</source>
         <target state="translated">Файл шаблона Fluid</target>
       </trans-unit>
+      <trans-unit id="site_errorhandling.errorFluidTemplate.placeholder" approved="yes">
+        <source>EXT:my_sitepackage/Resources/Private/Templates/Sites/Error.html</source>
+        <target state="translated">EXT:my_sitepackage/Resources/Private/Templates/Sites/Error.html</target>
+      </trans-unit>
       <trans-unit id="site_errorhandling.errorFluidTemplatesRootPath" approved="yes">
         <source>Fluid Templates Root Path</source>
         <target state="translated">Путь к корню шаблонов (Templates) Fluid</target>
@@ -202,6 +214,14 @@
       <trans-unit id="site_errorhandling.errorContentSource" approved="yes">
         <source>Show Content from Page</source>
         <target state="translated">Вывести содержимое со страницы</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorPhpClassFQCN" approved="yes">
+        <source>ErrorHandler Class Target (FQCN)</source>
+        <target state="translated">ErrorHandler Class Target (FQCN)</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorPhpClassFQCN.placeholder" approved="yes">
+        <source>Vendor\ExtensionName\ErrorHandlers\GenericErrorhandler</source>
+        <target state="translated">Vendor\ExtensionName\ErrorHandlers\GenericErrorhandler</target>
       </trans-unit>
       <trans-unit id="site_route.ctrl.title" approved="yes">
         <source>Routes</source>
@@ -226,6 +246,14 @@
       <trans-unit id="site_route.route" approved="yes">
         <source>Static Route Name</source>
         <target state="translated">Название статичного маршрута</target>
+      </trans-unit>
+      <trans-unit id="site_route.route.placeholder" approved="yes">
+        <source>my-custom_route</source>
+        <target state="translated">my-custom_route</target>
+      </trans-unit>
+      <trans-unit id="site_route.route.example1" approved="yes">
+        <source>robots.txt</source>
+        <target state="translated">robots.txt</target>
       </trans-unit>
     </body>
   </file>
