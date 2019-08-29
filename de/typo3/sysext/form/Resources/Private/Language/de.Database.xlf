@@ -48,6 +48,9 @@
       <trans-unit id="tt_content.finishersDefinition.Confirmation.label" xml:space="preserve" approved="yes">
                 <source>Confirmation</source>
             <target state="translated">Bestätigung</target></trans-unit>
+      <trans-unit id="tt_content.finishersDefinition.Confirmation.message.label" xml:space="preserve" approved="yes">
+                <source>Text</source>
+            <target state="translated">Text</target></trans-unit>
       <trans-unit id="tt_content.finishersDefinition.Confirmation.contentElementUid.label" xml:space="preserve" approved="yes">
                 <source>Record</source>
             <target state="translated">Datensatz</target></trans-unit>
@@ -135,6 +138,9 @@
       <trans-unit id="formManager.duplicate_identifier" xml:space="preserve" approved="yes">
                 <source>Duplicate identifier!</source>
             <target state="translated">Doppelter Bezeichner!</target></trans-unit>
+      <trans-unit id="formManager.selectablePrototypesConfiguration.standard.label" xml:space="preserve" approved="yes">
+                <source>Standard</source>
+            <target state="translated">Standard</target></trans-unit>
       <trans-unit id="formManager.selectablePrototypesConfiguration.standard.newFormTemplates.blankForm.label" xml:space="preserve" approved="yes">
                 <source>Blank form</source>
             <target state="translated">Leeres Formular</target></trans-unit>
@@ -219,6 +225,9 @@
       <trans-unit id="formEditor.modals.validationErrors.dialogMessage" xml:space="preserve" approved="yes">
                 <source>Some elements are not configured properly. Please check the following elements:</source>
             <target state="translated">Einige Elemente wurden nicht richtig konfiguriert. Bitte prüfen Sie die folgenden Elemente:</target></trans-unit>
+      <trans-unit id="formEditor.modals.validationErrors.confirmButton" xml:space="preserve" approved="yes">
+                <source>OK</source>
+            <target state="translated">OK</target></trans-unit>
       <trans-unit id="formEditor.modals.insertElements.dialogTitle" xml:space="preserve" approved="yes">
                 <source>New element</source>
             <target state="translated">Neues Element</target></trans-unit>
@@ -249,6 +258,12 @@
       <trans-unit id="formEditor.modals.close.cancleButton" xml:space="preserve" approved="yes">
                 <source>No, I will continue editing</source>
             <target state="translated">Nein, ich werde die Bearbeitung fortsetzen</target></trans-unit>
+      <trans-unit id="formEditor.elements.MinimumMaximumEditorsMixin.editor.minimum.label" xml:space="preserve" approved="yes">
+                <source>Minimum</source>
+            <target state="translated">Minimum</target></trans-unit>
+      <trans-unit id="formEditor.elements.MinimumMaximumEditorsMixin.editor.maximum.label" xml:space="preserve" approved="yes">
+                <source>Maximum</source>
+            <target state="translated">Maximum</target></trans-unit>
       <trans-unit id="formEditor.elements.TextMixin.editor.placeholder.label" xml:space="preserve" approved="yes">
                 <source>Placeholder</source>
             <target state="translated">Platzhalter</target></trans-unit>
@@ -480,6 +495,9 @@
       <trans-unit id="formEditor.elements.Form.finisher.EmailToReceiver.editor.language.label" xml:space="preserve" approved="yes">
                 <source>Translation language</source>
             <target state="translated">Sprache</target></trans-unit>
+      <trans-unit id="formEditor.elements.Form.finisher.EmailToReceiver.editor.language.1" xml:space="preserve" approved="yes">
+                <source>EN</source>
+            <target state="translated">EN</target></trans-unit>
       <trans-unit id="formEditor.elements.Form.finisher.Redirect.editor.header.label" xml:space="preserve" approved="yes">
                 <source>Redirect to a page</source>
             <target state="translated">Zu einer Seite weiterleiten</target></trans-unit>
@@ -498,6 +516,9 @@
       <trans-unit id="formEditor.elements.Form.finisher.Confirmation.editor.contentElement.label" xml:space="preserve" approved="yes">
                 <source>Content element uid</source>
             <target state="translated">uid des Inhaltselements</target></trans-unit>
+      <trans-unit id="formEditor.elements.Form.finisher.Confirmation.editor.message.label" xml:space="preserve" approved="yes">
+                <source>Text</source>
+            <target state="translated">Text</target></trans-unit>
       <trans-unit id="formEditor.elements.Form.finisher.Confirmation.editor.message.fieldExplanationText" xml:space="preserve" approved="yes">
                 <source>Will be ignored if "Content element" is set</source>
             <target state="translated">Wird nicht beachtet, wenn "Inhalts Element" gesetzt ist</target></trans-unit>
@@ -564,12 +585,18 @@
       <trans-unit id="formEditor.elements.GridRow.editor.label.label" xml:space="preserve" approved="yes">
                 <source>Row name (not visible within frontend)</source>
             <target state="translated">Zeilenname (nicht sichtbar im Frontend)</target></trans-unit>
+      <trans-unit id="formEditor.elements.Text.label" xml:space="preserve" approved="yes">
+                <source>Text</source>
+            <target state="translated">Text</target></trans-unit>
       <trans-unit id="formEditor.elements.Email.label" xml:space="preserve" approved="yes">
                 <source>Email address</source>
             <target state="translated">E-Mail Adresse</target></trans-unit>
       <trans-unit id="formEditor.elements.Telephone.label" xml:space="preserve" approved="yes">
                 <source>Telephone number</source>
             <target state="translated">Telefonnummer</target></trans-unit>
+      <trans-unit id="formEditor.elements.Url.label" xml:space="preserve" approved="yes">
+                <source>URL</source>
+            <target state="translated">URL</target></trans-unit>
       <trans-unit id="formEditor.elements.Number.label" xml:space="preserve" approved="yes">
                 <source>Number</source>
             <target state="translated">Zahl</target></trans-unit>
@@ -621,6 +648,9 @@
       <trans-unit id="formEditor.elements.Textarea.label" xml:space="preserve" approved="yes">
                 <source>Textarea</source>
             <target state="translated">Textfeld</target></trans-unit>
+      <trans-unit id="formEditor.elements.Checkbox.label" xml:space="preserve" approved="yes">
+                <source>Checkbox</source>
+            <target state="translated">Checkbox</target></trans-unit>
       <trans-unit id="formEditor.elements.MultiCheckbox.label" xml:space="preserve" approved="yes">
                 <source>Multi checkbox</source>
             <target state="translated">Checkbox zur Mehrfachauswahl</target></trans-unit>
@@ -666,6 +696,9 @@
       <trans-unit id="formEditor.elements.StaticText.editor.label.label" xml:space="preserve" approved="yes">
                 <source>Header</source>
             <target state="translated">Überschrift</target></trans-unit>
+      <trans-unit id="formEditor.elements.StaticText.editor.staticText.label" xml:space="preserve" approved="yes">
+                <source>Text</source>
+            <target state="translated">Text</target></trans-unit>
       <trans-unit id="formEditor.elements.Hidden.label" xml:space="preserve" approved="yes">
                 <source>Hidden</source>
             <target state="translated">Verborgen</target></trans-unit>
