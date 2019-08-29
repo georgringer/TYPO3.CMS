@@ -23,6 +23,14 @@
         <source>Setup check</source>
         <target state="translated">Opsætningstjek</target>
       </trans-unit>
+      <trans-unit id="function.info" approved="yes">
+        <source>Information</source>
+        <target state="translated">Information</target>
+      </trans-unit>
+      <trans-unit id="hdg.cliScript" approved="yes">
+        <source>CLI script</source>
+        <target state="translated">CLI script</target>
+      </trans-unit>
       <trans-unit id="hdg.lastRun" approved="yes">
         <source>Last run</source>
         <target state="translated">Sidste kørsel</target>
@@ -47,9 +55,17 @@
         <source>Class</source>
         <target state="translated">Klasse</target>
       </trans-unit>
+      <trans-unit id="label.cron" approved="yes">
+        <source>Cron</source>
+        <target state="translated">Cron</target>
+      </trans-unit>
       <trans-unit id="label.defType" approved="yes">
         <source>Definition type</source>
         <target state="translated">Definitions-type</target>
+      </trans-unit>
+      <trans-unit id="label.defType.interval" approved="yes">
+        <source>Interval</source>
+        <target state="translated">Interval</target>
       </trans-unit>
       <trans-unit id="label.defType.cron" approved="yes">
         <source>Cron command</source>
@@ -82,6 +98,10 @@
       <trans-unit id="label.frequency.long" approved="yes">
         <source>Frequency (seconds or cron command)</source>
         <target state="translated">Frekvens (sekunder eller cron kommando)</target>
+      </trans-unit>
+      <trans-unit id="label.id" approved="yes">
+        <source>ID</source>
+        <target state="translated">ID</target>
       </trans-unit>
       <trans-unit id="label.lastExecution" approved="yes">
         <source>Last Execution</source>
@@ -119,6 +139,10 @@
         <source>Sleep time</source>
         <target state="translated">Hviletid</target>
       </trans-unit>
+      <trans-unit id="label.start" approved="yes">
+        <source>Start (HH:MM DD-MM-YYYY)</source>
+        <target state="translated">Start (HH:MM DD-MM-YYYY)</target>
+      </trans-unit>
       <trans-unit id="label.fileStorageIndexing.storage" approved="yes">
         <source>Storage to index</source>
         <target state="translated">Lagring til indeks</target>
@@ -146,6 +170,10 @@
       <trans-unit id="label.tableGarbageCollection.numberOfDays" approved="yes">
         <source>Delete entries older than given number of days</source>
         <target state="translated">Slet indtastninger som er ældre end det angivne antal dage</target>
+      </trans-unit>
+      <trans-unit id="label.type" approved="yes">
+        <source>Type</source>
+        <target state="translated">Type</target>
       </trans-unit>
       <trans-unit id="label.type.recurring" approved="yes">
         <source>Recurring</source>
@@ -347,6 +375,10 @@
         <source>None</source>
         <target state="translated">Ingen</target>
       </trans-unit>
+      <trans-unit id="status" approved="yes">
+        <source>Status</source>
+        <target state="translated">Status</target>
+      </trans-unit>
       <trans-unit id="status.progress" approved="yes">
         <source>Progress</source>
         <target state="translated">Fremgang</target>
@@ -399,6 +431,10 @@
         <source>This task does nothing but put PHP to sleep for a number of seconds. It is designed to test multiple executions.</source>
         <target state="translated">Denne opgave gør ingenting end at sætte PHP på pause i et antal sekunder. Det er designet til at teste adskillige kørsler.</target>
       </trans-unit>
+      <trans-unit id="cachingFrameworkGarbageCollection.name" approved="yes">
+        <source>Caching framework garbage collection</source>
+        <target state="translated">Caching framework garbage collection</target>
+      </trans-unit>
       <trans-unit id="cachingFrameworkGarbageCollection.description" approved="yes">
         <source>This task calls the garbage collection of configured caching framework caches which use one of the selected backends. This will free some space in cache backends which do not have an internal garbage collection. In case of the default database backend it is advisable to run this task once a day when the database is mostly idle.</source>
         <target state="translated">Denne opgave kalder garbage collection af det konfigurerede caching framework, som anvender en af de valgte backends. Det vil frigøre noget plads i den cache backends, som ikke har en intern garbage collection. I tilfælde af kun en standard database backend, anbefales det at køre denne opgave en dag, hvor der er minimal belastning på databasen.</target>
@@ -434,6 +470,10 @@
       <trans-unit id="tableGarbageCollection.description" approved="yes">
         <source>Task to delete old entries from specific tables like sys_log. Use $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['scheduler']['tasks']['tx_scheduler_TableGarbageCollection']['options']['tables'] to configure tables. Refer to the manual for more details.</source>
         <target state="translated">Opgave der sletter gamle indtastninger og optegnelser fra specifikke tabeller, som sys_log. Brug $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['scheduler']['tasks']['tx_scheduler_TableGarbageCollection']['options']['tables'] til at konfigurere tabeller. Se desuden manualen for yderligere detaljer.</target>
+      </trans-unit>
+      <trans-unit id="recyclerGarbageCollection.name" approved="yes">
+        <source>Fileadmin garbage collection</source>
+        <target state="translated">Fileadmin garbage collection</target>
       </trans-unit>
       <trans-unit id="recyclerGarbageCollection.description" approved="yes">
         <source>This task empties all "_recycler_" folders below fileadmin. This helps free some space in the file system.</source>
