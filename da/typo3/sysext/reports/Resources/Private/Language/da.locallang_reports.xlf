@@ -15,9 +15,17 @@
         <source>Here you can find a short overview of your site's parameters as well as any problems detected with your installation. It may be useful to copy and paste this information into support requests filed on TYPO3's support mailinglists and project issue trackers.</source>
         <target state="translated">Her kan du få et kort overblik over dit websteds parametre såvel som alle registrerede problemer for din installation. Det kan være nyttigt at kopiere og indsætte denne information i henvendelser på TYPO3's maillister eller support sager.</target>
       </trans-unit>
+      <trans-unit id="status_ok" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
+      </trans-unit>
       <trans-unit id="status_wrongValue" approved="yes">
         <source>Wrong value detected</source>
         <target state="translated">Forkert værdi fundet</target>
+      </trans-unit>
+      <trans-unit id="status_info" approved="yes">
+        <source>Information</source>
+        <target state="translated">Information</target>
       </trans-unit>
       <trans-unit id="status_insecure" approved="yes">
         <source>Insecure</source>
@@ -71,6 +79,14 @@
         <source>This report contains all System Status Notifications from your TYPO3 installation. Please check the status report for more information.</source>
         <target state="translated">Denne rapport indeholder alle meddelelser om Systemstatus fra din TYPO3 installation. Venligst tjek statusrapport for mere information.</target>
       </trans-unit>
+      <trans-unit id="status_typo3" approved="yes">
+        <source>TYPO3 System</source>
+        <target state="translated">TYPO3 System</target>
+      </trans-unit>
+      <trans-unit id="status_system" approved="yes">
+        <source>System</source>
+        <target state="translated">System</target>
+      </trans-unit>
       <trans-unit id="status_security" approved="yes">
         <source>Security</source>
         <target state="translated">Sikkerhed</target>
@@ -82,6 +98,10 @@
       <trans-unit id="status_referenceIndex" approved="yes">
         <source>Reference Index</source>
         <target state="translated">Reference-indeks</target>
+      </trans-unit>
+      <trans-unit id="status_fal" approved="yes">
+        <source>File Abstraction Layer</source>
+        <target state="translated">File Abstraction Layer</target>
       </trans-unit>
       <trans-unit id="status_missingFiles" approved="yes">
         <source>Files flagged as missing</source>
@@ -98,6 +118,14 @@
       <trans-unit id="status_memcachedConfiguration" approved="yes">
         <source>Memcached Configuration</source>
         <target state="translated">Konfiguration for cached hukommelse</target>
+      </trans-unit>
+      <trans-unit id="status_PhpSafeMode" approved="yes">
+        <source>PHP safe_mode</source>
+        <target state="translated">PHP safe_mode</target>
+      </trans-unit>
+      <trans-unit id="status_PhpMagicQuotesGpc" approved="yes">
+        <source>PHP magic_quotes_gpc</source>
+        <target state="translated">PHP magic_quotes_gpc</target>
       </trans-unit>
       <trans-unit id="status_CreatedFilePermissions" approved="yes">
         <source>Permissions of created files</source>
@@ -178,6 +206,10 @@
       <trans-unit id="status_installToolPassword" approved="yes">
         <source>Install Tool Password</source>
         <target state="translated">Kodeord for Install Tool</target>
+      </trans-unit>
+      <trans-unit id="status_installTool" approved="yes">
+        <source>Install Tool</source>
+        <target state="translated">Install Tool</target>
       </trans-unit>
       <trans-unit id="status_phpVersion" approved="yes">
         <source>PHP Version</source>
@@ -357,6 +389,10 @@ Du kan udvide størrelsen til 8MB (standard på Unix), ved at tilføje dette til
       <trans-unit id="status_xclassUsageFound_message_detail" approved="yes">
         <source>%2$s registers an XCLASS of %1$s</source>
         <target state="translated">%2$s registrerer en XCLASS af %1$s</target>
+      </trans-unit>
+      <trans-unit id="status_compatibility7Usage" approved="yes">
+        <source>Extension compatibility7</source>
+        <target state="translated">Extension compatibility7</target>
       </trans-unit>
       <trans-unit id="status_compatibility7Usage_message" approved="yes">
         <source>Extension compatibility7 is loaded. You should check that every third-party extension is natively compatible with this version of TYPO3 and then unload this compatibility extension. As long as this compatibility extension is loaded, you will suffer performance drawbacks</source>
