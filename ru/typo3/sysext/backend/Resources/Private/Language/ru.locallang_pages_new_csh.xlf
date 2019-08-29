@@ -27,6 +27,11 @@ Select this if the new pages should be hidden by default. This option may be for
 
 &lt;b&gt;"Скрыть новые страницы"&lt;/b&gt;
 Включите, если нужно, чтобы новые страницы были скрыты. Этот параметр может быть принудительно назначен, если у вас нет разрешений для создания новых страниц сайта.</target></trans-unit>
+      <trans-unit id="_pages_new.image" xml:space="preserve" approved="yes">
+				<source>EXT:backend/Resources/Public/Images/Csh/PagesNew_1.png,
+EXT:backend/Resources/Public/Images/Csh/PagesNew_2.png</source>
+			<target state="translated">EXT:backend/Resources/Public/Images/Csh/PagesNew_1.png,
+EXT:backend/Resources/Public/Images/Csh/PagesNew_2.png</target></trans-unit>
       <trans-unit id="pages_new.image_descr" xml:space="preserve" approved="yes">
 				<source>You simply enter the new page titles in the fields. Only fields you fill in will be created as pages.
 After pressing the "Create pages" button the page tree to the left will update instantly, showing you the position of the new pages!</source>
