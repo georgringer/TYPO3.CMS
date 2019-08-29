@@ -3,6 +3,14 @@
   <file t3:id="1415814893" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="linkvalidator" target-language="hr">
     <header/>
     <body>
+      <trans-unit id="mod_linkvalidator" approved="yes">
+        <source>Linkvalidator</source>
+        <target state="translated">Linkvalidator</target>
+      </trans-unit>
+      <trans-unit id="tasks.validate.name" approved="yes">
+        <source>Linkvalidator</source>
+        <target state="translated">Linkvalidator</target>
+      </trans-unit>
       <trans-unit id="tasks.validate.description" approved="yes">
         <source>Search for broken links and store the result into the temporary table tx_linkvalidator_link in order to ease up the backend module.</source>
         <target state="translated">Pronađi neispravne poveznice te ih spremi u privremenu tablicu tx_linkvalidator_link kako bi se rasteretio modul pozadinskog sučelja.</target>
