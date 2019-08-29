@@ -19,9 +19,17 @@
         <source>via</source>
         <target state="translated">តាមរយៈ</target>
       </trans-unit>
+      <trans-unit id="live" approved="yes">
+        <source>LIVE</source>
+        <target state="translated">LIVE</target>
+      </trans-unit>
       <trans-unit id="draft" approved="yes">
         <source>Draft</source>
         <target state="translated">ពង្រាង</target>
+      </trans-unit>
+      <trans-unit id="self" approved="yes">
+        <source>Self</source>
+        <target state="translated">Self</target>
       </trans-unit>
       <trans-unit id="thisWeek" approved="yes">
         <source>This week</source>
@@ -95,6 +103,10 @@
         <source>File</source>
         <target state="translated">ឯកសារ</target>
       </trans-unit>
+      <trans-unit id="actionCache" approved="yes">
+        <source>Cache</source>
+        <target state="translated">Cache</target>
+      </trans-unit>
       <trans-unit id="actionSettings" approved="yes">
         <source>Settings</source>
         <target state="translated">ការកំណត់</target>
@@ -114,6 +126,10 @@
       <trans-unit id="showHistory" approved="yes">
         <source>Show History</source>
         <target state="translated">បង្ហាញ​ប្រវត្តិ</target>
+      </trans-unit>
+      <trans-unit id="pagenameWithUID" approved="yes">
+        <source>%s" [UID: %s]</source>
+        <target state="translated">%s" [UID: %s]</target>
       </trans-unit>
       <trans-unit id="overview" approved="yes">
         <source>Overview</source>
@@ -138,6 +154,10 @@
       <trans-unit id="logForNonPageRelatedActionsOrRootLevelOrPage" approved="yes">
         <source>Log %s from %s to %s</source>
         <target state="translated">កំណត់ហេតុ​%s​ពី​%s​ទៅ​%s</target>
+      </trans-unit>
+      <trans-unit id="type_1" approved="yes">
+        <source>DB</source>
+        <target state="translated">DB</target>
       </trans-unit>
       <trans-unit id="action_1_1" approved="yes">
         <source>Insert</source>
@@ -291,6 +311,10 @@
         <source>New</source>
         <target state="translated">ថ្មី</target>
       </trans-unit>
+      <trans-unit id="action_2_7" approved="yes">
+        <source>Unzip</source>
+        <target state="translated">Unzip</target>
+      </trans-unit>
       <trans-unit id="action_2_8" approved="yes">
         <source>New file</source>
         <target state="translated">ឯកសារ​ថ្មី</target>
@@ -302,6 +326,10 @@
       <trans-unit id="msg_2_9_1" approved="yes">
         <source>File saved to '%s', bytes: %s, MD5: %s </source>
         <target state="translated">ឯកសារ​បានរក្សាទុកជា '%s', មៃត៍: %s, MD5: %s </target>
+      </trans-unit>
+      <trans-unit id="type_3" approved="yes">
+        <source>CACHE</source>
+        <target state="translated">CACHE</target>
       </trans-unit>
       <trans-unit id="action_3_1" approved="yes">
         <source>Clear Cache</source>
@@ -386,6 +414,10 @@
       <trans-unit id="chLog_l_user" approved="yes">
         <source>User</source>
         <target state="translated">អ្នកប្រើប្រាស់</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_error" approved="yes">
+        <source>E</source>
+        <target state="translated">E</target>
       </trans-unit>
       <trans-unit id="chLog_l_action" approved="yes">
         <source>Action</source>
