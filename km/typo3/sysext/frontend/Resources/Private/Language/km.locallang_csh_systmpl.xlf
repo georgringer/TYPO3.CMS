@@ -44,6 +44,11 @@ The Web&gt;Template module contains tools which will help you to edit and valida
         <source>TypoScript Constants.</source>
         <target state="translated">កុងស្ដង់ TypoScript ។</target>
       </trans-unit>
+      <trans-unit id="_constants.seeAlso" approved="yes">
+        <source>static_template:constants</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">static_template:constants</target>
+      </trans-unit>
       <trans-unit id="config.description" approved="yes">
         <source>TypoScript Setup code</source>
         <target state="translated">កូដ​ដំឡើង TypoScript</target>
@@ -64,9 +69,19 @@ The Web&gt;Template module contains tools which will help you to edit and valida
         <source>Flags that will clear the inheritance of TypoScript code from former templates in the root line. There is a flag for Constants and one for Setup code.</source>
         <target state="translated">ទង់​ដែល​នឹង​សម្អាត​លើ​ការទទួល​មរត៌ក​កុដ TypoScript ពី template ចាស់​ក្នុង​បន្ទាប់​គោល ។ មាន​ទង់​សម្រាប់​កុងស្ដង់ និង មួយ​សម្រាប់​កូដ​ដំឡើង ។</target>
       </trans-unit>
+      <trans-unit id="_clear.seeAlso" approved="yes">
+        <source>sys_template:root</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">sys_template:root</target>
+      </trans-unit>
       <trans-unit id="root.description" approved="yes">
         <source>Defines that the template represents a root of a website.</source>
         <target state="translated">កំណត់​ថា template បង្ហាញ​​គោល​របស់​វែបសាយ ។</target>
+      </trans-unit>
+      <trans-unit id="_root.seeAlso" approved="yes">
+        <source>sys_template:clear</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">sys_template:clear</target>
       </trans-unit>
       <trans-unit id="includeStaticAfterBasedOn.description" approved="yes">
         <source>If set, static templates will be included after "based-on" templates. It basically swaps the order of inclusion of these external TypoScript sources.</source>
@@ -76,6 +91,10 @@ The Web&gt;Template module contains tools which will help you to edit and valida
         <source>Static Template records to include.</source>
         <target state="translated">ទិន្នន័យ template ស្ដាទិក​ត្រូវ​បញ្ចូល ។</target>
       </trans-unit>
+      <trans-unit id="_include_static.seeAlso" approved="yes">
+        <source>static_template</source>
+        <target state="translated">static_template</target>
+      </trans-unit>
       <trans-unit id="include_static_file.description" approved="yes">
         <source>Static Template files to include.</source>
         <target state="translated">ឯកសារ template ស្ដាទិក​ត្រូវ​បញ្ចូល ។</target>
@@ -83,6 +102,11 @@ The Web&gt;Template module contains tools which will help you to edit and valida
       <trans-unit id="include_static_file.details" approved="yes">
         <source>Static template files are registered by extensions contrary to Static Template records which come from the static database table, "static_template".</source>
         <target state="translated">ឯកសារ​ template ស្ដាទិក​ត្រូវ​បាន​ចុះឈ្មោះ​ដោយ​សមាសភាគ​ ទៅ​ទិន្នន័យ Template ស្ដាទិក​ដែល​បាន​ពី​តារាង​ទិន្នន័យ​ស្ដាទិក, "static_template" ។</target>
+      </trans-unit>
+      <trans-unit id="_include_static_file.seeAlso" approved="yes">
+        <source>sys_template:include_static</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">sys_template:include_static</target>
       </trans-unit>
       <trans-unit id="basedOn.description" approved="yes">
         <source>Other Template Records that are included like "static templates".</source>
