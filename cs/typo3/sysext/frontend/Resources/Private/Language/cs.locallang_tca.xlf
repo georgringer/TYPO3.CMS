@@ -211,6 +211,14 @@
         <source>Link Target</source>
         <target state="translated">Cíl odkazu</target>
       </trans-unit>
+      <trans-unit id="pages.url" approved="yes">
+        <source>URL</source>
+        <target state="translated">URL</target>
+      </trans-unit>
+      <trans-unit id="pages.url_formlabel" approved="yes">
+        <source>URL</source>
+        <target state="translated">URL</target>
+      </trans-unit>
       <trans-unit id="pages.lastUpdated" approved="yes">
         <source>Last Updated</source>
         <target state="translated">Poslední aktualizace:</target>
@@ -234,6 +242,22 @@
       <trans-unit id="pages.cache_timeout_formlabel" approved="yes">
         <source>Cache Lifetime</source>
         <target state="translated">Životnost keše</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.1" approved="yes">
+        <source>1 min</source>
+        <target state="translated">1 min</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.2" approved="yes">
+        <source>5 min</source>
+        <target state="translated">5 min</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.3" approved="yes">
+        <source>15 min</source>
+        <target state="translated">15 min</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.4" approved="yes">
+        <source>30 min</source>
+        <target state="translated">30 min</target>
       </trans-unit>
       <trans-unit id="pages.cache_timeout.I.5" approved="yes">
         <source>1 hour</source>
@@ -267,6 +291,10 @@
         <source>Editable for Admins Only</source>
         <target state="translated">Editovatelné pouze administrátory</target>
       </trans-unit>
+      <trans-unit id="pages.tabs.metadata" approved="yes">
+        <source>Metadata</source>
+        <target state="translated">Metadata</target>
+      </trans-unit>
       <trans-unit id="pages.tabs.files" approved="yes">
         <source>Resources</source>
         <target state="translated">Zdroje</target>
@@ -290,6 +318,10 @@
       <trans-unit id="pages.tabs.shortcut" approved="yes">
         <source>Shortcut</source>
         <target state="translated">Zkratka</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.url" approved="yes">
+        <source>URL</source>
+        <target state="translated">URL</target>
       </trans-unit>
       <trans-unit id="pages.tabs.extended" approved="yes">
         <source>Extended</source>
