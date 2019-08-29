@@ -3,6 +3,10 @@
   <file t3:id="1528554340" source-language="en" datatype="plaintext" original="messages" date="2018-08-09T16:22:32Z" product-name="seo" target-language="da">
     <header/>
     <body>
+      <trans-unit id="pages.tabs.seo" approved="yes">
+        <source>SEO</source>
+        <target state="translated">SEO</target>
+      </trans-unit>
       <trans-unit id="pages.palettes.seo" approved="yes">
         <source>General SEO settings</source>
         <target state="translated">Generelle SEO indstillinger</target>
@@ -15,13 +19,25 @@
         <source>Robot instructions</source>
         <target state="translated">Robot instruktioner</target>
       </trans-unit>
+      <trans-unit id="pages.no_index" approved="yes">
+        <source>No index</source>
+        <target state="translated">No index</target>
+      </trans-unit>
       <trans-unit id="pages.no_index_formlabel" approved="yes">
         <source>Index this page</source>
         <target state="translated">Indeksér denne side</target>
       </trans-unit>
+      <trans-unit id="pages.no_follow" approved="yes">
+        <source>No follow</source>
+        <target state="translated">No follow</target>
+      </trans-unit>
       <trans-unit id="pages.no_follow_formlabel" approved="yes">
         <source>Follow this page</source>
         <target state="translated">Følg denne side</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.opengraph" approved="yes">
+        <source>Open Graph (Facebook)</source>
+        <target state="translated">Open Graph (Facebook)</target>
       </trans-unit>
       <trans-unit id="pages.og_title" approved="yes">
         <source>Title</source>
@@ -35,6 +51,10 @@
         <source>Image</source>
         <target state="translated">Billede</target>
       </trans-unit>
+      <trans-unit id="pages.palettes.twittercards" approved="yes">
+        <source>Twitter Cards</source>
+        <target state="translated">Twitter Cards</target>
+      </trans-unit>
       <trans-unit id="pages.twitter_title" approved="yes">
         <source>Title</source>
         <target state="translated">Titel</target>
@@ -46,6 +66,14 @@
       <trans-unit id="pages.twitter_image" approved="yes">
         <source>Image</source>
         <target state="translated">Billede</target>
+      </trans-unit>
+      <trans-unit id="pages.palettes.canonical" approved="yes">
+        <source>Canonical</source>
+        <target state="translated">Canonical</target>
+      </trans-unit>
+      <trans-unit id="pages.canonical_link" approved="yes">
+        <source>Canonical link</source>
+        <target state="translated">Canonical link</target>
       </trans-unit>
       <trans-unit id="pages.tabs.socialmedia" approved="yes">
         <source>Social media</source>
