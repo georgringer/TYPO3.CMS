@@ -15,9 +15,17 @@
         <source>[Any]</source>
         <target state="translated">[Tous]</target>
       </trans-unit>
+      <trans-unit id="viaUser" approved="yes">
+        <source>via</source>
+        <target state="translated">via</target>
+      </trans-unit>
       <trans-unit id="live" approved="yes">
         <source>LIVE</source>
         <target state="translated">Live</target>
+      </trans-unit>
+      <trans-unit id="draft" approved="yes">
+        <source>Draft</source>
+        <target state="translated">Draft</target>
       </trans-unit>
       <trans-unit id="self" approved="yes">
         <source>Self</source>
@@ -59,6 +67,30 @@
         <source>Set</source>
         <target state="translated">Fixer</target>
       </trans-unit>
+      <trans-unit id="20" approved="yes">
+        <source>20</source>
+        <target state="translated">20</target>
+      </trans-unit>
+      <trans-unit id="50" approved="yes">
+        <source>50</source>
+        <target state="translated">50</target>
+      </trans-unit>
+      <trans-unit id="100" approved="yes">
+        <source>100</source>
+        <target state="translated">100</target>
+      </trans-unit>
+      <trans-unit id="200" approved="yes">
+        <source>200</source>
+        <target state="translated">200</target>
+      </trans-unit>
+      <trans-unit id="500" approved="yes">
+        <source>500</source>
+        <target state="translated">500</target>
+      </trans-unit>
+      <trans-unit id="1000" approved="yes">
+        <source>1000</source>
+        <target state="translated">1000</target>
+      </trans-unit>
       <trans-unit id="actionAll" approved="yes">
         <source>All</source>
         <target state="translated">Tous</target>
@@ -71,9 +103,17 @@
         <source>File</source>
         <target state="translated">Fichiers</target>
       </trans-unit>
+      <trans-unit id="actionCache" approved="yes">
+        <source>Cache</source>
+        <target state="translated">Cache</target>
+      </trans-unit>
       <trans-unit id="actionSettings" approved="yes">
         <source>Settings</source>
         <target state="translated">Paramétrages</target>
+      </trans-unit>
+      <trans-unit id="actionLogin" approved="yes">
+        <source>Login</source>
+        <target state="translated">Login</target>
       </trans-unit>
       <trans-unit id="actionErrors" approved="yes">
         <source>Errors</source>
@@ -86,6 +126,10 @@
       <trans-unit id="showHistory" approved="yes">
         <source>Show History</source>
         <target state="translated">Montrer l'historique</target>
+      </trans-unit>
+      <trans-unit id="pagenameWithUID" approved="yes">
+        <source>%s" [UID: %s]</source>
+        <target state="translated">%s" [UID: %s]</target>
       </trans-unit>
       <trans-unit id="overview" approved="yes">
         <source>Overview</source>
@@ -283,9 +327,17 @@
         <source>File saved to '%s', bytes: %s, MD5: %s </source>
         <target state="translated">Fichier enregistré sous '%s', Octets: %s, MD5: %s </target>
       </trans-unit>
+      <trans-unit id="type_3" approved="yes">
+        <source>CACHE</source>
+        <target state="translated">CACHE</target>
+      </trans-unit>
       <trans-unit id="action_3_1" approved="yes">
         <source>Clear Cache</source>
         <target state="translated">Vider le cache</target>
+      </trans-unit>
+      <trans-unit id="type_4" approved="yes">
+        <source>EXTENSION</source>
+        <target state="translated">EXTENSION</target>
       </trans-unit>
       <trans-unit id="type_5" approved="yes">
         <source>ERROR</source>
@@ -367,6 +419,22 @@
         <source>User</source>
         <target state="translated">Utilisateur</target>
       </trans-unit>
+      <trans-unit id="chLog_l_error" approved="yes">
+        <source>E</source>
+        <target state="translated">E</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_action" approved="yes">
+        <source>Action</source>
+        <target state="translated">Action</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_types" approved="yes">
+        <source>Type</source>
+        <target state="translated">Type</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_table" approved="yes">
+        <source>Table</source>
+        <target state="translated">Table</target>
+      </trans-unit>
       <trans-unit id="chLog_l_details" approved="yes">
         <source>Details</source>
         <target state="translated">Détails</target>
@@ -382,6 +450,10 @@
       <trans-unit id="systemmessage.errorsInPeriod" approved="yes">
         <source><![CDATA[We have found %1$d errors. Please check your <a href="%2$s">system log</a>.]]></source>
         <target state="translated"><![CDATA[Nous avons trouvé %1$d erreurs. Veuillez vérifier votre &lt;a href="%2$s"&gt;journal du système&lt;/a&gt;]]></target>
+      </trans-unit>
+      <trans-unit id="actions" approved="yes">
+        <source>Actions</source>
+        <target state="translated">Actions</target>
       </trans-unit>
       <trans-unit id="actions.delete" approved="yes">
         <source>Delete similar errors</source>
