@@ -7,14 +7,29 @@
         <source>User login</source>
         <target state="translated">Benutzeranmeldung</target>
       </trans-unit>
+      <trans-unit id="welcome_message" approved="yes">
+        <source>Enter your username and password here in order to log in on the website</source>
+        <target state="translated">Bitte geben Sie Ihren Benutzernamen und Ihr Passwort ein um sich an der Website anzumelden.</target>
+      </trans-unit>
       <trans-unit id="logout_header" approved="yes">
         <source>You have logged out.</source>
         <target state="translated">Sie haben sich abgemeldet.</target>
+      </trans-unit>
+      <trans-unit id="logout_message" approved="yes">
+        <source>You just logged out from your user session on this website. You can login again or as another user by the form below.</source>
+        <target state="translated">Sie haben sich gerade von dieser Website abgemeldet. Sie können sich mit dem Anmelde-Formular erneut anmelden.</target>
       </trans-unit>
       <trans-unit id="error_header" approved="yes">
         <source>Login failure</source>
         <target state="translated">Anmeldefehler</target>
       </trans-unit>
+      <trans-unit id="error_message" xml:space="preserve" approved="yes">
+				<source>An error occurred during login. Most likely you didn't enter the username or password correctly.
+Be certain that you enter them precisely as they are, including upper/lower case.
+Another possibility is that cookies might be disabled in your web browser.</source>
+			<target state="translated">Beim der Anmeldung trat ein Fehler auf. Eventuell haben Sie den Benutzernamen oder das Passwort nicht korrekt eingegeben.
+Bitte stellen Sie sicher, dass Sie sie korrekt eingeben, berücksichtigen Sie dabei bitte die Groß- und Klein­schrei­bung.
+Möglicherweise ist in Ihrem Browser das Setzen von Cookies nicht gestattet.</target></trans-unit>
       <trans-unit id="success_header" approved="yes">
         <source>Login successful</source>
         <target state="translated">Anmeldung erfolgreich</target>
@@ -67,6 +82,22 @@
         <source>Change your password</source>
         <target state="translated">Passwort ändern</target>
       </trans-unit>
+      <trans-unit id="change_password_message" approved="yes">
+        <source>Please enter your new password twice. Password needs a minimum length of %s chars.</source>
+        <target state="translated">Bitte geben Sie Ihr neues Passwort zweimal ein. Das Passwort muss mindestens %s Zeichen lang sein.</target>
+      </trans-unit>
+      <trans-unit id="change_password_notequal_message" approved="yes">
+        <source>The passwords are not equal, please enter your new password twice. Password needs a minimum length of %s chars.</source>
+        <target state="translated">Die eingegebenen Passwörter stimmen nicht überein, bitte geben Sie Ihr neues Passwort zweimal ein. Das Passwort muss mindestens %s Zeichen lang sein.</target>
+      </trans-unit>
+      <trans-unit id="change_password_tooshort_message" approved="yes">
+        <source>The password length is too short. Please enter your new password twice. Password needs a minimum length of %s chars.</source>
+        <target state="translated">Das Passwort ist zu kurz. Bitte geben Sie Ihr neues Passwort zweimal ein. Das Passwort muss mindestens %s Zeichen lang sein.</target>
+      </trans-unit>
+      <trans-unit id="change_password_done_message" approved="yes">
+        <source>Your password has been saved. You can now login with your new password.</source>
+        <target state="translated">Ihr Passwort wurde gespeichert. Sie können sich nun mit Ihrem neuen Passwort einloggen.</target>
+      </trans-unit>
       <trans-unit id="change_password" approved="yes">
         <source>Change your password</source>
         <target state="translated">Passwort ändern</target>
@@ -98,9 +129,46 @@ Hallo %s
 ,
 Ihr Benutzername lautet "%s".
 Ihr Passwort ist "%s".</target></trans-unit>
+      <trans-unit id="forgot_email_nopassword" xml:space="preserve" approved="yes">
+				<source>Your password
+Hi %s
+
+We couldn't find a username for this email address and so cannot send the password to you. Probably you misspelled the email address (upper/lower case makes a difference) or maybe you even didn't register yet?</source>
+			<target state="translated">Ihr Passwort
+Hallo %s,
+
+Wir konnten keinen Benutzernamen mit dieser E-Mail-Adresse finden und Ihnen daher kein Passwort schicken. Eventuell haben Sie die E-Mail-Adresse nicht korrekt geschrieben (bitte Groß- und Kleinschreibung beachten) oder sich gar noch nicht angemeldet?</target></trans-unit>
+      <trans-unit id="forgot_validate_reset_password" xml:space="preserve" approved="yes">
+				<source>Your new password
+Dear %s,
+
+This email was sent in response to your request to reset your password. Please click on the link below.
+%s
+
+For security reasons, this link is only active until %s. If you do not visit the link before then, you will need to repeat the password reset steps.</source>
+			<target state="translated">Ihr neues Passwort
+Hallo %s,
+
+Diese E-Mail ist Teil des Passwort-Wiederhestellen-Prozesses. Bitte klicken Sie den untenstehenden Link.
+
+%s
+
+Aus Sicherheitsgründen ist dieser Link nur gültig bis %s. Wenn Sie den Link nicht bis dahin geöffnet haben, müssen Sie die Passwort-Weiderherstellung ernaut anstoßen.</target></trans-unit>
+      <trans-unit id="forgot_message" approved="yes">
+        <source>Please enter the email address by which you registered your user account. Then press "Send password" and your password will immediately be emailed to you. Make sure to spell your email address correctly.</source>
+        <target state="translated">Bitte geben Sie die E-Mail-Adresse ein, die Sie bei der Erstellung Ihres Kontos genutzt haben. Dann klicken Sie auf "Passwort verschicken" und Ihr Passwort wird Ihnen umgehend zugemailt. Bitte stellen Sie sicher, dass Sie die E-Mail-Adresse korrekt schreiben.</target>
+      </trans-unit>
       <trans-unit id="forgot_message_emailSent" approved="yes">
         <source>Your password has now been sent to the email address %s</source>
         <target state="translated">Ihr Passwort wurde an die E-Mail-Adresse %s versandt.</target>
+      </trans-unit>
+      <trans-unit id="forgot_reset_message" approved="yes">
+        <source>Please enter your username or email address. Instructions for resetting the password will be immediately emailed to you.</source>
+        <target state="translated">Bitte geben Sie Ihren Benutzernamen oder Ihre E-Mail-Adresse ein. Anweisungen zum Zurücksetzen Ihres Passworts werden Ihnen umgehend per E-Mail zugesandt.</target>
+      </trans-unit>
+      <trans-unit id="forgot_reset_message_emailSent" approved="yes">
+        <source>An email has been sent to the address stored in your account and contains a link to reset your password. If you do not receive an email, your account or email address was not found.</source>
+        <target state="translated">Eine E-Mail mit einem Passwort-Zurücksetzen-Link wurde an die E-Mail-Adresse Ihres Kontos gesendet. Wenn Sie keine E-Mail erhalten, wurde Ihr Konto oder Ihre E-Mail-Adresse nicht gefunden.</target>
       </trans-unit>
       <trans-unit id="forgot_reset_message_error" approved="yes">
         <source>Your account or email address does not exist.</source>
