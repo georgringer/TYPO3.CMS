@@ -15,6 +15,14 @@
         <source>[Any]</source>
         <target state="translated">[Všechny]</target>
       </trans-unit>
+      <trans-unit id="viaUser" approved="yes">
+        <source>via</source>
+        <target state="translated">via</target>
+      </trans-unit>
+      <trans-unit id="live" approved="yes">
+        <source>LIVE</source>
+        <target state="translated">LIVE</target>
+      </trans-unit>
       <trans-unit id="draft" approved="yes">
         <source>Draft</source>
         <target state="translated">Koncept</target>
@@ -59,6 +67,30 @@
         <source>Set</source>
         <target state="translated">Nastavit</target>
       </trans-unit>
+      <trans-unit id="20" approved="yes">
+        <source>20</source>
+        <target state="translated">20</target>
+      </trans-unit>
+      <trans-unit id="50" approved="yes">
+        <source>50</source>
+        <target state="translated">50</target>
+      </trans-unit>
+      <trans-unit id="100" approved="yes">
+        <source>100</source>
+        <target state="translated">100</target>
+      </trans-unit>
+      <trans-unit id="200" approved="yes">
+        <source>200</source>
+        <target state="translated">200</target>
+      </trans-unit>
+      <trans-unit id="500" approved="yes">
+        <source>500</source>
+        <target state="translated">500</target>
+      </trans-unit>
+      <trans-unit id="1000" approved="yes">
+        <source>1000</source>
+        <target state="translated">1000</target>
+      </trans-unit>
       <trans-unit id="actionAll" approved="yes">
         <source>All</source>
         <target state="translated">Vše</target>
@@ -95,6 +127,10 @@
         <source>Show History</source>
         <target state="translated">Ukázat historii</target>
       </trans-unit>
+      <trans-unit id="pagenameWithUID" approved="yes">
+        <source>%s" [UID: %s]</source>
+        <target state="translated">%s" [UID: %s]</target>
+      </trans-unit>
       <trans-unit id="overview" approved="yes">
         <source>Overview</source>
         <target state="translated">Přehled</target>
@@ -118,6 +154,10 @@
       <trans-unit id="logForNonPageRelatedActionsOrRootLevelOrPage" approved="yes">
         <source>Log %s from %s to %s</source>
         <target state="translated">Protokol %s od %s do %s</target>
+      </trans-unit>
+      <trans-unit id="type_1" approved="yes">
+        <source>DB</source>
+        <target state="translated">DB</target>
       </trans-unit>
       <trans-unit id="action_1_1" approved="yes">
         <source>Insert</source>
