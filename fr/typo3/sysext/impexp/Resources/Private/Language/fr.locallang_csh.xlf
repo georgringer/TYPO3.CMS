@@ -19,6 +19,11 @@
         <source>Exporting records from TYPO3</source>
         <target state="translated">Exporter les enregistrements de TYPO3</target>
       </trans-unit>
+      <trans-unit id="_export.seeAlso" approved="yes">
+        <source>xMOD_tx_impexp:import</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">xMOD_tx_impexp:import</target>
+      </trans-unit>
       <trans-unit id="export.image_descr" xml:space="preserve" approved="yes">
 				<source>To export a page or record, simply click the icon and select "Export" from the context menu.
 With the Web&gt;List module you can also export all records from a table by first clicking the table title to see only this table, then next to the CSV export you will find the export button for a T3D export of the table.
@@ -129,9 +134,19 @@ The checkbox "Public" can be set if you want to share your preset with other use
         <source>Importing TYPO3 records</source>
         <target state="translated">Importation des enregistrements TYPO3</target>
       </trans-unit>
+      <trans-unit id="_import.seeAlso" approved="yes">
+        <source>xMOD_tx_impexp:export</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">xMOD_tx_impexp:export</target>
+      </trans-unit>
       <trans-unit id="importFile.alttitle" approved="yes">
         <source>Select file to import</source>
         <target state="translated">Sélectionnez le fichier à importer</target>
+      </trans-unit>
+      <trans-unit id="_importFile.seeAlso" approved="yes">
+        <source>xMOD_tx_impexp:fileFormat</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">xMOD_tx_impexp:fileFormat</target>
       </trans-unit>
       <trans-unit id="update.alttitle" approved="yes">
         <source>Update instead of Insert</source>
