@@ -35,6 +35,10 @@
         <source>Email</source>
         <target state="translated">E-mail</target>
       </trans-unit>
+      <trans-unit id="admin" approved="yes">
+        <source>Admin</source>
+        <target state="translated">Admin</target>
+      </trans-unit>
       <trans-unit id="users" approved="yes">
         <source>Users</source>
         <target state="translated">Brugere</target>
@@ -63,6 +67,14 @@
         <source>Is active?</source>
         <target state="translated">Er aktiv?</target>
       </trans-unit>
+      <trans-unit id="startDateAndTime" approved="yes">
+        <source>Start</source>
+        <target state="translated">Start</target>
+      </trans-unit>
+      <trans-unit id="endDateAndTime" approved="yes">
+        <source>Stop</source>
+        <target state="translated">Stop</target>
+      </trans-unit>
       <trans-unit id="lastLogin" approved="yes">
         <source>Last login</source>
         <target state="translated">Sidste login</target>
@@ -90,6 +102,10 @@
       <trans-unit id="compareUserList" approved="yes">
         <source>Compare user list</source>
         <target state="translated">Sammenlign bruger liste</target>
+      </trans-unit>
+      <trans-unit id="status" approved="yes">
+        <source>Status</source>
+        <target state="translated">Status</target>
       </trans-unit>
       <trans-unit id="both" approved="yes">
         <source>Both</source>
@@ -122,6 +138,10 @@
       <trans-unit id="neverLoggedIn" approved="yes">
         <source>Never logged in</source>
         <target state="translated">Aldrig logget ind</target>
+      </trans-unit>
+      <trans-unit id="filter" approved="yes">
+        <source>Filter</source>
+        <target state="translated">Filter</target>
       </trans-unit>
       <trans-unit id="reallyLogout" approved="yes">
         <source>Really logout</source>
@@ -186,6 +206,10 @@
       <trans-unit id="backendUserGroupListing" approved="yes">
         <source>Backend User Group Listing</source>
         <target state="translated">Backend bruger visning</target>
+      </trans-unit>
+      <trans-unit id="online" approved="yes">
+        <source>online</source>
+        <target state="translated">online</target>
       </trans-unit>
       <trans-unit id="visibility.hide" approved="yes">
         <source>hide</source>
