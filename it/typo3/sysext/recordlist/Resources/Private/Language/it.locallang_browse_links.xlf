@@ -23,6 +23,10 @@
         <source>Page</source>
         <target state="translated">Pagina</target>
       </trans-unit>
+      <trans-unit id="file" approved="yes">
+        <source>File</source>
+        <target state="translated">File</target>
+      </trans-unit>
       <trans-unit id="folder" approved="yes">
         <source>Folder</source>
         <target state="translated">Cartella</target>
@@ -30,6 +34,10 @@
       <trans-unit id="extUrl" approved="yes">
         <source>External URL</source>
         <target state="translated">URL esterno</target>
+      </trans-unit>
+      <trans-unit id="email" approved="yes">
+        <source>Email</source>
+        <target state="translated">Email</target>
       </trans-unit>
       <trans-unit id="telephone" approved="yes">
         <source>Telephone</source>
@@ -39,6 +47,10 @@
         <source>Special</source>
         <target state="translated">Speciale</target>
       </trans-unit>
+      <trans-unit id="folderTree" approved="yes">
+        <source>Folder Tree</source>
+        <target state="translated">Folder Tree</target>
+      </trans-unit>
       <trans-unit id="files" approved="yes">
         <source>Files</source>
         <target state="translated">File</target>
@@ -46,6 +58,10 @@
       <trans-unit id="folders" approved="yes">
         <source>Folders</source>
         <target state="translated">Cartelle</target>
+      </trans-unit>
+      <trans-unit id="target" approved="yes">
+        <source>Target</source>
+        <target state="translated">Target</target>
       </trans-unit>
       <trans-unit id="linkRelationship" approved="yes">
         <source>Relationship</source>
@@ -67,9 +83,17 @@
         <source>New window</source>
         <target state="translated">Nuova finestra</target>
       </trans-unit>
+      <trans-unit id="top" approved="yes">
+        <source>Top</source>
+        <target state="translated">Top</target>
+      </trans-unit>
       <trans-unit id="none" approved="yes">
         <source>None - new link!</source>
         <target state="translated">Nessuno - nuovo link!</target>
+      </trans-unit>
+      <trans-unit id="pageTree" approved="yes">
+        <source>Page tree</source>
+        <target state="translated">Page tree</target>
       </trans-unit>
       <trans-unit id="contentElements" approved="yes">
         <source>Content elements</source>
@@ -98,6 +122,10 @@
       <trans-unit id="setLink" approved="yes">
         <source>Set Link</source>
         <target state="translated">Imposta link</target>
+      </trans-unit>
+      <trans-unit id="urlPlaceholder" approved="yes">
+        <source>https://...</source>
+        <target state="translated">https://...</target>
       </trans-unit>
       <trans-unit id="clickToRedrawFullSize" approved="yes">
         <source>Image is larger than shown here! Click to redraw page with full sized images.</source>
