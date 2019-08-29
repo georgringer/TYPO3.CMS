@@ -11,6 +11,14 @@
         <source>TypoScript property lookup</source>
         <target state="translated">TypoScript eigenschappen (naslag)</target>
       </trans-unit>
+      <trans-unit id="tsprop_TSref" approved="yes">
+        <source>TSref online</source>
+        <target state="translated">TSref online</target>
+      </trans-unit>
+      <trans-unit id="tsprop_tsconfig" approved="yes">
+        <source>TSconfig online</source>
+        <target state="translated">TSconfig online</target>
+      </trans-unit>
       <trans-unit id="tsprop_title" approved="yes">
         <source>Object title</source>
         <target state="translated">Objecttitel</target>
@@ -107,6 +115,14 @@
         <source>Refresh without saving</source>
         <target state="translated">Vernieuwen zonder opslaan</target>
       </trans-unit>
+      <trans-unit id="forms_label" approved="yes">
+        <source>Label</source>
+        <target state="translated">Label</target>
+      </trans-unit>
+      <trans-unit id="forms_type" approved="yes">
+        <source>Type</source>
+        <target state="translated">Type</target>
+      </trans-unit>
       <trans-unit id="forms_type_textarea" approved="yes">
         <source>Text area</source>
         <target state="translated">Tekstveld</target>
@@ -147,6 +163,10 @@
         <source>Property</source>
         <target state="translated">Eigenschap</target>
       </trans-unit>
+      <trans-unit id="forms_type_label" approved="yes">
+        <source>Label</source>
+        <target state="translated">Label</target>
+      </trans-unit>
       <trans-unit id="forms_required" approved="yes">
         <source>Required</source>
         <target state="translated">Verplicht</target>
@@ -166,6 +186,10 @@
       <trans-unit id="forms_size" approved="yes">
         <source>Size</source>
         <target state="translated">Grootte</target>
+      </trans-unit>
+      <trans-unit id="forms_max" approved="yes">
+        <source>Max</source>
+        <target state="translated">Max</target>
       </trans-unit>
       <trans-unit id="forms_autosize" approved="yes">
         <source>Auto size</source>
@@ -194,6 +218,10 @@
       <trans-unit id="forms_preview" approved="yes">
         <source>Preview of element</source>
         <target state="translated">Voortonen van element</target>
+      </trans-unit>
+      <trans-unit id="forms_element" approved="yes">
+        <source>Element type</source>
+        <target state="translated">Element type</target>
       </trans-unit>
       <trans-unit id="forms_config" approved="yes">
         <source>Detailed configuration</source>
@@ -366,6 +394,26 @@
       <trans-unit id="imwizard.set-aspect-ratio" approved="yes">
         <source>Set Aspect Ratio</source>
         <target state="translated">Stel beeldverhouding in</target>
+      </trans-unit>
+      <trans-unit id="imwizard.ratio.16_9" approved="yes">
+        <source>16:9</source>
+        <target state="translated">16:9</target>
+      </trans-unit>
+      <trans-unit id="imwizard.ratio.3_2" approved="yes">
+        <source>3:2</source>
+        <target state="translated">3:2</target>
+      </trans-unit>
+      <trans-unit id="imwizard.ratio.4_3" approved="yes">
+        <source>4:3</source>
+        <target state="translated">4:3</target>
+      </trans-unit>
+      <trans-unit id="imwizard.ratio.1_1" approved="yes">
+        <source>1:1</source>
+        <target state="translated">1:1</target>
+      </trans-unit>
+      <trans-unit id="imwizard.ratio.191_1" approved="yes">
+        <source>1.91:1</source>
+        <target state="translated">1.91:1</target>
       </trans-unit>
       <trans-unit id="imwizard.ratio.free" approved="yes">
         <source>Free</source>
