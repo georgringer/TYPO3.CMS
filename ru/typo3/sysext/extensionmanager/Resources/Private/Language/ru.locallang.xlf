@@ -508,6 +508,10 @@
         <source>unknown</source>
         <target state="translated">нет данных</target>
       </trans-unit>
+      <trans-unit id="extensionList.updateFromTer.lastUpdate.fullTimeFormat" approved="yes">
+        <source>Y-m-d H:i:s</source>
+        <target state="translated">Y-m-d H:i:s</target>
+      </trans-unit>
       <trans-unit id="extensionList.updateFromTer.lastUpdate.timeOfLastUpdate" approved="yes">
         <source>Time of last update: </source>
         <target state="translated">Время последнего обновления: </target>
@@ -592,9 +596,17 @@
         <source>The Main Repository extension list is older than 7 days. Please update it in the Extension manager or Scheduler.</source>
         <target state="translated">Список расширений основного репозитория старше недели. Обновите его в модуле управления расширениями или в Планировщиками.</target>
       </trans-unit>
+      <trans-unit id="report.status.mainRepository.upToDate.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
+      </trans-unit>
       <trans-unit id="report.status.loadedExtensions.title" approved="yes">
         <source>Security status of loaded extensions</source>
         <target state="translated">Статус безопасности загруженных расширений</target>
+      </trans-unit>
+      <trans-unit id="report.status.loadedExtensions.noInsecureExtensionLoaded.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
       </trans-unit>
       <trans-unit id="report.status.loadedExtensions.insecureExtensionLoaded.value" approved="yes">
         <source>%s insecure extension(s) found</source>
@@ -612,6 +624,10 @@
         <source>Security status of existing, but not loaded extensions</source>
         <target state="translated">Статус безопасности имеющихся, но не задействованных расширений</target>
       </trans-unit>
+      <trans-unit id="report.status.existingExtensions.noInsecureExtensionExists.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
+      </trans-unit>
       <trans-unit id="report.status.existingExtensions.insecureExtensionExists.value" approved="yes">
         <source>%s insecure extension(s) found</source>
         <target state="translated">Найдено %s небезопасное(ых) расширение(ий)</target>
@@ -628,6 +644,10 @@
         <source>Outdated status of loaded extensions</source>
         <target state="translated">Устаревшие расширения среди загруженных</target>
       </trans-unit>
+      <trans-unit id="report.status.loadedOutdatedExtensions.noOutdatedExtensionLoaded.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
+      </trans-unit>
       <trans-unit id="report.status.loadedOutdatedExtensions.outdatedExtensionLoaded.value" approved="yes">
         <source>%s outdated extension(s) found</source>
         <target state="translated">найдено %s устаревших расширений</target>
@@ -643,6 +663,10 @@
       <trans-unit id="report.status.existingOutdatedExtensions.title" approved="yes">
         <source>Outdated status of existing, but not loaded extensions</source>
         <target state="translated">Устаревшие расширения среди имеющихся, но не задействованных</target>
+      </trans-unit>
+      <trans-unit id="report.status.existingOutdatedExtensions.noOutdatedExtensionExists.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
       </trans-unit>
       <trans-unit id="report.status.existingOutdatedExtensions.outdatedExtensionExists.value" approved="yes">
         <source>%s outdated extension(s) found</source>
