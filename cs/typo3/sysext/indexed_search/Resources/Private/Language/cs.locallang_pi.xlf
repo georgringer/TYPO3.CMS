@@ -131,6 +131,10 @@
         <source>All languages</source>
         <target state="translated">Všechny jazyky</target>
       </trans-unit>
+      <trans-unit id="opt_lang_0" approved="yes">
+        <source>Default</source>
+        <target state="translated">Default</target>
+      </trans-unit>
       <trans-unit id="opt_desc_0" approved="yes">
         <source>Highest first</source>
         <target state="translated">Vyšší první</target>
@@ -306,6 +310,18 @@ All search words are converted to lowercase.</source>
       <trans-unit id="pi_list_browseresults_display" approved="yes">
         <source>Displaying results ###TAG_BEGIN###%1$s to %2$s###TAG_END### out of ###TAG_BEGIN###%3$s###TAG_END###</source>
         <target state="translated">Zobrazuji výsledky ###TAG_BEGIN###%1$s až %2$s###TAG_END### celkem z ###TAG_BEGIN###%3$s###TAG_END###</target>
+      </trans-unit>
+      <trans-unit id="local_operator_AND" approved="yes">
+        <source>AND</source>
+        <target state="translated">AND</target>
+      </trans-unit>
+      <trans-unit id="local_operator_OR" approved="yes">
+        <source>OR</source>
+        <target state="translated">OR</target>
+      </trans-unit>
+      <trans-unit id="local_operator_NOT" approved="yes">
+        <source>NOT</source>
+        <target state="translated">NOT</target>
       </trans-unit>
       <trans-unit id="makerating_addToCurrentSearch" approved="yes">
         <source>Add to current search words</source>
