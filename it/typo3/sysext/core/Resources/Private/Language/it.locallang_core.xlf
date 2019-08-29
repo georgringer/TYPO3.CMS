@@ -155,6 +155,10 @@ Do you want to continue WITHOUT saving?</source>
         <source>Author</source>
         <target state="translated">Autore</target>
       </trans-unit>
+      <trans-unit id="labels.note" approved="yes">
+        <source>Note</source>
+        <target state="translated">Note</target>
+      </trans-unit>
       <trans-unit id="labels.category" approved="yes">
         <source>Category</source>
         <target state="translated">Categoria</target>
@@ -190,6 +194,10 @@ Do you want to continue WITHOUT saving?</source>
       <trans-unit id="labels.endtime" approved="yes">
         <source>End</source>
         <target state="translated">Fine</target>
+      </trans-unit>
+      <trans-unit id="labels.menu" approved="yes">
+        <source>Menu</source>
+        <target state="translated">Menu</target>
       </trans-unit>
       <trans-unit id="labels.showPage" approved="yes">
         <source>View webpage</source>
@@ -234,6 +242,10 @@ Do you want to continue WITHOUT saving?</source>
       <trans-unit id="labels.deny" approved="yes">
         <source>Deny</source>
         <target state="translated">Proibisci</target>
+      </trans-unit>
+      <trans-unit id="labels.automatic" approved="yes">
+        <source>Auto</source>
+        <target state="translated">Auto</target>
       </trans-unit>
       <trans-unit id="labels.enabled" approved="yes">
         <source>Enabled</source>
@@ -387,6 +399,10 @@ Do you want to continue WITHOUT saving?</source>
         <source>Copy items instead of moving them</source>
         <target state="translated">Copia gli elementi invece di spostarli</target>
       </trans-unit>
+      <trans-unit id="labels.cliptabs" approved="yes">
+        <source>Clipboard #</source>
+        <target state="translated">Clipboard #</target>
+      </trans-unit>
       <trans-unit id="labels.clipboard.delete_elements" approved="yes">
         <source>Delete elements</source>
         <target state="translated">Elimina gli elementi</target>
@@ -487,6 +503,10 @@ Do you want to continue WITHOUT saving?</source>
         <source>Searching...</source>
         <target state="translated">Cercando...</target>
       </trans-unit>
+      <trans-unit id="ver.online" approved="yes">
+        <source>ONLINE</source>
+        <target state="translated">ONLINE</target>
+      </trans-unit>
       <trans-unit id="ver.mgm" approved="yes">
         <source>Version Management</source>
         <target state="translated">Gestione Versioni</target>
@@ -502,6 +522,10 @@ Do you want to continue WITHOUT saving?</source>
       <trans-unit id="ver.swapPage" approved="yes">
         <source>Publish this version of the page including content</source>
         <target state="translated">Pubblica questa versione della pagina e i suoi contenuti</target>
+      </trans-unit>
+      <trans-unit id="TYPO3_Element_Browser" approved="yes">
+        <source>TYPO3 Element Browser</source>
+        <target state="translated">TYPO3 Element Browser</target>
       </trans-unit>
       <trans-unit id="labels.referencesToRecord" approved="yes">
         <source>(There are %s reference(s) to this record!)</source>
@@ -531,6 +555,10 @@ Do you want to continue WITHOUT saving?</source>
         <source>References from this item</source>
         <target state="translated">Riferimenti da questo oggetto</target>
       </trans-unit>
+      <trans-unit id="show_item.php.file" approved="yes">
+        <source>File</source>
+        <target state="translated">File</target>
+      </trans-unit>
       <trans-unit id="show_item.php.dimensions" approved="yes">
         <source>Dimensions</source>
         <target state="translated">Dimensioni</target>
@@ -538,6 +566,14 @@ Do you want to continue WITHOUT saving?</source>
       <trans-unit id="show_item.php.filesize" approved="yes">
         <source>Size</source>
         <target state="translated">Peso</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.pixels" approved="yes">
+        <source>Pixels</source>
+        <target state="translated">Pixels</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.files" approved="yes">
+        <source>files</source>
+        <target state="translated">files</target>
       </trans-unit>
       <trans-unit id="show_item.php.cannotDisplayArchive" approved="yes">
         <source>Sorry, TYPO3_CONF_VARS[BE][disable_exec_function] was set, so cannot display content of archive file.</source>
@@ -547,6 +583,10 @@ Do you want to continue WITHOUT saving?</source>
         <source>Table</source>
         <target state="translated">Tabella</target>
       </trans-unit>
+      <trans-unit id="show_item.php.uid" approved="yes">
+        <source>Uid</source>
+        <target state="translated">Uid</target>
+      </trans-unit>
       <trans-unit id="show_item.php.title" approved="yes">
         <source>Title</source>
         <target state="translated">Titolo</target>
@@ -554,6 +594,14 @@ Do you want to continue WITHOUT saving?</source>
       <trans-unit id="show_item.php.field" approved="yes">
         <source>Field</source>
         <target state="translated">Campo</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.flexpointer" approved="yes">
+        <source>Flexpointer</source>
+        <target state="translated">Flexpointer</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.softrefKey" approved="yes">
+        <source>Softref Key</source>
+        <target state="translated">Softref Key</target>
       </trans-unit>
       <trans-unit id="show_item.php.sorting" approved="yes">
         <source>Sorting</source>
@@ -578,6 +626,14 @@ Do you want to continue WITHOUT saving?</source>
       <trans-unit id="db_new.php.inside" approved="yes">
         <source>inside</source>
         <target state="translated">dentro</target>
+      </trans-unit>
+      <trans-unit id="file_upload.php.pagetitle" approved="yes">
+        <source>Upload files</source>
+        <target state="translated">Upload files</target>
+      </trans-unit>
+      <trans-unit id="file_upload.php.submit" approved="yes">
+        <source>Upload files</source>
+        <target state="translated">Upload files</target>
       </trans-unit>
       <trans-unit id="file_upload.dropzonehint.title" approved="yes">
         <source>Drag &amp; drop to upload files</source>
@@ -731,6 +787,18 @@ Do you want to refresh it now?</source>
         <source>Refresh Login to TYPO3 (User: %s)</source>
         <target state="translated">Aggiorna Login TYPO3 (Utente: %s)</target>
       </trans-unit>
+      <trans-unit id="mess.refresh_login_username" approved="yes">
+        <source>Username</source>
+        <target state="translated">Username</target>
+      </trans-unit>
+      <trans-unit id="mess.refresh_login_password" approved="yes">
+        <source>Password</source>
+        <target state="translated">Password</target>
+      </trans-unit>
+      <trans-unit id="mess.refresh_login_button" approved="yes">
+        <source>Login</source>
+        <target state="translated">Login</target>
+      </trans-unit>
       <trans-unit id="mess.refresh_exit_button" approved="yes">
         <source>Exit</source>
         <target state="translated">Esci</target>
@@ -806,6 +874,10 @@ Do you want to refresh it now?</source>
       <trans-unit id="mess.movecb_after" approved="yes">
         <source>Move all elements (%s) from the clipboard to the position after "%s"?</source>
         <target state="translated">Sposta tutti gli elementi (%s) dalla clipboard nella posizione dopo "%s"</target>
+      </trans-unit>
+      <trans-unit id="rm.menu" approved="yes">
+        <source>[menu]</source>
+        <target state="translated">[menu]</target>
       </trans-unit>
       <trans-unit id="rm.saveDoc" approved="yes">
         <source>Save</source>
@@ -955,6 +1027,10 @@ Do you want to refresh it now?</source>
         <source>Clear</source>
         <target state="translated">Pulisci</target>
       </trans-unit>
+      <trans-unit id="buttons.clipboard" approved="yes">
+        <source>Clipboard</source>
+        <target state="translated">Clipboard</target>
+      </trans-unit>
       <trans-unit id="cm.copy" approved="yes">
         <source>Copy</source>
         <target state="translated">Copia</target>
@@ -1042,6 +1118,14 @@ Do you want to refresh it now?</source>
       <trans-unit id="cm.save" approved="yes">
         <source>Save</source>
         <target state="translated">Salva</target>
+      </trans-unit>
+      <trans-unit id="cm.unzip" approved="yes">
+        <source>Unzip</source>
+        <target state="translated">Unzip</target>
+      </trans-unit>
+      <trans-unit id="cm.info" approved="yes">
+        <source>Info</source>
+        <target state="translated">Info</target>
       </trans-unit>
       <trans-unit id="cm.createnew" approved="yes">
         <source>Create new</source>
@@ -1179,6 +1263,14 @@ Do you want to refresh it now?</source>
         <source>Validating the security token of this form has failed. Please reload the form and submit it again.</source>
         <target state="translated">È fallita la validazione del token di sicurezza di questo form. Ricarica il form e riprova.</target>
       </trans-unit>
+      <trans-unit id="toolbarItems.shortcuts" approved="yes">
+        <source>Shortcuts</source>
+        <target state="translated">Shortcuts</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.shortcut" approved="yes">
+        <source>Shortcut</source>
+        <target state="translated">Shortcut</target>
+      </trans-unit>
       <trans-unit id="toolbarItems.shortcutsGroup" approved="yes">
         <source>Shortcut Group</source>
         <target state="translated">Gruppo Shortcut</target>
@@ -1190,6 +1282,14 @@ Do you want to refresh it now?</source>
       <trans-unit id="toolbarItems.shortcutsDelete" approved="yes">
         <source>Delete Shortcut</source>
         <target state="translated">Elimina Shortcut</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.bookmarks" approved="yes">
+        <source>Bookmarks</source>
+        <target state="translated">Bookmarks</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.bookmark" approved="yes">
+        <source>Bookmark</source>
+        <target state="translated">Bookmark</target>
       </trans-unit>
       <trans-unit id="toolbarItems.bookmarksGroup" approved="yes">
         <source>Bookmark group</source>
@@ -1227,6 +1327,10 @@ Do you want to refresh it now?</source>
         <source>Search</source>
         <target state="translated">Cerca</target>
       </trans-unit>
+      <trans-unit id="toolbarItems.workspace" approved="yes">
+        <source>Workspace</source>
+        <target state="translated">Workspace</target>
+      </trans-unit>
       <trans-unit id="toolbarItems.sysinfo" approved="yes">
         <source>System Information</source>
         <target state="translated">Informazioni di sistema</target>
@@ -1234,6 +1338,10 @@ Do you want to refresh it now?</source>
       <trans-unit id="toolbarItems.sysinfo.phpversion" approved="yes">
         <source>PHP Version</source>
         <target state="translated">Versione PHP</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.database" approved="yes">
+        <source>Database</source>
+        <target state="translated">Database</target>
       </trans-unit>
       <trans-unit id="toolbarItems.sysinfo.gitrevision" approved="yes">
         <source>GIT Revision</source>
