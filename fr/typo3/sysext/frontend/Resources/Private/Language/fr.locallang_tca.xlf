@@ -11,6 +11,10 @@
         <source>Localization Overview</source>
         <target state="translated">Aperçu des traductions</target>
       </trans-unit>
+      <trans-unit id="pages.palettes.standard" approved="yes">
+        <source>Page</source>
+        <target state="translated">Page</target>
+      </trans-unit>
       <trans-unit id="pages.palettes.title" approved="yes">
         <source>Title</source>
         <target state="translated">Titre</target>
@@ -75,6 +79,10 @@
         <source>TypoScript Configuration</source>
         <target state="translated">Configuration TypoScript</target>
       </trans-unit>
+      <trans-unit id="pages.doktype_formlabel" approved="yes">
+        <source>Type</source>
+        <target state="translated">Type</target>
+      </trans-unit>
       <trans-unit id="pages.doktype.I.0" approved="yes">
         <source>Advanced</source>
         <target state="translated">Avancé</target>
@@ -103,6 +111,10 @@
         <source>Link to External URL</source>
         <target state="translated">Lien vers une url externe</target>
       </trans-unit>
+      <trans-unit id="pages.doktype.div.page" approved="yes">
+        <source>Page</source>
+        <target state="translated">Page</target>
+      </trans-unit>
       <trans-unit id="pages.doktype.div.link" approved="yes">
         <source>Link</source>
         <target state="translated">Lien</target>
@@ -126,6 +138,10 @@
       <trans-unit id="pages.fe_group_formlabel" approved="yes">
         <source>Usergroup Access Rights</source>
         <target state="translated">Droits d'accès pour les groupes utilisateurs</target>
+      </trans-unit>
+      <trans-unit id="pages.hidden_formlabel" approved="yes">
+        <source>Page</source>
+        <target state="translated">Page</target>
       </trans-unit>
       <trans-unit id="pages.hidden_checkbox_1_formlabel" approved="yes">
         <source>Disable</source>
@@ -171,6 +187,10 @@
         <source>Link Target</source>
         <target state="translated">Cible du lien</target>
       </trans-unit>
+      <trans-unit id="pages.url_formlabel" approved="yes">
+        <source>URL</source>
+        <target state="translated">URL</target>
+      </trans-unit>
       <trans-unit id="pages.lastUpdated_formlabel" approved="yes">
         <source>Last Update</source>
         <target state="translated">Dernière mise à jour</target>
@@ -182,6 +202,22 @@
       <trans-unit id="pages.cache_timeout_formlabel" approved="yes">
         <source>Cache Lifetime</source>
         <target state="translated">Durée du cache</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.1" approved="yes">
+        <source>1 min</source>
+        <target state="translated">1 min</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.2" approved="yes">
+        <source>5 min</source>
+        <target state="translated">5 min</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.3" approved="yes">
+        <source>15 min</source>
+        <target state="translated">15 min</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.4" approved="yes">
+        <source>30 min</source>
+        <target state="translated">30 min</target>
       </trans-unit>
       <trans-unit id="pages.cache_timeout.I.5" approved="yes">
         <source>1 hour</source>
@@ -227,6 +263,10 @@
         <source>Access</source>
         <target state="translated">Accès</target>
       </trans-unit>
+      <trans-unit id="pages.tabs.options" approved="yes">
+        <source>Options</source>
+        <target state="translated">Options</target>
+      </trans-unit>
       <trans-unit id="pages.tabs.mount" approved="yes">
         <source>Mount</source>
         <target state="translated">Montage</target>
@@ -234,6 +274,10 @@
       <trans-unit id="pages.tabs.shortcut" approved="yes">
         <source>Shortcut</source>
         <target state="translated">Raccourci</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.url" approved="yes">
+        <source>URL</source>
+        <target state="translated">URL</target>
       </trans-unit>
       <trans-unit id="pages.tabs.extended" approved="yes">
         <source>Extended</source>
@@ -295,6 +339,10 @@
         <source>Keywords</source>
         <target state="translated">Mots-clés</target>
       </trans-unit>
+      <trans-unit id="pages.description_formlabel" approved="yes">
+        <source>Description</source>
+        <target state="translated">Description</target>
+      </trans-unit>
       <trans-unit id="pages.author_formlabel" approved="yes">
         <source>Author Name</source>
         <target state="translated">Nom de l'auteur</target>
@@ -330,6 +378,10 @@
       <trans-unit id="pages.module.I.4" approved="yes">
         <source>Website Users</source>
         <target state="translated">Utilisateurs du site web</target>
+      </trans-unit>
+      <trans-unit id="pages.module.I.5" approved="yes">
+        <source>Direct Mail</source>
+        <target state="translated">Direct Mail</target>
       </trans-unit>
       <trans-unit id="pages.module.I.6" approved="yes">
         <source>Approvals</source>
@@ -375,6 +427,10 @@
         <source>Re-Enable login</source>
         <target state="translated">Réactiver la connexion</target>
       </trans-unit>
+      <trans-unit id="pages.storage_pid_formlabel" approved="yes">
+        <source>Page</source>
+        <target state="translated">Page</target>
+      </trans-unit>
       <trans-unit id="pages.backend_layout_formlabel" approved="yes">
         <source>Backend Layout (this page only)</source>
         <target state="translated">Gabarit Backend (seulement cette page)</target>
@@ -407,6 +463,10 @@
         <source>Access</source>
         <target state="translated">Accès</target>
       </trans-unit>
+      <trans-unit id="fe_users.tabs.options" approved="yes">
+        <source>Options</source>
+        <target state="translated">Options</target>
+      </trans-unit>
       <trans-unit id="fe_users.tabs.extended" approved="yes">
         <source>Extended</source>
         <target state="translated">Étendu</target>
@@ -414,6 +474,10 @@
       <trans-unit id="fe_groups" approved="yes">
         <source>Website Usergroup</source>
         <target state="translated">Groupe utilisateur du site web</target>
+      </trans-unit>
+      <trans-unit id="fe_groups.tabs.options" approved="yes">
+        <source>Options</source>
+        <target state="translated">Options</target>
       </trans-unit>
       <trans-unit id="fe_groups.tabs.extended" approved="yes">
         <source>Extended</source>
@@ -451,6 +515,10 @@
         <source>Includes</source>
         <target state="translated">Inclusion</target>
       </trans-unit>
+      <trans-unit id="sys_template.tabs.options" approved="yes">
+        <source>Options</source>
+        <target state="translated">Options</target>
+      </trans-unit>
       <trans-unit id="sys_template.tabs.access" approved="yes">
         <source>Access</source>
         <target state="translated">Accès</target>
@@ -462,6 +530,10 @@
       <trans-unit id="backend_layout.title" approved="yes">
         <source>Title</source>
         <target state="translated">Titre</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.description" approved="yes">
+        <source>Description</source>
+        <target state="translated">Description</target>
       </trans-unit>
       <trans-unit id="backend_layout.config" approved="yes">
         <source>Config</source>
