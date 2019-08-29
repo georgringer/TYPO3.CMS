@@ -15,6 +15,16 @@
         <source>&lt;b&gt;Notice [For Admins]:&lt;/b&gt; These settings can all be overridden or have their default values changed by "User TSconfig". To read more about this concept, see the link below!</source>
         <target state="translated">&lt;b&gt;सूचना [एडमिन के लिए]:&lt;/b&gt; यह सेटिंग सभी ओवर-रिद्देन की जा सकती है या उनकी डिफ़ॉल्ट वैल्यू "उपयोगकर्ता TSconfig" से बदली गयी है। इस सिद्धांत के बारे में अधिक पढ़ने के लिए, नीचे दी गई लिंक को देखे!</target>
       </trans-unit>
+      <trans-unit id="_.seeAlso" approved="yes">
+        <source>User TSconfig SETUP | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/Setup/Index.html</source>
+        <target state="translated">User TSconfig SETUP | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/Setup/Index.html</target>
+      </trans-unit>
+      <trans-unit id="_.image" xml:space="preserve" approved="yes">
+				<source>EXT:setup/Resources/Public/Images/cshimages/setup8.png,
+EXT:setup/Resources/Public/Images/cshimages/setup7.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:setup/Resources/Public/Images/cshimages/setup8.png,
+EXT:setup/Resources/Public/Images/cshimages/setup7.png</target></trans-unit>
       <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
 				<source>The Setup module is selected in the left menu.
 This is how the Setup module interface looks like - a list of options to configure.</source>
@@ -33,6 +43,11 @@ This is how the Setup module interface looks like - a list of options to configu
 The solution clearly is to set the configuration option mentioned above to a value like "utf-8". This must be done by the developers responsible for the whole system configuration.</source>
 			<target state="translated">&lt;b&gt;चेतावनी [तकनीकी]:&lt;/b&gt; यदि टाइपो3 एक केरेक्टर सेट($TYPO3_CONF_VARS[BE][forceCharset] के माध्यम से) का उपयोग करने के लिए कॉन्फ़िगर नहीं है तो बैकेंड में दर्ज किये गए सभी डेटा चुनी हुई बैकेंड भाषा में सबमिट किये गए हे। यह असंगत डेटा स्टोरेज के लिए होता है यदि कुछ उपयोगकर्ता बैकेंड का उपयोग रूस में करके है और दूसरे अंगरेजी में जो की अलग अलग केरेक्टर सेट का उपयोग करते है। 
 यह समाधान स्पष्ट रूप से "utf -8" के मूल्य की तरह ऊपर उल्लेख किये गए कॉन्फ़िगरेशन विकल्प को सेट करने के लिए है। पूरे सिस्टम के कॉन्फ़िगरेशन के लिए इसे डेवलपर्स जिम्मेदारी द्वारा ही किया जाना चाहिए।</target></trans-unit>
+      <trans-unit id="_language.image" approved="yes">
+        <source>EXT:setup/Resources/Public/Images/cshimages/lang.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/lang.png</target>
+      </trans-unit>
       <trans-unit id="language.image_descr" approved="yes">
         <source>TYPO3 is translated into around 40 languages. English is the default language and all labels must be available in English first and foremost. This screenshot shows translations for Hebrew, Arabic, Russian and Chinese.</source>
         <target state="translated">टाइपो3 लगभग 40 भाषाओं में अनुवाद किया है। अंग्रेजी डिफ़ॉल्ट भाषा है और सभी लेबल सबसे पहले अंगरेजी में उपलब्ध होना चाहिए। इस स्क्रीनशॉट से हिब्रू, अरबी, रूसी और चीनी अनुवाद का पता चलता है।</target>
@@ -54,6 +69,11 @@ The default module is "About Modules".</source>
         <source>In modules like the "Web &gt; List" and "File &gt; Filelist" you can enable the display of thumbnails of files (images/fonts) and records (if images are attached) with a checkbox. Setting this option will enable the display by default.</source>
         <target state="translated">"वेब&gt; सूचि" और "फाइल&gt; फाइल-सूचि" जेसे मॉड्यूल में आप थंब-नेल्स फाइल(इमेजिस/फ़ॉन्ट्स) और रिकॉर्ड(यदि इमेज जुडी हुई हो तो) को चेकबॉक्स द्वारा डिस्प्ले को सक्षम कर सकते है।इस विकल्प का सेटिंग डिफ़ॉल्ट रूप से डिस्प्ले के लिए सक्षम होगा।</target>
       </trans-unit>
+      <trans-unit id="_option_showThumbs.image" approved="yes">
+        <source>EXT:setup/Resources/Public/Images/cshimages/setup5.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/setup5.png</target>
+      </trans-unit>
       <trans-unit id="option_showThumbs.image_descr" approved="yes">
         <source>When thumbnails display is enabled, files attached to records will be shown in the "Web &gt; List" module like this.</source>
         <target state="translated">जब थंब-नेल्स डिस्प्ले सक्षम हो, रिकॉर्ड के साथ जुडी हुई फाइल "वेब&gt; सूचि" मॉड्यूल में इस तरह दिखाई देंगी।</target>
@@ -73,6 +93,11 @@ The default module is "About Modules".</source>
       <trans-unit id="option_maxTitleLen.description" approved="yes">
         <source>TYPO3 will often crop long titles of records etc. so only the first X characters are shown. Often the number of shown characters depends on this variable. For instance the length of page titles in the page tree is determined by this value.</source>
         <target state="translated">टाइपो3 रिकार्ड्स आदि के लम्बे शीर्षक क्रॉप करेंगे। इसलिए केवल पहले X केरेक्टर दिखाए जाते हैं। अक्सर दिखाए गए केरेक्टर की संख्या इस वेरिएबल पर निर्भर करती है। उदाहरण के लिए पेज ट्री में पेज शीर्षक की लम्बाई इस वैल्यू से निर्धारित की जाएगी।</target>
+      </trans-unit>
+      <trans-unit id="_option_maxTitleLen.image" approved="yes">
+        <source>EXT:setup/Resources/Public/Images/cshimages/setup6.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/setup6.png</target>
       </trans-unit>
       <trans-unit id="option_maxTitleLen.image_descr" approved="yes">
         <source>In this case the Maximum Title length is set to 10 - and the result is that titles in the page tree - as well as other places in the backend - will be cropped after 10 characters, then suffixed by "...". The default value is "30".</source>
@@ -110,6 +135,11 @@ The default module is "About Modules".</source>
         <source>A Rich Text Editor (RTE) means that a text editing field has buttons for making selected text bold, italic etc. Whether a RTE is available also depends on factors like the browser you are using and which extensions are installed. Finally RTEs are applied to only a few record fields. The most well known example would be the Text field of a Content Element.</source>
         <target state="translated">रिच टेक्स्ट एडिटर(RTE) का अर्थ है कि चुने हुए टेक्स्ट को बोल्ड, इटैलिक, आदि बनाने के लिए टेक्स्ट एडिटिंग फील्ड में बटन होगे। चाहे RTE मौजूदा फैक्टर्स जैसे कि आपके द्वारा उपयोग किया जाने वाला ब्राउज़र और कौन से एक्सटेंशन इनस्टॉल किये गये है इस पर भी आधार रखता है। अंत में RTEs केवल कुछ ही रिकॉर्ड फ़ील्ड्स के लिए लागू कर रहे हैं। सब से अच्छी तरह से जाने जाने वाला उदहारण कंटेंट एलिमेंट का टेक्स्ट फील्ड होगा।</target>
       </trans-unit>
+      <trans-unit id="_option_edit_RTE.image" approved="yes">
+        <source>EXT:setup/Resources/Public/Images/cshimages/rte.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/rte.png</target>
+      </trans-unit>
       <trans-unit id="option_edit_docModuleUpload.alttitle" approved="yes">
         <source>Enable File Uploads in editing forms</source>
         <target state="translated">एडिटिंग फॉर्म्स में फाइल अपलोड सक्षम</target>
@@ -121,6 +151,11 @@ The default module is "About Modules".</source>
       <trans-unit id="option_edit_docModuleUpload.details" approved="yes">
         <source>If you disable the Upload box there is still the TYPO3 Element Browser left for attaching files and images.</source>
         <target state="translated">अगर आप अपलोड बॉक्स अक्षम करते हो वह अभी भी फाइल और इमेजेज जोड़ने के लिए टाइपो एलिमेंट ब्राउज़र मौजूद होगा।</target>
+      </trans-unit>
+      <trans-unit id="_option_edit_docModuleUpload.image" approved="yes">
+        <source>EXT:setup/Resources/Public/Images/cshimages/setup12.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/setup12.png</target>
       </trans-unit>
       <trans-unit id="option_resizeTextareas.alttitle" approved="yes">
         <source>Make Textareas Resizable</source>
