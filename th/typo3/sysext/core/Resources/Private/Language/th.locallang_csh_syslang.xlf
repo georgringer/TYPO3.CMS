@@ -3,10 +3,18 @@
   <file t3:id="1415814858" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="lang" target-language="th">
     <header/>
     <body>
-			
-			
-			
-			
-		</body>
+      <trans-unit id="title.description" approved="yes">
+        <source>Enter the name of this additional system language.</source>
+        <target state="translated">ป้อนชื่อของระบบเพิ่มเติมนี้ภาษา</target>
+      </trans-unit>
+      <trans-unit id="hidden.description" approved="yes">
+        <source>This option will hide the system language from being available in the backend.</source>
+        <target state="translated">จะซ่อนตัวเลือกภาษาของระบบจากการให้บริการในส่วนหลังนี้</target>
+      </trans-unit>
+      <trans-unit id=".description" approved="yes">
+        <source>Defines which languages are alternatively available on each webpage.</source>
+        <target state="translated">กำหนดภาษาที่มีหรือมีอยู่ในแต่ละหน้าเว็บ</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
