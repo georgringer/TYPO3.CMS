@@ -139,6 +139,22 @@
         <source>Disable</source>
         <target state="translated">Disabilita</target>
       </trans-unit>
+      <trans-unit id="pages.layout_formlabel" approved="yes">
+        <source>Frontend Layout</source>
+        <target state="translated">Frontend Layout</target>
+      </trans-unit>
+      <trans-unit id="pages.layout.I.1" approved="yes">
+        <source>Layout 1</source>
+        <target state="translated">Layout 1</target>
+      </trans-unit>
+      <trans-unit id="pages.layout.I.2" approved="yes">
+        <source>Layout 2</source>
+        <target state="translated">Layout 2</target>
+      </trans-unit>
+      <trans-unit id="pages.layout.I.3" approved="yes">
+        <source>Layout 3</source>
+        <target state="translated">Layout 3</target>
+      </trans-unit>
       <trans-unit id="pages.extendToSubpages_formlabel" approved="yes">
         <source>Extend to Subpages</source>
         <target state="translated">Estendi a Sottopagine</target>
@@ -159,9 +175,29 @@
         <source>Subtitle</source>
         <target state="translated">Sottotitolo</target>
       </trans-unit>
+      <trans-unit id="pages.url_formlabel" approved="yes">
+        <source>URL</source>
+        <target state="translated">URL</target>
+      </trans-unit>
       <trans-unit id="pages.lastUpdated_formlabel" approved="yes">
         <source>Last Update</source>
         <target state="translated">Ultimo Aggiornamento</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.1" approved="yes">
+        <source>1 min</source>
+        <target state="translated">1 min</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.2" approved="yes">
+        <source>5 min</source>
+        <target state="translated">5 min</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.3" approved="yes">
+        <source>15 min</source>
+        <target state="translated">15 min</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.4" approved="yes">
+        <source>30 min</source>
+        <target state="translated">30 min</target>
       </trans-unit>
       <trans-unit id="pages.cache_timeout.I.5" approved="yes">
         <source>1 hour</source>
@@ -218,6 +254,10 @@
       <trans-unit id="pages.tabs.shortcut" approved="yes">
         <source>Shortcut</source>
         <target state="translated">Scorciatoia</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.url" approved="yes">
+        <source>URL</source>
+        <target state="translated">URL</target>
       </trans-unit>
       <trans-unit id="pages.tabs.extended" approved="yes">
         <source>Extended</source>
@@ -291,6 +331,10 @@
         <source>Author Email</source>
         <target state="translated">Email Autore</target>
       </trans-unit>
+      <trans-unit id="pages.media_formlabel" approved="yes">
+        <source>Media</source>
+        <target state="translated">Media</target>
+      </trans-unit>
       <trans-unit id="pages.is_siteroot" approved="yes">
         <source>Is Root of Website</source>
         <target state="translated">È radice del sito web</target>
@@ -302,6 +346,10 @@
       <trans-unit id="pages.module_formlabel" approved="yes">
         <source>Contains Plugin</source>
         <target state="translated">Contiene Plugin</target>
+      </trans-unit>
+      <trans-unit id="pages.module.I.3" approved="yes">
+        <source>News</source>
+        <target state="translated">News</target>
       </trans-unit>
       <trans-unit id="pages.module.I.4" approved="yes">
         <source>Website Users</source>
@@ -406,6 +454,10 @@
       <trans-unit id="fe_groups.tabs.extended" approved="yes">
         <source>Extended</source>
         <target state="translated">Esteso</target>
+      </trans-unit>
+      <trans-unit id="sys_template" approved="yes">
+        <source>Template</source>
+        <target state="translated">Template</target>
       </trans-unit>
       <trans-unit id="sys_template.tabs.files" approved="yes">
         <source>Resources</source>
