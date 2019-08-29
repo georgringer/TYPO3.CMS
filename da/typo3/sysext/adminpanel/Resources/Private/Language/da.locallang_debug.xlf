@@ -3,9 +3,17 @@
   <file t3:id="1521629231" source-language="en" datatype="plaintext" original="messages" date="2018-03-21T11:47:00Z" product-name="adminpanel" target-language="da">
     <header/>
     <body>
+      <trans-unit id="module.label" approved="yes">
+        <source>Debug</source>
+        <target state="translated">Debug</target>
+      </trans-unit>
       <trans-unit id="module.shortinfo" approved="yes">
         <source>(%s Errors/Warnings)</source>
         <target state="translated">(%s fejl/advarsler)</target>
+      </trans-unit>
+      <trans-unit id="submodule.log.label" approved="yes">
+        <source>Log</source>
+        <target state="translated">Log</target>
       </trans-unit>
       <trans-unit id="submodule.log.message" approved="yes">
         <source>Log Message</source>
@@ -46,6 +54,10 @@
       <trans-unit id="submodule.queryInformation.queries" approved="yes">
         <source>Queries</source>
         <target state="translated">Udtryk</target>
+      </trans-unit>
+      <trans-unit id="submodule.queryInformation.backtrace" approved="yes">
+        <source>Backtrace</source>
+        <target state="translated">Backtrace</target>
       </trans-unit>
       <trans-unit id="submodule.queryInformation.doctrineDebug" approved="yes">
         <source>SQL Debug</source>
