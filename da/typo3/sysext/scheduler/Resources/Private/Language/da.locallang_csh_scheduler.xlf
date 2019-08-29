@@ -3,6 +3,10 @@
   <file t3:id="1415814985" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="scheduler" target-language="da">
     <header/>
     <body>
+      <trans-unit id=".alttitle" approved="yes">
+        <source>Scheduler</source>
+        <target state="translated">Scheduler</target>
+      </trans-unit>
       <trans-unit id=".description" approved="yes">
         <source>The Scheduler provides an interface to register and manage recurring or one-time tasks.</source>
         <target state="translated">Scheduler tilbyder en grænsefalde til at oprette og vedligeholde gentagende eller engangs-opgaver.</target>
@@ -94,6 +98,10 @@ Alternativt er det muligt at bruge den samme syntaks som for cronjobs. Det er en
 30 22 * * * betyder hver dag klokken 22:30
 
 Scheduler understøtter fuldt ud cron-syntaks.</target></trans-unit>
+      <trans-unit id="task_frequency.seeAlso" approved="yes">
+        <source>Wikipedia reference|http://en.wikipedia.org/wiki/Cron</source>
+        <target state="translated">Wikipedia reference|http://en.wikipedia.org/wiki/Cron</target>
+      </trans-unit>
       <trans-unit id="task_multiple.alttitle" approved="yes">
         <source>Multiple executions</source>
         <target state="translated">Flere parallelle kørsler</target>
