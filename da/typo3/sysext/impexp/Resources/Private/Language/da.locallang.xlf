@@ -227,6 +227,10 @@
         <source>Output options</source>
         <target state="translated">Output valg</target>
       </trans-unit>
+      <trans-unit id="makesavefo_metaData" approved="yes">
+        <source>Meta data</source>
+        <target state="translated">Meta data</target>
+      </trans-unit>
       <trans-unit id="makesavefo_title" approved="yes">
         <source>Title</source>
         <target state="translated">Titel</target>
@@ -246,6 +250,10 @@
       <trans-unit id="makesavefo_t3dFile" approved="yes">
         <source>T3D file</source>
         <target state="translated">T3D fil</target>
+      </trans-unit>
+      <trans-unit id="makesavefo_xml" approved="yes">
+        <source>XML</source>
+        <target state="translated">XML</target>
       </trans-unit>
       <trans-unit id="makesavefo_fileFormat" approved="yes">
         <source>File format</source>
@@ -371,6 +379,10 @@
         <source>Browse</source>
         <target state="translated">Gennemse</target>
       </trans-unit>
+      <trans-unit id="importdata_uploadStatus" approved="yes">
+        <source>Upload status</source>
+        <target state="translated">Upload status</target>
+      </trans-unit>
       <trans-unit id="importdata_success" approved="yes">
         <source>Success</source>
         <target state="translated">Succes</target>
@@ -379,6 +391,10 @@
         <source>Failure: No file uploaded - was it too big? Check system log.</source>
         <target state="translated">Fejl: Ingen fil uploaded - var måske for stor? Check systemet log.</target>
       </trans-unit>
+      <trans-unit id="importdata_upload" approved="yes">
+        <source>Upload</source>
+        <target state="translated">Upload</target>
+      </trans-unit>
       <trans-unit id="importdata_upload_error" approved="yes">
         <source>Upload error</source>
         <target state="translated">Upload-fejl</target>
@@ -386,6 +402,10 @@
       <trans-unit id="importdata_upload_nodata" approved="yes">
         <source>The import module hasn't received any data. This may occur due to a file upload with a large file. Please check the file size of your uploaded file with the server's post_max_size and upload_max_filesize configuration.</source>
         <target state="translated">Importmodulet har ikke modtaget nogen data. Det kan skyldes upload af en fil der er for stor. Tjek venligst filstørrelsen på din fil med serverens most_max_size og upload_max_filesize konfiguration.</target>
+      </trans-unit>
+      <trans-unit id="importdata_metaData" approved="yes">
+        <source>Meta data</source>
+        <target state="translated">Meta data</target>
       </trans-unit>
       <trans-unit id="importdata_title" approved="yes">
         <source>Title</source>
