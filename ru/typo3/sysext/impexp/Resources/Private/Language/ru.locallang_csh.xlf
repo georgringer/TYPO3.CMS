@@ -32,6 +32,11 @@ Regardless of your configuration for export you will always see a complete refle
 
 &lt;b&gt;Error messages:&lt;/b&gt; Remember to consult the Message-tab before exporting if there are any error messages there!</source>
 			<target state="translated">Существует несколько способов экспорта данных из TYPO3: - Экспорт одной страницы или ветви из дерева страниц (щелчком по значку страницы для вызова контекстного меню). - Экспорт одной записи с любой страницы (щелчком по значку записи для вызова контекстного меню). - Экспорт всех записей из определенной таблицы на определенной странице (используя модуль Веб&gt;Список). В формате экспорта сохраняются все методы, используемые в TYPO3, для соблюдения отношений между записями. Но вы должны настроить до некоторой степени, как эти отношения будут поддерживаться. Иногда нужно включать записи, на которые имеются ссылки, иногда нужно сохранить оригинальную разметку. Это зависит от цели экспорта. Независимо от настроек экспорта, вы всегда будете видеть общую картину, все выбранные записи и их внешние ссылки, в предварительном просмотре внизу страницы модуля экспорта. &lt;b&gt;Сообщения об ошибках:&lt;/b&gt; не забудьте свериться перед экспортом с вкладкой Сообщения, нет ли там каких либо сообщений об ошибках!</target></trans-unit>
+      <trans-unit id="_export.seeAlso" approved="yes">
+        <source>xMOD_tx_impexp:import</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">xMOD_tx_impexp:import</target>
+      </trans-unit>
       <trans-unit id="export.image_descr" xml:space="preserve" approved="yes">
 				<source>To export a page or record, simply click the icon and select "Export" from the context menu.
 With the Web&gt;List module you can also export all records from a table by first clicking the table title to see only this table, then next to the CSV export you will find the export button for a T3D export of the table.
@@ -194,6 +199,11 @@ The static mapping is obtained by selecting the "sys_language" table as a static
         <source>Importing TYPO3 records</source>
         <target state="translated">Импорт записей TYPO3</target>
       </trans-unit>
+      <trans-unit id="_import.seeAlso" approved="yes">
+        <source>xMOD_tx_impexp:export</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">xMOD_tx_impexp:export</target>
+      </trans-unit>
       <trans-unit id="importFile.alttitle" approved="yes">
         <source>Select file to import</source>
         <target state="translated">Выбор импортируемого файла</target>
@@ -201,6 +211,11 @@ The static mapping is obtained by selecting the "sys_language" table as a static
       <trans-unit id="importFile.description" approved="yes">
         <source>The files displayed are those with an extension T3D or XML from fileadmin/, fileadmin/export/ and your "TEMP" folder (if any).</source>
         <target state="translated">Здесь отображаются файлы с расширениями T3D или XML из fileadmin/, fileadmin/export/ и папки "TEMP" (если они есть).</target>
+      </trans-unit>
+      <trans-unit id="_importFile.seeAlso" approved="yes">
+        <source>xMOD_tx_impexp:fileFormat</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">xMOD_tx_impexp:fileFormat</target>
       </trans-unit>
       <trans-unit id="update.alttitle" approved="yes">
         <source>Update instead of Insert</source>
