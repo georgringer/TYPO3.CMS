@@ -11,6 +11,10 @@
         <source>Header</source>
         <target state="translated">Überschrift</target>
       </trans-unit>
+      <trans-unit id="CType.I.1" approved="yes">
+        <source>Text</source>
+        <target state="translated">Text</target>
+      </trans-unit>
       <trans-unit id="CType.I.2" approved="yes">
         <source>Text &amp; Images</source>
         <target state="translated">Text und Bilder</target>
@@ -67,6 +71,10 @@
         <source>Divider</source>
         <target state="translated">Trenner</target>
       </trans-unit>
+      <trans-unit id="CType.I.17" approved="yes">
+        <source>HTML</source>
+        <target state="translated">HTML</target>
+      </trans-unit>
       <trans-unit id="CType.textmedia" approved="yes">
         <source>Text &amp; Media</source>
         <target state="translated">Text &amp; Medien</target>
@@ -99,9 +107,17 @@
         <source>Related pages</source>
         <target state="translated">Verwandte Seiten</target>
       </trans-unit>
+      <trans-unit id="CType.menu_sitemap" approved="yes">
+        <source>Sitemap</source>
+        <target state="translated">Sitemap</target>
+      </trans-unit>
       <trans-unit id="CType.menu_sitemap_pages" approved="yes">
         <source>Sitemaps of selected pages</source>
         <target state="translated">Sitemap der ausgewählten Seiten.</target>
+      </trans-unit>
+      <trans-unit id="CType.div.standard" approved="yes">
+        <source>Standard</source>
+        <target state="translated">Standard</target>
       </trans-unit>
       <trans-unit id="CType.div.lists" approved="yes">
         <source>Lists</source>
@@ -119,6 +135,18 @@
         <source>Special</source>
         <target state="translated">Spezial</target>
       </trans-unit>
+      <trans-unit id="layout.I.1" approved="yes">
+        <source>Layout 1</source>
+        <target state="translated">Layout 1</target>
+      </trans-unit>
+      <trans-unit id="layout.I.2" approved="yes">
+        <source>Layout 2</source>
+        <target state="translated">Layout 2</target>
+      </trans-unit>
+      <trans-unit id="layout.I.3" approved="yes">
+        <source>Layout 3</source>
+        <target state="translated">Layout 3</target>
+      </trans-unit>
       <trans-unit id="colPos" approved="yes">
         <source>Columns</source>
         <target state="translated">Spalten</target>
@@ -130,6 +158,10 @@
       <trans-unit id="colPos.I.0" approved="yes">
         <source>Left</source>
         <target state="translated">Links</target>
+      </trans-unit>
+      <trans-unit id="colPos.I.1" approved="yes">
+        <source>Normal</source>
+        <target state="translated">Normal</target>
       </trans-unit>
       <trans-unit id="colPos.I.2" approved="yes">
         <source>Right</source>
@@ -195,9 +227,37 @@
         <source>Left</source>
         <target state="translated">Links</target>
       </trans-unit>
+      <trans-unit id="header_link" approved="yes">
+        <source>Link</source>
+        <target state="translated">Link</target>
+      </trans-unit>
+      <trans-unit id="header_link_formlabel" approved="yes">
+        <source>Link</source>
+        <target state="translated">Link</target>
+      </trans-unit>
       <trans-unit id="header_layout_formlabel" approved="yes">
         <source>Type</source>
         <target state="translated">Typ</target>
+      </trans-unit>
+      <trans-unit id="header_layout.I.1" approved="yes">
+        <source>Layout 1</source>
+        <target state="translated">Layout 1</target>
+      </trans-unit>
+      <trans-unit id="header_layout.I.2" approved="yes">
+        <source>Layout 2</source>
+        <target state="translated">Layout 2</target>
+      </trans-unit>
+      <trans-unit id="header_layout.I.3" approved="yes">
+        <source>Layout 3</source>
+        <target state="translated">Layout 3</target>
+      </trans-unit>
+      <trans-unit id="header_layout.I.4" approved="yes">
+        <source>Layout 4</source>
+        <target state="translated">Layout 4</target>
+      </trans-unit>
+      <trans-unit id="header_layout.I.5" approved="yes">
+        <source>Layout 5</source>
+        <target state="translated">Layout 5</target>
       </trans-unit>
       <trans-unit id="header_layout.I.6" approved="yes">
         <source>Hidden</source>
@@ -238,6 +298,10 @@
       <trans-unit id="imageheight_formlabel" approved="yes">
         <source>Height (px)</source>
         <target state="translated">Höhe (Pixel)</target>
+      </trans-unit>
+      <trans-unit id="imageorient" approved="yes">
+        <source>Position</source>
+        <target state="translated">Position</target>
       </trans-unit>
       <trans-unit id="imageorient_formlabel" approved="yes">
         <source>Position and Alignment</source>
@@ -294,6 +358,10 @@
       <trans-unit id="imageborder_formlabel" approved="yes">
         <source>Border</source>
         <target state="translated">Rahmen</target>
+      </trans-unit>
+      <trans-unit id="image_link" approved="yes">
+        <source>Link</source>
+        <target state="translated">Link</target>
       </trans-unit>
       <trans-unit id="image_link_formlabel" approved="yes">
         <source>Links (one per line, one link per image)</source>
@@ -391,6 +459,10 @@
         <source>Columns</source>
         <target state="translated">Tabellenspalten</target>
       </trans-unit>
+      <trans-unit id="cols.I.0" approved="yes">
+        <source>Auto</source>
+        <target state="translated">Auto</target>
+      </trans-unit>
       <trans-unit id="recursive.I.0" approved="yes">
         <source>0 levels (only selected page)</source>
         <target state="translated">0 Ebenen (nur die ausgewählte Seite)</target>
@@ -438,6 +510,10 @@
       <trans-unit id="menu_type.I.3" approved="yes">
         <source>Menu of subpages of selected pages including sections</source>
         <target state="translated">Menü der Unterseiten der ausgewählten Seiten inklusive Seiteninhalt</target>
+      </trans-unit>
+      <trans-unit id="menu_type.I.4" approved="yes">
+        <source>Sitemap</source>
+        <target state="translated">Sitemap</target>
       </trans-unit>
       <trans-unit id="menu_type.I.5" approved="yes">
         <source>Section index (page content marked for section menus)</source>
@@ -683,6 +759,10 @@
         <source>Postit 1</source>
         <target state="translated">Merkzettel 1</target>
       </trans-unit>
+      <trans-unit id="sectionIndex" approved="yes">
+        <source>Index</source>
+        <target state="translated">Index</target>
+      </trans-unit>
       <trans-unit id="sectionIndex_formlabel" approved="yes">
         <source>Show in Section Menus</source>
         <target state="translated">In Menüs zeigen</target>
@@ -819,6 +899,10 @@
         <source>Recipient Email</source>
         <target state="translated">E-Mail-Adresse des Empfängers</target>
       </trans-unit>
+      <trans-unit id="bodytext.ALT.html" approved="yes">
+        <source>HTML</source>
+        <target state="translated">HTML</target>
+      </trans-unit>
       <trans-unit id="menu.ALT.accessibility_title_formlabel" approved="yes">
         <source>Menu block title</source>
         <target state="translated">Title-Attribut für den Abschnitt</target>
@@ -830,6 +914,10 @@
       <trans-unit id="menu.ALT.accessibility_bypass_text_formlabel" approved="yes">
         <source>Link text to bypass navigation block</source>
         <target state="translated">Link-Text zum Überspringen des Navigations-Blocks</target>
+      </trans-unit>
+      <trans-unit id="tabs.text" approved="yes">
+        <source>Text</source>
+        <target state="translated">Text</target>
       </trans-unit>
       <trans-unit id="tabs.media" approved="yes">
         <source>Media</source>
@@ -867,6 +955,14 @@
         <source>Usergroup Access Rights</source>
         <target state="translated">Zugriffsrechte für Benutzergruppen</target>
       </trans-unit>
+      <trans-unit id="layout_formlabel" approved="yes">
+        <source>Layout</source>
+        <target state="translated">Layout</target>
+      </trans-unit>
+      <trans-unit id="bodytext_formlabel" approved="yes">
+        <source>Text</source>
+        <target state="translated">Text</target>
+      </trans-unit>
       <trans-unit id="bodytext.ALT.bulletlist_formlabel" approved="yes">
         <source>Bullet List</source>
         <target state="translated">Aufzählung</target>
@@ -878,6 +974,10 @@
       <trans-unit id="bodytext.ALT.media_formlabel" approved="yes">
         <source>Alternative Content</source>
         <target state="translated">Alternativer Inhalt</target>
+      </trans-unit>
+      <trans-unit id="bodytext.ALT.textbox_formlabel" approved="yes">
+        <source>Text</source>
+        <target state="translated">Text</target>
       </trans-unit>
       <trans-unit id="bodytext.ALT.script_formlabel" approved="yes">
         <source>Parameters to pass to the script</source>
@@ -994,6 +1094,10 @@
       <trans-unit id="palette.table_layout" approved="yes">
         <source>Table Layout</source>
         <target state="translated">Tabellenlayout</target>
+      </trans-unit>
+      <trans-unit id="palette.appearanceLinks" approved="yes">
+        <source>Links</source>
+        <target state="translated">Links</target>
       </trans-unit>
       <trans-unit id="tabs.access" approved="yes">
         <source>Access</source>
