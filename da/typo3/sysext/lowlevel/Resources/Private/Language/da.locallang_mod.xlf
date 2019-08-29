@@ -11,6 +11,10 @@
         <source>Here you can check the integrity of the database tables configured by the $TCA. For instance all records must belong to a page record. In addition the existence of uploaded files attached to records (normally residing in uploads/* folders) are verified as well. You can also get a view of the total pagetree including deleted pages. Finally you've got access to a global database search facility.&lt;br /&gt;&lt;em&gt;Access for 'admin' users only!&lt;/em&gt;</source>
         <target state="translated">Her kan du verificere integriteten af databasetabellerne konfigureret med $TCA. For eksempel skal alle elementer tilhøre et side-element. Derudover bliver det undersøgt om filer, tilknyttet databaseelementer eksisterer (normalt beliggende i uploads/* mappen). Du kan også få et totaloverblik over sidetræet inklusiv slettede sider. Endeligt har du adgang til en overordnet databasesøgningsfunktion.&lt;br /&gt;&lt;em&gt;Adgang kun for 'admin' brugere!&lt;/em&gt;</target>
       </trans-unit>
+      <trans-unit id="mlang_tabs_tab" approved="yes">
+        <source>DB check</source>
+        <target state="translated">DB check</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
