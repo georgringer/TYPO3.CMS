@@ -3,6 +3,10 @@
   <file t3:id="1415814863" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="nl">
     <header/>
     <body>
+      <trans-unit id="LGL.endtime" approved="yes">
+        <source>Stop</source>
+        <target state="translated">Stop</target>
+      </trans-unit>
       <trans-unit id="LGL.hidden" approved="yes">
         <source>Hide</source>
         <target state="translated">Verbergen</target>
@@ -19,6 +23,10 @@
         <source>Created By</source>
         <target state="translated">Gemaakt door</target>
       </trans-unit>
+      <trans-unit id="LGL.starttime" approved="yes">
+        <source>Start</source>
+        <target state="translated">Start</target>
+      </trans-unit>
       <trans-unit id="LGL.fe_group" approved="yes">
         <source>Access</source>
         <target state="translated">Toegang</target>
@@ -34,6 +42,10 @@
       <trans-unit id="LGL.usergroups" approved="yes">
         <source>__Usergroups:__</source>
         <target state="translated">__Gebruikersgroep:__</target>
+      </trans-unit>
+      <trans-unit id="LGL.type" approved="yes">
+        <source>Type</source>
+        <target state="translated">Type</target>
       </trans-unit>
       <trans-unit id="LGL.description" approved="yes">
         <source>Description</source>
@@ -115,6 +127,10 @@
         <source>Phone</source>
         <target state="translated">Telefoon</target>
       </trans-unit>
+      <trans-unit id="LGL.fax" approved="yes">
+        <source>Fax</source>
+        <target state="translated">Fax</target>
+      </trans-unit>
       <trans-unit id="LGL.author" approved="yes">
         <source>Author</source>
         <target state="translated">Auteur</target>
@@ -139,6 +155,10 @@
         <source>Country</source>
         <target state="translated">Land</target>
       </trans-unit>
+      <trans-unit id="LGL.www" approved="yes">
+        <source>www</source>
+        <target state="translated">www</target>
+      </trans-unit>
       <trans-unit id="LGL.lastlogin" approved="yes">
         <source>Last login</source>
         <target state="translated">Laatste aanmelding</target>
@@ -146,6 +166,18 @@
       <trans-unit id="LGL.note" approved="yes">
         <source>Note</source>
         <target state="translated">Opmerking</target>
+      </trans-unit>
+      <trans-unit id="LGL.parameters" approved="yes">
+        <source>Parameters</source>
+        <target state="translated">Parameters</target>
+      </trans-unit>
+      <trans-unit id="LGL.code" approved="yes">
+        <source>CODE</source>
+        <target state="translated">CODE</target>
+      </trans-unit>
+      <trans-unit id="LGL.links" approved="yes">
+        <source>Links</source>
+        <target state="translated">Links</target>
       </trans-unit>
       <trans-unit id="LGL.language" approved="yes">
         <source>Language</source>
