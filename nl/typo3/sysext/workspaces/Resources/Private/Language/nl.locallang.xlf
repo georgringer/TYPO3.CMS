@@ -23,6 +23,18 @@
         <source>hidden</source>
         <target state="translated">verborgen</target>
       </trans-unit>
+      <trans-unit id="title" approved="yes">
+        <source>Workspaces</source>
+        <target state="translated">Workspaces</target>
+      </trans-unit>
+      <trans-unit id="item" approved="yes">
+        <source>item</source>
+        <target state="translated">item</target>
+      </trans-unit>
+      <trans-unit id="items" approved="yes">
+        <source>items</source>
+        <target state="translated">items</target>
+      </trans-unit>
       <trans-unit id="recordsToDisplay" approved="yes">
         <source>Records to display</source>
         <target state="translated">Weer te geven records</target>
@@ -132,6 +144,10 @@
       <trans-unit id="column.wsTitle" approved="yes">
         <source>Changed</source>
         <target state="translated">Gewijzigd</target>
+      </trans-unit>
+      <trans-unit id="column.workspaceName" approved="yes">
+        <source>Workspace</source>
+        <target state="translated">Workspace</target>
       </trans-unit>
       <trans-unit id="column.wsSwapColumn" approved="yes">
         <source>Swap workspace</source>
@@ -260,9 +276,17 @@
         <source>List view</source>
         <target state="translated">Lijstweergave</target>
       </trans-unit>
+      <trans-unit id="preview.livePreview" approved="yes">
+        <source>Live</source>
+        <target state="translated">Live</target>
+      </trans-unit>
       <trans-unit id="preview.livePreviewDetail" approved="yes">
         <source>Click this element to hide the workspace version and see the live version of the page.</source>
         <target state="translated">Klik op dit element om de workspace-versie te verbergen en de live-versie van de pagina te zien.</target>
+      </trans-unit>
+      <trans-unit id="preview.workspacePreview" approved="yes">
+        <source>Workspace</source>
+        <target state="translated">Workspace</target>
       </trans-unit>
       <trans-unit id="preview.workspacePreviewDetail" approved="yes">
         <source>Click this element to hide the live version and see the workspace version of the page.</source>
