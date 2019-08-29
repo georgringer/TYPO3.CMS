@@ -19,6 +19,12 @@ TypoScript in 45 min| https://docs.typo3.org/typo3cms/TyposcriptIn45MinutesTutor
 			<target state="translated">static_template
 TSref | https://docs.typo3.org/typo3cms/TyposcriptReference/
 TypoScript på 45 min | http://docs.typo3.org/typo3cms/TyposcriptIn45MinutesTutorial/</target></trans-unit>
+      <trans-unit id="_.image" xml:space="preserve" approved="yes">
+				<source>EXT:frontend/Resources/Public/Images/cshimages/systemplate.png,
+EXT:frontend/Resources/Public/Images/cshimages/systemplate1.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:frontend/Resources/Public/Images/cshimages/systemplate.png,
+EXT:frontend/Resources/Public/Images/cshimages/systemplate1.png</target></trans-unit>
       <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
 				<source>A Template Record with constants and setup code.
 The Web&gt;Template module contains tools which will help you to edit and validate TypoScript structures.</source>
@@ -50,6 +56,11 @@ The Web&gt;Template module contains tools which will help you to edit and valida
       <trans-unit id="constants.description" approved="yes">
         <source>TypoScript Constants.</source>
         <target state="translated">TypoScript konstanter</target>
+      </trans-unit>
+      <trans-unit id="_constants.seeAlso" approved="yes">
+        <source>static_template:constants</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">static_template:constants</target>
       </trans-unit>
       <trans-unit id="config.description" approved="yes">
         <source>TypoScript Setup code</source>
@@ -87,9 +98,24 @@ TypoScript Syntax | https://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/</
         <source>In the Web &gt; Template / Template Analyzer module you can see how far back in the template tree that constants and setup code is inherited.</source>
         <target state="translated">I Web &gt; Skabelon / Skabelon-analyse modulet, kan du se hvor langt tilbage i skabelontræet, konstanter og setup kode er nedarvet.</target>
       </trans-unit>
+      <trans-unit id="_clear.seeAlso" approved="yes">
+        <source>sys_template:root</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">sys_template:root</target>
+      </trans-unit>
+      <trans-unit id="_clear.image" approved="yes">
+        <source>EXT:frontend/Resources/Public/Images/cshimages/systemplate2.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:frontend/Resources/Public/Images/cshimages/systemplate2.png</target>
+      </trans-unit>
       <trans-unit id="root.description" approved="yes">
         <source>Defines that the template represents a root of a website.</source>
         <target state="translated">Definerer at skabelonen er websites rod</target>
+      </trans-unit>
+      <trans-unit id="_root.seeAlso" approved="yes">
+        <source>sys_template:clear</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">sys_template:clear</target>
       </trans-unit>
       <trans-unit id="includeStaticAfterBasedOn.description" approved="yes">
         <source>If set, static templates will be included after "based-on" templates. It basically swaps the order of inclusion of these external TypoScript sources.</source>
@@ -103,6 +129,10 @@ TypoScript Syntax | https://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/</
         <source>Static Template records to include.</source>
         <target state="translated">Statiske skabelonelementer der skal inkluderes.</target>
       </trans-unit>
+      <trans-unit id="_include_static.seeAlso" approved="yes">
+        <source>static_template</source>
+        <target state="translated">static_template</target>
+      </trans-unit>
       <trans-unit id="include_static_file.description" approved="yes">
         <source>Static Template files to include.</source>
         <target state="translated">Statiske skabelonfiler der skal inkluderes.</target>
@@ -110,6 +140,11 @@ TypoScript Syntax | https://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/</
       <trans-unit id="include_static_file.details" approved="yes">
         <source>Static template files are registered by extensions contrary to Static Template records which come from the static database table, "static_template".</source>
         <target state="translated">Statiske skabelonfiler registres af udvidelsen, i modsætning til statiske skabelonelementer, som kommer fra den statiske databasetabel, "static_template".</target>
+      </trans-unit>
+      <trans-unit id="_include_static_file.seeAlso" approved="yes">
+        <source>sys_template:include_static</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">sys_template:include_static</target>
       </trans-unit>
       <trans-unit id="basedOn.description" approved="yes">
         <source>Other Template Records that are included like "static templates".</source>
