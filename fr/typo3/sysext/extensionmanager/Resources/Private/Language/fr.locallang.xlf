@@ -127,17 +127,41 @@
         <source>Update</source>
         <target state="translated">Mise à jour</target>
       </trans-unit>
+      <trans-unit id="extensionList.header.activate" approved="yes">
+        <source>A/D</source>
+        <target state="translated">A/D</target>
+      </trans-unit>
       <trans-unit id="extensionList.header.title.activate" approved="yes">
         <source>Activate / Deactivate</source>
         <target state="translated">Activer/Désactiver</target>
+      </trans-unit>
+      <trans-unit id="extensionList.header.extensionName" approved="yes">
+        <source>Extension</source>
+        <target state="translated">Extension</target>
+      </trans-unit>
+      <trans-unit id="extensionList.header.version" approved="yes">
+        <source>Version</source>
+        <target state="translated">Version</target>
       </trans-unit>
       <trans-unit id="extensionList.header.extensionKey" approved="yes">
         <source>Key</source>
         <target state="translated">Clé</target>
       </trans-unit>
+      <trans-unit id="extensionList.header.extensionVersion" approved="yes">
+        <source>Version</source>
+        <target state="translated">Version</target>
+      </trans-unit>
+      <trans-unit id="extensionList.header.extensionActions" approved="yes">
+        <source>Actions</source>
+        <target state="translated">Actions</target>
+      </trans-unit>
       <trans-unit id="extensionList.header.extensionState" approved="yes">
         <source>State</source>
         <target state="translated">État</target>
+      </trans-unit>
+      <trans-unit id="extensionList.header.extensionType" approved="yes">
+        <source>Type</source>
+        <target state="translated">Type</target>
       </trans-unit>
       <trans-unit id="extensionList.header.uploadComment" approved="yes">
         <source>Upload Comment</source>
@@ -146,6 +170,10 @@
       <trans-unit id="extensionList.header.lastUpdate" approved="yes">
         <source>Last Updated</source>
         <target state="translated">Dernière mise à jour</target>
+      </trans-unit>
+      <trans-unit id="extensionList.header.description" approved="yes">
+        <source>Description</source>
+        <target state="translated">Description</target>
       </trans-unit>
       <trans-unit id="extensionList.header.author" approved="yes">
         <source>Author</source>
@@ -174,6 +202,10 @@
       <trans-unit id="uploadTemplate.uploadButton" approved="yes">
         <source>Upload!</source>
         <target state="translated">Charger!</target>
+      </trans-unit>
+      <trans-unit id="uploadTemplate.extensionLabel" approved="yes">
+        <source>Extension</source>
+        <target state="translated">Extension</target>
       </trans-unit>
       <trans-unit id="extensionList.removalConfirmation.title" approved="yes">
         <source>Extension Removal</source>
@@ -300,6 +332,10 @@
         <source>Log</source>
         <target state="translated">Journal</target>
       </trans-unit>
+      <trans-unit id="extensionList.dependenciesResolveDownloadSuccess.item" approved="yes">
+        <source>Extensions</source>
+        <target state="translated">Extensions</target>
+      </trans-unit>
       <trans-unit id="extensionList.dependenciesResolveFlashMessage.title" approved="yes">
         <source>{0} installed.</source>
         <target state="translated">{0} installé.</target>
@@ -339,6 +375,10 @@
       <trans-unit id="extensionList.showAllVersions.extensionKey" approved="yes">
         <source>Extension key</source>
         <target state="translated">Clé d'extension</target>
+      </trans-unit>
+      <trans-unit id="extensionList.showAllVersions.version" approved="yes">
+        <source>Version</source>
+        <target state="translated">Version</target>
       </trans-unit>
       <trans-unit id="extensionList.showAllVersions.lastUploaded" approved="yes">
         <source>Last uploaded</source>
@@ -440,6 +480,14 @@
         <source>Identifier</source>
         <target state="translated">Identifiant</target>
       </trans-unit>
+      <trans-unit id="distribution.dependency.type" approved="yes">
+        <source>Type</source>
+        <target state="translated">Type</target>
+      </trans-unit>
+      <trans-unit id="distribution.dependency.version" approved="yes">
+        <source>Version</source>
+        <target state="translated">Version</target>
+      </trans-unit>
       <trans-unit id="task.updateExtensionListTask.name" approved="yes">
         <source>Update extension list</source>
         <target state="translated">Mettre à jour la liste des extensions</target>
@@ -460,29 +508,65 @@
         <source>The Main Repository extension list is older than 7 days. Please update it in the Extension manager or Scheduler.</source>
         <target state="translated">La liste d'extensions du dépôt principal est plus vieille que 7 jours. Veuillez la mettre à jour dans le gestionnaire d'extensions ou avec le planificateur de tâches.</target>
       </trans-unit>
+      <trans-unit id="report.status.mainRepository.upToDate.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
+      </trans-unit>
       <trans-unit id="report.status.loadedExtensions.title" approved="yes">
         <source>Security status of loaded extensions</source>
         <target state="translated">Etat de sécurité des extensions chargées</target>
+      </trans-unit>
+      <trans-unit id="report.status.loadedExtensions.noInsecureExtensionLoaded.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
       </trans-unit>
       <trans-unit id="report.status.loadedExtensions.insecureExtensionLoaded.value" approved="yes">
         <source>%s insecure extension(s) found</source>
         <target state="translated">%s extensions non-sûres trouvées</target>
       </trans-unit>
+      <trans-unit id="report.status.loadedExtensions.insecureExtensionLoaded.message.extension" approved="yes">
+        <source>&lt;strong&gt;%1$s&lt;/strong&gt; (version %2$s)&lt;br&gt;</source>
+        <target state="translated">&lt;strong&gt;%1$s&lt;/strong&gt; (version %2$s)&lt;br&gt;</target>
+      </trans-unit>
+      <trans-unit id="report.status.existingExtensions.noInsecureExtensionExists.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
+      </trans-unit>
       <trans-unit id="report.status.existingExtensions.insecureExtensionExists.value" approved="yes">
         <source>%s insecure extension(s) found</source>
         <target state="translated">%s extensions non-sûres trouvées</target>
+      </trans-unit>
+      <trans-unit id="report.status.existingExtensions.insecureExtensionExists.message.extension" approved="yes">
+        <source>&lt;strong&gt;%1$s&lt;/strong&gt; (version %2$s)&lt;br&gt;</source>
+        <target state="translated">&lt;strong&gt;%1$s&lt;/strong&gt; (version %2$s)&lt;br&gt;</target>
       </trans-unit>
       <trans-unit id="report.status.loadedOutdatedExtensions.title" approved="yes">
         <source>Outdated status of loaded extensions</source>
         <target state="translated">Etat de sécurité obsolète des extensions chargées</target>
       </trans-unit>
+      <trans-unit id="report.status.loadedOutdatedExtensions.noOutdatedExtensionLoaded.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
+      </trans-unit>
       <trans-unit id="report.status.loadedOutdatedExtensions.outdatedExtensionLoaded.value" approved="yes">
         <source>%s outdated extension(s) found</source>
         <target state="translated">%s extension(s) périmée(s) a/ont été trouvée(s)</target>
       </trans-unit>
+      <trans-unit id="report.status.loadedOutdatedExtensions.outdatedExtensionLoaded.message.extension" approved="yes">
+        <source>&lt;strong&gt;%1$s&lt;/strong&gt; (version %2$s)&lt;br&gt;</source>
+        <target state="translated">&lt;strong&gt;%1$s&lt;/strong&gt; (version %2$s)&lt;br&gt;</target>
+      </trans-unit>
+      <trans-unit id="report.status.existingOutdatedExtensions.noOutdatedExtensionExists.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
+      </trans-unit>
       <trans-unit id="report.status.existingOutdatedExtensions.outdatedExtensionExists.value" approved="yes">
         <source>%s outdated extension(s) found</source>
         <target state="translated">%s extension(s) périmée(s) a/ont été trouvée(s)</target>
+      </trans-unit>
+      <trans-unit id="report.status.existingOutdatedExtensions.outdatedExtensionExists.message.extension" approved="yes">
+        <source>&lt;strong&gt;%1$s&lt;/strong&gt; (version %2$s)&lt;br&gt;</source>
+        <target state="translated">&lt;strong&gt;%1$s&lt;/strong&gt; (version %2$s)&lt;br&gt;</target>
       </trans-unit>
       <trans-unit id="fileHandling.couldNotCreateDirectory" approved="yes">
         <source>ERROR: Could not create extension directory "%s"!</source>
