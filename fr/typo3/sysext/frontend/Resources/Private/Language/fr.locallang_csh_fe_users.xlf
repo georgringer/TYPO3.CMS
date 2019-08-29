@@ -39,6 +39,11 @@
         <source>Either a domain name, "www.typo3.org" or an IP address, "10.34.222.83"</source>
         <target state="translated">Soit une nom de domaine, "www.typo3.com" ou une adresse IP, "10.34.222.83"</target>
       </trans-unit>
+      <trans-unit id="_lockToDomain.seeAlso" approved="yes">
+        <source>fe_groups:lockToDomain</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_groups:lockToDomain</target>
+      </trans-unit>
       <trans-unit id="name.description" approved="yes">
         <source>Enter the regular name of the user, both first- and surname.</source>
         <target state="translated">Entrer le nom complet de l'utilisateur, prénom et nom.</target>
@@ -67,6 +72,11 @@
         <source>This option will temporarily disable the user from logging in.</source>
         <target state="translated">Cette option désactivera temporairement la possibilité à l'utilisateur de s'authentifier au site.</target>
       </trans-unit>
+      <trans-unit id="_disable.seeAlso" approved="yes">
+        <source>fe_users:starttime,fe_users:endtime</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_users:starttime,fe_users:endtime</target>
+      </trans-unit>
       <trans-unit id="starttime.description" approved="yes">
         <source>Enter the date from which the account is active.</source>
         <target state="translated">Entrer la date à partir de laquelle le compte est actif.</target>
@@ -75,6 +85,11 @@
 				<source>The syntax is dd-mm-yy, but you can just enter a "d" in the field to insert todays date. Or "d+10" to insert the date 10 days from now etc.
 The field will re-format any input to fit the format it understands so you can just experiment and you will be able to clearly see how dates should be entered.</source>
 			<target state="translated">La syntaxe est dd-mm-yy, mais vous pouvez entrer seulement un "d" dans le champ pour insérer la date d'aujourd'hui. Ou "d+10" pour insérer la date du dixième jour à partir d'aujourd'hui, etc. Le champ reformatera n'importe quelle entrée pour l'ajuster au format qu'il connait. Vous pouvez donc seulement expérimenter et vous pourrez voir clairement comment les dates devraient être entrées.</target></trans-unit>
+      <trans-unit id="_starttime.seeAlso" approved="yes">
+        <source>fe_users:disable,fe_users:endtime</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_users:disable,fe_users:endtime</target>
+      </trans-unit>
       <trans-unit id="endtime.description" approved="yes">
         <source>Enter the date from which the account is disabled.</source>
         <target state="translated">Entrer la date à partir de laquelle le compte est désactivé.</target>
@@ -82,6 +97,11 @@ The field will re-format any input to fit the format it understands so you can j
       <trans-unit id="endtime.syntax" approved="yes">
         <source>See "Start"</source>
         <target state="translated">Voir "Démarrer"</target>
+      </trans-unit>
+      <trans-unit id="_endtime.seeAlso" approved="yes">
+        <source>fe_users:disable,fe_users:starttime</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_users:disable,fe_users:starttime</target>
       </trans-unit>
       <trans-unit id="lastlogin.description" approved="yes">
         <source>This field shows the user's last log in date.</source>
@@ -103,6 +123,11 @@ The field will re-format any input to fit the format it understands so you can j
         <source>These are users with a username and password who are allowed specific access to otherwise restricted areas on your website.</source>
         <target state="translated">Ce sont les utilisateurs avec nom d'utilisateur et mot de passe à qui il est donné un accès spécifiques à des zones de votre site web restreintes différemment.</target>
       </trans-unit>
+      <trans-unit id="_.seeAlso" xml:space="preserve" approved="yes">
+				<source>fe_groups
+be_users</source>
+			<target state="translated">fe_groups
+be_users</target></trans-unit>
       <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
 				<source>Part of the form for editing a frontend user.
 A typical login box (standard) on the website where frontend users can login.</source>
