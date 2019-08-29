@@ -15,6 +15,10 @@
         <source>Here you can find a short overview of your site's parameters as well as any problems detected with your installation. It may be useful to copy and paste this information into support requests filed on TYPO3's support mailinglists and project issue trackers.</source>
         <target state="translated">Puoi visualizzare qui una breve anteprima dei parametri del tuo sito, e degli eventuali problemi individuati nella tua installazione. Potrebbe essere utile copiare e incollare queste informazioni nelle richieste di supporto inoltrate alle mailing list di supporto di TYPO3 e negli issue tracker del progetto.</target>
       </trans-unit>
+      <trans-unit id="status_ok" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
+      </trans-unit>
       <trans-unit id="status_wrongValue" approved="yes">
         <source>Wrong value detected</source>
         <target state="translated">Rilevato valore errato</target>
@@ -106,6 +110,14 @@
       <trans-unit id="status_memcachedConfiguration" approved="yes">
         <source>Memcached Configuration</source>
         <target state="translated">Configurazione Memcached</target>
+      </trans-unit>
+      <trans-unit id="status_PhpSafeMode" approved="yes">
+        <source>PHP safe_mode</source>
+        <target state="translated">PHP safe_mode</target>
+      </trans-unit>
+      <trans-unit id="status_PhpMagicQuotesGpc" approved="yes">
+        <source>PHP magic_quotes_gpc</source>
+        <target state="translated">PHP magic_quotes_gpc</target>
       </trans-unit>
       <trans-unit id="status_CreatedFilePermissions" approved="yes">
         <source>Permissions of created files</source>
