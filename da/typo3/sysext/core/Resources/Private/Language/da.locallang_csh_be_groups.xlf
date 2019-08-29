@@ -20,6 +20,12 @@ Setting up groups (from "Getting Started") | https://docs.typo3.org/typo3cms/Get
 "Indenfor TYPO3" om brugere / grupper | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/AccessControl/UsersAndGroups/,
 Hvordan man opsætter en backend bruger | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/AccessControl/SettingUpANewUser/,
 Opsætning af  grupper (fra "Kom igang") | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/CreateUsersGroups/</target></trans-unit>
+      <trans-unit id="_.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/be_groups_2.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_1.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/be_groups_2.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_1.png</target></trans-unit>
       <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
 				<source>Backend Usergroups are found in the root of the page tree where only "admin" users can edit them. The usergroups with red icons in this image are the ones with Access Lists enabled. The blue are just plain usergroups.
 This usergroup has Access Lists enabled. In the Access Lists you specify which modules, tables, database fields etc. the group members can access in TYPO3.</source>
@@ -31,6 +37,11 @@ This usergroup has Access Lists enabled. In the Access Lists you specify which m
       <trans-unit id="title.details" approved="yes">
         <source>Backend Usergroups are identified by their "uid" field value (integer) and therefore the title can always be changed. The "uid" can never be changed for a user group.</source>
         <target state="translated">Backend-brugergrupper er identificeret af deres "uid" felts værdi og derfor kan titlen altid ændres. Gruppens "uid" kan aldrig ændres.</target>
+      </trans-unit>
+      <trans-unit id="_title.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/be_groups_2.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/be_groups_2.png</target>
       </trans-unit>
       <trans-unit id="title.image_descr" approved="yes">
         <source>The usergroup title is shown in the record lists.</source>
@@ -45,6 +56,22 @@ This usergroup has Access Lists enabled. In the Access Lists you specify which m
 DB mounts &lt;i&gt;may&lt;/i&gt; be inherited by the users which are members of this group. This depends on whether the user is configured to include the mounts set in the member groups.
 However it's recommended to use backend user groups like this to configure mounts. Especially if they need to be shared among many users.</source>
 			<target state="translated">Sidetræet i TYPO3 skal have sit startpunkt defineret. Her bør du indsætte en eller flere referencer til til en side som repræsenterer en ny rodside for sidetræet. Dette kaldes en "database mount" eller "DB mount". DB mounts &lt;i&gt;kan&lt;/i&gt; arves af brugere som er medlemmer af denne gruppe. Dette afhænger af hvor vidt brugeren er konfigureret til at inkludere mounts fra brugergrupperne. Det anbefales dog at bruge backend brugergrupper som denne til at konfigurere DB mounts - særlig hvis de skal deles af mange brugere.</target></trans-unit>
+      <trans-unit id="_db_mountpoints.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:file_mountpoints,
+be_users:db_mountpoints,
+be_users:options,
+xMOD_csh_corebe:list_module</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:file_mountpoints,
+be_users:db_mountpoints,
+be_users:options,
+xMOD_csh_corebe:list_module</target></trans-unit>
+      <trans-unit id="_db_mountpoints.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/be_groups_3.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_4.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/be_groups_3.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_4.png</target></trans-unit>
       <trans-unit id="db_mountpoints.image_descr" xml:space="preserve" approved="yes">
 				<source>Here a page is added as a "DB mount"...
 ... and in the page tree of member users this will become the starting point for the page tree.</source>
@@ -78,6 +105,16 @@ be_users,
 sys_filemounts,
 xMOD_csh_corebe:filelist_module,
 Mere om File Mounts | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/AccessControl/MoreAboutFileMounts/</target></trans-unit>
+      <trans-unit id="_file_mountpoints.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/be_groups_5.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_6.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_7.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_8.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/be_groups_5.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_6.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_7.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_8.png</target></trans-unit>
       <trans-unit id="file_mountpoints.image_descr" xml:space="preserve" approved="yes">
 				<source>The File Mounts are references to records from the "Filemounts" table.
 In the Filemount record you define whether the path should be absolute (must be within $TYPO3_CONF_VARS[BE][lockRootPath]) or relative to "fileadmin/". In this case the Filemount points to "fileadmin/user_upload/"
@@ -98,6 +135,14 @@ Dette viser den mountede folder, som som den ses af en bruger som er medlem af g
 			<target state="translated">Disse indstillinger relaterer til en funktion som findes i Fil&gt;Filliste modulet såvel som under generel upload af filer.
 
 &lt;strong&gt;Notér&lt;/strong&gt; at disse indstillinger gælder for alle medlemmer af denne gruppe og udvider brugernes tilladelser som følge heraf.</target></trans-unit>
+      <trans-unit id="file_permissions.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:file_mountpoints,
+be_users:file_mountpoints,
+be_users:file_permissions</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:file_mountpoints,
+be_users:file_mountpoints,
+be_users:file_permissions</target></trans-unit>
       <trans-unit id="fileoper_perms.description" approved="yes">
         <source>Select file operation permissions for the group members.</source>
         <target state="translated">Vælg filoperations-tilladelser for gruppemedlemmer.</target>
@@ -126,6 +171,17 @@ be_users:fileoper_perms</target></trans-unit>
 Choice of Page types (doktype) for a page is associated with a) a special icon for the page, b) permitted tables on the page (see $PAGES_TYPES global variable) and c) if the page is a web page or "system folder" type.</source>
 			<target state="translated">Denne mulighed begrænser altallet af muligheder for brugeren når denne skal vælge en sidetype.
 Valg af sidetype er forbundet med a) en specielt ikon for siden, b) tilladte tabeller på siden (se den globale variabel $PAGES_TYPES) og c) om siden er en webside eller en systemfolder.</target></trans-unit>
+      <trans-unit id="_pagetypes_select.seeAlso" xml:space="preserve" approved="yes">
+				<source>pages:doktype,
+be_groups:inc_access_lists</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">pages:doktype,
+be_groups:inc_access_lists</target></trans-unit>
+      <trans-unit id="_pagetypes_select.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/be_groups_9.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/be_groups_9.png</target>
+      </trans-unit>
       <trans-unit id="pagetypes_select.image_descr" approved="yes">
         <source>The list of typical page types available in a CMS context. Selecting Page types for a usergroup defines which of these options can be selected by member users.</source>
         <target state="translated">Listen af typiske sidetyper som er til rådighed i CMS-sammenhæng. Valg af sidetype for en brugergruppe definerer hvilke muligheder der er til rådighed for en bruger.</target>
@@ -140,6 +196,22 @@ Tables allowed for modification is automatically also allowed for selection and 
 
 &lt;strong&gt;Notice&lt;/strong&gt; that this list adds to the fields selected in other member groups of a user.</source>
 			<target state="translated">En vigtig del at opsætningen af rettigheder er at definere hvilke databasetabeller en bruger må ændre. Tabeller der må ændres må automatisk også vælges og derrfor behøver du ikke også tilføje tabellen under "Tables (listing)" &lt;strong&gt;Bemærk&lt;/strong&gt; at denne liste summeres med felter fra andre brugergrupper som denne bruger er medlem af.</target></trans-unit>
+      <trans-unit id="_tables_modify.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:tables_select,
+be_groups:inc_access_lists,
+xMOD_csh_corebe:new_ce</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:tables_select,
+be_groups:inc_access_lists,
+xMOD_csh_corebe:new_ce</target></trans-unit>
+      <trans-unit id="_tables_modify.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/be_groups_10.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_15.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_11.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/be_groups_10.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_15.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_11.png</target></trans-unit>
       <trans-unit id="tables_modify.image_descr" xml:space="preserve" approved="yes">
 				<source>The screenshot above shows how the "Create new record" dialog looks for a user limited to editing only "Page" and "Page content" elements.
 The two tables are simply added to the list of "Tables (modify)" in the group Access Lists.
@@ -153,6 +225,12 @@ This is (an example of) the full amount of elements that can be created on the p
 				<source>This determines which tables - in addition to those selected in the "Tables (modify)" box - may be viewed and listed for the member users. He is not able to &lt;em&gt;edit&lt;/em&gt; the table - only select the records and view the content.
 This list is not very important. It's a pretty rare situation that a user may select tables but not modify them.</source>
 			<target state="translated">Dette afgør hvilke tabeller - ud over dem der er valgt i "Tables (modify)" boksen - der må ses og listes for gruppens medlemmer. Han må &lt;em&gt;ikke&lt;/em&gt; ændre i tabellen - kun vælge elementerne og se indholdet. Denne liste er ikke særlig vigtig. Det er en forholdsvis sjælden situation hvor en bruger må læse i tabeller uden at ændre dem.</target></trans-unit>
+      <trans-unit id="_tables_select.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:tables_modify,
+be_groups:inc_access_lists</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:tables_modify,
+be_groups:inc_access_lists</target></trans-unit>
       <trans-unit id="non_exclude_fields.description" approved="yes">
         <source>Certain table fields are not available by default. Those fields can be explicitly enabled for the group members here.</source>
         <target state="translated">Visse tabelfelter er ikke til rådighed som standard. Disse felter kan her eksplicit aktiveres for gruppens medlemmer.</target>
@@ -168,6 +246,11 @@ Examples from "Getting Started" | https://docs.typo3.org/typo3cms/GettingStarted
 				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
 			<target state="translated">be_groups:inc_access_lists,
 Eksempler fra "Kom igang" | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/CreateUsersGroups/</target></trans-unit>
+      <trans-unit id="_non_exclude_fields.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/be_groups_14.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/be_groups_14.png</target>
+      </trans-unit>
       <trans-unit id="hidden.description" approved="yes">
         <source>Disables a user group.</source>
         <target state="translated">Deaktiverer en brugergruppe.</target>
@@ -184,6 +267,14 @@ Eksempler fra "Kom igang" | https://docs.typo3.org/typo3cms/GettingStartedTutori
 				<source>A TYPO3 system may host multiple websites on multiple domains. Therefore this option secures that users can login only from a certain host name.
 Setting this to for example "www.my-domain.com" will require a user to be logged in from that domain if membership of this group should be gained. Otherwise the group will be ignored for the user.</source>
 			<target state="translated">Et TYPO3-syatem kan indeholde flere websites på flere domæner. Derfor sikrer denne valgmulighed at brugeren kun kan logge ind fra en bestemt host. Sættes dette f.eks. til "www.my-domain.com" kæves det at brugeren logger ind fra dette domæne for at opnå medlemsskab af denne gruppe. I modsat fald vil brugeren ikke blive medlem af gruppen.</target></trans-unit>
+      <trans-unit id="_lockToDomain.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:lockToDomain,
+fe_users:lockToDomain,
+fe_groups:lockToDomain</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:lockToDomain,
+fe_users:lockToDomain,
+fe_groups:lockToDomain</target></trans-unit>
       <trans-unit id="groupMods.description" approved="yes">
         <source>Select available backend modules for the group members.</source>
         <target state="translated">Vælg hvilke backend-moduler der er tilgængelig for gruppens medlemmer.</target>
@@ -200,6 +291,12 @@ Backend Interface | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArc
 			<target state="translated">be_users:userMods,
 be_groups:inc_access_lists,
 Backend grænsefalde | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/Backend/</target></trans-unit>
+      <trans-unit id="_groupMods.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/be_groups_12.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_13.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/be_groups_12.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_13.png</target></trans-unit>
       <trans-unit id="groupMods.image_descr" xml:space="preserve" approved="yes">
 				<source>The Backend Modules available for a user is reflected in the menu items of the backend. For most regular users only modules in the Web and File main modules are enabled. Typically "Web &gt; Page" is used for editing of page content.
 This is the assignment of Backend Modules to the user from the screenshot above. All four Web sub-modules and the two User sub-modules are configured here. However the File &gt; Filelist module must have been configured for another member group of this user (or inside the user profile itself which is also possible). The Help modules are all accessible by default and does not require explicit access.</source>
@@ -212,9 +309,26 @@ This is the assignment of Backend Modules to the user from the screenshot above.
 				<source>If this option is disabled the Access Lists cannot be configured for the group.
 When Access Lists are disabled the icon for the group is blue while it is red when Access Lists are enabled.</source>
 			<target state="translated">Hvis denne vlagmulighed er deaktiveret kan adgangslister ikke konfigureres for denne gruppe. Når adgangslister er inaktiveret, er gruppens ikon blåt, mens det er rødt når adgangslister er aktiveret.</target></trans-unit>
+      <trans-unit id="_inc_access_lists.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:pagetypes_select,
+be_groups:tables_modify,
+be_groups:tables_select,
+be_groups:groupMods,
+be_groups:non_exclude_fields</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:pagetypes_select,
+be_groups:tables_modify,
+be_groups:tables_select,
+be_groups:groupMods,
+be_groups:non_exclude_fields</target></trans-unit>
       <trans-unit id="description.description" approved="yes">
         <source>Enter a short description of the user group, what it is for and who should be members. This is for internal use only.</source>
         <target state="translated">Indtast en kort beskrivelse af brugergruppen, hvad den skal bruges til og hvem der skal være medlemmer. Dette er kun til internt brug.</target>
+      </trans-unit>
+      <trans-unit id="_description.seeAlso" approved="yes">
+        <source>fe_groups:description</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_groups:description</target>
       </trans-unit>
       <trans-unit id="TSconfig.description" approved="yes">
         <source>User TSconfig: Additional configuration through TypoScript style values (Advanced).</source>
@@ -228,6 +342,26 @@ When Access Lists are disabled the icon for the group is blue while it is red wh
         <source>TypoScript syntax without conditions and constants.</source>
         <target state="translated">TypoScript-syntak uden betingelser og konstanter.</target>
       </trans-unit>
+      <trans-unit id="_TSconfig.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:TSconfig
+fe_users:TSconfig
+fe_groups:TSconfig
+pages:TSconfig,
+TSconfig Reference| https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/,
+TypoScript Syntax | https://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:TSconfig
+fe_users:TSconfig
+fe_groups:TSconfig
+pages:TSconfig,
+TSconfig Reference| https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/,
+TypoScript Syntax | https://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/</target></trans-unit>
+      <trans-unit id="_TSconfig.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/be_groups_16.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_17.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/be_groups_16.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_17.png</target></trans-unit>
       <trans-unit id="TSconfig.image_descr" xml:space="preserve" approved="yes">
 				<source>In the TSconfig field help is right at hand - just click the TS wizard icon, then a window will pop up.
 In the pop-up window you will see a tree of possible configuration values. These are extracted from the TSconfig manual. You can click around to find the options you need to set through this wizard.</source>
@@ -250,6 +384,11 @@ Each value can be configured to require either explicit access (Allow) or explic
 If a value has the prefix "Deny" (red icon) it means that by default users can set this value unless they are member of a user group which explicitly denies it (by setting this checkbox).
 The list is organized so values from the same selector box is listed together. If values from a selectorbox is not present in the allow/deny list it simply means they are not evaluated and hence they can be set by anyone having access to the field in general.</source>
 			<target state="translated">Felter i Selektorbokse kan konfigureres mht. adgangskontrol på værdi-niveau. Denne liste repræsenterer alle værdier som er konfigureret for adgangskontrol. Alle værdier kan blive konfigureret til at kræve enten eksplicit adgang (Allow) eller afvisning (Deny). Hvis en værdi har præfikset "Allow" (grønt ikon), betyder det at som standard kan brugere &lt;em&gt;ikke&lt;/em&gt; ændre denne værdi, med mindre de er medlem af brugergruppen som eksplicit tillader det (ved at markere dette afkrydsningfelt). Hvis en værdi har præfikset "Deny" (rødt ikon) betyder det at brugere som standard kan ændre denne værdi, med mindre de er medlem af en brugergruppe som eksplicit afviser det (ved at markere dette afkrydsningfelt). Listen er organiseret således at værdier fra den samme selektorboks er listet sammen. Hvis værdier fra en selektorboks ikke er i listen betyder det at de ikke bliver kontrolleret, og kan derfor vælges alle brugere hvis de normalt har adgang til feltet.</target></trans-unit>
+      <trans-unit id="_explicit_allowdeny.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/be_groups_19.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/be_groups_19.png</target>
+      </trans-unit>
       <trans-unit id="allowed_languages.description" approved="yes">
         <source>Select which record languages the group members are limited to edit.</source>
         <target state="translated">Vælg hvilke sprogfelter gruppens medlemmer har adgang til at rette.</target>
@@ -258,6 +397,16 @@ The list is organized so values from the same selector box is listed together. I
 				<source>Records in TYPO3 can be configured to carry information about their language. If that is the case access to these elements will also be evaluated based on whether the user has the language in question included from this list.
 If a user has no languages listed all together it simply means that he can edit &lt;em&gt;all&lt;/em&gt; languages!</source>
 			<target state="translated">Felter i TYPO3 kon konfigureres til at indeholde informationer om deres sprog. I det tilfælde er adgangen til disse felter afhængig af om brugeren har adgang til sproget fra denne liste. Hvis der ikke er nogen sprog på listen, betyder det at brugeren kan rette &lt;em&gt;alle&lt;/em&gt; sprogene!</target></trans-unit>
+      <trans-unit id="_allowed_languages.seeAlso" approved="yes">
+        <source>be_users:allowed_languages</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">be_users:allowed_languages</target>
+      </trans-unit>
+      <trans-unit id="_allowed_languages.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/be_groups_18.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/be_groups_18.png</target>
+      </trans-unit>
       <trans-unit id="allowed_languages.image_descr" approved="yes">
         <source>This example shows a situation where two languages, Danish and German, are created in addition to the default language.</source>
         <target state="translated">Dette eksempel viser en situation hvor to sprog, dansk og tysk, oprettes ud over standardsproget.</target>
@@ -269,6 +418,11 @@ If a user has no languages listed all together it simply means that he can edit 
       <trans-unit id="custom_options.details" approved="yes">
         <source>This list represents custom permissions introduced by various backend modules (from extensions). The significance of each option depends on the backend module that evaluates it.</source>
         <target state="translated">Denne liste viser specielle rettigheder introduceret fra backend-moduler (fra udvidelser). Betydningen af hvert felt afhænger af backend-modulet som behandler det.</target>
+      </trans-unit>
+      <trans-unit id="_custom_options.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/be_groups_20.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/be_groups_20.png</target>
       </trans-unit>
       <trans-unit id="custom_options.image_descr" approved="yes">
         <source>This is just an example from an internal test application. It shows how checkboxes are added by a custom module under its own header. You can also show a description text with each checkbox to explain its function.</source>
