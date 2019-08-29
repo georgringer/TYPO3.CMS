@@ -176,6 +176,14 @@ AND, OR और NOT प्रीफिक्स शब्द, ओवर-रूल
         <source>Search for</source>
         <target state="translated">के लिए सर्च</target>
       </trans-unit>
+      <trans-unit id="searchFor_or" approved="yes">
+        <source>or</source>
+        <target state="translated">or</target>
+      </trans-unit>
+      <trans-unit id="searchFor_and" approved="yes">
+        <source>and</source>
+        <target state="translated">and</target>
+      </trans-unit>
       <trans-unit id="searchFor_butNot" approved="yes">
         <source>but not</source>
         <target state="translated">लेकिन नहीं</target>
@@ -235,6 +243,18 @@ AND, OR और NOT प्रीफिक्स शब्द, ओवर-रूल
       <trans-unit id="pi_list_browseresults_display" approved="yes">
         <source>Displaying results ###TAG_BEGIN###%1$s to %2$s###TAG_END### out of ###TAG_BEGIN###%3$s###TAG_END###</source>
         <target state="translated">परिणाम दिखता है ###TAG_BEGIN###%1$s to %2$s###TAG_END### में से ###TAG_BEGIN###%3$s###TAG_END###</target>
+      </trans-unit>
+      <trans-unit id="local_operator_AND" approved="yes">
+        <source>AND</source>
+        <target state="translated">AND</target>
+      </trans-unit>
+      <trans-unit id="local_operator_OR" approved="yes">
+        <source>OR</source>
+        <target state="translated">OR</target>
+      </trans-unit>
+      <trans-unit id="local_operator_NOT" approved="yes">
+        <source>NOT</source>
+        <target state="translated">NOT</target>
       </trans-unit>
       <trans-unit id="makerating_addToCurrentSearch" approved="yes">
         <source>Add to current search words</source>
