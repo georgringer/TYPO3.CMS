@@ -3,6 +3,14 @@
   <file t3:id="1415814889" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="nl">
     <header/>
     <body>
+      <trans-unit id="details" approved="yes">
+        <source>Details</source>
+        <target state="translated">Details</target>
+      </trans-unit>
+      <trans-unit id="syntax" approved="yes">
+        <source>Syntax</source>
+        <target state="translated">Syntax</target>
+      </trans-unit>
       <trans-unit id="seeAlso" approved="yes">
         <source>See also</source>
         <target state="translated">Zie ook</target>
@@ -31,6 +39,10 @@
         <source>Table Of Contents</source>
         <target state="translated">Inhoudsopgave</target>
       </trans-unit>
+      <trans-unit id="TOC_core" approved="yes">
+        <source>TYPO3 Core Features</source>
+        <target state="translated">TYPO3 Core Features</target>
+      </trans-unit>
       <trans-unit id="TOC_modules" approved="yes">
         <source>Backend Modules</source>
         <target state="translated">Backend modules</target>
@@ -54,6 +66,10 @@
       <trans-unit id="close" approved="yes">
         <source>Close</source>
         <target state="translated">Sluiten</target>
+      </trans-unit>
+      <trans-unit id="title" approved="yes">
+        <source>TYPO3 Inline Help</source>
+        <target state="translated">TYPO3 Inline Help</target>
       </trans-unit>
       <trans-unit id="manual_title" approved="yes">
         <source>TYPO3 Inline User Manual</source>
