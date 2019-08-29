@@ -281,12 +281,33 @@ Den statiske mapning opnås ved at vælge "sys_language"-tabellen som en statisk
         <source>Enables you to save an export configuration for later re-use. Useful if you need to export the same configuration with regular intervals.</source>
         <target state="translated">Gør dig i stand til at gemme en eksportkonfiguration til senere genbrug. Brugbart hvis du har vil køre den samme konfiguration med faste intervaller.</target>
       </trans-unit>
+      <trans-unit id="presets.details" xml:space="preserve" approved="yes">
+				<source>In the "Select preset" box you can select any previously saved preset to load. If you are exporting a page the presets listed will be those found for the start page ID. For records, any preset can be loaded.
+To load a preset, select it in the selector and press "Load". If you press "Merge" instead the settings from the preset will be merged with the current configuration. This is meaningful in cases where you select multiple individual tables or records.
+To save a preset, simply enter a title in the title box and press "Save". This will create a new preset. If you press save while having selected an existing preset you will overwrite it.
+To delete old presets, simply select it and press "Delete".
+
+The checkbox "Public" can be set if you want to share your preset with other users of the system. Otherwise they are personal to you.
+
+In the Taskcenter you can see a list of your presets and jump directly to them.</source>
+			<target state="translated">I feltet "Vælg forudindstillet" kan du vælge en tidligere gemt forudindstilling til indlæsning. Hvis du eksporterer en side, er de forhåndsindstillinger, der er angivet, dem der findes for startsiden-ID. For elementer kan enhver forudindstilling indlæses.
+For at indlæse en forudindstilling skal du vælge den og klikke på "Indlæs". Hvis du klikker på "Flet" i stedet, vil indstillingerne fra forindstillingen blive slået sammen med den nuværende konfiguration. Dette giver mening i de tilfælde, hvor du vælger flere individuelle tabeller eller poster.
+For at gemme en forudindstillet, skal du blot indtaste en titel i titellinjen og trykke på "Gem". Dette vil oprette en ny forudindstilling. Hvis du trykker på Gem, mens du har valgt en eksisterende forudindstillet, overskrives den.
+For at slette gamle forudindstillinger skal du blot vælge det og trykke på "Slet".
+
+Afkrydsningsfeltet "Offentligt" kan indstilles, hvis du vil dele din forudindstilling med andre brugere af systemet. Ellers er de personlige til dig.
+
+I Opgavecenter kan du se en liste over dine forudindstillinger og hoppe direkte til dem.</target></trans-unit>
       <trans-unit id="_presets.image" xml:space="preserve" approved="yes">
 				<source>EXT:impexp/Resources/Public/Images/cshimages/impexp_misc1.png,
 EXT:impexp/Resources/Public/Images/cshimages/impexp_misc2.png</source>
 				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
 			<target state="translated">EXT:impexp/Resources/Public/Images/cshimages/impexp_misc1.png,
 EXT:impexp/Resources/Public/Images/cshimages/impexp_misc2.png</target></trans-unit>
+      <trans-unit id="presets.image_descr" xml:space="preserve" approved="yes">
+				<source>The preset selector in the export interface.
+Presets from the task center.</source>
+			<target state="translated">Valg af forudindstilling i eksportgrænsefladen.</target></trans-unit>
       <trans-unit id="metadata.alttitle" approved="yes">
         <source>Meta data setting</source>
         <target state="translated">Meta data indstilling</target>
@@ -417,6 +438,16 @@ EXT:impexp/Resources/Public/Images/cshimages/update.png</target></trans-unit>
         <source>Various options for import.</source>
         <target state="translated">Forskellige muligheder for import.</target>
       </trans-unit>
+      <trans-unit id="options.details" xml:space="preserve" approved="yes">
+				<source>&lt;b&gt;Do not show differences in records&lt;/b&gt;
+When a structure has been imported you will see a difference view of all records which tells you whether the written content matched the import data or if not, what changed. In many cases content &lt;i&gt;should&lt;/i&gt; change (eg. relations and file references) so it is not an error if you see red and green values. Basically the difference view is a feature you can use for visual validation of the import success. It brings piece-of-mind to those who is enlightened to understand what it tells... :-)
+Green strings represent the actual written data while red represents the original value from the import file and black represents data that is the same.
+
+&lt;b&gt;Allow to write banned file extensions (eg. PHP scripts), if any&lt;/b&gt;
+Also an option for admins-only; Allows PHP-files (for example from soft references in TypoScript templates) to be written to the system. This is normally not allowed behavior for security reasons.</source>
+			<target state="translated">&lt;b&gt;Vis ikke forskelle i elementer&lt;/b&gt;
+Når en struktur er blevet importeret, vil du se en visning af forskelle på alle poster, der fortæller dig om det indlæste indhold matchede importdataene og hvis ikke, hvad der blev ændret. I mange tilfælde skal indholdet &lt;i&gt;ændres&lt;/i&gt; (f.eks. relationer og filreferencer), så det er ikke en fejl, hvis du ser røde og grønne værdier. I bund og grund er visningen af forskelle en funktion, du kan bruge til visuel validering af importen. Det gør dig i stand til at forstå, hvad det fortæller... :-)
+Grønne værdier repræsenterer de faktisk indlæste data, mens røde repræsenterer den oprindelige værdi fra importfilen, og sort repræsenterer data, der er de samme.</target></trans-unit>
       <trans-unit id="_options.image" xml:space="preserve" approved="yes">
 				<source>EXT:impexp/Resources/Public/Images/cshimages/impexp_misc3.png,
 EXT:impexp/Resources/Public/Images/cshimages/phpext.png</source>
