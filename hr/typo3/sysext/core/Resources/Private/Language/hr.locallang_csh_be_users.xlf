@@ -56,6 +56,11 @@ U modulu "Alati &gt; Administrator korisnika" možete dobiti pregled korisnika n
         <source>A username is required and must be in lowercase without spaces in it. Furthermore the username must be unique. If it is not unique a number will be appended automatically.</source>
         <target state="translated">Korisničko ime je obavezno te mora biti sačinjeno od malih slova bez razmaka. Nadalje, korisničko ime mora biti jedinstveno. Ukoliko nije jedinstveno, korisničkom imenu će automatski biti nadodan broj.</target>
       </trans-unit>
+      <trans-unit id="_username.seeAlso" approved="yes">
+        <source>be_users:password</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">be_users:password</target>
+      </trans-unit>
       <trans-unit id="password.description" approved="yes">
         <source>Enter the password for the backend username above (Notice the value you enter &lt;i&gt;will&lt;/i&gt; be readable in the field!).</source>
         <target state="translated">Unesite lozinku za gore navedenog pozadinskog korisnika (Unesena vrijednost lozinke &lt;i&gt;bit će&lt;/i&gt; čitljiva unutar polja!).</target>
@@ -79,6 +84,11 @@ Kada lozinku unosite u polje za lozinke, lozinka će inicijalno biti čitljiva! 
 
 &lt;b&gt;Promjena korisničke lozinke&lt;/b&gt;
 Korisnici mogu promjeniti svoje lozinke u modulu Korisnik &gt; Postavke.</target></trans-unit>
+      <trans-unit id="_password.seeAlso" approved="yes">
+        <source>_MOD_user_setup:option_newPassword</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">_MOD_user_setup:option_newPassword</target>
+      </trans-unit>
       <trans-unit id="usergroup.description" approved="yes">
         <source>Assign backend user groups to the user.</source>
         <target state="translated">Učlani pozadinskog korisnika u grupu.</target>
@@ -88,10 +98,24 @@ Korisnici mogu promjeniti svoje lozinke u modulu Korisnik &gt; Postavke.</target
 The first (top) group in the list is the group which will, by default, be the owner of pages the user creates.</source>
 			<target state="translated">Korisničke grupe pozadinskih korisnika određuju koja će dopuštenja nasljediti pozadinski korisnici. Osim administrativnih korisnika, svi korisnici moraju biti članovi barem jedne grupe pozadinskih korisnika kako bi imali bilo kakva dopuštenja. Dopuštenja iz različitih korisničkih grupa većinom se zbrajaju kada je korisnik član više grupa odjednom.
 Prva grupa (pri vrhu popisa) bit će vlasnik stranice koju stvori pozadinski korisnik.</target></trans-unit>
+      <trans-unit id="_usergroup.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:TSconfig,
+be_groups</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:TSconfig,
+be_groups</target></trans-unit>
       <trans-unit id="lockToDomain.details" approved="yes">
         <source>A TYPO3 system may have multiple domains pointing to it. Therefore this option secures that users can login only from a certain host name.</source>
         <target state="translated">TYPO3 sustav može imati više domena koje pokazuju na njega. Ova opcija osigurava da se korisnici mogu prijaviti samo sa određene domene.</target>
       </trans-unit>
+      <trans-unit id="_lockToDomain.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:lockToDomain,
+fe_users:lockToDomain,
+fe_groups:lockToDomain</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:lockToDomain,
+fe_users:lockToDomain,
+fe_groups:lockToDomain</target></trans-unit>
       <trans-unit id="disableIPlock.description" approved="yes">
         <source>Disable the lock of the backend users session to the remote IP number.</source>
         <target state="translated">Onemogući spregu sesije pozadinskog korisnika i IP adrese.</target>
@@ -111,6 +135,18 @@ Prva grupa (pri vrhu popisa) bit će vlasnik stranice koju stvori pozadinski kor
 			<target state="translated">Stablo stranica koje se koristi za navigaciju u svim Web podmodulima mora imati definirane točke počekta. Ovdje trebate definirati jednu ili više stranica koje će predstavljati korijen za stablo stranica. To se zove 'Točka montiranja baze podataka'.
 
 &lt;strong&gt;Primijetite&lt;/strong&gt; da i korisničke grupe također imaju točke montiranja koje će naslijediti svi korisnici članovi grupe. Ukoliko želite da grupa korisnika dijeli zajednički korijen stabla stranica, tada trebate odrediti točku montiranja u korisničkoj grupi.</target></trans-unit>
+      <trans-unit id="_db_mountpoints.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:db_mountpoints,
+be_users:file_mountpoints,
+be_users:options,
+xMOD_csh_corebe:perm_module,
+xMOD_csh_corebe:pagetree</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:db_mountpoints,
+be_users:file_mountpoints,
+be_users:options,
+xMOD_csh_corebe:perm_module,
+xMOD_csh_corebe:pagetree</target></trans-unit>
       <trans-unit id="db_mountpoints.image_descr" xml:space="preserve" approved="yes">
 				<source>A DB mount is assigned to the user. Users can only operate on pages and records which are inside their DB mounts!
 When a page is mounted for a user it will become the root of their page tree. The user must have access to the page through the regular page permissions set in the Web &gt; Access module.</source>
@@ -127,6 +163,18 @@ See Backend Groups for details</source>
 			<target state="translated">Stablo mapa koriste svi datotečni podmoduli za navigaciju po mapama na poslužitelju.
 Kao i kod točaka montiranja baze podataka i montiranje mapa može se naslijediti od korisničke grupe.
 Pogledajte pod Grupe korisnika pozadinskog sučelja za detalje</target></trans-unit>
+      <trans-unit id="_file_mountpoints.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:file_mountpoints,
+be_users:db_mountpoints,
+be_users:options,
+xMOD_csh_corebe:filetree,
+sys_filemounts</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:file_mountpoints,
+be_users:db_mountpoints,
+be_users:options,
+xMOD_csh_corebe:filetree,
+sys_filemounts</target></trans-unit>
       <trans-unit id="email.description" approved="yes">
         <source>Enter the email address of the user.</source>
         <target state="translated">Unesite e-mail adresu korisnika.</target>
@@ -136,6 +184,12 @@ Pogledajte pod Grupe korisnika pozadinskog sučelja za detalje</target></trans-u
 &lt;strong&gt;Notice&lt;/strong&gt; the user is able to change this value by himself from within the User&gt;Setup module.</source>
 			<target state="translated">Bitno je unijeti ovu e-mail adresu kako bi se mogle dostaviti sistemske poruke.
 &lt;strong&gt;Napomena&lt;/strong&gt; korisnik može sam mijenjati postavljenu e-mail adresu iz modula Korisnik-&gt;Postavke.</target></trans-unit>
+      <trans-unit id="_email.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:realName,
+_MOD_user_setup:option_newPassword</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:realName,
+_MOD_user_setup:option_newPassword</target></trans-unit>
       <trans-unit id="realName.description" approved="yes">
         <source>Enter the ordinary name of the user, eg. John Doe.</source>
         <target state="translated">Unesite ime korisnika.</target>
@@ -144,10 +198,22 @@ Pogledajte pod Grupe korisnika pozadinskog sučelja za detalje</target></trans-u
         <source>&lt;strong&gt;Notice&lt;/strong&gt; the user is able to change this value by himself from within the User&gt;Setup module.</source>
         <target state="translated">&lt;strong&gt;Primijetite&lt;/strong&gt; da korisnik može izmijeniti ovu vrijednost iz modula Korisnik&gt;Postavke.</target>
       </trans-unit>
+      <trans-unit id="_realName.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:email,
+_MOD_user_setup:option_newPassword</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:email,
+_MOD_user_setup:option_newPassword</target></trans-unit>
       <trans-unit id="disable.description" approved="yes">
         <source>This option will temporarily disable the user from logging in.</source>
         <target state="translated">Ova opcije će privremeno onemogućiti prijavu za danog korisnika.</target>
       </trans-unit>
+      <trans-unit id="_disable.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:starttime,
+be_users:endtime</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:starttime,
+be_users:endtime</target></trans-unit>
       <trans-unit id="admin.description" approved="yes">
         <source>'Admin' users have TOTAL access to the system!</source>
         <target state="translated">'Admin' korisnici imaju POTPUNI pristup sustavu!</target>
@@ -172,6 +238,12 @@ Vjerojatno je dobro da jedino vi imate 'Admin' korisnički račun.</target></tra
 If you don't check these options, you must make sure the mount points for the page tree and file folder tree is set specifically for the user.</source>
 			<target state="translated">Nasljeđivanje točaka montiranja iz korisničkih grupa jako je zgodnoe jer omogućuje vrlo jednostavno administriranje točke montiranja za mnogo korisnika.
 Ako ne koristite ovu opciju potrebno je provjeriti točke montiranja za stranice i datoteke za svakog pojedinačnog korisnika.</target></trans-unit>
+      <trans-unit id="_options.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:db_mountpoints,
+be_users:file_mountpoints</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:db_mountpoints,
+be_users:file_mountpoints</target></trans-unit>
       <trans-unit id="file_permissions.description" approved="yes">
         <source>Select file operation permissions for the user.</source>
         <target state="translated">Odaberite korisnička dopuštenja za datotečne operacije.</target>
@@ -183,6 +255,12 @@ Ako ne koristite ovu opciju potrebno je provjeriti točke montiranja za stranice
 			<target state="translated">Ove postavke odnose se na funkcije modula Datoteka&gt;Popis kao i generalno slanje datoteka.
 
 &lt;strong&gt;Primjetite&lt;/strong&gt; da grupe korisnika pozadinskog sučelja također imaju dopuštenja za datotečne operacije koje se automatski primjenjuju na korisnike članove iste. Ukoliko želite da grupa korisnika dijeli ista dopuštenja za datotečne operacije vjerojatno trebate definirati dopuštenja u grupi umjesto za pojedinačnog korisnika.</target></trans-unit>
+      <trans-unit id="file_permissions.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:file_mountpoints,
+be_group:file_permissions</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:file_mountpoints,
+be_group:file_permissions</target></trans-unit>
       <trans-unit id="fileoper_perms.description" approved="yes">
         <source>Select file operation permissions for the user.</source>
         <target state="translated">Odaberite korisnička dopuštenja za datotečne operacije.</target>
@@ -194,14 +272,36 @@ Ako ne koristite ovu opciju potrebno je provjeriti točke montiranja za stranice
 			<target state="translated">Ove postavke odnose se na funkcije modula Datoteka&gt;Popis kao i generalno slanje datoteka.
 
 &lt;strong&gt;Primjetite&lt;/strong&gt; da grupe korisnika pozadinskog sučelja također imaju dopuštenja za datotečne operacije koje se automatski primjenjuju na korisnike članove iste. Ukoliko želite da grupa korisnika dijeli ista dopuštenja za datotečne operacije vjerojatno trebate definirati dopuštenja u grupi umjesto za pojedinačnog korisnika.</target></trans-unit>
+      <trans-unit id="_fileoper_perms.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:file_mountpoints,
+be_group:file_permissions</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:file_mountpoints,
+be_group:file_permissions</target></trans-unit>
       <trans-unit id="starttime.description" approved="yes">
         <source>Enter the date from which the account is active.</source>
         <target state="translated">Unesite datum od kojeg je račun aktivan.</target>
       </trans-unit>
+      <trans-unit id="_starttime.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:disable,
+be_users:endtime,
+pages:starttime</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:disable,
+be_users:endtime,
+pages:starttime</target></trans-unit>
       <trans-unit id="endtime.description" approved="yes">
         <source>Enter the date from which the account is disabled.</source>
         <target state="translated">Unesite datum od kojeg je račun onemogućen.</target>
       </trans-unit>
+      <trans-unit id="_endtime.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:disable,
+be_users:starttime,
+pages:starttime</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:disable,
+be_users:starttime,
+pages:starttime</target></trans-unit>
       <trans-unit id="lastlogin.description" approved="yes">
         <source>This field shows the user's last log in date.</source>
         <target state="translated">Ovo polje pokazuje zadnji datum korisnikove prijave u sustav.</target>
@@ -219,6 +319,11 @@ Ako ne koristite ovu opciju potrebno je provjeriti točke montiranja za stranice
 Dijelovi sustava koji su samo za administrativne korisnike bit će prikazani na engleskom jeziku. Tu spadaju svi podmoduli u modulima 'Alati' i Web&gt;Predložak.
 
 &lt;b&gt;Napomena:&lt;/b&gt; ovdje se postavlja jedino zadani jezik. Čim se korisnik prijavi, jezik se mora promijeniti kroz modul Korisnik&gt;Postavke. Morat ćete, također, instalirati odgovarajući jezični paket koji je dostupan kao proširenje na TYPO3.org sa prefiksom "csh_XX" gdje je XX odgovarajući TYPO3 jezični ključ.</target></trans-unit>
+      <trans-unit id="_lang.seeAlso" approved="yes">
+        <source>_MOD_user_setup:language</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">_MOD_user_setup:language</target>
+      </trans-unit>
       <trans-unit id="userMods.description" approved="yes">
         <source>Select available backend modules for the user.</source>
         <target state="translated">Odaberite pozadinske module koji će biti dostupni korisniku.</target>
@@ -230,6 +335,11 @@ Notice that the same list of modules may be configured for the backend user grou
 			<target state="translated">Ovime određujete koji 'stavke izbornika' su dostupne korisniku pozadinskog sučelja.
 
 Primjetite da se isti popis modula može postaviti i za grupe pozadinskih korisnika te da će korisnici naslijediti isti popis od grupa u kojima su članovi uz dodatak modula koje odaberete ovdje. Vrlo je vjerojatno da je bolja praksa da ne postavljate module direktno za pojedine korisnike već u grupama korisnika a zatim korisnike pridružite danim grupama. Ova grupa međutim, pruža odlično rješenje za dodavanje pojedinog modula određenim korisnicima.</target></trans-unit>
+      <trans-unit id="_userMods.seeAlso" approved="yes">
+        <source>be_groups:groupMods</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">be_groups:groupMods</target>
+      </trans-unit>
       <trans-unit id="TSconfig.description" approved="yes">
         <source>Enter additional TSconfig for the user (advanced).</source>
         <target state="translated">Unesite dodatne TSconfig postavke za korisnika (napredno).</target>
@@ -255,6 +365,11 @@ Korisnički TSconfig | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsc
       <trans-unit id="allowed_languages.details" approved="yes">
         <source>You can also limit users to specific languages with user group settings. Please see the same field for backend user groups for more details.</source>
         <target state="translated">Korisnike možete ograničiti na određene jezike i postavkama korisničke grupe.Za više detalja molimo Vas da pogledate isto polje za grupe korisnika pozadinskog sučelja.</target>
+      </trans-unit>
+      <trans-unit id="_allowed_languages.seeAlso" approved="yes">
+        <source>be_groups:allowed_languages</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">be_groups:allowed_languages</target>
       </trans-unit>
     </body>
   </file>
