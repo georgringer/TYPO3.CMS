@@ -35,6 +35,11 @@
         <source>Either a domain name, "www.typo3.org" or an IP address, "10.34.222.83"</source>
         <target state="translated">Indica nome di dominio, es. "www.typo3.com" e/o un indirizzo IP, es. "10.34.222.83"</target>
       </trans-unit>
+      <trans-unit id="_lockToDomain.seeAlso" approved="yes">
+        <source>fe_groups:lockToDomain</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_groups:lockToDomain</target>
+      </trans-unit>
       <trans-unit id="address.description" approved="yes">
         <source>Enter the street address of the user.</source>
         <target state="translated">Digita l'indirizzo stradale dell'utente.</target>
@@ -59,6 +64,11 @@
         <source>This option will temporarily disable the user from logging in.</source>
         <target state="translated">Questa opzione disabiliterà temporaneamente il login dell'utente.</target>
       </trans-unit>
+      <trans-unit id="_disable.seeAlso" approved="yes">
+        <source>fe_users:starttime,fe_users:endtime</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_users:starttime,fe_users:endtime</target>
+      </trans-unit>
       <trans-unit id="starttime.description" approved="yes">
         <source>Enter the date from which the account is active.</source>
         <target state="translated">Inserisci la data di inizio attività del codice.</target>
@@ -67,6 +77,11 @@
 				<source>The syntax is dd-mm-yy, but you can just enter a "d" in the field to insert todays date. Or "d+10" to insert the date 10 days from now etc.
 The field will re-format any input to fit the format it understands so you can just experiment and you will be able to clearly see how dates should be entered.</source>
 			<target state="translated">La sintassi è dd-mm-yy (giorno, mese e anno), ma tu puoi inserire anche "d" nel campo per inserire la data di oggi. Anche "d+10" per inserire la data del decimo giorno in avanti a partire da oggi, ecc. Il campo modificherà qualsiasi input affinchè corrisponda al formato; puoi modificare questo campo per comprendere le potenzialità e a titolo sperimentale finchè sarai in grado di impostare quello che ritieni utile al tuo caso.</target></trans-unit>
+      <trans-unit id="_starttime.seeAlso" approved="yes">
+        <source>fe_users:disable,fe_users:endtime</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_users:disable,fe_users:endtime</target>
+      </trans-unit>
       <trans-unit id="endtime.description" approved="yes">
         <source>Enter the date from which the account is disabled.</source>
         <target state="translated">Inserisci la data dopo la quale l'account sarà disabilitato.</target>
@@ -74,6 +89,11 @@ The field will re-format any input to fit the format it understands so you can j
       <trans-unit id="endtime.syntax" approved="yes">
         <source>See "Start"</source>
         <target state="translated">Vedi "Inizio"</target>
+      </trans-unit>
+      <trans-unit id="_endtime.seeAlso" approved="yes">
+        <source>fe_users:disable,fe_users:starttime</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_users:disable,fe_users:starttime</target>
       </trans-unit>
       <trans-unit id="lastlogin.description" approved="yes">
         <source>This field shows the user's last log in date.</source>
