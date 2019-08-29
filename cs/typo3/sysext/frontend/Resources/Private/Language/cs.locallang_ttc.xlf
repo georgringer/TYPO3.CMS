@@ -11,6 +11,10 @@
         <source>Header</source>
         <target state="translated">Záhlaví</target>
       </trans-unit>
+      <trans-unit id="CType.I.1" approved="yes">
+        <source>Text</source>
+        <target state="translated">Text</target>
+      </trans-unit>
       <trans-unit id="CType.I.2" approved="yes">
         <source>Text &amp; Images</source>
         <target state="translated">Text a obrázky</target>
@@ -67,6 +71,10 @@
         <source>Divider</source>
         <target state="translated">Oddělovač</target>
       </trans-unit>
+      <trans-unit id="CType.I.17" approved="yes">
+        <source>HTML</source>
+        <target state="translated">HTML</target>
+      </trans-unit>
       <trans-unit id="CType.textmedia" approved="yes">
         <source>Text &amp; Media</source>
         <target state="translated">Text a média</target>
@@ -122,6 +130,10 @@
       <trans-unit id="CType.div.lists" approved="yes">
         <source>Lists</source>
         <target state="translated">Seznamy</target>
+      </trans-unit>
+      <trans-unit id="CType.div.menu" approved="yes">
+        <source>Menu</source>
+        <target state="translated">Menu</target>
       </trans-unit>
       <trans-unit id="CType.div.forms" approved="yes">
         <source>Forms</source>
@@ -447,6 +459,10 @@
         <source>Columns</source>
         <target state="translated">Sloupce</target>
       </trans-unit>
+      <trans-unit id="cols.I.0" approved="yes">
+        <source>Auto</source>
+        <target state="translated">Auto</target>
+      </trans-unit>
       <trans-unit id="recursive.I.0" approved="yes">
         <source>0 levels (only selected page)</source>
         <target state="translated">0 úrovní (pouze vybraná stránka)</target>
@@ -522,6 +538,10 @@
       <trans-unit id="menu_type.I.categorized_content" approved="yes">
         <source>Content elements for selected categories</source>
         <target state="translated">Prvky obsahu pro vybrané kategorie</target>
+      </trans-unit>
+      <trans-unit id="list_type" approved="yes">
+        <source>Plugin</source>
+        <target state="translated">Plugin</target>
       </trans-unit>
       <trans-unit id="list_type_formlabel" approved="yes">
         <source>Selected Plugin</source>
@@ -739,6 +759,10 @@
         <source>Postit 1</source>
         <target state="translated">Post-it 1</target>
       </trans-unit>
+      <trans-unit id="sectionIndex" approved="yes">
+        <source>Index</source>
+        <target state="translated">Index</target>
+      </trans-unit>
       <trans-unit id="sectionIndex_formlabel" approved="yes">
         <source>Show in Section Menus</source>
         <target state="translated">Zobrazit v menu oddílu</target>
@@ -875,6 +899,10 @@
         <source>Recipient Email</source>
         <target state="translated">E-mail příjemce</target>
       </trans-unit>
+      <trans-unit id="bodytext.ALT.html" approved="yes">
+        <source>HTML</source>
+        <target state="translated">HTML</target>
+      </trans-unit>
       <trans-unit id="menu.ALT.accessibility_title_formlabel" approved="yes">
         <source>Menu block title</source>
         <target state="translated">Atribut title pro blok</target>
@@ -887,9 +915,17 @@
         <source>Link text to bypass navigation block</source>
         <target state="translated">Přidat odkaz pro přeskočení navigačního bloku</target>
       </trans-unit>
+      <trans-unit id="tabs.text" approved="yes">
+        <source>Text</source>
+        <target state="translated">Text</target>
+      </trans-unit>
       <trans-unit id="tabs.media" approved="yes">
         <source>Media</source>
         <target state="translated">Média</target>
+      </trans-unit>
+      <trans-unit id="tabs.plugin" approved="yes">
+        <source>Plugin</source>
+        <target state="translated">Plugin</target>
       </trans-unit>
       <trans-unit id="sys_language_uid_formlabel" approved="yes">
         <source>Language</source>
@@ -923,6 +959,10 @@
         <source>Layout</source>
         <target state="translated">Rozvržení</target>
       </trans-unit>
+      <trans-unit id="bodytext_formlabel" approved="yes">
+        <source>Text</source>
+        <target state="translated">Text</target>
+      </trans-unit>
       <trans-unit id="bodytext.ALT.bulletlist_formlabel" approved="yes">
         <source>Bullet List</source>
         <target state="translated">Seznam s odrážkami</target>
@@ -934,6 +974,10 @@
       <trans-unit id="bodytext.ALT.media_formlabel" approved="yes">
         <source>Alternative Content</source>
         <target state="translated">Alternativní obsah</target>
+      </trans-unit>
+      <trans-unit id="bodytext.ALT.textbox_formlabel" approved="yes">
+        <source>Text</source>
+        <target state="translated">Text</target>
       </trans-unit>
       <trans-unit id="bodytext.ALT.script_formlabel" approved="yes">
         <source>Parameters to pass to the script</source>
