@@ -19,9 +19,9 @@
         <source>Back</source>
         <target state="translated">Indietro</target>
       </trans-unit>
-      <trans-unit id="byteSizeUnits">
+      <trans-unit id="byteSizeUnits" approved="yes">
         <source> B| KB| MB| GB</source>
-        <target state="needs-translation"> </target>
+        <target state="translated"> B| KB| MB| GB</target>
       </trans-unit>
       <trans-unit id="cancel" approved="yes">
         <source>Cancel</source>
@@ -83,6 +83,14 @@
         <source>Enabled</source>
         <target state="translated">Abilitato</target>
       </trans-unit>
+      <trans-unit id="file" approved="yes">
+        <source>File</source>
+        <target state="translated">File</target>
+      </trans-unit>
+      <trans-unit id="files" approved="yes">
+        <source>Files</source>
+        <target state="translated">Files</target>
+      </trans-unit>
       <trans-unit id="folder" approved="yes">
         <source>Folder</source>
         <target state="translated">Cartella</target>
@@ -123,6 +131,10 @@
         <source>Left</source>
         <target state="translated">Sinistra</target>
       </trans-unit>
+      <trans-unit id="login" approved="yes">
+        <source>Login</source>
+        <target state="translated">Login</target>
+      </trans-unit>
       <trans-unit id="logout" approved="yes">
         <source>Logout</source>
         <target state="translated">Esci</target>
@@ -142,6 +154,14 @@
       <trans-unit id="next" approved="yes">
         <source>Next</source>
         <target state="translated">Prossimo</target>
+      </trans-unit>
+      <trans-unit id="no" approved="yes">
+        <source>No</source>
+        <target state="translated">No</target>
+      </trans-unit>
+      <trans-unit id="ok" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
       </trans-unit>
       <trans-unit id="open" approved="yes">
         <source>Open</source>
@@ -214,6 +234,10 @@
       <trans-unit id="to" approved="yes">
         <source>To</source>
         <target state="translated">A</target>
+      </trans-unit>
+      <trans-unit id="tsRef" approved="yes">
+        <source>TSref reference</source>
+        <target state="translated">TSref reference</target>
       </trans-unit>
       <trans-unit id="undefined" approved="yes">
         <source>Undefined</source>
