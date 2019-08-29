@@ -187,6 +187,10 @@
         <source>Link Target</source>
         <target state="translated">Odredište poveznice</target>
       </trans-unit>
+      <trans-unit id="pages.url_formlabel" approved="yes">
+        <source>URL</source>
+        <target state="translated">URL</target>
+      </trans-unit>
       <trans-unit id="pages.lastUpdated_formlabel" approved="yes">
         <source>Last Update</source>
         <target state="translated">Posljednje ažuriranje</target>
@@ -198,6 +202,22 @@
       <trans-unit id="pages.cache_timeout_formlabel" approved="yes">
         <source>Cache Lifetime</source>
         <target state="translated">Trajanje međuspremnika</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.1" approved="yes">
+        <source>1 min</source>
+        <target state="translated">1 min</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.2" approved="yes">
+        <source>5 min</source>
+        <target state="translated">5 min</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.3" approved="yes">
+        <source>15 min</source>
+        <target state="translated">15 min</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.4" approved="yes">
+        <source>30 min</source>
+        <target state="translated">30 min</target>
       </trans-unit>
       <trans-unit id="pages.cache_timeout.I.5" approved="yes">
         <source>1 hour</source>
@@ -254,6 +274,10 @@
       <trans-unit id="pages.tabs.shortcut" approved="yes">
         <source>Shortcut</source>
         <target state="translated">Kratica</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.url" approved="yes">
+        <source>URL</source>
+        <target state="translated">URL</target>
       </trans-unit>
       <trans-unit id="pages.tabs.extended" approved="yes">
         <source>Extended</source>
