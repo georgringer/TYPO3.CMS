@@ -3,6 +3,10 @@
   <file t3:id="1415814900" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lowlevel" target-language="fr">
     <header/>
     <body>
+      <trans-unit id="configuration" approved="yes">
+        <source>Configuration</source>
+        <target state="translated">Configuration</target>
+      </trans-unit>
       <trans-unit id="typo3ConfVars" approved="yes">
         <source>$GLOBALS['TYPO3_CONF_VARS'] (Global Configuration)</source>
         <target state="translated">$GLOBALS['TYPO3_CONF_VARS'] (Configuration globale)</target>
