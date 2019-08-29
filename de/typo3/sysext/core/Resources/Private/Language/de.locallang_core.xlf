@@ -200,6 +200,10 @@ Ohne Speichern fortfahren?</target></trans-unit>
         <source>Hidden</source>
         <target state="translated">Verborgen</target>
       </trans-unit>
+      <trans-unit id="labels.starttime" approved="yes">
+        <source>Start</source>
+        <target state="translated">Start</target>
+      </trans-unit>
       <trans-unit id="labels.endtime" approved="yes">
         <source>End</source>
         <target state="translated">Stopp</target>
@@ -256,6 +260,10 @@ Ohne Speichern fortfahren?</target></trans-unit>
         <source>Deny</source>
         <target state="translated">Verbieten</target>
       </trans-unit>
+      <trans-unit id="labels.automatic" approved="yes">
+        <source>Auto</source>
+        <target state="translated">Auto</target>
+      </trans-unit>
       <trans-unit id="labels.enabled" approved="yes">
         <source>Enabled</source>
         <target state="translated">Aktiviert</target>
@@ -293,6 +301,10 @@ Ohne Speichern fortfahren?</target></trans-unit>
       <trans-unit id="labels.list" approved="yes">
         <source>List</source>
         <target state="translated">Liste</target>
+      </trans-unit>
+      <trans-unit id="labels.link" approved="yes">
+        <source>Link</source>
+        <target state="translated">Link</target>
       </trans-unit>
       <trans-unit id="labels.edit" approved="yes">
         <source>Edit</source>
@@ -542,6 +554,10 @@ Ohne Speichern fortfahren?</target></trans-unit>
         <source>Searching...</source>
         <target state="translated">Suche läuft...</target>
       </trans-unit>
+      <trans-unit id="ver.online" approved="yes">
+        <source>ONLINE</source>
+        <target state="translated">ONLINE</target>
+      </trans-unit>
       <trans-unit id="ver.mgm" approved="yes">
         <source>Version Management</source>
         <target state="translated">Versionsverwaltung</target>
@@ -617,6 +633,10 @@ Ohne Speichern fortfahren?</target></trans-unit>
       <trans-unit id="show_item.php.table" approved="yes">
         <source>Table</source>
         <target state="translated">Tabelle</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.uid" approved="yes">
+        <source>Uid</source>
+        <target state="translated">Uid</target>
       </trans-unit>
       <trans-unit id="show_item.php.title" approved="yes">
         <source>Title</source>
@@ -1115,6 +1135,10 @@ Do you want to refresh it now?</source>
         <source>Edit</source>
         <target state="translated">Bearbeiten</target>
       </trans-unit>
+      <trans-unit id="rm.export" approved="yes">
+        <source>Export</source>
+        <target state="translated">Export</target>
+      </trans-unit>
       <trans-unit id="rm.delete" approved="yes">
         <source>Delete</source>
         <target state="translated">Löschen</target>
@@ -1306,6 +1330,10 @@ Do you want to refresh it now?</source>
       <trans-unit id="cm.unzip" approved="yes">
         <source>Unzip</source>
         <target state="translated">Entpacken</target>
+      </trans-unit>
+      <trans-unit id="cm.info" approved="yes">
+        <source>Info</source>
+        <target state="translated">Info</target>
       </trans-unit>
       <trans-unit id="cm.createnew" approved="yes">
         <source>Create new</source>
@@ -1590,6 +1618,10 @@ Do you want to refresh it now?</source>
       <trans-unit id="toolbarItems.sysinfo.operatingsystem" approved="yes">
         <source>Operating System</source>
         <target state="translated">Betriebssystem</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.webserver" approved="yes">
+        <source>Webserver</source>
+        <target state="translated">Webserver</target>
       </trans-unit>
       <trans-unit id="toolbarItems.sysinfo.typo3-version" approved="yes">
         <source>TYPO3 Version</source>
