@@ -15,6 +15,16 @@
         <source>&lt;b&gt;Notice [For Admins]:&lt;/b&gt; These settings can all be overridden or have their default values changed by "User TSconfig". To read more about this concept, see the link below!</source>
         <target state="translated">&lt;b&gt;注意 [管理者向け]&lt;/b&gt;この設定は"User TSconfig"でオーバーライドもしくはデフォルトの値を設定できます。くわしくは次のリンク先を参照してください。</target>
       </trans-unit>
+      <trans-unit id="_.seeAlso" approved="yes">
+        <source>User TSconfig SETUP | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/Setup/Index.html</source>
+        <target state="translated">User TSconfig SETUP | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/Setup/Index.html</target>
+      </trans-unit>
+      <trans-unit id="_.image" xml:space="preserve" approved="yes">
+				<source>EXT:setup/Resources/Public/Images/cshimages/setup8.png,
+EXT:setup/Resources/Public/Images/cshimages/setup7.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:setup/Resources/Public/Images/cshimages/setup8.png,
+EXT:setup/Resources/Public/Images/cshimages/setup7.png</target></trans-unit>
       <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
 				<source>The Setup module is selected in the left menu.
 This is how the Setup module interface looks like - a list of options to configure.</source>
@@ -32,6 +42,11 @@ This is how the Setup module interface looks like - a list of options to configu
 The solution clearly is to set the configuration option mentioned above to a value like "utf-8". This must be done by the developers responsible for the whole system configuration.</source>
 			<target state="translated">&lt;b&gt;警告[技術]:&lt;/b&gt; もし、TYPO3 が $TYPO3_CONF_VARS[BE][forceCharset] でシングルバイト文字を使うように設置されていないなら、すべてのデータは、選択されたバックエンド言語の文字セットで更新されます。これは、ロシア語でバックエンドを使用しているユーザーや、異なる文字セットを使用している英語のユーザーがいると、データの格納が不一致になります。
 解決策は、上記の設定オプションを "utf-8"のような値に設定することです。これはシステム構成全体を担当する開発者が行う必要があります。</target></trans-unit>
+      <trans-unit id="_language.image" approved="yes">
+        <source>EXT:setup/Resources/Public/Images/cshimages/lang.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/lang.png</target>
+      </trans-unit>
       <trans-unit id="language.image_descr" approved="yes">
         <source>TYPO3 is translated into around 40 languages. English is the default language and all labels must be available in English first and foremost. This screenshot shows translations for Hebrew, Arabic, Russian and Chinese.</source>
         <target state="translated">TYPO3 は約40の言語に翻訳されています。英語はデフォルト言語であり、すべてのラベルは、まず英語で利用可能でなければなりません。このスクリーンショットは、ヘブライ語、アラビア語、ロシア語、中国語の翻訳を示しています。</target>
