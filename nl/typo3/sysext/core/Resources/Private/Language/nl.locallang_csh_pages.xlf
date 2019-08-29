@@ -44,6 +44,12 @@
 'Menuscheiding' is alleen nuttig als de Frontend-menu's er gebruik van maken. Het vertegenwoordigt geen pagina met content, maar is bedoeld als een niet-klikbare ruimte in het menu.
 
 &lt;b&gt;Let op&lt;/b&gt; Ieder paginatype wordt weergegeven met een apart pictogram. De beschikbare paginatypes kunnen voor gebruikers beperkt worden. Niet alle hierboven beschreven opties hoeven dus zichtbaar te zijn. Bovendien kan het zijn dat bepaalde recordtypes alleen op bepaalde paginatypes toegestaan zijn; elk recordtype kan wel geplaatst worden in een 'Map'.</target></trans-unit>
+      <trans-unit id="_doktype.seeAlso" xml:space="preserve" approved="yes">
+				<source>pages:shortcut,
+pages:url</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">pages:shortcut,
+pages:url</target></trans-unit>
       <trans-unit id="hidden.description" approved="yes">
         <source>If this is checked, the page will be disabled on the website.</source>
         <target state="translated">Als dit is aangevinkt wordt de pagina niet getoond.</target>
@@ -55,6 +61,17 @@ When you're logged in as a Backend user you can preview disabled pages if you ha
 			<target state="translated">De opties 'Uitschakelen', 'Start', 'Stop' en 'Toegang' beperken allemaal de toegang tot pagina's en hebben dus een gerelateerde functie. Als een pagina niet zichtbaar is door een van deze opties dan wordt de pagina niet getoond in een menu.
 Let op dat deze opties &lt;em&gt;alleen&lt;/em&gt; voor de pagina gelden waarop ze zijn ingesteld. Als het effect ook moet gelden voor de onderliggende pagina's dan moet de optie 'Inclusief subpagina's' ingeschakeld worden.
 Ingelogde Backend-gebruikers kunnen een voorvertoning krijgen van uitgeschakelde pagina's als ze leestoegang hebben voor deze pagina's.</target></trans-unit>
+      <trans-unit id="_hidden.seeAlso" approved="yes">
+        <source>pages:starttime,pages:endtime,pages:fe_group,pages:extendToSubpages</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">pages:starttime,pages:endtime,pages:fe_group,pages:extendToSubpages</target>
+      </trans-unit>
+      <trans-unit id="_hidden.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/hidden_page.gif,
+EXT:core/Resources/Public/Images/cshimages/pages_1.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/hidden_page.gif,
+EXT:core/Resources/Public/Images/cshimages/pages_1.png</target></trans-unit>
       <trans-unit id="hidden.image_descr" xml:space="preserve" approved="yes">
 				<source>The page icon of a disabled page is dimmed and a red X is added.
 If you view a page that is hidden and you are logged in into the Backend you will still be able to see the page. The red "Preview" box will tell you that this page is visible to you because of this special circumstance.</source>
@@ -69,6 +86,15 @@ Als een verborgen pagina door een ingelogde Backend-gebruiker bekeken wordt dan 
 If you insert a 'd' the current date will be inserted. You can also append any value in the field with a number such as '+10' which will add 10 days to the current value. For example, entering 'd+10' would result in a date 10 days from now.</source>
 			<target state="translated">Het formaat voor de Publicatiedatum is of DD-MM-JJJJ of MM-DD-JJJJ afhankelijk van hoe TYPO3 is geconfigureerd. Er zijn ook diverse afkorting die gebruikt kunnen worden.
 Zo geeft een 'd' de huidige datum. Ook is het mogelijk om getallen als '+10' toe te voegen die dan als aantal dagen opgeteld zullen worden bij de huidige waarde. Bijvoorbeeld 'd+10' geeft een datum tien dagen na vandaag.</target></trans-unit>
+      <trans-unit id="_starttime.seeAlso" approved="yes">
+        <source>pages:endtime,pages:hidden</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">pages:endtime,pages:hidden</target>
+      </trans-unit>
+      <trans-unit id="_.seeAlso" approved="yes">
+        <source>tt_content</source>
+        <target state="translated">tt_content</target>
+      </trans-unit>
       <trans-unit id="endtime.description" approved="yes">
         <source>The Expiration Date specifies when the page will no longer be visible online.</source>
         <target state="translated">De Stopdatum bepaalt wanneer een pagina niet langer zichtbaar is.</target>
@@ -77,9 +103,23 @@ Zo geeft een 'd' de huidige datum. Ook is het mogelijk om getallen als '+10' toe
         <source>See Page / Publication Date (click below)</source>
         <target state="translated">Zie Pagina / Startdatum (hieronder klikken)</target>
       </trans-unit>
+      <trans-unit id="_endtime.seeAlso" approved="yes">
+        <source>pages:starttime</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">pages:starttime</target>
+      </trans-unit>
       <trans-unit id="fe_group.description" approved="yes">
         <source>If Usergroup Access Rights is set to a usergroup name, only website users who are members of the selected usergroup will be able to view the page. The special option 'Hide at Login' means the page will &lt;em&gt;not&lt;/em&gt; be visible for any website users that are logged in. Likewise "Show at Any Login" will make the page visible for any logged in Frontend user.</source>
         <target state="translated">Als "Toegang" is ingesteld op een naam van een gebruikersgroep dan kunnen alleen leden van de geselecteerde gebruikersgroep de pagina zien. De speciale optie 'Verbergen bij aanmelding' betekent dat de pagina &lt;em&gt;niet&lt;/em&gt; zichtbaar is voor alle ingelogde gebruikers. Evenzo zorgt 'Tonen bij aanmelding' ervoor dat de pagina zichtbaar is voor ingelogde gebruikers.</target>
+      </trans-unit>
+      <trans-unit id="_fe_group.seeAlso" approved="yes">
+        <source>fe_groups</source>
+        <target state="translated">fe_groups</target>
+      </trans-unit>
+      <trans-unit id="_fe_group.image" approved="yes">
+        <source>EXT:frontend/Resources/Public/Images/cshimages/fegroups_4.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:frontend/Resources/Public/Images/cshimages/fegroups_4.png</target>
       </trans-unit>
       <trans-unit id="extendToSubpages.description" approved="yes">
         <source>By default the Publication Date, Expiration Date, Usergroup Access Rights, and Page Visibility options &lt;em&gt;only&lt;/em&gt; affect the page where they are set. If the option 'Extend to Subpages' is checked for the page, then all subpages are affected as well.</source>
@@ -90,6 +130,21 @@ Zo geeft een 'd' de huidige datum. Ook is het mogelijk om getallen als '+10' toe
 However, the subpage could still be accessed by guessing the ID number of the page and entering it manually in the URL. Setting the 'Extend to Subpages' option would extend the Usergroup Access Rights from the top page through all subpages as well.</source>
 			<target state="translated">Denk aan een scenario waarbij een deel van de paginaboom alleen zichtbaar moet zijn voor ingelogde gebruikers. Door de Toegang voor de bovenste pagina in te stellen wordt de pagina uit het menu verwijderd als de bezoeker niet ingelogde is.
 De subpagina's kunnen echter wel bezocht worden door het ID-nummer van de pagina's te raden en in de URL in te voeren. Door 'Inclusief subpagina's' aan te vinken worden de toegangsrechten ook van toepassing op alle subpagina's.</target></trans-unit>
+      <trans-unit id="_extendToSubpages.seeAlso" xml:space="preserve" approved="yes">
+				<source>pages:hidden,
+pages:starttime,
+pages:endtime,
+pages:fe_group</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">pages:hidden,
+pages:starttime,
+pages:endtime,
+pages:fe_group</target></trans-unit>
+      <trans-unit id="_extendToSubpages.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/pages_2.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/pages_2.png</target>
+      </trans-unit>
       <trans-unit id="extendToSubpages.image_descr" approved="yes">
         <source>This page has access restricted to a certain group and has "Extend to Subpages" set as well. This is reflected in the way the page icon has changed.</source>
         <target state="translated">Deze pagina heeft de toegang tot een bepaalde groep beperkt en bovendien is 'Inclusief subpagina's' ook actief. Dit is terug te zien in het pictogram.</target>
@@ -155,9 +210,19 @@ Als specifieke pagina's langer of korter gecachet moeten worden dan kan deze opt
 
 - Het kan gebruikt worden in een meta-tag.
 - Als de TYPO3 pagina's als 'artikelen' gebruikt worden kan dit veld gebruikt worden om de naam van de auteur af te beelden.</target></trans-unit>
+      <trans-unit id="_author.seeAlso" approved="yes">
+        <source>pages:author_email</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">pages:author_email</target>
+      </trans-unit>
       <trans-unit id="author_email.description" approved="yes">
         <source>Enter the page author's email address.</source>
         <target state="translated">Voer het e-mailadres van de auteur in.</target>
+      </trans-unit>
+      <trans-unit id="_author_email.seeAlso" approved="yes">
+        <source>pages:author</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">pages:author</target>
       </trans-unit>
       <trans-unit id="module.description" approved="yes">
         <source>Define the page as containing a Frontend plugin.</source>
@@ -215,6 +280,17 @@ This option is used only if the page 'Type' is set to 'Shortcut.'</source>
 			<target state="translated">Kies het pictogram 'Bladeren naar records' en een nieuw venster wordt geopend om een pagina te kiezen waarnaar doorverwezen moet worden.
 
 Deze optie is alleen gebruikt als de pagina van het type 'Snelkoppeling' is.</target></trans-unit>
+      <trans-unit id="_shortcut.seeAlso" xml:space="preserve" approved="yes">
+				<source>pages:doktype,
+pages:shortcut_mode</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">pages:doktype,
+pages:shortcut_mode</target></trans-unit>
+      <trans-unit id="_shortcut.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/page_shortcut.gif</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/page_shortcut.gif</target>
+      </trans-unit>
       <trans-unit id="shortcut.image_descr" approved="yes">
         <source>Select a Shortcut Target page with the Element Browser.</source>
         <target state="translated">Selecteer een bestemmingspagina voor de snelkoppeling met de element browser</target>
@@ -232,6 +308,11 @@ Note that search engine extensions for TYPO3 such as Indexed Search can also be 
 
 The keywords can also be used to create a menu of related pages. Create a Content Element of type 'Sitemap' and then choose the menu type &lt;i&gt;Related pages (based on keywords)&lt;/i&gt;.</source>
 			<target state="translated">De meeste TYPO3 websites gebruiken deze trefwoorden in een metatag op de pagina maar het kan zijn dat u de juiste TypoScript template zelf moet instellen. Om de pagina te optimaliseren voor zoekmachines zoals Google dient u niet meer dan 3 tot 6 trefwoorden op te geven. U dient er daarnaast voor te zorgen dat de trefwoorden ook in de inhoud van de pagina teruggevonden worden.Ook zoekmachine extensies voor TYPO3, zoals Indexed Search, kunnen geconfigureerd worden om deze trefwoorden te gebruiken.De trefwoorden kunnen tevens gebruikt worden om een menu van gerelateerde pagina's te maken. Gebruik hiervoor een content element van het type 'sitemap' en kies bij menu type &lt;i&gt;Gerelateerde pagina's (gebaseerd op trefwoorden)&lt;/i&gt;.</target></trans-unit>
+      <trans-unit id="_keywords.seeAlso" approved="yes">
+        <source>pages:description</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">pages:description</target>
+      </trans-unit>
       <trans-unit id="description.description" approved="yes">
         <source>Enter a short description of the page. It will be displayed in the result lists of most search engines.</source>
         <target state="translated">Voer een korte omschrijving voor de pagina in. Dit wordt getoond in de resultatenlijst van de meeste zoekmachines.</target>
@@ -251,6 +332,11 @@ In addition, the description will be displayed if you create a Content Element o
 Verder zal deze beschrijving worden gebruikt wanneer u een inhoudselement van het type 'Sitemap' aanmaakt en kiest voor het menutype &lt;i&gt;Menu van onderliggende pagina's (met samenvatting)&lt;/i&gt;. Als een samenvatting bestaat, zal die worden gebruikt in plaats van deze beschrijving.
 
 &lt;b&gt;Let op:&lt;/b&gt;Sommige zoekmachines gebruiken alleen de beschrijving als de tekst niet elders in de pagina-inhoud gevonden wordt. Herhaal hier dus geen bestaande tekst die zich al elders op de pagina bevindt.</target></trans-unit>
+      <trans-unit id="_description.seeAlso" xml:space="preserve" approved="yes">
+				<source>pages:keywords
+pages:abstract</source>
+			<target state="translated">pages:keywords
+pages:abstract</target></trans-unit>
       <trans-unit id="abstract.description" approved="yes">
         <source>Enter an abstract of the contents. It may be displayed in an overview of articles.</source>
         <target state="translated">Voer een samenvatting in van de inhoud. Deze kan worden getoond in artikeloverzichten.</target>
@@ -274,6 +360,11 @@ Wanneer u een inhoudselement van het type &lt;i&gt;Sitemap&lt;/i&gt; aanmaakt en
 &lt;b&gt;Let op:&lt;/b&gt; U hoeft de tekst uit het veld &lt;i&gt;Beschrijving&lt;/i&gt; hier niet opnieuw in te voeren.
 
 Beheerders kunnen naar eigen inzicht gebruik maken van dit veld door middel van eigen TypoScript-sjablonen.</target></trans-unit>
+      <trans-unit id="_abstract.seeAlso" approved="yes">
+        <source>pages:description</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">pages:description</target>
+      </trans-unit>
       <trans-unit id="newUntil.description" approved="yes">
         <source>Enter the date at which this page is no longer considered new.</source>
         <target state="translated">Voer de datum in vanaf wanneer deze pagina niet langer als nieuw beschouwd dient te worden.</target>
@@ -286,6 +377,11 @@ Om een overzicht te krijgen van pagina's die dreigen verouderd te raken, gebruik
       <trans-unit id="newUntil.syntax" approved="yes">
         <source>See Page / Publication Date (click below)</source>
         <target state="translated">Zie Pagina / Startdatum (hieronder klikken)</target>
+      </trans-unit>
+      <trans-unit id="_newUntil.seeAlso" approved="yes">
+        <source>pages:starttime</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">pages:starttime</target>
       </trans-unit>
       <trans-unit id="lastUpdated.description" approved="yes">
         <source>Enter the date and time of the most recent update to this page.</source>
@@ -304,6 +400,11 @@ Wanneer u een 'd' invoert, worden de huidige tijd en datum ingevoegd. U kunt aan
       <trans-unit id="nav_hide.description" approved="yes">
         <source>With this option the page will be not appear in menus in the Frontend. The page can still be viewed if linked by going directly to its URL.</source>
         <target state="translated">Deze pagina zal niet verschijnen in menu's in de Frontend. De pagina is wel zichtbaar wanneer u directe link erheen maakt, of door direct naar de URL van de pagina te navigeren.</target>
+      </trans-unit>
+      <trans-unit id="_nav_hide.seeAlso" approved="yes">
+        <source>pages:nav_title</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">pages:nav_title</target>
       </trans-unit>
       <trans-unit id="nav_title.description" approved="yes">
         <source>Alternative Navigation Title for menu items in the Frontend. When set, this value is used instead of the Page Title.</source>
@@ -326,9 +427,19 @@ Of en hoe dit veld gebruikt wordt, is afhankelijk van het TypoScript-sjabloon va
         <source>In the Frontend this is done by adding a new variable, &amp;MP, to the URL. This links the mounted branch to the main branch by pairing page ids.</source>
         <target state="translated">Dit gebeurt in de Frontend door een nieuwe variable, &amp;MP, toe te voegen aan de URL. Dit koppelt de aangekoppelde tak aan de hoofdtak door pagina-ID's aan elkaar te relateren.</target>
       </trans-unit>
+      <trans-unit id="_mount_pid.seeAlso" approved="yes">
+        <source>pages:mount_pid_ol</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">pages:mount_pid_ol</target>
+      </trans-unit>
       <trans-unit id="mount_pid_ol.description" approved="yes">
         <source>Show content for the current page or replace it completely with the Mounted Page.</source>
         <target state="translated">Toon de inhoud van de huidige pagina of vervang deze volledig door die van de aangekoppelde pagina.</target>
+      </trans-unit>
+      <trans-unit id="_mount_pid_ol.seeAlso" approved="yes">
+        <source>pages:mount_pid</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">pages:mount_pid</target>
       </trans-unit>
       <trans-unit id="title.description.+" approved="yes">
         <source>This is normally shown in the website navigation.</source>
