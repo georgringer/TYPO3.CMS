@@ -63,6 +63,10 @@
         <source>Status Code</source>
         <target state="translated">Statuskode</target>
       </trans-unit>
+      <trans-unit id="filter.sendButton" approved="yes">
+        <source>Send</source>
+        <target state="translated">Send</target>
+      </trans-unit>
       <trans-unit id="record_disabled" approved="yes">
         <source>Redirect is not activated!</source>
         <target state="translated">Omdirigering ikke aktiveret!</target>
@@ -79,6 +83,10 @@
         <source>/my-path/ or #^/my-path/$# (when regex enabled)</source>
         <target state="translated">/min-sti/ eller #^/min-sti/$# (når regex er aktiveret)</target>
       </trans-unit>
+      <trans-unit id="destination" approved="yes">
+        <source>Destination</source>
+        <target state="translated">Destination</target>
+      </trans-unit>
       <trans-unit id="pageID" approved="yes">
         <source>Page ID</source>
         <target state="translated">Side ID</target>
@@ -86,6 +94,18 @@
       <trans-unit id="destination_status_code" approved="yes">
         <source>Status Code</source>
         <target state="translated">Statuskode</target>
+      </trans-unit>
+      <trans-unit id="hits" approved="yes">
+        <source>Hits</source>
+        <target state="translated">Hits</target>
+      </trans-unit>
+      <trans-unit id="hit_text" approved="yes">
+        <source>%s hit</source>
+        <target state="translated">%s hit</target>
+      </trans-unit>
+      <trans-unit id="hits_text" approved="yes">
+        <source>%s hits</source>
+        <target state="translated">%s hits</target>
       </trans-unit>
       <trans-unit id="hit_reset" approved="yes">
         <source>Reset Hit Counter (!)</source>
