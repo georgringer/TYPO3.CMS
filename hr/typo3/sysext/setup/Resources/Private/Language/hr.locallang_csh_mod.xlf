@@ -19,6 +19,12 @@
         <source>User TSconfig SETUP | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/Setup/Index.html</source>
         <target state="translated">Korisničke TSconfig postavke | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/Setup/Index.html</target>
       </trans-unit>
+      <trans-unit id="_.image" xml:space="preserve" approved="yes">
+				<source>EXT:setup/Resources/Public/Images/cshimages/setup8.png,
+EXT:setup/Resources/Public/Images/cshimages/setup7.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:setup/Resources/Public/Images/cshimages/setup8.png,
+EXT:setup/Resources/Public/Images/cshimages/setup7.png</target></trans-unit>
       <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
 				<source>The Setup module is selected in the left menu.
 This is how the Setup module interface looks like - a list of options to configure.</source>
@@ -37,6 +43,11 @@ Modul Postavke izgleda ovako - popis opcija koje možete podešavati.</target></
 The solution clearly is to set the configuration option mentioned above to a value like "utf-8". This must be done by the developers responsible for the whole system configuration.</source>
 			<target state="translated">&lt;b&gt;Upozorenje [tehnička razina]:&lt;/b&gt; Ukoliko TYPO3 sustav nije podešen za korištenje jednog skupa znakova (kroz $TYPO3_CONF_VARS[BE][forceCharset]) tada će svi podaci koji budu uneseni kroz pozadinsko sučelje biti uneseni u skupu znakova odabranog pozadinskog jezika. Takav način unosa podataka može dovesti do nepodudaranja podataka ukoliko neki korisnici pozadinskog sučelja koriste sučelje na ruskom jeziku a drugi korisnici na engleskom jeziku jer ta dva jezika koriste različite skupove znakova.
 Jednostavno rješenje ovog problema je postavljanje gore spomenute opcije na vrijednost poput "utf-8". Ovu postavku moraju postaviti razvojni programeri koji održavaju postavke čitavog sustava.</target></trans-unit>
+      <trans-unit id="_language.image" approved="yes">
+        <source>EXT:setup/Resources/Public/Images/cshimages/lang.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/lang.png</target>
+      </trans-unit>
       <trans-unit id="language.image_descr" approved="yes">
         <source>TYPO3 is translated into around 40 languages. English is the default language and all labels must be available in English first and foremost. This screenshot shows translations for Hebrew, Arabic, Russian and Chinese.</source>
         <target state="translated">Sustav TYPO3 je prevedn na oko 40 jezika. Engleski jezik je zadani jezik te sve oznake moraju biti dostupne na engleskom jeziku prije svih drugih jezika. Ova snimka zaslona prikazuje prijevode ne hebrejski, arapski, ruski i kineski jezik.</target>
@@ -57,6 +68,11 @@ The default module is "About Modules".</source>
         <source>In modules like the "Web &gt; List" and "File &gt; Filelist" you can enable the display of thumbnails of files (images/fonts) and records (if images are attached) with a checkbox. Setting this option will enable the display by default.</source>
         <target state="translated">U modulima poput "Web &gt; Popis" i "Datoteka &gt; Popis datoteka" možete omogućiti prikaz sličica datoteka (slike/fontovi) i zapisa (ukoliko zapisi imaju slike u privitku) pomoću kvačice. Postavljanjem ove opcije omogućujete prikaz prema zadanim postavkama.</target>
       </trans-unit>
+      <trans-unit id="_option_showThumbs.image" approved="yes">
+        <source>EXT:setup/Resources/Public/Images/cshimages/setup5.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/setup5.png</target>
+      </trans-unit>
       <trans-unit id="option_showThumbs.image_descr" approved="yes">
         <source>When thumbnails display is enabled, files attached to records will be shown in the "Web &gt; List" module like this.</source>
         <target state="translated">Kada je omogućen prikaz sličica, datoteke u privitku zapisa bit će prikazane u modulu "Web &gt; Popis" na sljedeći način.</target>
@@ -76,6 +92,11 @@ The default module is "About Modules".</source>
       <trans-unit id="option_maxTitleLen.description" approved="yes">
         <source>TYPO3 will often crop long titles of records etc. so only the first X characters are shown. Often the number of shown characters depends on this variable. For instance the length of page titles in the page tree is determined by this value.</source>
         <target state="translated">TYPO3 često skraćuje dugačke naslove zapisa i slično tako da se vidi samo prvih X znakova. Često broj prikazanih znakova ovisi o ovoj varijabli. Primjerice duljina naslova stranica u stablu stranica ovisi o ovoj vrijednosti.</target>
+      </trans-unit>
+      <trans-unit id="_option_maxTitleLen.image" approved="yes">
+        <source>EXT:setup/Resources/Public/Images/cshimages/setup6.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/setup6.png</target>
       </trans-unit>
       <trans-unit id="option_maxTitleLen.image_descr" approved="yes">
         <source>In this case the Maximum Title length is set to 10 - and the result is that titles in the page tree - as well as other places in the backend - will be cropped after 10 characters, then suffixed by "...". The default value is "30".</source>
@@ -113,6 +134,11 @@ The default module is "About Modules".</source>
         <source>A Rich Text Editor (RTE) means that a text editing field has buttons for making selected text bold, italic etc. Whether a RTE is available also depends on factors like the browser you are using and which extensions are installed. Finally RTEs are applied to only a few record fields. The most well known example would be the Text field of a Content Element.</source>
         <target state="translated">Uređivač bogatog teksta (RTE) znači da polje za uređivanje teksta ima gumbe za podebljavanje, potcrtavanje teksta i slično. Hoće li RTE biti dostupan također ovisi o čimbenicima poput preglednika kojeg koristite te koja su proširenja instalirana. Naposljetku, RTE urednici primjenjuju se na samo par polja zapisa. Najpoznatiji primjer je polje Tekst Elementa sadržaja.</target>
       </trans-unit>
+      <trans-unit id="_option_edit_RTE.image" approved="yes">
+        <source>EXT:setup/Resources/Public/Images/cshimages/rte.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/rte.png</target>
+      </trans-unit>
       <trans-unit id="option_edit_docModuleUpload.alttitle" approved="yes">
         <source>Enable File Uploads in editing forms</source>
         <target state="translated">Omogući prijenos datoteka u obrascima za uređivanje</target>
@@ -124,6 +150,11 @@ The default module is "About Modules".</source>
       <trans-unit id="option_edit_docModuleUpload.details" approved="yes">
         <source>If you disable the Upload box there is still the TYPO3 Element Browser left for attaching files and images.</source>
         <target state="translated">Ukoliko onemogućite polje za prijenos preostat će Vam TYPO3 preglednik elemenata pomoću kojeg ćete moći dodavati datoteke i slike u privitak.</target>
+      </trans-unit>
+      <trans-unit id="_option_edit_docModuleUpload.image" approved="yes">
+        <source>EXT:setup/Resources/Public/Images/cshimages/setup12.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/setup12.png</target>
       </trans-unit>
       <trans-unit id="option_resizeTextareas.alttitle" approved="yes">
         <source>Make Textareas Resizable</source>
