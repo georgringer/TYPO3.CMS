@@ -23,6 +23,14 @@
         <source>hidden</source>
         <target state="translated">nascosto</target>
       </trans-unit>
+      <trans-unit id="title" approved="yes">
+        <source>Workspaces</source>
+        <target state="translated">Workspaces</target>
+      </trans-unit>
+      <trans-unit id="ok" approved="yes">
+        <source>Ok</source>
+        <target state="translated">Ok</target>
+      </trans-unit>
       <trans-unit id="cancel" approved="yes">
         <source>Cancel</source>
         <target state="translated">Annulla</target>
@@ -68,6 +76,10 @@
       <trans-unit id="runMassAction.done" approved="yes">
         <source>Done processing %d elements</source>
         <target state="translated">Elaborazione di %d elementi terminata</target>
+      </trans-unit>
+      <trans-unit id="runMassAction.init" approved="yes">
+        <source>init</source>
+        <target state="translated">init</target>
       </trans-unit>
       <trans-unit id="tooltip.publishAll" approved="yes">
         <source>Really publish entire workspace?</source>
@@ -135,6 +147,10 @@
       <trans-unit id="column.wsTitle" approved="yes">
         <source>Changed</source>
         <target state="translated">Cambiato</target>
+      </trans-unit>
+      <trans-unit id="column.workspaceName" approved="yes">
+        <source>Workspace</source>
+        <target state="translated">Workspace</target>
       </trans-unit>
       <trans-unit id="column.wsSwapColumn" approved="yes">
         <source>Swap workspace</source>
@@ -263,13 +279,25 @@
         <source>List view</source>
         <target state="translated">Vista Elenco</target>
       </trans-unit>
+      <trans-unit id="preview.livePreview" approved="yes">
+        <source>Live</source>
+        <target state="translated">Live</target>
+      </trans-unit>
       <trans-unit id="preview.livePreviewDetail" approved="yes">
         <source>Click this element to hide the workspace version and see the live version of the page.</source>
         <target state="translated">Cliccare questo elemento per nascondere la versione di workspace e visualizzare la versione live della pagina.</target>
       </trans-unit>
+      <trans-unit id="preview.workspacePreview" approved="yes">
+        <source>Workspace</source>
+        <target state="translated">Workspace</target>
+      </trans-unit>
       <trans-unit id="preview.workspacePreviewDetail" approved="yes">
         <source>Click this element to hide the live version and see the workspace version of the page.</source>
         <target state="translated">Cliccare questo elemento per nascondere la versione live e visualizzare la versione di workspace della pagina.</target>
+      </trans-unit>
+      <trans-unit id="preview.modeSlider" approved="yes">
+        <source>Slider</source>
+        <target state="translated">Slider</target>
       </trans-unit>
       <trans-unit id="preview.modeVbox" approved="yes">
         <source>Vertical</source>
@@ -310,6 +338,10 @@
       <trans-unit id="path" approved="yes">
         <source><![CDATA[<b>Path</b>: {0}]]></source>
         <target state="translated"><![CDATA[&lt;b&gt;Path&lt;/b&gt;: {0}]]></target>
+      </trans-unit>
+      <trans-unit id="stage" approved="yes">
+        <source>Stage {0}</source>
+        <target state="translated">Stage {0}</target>
       </trans-unit>
       <trans-unit id="comments" approved="yes">
         <source><![CDATA[User comments for <b>step {0} of stage</b> "{1}"]]></source>
