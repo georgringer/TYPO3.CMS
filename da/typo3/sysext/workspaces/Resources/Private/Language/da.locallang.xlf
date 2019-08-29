@@ -31,6 +31,10 @@
         <source>Workspaces</source>
         <target state="translated">Arbejdsrum</target>
       </trans-unit>
+      <trans-unit id="ok" approved="yes">
+        <source>Ok</source>
+        <target state="translated">Ok</target>
+      </trans-unit>
       <trans-unit id="cancel" approved="yes">
         <source>Cancel</source>
         <target state="translated">Annullér</target>
@@ -89,6 +93,10 @@
       <trans-unit id="runMassAction.done" approved="yes">
         <source>Done processing %d elements</source>
         <target state="translated">%d elementer bearbejdet</target>
+      </trans-unit>
+      <trans-unit id="runMassAction.init" approved="yes">
+        <source>init</source>
+        <target state="translated">init</target>
       </trans-unit>
       <trans-unit id="tooltip.publishAll" approved="yes">
         <source>Really publish entire workspace?</source>
@@ -447,6 +455,10 @@
       <trans-unit id="integrity.hasIssuesQuestion" approved="yes">
         <source>Do you want to continue?</source>
         <target state="translated">Vil du fortsætte?</target>
+      </trans-unit>
+      <trans-unit id="status.info" approved="yes">
+        <source>Information</source>
+        <target state="translated">Information</target>
       </trans-unit>
       <trans-unit id="status.warning" approved="yes">
         <source>Warning</source>
