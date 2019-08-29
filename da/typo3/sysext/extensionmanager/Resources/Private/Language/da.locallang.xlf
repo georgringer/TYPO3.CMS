@@ -135,6 +135,10 @@
         <source>Update</source>
         <target state="translated">Opdater</target>
       </trans-unit>
+      <trans-unit id="extensionList.header.activate" approved="yes">
+        <source>A/D</source>
+        <target state="translated">A/D</target>
+      </trans-unit>
       <trans-unit id="extensionList.header.title.activate" approved="yes">
         <source>Activate / Deactivate</source>
         <target state="translated">Aktivér / Deaktivér</target>
@@ -143,9 +147,17 @@
         <source>Extension</source>
         <target state="translated">Udvidelse</target>
       </trans-unit>
+      <trans-unit id="extensionList.header.version" approved="yes">
+        <source>Version</source>
+        <target state="translated">Version</target>
+      </trans-unit>
       <trans-unit id="extensionList.header.extensionKey" approved="yes">
         <source>Key</source>
         <target state="translated">Nøgle</target>
+      </trans-unit>
+      <trans-unit id="extensionList.header.extensionVersion" approved="yes">
+        <source>Version</source>
+        <target state="translated">Version</target>
       </trans-unit>
       <trans-unit id="extensionList.header.extensionActions" approved="yes">
         <source>Actions</source>
@@ -154,6 +166,10 @@
       <trans-unit id="extensionList.header.extensionState" approved="yes">
         <source>State</source>
         <target state="translated">Tilstand</target>
+      </trans-unit>
+      <trans-unit id="extensionList.header.extensionType" approved="yes">
+        <source>Type</source>
+        <target state="translated">Type</target>
       </trans-unit>
       <trans-unit id="extensionList.header.uploadComment" approved="yes">
         <source>Upload Comment</source>
@@ -194,6 +210,10 @@
       <trans-unit id="searchTemplate.searchAgain" approved="yes">
         <source>Search again</source>
         <target state="translated">Søg igen</target>
+      </trans-unit>
+      <trans-unit id="uploadTemplate.uploadButton" approved="yes">
+        <source>Upload!</source>
+        <target state="translated">Upload!</target>
       </trans-unit>
       <trans-unit id="uploadTemplate.extensionLabel" approved="yes">
         <source>Extension</source>
@@ -312,6 +332,10 @@
         <source>The dependencies of the following Extensions could not be resolved</source>
         <target state="translated">Afhængighederne til følgende udvidelser, kunne ikke løses</target>
       </trans-unit>
+      <trans-unit id="downloadExtension.dependencyType.download" approved="yes">
+        <source>download</source>
+        <target state="translated">download</target>
+      </trans-unit>
       <trans-unit id="downloadExtension.dependencyType.install" approved="yes">
         <source>install</source>
         <target state="translated">installér</target>
@@ -335,6 +359,10 @@
       <trans-unit id="extensionList.dependenciesResolveDownloadSuccess.message.downloadOnly" approved="yes">
         <source>Your download of {0} was successful.</source>
         <target state="translated">Din installation af {0} var en succes.</target>
+      </trans-unit>
+      <trans-unit id="extensionList.dependenciesResolveDownloadSuccess.header" approved="yes">
+        <source>Log</source>
+        <target state="translated">Log</target>
       </trans-unit>
       <trans-unit id="extensionList.dependenciesResolveDownloadSuccess.item" approved="yes">
         <source>Extensions</source>
@@ -368,6 +396,10 @@
         <source>Import and Install</source>
         <target state="translated">Importer og installer</target>
       </trans-unit>
+      <trans-unit id="extensionList.downloadViewHelper.submit.downloadOnly" approved="yes">
+        <source>Import</source>
+        <target state="translated">Import</target>
+      </trans-unit>
       <trans-unit id="extensionList.showAllVersions.label" approved="yes">
         <source>Show all versions</source>
         <target state="translated">Vis alle versioner</target>
@@ -375,6 +407,10 @@
       <trans-unit id="extensionList.showAllVersions.extensionKey" approved="yes">
         <source>Extension key</source>
         <target state="translated">Udvidelsesnøgle</target>
+      </trans-unit>
+      <trans-unit id="extensionList.showAllVersions.version" approved="yes">
+        <source>Version</source>
+        <target state="translated">Version</target>
       </trans-unit>
       <trans-unit id="extensionList.showAllVersions.lastUploaded" approved="yes">
         <source>Last uploaded</source>
@@ -387,6 +423,10 @@
       <trans-unit id="extensionList.showAllVersions.category" approved="yes">
         <source>Category</source>
         <target state="translated">Kategori</target>
+      </trans-unit>
+      <trans-unit id="extensionList.showAllVersions.manual" approved="yes">
+        <source>Manual</source>
+        <target state="translated">Manual</target>
       </trans-unit>
       <trans-unit id="extensionList.showAllVersions.author" approved="yes">
         <source>Author</source>
@@ -411,6 +451,10 @@
       <trans-unit id="extensionList.distribution.title" approved="yes">
         <source>Title</source>
         <target state="translated">Titel</target>
+      </trans-unit>
+      <trans-unit id="extensionList.distribution.version" approved="yes">
+        <source>Version</source>
+        <target state="translated">Version</target>
       </trans-unit>
       <trans-unit id="extensionList.distribution.downloads" approved="yes">
         <source>Downloads</source>
@@ -464,6 +508,10 @@
         <source>unknown</source>
         <target state="translated">ukendt</target>
       </trans-unit>
+      <trans-unit id="extensionList.updateFromTer.lastUpdate.fullTimeFormat" approved="yes">
+        <source>Y-m-d H:i:s</source>
+        <target state="translated">Y-m-d H:i:s</target>
+      </trans-unit>
       <trans-unit id="extensionList.updateFromTer.lastUpdate.timeOfLastUpdate" approved="yes">
         <source>Time of last update: </source>
         <target state="translated">Tid for sidste opdatering: </target>
@@ -512,6 +560,14 @@
         <source>Identifier</source>
         <target state="translated">Identifikator</target>
       </trans-unit>
+      <trans-unit id="distribution.dependency.type" approved="yes">
+        <source>Type</source>
+        <target state="translated">Type</target>
+      </trans-unit>
+      <trans-unit id="distribution.dependency.version" approved="yes">
+        <source>Version</source>
+        <target state="translated">Version</target>
+      </trans-unit>
       <trans-unit id="task.updateExtensionListTask.name" approved="yes">
         <source>Update extension list</source>
         <target state="translated">Opdatér liste over udvidelser fra TER</target>
@@ -540,9 +596,17 @@
         <source>The Main Repository extension list is older than 7 days. Please update it in the Extension manager or Scheduler.</source>
         <target state="translated">Det primære lagers udvidelsesliste er ældre end syv dage. Opdatér i udvidelsesmanager eller Scheduler.</target>
       </trans-unit>
+      <trans-unit id="report.status.mainRepository.upToDate.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
+      </trans-unit>
       <trans-unit id="report.status.loadedExtensions.title" approved="yes">
         <source>Security status of loaded extensions</source>
         <target state="translated">Sikkerhedsstatus på indlæste udvidelser</target>
+      </trans-unit>
+      <trans-unit id="report.status.loadedExtensions.noInsecureExtensionLoaded.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
       </trans-unit>
       <trans-unit id="report.status.loadedExtensions.insecureExtensionLoaded.value" approved="yes">
         <source>%s insecure extension(s) found</source>
@@ -552,9 +616,17 @@
         <source>The following extensions are insecure and usage might damage your system. Please update these extensions as soon as possible or remove them from your system:&lt;br&gt;&lt;br&gt;%s</source>
         <target state="translated">De følgende udvidelser er usikre og brugen af dem kan skade dit system. Opdatér disse udvidelser så hurtigt som muligt eller fjern dem fra dit system:&lt;br /&gt;&lt;br /&gt;%s</target>
       </trans-unit>
+      <trans-unit id="report.status.loadedExtensions.insecureExtensionLoaded.message.extension" approved="yes">
+        <source>&lt;strong&gt;%1$s&lt;/strong&gt; (version %2$s)&lt;br&gt;</source>
+        <target state="translated">&lt;strong&gt;%1$s&lt;/strong&gt; (version %2$s)&lt;br&gt;</target>
+      </trans-unit>
       <trans-unit id="report.status.existingExtensions.title" approved="yes">
         <source>Security status of existing, but not loaded extensions</source>
         <target state="translated">Sikkerhedsstatus på eksisterende men ikke-indlæste udvidelser</target>
+      </trans-unit>
+      <trans-unit id="report.status.existingExtensions.noInsecureExtensionExists.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
       </trans-unit>
       <trans-unit id="report.status.existingExtensions.insecureExtensionExists.value" approved="yes">
         <source>%s insecure extension(s) found</source>
@@ -564,9 +636,17 @@
         <source>The following extensions were found on your system, but are currently not installed. Please delete the extensions using the extension manager:&lt;br&gt;&lt;br&gt;%s</source>
         <target state="translated">De følgende udvidelser blev fundet på dit system, med de er ikke installeret i øjeblikket. Slet disse udvidelser ved brug af Udvidelsesmanager:&lt;br /&gt;&lt;br /&gt;%s</target>
       </trans-unit>
+      <trans-unit id="report.status.existingExtensions.insecureExtensionExists.message.extension" approved="yes">
+        <source>&lt;strong&gt;%1$s&lt;/strong&gt; (version %2$s)&lt;br&gt;</source>
+        <target state="translated">&lt;strong&gt;%1$s&lt;/strong&gt; (version %2$s)&lt;br&gt;</target>
+      </trans-unit>
       <trans-unit id="report.status.loadedOutdatedExtensions.title" approved="yes">
         <source>Outdated status of loaded extensions</source>
         <target state="translated">Sikkerhedsstatus på indlæste udvidelser</target>
+      </trans-unit>
+      <trans-unit id="report.status.loadedOutdatedExtensions.noOutdatedExtensionLoaded.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
       </trans-unit>
       <trans-unit id="report.status.loadedOutdatedExtensions.outdatedExtensionLoaded.value" approved="yes">
         <source>%s outdated extension(s) found</source>
@@ -576,9 +656,17 @@
         <source>The following extensions are outdated and may not be compatible with your installation. Please make sure these extensions are compatible and ask the extension author to publish updates:&lt;br&gt;&lt;br&gt;%s</source>
         <target state="translated">De følgende udvidelser er forældede og er måske ikke kompatible med din installation. Du bør sikre dig at disse udvidelser er kompatible og spørge udvikleren til udvidelsen om opdateringer:&lt;br/&gt;&lt;br/&gt;%s</target>
       </trans-unit>
+      <trans-unit id="report.status.loadedOutdatedExtensions.outdatedExtensionLoaded.message.extension" approved="yes">
+        <source>&lt;strong&gt;%1$s&lt;/strong&gt; (version %2$s)&lt;br&gt;</source>
+        <target state="translated">&lt;strong&gt;%1$s&lt;/strong&gt; (version %2$s)&lt;br&gt;</target>
+      </trans-unit>
       <trans-unit id="report.status.existingOutdatedExtensions.title" approved="yes">
         <source>Outdated status of existing, but not loaded extensions</source>
         <target state="translated">Sikkerhedsstatus på eksisterende men ikke-indlæste udvidelser</target>
+      </trans-unit>
+      <trans-unit id="report.status.existingOutdatedExtensions.noOutdatedExtensionExists.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
       </trans-unit>
       <trans-unit id="report.status.existingOutdatedExtensions.outdatedExtensionExists.value" approved="yes">
         <source>%s outdated extension(s) found</source>
@@ -587,6 +675,10 @@
       <trans-unit id="report.status.existingOutdatedExtensions.outdatedExtensionExists.message" approved="yes">
         <source>The following extensions were found on your system, but are currently not installed. Please make sure they are compatible with your system before installing them:&lt;br&gt;&lt;br&gt;%s</source>
         <target state="translated">De følgende udvidelser blev fundet på dit system, men er i øjeblikket ikke intalleret. Sørg for at de er kompatible med dit system, før du installerer dem:&lt;br /&gt;&lt;br /&gt;%s</target>
+      </trans-unit>
+      <trans-unit id="report.status.existingOutdatedExtensions.outdatedExtensionExists.message.extension" approved="yes">
+        <source>&lt;strong&gt;%1$s&lt;/strong&gt; (version %2$s)&lt;br&gt;</source>
+        <target state="translated">&lt;strong&gt;%1$s&lt;/strong&gt; (version %2$s)&lt;br&gt;</target>
       </trans-unit>
       <trans-unit id="fileHandling.couldNotRemoveDirectory" approved="yes">
         <source>ERROR: Could not remove extension directory "%s". Reasons</source>
