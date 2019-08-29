@@ -3,6 +3,14 @@
   <file t3:id="1415814828" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="impexp" target-language="cs">
     <header/>
     <body>
+      <trans-unit id="title" approved="yes">
+        <source>Import / Export</source>
+        <target state="translated">Import / Export</target>
+      </trans-unit>
+      <trans-unit id="title_import" approved="yes">
+        <source>Import</source>
+        <target state="translated">Import</target>
+      </trans-unit>
       <trans-unit id="tableselec_configuration" approved="yes">
         <source>Configuration</source>
         <target state="translated">Konfigurace</target>
@@ -83,6 +91,10 @@
         <source>T3D file</source>
         <target state="translated">T3D soubor</target>
       </trans-unit>
+      <trans-unit id="makesavefo_xml" approved="yes">
+        <source>XML</source>
+        <target state="translated">XML</target>
+      </trans-unit>
       <trans-unit id="makesavefo_downloadExport" approved="yes">
         <source>Download export</source>
         <target state="translated">Stáhnout export</target>
@@ -143,6 +155,10 @@
         <source>Update</source>
         <target state="translated">Obnovit</target>
       </trans-unit>
+      <trans-unit id="importdata_import" approved="yes">
+        <source>Import</source>
+        <target state="translated">Import</target>
+      </trans-unit>
       <trans-unit id="importdata_areYouSure" approved="yes">
         <source>Are you sure?</source>
         <target state="translated">Jste si jistí?</target>
@@ -162,6 +178,14 @@
       <trans-unit id="importdata_failureNoFileUploaded" approved="yes">
         <source>Failure: No file uploaded - was it too big? Check system log.</source>
         <target state="translated">Chyba: Soubor nenahrán - byl moc velký? Zkontroluj systémový log.</target>
+      </trans-unit>
+      <trans-unit id="importdata_upload" approved="yes">
+        <source>Upload</source>
+        <target state="translated">Upload</target>
+      </trans-unit>
+      <trans-unit id="importdata_metaData_1387" approved="yes">
+        <source>Meta data</source>
+        <target state="translated">Meta data</target>
       </trans-unit>
       <trans-unit id="importdata_messages" approved="yes">
         <source>Messages</source>
