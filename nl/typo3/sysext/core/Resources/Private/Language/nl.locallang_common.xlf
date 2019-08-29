@@ -19,9 +19,9 @@
         <source>Back</source>
         <target state="translated">Terug</target>
       </trans-unit>
-      <trans-unit id="byteSizeUnits">
+      <trans-unit id="byteSizeUnits" approved="yes">
         <source> B| KB| MB| GB</source>
-        <target state="needs-translation"> </target>
+        <target state="translated"> B| KB| MB| GB</target>
       </trans-unit>
       <trans-unit id="cancel" approved="yes">
         <source>Cancel</source>
@@ -43,6 +43,10 @@
         <source>Descending</source>
         <target state="translated">Aflopend</target>
       </trans-unit>
+      <trans-unit id="details" approved="yes">
+        <source>Details</source>
+        <target state="translated">Details</target>
+      </trans-unit>
       <trans-unit id="disable" approved="yes">
         <source>Disable</source>
         <target state="translated">Uitschakelen</target>
@@ -54,6 +58,10 @@
       <trans-unit id="down" approved="yes">
         <source>Down</source>
         <target state="translated">Naar beneden</target>
+      </trans-unit>
+      <trans-unit id="download" approved="yes">
+        <source>Download</source>
+        <target state="translated">Download</target>
       </trans-unit>
       <trans-unit id="edit" approved="yes">
         <source>Edit</source>
@@ -103,6 +111,18 @@
         <source>Go to</source>
         <target state="translated">Ga naar</target>
       </trans-unit>
+      <trans-unit id="help" approved="yes">
+        <source>Help</source>
+        <target state="translated">Help</target>
+      </trans-unit>
+      <trans-unit id="item" approved="yes">
+        <source>Item</source>
+        <target state="translated">Item</target>
+      </trans-unit>
+      <trans-unit id="items" approved="yes">
+        <source>Items</source>
+        <target state="translated">Items</target>
+      </trans-unit>
       <trans-unit id="last" approved="yes">
         <source>Last</source>
         <target state="translated">Laatste</target>
@@ -138,6 +158,10 @@
       <trans-unit id="no" approved="yes">
         <source>No</source>
         <target state="translated">Nee</target>
+      </trans-unit>
+      <trans-unit id="ok" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
       </trans-unit>
       <trans-unit id="open" approved="yes">
         <source>Open</source>
@@ -194,6 +218,14 @@
       <trans-unit id="send" approved="yes">
         <source>Send</source>
         <target state="translated">Verzenden</target>
+      </trans-unit>
+      <trans-unit id="start" approved="yes">
+        <source>Start</source>
+        <target state="translated">Start</target>
+      </trans-unit>
+      <trans-unit id="stop" approved="yes">
+        <source>Stop</source>
+        <target state="translated">Stop</target>
       </trans-unit>
       <trans-unit id="submit" approved="yes">
         <source>Submit</source>
