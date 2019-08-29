@@ -27,6 +27,14 @@
         <source>Create new workspace projects</source>
         <target state="translated">Crea nuovi workspace</target>
       </trans-unit>
+      <trans-unit id="TSconfig_title" approved="yes">
+        <source>TSconfig QuickReference</source>
+        <target state="translated">TSconfig QuickReference</target>
+      </trans-unit>
+      <trans-unit id="be_users.avatar" approved="yes">
+        <source>Avatar</source>
+        <target state="translated">Avatar</target>
+      </trans-unit>
       <trans-unit id="be_users.usergroup" approved="yes">
         <source>Group</source>
         <target state="translated">Gruppo</target>
@@ -50,6 +58,10 @@
       <trans-unit id="be_users.IPlockState" approved="yes">
         <source>IP lock for user</source>
         <target state="translated">Blocco IP per l'utente</target>
+      </trans-unit>
+      <trans-unit id="be_users.admin" approved="yes">
+        <source>Admin (!)</source>
+        <target state="translated">Admin (!)</target>
       </trans-unit>
       <trans-unit id="be_users.file_permissions.files_read" approved="yes">
         <source>Files: Read</source>
@@ -139,6 +151,10 @@
         <source>Mounts and Workspaces</source>
         <target state="translated">Mounts e Workspaces</target>
       </trans-unit>
+      <trans-unit id="be_groups.file_permissions.folder" approved="yes">
+        <source>Directory</source>
+        <target state="translated">Directory</target>
+      </trans-unit>
       <trans-unit id="be_groups.file_permissions.folder_read" approved="yes">
         <source>Directory: Read</source>
         <target state="translated">Cartella: Leggi</target>
@@ -195,6 +211,10 @@
         <source>Files: Copy</source>
         <target state="translated">File: Copia</target>
       </trans-unit>
+      <trans-unit id="be_groups.fileoper_perms_unzip" approved="yes">
+        <source>Files: Unzip</source>
+        <target state="translated">Files: Unzip</target>
+      </trans-unit>
       <trans-unit id="be_groups.file_permissions.files_delete" approved="yes">
         <source>Files: Delete</source>
         <target state="translated">File: Elimina</target>
@@ -226,6 +246,10 @@
       <trans-unit id="sys_filemounts.tabs.users" approved="yes">
         <source>Users</source>
         <target state="translated">Utenti</target>
+      </trans-unit>
+      <trans-unit id="sys_filemounts.tabs.mountpoints" approved="yes">
+        <source>Mountpoints</source>
+        <target state="translated">Mountpoints</target>
       </trans-unit>
       <trans-unit id="sys_filemounts.tabs.publishing" approved="yes">
         <source>Publishing</source>
@@ -291,6 +315,10 @@
         <source>Page</source>
         <target state="translated">Pagina</target>
       </trans-unit>
+      <trans-unit id="doktype.I.0" approved="yes">
+        <source>Standard</source>
+        <target state="translated">Standard</target>
+      </trans-unit>
       <trans-unit id="doktype.I.1" approved="yes">
         <source>SysFolder</source>
         <target state="translated">Cartella di sistema</target>
@@ -315,6 +343,10 @@
         <source>Backend usergroup</source>
         <target state="translated">Gruppo di utenti backend</target>
       </trans-unit>
+      <trans-unit id="sys_filemounts" approved="yes">
+        <source>Filemount</source>
+        <target state="translated">Filemount</target>
+      </trans-unit>
       <trans-unit id="sys_collection.description" approved="yes">
         <source>Description</source>
         <target state="translated">Descrizione</target>
@@ -338,6 +370,10 @@
       <trans-unit id="sys_file_storage.is_public" approved="yes">
         <source>Is publicly available?</source>
         <target state="translated">È disponibile pubblicamente?</target>
+      </trans-unit>
+      <trans-unit id="sys_file" approved="yes">
+        <source>File</source>
+        <target state="translated">File</target>
       </trans-unit>
       <trans-unit id="sys_file.identifier" approved="yes">
         <source>Identifier</source>
@@ -367,9 +403,25 @@
         <source>Image</source>
         <target state="translated">Immagine</target>
       </trans-unit>
+      <trans-unit id="sys_file.type.audio" approved="yes">
+        <source>Audio</source>
+        <target state="translated">Audio</target>
+      </trans-unit>
+      <trans-unit id="sys_file.type.video" approved="yes">
+        <source>Video</source>
+        <target state="translated">Video</target>
+      </trans-unit>
+      <trans-unit id="sys_file.type.software" approved="yes">
+        <source>Software</source>
+        <target state="translated">Software</target>
+      </trans-unit>
       <trans-unit id="sys_file.mime_type" approved="yes">
         <source>Mime Type</source>
         <target state="translated">Tipo MIME</target>
+      </trans-unit>
+      <trans-unit id="sys_file.sha1" approved="yes">
+        <source>SHA1</source>
+        <target state="translated">SHA1</target>
       </trans-unit>
       <trans-unit id="sys_file.size" approved="yes">
         <source>Size</source>
@@ -391,6 +443,10 @@
         <source>Height</source>
         <target state="translated">Altezza</target>
       </trans-unit>
+      <trans-unit id="sys_file_reference.uid_local" approved="yes">
+        <source>File</source>
+        <target state="translated">File</target>
+      </trans-unit>
       <trans-unit id="sys_file_reference.tablenames" approved="yes">
         <source>Table name</source>
         <target state="translated">Nome della tabella</target>
@@ -410,6 +466,10 @@
       <trans-unit id="sys_file_reference.alternative" approved="yes">
         <source>Alternative Text</source>
         <target state="translated">Testo alternativo</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.link" approved="yes">
+        <source>Link</source>
+        <target state="translated">Link</target>
       </trans-unit>
       <trans-unit id="sys_file_collection.title" approved="yes">
         <source>Title</source>
@@ -454,6 +514,10 @@
       <trans-unit id="sys_language.flag" approved="yes">
         <source>Select flag icon</source>
         <target state="translated">Seleziona icona lingua</target>
+      </trans-unit>
+      <trans-unit id="sys_workspace" approved="yes">
+        <source>Workspace</source>
+        <target state="translated">Workspace</target>
       </trans-unit>
       <trans-unit id="sys_category" approved="yes">
         <source>Category</source>
