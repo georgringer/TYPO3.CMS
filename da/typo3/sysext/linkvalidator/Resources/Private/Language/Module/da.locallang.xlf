@@ -3,6 +3,10 @@
   <file t3:id="1415814894" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="linkvalidator" target-language="da">
     <header/>
     <body>
+      <trans-unit id="linkvalidator" approved="yes">
+        <source>Link validator</source>
+        <target state="translated">Link validator</target>
+      </trans-unit>
       <trans-unit id="menu.introduction" approved="yes">
         <source>Introduction</source>
         <target state="translated">Introduktion</target>
@@ -110,6 +114,14 @@
       <trans-unit id="list.tableHead.path" approved="yes">
         <source>Path</source>
         <target state="translated">Sti</target>
+      </trans-unit>
+      <trans-unit id="list.tableHead.element" approved="yes">
+        <source>Element</source>
+        <target state="translated">Element</target>
+      </trans-unit>
+      <trans-unit id="list.tableHead.headlink" approved="yes">
+        <source>Link</source>
+        <target state="translated">Link</target>
       </trans-unit>
       <trans-unit id="list.tableHead.linktarget" approved="yes">
         <source>URL / Link Target</source>
@@ -234,6 +246,14 @@
       <trans-unit id="list.report.networkexception" approved="yes">
         <source>Network error / invalid domain</source>
         <target state="translated">Netværksfejl / ugyldigt domæne</target>
+      </trans-unit>
+      <trans-unit id="list.msg.ok" approved="yes">
+        <source>Ok</source>
+        <target state="translated">Ok</target>
+      </trans-unit>
+      <trans-unit id="list.msg.lastRun" approved="yes">
+        <source>%1$s %2$s</source>
+        <target state="translated">%1$s %2$s</target>
       </trans-unit>
       <trans-unit id="list.no.broken.links.title" approved="yes">
         <source>No broken links to show!</source>
