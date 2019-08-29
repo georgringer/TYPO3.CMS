@@ -35,6 +35,10 @@
         <source>Yes</source>
         <target state="translated">Sì</target>
       </trans-unit>
+      <trans-unit id="noCache_no" approved="yes">
+        <source>No</source>
+        <target state="translated">No</target>
+      </trans-unit>
       <trans-unit id="countUserInt" approved="yes">
         <source>Count of USER_INT objects</source>
         <target state="translated">Numero di oggetti USER_INT</target>
@@ -58,6 +62,14 @@
       <trans-unit id="sub.general.label" approved="yes">
         <source>General</source>
         <target state="translated">Generale</target>
+      </trans-unit>
+      <trans-unit id="sub.php.label" approved="yes">
+        <source>PHP</source>
+        <target state="translated">PHP</target>
+      </trans-unit>
+      <trans-unit id="sub.request.label" approved="yes">
+        <source>REQUEST</source>
+        <target state="translated">REQUEST</target>
       </trans-unit>
     </body>
   </file>
