@@ -23,6 +23,10 @@
         <source>DB Mounts</source>
         <target state="translated">Startpunten DB</target>
       </trans-unit>
+      <trans-unit id="userMods" approved="yes">
+        <source>Modules</source>
+        <target state="translated">Modules</target>
+      </trans-unit>
       <trans-unit id="allowed_languages" approved="yes">
         <source>Limit to languages</source>
         <target state="translated">Tot talen beperken</target>
@@ -47,6 +51,10 @@
         <source>Create new workspace projects</source>
         <target state="translated">Nieuwe workspace projecten</target>
       </trans-unit>
+      <trans-unit id="TSconfig" approved="yes">
+        <source>TSconfig</source>
+        <target state="translated">TSconfig</target>
+      </trans-unit>
       <trans-unit id="TSconfig_title" approved="yes">
         <source>TSconfig QuickReference</source>
         <target state="translated">TSconfig SnelleReferentiegids</target>
@@ -62,6 +70,10 @@
       <trans-unit id="be_users.password" approved="yes">
         <source>Password</source>
         <target state="translated">Wachtwoord</target>
+      </trans-unit>
+      <trans-unit id="be_users.avatar" approved="yes">
+        <source>Avatar</source>
+        <target state="translated">Avatar</target>
       </trans-unit>
       <trans-unit id="be_users.usergroup" approved="yes">
         <source>Group</source>
@@ -351,6 +363,10 @@
         <source>Other</source>
         <target state="translated">Anders</target>
       </trans-unit>
+      <trans-unit id="sys_filemounts.title" approved="yes">
+        <source>Label</source>
+        <target state="translated">Label</target>
+      </trans-unit>
       <trans-unit id="sys_filemounts.path" approved="yes">
         <source>Path</source>
         <target state="translated">Pad</target>
@@ -519,6 +535,10 @@
         <source>Record Type of Collection</source>
         <target state="translated">Recordtype van verzameling</target>
       </trans-unit>
+      <trans-unit id="sys_collection.items" approved="yes">
+        <source>Items</source>
+        <target state="translated">Items</target>
+      </trans-unit>
       <trans-unit id="sys_collection.type" approved="yes">
         <source>Type of collection</source>
         <target state="translated">Type verzameling</target>
@@ -603,6 +623,10 @@
         <source>Storage</source>
         <target state="translated">Opslag</target>
       </trans-unit>
+      <trans-unit id="sys_file.identifier" approved="yes">
+        <source>Identifier</source>
+        <target state="translated">Identifier</target>
+      </trans-unit>
       <trans-unit id="sys_file.name" approved="yes">
         <source>Filename</source>
         <target state="translated">Bestandsnaam</target>
@@ -627,9 +651,25 @@
         <source>Image</source>
         <target state="translated">Afbeelding</target>
       </trans-unit>
+      <trans-unit id="sys_file.type.audio" approved="yes">
+        <source>Audio</source>
+        <target state="translated">Audio</target>
+      </trans-unit>
+      <trans-unit id="sys_file.type.video" approved="yes">
+        <source>Video</source>
+        <target state="translated">Video</target>
+      </trans-unit>
+      <trans-unit id="sys_file.type.software" approved="yes">
+        <source>Software</source>
+        <target state="translated">Software</target>
+      </trans-unit>
       <trans-unit id="sys_file.mime_type" approved="yes">
         <source>Mime Type</source>
         <target state="translated">mime-type</target>
+      </trans-unit>
+      <trans-unit id="sys_file.sha1" approved="yes">
+        <source>SHA1</source>
+        <target state="translated">SHA1</target>
       </trans-unit>
       <trans-unit id="sys_file.size" approved="yes">
         <source>Size</source>
@@ -650,6 +690,10 @@
       <trans-unit id="sys_file.missing" approved="yes">
         <source>Marked as missing</source>
         <target state="translated">Als ontbrekend gemarkeerd</target>
+      </trans-unit>
+      <trans-unit id="sys_file.metadata" approved="yes">
+        <source>Metadata records</source>
+        <target state="translated">Metadata records</target>
       </trans-unit>
       <trans-unit id="file.width" approved="yes">
         <source>Width</source>
@@ -723,6 +767,10 @@
         <source>Alternative Text</source>
         <target state="translated">Alternatieve tekst</target>
       </trans-unit>
+      <trans-unit id="sys_file_reference.link" approved="yes">
+        <source>Link</source>
+        <target state="translated">Link</target>
+      </trans-unit>
       <trans-unit id="sys_file_reference.crop" approved="yes">
         <source>Image manipulation</source>
         <target state="translated">Afbeeldingsmanipulatie</target>
@@ -742,6 +790,10 @@
       <trans-unit id="sys_file_collection.title" approved="yes">
         <source>Title</source>
         <target state="translated">Titel</target>
+      </trans-unit>
+      <trans-unit id="sys_file_collection.type" approved="yes">
+        <source>Type</source>
+        <target state="translated">Type</target>
       </trans-unit>
       <trans-unit id="sys_file_collection.type.0" approved="yes">
         <source>Static selection of files</source>
@@ -811,6 +863,10 @@
         <source>Parent</source>
         <target state="translated">Bovenliggend item</target>
       </trans-unit>
+      <trans-unit id="sys_category.items" approved="yes">
+        <source>Items</source>
+        <target state="translated">Items</target>
+      </trans-unit>
       <trans-unit id="sys_category.categories" approved="yes">
         <source>Categories</source>
         <target state="translated">Categorieën</target>
@@ -818,6 +874,10 @@
       <trans-unit id="sys_category.tabs.category" approved="yes">
         <source>Categories</source>
         <target state="translated">Categorieën</target>
+      </trans-unit>
+      <trans-unit id="sys_category.tabs.items" approved="yes">
+        <source>Items</source>
+        <target state="translated">Items</target>
       </trans-unit>
     </body>
   </file>
