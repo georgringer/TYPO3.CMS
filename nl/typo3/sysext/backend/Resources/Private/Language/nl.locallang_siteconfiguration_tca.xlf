@@ -31,6 +31,10 @@
         <source>Error Handling</source>
         <target state="translated">Foutafhandeling</target>
       </trans-unit>
+      <trans-unit id="site.routes" approved="yes">
+        <source>Routes</source>
+        <target state="translated">Routes</target>
+      </trans-unit>
       <trans-unit id="site.routes.irreHeader.redirectsTo" approved="yes">
         <source>redirects to</source>
         <target state="translated">verwijst naar</target>
@@ -46,6 +50,10 @@
       <trans-unit id="site.tab.routes" approved="yes">
         <source>Static Routes</source>
         <target state="translated">Statische routes</target>
+      </trans-unit>
+      <trans-unit id="site_language.palette.locales" approved="yes">
+        <source>Locales</source>
+        <target state="translated">Locales</target>
       </trans-unit>
       <trans-unit id="site_language.palette.frontend" approved="yes">
         <source>Frontend related</source>
@@ -70,6 +78,10 @@
       <trans-unit id="site_language.base" approved="yes">
         <source>Entry Point</source>
         <target state="translated">Beginpunt</target>
+      </trans-unit>
+      <trans-unit id="site_language.locale" approved="yes">
+        <source>Locale</source>
+        <target state="translated">Locale</target>
       </trans-unit>
       <trans-unit id="site_language.iso-639-1" approved="yes">
         <source>Two Letter ISO Code</source>
@@ -111,9 +123,17 @@
         <source>Base</source>
         <target state="translated">Basis</target>
       </trans-unit>
+      <trans-unit id="site_base_variant.base.placeholder" approved="yes">
+        <source>www.domain.local</source>
+        <target state="translated">www.domain.local</target>
+      </trans-unit>
       <trans-unit id="site_base_variant.condition" approved="yes">
         <source>Condition</source>
         <target state="translated">Voorwaarde</target>
+      </trans-unit>
+      <trans-unit id="site_base_variant.condition.placeholder" approved="yes">
+        <source>applicationContext == "Production"</source>
+        <target state="translated">applicationContext == "Production"</target>
       </trans-unit>
       <trans-unit id="site_base_variant.condition.applicationContext" approved="yes">
         <source>Application Context</source>
@@ -175,6 +195,10 @@
         <source>Fluid Template File</source>
         <target state="translated">Fluid-sjabloonbestand</target>
       </trans-unit>
+      <trans-unit id="site_errorhandling.errorFluidTemplate.placeholder" approved="yes">
+        <source>EXT:my_sitepackage/Resources/Private/Templates/Sites/Error.html</source>
+        <target state="translated">EXT:my_sitepackage/Resources/Private/Templates/Sites/Error.html</target>
+      </trans-unit>
       <trans-unit id="site_errorhandling.errorFluidTemplatesRootPath" approved="yes">
         <source>Fluid Templates Root Path</source>
         <target state="translated">Rootpad voor Fluid-sjablonen</target>
@@ -194,6 +218,14 @@
       <trans-unit id="site_errorhandling.errorPhpClassFQCN" approved="yes">
         <source>ErrorHandler Class Target (FQCN)</source>
         <target state="translated">Doelklasse van foutafhandeling (FQCN)</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorPhpClassFQCN.placeholder" approved="yes">
+        <source>Vendor\ExtensionName\ErrorHandlers\GenericErrorhandler</source>
+        <target state="translated">Vendor\ExtensionName\ErrorHandlers\GenericErrorhandler</target>
+      </trans-unit>
+      <trans-unit id="site_route.ctrl.title" approved="yes">
+        <source>Routes</source>
+        <target state="translated">Routes</target>
       </trans-unit>
       <trans-unit id="site_route.type" approved="yes">
         <source>Route Type</source>
@@ -218,6 +250,10 @@
       <trans-unit id="site_route.route.placeholder" approved="yes">
         <source>my-custom_route</source>
         <target state="translated">mijn-eigen-route</target>
+      </trans-unit>
+      <trans-unit id="site_route.route.example1" approved="yes">
+        <source>robots.txt</source>
+        <target state="translated">robots.txt</target>
       </trans-unit>
     </body>
   </file>
