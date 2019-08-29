@@ -15,6 +15,15 @@
         <source>For most people TYPO3 is equivalent to a CMS providing a backend for management of the content and a frontend engine for website display. However TYPO3s core is natively designed to be a general purpose framework for management of database content. The core of TYPO3 delivers a set of principles for storage of this content, user access management, editing of the content, uploading and managing files etc. Many of these principles are expressed as an API (Application Programmers Interface) for use in the &lt;em&gt;extensions&lt;/em&gt; which ultimately adds most of the real functionality.</source>
         <target state="translated">For de fleste mennesker er TYPO3 lig med et Content Management System (CMS) der giver backend til at administrere indhold og en frontend der fremviser hjemmesiden.. Men TYPO3's kerne er oprindelig designet til at være et generelt anvendeligt framework for håndtering af databaseindhold. TYPO3's kerne leverer et sæt principper for lagring af dette indhold, styring af brugeradgang, redigering af indhold, overførsel og håndtering af filer etc. Mange af disse principper stilles til rådighed som et API (Application Programmers Interface) for brug i udvidelsesmodulerne som dermed tilføjer det meste funktionalitet.</target>
       </trans-unit>
+      <trans-unit id="_.seeAlso" approved="yes">
+        <source>Inside TYPO3 | https://docs.typo3.org/typo3cms/InsideTypo3Reference/</source>
+        <target state="translated">Inside TYPO3 | https://docs.typo3.org/typo3cms/InsideTypo3Reference/</target>
+      </trans-unit>
+      <trans-unit id="_.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/login.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/login.png</target>
+      </trans-unit>
       <trans-unit id=".image_descr" approved="yes">
         <source>TYPO3 backend login screen.</source>
         <target state="translated">TYPO3 backend login-skærmbillede fra sommeren 2004 (version 3.6.1).</target>
@@ -43,6 +52,12 @@ More about Modules | https://docs.typo3.org/typo3cms/GettingStartedTutorial/Gene
 be_users:userMods,
 _MOD_user_setup:option_noMenuMode,
 Mere om Moduler | https://docs.typo3.org/typo3cms/GettingStartedTutorial/GeneralPrinciples/Index.html</target></trans-unit>
+      <trans-unit id="_menu_modules.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_2.png,
+EXT:core/Resources/Public/Images/cshimages/core_3.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_2.png,
+EXT:core/Resources/Public/Images/cshimages/core_3.png</target></trans-unit>
       <trans-unit id="menu_modules.image_descr" xml:space="preserve" approved="yes">
 				<source>This is the range of menu options for a typical backend user.
 For another backend user it might be different. This screenshot shows how another user has different permissions set and therefore access to other modules only. Also the backend language has been set different for this user.</source>
@@ -74,6 +89,16 @@ En meget central cache er databasecache-tabellen, "cache_hash", som det er nødv
 TYPO3 cacher også små konfigurationsscripts fra udvidelsesmodulerne "ext_localconf.php" og "ext_tables.php". Disse filer læses simpelthen fra alle indstallerede udvidelsesmoduler, og sammensættes i midlertidige PHP-scripts som lægges i typo3cond/ folderen med navne som "temp_CACHED_*.php". Sommetider er det nødvendigt at slette disse filer hverefter TYPO3 genererer dem igen fra originalerne. Dette gøres ved at klikke på linket ved det røde ikon "Ryd cache-filer i typo3conf".
 
 &lt;b&gt;Bemærk:&lt;/b&gt; Du bør ikke tømme disse cacher uden omtanke. At tømme cachen vil give dårligere performance for din webserver. Det cachede indhold skal naturligvis genereres forfra og dette tager tid og under kraftig belastning kan det giver meget lange svartider for din website.</target></trans-unit>
+      <trans-unit id="_menu_adminFunction.seeAlso" approved="yes">
+        <source>be_users:admin</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">be_users:admin</target>
+      </trans-unit>
+      <trans-unit id="_menu_adminFunction.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_1.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/core_1.png</target>
+      </trans-unit>
       <trans-unit id="pagetree.alttitle" approved="yes">
         <source>The Page Tree</source>
         <target state="translated">Sidetræet</target>
@@ -105,6 +130,16 @@ Brug af sidetræ (Animation) | FILE:EXT:welcome/modsub/ani_01.gif
 Klik på ikoner eller titler? (Animation) | FILE:EXT:welcome/modsub/ani_06.gif
 Oprettelse af sider (Animation) | FILE:EXT:welcome/modsub/ani_07.gif
 Flyt sider (Animation) | FILE:EXT:welcome/modsub/ani_08.gif</target></trans-unit>
+      <trans-unit id="_pagetree.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_4.png,
+EXT:core/Resources/Public/Images/cshimages/core_5.png,
+EXT:core/Resources/Public/Images/cshimages/core_6.png,
+EXT:core/Resources/Public/Images/cshimages/core_7.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_4.png,
+EXT:core/Resources/Public/Images/cshimages/core_5.png,
+EXT:core/Resources/Public/Images/cshimages/core_6.png,
+EXT:core/Resources/Public/Images/cshimages/core_7.png</target></trans-unit>
       <trans-unit id="pagetree.image_descr" xml:space="preserve" approved="yes">
 				<source>An example of a Page Tree in TYPO3. The page tree is available under any of the Web sub-modules in the menu.
 Clicking the icon of a page displays a context sensitive menu with options for that particular page.
@@ -149,6 +184,14 @@ Uploade filer | https://docs.typo3.org/typo3cms/GettingStartedTutorial/TheFileMo
 Detaljer omkring fil mounts | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/AccessControl/MoreAboutFileMounts/,
 sys_filemounts,
 xMOD_csh_corebe:filelist_module</target></trans-unit>
+      <trans-unit id="_filetree.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_8.png,
+EXT:core/Resources/Public/Images/cshimages/core_9.png,
+EXT:core/Resources/Public/Images/cshimages/core_10.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_8.png,
+EXT:core/Resources/Public/Images/cshimages/core_9.png,
+EXT:core/Resources/Public/Images/cshimages/core_10.png</target></trans-unit>
       <trans-unit id="filetree.image_descr" xml:space="preserve" approved="yes">
 				<source>The Folder Tree of the "fileadmin/" folder. This is mounted by default for "Admin"-users. Other users will have to have a file mount configured for them first.
 Clicking the icon of a folder displays the context menu of the folder.
@@ -203,6 +246,14 @@ xMOD_csh_corebe:filelist_module,
 xMOD_csh_corebe:TCEforms
 Selektiv redigering |https://docs.typo3.org/typo3cms/GettingStartedTutorial/TheListModuleAndClipboard/SelectiveEditing/
 Liste-modulet ("Inside TYPO3") | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/CoreModules/ListModule/,</target></trans-unit>
+      <trans-unit id="_list_module.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_11.png,
+EXT:core/Resources/Public/Images/cshimages/core_12.png,
+EXT:core/Resources/Public/Images/cshimages/core_34.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_11.png,
+EXT:core/Resources/Public/Images/cshimages/core_12.png,
+EXT:core/Resources/Public/Images/cshimages/core_34.png,</target></trans-unit>
       <trans-unit id="list_module.image_descr" xml:space="preserve" approved="yes">
 				<source>Here the page "Cameras" has been clicked in the page tree and in the right frame the Web&gt;List module shows the contents of the page. Here a single content element (Shop Plugin) is inserted in order to display the other items on the page which are three product records in this case.
 If you enable "Extended mode" and the "Clipboard" you will get additional buttons in the interface to operate on the records shown here. Also notice how you can click any record icon to get a "Clickmenu" for the element.
@@ -217,6 +268,11 @@ Bemærk også at du kan klikke ethvert elements ikon for at få en "Klikmenu" fo
       <trans-unit id="list_module_noId.description" approved="yes">
         <source>The Web&gt;List module must have a page ID passed to it before it can display any content. Please click a page title in the Page Tree.</source>
         <target state="translated">Web&gt;Liste modulet skal have et side ID valgt, før det kan vise indhold. Klik på en sidetitel i sidetræet.</target>
+      </trans-unit>
+      <trans-unit id="_list_module_noId.seeAlso" approved="yes">
+        <source>xMOD_csh_corebe:list_module</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">xMOD_csh_corebe:list_module</target>
       </trans-unit>
       <trans-unit id="list_module_root.alttitle" approved="yes">
         <source>Root of the Page Tree</source>
@@ -237,6 +293,12 @@ The List module ("Inside TYPO3") | https://docs.typo3.org/typo3cms/InsideTypo3Re
 				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
 			<target state="translated">xMOD_csh_corebe:list_module
 Liste-modulet ("Inside TYPO3") | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/CoreModules/ListModule/</target></trans-unit>
+      <trans-unit id="_list_module_root.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_13.png,
+EXT:core/Resources/Public/Images/cshimages/core_14.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_13.png,
+EXT:core/Resources/Public/Images/cshimages/core_14.png,</target></trans-unit>
       <trans-unit id="list_module_root.image_descr" xml:space="preserve" approved="yes">
 				<source>Example of records in the page tree root; Backend users, groups, filemounts and website languages.
 When "Admin"-users wants to create a new record in the page tree root they will see a limited number of record types to create. This reflects which tables are configured to be created in the page tree root.</source>
@@ -264,6 +326,12 @@ Brug klippebordet | https://docs.typo3.org/typo3cms/GettingStartedTutorial/TheLi
 Numerisk klippebord | https://docs.typo3.org/typo3cms/GettingStartedTutorial/TheListModuleAndClipboard/TheNumericClipboardPads-ManagingManyElements/
 Klippebord detaljer [Teknisk] | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/GeneralInterfaceFeatures/Clipboard/,
 Adgang til klippebord fra scripts [Teknisk] | https://docs.typo3.org/typo3cms/CoreApiReference/ApiOverview/Examples/Clipboard/</target></trans-unit>
+      <trans-unit id="_list_clipboard.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_16.png,
+EXT:core/Resources/Public/Images/cshimages/core_17.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_16.png,
+EXT:core/Resources/Public/Images/cshimages/core_17.png,</target></trans-unit>
       <trans-unit id="list_clipboard.image_descr" xml:space="preserve" approved="yes">
 				<source>Whenever you use the copy/cut/paste functions in the clickmenus you will actually use the clipboard to store the element internally in TYPO3.
 If you select one of the numeric clipboard pads you will be able to store more than a single element on the clipboard at a time. In the record listings you will then see checkboxes next to the elements by which you can select/deselect elements for the clipboard.</source>
@@ -276,6 +344,16 @@ If you select one of the numeric clipboard pads you will be able to store more t
         <source>By this search box you can do a free text search in all the listed records. You can also search recursively in sub-pages by selecting a number of levels to search in the selector box to the right of the search field.</source>
         <target state="translated">I søgeboksen kan du foretage fritekstsøgninger i alle de listede elementer. Du kan også søge rekursivt i undersider ved, i dropdown menu til højre for søgeboksen, at vælge antal niveauer der skal søges i.</target>
       </trans-unit>
+      <trans-unit id="_list_searchbox.seeAlso" approved="yes">
+        <source>xMOD_csh_corebe:list_module</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">xMOD_csh_corebe:list_module</target>
+      </trans-unit>
+      <trans-unit id="_list_searchbox.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_15.png,</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/core_15.png,</target>
+      </trans-unit>
       <trans-unit id="list_options.alttitle" approved="yes">
         <source>List module options</source>
         <target state="translated">Listemodul muligheder</target>
@@ -284,6 +362,20 @@ If you select one of the numeric clipboard pads you will be able to store more t
         <source>Enable additional options like the "Extended view" mode to see additional control buttons for each record in the listing or the "Clipboard" to see the clipboard and its content.</source>
         <target state="translated">Aktivér "Udvidet visning" tilstand for at se yderligere kontrolknapper og dermed flere muligheder for håndtering af elementer. Aktivér "Vis Klippebord" for at se klippebordet og dets indhold.</target>
       </trans-unit>
+      <trans-unit id="_list_options.seeAlso" xml:space="preserve" approved="yes">
+				<source>xMOD_csh_corebe:list_module,
+xMOD_csh_corebe:list_clipboard,
+xMOD_csh_corebe:filelist_options</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:list_module,
+xMOD_csh_corebe:list_clipboard,
+xMOD_csh_corebe:filelist_options</target></trans-unit>
+      <trans-unit id="_list_options.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_18.png,
+EXT:core/Resources/Public/Images/cshimages/core_19.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_18.png,
+EXT:core/Resources/Public/Images/cshimages/core_19.png,</target></trans-unit>
       <trans-unit id="list_options.image_descr" xml:space="preserve" approved="yes">
 				<source>The options checkboxes.
 Selecting "Extended view" will enable the control buttons in the record lists.</source>
@@ -296,6 +388,21 @@ Selecting "Extended view" will enable the control buttons in the record lists.</
         <source>The Pagetree Overview shows information related to pages for a branch of the page tree. This includes start- and stop-times, cache settings etc.</source>
         <target state="translated">Overblikket over sidetræet viser information, der er relateret til sider i en gren af sidetræet. Det inkluderer start- og stop-tider, cache-instillinger osv.</target>
       </trans-unit>
+      <trans-unit id="_pagetree_overview.seeAlso" xml:space="preserve" approved="yes">
+				<source>_MOD_web_info:func_0,
+_MOD_web_info:func_1,
+_MOD_web_info:func_2,
+_MOD_web_info:stat</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">_MOD_web_info:func_0,
+_MOD_web_info:func_1,
+_MOD_web_info:func_2,
+_MOD_web_info:stat</target></trans-unit>
+      <trans-unit id="_pagetree_overview.image" approved="yes">
+        <source>EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_1.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:frontend/Resources/Public/Images/cshimages/pagetree_overview_1.png</target>
+      </trans-unit>
       <trans-unit id="pagetree_overview.image_descr" approved="yes">
         <source>One of the features of the Pagetree Overview module is that you can see what types of records are found on pages in a branch. Here record counts are shown for a page tree branch 2 levels down.</source>
         <target state="translated">En af funktionerne ved overblikket over sidetræet er, at du kan se hvilke typer af elementer der findes på en side i en gren af træet. Antallet af elementer vises for et sidetræ to niveauer ned.</target>
@@ -307,6 +414,17 @@ Selecting "Extended view" will enable the control buttons in the record lists.</
       <trans-unit id="new_regular.description" approved="yes">
         <source>This list shows the types of records (database tables) you can create on the page. Click a table name to select the type.</source>
         <target state="translated">Denne liste viser typer af elementer (database tabeller), som du kan oprette på siden. Klik på et tabelnavn for at vælge type.</target>
+      </trans-unit>
+      <trans-unit id="_new_regular.seeAlso" xml:space="preserve" approved="yes">
+				<source>xMOD_csh_corebe:new_ce,
+xMOD_csh_corebe:new_pages</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:new_ce,
+xMOD_csh_corebe:new_pages</target></trans-unit>
+      <trans-unit id="_new_regular.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_70.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/core_70.png</target>
       </trans-unit>
       <trans-unit id="new_regular.image_descr" approved="yes">
         <source>The selection of records a user can create on this particular page. The selection depends on the user's permissions and the page type. For example a Folder page type can contain any kind of record while regular pages can contain only some types (like Content Elements).</source>
@@ -328,6 +446,12 @@ How to create a new page | https://docs.typo3.org/typo3cms/GettingStartedTutoria
 			<target state="translated">xMOD_csh_corebe:new_regular,
 xMOD_csh_corebe:new_ce,
 Hvordan man opretter en ny side | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/NewPage/</target></trans-unit>
+      <trans-unit id="_new_pages.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_20.png,
+EXT:core/Resources/Public/Images/cshimages/core_21.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_20.png,
+EXT:core/Resources/Public/Images/cshimages/core_21.png,</target></trans-unit>
       <trans-unit id="new_pages.image_descr" xml:space="preserve" approved="yes">
 				<source>Between each page in the tree you find small icons that point out a place for a new page. Select a position by clicking one of these icons.
 To access the "Create new page wizard" in the first place, just click the link in the Create new record dialog.</source>
@@ -356,6 +480,14 @@ xMOD_csh_corebe:new_regular,
 Hvordan man opretter nyt sideindhold | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/NewPage/
 Mere om typen indholdselement | https://docs.typo3.org/typo3cms/GettingStartedTutorial/GeneralPrinciples/PageContent/
 Tilføje tilpassede elementer [teknisk] | https://docs.typo3.org/typo3cms/CoreApiReference/ApiOverview/Examples/ContentElementWizard/</target></trans-unit>
+      <trans-unit id="_new_ce.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_22.png,
+EXT:core/Resources/Public/Images/cshimages/core_23.png,
+EXT:core/Resources/Public/Images/cshimages/core_24.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_22.png,
+EXT:core/Resources/Public/Images/cshimages/core_23.png,
+EXT:core/Resources/Public/Images/cshimages/core_24.png,</target></trans-unit>
       <trans-unit id="new_ce.image_descr" xml:space="preserve" approved="yes">
 				<source>The Content Element wizard presents a set of preset types. Just select one by clicking its title.
 After selecting the type you will (often) have to select a position of the element among the other existing Content Elements on the page.
@@ -381,6 +513,12 @@ Moving pages | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCre
 			<target state="translated">xMOD_csh_corebe:move_el_cs,
 xMOD_csh_corebe:new_pages,
 Flytte sider | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/NewPage/</target></trans-unit>
+      <trans-unit id="_move_el_pages.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_27.png,
+EXT:core/Resources/Public/Images/cshimages/core_28.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_27.png,
+EXT:core/Resources/Public/Images/cshimages/core_28.png,</target></trans-unit>
       <trans-unit id="move_el_pages.image_descr" xml:space="preserve" approved="yes">
 				<source>The wizard works like when you create new pages with the wizard; You position the element by the grey arrows.
 To access the "Move page wizard" you open the clickmenu of the page, select "More options..." and then "Move page". Alternatively you can click the "Move page" icon in the "Extended view" of the Web&gt;List module.</source>
@@ -397,6 +535,18 @@ To access the "Move page wizard" you open the clickmenu of the page, select "Mor
         <source>By the grey icons in the content element list you can point out the new position of the content element. If you need to move the element to another page, simply browse the page tree in the bottom of the wizard.</source>
         <target state="translated">Via det grå ikon i indholdselement listen kan du udpege den nye position for indholdselementet. Hvis du har brug for at flytte elementet til en anden side kan du gennemse side træet i bunden af guiden.</target>
       </trans-unit>
+      <trans-unit id="_move_el_cs.seeAlso" xml:space="preserve" approved="yes">
+				<source>xMOD_csh_corebe:move_el_pages,
+xMOD_csh_corebe:new_regular</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:move_el_pages,
+xMOD_csh_corebe:new_regular</target></trans-unit>
+      <trans-unit id="_move_el_cs.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_25.png,
+EXT:core/Resources/Public/Images/cshimages/core_26.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_25.png,
+EXT:core/Resources/Public/Images/cshimages/core_26.png,</target></trans-unit>
       <trans-unit id="move_el_cs.image_descr" xml:space="preserve" approved="yes">
 				<source>The wizard works like when you create new Content Elements with the wizard; You position the element by the grey arrows.
 To access the "Move Content Element Wizard" you click the "Move element" icon in the "Extended view" of the Web&gt;List module.</source>
@@ -433,6 +583,12 @@ Undo/History article | http://typo3.org/documentation/tips-tricks/the-undohistor
 			<target state="translated">xMOD_csh_corebe:history_sum,
 Konfigurer Historie ved hjælp af Side TSconfig | https://docs.typo3.org/typo3cms/TSconfigReference/PageTsconfig/Mod/
 Fortryd/Historie artikel | http://typo3.org/documentation/tips-tricks/the-undohistory-feature/</target></trans-unit>
+      <trans-unit id="_history_log.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_37.png,
+EXT:core/Resources/Public/Images/cshimages/core_38.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_37.png,
+EXT:core/Resources/Public/Images/cshimages/core_38.png</target></trans-unit>
       <trans-unit id="history_log.image_descr" xml:space="preserve" approved="yes">
 				<source>You can access the History/Undo log from the Web&gt;List module when in "Extended view" mode. Alternatively you can access it under "More options..." in the clickmenu of an element.
 The History log shows visually the changes between each step of editing.</source>
@@ -457,6 +613,11 @@ Undo/History article | http://typo3.org/documentation/tips-tricks/the-undohistor
 				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
 			<target state="translated">xMOD_csh_corebe:history_entry,
 Fortryd/Historie artikel | http://typo3.org/documentation/tips-tricks/the-undohistory-feature/</target></trans-unit>
+      <trans-unit id="_history_sum.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_39.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/core_39.png</target>
+      </trans-unit>
       <trans-unit id="history_sum.image_descr" approved="yes">
         <source>The Info view of a state in history shows the "sum" of changes from current time to that point in history for the element.</source>
         <target state="translated">Informations visningen af en tilstand for elementet i historikken viser de "samlede" ændringer fra den nuværende tilstand til et tidspunkt valgt i historikken.</target>
@@ -472,6 +633,11 @@ Fortryd/Historie artikel | http://typo3.org/documentation/tips-tricks/the-undohi
       <trans-unit id="history_entry.details" approved="yes">
         <source>&lt;b&gt;Notice:&lt;/b&gt; If you do not see red/green difference values, the server TYPO3 runs on does not support making difference views or it has been incorrectly configured to provide this feature.</source>
         <target state="translated">&lt;b&gt;Bemærk:&lt;/b&gt; Hvis du ikke ser rød/grøn forskels værdier, understøtter serveren TYPO3 kører på ikke muligheden for at producere forskels visninger, eller også er denne konfigureret forkert.</target>
+      </trans-unit>
+      <trans-unit id="_history_entry.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_40.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/core_40.png</target>
       </trans-unit>
       <trans-unit id="TCEforms.alttitle" approved="yes">
         <source>TYPO3 Editing Forms</source>
@@ -515,6 +681,18 @@ xMOD_csh_corebe:list_module
 Bruger TSconfig relateret til formularer | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/Options/
 Side TSconfig relateret til formularer | https://docs.typo3.org/typo3cms/CoreApiReference/Rte/Transformations/Tsconfig/
 Linkning til redigeringsformularer [Technical] | https://docs.typo3.org/typo3cms/CoreApiReference/ApiOverview/Examples/EditLinks/</target></trans-unit>
+      <trans-unit id="_TCEforms.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_30.png,
+EXT:core/Resources/Public/Images/cshimages/core_29.png,
+EXT:core/Resources/Public/Images/cshimages/core_32.png,
+EXT:core/Resources/Public/Images/cshimages/core_33.png,
+EXT:core/Resources/Public/Images/cshimages/core_31.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_30.png,
+EXT:core/Resources/Public/Images/cshimages/core_29.png,
+EXT:core/Resources/Public/Images/cshimages/core_32.png,
+EXT:core/Resources/Public/Images/cshimages/core_33.png,
+EXT:core/Resources/Public/Images/cshimages/core_31.png,</target></trans-unit>
       <trans-unit id="TCEforms.image_descr" xml:space="preserve" approved="yes">
 				<source>This is how a typical record is edited in TYPO3. The form display is standardized for all types of records. You will always see the same buttons in the top for saving or closing. In the blue bar you will see the type of record (table name) and the ID number that each record has (uid). Here the record is a page with ID "2" and the title "Content Elements".
 The "additional fields" from the example above is located in a so called "palette". This is an example of three content elements being edited at the same time. You can edit multiple records by using the links from the Web&gt;List module in single-table mode. Notice that not only are three records shown at the same time - it is also a limited number of fields shown for editing, here "Header" and "Hide". You can combine this almost any way you like. This is of course very useful if you need to edit only the header of multiple records.</source>
@@ -535,6 +713,11 @@ If cache options are not available for you, you should ask your administrator to
       <trans-unit id="_TCEforms_cacheSelector.seeAlso" approved="yes">
         <source>User TSconfig (See "clearCache.pages/.all") | https://docs.typo3.org/typo3cms/TSconfigReference/PageTsconfig/Options/</source>
         <target state="translated">Bruger TSconfig (Se "clearCache.pages/.all") | https://docs.typo3.org/typo3cms/TSconfigReference/PageTsconfig/Options/</target>
+      </trans-unit>
+      <trans-unit id="_TCEforms_cacheSelector.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_36.png,</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/core_36.png,</target>
       </trans-unit>
       <trans-unit id="perm_module.alttitle" approved="yes">
         <source>Viewing page permissions</source>
@@ -564,6 +747,12 @@ _MOD_user_setup:option_helpText</source>
 Brugeradministration Howto | https://docs.typo3.org/typo3cms/GettingStartedTutorial/UserManagement/SettingUpUserPermissions/
 Rettighedssystem i TYPO3 [teknisk] | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/AccessControl/AccessControlOptions/,
 _MOD_user_setup:option_helpText</target></trans-unit>
+      <trans-unit id="_perm_module.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_43.png,
+EXT:core/Resources/Public/Images/cshimages/core_41.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_43.png,
+EXT:core/Resources/Public/Images/cshimages/core_41.png,</target></trans-unit>
       <trans-unit id="perm_module_setting.alttitle" approved="yes">
         <source>Setting permissions for a page</source>
         <target state="translated">At sætte rettigheder for en side</target>
@@ -596,6 +785,11 @@ User Management Howto | https://docs.typo3.org/typo3cms/GettingStartedTutorial/U
 				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
 			<target state="translated">xMOD_csh_corebe:perm_module,
 Brugeradministration Howto | https://docs.typo3.org/typo3cms/GettingStartedTutorial/UserManagement/SettingUpUserPermissions/</target></trans-unit>
+      <trans-unit id="_perm_module_setting.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_42.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/core_42.png</target>
+      </trans-unit>
       <trans-unit id="perm_module_setting.image_descr" approved="yes">
         <source>In this matrix you can set permissions for owner, group and everybody in the five categories available.</source>
         <target state="translated">I denne tabel kan du sætte rettigheder for ejer, gruppe og alle i de fem tilgængelige kategorier.</target>
@@ -618,6 +812,22 @@ There is a special folder, the "TEMP" folder. This is meant to be used for tempo
 The actual folder name is actually "_temp_". The interface will just interprete this with "TEMP" in bold.
 The same applies to folders named "_recycler_" - they will be trash cans in the folder tree.</source>
 			<target state="translated">Fil &gt; Filliste modulet giver vigtigste brugerflade til de web-baserede ”FTP-muligheder” i TYPO3. Hvis du klikker på en mappe i navigations skærmbilledet, vil filerne i den valgte mappe, vises i en liste i højre side. Hvis du klikker på en fils ikon, vil du se en klikmenu komme frem med valgmuligheder relateret til filen eller mappen. Dette gør dig blandt andet i stand til at redigere, omdøbe og kopiere filer. &lt;b&gt;”TEMP” mappen&lt;/b&gt; Der er en speciel mappe, ”TEMP” mappen. Denne er tiltænkt midlertidige filer - der senere vedhæftes TYPO3 elementer. Indhold i TEMP mappen, skal være mulig at tømme ind imellem, når mappen bliver for fyldt med filer. Gem derfor IKKE blivende filer der. Mappens aktuelle navn er ”_temp_”. Brugerfladen gør, at dette bliver vist som ”TEMP” i stort. Det samme sker med foldere navngivet som ”_recycler_” - denne bliver til en skraldespand i mappetræet.</target></trans-unit>
+      <trans-unit id="_filelist_module.seeAlso" xml:space="preserve" approved="yes">
+				<source>xMOD_csh_corebe:list_module,
+xMOD_csh_corebe:filetree,
+be_groups:file_mountpoints,
+sys_filemounts</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:list_module,
+xMOD_csh_corebe:filetree,
+be_groups:file_mountpoints,
+sys_filemounts</target></trans-unit>
+      <trans-unit id="_filelist_module.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_47.png,
+EXT:core/Resources/Public/Images/cshimages/core_49.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_47.png,
+EXT:core/Resources/Public/Images/cshimages/core_49.png</target></trans-unit>
       <trans-unit id="filelist_module.image_descr" xml:space="preserve" approved="yes">
 				<source>Here the content of the TEMP folder is shown in the list frame. You can see the filetype, the modification time, size of the file. If you click the filename you will open the file in the browser (if the path is in the web-root).
 When you click a file icon you see a context menu appear over it. Here you can perform file operations on the item.</source>
@@ -636,6 +846,12 @@ About the Clipboard [Technical] | https://docs.typo3.org/typo3cms/InsideTypo3Ref
 				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
 			<target state="translated">xMOD_csh_corebe:list_clipboard,
 Om klippebordet [teknisk] | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/GeneralInterfaceFeatures/Clipboard/Submit</target></trans-unit>
+      <trans-unit id="_filelist_clipboard.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_44.png,
+EXT:core/Resources/Public/Images/cshimages/core_46.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_44.png,
+EXT:core/Resources/Public/Images/cshimages/core_46.png</target></trans-unit>
       <trans-unit id="filelist_clipboard.image_descr" xml:space="preserve" approved="yes">
 				<source>This shows the "Normal" pad on the clipboard. Here an image is now stored. The "Thumbnails" button of the clipboard is enabled so you will see the image icon.
 When the numeric clipboard pads are enabled you will be able to place multiple items on the clipboard at one time. If the items selected are found in the current folder you can also see the selection reflected in the checkboxes of the items. To paste the contents into a file folder you use the paste icons available in the Filelist module.</source>
@@ -648,6 +864,19 @@ When the numeric clipboard pads are enabled you will be able to place multiple i
         <source>You can enable the display of image thumbnails and show the clipboard if you need to copy/cut/paste multiple files or folders at a time.</source>
         <target state="translated">Du kan slå visning af billedminiaturer til og vise klippebordet, hvis du har brug for at kopiere/klippe/indsætte flere filer eller mapper på en gang.</target>
       </trans-unit>
+      <trans-unit id="_filelist_options.seeAlso" xml:space="preserve" approved="yes">
+				<source>xMOD_csh_corebe:list_options,
+_MOD_user_setup:option_showThumbs,
+xMOD_csh_corebe:filelist_clipboard</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:list_options,
+_MOD_user_setup:option_showThumbs,
+xMOD_csh_corebe:filelist_clipboard</target></trans-unit>
+      <trans-unit id="_filelist_options.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_48.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/core_48.png</target>
+      </trans-unit>
       <trans-unit id="filelist_options.image_descr" approved="yes">
         <source>Enabling thumbnails means that all image file types will be displayed with their thumbnails. This makes it easy to browse an archive of files.</source>
         <target state="translated">At slå miniaturer til betyder at alle billedfiltyper vil blive vist med deres miniaturer. Dette gør det nemt at gennemse et arkiv af filer.</target>
@@ -659,6 +888,16 @@ When the numeric clipboard pads are enabled you will be able to place multiple i
       <trans-unit id="file_edit.description" approved="yes">
         <source>You can edit the contents of a text file with this dialog.</source>
         <target state="translated">Du kan redigere en tekstfil´s indhold med denne dialog.</target>
+      </trans-unit>
+      <trans-unit id="_file_edit.seeAlso" approved="yes">
+        <source>xMOD_csh_corebe:filelist_module</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">xMOD_csh_corebe:filelist_module</target>
+      </trans-unit>
+      <trans-unit id="_file_edit.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_50.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/core_50.png</target>
       </trans-unit>
       <trans-unit id="file_edit.image_descr" approved="yes">
         <source>The editing form for a file is this simple textarea field. It's nothing fancy and experienced coders will miss such as TAB-functionality, but it can edit a stylesheet if badly needed...</source>
@@ -680,6 +919,22 @@ When the numeric clipboard pads are enabled you will be able to place multiple i
         <source>Enter a name for a new file folder in the tree here. If you want to create multiple folders, please select the number of new folders before entering folder names.</source>
         <target state="translated">Indtast et navn på en ny mappe i filtræet her. Hvis du vil oprette flere mapper, vælg da venligst antallet af nye mapper, inden du indtaster mappernes navne.</target>
       </trans-unit>
+      <trans-unit id="_file_newfolder.seeAlso" xml:space="preserve" approved="yes">
+				<source>xMOD_csh_corebe:filelist_module,
+xMOD_csh_corebe:file_newfile,
+xMOD_csh_corebe:file_rename</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:filelist_module,
+xMOD_csh_corebe:file_newfile,
+xMOD_csh_corebe:file_rename</target></trans-unit>
+      <trans-unit id="_file_newfolder.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_51.png,
+EXT:core/Resources/Public/Images/cshimages/core_52.png,
+EXT:core/Resources/Public/Images/cshimages/core_53.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_51.png,
+EXT:core/Resources/Public/Images/cshimages/core_52.png,
+EXT:core/Resources/Public/Images/cshimages/core_53.png,</target></trans-unit>
       <trans-unit id="file_newfolder.image_descr" xml:space="preserve" approved="yes">
 				<source>To create a new folder you first click the parent folder icon in the folder tree.
 As the next step you select the number of folders to create and then you enter the new folder names.
@@ -697,6 +952,24 @@ After pressing the "Create folders" button the folders will appear in the folder
         <source>Newly created files will have the size of 0 (zero). After creating a new file it would be natural that you wanted to edit the file to put content into it. This is done simply by clicking the icon of the file and select "Edit" from the clickmenu.</source>
         <target state="translated">De nyest oprettede filer vil have en filstørrelse på 0 (nul). Efter du har oprettet en ny fil, vil det være naturligt at rette i den, for at sætte indhold ind i den. Dette gøres simpelt ved at klikke på filens ikon og vælge ”Rediger” fra klikmenuen.</target>
       </trans-unit>
+      <trans-unit id="_file_newfile.seeAlso" xml:space="preserve" approved="yes">
+				<source>xMOD_csh_corebe:file_edit,
+xMOD_csh_corebe:filelist_module,
+xMOD_csh_corebe:file_newfolder,
+xMOD_csh_corebe:file_rename</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:file_edit,
+xMOD_csh_corebe:filelist_module,
+xMOD_csh_corebe:file_newfolder,
+xMOD_csh_corebe:file_rename</target></trans-unit>
+      <trans-unit id="_file_newfile.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_51.png,
+EXT:core/Resources/Public/Images/cshimages/core_54.png,
+EXT:core/Resources/Public/Images/cshimages/core_55.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_51.png,
+EXT:core/Resources/Public/Images/cshimages/core_54.png,
+EXT:core/Resources/Public/Images/cshimages/core_55.png,</target></trans-unit>
       <trans-unit id="file_newfile.image_descr" xml:space="preserve" approved="yes">
 				<source>To create a new file, first click the folder icon where you want to create the file. Select "New".
 Then enter the filename in the dialog in the right frame.
@@ -718,6 +991,17 @@ After pressing "Create file" you will see a new, empty file in the folder you se
         <source>You can rename files or folders in TYPO3 quite easily. Just notice that certain characters are not allowed. So use a-z, numbers, underscores and don't make the names too long. If you enter invalid characters it will be automatically corrected.</source>
         <target state="translated">Du kan omdøbe filer eller mapper i TYPO3 ret nemt. Husk at nogle tegn ikke er tilladt. Brug a-z, numre, underscores og lav ikke navnene for lange. Hvis du skriver ugyldige tegn vil det automatisk blive rettet.</target>
       </trans-unit>
+      <trans-unit id="_file_rename.seeAlso" approved="yes">
+        <source>xMOD_csh_corebe:filelist_module</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">xMOD_csh_corebe:filelist_module</target>
+      </trans-unit>
+      <trans-unit id="_file_rename.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_56.png,
+EXT:core/Resources/Public/Images/cshimages/core_57.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_56.png,
+EXT:core/Resources/Public/Images/cshimages/core_57.png,</target></trans-unit>
       <trans-unit id="file_rename.image_descr" xml:space="preserve" approved="yes">
 				<source>To rename a file (or folder for that sake) just click the icon of it, select "Rename" and enter the new name.
 Notice that restrictions may apply on filenaming, for instance ".php" is usually not a valid extension of a filename for security reasons.</source>
@@ -743,6 +1027,12 @@ How-to upload files | https://docs.typo3.org/typo3cms/GettingStartedTutorial/The
 				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
 			<target state="translated">xMOD_csh_corebe:filelist_module,
 Howto upload af filer | https://docs.typo3.org/typo3cms/GettingStartedTutorial/TheFileModuleOrImageArchives/UploadingImagesToTheArchive/</target></trans-unit>
+      <trans-unit id="_file_upload.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_58.png,
+EXT:core/Resources/Public/Images/cshimages/core_59.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_58.png,
+EXT:core/Resources/Public/Images/cshimages/core_59.png,</target></trans-unit>
       <trans-unit id="file_upload.image_descr" xml:space="preserve" approved="yes">
 				<source>To upload files, first click the folder icon where you want to upload to. From the clickmenu you select "Upload files".
 In the next screen you select the number of files and click the "Browse..." buttons to select files from your computer. Finally you click the "Upload files" button to start the upload process (which might take some minutes with large files!)</source>
@@ -766,6 +1056,11 @@ Table Wizard details [Technical]| https://docs.typo3.org/typo3cms/TCAReference/A
 				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
 			<target state="translated">xMOD_csh_corebe:wizard_forms_wiz,
 Tabelguide detaljer [teknisk]| https://docs.typo3.org/typo3cms/TCAReference/AdditionalFeatures/CoreWizardScripts/</target></trans-unit>
+      <trans-unit id="_wizard_table_wiz.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_63.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/core_63.png</target>
+      </trans-unit>
       <trans-unit id="wizard_table_wiz_buttons.alttitle" approved="yes">
         <source>Table wizard buttons</source>
         <target state="translated">Tabelguide knapper</target>
@@ -773,6 +1068,11 @@ Tabelguide detaljer [teknisk]| https://docs.typo3.org/typo3cms/TCAReference/Addi
       <trans-unit id="wizard_table_wiz_buttons.description" approved="yes">
         <source>Use the refresh button to update the form without saving it. When you are done you should click one of the real save buttons to save and return to the form from which you entered the wizard. The information from this wizard should then be saved into the field the wizard was associated with.</source>
         <target state="translated">Brug opdater knappen for at opdatere formularen uden at gemme den. Når du er færdig, skal du klikke på en af de de rigtige gemme knapper for at gemme og vende tilbage til formularen hvor du startede guiden.</target>
+      </trans-unit>
+      <trans-unit id="_wizard_table_wiz_buttons.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_62.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/core_62.png</target>
       </trans-unit>
       <trans-unit id="shortcuts.alttitle" approved="yes">
         <source>Backend Shortcuts</source>
@@ -795,6 +1095,16 @@ Editing pages from an id is easy with the shortcut frame. Simply enter an intege
         <source>User TSconfig -&gt;SETUP | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/Options/</source>
         <target state="translated">Bruger TSconfig -&gt;SETUP | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/Options/</target>
       </trans-unit>
+      <trans-unit id="_shortcuts.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_64.png,
+EXT:core/Resources/Public/Images/cshimages/core_65.png,
+EXT:core/Resources/Public/Images/cshimages/core_67.png,
+EXT:core/Resources/Public/Images/cshimages/core_68.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_64.png,
+EXT:core/Resources/Public/Images/cshimages/core_65.png,
+EXT:core/Resources/Public/Images/cshimages/core_67.png,
+EXT:core/Resources/Public/Images/cshimages/core_68.png,</target></trans-unit>
       <trans-unit id="shortcuts.image_descr" xml:space="preserve" approved="yes">
 				<source>To create a shortcut to a page, just click the short cut icon usually found in the bottom of pages.
 You will have to confirm the creation of the shortcut. It is nothing dangerous - only annoying to clean up if you happen to create shortcuts against your own will. Just answer "OK" here.
@@ -817,6 +1127,16 @@ You can name shortcuts, you can even group them and share them. If you want to e
         <source>User TSconfig -&gt;SETUP | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/Options/</source>
         <target state="translated">Bruger TSconfig -&gt;SETUP | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/Options/</target>
       </trans-unit>
+      <trans-unit id="_bookmarks.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_64.png,
+EXT:core/Resources/Public/Images/cshimages/core_65.png,
+EXT:core/Resources/Public/Images/cshimages/core_67.png,
+EXT:core/Resources/Public/Images/cshimages/core_68.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_64.png,
+EXT:core/Resources/Public/Images/cshimages/core_65.png,
+EXT:core/Resources/Public/Images/cshimages/core_67.png,
+EXT:core/Resources/Public/Images/cshimages/core_68.png,</target></trans-unit>
       <trans-unit id="bookmarks.image_descr" xml:space="preserve" approved="yes">
 				<source>To create a bookmark to a page, just click the star icon usually found in the top of pages.
 You will have to confirm the creation of the bookmark. It is nothing dangerous - only annoying to clean up if you happen to create bookmarks against your own will. Just answer "OK" here.
