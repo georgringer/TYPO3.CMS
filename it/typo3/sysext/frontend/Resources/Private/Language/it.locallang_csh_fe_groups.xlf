@@ -24,6 +24,11 @@ For instance if a page or content element was assigned access only by this group
 
 &lt;b&gt;Notice:&lt;/b&gt; The use for this option is not critical if you have multiple Website user storages, namely one for each site.</source>
 			<target state="translated">Questa opzione è importante se hai  siti web distinti nello stesso database di TYPO3 e dotati  ancora  di una sola pagina principale nella quale tutti gli utenti vengono salvati. In questo modo gli utenti dovranno fare un diverso login in ciascuno degli indirizzi associati al sito web. Questo può essere considerato una caratteristica positiva (avendo un login globale come un utente) o un problema (nel caso ci dovessero essere differenti cartelle utente). Si può voler limitare l'uso di un usergroup ad un determinato sito web, e non permettere il login da url differenti. Inserendo l'host name del sito, si fa in modo che il gruppo di utenti  sia usato solo da questo dominio. &lt;b&gt;Nota:&lt;/b&gt; L'uso di questa opzione non è critica se hai Website user storages multipli, ovvero una cartella-utenti  per ciascun sito.</target></trans-unit>
+      <trans-unit id="_lockToDomain.seeAlso" approved="yes">
+        <source>fe_users:lockToDomain</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_users:lockToDomain</target>
+      </trans-unit>
       <trans-unit id="subgroup.description" approved="yes">
         <source>Member of other groups.</source>
         <target state="translated">Membro di altri gruppi.</target>
@@ -51,6 +56,11 @@ The configuration is subject to being overridden in other groups and by the TSco
       <trans-unit id="TSconfig.syntax" approved="yes">
         <source>TypoScript syntax, without conditions and constants.</source>
         <target state="translated">Sintassi TypoScript, senza condizioni e costanti.</target>
+      </trans-unit>
+      <trans-unit id="_TSconfig.seeAlso" approved="yes">
+        <source>fe_users:TSconfig</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_users:TSconfig</target>
       </trans-unit>
       <trans-unit id=".description" approved="yes">
         <source>Usergroups for Website users.</source>
