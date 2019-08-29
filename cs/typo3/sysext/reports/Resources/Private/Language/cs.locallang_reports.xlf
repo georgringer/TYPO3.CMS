@@ -15,6 +15,10 @@
         <source>Here you can find a short overview of your site's parameters as well as any problems detected with your installation. It may be useful to copy and paste this information into support requests filed on TYPO3's support mailinglists and project issue trackers.</source>
         <target state="translated">Zde najdete krátký přehled o parametrech vašich stránek, jakož i všechny zjištěné problémy s instalací. Může být užitečné zkopírovat a vložit tuto informaci do žádosti o podporu odeslané do e-mailové diskusní skupiny podpory TYPO3 a do systému sledování chyb.</target>
       </trans-unit>
+      <trans-unit id="status_ok" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
+      </trans-unit>
       <trans-unit id="status_insecure" approved="yes">
         <source>Insecure</source>
         <target state="translated">Nejisté</target>
@@ -99,6 +103,14 @@
         <source>Memcached Configuration</source>
         <target state="translated">Konfigurace memcached</target>
       </trans-unit>
+      <trans-unit id="status_PhpSafeMode" approved="yes">
+        <source>PHP safe_mode</source>
+        <target state="translated">PHP safe_mode</target>
+      </trans-unit>
+      <trans-unit id="status_PhpMagicQuotesGpc" approved="yes">
+        <source>PHP magic_quotes_gpc</source>
+        <target state="translated">PHP magic_quotes_gpc</target>
+      </trans-unit>
       <trans-unit id="status_CreatedFilePermissions" approved="yes">
         <source>Permissions of created files</source>
         <target state="translated">Oprávnění vytvořených souborů</target>
@@ -182,6 +194,10 @@
       <trans-unit id="status_phpPeakMemoryClearFlag" approved="yes">
         <source>Clear this flag</source>
         <target state="translated">Zrušit tento příznak</target>
+      </trans-unit>
+      <trans-unit id="status_phpRegisterGlobals" approved="yes">
+        <source>PHP Register Globals</source>
+        <target state="translated">PHP Register Globals</target>
       </trans-unit>
       <trans-unit id="status_phpRegisterGlobalsEnabled" approved="yes">
         <source>%s is enabled. TYPO3 requires this configuration directive to be disabled.</source>
