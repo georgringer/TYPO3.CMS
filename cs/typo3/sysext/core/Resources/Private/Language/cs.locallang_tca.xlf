@@ -27,6 +27,10 @@
         <source>Create new workspace projects</source>
         <target state="translated">Vyvořit nový projekt pracovní plochy</target>
       </trans-unit>
+      <trans-unit id="TSconfig_title" approved="yes">
+        <source>TSconfig QuickReference</source>
+        <target state="translated">TSconfig QuickReference</target>
+      </trans-unit>
       <trans-unit id="be_users.usergroup_edit_title" approved="yes">
         <source>Edit usergroup</source>
         <target state="translated">Upravit skupinu uživatele</target>
@@ -423,6 +427,10 @@
         <source>Unknown</source>
         <target state="translated">Neznámý</target>
       </trans-unit>
+      <trans-unit id="sys_file.type.text" approved="yes">
+        <source>Text</source>
+        <target state="translated">Text</target>
+      </trans-unit>
       <trans-unit id="sys_file.type.image" approved="yes">
         <source>Image</source>
         <target state="translated">Obrázek</target>
@@ -431,9 +439,21 @@
         <source>Audio</source>
         <target state="translated">Zvuk</target>
       </trans-unit>
+      <trans-unit id="sys_file.type.video" approved="yes">
+        <source>Video</source>
+        <target state="translated">Video</target>
+      </trans-unit>
+      <trans-unit id="sys_file.type.software" approved="yes">
+        <source>Software</source>
+        <target state="translated">Software</target>
+      </trans-unit>
       <trans-unit id="sys_file.mime_type" approved="yes">
         <source>Mime Type</source>
         <target state="translated">Mime Typ</target>
+      </trans-unit>
+      <trans-unit id="sys_file.sha1" approved="yes">
+        <source>SHA1</source>
+        <target state="translated">SHA1</target>
       </trans-unit>
       <trans-unit id="sys_file.size" approved="yes">
         <source>Size</source>
