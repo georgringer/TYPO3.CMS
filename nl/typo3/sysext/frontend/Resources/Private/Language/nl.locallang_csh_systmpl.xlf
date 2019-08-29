@@ -12,6 +12,19 @@
 Basically, create a 'Template' record, enter a title and make sure to check of Clear constants, setup and Rootline. Then enter some TypoScript configuration in the Setup field and you're set.
 It's very important to read how to do all this in the documents listed below! Also make sure you use the Web&gt;Template module to do all the working with templates. It's a specialized tool to help you with this.</source>
 			<target state="translated">De 'Sjabloon' records zijn de vitale componenten om het aanzicht van de webpagina's te bepalen. Hoe je je pagina ook op wilt bouwen, hij moet worden geinitieerd door een 'Sjabloon' record in de root van de pagina boom van de site. Maak eenvoudigweg een 'Sjabloon' record, voer een titel in, vink 'Clear constants', 'setup' en 'Rootline' aan. Voer dan wat TypoScxript configuratie in het Setup veld en klaar is Kees. Het is belangrijk dat je in de documentatie naleest hoe je dit allemaal moet doen! Zorg ervoor dat je de Web&gt;TS module gebruikt wanneer je aan templates werkt. Het is een speciale tool om je hierbij te helpen.</target></trans-unit>
+      <trans-unit id="_.seeAlso" xml:space="preserve" approved="yes">
+				<source>static_template
+TSref | https://docs.typo3.org/typo3cms/TyposcriptReference/
+TypoScript in 45 min| https://docs.typo3.org/typo3cms/TyposcriptIn45MinutesTutorial/</source>
+			<target state="translated">static_template
+TSref | https://docs.typo3.org/typo3cms/TyposcriptReference/
+TypoScript in 45 min| https://docs.typo3.org/typo3cms/TyposcriptIn45MinutesTutorial/</target></trans-unit>
+      <trans-unit id="_.image" xml:space="preserve" approved="yes">
+				<source>EXT:frontend/Resources/Public/Images/cshimages/systemplate.png,
+EXT:frontend/Resources/Public/Images/cshimages/systemplate1.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:frontend/Resources/Public/Images/cshimages/systemplate.png,
+EXT:frontend/Resources/Public/Images/cshimages/systemplate1.png</target></trans-unit>
       <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
 				<source>A Template Record with constants and setup code.
 The Web&gt;Template module contains tools which will help you to edit and validate TypoScript structures.</source>
@@ -44,10 +57,31 @@ The Web&gt;Template module contains tools which will help you to edit and valida
         <source>TypoScript Constants.</source>
         <target state="translated">TypoScript constanten.</target>
       </trans-unit>
+      <trans-unit id="_constants.seeAlso" approved="yes">
+        <source>static_template:constants</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">static_template:constants</target>
+      </trans-unit>
+      <trans-unit id="config.description" approved="yes">
+        <source>TypoScript Setup code</source>
+        <target state="translated">TypoScript Setup code</target>
+      </trans-unit>
       <trans-unit id="config.details" approved="yes">
         <source>Read more about TypoScript Templates in TSref, TypoScript by Example and Getting Started.</source>
         <target state="translated">Lees meer over TypoScript sjablonen in TSref, TypoScript by Example en Getting Started.</target>
       </trans-unit>
+      <trans-unit id="_config.seeAlso" xml:space="preserve" approved="yes">
+				<source>static_template:config,
+TSref | https://docs.typo3.org/typo3cms/TyposcriptReference/
+Getting Started | https://docs.typo3.org/typo3cms/GettingStartedTutorial/
+TypoScript in 45 min| https://docs.typo3.org/typo3cms/TyposcriptIn45MinutesTutorial/
+TypoScript Syntax | https://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="translated">static_template:config,
+TSref | https://docs.typo3.org/typo3cms/TyposcriptReference/
+Getting Started | https://docs.typo3.org/typo3cms/GettingStartedTutorial/
+TypoScript in 45 min| https://docs.typo3.org/typo3cms/TyposcriptIn45MinutesTutorial/
+TypoScript Syntax | https://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/</target></trans-unit>
       <trans-unit id="resources.description" approved="yes">
         <source>Resource files for the template. For example a logo, a TTF-font etc.</source>
         <target state="translated">Hulpbestand voor het sjabloon. Bijvoorbeeld een logo, een TTF-lettertype etc.</target>
@@ -64,9 +98,24 @@ The Web&gt;Template module contains tools which will help you to edit and valida
         <source>In the Web &gt; Template / Template Analyzer module you can see how far back in the template tree that constants and setup code is inherited.</source>
         <target state="translated">In de Web &gt; Sjabloon / Template Analyser module kunt u zien hoe ver terug in de sjabloonboom de constanten en setup code is ingesteld.</target>
       </trans-unit>
+      <trans-unit id="_clear.seeAlso" approved="yes">
+        <source>sys_template:root</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">sys_template:root</target>
+      </trans-unit>
+      <trans-unit id="_clear.image" approved="yes">
+        <source>EXT:frontend/Resources/Public/Images/cshimages/systemplate2.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:frontend/Resources/Public/Images/cshimages/systemplate2.png</target>
+      </trans-unit>
       <trans-unit id="root.description" approved="yes">
         <source>Defines that the template represents a root of a website.</source>
         <target state="translated">Definieert dat het sjabloon de root van de website vertegenwoordigd.</target>
+      </trans-unit>
+      <trans-unit id="_root.seeAlso" approved="yes">
+        <source>sys_template:clear</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">sys_template:clear</target>
       </trans-unit>
       <trans-unit id="includeStaticAfterBasedOn.description" approved="yes">
         <source>If set, static templates will be included after "based-on" templates. It basically swaps the order of inclusion of these external TypoScript sources.</source>
@@ -80,6 +129,10 @@ The Web&gt;Template module contains tools which will help you to edit and valida
         <source>Static Template records to include.</source>
         <target state="translated">Statische sjabloonrecords om op te nemen.</target>
       </trans-unit>
+      <trans-unit id="_include_static.seeAlso" approved="yes">
+        <source>static_template</source>
+        <target state="translated">static_template</target>
+      </trans-unit>
       <trans-unit id="include_static_file.description" approved="yes">
         <source>Static Template files to include.</source>
         <target state="translated">Statische sjabloonbestanden om op te nemen</target>
@@ -87,6 +140,11 @@ The Web&gt;Template module contains tools which will help you to edit and valida
       <trans-unit id="include_static_file.details" approved="yes">
         <source>Static template files are registered by extensions contrary to Static Template records which come from the static database table, "static_template".</source>
         <target state="translated">Statische sjabloonbestanden zijn vastgelegd door extensies, in tegenstelling tot Statische sjabloonrecords welke afkomstig zijn van de statische database tabel "static_template".</target>
+      </trans-unit>
+      <trans-unit id="_include_static_file.seeAlso" approved="yes">
+        <source>sys_template:include_static</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">sys_template:include_static</target>
       </trans-unit>
       <trans-unit id="basedOn.description" approved="yes">
         <source>Other Template Records that are included like "static templates".</source>
