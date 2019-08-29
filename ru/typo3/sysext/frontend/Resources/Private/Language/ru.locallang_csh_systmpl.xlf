@@ -12,6 +12,13 @@
 Basically, create a 'Template' record, enter a title and make sure to check of Clear constants, setup and Rootline. Then enter some TypoScript configuration in the Setup field and you're set.
 It's very important to read how to do all this in the documents listed below! Also make sure you use the Web&gt;Template module to do all the working with templates. It's a specialized tool to help you with this.</source>
 			<target state="translated">Записи "Шаблона" - жизненно необходимые компоненты, использующиеся для определения дизайна web страниц. Почти не важно как Вы хотите строить сайт, но он должен начинаться с записи "Шаблона" на корневой странице в дереве сайта. Сначала создайте запись "Шаблона", введя ее название и убедитесь, что выбрали "Очистить константы" и "Настройки", а также установите флажок "Корень сайта". После чего нужно ввести некую настройку TypoScript в поле Настройка. Очень важно прочитать, как это все сделать в упомянутых ниже документах! Убедитесь, что используйте модуль Веб&gt;Шаблон для работы с шаблоном. Это инструмент, специально разработанный для этого.</target></trans-unit>
+      <trans-unit id="_.seeAlso" xml:space="preserve" approved="yes">
+				<source>static_template
+TSref | https://docs.typo3.org/typo3cms/TyposcriptReference/
+TypoScript in 45 min| https://docs.typo3.org/typo3cms/TyposcriptIn45MinutesTutorial/</source>
+			<target state="translated">static_template
+TSref | https://docs.typo3.org/typo3cms/TyposcriptReference/
+TypoScript in 45 min| https://docs.typo3.org/typo3cms/TyposcriptIn45MinutesTutorial/</target></trans-unit>
       <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
 				<source>A Template Record with constants and setup code.
 The Web&gt;Template module contains tools which will help you to edit and validate TypoScript structures.</source>
@@ -44,6 +51,11 @@ The Web&gt;Template module contains tools which will help you to edit and valida
         <source>TypoScript Constants.</source>
         <target state="translated">Константы TypoScript</target>
       </trans-unit>
+      <trans-unit id="_constants.seeAlso" approved="yes">
+        <source>static_template:constants</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">static_template:constants</target>
+      </trans-unit>
       <trans-unit id="config.description" approved="yes">
         <source>TypoScript Setup code</source>
         <target state="translated">Код настройки TypoScript</target>
@@ -52,6 +64,18 @@ The Web&gt;Template module contains tools which will help you to edit and valida
         <source>Read more about TypoScript Templates in TSref, TypoScript by Example and Getting Started.</source>
         <target state="translated">Дополнително читайте о Шаблонах TypoScript в "TSref", "TypoScript на примерах" и "Как начать".</target>
       </trans-unit>
+      <trans-unit id="_config.seeAlso" xml:space="preserve" approved="yes">
+				<source>static_template:config,
+TSref | https://docs.typo3.org/typo3cms/TyposcriptReference/
+Getting Started | https://docs.typo3.org/typo3cms/GettingStartedTutorial/
+TypoScript in 45 min| https://docs.typo3.org/typo3cms/TyposcriptIn45MinutesTutorial/
+TypoScript Syntax | https://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="translated">static_template:config,
+TSref | https://docs.typo3.org/typo3cms/TyposcriptReference/
+Getting Started | https://docs.typo3.org/typo3cms/GettingStartedTutorial/
+TypoScript in 45 min| https://docs.typo3.org/typo3cms/TyposcriptIn45MinutesTutorial/
+TypoScript Syntax | https://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/</target></trans-unit>
       <trans-unit id="resources.description" approved="yes">
         <source>Resource files for the template. For example a logo, a TTF-font etc.</source>
         <target state="translated">Файлы ресурсов для шаблона. Например - логотип, TTF шрифт и т.п.</target>
@@ -64,9 +88,19 @@ The Web&gt;Template module contains tools which will help you to edit and valida
         <source>Flags that will clear the inheritance of TypoScript code from former templates in the root line. There is a flag for Constants and one for Setup code.</source>
         <target state="translated">Флаги, очищающие наследование кода TypoScript от прежних корневых шаблонов. Существует флаг для Констант и для кода Настройки.</target>
       </trans-unit>
+      <trans-unit id="_clear.seeAlso" approved="yes">
+        <source>sys_template:root</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">sys_template:root</target>
+      </trans-unit>
       <trans-unit id="root.description" approved="yes">
         <source>Defines that the template represents a root of a website.</source>
         <target state="translated">Говорит о том, что шаблон представляет корень web сайта.</target>
+      </trans-unit>
+      <trans-unit id="_root.seeAlso" approved="yes">
+        <source>sys_template:clear</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">sys_template:clear</target>
       </trans-unit>
       <trans-unit id="includeStaticAfterBasedOn.description" approved="yes">
         <source>If set, static templates will be included after "based-on" templates. It basically swaps the order of inclusion of these external TypoScript sources.</source>
@@ -76,6 +110,10 @@ The Web&gt;Template module contains tools which will help you to edit and valida
         <source>Static Template records to include.</source>
         <target state="translated">Включаемые записи из статических шаблонов</target>
       </trans-unit>
+      <trans-unit id="_include_static.seeAlso" approved="yes">
+        <source>static_template</source>
+        <target state="translated">static_template</target>
+      </trans-unit>
       <trans-unit id="include_static_file.description" approved="yes">
         <source>Static Template files to include.</source>
         <target state="translated">Включаемые файлы статических шаблонов</target>
@@ -83,6 +121,11 @@ The Web&gt;Template module contains tools which will help you to edit and valida
       <trans-unit id="include_static_file.details" approved="yes">
         <source>Static template files are registered by extensions contrary to Static Template records which come from the static database table, "static_template".</source>
         <target state="translated">Статические файлы шаблонов вносятся из расширений, вопреки Статическим записям Шаблонов, которые заносятся из статической таблицы базы данных, "static_template".</target>
+      </trans-unit>
+      <trans-unit id="_include_static_file.seeAlso" approved="yes">
+        <source>sys_template:include_static</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">sys_template:include_static</target>
       </trans-unit>
       <trans-unit id="basedOn.description" approved="yes">
         <source>Other Template Records that are included like "static templates".</source>
