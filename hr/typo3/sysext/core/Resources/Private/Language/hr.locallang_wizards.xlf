@@ -11,6 +11,14 @@
         <source>TypoScript property lookup</source>
         <target state="translated">TypoScript pregled osobina</target>
       </trans-unit>
+      <trans-unit id="tsprop_TSref" approved="yes">
+        <source>TSref online</source>
+        <target state="translated">TSref online</target>
+      </trans-unit>
+      <trans-unit id="tsprop_tsconfig" approved="yes">
+        <source>TSconfig online</source>
+        <target state="translated">TSconfig online</target>
+      </trans-unit>
       <trans-unit id="tsprop_title" approved="yes">
         <source>Object title</source>
         <target state="translated">Naziv objekta</target>
@@ -107,6 +115,50 @@
         <source>Refresh without saving</source>
         <target state="translated">Osvježi bez snimanja</target>
       </trans-unit>
+      <trans-unit id="forms_label" approved="yes">
+        <source>Label</source>
+        <target state="translated">Label</target>
+      </trans-unit>
+      <trans-unit id="forms_type" approved="yes">
+        <source>Type</source>
+        <target state="translated">Type</target>
+      </trans-unit>
+      <trans-unit id="forms_type_textarea" approved="yes">
+        <source>Text area</source>
+        <target state="translated">Text area</target>
+      </trans-unit>
+      <trans-unit id="forms_type_input" approved="yes">
+        <source>Input field</source>
+        <target state="translated">Input field</target>
+      </trans-unit>
+      <trans-unit id="forms_type_password" approved="yes">
+        <source>Password field</source>
+        <target state="translated">Password field</target>
+      </trans-unit>
+      <trans-unit id="forms_type_file" approved="yes">
+        <source>File upload</source>
+        <target state="translated">File upload</target>
+      </trans-unit>
+      <trans-unit id="forms_type_check" approved="yes">
+        <source>Check box</source>
+        <target state="translated">Check box</target>
+      </trans-unit>
+      <trans-unit id="forms_type_select" approved="yes">
+        <source>Selector box</source>
+        <target state="translated">Selector box</target>
+      </trans-unit>
+      <trans-unit id="forms_type_radio" approved="yes">
+        <source>Radio buttons</source>
+        <target state="translated">Radio buttons</target>
+      </trans-unit>
+      <trans-unit id="forms_type_hidden" approved="yes">
+        <source>Hidden value</source>
+        <target state="translated">Hidden value</target>
+      </trans-unit>
+      <trans-unit id="forms_type_submit" approved="yes">
+        <source>Submit Button</source>
+        <target state="translated">Submit Button</target>
+      </trans-unit>
       <trans-unit id="forms_type_property" approved="yes">
         <source>Property</source>
         <target state="translated">Svojstvo</target>
@@ -114,6 +166,10 @@
       <trans-unit id="forms_type_label" approved="yes">
         <source>Label</source>
         <target state="translated">Oznaka</target>
+      </trans-unit>
+      <trans-unit id="forms_required" approved="yes">
+        <source>Required</source>
+        <target state="translated">Required</target>
       </trans-unit>
       <trans-unit id="forms_fieldName" approved="yes">
         <source>Field</source>
@@ -130,6 +186,10 @@
       <trans-unit id="forms_size" approved="yes">
         <source>Size</source>
         <target state="translated">Veličina</target>
+      </trans-unit>
+      <trans-unit id="forms_max" approved="yes">
+        <source>Max</source>
+        <target state="translated">Max</target>
       </trans-unit>
       <trans-unit id="forms_autosize" approved="yes">
         <source>Auto size</source>
@@ -302,6 +362,18 @@
       <trans-unit id="imwizard.set-aspect-ratio" approved="yes">
         <source>Set Aspect Ratio</source>
         <target state="translated">Postavi omjer slike</target>
+      </trans-unit>
+      <trans-unit id="imwizard.ratio.16_9" approved="yes">
+        <source>16:9</source>
+        <target state="translated">16:9</target>
+      </trans-unit>
+      <trans-unit id="imwizard.ratio.4_3" approved="yes">
+        <source>4:3</source>
+        <target state="translated">4:3</target>
+      </trans-unit>
+      <trans-unit id="imwizard.ratio.1_1" approved="yes">
+        <source>1:1</source>
+        <target state="translated">1:1</target>
       </trans-unit>
       <trans-unit id="imwizard.ratio.free" approved="yes">
         <source>Free</source>
