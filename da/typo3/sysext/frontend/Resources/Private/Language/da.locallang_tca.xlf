@@ -55,6 +55,10 @@
         <source>Links to this Page</source>
         <target state="translated">Linker til denne side</target>
       </trans-unit>
+      <trans-unit id="pages.palettes.caching" approved="yes">
+        <source>Caching</source>
+        <target state="translated">Caching</target>
+      </trans-unit>
       <trans-unit id="pages.palettes.language" approved="yes">
         <source>Language</source>
         <target state="translated">Sprog</target>
@@ -74,6 +78,10 @@
       <trans-unit id="pages.palettes.config" approved="yes">
         <source>TypoScript Configuration</source>
         <target state="translated">TypoScript-konfiguration</target>
+      </trans-unit>
+      <trans-unit id="pages.doktype_formlabel" approved="yes">
+        <source>Type</source>
+        <target state="translated">Type</target>
       </trans-unit>
       <trans-unit id="pages.doktype.I.0" approved="yes">
         <source>Advanced</source>
@@ -107,6 +115,14 @@
         <source>Page</source>
         <target state="translated">Side</target>
       </trans-unit>
+      <trans-unit id="pages.doktype.div.link" approved="yes">
+        <source>Link</source>
+        <target state="translated">Link</target>
+      </trans-unit>
+      <trans-unit id="pages.doktype.div.special" approved="yes">
+        <source>Special</source>
+        <target state="translated">Special</target>
+      </trans-unit>
       <trans-unit id="pages.title_formlabel" approved="yes">
         <source>Page Title</source>
         <target state="translated">Sidetitel</target>
@@ -138,6 +154,18 @@
       <trans-unit id="pages.layout_formlabel" approved="yes">
         <source>Frontend Layout</source>
         <target state="translated">Frontend layout-variationer</target>
+      </trans-unit>
+      <trans-unit id="pages.layout.I.1" approved="yes">
+        <source>Layout 1</source>
+        <target state="translated">Layout 1</target>
+      </trans-unit>
+      <trans-unit id="pages.layout.I.2" approved="yes">
+        <source>Layout 2</source>
+        <target state="translated">Layout 2</target>
+      </trans-unit>
+      <trans-unit id="pages.layout.I.3" approved="yes">
+        <source>Layout 3</source>
+        <target state="translated">Layout 3</target>
       </trans-unit>
       <trans-unit id="pages.extendToSubpages" approved="yes">
         <source>Include Subpages</source>
@@ -183,6 +211,14 @@
         <source>Link Target</source>
         <target state="translated">Henvisningsmål</target>
       </trans-unit>
+      <trans-unit id="pages.url" approved="yes">
+        <source>URL</source>
+        <target state="translated">URL</target>
+      </trans-unit>
+      <trans-unit id="pages.url_formlabel" approved="yes">
+        <source>URL</source>
+        <target state="translated">URL</target>
+      </trans-unit>
       <trans-unit id="pages.lastUpdated" approved="yes">
         <source>Last Updated</source>
         <target state="translated">Senest opdateret</target>
@@ -206,6 +242,22 @@
       <trans-unit id="pages.cache_timeout_formlabel" approved="yes">
         <source>Cache Lifetime</source>
         <target state="translated">Cache Levetid</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.1" approved="yes">
+        <source>1 min</source>
+        <target state="translated">1 min</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.2" approved="yes">
+        <source>5 min</source>
+        <target state="translated">5 min</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.3" approved="yes">
+        <source>15 min</source>
+        <target state="translated">15 min</target>
+      </trans-unit>
+      <trans-unit id="pages.cache_timeout.I.4" approved="yes">
+        <source>30 min</source>
+        <target state="translated">30 min</target>
       </trans-unit>
       <trans-unit id="pages.cache_timeout.I.5" approved="yes">
         <source>1 hour</source>
@@ -239,6 +291,10 @@
         <source>Editable for Admins Only</source>
         <target state="translated">Begræns redigering til admins alene</target>
       </trans-unit>
+      <trans-unit id="pages.tabs.metadata" approved="yes">
+        <source>Metadata</source>
+        <target state="translated">Metadata</target>
+      </trans-unit>
       <trans-unit id="pages.tabs.files" approved="yes">
         <source>Resources</source>
         <target state="translated">Ressourcer</target>
@@ -262,6 +318,10 @@
       <trans-unit id="pages.tabs.shortcut" approved="yes">
         <source>Shortcut</source>
         <target state="translated">Genvej</target>
+      </trans-unit>
+      <trans-unit id="pages.tabs.url" approved="yes">
+        <source>URL</source>
+        <target state="translated">URL</target>
       </trans-unit>
       <trans-unit id="pages.tabs.extended" approved="yes">
         <source>Extended</source>
@@ -503,6 +563,10 @@
         <source>Username</source>
         <target state="translated">Brugernavn</target>
       </trans-unit>
+      <trans-unit id="fe_users.password" approved="yes">
+        <source>Password</source>
+        <target state="translated">Password</target>
+      </trans-unit>
       <trans-unit id="fe_users.usergroup" approved="yes">
         <source>Groups</source>
         <target state="translated">Grupper</target>
@@ -662,6 +726,10 @@
       <trans-unit id="backend_layout.config" approved="yes">
         <source>Config</source>
         <target state="translated">Konfig</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.wizard" approved="yes">
+        <source>Wizard</source>
+        <target state="translated">Wizard</target>
       </trans-unit>
       <trans-unit id="backend_layout.icon" approved="yes">
         <source>Icon</source>
