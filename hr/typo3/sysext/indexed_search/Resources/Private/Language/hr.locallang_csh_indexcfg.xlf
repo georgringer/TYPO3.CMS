@@ -27,22 +27,49 @@
         <source>Notice; Disabling the indexing process will not hide already indexed content in search results!</source>
         <target state="translated">Napomena: onemogućivši proces indeksiranja niste sakrili već indeksirani sadržaj koji će se i dalje prikazivati u rezultatima pretrage!</target>
       </trans-unit>
+      <trans-unit id="_hidden.seeAlso" approved="yes">
+        <source>index_config:starttime</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:starttime</target>
+      </trans-unit>
       <trans-unit id="starttime.description" approved="yes">
         <source>Set a start time for the configuration. If set, the configuration will be bypassed by the crawlers cron job until this time is reached.</source>
         <target state="translated">Postavite vrijeme početka za konfiguraciju. Ukoliko je vrijeme početka postavljeno, konfiguracija će biti zanemarena sve dok ne prođe postavljeno vrijeme.</target>
+      </trans-unit>
+      <trans-unit id="_starttime.seeAlso" approved="yes">
+        <source>index_config:hidden</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:hidden</target>
       </trans-unit>
       <trans-unit id="timer_frequency.description" approved="yes">
         <source>Use this setting to adjust how often you would like a re-indexing process to run for the configuration.</source>
         <target state="translated">Ova postavka određuje koliko često želite pokretati proces indeksiranja za danu konfiguraciju.</target>
       </trans-unit>
+      <trans-unit id="_timer_frequency.seeAlso" xml:space="preserve" approved="yes">
+				<source>index_config:timer_next_indexing,
+index_config:timer_offset</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">index_config:timer_next_indexing,
+index_config:timer_offset</target></trans-unit>
       <trans-unit id="timer_offset.description" approved="yes">
         <source>The offset adjusts at what time of day you want the indexing process to run.</source>
         <target state="translated">Odmak podešava vrijeme dana kada želite pokrenuti indeksiranje.</target>
+      </trans-unit>
+      <trans-unit id="_timer_offset.seeAlso" approved="yes">
+        <source>index_config:timer_frequency</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:timer_frequency</target>
       </trans-unit>
       <trans-unit id="timer_next_indexing.description" approved="yes">
         <source>This field contains the date and time of the next occurring indexing session. If left blank the next indexing will occur as soon as the cron-script is run again (typically within the next minute) and afterwards set to the next time according to frequency and offset.</source>
         <target state="translated">Ovo polje sadrži datum i vrijeme sljedećeg indeksiranja. Ukoliko ga ostavite praznim, sljedeće indeksiranje desit će se čim se izvrši cron skripta (najčešće unutar jedne minute) a nakon toga u skladu sa postavkama za učestalost i odmak.</target>
       </trans-unit>
+      <trans-unit id="_timer_next_indexing.seeAlso" xml:space="preserve" approved="yes">
+				<source>index_config:timer_offset,
+index_config:timer_frequency</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">index_config:timer_offset,
+index_config:timer_frequency</target></trans-unit>
       <trans-unit id="type.description" approved="yes">
         <source>Select the type of Indexing Configuration here.</source>
         <target state="translated">Odaberite tip konfiguracije indeksiranja.</target>
@@ -68,6 +95,11 @@
         <source>By default the indexer will select records from the page id where the Indexing Configuration is stored. If you want an alternative page as the source of your records you can enter it here.</source>
         <target state="translated">Prema zadanim postavkama indeksator će odabrati zapise sa stranice gdje se nalaze postavke konfiguracije. Ukoliko želite da druga stranica bude izvor zapisa možete ju odabrati ovdje.</target>
       </trans-unit>
+      <trans-unit id="_alternative_source_pid.seeAlso" approved="yes">
+        <source>index_config:table2index</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:table2index</target>
+      </trans-unit>
       <trans-unit id="get_params.description" approved="yes">
         <source>Enter the GET parameters necessary to display the search results. You can use ###UID### as a marker in the parameter template.</source>
         <target state="translated">Unesite GET parametre nužne za prikaz rezultata pretraživanja. Možete koristiti ###UID### kao marker u predlošku parametara.</target>
@@ -77,6 +109,11 @@
 Example value: "&amp;showUid=###UID###"</source>
 			<target state="translated">Napomena: GET parametri se pridodaju na URL stranice gdje je spremljena konfiguracija indeksiranja (gdje mora postojati umetak koji može prikazati zapise s danim parametrima!).
 Primjer vrijednosti: "&amp;showUid=###UID###"</target></trans-unit>
+      <trans-unit id="_get_params.seeAlso" approved="yes">
+        <source>index_config:table2index</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:table2index</target>
+      </trans-unit>
       <trans-unit id="fieldlist.description" approved="yes">
         <source>Enter a comma-list of fields to be indexed. The first field name will be used for the search result title.</source>
         <target state="translated">Unesite popis polja za indeksiranje odvojenih zarezima. Naziv prvog polja koristit će se kao naslov rezultata traženja.</target>
@@ -85,13 +122,28 @@ Primjer vrijednosti: "&amp;showUid=###UID###"</target></trans-unit>
         <source>&lt;b&gt;Example:&lt;/b&gt; "header,bodytext,image_caption" would index the Header, Bodytext and Image Caption fields from "tt_content". Notice that you must use the real database field names, don't spell them wrong!</source>
         <target state="translated">&lt;b&gt;Primjer:&lt;/b&gt; "header,bodytext,image_caption" će indeksirati Zaglavlje, Tijelo teksta i polja Naslova slika iz tablice "tt_content". Primijetite da morate koristiti stvarna imena polja iz baze podataka te da ih ne smijete pogrešno napisati!</target>
       </trans-unit>
+      <trans-unit id="_fieldlist.seeAlso" approved="yes">
+        <source>index_config:table2index</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:table2index</target>
+      </trans-unit>
       <trans-unit id="recordsbatch.description" approved="yes">
         <source>Enter how many records to index for each instance of the indexing process (how many per minute). Default is 100 records.</source>
         <target state="translated">Unesite broj zapisa za indeksiranje za svaku instancu indeksacijskog procesa (koliko po minuti). Zadana vrijednost je 100 zapisa.</target>
       </trans-unit>
+      <trans-unit id="_recordsbatch.seeAlso" approved="yes">
+        <source>index_config:table2index</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:table2index</target>
+      </trans-unit>
       <trans-unit id="records_indexonchange.description" approved="yes">
         <source>If set, new and changed records from this table will be indexed through a hook in the core (Datahandler) meaning that they will be searchable immediately after addition to the system.</source>
         <target state="translated">Ukoliko aktivirate ovu opciju novi i izmijenjeni zapisi iz ove tablice bit će indeksirani putem aktivacijske točke u jezgri (Datahandler) što znači da će ih biti moguće pretraživati odmah nakon dodavanja u sustav.</target>
+      </trans-unit>
+      <trans-unit id="_records_indexonchange.seeAlso" approved="yes">
+        <source>index_config:table2index</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:table2index</target>
       </trans-unit>
       <trans-unit id="externalUrl.description" approved="yes">
         <source>Enter the URL of the external website you want to index.</source>
@@ -112,6 +164,11 @@ Ukoliko želite indeksirati "https://typo3.org/" ali ne "https://typo3.org/exten
 
 https://typo3.org/downloads/
 https://typo3.org/extensions/</target></trans-unit>
+      <trans-unit id="_url_deny.seeAlso" approved="yes">
+        <source>index_config:externalUrl</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:externalUrl</target>
+      </trans-unit>
       <trans-unit id="filepath.description" approved="yes">
         <source>Enter a filepath inside fileadmin/ where you want the files to be indexed.</source>
         <target state="translated">Unesite datotečnu putanju unutar fileadmin/ gdje želite indeksirati datoteke.</target>
@@ -124,6 +181,11 @@ https://typo3.org/extensions/</target></trans-unit>
         <source>If you want to index only specific files in the directory, enter a list of file extensions here. For example: "html,pdf,doc"</source>
         <target state="translated">Ukoliko želite indeksirati samo određene datoteke u mapi ovdje unesite popis datotečnih nastavaka. Primjerice: "html,pdf,doc"</target>
       </trans-unit>
+      <trans-unit id="_extensions.seeAlso" approved="yes">
+        <source>index_config:filepath</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:filepath</target>
+      </trans-unit>
       <trans-unit id="depth.description" approved="yes">
         <source>Levels of recursion.</source>
         <target state="translated">Razine rekurzije.</target>
@@ -132,6 +194,12 @@ https://typo3.org/extensions/</target></trans-unit>
         <source>For file indexing it is the level of directories to decend. For External URLs it's the depth to which the crawler will go with links.</source>
         <target state="translated">Za datotečno indeksiranje to je razina mapa na koju se treba spustiti. Za vanjske URL-ove to je dubina do koje će ići mrežni robot.</target>
       </trans-unit>
+      <trans-unit id="_depth.seeAlso" xml:space="preserve" approved="yes">
+				<source>index_config:externalUrl,
+index_config:filepath</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">index_config:externalUrl,
+index_config:filepath</target></trans-unit>
       <trans-unit id="indexcfgs.description" approved="yes">
         <source>When a search is conducted in this indexing configuration the actual search will take place in the indexed content from the configurations listed here. You can also enter pages and if you do so the search will take place in indexing configurations found on those pages.</source>
         <target state="translated">Kada se izvrši pretraga sa danom konfiguracijom indeksiranja stvarna pretraga će se dogoditi u indeksiranom sadržaju prema ovdje popisanim konfiguracijama. Također možete unijeti i stranice te ako to učinite pretraga će se izvršiti prema konfiguracijama indeksiranja pronađenim na tim stranicama.</target>
