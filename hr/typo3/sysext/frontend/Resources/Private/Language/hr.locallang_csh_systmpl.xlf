@@ -54,6 +54,11 @@ Modul Web&gt;Predložak sadrži alate koji će Vam pomoći u uređivanju i valid
         <source>TypoScript Constants.</source>
         <target state="translated">TypoScript konstante.</target>
       </trans-unit>
+      <trans-unit id="_constants.seeAlso" approved="yes">
+        <source>static_template:constants</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">static_template:constants</target>
+      </trans-unit>
       <trans-unit id="config.description" approved="yes">
         <source>TypoScript Setup code</source>
         <target state="translated">TypoScript kod postavki</target>
@@ -86,9 +91,19 @@ TypoScript sintaksa | https://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/
         <source>Flags that will clear the inheritance of TypoScript code from former templates in the root line. There is a flag for Constants and one for Setup code.</source>
         <target state="translated">Ova zastavica će poništiti nasljeđivanje TypoScript koda iz ranijih predložaka u korjenskoj liniji. Postoji zastavica za konstante i zastavica za postavke.</target>
       </trans-unit>
+      <trans-unit id="_clear.seeAlso" approved="yes">
+        <source>sys_template:root</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">sys_template:root</target>
+      </trans-unit>
       <trans-unit id="root.description" approved="yes">
         <source>Defines that the template represents a root of a website.</source>
         <target state="translated">Naznačuje da predložak predstavlja korijen web stranice.</target>
+      </trans-unit>
+      <trans-unit id="_root.seeAlso" approved="yes">
+        <source>sys_template:clear</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">sys_template:clear</target>
       </trans-unit>
       <trans-unit id="includeStaticAfterBasedOn.description" approved="yes">
         <source>If set, static templates will be included after "based-on" templates. It basically swaps the order of inclusion of these external TypoScript sources.</source>
@@ -98,6 +113,10 @@ TypoScript sintaksa | https://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/
         <source>Static Template records to include.</source>
         <target state="translated">Zapisi statičnih predložaka koji će biti uključeni.</target>
       </trans-unit>
+      <trans-unit id="_include_static.seeAlso" approved="yes">
+        <source>static_template</source>
+        <target state="translated">static_template</target>
+      </trans-unit>
       <trans-unit id="include_static_file.description" approved="yes">
         <source>Static Template files to include.</source>
         <target state="translated">Datoteke statičnih predložaka koje će biti uključene.</target>
@@ -105,6 +124,11 @@ TypoScript sintaksa | https://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/
       <trans-unit id="include_static_file.details" approved="yes">
         <source>Static template files are registered by extensions contrary to Static Template records which come from the static database table, "static_template".</source>
         <target state="translated">Datoteke statičnih predložaka registriraju proširenja za razliku od zapisa statičnih predložaka koji dolaze iz tablice podataka statičnih predložaka, "static_template".</target>
+      </trans-unit>
+      <trans-unit id="_include_static_file.seeAlso" approved="yes">
+        <source>sys_template:include_static</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">sys_template:include_static</target>
       </trans-unit>
       <trans-unit id="basedOn.description" approved="yes">
         <source>Other Template Records that are included like "static templates".</source>
