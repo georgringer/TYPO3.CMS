@@ -54,7 +54,7 @@
       <trans-unit id="task_start.details" xml:space="preserve" approved="yes">
 				<source>Date must be entered in a standard format like HH:mm dd-mm-YYYY or YYYY-mm-dd HH:mm. Natural keywords can also be used, like "now" or "tomorrow".
 Date and time must correspond to the server's time zone.</source>
-			<target state="translated">Das Datum muss in einem der Standardformate eingegeben werden, z.B. HH:MM TT-MM-JJJJ. Geben Sie "16:17 10-12-2014" für die erstmalige Ausführung am 10. Dezember 2014 um 16:17 Uhr ein. Schlüsselwärter "now" (heute) oder "tomorrow" (morgen) sind ebenfalls erlaubt. Datum und Zeit müssen der auf dem Server eingestellten Zeitzone entsprechen.</target></trans-unit>
+			<target state="translated">Das Datum muss in einem der Standardformate eingegeben werden, z.B. HH:MM TT-MM-JJJJ. Geben Sie "16:17 10-12-2011" für die erstmalige Ausführung am 10. Dezember 2011 um 16:17 Uhr ein. Schlüsselwärter "now" (heute) oder "tomorrow" (morgen) sind ebenfalls erlaubt. Datum und Zeit müssen der auf dem Server eingestellten Zeitzone entsprechen.</target></trans-unit>
       <trans-unit id="task_end.alttitle" approved="yes">
         <source>End of task</source>
         <target state="translated">Ende des Tasks</target>
@@ -68,7 +68,7 @@ Date and time must correspond to the server's time zone.</source>
 Date and time must correspond to the server's time zone.
 
 Can be left blank, if task is not supposed to end at any point.</source>
-			<target state="translated">Das Datum muss in einem der Standardformate eingegeben werden, z.B. HH:MM TT-MM-JJJJ. Geben Sie "16:17 31-12-2012" für die erstmalige Ausführung am 31. Dezember 2012 um 16:17 Uhr ein. Schlüsselwärter "now" (heute) oder "tomorrow" (morgen) sind ebenfalls erlaubt. Datum und Zeit müssen der auf dem Server eingestellten Zeitzone entsprechen. Dieses Feld kann leer bleiben, wenn kein Ende festgelegt werden soll.</target></trans-unit>
+			<target state="translated">Das Datum muss in einem der Standardformate eingegeben werden, z.B. HH:MM TT-MM-JJJJ. Geben Sie "16:17 31-12-2009" für die erstmalige Ausführung am 31. Dezember 2009 um 16:17 Uhr ein. Schlüsselwärter "now" (heute) oder "tomorrow" (morgen) sind ebenfalls erlaubt. Datum und Zeit müssen der auf dem Server eingestellten Zeitzone entsprechen. Dieses Feld kann leer bleiben, wenn kein Ende festgelegt werden soll.</target></trans-unit>
       <trans-unit id="task_frequency.alttitle" approved="yes">
         <source>Frequency of task</source>
         <target state="translated">Häufigkeit des Tasks</target>
@@ -106,6 +106,22 @@ The Scheduler supports the full cron syntax.</source>
       <trans-unit id="task_email.description" approved="yes">
         <source>Enter a recipient for the mails sent by the test task</source>
         <target state="translated">Geben Sie den Empfänger der Mails an für den Test-Task an.</target>
+      </trans-unit>
+      <trans-unit id="task_description.alttitle" approved="yes">
+        <source>Task description</source>
+        <target state="translated">Taskbeschreibung</target>
+      </trans-unit>
+      <trans-unit id="task_description.description" approved="yes">
+        <source>Enter a description for this task</source>
+        <target state="translated">Geben Sie eine Beschreibung des Tasks ein</target>
+      </trans-unit>
+      <trans-unit id="task_group.alttitle" approved="yes">
+        <source>Task group</source>
+        <target state="translated">Taskgruppe</target>
+      </trans-unit>
+      <trans-unit id="task_group.description" approved="yes">
+        <source>In case of a high number of different tasks, it may be useful to visually group similar tasks.</source>
+        <target state="translated">Wenn Sie viele unterschiedliche Tasks nutzen, kann es nützlich sein, diese visuell zu gruppieren.</target>
       </trans-unit>
       <trans-unit id="task_sleepTime.alttitle" approved="yes">
         <source>Sleep time</source>
