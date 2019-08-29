@@ -47,6 +47,11 @@ One of the branches in Page TSconfig has the special property that it is overrid
 				<source>The parsed Page TSconfig tree you see in the default view is actually compiled from this TSconfig code in the order it appears here. This view lets you see how the parsed version came to be.
 You can also click the edit-icons of the various pages to go directly to the TSconfig fields of the pages.</source>
 			<target state="translated">Der ausgewertete Seiten-TSconfig-Baum, welchen Sie in der Standardansicht sehen, wird eigentlich aus dem hier angezeigten Seiten-TSconfig-Quelltext und in dieser Reihenfolge gebildet. Somit können Sie ersehen, wie der vollständig ausgewerteten Seiten-TSconfig-Baum zustande kam. Mit einem Mausklick auf das Bearbeitungssymbol gelangen Sie direkt zu den Seiten-TSconfig-Feldern der entsprechenden Seiten.</target></trans-unit>
+      <trans-unit id="_tsconfig_edit.seeAlso" approved="yes">
+        <source>_MOD_web_info:tsconfig_hierarchy</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">_MOD_web_info:tsconfig_hierarchy</target>
+      </trans-unit>
       <trans-unit id="_tsconfig_edit.image" xml:space="preserve" approved="yes">
 				<source>EXT:info_pagetsconfig/Resources/Public/Images/cshimages/img_3.png,
 EXT:info_pagetsconfig/Resources/Public/Images/cshimages/img_4.png,
