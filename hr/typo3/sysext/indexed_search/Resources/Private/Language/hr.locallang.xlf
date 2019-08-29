@@ -418,6 +418,10 @@ Svi izrazi koji se traže konvertiraju se prethodno u mala slova.
         <source>Parsetime [ms]</source>
         <target state="translated">Trajanje procesiranja [ms]</target>
       </trans-unit>
+      <trans-unit id="field.groups" approved="yes">
+        <source>#sec/gr/full</source>
+        <target state="translated">#sec/gr/full</target>
+      </trans-unit>
       <trans-unit id="field.sub" approved="yes">
         <source>Sub</source>
         <target state="translated">Pod</target>
@@ -465,6 +469,10 @@ Svi izrazi koji se traže konvertiraju se prethodno u mala slova.
       <trans-unit id="field.flag" approved="yes">
         <source>Flag</source>
         <target state="translated">Zastavica</target>
+      </trans-unit>
+      <trans-unit id="field.metaphone" approved="yes">
+        <source>Metaphone</source>
+        <target state="translated">Metaphone</target>
       </trans-unit>
       <trans-unit id="field.content" approved="yes">
         <source>Content</source>
@@ -529,6 +537,10 @@ Svi izrazi koji se traže konvertiraju se prethodno u mala slova.
       <trans-unit id="administration.statistics.lexer" approved="yes">
         <source>Lexer</source>
         <target state="translated">Lekser</target>
+      </trans-unit>
+      <trans-unit id="administration.statistics.metaphone" approved="yes">
+        <source>Metaphone</source>
+        <target state="translated">Metaphone</target>
       </trans-unit>
       <trans-unit id="administration.statistics.view.overview" approved="yes">
         <source>Overview</source>
