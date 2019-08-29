@@ -12,6 +12,10 @@
         <source>Status</source>
         <target state="translated">Статус</target>
       </trans-unit>
+      <trans-unit id="sys_file_metadata.status.1" approved="yes">
+        <source>Ok</source>
+        <target state="translated">Ok</target>
+      </trans-unit>
       <trans-unit id="sys_file_metadata.status.2" approved="yes">
         <source>Pending</source>
         <target state="translated">Ожидает</target>
@@ -128,6 +132,26 @@
         <source>Color Space</source>
         <target state="translated">Цветовая гамма</target>
       </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.RGB" approved="yes">
+        <source>RGB</source>
+        <target state="translated">RGB</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.sRGB" approved="yes">
+        <source>sRGB</source>
+        <target state="translated">sRGB</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.CMYK" approved="yes">
+        <source>CMYK</source>
+        <target state="translated">CMYK</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.CMY" approved="yes">
+        <source>CMY</source>
+        <target state="translated">CMY</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.YUV" approved="yes">
+        <source>YUV</source>
+        <target state="translated">YUV</target>
+      </trans-unit>
       <trans-unit id="sys_file_metadata.color_space.grey" approved="yes">
         <source>Grey</source>
         <target state="translated">Серый</target>
@@ -198,6 +222,10 @@
       <trans-unit id="palette.accessibility" approved="yes">
         <source>Accessibility</source>
         <target state="translated">Доступность</target>
+      </trans-unit>
+      <trans-unit id="palette.gps" approved="yes">
+        <source>GPS</source>
+        <target state="translated">GPS</target>
       </trans-unit>
       <!-- fe_groups fields -->
       <trans-unit id="fe_groups.files" approved="yes">
