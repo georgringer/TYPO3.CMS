@@ -99,6 +99,10 @@
         <source>Frequency</source>
         <target state="translated">ความถี่</target>
       </trans-unit>
+      <trans-unit id="opt_order_rank_first" approved="yes">
+        <source>Close to top</source>
+        <target state="translated">Close to top</target>
+      </trans-unit>
       <trans-unit id="opt_order_rank_count" approved="yes">
         <source>Number of words</source>
         <target state="translated">จำนวนคำ</target>
@@ -126,6 +130,10 @@
       <trans-unit id="opt_lang_-1" approved="yes">
         <source>All languages</source>
         <target state="translated">ทุกภาษา</target>
+      </trans-unit>
+      <trans-unit id="opt_lang_0" approved="yes">
+        <source>Default</source>
+        <target state="translated">Default</target>
       </trans-unit>
       <trans-unit id="opt_desc_0" approved="yes">
         <source>Highest first</source>
@@ -234,6 +242,14 @@ All search words are converted to lowercase.</source>
       <trans-unit id="local_operator_AND" approved="yes">
         <source>AND</source>
         <target state="translated">และ</target>
+      </trans-unit>
+      <trans-unit id="local_operator_OR" approved="yes">
+        <source>OR</source>
+        <target state="translated">OR</target>
+      </trans-unit>
+      <trans-unit id="local_operator_NOT" approved="yes">
+        <source>NOT</source>
+        <target state="translated">NOT</target>
       </trans-unit>
       <trans-unit id="makerating_addToCurrentSearch" approved="yes">
         <source>Add to current search words</source>
