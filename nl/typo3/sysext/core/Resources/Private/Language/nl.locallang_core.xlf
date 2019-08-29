@@ -155,6 +155,10 @@ Do you want to continue WITHOUT saving?</source>
         <source>Localization</source>
         <target state="translated">Vertaling</target>
       </trans-unit>
+      <trans-unit id="labels._REF_" approved="yes">
+        <source>Ref</source>
+        <target state="translated">Ref</target>
+      </trans-unit>
       <trans-unit id="labels.setFields" approved="yes">
         <source>Set fields</source>
         <target state="translated">Velden instellen</target>
@@ -199,6 +203,10 @@ Do you want to continue WITHOUT saving?</source>
         <source>Hidden</source>
         <target state="translated">Verborgen</target>
       </trans-unit>
+      <trans-unit id="labels.starttime" approved="yes">
+        <source>Start</source>
+        <target state="translated">Start</target>
+      </trans-unit>
       <trans-unit id="labels.endtime" approved="yes">
         <source>End</source>
         <target state="translated">Eind</target>
@@ -206,6 +214,10 @@ Do you want to continue WITHOUT saving?</source>
       <trans-unit id="labels.minutesHoursDaysYears" approved="yes">
         <source>min|hrs|days|yrs|min|hour|day|year</source>
         <target state="translated">min|uren|dagen|jaren|min|uur|dag| jaar</target>
+      </trans-unit>
+      <trans-unit id="labels.menu" approved="yes">
+        <source>Menu</source>
+        <target state="translated">Menu</target>
       </trans-unit>
       <trans-unit id="labels.showPage" approved="yes">
         <source>View webpage</source>
@@ -251,6 +263,10 @@ Do you want to continue WITHOUT saving?</source>
         <source>Deny</source>
         <target state="translated">Niet toestaan</target>
       </trans-unit>
+      <trans-unit id="labels.automatic" approved="yes">
+        <source>Auto</source>
+        <target state="translated">Auto</target>
+      </trans-unit>
       <trans-unit id="labels.enabled" approved="yes">
         <source>Enabled</source>
         <target state="translated">Ingeschakeld</target>
@@ -288,6 +304,10 @@ Do you want to continue WITHOUT saving?</source>
       <trans-unit id="labels.list" approved="yes">
         <source>List</source>
         <target state="translated">Lijst</target>
+      </trans-unit>
+      <trans-unit id="labels.link" approved="yes">
+        <source>Link</source>
+        <target state="translated">Link</target>
       </trans-unit>
       <trans-unit id="labels.edit" approved="yes">
         <source>Edit</source>
@@ -537,6 +557,10 @@ Do you want to continue WITHOUT saving?</source>
         <source>Searching...</source>
         <target state="translated">Zoeken...</target>
       </trans-unit>
+      <trans-unit id="ver.online" approved="yes">
+        <source>ONLINE</source>
+        <target state="translated">ONLINE</target>
+      </trans-unit>
       <trans-unit id="ver.mgm" approved="yes">
         <source>Version Management</source>
         <target state="translated">Versiebeheer</target>
@@ -597,6 +621,10 @@ Do you want to continue WITHOUT saving?</source>
         <source>Size</source>
         <target state="translated">Grootte</target>
       </trans-unit>
+      <trans-unit id="show_item.php.pixels" approved="yes">
+        <source>Pixels</source>
+        <target state="translated">Pixels</target>
+      </trans-unit>
       <trans-unit id="show_item.php.files" approved="yes">
         <source>files</source>
         <target state="translated">bestanden</target>
@@ -609,6 +637,10 @@ Do you want to continue WITHOUT saving?</source>
         <source>Table</source>
         <target state="translated">Tabel</target>
       </trans-unit>
+      <trans-unit id="show_item.php.uid" approved="yes">
+        <source>Uid</source>
+        <target state="translated">Uid</target>
+      </trans-unit>
       <trans-unit id="show_item.php.title" approved="yes">
         <source>Title</source>
         <target state="translated">Titel</target>
@@ -616,6 +648,10 @@ Do you want to continue WITHOUT saving?</source>
       <trans-unit id="show_item.php.field" approved="yes">
         <source>Field</source>
         <target state="translated">Veld</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.flexpointer" approved="yes">
+        <source>Flexpointer</source>
+        <target state="translated">Flexpointer</target>
       </trans-unit>
       <trans-unit id="show_item.php.softrefKey" approved="yes">
         <source>Softref Key</source>
@@ -961,6 +997,10 @@ Do you want to refresh it now?</source>
         <source>Move all elements (%s) from the clipboard to the position after "%s"?</source>
         <target state="translated">Alle elementen (%s) van het klembord naar de positie na "%s" verplaatsen?</target>
       </trans-unit>
+      <trans-unit id="rm.menu" approved="yes">
+        <source>[menu]</source>
+        <target state="translated">[menu]</target>
+      </trans-unit>
       <trans-unit id="rm.saveDoc" approved="yes">
         <source>Save</source>
         <target state="translated">Opslaan</target>
@@ -1133,6 +1173,10 @@ Do you want to refresh it now?</source>
         <source>Exit</source>
         <target state="translated">Sluit</target>
       </trans-unit>
+      <trans-unit id="buttons.selMenu_modules" approved="yes">
+        <source>MODULES</source>
+        <target state="translated">MODULES</target>
+      </trans-unit>
       <trans-unit id="buttons.clear" approved="yes">
         <source>Clear</source>
         <target state="translated">Wis</target>
@@ -1241,6 +1285,10 @@ Do you want to refresh it now?</source>
         <source>Replace</source>
         <target state="translated">Vervangen</target>
       </trans-unit>
+      <trans-unit id="cm.open" approved="yes">
+        <source>Open</source>
+        <target state="translated">Open</target>
+      </trans-unit>
       <trans-unit id="cm.save" approved="yes">
         <source>Save</source>
         <target state="translated">Opslaan</target>
@@ -1248,6 +1296,10 @@ Do you want to refresh it now?</source>
       <trans-unit id="cm.unzip" approved="yes">
         <source>Unzip</source>
         <target state="translated">Uitpakken</target>
+      </trans-unit>
+      <trans-unit id="cm.info" approved="yes">
+        <source>Info</source>
+        <target state="translated">Info</target>
       </trans-unit>
       <trans-unit id="cm.createnew" approved="yes">
         <source>Create new</source>
@@ -1489,6 +1541,10 @@ Do you want to refresh it now?</source>
         <source>The bookmark was saved.</source>
         <target state="translated">De bladwijzer is opgeslagen.</target>
       </trans-unit>
+      <trans-unit id="toolbarItems.help" approved="yes">
+        <source>Help</source>
+        <target state="translated">Help</target>
+      </trans-unit>
       <trans-unit id="toolbarItems.minMaxModuleMenu" approved="yes">
         <source>Minimize/maximize module menu</source>
         <target state="translated">Module-menu minimaliseren/maximaliseren</target>
@@ -1497,6 +1553,10 @@ Do you want to refresh it now?</source>
         <source>Search</source>
         <target state="translated">Zoek</target>
       </trans-unit>
+      <trans-unit id="toolbarItems.workspace" approved="yes">
+        <source>Workspace</source>
+        <target state="translated">Workspace</target>
+      </trans-unit>
       <trans-unit id="toolbarItems.sysinfo" approved="yes">
         <source>System Information</source>
         <target state="translated">Systeeminformatie</target>
@@ -1504,6 +1564,10 @@ Do you want to refresh it now?</source>
       <trans-unit id="toolbarItems.sysinfo.phpversion" approved="yes">
         <source>PHP Version</source>
         <target state="translated">PHP-versie</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.database" approved="yes">
+        <source>Database</source>
+        <target state="translated">Database</target>
       </trans-unit>
       <trans-unit id="toolbarItems.sysinfo.applicationcontext" approved="yes">
         <source>Application Context</source>
@@ -1520,6 +1584,10 @@ Do you want to refresh it now?</source>
       <trans-unit id="toolbarItems.sysinfo.operatingsystem" approved="yes">
         <source>Operating System</source>
         <target state="translated">Besturingssysteem</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.webserver" approved="yes">
+        <source>Webserver</source>
+        <target state="translated">Webserver</target>
       </trans-unit>
       <trans-unit id="toolbarItems.sysinfo.typo3-version" approved="yes">
         <source>TYPO3 Version</source>
