@@ -15,6 +15,10 @@
         <source>Here you can find a short overview of your site's parameters as well as any problems detected with your installation. It may be useful to copy and paste this information into support requests filed on TYPO3's support mailinglists and project issue trackers.</source>
         <target state="translated">นี่คุณจะพบภาพรวมสั้นของพารามิเตอร์ของเว็บไซต์ของคุณเป็นปัญหาในการตรวจพบมีการติดตั้ง อาจมีประโยชน์คัดลอกและวางข้อมูลในหน้าการยื่น on TYPO3 ของ mailinglists สนับสนุนและเครื่องมือติดตามปัญหาโครงการนี้</target>
       </trans-unit>
+      <trans-unit id="status_ok" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
+      </trans-unit>
       <trans-unit id="status_insecure" approved="yes">
         <source>Insecure</source>
         <target state="translated">ไม่ปลอดภัย</target>
@@ -75,6 +79,10 @@
         <source>Memcached Configuration</source>
         <target state="translated">Configuration Memcached</target>
       </trans-unit>
+      <trans-unit id="status_PhpSafeMode" approved="yes">
+        <source>PHP safe_mode</source>
+        <target state="translated">PHP safe_mode</target>
+      </trans-unit>
       <trans-unit id="status_adminUserAccount" approved="yes">
         <source>Admin User Account</source>
         <target state="translated">บัญชีผู้ใช้ผู้ดูแลระบบ</target>
@@ -119,6 +127,10 @@
         <source>Contact your system administrator or hosting provider for assistance with increasing your PHP memory limit.</source>
         <target state="translated">ติดต่อผู้ดูแลระบบหรือผู้ให้บริการพื้นที่สำหรับความร่วมมือกับหน่วยความจำของคุณเพิ่มวงเงิน PHP</target>
       </trans-unit>
+      <trans-unit id="status_phpRegisterGlobals" approved="yes">
+        <source>PHP Register Globals</source>
+        <target state="translated">PHP Register Globals</target>
+      </trans-unit>
       <trans-unit id="status_phpRegisterGlobalsEnabled" approved="yes">
         <source>%s is enabled. TYPO3 requires this configuration directive to be disabled.</source>
         <target state="translated">s% มีการใช้งาน TYPO3 ต้องสั่งการกำหนดค่านี้จะปิดการใช้งาน</target>
@@ -134,6 +146,10 @@
       <trans-unit id="status_phpRegisterGlobalsPHPManual" approved="yes">
         <source>The PHP manual has instructions for %s.</source>
         <target state="translated">คู่มือ PHP มีคำแนะนำสำหรับ% s</target>
+      </trans-unit>
+      <trans-unit id="status_webServer" approved="yes">
+        <source>Web Server</source>
+        <target state="translated">Web Server</target>
       </trans-unit>
       <trans-unit id="status_installEnabledTemporarily" approved="yes">
         <source>The Install Tool is temporarily enabled. Delete the file "%s" when you have finished setting up TYPO3. If not used the Install Tool will be disabled automatically in %s minutes.</source>
