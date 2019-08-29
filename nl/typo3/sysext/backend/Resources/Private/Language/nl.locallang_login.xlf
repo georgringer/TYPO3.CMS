@@ -15,6 +15,14 @@
         <source>Backend,Front End,Traditional Backend</source>
         <target state="translated">Backend, Frontend, Traditioneel backend</target>
       </trans-unit>
+      <trans-unit id="interface.backend" approved="yes">
+        <source>Backend</source>
+        <target state="translated">Backend</target>
+      </trans-unit>
+      <trans-unit id="interface.frontend" approved="yes">
+        <source>Frontend</source>
+        <target state="translated">Frontend</target>
+      </trans-unit>
       <trans-unit id="interface.backend_old" approved="yes">
         <source>Traditional Backend</source>
         <target state="translated">Traditionele Backend</target>
@@ -75,9 +83,17 @@
         <source>TYPO3 CMS comes with ABSOLUTELY NO WARRANTY; %sclick for details.%s</source>
         <target state="translated">TYPO3 heeft ABSOLUUT GEEN GARANTIE; %sMeer info.%s</target>
       </trans-unit>
+      <trans-unit id="typo3.cms" approved="yes">
+        <source>TYPO3 CMS</source>
+        <target state="translated">TYPO3 CMS</target>
+      </trans-unit>
       <trans-unit id="version.short" approved="yes">
         <source>ver.</source>
         <target state="translated">versie</target>
+      </trans-unit>
+      <trans-unit id="copyright" approved="yes">
+        <source>Copyright</source>
+        <target state="translated">Copyright</target>
       </trans-unit>
       <trans-unit id="extension.copyright" approved="yes">
         <source>Extensions are copyright of their respective owners.</source>
