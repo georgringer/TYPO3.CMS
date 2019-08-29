@@ -28,6 +28,12 @@ Page TSconfig objects | https://docs.typo3.org/typo3cms/TSconfigReference/PageTs
 			<target state="translated">_MOD_web_info:tsconfig_edit,
 pages:TSconfig,
 Side TSconfig objekter | https://docs.typo3.org/typo3cms/TSconfigReference/PageTsconfig/Index.html</target></trans-unit>
+      <trans-unit id="_tsconfig_hierarchy.image" xml:space="preserve" approved="yes">
+				<source>EXT:info_pagetsconfig/Resources/Public/Images/cshimages/img_1.png,
+EXT:info_pagetsconfig/Resources/Public/Images/cshimages/img_2.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:info_pagetsconfig/Resources/Public/Images/cshimages/img_1.png,
+EXT:info_pagetsconfig/Resources/Public/Images/cshimages/img_2.png,</target></trans-unit>
       <trans-unit id="tsconfig_hierarchy.image_descr" xml:space="preserve" approved="yes">
 				<source>This is how the parsed Page TSconfig tree can look. It contains the "sum" of all the configuration code from the root line and any default settings. This shows the whole tree but you can also select other top level objects (TLO) in the selector box in the top if you want to limit the view to a single branch
 One of the branches in Page TSconfig has the special property that it is overridden with any User TSconfig in the same object path given for the current backend user. When you view only the "mod" TLO any user settings for the current backend user are applied as well. Here it is evident that some additional settings must apply for the user since only "mod.SHARED.colPos_list" was actually found in Page TSconfig (according to the "All" view in the first image).</source>
@@ -46,6 +52,19 @@ En af sidegrenene i side TSconfig har den særlige egenskab, at den tilsidesætt
 You can also click the edit-icons of the various pages to go directly to the TSconfig fields of the pages.</source>
 			<target state="translated">Det indlæste side TSconfig træ, som du ser i standardvisningen, er faktisk kompileret fra denne TSconfig kode, for at kunne blive vist her. Denne visning giver dig mulighed for at se hvordan den indlæste version endte med at se ud.
 Du kan også klikke på redigeringsikonet på de forskellige sider, for at gå direkte til TSconfig felter på siden.</target></trans-unit>
+      <trans-unit id="_tsconfig_edit.seeAlso" approved="yes">
+        <source>_MOD_web_info:tsconfig_hierarchy</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">_MOD_web_info:tsconfig_hierarchy</target>
+      </trans-unit>
+      <trans-unit id="_tsconfig_edit.image" xml:space="preserve" approved="yes">
+				<source>EXT:info_pagetsconfig/Resources/Public/Images/cshimages/img_3.png,
+EXT:info_pagetsconfig/Resources/Public/Images/cshimages/img_4.png,
+EXT:info_pagetsconfig/Resources/Public/Images/cshimages/img_5.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:info_pagetsconfig/Resources/Public/Images/cshimages/img_3.png,
+EXT:info_pagetsconfig/Resources/Public/Images/cshimages/img_4.png,
+EXT:info_pagetsconfig/Resources/Public/Images/cshimages/img_5.png</target></trans-unit>
       <trans-unit id="tsconfig_edit.image_descr" xml:space="preserve" approved="yes">
 				<source>Shows the raw Page TSconfig code. First you see the default content from TYPO3_CONF_VARS (probably added by extensions), then the content from the "TSconfig" field of the first page in the root line ("Intro") and then for each root line page up to the current page (not shown in screenshot).
 In the bottom of the page you will see a link which will open editing forms for all of the TSconfig fields shown in the list!
