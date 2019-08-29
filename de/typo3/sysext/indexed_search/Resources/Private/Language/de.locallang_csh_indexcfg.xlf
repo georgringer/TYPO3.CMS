@@ -36,6 +36,11 @@
         <source>Set a start time for the configuration. If set, the configuration will be bypassed by the crawlers cron job until this time is reached.</source>
         <target state="translated">Legt eine Startzeit für die Konfiguration fest. Wird hier ein Wert eingetragen, so wird die Konfiguration vom Crawler-Cron-Job so lange übersprungen, bis der angegebene Zeitpunkt erreicht ist.</target>
       </trans-unit>
+      <trans-unit id="_starttime.seeAlso" approved="yes">
+        <source>index_config:hidden</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:hidden</target>
+      </trans-unit>
       <trans-unit id="timer_frequency.description" approved="yes">
         <source>Use this setting to adjust how often you would like a re-indexing process to run for the configuration.</source>
         <target state="translated">Mit Hilfe dieser Einstellung lässt sich festlegen, wie oft für diese Konfiguration eine Neuindizierung erfolgen soll.</target>
@@ -48,6 +53,11 @@ index_config:timer_offset</source>
       <trans-unit id="timer_offset.description" approved="yes">
         <source>The offset adjusts at what time of day you want the indexing process to run.</source>
         <target state="translated">Der Zeitversatz gibt an, zu welcher Tageszeit der Indizierungsvorgang durchgeführt werden soll.</target>
+      </trans-unit>
+      <trans-unit id="_timer_offset.seeAlso" approved="yes">
+        <source>index_config:timer_frequency</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:timer_frequency</target>
       </trans-unit>
       <trans-unit id="timer_next_indexing.description" approved="yes">
         <source>This field contains the date and time of the next occurring indexing session. If left blank the next indexing will occur as soon as the cron-script is run again (typically within the next minute) and afterwards set to the next time according to frequency and offset.</source>
@@ -78,6 +88,11 @@ index_config:timer_frequency</source>
         <source>By default the indexer will select records from the page id where the Indexing Configuration is stored. If you want an alternative page as the source of your records you can enter it here.</source>
         <target state="translated">Standardmäßig wählt der Indizierungsvorgang Datensätze der Seite aus, in der die Indizierungskonfiguration gespeichert ist. Soll eine andere Seite als Quelle der Datensätze dienen, kann dies hier festgelegt werden.</target>
       </trans-unit>
+      <trans-unit id="_alternative_source_pid.seeAlso" approved="yes">
+        <source>index_config:table2index</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:table2index</target>
+      </trans-unit>
       <trans-unit id="get_params.description" approved="yes">
         <source>Enter the GET parameters necessary to display the search results. You can use ###UID### as a marker in the parameter template.</source>
         <target state="translated">Die zur Anzeige der Suchergebnisse erforderlichen GET-Parameter eingeben. In der Parametervorlage kann ###UID### als Markierung verwendet werden.</target>
@@ -86,6 +101,11 @@ index_config:timer_frequency</source>
 				<source>Notice: The GET parameters are appended to the URL of the page where the Indexing Configuration is stored (which must be the page where a plugin exists that can display the records with the given parameters!).
 Example value: "&amp;showUid=###UID###"</source>
 			<target state="translated">Hinweis: Die GET-Parameter werden der URL der Seite hinzugefügt, auf der die Indizierungskonfiguration gespeichert ist. Dabei muss es sich um eine Seite handeln, auf der sich ein Plug-In befindet, das in der Lage ist, mit Hilfe der Parameter die Datensätze anzuzeigen! Beispielwert: "&amp;showUid=###UID###"</target></trans-unit>
+      <trans-unit id="_get_params.seeAlso" approved="yes">
+        <source>index_config:table2index</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:table2index</target>
+      </trans-unit>
       <trans-unit id="fieldlist.description" approved="yes">
         <source>Enter a comma-list of fields to be indexed. The first field name will be used for the search result title.</source>
         <target state="translated">Eine kommagetrennte Liste der zu indizierenden Felder eingeben. Der Name des ersten Feldes wird für den Titel des Suchergebnisses benutzt.</target>
@@ -94,13 +114,33 @@ Example value: "&amp;showUid=###UID###"</source>
         <source>&lt;b&gt;Example:&lt;/b&gt; "header,bodytext,image_caption" would index the Header, Bodytext and Image Caption fields from "tt_content". Notice that you must use the real database field names, don't spell them wrong!</source>
         <target state="translated">&lt;strong&gt;Beispiel:&lt;/strong&gt; "header,bodytext,image_caption" würde die Felder Header, Bodytext und Bildunterschrift aus tt_content indizieren. Beachten Sie, dass hier die echten Namen der Datenbankfelder verwendet werden müssen; achten Sie also auf die korrekte Schreibweise!</target>
       </trans-unit>
+      <trans-unit id="_fieldlist.seeAlso" approved="yes">
+        <source>index_config:table2index</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:table2index</target>
+      </trans-unit>
+      <trans-unit id="_chashcalc.seeAlso" approved="yes">
+        <source>index_config:table2index</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:table2index</target>
+      </trans-unit>
       <trans-unit id="recordsbatch.description" approved="yes">
         <source>Enter how many records to index for each instance of the indexing process (how many per minute). Default is 100 records.</source>
         <target state="translated">Die Anzahl der pro Instanz des Indizierungsprozesses zu indexierenden Datensätze angeben (wie viele pro Minute). Voreinstellung sind 100 Datensätze.</target>
       </trans-unit>
+      <trans-unit id="_recordsbatch.seeAlso" approved="yes">
+        <source>index_config:table2index</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:table2index</target>
+      </trans-unit>
       <trans-unit id="records_indexonchange.description" approved="yes">
         <source>If set, new and changed records from this table will be indexed through a hook in the core (Datahandler) meaning that they will be searchable immediately after addition to the system.</source>
         <target state="translated">Ist die Option aktiviert, werden neue und geänderte Datensätze dieser Tabelle über einen Hook im Kern (Datahandler) indiziert. D.h. es kann sofort nach dem Hinzufügen zum System nach ihnen gesucht werden.</target>
+      </trans-unit>
+      <trans-unit id="_records_indexonchange.seeAlso" approved="yes">
+        <source>index_config:table2index</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:table2index</target>
       </trans-unit>
       <trans-unit id="externalUrl.description" approved="yes">
         <source>Enter the URL of the external website you want to index.</source>
@@ -121,6 +161,11 @@ Soll "https://typo3.org/" indiziert werden, aber nicht "https://typo3.org/extens
 
 https://typo3.org/downloads/
 https://typo3.org/extensions/</target></trans-unit>
+      <trans-unit id="_url_deny.seeAlso" approved="yes">
+        <source>index_config:externalUrl</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:externalUrl</target>
+      </trans-unit>
       <trans-unit id="filepath.description" approved="yes">
         <source>Enter a filepath inside fileadmin/ where you want the files to be indexed.</source>
         <target state="translated">Einen Dateipfad unterhalb von fileadmin/ angeben, in dem die Dateien indiziert werden sollen.</target>
@@ -132,6 +177,11 @@ https://typo3.org/extensions/</target></trans-unit>
       <trans-unit id="extensions.description" approved="yes">
         <source>If you want to index only specific files in the directory, enter a list of file extensions here. For example: "html,pdf,doc"</source>
         <target state="translated">Sollen in einem Verzeichnis nur bestimmte Dateitypen indiziert werden, hier eine Liste der Dateiendungen eingeben. Beispiel: "html,pdf,doc"</target>
+      </trans-unit>
+      <trans-unit id="_extensions.seeAlso" approved="yes">
+        <source>index_config:filepath</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:filepath</target>
       </trans-unit>
       <trans-unit id="depth.description" approved="yes">
         <source>Levels of recursion.</source>
