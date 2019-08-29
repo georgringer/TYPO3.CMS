@@ -153,6 +153,9 @@
       <trans-unit id="formManager.duplicate_identifier" xml:space="preserve" approved="yes">
                 <source>Duplicate identifier!</source>
             <target state="translated">Dubleret identifikator!</target></trans-unit>
+      <trans-unit id="formManager.selectablePrototypesConfiguration.standard.label" xml:space="preserve" approved="yes">
+                <source>Standard</source>
+            <target state="translated">Standard</target></trans-unit>
       <trans-unit id="formManager.selectablePrototypesConfiguration.standard.newFormTemplates.blankForm.label" xml:space="preserve" approved="yes">
                 <source>Blank form</source>
             <target state="translated">Blank formular</target></trans-unit>
@@ -246,6 +249,9 @@
       <trans-unit id="formEditor.modals.validationErrors.dialogMessage" xml:space="preserve" approved="yes">
                 <source>Some elements are not configured properly. Please check the following elements:</source>
             <target state="translated">Nogle elementer er ikke konfigureret korrekt. Tjek venligst de følgende elementer:</target></trans-unit>
+      <trans-unit id="formEditor.modals.validationErrors.confirmButton" xml:space="preserve" approved="yes">
+                <source>OK</source>
+            <target state="translated">OK</target></trans-unit>
       <trans-unit id="formEditor.modals.insertElements.dialogTitle" xml:space="preserve" approved="yes">
                 <source>New element</source>
             <target state="translated">Nyt element</target></trans-unit>
@@ -285,6 +291,9 @@
       <trans-unit id="formEditor.pagination.title" xml:space="preserve" approved="yes">
                 <source>Step {0} of {1}</source>
             <target state="translated">Side {0} af {1}</target></trans-unit>
+      <trans-unit id="formEditor.elements.MinimumMaximumEditorsMixin.editor.minimum.label" xml:space="preserve" approved="yes">
+                <source>Minimum</source>
+            <target state="translated">Minimum</target></trans-unit>
       <trans-unit id="formEditor.elements.MinimumMaximumEditorsMixin.editor.maximum.label" xml:space="preserve" approved="yes">
                 <source>Maximum</source>
             <target state="translated">Maksimum</target></trans-unit>
@@ -534,6 +543,9 @@
       <trans-unit id="formEditor.elements.Form.finisher.EmailToReceiver.editor.language.label" xml:space="preserve" approved="yes">
                 <source>Translation language</source>
             <target state="translated">Oversættelsessprog</target></trans-unit>
+      <trans-unit id="formEditor.elements.Form.finisher.EmailToReceiver.editor.language.1" xml:space="preserve" approved="yes">
+                <source>EN</source>
+            <target state="translated">EN</target></trans-unit>
       <trans-unit id="formEditor.elements.Form.finisher.Redirect.editor.header.label" xml:space="preserve" approved="yes">
                 <source>Redirect to a page</source>
             <target state="translated">Videresend til side</target></trans-unit>
@@ -603,6 +615,9 @@
       <trans-unit id="formEditor.elements.FormElement.editor.gridColumnViewPortConfiguration.sm.label" xml:space="preserve" approved="yes">
                 <source>Small</source>
             <target state="translated">Lille</target></trans-unit>
+      <trans-unit id="formEditor.elements.FormElement.editor.gridColumnViewPortConfiguration.md.label" xml:space="preserve" approved="yes">
+                <source>Medium</source>
+            <target state="translated">Medium</target></trans-unit>
       <trans-unit id="formEditor.elements.FormElement.editor.gridColumnViewPortConfiguration.lg.label" xml:space="preserve" approved="yes">
                 <source>Large</source>
             <target state="translated">Stor</target></trans-unit>
@@ -669,6 +684,9 @@
       <trans-unit id="formEditor.elements.Telephone.label" xml:space="preserve" approved="yes">
                 <source>Telephone number</source>
             <target state="translated">Telefonnummer</target></trans-unit>
+      <trans-unit id="formEditor.elements.Url.label" xml:space="preserve" approved="yes">
+                <source>URL</source>
+            <target state="translated">URL</target></trans-unit>
       <trans-unit id="formEditor.elements.Number.label" xml:space="preserve" approved="yes">
                 <source>Number</source>
             <target state="translated">Antal</target></trans-unit>
