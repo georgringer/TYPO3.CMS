@@ -35,9 +35,25 @@
         <source>Warning: There is a possibility that cookies are not enabled in your web browser! If your login disappears on your next click that is the case and you should enable cookies (or accept cookies from this website) immediately!</source>
         <target state="translated">Attenzione: è probabile che il tuo browser non abbia i cookies abilitati! Se il messaggio di avvenuto login scompare nella prossima pagina che visiterai, allora devi abilitare (o accettare) i cookies provenienti da questo sito.</target>
       </trans-unit>
+      <trans-unit id="username" approved="yes">
+        <source>Username</source>
+        <target state="translated">Username</target>
+      </trans-unit>
+      <trans-unit id="password" approved="yes">
+        <source>Password</source>
+        <target state="translated">Password</target>
+      </trans-unit>
+      <trans-unit id="login" approved="yes">
+        <source>Login</source>
+        <target state="translated">Login</target>
+      </trans-unit>
       <trans-unit id="permalogin" approved="yes">
         <source>Stay logged in</source>
         <target state="translated">Mantenere il login</target>
+      </trans-unit>
+      <trans-unit id="logout" approved="yes">
+        <source>Logout</source>
+        <target state="translated">Logout</target>
       </trans-unit>
       <trans-unit id="send_password" approved="yes">
         <source>Send password</source>
