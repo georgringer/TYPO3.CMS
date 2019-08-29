@@ -55,6 +55,10 @@
         <source>TSconfig</source>
         <target state="translated">TS konfiguration</target>
       </trans-unit>
+      <trans-unit id="TSconfig_title" approved="yes">
+        <source>TSconfig QuickReference</source>
+        <target state="translated">TSconfig QuickReference</target>
+      </trans-unit>
       <trans-unit id="lockToDomain" approved="yes">
         <source>Lock to domain</source>
         <target state="translated">Lås til domæne</target>
@@ -66,6 +70,10 @@
       <trans-unit id="be_users.password" approved="yes">
         <source>Password</source>
         <target state="translated">Adgangskode</target>
+      </trans-unit>
+      <trans-unit id="be_users.avatar" approved="yes">
+        <source>Avatar</source>
+        <target state="translated">Avatar</target>
       </trans-unit>
       <trans-unit id="be_users.usergroup" approved="yes">
         <source>Group</source>
@@ -363,6 +371,10 @@
         <source>Path</source>
         <target state="translated">Sti</target>
       </trans-unit>
+      <trans-unit id="sys_filemounts.base" approved="yes">
+        <source>Base</source>
+        <target state="translated">Base</target>
+      </trans-unit>
       <trans-unit id="sys_filemounts.read_only" approved="yes">
         <source>Read-only</source>
         <target state="translated">Skrivebeskyttet</target>
@@ -462,6 +474,14 @@
       <trans-unit id="pages.nav_hide_toggle_formlabel" approved="yes">
         <source>Page enabled in menus</source>
         <target state="translated">Side aktiveret i menuer</target>
+      </trans-unit>
+      <trans-unit id="doktype.I.0" approved="yes">
+        <source>Standard</source>
+        <target state="translated">Standard</target>
+      </trans-unit>
+      <trans-unit id="doktype.I.1" approved="yes">
+        <source>SysFolder</source>
+        <target state="translated">SysFolder</target>
       </trans-unit>
       <trans-unit id="doktype.I.folder" approved="yes">
         <source>Folder</source>
@@ -583,6 +603,10 @@
         <source>_processed_ or 1:/processed_files_storage_x</source>
         <target state="translated">_processed_ eller 1:/processed_files_storage_x</target>
       </trans-unit>
+      <trans-unit id="sys_file_storage.driver" approved="yes">
+        <source>Driver</source>
+        <target state="translated">Driver</target>
+      </trans-unit>
       <trans-unit id="sys_file_storage.driver.local" approved="yes">
         <source>Local Filesystem</source>
         <target state="translated">Lokalt filsystem</target>
@@ -631,9 +655,21 @@
         <source>Audio</source>
         <target state="translated">Lyd</target>
       </trans-unit>
+      <trans-unit id="sys_file.type.video" approved="yes">
+        <source>Video</source>
+        <target state="translated">Video</target>
+      </trans-unit>
+      <trans-unit id="sys_file.type.software" approved="yes">
+        <source>Software</source>
+        <target state="translated">Software</target>
+      </trans-unit>
       <trans-unit id="sys_file.mime_type" approved="yes">
         <source>Mime Type</source>
         <target state="translated">Mime type</target>
+      </trans-unit>
+      <trans-unit id="sys_file.sha1" approved="yes">
+        <source>SHA1</source>
+        <target state="translated">SHA1</target>
       </trans-unit>
       <trans-unit id="sys_file.size" approved="yes">
         <source>Size</source>
@@ -731,6 +767,10 @@
         <source>Alternative Text</source>
         <target state="translated">Alternativ tekst</target>
       </trans-unit>
+      <trans-unit id="sys_file_reference.link" approved="yes">
+        <source>Link</source>
+        <target state="translated">Link</target>
+      </trans-unit>
       <trans-unit id="sys_file_reference.crop" approved="yes">
         <source>Image manipulation</source>
         <target state="translated">Billedmanipulation</target>
@@ -750,6 +790,10 @@
       <trans-unit id="sys_file_collection.title" approved="yes">
         <source>Title</source>
         <target state="translated">Titel</target>
+      </trans-unit>
+      <trans-unit id="sys_file_collection.type" approved="yes">
+        <source>Type</source>
+        <target state="translated">Type</target>
       </trans-unit>
       <trans-unit id="sys_file_collection.type.0" approved="yes">
         <source>Static selection of files</source>
