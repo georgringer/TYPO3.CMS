@@ -51,6 +51,14 @@
         <source>Create new workspace projects</source>
         <target state="translated">Создать новые рабочие области</target>
       </trans-unit>
+      <trans-unit id="TSconfig" approved="yes">
+        <source>TSconfig</source>
+        <target state="translated">TSconfig</target>
+      </trans-unit>
+      <trans-unit id="TSconfig_title" approved="yes">
+        <source>TSconfig QuickReference</source>
+        <target state="translated">TSconfig QuickReference</target>
+      </trans-unit>
       <trans-unit id="lockToDomain" approved="yes">
         <source>Lock to domain</source>
         <target state="translated">Ограничить доменом</target>
@@ -591,6 +599,10 @@
         <source>Folder for manipulated and temporary images etc.</source>
         <target state="translated">Папка для временного хранения картинок и т.п.</target>
       </trans-unit>
+      <trans-unit id="sys_file_storage.processingfolder.placeholder" approved="yes">
+        <source>_processed_ or 1:/processed_files_storage_x</source>
+        <target state="translated">_processed_ or 1:/processed_files_storage_x</target>
+      </trans-unit>
       <trans-unit id="sys_file_storage.driver" approved="yes">
         <source>Driver</source>
         <target state="translated">Драйвер</target>
@@ -654,6 +666,10 @@
       <trans-unit id="sys_file.mime_type" approved="yes">
         <source>Mime Type</source>
         <target state="translated">Тип MIME</target>
+      </trans-unit>
+      <trans-unit id="sys_file.sha1" approved="yes">
+        <source>SHA1</source>
+        <target state="translated">SHA1</target>
       </trans-unit>
       <trans-unit id="sys_file.size" approved="yes">
         <source>Size</source>
