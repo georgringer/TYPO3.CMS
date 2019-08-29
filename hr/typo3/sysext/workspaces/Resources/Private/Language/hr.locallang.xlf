@@ -90,6 +90,10 @@
         <source>Done processing %d elements</source>
         <target state="translated">Završena obrada %d elemenata</target>
       </trans-unit>
+      <trans-unit id="runMassAction.init" approved="yes">
+        <source>init</source>
+        <target state="translated">init</target>
+      </trans-unit>
       <trans-unit id="tooltip.publishAll" approved="yes">
         <source>Really publish entire workspace?</source>
         <target state="translated">Zaista želite objaviti čitav radni prostor?</target>
@@ -164,6 +168,14 @@
       <trans-unit id="column.wsTitle" approved="yes">
         <source>Changed</source>
         <target state="translated">Izmjenjeno</target>
+      </trans-unit>
+      <trans-unit id="column.uid" approved="yes">
+        <source>WS ID</source>
+        <target state="translated">WS ID</target>
+      </trans-unit>
+      <trans-unit id="column.oid" approved="yes">
+        <source>Live ID</source>
+        <target state="translated">Live ID</target>
       </trans-unit>
       <trans-unit id="column.workspaceName" approved="yes">
         <source>Workspace</source>
