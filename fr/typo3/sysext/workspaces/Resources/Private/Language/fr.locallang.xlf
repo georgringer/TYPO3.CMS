@@ -31,6 +31,10 @@
         <source>Workspaces</source>
         <target state="translated">Espaces de travail</target>
       </trans-unit>
+      <trans-unit id="ok" approved="yes">
+        <source>Ok</source>
+        <target state="translated">Ok</target>
+      </trans-unit>
       <trans-unit id="cancel" approved="yes">
         <source>Cancel</source>
         <target state="translated">Annuler</target>
@@ -149,9 +153,17 @@
         <source>Difference</source>
         <target state="translated">Différence</target>
       </trans-unit>
+      <trans-unit id="column.changeDate" approved="yes">
+        <source>Modification</source>
+        <target state="translated">Modification</target>
+      </trans-unit>
       <trans-unit id="column.stage" approved="yes">
         <source>Current Stage</source>
         <target state="translated">État actuel</target>
+      </trans-unit>
+      <trans-unit id="column.actions" approved="yes">
+        <source>Actions</source>
+        <target state="translated">Actions</target>
       </trans-unit>
       <trans-unit id="column.wsPath" approved="yes">
         <source>Path</source>
@@ -324,6 +336,10 @@
         <source>List view</source>
         <target state="translated">Vue en liste</target>
       </trans-unit>
+      <trans-unit id="preview.livePreview" approved="yes">
+        <source>Live</source>
+        <target state="translated">Live</target>
+      </trans-unit>
       <trans-unit id="preview.livePreviewDetail" approved="yes">
         <source>Click this element to hide the workspace version and see the live version of the page.</source>
         <target state="translated">Cliquer sur cet élément pour masquer la version de l'espace de travail, et voir la version En ligne de la page.</target>
@@ -339,6 +355,14 @@
       <trans-unit id="preview.modeSlider" approved="yes">
         <source>Slider</source>
         <target state="translated">Curseur</target>
+      </trans-unit>
+      <trans-unit id="preview.modeVbox" approved="yes">
+        <source>Vertical</source>
+        <target state="translated">Vertical</target>
+      </trans-unit>
+      <trans-unit id="preview.modeHbox" approved="yes">
+        <source>Horizontal</source>
+        <target state="translated">Horizontal</target>
       </trans-unit>
       <trans-unit id="label_doaction_publish" approved="yes">
         <source>Publish</source>
@@ -403,6 +427,10 @@
       <trans-unit id="integrity.hasIssuesQuestion" approved="yes">
         <source>Do you want to continue?</source>
         <target state="translated">Voulez-vous continuer ?</target>
+      </trans-unit>
+      <trans-unit id="status.info" approved="yes">
+        <source>Information</source>
+        <target state="translated">Information</target>
       </trans-unit>
       <trans-unit id="status.warning" approved="yes">
         <source>Warning</source>
