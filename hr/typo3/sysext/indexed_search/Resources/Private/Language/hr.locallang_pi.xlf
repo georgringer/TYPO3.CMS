@@ -243,6 +243,18 @@ All search words are converted to lowercase.</source>
         <source>Displaying results ###TAG_BEGIN###%1$s to %2$s###TAG_END### out of ###TAG_BEGIN###%3$s###TAG_END###</source>
         <target state="translated">Prikazujem rezultate od ###TAG_BEGIN###%1$s do %2$s###TAG_END### od ukupno ###TAG_BEGIN###%3$s###TAG_END###</target>
       </trans-unit>
+      <trans-unit id="local_operator_AND" approved="yes">
+        <source>AND</source>
+        <target state="translated">AND</target>
+      </trans-unit>
+      <trans-unit id="local_operator_OR" approved="yes">
+        <source>OR</source>
+        <target state="translated">OR</target>
+      </trans-unit>
+      <trans-unit id="local_operator_NOT" approved="yes">
+        <source>NOT</source>
+        <target state="translated">NOT</target>
+      </trans-unit>
       <trans-unit id="makerating_addToCurrentSearch" approved="yes">
         <source>Add to current search words</source>
         <target state="translated">Dodaj trenutnim pojmovima pretraživanja</target>
