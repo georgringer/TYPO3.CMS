@@ -55,6 +55,10 @@
         <source>Links to this Page</source>
         <target state="translated">Links zu dieser Seite</target>
       </trans-unit>
+      <trans-unit id="pages.palettes.caching" approved="yes">
+        <source>Caching</source>
+        <target state="translated">Caching</target>
+      </trans-unit>
       <trans-unit id="pages.palettes.language" approved="yes">
         <source>Language</source>
         <target state="translated">Sprache</target>
@@ -111,6 +115,10 @@
         <source>Page</source>
         <target state="translated">Seite</target>
       </trans-unit>
+      <trans-unit id="pages.doktype.div.link" approved="yes">
+        <source>Link</source>
+        <target state="translated">Link</target>
+      </trans-unit>
       <trans-unit id="pages.doktype.div.special" approved="yes">
         <source>Special</source>
         <target state="translated">Spezial</target>
@@ -146,6 +154,18 @@
       <trans-unit id="pages.layout_formlabel" approved="yes">
         <source>Frontend Layout</source>
         <target state="translated">Frontend-Layout</target>
+      </trans-unit>
+      <trans-unit id="pages.layout.I.1" approved="yes">
+        <source>Layout 1</source>
+        <target state="translated">Layout 1</target>
+      </trans-unit>
+      <trans-unit id="pages.layout.I.2" approved="yes">
+        <source>Layout 2</source>
+        <target state="translated">Layout 2</target>
+      </trans-unit>
+      <trans-unit id="pages.layout.I.3" approved="yes">
+        <source>Layout 3</source>
+        <target state="translated">Layout 3</target>
       </trans-unit>
       <trans-unit id="pages.extendToSubpages" approved="yes">
         <source>Include Subpages</source>
@@ -186,6 +206,14 @@
       <trans-unit id="pages.target_formlabel" approved="yes">
         <source>Link Target</source>
         <target state="translated">Linkziel</target>
+      </trans-unit>
+      <trans-unit id="pages.url" approved="yes">
+        <source>URL</source>
+        <target state="translated">URL</target>
+      </trans-unit>
+      <trans-unit id="pages.url_formlabel" approved="yes">
+        <source>URL</source>
+        <target state="translated">URL</target>
       </trans-unit>
       <trans-unit id="pages.lastUpdated" approved="yes">
         <source>Last Updated</source>
@@ -287,6 +315,10 @@
         <source>Shortcut</source>
         <target state="translated">Verweis</target>
       </trans-unit>
+      <trans-unit id="pages.tabs.url" approved="yes">
+        <source>URL</source>
+        <target state="translated">URL</target>
+      </trans-unit>
       <trans-unit id="pages.tabs.extended" approved="yes">
         <source>Extended</source>
         <target state="translated">Erweitert</target>
@@ -383,6 +415,10 @@
         <source>Files</source>
         <target state="translated">Dateien</target>
       </trans-unit>
+      <trans-unit id="pages.media_formlabel" approved="yes">
+        <source>Media</source>
+        <target state="translated">Media</target>
+      </trans-unit>
       <trans-unit id="pages.is_siteroot" approved="yes">
         <source>Is Root of Website</source>
         <target state="translated">Ist Anfang der Website</target>
@@ -399,13 +435,25 @@
         <source>Contains Plugin</source>
         <target state="translated">Enthält Erweiterung</target>
       </trans-unit>
+      <trans-unit id="pages.module.I.1" approved="yes">
+        <source>Shop</source>
+        <target state="translated">Shop</target>
+      </trans-unit>
       <trans-unit id="pages.module.I.2" approved="yes">
         <source>Board</source>
         <target state="translated">Forum</target>
       </trans-unit>
+      <trans-unit id="pages.module.I.3" approved="yes">
+        <source>News</source>
+        <target state="translated">News</target>
+      </trans-unit>
       <trans-unit id="pages.module.I.4" approved="yes">
         <source>Website Users</source>
         <target state="translated">Website-Benutzer</target>
+      </trans-unit>
+      <trans-unit id="pages.module.I.5" approved="yes">
+        <source>Direct Mail</source>
+        <target state="translated">Direct Mail</target>
       </trans-unit>
       <trans-unit id="pages.module.I.6" approved="yes">
         <source>Approvals</source>
@@ -543,6 +591,10 @@
         <source>Extended</source>
         <target state="translated">Erweitert</target>
       </trans-unit>
+      <trans-unit id="sys_template" approved="yes">
+        <source>Template</source>
+        <target state="translated">Template</target>
+      </trans-unit>
       <trans-unit id="sys_template.title" approved="yes">
         <source>Template Title</source>
         <target state="translated">Template-Titel</target>
@@ -578,6 +630,10 @@
       <trans-unit id="sys_template.includeStaticAfterBasedOn" approved="yes">
         <source>Include Static Templates After Basis Templates</source>
         <target state="translated">Statische Templates nach Basis-Templates einschließen</target>
+      </trans-unit>
+      <trans-unit id="sys_template.config" approved="yes">
+        <source>Setup</source>
+        <target state="translated">Setup</target>
       </trans-unit>
       <trans-unit id="sys_template.editorcfg" approved="yes">
         <source>Backend Editor Configuration</source>
