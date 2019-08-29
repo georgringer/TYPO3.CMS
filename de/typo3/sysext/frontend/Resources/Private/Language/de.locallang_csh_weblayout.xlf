@@ -56,6 +56,14 @@ xMOD_csh_corebe:TCEforms,
 Über das Modul "Seite" | https://typo3.org/documentation/tips-tricks/the-new-page-editing-concept/
 Bearbeiten einer Seite | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/EditPageContent/
 Das Modul "Seite" (Animation) | Verwendung des Seitenbaums (Animation) | FILE:EXT:welcome/modsub/ani_05.gif</target></trans-unit>
+      <trans-unit id="_.image" xml:space="preserve" approved="yes">
+				<source>EXT:frontend/Resources/Public/Images/cshimages/pagemodule_13.png,
+EXT:frontend/Resources/Public/Images/cshimages/pagemodule_14.png,
+EXT:frontend/Resources/Public/Images/cshimages/pagemodule_15.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:frontend/Resources/Public/Images/cshimages/pagemodule_13.png,
+EXT:frontend/Resources/Public/Images/cshimages/pagemodule_14.png,
+EXT:frontend/Resources/Public/Images/cshimages/pagemodule_15.png</target></trans-unit>
       <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
 				<source>Click the Page module, then the title of a page in the page tree.
 The page module is now activated in the right frame, showing the content of the page you clicked in the page tree.
@@ -72,6 +80,16 @@ These buttons are direct links to the History/Undo function (1), Create new cont
       <trans-unit id="quickEdit.details" approved="yes">
         <source>The Quick Editor is designed to cut down the number of clicks involved in getting to edit the page content. Simply by clicking the page title in the page tree you've got the first content element in the normal column loaded in the list frame. In the toolbar in the top you can select the other content elements on the page in the selector box.</source>
         <target state="translated">Die Schnelleingabe ist dafür ausgelegt, die Anzahl von Klicks zur Bearbeitung von Inhaltselementen zu minimieren. Schon bei der Auswahl einer Seite aus dem Seitenbaum wird das erste Element des Inhalts der Spalte "Normal" zur direkten Bearbeitung angeboten. Am oberen Rand des Formulars können Änderungen gespeichert oder verworfen werden. Am unteren Ende des Formulars lassen sich schnell andere Elemente zur direkten Bearbeitung auswählen.</target>
+      </trans-unit>
+      <trans-unit id="_quickEdit.seeAlso" approved="yes">
+        <source>_MOD_web_layout:quickEdit_selElement</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">_MOD_web_layout:quickEdit_selElement</target>
+      </trans-unit>
+      <trans-unit id="_quickEdit.image" approved="yes">
+        <source>EXT:frontend/Resources/Public/Images/cshimages/pagemodule_5.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:frontend/Resources/Public/Images/cshimages/pagemodule_5.png</target>
       </trans-unit>
       <trans-unit id="quickEdit.image_descr" approved="yes">
         <source>The QuickEdit view cuts of one extra click by bringing the user directly to the editing form after clicking a page title in the page tree. The record shown is always the first content element from the Normal column.</source>
@@ -91,6 +109,11 @@ xMOD_csh_corebe:move_el_cs,
 xMOD_csh_corebe:new_ce</source>
 				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
 			<target state="translated">_MOD_web_layout:quickEdit, xMOD_csh_corebe:move_el_cs, xMOD_csh_corebe:new_ce</target></trans-unit>
+      <trans-unit id="_quickEdit_selElement.image" approved="yes">
+        <source>EXT:frontend/Resources/Public/Images/cshimages/pagemodule_4.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:frontend/Resources/Public/Images/cshimages/pagemodule_4.png</target>
+      </trans-unit>
       <trans-unit id="quickEdit_selElement.image_descr" approved="yes">
         <source>Overview of page content elements in the QuickEdit view. In the bottom there are links to two wizards: The "Move Content Element Wizard" and the "Create new Content Element Wizard". See the links below.</source>
         <target state="translated">Übersicht der Seitenelemente im Modus Schnelleingabe. Ganz unten können zwei Assistenten gestartet werden: "Inhaltselement verschieben" und "Neues Inhaltselement anlegen". Siehe unten.</target>
@@ -98,6 +121,16 @@ xMOD_csh_corebe:new_ce</source>
       <trans-unit id="columns_1.description" approved="yes">
         <source>In the "Columns" view you can manage the content of a web page. If your web page supports multiple columns, you will be able to arrange your content elements in columns.</source>
         <target state="translated">In der Spatenansicht können Sie den Inhalt der Webseite verwalten. Wenn Ihre Webseite mehrere Spalten unterstützt, können Sie Ihre Inhaltselemente den Spalten zuordnen.</target>
+      </trans-unit>
+      <trans-unit id="_columns_1.seeAlso" approved="yes">
+        <source>_MOD_web_layout:columns_single</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">_MOD_web_layout:columns_single</target>
+      </trans-unit>
+      <trans-unit id="_columns_1.image" approved="yes">
+        <source>EXT:frontend/Resources/Public/Images/cshimages/pagemodule_12.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:frontend/Resources/Public/Images/cshimages/pagemodule_12.png</target>
       </trans-unit>
       <trans-unit id="columns_2.alttitle" approved="yes">
         <source>Listing by Language</source>
@@ -107,6 +140,20 @@ xMOD_csh_corebe:new_ce</source>
         <source>In the "Languages" view you can control the content of the web page as it is divided into languages and columns. It enables users to create a new translation of a page.</source>
         <target state="translated">In dieser Sprachenansicht können Sie den Inhalt der Webseite nach Sprachen und Spalten aufgeteilt ansehen. Außerdem können Sie eine neue Übersetzung einer Seite erstellen.</target>
       </trans-unit>
+      <trans-unit id="_columns_2.seeAlso" approved="yes">
+        <source>sys_language</source>
+        <target state="translated">sys_language</target>
+      </trans-unit>
+      <trans-unit id="_columns_2.image" xml:space="preserve" approved="yes">
+        <source>EXT:frontend/Resources/Public/Images/cshimages/pagemodule_6.png,
+        EXT:frontend/Resources/Public/Images/cshimages/pagemodule_7.png,
+        EXT:frontend/Resources/Public/Images/cshimages/pagemodule_11.png,
+        EXT:frontend/Resources/Public/Images/cshimages/pagemodule_10.png,</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <target state="translated">EXT:frontend/Resources/Public/Images/cshimages/pagemodule_6.png,
+        EXT:frontend/Resources/Public/Images/cshimages/pagemodule_7.png,
+        EXT:frontend/Resources/Public/Images/cshimages/pagemodule_11.png,
+        EXT:frontend/Resources/Public/Images/cshimages/pagemodule_10.png,</target></trans-unit>
       <trans-unit id="columns_3.alttitle" approved="yes">
         <source>Page Information</source>
         <target state="translated">Seiteninformationen</target>
@@ -120,6 +167,11 @@ xMOD_csh_corebe:new_ce</source>
 You can also see the subtitle, keywords and descriptions. This information is often used on websites for meta data or searching.</source>
 			<target state="translated">Die Seiteninformationen zeigen Informationen wie das Erstellungsdatum, das Datum der letzten Änderung der Seite und der Inhaltselemente.
 Untertitel, Schlüsselworte und Beschreibungen sind ebenfalls sichtbar. Diese Informationen (die Metadaten) werden oft zur Suche benutzt.</target></trans-unit>
+      <trans-unit id="_columns_3.image" approved="yes">
+        <source>EXT:frontend/Resources/Public/Images/cshimages/pagemodule_9.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:frontend/Resources/Public/Images/cshimages/pagemodule_9.png</target>
+      </trans-unit>
       <trans-unit id="columns_single.alttitle" approved="yes">
         <source>Page content elements in a single column</source>
         <target state="translated">Seiteninhaltselemente in einer einzelnen Spalte.</target>
@@ -133,6 +185,16 @@ Untertitel, Schlüsselworte und Beschreibungen sind ebenfalls sichtbar. Diese In
 Clicking the "New content element" icon you will be able to create new content elements in between the existing elements on the page.
 Click the icon of a content element if you wish to access the context menu of the element.</source>
 			<target state="translated">Sie können Elemente außerdem verbergen, löschen und verschieben. Verwenden Sie dazu die Symbole des Bedienfeldes. Mit Hilfe des Symbols "Neues Element" lassen sich einfach neue Inhalte zwischen den vorhandenen Elementen einfügen. Das Symbol des Inhaltselements zeigt beim Klicken ein Kontextmenü, das weitere Möglichkeiten bietet.</target></trans-unit>
+      <trans-unit id="_columns_single.seeAlso" approved="yes">
+        <source>_MOD_web_layout:columns_multi</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">_MOD_web_layout:columns_multi</target>
+      </trans-unit>
+      <trans-unit id="_columns_single.image" approved="yes">
+        <source>EXT:frontend/Resources/Public/Images/cshimages/pagemodule_1.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:frontend/Resources/Public/Images/cshimages/pagemodule_1.png</target>
+      </trans-unit>
       <trans-unit id="columns_single.image_descr" approved="yes">
         <source>Content Elements on a page are arranged in a specific order - the order they appear on the website. This order is also shown in the page module. The control panel allows you to move elements up and down as well as edit, hide and delete them. You can also just click the preview text shown here to access the editing form of the element.</source>
         <target state="translated">Inhaltselemente werden im Modul "Seite" sortiert gezeigt - in der Reihenfolge, in der sie auch auf der Website angezeigt werden. Das Bedienfeld erlaubt es, Elemente nach oben/unten zu verschieben und sie zu bearbeiten, zu verbergen oder zu löschen. Ein Klick auf den Vorschautext ruft ebenfalls das Bearbeitungsformular auf.</target>
@@ -152,6 +214,11 @@ xMOD_csh_corebe:new_pages,
 xMOD_csh_corebe:new_ce,</source>
 				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
 			<target state="translated">xMOD_csh_corebe:TCEforms, xMOD_csh_corebe:move_el_pages, xMOD_csh_corebe:new_pages, xMOD_csh_corebe:new_ce,</target></trans-unit>
+      <trans-unit id="_button_panel.image" approved="yes">
+        <source>EXT:frontend/Resources/Public/Images/cshimages/pagemodule_2.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:frontend/Resources/Public/Images/cshimages/pagemodule_2.png</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
