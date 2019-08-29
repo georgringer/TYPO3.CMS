@@ -135,6 +135,10 @@
         <source>Update</source>
         <target state="translated">Aktualisierung</target>
       </trans-unit>
+      <trans-unit id="extensionList.header.activate" approved="yes">
+        <source>A/D</source>
+        <target state="translated">A/D</target>
+      </trans-unit>
       <trans-unit id="extensionList.header.title.activate" approved="yes">
         <source>Activate / Deactivate</source>
         <target state="translated">Aktivieren / Deaktivieren</target>
@@ -143,9 +147,17 @@
         <source>Extension</source>
         <target state="translated">Erweiterung</target>
       </trans-unit>
+      <trans-unit id="extensionList.header.version" approved="yes">
+        <source>Version</source>
+        <target state="translated">Version</target>
+      </trans-unit>
       <trans-unit id="extensionList.header.extensionKey" approved="yes">
         <source>Key</source>
         <target state="translated">Schlüssel</target>
+      </trans-unit>
+      <trans-unit id="extensionList.header.extensionVersion" approved="yes">
+        <source>Version</source>
+        <target state="translated">Version</target>
       </trans-unit>
       <trans-unit id="extensionList.header.extensionActions" approved="yes">
         <source>Actions</source>
@@ -348,6 +360,10 @@
         <source>Your download of {0} was successful.</source>
         <target state="translated">Herunterladen von {0} war erfolgreich.</target>
       </trans-unit>
+      <trans-unit id="extensionList.dependenciesResolveDownloadSuccess.header" approved="yes">
+        <source>Log</source>
+        <target state="translated">Log</target>
+      </trans-unit>
       <trans-unit id="extensionList.dependenciesResolveDownloadSuccess.item" approved="yes">
         <source>Extensions</source>
         <target state="translated">Erweiterungen</target>
@@ -392,9 +408,17 @@
         <source>Extension key</source>
         <target state="translated">Erweiterungsschlüssel</target>
       </trans-unit>
+      <trans-unit id="extensionList.showAllVersions.version" approved="yes">
+        <source>Version</source>
+        <target state="translated">Version</target>
+      </trans-unit>
       <trans-unit id="extensionList.showAllVersions.lastUploaded" approved="yes">
         <source>Last uploaded</source>
         <target state="translated">Zuletzt hochgeladen</target>
+      </trans-unit>
+      <trans-unit id="extensionList.showAllVersions.downloads" approved="yes">
+        <source>Downloads</source>
+        <target state="translated">Downloads</target>
       </trans-unit>
       <trans-unit id="extensionList.showAllVersions.category" approved="yes">
         <source>Category</source>
@@ -427,6 +451,14 @@
       <trans-unit id="extensionList.distribution.title" approved="yes">
         <source>Title</source>
         <target state="translated">Titel</target>
+      </trans-unit>
+      <trans-unit id="extensionList.distribution.version" approved="yes">
+        <source>Version</source>
+        <target state="translated">Version</target>
+      </trans-unit>
+      <trans-unit id="extensionList.distribution.downloads" approved="yes">
+        <source>Downloads</source>
+        <target state="translated">Downloads</target>
       </trans-unit>
       <trans-unit id="extensionList.distribution.lastUpdated" approved="yes">
         <source>Last Update</source>
@@ -532,6 +564,10 @@
         <source>Type</source>
         <target state="translated">Typ</target>
       </trans-unit>
+      <trans-unit id="distribution.dependency.version" approved="yes">
+        <source>Version</source>
+        <target state="translated">Version</target>
+      </trans-unit>
       <trans-unit id="task.updateExtensionListTask.name" approved="yes">
         <source>Update extension list</source>
         <target state="translated">Erweiterungsliste aktualisieren</target>
@@ -560,9 +596,17 @@
         <source>The Main Repository extension list is older than 7 days. Please update it in the Extension manager or Scheduler.</source>
         <target state="translated">Die Erweiterungsliste des Haupt-Repository ist älter als 7 Tage. Bitte aktualisieren sie es über den Erweiterungsmanager oder den Planer</target>
       </trans-unit>
+      <trans-unit id="report.status.mainRepository.upToDate.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
+      </trans-unit>
       <trans-unit id="report.status.loadedExtensions.title" approved="yes">
         <source>Security status of loaded extensions</source>
         <target state="translated">Sicherheitsstatus der geladenen Erweiterungen</target>
+      </trans-unit>
+      <trans-unit id="report.status.loadedExtensions.noInsecureExtensionLoaded.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
       </trans-unit>
       <trans-unit id="report.status.loadedExtensions.insecureExtensionLoaded.value" approved="yes">
         <source>%s insecure extension(s) found</source>
@@ -580,6 +624,10 @@
         <source>Security status of existing, but not loaded extensions</source>
         <target state="translated">Sicherheitsstatus von existierenden, aber nicht geladenen Erweiterungen</target>
       </trans-unit>
+      <trans-unit id="report.status.existingExtensions.noInsecureExtensionExists.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
+      </trans-unit>
       <trans-unit id="report.status.existingExtensions.insecureExtensionExists.value" approved="yes">
         <source>%s insecure extension(s) found</source>
         <target state="translated">%s unsichere Erweiterung(en) gefunden</target>
@@ -596,6 +644,10 @@
         <source>Outdated status of loaded extensions</source>
         <target state="translated">Veraltete Erweiterungen, die geladen sind</target>
       </trans-unit>
+      <trans-unit id="report.status.loadedOutdatedExtensions.noOutdatedExtensionLoaded.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
+      </trans-unit>
       <trans-unit id="report.status.loadedOutdatedExtensions.outdatedExtensionLoaded.value" approved="yes">
         <source>%s outdated extension(s) found</source>
         <target state="translated">%s veraltete Erweiterung(en) gefunden</target>
@@ -611,6 +663,10 @@
       <trans-unit id="report.status.existingOutdatedExtensions.title" approved="yes">
         <source>Outdated status of existing, but not loaded extensions</source>
         <target state="translated">Veraltete Erweiterungen, die nicht geladen sind</target>
+      </trans-unit>
+      <trans-unit id="report.status.existingOutdatedExtensions.noOutdatedExtensionExists.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
       </trans-unit>
       <trans-unit id="report.status.existingOutdatedExtensions.outdatedExtensionExists.value" approved="yes">
         <source>%s outdated extension(s) found</source>
