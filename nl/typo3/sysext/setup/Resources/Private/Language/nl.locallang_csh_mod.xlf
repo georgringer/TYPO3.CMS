@@ -19,6 +19,12 @@
         <source>User TSconfig SETUP | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/Setup/Index.html</source>
         <target state="translated">Gebruiker-TSconfig SETUP | http://typo3.org/documentation/document-library/doc_core_tsconfig/SETUP/</target>
       </trans-unit>
+      <trans-unit id="_.image" xml:space="preserve" approved="yes">
+				<source>EXT:setup/Resources/Public/Images/cshimages/setup8.png,
+EXT:setup/Resources/Public/Images/cshimages/setup7.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:setup/Resources/Public/Images/cshimages/setup8.png,
+EXT:setup/Resources/Public/Images/cshimages/setup7.png</target></trans-unit>
       <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
 				<source>The Setup module is selected in the left menu.
 This is how the Setup module interface looks like - a list of options to configure.</source>
@@ -35,9 +41,18 @@ This is how the Setup module interface looks like - a list of options to configu
 				<source>&lt;b&gt;Warning [technical]:&lt;/b&gt; If TYPO3 is not configured to use a single character set (through $TYPO3_CONF_VARS[BE][forceCharset]) then all data entered in the backend is submitted in the character set of the selected backend language. This leads to inconsistent data storage if some users are using the backend in Russian and others in English which uses different character sets.
 The solution clearly is to set the configuration option mentioned above to a value like "utf-8". This must be done by the developers responsible for the whole system configuration.</source>
 			<target state="translated">&lt;b&gt;Waarschuwing [technisch]:&lt;/b&gt; Als TYPO3 niet geconfigureerd is om gebruik te maken van één enkele karakterset (middels $TYPO3_CONF_VARS[BE][forceCharset]) dan zal alle ingevoerde data in het backend opgeslagen worden in de karakterset van de geselecteerde backend taal. Dit kan leiden tot inconsistente data-opslag als sommige gebruikers andere taalinstellingen gebruiken dan anderen. Russisch gebruikt een andere karakterset dan Engels. De oplossing is om bovenstaande instelling te gebruiken met een waarde als "utf-8". Dit moet gedaan worden door uw systeembeheerder, verantwoordelijk voor de gehele systeemconfiguratie.</target></trans-unit>
+      <trans-unit id="_language.image" approved="yes">
+        <source>EXT:setup/Resources/Public/Images/cshimages/lang.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/lang.png</target>
+      </trans-unit>
       <trans-unit id="language.image_descr" approved="yes">
         <source>TYPO3 is translated into around 40 languages. English is the default language and all labels must be available in English first and foremost. This screenshot shows translations for Hebrew, Arabic, Russian and Chinese.</source>
         <target state="translated">TYPO3 is vertaald in ongeveer 40 talen. Engels is de standaard taal. Alle labels moeten vooral het eerst beschikbaar zijn in het Engels. Deze schermafbeelding toont vertalingen voor Hebreeuws, Arabisch, Russisch en Chinees.</target>
+      </trans-unit>
+      <trans-unit id="option_startModule.alttitle" approved="yes">
+        <source>Start module</source>
+        <target state="translated">Start module</target>
       </trans-unit>
       <trans-unit id="option_startModule.description" xml:space="preserve" approved="yes">
 				<source>Let you select the module that is called when you login in the Backend
@@ -50,6 +65,11 @@ The default module is "About Modules".</source>
       <trans-unit id="option_showThumbs.description" approved="yes">
         <source>In modules like the "Web &gt; List" and "File &gt; Filelist" you can enable the display of thumbnails of files (images/fonts) and records (if images are attached) with a checkbox. Setting this option will enable the display by default.</source>
         <target state="translated">In modules als "Web &gt; Lijst" en "Bestand &gt; Bestandlijst" kunt u instellen dat mini-afbeeldingen getoond worden van bestanden (afbeeldingen/lettertypen) en records (als hier afbeeldingen aan gekoppeld zijn) middels een markeerveld. Door deze optie te kiezen zal deze mogelijkheid standaard geboden worden.</target>
+      </trans-unit>
+      <trans-unit id="_option_showThumbs.image" approved="yes">
+        <source>EXT:setup/Resources/Public/Images/cshimages/setup5.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/setup5.png</target>
       </trans-unit>
       <trans-unit id="option_showThumbs.image_descr" approved="yes">
         <source>When thumbnails display is enabled, files attached to records will be shown in the "Web &gt; List" module like this.</source>
@@ -70,6 +90,11 @@ The default module is "About Modules".</source>
       <trans-unit id="option_maxTitleLen.description" approved="yes">
         <source>TYPO3 will often crop long titles of records etc. so only the first X characters are shown. Often the number of shown characters depends on this variable. For instance the length of page titles in the page tree is determined by this value.</source>
         <target state="translated">TYPO3 zal vaak lange titels van records afkorten in het backend, zodat alleen de eerste X karakters getoond worden. Vaak is het aantal karakters afhankelijk van deze instelling. Bijvoorbeeld de lengte van de paginatitels in de paginaboom worden vastgesteld door deze waarde.</target>
+      </trans-unit>
+      <trans-unit id="_option_maxTitleLen.image" approved="yes">
+        <source>EXT:setup/Resources/Public/Images/cshimages/setup6.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/setup6.png</target>
       </trans-unit>
       <trans-unit id="option_maxTitleLen.image_descr" approved="yes">
         <source>In this case the Maximum Title length is set to 10 - and the result is that titles in the page tree - as well as other places in the backend - will be cropped after 10 characters, then suffixed by "...". The default value is "30".</source>
@@ -107,6 +132,11 @@ The default module is "About Modules".</source>
         <source>A Rich Text Editor (RTE) means that a text editing field has buttons for making selected text bold, italic etc. Whether a RTE is available also depends on factors like the browser you are using and which extensions are installed. Finally RTEs are applied to only a few record fields. The most well known example would be the Text field of a Content Element.</source>
         <target state="translated">Met een Rich Text Editor (RTE) bedoelen we een bewerkingsveld voor tekst met knoppen om geselecteerde tekst vet, cursief etc. te maken. De beschikbaarheid van een RTE is tevens afhankelijk van de door u gebruikte browser en de geinstalleerde extensies. RTE's worden maar bij een aantal record velden toegepast. Het meest bekende voorbeeld zal het tekstveld van een inhoudselement zijn.</target>
       </trans-unit>
+      <trans-unit id="_option_edit_RTE.image" approved="yes">
+        <source>EXT:setup/Resources/Public/Images/cshimages/rte.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/rte.png</target>
+      </trans-unit>
       <trans-unit id="option_edit_docModuleUpload.alttitle" approved="yes">
         <source>Enable File Uploads in editing forms</source>
         <target state="translated">Sta bestandsupload toe in bewerkingsformulieren</target>
@@ -118,6 +148,11 @@ The default module is "About Modules".</source>
       <trans-unit id="option_edit_docModuleUpload.details" approved="yes">
         <source>If you disable the Upload box there is still the TYPO3 Element Browser left for attaching files and images.</source>
         <target state="translated">Als deze optie wordt uitgezet is het altijd nog mogelijk om met de TYPO3 Element Verkenner afbeeldingen en bestanden te koppelen.</target>
+      </trans-unit>
+      <trans-unit id="_option_edit_docModuleUpload.image" approved="yes">
+        <source>EXT:setup/Resources/Public/Images/cshimages/setup12.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/setup12.png</target>
       </trans-unit>
       <trans-unit id="option_resizeTextareas.alttitle" approved="yes">
         <source>Make Textareas Resizable</source>
