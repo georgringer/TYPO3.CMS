@@ -4,9 +4,17 @@
     <header/>
     <body>
       <!-- sys_file_metadata fields -->
+      <trans-unit id="sys_file_metadata.visible" approved="yes">
+        <source>Visible</source>
+        <target state="translated">Visible</target>
+      </trans-unit>
       <trans-unit id="sys_file_metadata.status" approved="yes">
         <source>Status</source>
         <target state="translated">Statut</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.status.1" approved="yes">
+        <source>Ok</source>
+        <target state="translated">Ok</target>
       </trans-unit>
       <trans-unit id="sys_file_metadata.status.2" approved="yes">
         <source>Pending</source>
@@ -40,6 +48,10 @@
         <source>Publisher</source>
         <target state="translated">Éditeur</target>
       </trans-unit>
+      <trans-unit id="sys_file_metadata.source" approved="yes">
+        <source>Source</source>
+        <target state="translated">Source</target>
+      </trans-unit>
       <trans-unit id="sys_file_metadata.copyright" approved="yes">
         <source>Copyright</source>
         <target state="translated">Droits d'auteur</target>
@@ -56,6 +68,14 @@
         <source>City</source>
         <target state="translated">Ville</target>
       </trans-unit>
+      <trans-unit id="sys_file_metadata.latitude" approved="yes">
+        <source>Latitude</source>
+        <target state="translated">Latitude</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.longitude" approved="yes">
+        <source>Longitude</source>
+        <target state="translated">Longitude</target>
+      </trans-unit>
       <trans-unit id="sys_file_metadata.ranking" approved="yes">
         <source>Ranking</source>
         <target state="translated">Classement</target>
@@ -68,9 +88,17 @@
         <source>Content Modification Date</source>
         <target state="translated">Date de modification du contenu</target>
       </trans-unit>
+      <trans-unit id="sys_file_metadata.note" approved="yes">
+        <source>Note</source>
+        <target state="translated">Note</target>
+      </trans-unit>
       <trans-unit id="sys_file_metadata.unit" approved="yes">
         <source>Unit</source>
         <target state="translated">Unité</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.unit.px" approved="yes">
+        <source>Pixels</source>
+        <target state="translated">Pixels</target>
       </trans-unit>
       <trans-unit id="sys_file_metadata.unit.cm" approved="yes">
         <source>Centimeters</source>
@@ -87,6 +115,14 @@
       <trans-unit id="sys_file_metadata.unit.m" approved="yes">
         <source>Meters</source>
         <target state="translated">Mètres</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.unit.p" approved="yes">
+        <source>Picas</source>
+        <target state="translated">Picas</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.unit.pt" approved="yes">
+        <source>Points</source>
+        <target state="translated">Points</target>
       </trans-unit>
       <trans-unit id="sys_file_metadata.duration" approved="yes">
         <source>Duration (in seconds)</source>
@@ -111,6 +147,10 @@
       <trans-unit id="sys_file_metadata.color_space.CMY" approved="yes">
         <source>CMY</source>
         <target state="translated">CMJ</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.YUV" approved="yes">
+        <source>YUV</source>
+        <target state="translated">YUV</target>
       </trans-unit>
       <trans-unit id="sys_file_metadata.color_space.grey" approved="yes">
         <source>Grey</source>
@@ -149,6 +189,10 @@
         <source>Camera Data</source>
         <target state="translated">Données de l'appareil photo</target>
       </trans-unit>
+      <trans-unit id="tabs.audio" approved="yes">
+        <source>Audio</source>
+        <target state="translated">Audio</target>
+      </trans-unit>
       <trans-unit id="tabs.video" approved="yes">
         <source>Video</source>
         <target state="translated">Vidéo</target>
@@ -178,6 +222,10 @@
       <trans-unit id="palette.accessibility" approved="yes">
         <source>Accessibility</source>
         <target state="translated">Accessibilité</target>
+      </trans-unit>
+      <trans-unit id="palette.gps" approved="yes">
+        <source>GPS</source>
+        <target state="translated">GPS</target>
       </trans-unit>
       <!-- fe_groups fields -->
       <trans-unit id="fe_groups.files" approved="yes">
