@@ -11,6 +11,11 @@
         <source>Native Import/Export module for TYPO3 data. Can export single records, content of tables, single pages or whole branches of the page tree. Includes attached media like image and preserves relations between records. Exports only to TYPO3 specific format, either a binary format (.T3D) or XML. The format is meant for exchange between TYPO3 systems.</source>
         <target state="translated">Indbygget import/eksport modul for TYPO3. Det kan eksportere enkelte dataelementer, indholdet af tabeller, enkelte sider eller hele grene af sidetræet. Det eksporterer kun i TYPO3s egne formater, enten som binære data eller i XML format. Formatet er beregnet til udveksling mellem TYPO3 servere.</target>
       </trans-unit>
+      <trans-unit id="_.image" approved="yes">
+        <source>EXT:impexp/Resources/Public/Images/cshimages/impexp.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:impexp/Resources/Public/Images/cshimages/impexp.png</target>
+      </trans-unit>
       <trans-unit id=".image_descr" approved="yes">
         <source>Example of the preview display during export configuration of a page. Notice how records on the page are include plus how references inside the record is found and included as well (bottom of screen).</source>
         <target state="translated">Et eksempel på et preview under eksport af en side. Læg mærke til hvordan elementer på siden er inkluderet, samt hvordan referencer i elementerne bliver fundet og inkluderet (nederst).</target>
@@ -46,6 +51,19 @@ Eksportformatet observerer med alle TYPO3-metoder for relationer mellem elemente
 Uanset hvordan din konfiguration for eksport er, så vil du altid se en komplet afspejlning af alle de valgte elementer og deres interne relationer i forhåndsvisningen, der findes i bunden af eksportmodulets side.
 
 &lt;b&gt;Fejlbeskeder:&lt;/b&gt; Husk at rådføre Besked-fanen før der eksporteres, hvis der forekommer fejlbeskeder der!</target></trans-unit>
+      <trans-unit id="_export.seeAlso" approved="yes">
+        <source>xMOD_tx_impexp:import</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">xMOD_tx_impexp:import</target>
+      </trans-unit>
+      <trans-unit id="_export.image" xml:space="preserve" approved="yes">
+				<source>EXT:impexp/Resources/Public/Images/cshimages/export.png,
+EXT:impexp/Resources/Public/Images/cshimages/export1.png,
+EXT:impexp/Resources/Public/Images/cshimages/export2.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:impexp/Resources/Public/Images/cshimages/export.png,
+EXT:impexp/Resources/Public/Images/cshimages/export1.png,
+EXT:impexp/Resources/Public/Images/cshimages/export2.png</target></trans-unit>
       <trans-unit id="export.image_descr" xml:space="preserve" approved="yes">
 				<source>To export a page or record, simply click the icon and select "Export" from the context menu.
 With the Web&gt;List module you can also export all records from a table by first clicking the table title to see only this table, then next to the CSV export you will find the export button for a T3D export of the table.
@@ -62,6 +80,11 @@ Du kan også eksportere indholdet af udklipsholderen ved blot at vælge "Eksport
 By default all records belonging to a page is included when a page is exported.</source>
 			<target state="translated">Her kan du konfigurere hvordan en side eller en gren af sidetræet skal eksporteres. Ved brug af valgboksen kan du indstille antallet af niveauer af undersider som skal inkluderes i eksporten.
 Som standard inkluderes alle sider som tilhører en side når en side eksporteres.</target></trans-unit>
+      <trans-unit id="_pageTreeCfg.image" approved="yes">
+        <source>EXT:impexp/Resources/Public/Images/cshimages/pagetreecfg.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:impexp/Resources/Public/Images/cshimages/pagetreecfg.png</target>
+      </trans-unit>
       <trans-unit id="pageTreeDisplay.alttitle" approved="yes">
         <source>Page Tree</source>
         <target state="translated">Sidetræ</target>
@@ -81,6 +104,11 @@ Som standard inkluderes alle sider som tilhører en side når en side eksportere
       <trans-unit id="pageTreeMode.details" approved="yes">
         <source>If you select "Expanded tree" it will base the export on the currently expanded levels of the page tree. Another special option is "Tables on this page" which will not include the page record itself but only include records from tables on the page, depending on the table configuration of course.</source>
         <target state="translated">Hvis du vælger "Udvidet træ", vil eksport blive baseret på de aktuelle udvidede niveauer af sidetræet. Et andet specielt valg er "Tabeller på denne side" som ikke vil inkludere siden selv, men kun de datarækker, der er indeholdt på siden, afhængig af tabel-konfigurationen, naturligvis.</target>
+      </trans-unit>
+      <trans-unit id="_pageTreeMode.image" approved="yes">
+        <source>EXT:impexp/Resources/Public/Images/cshimages/impexp_misc.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:impexp/Resources/Public/Images/cshimages/impexp_misc.png</target>
       </trans-unit>
       <trans-unit id="pageTreeRecordLimit.alttitle" approved="yes">
         <source>Include tables</source>
@@ -102,6 +130,12 @@ Som standard inkluderes alle sider som tilhører en side når en side eksportere
         <source>This overview tells you which independent records has been independently selected for export.</source>
         <target state="translated">Denne oversigt fortæller dig hvilke uafhængige elementer, der er blevet valgt enkeltvis til eksport.</target>
       </trans-unit>
+      <trans-unit id="_singleRecord.image" xml:space="preserve" approved="yes">
+				<source>EXT:impexp/Resources/Public/Images/cshimages/singlerecord.png,
+EXT:impexp/Resources/Public/Images/cshimages/export2.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:impexp/Resources/Public/Images/cshimages/singlerecord.png,
+EXT:impexp/Resources/Public/Images/cshimages/export2.png</target></trans-unit>
       <trans-unit id="singleRecord.image_descr" approved="yes">
         <source>The way to export multiple records like this is using the clipboard like shown below.</source>
         <target state="translated">Måden at eksportere flere elementer som denne, er ved at bruge klippebordet som vist herunder.</target>
@@ -118,6 +152,12 @@ Som standard inkluderes alle sider som tilhører en side når en side eksportere
         <source>Tip: You can select multiple table lists by simply saving each selecting as a preset and finally load/merge the selections together.</source>
         <target state="translated">Tip: Du kan vælge flere tabellister ved at gemme hvert valg som en forudstilling og til sidst hente/flette valgene sammen.</target>
       </trans-unit>
+      <trans-unit id="_tableList.image" xml:space="preserve" approved="yes">
+				<source>EXT:impexp/Resources/Public/Images/cshimages/tablelist.png,
+EXT:impexp/Resources/Public/Images/cshimages/export1.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:impexp/Resources/Public/Images/cshimages/tablelist.png,
+EXT:impexp/Resources/Public/Images/cshimages/export1.png</target></trans-unit>
       <trans-unit id="tableList.image_descr" xml:space="preserve" approved="yes">
 				<source>Here two tables from different pages are selected. This is done by first selecting the one, saving it as a preset, then select the other and merge with the saved preset.
 Here you see how to use the Web&gt;List module to export all records from a table on a page.</source>
@@ -144,6 +184,14 @@ By default soft references pointing to records or files will act as normal refer
 
 &lt;b&gt;Bløde Referencer:&lt;/b&gt; Bløde referencer er når elementer indeholder pegepinde til eksterne filer eller elementer, men i felter, hvor der ikke er konfigureret nogen formel reference. Et eksempel på dette er, når et indholdselement indeholder et "&amp;lt;link 123&amp;gt;" tag, som repræsenterer et link til side 123. Dette er ikke formelt opfattet som en reference, men opdages alligevel som en "blød reference". Det samme gør sig gældende for  &amp;lt;img&amp;gt; tags med billeder fra for eksempel "fileadmin/".
 Som standard vil bløde reference-pegepinde opføre sig som normale referencer; enten inkluderes det refererede emne eller der vises en fejl. Du kan imidlertid altid vælge at ekskludere håndteringen af individuelle bløde referencer, eller måske angive værdien som "redigérbar" under import. Dette gøres i en selctorboks i forhåndsvisningen til eksport.</target></trans-unit>
+      <trans-unit id="_inclRelations.image" xml:space="preserve" approved="yes">
+				<source>EXT:impexp/Resources/Public/Images/cshimages/references.png,
+EXT:impexp/Resources/Public/Images/cshimages/references1.png,
+EXT:impexp/Resources/Public/Images/cshimages/references2.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:impexp/Resources/Public/Images/cshimages/references.png,
+EXT:impexp/Resources/Public/Images/cshimages/references1.png,
+EXT:impexp/Resources/Public/Images/cshimages/references2.png</target></trans-unit>
       <trans-unit id="inclRelations.image_descr" xml:space="preserve" approved="yes">
 				<source>This example shows tree examples of references; a) an image attached to a content element, b) a relation to a frontend usergroup UID, and c) a soft reference found in the bodytext field of a record, here it is the link-tag pointing to the page with UID 1.
 Notice in the previous image how the relation to the frontend user group was lost. This has been corrected in this screenshot where the fe_group table has been selected in the list of table for which to include relations. The result is that the frontend usergroup is included as a record outside the exported pagetree. If you wanted to keep the relation but not include the usergroup you have to set "fe_groups" as a static table instead. See below.
@@ -163,6 +211,12 @@ Dette eksempel viser et typoScript skabelonelement, hvor der er fundet flere bl�
         <source>By default all relations to static tables in TYPO3 are kept untouched. Of course those static tables should be present in the import system in order for this to work correctly. However there might be circumstances where you move information between two systems where theoretically non-static tables should just keep relations untouched. Examples could be "sys_languages" or TemplaVoila data structures / template objects where two systems might contain the same set of records in those tables while you are importing pages and content elements freely.</source>
         <target state="translated">Som udgangspunkt bliver alle relationer til statiske tabeller i TYPO3 gemt uden ændringer. Naturligvis kræver dette at disse statiske tabeller er tilstede på det system der skal importeres til for at dette kan virke korrekt. Der kan imidlertid være omstændigheder hvor du flytter information mellem to systemer hvor også relationer til ikke-statiske tabeller skal gemmes uden ændringer. Eksempler på dette kunne være "sys_languages" eller TemplaVoila data struktur / template objekter, hvor de to systemer meget vel kan indeholde samme sæt af elementer i disse tabeller, så sider og indhold kan flyttes rundt uden at ændre sprog- eller skabelonreference.</target>
       </trans-unit>
+      <trans-unit id="_staticRelations.image" xml:space="preserve" approved="yes">
+				<source>EXT:impexp/Resources/Public/Images/cshimages/static.png,
+EXT:impexp/Resources/Public/Images/cshimages/static1.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:impexp/Resources/Public/Images/cshimages/static.png,
+EXT:impexp/Resources/Public/Images/cshimages/static1.png</target></trans-unit>
       <trans-unit id="staticRelations.image_descr" xml:space="preserve" approved="yes">
 				<source>In this example you see how a number of records are pointing to a System Language record which will become lost relations when imported because the record is not included in the export. However; in the target system the System Languages are exactly the same and therefore you just want a static mapping of the relations.
 The static mapping is obtained by selecting the "sys_language" table as a static template meaning that the relations are kept at their current values assuming that they will be exactly the same in the target system when imported.</source>
@@ -176,6 +230,11 @@ Den statiske mapning opnås ved at vælge "sys_language"-tabellen som en statisk
         <source>By the "Exclude" checkbox you can exclude specific records from the preview display of the export. Which records has been picked for specific exclusion is listed here. You can also clear the exclusion configuration.</source>
         <target state="translated">Ved hjælp af "Ekskludér" checkboksen kan du ekskludere specifikke elementer fra eksporten i forhåndsvisningen. Hvilke elementer der er udvalgt for specifik eksklusion vises her. Du kan også rydde eksklusions-konfigurationen.</target>
       </trans-unit>
+      <trans-unit id="_excludedElements.image" approved="yes">
+        <source>EXT:impexp/Resources/Public/Images/cshimages/excludebox.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:impexp/Resources/Public/Images/cshimages/excludebox.png</target>
+      </trans-unit>
       <trans-unit id="htmlCssResources.alttitle" approved="yes">
         <source>Exclude resources from HTML and CSS files</source>
         <target state="translated">Udeluk ressourcer fra HTML og CSS filer</target>
@@ -187,6 +246,11 @@ Den statiske mapning opnås ved at vælge "sys_language"-tabellen som en statisk
       <trans-unit id="htmlCssResources.details" approved="yes">
         <source>Notice: Resources found inside an HTML or CSS file are not analyzed further. For instance it means that any CSS files referred to from within an HTML will not be traversed - but CSS files referred to inside the Setup or Constant field of a TypoScript template record will be!</source>
         <target state="translated">Note: Ressourcer der findes inde i en HTML- eller CSS-fil analyseres ikke yderligere. Det betyder for eksempel at enhver CSS-fil, der refereres til fra en HTML-fil, ikke vil blive gennemgået - men CSS-filer der refereres til indenfor Konfiguration- eller Konstant-felter i en TypoScript skabelon vil!</target>
+      </trans-unit>
+      <trans-unit id="_htmlCssResources.image" approved="yes">
+        <source>EXT:impexp/Resources/Public/Images/cshimages/htmlcss.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:impexp/Resources/Public/Images/cshimages/htmlcss.png</target>
       </trans-unit>
       <trans-unit id="htmlCssResources.image_descr" approved="yes">
         <source>In this example you can see that a soft reference has been found pointing to an HTML file inside fileadmin/ Since it was an HTML file it was parsed and further a number of files were found referenced inside it and now included with the export. This feature is specifically created to support export of template configurations where external HTML files play a role.</source>
@@ -203,6 +267,11 @@ Den statiske mapning opnås ved at vælge "sys_language"-tabellen som en statisk
       <trans-unit id="extensionDependencies.details" approved="yes">
         <source>During import warnings will appear for all selected extensions from this list which were not installed.</source>
         <target state="translated">Under import vil advarsler blive vist for alle valgte udvidelser fra denne liste, som ikke blev installeret.</target>
+      </trans-unit>
+      <trans-unit id="_extensionDependencies.image" approved="yes">
+        <source>EXT:impexp/Resources/Public/Images/cshimages/extdep.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:impexp/Resources/Public/Images/cshimages/extdep.png</target>
       </trans-unit>
       <trans-unit id="presets.alttitle" approved="yes">
         <source>Configuration presets</source>
@@ -229,6 +298,12 @@ Afkrydsningsfeltet "Offentligt" kan indstilles, hvis du vil dele din forudindsti
 
 I Opgavecenter kan du se en liste over dine forudindstillinger og hoppe direkte til dem.
 </target></trans-unit>
+      <trans-unit id="_presets.image" xml:space="preserve" approved="yes">
+				<source>EXT:impexp/Resources/Public/Images/cshimages/impexp_misc1.png,
+EXT:impexp/Resources/Public/Images/cshimages/impexp_misc2.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:impexp/Resources/Public/Images/cshimages/impexp_misc1.png,
+EXT:impexp/Resources/Public/Images/cshimages/impexp_misc2.png</target></trans-unit>
       <trans-unit id="presets.image_descr" xml:space="preserve" approved="yes">
 				<source>The preset selector in the export interface.</source>
 			<target state="translated">Valg af forudindstilling i eksportgrænsefladen.</target></trans-unit>
@@ -247,6 +322,11 @@ The "Notes" field can be used for additional details, especially remarks about i
 			<target state="translated">Metadata hjælper brugere af dine eksporterede filer med viden om, hvad de kan forvente at finde, og hvilke ting de bør være opmærksomme på og tage hensyn til under importen.
 "Titel" og "Beskrivelse" skal indeholde de grundlæggende oplysninger om eksporten.
 Feltet "Noter" kan bruges til yderligere detaljer, især bemærkninger om intensioner eller krav, der gælder.</target></trans-unit>
+      <trans-unit id="_metadata.image" approved="yes">
+        <source>EXT:impexp/Resources/Public/Images/cshimages/metadata.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:impexp/Resources/Public/Images/cshimages/metadata.png</target>
+      </trans-unit>
       <trans-unit id="fileFormat.alttitle" approved="yes">
         <source>File format options</source>
         <target state="translated">Filformat-valg</target>
@@ -262,6 +342,11 @@ Entering a file name to save makes it possible to write your export directly to 
 			<target state="translated">Generelt skal du bruge XML-formatet. T3D-komprimeret formatet er normalt mindre, men meget sværere at læse og behandle.
 
 Indtastning af et filnavn for at gemme, gør det muligt at skrive din eksport direkte til en fil (tryk på "Gem til filnavn") i stedet for at downloade det (tryk på "Download eksport"). De korrekte filudvidelser afhængigt af filformat, anvendes automatisk. Filerne gemmes i en korrekt filmontering i "fileadmin/". Dette vises når der gemmes. Eksisterende filer overskrives.</target></trans-unit>
+      <trans-unit id="_fileFormat.image" approved="yes">
+        <source>EXT:impexp/Resources/Public/Images/cshimages/fileformat.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:impexp/Resources/Public/Images/cshimages/fileformat.png</target>
+      </trans-unit>
       <trans-unit id="import.alttitle" approved="yes">
         <source>Importing TYPO3 records</source>
         <target state="translated">Importerer TYPO3 elementer</target>
@@ -279,6 +364,16 @@ To make sure that no records are lost during the import, you can make yourself s
 For at sikre dig, at der ikke tabes elementer under importen, kan du sikre dig ved at importere til en mappe, du opretter først. Efter importen kan du flytte alle elementer til de endelige destinationer. Et eksempel på et sådant scenario kunne være, hvis du konfigurerede eksporten til at omfatte relationer; I så fald kan en række elementer følge eksporten uden for den sidetræstruktur, du eksporterer. For at sikre at alle disse eksterne elementer er skrevet til databasen, er det en god idé at importere til en mappe.
 
 &lt;b&gt;Fejlmeddelelser:&lt;/b&gt; Husk at kigge i meddelelsesfanen før/efter import for at se, om der er fejlmeddelelser der!</target></trans-unit>
+      <trans-unit id="_import.seeAlso" approved="yes">
+        <source>xMOD_tx_impexp:export</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">xMOD_tx_impexp:export</target>
+      </trans-unit>
+      <trans-unit id="_import.image" approved="yes">
+        <source>EXT:impexp/Resources/Public/Images/cshimages/import.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:impexp/Resources/Public/Images/cshimages/import.png</target>
+      </trans-unit>
       <trans-unit id="importFile.alttitle" approved="yes">
         <source>Select file to import</source>
         <target state="translated">Vælg fil der skal importeres</target>
@@ -286,6 +381,16 @@ For at sikre dig, at der ikke tabes elementer under importen, kan du sikre dig v
       <trans-unit id="importFile.description" approved="yes">
         <source>The files displayed are those with an extension T3D or XML from fileadmin/, fileadmin/export/ and your "TEMP" folder (if any).</source>
         <target state="translated">Filerne som vises er dem som har en ekstension T3D eller XML fra fileadmin/, fileadmin/export/ og din "TEMP" mappe (om nogen).</target>
+      </trans-unit>
+      <trans-unit id="_importFile.seeAlso" approved="yes">
+        <source>xMOD_tx_impexp:fileFormat</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">xMOD_tx_impexp:fileFormat</target>
+      </trans-unit>
+      <trans-unit id="_importFile.image" approved="yes">
+        <source>EXT:impexp/Resources/Public/Images/cshimages/import_selectfile.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:impexp/Resources/Public/Images/cshimages/import_selectfile.png</target>
       </trans-unit>
       <trans-unit id="update.alttitle" approved="yes">
         <source>Update instead of Insert</source>
@@ -314,6 +419,12 @@ Som en hjælp til styring af opdateringer fortæller forhåndsvisningsvisningen 
 
 &lt;b&gt;Tvinge UID:&lt;/b&gt;
 Hvis du har til hensigt at opdatere et system, og nogle elementer fra importen ikke kan mappes til en UID allerede (eksisterer ikke), kan du på forhåndsvisningsvisningen vælge at tvinge UID'en igennem under oprettelsen. Dette er en uortodoks ting at gøre, da UID'er normalt oprettes automatisk af databasen. Indstillingen giver mest mening, hvis du forsøger at "synkronisere" en kopi af et andet system. Muligheden kan ødelægge visse interne databaserelationer, og funktionen er derfor kun tilgængelig for administratorer.</target></trans-unit>
+      <trans-unit id="_update.image" xml:space="preserve" approved="yes">
+				<source>EXT:impexp/Resources/Public/Images/cshimages/impexp_misc4.png,
+EXT:impexp/Resources/Public/Images/cshimages/update.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:impexp/Resources/Public/Images/cshimages/impexp_misc4.png,
+EXT:impexp/Resources/Public/Images/cshimages/update.png</target></trans-unit>
       <trans-unit id="update.image_descr" approved="yes">
         <source>In Update mode you can select various settings for each record. You will also be able to see a diff-view where the differences between the existing record and the one from the import is shown.</source>
         <target state="translated">I opdateringstilstand kan du vælge forskellige indstillinger for hvert element. Du er også i stand til at få en diff-visning, for forskellen mellem eksisterende elementer og dem fra importen vises.</target>
@@ -333,6 +444,12 @@ Green strings represent the actual written data while red represents the origina
 			<target state="translated">&lt;b&gt;Vis ikke forskelle i elementer&lt;/b&gt;
 Når en struktur er blevet importeret, vil du se en visning af forskelle på alle poster, der fortæller dig om det indlæste indhold matchede importdataene og hvis ikke, hvad der blev ændret. I mange tilfælde skal indholdet &lt;i&gt;ændres&lt;/i&gt; (f.eks. relationer og filreferencer), så det er ikke en fejl, hvis du ser røde og grønne værdier. I bund og grund er visningen af forskelle en funktion, du kan bruge til visuel validering af importen. Det gør dig i stand til at forstå, hvad det fortæller... :-)
 Grønne værdier repræsenterer de faktisk indlæste data, mens røde repræsenterer den oprindelige værdi fra importfilen, og sort repræsenterer data, der er de samme.</target></trans-unit>
+      <trans-unit id="_options.image" xml:space="preserve" approved="yes">
+				<source>EXT:impexp/Resources/Public/Images/cshimages/impexp_misc3.png,
+EXT:impexp/Resources/Public/Images/cshimages/phpext.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:impexp/Resources/Public/Images/cshimages/impexp_misc3.png,
+EXT:impexp/Resources/Public/Images/cshimages/phpext.png</target></trans-unit>
       <trans-unit id="action.alttitle" approved="yes">
         <source>Import Action</source>
         <target state="translated">Import muligheder</target>
@@ -346,6 +463,11 @@ Before importing make sure you change any editable soft references that are show
 Tryk på "Import"/"Opdatér", hvis du vil udføre den faktiske import.
 
 Før du importerer, skal du sørge for at ændre eventuelle redigerbare bløde referencer, der vises i forhåndsvisningen.</target></trans-unit>
+      <trans-unit id="_action.image" approved="yes">
+        <source>EXT:impexp/Resources/Public/Images/cshimages/diffview.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:impexp/Resources/Public/Images/cshimages/diffview.png</target>
+      </trans-unit>
       <trans-unit id="action.image_descr" approved="yes">
         <source>Example of the result view after importing. As you can see the RTE attached images (soft references) has been written to new file names and the difference view tells you that the names changed in the bodytext content.</source>
         <target state="translated">Eksempel på resultatvisning efter import. Som du kan se, er RTE-vedhæftede billeder (bløde referencer) indlæst til nye filnavne, og forskelvisningen fortæller dig, at navnene er ændret i brødtekst-indholdet.</target>
