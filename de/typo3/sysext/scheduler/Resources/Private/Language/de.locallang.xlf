@@ -87,6 +87,10 @@
         <source>Execute selected tasks</source>
         <target state="translated">Ausgewählte Tasks ausführen</target>
       </trans-unit>
+      <trans-unit id="label.cronjobSelected" approved="yes">
+        <source>Execute selected tasks on next cron job</source>
+        <target state="translated">Ausgewählte Tasks mit nächstem Cron-Job ausführen</target>
+      </trans-unit>
       <trans-unit id="label.extension" approved="yes">
         <source>Extension</source>
         <target state="translated">Erweiterung</target>
@@ -151,6 +155,22 @@
         <source>Number of files per run</source>
         <target state="translated">Anzahl Dateien pro Durchlauf</target>
       </trans-unit>
+      <trans-unit id="label.fileStorageExtraction.registeredExtractors" approved="yes">
+        <source>Registered extractors</source>
+        <target state="translated">Registrierte Extraktoren</target>
+      </trans-unit>
+      <trans-unit id="label.fileStorageExtraction.registeredExtractors.extractor" approved="yes">
+        <source>%1$s with priority %2$d</source>
+        <target state="translated">%1$s mit Priorität %2$d</target>
+      </trans-unit>
+      <trans-unit id="label.fileStorageExtraction.registeredExtractors.with_extractors" approved="yes">
+        <source>Following extractors have been registered and will be used when running this task</source>
+        <target state="translated">Die folgenden Extraktoren sind registriert worden und werden bei der Ausführung des Tasks verwendet werden</target>
+      </trans-unit>
+      <trans-unit id="label.fileStorageExtraction.registeredExtractors.without_extractors" approved="yes">
+        <source>There currently is no extractor registered. This task will have no effect!</source>
+        <target state="translated">Momentan ist kein Extraktor registriert. Die Ausführung dieses Tasks wird keine Wirkung haben!</target>
+      </trans-unit>
       <trans-unit id="label.tableGarbageCollection.allTables" approved="yes">
         <source>Clean all available tables</source>
         <target state="translated">Alle verfügbaren Tabellen bereinigen</target>
@@ -169,7 +189,11 @@
       </trans-unit>
       <trans-unit id="label.tableGarbageCollection.numberOfDays" approved="yes">
         <source>Delete entries older than given number of days</source>
-        <target state="translated">Einträge löschen, die älter sind als die angegebene Anzahl von Tagen</target>
+        <target state="translated">Einträge löschen, die älter sind als die angegebene Anzahl Tage</target>
+      </trans-unit>
+      <trans-unit id="label.optimizeDatabaseTables.selectTables" approved="yes">
+        <source>Database tables</source>
+        <target state="translated">Datenbanktabellen</target>
       </trans-unit>
       <trans-unit id="label.type" approved="yes">
         <source>Type</source>
@@ -186,6 +210,18 @@
       <trans-unit id="label.group" approved="yes">
         <source>Task group</source>
         <target state="translated">Taskgruppe</target>
+      </trans-unit>
+      <trans-unit id="label.noGroup" approved="yes">
+        <source>(no task group defined)</source>
+        <target state="translated">(keine Taskgruppe festgelegt)</target>
+      </trans-unit>
+      <trans-unit id="label.schedulableCommandName" approved="yes">
+        <source><![CDATA[Schedulable Command. <em>Save and reopen to define command arguments</em>]]></source>
+        <target state="translated"><![CDATA[Planbarer Befehl. &lt;em&gt;Speichern und öffnen Sie dieses Fenster wieder, um die Argumente festzulegen.&lt;/em&gt;]]></target>
+      </trans-unit>
+      <trans-unit id="label.saveAndCreateNewTask" approved="yes">
+        <source>Save and create new task</source>
+        <target state="translated">Neuen Task speichern und erstellen</target>
       </trans-unit>
       <trans-unit id="msg.addError" approved="yes">
         <source>The task could not be added.</source>
@@ -371,6 +407,22 @@
         <source>The task could not be updated.</source>
         <target state="translated">Der Task konnte nicht aktualisiert werden.</target>
       </trans-unit>
+      <trans-unit id="msg.selectionOfNonExistingDatabaseTables" approved="yes">
+        <source>Some of the selected database tables do not exist. Please select only valid tables.</source>
+        <target state="translated">Einige der ausgewählten Datenbanktabellen sind nicht vorhanden. Bitte wählen Sie nur gültige Tabellen.</target>
+      </trans-unit>
+      <trans-unit id="msg.noDatabaseTablesSelected" approved="yes">
+        <source>Please select at least one database table.</source>
+        <target state="translated">Bitte wählen Sie mindestens eine Datenbanktabelle aus.</target>
+      </trans-unit>
+      <trans-unit id="msg.unregisteredCommand" approved="yes">
+        <source>Command with identifier "%s" has not been registered.</source>
+        <target state="translated">Befehl mit Bezeichner "%s" ist nicht registriert worden.</target>
+      </trans-unit>
+      <trans-unit id="msg.mandatoryArgumentMissing" approved="yes">
+        <source>Argument "%s" is mandatory</source>
+        <target state="translated">Argument "%s" ist zwingend erforderlich</target>
+      </trans-unit>
       <trans-unit id="none" approved="yes">
         <source>None</source>
         <target state="translated">Keine</target>
@@ -414,6 +466,10 @@
       <trans-unit id="action.run_task" approved="yes">
         <source>Run task</source>
         <target state="translated">Task ausführen</target>
+      </trans-unit>
+      <trans-unit id="action.run_task_cron" approved="yes">
+        <source>Run task on next cron job</source>
+        <target state="translated">Task mit nächstem Cron-Job ausführen</target>
       </trans-unit>
       <trans-unit id="testTask.name" approved="yes">
         <source>Scheduler test task</source>
@@ -478,6 +534,74 @@
       <trans-unit id="recyclerGarbageCollection.description" approved="yes">
         <source>This task empties all "_recycler_" folders below fileadmin. This helps free some space in the file system.</source>
         <target state="translated">Dieser Task leert alle Order mit dem Namen "_recycler_" im Ordner fileadmin. So können Sie Speicherplatz im Dateisystem freigeben.</target>
+      </trans-unit>
+      <trans-unit id="executeSchedulableCommandTask.name" approved="yes">
+        <source>Execute console commands</source>
+        <target state="translated">Konsolenbefehle ausführen</target>
+      </trans-unit>
+      <trans-unit id="executeSchedulableCommandTask.description" approved="yes">
+        <source>Allows regular console commands to be configured and executed through the scheduler framework.</source>
+        <target state="translated">Erlaubt es, normale Konsolenbefehle zu konfigurieren und durch den Planer auszuführen.</target>
+      </trans-unit>
+      <trans-unit id="optimizeDatabaseTable.name" approved="yes">
+        <source>Optimize MySQL database tables</source>
+        <target state="translated">MySQL-Datenbanktabellen optimieren</target>
+      </trans-unit>
+      <trans-unit id="optimizeDatabaseTable.description" approved="yes">
+        <source>This task executes "OPTIMIZE TABLE" statements on the selected database tables. This helps to reduce storage space and improve I/O efficiency. Warning! Tables will be locked during the optimization process.</source>
+        <target state="translated">Dieser Task führt für die ausgewählten Datenbanktabellen einen "OPTIMIZE TABLE"-Query aus. Dies hilft, den Speicherplatzbedarf zu reduzieren und die I/O-Effizienz zu verbessern. Warnung! Die Tabellen werden während der Optimierung gesperrt.</target>
+      </trans-unit>
+      <trans-unit id="ipAnonymization.name" approved="yes">
+        <source>Anonymize IP addresses in database tables</source>
+        <target state="translated">IP-Adressen in Datenbanktabellen anonymisieren</target>
+      </trans-unit>
+      <trans-unit id="ipAnonymization.description" approved="yes">
+        <source>This task anonymizes the IP addresses to enforce the privacy of the persisted data.</source>
+        <target state="translated">Dieser Task anonymisiert IP-Adressen um den Datenschutz für bestehende Daten zu gewährleisten.</target>
+      </trans-unit>
+      <trans-unit id="label.ipAnonymization.table" approved="yes">
+        <source>Table to anoymize</source>
+        <target state="translated">Zu anonymisierende Tabelle</target>
+      </trans-unit>
+      <trans-unit id="label.ipAnonymization.additionalInformationTable" approved="yes">
+        <source>Table: %s after %s days</source>
+        <target state="translated">Tabelle: %s nach %s Tagen</target>
+      </trans-unit>
+      <trans-unit id="label.ipAnonymization.additionalInformationAllTables" approved="yes">
+        <source>All tables</source>
+        <target state="translated">Alle Tabellen</target>
+      </trans-unit>
+      <trans-unit id="label.ipAnonymization.numberOfDays" approved="yes">
+        <source>Handle entries older than given number of days</source>
+        <target state="translated">Einträge bearbeiten, die älter sind als die angegebene Anzahl Tage</target>
+      </trans-unit>
+      <trans-unit id="label.ipAnonymization.mask" approved="yes">
+        <source>Mask level</source>
+        <target state="translated">Maskierungslevel</target>
+      </trans-unit>
+      <trans-unit id="label.ipAnonymization.mask.1" approved="yes">
+        <source>Last byte for IPv4 / Interface ID for IPv6</source>
+        <target state="translated">Letztes Byte von IPv4 / Interface-ID von IPv6</target>
+      </trans-unit>
+      <trans-unit id="label.ipAnonymization.mask.2" approved="yes">
+        <source>Last 2 bytes for IPv4 / Interface &amp; SLA ID for IPv6</source>
+        <target state="translated">Letzte 2 Bytes von IPv4 / Interface- und SLA-ID von IPv6</target>
+      </trans-unit>
+      <trans-unit id="command.example1" approved="yes">
+        <source>Every day-of-week from Monday through Friday. at 09:00 and 15:00</source>
+        <target state="translated">Jeden Wochentag von Montag bis Freitag um 9 und 15 Uhr</target>
+      </trans-unit>
+      <trans-unit id="command.example2" approved="yes">
+        <source>Every 2 hours</source>
+        <target state="translated">Alle 2 Stunden</target>
+      </trans-unit>
+      <trans-unit id="command.example3" approved="yes">
+        <source>Every 20 minutes</source>
+        <target state="translated">Alle 20 Minuten</target>
+      </trans-unit>
+      <trans-unit id="command.example4" approved="yes">
+        <source>Every Tuesday at 07:00</source>
+        <target state="translated">Jeden Dienstag um 7 Uhr</target>
       </trans-unit>
     </body>
   </file>
