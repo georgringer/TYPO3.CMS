@@ -45,6 +45,14 @@ Ako je OSNOVA apsolutna, trebate unijeti apsolutnu PUTANJU na poslužitelju, npr
 Ako imate probleme - posebno sa apsolutnim putanjama - pokušajte montirati nešto "jednostavno" poput relativne putanje u administraciji datoteke. Ako to radi dobro, pokušajte apsolutnu putanju.
 
 Vaša PHP konfiguracija Vam može također nametnuti druga ograničenja ako je open_basedir omogućen. Tada koristite relativne putanje.</target></trans-unit>
+      <trans-unit id="_path.seeAlso" xml:space="preserve" approved="yes">
+				<source>sys_filemounts:base,
+be_groups:file_mountpoints,
+sys_filemounts</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">sys_filemounts:base,
+be_groups:file_mountpoints,
+sys_filemounts</target></trans-unit>
       <trans-unit id="path.image_descr" xml:space="preserve" approved="yes">
 				<source>This is a filemount relative to "fileadmin/". The mounted folder is "fileadmin/user_upload/" since "user_upload" is the value of the "Path" field.
 The directory structure of "fileadmin/" where you can see the "user_upload" folder in the bottom of the list.</source>
@@ -61,6 +69,11 @@ Struktura mape "fileadmin/" gdje možete vidjeti "user_upload" mapu na dnu popis
       <trans-unit id="base.description" approved="yes">
         <source>Determines whether the value of the PATH field is to be recognized as an absolute path on the server or a path relative to the fileadmin/ subfolder to the website.</source>
         <target state="translated">Određuje da li se vrijednost polja PATH (putanja) prepoznaje kao apsolutni put na serveru ili relativni put u odnosu na fileadmin/ podmapu web stranice.</target>
+      </trans-unit>
+      <trans-unit id="_base.seeAlso" approved="yes">
+        <source>sys_filemounts:path</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">sys_filemounts:path</target>
       </trans-unit>
       <trans-unit id="read_only.description" approved="yes">
         <source>Display this file mount as read-only.</source>
