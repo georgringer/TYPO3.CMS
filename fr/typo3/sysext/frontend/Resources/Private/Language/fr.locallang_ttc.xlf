@@ -3,6 +3,10 @@
   <file t3:id="1415814791" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="cms" target-language="fr">
     <header/>
     <body>
+      <trans-unit id="CType_formlabel" approved="yes">
+        <source>Type</source>
+        <target state="translated">Type</target>
+      </trans-unit>
       <trans-unit id="CType.I.0" approved="yes">
         <source>Header</source>
         <target state="translated">Titre</target>
@@ -14,6 +18,10 @@
       <trans-unit id="CType.I.2" approved="yes">
         <source>Text &amp; Images</source>
         <target state="translated">Texte &amp; images</target>
+      </trans-unit>
+      <trans-unit id="CType.I.3" approved="yes">
+        <source>Images</source>
+        <target state="translated">Images</target>
       </trans-unit>
       <trans-unit id="CType.I.4" approved="yes">
         <source>Bullet List</source>
@@ -55,9 +63,17 @@
         <source>Insert Plugin</source>
         <target state="translated">Insérer un Plug-in</target>
       </trans-unit>
+      <trans-unit id="CType.I.15" approved="yes">
+        <source>Script</source>
+        <target state="translated">Script</target>
+      </trans-unit>
       <trans-unit id="CType.I.16" approved="yes">
         <source>Divider</source>
         <target state="translated">Séparateur</target>
+      </trans-unit>
+      <trans-unit id="CType.I.17" approved="yes">
+        <source>HTML</source>
+        <target state="translated">HTML</target>
       </trans-unit>
       <trans-unit id="CType.menu_categorized_pages" approved="yes">
         <source>Categorized pages</source>
@@ -86,6 +102,10 @@
       <trans-unit id="CType.menu_sitemap_pages" approved="yes">
         <source>Sitemaps of selected pages</source>
         <target state="translated">Plan du site des pages sélectionnées</target>
+      </trans-unit>
+      <trans-unit id="CType.div.standard" approved="yes">
+        <source>Standard</source>
+        <target state="translated">Standard</target>
       </trans-unit>
       <trans-unit id="CType.div.lists" approved="yes">
         <source>Lists</source>
@@ -119,6 +139,10 @@
         <source>Left</source>
         <target state="translated">Gauche</target>
       </trans-unit>
+      <trans-unit id="colPos.I.1" approved="yes">
+        <source>Normal</source>
+        <target state="translated">Normal</target>
+      </trans-unit>
       <trans-unit id="colPos.I.2" approved="yes">
         <source>Right</source>
         <target state="translated">Droite</target>
@@ -130,6 +154,14 @@
       <trans-unit id="colPos.I.unused" approved="yes">
         <source>Unused</source>
         <target state="translated">Inutilisé</target>
+      </trans-unit>
+      <trans-unit id="date" approved="yes">
+        <source>Date</source>
+        <target state="translated">Date</target>
+      </trans-unit>
+      <trans-unit id="date_formlabel" approved="yes">
+        <source>Date</source>
+        <target state="translated">Date</target>
       </trans-unit>
       <trans-unit id="header_formlabel" approved="yes">
         <source>Header</source>
@@ -170,6 +202,10 @@
       <trans-unit id="header_link_formlabel" approved="yes">
         <source>Link</source>
         <target state="translated">Lien:</target>
+      </trans-unit>
+      <trans-unit id="header_layout_formlabel" approved="yes">
+        <source>Type</source>
+        <target state="translated">Type</target>
       </trans-unit>
       <trans-unit id="header_layout.I.1" approved="yes">
         <source>Layout 1</source>
@@ -330,6 +366,10 @@
       <trans-unit id="cols" approved="yes">
         <source>Columns</source>
         <target state="translated">Colonnes</target>
+      </trans-unit>
+      <trans-unit id="cols.I.0" approved="yes">
+        <source>Auto</source>
+        <target state="translated">Auto</target>
       </trans-unit>
       <trans-unit id="recursive.I.0" approved="yes">
         <source>0 levels (only selected page)</source>
@@ -535,6 +575,10 @@
         <source>No Frame</source>
         <target state="translated">Pas de cadre</target>
       </trans-unit>
+      <trans-unit id="splash_layout_formlabel" approved="yes">
+        <source>Type</source>
+        <target state="translated">Type</target>
+      </trans-unit>
       <trans-unit id="splash_layout.I.1" approved="yes">
         <source>Image Shadow</source>
         <target state="translated">Ombre de l'image</target>
@@ -671,6 +715,10 @@
         <source>Media</source>
         <target state="translated">Média</target>
       </trans-unit>
+      <trans-unit id="tabs.plugin" approved="yes">
+        <source>Plugin</source>
+        <target state="translated">Plugin</target>
+      </trans-unit>
       <trans-unit id="sys_language_uid_formlabel" approved="yes">
         <source>Language</source>
         <target state="translated">Langue</target>
@@ -730,6 +778,10 @@
       <trans-unit id="bodytext.ALT.html_formlabel" approved="yes">
         <source>HTML Code</source>
         <target state="translated">Code HTML</target>
+      </trans-unit>
+      <trans-unit id="image_formlabel" approved="yes">
+        <source>Images</source>
+        <target state="translated">Images</target>
       </trans-unit>
       <trans-unit id="image.ALT.textbox_formlabel" approved="yes">
         <source>Image Files</source>
@@ -842,6 +894,14 @@
       <trans-unit id="tabs.behaviour" approved="yes">
         <source>Behaviour</source>
         <target state="translated">Comportement</target>
+      </trans-unit>
+      <trans-unit id="tabs.script" approved="yes">
+        <source>Script</source>
+        <target state="translated">Script</target>
+      </trans-unit>
+      <trans-unit id="tabs.images" approved="yes">
+        <source>Images</source>
+        <target state="translated">Images</target>
       </trans-unit>
       <trans-unit id="tabs.extended" approved="yes">
         <source>Extended</source>
