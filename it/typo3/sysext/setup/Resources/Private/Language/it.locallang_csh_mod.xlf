@@ -19,6 +19,12 @@
         <source>User TSconfig SETUP | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/Setup/Index.html</source>
         <target state="translated">TSconfig Utente | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/Setup/Index.html</target>
       </trans-unit>
+      <trans-unit id="_.image" xml:space="preserve" approved="yes">
+				<source>EXT:setup/Resources/Public/Images/cshimages/setup8.png,
+EXT:setup/Resources/Public/Images/cshimages/setup7.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:setup/Resources/Public/Images/cshimages/setup8.png,
+EXT:setup/Resources/Public/Images/cshimages/setup7.png</target></trans-unit>
       <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
 				<source>The Setup module is selected in the left menu.
 This is how the Setup module interface looks like - a list of options to configure.</source>
@@ -36,6 +42,11 @@ This is how the Setup module interface looks like - a list of options to configu
 The solution clearly is to set the configuration option mentioned above to a value like "utf-8". This must be done by the developers responsible for the whole system configuration.</source>
 			<target state="translated">&lt;b&gt;Avviso [tecnico]:&lt;/b&gt; Se TYPO3 non è configurato per usare un singolo insieme di caratteri (tramite $TYPO3_CONF_VARS[BE][forceCharset]) tutti i dati inseriti da backend sono inseriti con l'insieme di caratteri del linguaggio di backend selezionato. Questo potrebbe produrre un archivio dati inconsistente se qualche utente sta usando il backend in Russo e altri in Inglese, i quali usano insiemi di caratteri differenti.
 La soluzione, chiaramente, è quella di selezionare  per l'opzione di configurazione sopra un valore come "utf-8". Questo deve essere fatto dagli sviluppatori responsabili per l'intero sistema di configurazione.</target></trans-unit>
+      <trans-unit id="_language.image" approved="yes">
+        <source>EXT:setup/Resources/Public/Images/cshimages/lang.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/lang.png</target>
+      </trans-unit>
       <trans-unit id="language.image_descr" approved="yes">
         <source>TYPO3 is translated into around 40 languages. English is the default language and all labels must be available in English first and foremost. This screenshot shows translations for Hebrew, Arabic, Russian and Chinese.</source>
         <target state="translated">TYPO3 é tradotto in circa 40 lingue. L'inglese é la lingua di default ed &lt;u&gt;ogni&lt;/u&gt; label deve innazitutto essere disponibile in inglese. Questo screenshot mostra traduzioni in Ebraico, Arabo, Russo e Cinese.</target>
@@ -57,6 +68,11 @@ Il modulo di default è "About Modules"</target></trans-unit>
         <source>In modules like the "Web &gt; List" and "File &gt; Filelist" you can enable the display of thumbnails of files (images/fonts) and records (if images are attached) with a checkbox. Setting this option will enable the display by default.</source>
         <target state="translated">Nei moduli come "Web &gt; Lista" e "File &gt; Lista File" puoi abilitare la visualizzazione delle miniature dei file (immagini/font) e record (se le immagini sono allegate) con un checkbox. Abilitando questa opzione si attiverà la visualizzazione di default.</target>
       </trans-unit>
+      <trans-unit id="_option_showThumbs.image" approved="yes">
+        <source>EXT:setup/Resources/Public/Images/cshimages/setup5.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/setup5.png</target>
+      </trans-unit>
       <trans-unit id="option_showThumbs.image_descr" approved="yes">
         <source>When thumbnails display is enabled, files attached to records will be shown in the "Web &gt; List" module like this.</source>
         <target state="translated">Quando è abilitata la visualizzazione delle miniature, i file agganciati ai record saranno mostrati nel modulo "Web &gt; Lista" come questo.</target>
@@ -76,6 +92,11 @@ Il modulo di default è "About Modules"</target></trans-unit>
       <trans-unit id="option_maxTitleLen.description" approved="yes">
         <source>TYPO3 will often crop long titles of records etc. so only the first X characters are shown. Often the number of shown characters depends on this variable. For instance the length of page titles in the page tree is determined by this value.</source>
         <target state="translated">TYPO3 spesso taglierà i titoli dei record etc. in modo tale che siano mostrati solo i primi X caratteri. Spesso il numero dei caratteri mostrati dipende da questa variabile. Per esempio la lunghezza del titolo di pagina nell'albero di navigazione è determinato da questo valore.</target>
+      </trans-unit>
+      <trans-unit id="_option_maxTitleLen.image" approved="yes">
+        <source>EXT:setup/Resources/Public/Images/cshimages/setup6.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/setup6.png</target>
       </trans-unit>
       <trans-unit id="option_maxTitleLen.image_descr" approved="yes">
         <source>In this case the Maximum Title length is set to 10 - and the result is that titles in the page tree - as well as other places in the backend - will be cropped after 10 characters, then suffixed by "...". The default value is "30".</source>
@@ -113,9 +134,19 @@ Il modulo di default è "About Modules"</target></trans-unit>
         <source>A Rich Text Editor (RTE) means that a text editing field has buttons for making selected text bold, italic etc. Whether a RTE is available also depends on factors like the browser you are using and which extensions are installed. Finally RTEs are applied to only a few record fields. The most well known example would be the Text field of a Content Element.</source>
         <target state="translated">Un editor di testo avanzato (RTE) è un campo di testo che include pulsanti per trasformare il testo selezionato in grassetto, corsivo, ecc. La disponibilità del RTE dipende da fattori come il browser che stai utilizzando e le estensioni che sono state installate. Infine, i RTE sono applicati solo ad alcuni campi. L'esempio più noto sarebbe il campo Testo di un Elemento di Contenuto.</target>
       </trans-unit>
+      <trans-unit id="_option_edit_RTE.image" approved="yes">
+        <source>EXT:setup/Resources/Public/Images/cshimages/rte.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/rte.png</target>
+      </trans-unit>
       <trans-unit id="option_edit_docModuleUpload.alttitle" approved="yes">
         <source>Enable File Uploads in editing forms</source>
         <target state="translated">Permetti l'Upload di files dalle form di editing.</target>
+      </trans-unit>
+      <trans-unit id="_option_edit_docModuleUpload.image" approved="yes">
+        <source>EXT:setup/Resources/Public/Images/cshimages/setup12.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:setup/Resources/Public/Images/cshimages/setup12.png</target>
       </trans-unit>
       <trans-unit id="option_resizeTextareas.alttitle" approved="yes">
         <source>Make Textareas Resizable</source>
