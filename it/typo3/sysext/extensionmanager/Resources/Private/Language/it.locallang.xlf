@@ -49,7 +49,7 @@
       </trans-unit>
       <trans-unit id="button.cancel" approved="yes">
         <source>Cancel</source>
-        <target state="translated">Cancella</target>
+        <target state="translated">Annulla</target>
       </trans-unit>
       <trans-unit id="button.details" approved="yes">
         <source>Show Details</source>
@@ -134,6 +134,10 @@
       <trans-unit id="extensionList.header.title.update" approved="yes">
         <source>Update</source>
         <target state="translated">Aggiornamento</target>
+      </trans-unit>
+      <trans-unit id="extensionList.header.activate" approved="yes">
+        <source>A/D</source>
+        <target state="translated">A/D</target>
       </trans-unit>
       <trans-unit id="extensionList.header.title.activate" approved="yes">
         <source>Activate / Deactivate</source>
@@ -328,6 +332,10 @@
         <source>The dependencies of the following Extensions could not be resolved</source>
         <target state="translated">Le dipendenze delle seguenti Estensioni non possono essere risolte</target>
       </trans-unit>
+      <trans-unit id="downloadExtension.dependencyType.download" approved="yes">
+        <source>download</source>
+        <target state="translated">download</target>
+      </trans-unit>
       <trans-unit id="downloadExtension.dependencyType.install" approved="yes">
         <source>install</source>
         <target state="translated">installare</target>
@@ -351,6 +359,10 @@
       <trans-unit id="extensionList.dependenciesResolveDownloadSuccess.message.downloadOnly" approved="yes">
         <source>Your download of {0} was successful.</source>
         <target state="translated">Il download di {0} è avvenuto con successo.</target>
+      </trans-unit>
+      <trans-unit id="extensionList.dependenciesResolveDownloadSuccess.header" approved="yes">
+        <source>Log</source>
+        <target state="translated">Log</target>
       </trans-unit>
       <trans-unit id="extensionList.dependenciesResolveDownloadSuccess.item" approved="yes">
         <source>Extensions</source>
@@ -392,6 +404,10 @@
         <source>Show all versions</source>
         <target state="translated">Mostra tutte le versioni</target>
       </trans-unit>
+      <trans-unit id="extensionList.showAllVersions.extensionKey" approved="yes">
+        <source>Extension key</source>
+        <target state="translated">Extension key</target>
+      </trans-unit>
       <trans-unit id="extensionList.showAllVersions.version" approved="yes">
         <source>Version</source>
         <target state="translated">Versione</target>
@@ -399,6 +415,10 @@
       <trans-unit id="extensionList.showAllVersions.lastUploaded" approved="yes">
         <source>Last uploaded</source>
         <target state="translated">Ultimo caricato</target>
+      </trans-unit>
+      <trans-unit id="extensionList.showAllVersions.downloads" approved="yes">
+        <source>Downloads</source>
+        <target state="translated">Downloads</target>
       </trans-unit>
       <trans-unit id="extensionList.showAllVersions.category" approved="yes">
         <source>Category</source>
@@ -431,6 +451,10 @@
       <trans-unit id="extensionList.distribution.version" approved="yes">
         <source>Version</source>
         <target state="translated">Versione</target>
+      </trans-unit>
+      <trans-unit id="extensionList.distribution.downloads" approved="yes">
+        <source>Downloads</source>
+        <target state="translated">Downloads</target>
       </trans-unit>
       <trans-unit id="extensionList.distribution.lastUpdated" approved="yes">
         <source>Last Update</source>
@@ -479,6 +503,10 @@
       <trans-unit id="extensionList.updateFromTer.lastUpdate.noInfo" approved="yes">
         <source>unknown</source>
         <target state="translated">sconosciuto</target>
+      </trans-unit>
+      <trans-unit id="extensionList.updateFromTer.lastUpdate.fullTimeFormat" approved="yes">
+        <source>Y-m-d H:i:s</source>
+        <target state="translated">Y-m-d H:i:s</target>
       </trans-unit>
       <trans-unit id="extensionList.updateFromTer.lastUpdate.timeOfLastUpdate" approved="yes">
         <source>Time of last update: </source>
@@ -564,9 +592,17 @@
         <source>The Main Repository extension list is older than 7 days. Please update it in the Extension manager or Scheduler.</source>
         <target state="translated">La lista delle estensioni del repository principale è più vecchia di 7 giorni. Aggiornala nell'Extension Manager oppure con lo Scheduler.</target>
       </trans-unit>
+      <trans-unit id="report.status.mainRepository.upToDate.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
+      </trans-unit>
       <trans-unit id="report.status.loadedExtensions.title" approved="yes">
         <source>Security status of loaded extensions</source>
         <target state="translated">Security status delle estensioni caricate</target>
+      </trans-unit>
+      <trans-unit id="report.status.loadedExtensions.noInsecureExtensionLoaded.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
       </trans-unit>
       <trans-unit id="report.status.loadedExtensions.insecureExtensionLoaded.value" approved="yes">
         <source>%s insecure extension(s) found</source>
@@ -584,6 +620,10 @@
         <source>Security status of existing, but not loaded extensions</source>
         <target state="translated">Security status di estensioni presenti, ma non caricate</target>
       </trans-unit>
+      <trans-unit id="report.status.existingExtensions.noInsecureExtensionExists.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
+      </trans-unit>
       <trans-unit id="report.status.existingExtensions.insecureExtensionExists.value" approved="yes">
         <source>%s insecure extension(s) found</source>
         <target state="translated">trovate %s estensioni non sicure</target>
@@ -600,6 +640,10 @@
         <source>Outdated status of loaded extensions</source>
         <target state="translated">Outdated status delle estensioni caricate</target>
       </trans-unit>
+      <trans-unit id="report.status.loadedOutdatedExtensions.noOutdatedExtensionLoaded.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
+      </trans-unit>
       <trans-unit id="report.status.loadedOutdatedExtensions.outdatedExtensionLoaded.value" approved="yes">
         <source>%s outdated extension(s) found</source>
         <target state="translated">trovate %s estensioni superate</target>
@@ -615,6 +659,10 @@
       <trans-unit id="report.status.existingOutdatedExtensions.title" approved="yes">
         <source>Outdated status of existing, but not loaded extensions</source>
         <target state="translated">Outdated status di estensioni presenti, ma non caricate</target>
+      </trans-unit>
+      <trans-unit id="report.status.existingOutdatedExtensions.noOutdatedExtensionExists.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
       </trans-unit>
       <trans-unit id="report.status.existingOutdatedExtensions.outdatedExtensionExists.value" approved="yes">
         <source>%s outdated extension(s) found</source>
