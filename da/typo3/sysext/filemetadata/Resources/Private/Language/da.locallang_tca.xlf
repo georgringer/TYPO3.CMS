@@ -8,6 +8,14 @@
         <source>Visible</source>
         <target state="translated">Synlig</target>
       </trans-unit>
+      <trans-unit id="sys_file_metadata.status" approved="yes">
+        <source>Status</source>
+        <target state="translated">Status</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.status.1" approved="yes">
+        <source>Ok</source>
+        <target state="translated">Ok</target>
+      </trans-unit>
       <trans-unit id="sys_file_metadata.status.2" approved="yes">
         <source>Pending</source>
         <target state="translated">Afventer</target>
@@ -52,6 +60,10 @@
         <source>Country</source>
         <target state="translated">Land</target>
       </trans-unit>
+      <trans-unit id="sys_file_metadata.location_region" approved="yes">
+        <source>Region</source>
+        <target state="translated">Region</target>
+      </trans-unit>
       <trans-unit id="sys_file_metadata.location_city" approved="yes">
         <source>City</source>
         <target state="translated">By</target>
@@ -75,6 +87,10 @@
       <trans-unit id="sys_file_metadata.content_modification_date" approved="yes">
         <source>Content Modification Date</source>
         <target state="translated">Indhold rettet-dato</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.note" approved="yes">
+        <source>Note</source>
+        <target state="translated">Note</target>
       </trans-unit>
       <trans-unit id="sys_file_metadata.unit" approved="yes">
         <source>Unit</source>
@@ -116,6 +132,26 @@
         <source>Color Space</source>
         <target state="translated">Farvezone</target>
       </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.RGB" approved="yes">
+        <source>RGB</source>
+        <target state="translated">RGB</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.sRGB" approved="yes">
+        <source>sRGB</source>
+        <target state="translated">sRGB</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.CMYK" approved="yes">
+        <source>CMYK</source>
+        <target state="translated">CMYK</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.CMY" approved="yes">
+        <source>CMY</source>
+        <target state="translated">CMY</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.YUV" approved="yes">
+        <source>YUV</source>
+        <target state="translated">YUV</target>
+      </trans-unit>
       <trans-unit id="sys_file_metadata.color_space.grey" approved="yes">
         <source>Grey</source>
         <target state="translated">Grå</target>
@@ -145,6 +181,10 @@
         <target state="translated">Højde</target>
       </trans-unit>
       <!-- sys_file_metadata tabs -->
+      <trans-unit id="tabs.metadata" approved="yes">
+        <source>Metadata</source>
+        <target state="translated">Metadata</target>
+      </trans-unit>
       <trans-unit id="tabs.camera" approved="yes">
         <source>Camera Data</source>
         <target state="translated">Kamera data</target>
@@ -152,6 +192,10 @@
       <trans-unit id="tabs.audio" approved="yes">
         <source>Audio</source>
         <target state="translated">Lyd</target>
+      </trans-unit>
+      <trans-unit id="tabs.video" approved="yes">
+        <source>Video</source>
+        <target state="translated">Video</target>
       </trans-unit>
       <!-- sys_file_metadata placeholder -->
       <trans-unit id="placeholder.keywords" approved="yes">
@@ -178,6 +222,10 @@
       <trans-unit id="palette.accessibility" approved="yes">
         <source>Accessibility</source>
         <target state="translated">Tilgængelighed</target>
+      </trans-unit>
+      <trans-unit id="palette.gps" approved="yes">
+        <source>GPS</source>
+        <target state="translated">GPS</target>
       </trans-unit>
       <!-- fe_groups fields -->
       <trans-unit id="fe_groups.files" approved="yes">
