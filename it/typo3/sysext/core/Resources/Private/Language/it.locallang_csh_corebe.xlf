@@ -3,6 +3,10 @@
   <file t3:id="1415814854" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="lang" target-language="it">
     <header/>
     <body>
+      <trans-unit id=".alttitle" approved="yes">
+        <source>TYPO3 Core</source>
+        <target state="translated">TYPO3 Core</target>
+      </trans-unit>
       <trans-unit id=".description" approved="yes">
         <source>TYPO3 is a Content Management Framework which consists of a central program core with only limited functionality. To extend this core system there are hundreds of extensions which in combination will provide a very capable system.</source>
         <target state="translated">TYPO3 è un Content Management Framework che consiste in un "core" centrale con limitate funzionalità. Per estendere questo nucleo centrale esistono centinaia di estensioni che, in differenti combinazioni, renderanno questo sistema molto potente.</target>
@@ -10,6 +14,11 @@
       <trans-unit id=".details" approved="yes">
         <source>For most people TYPO3 is equivalent to a CMS providing a backend for management of the content and a frontend engine for website display. However TYPO3s core is natively designed to be a general purpose framework for management of database content. The core of TYPO3 delivers a set of principles for storage of this content, user access management, editing of the content, uploading and managing files etc. Many of these principles are expressed as an API (Application Programmers Interface) for use in the &lt;em&gt;extensions&lt;/em&gt; which ultimately adds most of the real functionality.</source>
         <target state="translated">Per molte persone TYPO3 è l'equivalente di un CMS che fornisce un backend per la gestione dei contenuti e un motore di frontend per la visualizzazione del sito. Comunque il core di TYPO3 è stato progettato nativamente per essere un framework per scopi generici per la gestione di contenuti di database. Il core di TYPO3 definisce un insieme di principi per la memorizzazione dei contenuti, la gestione degli accessi-utente, l'editing dei contenuti, l'upload e la gestione dei files, ecc. Molti di questi principi vengono applicati attraverso un API (Application Programmers Interface) per l'uso nelle &lt;em&gt;estensioni&lt;/em&gt; che alla fine aggiungono molte delle reali funzionalità.</target>
+      </trans-unit>
+      <trans-unit id="_.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/login.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/login.png</target>
       </trans-unit>
       <trans-unit id=".image_descr" approved="yes">
         <source>TYPO3 backend login screen.</source>
@@ -30,6 +39,12 @@ You can configure the backend to display the menu in two alternative versions (u
 
 When you click the little "+" or "-" icons next to the main modules, you can collapse (-) or expand (+) all the sub modules. By selecting the "Expand all" check box, all items are expanded. When the checkbox is unselected again, the menu changes back to the previous folding state. If you click "Expand all" and collapse a main module afterwards, the previous folding state is discarded and "Expand all" is unselected again.</source>
 			<target state="translated">Gli utenti del Backend potrebbero vedere differenti elementi nel menù, a seconda dei loro permessi di accesso. Gli utenti "Admin" di un sistema vedranno sempre tutti i moduli disponibili. Puoi configurare il backend in modo da visualizzare il menù in altre due versioni alternative (utile per schemi ridotti): o come un menù a selezione o come una serie di icone nel frame in alto.</target></trans-unit>
+      <trans-unit id="_menu_modules.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_2.png,
+EXT:core/Resources/Public/Images/cshimages/core_3.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_2.png,
+EXT:core/Resources/Public/Images/cshimages/core_3.png</target></trans-unit>
       <trans-unit id="menu_modules.image_descr" xml:space="preserve" approved="yes">
 				<source>This is the range of menu options for a typical backend user.
 For another backend user it might be different. This screenshot shows how another user has different permissions set and therefore access to other modules only. Also the backend language has been set different for this user.</source>
@@ -41,6 +56,11 @@ For another backend user it might be different. This screenshot shows how anothe
       <trans-unit id="menu_adminFunction.description" approved="yes">
         <source>The Admin Functions allow administrators to clear caches etc.</source>
         <target state="translated">Le Funzioni Admin permettono all'amministratore di svuotare le caches, etc..</target>
+      </trans-unit>
+      <trans-unit id="_menu_adminFunction.seeAlso" approved="yes">
+        <source>be_users:admin</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">be_users:admin</target>
       </trans-unit>
       <trans-unit id="pagetree.alttitle" approved="yes">
         <source>The Page Tree</source>
@@ -59,6 +79,16 @@ Simply click the +/- buttons to expand and contract the branches of the tree.
 If you click the page icons you should see a context menu pop up. It will contain options specifically for that page.
 Clicking the title of a page is another option. It will load the right frame of the Web main module with the selected sub-module. The content shown in the right frame will be related to the page clicked.</source>
 			<target state="translated">L'abero delle pagine funziona come un file system. Ogni pagina è simile ad una directory dentro la quale ci puoi mettere dei files. In TYPO3 immaganizzi i records del database all'interno delle pagine. Alcuni di questi records, normalmente chiamati "Elementi di contenuto", sono l'effettivo contenuto delle pagine del sito. Altri records possono essere ad esempio di plugins come un glossario o un guestbook e vengono visualizzati indirettamente attraverso l'inserimento del plugin come fosse un Elemento di Contenuto. Alcuni utenti del backend potranno vedere solo una parte dell'albero delle pagine del sito. Questa possibilità permette all'amministratore di configurare gli utenti con differenti responsabilità per il mantenimento dei rami dell'albero delle pagine. &lt;b&gt;Navigazione nell'albero&lt;/b&gt; Clicca semplicemente i pulsanti +/- per espandere o richiudere i rami. Se clicchi sull'icona di una pagian dovresti vedere un menù contestuale contenente opzioni specifiche per quella pagina. Cliccando invece sul titolo di una pagina (cosa diveressa che non sulla relativa icona) si caricherà il frame di destra col il sottomodulo web selezionato. Il contenuto del frame di destra è relativo alla pagina cliccata.</target></trans-unit>
+      <trans-unit id="_pagetree.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_4.png,
+EXT:core/Resources/Public/Images/cshimages/core_5.png,
+EXT:core/Resources/Public/Images/cshimages/core_6.png,
+EXT:core/Resources/Public/Images/cshimages/core_7.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_4.png,
+EXT:core/Resources/Public/Images/cshimages/core_5.png,
+EXT:core/Resources/Public/Images/cshimages/core_6.png,
+EXT:core/Resources/Public/Images/cshimages/core_7.png</target></trans-unit>
       <trans-unit id="filetree.alttitle" approved="yes">
         <source>The Folder Tree</source>
         <target state="translated">L'Albero delle Cartelle</target>
@@ -67,6 +97,14 @@ Clicking the title of a page is another option. It will load the right frame of 
         <source>Shows the directory structure of a mounted path on the webserver. You can browse the folder tree like you are used to browse the file system on your own computer.</source>
         <target state="translated">Mostra la struttura della directory di un path montato sul server web. Tu puoi navigare nell'albero come se tu stessi usando un file sistem sul tuo computer.</target>
       </trans-unit>
+      <trans-unit id="_filetree.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_8.png,
+EXT:core/Resources/Public/Images/cshimages/core_9.png,
+EXT:core/Resources/Public/Images/cshimages/core_10.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_8.png,
+EXT:core/Resources/Public/Images/cshimages/core_9.png,
+EXT:core/Resources/Public/Images/cshimages/core_10.png</target></trans-unit>
       <trans-unit id="tcatree.collapseAll" approved="yes">
         <source>Collapse All</source>
         <target state="translated">Chiudi tutto</target>
@@ -99,6 +137,14 @@ The Web&gt;List module might not be the best "view" of the content on a page for
 &lt;b&gt;Single-table mode&lt;/b&gt;
 If you click the tabel title in the listing you will enter single-table mode. In this mode you can select additional fields from the table to show in the listing. Also you will get additional editing facilities, for instance you will be able to edit multiple records at a time and even only certain fields from those records. See the screenshot for more details.</source>
 			<target state="translated">Il modulo "Web&gt;Lista" può non essere il miglior modo per visualizzare il contenuto di una pagina per tutte le situazioni che si verificano. Per esempio se tu vuoi gestire i contenuti di una pagina del sito web (Elementi di contenuto) dovresti usare invece il modulo "Web&gt;Pagina" che è stato progettato appositamente per visualizzare gli elementi in modo più ottimizzato. Ma il modulo "Lista" di darà sempre l'accesso base a qualunque pagina se altrimenti non disponibile un modulo specifico per la gestione della stessa.</target></trans-unit>
+      <trans-unit id="_list_module.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_11.png,
+EXT:core/Resources/Public/Images/cshimages/core_12.png,
+EXT:core/Resources/Public/Images/cshimages/core_34.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_11.png,
+EXT:core/Resources/Public/Images/cshimages/core_12.png,
+EXT:core/Resources/Public/Images/cshimages/core_34.png,</target></trans-unit>
       <trans-unit id="list_module_noId.alttitle" approved="yes">
         <source>Web&gt;List module with no ID given</source>
         <target state="translated">Web&gt;Lista modulo senza alcuna ID trasmessa.</target>
@@ -106,6 +152,11 @@ If you click the tabel title in the listing you will enter single-table mode. In
       <trans-unit id="list_module_noId.description" approved="yes">
         <source>The Web&gt;List module must have a page ID passed to it before it can display any content. Please click a page title in the Page Tree.</source>
         <target state="translated">Il modulo "Web&gt;Lista" deve avere una ID di pagina che viene passata prima di visualizzare qualsiasi contenuto. Cliccare su un titolo di una pagina nella struttura ad albero delle pagine (Page Tree).</target>
+      </trans-unit>
+      <trans-unit id="_list_module_noId.seeAlso" approved="yes">
+        <source>xMOD_csh_corebe:list_module</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">xMOD_csh_corebe:list_module</target>
       </trans-unit>
       <trans-unit id="list_module_root.alttitle" approved="yes">
         <source>Root of the Page Tree</source>
@@ -115,13 +166,33 @@ If you click the tabel title in the listing you will enter single-table mode. In
         <source>The root of the Page Tree is having id 0 (zero = no page) and the special circumstance is that records in the page tree root can be accessed and edited &lt;i&gt;only&lt;/i&gt; by "Admin" users.</source>
         <target state="translated">la radice dell'Albero delle Pagine ha ID = 0 (zero = nessuna pagina). in questa circostanza i records della pagina radice possono essere visualizzati e modificati &lt;i&gt;solo&lt;/i&gt; dagli utenti "Admin".</target>
       </trans-unit>
+      <trans-unit id="list_clipboard.alttitle" approved="yes">
+        <source>TYPO3 Clipboard</source>
+        <target state="translated">TYPO3 Clipboard</target>
+      </trans-unit>
       <trans-unit id="list_clipboard.description" approved="yes">
         <source>The clipboard is an internal registry where records and files can be "stored" temporarily. Usually the clipboard is used for copy/cut/paste operations internally of one or more elements.</source>
         <target state="translated">Gli appunti (clipboard) sono un registro interno dove i record ed i file possono essere "memorizzati" temporaneamente. Di solito la clipboard è usata per le operazioni interne di copia/taglia/incolla/ relativamente ad uno o più elementi.</target>
       </trans-unit>
+      <trans-unit id="_list_clipboard.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_16.png,
+EXT:core/Resources/Public/Images/cshimages/core_17.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_16.png,
+EXT:core/Resources/Public/Images/cshimages/core_17.png,</target></trans-unit>
       <trans-unit id="list_searchbox.alttitle" approved="yes">
         <source>Search Box</source>
         <target state="translated">Riquadro per le ricerca</target>
+      </trans-unit>
+      <trans-unit id="_list_searchbox.seeAlso" approved="yes">
+        <source>xMOD_csh_corebe:list_module</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">xMOD_csh_corebe:list_module</target>
+      </trans-unit>
+      <trans-unit id="_list_searchbox.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_15.png,</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/core_15.png,</target>
       </trans-unit>
       <trans-unit id="list_options.alttitle" approved="yes">
         <source>List module options</source>
@@ -131,6 +202,22 @@ If you click the tabel title in the listing you will enter single-table mode. In
         <source>Enable additional options like the "Extended view" mode to see additional control buttons for each record in the listing or the "Clipboard" to see the clipboard and its content.</source>
         <target state="translated">Abilita la "vista estesa" per vedere controlli addizionali per ogni record delle lista. Abilita "mostra clipboard" per vedere la clipboard e il suo contenuto</target>
       </trans-unit>
+      <trans-unit id="_list_options.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_18.png,
+EXT:core/Resources/Public/Images/cshimages/core_19.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_18.png,
+EXT:core/Resources/Public/Images/cshimages/core_19.png,</target></trans-unit>
+      <trans-unit id="_pagetree_overview.seeAlso" xml:space="preserve" approved="yes">
+				<source>_MOD_web_info:func_0,
+_MOD_web_info:func_1,
+_MOD_web_info:func_2,
+_MOD_web_info:stat</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">_MOD_web_info:func_0,
+_MOD_web_info:func_1,
+_MOD_web_info:func_2,
+_MOD_web_info:stat</target></trans-unit>
       <trans-unit id="new_regular.alttitle" approved="yes">
         <source>Create new record</source>
         <target state="translated">Crea nuovo record</target>
@@ -139,25 +226,73 @@ If you click the tabel title in the listing you will enter single-table mode. In
         <source>This list shows the types of records (database tables) you can create on the page. Click a table name to select the type.</source>
         <target state="translated">Questa lista mostra i tipi dei records (tabelle di database) che tu puoi creare in una pagina. Clicca sul nome della tabella per scegliere il tipo.</target>
       </trans-unit>
+      <trans-unit id="_new_regular.seeAlso" xml:space="preserve" approved="yes">
+				<source>xMOD_csh_corebe:new_ce,
+xMOD_csh_corebe:new_pages</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:new_ce,
+xMOD_csh_corebe:new_pages</target></trans-unit>
       <trans-unit id="new_pages.alttitle" approved="yes">
         <source>Create new page wizard</source>
         <target state="translated">Crea nuovo page wizard</target>
       </trans-unit>
+      <trans-unit id="_new_pages.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_20.png,
+EXT:core/Resources/Public/Images/cshimages/core_21.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_20.png,
+EXT:core/Resources/Public/Images/cshimages/core_21.png,</target></trans-unit>
       <trans-unit id="new_ce.alttitle" approved="yes">
         <source>Create new Content Element Wizard</source>
         <target state="translated">Wizards Crea nuovo Elemento di Contenuto</target>
       </trans-unit>
+      <trans-unit id="_new_ce.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_22.png,
+EXT:core/Resources/Public/Images/cshimages/core_23.png,
+EXT:core/Resources/Public/Images/cshimages/core_24.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_22.png,
+EXT:core/Resources/Public/Images/cshimages/core_23.png,
+EXT:core/Resources/Public/Images/cshimages/core_24.png,</target></trans-unit>
       <trans-unit id="move_el_pages.alttitle" approved="yes">
         <source>Move page wizard</source>
         <target state="translated">Wizard Muovi pagina</target>
       </trans-unit>
+      <trans-unit id="_move_el_pages.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_27.png,
+EXT:core/Resources/Public/Images/cshimages/core_28.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_27.png,
+EXT:core/Resources/Public/Images/cshimages/core_28.png,</target></trans-unit>
       <trans-unit id="move_el_cs.alttitle" approved="yes">
         <source>Move Content Element Wizard</source>
         <target state="translated">Wizard muovi contenuto</target>
       </trans-unit>
+      <trans-unit id="_move_el_cs.seeAlso" xml:space="preserve" approved="yes">
+				<source>xMOD_csh_corebe:move_el_pages,
+xMOD_csh_corebe:new_regular</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:move_el_pages,
+xMOD_csh_corebe:new_regular</target></trans-unit>
       <trans-unit id="history_log.alttitle" approved="yes">
         <source>History log</source>
         <target state="translated">Log Storico</target>
+      </trans-unit>
+      <trans-unit id="_history_log.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_37.png,
+EXT:core/Resources/Public/Images/cshimages/core_38.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_37.png,
+EXT:core/Resources/Public/Images/cshimages/core_38.png</target></trans-unit>
+      <trans-unit id="_history_sum.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_39.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/core_39.png</target>
+      </trans-unit>
+      <trans-unit id="_history_entry.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_40.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/core_40.png</target>
       </trans-unit>
       <trans-unit id="TCEforms.alttitle" approved="yes">
         <source>TYPO3 Editing Forms</source>
@@ -167,6 +302,23 @@ If you click the tabel title in the listing you will enter single-table mode. In
         <source>All records in TYPO3 is edited through a standardized form interface like the one you see here. No matter if you edit pages, content elements, guestbook items or user records you will use the same familiar interface.</source>
         <target state="translated">Tutti i records di TYPO3 sono editabili con un'interfaccia standard come quella che vedi qui. Non importa se stai editando pagine, elementi di contenuto, records di guestbook o utenti.. userai sempre la stessa interfaccia.</target>
       </trans-unit>
+      <trans-unit id="_TCEforms.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_30.png,
+EXT:core/Resources/Public/Images/cshimages/core_29.png,
+EXT:core/Resources/Public/Images/cshimages/core_32.png,
+EXT:core/Resources/Public/Images/cshimages/core_33.png,
+EXT:core/Resources/Public/Images/cshimages/core_31.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_30.png,
+EXT:core/Resources/Public/Images/cshimages/core_29.png,
+EXT:core/Resources/Public/Images/cshimages/core_32.png,
+EXT:core/Resources/Public/Images/cshimages/core_33.png,
+EXT:core/Resources/Public/Images/cshimages/core_31.png,</target></trans-unit>
+      <trans-unit id="_TCEforms_cacheSelector.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_36.png,</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/core_36.png,</target>
+      </trans-unit>
       <trans-unit id="perm_module.alttitle" approved="yes">
         <source>Viewing page permissions</source>
         <target state="translated">Permessi delle pagine</target>
@@ -175,17 +327,57 @@ If you click the tabel title in the listing you will enter single-table mode. In
         <source>This view will tell you about the page permissions in the page tree.</source>
         <target state="translated">Questo modulo mostrerà i permessi della pagine dell'albero.</target>
       </trans-unit>
+      <trans-unit id="_perm_module.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_43.png,
+EXT:core/Resources/Public/Images/cshimages/core_41.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_43.png,
+EXT:core/Resources/Public/Images/cshimages/core_41.png,</target></trans-unit>
       <trans-unit id="perm_module_setting.alttitle" approved="yes">
         <source>Setting permissions for a page</source>
         <target state="translated">Definizione dei permessi di una magina</target>
+      </trans-unit>
+      <trans-unit id="_perm_module_setting.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_42.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/core_42.png</target>
       </trans-unit>
       <trans-unit id="filelist_module.alttitle" approved="yes">
         <source>File &gt; Filelist module</source>
         <target state="translated">Modulo File&gt;Lista file</target>
       </trans-unit>
+      <trans-unit id="_filelist_module.seeAlso" xml:space="preserve" approved="yes">
+				<source>xMOD_csh_corebe:list_module,
+xMOD_csh_corebe:filetree,
+be_groups:file_mountpoints,
+sys_filemounts</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:list_module,
+xMOD_csh_corebe:filetree,
+be_groups:file_mountpoints,
+sys_filemounts</target></trans-unit>
+      <trans-unit id="_filelist_clipboard.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_44.png,
+EXT:core/Resources/Public/Images/cshimages/core_46.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_44.png,
+EXT:core/Resources/Public/Images/cshimages/core_46.png</target></trans-unit>
       <trans-unit id="filelist_options.alttitle" approved="yes">
         <source>File &gt; Filelist options</source>
         <target state="translated">File &gt; opzioni lista file</target>
+      </trans-unit>
+      <trans-unit id="_filelist_options.seeAlso" xml:space="preserve" approved="yes">
+				<source>xMOD_csh_corebe:list_options,
+_MOD_user_setup:option_showThumbs,
+xMOD_csh_corebe:filelist_clipboard</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:list_options,
+_MOD_user_setup:option_showThumbs,
+xMOD_csh_corebe:filelist_clipboard</target></trans-unit>
+      <trans-unit id="_filelist_options.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_48.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/core_48.png</target>
       </trans-unit>
       <trans-unit id="file_edit.alttitle" approved="yes">
         <source>Editing a file</source>
@@ -195,25 +387,85 @@ If you click the tabel title in the listing you will enter single-table mode. In
         <source>You can edit the contents of a text file with this dialog.</source>
         <target state="translated">Puoi editare i contenuti di un file di testo</target>
       </trans-unit>
+      <trans-unit id="_file_edit.seeAlso" approved="yes">
+        <source>xMOD_csh_corebe:filelist_module</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">xMOD_csh_corebe:filelist_module</target>
+      </trans-unit>
+      <trans-unit id="_file_edit.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_50.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/core_50.png</target>
+      </trans-unit>
       <trans-unit id="file_newfolder.alttitle" approved="yes">
         <source>Creating a new folder</source>
         <target state="translated">Creare una nuova cartella</target>
       </trans-unit>
+      <trans-unit id="_file_newfolder.seeAlso" xml:space="preserve" approved="yes">
+				<source>xMOD_csh_corebe:filelist_module,
+xMOD_csh_corebe:file_newfile,
+xMOD_csh_corebe:file_rename</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:filelist_module,
+xMOD_csh_corebe:file_newfile,
+xMOD_csh_corebe:file_rename</target></trans-unit>
+      <trans-unit id="_file_newfolder.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_51.png,
+EXT:core/Resources/Public/Images/cshimages/core_52.png,
+EXT:core/Resources/Public/Images/cshimages/core_53.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_51.png,
+EXT:core/Resources/Public/Images/cshimages/core_52.png,
+EXT:core/Resources/Public/Images/cshimages/core_53.png,</target></trans-unit>
       <trans-unit id="file_newfile.alttitle" approved="yes">
         <source>Creating a new file</source>
         <target state="translated">Creare un nuovo file</target>
       </trans-unit>
+      <trans-unit id="_file_newfile.seeAlso" xml:space="preserve" approved="yes">
+				<source>xMOD_csh_corebe:file_edit,
+xMOD_csh_corebe:filelist_module,
+xMOD_csh_corebe:file_newfolder,
+xMOD_csh_corebe:file_rename</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:file_edit,
+xMOD_csh_corebe:filelist_module,
+xMOD_csh_corebe:file_newfolder,
+xMOD_csh_corebe:file_rename</target></trans-unit>
+      <trans-unit id="_file_newfile.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_51.png,
+EXT:core/Resources/Public/Images/cshimages/core_54.png,
+EXT:core/Resources/Public/Images/cshimages/core_55.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_51.png,
+EXT:core/Resources/Public/Images/cshimages/core_54.png,
+EXT:core/Resources/Public/Images/cshimages/core_55.png,</target></trans-unit>
       <trans-unit id="file_rename.alttitle" approved="yes">
         <source>Rename a file or folder</source>
         <target state="translated">Rinominare un file o una cartella</target>
+      </trans-unit>
+      <trans-unit id="_file_rename.seeAlso" approved="yes">
+        <source>xMOD_csh_corebe:filelist_module</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">xMOD_csh_corebe:filelist_module</target>
       </trans-unit>
       <trans-unit id="file_upload.alttitle" approved="yes">
         <source>Uploading files.</source>
         <target state="translated">Uploadare files.</target>
       </trans-unit>
+      <trans-unit id="_file_upload.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_58.png,
+EXT:core/Resources/Public/Images/cshimages/core_59.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_58.png,
+EXT:core/Resources/Public/Images/cshimages/core_59.png,</target></trans-unit>
       <trans-unit id="wizard_table_wiz.alttitle" approved="yes">
         <source>Table wizard</source>
         <target state="translated">Wizard Tabelle</target>
+      </trans-unit>
+      <trans-unit id="_wizard_table_wiz.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/core_63.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/core_63.png</target>
       </trans-unit>
       <trans-unit id="shortcuts.alttitle" approved="yes">
         <source>Backend Shortcuts</source>
@@ -223,6 +475,26 @@ If you click the tabel title in the listing you will enter single-table mode. In
         <source>You can create shortcuts to modules in TYPO3 quite easily. The treat is that you can jump between screens in TYPO3 in &lt;em&gt;one&lt;/em&gt; click rather than multiple clicks through backend modules etc. The frame also contains a field for entering a page or record id to edit or just search records.</source>
         <target state="translated">Puoi creare delle scorciatoie ai moduli di TYPO3 abbastanza facilmente. Il vantaggio è che puoi saltare da una sezione all'altra di TYPO3 con &lt;em&gt;un solo&lt;/em&gt; click invece che passare attraverso i vari moduli con click multipli. L'area contiene un campo per inserire un id di pagina o di record da modificare oppure solamente per cercare record.</target>
       </trans-unit>
+      <trans-unit id="_shortcuts.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_64.png,
+EXT:core/Resources/Public/Images/cshimages/core_65.png,
+EXT:core/Resources/Public/Images/cshimages/core_67.png,
+EXT:core/Resources/Public/Images/cshimages/core_68.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_64.png,
+EXT:core/Resources/Public/Images/cshimages/core_65.png,
+EXT:core/Resources/Public/Images/cshimages/core_67.png,
+EXT:core/Resources/Public/Images/cshimages/core_68.png,</target></trans-unit>
+      <trans-unit id="_bookmarks.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/core_64.png,
+EXT:core/Resources/Public/Images/cshimages/core_65.png,
+EXT:core/Resources/Public/Images/cshimages/core_67.png,
+EXT:core/Resources/Public/Images/cshimages/core_68.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/core_64.png,
+EXT:core/Resources/Public/Images/cshimages/core_65.png,
+EXT:core/Resources/Public/Images/cshimages/core_67.png,
+EXT:core/Resources/Public/Images/cshimages/core_68.png,</target></trans-unit>
     </body>
   </file>
 </xliff>
