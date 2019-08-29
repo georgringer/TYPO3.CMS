@@ -59,6 +59,14 @@
         <source>Intermediate external change!</source>
         <target state="translated">Tussentijdse externe wijziging</target>
       </trans-unit>
+      <trans-unit id="viaUser" approved="yes">
+        <source>via</source>
+        <target state="translated">via</target>
+      </trans-unit>
+      <trans-unit id="sumUpChanges" approved="yes">
+        <source>Rollback (Preview)</source>
+        <target state="translated">Rollback (Preview)</target>
+      </trans-unit>
       <trans-unit id="markState" approved="yes">
         <source>mark this change</source>
         <target state="translated">markeer deze wijziging</target>
@@ -122,6 +130,10 @@
       <trans-unit id="showDiff_no" approved="yes">
         <source>No</source>
         <target state="translated">Nee</target>
+      </trans-unit>
+      <trans-unit id="showDiff_inline" approved="yes">
+        <source>Inline</source>
+        <target state="translated">Inline</target>
       </trans-unit>
       <trans-unit id="showSubElements" approved="yes">
         <source>Show sub elements</source>
