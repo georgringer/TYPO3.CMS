@@ -49,6 +49,16 @@ However it's recommended to use backend user groups like this to configure mount
 			<target state="translated">Stablo stranica u TYPO3 CMS-u mora imati definirane neke točke ulaska. Ovdje trebate navesti jednu ili više referenci na stranice koje će predstavljati novu korjensku stranicu za stablo stranica. Ovo se zove "Točka montiranja baze" ili "DB točka montiranja".
 Točke DB montiranja &lt;i&gt;mogu&lt;/i&gt; biti nasljedne za korisnike koji su članovi ove grupe. Ovo ovisi o tome je li korisnik podešen da uključuje točke montiranja postavljene u korisničkoj grupi.
 Preporuča se koristiti grupe pozadinski korisnika za podešavanje točki montiranja. Posebice ukoliko postavke treba dijeliti između mnogo korisnika.</target></trans-unit>
+      <trans-unit id="_db_mountpoints.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:file_mountpoints,
+be_users:db_mountpoints,
+be_users:options,
+xMOD_csh_corebe:list_module</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:file_mountpoints,
+be_users:db_mountpoints,
+be_users:options,
+xMOD_csh_corebe:list_module</target></trans-unit>
       <trans-unit id="db_mountpoints.image_descr" xml:space="preserve" approved="yes">
 				<source>Here a page is added as a "DB mount"...
 ... and in the page tree of member users this will become the starting point for the page tree.</source>
@@ -105,6 +115,14 @@ Zapisi točki datotečnih montiranja nalaze se u korjenu stabla stranica.</targe
 			<target state="translated">Ove postavke odnose se na funkcije u modulu Datoteka&gt;Popis datoteka kao i općenito slanje datoteka.
 
 &lt;strong&gt;Napomena:&lt;/strong&gt; ove postavke vrijede za sve članove ove grupe te im proširuju korisničke ovlasti.</target></trans-unit>
+      <trans-unit id="file_permissions.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:file_mountpoints,
+be_users:file_mountpoints,
+be_users:file_permissions</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:file_mountpoints,
+be_users:file_mountpoints,
+be_users:file_permissions</target></trans-unit>
       <trans-unit id="fileoper_perms.description" approved="yes">
         <source>Select file operation permissions for the group members.</source>
         <target state="translated">Odaberite dopuštenja za datotečne operacije za članove grupe.</target>
@@ -116,6 +134,14 @@ Zapisi točki datotečnih montiranja nalaze se u korjenu stabla stranica.</targe
 			<target state="translated">Ove postavke odnose se na funkcije u modulu Datoteka&gt;Popis datotek kao i na općenito slanje datoteka.
 
 &lt;strong&gt;Napomena:&lt;/strong&gt; ove postavke vrijede za sve članove ove grupe te im proširuju korisničke ovlasti.</target></trans-unit>
+      <trans-unit id="_fileoper_perms.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:file_mountpoints,
+be_users:file_mountpoints,
+be_users:file_permissions</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:file_mountpoints,
+be_users:file_mountpoints,
+be_users:file_permissions</target></trans-unit>
       <trans-unit id="pagetypes_select.description" approved="yes">
         <source>Select which 'Types' of Pages the members may set.</source>
         <target state="translated">Odaberite koje tipove datoteka članovi mogu postavljati.</target>
@@ -125,6 +151,12 @@ Zapisi točki datotečnih montiranja nalaze se u korjenu stabla stranica.</targe
 Choice of Page types (doktype) for a page is associated with a) a special icon for the page, b) permitted tables on the page (see $PAGES_TYPES global variable) and c) if the page is a web page or "system folder" type.</source>
 			<target state="translated">Ova opcija ograničava broj mogućih izbora za korisnika pri odabiru tipa stranice.
 Odabir tipa stranice (doktype) povezan je sa a) posebnom ikonom za stranicu, b) dopuštenim tablicama na stranici (pogledajte globalnu varijablu $PAGES_TYPES) i c) tipom same stranice - obična stranica ili s"istemska mapa".</target></trans-unit>
+      <trans-unit id="_pagetypes_select.seeAlso" xml:space="preserve" approved="yes">
+				<source>pages:doktype,
+be_groups:inc_access_lists</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">pages:doktype,
+be_groups:inc_access_lists</target></trans-unit>
       <trans-unit id="pagetypes_select.image_descr" approved="yes">
         <source>The list of typical page types available in a CMS context. Selecting Page types for a usergroup defines which of these options can be selected by member users.</source>
         <target state="translated">Popis tipičnih tipova stranica dostupnih u CMS kontekstu. Odabir tipova stranica za korisničku grupu definira koje od ovih opcija mogu birati korisnici koji su članovi grupe.</target>
@@ -142,6 +174,14 @@ Tables allowed for modification is automatically also allowed for selection and 
 Tablice dopuštene za izmjenu automatski su dopuštene za odabir te ih stoga nije potrebno dodavati i u "Tablice (popis)" kućicu.
 
 &lt;strong&gt;Napomena:&lt;/strong&gt; ovaj popis dodaje poljima odabranim u drugim korisničkim grupama korisnika.</target></trans-unit>
+      <trans-unit id="_tables_modify.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:tables_select,
+be_groups:inc_access_lists,
+xMOD_csh_corebe:new_ce</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:tables_select,
+be_groups:inc_access_lists,
+xMOD_csh_corebe:new_ce</target></trans-unit>
       <trans-unit id="tables_modify.image_descr" xml:space="preserve" approved="yes">
 				<source>The screenshot above shows how the "Create new record" dialog looks for a user limited to editing only "Page" and "Page content" elements.
 The two tables are simply added to the list of "Tables (modify)" in the group Access Lists.
@@ -158,6 +198,12 @@ Ovo je (primjer) puni popis elememata koje na stranici mogu stvoriti administrat
 This list is not very important. It's a pretty rare situation that a user may select tables but not modify them.</source>
 			<target state="translated">Ovaj popis određuje koje tablice - uz one odabrane na popisu "Tablice (uređivanje)" - mogu biti pregledane i izlistane za korisnike članove. Korisnik nema prava &lt;em&gt;uređivanja&lt;/em&gt; tablice - samo odabira zapisa i pregleda sadržaja.
 Ovaj popis nije naročito važan. Situacija u kojoj korisnik smije odabirati tablice ali ne i mjenjati ih vrlo je rijetka.</target></trans-unit>
+      <trans-unit id="_tables_select.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:tables_modify,
+be_groups:inc_access_lists</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:tables_modify,
+be_groups:inc_access_lists</target></trans-unit>
       <trans-unit id="non_exclude_fields.description" approved="yes">
         <source>Certain table fields are not available by default. Those fields can be explicitly enabled for the group members here.</source>
         <target state="translated">Određena polja tablica u startu nisu dostupna. Ta polja mogu se ovdje eksplicitno omogućiti za članove grupe.</target>
@@ -188,6 +234,14 @@ Primjeri iz "Prvi koraci" | https://docs.typo3.org/typo3cms/GettingStartedTutori
 Setting this to for example "www.my-domain.com" will require a user to be logged in from that domain if membership of this group should be gained. Otherwise the group will be ignored for the user.</source>
 			<target state="translated">TYPO3 sustav može biti domaćin višestrukim web stranicama na višestrukim domenama. Ova opcija omogućuje da se korisnik prisili da se prijavi sa određenog hosta.
 Postavljanje ovog polja na "www.moja-domena.hr" zahtjeva da se korisnik prijavio s dane domene ukoliko se korisniku želi dati članstvo u ovoj grupi. U suprotnom, ova grupa neće biti dostupna korisniku.</target></trans-unit>
+      <trans-unit id="_lockToDomain.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:lockToDomain,
+fe_users:lockToDomain,
+fe_groups:lockToDomain</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:lockToDomain,
+fe_users:lockToDomain,
+fe_groups:lockToDomain</target></trans-unit>
       <trans-unit id="groupMods.description" approved="yes">
         <source>Select available backend modules for the group members.</source>
         <target state="translated">Odaberite dostupne module pozadinskog sučelja za članove grupe.</target>
@@ -219,9 +273,26 @@ Ovo je pridruživanje pozadinskih modula korisniku iz snimke ekrana iznad. Sva �
 When Access Lists are disabled the icon for the group is blue while it is red when Access Lists are enabled.</source>
 			<target state="translated">Popis dopuštenja nije moguće podesiti za grupu ukoliko je isključena ova opcija.
 Kada su popisi dopuštenja onemogućeni, ikona za grupu je plava. Kada su popisi dopušenja omogućeni, ikona je crvena.</target></trans-unit>
+      <trans-unit id="_inc_access_lists.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:pagetypes_select,
+be_groups:tables_modify,
+be_groups:tables_select,
+be_groups:groupMods,
+be_groups:non_exclude_fields</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:pagetypes_select,
+be_groups:tables_modify,
+be_groups:tables_select,
+be_groups:groupMods,
+be_groups:non_exclude_fields</target></trans-unit>
       <trans-unit id="description.description" approved="yes">
         <source>Enter a short description of the user group, what it is for and who should be members. This is for internal use only.</source>
         <target state="translated">Unesite kratki opis korisničke grupe, što grupa predstavlja te tko bi trebao biti član. Ovaj opis koristi se samo za internu uporabu.</target>
+      </trans-unit>
+      <trans-unit id="_description.seeAlso" approved="yes">
+        <source>fe_groups:description</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_groups:description</target>
       </trans-unit>
       <trans-unit id="TSconfig.description" approved="yes">
         <source>User TSconfig: Additional configuration through TypoScript style values (Advanced).</source>
@@ -285,6 +356,11 @@ Popis je organiziran tako da su vrijednosti iz iste kućice za odabir popisane z
 If a user has no languages listed all together it simply means that he can edit &lt;em&gt;all&lt;/em&gt; languages!</source>
 			<target state="translated">U TYPO3 sustavu zapise je moguće podesiti da nose informaciju o jeziku. Ukoliko je jezika postavljen na taj način, pristup tim elementima će biti procijenjen na temelju jezičnih postavki korisnika.
 Ukoliko korisnik nema niti jedan jezik na popisu to znači da korisnik ima pravo uređivanja &lt;em&gt;za sve&lt;/em&gt; jezike!</target></trans-unit>
+      <trans-unit id="_allowed_languages.seeAlso" approved="yes">
+        <source>be_users:allowed_languages</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">be_users:allowed_languages</target>
+      </trans-unit>
       <trans-unit id="allowed_languages.image_descr" approved="yes">
         <source>This example shows a situation where two languages, Danish and German, are created in addition to the default language.</source>
         <target state="translated">Ovaj primjer prikazuje situaciju sa dva dodatna jezika, danski i njemački, uz zadani jezik.</target>
