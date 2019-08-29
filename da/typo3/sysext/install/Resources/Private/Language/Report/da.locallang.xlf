@@ -7,6 +7,10 @@
         <source>System environment check</source>
         <target state="translated">Systemmiljø tjek</target>
       </trans-unit>
+      <trans-unit id="environment.status.value" approved="yes">
+        <source>%1$s Test(s)</source>
+        <target state="translated">%1$s Test(s)</target>
+      </trans-unit>
       <trans-unit id="environment.status.message.error" approved="yes">
         <source>The system environment check returned errors. Those errors will affect the functionality and stability of your TYPO3 CMS instance. Please check the install tool "System environment" for all details.</source>
         <target state="translated">Systemmiljøkontrol returnerede med fejl. Disse fejl vil have indflydelse på funktionalitet og stabilitet i din TYPO3 installation. Tjek venligst dit installations-værktøj under "Systemmiljø" for at se alle detaljer.</target>
