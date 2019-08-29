@@ -15,6 +15,10 @@
         <source>[Any]</source>
         <target state="translated">[कोई भी]</target>
       </trans-unit>
+      <trans-unit id="viaUser" approved="yes">
+        <source>via</source>
+        <target state="translated">via</target>
+      </trans-unit>
       <trans-unit id="live" approved="yes">
         <source>LIVE</source>
         <target state="translated">लाइव</target>
@@ -62,6 +66,30 @@
       <trans-unit id="set" approved="yes">
         <source>Set</source>
         <target state="translated">सेट करें</target>
+      </trans-unit>
+      <trans-unit id="20" approved="yes">
+        <source>20</source>
+        <target state="translated">20</target>
+      </trans-unit>
+      <trans-unit id="50" approved="yes">
+        <source>50</source>
+        <target state="translated">50</target>
+      </trans-unit>
+      <trans-unit id="100" approved="yes">
+        <source>100</source>
+        <target state="translated">100</target>
+      </trans-unit>
+      <trans-unit id="200" approved="yes">
+        <source>200</source>
+        <target state="translated">200</target>
+      </trans-unit>
+      <trans-unit id="500" approved="yes">
+        <source>500</source>
+        <target state="translated">500</target>
+      </trans-unit>
+      <trans-unit id="1000" approved="yes">
+        <source>1000</source>
+        <target state="translated">1000</target>
       </trans-unit>
       <trans-unit id="actionAll" approved="yes">
         <source>All</source>
@@ -126,6 +154,14 @@
       <trans-unit id="logForNonPageRelatedActionsOrRootLevelOrPage" approved="yes">
         <source>Log %s from %s to %s</source>
         <target state="translated">लॉग %s %s से s% तक</target>
+      </trans-unit>
+      <trans-unit id="type_1" approved="yes">
+        <source>DB</source>
+        <target state="translated">DB</target>
+      </trans-unit>
+      <trans-unit id="action_1_1" approved="yes">
+        <source>Insert</source>
+        <target state="translated">Insert</target>
       </trans-unit>
       <trans-unit id="action_1_2" approved="yes">
         <source>Update</source>
@@ -378,6 +414,10 @@
       <trans-unit id="chLog_l_user" approved="yes">
         <source>User</source>
         <target state="translated">उपयोगकर्ता</target>
+      </trans-unit>
+      <trans-unit id="chLog_l_error" approved="yes">
+        <source>E</source>
+        <target state="translated">E</target>
       </trans-unit>
       <trans-unit id="chLog_l_action" approved="yes">
         <source>Action</source>
