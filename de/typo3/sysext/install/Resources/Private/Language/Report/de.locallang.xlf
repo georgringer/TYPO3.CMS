@@ -7,6 +7,10 @@
         <source>System environment check</source>
         <target state="translated">Systemumgebungsüberprüfung</target>
       </trans-unit>
+      <trans-unit id="environment.status.value" approved="yes">
+        <source>%1$s Test(s)</source>
+        <target state="translated">%1$s Test(s)</target>
+      </trans-unit>
       <trans-unit id="environment.status.message.error" approved="yes">
         <source>The system environment check returned errors. Those errors will affect the functionality and stability of your TYPO3 CMS instance. Please check the install tool "System environment" for all details.</source>
         <target state="translated">Die Systemumgebungsüberprüfung ergab Fehler. Diese Fehler werden die Funktionalität und Stabilität Ihrer TYPO3-Installation beeinträchtigen. Bitte überprüfen Sie die Seite "System environment" im Install Tool für mehr Details.</target>
