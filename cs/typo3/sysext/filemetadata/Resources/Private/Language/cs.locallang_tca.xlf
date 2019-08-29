@@ -12,6 +12,10 @@
         <source>Status</source>
         <target state="translated">Stav</target>
       </trans-unit>
+      <trans-unit id="sys_file_metadata.status.1" approved="yes">
+        <source>Ok</source>
+        <target state="translated">Ok</target>
+      </trans-unit>
       <trans-unit id="sys_file_metadata.status.2" approved="yes">
         <source>Pending</source>
         <target state="translated">Čekající</target>
@@ -128,6 +132,26 @@
         <source>Color Space</source>
         <target state="translated">Barevný prostor</target>
       </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.RGB" approved="yes">
+        <source>RGB</source>
+        <target state="translated">RGB</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.sRGB" approved="yes">
+        <source>sRGB</source>
+        <target state="translated">sRGB</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.CMYK" approved="yes">
+        <source>CMYK</source>
+        <target state="translated">CMYK</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.CMY" approved="yes">
+        <source>CMY</source>
+        <target state="translated">CMY</target>
+      </trans-unit>
+      <trans-unit id="sys_file_metadata.color_space.YUV" approved="yes">
+        <source>YUV</source>
+        <target state="translated">YUV</target>
+      </trans-unit>
       <trans-unit id="sys_file_metadata.color_space.grey" approved="yes">
         <source>Grey</source>
         <target state="translated">Šedý</target>
@@ -157,6 +181,10 @@
         <target state="translated">Výška</target>
       </trans-unit>
       <!-- sys_file_metadata tabs -->
+      <trans-unit id="tabs.metadata" approved="yes">
+        <source>Metadata</source>
+        <target state="translated">Metadata</target>
+      </trans-unit>
       <trans-unit id="tabs.camera" approved="yes">
         <source>Camera Data</source>
         <target state="translated">Data fotoaparátu</target>
@@ -164,6 +192,10 @@
       <trans-unit id="tabs.audio" approved="yes">
         <source>Audio</source>
         <target state="translated">Zvuk</target>
+      </trans-unit>
+      <trans-unit id="tabs.video" approved="yes">
+        <source>Video</source>
+        <target state="translated">Video</target>
       </trans-unit>
       <!-- sys_file_metadata placeholder -->
       <trans-unit id="placeholder.keywords" approved="yes">
@@ -190,6 +222,10 @@
       <trans-unit id="palette.accessibility" approved="yes">
         <source>Accessibility</source>
         <target state="translated">Přístupnost</target>
+      </trans-unit>
+      <trans-unit id="palette.gps" approved="yes">
+        <source>GPS</source>
+        <target state="translated">GPS</target>
       </trans-unit>
       <!-- fe_groups fields -->
       <trans-unit id="fe_groups.files" approved="yes">
