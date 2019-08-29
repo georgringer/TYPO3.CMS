@@ -31,6 +31,10 @@
         <source>Error Handling</source>
         <target state="translated">Fejlhåndtering</target>
       </trans-unit>
+      <trans-unit id="site.routes" approved="yes">
+        <source>Routes</source>
+        <target state="translated">Routes</target>
+      </trans-unit>
       <trans-unit id="site.routes.irreHeader.redirectsTo" approved="yes">
         <source>redirects to</source>
         <target state="translated">videresendes til</target>
@@ -111,9 +115,25 @@
         <source>Fallback to other Language(s) - order is important!</source>
         <target state="translated">Fallback til andre sprog - rækkefølgen er vigtig!</target>
       </trans-unit>
+      <trans-unit id="site_base_variant.ctrl.title" approved="yes">
+        <source>Base</source>
+        <target state="translated">Base</target>
+      </trans-unit>
+      <trans-unit id="site_base_variant.base" approved="yes">
+        <source>Base</source>
+        <target state="translated">Base</target>
+      </trans-unit>
+      <trans-unit id="site_base_variant.base.placeholder" approved="yes">
+        <source>www.domain.local</source>
+        <target state="translated">www.domain.local</target>
+      </trans-unit>
       <trans-unit id="site_base_variant.condition" approved="yes">
         <source>Condition</source>
         <target state="translated">Tilstand</target>
+      </trans-unit>
+      <trans-unit id="site_base_variant.condition.placeholder" approved="yes">
+        <source>applicationContext == "Production"</source>
+        <target state="translated">applicationContext == "Production"</target>
       </trans-unit>
       <trans-unit id="site_base_variant.condition.applicationContext" approved="yes">
         <source>Application Context</source>
@@ -175,6 +195,10 @@
         <source>Fluid Template File</source>
         <target state="translated">Fluid skabelonfil</target>
       </trans-unit>
+      <trans-unit id="site_errorhandling.errorFluidTemplate.placeholder" approved="yes">
+        <source>EXT:my_sitepackage/Resources/Private/Templates/Sites/Error.html</source>
+        <target state="translated">EXT:my_sitepackage/Resources/Private/Templates/Sites/Error.html</target>
+      </trans-unit>
       <trans-unit id="site_errorhandling.errorFluidTemplatesRootPath" approved="yes">
         <source>Fluid Templates Root Path</source>
         <target state="translated">Fluid skabelon rodsti</target>
@@ -190,6 +214,18 @@
       <trans-unit id="site_errorhandling.errorContentSource" approved="yes">
         <source>Show Content from Page</source>
         <target state="translated">Vis indhold fra side</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorPhpClassFQCN" approved="yes">
+        <source>ErrorHandler Class Target (FQCN)</source>
+        <target state="translated">ErrorHandler Class Target (FQCN)</target>
+      </trans-unit>
+      <trans-unit id="site_errorhandling.errorPhpClassFQCN.placeholder" approved="yes">
+        <source>Vendor\ExtensionName\ErrorHandlers\GenericErrorhandler</source>
+        <target state="translated">Vendor\ExtensionName\ErrorHandlers\GenericErrorhandler</target>
+      </trans-unit>
+      <trans-unit id="site_route.ctrl.title" approved="yes">
+        <source>Routes</source>
+        <target state="translated">Routes</target>
       </trans-unit>
       <trans-unit id="site_route.type" approved="yes">
         <source>Route Type</source>
@@ -214,6 +250,10 @@
       <trans-unit id="site_route.route.placeholder" approved="yes">
         <source>my-custom_route</source>
         <target state="translated">min-custom_rute</target>
+      </trans-unit>
+      <trans-unit id="site_route.route.example1" approved="yes">
+        <source>robots.txt</source>
+        <target state="translated">robots.txt</target>
       </trans-unit>
     </body>
   </file>
