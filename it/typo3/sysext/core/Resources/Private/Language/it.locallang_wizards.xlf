@@ -7,9 +7,37 @@
         <source>Undo/Redo last change (%s ago)</source>
         <target state="translated">Annulla/Ripeti ultimo cambiamento (%s fa)</target>
       </trans-unit>
+      <trans-unit id="tsprop" approved="yes">
+        <source>TypoScript property lookup</source>
+        <target state="translated">TypoScript property lookup</target>
+      </trans-unit>
       <trans-unit id="tsprop_TSref" approved="yes">
         <source>TSref online</source>
         <target state="translated">TypoScript Reference Online</target>
+      </trans-unit>
+      <trans-unit id="tsprop_tsconfig" approved="yes">
+        <source>TSconfig online</source>
+        <target state="translated">TSconfig online</target>
+      </trans-unit>
+      <trans-unit id="tsprop_title" approved="yes">
+        <source>Object title</source>
+        <target state="translated">Object title</target>
+      </trans-unit>
+      <trans-unit id="tsprop_prefix" approved="yes">
+        <source>Object prefix</source>
+        <target state="translated">Object prefix</target>
+      </trans-unit>
+      <trans-unit id="tsprop_mixer_indent" approved="yes">
+        <source>Indent +2</source>
+        <target state="translated">Indent +2</target>
+      </trans-unit>
+      <trans-unit id="tsprop_mixer_outdent" approved="yes">
+        <source>Outdent -2</source>
+        <target state="translated">Outdent -2</target>
+      </trans-unit>
+      <trans-unit id="tsprop_mixer_wrap" approved="yes">
+        <source>Wrap</source>
+        <target state="translated">Wrap</target>
       </trans-unit>
       <trans-unit id="tsprop_mixer_transfer" approved="yes">
         <source>Transfer &amp; Close</source>
@@ -22,6 +50,10 @@
       <trans-unit id="table_title" approved="yes">
         <source>Table wizard</source>
         <target state="translated">Wizard tabelle</target>
+      </trans-unit>
+      <trans-unit id="table_smallFields" approved="yes">
+        <source>Small fields</source>
+        <target state="translated">Small fields</target>
       </trans-unit>
       <trans-unit id="table_addColumn" approved="yes">
         <source>Add column to the right</source>
@@ -71,6 +103,10 @@
         <source>Move to last column</source>
         <target state="translated">Sposta all'ultima colonna</target>
       </trans-unit>
+      <trans-unit id="table_noData" approved="yes">
+        <source>No table,field or uid given</source>
+        <target state="translated">No table,field or uid given</target>
+      </trans-unit>
       <trans-unit id="forms_title" approved="yes">
         <source>Forms wizard</source>
         <target state="translated">Wizard form</target>
@@ -102,6 +138,14 @@
       <trans-unit id="forms_type_file" approved="yes">
         <source>File upload</source>
         <target state="translated">Upload file</target>
+      </trans-unit>
+      <trans-unit id="forms_type_check" approved="yes">
+        <source>Check box</source>
+        <target state="translated">Check box</target>
+      </trans-unit>
+      <trans-unit id="forms_type_select" approved="yes">
+        <source>Selector box</source>
+        <target state="translated">Selector box</target>
       </trans-unit>
       <trans-unit id="forms_type_radio" approved="yes">
         <source>Radio buttons</source>
@@ -151,6 +195,10 @@
         <source>Auto size</source>
         <target state="translated">Dimensione automatica</target>
       </trans-unit>
+      <trans-unit id="forms_extra" approved="yes">
+        <source>No Wrap</source>
+        <target state="translated">No Wrap</target>
+      </trans-unit>
       <trans-unit id="forms_default" approved="yes">
         <source>Value</source>
         <target state="translated">Valore</target>
@@ -158,6 +206,10 @@
       <trans-unit id="forms_multiple" approved="yes">
         <source>Multiple</source>
         <target state="translated">Selezione multipla</target>
+      </trans-unit>
+      <trans-unit id="forms_options" approved="yes">
+        <source>List options</source>
+        <target state="translated">List options</target>
       </trans-unit>
       <trans-unit id="forms_checked" approved="yes">
         <source>Checked</source>
@@ -310,6 +362,22 @@
       <trans-unit id="imwizard.aspect-ratio" approved="yes">
         <source>Aspect ratio</source>
         <target state="translated">Rapporto dimensioni</target>
+      </trans-unit>
+      <trans-unit id="imwizard.ratio.16_9" approved="yes">
+        <source>16:9</source>
+        <target state="translated">16:9</target>
+      </trans-unit>
+      <trans-unit id="imwizard.ratio.3_2" approved="yes">
+        <source>3:2</source>
+        <target state="translated">3:2</target>
+      </trans-unit>
+      <trans-unit id="imwizard.ratio.4_3" approved="yes">
+        <source>4:3</source>
+        <target state="translated">4:3</target>
+      </trans-unit>
+      <trans-unit id="imwizard.ratio.1_1" approved="yes">
+        <source>1:1</source>
+        <target state="translated">1:1</target>
       </trans-unit>
     </body>
   </file>
