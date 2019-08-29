@@ -243,6 +243,9 @@
       <trans-unit id="formEditor.modals.validationErrors.dialogMessage" xml:space="preserve" approved="yes">
                 <source>Some elements are not configured properly. Please check the following elements:</source>
             <target state="translated">Alcuni elementi non sono configurati correttamente. Controllare i seguenti elementi:</target></trans-unit>
+      <trans-unit id="formEditor.modals.validationErrors.confirmButton" xml:space="preserve" approved="yes">
+                <source>OK</source>
+            <target state="translated">OK</target></trans-unit>
       <trans-unit id="formEditor.modals.insertElements.dialogTitle" xml:space="preserve" approved="yes">
                 <source>New element</source>
             <target state="translated">Nuovo elemento</target></trans-unit>
@@ -318,6 +321,9 @@
       <trans-unit id="formEditor.elements.TextMixin.editor.validators.StringLength.label" xml:space="preserve" approved="yes">
                 <source>String length</source>
             <target state="translated">Lunghezza della stringa</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.editor.validators.EmailAddress.label" xml:space="preserve" approved="yes">
+                <source>Email</source>
+            <target state="translated">Email</target></trans-unit>
       <trans-unit id="formEditor.elements.TextMixin.editor.validators.Integer.label" xml:space="preserve" approved="yes">
                 <source>Integer number</source>
             <target state="translated">Numero intero</target></trans-unit>
@@ -363,6 +369,9 @@
       <trans-unit id="formEditor.elements.TextMixin.validators.StringLength.editor.validationErrorMessage.fieldExplanationText" xml:space="preserve" approved="yes">
                 <source>Error message which is shown if the validation does not succeed</source>
             <target state="translated">Messaggio di errore che verrà mostrato se la validazione non avrà successo</target></trans-unit>
+      <trans-unit id="formEditor.elements.TextMixin.validators.EmailAddress.editor.header.label" xml:space="preserve" approved="yes">
+                <source>Email</source>
+            <target state="translated">Email</target></trans-unit>
       <trans-unit id="formEditor.elements.TextMixin.validators.EmailAddress.editor.validationErrorMessage.label" xml:space="preserve" approved="yes">
                 <source>Custom error message</source>
             <target state="translated">Messaggio di errore personalizzato</target></trans-unit>
@@ -522,6 +531,9 @@
       <trans-unit id="formEditor.elements.Form.finisher.EmailToReceiver.editor.language.label" xml:space="preserve" approved="yes">
                 <source>Translation language</source>
             <target state="translated">Lingua di traduzione</target></trans-unit>
+      <trans-unit id="formEditor.elements.Form.finisher.EmailToReceiver.editor.language.1" xml:space="preserve" approved="yes">
+                <source>EN</source>
+            <target state="translated">EN</target></trans-unit>
       <trans-unit id="formEditor.elements.Form.finisher.Redirect.editor.header.label" xml:space="preserve" approved="yes">
                 <source>Redirect to a page</source>
             <target state="translated">Reindirizzare ad una pagina</target></trans-unit>
@@ -657,6 +669,9 @@
       <trans-unit id="formEditor.elements.Telephone.label" xml:space="preserve" approved="yes">
                 <source>Telephone number</source>
             <target state="translated">Numero di telefono</target></trans-unit>
+      <trans-unit id="formEditor.elements.Url.label" xml:space="preserve" approved="yes">
+                <source>URL</source>
+            <target state="translated">URL</target></trans-unit>
       <trans-unit id="formEditor.elements.Number.label" xml:space="preserve" approved="yes">
                 <source>Number</source>
             <target state="translated">Numero</target></trans-unit>
@@ -693,6 +708,9 @@
       <trans-unit id="formEditor.elements.DatePicker.validators.DateRange.editor.maximum.placeholder" xml:space="preserve" approved="yes">
                 <source>A date in format Y-m-d (e.g 2018-03-17)</source>
             <target state="translated">Una data nel formato aaaa-mm-gg (ad es. 2018-03-17)</target></trans-unit>
+      <trans-unit id="formEditor.elements.Password.label" xml:space="preserve" approved="yes">
+                <source>Password</source>
+            <target state="translated">Password</target></trans-unit>
       <trans-unit id="formEditor.elements.AdvancedPassword.label" xml:space="preserve" approved="yes">
                 <source>Advanced password</source>
             <target state="translated">Password avanzata</target></trans-unit>
@@ -714,6 +732,9 @@
       <trans-unit id="formEditor.elements.MultiSelect.label" xml:space="preserve" approved="yes">
                 <source>Multi select</source>
             <target state="translated">Selezione multipla</target></trans-unit>
+      <trans-unit id="formEditor.elements.RadioButton.label" xml:space="preserve" approved="yes">
+                <source>Radio button</source>
+            <target state="translated">Radio button</target></trans-unit>
       <trans-unit id="formEditor.elements.SingleSelect.label" xml:space="preserve" approved="yes">
                 <source>Single select</source>
             <target state="translated">Selezione unica</target></trans-unit>
