@@ -30,6 +30,14 @@ Users and Groups [Technical] | https://docs.typo3.org/typo3cms/InsideTypo3Refere
 О внутренних пользователях | https://docs.typo3.org/typo3cms/GettingStartedTutorial/UserManagement/BackendUsers/
 Настройка новых пользователей и групп | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/AccessControl/SettingUpANewUser/
 Пользователи и Группы [Технически] | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/AccessControl/UsersAndGroups/</target></trans-unit>
+      <trans-unit id="_.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/beuser_2.png,
+EXT:core/Resources/Public/Images/cshimages/beuser_1.png,
+EXT:core/Resources/Public/Images/cshimages/beuser_3.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/beuser_2.png,
+EXT:core/Resources/Public/Images/cshimages/beuser_1.png,
+EXT:core/Resources/Public/Images/cshimages/beuser_3.png</target></trans-unit>
       <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
 				<source>Backend users are found in the root of the page tree. "Admin" backend users can always be recognized on their icon being red while normal users have a blue icon.
 The editing form of a backend users record.
@@ -42,6 +50,11 @@ The "Tools &gt; User Admin" module where you can get an overview of the users on
       <trans-unit id="username.details" approved="yes">
         <source>A username is required and must be in lowercase without spaces in it. Furthermore the username must be unique. If it is not unique a number will be appended automatically.</source>
         <target state="translated">Имя пользователя — обязательный параметр и должно вводиться в нижнем регистре без пробелов. Кроме того, имя пользователя должно быть уникальным. Если такое имя уже имеется, к нему автоматически добавляется номер.</target>
+      </trans-unit>
+      <trans-unit id="_username.seeAlso" approved="yes">
+        <source>be_users:password</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">be_users:password</target>
       </trans-unit>
       <trans-unit id="password.description" approved="yes">
         <source>Enter the password for the backend username above (Notice the value you enter &lt;i&gt;will&lt;/i&gt; be readable in the field!).</source>
@@ -58,6 +71,11 @@ When you enter the password in the password field it is initially visible in cle
 &lt;b&gt;User changing password&lt;/b&gt;
 Users can change their password from the User &gt; Setup module</source>
 			<target state="translated">Пароль обязателен. Перед пересылкой на сервер, пароль хешируется по алгоритму md5, и само значение в открытом виде не передается по сети. Это происходит и при редактировании пароля и при входе пользователя. Но в то же время, то, что пароль не виден, &lt;i&gt;не&lt;/i&gt; то же самое, что шифрование. Если нужно обеспечить высокую степень защиты, сама система TYPO3 должна находиться на защищенном сервере. Пароль в базе данных храниться как md5-хеш, поэтому невозможно изъять оригинальный пароль из самой базы данных. Это означает, что "потерянный пароль" должен быть заменен на новый. &lt;b&gt;Примечание&lt;/b&gt; При начальном вводе пароля, он отображается как обычный текст! Но при переходе на другое поле, он отобаржается в виде "жирных точек". &lt;b&gt;Изменение пароля пользователем&lt;/b&gt; Пользователи могут изменить свой пароль из модуля Сервис пользователя &gt; Персональные настройки.</target></trans-unit>
+      <trans-unit id="_password.seeAlso" approved="yes">
+        <source>_MOD_user_setup:option_newPassword</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">_MOD_user_setup:option_newPassword</target>
+      </trans-unit>
       <trans-unit id="usergroup.description" approved="yes">
         <source>Assign backend user groups to the user.</source>
         <target state="translated">Группы, в которые входит пользователь.</target>
@@ -66,6 +84,12 @@ Users can change their password from the User &gt; Setup module</source>
 				<source>The backend user groups defines the permissions which the backend user will inherit. So unless the backend user is an 'Admin' user, he needs to be a member of one or more user groups in order to have practically any permissions assigned. The properties set in the user groups are mostly added together.
 The first (top) group in the list is the group which will, by default, be the owner of pages the user creates.</source>
 			<target state="translated">Группы внутренних пользователей определяют прова доступа, которые из них заимствуют пользователи этих групп. Поэтому, если пользователь не является "администратором", ему требуется стать членом хотя бы одной группы для заимствования из них соответствующих прав. Набор свойств из групп главным образом суммируются. Первая (главная) группа в списке, становиться группой, владеющей по умолчанию страницами, создаваемыми пользователем.</target></trans-unit>
+      <trans-unit id="_usergroup.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:TSconfig,
+be_groups</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:TSconfig,
+be_groups</target></trans-unit>
       <trans-unit id="lockToDomain.description" approved="yes">
         <source>Enter the host name from which the user is forced to login. NOTICE: this is not a security feature and can be circumvented by faking HTTP_HOST.</source>
         <target state="translated">Введите название хоста, с которого должен входить пользователь. ВНИМАНИЕ: это не функция безопасности, и ее можно обойти, подделав HTTP_HOST.</target>
@@ -74,6 +98,14 @@ The first (top) group in the list is the group which will, by default, be the ow
         <source>A TYPO3 system may have multiple domains pointing to it. Therefore this option secures that users can login only from a certain host name.</source>
         <target state="translated">В системе TYPO3 может быть несколько указывающих на нее доменов. Таким образом, этот параметр определяет, с какого именно должен входить пользователь.</target>
       </trans-unit>
+      <trans-unit id="_lockToDomain.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:lockToDomain,
+fe_users:lockToDomain,
+fe_groups:lockToDomain</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:lockToDomain,
+fe_users:lockToDomain,
+fe_groups:lockToDomain</target></trans-unit>
       <trans-unit id="disableIPlock.description" approved="yes">
         <source>Disable the lock of the backend users session to the remote IP number.</source>
         <target state="translated">Выключить блокировку сессии внутреннего пользователя по удаленному IP адресу.</target>
@@ -91,6 +123,24 @@ The first (top) group in the list is the group which will, by default, be the ow
 
 &lt;strong&gt;Notice&lt;/strong&gt; that backend user groups also has DB mounts which can be inherited by the user. So if you want a group of users to share a page tree, you should probably mount the page tree in the backend user group which they share instead.</source>
 			<target state="translated">В дереве страниц, которое используют для навигации все подмодули Веб, должно иметь определенные начальные точки. Здесь можно определить одну или несколько ссылок на страницы, которые станут новыми корневыми страницами для дерева страниц. Они называются "Точки доступа к базе данных". &lt;strong&gt;Помните&lt;/strong&gt;, что в группах внутренних пользователей также определяются точки доступа к БД, которые могут заимствоваться пользователями. Так, если нужно обеспечить доступ группе пользователей к какой-либо ветви дерева страниц, нужно просто сделать это точнкой доступа к БД в группе этих внутренних пользователей.</target></trans-unit>
+      <trans-unit id="_db_mountpoints.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:db_mountpoints,
+be_users:file_mountpoints,
+be_users:options,
+xMOD_csh_corebe:perm_module,
+xMOD_csh_corebe:pagetree</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:db_mountpoints,
+be_users:file_mountpoints,
+be_users:options,
+xMOD_csh_corebe:perm_module,
+xMOD_csh_corebe:pagetree</target></trans-unit>
+      <trans-unit id="_db_mountpoints.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/be_groups_3.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_4.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/be_groups_3.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_4.png</target></trans-unit>
       <trans-unit id="db_mountpoints.image_descr" xml:space="preserve" approved="yes">
 				<source>A DB mount is assigned to the user. Users can only operate on pages and records which are inside their DB mounts!
 When a page is mounted for a user it will become the root of their page tree. The user must have access to the page through the regular page permissions set in the Web &gt; Access module.</source>
@@ -104,6 +154,18 @@ When a page is mounted for a user it will become the root of their page tree. Th
 Notice as with 'DB mounts' the file folder mounts may be inherited from the member groups of the user.
 See Backend Groups for details</source>
 			<target state="translated">Дерево папок используется всеми подмодулями Файл для перемещения по файловой структуре на сервере. Помните, что "точки доступа к файлам" также, как и "точки доступа к БД", заимствоваться из групп пользователей. За деталями обратитесь в раздел Группы внутренних пользователей</target></trans-unit>
+      <trans-unit id="_file_mountpoints.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:file_mountpoints,
+be_users:db_mountpoints,
+be_users:options,
+xMOD_csh_corebe:filetree,
+sys_filemounts</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:file_mountpoints,
+be_users:db_mountpoints,
+be_users:options,
+xMOD_csh_corebe:filetree,
+sys_filemounts</target></trans-unit>
       <trans-unit id="email.description" approved="yes">
         <source>Enter the email address of the user.</source>
         <target state="translated">Введите email адрес пользователя.</target>
@@ -112,6 +174,12 @@ See Backend Groups for details</source>
 				<source>This address is rather important to enter because this is where messages from the system is sent.
 &lt;strong&gt;Notice&lt;/strong&gt; the user is able to change this value by himself from within the User&gt;Setup module.</source>
 			<target state="translated">Это довольно важный параметр, так как по нему будут отправляться служебные сообщения из системы. &lt;strong&gt;Помните&lt;/strong&gt;, что пользователь может сам изменить это значение из модуля Сервис пользователя &gt; Персональные настройки.</target></trans-unit>
+      <trans-unit id="_email.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:realName,
+_MOD_user_setup:option_newPassword</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:realName,
+_MOD_user_setup:option_newPassword</target></trans-unit>
       <trans-unit id="realName.description" approved="yes">
         <source>Enter the ordinary name of the user, eg. John Doe.</source>
         <target state="translated">Введите настоящее имя пользователя, например Иван Васильев.</target>
@@ -120,10 +188,22 @@ See Backend Groups for details</source>
         <source>&lt;strong&gt;Notice&lt;/strong&gt; the user is able to change this value by himself from within the User&gt;Setup module.</source>
         <target state="translated">&lt;strong&gt;Помните&lt;/strong&gt;, что пользователь может сам изменить это значение из модуля Сервис пользователя &gt; Персональные настройки.</target>
       </trans-unit>
+      <trans-unit id="_realName.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:email,
+_MOD_user_setup:option_newPassword</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:email,
+_MOD_user_setup:option_newPassword</target></trans-unit>
       <trans-unit id="disable.description" approved="yes">
         <source>This option will temporarily disable the user from logging in.</source>
         <target state="translated">Тем самым можно временно запретить пользователю входить в систему.</target>
       </trans-unit>
+      <trans-unit id="_disable.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:starttime,
+be_users:endtime</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:starttime,
+be_users:endtime</target></trans-unit>
       <trans-unit id="admin.description" approved="yes">
         <source>'Admin' users have TOTAL access to the system!</source>
         <target state="translated">Пользователи "администраторы" имеют ПОЛНЫЙ доступ к системе!</target>
@@ -135,6 +215,11 @@ See Backend Groups for details</source>
 
 You should probably not assign any other users than yourself as an 'Admin' user.</source>
 			<target state="translated">"Администраторы" могут делать все, что позволяет TYPO3, поэтому этот тип пользователя должен использоваться лишь в целях управления системой в общем. Все обычные манипуляции должны осуществлять обычные пользователи. Пользователю "администратору" не нужно быть членом какой-либо группы внутренних пользователей. Но нужно помнить, что все страницы, созданные пользователями-администраторами, не являющимися членами каких-либо групп внутренних пользователей, не будут иметь группу-владельца, ввиду чего могут быть скрыты от остальных пользователей. Если это проблема, то можно легко ее избежать, сделав пользователя-"администратора" членом какой-либо группы (или групп). Конечно, это не повлияет на права пользователя, они и так ничем не ограничены, но первая в списке группа, в которую он входит, будет группой-владельцем создаваемых пользователем страниц. Пользователя "администратора" легко распознать по значку красного цвета, в то время как цвет значков обычных пользователей - синий. Обычно никого из пользователей, кроме себя не делают "администраторами".</target></trans-unit>
+      <trans-unit id="_admin.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/beuser_4.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/beuser_4.png</target>
+      </trans-unit>
       <trans-unit id="options.description" approved="yes">
         <source>Select if the user should inherit page tree or folder tree mountpoints from member groups.</source>
         <target state="translated">Выберете, может ли пользователь наследовать точки доступа к БД или к файлам из групп внутренних пользователей.</target>
@@ -143,6 +228,12 @@ You should probably not assign any other users than yourself as an 'Admin' user.
 				<source>It's a great advantage to let users inherit mountpoints from membergroups because it makes administration of the same mountpoints for many users extremely easy.
 If you don't check these options, you must make sure the mount points for the page tree and file folder tree is set specifically for the user.</source>
 			<target state="translated">Это очень большое преимущество, позовлить пользователям наследовать точки доступа из групп, так как делает управление пользователями чрезвычайно простым. Если этот параметр не включен, убедитесь, что для пользователя настроены точки доступа.</target></trans-unit>
+      <trans-unit id="_options.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:db_mountpoints,
+be_users:file_mountpoints</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:db_mountpoints,
+be_users:file_mountpoints</target></trans-unit>
       <trans-unit id="file_permissions.description" approved="yes">
         <source>Select file operation permissions for the user.</source>
         <target state="translated">Выберете разрешенные для пользователя операции с файлами.</target>
@@ -179,10 +270,26 @@ be_group:fileoper_perms</target></trans-unit>
         <source>Enter the date from which the account is active.</source>
         <target state="translated">Дата, с которой будет активна учетная запись.</target>
       </trans-unit>
+      <trans-unit id="_starttime.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:disable,
+be_users:endtime,
+pages:starttime</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:disable,
+be_users:endtime,
+pages:starttime</target></trans-unit>
       <trans-unit id="endtime.description" approved="yes">
         <source>Enter the date from which the account is disabled.</source>
         <target state="translated">Дата, с которой учетная запись будет отключена.</target>
       </trans-unit>
+      <trans-unit id="_endtime.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:disable,
+be_users:starttime,
+pages:starttime</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:disable,
+be_users:starttime,
+pages:starttime</target></trans-unit>
       <trans-unit id="lastlogin.description" approved="yes">
         <source>This field shows the user's last log in date.</source>
         <target state="translated">Это поле показывает последнюю дату посещения пользователя.</target>
@@ -197,6 +304,11 @@ be_group:fileoper_perms</target></trans-unit>
 
 &lt;b&gt;Notice&lt;/b&gt; this is only setting the default language. As soon as the user has logged in the language must be changed through the User&gt;Setup module. Also you will have to install the corresponding language pack which can be found as an extension on TYPO3.org with the prefix "csh_XX" where XX is the TYPO3 language key.</source>
 			<target state="translated">Тем самым для пользователя будет определяться язык во внутреннем интерфейсе. Все основные части, доступные для обычных пользователей будут представлены на выбранном системном языке. Пользователи-"администраторы", однако, увидят, что "административная" часть TYPO3 на английском языке. Сюда входят все подмодули в "Сервисе управления" и в модуле Веб &gt; Шаблон. &lt;b&gt;Notice&lt;/b&gt; this is only setting the default language. As soon as the user has logged in the language must be changed through the User&gt;Setup module. Also you will have to install the corresponding language pack which can be found as an extension on TYPO3.org with the prefix "csh_XX" where XX is the TYPO3 language key.</target></trans-unit>
+      <trans-unit id="_lang.seeAlso" approved="yes">
+        <source>_MOD_user_setup:language</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">_MOD_user_setup:language</target>
+      </trans-unit>
       <trans-unit id="userMods.description" approved="yes">
         <source>Select available backend modules for the user.</source>
         <target state="translated">Выберете доступные для пользователя модули внутреннего интерфейса.</target>
@@ -206,6 +318,11 @@ be_group:fileoper_perms</target></trans-unit>
 
 Notice that the same list of modules may be configured for the backend user groups and that these will be inherited by the user in addition to the modules you select here. It's highly likely that you should not set any modules for the user himself but rather select the modules in the backend groups he's a member of. However this list provides a great way to add a single module for specific users.</source>
 			<target state="translated">Определяет, какие "элементы меню" будут доступны для пользователя во внутреннем интерфейсе. Помните, что одни и те же списки модулей можно настроить для групп внутренних пользователей, и они будут наследоваться пользователями, в добавок к тем, которые выбраны здесь. Крайне рекомендуется не выбирать модули в настройках самого пользователя, а выбирать доступные модули в группах внутренних пользователей, а затем делать пользователей их членами. Тем не менее, этот список позволяет дать конкретному пользователю доступ к определенному модулю.</target></trans-unit>
+      <trans-unit id="_userMods.seeAlso" approved="yes">
+        <source>be_groups:groupMods</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">be_groups:groupMods</target>
+      </trans-unit>
       <trans-unit id="TSconfig.description" approved="yes">
         <source>Enter additional TSconfig for the user (advanced).</source>
         <target state="translated">Введите дополнительный TSconfig для пользователя.</target>
@@ -214,6 +331,16 @@ Notice that the same list of modules may be configured for the backend user grou
         <source>This field allows you to extend the configuration of the user in severe details. A brief summary of the options include a more detailed configuration of the backend modules, setting of user specific default table field values, setting of Rich Text Editor options etc.</source>
         <target state="translated">Это поле позволяет более детально настроить пользователей. Краткий список доступных параметров включает более детальную настройку внутренних модулей, настройки определененных по умолчанию полей в таблицац, настройки Rich Text Editor и т.п.</target>
       </trans-unit>
+      <trans-unit id="_TSconfig.seeAlso" xml:space="preserve" approved="yes">
+				<source>pages:TSconfig,
+fe_users:TSconfig,
+be_groups:TSconfig,
+User TSconfig | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="translated">pages:TSconfig,
+fe_users:TSconfig,
+be_groups:TSconfig,
+User TSconfig | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/</target></trans-unit>
       <trans-unit id="allowed_languages.description" approved="yes">
         <source>Select which record languages the group members are limited to edit.</source>
         <target state="translated">Выберете, на каких языках доступно редактирование записей для пользователя.</target>
@@ -221,6 +348,16 @@ Notice that the same list of modules may be configured for the backend user grou
       <trans-unit id="allowed_languages.details" approved="yes">
         <source>You can also limit users to specific languages with user group settings. Please see the same field for backend user groups for more details.</source>
         <target state="translated">Ограничить доступ к редактированию языковых записей можно подобной настройкой в группах пользователей. Смотрите детальную информацию по тому же параметру в справке по группам внутернних пользователей.</target>
+      </trans-unit>
+      <trans-unit id="_allowed_languages.seeAlso" approved="yes">
+        <source>be_groups:allowed_languages</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">be_groups:allowed_languages</target>
+      </trans-unit>
+      <trans-unit id="_allowed_languages.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/be_groups_18.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/be_groups_18.png</target>
       </trans-unit>
     </body>
   </file>
