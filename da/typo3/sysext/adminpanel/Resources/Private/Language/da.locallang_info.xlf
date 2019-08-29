@@ -3,6 +3,10 @@
   <file t3:id="1520862805" source-language="en" datatype="plaintext" original="messages" date="2018-03-12T13:52:01Z" product-name="adminpanel" target-language="da">
     <header/>
     <body>
+      <trans-unit id="module.label" approved="yes">
+        <source>Info</source>
+        <target state="translated">Info</target>
+      </trans-unit>
       <trans-unit id="module.shortinfo" approved="yes">
         <source>(Load Time: %s ms)</source>
         <target state="translated">(Indlæsningstid: %s ms)</target>
@@ -70,6 +74,14 @@
       <trans-unit id="sub.general.label" approved="yes">
         <source>General</source>
         <target state="translated">Generelt</target>
+      </trans-unit>
+      <trans-unit id="sub.php.label" approved="yes">
+        <source>PHP</source>
+        <target state="translated">PHP</target>
+      </trans-unit>
+      <trans-unit id="sub.request.label" approved="yes">
+        <source>REQUEST</source>
+        <target state="translated">REQUEST</target>
       </trans-unit>
     </body>
   </file>
