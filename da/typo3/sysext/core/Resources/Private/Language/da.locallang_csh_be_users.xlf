@@ -39,6 +39,14 @@ Users and Groups [Technical] | https://docs.typo3.org/typo3cms/InsideTypo3Refere
 Om backend brugere | https://docs.typo3.org/typo3cms/GettingStartedTutorial/UserManagement/BackendUsers/
 Opsætning af ny bruger og gruppe | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/AccessControl/SettingUpANewUser/
 Brugere og grupper [teknisk] | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/AccessControl/UsersAndGroups/</target></trans-unit>
+      <trans-unit id="_.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/beuser_2.png,
+EXT:core/Resources/Public/Images/cshimages/beuser_1.png,
+EXT:core/Resources/Public/Images/cshimages/beuser_3.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/beuser_2.png,
+EXT:core/Resources/Public/Images/cshimages/beuser_1.png,
+EXT:core/Resources/Public/Images/cshimages/beuser_3.png</target></trans-unit>
       <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
 				<source>Backend users are found in the root of the page tree. "Admin" backend users can always be recognized on their icon being red while normal users have a blue icon.
 The editing form of a backend users record.
@@ -51,6 +59,11 @@ The "Tools &gt; User Admin" module where you can get an overview of the users on
       <trans-unit id="username.details" approved="yes">
         <source>A username is required and must be in lowercase without spaces in it. Furthermore the username must be unique. If it is not unique a number will be appended automatically.</source>
         <target state="translated">Et brugernavn er påkrævet og skal være med små bogstaver uden mellemrum. Desuden skal brugernavnet være unikt. Hvis der tastes et brugernavn der ikke er unikt, vil der automatisk blive tilføjet et tal.</target>
+      </trans-unit>
+      <trans-unit id="_username.seeAlso" approved="yes">
+        <source>be_users:password</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">be_users:password</target>
       </trans-unit>
       <trans-unit id="password.description" approved="yes">
         <source>Enter the password for the backend username above (Notice the value you enter &lt;i&gt;will&lt;/i&gt; be readable in the field!).</source>
@@ -67,6 +80,11 @@ When you enter the password in the password field it is initially visible in cle
 &lt;b&gt;User changing password&lt;/b&gt;
 Users can change their password from the User &gt; Setup module</source>
 			<target state="translated">Et kodeord er påkrævet. Før kodeordet bliver sendt til serveren, bliver det krypteret så kodeordet aldrig bliver sendt ukrypteret over internettet. Dette gælder både når man retter kodeordet og når brugeren logger ind. Dette medfører at koderodet ikke sendes i læsbar form, men betyder &lt;i&gt;ikke&lt;/i&gt; at det er ægte krypteret. Hvis du har brug for højest mulig sikkerhed, skal du installere TYPO3 på en sikker server. Kodeordet gemmes i databasen som en md5-hash, og derfor er der ikke mulighed for at udtrække det originale kodeord fra databasen. Dette betyder at glemte kodeord må erstattes med et nyt kodeord. &lt;b&gt;Bemærk&lt;/b&gt; Når du taster kodeordet ind i feltet er det synligt i klartekst. Først når man har gemt kodeordet, bliver det ændret til en række prikker. &lt;b&gt;Brugers ændring af kodeord&lt;/b&gt; Brugere kan ændre deres kodeord i Bruger -&gt; Indstillinger modulet</target></trans-unit>
+      <trans-unit id="_password.seeAlso" approved="yes">
+        <source>_MOD_user_setup:option_newPassword</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">_MOD_user_setup:option_newPassword</target>
+      </trans-unit>
       <trans-unit id="usergroup.description" approved="yes">
         <source>Assign backend user groups to the user.</source>
         <target state="translated">Tilknyt backend brugergruppe til bruger.</target>
@@ -75,6 +93,12 @@ Users can change their password from the User &gt; Setup module</source>
 				<source>The backend user groups defines the permissions which the backend user will inherit. So unless the backend user is an 'Admin' user, he needs to be a member of one or more user groups in order to have practically any permissions assigned. The properties set in the user groups are mostly added together.
 The first (top) group in the list is the group which will, by default, be the owner of pages the user creates.</source>
 			<target state="translated">De backend brugergrupper en bruger tilhører bestemmer hvilke rettigheder brugeren arver. DVS. hvis en bruger ikke er en 'Admin' bruger er det nødvendigt at være medlem af en eller flere backend brugergrupper, for at få nogensomhelst rettigheder. Rettighederne fra flere brugergrupper bliver sædvanligvis lagt sammen. Den første (øverste) brugergruppe en bruger er medlem af bliver som standard sat til at eje de sider en bruger opretter.</target></trans-unit>
+      <trans-unit id="_usergroup.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:TSconfig,
+be_groups</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:TSconfig,
+be_groups</target></trans-unit>
       <trans-unit id="lockToDomain.description" approved="yes">
         <source>Enter the host name from which the user is forced to login. NOTICE: this is not a security feature and can be circumvented by faking HTTP_HOST.</source>
         <target state="translated">Indtast det værtsnavn som brugeren er tvunget til at logge ind fra. NOTE: Dette er ikke en sikkerhedsfunktion og kan omgås ved at forfalske HTTP_HOST.</target>
@@ -83,6 +107,14 @@ The first (top) group in the list is the group which will, by default, be the ow
         <source>A TYPO3 system may have multiple domains pointing to it. Therefore this option secures that users can login only from a certain host name.</source>
         <target state="translated">Flere forskellige domæner kan pege på den samme TYPO3 installation. Denne instilling gør at brugeren kun kan logge ind fra et bestemt domænenavn.</target>
       </trans-unit>
+      <trans-unit id="_lockToDomain.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:lockToDomain,
+fe_users:lockToDomain,
+fe_groups:lockToDomain</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:lockToDomain,
+fe_users:lockToDomain,
+fe_groups:lockToDomain</target></trans-unit>
       <trans-unit id="disableIPlock.description" approved="yes">
         <source>Disable the lock of the backend users session to the remote IP number.</source>
         <target state="translated">Fjern låsningen af brugerens login til hans IP addresse.</target>
@@ -100,6 +132,24 @@ The first (top) group in the list is the group which will, by default, be the ow
 
 &lt;strong&gt;Notice&lt;/strong&gt; that backend user groups also has DB mounts which can be inherited by the user. So if you want a group of users to share a page tree, you should probably mount the page tree in the backend user group which they share instead.</source>
 			<target state="translated">Her skal du indsætte et eller flere referancer til sider som hermed fungerer som ny rodside. Dette kaldes database monteringspunkter. &lt;strong&gt;Bemærk&lt;/strong&gt; at backend brugergrupper også har DB monteringspunkter som kan arves af brugeren. Så hvis du ønsker at en gruppe brugere skal dele samme sidetræ, bør du benytte brugergruppens monteringspunkter.</target></trans-unit>
+      <trans-unit id="_db_mountpoints.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:db_mountpoints,
+be_users:file_mountpoints,
+be_users:options,
+xMOD_csh_corebe:perm_module,
+xMOD_csh_corebe:pagetree</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:db_mountpoints,
+be_users:file_mountpoints,
+be_users:options,
+xMOD_csh_corebe:perm_module,
+xMOD_csh_corebe:pagetree</target></trans-unit>
+      <trans-unit id="_db_mountpoints.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/be_groups_3.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_4.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/be_groups_3.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_4.png</target></trans-unit>
       <trans-unit id="db_mountpoints.image_descr" xml:space="preserve" approved="yes">
 				<source>A DB mount is assigned to the user. Users can only operate on pages and records which are inside their DB mounts!
 When a page is mounted for a user it will become the root of their page tree. The user must have access to the page through the regular page permissions set in the Web &gt; Access module.</source>
@@ -113,6 +163,18 @@ When a page is mounted for a user it will become the root of their page tree. Th
 Notice as with 'DB mounts' the file folder mounts may be inherited from the member groups of the user.
 See Backend Groups for details</source>
 			<target state="translated">Filtræet benyttes af alle filmoduler til at navigere mellemfilmapper på webserveren. Bemærk at 'Startsted for filtræ' kan arves fra adgangsgrupper. Se mere under "Backend grupper"</target></trans-unit>
+      <trans-unit id="_file_mountpoints.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_groups:file_mountpoints,
+be_users:db_mountpoints,
+be_users:options,
+xMOD_csh_corebe:filetree,
+sys_filemounts</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_groups:file_mountpoints,
+be_users:db_mountpoints,
+be_users:options,
+xMOD_csh_corebe:filetree,
+sys_filemounts</target></trans-unit>
       <trans-unit id="email.description" approved="yes">
         <source>Enter the email address of the user.</source>
         <target state="translated">Indtast brugerens e-mailadresse.</target>
@@ -121,6 +183,12 @@ See Backend Groups for details</source>
 				<source>This address is rather important to enter because this is where messages from the system is sent.
 &lt;strong&gt;Notice&lt;/strong&gt; the user is able to change this value by himself from within the User&gt;Setup module.</source>
 			<target state="translated">Denne emailadresse er ret vigtig, for den bliver brugt som modtager til de emails systemet sender ud. &lt;strong&gt;OBS&lt;/strong&gt; Brugeren er selv i stand til at ændre den under Bruger &gt; Indstillinger.</target></trans-unit>
+      <trans-unit id="_email.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:realName,
+_MOD_user_setup:option_newPassword</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:realName,
+_MOD_user_setup:option_newPassword</target></trans-unit>
       <trans-unit id="realName.description" approved="yes">
         <source>Enter the ordinary name of the user, eg. John Doe.</source>
         <target state="translated">Indtast brugerens rigtige navn. i.e. Hans Jensen.</target>
@@ -129,10 +197,22 @@ See Backend Groups for details</source>
         <source>&lt;strong&gt;Notice&lt;/strong&gt; the user is able to change this value by himself from within the User&gt;Setup module.</source>
         <target state="translated">&lt;strong&gt;OBS&lt;/strong&gt; Brugeren er selv i stand til at ændre sit navn under Bruger &gt; Indstillinger.</target>
       </trans-unit>
+      <trans-unit id="_realName.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:email,
+_MOD_user_setup:option_newPassword</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:email,
+_MOD_user_setup:option_newPassword</target></trans-unit>
       <trans-unit id="disable.description" approved="yes">
         <source>This option will temporarily disable the user from logging in.</source>
         <target state="translated">Denne indstilling vil midlertidigt deaktivér brugerens mulighed for at logge ind.</target>
       </trans-unit>
+      <trans-unit id="_disable.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:starttime,
+be_users:endtime</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:starttime,
+be_users:endtime</target></trans-unit>
       <trans-unit id="admin.description" approved="yes">
         <source>'Admin' users have TOTAL access to the system!</source>
         <target state="translated">'Admin' brugere har FULD adgang til systemet!</target>
@@ -144,6 +224,11 @@ See Backend Groups for details</source>
 
 You should probably not assign any other users than yourself as an 'Admin' user.</source>
 			<target state="translated">'Admin' brugere kan gøre alt hvad der er muligt i TYPO3 og den type brugere bør kun bruges til administrativt brug. Den daglige håndtering bør ske af almindelige brugere. 'Admin' brugere behøver ikke at være medlem af en backend brugergruppe. Du skal dog være opmærksom på, at sider oprette af en 'admin' bruger som ikke tilhører en gruppe, ikke får tilknyttet en ejergruppe og derfor vil den være usynlig for andre brugere. Skulle dette problem opstå kan du imidlertid løse dette ved a tilføje 'admin' brugeren til en gruppe. Det har ingen konsekvens for 'admin' brugerens adgang da den er ubegrænset. Du skal formentlig ikke have andre 'admin' brugere end dig selv.</target></trans-unit>
+      <trans-unit id="_admin.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/beuser_4.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/beuser_4.png</target>
+      </trans-unit>
       <trans-unit id="options.description" approved="yes">
         <source>Select if the user should inherit page tree or folder tree mountpoints from member groups.</source>
         <target state="translated">Vælg om brugeren skal arve sidetræ eller bibliotekstræ monteringspunkter fra medlemsgrupper.</target>
@@ -152,6 +237,12 @@ You should probably not assign any other users than yourself as an 'Admin' user.
 				<source>It's a great advantage to let users inherit mountpoints from membergroups because it makes administration of the same mountpoints for many users extremely easy.
 If you don't check these options, you must make sure the mount points for the page tree and file folder tree is set specifically for the user.</source>
 			<target state="translated">Det er en stor fordel at lade brugere arve monteringspunkter fra medlemsgrupper fordi det gør administration af de samme monteringspunkter for mange brugere meget nemt. Hvis du ikke vælger denne mulighed skal du være sikker på at monteringspunkterne for sidetræ og fil bibliotekstræ er sat specifikt for brugeren.</target></trans-unit>
+      <trans-unit id="_options.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:db_mountpoints,
+be_users:file_mountpoints</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:db_mountpoints,
+be_users:file_mountpoints</target></trans-unit>
       <trans-unit id="file_permissions.description" approved="yes">
         <source>Select file operation permissions for the user.</source>
         <target state="translated">Vælg vil operations tilladelser for brugeren.</target>
@@ -190,10 +281,26 @@ be_group:fileoper_perms</target></trans-unit>
         <source>Enter the date from which the account is active.</source>
         <target state="translated">Indtast dato hvorpå denne konto skal gøres aktiv.</target>
       </trans-unit>
+      <trans-unit id="_starttime.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:disable,
+be_users:endtime,
+pages:starttime</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:disable,
+be_users:endtime,
+pages:starttime</target></trans-unit>
       <trans-unit id="endtime.description" approved="yes">
         <source>Enter the date from which the account is disabled.</source>
         <target state="translated">Indtast dato hvorpå denne konto skal gøres inaktiv.</target>
       </trans-unit>
+      <trans-unit id="_endtime.seeAlso" xml:space="preserve" approved="yes">
+				<source>be_users:disable,
+be_users:starttime,
+pages:starttime</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">be_users:disable,
+be_users:starttime,
+pages:starttime</target></trans-unit>
       <trans-unit id="lastlogin.description" approved="yes">
         <source>This field shows the user's last log in date.</source>
         <target state="translated">Dette felt viser brugerens sidste logintidspunkt.</target>
@@ -208,6 +315,11 @@ be_group:fileoper_perms</target></trans-unit>
 
 &lt;b&gt;Notice&lt;/b&gt; this is only setting the default language. As soon as the user has logged in the language must be changed through the User&gt;Setup module. Also you will have to install the corresponding language pack which can be found as an extension on TYPO3.org with the prefix "csh_XX" where XX is the TYPO3 language key.</source>
 			<target state="translated">Dette afgør sproget på backend brugerfladen for brugeren. All de mest almindelige dele af brugerfladen vil være tilgængeligt i det valgte sprog. 'Admin'-brugere vil dog opleve at de dele som kun er for administratorer er i engelsk, Dette gælder f.eks. moduler under 'Værktøjer' og Skabelon modulet.</target></trans-unit>
+      <trans-unit id="_lang.seeAlso" approved="yes">
+        <source>_MOD_user_setup:language</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">_MOD_user_setup:language</target>
+      </trans-unit>
       <trans-unit id="userMods.description" approved="yes">
         <source>Select available backend modules for the user.</source>
         <target state="translated">Vælg tilgængelige backend moduler for denne bruger.</target>
@@ -217,6 +329,11 @@ be_group:fileoper_perms</target></trans-unit>
 
 Notice that the same list of modules may be configured for the backend user groups and that these will be inherited by the user in addition to the modules you select here. It's highly likely that you should not set any modules for the user himself but rather select the modules in the backend groups he's a member of. However this list provides a great way to add a single module for specific users.</source>
 			<target state="translated">Dette afgør hvilke 'menu punkter' der er tilgængelig for brugeren i backend. Bemærk at den samme liste af moduler kan konfigureres for backend brugergrupper og at disse arves til brugeren i tilgift til de moduler du har valgt her. Det er formentligt unødvendigt at tildele brugeren moduler, men istedet bør tildele dem gennem brugergrupperne. Men det er dog en let måde at tildele et modul til en enkelt bruger.</target></trans-unit>
+      <trans-unit id="_userMods.seeAlso" approved="yes">
+        <source>be_groups:groupMods</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">be_groups:groupMods</target>
+      </trans-unit>
       <trans-unit id="TSconfig.description" approved="yes">
         <source>Enter additional TSconfig for the user (advanced).</source>
         <target state="translated">Indtast ekstra TSconfig for denne bruger (avanceret).</target>
@@ -242,6 +359,16 @@ Bruger TSconfig | https://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig
       <trans-unit id="allowed_languages.details" approved="yes">
         <source>You can also limit users to specific languages with user group settings. Please see the same field for backend user groups for more details.</source>
         <target state="translated">Du kan også begrænse brugere til specifikke sprog med brugergruppe indstillinger. Se venligst det samme felt for backend brugergrupper for flere detaljer.</target>
+      </trans-unit>
+      <trans-unit id="_allowed_languages.seeAlso" approved="yes">
+        <source>be_groups:allowed_languages</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">be_groups:allowed_languages</target>
+      </trans-unit>
+      <trans-unit id="_allowed_languages.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/be_groups_18.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/be_groups_18.png</target>
       </trans-unit>
     </body>
   </file>
