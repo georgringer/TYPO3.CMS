@@ -11,9 +11,17 @@
         <source>(%s Errors/Warnings)</source>
         <target state="translated">(%s Fouten/Waarschuwingen)</target>
       </trans-unit>
+      <trans-unit id="submodule.log.label" approved="yes">
+        <source>Log</source>
+        <target state="translated">Log</target>
+      </trans-unit>
       <trans-unit id="submodule.log.message" approved="yes">
         <source>Log Message</source>
         <target state="translated">Logbericht</target>
+      </trans-unit>
+      <trans-unit id="submodule.log.component" approved="yes">
+        <source>Component</source>
+        <target state="translated">Component</target>
       </trans-unit>
       <trans-unit id="submodule.log.level" approved="yes">
         <source>Level</source>
@@ -39,6 +47,10 @@
         <source>Query Information</source>
         <target state="translated">Query-informatie</target>
       </trans-unit>
+      <trans-unit id="submodule.queryInformation.query" approved="yes">
+        <source>Query</source>
+        <target state="translated">Query</target>
+      </trans-unit>
       <trans-unit id="submodule.queryInformation.queries" approved="yes">
         <source>Queries</source>
         <target state="translated">Query's</target>
@@ -50,6 +62,10 @@
       <trans-unit id="submodule.queryInformation.doctrineDebug" approved="yes">
         <source>SQL Debug</source>
         <target state="translated">SQL debuggen</target>
+      </trans-unit>
+      <trans-unit id="submodule.queryInformation.sqlQuery" approved="yes">
+        <source>SQL Query</source>
+        <target state="translated">SQL Query</target>
       </trans-unit>
       <trans-unit id="submodule.queryInformation.queryCount" approved="yes">
         <source>Count</source>
