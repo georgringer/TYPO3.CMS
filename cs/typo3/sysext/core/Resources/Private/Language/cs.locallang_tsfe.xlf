@@ -3,6 +3,14 @@
   <file t3:id="1415814887" source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="cs">
     <header/>
     <body>
+      <trans-unit id="adminOptions" approved="yes">
+        <source>ADMIN PANEL</source>
+        <target state="translated">ADMIN PANEL</target>
+      </trans-unit>
+      <trans-unit id="adminPanelTitle" approved="yes">
+        <source>TYPO3 ADMIN PANEL</source>
+        <target state="translated">TYPO3 ADMIN PANEL</target>
+      </trans-unit>
       <trans-unit id="preview" approved="yes">
         <source>Preview</source>
         <target state="translated">Náhled</target>
@@ -62,6 +70,10 @@
       <trans-unit id="edit_db_list" approved="yes">
         <source>Web&gt;List module</source>
         <target state="translated">Modul Web&gt;Seznam</target>
+      </trans-unit>
+      <trans-unit id="tsdebug" approved="yes">
+        <source>TypoScript</source>
+        <target state="translated">TypoScript</target>
       </trans-unit>
       <trans-unit id="tsdebug_tree" approved="yes">
         <source>Tree display</source>
