@@ -167,6 +167,10 @@ Do you want to continue WITHOUT saving?</source>
         <source>Author</source>
         <target state="translated">Forfatter</target>
       </trans-unit>
+      <trans-unit id="labels.note" approved="yes">
+        <source>Note</source>
+        <target state="translated">Note</target>
+      </trans-unit>
       <trans-unit id="labels.category" approved="yes">
         <source>Category</source>
         <target state="translated">Kategori</target>
@@ -195,6 +199,10 @@ Do you want to continue WITHOUT saving?</source>
         <source>Hidden</source>
         <target state="translated">Skjult</target>
       </trans-unit>
+      <trans-unit id="labels.starttime" approved="yes">
+        <source>Start</source>
+        <target state="translated">Start</target>
+      </trans-unit>
       <trans-unit id="labels.endtime" approved="yes">
         <source>End</source>
         <target state="translated">Slut</target>
@@ -202,6 +210,10 @@ Do you want to continue WITHOUT saving?</source>
       <trans-unit id="labels.minutesHoursDaysYears" approved="yes">
         <source>min|hrs|days|yrs|min|hour|day|year</source>
         <target state="translated">min|timer|dage|år|min|time|dag|år</target>
+      </trans-unit>
+      <trans-unit id="labels.menu" approved="yes">
+        <source>Menu</source>
+        <target state="translated">Menu</target>
       </trans-unit>
       <trans-unit id="labels.showPage" approved="yes">
         <source>View webpage</source>
@@ -247,6 +259,10 @@ Do you want to continue WITHOUT saving?</source>
         <source>Deny</source>
         <target state="translated">Afvis</target>
       </trans-unit>
+      <trans-unit id="labels.automatic" approved="yes">
+        <source>Auto</source>
+        <target state="translated">Auto</target>
+      </trans-unit>
       <trans-unit id="labels.enabled" approved="yes">
         <source>Enabled</source>
         <target state="translated">Slået til</target>
@@ -284,6 +300,10 @@ Do you want to continue WITHOUT saving?</source>
       <trans-unit id="labels.list" approved="yes">
         <source>List</source>
         <target state="translated">Liste</target>
+      </trans-unit>
+      <trans-unit id="labels.link" approved="yes">
+        <source>Link</source>
+        <target state="translated">Link</target>
       </trans-unit>
       <trans-unit id="labels.edit" approved="yes">
         <source>Edit</source>
@@ -533,6 +553,10 @@ Do you want to continue WITHOUT saving?</source>
         <source>Searching...</source>
         <target state="translated">Søger...</target>
       </trans-unit>
+      <trans-unit id="ver.online" approved="yes">
+        <source>ONLINE</source>
+        <target state="translated">ONLINE</target>
+      </trans-unit>
       <trans-unit id="ver.mgm" approved="yes">
         <source>Version Management</source>
         <target state="translated">Versionsstyring</target>
@@ -609,6 +633,10 @@ Do you want to continue WITHOUT saving?</source>
         <source>Table</source>
         <target state="translated">Tabel</target>
       </trans-unit>
+      <trans-unit id="show_item.php.uid" approved="yes">
+        <source>Uid</source>
+        <target state="translated">Uid</target>
+      </trans-unit>
       <trans-unit id="show_item.php.title" approved="yes">
         <source>Title</source>
         <target state="translated">Titel</target>
@@ -616,6 +644,10 @@ Do you want to continue WITHOUT saving?</source>
       <trans-unit id="show_item.php.field" approved="yes">
         <source>Field</source>
         <target state="translated">Felt</target>
+      </trans-unit>
+      <trans-unit id="show_item.php.flexpointer" approved="yes">
+        <source>Flexpointer</source>
+        <target state="translated">Flexpointer</target>
       </trans-unit>
       <trans-unit id="show_item.php.softrefKey" approved="yes">
         <source>Softref Key</source>
@@ -902,6 +934,14 @@ Do you want to refresh it now?</source>
         <source>Username</source>
         <target state="translated">Brugernavn</target>
       </trans-unit>
+      <trans-unit id="mess.refresh_login_password" approved="yes">
+        <source>Password</source>
+        <target state="translated">Password</target>
+      </trans-unit>
+      <trans-unit id="mess.refresh_login_button" approved="yes">
+        <source>Login</source>
+        <target state="translated">Login</target>
+      </trans-unit>
       <trans-unit id="mess.refresh_exit_button" approved="yes">
         <source>Exit</source>
         <target state="translated">Afslut</target>
@@ -989,6 +1029,10 @@ Do you want to refresh it now?</source>
       <trans-unit id="mess.movecb_after" approved="yes">
         <source>Move all elements (%s) from the clipboard to the position after "%s"?</source>
         <target state="translated">Flyt alle elementer (%s) fra klippebordet til positionen efter "%s"?</target>
+      </trans-unit>
+      <trans-unit id="rm.menu" approved="yes">
+        <source>[menu]</source>
+        <target state="translated">[menu]</target>
       </trans-unit>
       <trans-unit id="rm.saveDoc" approved="yes">
         <source>Save</source>
@@ -1282,6 +1326,14 @@ Do you want to refresh it now?</source>
         <source>Save</source>
         <target state="translated">Gem</target>
       </trans-unit>
+      <trans-unit id="cm.unzip" approved="yes">
+        <source>Unzip</source>
+        <target state="translated">Unzip</target>
+      </trans-unit>
+      <trans-unit id="cm.info" approved="yes">
+        <source>Info</source>
+        <target state="translated">Info</target>
+      </trans-unit>
       <trans-unit id="cm.createnew" approved="yes">
         <source>Create new</source>
         <target state="translated">Opret ny</target>
@@ -1546,6 +1598,10 @@ Do you want to refresh it now?</source>
         <source>PHP Version</source>
         <target state="translated">PHP version</target>
       </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.database" approved="yes">
+        <source>Database</source>
+        <target state="translated">Database</target>
+      </trans-unit>
       <trans-unit id="toolbarItems.sysinfo.applicationcontext" approved="yes">
         <source>Application Context</source>
         <target state="translated">Programsammenhæng</target>
@@ -1561,6 +1617,10 @@ Do you want to refresh it now?</source>
       <trans-unit id="toolbarItems.sysinfo.operatingsystem" approved="yes">
         <source>Operating System</source>
         <target state="translated">Operativsystem</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.webserver" approved="yes">
+        <source>Webserver</source>
+        <target state="translated">Webserver</target>
       </trans-unit>
       <trans-unit id="toolbarItems.sysinfo.typo3-version" approved="yes">
         <source>TYPO3 Version</source>
