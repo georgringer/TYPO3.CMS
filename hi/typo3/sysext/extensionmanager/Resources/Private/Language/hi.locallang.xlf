@@ -123,9 +123,17 @@
         <source>Loading form...</source>
         <target state="translated">फॉर्म लोड हो रहा है ....</target>
       </trans-unit>
+      <trans-unit id="extensionList.header.update" approved="yes">
+        <source>Upd.</source>
+        <target state="translated">Upd.</target>
+      </trans-unit>
       <trans-unit id="extensionList.header.title.update" approved="yes">
         <source>Update</source>
         <target state="translated">अपडेट</target>
+      </trans-unit>
+      <trans-unit id="extensionList.header.activate" approved="yes">
+        <source>A/D</source>
+        <target state="translated">A/D</target>
       </trans-unit>
       <trans-unit id="extensionList.header.title.activate" approved="yes">
         <source>Activate / Deactivate</source>
@@ -443,6 +451,10 @@
       <trans-unit id="extensionList.updateFromTer.lastUpdate.noInfo" approved="yes">
         <source>unknown</source>
         <target state="translated">अज्ञात</target>
+      </trans-unit>
+      <trans-unit id="extensionList.updateFromTer.lastUpdate.fullTimeFormat" approved="yes">
+        <source>Y-m-d H:i:s</source>
+        <target state="translated">Y-m-d H:i:s</target>
       </trans-unit>
       <trans-unit id="extensionList.updateFromTer.lastUpdate.timeOfLastUpdate" approved="yes">
         <source>Time of last update: </source>
