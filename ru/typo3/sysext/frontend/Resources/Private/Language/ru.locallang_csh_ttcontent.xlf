@@ -126,18 +126,58 @@ This is plain HTML content. Anything added in the HTML Code of this Content Elem
 
 &lt;strong&gt;HTML&lt;/strong&gt; 
 Обычный HTML код. Все, помещенное здесь, будет отображено на странице без какой-либо обработки.</target></trans-unit>
+      <trans-unit id="_CType.seeAlso" xml:space="preserve" approved="yes">
+				<source>tt_content:colPos,
+tt_content:sys_language_uid,
+About Content Elements | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/EditPageContent/</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:colPos,
+tt_content:sys_language_uid,
+About Content Elements | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/EditPageContent/</target></trans-unit>
       <trans-unit id="hidden.description" approved="yes">
         <source>Check this box if you wish to disable the Content Element and keep it from being displayed on the website.</source>
         <target state="translated">Установите этот флажок, если хотите скрыть элемент содержимого на веб сайте.</target>
       </trans-unit>
+      <trans-unit id="_hidden.seeAlso" xml:space="preserve" approved="yes">
+				<source>tt_content:starttime,
+tt_content:endtime,
+tt_content:fe_group,
+tt_content:colPos,
+tt_content:sys_language_uid</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:starttime,
+tt_content:endtime,
+tt_content:fe_group,
+tt_content:colPos,
+tt_content:sys_language_uid</target></trans-unit>
       <trans-unit id="starttime.description" approved="yes">
         <source>Enter the date when the Content Element should be published and displayed on the website.</source>
         <target state="translated">Введите дату, начиная с которой элемент содержимого будет опубликован и начнет отображаться на веб сайте.</target>
       </trans-unit>
+      <trans-unit id="_starttime.seeAlso" xml:space="preserve" approved="yes">
+				<source>pages:starttime,
+tt_content:endtime,
+tt_content:hidden,
+tt_content:fe_group</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">pages:starttime,
+tt_content:endtime,
+tt_content:hidden,
+tt_content:fe_group</target></trans-unit>
       <trans-unit id="endtime.description" approved="yes">
         <source>Enter the date when the Content Element should expire and disappear from the website.</source>
         <target state="translated">Введите дату, начиная с которой элемент содержимого будет скрыт на сайте.</target>
       </trans-unit>
+      <trans-unit id="_endtime.seeAlso" xml:space="preserve" approved="yes">
+				<source>pages:endtime,
+tt_content:starttime,
+tt_content:hidden,
+tt_content:fe_group</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">pages:endtime,
+tt_content:starttime,
+tt_content:hidden,
+tt_content:fe_group</target></trans-unit>
       <trans-unit id="fe_group.description" approved="yes">
         <source>If Usergroup Access Rights are set to a usergroup name, only website users who are logged in and members of the selected usergroup will be able to view the Content Element. The special option 'Hide at Login' means the Content Element will &lt;em&gt;not&lt;/em&gt; be visible for any website users that are logged in. Likewise "Show at Any Login" will make the Content Element visible for any logged in website user.</source>
         <target state="translated">Если права доступа группы пользователей установлены на определенную группу, то только лишь входящие в нее внешние пользователи смогут видеть элемент содержимого. Специальный параметр "Скрыть после входа в систему" позволяет &lt;em&gt;скрыть&lt;/em&gt; элемент от всех авторизованных на сайте пользователей. И наоборот, "Виден при любом входе" делает элемент видимым любому авторизованному пользователю.</target>
@@ -146,6 +186,20 @@ This is plain HTML content. Anything added in the HTML Code of this Content Elem
         <source>The 'Hide at Login' option is is useful if you want to present information like "How to Login" that becomes irrelevant when a website user is actually logged in.</source>
         <target state="translated">Параметр "Скрыть после входа в систему" полезен для предоставления информации, например о том, как зарегистрироваться на сайте, которая уже не нужна после регистрации пользователя.</target>
       </trans-unit>
+      <trans-unit id="_fe_group.seeAlso" xml:space="preserve" approved="yes">
+				<source>tt_content:hidden,
+tt_content:starttime,
+tt_content:endtime,
+pages:fe_group,
+fe_users,
+fe_groups</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:hidden,
+tt_content:starttime,
+tt_content:endtime,
+pages:fe_group,
+fe_users,
+fe_groups</target></trans-unit>
       <trans-unit id="sys_language_uid.description" approved="yes">
         <source>Select the system language of this Content Element. &lt;strong&gt;Notice:&lt;/strong&gt; This will affect the Content Element visibility by limiting it to a certain language.</source>
         <target state="translated">Выберете системный язык для этого элемента. &lt;strong&gt;Примечание&lt;/strong&gt; это затрагивает видимость элемента, ограничивая ее определенным языком.</target>
@@ -155,6 +209,16 @@ This is plain HTML content. Anything added in the HTML Code of this Content Elem
 The available system languages are created by the administrator.</source>
 			<target state="translated">Позволяет назначить определенный язык для элемента содержимого. Выбрав что-либо, кроме значения по умолчанию, Вы &lt;em&gt;скроете&lt;/em&gt; элемент, если только выбранный язык не был настроен в шаблоне TypoScript. 
 Доступные в системе языки создаются администратором.</target></trans-unit>
+      <trans-unit id="_sys_language_uid.seeAlso" xml:space="preserve" approved="yes">
+				<source>tt_content:colPos,
+sys_language,
+Localization concepts [Technical] | http://typo3.org/documentation/tips-tricks/multi-language-sites-in-typo3/,
+_MOD_web_layout:language_list</source>
+				<note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:colPos,
+sys_language,
+Localization concepts [Technical] | http://typo3.org/documentation/tips-tricks/multi-language-sites-in-typo3/,
+_MOD_web_layout:language_list</target></trans-unit>
       <trans-unit id="layout.description" approved="yes">
         <source>Select a Layout.</source>
         <target state="translated">Выберете шаблон.</target>
@@ -185,6 +249,14 @@ The File Links Content Element does make use of the Layout field by default:
 			<target state="translated">На большинстве сайтов используется лишь один столбец для содержимого. Но некоторые шаблоны позволяют располагать содержимое в нескольких столбцая, а этот параметр определяет в каких. 
 
 &lt;strong&gt;Примечание&lt;/strong&gt; выбрав здесь любой столбец, кроме "Обычный" может сделать элемент невидимым, если этот столбец не задействован в шаблоне сайта. Если элемент содержимого "никак" не появляется, проверьте установку параметров Столбец и Язык.</target></trans-unit>
+      <trans-unit id="_colPos.seeAlso" xml:space="preserve" approved="yes">
+				<source>tt_content:sys_language_uid,
+_MOD_web_layout:columns_multi,
+_MOD_web_layout:columns_single</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:sys_language_uid,
+_MOD_web_layout:columns_multi,
+_MOD_web_layout:columns_single</target></trans-unit>
       <trans-unit id="date.description" approved="yes">
         <source>Enter a date to be displayed above the header.</source>
         <target state="translated">Введите данные, отображаемые под заголовком.</target>
@@ -200,9 +272,24 @@ Some content element types do not display the header by default. In those cases 
 			<target state="translated">Почти все элементы содержимого (за исключением пожалуй лишь типа HTML), отображают заголовок над содержимым. Если Вы не желаете отображать заголовок, установите тип заголовка как "Скрытый". Или Вы можете ничего не вводить в это поле. 
 
 Некоторые типы элементов содержимого не отображают по умолчанию заголовок. В этом случае поле заголовка называется "Название". Один из таких типов – элемент содержимого HTML.</target></trans-unit>
+      <trans-unit id="_header.seeAlso" xml:space="preserve" approved="yes">
+				<source>tt_content:header_position,
+tt_content:header_link,
+tt_content:header_layout,
+tt_content:date,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:header_position,
+tt_content:header_link,
+tt_content:header_layout,
+tt_content:date,</target></trans-unit>
       <trans-unit id="header_position.description" approved="yes">
         <source>Aligns the header to the left, center, or right.</source>
         <target state="translated">Выравнивание заголовка по левому, правому краю или по центру.</target>
+      </trans-unit>
+      <trans-unit id="_header_position.seeAlso" approved="yes">
+        <source>tt_content:header</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">tt_content:header</target>
       </trans-unit>
       <trans-unit id="header_link.description" approved="yes">
         <source>Creates a link from the header to a Page ID, email address, or URL.</source>
@@ -215,6 +302,11 @@ If you insert an URL or domain, (ex. www.typo3.org or http://www.my-domain.org),
 			<target state="translated">Если Вы вставите id-номер, например "51", будет создана ссылка на страницу с id=51 &lt;em&gt;внутри&lt;/em&gt; TYPO3. 
 Если Вы вставите email адрес, например "name@my-domain.test", ссылка будет указывать на этот адрес электронной почты. 
 Если Вы вставите URL или домен, например "www.typo3.com" или "http://www.my-domain.org", ссылка будет указывать на этот web сайт.</target></trans-unit>
+      <trans-unit id="_header_link.seeAlso" approved="yes">
+        <source>tt_content:header</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">tt_content:header</target>
+      </trans-unit>
       <trans-unit id="header_layout.description" approved="yes">
         <source>Select a visual design for the header.</source>
         <target state="translated">Выберете внешний вид заголовка.</target>
@@ -226,6 +318,11 @@ If you select "Hidden" the header will simply not appear. This is useful when yo
 			<target state="translated">Если Вы выберете "Стандартный", будет использован стандартный дизайн (одна из компоновок 1-5). 
 Либо Вы можете выбрать компоновку с 1 по 5, которые настраиваются в шаблоне сайта, как индивидуальный визуальный дизайн. 
 Выбрав "Скрытый", Вы скроете заголовок. Это нужно, если Вы хотите назвать свой элемент содержимого (для идентификации его во внутреннем интерфейсе), но не хотите отображать заголовок на web сайте.</target></trans-unit>
+      <trans-unit id="_header_layout.seeAlso" approved="yes">
+        <source>tt_content:header</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">tt_content:header</target>
+      </trans-unit>
       <trans-unit id="subheader.description" approved="yes">
         <source>Enter a subheader to be displayed below the main header. If the Content Element is a "Form" this field is instead used as the Recipient Email.</source>
         <target state="translated">Введите подзаголовок. Он отображается под обычным заголовком. В случае "Формы", это поле – электронная почта получателя.</target>
@@ -234,6 +331,12 @@ If you select "Hidden" the header will simply not appear. This is useful when yo
         <source>A subheader is displayed only with "Header" Content Elements and with "Form" Content Elements (as the Recipient Email).</source>
         <target state="translated">Подзаголовок отображается только с типом элемента содержимого "Заголовок" и "Форма", где это поле называется "E-mail получателя:" и содержит электронный адрес получателя формы. Поэтому важно предоставить доступ к этому полю для пользователей.</target>
       </trans-unit>
+      <trans-unit id="_subheader.seeAlso" xml:space="preserve" approved="yes">
+				<source>tt_content:header
+tt_content:bodytext</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">tt_content:header
+tt_content:bodytext</target></trans-unit>
       <trans-unit id="bodytext.description" approved="yes">
         <source>Enter the main text.</source>
         <target state="translated">Введите основной текст.</target>
@@ -376,6 +479,11 @@ tt_content:recursive</source>
 
 &lt;strong&gt;Warning:&lt;/strong&gt; If there are many subpages, be aware that this option may return a large number of results</source>
 			<target state="translated">Имеет ли эта возможность смысл или нет, зависит исключительно от реализации шаблона и/или типа элемента содержимого. Если эта возможность включена, то для каждой страницы из списка в поле "Страницы" будут включены и ее подстраницы с определенной глубины вложенности. &lt;strong&gt;Внимание:&lt;/strong&gt; если здесь назначено много страниц. То с этим параметром будет выбрано невообразимое их количество!</target></trans-unit>
+      <trans-unit id="_recursive.seeAlso" approved="yes">
+        <source>tt_content:pages</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">tt_content:pages</target>
+      </trans-unit>
       <trans-unit id="menu_type.description" approved="yes">
         <source>Select the type of menu you wish to create.</source>
         <target state="translated">Выберете тип создаваемого меню.</target>
@@ -422,6 +530,11 @@ tt_content:sectionIndex</source>
         <source>The list of plugins you can insert on a page. The available plugins depend on which extensions are installed.</source>
         <target state="translated">Список дополнений, доступных для помещения на страницу. Зависит от установленных расширений.</target>
       </trans-unit>
+      <trans-unit id="_list_type.seeAlso" approved="yes">
+        <source>_MOD_tools_em</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">_MOD_tools_em</target>
+      </trans-unit>
       <trans-unit id="media.description" approved="yes">
         <source>Files can be added to the list here.</source>
         <target state="translated">Дополните список файлов.</target>
@@ -446,6 +559,11 @@ tt_content:sectionIndex</source>
         <source>See more details about Section Menus by clicking below.</source>
         <target state="translated">Детали приведены в описании типов меню (щелкните ниже).</target>
       </trans-unit>
+      <trans-unit id="_sectionIndex.seeAlso" approved="yes">
+        <source>tt_content:menu_type</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">tt_content:menu_type</target>
+      </trans-unit>
       <trans-unit id="linkToTop.description" approved="yes">
         <source>If checked, a small  "To Top" link will be added after the Content Element, linking back to the top of the page.</source>
         <target state="translated">Если включено, после элемента содержимого появится ссылка "На верх", ведущая к началу страницы.</target>
@@ -454,6 +572,11 @@ tt_content:sectionIndex</source>
         <source>If checked, the Rich Text Editor will be disabled for the "Text" and "Text &amp; Image" types (&lt;em&gt;in this Content Element only&lt;/em&gt;).</source>
         <target state="translated">Если включено, то редактор текста (Rich Text Editor) будет отключен для "Текста" и "Текста с изображением" (&lt;em&gt;лишь в этих элементах&lt;/em&gt;)</target>
       </trans-unit>
+      <trans-unit id="_rte_enabled.seeAlso" approved="yes">
+        <source>tt_content:bodytext</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">tt_content:bodytext</target>
+      </trans-unit>
       <trans-unit id="pi_flexform.description" approved="yes">
         <source>Plugin Configuration</source>
         <target state="translated">Настройка дополнения</target>
@@ -461,6 +584,11 @@ tt_content:sectionIndex</source>
       <trans-unit id="pi_flexform.details" approved="yes">
         <source>Some plugins may provide configuration options, but the actual options vary based on the plugin. Behind the scenes, these are based on FlexForms and stored as XML.</source>
         <target state="translated">Некоторые дополнения имеют определенные параметры настройки, которые сильно различаются для разных дополнений. Технически это реализовано в стиле FlexForm (хранится в виде XML).</target>
+      </trans-unit>
+      <trans-unit id="_pi_flexform.seeAlso" approved="yes">
+        <source>tt_content:list_type</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">tt_content:list_type</target>
       </trans-unit>
     </body>
   </file>
