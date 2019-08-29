@@ -82,6 +82,11 @@ Međuspremnik baze podataka je ključan, "cache_hash", te se mora očistiti nako
 TYPO3 u međuspremnike sprema i male konfiguracijske skripte iz proširenja, primjerice "ext_localconf.php" i "ext_tables.php". Ove datoteke se jednostavno čitaju iz svih instaliranih proširenja te se združuju u privremene PHP skripte u mapi typo3temp/Cache/Code/cache_core/. Ponekad je potrebno izbrisati ove datoteke kako bi ih TYPO3 stvorio iznova, iz izvornika. Ovo čišćenje pokreće se klikom na poveznicu "Očisti temp_CACHED".
 
 &lt;b&gt;Napomena:&lt;/b&gt; ne biste trebali čistiti međuspremnike bez razmišljanja. Čišćenje međuspremnika može dulje vremena negativno utjecati na učinkovitost Vašeg poslužitelja. Očito, sadržaj koji je uklonjen iz međuspremnika mora se ponovno stvoriti što zahtijeva vrijeme te pod težim opterećenjem može učiniti Vaš poslužitelj nedostupnim na neko vrijeme.</target></trans-unit>
+      <trans-unit id="_menu_adminFunction.seeAlso" approved="yes">
+        <source>be_users:admin</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">be_users:admin</target>
+      </trans-unit>
       <trans-unit id="pagetree.alttitle" approved="yes">
         <source>The Page Tree</source>
         <target state="translated">Stablo stranica</target>
@@ -233,6 +238,11 @@ Ovdje možete vidjeti metodu pojedinačne kartice koja je aktivna za tablicu "Sa
         <source>The Web&gt;List module must have a page ID passed to it before it can display any content. Please click a page title in the Page Tree.</source>
         <target state="translated">ID stranice treba biti poslan Web&gt;Popis modulu prije nego što se može prikazati bilo kakav sadržaj. Molimo Vas da kliknete na naslov stranice u stablu stranice.</target>
       </trans-unit>
+      <trans-unit id="_list_module_noId.seeAlso" approved="yes">
+        <source>xMOD_csh_corebe:list_module</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">xMOD_csh_corebe:list_module</target>
+      </trans-unit>
       <trans-unit id="list_module_root.alttitle" approved="yes">
         <source>Root of the Page Tree</source>
         <target state="translated">Korjen stabla stranica</target>
@@ -292,6 +302,11 @@ Ukoliko odaberete jedan od numeriranih međuspremnika moći ćete spremiti više
         <source>By this search box you can do a free text search in all the listed records. You can also search recursively in sub-pages by selecting a number of levels to search in the selector box to the right of the search field.</source>
         <target state="translated">Putem ove tražilice možete slobodno pretraživati sve navedene zapise. Također možete rekurzivno pretraživati u podstranicama odabirom nekolicine razina koje se mogu pretražiti u izbornom okviru desno od polja za pretraživanje.</target>
       </trans-unit>
+      <trans-unit id="_list_searchbox.seeAlso" approved="yes">
+        <source>xMOD_csh_corebe:list_module</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">xMOD_csh_corebe:list_module</target>
+      </trans-unit>
       <trans-unit id="list_options.alttitle" approved="yes">
         <source>List module options</source>
         <target state="translated">Opcije modula Popis</target>
@@ -300,6 +315,14 @@ Ukoliko odaberete jedan od numeriranih međuspremnika moći ćete spremiti više
         <source>Enable additional options like the "Extended view" mode to see additional control buttons for each record in the listing or the "Clipboard" to see the clipboard and its content.</source>
         <target state="translated">Omogući dodatne opcije kao što su način "Produženi pregled" kako bi vidjeli dodatne kontrolne tipke za svaki zapis u popisu ili "Međuspremnik" kako bi vidjeli međuspremnik i njegov sadržaj.</target>
       </trans-unit>
+      <trans-unit id="_list_options.seeAlso" xml:space="preserve" approved="yes">
+				<source>xMOD_csh_corebe:list_module,
+xMOD_csh_corebe:list_clipboard,
+xMOD_csh_corebe:filelist_options</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:list_module,
+xMOD_csh_corebe:list_clipboard,
+xMOD_csh_corebe:filelist_options</target></trans-unit>
       <trans-unit id="list_options.image_descr" xml:space="preserve" approved="yes">
 				<source>The options checkboxes.
 Selecting "Extended view" will enable the control buttons in the record lists.</source>
@@ -313,6 +336,12 @@ Odabir "Produženi pregled" omogućit će kontrolne tipke u popisu zapisa.</targ
         <source>This list shows the types of records (database tables) you can create on the page. Click a table name to select the type.</source>
         <target state="translated">Ovaj popis prikazuje vrste zapisa (tablice baza podataka) koje možete stvoriti na stranici. Kliknite na ime tablice kako bi odabrali vrstu.</target>
       </trans-unit>
+      <trans-unit id="_new_regular.seeAlso" xml:space="preserve" approved="yes">
+				<source>xMOD_csh_corebe:new_ce,
+xMOD_csh_corebe:new_pages</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:new_ce,
+xMOD_csh_corebe:new_pages</target></trans-unit>
       <trans-unit id="new_regular.image_descr" approved="yes">
         <source>The selection of records a user can create on this particular page. The selection depends on the user's permissions and the page type. For example a Folder page type can contain any kind of record while regular pages can contain only some types (like Content Elements).</source>
         <target state="translated">Izbor zapisa koje korisnik može stvoriti na ovoj stranici. Izbor ovisi o dopuštenjima korisnika i o vrsti stranice. Na primjer, tip stranice Mapa može sadržavati bilo kakav zapis dok obične stranice mogu sadržavati samo neke vrste zapisa (kao Elementi sadržaja).</target>
@@ -406,6 +435,12 @@ Kako bi pristupili "Čarobnjaku za premještanje stranice", otvorite izbornik st
         <source>By the grey icons in the content element list you can point out the new position of the content element. If you need to move the element to another page, simply browse the page tree in the bottom of the wizard.</source>
         <target state="translated">Na popisu elementa sadržaja možete ukazati na novi položaj elementa sadržaja pomoću sivih ikona. Ako trebate pomaknuti element na drugu stranicu, jednostavno pregledajte stablo stranica na dnu čarobnjaka.</target>
       </trans-unit>
+      <trans-unit id="_move_el_cs.seeAlso" xml:space="preserve" approved="yes">
+				<source>xMOD_csh_corebe:move_el_pages,
+xMOD_csh_corebe:new_regular</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:move_el_pages,
+xMOD_csh_corebe:new_regular</target></trans-unit>
       <trans-unit id="move_el_cs.image_descr" xml:space="preserve" approved="yes">
 				<source>The wizard works like when you create new Content Elements with the wizard; You position the element by the grey arrows.
 To access the "Move Content Element Wizard" you click the "Move element" icon in the "Extended view" of the Web&gt;List module.</source>
@@ -665,6 +700,16 @@ Ako kliknete na ikonu datoteke, iskočit će Vam izbornik sa stavkama izbornika 
 Postoji posebna mapa, "TEMP" mapa. Ista se koristiti za privremeno spremanje datoteka koje će se kasnije pridružiti TYPO3 zapisima. Sadržaj u TEMP mapi se treba moći izbaciti s vremena na vrijeme kada mapa postane prenatrpana datotekama. Dakle nemojte pohranjivati trajne podatke unutra!
 Stvarni naziv mape je zapravo "_temp_". Sučelje će ovo samo interpretirati sa podebljanim "TEMP".
 Isto se odnosi na mape zvane "_čistač_" - one će biti kante za smeće u stablu stranica.</target></trans-unit>
+      <trans-unit id="_filelist_module.seeAlso" xml:space="preserve" approved="yes">
+				<source>xMOD_csh_corebe:list_module,
+xMOD_csh_corebe:filetree,
+be_groups:file_mountpoints,
+sys_filemounts</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:list_module,
+xMOD_csh_corebe:filetree,
+be_groups:file_mountpoints,
+sys_filemounts</target></trans-unit>
       <trans-unit id="filelist_module.image_descr" xml:space="preserve" approved="yes">
 				<source>Here the content of the TEMP folder is shown in the list frame. You can see the filetype, the modification time, size of the file. If you click the filename you will open the file in the browser (if the path is in the web-root).
 When you click a file icon you see a context menu appear over it. Here you can perform file operations on the item.</source>
@@ -697,6 +742,14 @@ Kada su obrojčane međumemorije omogućene, omogućeno Vam je staviti više sta
         <source>You can enable the display of image thumbnails and show the clipboard if you need to copy/cut/paste multiple files or folders at a time.</source>
         <target state="translated">Možete omogućiti prikaz sličica te prikazati međumemoriju ako trebate kopirati/izrezati/zalijepiti više datoteka ili mapa istovremeno.</target>
       </trans-unit>
+      <trans-unit id="_filelist_options.seeAlso" xml:space="preserve" approved="yes">
+				<source>xMOD_csh_corebe:list_options,
+_MOD_user_setup:option_showThumbs,
+xMOD_csh_corebe:filelist_clipboard</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:list_options,
+_MOD_user_setup:option_showThumbs,
+xMOD_csh_corebe:filelist_clipboard</target></trans-unit>
       <trans-unit id="filelist_options.image_descr" approved="yes">
         <source>Enabling thumbnails means that all image file types will be displayed with their thumbnails. This makes it easy to browse an archive of files.</source>
         <target state="translated">Omogućavanje sličica znači da će sve vrste datoteka slika biti prikazane sa svojim sličicama. To olakšava pregled arhiva datoteka.</target>
@@ -708,6 +761,11 @@ Kada su obrojčane međumemorije omogućene, omogućeno Vam je staviti više sta
       <trans-unit id="file_edit.description" approved="yes">
         <source>You can edit the contents of a text file with this dialog.</source>
         <target state="translated">Ovim dijalogom možete urediti sadržaj tekstualne datoteke.</target>
+      </trans-unit>
+      <trans-unit id="_file_edit.seeAlso" approved="yes">
+        <source>xMOD_csh_corebe:filelist_module</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">xMOD_csh_corebe:filelist_module</target>
       </trans-unit>
       <trans-unit id="file_edit.image_descr" approved="yes">
         <source>The editing form for a file is this simple textarea field. It's nothing fancy and experienced coders will miss such as TAB-functionality, but it can edit a stylesheet if badly needed...</source>
@@ -721,6 +779,14 @@ Kada su obrojčane međumemorije omogućene, omogućeno Vam je staviti više sta
         <source>Enter a name for a new file folder in the tree here. If you want to create multiple folders, please select the number of new folders before entering folder names.</source>
         <target state="translated">Unesite naziv za novu mapu datoteke ovdje u stablu. Ako želite stvoriti više mapa, molimo Vas da odaberete određen broj novih mapa prije unosa imena mapa.</target>
       </trans-unit>
+      <trans-unit id="_file_newfolder.seeAlso" xml:space="preserve" approved="yes">
+				<source>xMOD_csh_corebe:filelist_module,
+xMOD_csh_corebe:file_newfile,
+xMOD_csh_corebe:file_rename</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:filelist_module,
+xMOD_csh_corebe:file_newfile,
+xMOD_csh_corebe:file_rename</target></trans-unit>
       <trans-unit id="file_newfolder.image_descr" xml:space="preserve" approved="yes">
 				<source>To create a new folder you first click the parent folder icon in the folder tree.
 As the next step you select the number of folders to create and then you enter the new folder names.
@@ -740,6 +806,16 @@ Nakon pritiska na gumb "Stvori mape" mape će se pojaviti u stablu mapa nakon š
         <source>Newly created files will have the size of 0 (zero). After creating a new file it would be natural that you wanted to edit the file to put content into it. This is done simply by clicking the icon of the file and select "Edit" from the clickmenu.</source>
         <target state="translated">Novo stvorene datoteke će biti veličine 0 (nula). Nakon stvaranja nove datoteke, bilo bi prirodno da želite urediti datoteku kako bi unijeli sadržaj unutra. Ovo se jednostavno postiže tako da se klikne ikona datoteke te odabere "Uredi" iz izbornika.</target>
       </trans-unit>
+      <trans-unit id="_file_newfile.seeAlso" xml:space="preserve" approved="yes">
+				<source>xMOD_csh_corebe:file_edit,
+xMOD_csh_corebe:filelist_module,
+xMOD_csh_corebe:file_newfolder,
+xMOD_csh_corebe:file_rename</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">xMOD_csh_corebe:file_edit,
+xMOD_csh_corebe:filelist_module,
+xMOD_csh_corebe:file_newfolder,
+xMOD_csh_corebe:file_rename</target></trans-unit>
       <trans-unit id="file_newfile.image_descr" xml:space="preserve" approved="yes">
 				<source>To create a new file, first click the folder icon where you want to create the file. Select "New".
 Then enter the filename in the dialog in the right frame.
@@ -762,6 +838,11 @@ Nakon što pritisnete "Stvori datoteku", vidjet ćete novu praznu datoteku u map
       <trans-unit id="file_rename.description" approved="yes">
         <source>You can rename files or folders in TYPO3 quite easily. Just notice that certain characters are not allowed. So use a-z, numbers, underscores and don't make the names too long. If you enter invalid characters it will be automatically corrected.</source>
         <target state="translated">Datoteke ili mape u sustavu TYPO3 možete preimenovati vrlo lako. Samo primjetite da određeni znakovi nisu dopušteni. Dakle, koristite a-z, brojeve, podvlake te nemojte stvarati preduga imena. Ako unesete znakove koji nisu valjani, isti će automatski biti ispravljeni.</target>
+      </trans-unit>
+      <trans-unit id="_file_rename.seeAlso" approved="yes">
+        <source>xMOD_csh_corebe:filelist_module</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">xMOD_csh_corebe:filelist_module</target>
       </trans-unit>
       <trans-unit id="file_rename.image_descr" xml:space="preserve" approved="yes">
 				<source>To rename a file (or folder for that sake) just click the icon of it, select "Rename" and enter the new name.
