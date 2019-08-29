@@ -67,6 +67,10 @@
         <source>Entry Point</source>
         <target state="translated">Vstupní bod</target>
       </trans-unit>
+      <trans-unit id="site_language.locale" approved="yes">
+        <source>Locale</source>
+        <target state="translated">Locale</target>
+      </trans-unit>
       <trans-unit id="site_language.iso-639-1" approved="yes">
         <source>Two Letter ISO Code</source>
         <target state="translated">Dvojmístný ISO kód</target>
@@ -90,6 +94,10 @@
       <trans-unit id="site_language.flag" approved="yes">
         <source>Flag icon</source>
         <target state="translated">Ikona vlajky</target>
+      </trans-unit>
+      <trans-unit id="site_base_variant.base.placeholder" approved="yes">
+        <source>www.domain.local</source>
+        <target state="translated">www.domain.local</target>
       </trans-unit>
       <trans-unit id="site_base_variant.condition" approved="yes">
         <source>Condition</source>
@@ -159,6 +167,10 @@
         <source>Show Content from Page</source>
         <target state="translated">Zobrazit obsah ze stránky</target>
       </trans-unit>
+      <trans-unit id="site_errorhandling.errorPhpClassFQCN.placeholder" approved="yes">
+        <source>Vendor\ExtensionName\ErrorHandlers\GenericErrorhandler</source>
+        <target state="translated">Vendor\ExtensionName\ErrorHandlers\GenericErrorhandler</target>
+      </trans-unit>
       <trans-unit id="site_route.ctrl.title" approved="yes">
         <source>Routes</source>
         <target state="translated">Routy</target>
@@ -178,6 +190,10 @@
       <trans-unit id="site_route.source" approved="yes">
         <source>Page, File or URL</source>
         <target state="translated">Stránka, soubor nebo URL</target>
+      </trans-unit>
+      <trans-unit id="site_route.route.example1" approved="yes">
+        <source>robots.txt</source>
+        <target state="translated">robots.txt</target>
       </trans-unit>
     </body>
   </file>
