@@ -51,6 +51,10 @@
         <source>Create new workspace projects</source>
         <target state="translated">Neue Arbeitsumgebungsprojekte erstellen</target>
       </trans-unit>
+      <trans-unit id="TSconfig" approved="yes">
+        <source>TSconfig</source>
+        <target state="translated">TSconfig</target>
+      </trans-unit>
       <trans-unit id="TSconfig_title" approved="yes">
         <source>TSconfig QuickReference</source>
         <target state="translated">TSconfig-Kurzreferenz</target>
@@ -66,6 +70,10 @@
       <trans-unit id="be_users.password" approved="yes">
         <source>Password</source>
         <target state="translated">Passwort</target>
+      </trans-unit>
+      <trans-unit id="be_users.avatar" approved="yes">
+        <source>Avatar</source>
+        <target state="translated">Avatar</target>
       </trans-unit>
       <trans-unit id="be_users.usergroup" approved="yes">
         <source>Group</source>
@@ -463,6 +471,10 @@
         <source>Page enabled in menus</source>
         <target state="translated">Seite in Menüs aktiviert</target>
       </trans-unit>
+      <trans-unit id="doktype.I.0" approved="yes">
+        <source>Standard</source>
+        <target state="translated">Standard</target>
+      </trans-unit>
       <trans-unit id="doktype.I.1" approved="yes">
         <source>SysFolder</source>
         <target state="translated">Ordner</target>
@@ -482,6 +494,10 @@
       <trans-unit id="is_siteroot" approved="yes">
         <source>Is root of website</source>
         <target state="translated">Ist Anfang der Website</target>
+      </trans-unit>
+      <trans-unit id="pages.slug" approved="yes">
+        <source>URL Segment</source>
+        <target state="translated">URL Segment</target>
       </trans-unit>
       <trans-unit id="be_users" approved="yes">
         <source>Backend user</source>
@@ -530,6 +546,10 @@
       <trans-unit id="sys_file_storage.type" approved="yes">
         <source>Entry point</source>
         <target state="translated">Einstiegspunkt</target>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.name" approved="yes">
+        <source>Name</source>
+        <target state="translated">Name</target>
       </trans-unit>
       <trans-unit id="sys_file_storage.description" approved="yes">
         <source>Description</source>
@@ -615,9 +635,33 @@
         <source>Unknown</source>
         <target state="translated">Unbekannt</target>
       </trans-unit>
+      <trans-unit id="sys_file.type.text" approved="yes">
+        <source>Text</source>
+        <target state="translated">Text</target>
+      </trans-unit>
       <trans-unit id="sys_file.type.image" approved="yes">
         <source>Image</source>
         <target state="translated">Bild</target>
+      </trans-unit>
+      <trans-unit id="sys_file.type.audio" approved="yes">
+        <source>Audio</source>
+        <target state="translated">Audio</target>
+      </trans-unit>
+      <trans-unit id="sys_file.type.video" approved="yes">
+        <source>Video</source>
+        <target state="translated">Video</target>
+      </trans-unit>
+      <trans-unit id="sys_file.type.software" approved="yes">
+        <source>Software</source>
+        <target state="translated">Software</target>
+      </trans-unit>
+      <trans-unit id="sys_file.mime_type" approved="yes">
+        <source>Mime Type</source>
+        <target state="translated">Mime Type</target>
+      </trans-unit>
+      <trans-unit id="sys_file.sha1" approved="yes">
+        <source>SHA1</source>
+        <target state="translated">SHA1</target>
       </trans-unit>
       <trans-unit id="sys_file.size" approved="yes">
         <source>Size</source>
@@ -715,9 +759,17 @@
         <source>Alternative Text</source>
         <target state="translated">Alternativer Text</target>
       </trans-unit>
+      <trans-unit id="sys_file_reference.link" approved="yes">
+        <source>Link</source>
+        <target state="translated">Link</target>
+      </trans-unit>
       <trans-unit id="sys_file_reference.crop" approved="yes">
         <source>Image manipulation</source>
         <target state="translated">Bildbearbeitung</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.autoplay" approved="yes">
+        <source>Autoplay</source>
+        <target state="translated">Autoplay</target>
       </trans-unit>
       <trans-unit id="sys_file_collection" approved="yes">
         <source>File collection</source>
