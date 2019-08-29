@@ -9,19 +9,23 @@
       </trans-unit>
       <trans-unit id="typo3ConfVars" approved="yes">
         <source>$GLOBALS['TYPO3_CONF_VARS'] (Global Configuration)</source>
-        <target state="translated">$GLOBALS['TYPO3_CONF_VARS'] (Global Konfiguration)</target>
+        <target state="translated">$GLOBALS['TYPO3_CONF_VARS'] (Global konfiguration)</target>
       </trans-unit>
       <trans-unit id="tca" approved="yes">
         <source>$GLOBALS['TCA'] (Table configuration array)</source>
-        <target state="translated">$GLOBALS['TCA'] (Array for tabelkonfiguration)</target>
+        <target state="translated">$GLOBALS['TCA'] (Tabel-konfigurationsrække)</target>
       </trans-unit>
       <trans-unit id="tcaDescr" approved="yes">
         <source>$GLOBALS['TCA_DESCR'] (Table Help Description)</source>
-        <target state="translated">$GLOBALS['TCA_DESCR'] (Hjælpebeskrivelse for tabel)</target>
+        <target state="translated">$GLOBALS['TCA_DESCR'] (Tabel-hjælpebeskrivelse)</target>
       </trans-unit>
       <trans-unit id="tbeStyles" approved="yes">
         <source>$GLOBALS['TBE_STYLES'] (Skinning Styles)</source>
-        <target state="translated">$GLOBALS['TBE_STYLES'] (Skinnings-stile)</target>
+        <target state="translated">$GLOBALS['TBE_STYLES'] (Udseende-stilarter)</target>
+      </trans-unit>
+      <trans-unit id="beUserTsConfig" approved="yes">
+        <source>$GLOBALS['BE_USER']-&gt;getTSConfig() (User TSconfig)</source>
+        <target state="translated">$GLOBALS['BE_USER']-&gt;getTSConfig() (User TSconfig)</target>
       </trans-unit>
       <trans-unit id="beUser" approved="yes">
         <source>$GLOBALS['BE_USER']-&gt;uc (User Settings)</source>
@@ -29,19 +33,39 @@
       </trans-unit>
       <trans-unit id="usersettings" approved="yes">
         <source>$GLOBALS['TYPO3_USER_SETTINGS'] (User Settings Configuration)</source>
-        <target state="translated">$GLOBALS['TYPO3_USER_SETTINGS'] (Brugerindstillings-konfiguration)</target>
+        <target state="translated">$GLOBALS['TYPO3_USER_SETTINGS'] (Brugerindstilling-konfiguration)</target>
+      </trans-unit>
+      <trans-unit id="routes" approved="yes">
+        <source>Backend Routes</source>
+        <target state="translated">Backend routes</target>
+      </trans-unit>
+      <trans-unit id="httpMiddlewareStacks" approved="yes">
+        <source>HTTP Middlewares (PSR-15)</source>
+        <target state="translated">HTTP Middlewares (PSR-15)</target>
+      </trans-unit>
+      <trans-unit id="siteConfiguration" approved="yes">
+        <source>Site Configuration</source>
+        <target state="translated">Site Konfiguration</target>
+      </trans-unit>
+      <trans-unit id="eventListeners" approved="yes">
+        <source>Event Listeners (PSR-14)</source>
+        <target state="translated">Event Listeners (PSR-14)</target>
       </trans-unit>
       <trans-unit id="t3services" approved="yes">
         <source>$GLOBALS['T3_SERVICES'] (Registered Services)</source>
-        <target state="translated">$GLOBALS['T3_SERVICES'] (Registerede services)</target>
+        <target state="translated">$GLOBALS['T3_SERVICES'] (Registrerede tjenester)</target>
       </trans-unit>
       <trans-unit id="tbemodulesext" approved="yes">
         <source>$GLOBALS['TBE_MODULES_EXT'] (BE Modules Extensions)</source>
-        <target state="translated">$GLOBALS['TBE_MODULES_EXT'] (BE moduludvidelser)</target>
+        <target state="translated">$GLOBALS['TBE_MODULES_EXT'] (BE-modul udvidelser)</target>
       </trans-unit>
       <trans-unit id="tbemodules" approved="yes">
         <source>$GLOBALS['TBE_MODULES'] (BE Modules)</source>
-        <target state="translated">$GLOBALS['TBE_MODULES'] (BE moduler)</target>
+        <target state="translated">$GLOBALS['TBE_MODULES'] (BE-moduler)</target>
+      </trans-unit>
+      <trans-unit id="pagesTypes" approved="yes">
+        <source>$GLOBALS['PAGES_TYPES'] (Table permissions by page type)</source>
+        <target state="translated">$GLOBALS['PAGES_TYPES'] (Tabel tilladelser pr. sidetype)</target>
       </trans-unit>
       <trans-unit id="cropLines" approved="yes">
         <source>Crop lines</source>
@@ -49,15 +73,15 @@
       </trans-unit>
       <trans-unit id="variable" approved="yes">
         <source>Variable</source>
-        <target state="translated">Variabel:</target>
+        <target state="translated">Variabel</target>
       </trans-unit>
       <trans-unit id="copyPaste" approved="yes">
         <source>(Now, copy/paste this value into the configuration file where you can set it. This is all you can do from here...)</source>
-        <target state="translated">(Kopiér/indsæt denne værdi i konfigurationsfilen, hvor den kan angives. Det er alt hvad du kan gøre herfra...)</target>
+        <target state="translated">(Kopiér/indsæt nu denne værdi i konfigurationsfilen, hvor du kan sætte den. Der er alt du kan gøre herfra...)</target>
       </trans-unit>
       <trans-unit id="enterSearchPhrase" approved="yes">
         <source>Enter search phrase</source>
-        <target state="translated">Indtast søgeudtryk her:</target>
+        <target state="translated">Indtast søgefrase</target>
       </trans-unit>
       <trans-unit id="search" approved="yes">
         <source>Search</source>
@@ -65,19 +89,335 @@
       </trans-unit>
       <trans-unit id="useRegExp" approved="yes">
         <source>Use regular expression (phrase is surrounded by slashes automatically)</source>
-        <target state="translated">Benyt regulært udtryk</target>
+        <target state="translated">Brug regulært udtryk</target>
       </trans-unit>
       <trans-unit id="writeValue" approved="yes">
         <source>Write value to configuration file</source>
-        <target state="translated">Skriv værdi i konfigurationsfil</target>
+        <target state="translated">Skriv værdi til konfigurationsfil</target>
       </trans-unit>
       <trans-unit id="writeMessage" approved="yes">
         <source>Following line was added to configuration file (%s): %s%s</source>
-        <target state="translated">Følgende linje blev tilføjet til konfigurationsfilen (%s): %s%s</target>
+        <target state="translated">Følgende linjer blev tilføjet til konfigurationsfil (%s): %s%s</target>
       </trans-unit>
       <trans-unit id="writeMessageFailed" approved="yes">
         <source>Write to configuration file failed (%s)!</source>
-        <target state="translated">Skrivning til konfigurationsfil gik galt (%s)!</target>
+        <target state="translated">Skrivning til konfiguratinsfil mislykkedes (%s)!</target>
+      </trans-unit>
+      <trans-unit id="menuTitle" approved="yes">
+        <source>Overview</source>
+        <target state="translated">Overblik</target>
+      </trans-unit>
+      <trans-unit id="recordStatistics" approved="yes">
+        <source>Record Statistics</source>
+        <target state="translated">Statistik over elementer</target>
+      </trans-unit>
+      <trans-unit id="totalPageTree" approved="yes">
+        <source>Total Page Tree</source>
+        <target state="translated">Samlet for Sidetræ</target>
+      </trans-unit>
+      <trans-unit id="databaseRelations" approved="yes">
+        <source>Database Relations</source>
+        <target state="translated">Databaserelationer</target>
+      </trans-unit>
+      <trans-unit id="fullSearch" approved="yes">
+        <source>Full search</source>
+        <target state="translated">Fuld søgning</target>
+      </trans-unit>
+      <trans-unit id="findFilename" approved="yes">
+        <source>Find filename</source>
+        <target state="translated">Find filnavn</target>
+      </trans-unit>
+      <trans-unit id="manageRefIndex" approved="yes">
+        <source>Manage Reference Index</source>
+        <target state="translated">Håndtér referenceindeks</target>
+      </trans-unit>
+      <trans-unit id="rawSearch" approved="yes">
+        <source>Raw search in all fields</source>
+        <target state="translated">Rå søgning i alle felter</target>
+      </trans-unit>
+      <trans-unit id="advancedQuery" approved="yes">
+        <source>Advanced query</source>
+        <target state="translated">Avanceret forespørgsel</target>
+      </trans-unit>
+      <trans-unit id="selectRecords" approved="yes">
+        <source>Select records</source>
+        <target state="translated">Vælg elementer</target>
+      </trans-unit>
+      <trans-unit id="countResults" approved="yes">
+        <source>Count results</source>
+        <target state="translated">Tæl resultater</target>
+      </trans-unit>
+      <trans-unit id="explainQuery" approved="yes">
+        <source>Explain query</source>
+        <target state="translated">Forklar forespørgsel</target>
+      </trans-unit>
+      <trans-unit id="csvExport" approved="yes">
+        <source>CSV Export</source>
+        <target state="translated">CSV-eksport</target>
+      </trans-unit>
+      <trans-unit id="xmlExport" approved="yes">
+        <source>XML Export</source>
+        <target state="translated">XML-eksport</target>
+      </trans-unit>
+      <trans-unit id="clickToUpdateRefIndex" approved="yes">
+        <source>Click here to update reference index</source>
+        <target state="translated">Klik her for at opdatere referenceindeks</target>
+      </trans-unit>
+      <trans-unit id="updateNow" approved="yes">
+        <source>Update now!</source>
+        <target state="translated">Opdatér nu!</target>
+      </trans-unit>
+      <trans-unit id="clickToTestRefIndex" approved="yes">
+        <source>Click here to test reference index</source>
+        <target state="translated">Klik her for at teste referenceindeks</target>
+      </trans-unit>
+      <trans-unit id="referenceIndex_description" approved="yes">
+        <source>TYPO3's reference index keeps track of the relations between records. As it can happen that the reference index contains outdated values, you can check and update it here.</source>
+        <target state="translated">TYPO3's referenceindeks holder styr på relationerne mellem poster. Da det kan ske at referenceindekset indheholder forældede værdier, så kan du tjekke og opdatere det her.</target>
+      </trans-unit>
+      <trans-unit id="referenceIndex_buttonUpdate" approved="yes">
+        <source>Update reference index</source>
+        <target state="translated">Opdatér referenceindeks</target>
+      </trans-unit>
+      <trans-unit id="referenceIndex_buttonCheck" approved="yes">
+        <source>Check reference index</source>
+        <target state="translated">Tjek referenceindeks</target>
+      </trans-unit>
+      <trans-unit id="checkNow" approved="yes">
+        <source>Check now!</source>
+        <target state="translated">Kontroller nu!</target>
+      </trans-unit>
+      <trans-unit id="checkScript_headline" approved="yes">
+        <source>Using the command line interface</source>
+        <target state="translated">Brug kommandolinje grænseflade</target>
+      </trans-unit>
+      <trans-unit id="checkScript" approved="yes">
+        <source>You can also run the check as a shell script using CLI if the processing takes longer than the PHP max_execution_time allows.</source>
+        <target state="translated">Du kan også udføre kontrollen gennem et schell-script ved brug af CLI, hvis processen tager længere tid en PHP max_execution_time tillader.</target>
+      </trans-unit>
+      <trans-unit id="checkScript_check_description" approved="yes">
+        <source>To check the reference index use</source>
+        <target state="translated">For at tjekke referenceindekset anvendes:</target>
+      </trans-unit>
+      <trans-unit id="checkScript_update_description" approved="yes">
+        <source>To update the reference index use</source>
+        <target state="translated">For at opdatere referenceindeks brug</target>
+      </trans-unit>
+      <trans-unit id="checkScript_moreDetails" approved="yes">
+        <source>For more details see</source>
+        <target state="translated">For flere detaljer, se</target>
+      </trans-unit>
+      <trans-unit id="updateRefIndex" approved="yes">
+        <source>Update reference index</source>
+        <target state="translated">Opdater referenceindeks</target>
+      </trans-unit>
+      <trans-unit id="showSQL" approved="yes">
+        <source>Show SQL parts</source>
+        <target state="translated">Vis SQL-dele</target>
+      </trans-unit>
+      <trans-unit id="useFormattedStrings" approved="yes">
+        <source>Use formatted strings, labels and dates instead of original values for results</source>
+        <target state="translated">Brug formatterede strenge, mærkater og datoer i stedet for originale værdier for resultater</target>
+      </trans-unit>
+      <trans-unit id="dontUseOrigValues" approved="yes">
+        <source>Don't use original values in brackets as prefix for labelled results</source>
+        <target state="translated">Benyt ikke originale værdier i kantede parenteser som præfiks for resultater med mærkater</target>
+      </trans-unit>
+      <trans-unit id="sortOptions" approved="yes">
+        <source>Sort selectbox-options for relations by label and not by value</source>
+        <target state="translated">Sortér valgboks-muligheder for relationer efter mærkat og ikke efter værdi</target>
+      </trans-unit>
+      <trans-unit id="showDeleted" approved="yes">
+        <source>Show even deleted entries (with undelete buttons)</source>
+        <target state="translated">Vis også slettede poster (med fortryd-slet-knapper)</target>
+      </trans-unit>
+      <trans-unit id="searchOptions" approved="yes">
+        <source>Search options</source>
+        <target state="translated">Søgemuligheder</target>
+      </trans-unit>
+      <trans-unit id="result" approved="yes">
+        <source>Result</source>
+        <target state="translated">Resultat</target>
+      </trans-unit>
+      <trans-unit id="tables" approved="yes">
+        <source>Tables</source>
+        <target state="translated">Tabeller</target>
+      </trans-unit>
+      <trans-unit id="references" approved="yes">
+        <source>references</source>
+        <target state="translated">referencer:</target>
+      </trans-unit>
+      <trans-unit id="isMissing" approved="yes">
+        <source>is missing!</source>
+        <target state="translated">mangler!</target>
+      </trans-unit>
+      <trans-unit id="referencedFrom" approved="yes">
+        <source>Referenced from</source>
+        <target state="translated">Refereret fra</target>
+      </trans-unit>
+      <trans-unit id="enterRegexPattern" approved="yes">
+        <source>Enter regex pattern</source>
+        <target state="translated">Indtast regex-mønster</target>
+      </trans-unit>
+      <trans-unit id="searchButton" approved="yes">
+        <source>Search</source>
+        <target state="translated">Søg</target>
+      </trans-unit>
+      <trans-unit id="pattern" approved="yes">
+        <source>Pattern</source>
+        <target state="translated">Mønster</target>
+      </trans-unit>
+      <trans-unit id="beingChecked" approved="yes">
+        <source>being checked...</source>
+        <target state="translated">bliver tjekket...</target>
+      </trans-unit>
+      <trans-unit id="directories" approved="yes">
+        <source>Dirs</source>
+        <target state="translated">Mapper</target>
+      </trans-unit>
+      <trans-unit id="directoriesTooDeep" approved="yes">
+        <source>ERROR: Directories deeper than the following number of levels</source>
+        <target state="translated">FEJL: Mapper dybere end det følgende antal niveauer</target>
+      </trans-unit>
+      <trans-unit id="files" approved="yes">
+        <source>Files</source>
+        <target state="translated">Filer</target>
+      </trans-unit>
+      <trans-unit id="matchingFiles" approved="yes">
+        <source>Matching files</source>
+        <target state="translated">Matchende filer</target>
+      </trans-unit>
+      <trans-unit id="notChecked" approved="yes">
+        <source>not checked.</source>
+        <target state="translated">ikke tjekket.</target>
+      </trans-unit>
+      <trans-unit id="searchingForFilenames" approved="yes">
+        <source>Searching for filenames</source>
+        <target state="translated">Søger efter filnavne</target>
+      </trans-unit>
+      <trans-unit id="fixLostRecord" approved="yes">
+        <source>Click to move this lost record to rootlevel (pid=0)</source>
+        <target state="translated">Klik for at flytte dette element til rodniveau (pid=0)</target>
+      </trans-unit>
+      <trans-unit id="doktype" approved="yes">
+        <source>Document types</source>
+        <target state="translated">Dokumenttyper</target>
+      </trans-unit>
+      <trans-unit id="doktype_value" approved="yes">
+        <source>Document types (value)</source>
+        <target state="translated">Dokumenttyper (værdi)</target>
+      </trans-unit>
+      <trans-unit id="pages" approved="yes">
+        <source>Pages</source>
+        <target state="translated">Sider</target>
+      </trans-unit>
+      <trans-unit id="total_pages" approved="yes">
+        <source>Total number of default language pages</source>
+        <target state="translated">Totale antal sider med standard sprog</target>
+      </trans-unit>
+      <trans-unit id="translated_pages" approved="yes">
+        <source>Total number of translated pages</source>
+        <target state="translated">Totale antal oversatte sider</target>
+      </trans-unit>
+      <trans-unit id="deleted_pages" approved="yes">
+        <source>Marked-deleted pages</source>
+        <target state="translated">Sider der er markeret slettet</target>
+      </trans-unit>
+      <trans-unit id="hidden_pages" approved="yes">
+        <source>Hidden pages</source>
+        <target state="translated">Skjulte sider</target>
+      </trans-unit>
+      <trans-unit id="count" approved="yes">
+        <source>Count</source>
+        <target state="translated">Tæl</target>
+      </trans-unit>
+      <trans-unit id="label" approved="yes">
+        <source>Label</source>
+        <target state="translated">Etiket</target>
+      </trans-unit>
+      <trans-unit id="tablename" approved="yes">
+        <source>Table name</source>
+        <target state="translated">Tabelnavn</target>
+      </trans-unit>
+      <trans-unit id="total_lost" approved="yes">
+        <source>Records total / lost</source>
+        <target state="translated">Poster i alt / tabte</target>
+      </trans-unit>
+      <trans-unit id="relations" approved="yes">
+        <source>Relations</source>
+        <target state="translated">Relationer</target>
+      </trans-unit>
+      <trans-unit id="relations_description" approved="yes">
+        <source>This will analyze the content of the tables and check if there are 'empty' relations between records or if files are missing from their expected position.</source>
+        <target state="translated">Dette vil analysere indholdet af databasetabeller og undersøge om der er "tomme" relationer mellem poster eller om der er filer der er manglende fra deres forventede position.</target>
+      </trans-unit>
+      <trans-unit id="files_many_ref" approved="yes">
+        <source>Files referenced from more than one record</source>
+        <target state="translated">Filer der har reference til mere end ét element</target>
+      </trans-unit>
+      <trans-unit id="no_files_found" approved="yes">
+        <source>No files found.</source>
+        <target state="translated">Ingen filer fundet.</target>
+      </trans-unit>
+      <trans-unit id="files_no_ref" approved="yes">
+        <source>Files with no references at all (delete them!)</source>
+        <target state="translated">Filer med ingen referencer (slet dem!)</target>
+      </trans-unit>
+      <trans-unit id="files_no_file" approved="yes">
+        <source>Missing files</source>
+        <target state="translated">Manglede filer</target>
+      </trans-unit>
+      <trans-unit id="select_db" approved="yes">
+        <source>Select fields</source>
+        <target state="translated">Valgte felter</target>
+      </trans-unit>
+      <trans-unit id="group_db" approved="yes">
+        <source>Group fields</source>
+        <target state="translated">Gruppefelter</target>
+      </trans-unit>
+      <trans-unit id="tree" approved="yes">
+        <source>The Page Tree</source>
+        <target state="translated">Sidetræet:</target>
+      </trans-unit>
+      <trans-unit id="tree_description" approved="yes">
+        <source>This shows all pages in the system in one large tree. Beware that this will probably result in a very long document which will also take some time for the server to compute!</source>
+        <target state="translated">Dette vil vise alle sider i systemet i et stort sidetræ. Vær opmærksom på at det kan resultere i et meget langt dokument og at det dermed også kan tage noget tid for serveren at generere siden!</target>
+      </trans-unit>
+      <trans-unit id="records" approved="yes">
+        <source>Records Statistics</source>
+        <target state="translated">Statistik over elementer</target>
+      </trans-unit>
+      <trans-unit id="records_description" approved="yes">
+        <source>This shows some statistics for the records in the database. This runs through the entire page-tree and therefore it will also load the server heavily!</source>
+        <target state="translated">Her vises statistik over elementer i databasen. Funktionen gennemgår hele sidetræet og det kan medføre høj server belastning!</target>
+      </trans-unit>
+      <trans-unit id="search_whole_database" approved="yes">
+        <source>Search whole Database</source>
+        <target state="translated">Søg hele databasen</target>
+      </trans-unit>
+      <trans-unit id="search_description" approved="yes">
+        <source>This searches through all database tables and records for a text string.</source>
+        <target state="translated">Dette søger i alle databasetabeller og elementer efter en tekststreng.</target>
+      </trans-unit>
+      <trans-unit id="filesearch" approved="yes">
+        <source>Search all filenames for pattern</source>
+        <target state="translated">Søg i alle filnavne for mønster</target>
+      </trans-unit>
+      <trans-unit id="filesearch_description" approved="yes">
+        <source>Will search recursively for filenames inside sub directories of the public web folder (PublicPath) matching a certain regex pattern.</source>
+        <target state="translated">Søger rekursivt efter filnavne i PATH_site (undermapper til website stien) som matcher et bestemt regulært udtryk.</target>
+      </trans-unit>
+      <trans-unit id="refindex" approved="yes">
+        <source>Check and update global reference index</source>
+        <target state="translated">Tjek og opdatér globalt referenceindeks</target>
+      </trans-unit>
+      <trans-unit id="refindex_description" approved="yes">
+        <source>Allows you to maintain the reference index kept by TYPO3.</source>
+        <target state="translated">Giver adgang til at opdatere TYPO3's referenceindeks.</target>
+      </trans-unit>
+      <trans-unit id="title" approved="yes">
+        <source>Database integrity check</source>
+        <target state="translated">Database-integritetstjek</target>
       </trans-unit>
     </body>
   </file>
