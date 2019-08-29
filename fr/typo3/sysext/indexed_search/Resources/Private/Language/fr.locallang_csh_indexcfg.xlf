@@ -23,14 +23,41 @@
         <source>Notice; Disabling the indexing process will not hide already indexed content in search results!</source>
         <target state="translated">Remarque : Désactiver le processus d'indexation ne permettra pas de faire disparaitre immédiatement votre contenu indexé dans les pages de résultat !</target>
       </trans-unit>
+      <trans-unit id="_hidden.seeAlso" approved="yes">
+        <source>index_config:starttime</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:starttime</target>
+      </trans-unit>
+      <trans-unit id="_starttime.seeAlso" approved="yes">
+        <source>index_config:hidden</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:hidden</target>
+      </trans-unit>
       <trans-unit id="timer_frequency.description" approved="yes">
         <source>Use this setting to adjust how often you would like a re-indexing process to run for the configuration.</source>
         <target state="translated">utiliser ces paramètres pour ajuster la fréquence d’exécution de votre processus de ré-indexation</target>
       </trans-unit>
+      <trans-unit id="_timer_frequency.seeAlso" xml:space="preserve" approved="yes">
+				<source>index_config:timer_next_indexing,
+index_config:timer_offset</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">index_config:timer_next_indexing,
+index_config:timer_offset</target></trans-unit>
       <trans-unit id="timer_offset.description" approved="yes">
         <source>The offset adjusts at what time of day you want the indexing process to run.</source>
         <target state="translated">Ce paramètre ajuste à quelle heure de la journée vous souhaitez lancer le processus d'indexation</target>
       </trans-unit>
+      <trans-unit id="_timer_offset.seeAlso" approved="yes">
+        <source>index_config:timer_frequency</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:timer_frequency</target>
+      </trans-unit>
+      <trans-unit id="_timer_next_indexing.seeAlso" xml:space="preserve" approved="yes">
+				<source>index_config:timer_offset,
+index_config:timer_frequency</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">index_config:timer_offset,
+index_config:timer_frequency</target></trans-unit>
       <trans-unit id="type.description" approved="yes">
         <source>Select the type of Indexing Configuration here.</source>
         <target state="translated">Sélectionner le type de configuration d'indexation ici</target>
@@ -38,6 +65,11 @@
       <trans-unit id="table2index.description" approved="yes">
         <source>Specify the database table to index records from.</source>
         <target state="translated">Spécifier les tables de la base de données à indexer</target>
+      </trans-unit>
+      <trans-unit id="_alternative_source_pid.seeAlso" approved="yes">
+        <source>index_config:table2index</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:table2index</target>
       </trans-unit>
       <trans-unit id="get_params.description" approved="yes">
         <source>Enter the GET parameters necessary to display the search results. You can use ###UID### as a marker in the parameter template.</source>
@@ -48,6 +80,11 @@
 Example value: "&amp;showUid=###UID###"</source>
 			<target state="translated">Remarque: Les paramètres GET sont ajoutés à l'URL de la page où la configuration d'indexation est stockée (qui doit être la page où existe un plugin qui peut afficher les enregistrements avec les paramètres donnés!).
 Exemple: "&amp;showUid=###UID###"</target></trans-unit>
+      <trans-unit id="_get_params.seeAlso" approved="yes">
+        <source>index_config:table2index</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:table2index</target>
+      </trans-unit>
       <trans-unit id="fieldlist.description" approved="yes">
         <source>Enter a comma-list of fields to be indexed. The first field name will be used for the search result title.</source>
         <target state="translated">Entrer une liste des champs à indexer, séparés par des virgules. Le nom du premier champ sera utilisé pour le titre du résultat de la recherche.</target>
@@ -56,13 +93,33 @@ Exemple: "&amp;showUid=###UID###"</target></trans-unit>
         <source>&lt;b&gt;Example:&lt;/b&gt; "header,bodytext,image_caption" would index the Header, Bodytext and Image Caption fields from "tt_content". Notice that you must use the real database field names, don't spell them wrong!</source>
         <target state="translated">&lt;B&gt; Exemple: &lt;/ b&gt; "header,bodytext,image_caption" indexerait les champs Header, Bodytext et Image Caption de "tt_content". Notez que vous devez utiliser les noms de champs de la base de données réelle, ne vous trompez pas dans leur écriture!</target>
       </trans-unit>
+      <trans-unit id="_fieldlist.seeAlso" approved="yes">
+        <source>index_config:table2index</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:table2index</target>
+      </trans-unit>
       <trans-unit id="recordsbatch.description" approved="yes">
         <source>Enter how many records to index for each instance of the indexing process (how many per minute). Default is 100 records.</source>
         <target state="translated">Entrer le nombre d'enregistrement à indexer à chaque instance d'indexation (nombre par minute). Par défaut, le nombre est de 100 enregistrements.</target>
       </trans-unit>
+      <trans-unit id="_recordsbatch.seeAlso" approved="yes">
+        <source>index_config:table2index</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:table2index</target>
+      </trans-unit>
+      <trans-unit id="_records_indexonchange.seeAlso" approved="yes">
+        <source>index_config:table2index</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:table2index</target>
+      </trans-unit>
       <trans-unit id="externalUrl.description" approved="yes">
         <source>Enter the URL of the external website you want to index.</source>
         <target state="translated">Entrer l'URL du site internet externe que vous souhaitez indexer</target>
+      </trans-unit>
+      <trans-unit id="_url_deny.seeAlso" approved="yes">
+        <source>index_config:externalUrl</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:externalUrl</target>
       </trans-unit>
       <trans-unit id="filepath.details" approved="yes">
         <source>Example: "fileadmin/newsletters/"</source>
@@ -72,10 +129,21 @@ Exemple: "&amp;showUid=###UID###"</target></trans-unit>
         <source>If you want to index only specific files in the directory, enter a list of file extensions here. For example: "html,pdf,doc"</source>
         <target state="translated">SI vous souhaitez indexer seulement certains types de fichiers présent dans un dossier, entrer une liste d'extensions ici. Par exemple : "html, pdf, doc"</target>
       </trans-unit>
+      <trans-unit id="_extensions.seeAlso" approved="yes">
+        <source>index_config:filepath</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">index_config:filepath</target>
+      </trans-unit>
       <trans-unit id="depth.description" approved="yes">
         <source>Levels of recursion.</source>
         <target state="translated">Niveau de récursivité</target>
       </trans-unit>
+      <trans-unit id="_depth.seeAlso" xml:space="preserve" approved="yes">
+				<source>index_config:externalUrl,
+index_config:filepath</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">index_config:externalUrl,
+index_config:filepath</target></trans-unit>
     </body>
   </file>
 </xliff>
