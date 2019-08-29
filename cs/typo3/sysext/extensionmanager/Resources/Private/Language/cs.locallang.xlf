@@ -131,6 +131,10 @@
         <source>Update</source>
         <target state="translated">Aktualizace</target>
       </trans-unit>
+      <trans-unit id="extensionList.header.activate" approved="yes">
+        <source>A/D</source>
+        <target state="translated">A/D</target>
+      </trans-unit>
       <trans-unit id="extensionList.header.title.activate" approved="yes">
         <source>Activate / Deactivate</source>
         <target state="translated">Aktivovat / Deaktivovat</target>
@@ -328,6 +332,10 @@
         <source>Your download of {0} was successful.</source>
         <target state="translated">Vaše stažení {0} bylo úspěšné.</target>
       </trans-unit>
+      <trans-unit id="extensionList.dependenciesResolveDownloadSuccess.header" approved="yes">
+        <source>Log</source>
+        <target state="translated">Log</target>
+      </trans-unit>
       <trans-unit id="extensionList.dependenciesResolveDownloadSuccess.item" approved="yes">
         <source>Extensions</source>
         <target state="translated">Rozšíření</target>
@@ -520,9 +528,17 @@
         <source>The Main Repository extension list is older than 7 days. Please update it in the Extension manager or Scheduler.</source>
         <target state="translated">Seznam rozšíření hlavního úložiště je starší než 7 dní. Prosím aktualizujte jej ve Správci rozšíření nebo v Plánovači.</target>
       </trans-unit>
+      <trans-unit id="report.status.mainRepository.upToDate.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
+      </trans-unit>
       <trans-unit id="report.status.loadedExtensions.title" approved="yes">
         <source>Security status of loaded extensions</source>
         <target state="translated">Stav zabezpečení načtených rozšíření</target>
+      </trans-unit>
+      <trans-unit id="report.status.loadedExtensions.noInsecureExtensionLoaded.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
       </trans-unit>
       <trans-unit id="report.status.loadedExtensions.insecureExtensionLoaded.value" approved="yes">
         <source>%s insecure extension(s) found</source>
@@ -540,6 +556,10 @@
         <source>Security status of existing, but not loaded extensions</source>
         <target state="translated">Stav zabezpečení stávajících, ale nezavedených rozšíření</target>
       </trans-unit>
+      <trans-unit id="report.status.existingExtensions.noInsecureExtensionExists.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
+      </trans-unit>
       <trans-unit id="report.status.existingExtensions.insecureExtensionExists.value" approved="yes">
         <source>%s insecure extension(s) found</source>
         <target state="translated">%s nebezpečných rozšíření nalezeno</target>
@@ -556,6 +576,10 @@
         <source>Outdated status of loaded extensions</source>
         <target state="translated">Zastaralý stav načtených rozšíření</target>
       </trans-unit>
+      <trans-unit id="report.status.loadedOutdatedExtensions.noOutdatedExtensionLoaded.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
+      </trans-unit>
       <trans-unit id="report.status.loadedOutdatedExtensions.outdatedExtensionLoaded.value" approved="yes">
         <source>%s outdated extension(s) found</source>
         <target state="translated">%s zastaralých rozšíření nalezeno</target>
@@ -571,6 +595,10 @@
       <trans-unit id="report.status.existingOutdatedExtensions.title" approved="yes">
         <source>Outdated status of existing, but not loaded extensions</source>
         <target state="translated">Zastaralý stav existujících, avšak nenačtených rozšíření</target>
+      </trans-unit>
+      <trans-unit id="report.status.existingOutdatedExtensions.noOutdatedExtensionExists.value" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
       </trans-unit>
       <trans-unit id="report.status.existingOutdatedExtensions.outdatedExtensionExists.value" approved="yes">
         <source>%s outdated extension(s) found</source>
