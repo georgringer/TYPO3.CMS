@@ -43,6 +43,11 @@
         <source>Either a domain name, "www.typo3.org" or an IP address, "10.34.222.83"</source>
         <target state="translated">Enten et domænenavn, "www.typo3.org" eller en IP adresse, "10.34.222.83".</target>
       </trans-unit>
+      <trans-unit id="_lockToDomain.seeAlso" approved="yes">
+        <source>fe_groups:lockToDomain</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_groups:lockToDomain</target>
+      </trans-unit>
       <trans-unit id="name.description" approved="yes">
         <source>Enter the regular name of the user, both first- and surname.</source>
         <target state="translated">Indtast brugerens navn, både fornavn og efternavn.</target>
@@ -71,6 +76,11 @@
         <source>This option will temporarily disable the user from logging in.</source>
         <target state="translated">Denne valgmulighed vil midlertidig forhindre brugeren i at logge ind.</target>
       </trans-unit>
+      <trans-unit id="_disable.seeAlso" approved="yes">
+        <source>fe_users:starttime,fe_users:endtime</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_users:starttime,fe_users:endtime</target>
+      </trans-unit>
       <trans-unit id="starttime.description" approved="yes">
         <source>Enter the date from which the account is active.</source>
         <target state="translated">Indtast dato for hvornår kontoen skal starte med at være aktiv.</target>
@@ -79,6 +89,11 @@
 				<source>The syntax is dd-mm-yy, but you can just enter a "d" in the field to insert todays date. Or "d+10" to insert the date 10 days from now etc.
 The field will re-format any input to fit the format it understands so you can just experiment and you will be able to clearly see how dates should be entered.</source>
 			<target state="translated">Syntaksen er dd-mm-åå, men du kan bare indtaste et "d" for at skrive dagen 'i dag'. Eller "d+10" for at indsætte datoen 10 dage senere end i dag osv. Feltet vil automatisk ændre input til et format som det forstår, så du kan eksperimentere med det og således se hvordan datoer kan indtastes.</target></trans-unit>
+      <trans-unit id="_starttime.seeAlso" approved="yes">
+        <source>fe_users:disable,fe_users:endtime</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_users:disable,fe_users:endtime</target>
+      </trans-unit>
       <trans-unit id="endtime.description" approved="yes">
         <source>Enter the date from which the account is disabled.</source>
         <target state="translated">Indtast datoen for hvornår kontoen er deaktiveret.</target>
@@ -86,6 +101,11 @@ The field will re-format any input to fit the format it understands so you can j
       <trans-unit id="endtime.syntax" approved="yes">
         <source>See "Start"</source>
         <target state="translated">Se "start".</target>
+      </trans-unit>
+      <trans-unit id="_endtime.seeAlso" approved="yes">
+        <source>fe_users:disable,fe_users:starttime</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_users:disable,fe_users:starttime</target>
       </trans-unit>
       <trans-unit id="lastlogin.description" approved="yes">
         <source>This field shows the user's last log in date.</source>
@@ -170,6 +190,17 @@ be_groups:TSconfig</target></trans-unit>
         <source>These are users with a username and password who are allowed specific access to otherwise restricted areas on your website.</source>
         <target state="translated">Der er brugere med et brugernavn og password som har tilladelse til specifikke områder der ellers er begrænsede områder på dit websted.</target>
       </trans-unit>
+      <trans-unit id="_.seeAlso" xml:space="preserve" approved="yes">
+				<source>fe_groups
+be_users</source>
+			<target state="translated">fe_groups
+be_users</target></trans-unit>
+      <trans-unit id="_.image" xml:space="preserve" approved="yes">
+				<source>EXT:frontend/Resources/Public/Images/cshimages/feusers_1.png,
+EXT:frontend/Resources/Public/Images/cshimages/feusers_2.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:frontend/Resources/Public/Images/cshimages/feusers_1.png,
+EXT:frontend/Resources/Public/Images/cshimages/feusers_2.png,</target></trans-unit>
       <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
 				<source>Part of the form for editing a frontend user.
 A typical login box (standard) on the website where frontend users can login.</source>
