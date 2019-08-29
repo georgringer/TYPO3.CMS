@@ -22,9 +22,19 @@ More about File mounts | https://docs.typo3.org/typo3cms/InsideTypo3Reference/Co
 			<target state="translated">be_groups:file_mountpoints,
 be_users:file_mountpoints,
 Mere om fil mounts | https://docs.typo3.org/typo3cms/InsideTypo3Reference/CoreArchitecture/AccessControl/MoreAboutFileMounts/</target></trans-unit>
+      <trans-unit id="_.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/filemount_1.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/filemount_1.png</target>
+      </trans-unit>
       <trans-unit id="title.description" approved="yes">
         <source>Enter a title for the filemount. The title will appear as the name of the file mount when it is applied to users and groups.</source>
         <target state="translated">Indtast en titel på filmonteringspunktet. Titlen vises som navnet på filmonteringspunktet, når det tildeles brugere og brugergrupper.</target>
+      </trans-unit>
+      <trans-unit id="_title.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/be_groups_5.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/be_groups_5.png</target>
       </trans-unit>
       <trans-unit id="path.description" approved="yes">
         <source>Enter the path of the filemount, relative or absolute depending on the settings of BASE.</source>
@@ -45,6 +55,20 @@ Hvis BASE er absolut, skal du skrive den absolute sti, f.eks. "/home/ftp_upload"
 Hvis du har problemer med absolutte stier - prøv at montere noget simpelt som en relativ sti til "fileadmin/". Hvis det fungerer så prøv den absolutte sti.
 
 Din PHP konfiguration kan også indeholde andre restriktioner, såsom safe_mode eller open_basedir. I de tilfælde benyt da relative stier.</target></trans-unit>
+      <trans-unit id="_path.seeAlso" xml:space="preserve" approved="yes">
+				<source>sys_filemounts:base,
+be_groups:file_mountpoints,
+sys_filemounts</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">sys_filemounts:base,
+be_groups:file_mountpoints,
+sys_filemounts</target></trans-unit>
+      <trans-unit id="_path.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/be_groups_6.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_7.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/be_groups_6.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_7.png</target></trans-unit>
       <trans-unit id="path.image_descr" xml:space="preserve" approved="yes">
 				<source>This is a filemount relative to "fileadmin/". The mounted folder is "fileadmin/user_upload/" since "user_upload" is the value of the "Path" field.
 The directory structure of "fileadmin/" where you can see the "user_upload" folder in the bottom of the list.</source>
@@ -61,6 +85,11 @@ Biblioteksstrukturen af "fileadmin/" hvor du kan se "user_upload" biblioteket i 
       <trans-unit id="base.description" approved="yes">
         <source>Determines whether the value of the PATH field is to be recognized as an absolute path on the server or a path relative to the fileadmin/ subfolder to the website.</source>
         <target state="translated">Afgør om værdien PATH genkendes som en absolut sti på serveren eller som en relativ sti til "fileadmin/" underbiblioteket på websitet.</target>
+      </trans-unit>
+      <trans-unit id="_base.seeAlso" approved="yes">
+        <source>sys_filemounts:path</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">sys_filemounts:path</target>
       </trans-unit>
       <trans-unit id="read_only.description" approved="yes">
         <source>Display this file mount as read-only.</source>
