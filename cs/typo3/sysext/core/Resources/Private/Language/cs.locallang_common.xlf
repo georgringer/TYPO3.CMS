@@ -19,9 +19,9 @@
         <source>Back</source>
         <target state="translated">Zpět</target>
       </trans-unit>
-      <trans-unit id="byteSizeUnits">
+      <trans-unit id="byteSizeUnits" approved="yes">
         <source> B| KB| MB| GB</source>
-        <target state="needs-translation"> </target>
+        <target state="translated"> B| KB| MB| GB</target>
       </trans-unit>
       <trans-unit id="cancel" approved="yes">
         <source>Cancel</source>
@@ -159,6 +159,10 @@
         <source>No</source>
         <target state="translated">Ne</target>
       </trans-unit>
+      <trans-unit id="ok" approved="yes">
+        <source>OK</source>
+        <target state="translated">OK</target>
+      </trans-unit>
       <trans-unit id="open" approved="yes">
         <source>Open</source>
         <target state="translated">Otevřít</target>
@@ -214,6 +218,14 @@
       <trans-unit id="send" approved="yes">
         <source>Send</source>
         <target state="translated">Poslat</target>
+      </trans-unit>
+      <trans-unit id="start" approved="yes">
+        <source>Start</source>
+        <target state="translated">Start</target>
+      </trans-unit>
+      <trans-unit id="stop" approved="yes">
+        <source>Stop</source>
+        <target state="translated">Stop</target>
       </trans-unit>
       <trans-unit id="submit" approved="yes">
         <source>Submit</source>
