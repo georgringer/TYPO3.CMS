@@ -43,6 +43,11 @@
         <source>Either a domain name, "www.typo3.org" or an IP address, "10.34.222.83"</source>
         <target state="translated">Entweder ein Domänenname wie "www.typo3.com" oder eine IP-Adresse wie "10.20.7.70".</target>
       </trans-unit>
+      <trans-unit id="_lockToDomain.seeAlso" approved="yes">
+        <source>fe_groups:lockToDomain</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_groups:lockToDomain</target>
+      </trans-unit>
       <trans-unit id="name.description" approved="yes">
         <source>Enter the regular name of the user, both first- and surname.</source>
         <target state="translated">Geben Sie den vollständigen Klarnamen des Benutzers an (Vor- und Nachname).</target>
@@ -71,6 +76,11 @@
         <source>This option will temporarily disable the user from logging in.</source>
         <target state="translated">Mit dieser Option können Sie dem Benutzer zeitweise das Anmelderecht entziehen, er kann sich dann also nicht mehr an der Website anmelden.</target>
       </trans-unit>
+      <trans-unit id="_disable.seeAlso" approved="yes">
+        <source>fe_users:starttime,fe_users:endtime</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_users:starttime,fe_users:endtime</target>
+      </trans-unit>
       <trans-unit id="starttime.description" approved="yes">
         <source>Enter the date from which the account is active.</source>
         <target state="translated">Geben Sie einen Zeitpunkt an, ab welchem das Benutzerkonto gültig sein soll.</target>
@@ -79,6 +89,11 @@
 				<source>The syntax is dd-mm-yy, but you can just enter a "d" in the field to insert todays date. Or "d+10" to insert the date 10 days from now etc.
 The field will re-format any input to fit the format it understands so you can just experiment and you will be able to clearly see how dates should be entered.</source>
 			<target state="translated">Die Syntax für Datumsangaben entspricht dem Muster "dd-mm-yy", Sie können aber auch einfach "d" für das aktuelle Datum oder "d+10" für ein Datum 10 Tage ab heute eingeben. Die eingegebenen Datumswerte werden sofort reformatiert, damit TYPO3 die Zeitangaben auch verarbeiten kann. Experimentieren Sie einfach ein bisschen, um zu verstehen, wie TYPO3 Ihre Angaben interpretiert.</target></trans-unit>
+      <trans-unit id="_starttime.seeAlso" approved="yes">
+        <source>fe_users:disable,fe_users:endtime</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_users:disable,fe_users:endtime</target>
+      </trans-unit>
       <trans-unit id="endtime.description" approved="yes">
         <source>Enter the date from which the account is disabled.</source>
         <target state="translated">Geben Sie ein Zeitpunkt an, ab welchem das Benutzerkonto ungültig (deaktiviert) sein soll.</target>
@@ -86,6 +101,11 @@ The field will re-format any input to fit the format it understands so you can j
       <trans-unit id="endtime.syntax" approved="yes">
         <source>See "Start"</source>
         <target state="translated">Siehe "Start".</target>
+      </trans-unit>
+      <trans-unit id="_endtime.seeAlso" approved="yes">
+        <source>fe_users:disable,fe_users:starttime</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">fe_users:disable,fe_users:starttime</target>
       </trans-unit>
       <trans-unit id="lastlogin.description" approved="yes">
         <source>This field shows the user's last log in date.</source>
@@ -173,6 +193,12 @@ be_groups:TSconfig</target></trans-unit>
 				<source>fe_groups
 be_users</source>
 			<target state="translated">fe_groups be_users</target></trans-unit>
+      <trans-unit id="_.image" xml:space="preserve" approved="yes">
+				<source>EXT:frontend/Resources/Public/Images/cshimages/feusers_1.png,
+EXT:frontend/Resources/Public/Images/cshimages/feusers_2.png,</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:frontend/Resources/Public/Images/cshimages/feusers_1.png,
+EXT:frontend/Resources/Public/Images/cshimages/feusers_2.png,</target></trans-unit>
       <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
 				<source>Part of the form for editing a frontend user.
 A typical login box (standard) on the website where frontend users can login.</source>
