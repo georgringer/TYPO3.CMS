@@ -20,9 +20,19 @@ More about File mounts | https://docs.typo3.org/typo3cms/InsideTypo3Reference/Co
 			<target state="translated">be_groups:file_mountpoints,
 be_users:file_mountpoints,
 More about File mounts | http://typo3.org/documentation/document-library/doc_core_inside/More_about_File_Moun/</target></trans-unit>
+      <trans-unit id="_.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/filemount_1.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/filemount_1.png</target>
+      </trans-unit>
       <trans-unit id="title.description" approved="yes">
         <source>Enter a title for the filemount. The title will appear as the name of the file mount when it is applied to users and groups.</source>
         <target state="translated">Введите название точки доступа к файлам. Это название будет использоваться как название точки доступа к файлам, в отношении пользователей и их групп.</target>
+      </trans-unit>
+      <trans-unit id="_title.image" approved="yes">
+        <source>EXT:core/Resources/Public/Images/cshimages/be_groups_5.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">EXT:core/Resources/Public/Images/cshimages/be_groups_5.png</target>
       </trans-unit>
       <trans-unit id="path.description" approved="yes">
         <source>Enter the path of the filemount, relative or absolute depending on the settings of BASE.</source>
@@ -37,6 +47,20 @@ If you have problems - especially with absolute mounts - try to mount something 
 
 Your PHP-configuration may also impose other restrictions on you if open_basedir is enabled. Then use relative paths.</source>
 			<target state="translated">Если установлена относительная БАЗА, путь к точке доступа находится в подпапке сайта "fileadmin/". При этом нужно указать в качестве пути подпапку в папке "fileadmin/". Например, если нужно установить доступ к "fileadmin/user_uploads/all/", значени ПУТИ должно быть "user_uploads/all". Если установлена абсолютная БАЗА, нужно вводить абсолютный путь на сервере, например "/home/ftp_upload" или "C:/home/ftp_upload". В любом случае, нужно убедиться, что переменная настроек $TYPO3_CONF_VARS[BE][lockRootPath] содержить первую часть устанавливаемого пути. &lt;strong&gt;Примечание:&lt;/strong&gt; в любом случае, нужно убедиться, что пользователь сервера, от которого работает PHP, имеет &lt;em&gt;хотябы&lt;/em&gt; доступ на чтение по этому пути. Если это не так, эта точка не будет доступна без вывода всяких предупреждений. При возникновении любых проблем, особенно с абсолютными путями в точках доступа, попытайтесь получить доступ к чему-нибудь попроще, например по относительному пути в директории "fileadmin". Если это сработает, попробуйте доступ по абсолютному пути. В PHP настройке могут присутствовать другие ограничения, если включены safe_mode или open_basedir. При этом используйте относительные пути.</target></trans-unit>
+      <trans-unit id="_path.seeAlso" xml:space="preserve" approved="yes">
+				<source>sys_filemounts:base,
+be_groups:file_mountpoints,
+sys_filemounts</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">sys_filemounts:base,
+be_groups:file_mountpoints,
+sys_filemounts</target></trans-unit>
+      <trans-unit id="_path.image" xml:space="preserve" approved="yes">
+				<source>EXT:core/Resources/Public/Images/cshimages/be_groups_6.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_7.png</source>
+				<note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+			<target state="translated">EXT:core/Resources/Public/Images/cshimages/be_groups_6.png,
+EXT:core/Resources/Public/Images/cshimages/be_groups_7.png</target></trans-unit>
       <trans-unit id="path.image_descr" xml:space="preserve" approved="yes">
 				<source>This is a filemount relative to "fileadmin/". The mounted folder is "fileadmin/user_upload/" since "user_upload" is the value of the "Path" field.
 The directory structure of "fileadmin/" where you can see the "user_upload" folder in the bottom of the list.</source>
@@ -52,6 +76,11 @@ The directory structure of "fileadmin/" where you can see the "user_upload" fold
       <trans-unit id="base.description" approved="yes">
         <source>Determines whether the value of the PATH field is to be recognized as an absolute path on the server or a path relative to the fileadmin/ subfolder to the website.</source>
         <target state="translated">Определяет распознание значения ПУТЬ, как абсолютного пути на сервере, или относительно директроии сайта "fileadmin/".</target>
+      </trans-unit>
+      <trans-unit id="_base.seeAlso" approved="yes">
+        <source>sys_filemounts:path</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target state="translated">sys_filemounts:path</target>
       </trans-unit>
       <trans-unit id="read_only.description" approved="yes">
         <source>Display this file mount as read-only.</source>
