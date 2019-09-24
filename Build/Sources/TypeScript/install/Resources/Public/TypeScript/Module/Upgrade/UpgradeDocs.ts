@@ -14,6 +14,7 @@
 import {AbstractInteractableModule} from '../AbstractInteractableModule';
 import * as $ from 'jquery';
 import 'bootstrap';
+import '../../Renderable/Clearable';
 import Router = require('../../Router');
 import Notification = require('TYPO3/CMS/Backend/Notification');
 
@@ -68,13 +69,13 @@ class UpgradeDocs extends AbstractInteractableModule {
     // Make jquerys "contains" work case-insensitive
     jQuery.expr[':'].contains = jQuery.expr.createPseudo((arg: any): Function => {
       return (elem: any): boolean => {
-        return jQuery(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
+        return jQuery(elem).text().toUpperCase().includes(arg.toUpperCase());
       };
     });
 
-    require(['jquery.clearable'], (): void => {
-      currentModal.find(this.selectorFulltextSearch).clearable().focus();
-    });
+    const searchInput = <HTMLInputElement>currentModal.find(this.selectorFulltextSearch).get(0);
+    searchInput.clearable();
+    searchInput.focus();
   }
 
   private getContent(): void {
@@ -142,7 +143,10 @@ class UpgradeDocs extends AbstractInteractableModule {
 
   private initializeFullTextSearch(): void {
     this.fulltextSearchField = this.findInModal(this.selectorFulltextSearch);
-    this.fulltextSearchField.clearable().focus();
+    const searchInput = <HTMLInputElement>this.fulltextSearchField.get(0);
+    searchInput.clearable();
+    searchInput.focus();
+
     this.initializeChosenSelector();
     this.fulltextSearchField.on('keyup', (): void => {
       this.combinedFilterSearch();
@@ -207,7 +211,7 @@ class UpgradeDocs extends AbstractInteractableModule {
       const andTags: Array<string> = [];
       $.each(this.chosenField.val(), (index: number, item: any): void => {
         const tagFilter = '[data-item-tags*="' + item + '"]';
-        if (item.indexOf(':') > 0) {
+        if (item.contains(':', 1)) {
           orTags.push(tagFilter);
         } else {
           andTags.push(tagFilter);

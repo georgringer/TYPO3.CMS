@@ -22,8 +22,12 @@ use TYPO3\CMS\Core\Cache\CacheManager;
 use TYPO3\CMS\Core\Cache\Frontend\FrontendInterface;
 use TYPO3\CMS\Core\Configuration\Loader\YamlFileLoader;
 use TYPO3\CMS\Core\Exception\SiteNotFoundException;
+use TYPO3\CMS\Core\Package\PackageManager;
 use TYPO3\CMS\Core\SingletonInterface;
 use TYPO3\CMS\Core\Site\Entity\Site;
+use TYPO3\CMS\Core\TypoScript\Parser\ConstantConfigurationParser;
+use TYPO3\CMS\Core\TypoScript\Parser\TypoScriptParser;
+use TYPO3\CMS\Core\Utility\ArrayUtility;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /**
@@ -83,6 +87,39 @@ class SiteConfiguration implements SingletonInterface
     }
 
     /**
+     * Creates a site configuration with one language "English" which is the de-facto default language for TYPO3 in general.
+     *
+     * @param string $identifier
+     * @param int $rootPageId
+     * @param string $base
+     */
+    public function createNewBasicSite(string $identifier, int $rootPageId, string $base): void
+    {
+        // Create a default site configuration called "main" as best practice
+        $this->write($identifier, [
+            'rootPageId' => $rootPageId,
+            'base' => $base,
+            'languages' => [
+                0 => [
+                    'title' => 'English',
+                    'enabled' => true,
+                    'languageId' => 0,
+                    'base' => '/en/',
+                    'typo3Language' => 'default',
+                    'locale' => 'en_US.UTF-8',
+                    'iso-639-1' => 'en',
+                    'navigationTitle' => 'English',
+                    'hreflang' => 'en-us',
+                    'direction' => 'ltr',
+                    'flag' => 'us',
+                ],
+            ],
+            'errorHandling' => [],
+            'routes' => [],
+        ]);
+    }
+
+    /**
      * Resolve all site objects which have been found in the filesystem.
      *
      * @return Site[]
@@ -91,10 +128,12 @@ class SiteConfiguration implements SingletonInterface
     {
         $sites = [];
         $siteConfiguration = $this->getAllSiteConfigurationFromFiles();
+        $siteSettings = $this->getAllSiteSettingsFromFiles();
+        $defaultSettings = $this->getDefaultSiteSettings();
         foreach ($siteConfiguration as $identifier => $configuration) {
             $rootPageId = (int)($configuration['rootPageId'] ?? 0);
             if ($rootPageId > 0) {
-                $sites[$identifier] = GeneralUtility::makeInstance(Site::class, $identifier, $rootPageId, $configuration);
+                $sites[$identifier] = GeneralUtility::makeInstance(Site::class, $identifier, $rootPageId, $configuration, array_replace_recursive($defaultSettings, $siteSettings[$identifier] ?? []));
             }
         }
         $this->firstLevelCache = $sites;
@@ -109,32 +148,53 @@ class SiteConfiguration implements SingletonInterface
      */
     protected function getAllSiteConfigurationFromFiles(): array
     {
-        // Check if the data is already cached
-        if ($siteConfiguration = $this->getCache()->get($this->cacheIdentifier)) {
+        return $this->getAllFromConfigFile($this->cacheIdentifier, $this->configFileName) ?? [];
+    }
+
+    /**
+     * Read the site settings from config files.
+     *
+     * @return array
+     * @throws \TYPO3\CMS\Core\Cache\Exception\NoSuchCacheException
+     */
+    protected function getAllSiteSettingsFromFiles(): array
+    {
+        return $this->getAllFromConfigFile($this->cacheIdentifier . '_settings', 'settings.yaml') ?? [];
+    }
+
+    /**
+     * @param string $entryIdentifier
+     * @param string $configFileName
+     * @return array|mixed|string|string[]|null
+     * @throws \TYPO3\CMS\Core\Cache\Exception\NoSuchCacheException
+     */
+    protected function getAllFromConfigFile(string $entryIdentifier, string $configFileName)
+    {
+        if ($siteSettings = $this->getCache()->get($entryIdentifier)) {
             // Due to the nature of PhpFrontend, the `<?php` and `#` wraps have to be removed
-            $siteConfiguration = preg_replace('/^<\?php\s*|\s*#$/', '', $siteConfiguration);
-            $siteConfiguration = json_decode($siteConfiguration, true);
+            $siteSettings = preg_replace('/^<\?php\s*|\s*#$/', '', $siteSettings);
+            $siteSettings = json_decode($siteSettings, true);
         }
 
         // Nothing in the cache (or no site found)
-        if (empty($siteConfiguration)) {
+        if (empty($siteSettings)) {
             $finder = new Finder();
             try {
-                $finder->files()->depth(0)->name($this->configFileName)->in($this->configPath . '/*');
+                $finder->files()->depth(0)->name($configFileName)->in($this->configPath . '/*');
             } catch (\InvalidArgumentException $e) {
                 // Directory $this->configPath does not exist yet
                 $finder = [];
             }
             $loader = GeneralUtility::makeInstance(YamlFileLoader::class);
-            $siteConfiguration = [];
+            $siteSettings = [];
             foreach ($finder as $fileInfo) {
                 $configuration = $loader->load(GeneralUtility::fixWindowsFilePath((string)$fileInfo));
                 $identifier = basename($fileInfo->getPath());
-                $siteConfiguration[$identifier] = $configuration;
+                $siteSettings[$identifier] = $configuration;
             }
-            $this->getCache()->set($this->cacheIdentifier, json_encode($siteConfiguration));
+            $this->getCache()->set($entryIdentifier, json_encode($siteSettings));
         }
-        return $siteConfiguration ?? [];
+        return $siteSettings;
     }
 
     /**
@@ -163,11 +223,27 @@ class SiteConfiguration implements SingletonInterface
      */
     public function write(string $siteIdentifier, array $configuration): void
     {
-        $fileName = $this->configPath . '/' . $siteIdentifier . '/' . $this->configFileName;
-        if (!file_exists($fileName)) {
-            GeneralUtility::mkdir_deep($this->configPath . '/' . $siteIdentifier);
+        $folder = $this->configPath . '/' . $siteIdentifier;
+        $fileName = $folder . '/' . $this->configFileName;
+        $newConfiguration = $configuration;
+        if (!file_exists($folder)) {
+            GeneralUtility::mkdir_deep($folder);
+        } elseif (file_exists($fileName)) {
+            $loader = GeneralUtility::makeInstance(YamlFileLoader::class);
+            // load without any processing to have the unprocessed base to modify
+            $newConfiguration = $loader->load(GeneralUtility::fixWindowsFilePath($fileName), 0);
+            // load the processed configuration to diff changed values
+            $processed = $loader->load(GeneralUtility::fixWindowsFilePath($fileName));
+            // find properties that were modified via GUI
+            $newModified = array_replace_recursive(
+                self::findRemoved($processed, $configuration),
+                self::findModified($processed, $configuration)
+            );
+            // change _only_ the modified keys, leave the original non-changed areas alone
+            ArrayUtility::mergeRecursiveWithOverrule($newConfiguration, $newModified);
         }
-        $yamlFileContents = Yaml::dump($configuration, 99, 2);
+        $newConfiguration = $this->sortConfiguration($newConfiguration);
+        $yamlFileContents = Yaml::dump($newConfiguration, 99, 2);
         GeneralUtility::writeFile($fileName, $yamlFileContents);
         $this->firstLevelCache = null;
         $this->getCache()->remove($this->cacheIdentifier);
@@ -213,6 +289,94 @@ class SiteConfiguration implements SingletonInterface
     }
 
     /**
+     * Builds settings array for display in the constant editor style GUI
+     * used for rendering the edit form
+     *
+     * @internal
+     * @param string $siteIdentifier
+     * @return array
+     * @throws \TYPO3\CMS\Core\Exception\SiteNotFoundException
+     */
+    public function getSettingsForView(string $siteIdentifier): array
+    {
+        $sites = $this->getAllExistingSites();
+        if (!isset($sites[$siteIdentifier])) {
+            throw new SiteNotFoundException('Site configuration named ' . $siteIdentifier . ' not found.', 1568366028);
+        }
+        $configurationParser = GeneralUtility::makeInstance(ConstantConfigurationParser::class);
+        $activePackages = GeneralUtility::makeInstance(PackageManager::class)->getActivePackages();
+        $extensionSettingsRaw = '';
+        foreach ($activePackages as $package) {
+            $file = $package->getPackagePath() . 'Configuration/Site/settings.typoscript';
+            if (!@is_file($file)) {
+                continue;
+            }
+            $extensionSettingsRaw .= file_get_contents($file) . LF;
+        }
+        $settings = $configurationParser->getConfigurationAsValuedArray($extensionSettingsRaw);
+        $oldSettings = ArrayUtility::flatten($sites[$siteIdentifier]->getSettings());
+        foreach ($settings as $key => $value) {
+            $settings[$key]['value'] = $oldSettings[$key];
+        }
+        return $configurationParser->prepareConfigurationForView($settings);
+    }
+
+    /**
+     * Add or update a settings.yaml file
+     *
+     * @param string $siteIdentifier
+     * @param array $settings
+     * @throws \TYPO3\CMS\Core\Cache\Exception\NoSuchCacheException
+     * @throws \TYPO3\CMS\Core\Exception\SiteNotFoundException
+     */
+    public function writeSettings(string $siteIdentifier, array $settings): void
+    {
+        $sites = $this->getAllExistingSites();
+        if (!isset($sites[$siteIdentifier])) {
+            throw new SiteNotFoundException('Site configuration named ' . $siteIdentifier . ' not found.', 1568366037);
+        }
+        $folder = $this->configPath . '/' . $siteIdentifier;
+        $fileName = $folder . '/settings.yaml';
+        $defaultSettings = $this->getDefaultSiteSettings();
+        $newSettings = $defaultSettings;
+        foreach ($settings as $key => $value) {
+            $newSettings = ArrayUtility::setValueByPath($newSettings, $key, $value, '.');
+        }
+        $newModified = array_replace_recursive(
+            self::findRemoved($defaultSettings, $newSettings),
+            self::findModified($defaultSettings, $newSettings)
+        );
+
+        $settings = array_merge_recursive($newModified, array_diff_key($sites[$siteIdentifier]->getSettings(), $newSettings));
+
+        $yamlFileContents = Yaml::dump($settings, 99, 2);
+        GeneralUtility::writeFile($fileName, $yamlFileContents);
+        $this->getCache()->remove($this->cacheIdentifier . '_settings');
+    }
+
+    /**
+     * Get default site settings as array (basic settings loaded from extensions)
+     *
+     * @return array
+     */
+    public function getDefaultSiteSettings(): array
+    {
+        $activePackages = GeneralUtility::makeInstance(PackageManager::class)->getActivePackages();
+        $extensionSettings = [[]];
+        foreach ($activePackages as $package) {
+            $file = $package->getPackagePath() . 'Configuration/Site/settings.typoscript';
+            if (!@is_file($file)) {
+                continue;
+            }
+            $extensionSettingsRaw = file_get_contents($file);
+            $typoScriptParser = GeneralUtility::makeInstance(TypoScriptParser::class);
+            $typoScriptParser->parse($extensionSettingsRaw);
+            $extensionSettings[] = GeneralUtility::removeDotsFromTS($typoScriptParser->setup);
+        }
+        return array_replace_recursive(...$extensionSettings);
+    }
+
+    /**
      * Short-hand function for the cache
      *
      * @return FrontendInterface
@@ -221,5 +385,57 @@ class SiteConfiguration implements SingletonInterface
     protected function getCache(): FrontendInterface
     {
         return GeneralUtility::makeInstance(CacheManager::class)->getCache('core');
+    }
+
+    /**
+     * @param array $newConfiguration
+     * @return array
+     */
+    protected function sortConfiguration(array $newConfiguration): array
+    {
+        ksort($newConfiguration);
+        if (isset($newConfiguration['imports'])) {
+            $imports = $newConfiguration['imports'];
+            unset($newConfiguration['imports']);
+            $newConfiguration['imports'] = $imports;
+        }
+        return $newConfiguration;
+    }
+
+    protected static function findModified(array $currentConfiguration, array $newConfiguration): array
+    {
+        $differences = [];
+        foreach ($newConfiguration as $key => $value) {
+            if (!isset($currentConfiguration[$key]) || $currentConfiguration[$key] !== $newConfiguration[$key]) {
+                if (!isset($newConfiguration[$key]) && isset($currentConfiguration[$key])) {
+                    $differences[$key] = '__UNSET';
+                } elseif (isset($currentConfiguration[$key])
+                    && is_array($newConfiguration[$key])
+                    && is_array($currentConfiguration[$key])
+                ) {
+                    $differences[$key] = self::findModified($currentConfiguration[$key], $newConfiguration[$key]);
+                } else {
+                    $differences[$key] = $value;
+                }
+            }
+        }
+        return $differences;
+    }
+
+    protected static function findRemoved(array $currentConfiguration, array $newConfiguration): array
+    {
+        $removed = [];
+        foreach ($currentConfiguration as $key => $value) {
+            if (!isset($newConfiguration[$key])) {
+                $removed[$key] = '__UNSET';
+            } elseif (isset($currentConfiguration[$key]) && is_array($currentConfiguration[$key]) && is_array($newConfiguration[$key])) {
+                $removedInRecursion = self::findRemoved($currentConfiguration[$key], $newConfiguration[$key]);
+                if (!empty($removedInRecursion)) {
+                    $removed[$key] = $removedInRecursion;
+                }
+            }
+        }
+
+        return $removed;
     }
 }

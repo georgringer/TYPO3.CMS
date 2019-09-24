@@ -18,6 +18,7 @@ use TYPO3\CMS\Backend\Routing\UriBuilder;
 use TYPO3\CMS\Backend\Utility\BackendUtility;
 use TYPO3\CMS\Core\Database\ConnectionPool;
 use TYPO3\CMS\Core\Database\Query\Restriction\DeletedRestriction;
+use TYPO3\CMS\Core\Database\Query\Restriction\WorkspaceRestriction;
 use TYPO3\CMS\Core\Imaging\Icon;
 use TYPO3\CMS\Core\Imaging\IconFactory;
 use TYPO3\CMS\Core\Resource\ResourceFactory;
@@ -474,6 +475,8 @@ class Clipboard
     {
         $lines = [];
         $tcaCtrl = $GLOBALS['TCA'][$table]['ctrl'];
+        $workspaceId = (int)$this->getBackendUser()->workspace;
+
         if (BackendUtility::isTableLocalizable($table)) {
             $queryBuilder = GeneralUtility::makeInstance(ConnectionPool::class)->getQueryBuilderForTable($table);
             $queryBuilder->getRestrictions()
@@ -496,16 +499,13 @@ class Clipboard
                         'pid',
                         $queryBuilder->createNamedParameter(-1, \PDO::PARAM_INT)
                     )
-                );
+                )
+                ->orderBy($tcaCtrl['languageField']);
 
-            if (isset($tcaCtrl['versioningWS']) && $tcaCtrl['versioningWS']) {
-                $queryBuilder
-                    ->andWhere(
-                        $queryBuilder->expr()->eq(
-                            't3ver_wsid',
-                            $queryBuilder->createNamedParameter($parentRec['t3ver_wsid'], \PDO::PARAM_INT)
-                        )
-                    );
+            if (BackendUtility::isTableWorkspaceEnabled($table)) {
+                $queryBuilder->getRestrictions()->add(
+                    GeneralUtility::makeInstance(WorkspaceRestriction::class, $workspaceId)
+                );
             }
             $rows = $queryBuilder->execute()->fetchAll();
             if (is_array($rows)) {
@@ -763,8 +763,9 @@ class Clipboard
                     list($table, $uid) = explode('|', $k);
                     // Rendering files/directories on the clipboard
                     if ($table === '_FILE') {
-                        if (file_exists($v) && GeneralUtility::isAllowedAbsPath($v)) {
-                            $params['tx_impexp'][is_dir($v) ? 'dir' : 'file'][] = $v;
+                        $file = ResourceFactory::getInstance()->getFileObjectFromCombinedIdentifier($v);
+                        if ($file !== null) {
+                            $params['tx_impexp']['record'][] = 'sys_file:' . $file->getUid();
                         }
                     } else {
                         // Rendering records:

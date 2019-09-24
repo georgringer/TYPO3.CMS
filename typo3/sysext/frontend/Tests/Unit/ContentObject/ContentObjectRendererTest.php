@@ -2819,6 +2819,8 @@ class ContentObjectRendererTest extends UnitTestCase
         $packageManagerMock = $this->getMockBuilder(PackageManager::class)
             ->disableOriginalConstructor()
             ->getMock();
+        GeneralUtility::setSingletonInstance(PackageManager::class, $packageManagerMock);
+        $packageManagerMock->method('getActivePackages')->willReturn([]);
         $templateServiceObjectMock = $this->getMockBuilder(TemplateService::class)
             ->setConstructorArgs([null, $packageManagerMock])
             ->setMethods(['dummy'])
@@ -8265,7 +8267,7 @@ class ContentObjectRendererTest extends UnitTestCase
      * (The default value of currentValKey is tested elsewhere.)
      *
      * @test
-     * @see $this->stdWrap_current()
+     * @see stdWrap_current()
      */
     public function setCurrentVal_getCurrentVal(): void
     {

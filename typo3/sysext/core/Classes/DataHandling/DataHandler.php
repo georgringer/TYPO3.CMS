@@ -40,6 +40,7 @@ use TYPO3\CMS\Core\Database\Query\QueryHelper;
 use TYPO3\CMS\Core\Database\Query\Restriction\BackendWorkspaceRestriction;
 use TYPO3\CMS\Core\Database\Query\Restriction\DeletedRestriction;
 use TYPO3\CMS\Core\Database\Query\Restriction\QueryRestrictionContainerInterface;
+use TYPO3\CMS\Core\Database\Query\Restriction\WorkspaceRestriction;
 use TYPO3\CMS\Core\Database\ReferenceIndex;
 use TYPO3\CMS\Core\Database\RelationHandler;
 use TYPO3\CMS\Core\DataHandling\History\RecordHistoryStore;
@@ -933,15 +934,9 @@ class DataHandler implements LoggerAwareInterface
                                 $this->newlog('recordEditAccessInternals() check failed. [' . $this->BE_USER->errorMsg . ']', 1);
                             } elseif (!$this->bypassWorkspaceRestrictions) {
                                 // Workspace related processing:
-                                // If LIVE records cannot be created in the current PID due to workspace restrictions, prepare creation of placeholder-record
-                                if ($res = $this->BE_USER->workspaceAllowLiveRecordsInPID($theRealPid, $table)) {
-                                    if ($res < 0) {
-                                        $recordAccess = false;
-                                        $this->newlog('Stage for versioning root point and users access level did not allow for editing', 1);
-                                    }
-                                } else {
-                                    // So, if no live records were allowed, we have to create a new version of this record:
-                                    if ($GLOBALS['TCA'][$table]['ctrl']['versioningWS']) {
+                                // If LIVE records cannot be created due to workspace restrictions, prepare creation of placeholder-record
+                                if (!$this->BE_USER->workspaceAllowsLiveEditingInTable($table)) {
+                                    if (BackendUtility::isTableWorkspaceEnabled($table)) {
                                         $createNewVersion = true;
                                     } else {
                                         $recordAccess = false;
@@ -972,7 +967,7 @@ class DataHandler implements LoggerAwareInterface
                         $this->newlog('recordEditAccessInternals() check failed. [' . $this->BE_USER->errorMsg . ']', 1);
                     } else {
                         // Here we fetch the PID of the record that we point to...
-                        $tempdata = $this->recordInfo($table, $id, 'pid' . (!empty($GLOBALS['TCA'][$table]['ctrl']['versioningWS']) ? ',t3ver_wsid,t3ver_stage' : ''));
+                        $tempdata = $this->recordInfo($table, $id, 'pid' . (BackendUtility::isTableWorkspaceEnabled($table) ? ',t3ver_oid,t3ver_wsid,t3ver_stage' : ''));
                         $theRealPid = $tempdata['pid'];
                         // Use the new id of the versionized record we're trying to write to:
                         // (This record is a child record of a parent and has already been versionized.)
@@ -987,9 +982,9 @@ class DataHandler implements LoggerAwareInterface
                             $recordAccess = false;
                             // Versioning is required and it must be offline version!
                             // Check if there already is a workspace version
-                            $WSversion = BackendUtility::getWorkspaceVersionOfRecord($this->BE_USER->workspace, $table, $id, 'uid,t3ver_oid');
-                            if ($WSversion) {
-                                $id = $WSversion['uid'];
+                            $workspaceVersion = BackendUtility::getWorkspaceVersionOfRecord($this->BE_USER->workspace, $table, $id, 'uid,t3ver_oid');
+                            if ($workspaceVersion) {
+                                $id = $workspaceVersion['uid'];
                                 $recordAccess = true;
                             } elseif ($this->BE_USER->workspaceAllowAutoCreation($table, $id, $theRealPid)) {
                                 // new version of a record created in a workspace - so always refresh pagetree to indicate there is a change in the workspace
@@ -1002,7 +997,7 @@ class DataHandler implements LoggerAwareInterface
                                 $cmd = [];
                                 $cmd[$table][$id]['version'] = [
                                     'action' => 'new',
-                                    // Default is to create a version of the individual records... element versioning that is.
+                                    // Default is to create a version of the individual records
                                     'label' => 'Auto-created for WS #' . $this->BE_USER->workspace
                                 ];
                                 $tce->start([], $cmd, $this->BE_USER);
@@ -1086,7 +1081,7 @@ class DataHandler implements LoggerAwareInterface
                     }
                 }
                 // Set stage to "Editing" to make sure we restart the workflow
-                if ($GLOBALS['TCA'][$table]['ctrl']['versioningWS']) {
+                if (BackendUtility::isTableWorkspaceEnabled($table)) {
                     $fieldArray['t3ver_stage'] = 0;
                 }
                 // Hook: processDatamap_postProcessFieldArray
@@ -1111,7 +1106,7 @@ class DataHandler implements LoggerAwareInterface
 
                             // Setting placeholder state value for temporary record
                             $newVersion_placeholderFieldArray['t3ver_state'] = (string)new VersionState(VersionState::NEW_PLACEHOLDER);
-                            // Setting workspace - only so display of place holders can filter out those from other workspaces.
+                            // Setting workspace - only so display of placeholders can filter out those from other workspaces.
                             $newVersion_placeholderFieldArray['t3ver_wsid'] = $this->BE_USER->workspace;
                             $newVersion_placeholderFieldArray[$GLOBALS['TCA'][$table]['ctrl']['label']] = $this->getPlaceholderTitleForTableLabel($table);
                             // Saving placeholder as 'original'
@@ -1807,7 +1802,8 @@ class DataHandler implements LoggerAwareInterface
      * @param string $field Field name
      * @param array $incomingFieldArray the fields being explicitly set by the outside (unlike $fieldArray) for the record
      * @return array $res The result array. The processed value (if any!) is set in the "value" key.
-     * @see SlugEnricher, SlugHelper
+     * @see SlugEnricher
+     * @see SlugHelper
      */
     protected function checkValueForSlug(string $value, array $tcaFieldConf, string $table, $id, int $realPid, string $field, array $incomingFieldArray = []): array
     {
@@ -3340,7 +3336,7 @@ class DataHandler implements LoggerAwareInterface
                             $queryBuilder->expr()->eq(
                                 'pid',
                                 $queryBuilder->createNamedParameter($uid, \PDO::PARAM_INT)
-                        )
+                            )
                         );
                     if ($isTableWorkspaceEnabled && (int)$this->BE_USER->workspace === 0) {
                         // Table is workspace enabled, user is in default ws -> add t3ver_wsid=0 restriction
@@ -3738,7 +3734,8 @@ class DataHandler implements LoggerAwareInterface
      * @param string $_3 Not used.
      * @param array $workspaceOptions
      * @return array Result array with key "value" containing the value of the processing.
-     * @see copyRecord(), checkValue_flex_procInData_travDS()
+     * @see copyRecord()
+     * @see checkValue_flex_procInData_travDS()
      */
     public function copyRecord_flexFormCallBack($pParams, $dsConf, $dataValue, $_1, $_2, $_3, $workspaceOptions)
     {
@@ -3785,7 +3782,7 @@ class DataHandler implements LoggerAwareInterface
                 )
             );
 
-        if (isset($GLOBALS['TCA'][$table]['ctrl']['versioningWS']) && $GLOBALS['TCA'][$table]['ctrl']['versioningWS']) {
+        if (BackendUtility::isTableWorkspaceEnabled($table)) {
             $queryBuilder->andWhere(
                 $queryBuilder->expr()->eq('t3ver_oid', $queryBuilder->createNamedParameter(0, \PDO::PARAM_INT))
             );
@@ -4210,7 +4207,7 @@ class DataHandler implements LoggerAwareInterface
                 )
             );
 
-        if (isset($GLOBALS['TCA'][$table]['ctrl']['versioningWS']) && $GLOBALS['TCA'][$table]['ctrl']['versioningWS']) {
+        if (BackendUtility::isTableWorkspaceEnabled($table)) {
             $queryBuilder->andWhere(
                 $queryBuilder->expr()->eq('t3ver_oid', $queryBuilder->createNamedParameter(0, \PDO::PARAM_INT))
             );
@@ -4438,7 +4435,9 @@ class DataHandler implements LoggerAwareInterface
         // In case the parent record is the default language record, fetch the localization
         if (empty($parentRecord[$GLOBALS['TCA'][$table]['ctrl']['languageField']])) {
             // Fetch the live record
-            $parentRecordLocalization = BackendUtility::getRecordLocalization($table, $id, $command['language'], 'AND pid<>-1');
+            // @todo: this needs to be revisited, as getRecordLocalization() does a BackendWorkspaceRestriction
+            // based on $GLOBALS[BE_USER], which could differ from the $this->BE_USER->workspace value
+            $parentRecordLocalization = BackendUtility::getRecordLocalization($table, $id, $command['language'], 'AND t3ver_oid=0');
             if (empty($parentRecordLocalization)) {
                 if ($this->enableLogging) {
                     $this->log($table, $id, 0, 0, 0, 'Localization for parent record ' . $table . ':' . $id . '" cannot be fetched', -1, [], $this->eventPid($table, $id, $parentRecord['pid']));
@@ -5100,7 +5099,7 @@ class DataHandler implements LoggerAwareInterface
                 )
             );
 
-        if (isset($GLOBALS['TCA'][$table]['ctrl']['versioningWS']) && $GLOBALS['TCA'][$table]['ctrl']['versioningWS']) {
+        if (BackendUtility::isTableWorkspaceEnabled($table)) {
             $queryBuilder->andWhere(
                 $queryBuilder->expr()->eq('t3ver_oid', $queryBuilder->createNamedParameter(0, \PDO::PARAM_INT))
             );
@@ -5144,7 +5143,7 @@ class DataHandler implements LoggerAwareInterface
         if ($this->isElementToBeDeleted($table, $id)) {
             return null;
         }
-        if (!$GLOBALS['TCA'][$table] || !$GLOBALS['TCA'][$table]['ctrl']['versioningWS'] || $id <= 0) {
+        if (!BackendUtility::isTableWorkspaceEnabled($table) || $id <= 0) {
             $this->newlog('Versioning is not supported for this table "' . $table . '" / ' . $id, 1);
             return null;
         }
@@ -5161,9 +5160,9 @@ class DataHandler implements LoggerAwareInterface
             return null;
         }
 
-        // Record must be online record
-        if ($row['pid'] < 0) {
-            $this->newlog('Record "' . $table . ':' . $id . '" you wanted to versionize was already a version in archive (pid=-1)!', 1);
+        // Record must be online record, otherwise we would create a version of a version
+        if ($row['t3ver_oid'] ?? 0 > 0) {
+            $this->newlog('Record "' . $table . ':' . $id . '" you wanted to versionize was already a version in archive (record has an online ID)!', 1);
             return null;
         }
 
@@ -5288,7 +5287,8 @@ class DataHandler implements LoggerAwareInterface
      * @param string $dataValue_ext1 Not used.
      * @param string $dataValue_ext2 Not used.
      * @param string $path Path in flexforms
-     * @see version_remapMMForVersionSwap(), checkValue_flex_procInData_travDS()
+     * @see version_remapMMForVersionSwap()
+     * @see checkValue_flex_procInData_travDS()
      */
     public function version_remapMMForVersionSwap_flexFormCallBack($pParams, $dsConf, $dataValue, $dataValue_ext1, $dataValue_ext2, $path)
     {
@@ -5429,7 +5429,8 @@ class DataHandler implements LoggerAwareInterface
      * @param string $dataValue_ext1 Not used
      * @param string $dataValue_ext2 Not used
      * @return array Array where the "value" key carries the value.
-     * @see checkValue_flex_procInData_travDS(), remapListedDBRecords()
+     * @see checkValue_flex_procInData_travDS()
+     * @see remapListedDBRecords()
      */
     public function remapListedDBRecords_flexFormCallBack($pParams, $dsConf, $dataValue, $dataValue_ext1, $dataValue_ext2)
     {
@@ -6453,11 +6454,12 @@ class DataHandler implements LoggerAwareInterface
     {
         if ($GLOBALS['TCA'][$table]) {
             BackendUtility::fixVersioningPid($table, $row);
+            $liveUid = ($row['t3ver_oid'] ?? null) ? $row['t3ver_oid'] : $row['uid'];
             return [
                 'header' => BackendUtility::getRecordTitle($table, $row),
                 'pid' => $row['pid'],
-                'event_pid' => $this->eventPid($table, isset($row['_ORIG_pid']) ? $row['t3ver_oid'] : $row['uid'], $row['pid']),
-                't3ver_state' => $GLOBALS['TCA'][$table]['ctrl']['versioningWS'] ? $row['t3ver_state'] : '',
+                'event_pid' => $this->eventPid($table, (int)$liveUid, $row['pid']),
+                't3ver_state' => BackendUtility::isTableWorkspaceEnabled($table) ? $row['t3ver_state'] : '',
                 '_ORIG_pid' => $row['_ORIG_pid']
             ];
         }
@@ -6533,7 +6535,8 @@ class DataHandler implements LoggerAwareInterface
                         }
                         // Set log entry:
                         $propArr = $this->getRecordPropertiesFromRow($table, $newRow);
-                        $this->log($table, $id, 2, $propArr['pid'], 0, 'Record \'%s\' (%s) was updated.' . ($propArr['_ORIG_pid'] == -1 ? ' (Offline version).' : ' (Online).'), 10, [$propArr['header'], $table . ':' . $id, 'history' => $historyEntryId], $propArr['event_pid']);
+                        $isOfflineVersion = (bool)($newRow['t3ver_oid'] ?? 0);
+                        $this->log($table, $id, 2, $propArr['pid'], 0, 'Record \'%s\' (%s) was updated.' . ($isOfflineVersion ? ' (Offline version).' : ' (Online).'), 10, [$propArr['header'], $table . ':' . $id, 'history' => $historyEntryId], $propArr['event_pid']);
                     }
                     // Clear cache for relevant pages:
                     $this->registerRecordIdForPageCacheClearing($table, $id);
@@ -6659,7 +6662,8 @@ class DataHandler implements LoggerAwareInterface
      * @param array $fieldArray Array of field=>value pairs to insert/update
      * @param string $action Action, for logging only.
      * @return array|null Selected row
-     * @see insertDB(), updateDB()
+     * @see insertDB()
+     * @see updateDB()
      */
     public function checkStoredRecord($table, $id, $fieldArray, $action)
     {
@@ -6819,6 +6823,7 @@ class DataHandler implements LoggerAwareInterface
         $connectionPool = GeneralUtility::makeInstance(ConnectionPool::class);
         $queryBuilder = $connectionPool->getQueryBuilderForTable($table);
         $this->addDeleteRestriction($queryBuilder->getRestrictions()->removeAll());
+        $queryBuilder->getRestrictions()->add(GeneralUtility::makeInstance(WorkspaceRestriction::class, $this->BE_USER->workspace));
 
         $queryBuilder
             ->select($sortColumn, 'pid', 'uid')
@@ -6842,7 +6847,7 @@ class DataHandler implements LoggerAwareInterface
                 }
                 // If the record sorting value < 1 we must resort all the records under this pid
                 if ($row[$sortColumn] < 1) {
-                    $this->increaseSortingOfFollowingRecords($table, (int)$pid, 0);
+                    $this->increaseSortingOfFollowingRecords($table, (int)$pid);
                     // Lowest sorting value after full resorting is $sortIntervals
                     return $this->sortIntervals;
                 }
@@ -6881,6 +6886,7 @@ class DataHandler implements LoggerAwareInterface
             } else {
                 $queryBuilder = $connectionPool->getQueryBuilderForTable($table);
                 $this->addDeleteRestriction($queryBuilder->getRestrictions()->removeAll());
+                $queryBuilder->getRestrictions()->add(GeneralUtility::makeInstance(WorkspaceRestriction::class, $this->BE_USER->workspace));
 
                 $subResults = $queryBuilder
                         ->select($sortColumn, 'pid', 'uid')
@@ -6929,7 +6935,7 @@ class DataHandler implements LoggerAwareInterface
     }
 
     /**
-     * Increases sorting field value of all records with sorting higher than $sortingNumber
+     * Increases sorting field value of all records with sorting higher than $sortingValue
      *
      * Used internally by getSortNumber() to "make space" in sorting values when inserting new record
      *
@@ -6938,7 +6944,7 @@ class DataHandler implements LoggerAwareInterface
      * @param int $sortingValue All sorting numbers larger than this number will be shifted
      * @see getSortNumber()
      */
-    protected function increaseSortingOfFollowingRecords(string $table, int $pid, int $sortingValue): void
+    protected function increaseSortingOfFollowingRecords(string $table, int $pid, int $sortingValue = null): void
     {
         $sortBy = $GLOBALS['TCA'][$table]['ctrl']['sortby'] ?? '';
         if ($sortBy) {
@@ -6947,8 +6953,10 @@ class DataHandler implements LoggerAwareInterface
             $queryBuilder
                 ->update($table)
                 ->where($queryBuilder->expr()->eq('pid', $queryBuilder->createNamedParameter($pid, \PDO::PARAM_INT)))
-                ->andWhere($queryBuilder->expr()->gt($sortBy, $sortingValue))
                 ->set($sortBy, $queryBuilder->quoteIdentifier($sortBy) . ' + ' . $this->sortIntervals . ' + ' . $this->sortIntervals, false);
+            if ($sortingValue !== null) {
+                $queryBuilder->andWhere($queryBuilder->expr()->gt($sortBy, $sortingValue));
+            }
 
             $deleteColumn = $GLOBALS['TCA'][$table]['ctrl']['delete'] ?? '';
             if ($deleteColumn) {
@@ -7236,7 +7244,8 @@ class DataHandler implements LoggerAwareInterface
      *
      * @param string $string List of pMap strings
      * @return int Integer mask
-     * @see setTSconfigPermissions(), newFieldArray()
+     * @see setTSconfigPermissions()
+     * @see newFieldArray()
      */
     public function assemblePermissions($string)
     {

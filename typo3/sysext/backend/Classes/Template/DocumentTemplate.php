@@ -71,6 +71,7 @@ class DocumentTemplate implements LoggerAwareInterface
      */
     public $JScodeArray = ['jumpToUrl' => '
 function jumpToUrl(URL) {
+	console.warn(\'jumpToUrl() has been marked as deprecated.\');
 	window.location.href = URL;
 	return false;
 }
@@ -351,7 +352,6 @@ function jumpToUrl(URL) {
      *
      * @param string $thisLocation URL to "this location" / current script
      * @return string Urls are returned as JavaScript variables T3_RETURN_URL and T3_THIS_LOCATION
-     * @see typo3/db_list.php
      */
     public function redirectUrls($thisLocation = '')
     {

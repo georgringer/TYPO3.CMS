@@ -54,6 +54,7 @@ interface UploadedFile {
 
 interface InternalFile extends File {
   lastModified: any;
+  lastModifiedDate: any;
 }
 
 interface DragUploaderOptions {
@@ -92,12 +93,14 @@ class DragUploaderPlugin {
   private browserCapabilities: { fileReader: boolean; DnD: boolean; Progress: boolean };
   private dropZoneInsertBefore: boolean;
   private queueLength: number;
+  private defaultAction: string;
 
   constructor(element: HTMLElement) {
     this.$body = $('body');
     this.$element = $(element);
     const hasTrigger = this.$element.data('dropzoneTrigger') !== undefined;
     this.$trigger = $(this.$element.data('dropzoneTrigger'));
+    this.defaultAction = this.$element.data('defaultAction') || Action.SKIP;
     this.$dropzone = $('<div />').addClass('dropzone').hide();
     this.irreObjectUid = this.$element.data('fileIrreObject');
 
@@ -372,9 +375,12 @@ class DragUploaderPlugin {
         $('<td />').append(
           $('<select />', {class: 'form-control t3js-actions', 'data-override': i}).append(
             (this.irreObjectUid ? $('<option/>').val(Action.USE_EXISTING).text(TYPO3.lang['file_upload.actions.use_existing']) : ''),
-            $('<option />').val(Action.SKIP).text(TYPO3.lang['file_upload.actions.skip']),
-            $('<option />').val(Action.RENAME).text(TYPO3.lang['file_upload.actions.rename']),
-            $('<option />').val(Action.OVERRIDE).text(TYPO3.lang['file_upload.actions.override']),
+            $('<option />', {'selected': this.defaultAction === Action.SKIP})
+              .val(Action.SKIP).text(TYPO3.lang['file_upload.actions.skip']),
+            $('<option />', {'selected': this.defaultAction === Action.RENAME})
+              .val(Action.RENAME).text(TYPO3.lang['file_upload.actions.rename']),
+            $('<option />',  {'selected': this.defaultAction === Action.OVERRIDE})
+              .val(Action.OVERRIDE).text(TYPO3.lang['file_upload.actions.override']),
           ),
         ),
       );
@@ -406,9 +412,12 @@ class DragUploaderPlugin {
         $('<select/>', {class: 'form-control t3js-actions-all'}).append(
           $('<option/>').val('').text(TYPO3.lang['file_upload.actions.all.empty']),
           (this.irreObjectUid ? $('<option/>').val(Action.USE_EXISTING).text(TYPO3.lang['file_upload.actions.all.use_existing']) : ''),
-          $('<option/>').val(Action.SKIP).text(TYPO3.lang['file_upload.actions.all.skip']),
-          $('<option/>').val(Action.RENAME).text(TYPO3.lang['file_upload.actions.all.rename']),
-          $('<option/>').val(Action.OVERRIDE).text(TYPO3.lang['file_upload.actions.all.override']),
+          $('<option/>', {'selected': this.defaultAction === Action.SKIP})
+            .val(Action.SKIP).text(TYPO3.lang['file_upload.actions.all.skip']),
+          $('<option/>', {'selected': this.defaultAction === Action.RENAME})
+            .val(Action.RENAME).text(TYPO3.lang['file_upload.actions.all.rename']),
+          $('<option/>', {'selected': this.defaultAction === Action.OVERRIDE})
+            .val(Action.OVERRIDE).text(TYPO3.lang['file_upload.actions.all.override']),
         ),
       ),
     );

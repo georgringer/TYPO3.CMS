@@ -91,12 +91,28 @@ class Utility {
    */
   public static updateQueryStringParameter(url: string, key: string, value: string): string {
     const re = new RegExp('([?&])' + key + '=.*?(&|$)', 'i');
-    const separator = url.indexOf('?') !== -1 ? '&' : '?';
+    const separator = url.includes('?') ? '&' : '?';
 
     if (url.match(re)) {
       return url.replace(re, '$1' + key + '=' + value + '$2');
     }
     return url + separator + key + '=' + value;
+  }
+
+  public static convertFormToObject(form: HTMLFormElement): { [key: string]: any } {
+    const obj: { [key: string]: any } = {};
+    const elements = form.querySelectorAll('input, select, textarea');
+    for (let i = 0; i < elements.length; ++i ) {
+      const element = <HTMLInputElement|HTMLSelectElement|HTMLTextAreaElement>(elements[i]);
+      const name = element.name;
+      const value = element.value;
+
+      if (name) {
+        obj[name] = value;
+      }
+    }
+
+    return obj;
   }
 }
 

@@ -281,7 +281,6 @@ return [
                 'type' => 'select',
                 'renderType' => 'selectSingle',
                 'foreign_table' => 'sys_language',
-                'foreign_table_where' => 'ORDER BY sys_language.sorting',
                 'items' => [], // no default language here, as the pages table is always the default language
                 'default' => 0,
                 'fieldWizard' => [
@@ -355,8 +354,6 @@ return [
                 ],
                 'exclusiveKeys' => '-1,-2',
                 'foreign_table' => 'fe_groups',
-                'foreign_table_where' => 'ORDER BY fe_groups.title',
-                'enableMultiSelectFilterTextfield' => true
             ]
         ],
         'extendToSubpages' => [
@@ -895,8 +892,7 @@ return [
                 'renderType' => 'selectMultipleSideBySide',
                 'size' => 10,
                 'items' => [],
-                'enableMultiSelectFilterTextfield' => true,
-                'softref' => 'ext_fileref'
+                'softref' => 'ext_fileref',
             ]
         ],
     ],

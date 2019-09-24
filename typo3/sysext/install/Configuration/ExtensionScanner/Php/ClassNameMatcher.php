@@ -1317,4 +1317,19 @@ return [
             'Feature-88807-AdminPanelRequestEnricherInterfaceHasBeenIntroduced.rst',
         ],
     ],
+    'TYPO3\CMS\Core\Console\CommandRequestHandler' => [
+        'restFiles' => [
+            'Deprecation-88839-CLILowlevelRequestHandlers.rst',
+        ],
+    ],
+    'TYPO3\CMS\Core\Console\RequestHandlerInterface' => [
+        'restFiles' => [
+            'Deprecation-88839-CLILowlevelRequestHandlers.rst',
+        ],
+    ],
+    'TYPO3\CMS\Core\Localization\Parser\LocallangXmlParser' => [
+        'restFiles' => [
+            'Deprecation-89037-DeprecatedLocallangXmlParser.rst',
+        ],
+    ],
 ];

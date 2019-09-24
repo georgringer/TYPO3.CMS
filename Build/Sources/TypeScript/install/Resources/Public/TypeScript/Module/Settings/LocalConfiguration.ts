@@ -14,6 +14,7 @@
 import {AbstractInteractableModule} from '../AbstractInteractableModule';
 import * as $ from 'jquery';
 import 'bootstrap';
+import '../../Renderable/Clearable';
 import Router = require('../../Router');
 import Modal = require('TYPO3/CMS/Backend/Modal');
 import Notification = require('TYPO3/CMS/Backend/Notification');
@@ -46,7 +47,7 @@ class LocalConfiguration extends AbstractInteractableModule {
     // Make jquerys "contains" work case-insensitive
     jQuery.expr[':'].contains = jQuery.expr.createPseudo((arg: any): Function => {
       return (elem: any): boolean => {
-        return jQuery(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
+        return jQuery(elem).text().toUpperCase().includes(arg.toUpperCase());
       };
     });
 
@@ -80,9 +81,9 @@ class LocalConfiguration extends AbstractInteractableModule {
       });
       currentModal.find('.searchhit').parent().collapse('show');
       // Make search field clearable
-      require(['jquery.clearable'], (): void => {
-        $searchInput.clearable().focus();
-      });
+      const searchInput = <HTMLInputElement>$searchInput.get(0);
+      searchInput.clearable();
+      searchInput.focus();
     });
   }
 

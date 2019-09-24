@@ -626,7 +626,7 @@ class EditDocumentController
             reset($this->editconf[$nTable]);
             $nUid = key($this->editconf[$nTable]);
             $recordFields = 'pid,uid';
-            if (!empty($GLOBALS['TCA'][$nTable]['ctrl']['versioningWS'])) {
+            if (BackendUtility::isTableWorkspaceEnabled($nTable)) {
                 $recordFields .= ',t3ver_oid';
             }
             $nRec = BackendUtility::getRecord($nTable, $nUid, $recordFields);
@@ -636,7 +636,7 @@ class EditDocumentController
             // Setting a blank editconf array for a new record:
             $this->editconf = [];
             // Determine related page ID for regular live context
-            if ($nRec['pid'] != -1) {
+            if ($nRec['t3ver_oid'] > 0) {
                 if ($insertRecordOnTop) {
                     $relatedPageId = $nRec['pid'];
                 } else {
@@ -673,7 +673,7 @@ class EditDocumentController
             }
 
             $recordFields = 'pid,uid';
-            if (!empty($GLOBALS['TCA'][$nTable]['ctrl']['versioningWS'])) {
+            if (!BackendUtility::isTableWorkspaceEnabled($nTable)) {
                 $recordFields .= ',t3ver_oid';
             }
             $nRec = BackendUtility::getRecord($nTable, $nUid, $recordFields);
@@ -681,7 +681,7 @@ class EditDocumentController
             // Setting a blank editconf array for a new record:
             $this->editconf = [];
 
-            if ($nRec['pid'] != -1) {
+            if ((int)$nRec['t3ver_oid'] === 0) {
                 $relatedPageId = -$nRec['uid'];
             } else {
                 $relatedPageId = -$nRec['t3ver_oid'];
@@ -773,14 +773,9 @@ class EditDocumentController
         $pageRenderer->addInlineLanguageLabelFile('EXT:backend/Resources/Private/Language/locallang_alt_doc.xlf');
 
         $uriBuilder = GeneralUtility::makeInstance(UriBuilder::class);
-        // override the default jumpToUrl
         $this->moduleTemplate->addJavaScriptCode(
-            'jumpToUrl',
-            '
-            function deleteRecord(table,id,url) {
-                window.location.href = ' . GeneralUtility::quoteJSvalue((string)$uriBuilder->buildUriFromRoute('tce_db') . '&cmd[') . '+table+"]["+id+"][delete]=1&redirect="+escape(url);
-            }
-        ' . (isset($parsedBody['_savedokview']) && $this->popViewId ? $this->generatePreviewCode() : '')
+            'previewCode',
+            (isset($parsedBody['_savedokview']) && $this->popViewId ? $this->generatePreviewCode() : '')
         );
         // Set context sensitive menu
         $this->moduleTemplate->getPageRenderer()->loadRequireJsModule('TYPO3/CMS/Backend/ContextMenu');
@@ -2297,15 +2292,16 @@ class EditDocumentController
      */
     protected function getRecordForEdit(string $table, int $theUid)
     {
+        $tableSupportsVersioning = BackendUtility::isTableWorkspaceEnabled($table);
         // Fetch requested record:
-        $reqRecord = BackendUtility::getRecord($table, $theUid, 'uid,pid');
+        $reqRecord = BackendUtility::getRecord($table, $theUid, 'uid,pid' . ($tableSupportsVersioning ? ',t3ver_oid' : ''));
         if (is_array($reqRecord)) {
             // If workspace is OFFLINE:
             if ($this->getBackendUser()->workspace != 0) {
                 // Check for versioning support of the table:
-                if ($GLOBALS['TCA'][$table] && $GLOBALS['TCA'][$table]['ctrl']['versioningWS']) {
+                if ($tableSupportsVersioning) {
                     // If the record is already a version of "something" pass it by.
-                    if ($reqRecord['pid'] == -1) {
+                    if ($reqRecord['t3ver_oid'] > 0) {
                         // (If it turns out not to be a version of the current workspace there will be trouble, but
                         // that is handled inside DataHandler then and in the interface it would clearly be an error of
                         // links if the user accesses such a scenario)
@@ -2318,7 +2314,7 @@ class EditDocumentController
                         $table,
                         $reqRecord['uid'],
                         'uid,pid,t3ver_oid'
-                        );
+                    );
                     return is_array($versionRec) ? $versionRec : $reqRecord;
                 }
                 // This means that editing cannot occur on this record because it was not supporting versioning

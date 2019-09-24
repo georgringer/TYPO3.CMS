@@ -206,6 +206,7 @@ class BackendController
         // Prepare the scaffolding, at this point extension may still add javascript and css
         $view = $this->getFluidTemplateObject($this->templatePath . 'Backend/Main.html');
 
+        $view->assign('moduleMenuCollapsed', $this->getCollapseStateOfMenu());
         $view->assign('moduleMenu', $this->generateModuleMenu());
         $view->assign('topbar', $this->renderTopbar());
 
@@ -344,12 +345,16 @@ class BackendController
         // If another page module was specified, replace the default Page module with the new one
         $newPageModule = trim($beUser->getTSConfig()['options.']['overridePageModule'] ?? '');
         $pageModule = BackendUtility::isModuleSetInTBE_MODULES($newPageModule) ? $newPageModule : 'web_layout';
+        $pageModuleUrl = '';
         if (!$beUser->check('modules', $pageModule)) {
             $pageModule = '';
+        } else {
+            $pageModuleUrl = (string)GeneralUtility::makeInstance(UriBuilder::class)->buildUriFromRoute($pageModule);
         }
         $t3Configuration = [
             'username' => htmlspecialchars($beUser->user['username']),
             'pageModule' => $pageModule,
+            'pageModuleUrl' => $pageModuleUrl,
             'inWorkspace' => $beUser->workspace !== 0,
             'showRefreshLoginPopup' => (bool)($GLOBALS['TYPO3_CONF_VARS']['BE']['showRefreshLoginPopup'] ?? false)
         ];
@@ -517,6 +522,14 @@ class BackendController
         $view = $this->getFluidTemplateObject($this->templatePath . 'ModuleMenu/Main.html');
         $view->assign('modules', $moduleStorage);
         return $view->render();
+    }
+
+    protected function getCollapseStateOfMenu(): bool
+    {
+        $uc = json_decode(json_encode($this->getBackendUser()->uc), true);
+        $collapseState = $uc['BackendComponents']['States']['typo3-module-menu']['collapsed'] ?? false;
+
+        return $collapseState === true || $collapseState === 'true';
     }
 
     /**
