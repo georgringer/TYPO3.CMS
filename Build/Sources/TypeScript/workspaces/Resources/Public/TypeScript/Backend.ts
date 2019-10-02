@@ -11,19 +11,19 @@
  * The TYPO3 project - inspiring people to share!
  */
 
-import {SeverityEnum} from 'TYPO3/CMS/Backend/Enum/Severity';
-import 'twbs/bootstrap-slider';
-import 'nprogress';
-import 'TYPO3/CMS/Backend/Input/Clearable';
 import * as $ from 'jquery';
+import 'nprogress';
+import 'twbs/bootstrap-slider';
+import {SeverityEnum} from 'TYPO3/CMS/Backend/Enum/Severity';
+import 'TYPO3/CMS/Backend/Input/Clearable';
+import Workspaces from './Workspaces';
 import Modal = require('TYPO3/CMS/Backend/Modal');
 import Persistent = require('TYPO3/CMS/Backend/Storage/Persistent');
-import SecurityUtility = require('TYPO3/CMS/Core/SecurityUtility');
 import Tooltip = require('TYPO3/CMS/Backend/Tooltip');
 import Utility = require('TYPO3/CMS/Backend/Utility');
 import Viewport = require('TYPO3/CMS/Backend/Viewport');
 import Wizard = require('TYPO3/CMS/Backend/Wizard');
-import Workspaces from './Workspaces';
+import SecurityUtility = require('TYPO3/CMS/Core/SecurityUtility');
 
 enum Identifiers {
   searchForm = '#workspace-settings-form',
@@ -43,7 +43,7 @@ enum Identifiers {
 
 class Backend extends Workspaces {
   private elements: { [key: string]: JQuery } = {};
-  private settings: { [key: string]: string|number } = {
+  private settings: { [key: string]: string | number } = {
     dir: 'ASC',
     id: TYPO3.settings.Workspaces.id,
     language: TYPO3.settings.Workspaces.language,
@@ -81,11 +81,11 @@ class Backend extends Workspaces {
   private static generateDiffView(diff: Array<any>): JQuery {
     const $diff = $('<div />', {class: 'diff'});
 
-    for (let i = 0; i < diff.length; ++i) {
+    for (let currentDiff of diff) {
       $diff.append(
         $('<div />', {class: 'diff-item'}).append(
-          $('<div />', {class: 'diff-item-title'}).text(diff[i].label),
-          $('<div />', {class: 'diff-item-result diff-item-result-inline'}).html(diff[i].content),
+          $('<div />', {class: 'diff-item-title'}).text(currentDiff.label),
+          $('<div />', {class: 'diff-item-result diff-item-result-inline'}).html(currentDiff.content),
         ),
       );
     }
@@ -101,26 +101,26 @@ class Backend extends Workspaces {
   private static generateCommentView(comments: Array<any>): JQuery {
     const $comments = $('<div />');
 
-    for (let i = 0; i < comments.length; ++i) {
+    for (let comment of comments) {
       const $panel = $('<div />', {class: 'panel panel-default'});
 
-      if (comments[i].user_comment.length > 0) {
+      if (comment.user_comment.length > 0) {
         $panel.append(
-          $('<div />', {class: 'panel-body'}).html(comments[i].user_comment),
+          $('<div />', {class: 'panel-body'}).html(comment.user_comment),
         );
       }
 
       $panel.append(
         $('<div />', {class: 'panel-footer'}).append(
-          $('<span />', {class: 'label label-success'}).text(comments[i].stage_title),
-          $('<span />', {class: 'label label-info'}).text(comments[i].tstamp),
+          $('<span />', {class: 'label label-success'}).text(comment.stage_title),
+          $('<span />', {class: 'label label-info'}).text(comment.tstamp),
         ),
       );
 
       $comments.append(
         $('<div />', {class: 'media'}).append(
-          $('<div />', {class: 'media-left text-center'}).text(comments[i].user_username).prepend(
-            $('<div />').html(comments[i].user_avatar),
+          $('<div />', {class: 'media-left text-center'}).text(comment.user_username).prepend(
+            $('<div />').html(comment.user_avatar),
           ),
           $('<div />', {class: 'media-body'}).append($panel),
         ),
@@ -139,22 +139,22 @@ class Backend extends Workspaces {
   private static generateHistoryView(data: Array<any>): JQuery {
     const $history = $('<div />');
 
-    for (let i = 0; i < data.length; ++i) {
+    for (let currentData of data) {
       const $panel = $('<div />', {class: 'panel panel-default'});
       let $diff;
 
-      if (typeof data[i].differences === 'object') {
-        if (data[i].differences.length === 0) {
+      if (typeof currentData.differences === 'object') {
+        if (currentData.differences.length === 0) {
           // Somehow here are no differences. What a pity, skip that record
           continue;
         }
         $diff = $('<div />', {class: 'diff'});
 
-        for (let j = 0; j < data[i].differences.length; ++j) {
+        for (let j = 0; j < currentData.differences.length; ++j) {
           $diff.append(
             $('<div />', {class: 'diff-item'}).append(
-              $('<div />', {class: 'diff-item-title'}).text(data[i].differences[j].label),
-              $('<div />', {class: 'diff-item-result diff-item-result-inline'}).html(data[i].differences[j].html),
+              $('<div />', {class: 'diff-item-title'}).text(currentData.differences[j].label),
+              $('<div />', {class: 'diff-item-result diff-item-result-inline'}).html(currentData.differences[j].html),
             ),
           );
         }
@@ -164,19 +164,19 @@ class Backend extends Workspaces {
         );
       } else {
         $panel.append(
-          $('<div />', {class: 'panel-body'}).text(data[i].differences),
+          $('<div />', {class: 'panel-body'}).text(currentData.differences),
         );
       }
       $panel.append(
         $('<div />', {class: 'panel-footer'}).append(
-          $('<span />', {class: 'label label-info'}).text(data[i].datetime),
+          $('<span />', {class: 'label label-info'}).text(currentData.datetime),
         ),
       );
 
       $history.append(
         $('<div />', {class: 'media'}).append(
-          $('<div />', {class: 'media-left text-center'}).text(data[i].user).prepend(
-            $('<div />').html(data[i].user_avatar),
+          $('<div />', {class: 'media-left text-center'}).text(currentData.user).prepend(
+            $('<div />').html(currentData.user_avatar),
           ),
           $('<div />', {class: 'media-body'}).append($panel),
         ),
@@ -284,13 +284,13 @@ class Backend extends Workspaces {
         }
 
         window.location.href = newUrl;
-    }).on('click', '[data-action="version"]', (e: JQueryEventObject): void => {
-      const row = <HTMLTableRowElement>e.currentTarget.closest('tr');
-      const recordUid = row.dataset.table === 'pages' ? row.dataset.t3ver_oid : row.dataset.pid;
-      window.location.href = top.TYPO3.configuration.pageModuleUrl
+      }).on('click', '[data-action="version"]', (e: JQueryEventObject): void => {
+        const row = <HTMLTableRowElement>e.currentTarget.closest('tr');
+        const recordUid = row.dataset.table === 'pages' ? row.dataset.t3ver_oid : row.dataset.pid;
+        window.location.href = top.TYPO3.configuration.pageModuleUrl
         + '&id=' + recordUid
         + '&returnUrl=' + encodeURIComponent(window.location.href);
-    }).on('click', '[data-action="remove"]', this.confirmDeleteRecordFromWorkspace)
+      }).on('click', '[data-action="remove"]', this.confirmDeleteRecordFromWorkspace)
       .on('click', '[data-action="expand"]', (e: JQueryEventObject): void => {
         const $me = $(e.currentTarget);
         const $target = this.elements.$tableBody.find($me.data('target'));
@@ -303,7 +303,7 @@ class Backend extends Workspaces {
         }
 
         $me.empty().append(this.getPreRenderedIcon(iconIdentifier));
-    });
+      });
     $(window.top.document).on('click', '.t3js-workspace-recipients-selectall', (e: JQueryEventObject): void => {
       e.preventDefault();
       $('.t3js-workspace-recipient', window.top.document).not(':disabled').prop('checked', true);
@@ -595,7 +595,7 @@ class Backend extends Workspaces {
           item.allowedAction_view,
           'preview',
           'actions-version-workspace-preview',
-          ).attr('title', TYPO3.lang['tooltip.viewElementAction']),
+        ).attr('title', TYPO3.lang['tooltip.viewElementAction']),
         this.getAction(
           item.allowedAction_edit,
           'open',
@@ -605,7 +605,7 @@ class Backend extends Workspaces {
           true,
           'version',
           'actions-version-page-open',
-          ).attr('title', TYPO3.lang['tooltip.openPage']),
+        ).attr('title', TYPO3.lang['tooltip.openPage']),
         this.getAction(
           item.allowedAction_delete,
           'remove',
@@ -904,7 +904,7 @@ class Backend extends Workspaces {
         $tr.data('table'), $tr.data('uid'),
       ]),
     ).done((response: any): void => {
-      // tslint:disable-next-line:no-eval
+      // eslint-disable-next-line no-eval
       eval(response[0].result);
     });
   }
@@ -1146,7 +1146,7 @@ class Backend extends Workspaces {
    * @param {Event} e
    */
   private sendToSpecificStageAction = (e: JQueryEventObject): void => {
-    const affectedRecords: Array<{ [key: string]: number|string }> = [];
+    const affectedRecords: Array<{ [key: string]: number | string }> = [];
     const stage = $(e.currentTarget).val();
     for (let i = 0; i < this.markedRecordsForMassAction.length; ++i) {
       const affected = this.markedRecordsForMassAction[i].split(':');

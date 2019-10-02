@@ -13,6 +13,8 @@
 
 module.exports = function (grunt) {
 
+  const sass = require('node-sass');
+
   /**
    * Grunt stylefmt task
    */
@@ -82,6 +84,7 @@ module.exports = function (grunt) {
     },
     sass: {
       options: {
+        implementation: sass,
         outputStyle: 'expanded',
         precision: 8,
         includePaths: [
@@ -131,18 +134,7 @@ module.exports = function (grunt) {
       options: {
         map: false,
         processors: [
-          require('autoprefixer')({
-            browsers: [
-              'Chrome >= 57',
-              'Firefox >= 52',
-              'Edge >= 14',
-              'Explorer >= 11',
-              'iOS >= 9',
-              'Safari >= 8',
-              'Android >= 4',
-              'Opera >= 43'
-            ]
-          }),
+          require('autoprefixer')(),
           require('postcss-clean')({
             rebase: false,
             level: {
@@ -193,10 +185,9 @@ module.exports = function (grunt) {
       ts: ((process.platform === 'win32') ? 'node_modules\\.bin\\tsc.cmd' : './node_modules/.bin/tsc') + ' --project tsconfig.json',
       'yarn-install': 'yarn install'
     },
-    tslint: {
+    eslint: {
       options: {
-        configuration: 'tslint.json',
-        force: false
+        configFile: 'eslintrc.js'
       },
       files: {
         src: [
@@ -449,6 +440,7 @@ module.exports = function (grunt) {
           /* disabled for removed sourcemap reference in file
           'taboverride.min.js': 'taboverride/build/output/taboverride.min.js',
           */
+          'broadcastchannel-polyfill.js': 'broadcastchannel-polyfill/index.js',
           'bootstrap-slider.min.js': 'bootstrap-slider/dist/bootstrap-slider.min.js',
           /* disabled until events are not bound to document only
                        see https://github.com/claviska/jquery-minicolors/issues/192
@@ -498,6 +490,7 @@ module.exports = function (grunt) {
       },
       thirdparty: {
         files: {
+          "<%= paths.core %>Public/JavaScript/Contrib/broadcastchannel-polyfill.js": ["<%= paths.core %>Public/JavaScript/Contrib/broadcastchannel-polyfill.js"],
           "<%= paths.core %>Public/JavaScript/Contrib/require.js": ["<%= paths.core %>Public/JavaScript/Contrib/require.js"],
           "<%= paths.core %>Public/JavaScript/Contrib/nprogress.js": ["<%= paths.core %>Public/JavaScript/Contrib/nprogress.js"],
           "<%= paths.core %>Public/JavaScript/Contrib/jquery-ui/core.js": ["<%= paths.core %>Public/JavaScript/Contrib/jquery-ui/core.js"],
@@ -583,7 +576,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-postcss');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-exec');
-  grunt.loadNpmTasks('grunt-tslint');
+  grunt.loadNpmTasks('grunt-eslint');
   grunt.loadNpmTasks('grunt-stylelint');
   grunt.loadNpmTasks('grunt-lintspaces');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
@@ -603,11 +596,11 @@ module.exports = function (grunt) {
    * call "$ grunt lint"
    *
    * this task does the following things:
-   * - tslint
+   * - eslint
    * - stylelint
    * - lintspaces
    */
-  grunt.registerTask('lint', ['tslint', 'stylelint', 'lintspaces']);
+  grunt.registerTask('lint', ['eslint', 'stylelint', 'lintspaces']);
 
   /**
    * grunt format
@@ -649,11 +642,11 @@ module.exports = function (grunt) {
    * call "$ grunt scripts"
    *
    * this task does the following things:
-   * - 1) Check all TypeScript files (*.ts) with TSLint which are located in sysext/<EXTKEY>/Resources/Private/TypeScript/*.ts
+   * - 1) Check all TypeScript files (*.ts) with ESLint which are located in sysext/<EXTKEY>/Resources/Private/TypeScript/*.ts
    * - 2) Compiles all TypeScript files (*.ts) which are located in sysext/<EXTKEY>/Resources/Private/TypeScript/*.ts
    * - 3) Copy all generated JavaScript and Map files to public folders
    */
-  grunt.registerTask('scripts', ['tsconfig', 'tslint', 'tsclean', 'exec:ts', 'copy:ts_files', 'terser:typescript']);
+  grunt.registerTask('scripts', ['tsconfig', 'eslint', 'tsclean', 'exec:ts', 'copy:ts_files', 'terser:typescript']);
 
   /**
    * grunt tsclean task

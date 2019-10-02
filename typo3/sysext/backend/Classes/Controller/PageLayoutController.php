@@ -482,48 +482,54 @@ class PageLayoutController
             $shortcutMode = (int)$this->pageinfo['shortcut_mode'];
             $pageRepository = GeneralUtility::makeInstance(PageRepository::class);
             $targetPage = [];
+            $message = '';
+            $state = InfoboxViewHelper::STATE_ERROR;
 
-            if ($this->pageinfo['shortcut'] || $shortcutMode) {
+            if ($shortcutMode || $this->pageinfo['shortcut']) {
                 switch ($shortcutMode) {
                     case PageRepository::SHORTCUT_MODE_NONE:
-                        $targetPage = $pageRepository->getPage($this->pageinfo['shortcut']);
+                        $targetPage = $this->getTargetPageIfVisible($pageRepository->getPage($this->pageinfo['shortcut']));
+                        $message .= $targetPage === [] ? $lang->getLL('pageIsMisconfiguredOrNotAccessibleInternalLinkMessage') : '';
                         break;
                     case PageRepository::SHORTCUT_MODE_FIRST_SUBPAGE:
-                        $targetPage = reset($pageRepository->getMenu($this->pageinfo['shortcut'] ?: $this->pageinfo['uid']));
+                        $menuOfPages = $pageRepository->getMenu($this->pageinfo['uid'], '*', 'sorting', 'AND hidden = 0');
+                        $targetPage = reset($menuOfPages) ?: [];
+                        $message .= $targetPage === [] ? $lang->getLL('pageIsMisconfiguredFirstSubpageMessage') : '';
                         break;
                     case PageRepository::SHORTCUT_MODE_PARENT_PAGE:
-                        $targetPage = $pageRepository->getPage($this->pageinfo['pid']);
+                        $targetPage = $this->getTargetPageIfVisible($pageRepository->getPage($this->pageinfo['pid']));
+                        $message .= $targetPage === [] ? $lang->getLL('pageIsMisconfiguredParentPageMessage') : '';
+                        break;
+                    case PageRepository::SHORTCUT_MODE_RANDOM_SUBPAGE:
+                        $possibleTargetPages = $pageRepository->getMenu($this->pageinfo['uid'], '*', 'sorting', 'AND hidden = 0');
+                        if ($possibleTargetPages === []) {
+                            $message .= $lang->getLL('pageIsMisconfiguredOrNotAccessibleRandomInternalLinkMessage');
+                            break;
+                        }
+                        $message = $lang->getLL('pageIsRandomInternalLinkMessage');
+                        $state = InfoboxViewHelper::STATE_INFO;
                         break;
                 }
-
-                $message = '';
-                if ($shortcutMode === PageRepository::SHORTCUT_MODE_RANDOM_SUBPAGE) {
-                    $message .= sprintf($lang->getLL('pageIsRandomInternalLinkMessage'));
-                } else {
+                $message = htmlspecialchars($message);
+                if ($targetPage !== [] && $shortcutMode !== PageRepository::SHORTCUT_MODE_RANDOM_SUBPAGE) {
                     $linkToPid = $this->local_linkThisScript(['id' => $targetPage['uid']]);
                     $path = BackendUtility::getRecordPath($targetPage['uid'], $this->getBackendUser()->getPagePermsClause(Permission::PAGE_SHOW), 1000);
                     $linkedPath = '<a href="' . htmlspecialchars($linkToPid) . '">' . htmlspecialchars($path) . '</a>';
-                    $message .= sprintf($lang->getLL('pageIsInternalLinkMessage'), $linkedPath);
+                    $message .= sprintf(htmlspecialchars($lang->getLL('pageIsInternalLinkMessage')), $linkedPath);
+                    $message .= ' (' . htmlspecialchars($lang->sL(BackendUtility::getLabelFromItemlist('pages', 'shortcut_mode', $shortcutMode))) . ')';
+                    $state = InfoboxViewHelper::STATE_INFO;
                 }
-
-                $message .= ' (' . htmlspecialchars($lang->sL(BackendUtility::getLabelFromItemlist('pages', 'shortcut_mode', $shortcutMode))) . ')';
-
-                $view->assignMultiple([
-                    'title' => $this->pageinfo['title'],
-                    'message' => $message,
-                    'state' => InfoboxViewHelper::STATE_INFO
-                ]);
-                $content .= $view->render();
             } else {
-                if (empty($targetPage) && $shortcutMode !== PageRepository::SHORTCUT_MODE_RANDOM_SUBPAGE) {
-                    $view->assignMultiple([
-                        'title' => $this->pageinfo['title'],
-                        'message' => $lang->getLL('pageIsMisconfiguredInternalLinkMessage'),
-                        'state' => InfoboxViewHelper::STATE_ERROR
-                    ]);
-                    $content .= $view->render();
-                }
+                $message = htmlspecialchars($lang->getLL('pageIsMisconfiguredInternalLinkMessage'));
+                $state = InfoboxViewHelper::STATE_ERROR;
             }
+
+            $view->assignMultiple([
+                'title' => $this->pageinfo['title'],
+                'message' => $message,
+                'state' => $state
+            ]);
+            $content .= $view->render();
         } elseif ($this->pageinfo['doktype'] === PageRepository::DOKTYPE_LINK) {
             if (empty($this->pageinfo['url'])) {
                 $view->assignMultiple([
@@ -700,7 +706,7 @@ class PageLayoutController
 
             // Render the primary module content:
             if ($this->MOD_SETTINGS['function'] == 1 || $this->MOD_SETTINGS['function'] == 2) {
-                $content .= '<form action="' . htmlspecialchars((string)$uriBuilder->buildUriFromRoute($this->moduleName, ['id' => $this->id, 'imagemode' =>  $this->imagemode])) . '" id="PageLayoutController" method="post">';
+                $content .= '<form action="' . htmlspecialchars((string)$uriBuilder->buildUriFromRoute($this->moduleName, ['id' => $this->id, 'imagemode' => $this->imagemode])) . '" id="PageLayoutController" method="post">';
                 // Page title
                 $content .= '<h1 class="t3js-title-inlineedit">' . htmlspecialchars($this->getLocalizedPageTitle()) . '</h1>';
                 // All other listings
@@ -896,8 +902,17 @@ class PageLayoutController
         $lang = $this->getLanguageService();
         // View page
         if (!VersionState::cast($this->pageinfo['t3ver_state'])->equals(VersionState::DELETE_PLACEHOLDER)) {
+            $languageParameter = $this->current_sys_language ? ('&L=' . $this->current_sys_language) : '';
+            $onClick = BackendUtility::viewOnClick(
+                $this->pageinfo['uid'],
+                '',
+                BackendUtility::BEgetRootLine($this->pageinfo['uid']),
+                '',
+                '',
+                $languageParameter
+            );
             $viewButton = $this->buttonBar->makeLinkButton()
-                ->setOnClick(BackendUtility::viewOnClick($this->pageinfo['uid'], '', BackendUtility::BEgetRootLine($this->pageinfo['uid'])))
+                ->setOnClick($onClick)
                 ->setTitle($lang->sL('LLL:EXT:core/Resources/Private/Language/locallang_core.xlf:labels.showPage'))
                 ->setIcon($this->iconFactory->getIcon('actions-view-page', Icon::SIZE_SMALL))
                 ->setHref('#');
@@ -1232,5 +1247,17 @@ class PageLayoutController
             ->fetchColumn(0);
 
         return (bool)$count;
+    }
+
+    /**
+     * Returns the target page if visible
+     *
+     * @param array $targetPage
+     *
+     * @return array
+     */
+    protected function getTargetPageIfVisible(array $targetPage): array
+    {
+        return !(bool)($targetPage['hidden'] ?? false) ? $targetPage : [];
     }
 }

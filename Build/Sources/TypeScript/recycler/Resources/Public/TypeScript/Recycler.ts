@@ -13,6 +13,7 @@
 
 import * as $ from 'jquery';
 import * as NProgress from 'nprogress';
+import 'TYPO3/CMS/Backend/Input/Clearable';
 import Modal = require('TYPO3/CMS/Backend/Modal');
 import Notification = require('TYPO3/CMS/Backend/Notification');
 import Severity = require('TYPO3/CMS/Backend/Severity');
@@ -299,7 +300,7 @@ class Recycler {
       success: (data: any) => {
         const tables: Array<JQuery> = [];
         this.elements.$tableSelector.children().remove();
-        $.each(data, (_, value) => {
+        $.each(data, (_: number, value: Array<string>) => {
           const tableName = value[0];
           const deletedRecords = value[1];
           const tableDescription = value[2] ? value[2] : TYPO3.lang.label_allrecordtypes;

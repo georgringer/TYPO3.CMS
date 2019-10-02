@@ -25,7 +25,6 @@ use TYPO3\CMS\Core\Database\Query\Restriction\DefaultRestrictionContainer;
 use TYPO3\CMS\Core\Database\Query\Restriction\HiddenRestriction;
 use TYPO3\CMS\Core\Domain\Repository\PageRepository;
 use TYPO3\CMS\Core\Package\PackageManager;
-use TYPO3\CMS\Core\Site\Entity\Site;
 use TYPO3\CMS\Core\TimeTracker\TimeTracker;
 use TYPO3\CMS\Core\Utility\ArrayUtility;
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
@@ -295,26 +294,26 @@ class TemplateService
     protected $packageManager;
 
     /**
-     * @var Site|null
+     * @var TypoScriptFrontendController|null
      */
-    protected $site;
+    protected $frontendController;
 
     /**
      * @param Context|null $context
      * @param PackageManager|null $packageManager
-     * @param Site|null $site
+     * @param TypoScriptFrontendController|null $frontendController
      */
-    public function __construct(Context $context = null, PackageManager $packageManager = null, Site $site = null)
+    public function __construct(Context $context = null, PackageManager $packageManager = null, TypoScriptFrontendController $frontendController = null)
     {
         $this->context = $context ?? GeneralUtility::makeInstance(Context::class);
         $this->packageManager = $packageManager ?? GeneralUtility::makeInstance(PackageManager::class);
+        $this->frontendController = $frontendController;
         $this->initializeDatabaseQueryRestrictions();
         if ($this->context->getPropertyFromAspect('visibility', 'includeHiddenContent', false) || $GLOBALS['SIM_ACCESS_TIME'] !== $GLOBALS['ACCESS_TIME']) {
             // Set the simulation flag, if simulation is detected!
             $this->simulationHiddenOrTime = true;
         }
         $this->tt_track = $this->verbose = (bool)$this->context->getPropertyFromAspect('backend.user', 'isLoggedIn', false);
-        $this->site = $site ?? (isset($GLOBALS['TYPO3_REQUEST']) ? $GLOBALS['TYPO3_REQUEST']->getAttribute('site', null) : null);
     }
 
     /**
@@ -1198,13 +1197,6 @@ class TemplateService
     {
         // Add default TS for all code types, if not done already
         if (!$this->isDefaultTypoScriptAdded) {
-            if ($this->site !== null) {
-                $settingsLines = [];
-                foreach (ArrayUtility::flatten($this->site->getSettings()) as $setting => $value) {
-                    $settingsLines[] = $setting . ' = ' . $value;
-                }
-                array_unshift($this->constants, implode("\n", $settingsLines));
-            }
             // adding default setup and constants
             // defaultTypoScript_setup is *very* unlikely to be empty
             // the count of elements in ->constants, ->config and ->templateIncludePaths have to be in sync
@@ -1237,7 +1229,7 @@ class TemplateService
      */
     protected function getTypoScriptFrontendController()
     {
-        return $GLOBALS['TSFE'];
+        return $this->frontendController ?? $GLOBALS['TSFE'];
     }
 
     /**

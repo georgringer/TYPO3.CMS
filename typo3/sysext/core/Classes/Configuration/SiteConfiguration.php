@@ -22,11 +22,8 @@ use TYPO3\CMS\Core\Cache\CacheManager;
 use TYPO3\CMS\Core\Cache\Frontend\FrontendInterface;
 use TYPO3\CMS\Core\Configuration\Loader\YamlFileLoader;
 use TYPO3\CMS\Core\Exception\SiteNotFoundException;
-use TYPO3\CMS\Core\Package\PackageManager;
 use TYPO3\CMS\Core\SingletonInterface;
 use TYPO3\CMS\Core\Site\Entity\Site;
-use TYPO3\CMS\Core\TypoScript\Parser\ConstantConfigurationParser;
-use TYPO3\CMS\Core\TypoScript\Parser\TypoScriptParser;
 use TYPO3\CMS\Core\Utility\ArrayUtility;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
@@ -122,18 +119,17 @@ class SiteConfiguration implements SingletonInterface
     /**
      * Resolve all site objects which have been found in the filesystem.
      *
+     * @param bool $useCache
      * @return Site[]
      */
-    public function resolveAllExistingSites(): array
+    public function resolveAllExistingSites(bool $useCache = true): array
     {
         $sites = [];
-        $siteConfiguration = $this->getAllSiteConfigurationFromFiles();
-        $siteSettings = $this->getAllSiteSettingsFromFiles();
-        $defaultSettings = $this->getDefaultSiteSettings();
+        $siteConfiguration = $this->getAllSiteConfigurationFromFiles($useCache);
         foreach ($siteConfiguration as $identifier => $configuration) {
             $rootPageId = (int)($configuration['rootPageId'] ?? 0);
             if ($rootPageId > 0) {
-                $sites[$identifier] = GeneralUtility::makeInstance(Site::class, $identifier, $rootPageId, $configuration, array_replace_recursive($defaultSettings, $siteSettings[$identifier] ?? []));
+                $sites[$identifier] = GeneralUtility::makeInstance(Site::class, $identifier, $rootPageId, $configuration);
             }
         }
         $this->firstLevelCache = $sites;
@@ -143,58 +139,38 @@ class SiteConfiguration implements SingletonInterface
     /**
      * Read the site configuration from config files.
      *
+     * @param bool $useCache
      * @return array
      * @throws \TYPO3\CMS\Core\Cache\Exception\NoSuchCacheException
      */
-    protected function getAllSiteConfigurationFromFiles(): array
+    protected function getAllSiteConfigurationFromFiles(bool $useCache = true): array
     {
-        return $this->getAllFromConfigFile($this->cacheIdentifier, $this->configFileName) ?? [];
-    }
-
-    /**
-     * Read the site settings from config files.
-     *
-     * @return array
-     * @throws \TYPO3\CMS\Core\Cache\Exception\NoSuchCacheException
-     */
-    protected function getAllSiteSettingsFromFiles(): array
-    {
-        return $this->getAllFromConfigFile($this->cacheIdentifier . '_settings', 'settings.yaml') ?? [];
-    }
-
-    /**
-     * @param string $entryIdentifier
-     * @param string $configFileName
-     * @return array|mixed|string|string[]|null
-     * @throws \TYPO3\CMS\Core\Cache\Exception\NoSuchCacheException
-     */
-    protected function getAllFromConfigFile(string $entryIdentifier, string $configFileName)
-    {
-        if ($siteSettings = $this->getCache()->get($entryIdentifier)) {
+        // Check if the data is already cached
+        if ($useCache && $siteConfiguration = $this->getCache()->get($this->cacheIdentifier)) {
             // Due to the nature of PhpFrontend, the `<?php` and `#` wraps have to be removed
-            $siteSettings = preg_replace('/^<\?php\s*|\s*#$/', '', $siteSettings);
-            $siteSettings = json_decode($siteSettings, true);
+            $siteConfiguration = preg_replace('/^<\?php\s*|\s*#$/', '', $siteConfiguration);
+            $siteConfiguration = json_decode($siteConfiguration, true);
         }
 
         // Nothing in the cache (or no site found)
-        if (empty($siteSettings)) {
+        if (empty($siteConfiguration)) {
             $finder = new Finder();
             try {
-                $finder->files()->depth(0)->name($configFileName)->in($this->configPath . '/*');
+                $finder->files()->depth(0)->name($this->configFileName)->in($this->configPath . '/*');
             } catch (\InvalidArgumentException $e) {
                 // Directory $this->configPath does not exist yet
                 $finder = [];
             }
             $loader = GeneralUtility::makeInstance(YamlFileLoader::class);
-            $siteSettings = [];
+            $siteConfiguration = [];
             foreach ($finder as $fileInfo) {
                 $configuration = $loader->load(GeneralUtility::fixWindowsFilePath((string)$fileInfo));
                 $identifier = basename($fileInfo->getPath());
-                $siteSettings[$identifier] = $configuration;
+                $siteConfiguration[$identifier] = $configuration;
             }
-            $this->getCache()->set($entryIdentifier, json_encode($siteSettings));
+            $this->getCache()->set($this->cacheIdentifier, json_encode($siteConfiguration));
         }
-        return $siteSettings;
+        return $siteConfiguration ?? [];
     }
 
     /**
@@ -286,94 +262,6 @@ class SiteConfiguration implements SingletonInterface
         @unlink($fileName);
         $this->getCache()->remove($this->cacheIdentifier);
         $this->firstLevelCache = null;
-    }
-
-    /**
-     * Builds settings array for display in the constant editor style GUI
-     * used for rendering the edit form
-     *
-     * @internal
-     * @param string $siteIdentifier
-     * @return array
-     * @throws \TYPO3\CMS\Core\Exception\SiteNotFoundException
-     */
-    public function getSettingsForView(string $siteIdentifier): array
-    {
-        $sites = $this->getAllExistingSites();
-        if (!isset($sites[$siteIdentifier])) {
-            throw new SiteNotFoundException('Site configuration named ' . $siteIdentifier . ' not found.', 1568366028);
-        }
-        $configurationParser = GeneralUtility::makeInstance(ConstantConfigurationParser::class);
-        $activePackages = GeneralUtility::makeInstance(PackageManager::class)->getActivePackages();
-        $extensionSettingsRaw = '';
-        foreach ($activePackages as $package) {
-            $file = $package->getPackagePath() . 'Configuration/Site/settings.typoscript';
-            if (!@is_file($file)) {
-                continue;
-            }
-            $extensionSettingsRaw .= file_get_contents($file) . LF;
-        }
-        $settings = $configurationParser->getConfigurationAsValuedArray($extensionSettingsRaw);
-        $oldSettings = ArrayUtility::flatten($sites[$siteIdentifier]->getSettings());
-        foreach ($settings as $key => $value) {
-            $settings[$key]['value'] = $oldSettings[$key];
-        }
-        return $configurationParser->prepareConfigurationForView($settings);
-    }
-
-    /**
-     * Add or update a settings.yaml file
-     *
-     * @param string $siteIdentifier
-     * @param array $settings
-     * @throws \TYPO3\CMS\Core\Cache\Exception\NoSuchCacheException
-     * @throws \TYPO3\CMS\Core\Exception\SiteNotFoundException
-     */
-    public function writeSettings(string $siteIdentifier, array $settings): void
-    {
-        $sites = $this->getAllExistingSites();
-        if (!isset($sites[$siteIdentifier])) {
-            throw new SiteNotFoundException('Site configuration named ' . $siteIdentifier . ' not found.', 1568366037);
-        }
-        $folder = $this->configPath . '/' . $siteIdentifier;
-        $fileName = $folder . '/settings.yaml';
-        $defaultSettings = $this->getDefaultSiteSettings();
-        $newSettings = $defaultSettings;
-        foreach ($settings as $key => $value) {
-            $newSettings = ArrayUtility::setValueByPath($newSettings, $key, $value, '.');
-        }
-        $newModified = array_replace_recursive(
-            self::findRemoved($defaultSettings, $newSettings),
-            self::findModified($defaultSettings, $newSettings)
-        );
-
-        $settings = array_merge_recursive($newModified, array_diff_key($sites[$siteIdentifier]->getSettings(), $newSettings));
-
-        $yamlFileContents = Yaml::dump($settings, 99, 2);
-        GeneralUtility::writeFile($fileName, $yamlFileContents);
-        $this->getCache()->remove($this->cacheIdentifier . '_settings');
-    }
-
-    /**
-     * Get default site settings as array (basic settings loaded from extensions)
-     *
-     * @return array
-     */
-    public function getDefaultSiteSettings(): array
-    {
-        $activePackages = GeneralUtility::makeInstance(PackageManager::class)->getActivePackages();
-        $extensionSettings = [[]];
-        foreach ($activePackages as $package) {
-            $file = $package->getPackagePath() . 'Configuration/Site/settings.typoscript';
-            if (!@is_file($file)) {
-                continue;
-            }
-            $extensionSettingsRaw = file_get_contents($file);
-            $typoScriptParser = GeneralUtility::makeInstance(TypoScriptParser::class);
-            $typoScriptParser->parse($extensionSettingsRaw);
-            $extensionSettings[] = GeneralUtility::removeDotsFromTS($typoScriptParser->setup);
-        }
-        return array_replace_recursive(...$extensionSettings);
     }
 
     /**
