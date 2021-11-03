@@ -589,31 +589,6 @@ In this example a select option is removed for a specific locale.
                    miss: __UNSET
 
 
-.. _concepts-variants-custom-language-providers:
-
-Adding own expression language providers
-----------------------------------------
-
-If you need to extend the expression language with custom functions you
-can extend it. For more information check the official `docs <https://symfony.com/doc/4.1/components/expression_language/extending.html#using-expression-providers>`_.
-
-Register the expression language provider within the form setup and
-provide the functionality you need. Make sure your expression language
-provider implements :php:`Symfony\Component\ExpressionLanguage\ExpressionFunctionProviderInterface`.
-
-.. code-block:: yaml
-
-   TYPO3:
-     CMS:
-       Form:
-         prototypes:
-           standard:
-             conditionContextDefinition:
-               expressionLanguageProvider:
-                 MyCustomExpressionLanguageProvider:
-                   implementationClassName: '\Vendor\MyExtension\CustomExpressionLanguageProvider'
-
-
 .. _concepts-variants-custom-language-variables:
 
 Adding own expression language variables
